@@ -1,0 +1,75 @@
+{
+  "version": "v005 material calibration",
+  "blender_version": "5.2.2 LTS",
+  "reopened": true,
+  "baseline_filename": "海边巨塔城堡_v004_双塔层级窗群.blend",
+  "checkpoint_filename": "海边巨塔城堡_v005_双塔石砌校准.blend",
+  "baseline_sha256": "e23172759e1742f2de0f2d9244629b7e1c0491fd1a6d2b39e1d977f01c15fa58",
+  "checkpoint_sha256": "2de2e160de07f09cd8e23680671d9b8b3827d1fec0a0e2bcfecbc72f322c03ce",
+  "baseline_meshes_checked": 73,
+  "baseline_mesh_data_changed": [],
+  "baseline_materials_checked": 58,
+  "baseline_material_node_graphs_changed": [],
+  "baseline_object_transforms_changed": [],
+  "intentional_visibility_changes": [
+    "V004 | main shaft selective front and east-facing windows",
+    "V004 | west shaft selective front and east-facing windows"
+  ],
+  "baseline_cameras_unchanged": true,
+  "lights_unchanged": true,
+  "world_unchanged": true,
+  "view_transform_and_exposure_unchanged": true,
+  "visible_geometry_identical": true,
+  "object_count": 83,
+  "mesh_count": 73,
+  "material_count": 60,
+  "image_count": 0,
+  "linked_library_count": 0,
+  "embedded_text_count": 0,
+  "render_output_relative": true,
+  "render_filename_stamp_disabled": true,
+  "file_browser_directories_relative": true,
+  "autoexec_enabled": false,
+  "source_commit": "d47f1b01411387056132b12b6c6a0f7a99bdb5ab",
+  "changed_or_added_repository_files_read_back": 44,
+  "readback_byte_equal": true,
+  "archive_sha256": "138ddeb4e6ac6265db2bbf94f851c7437bbf3fee61281d806951c7e0ff11b3ce",
+  "archive_payload_file_count": 36,
+  "archive_restoration_checks_passed": true,
+  "object_level_material_override_checks": [
+    {
+      "source_object": "V004 | main shaft selective front and east-facing windows",
+      "replacement_object": "V005 | main tower calibrated stone surface",
+      "shared_mesh": "V004 | main shaft selective front and east-facing windows mesh",
+      "same_mesh_datablock": true,
+      "same_transform": true,
+      "source_hidden_and_replacement_visible": true,
+      "object_level_override_slots": [
+        {
+          "index": 0,
+          "link": "OBJECT",
+          "material": "V005 | main large ashlar calibrated world units"
+        }
+      ],
+      "shared_mesh_base_materials_unchanged": true
+    },
+    {
+      "source_object": "V004 | west shaft selective front and east-facing windows",
+      "replacement_object": "V005 | west tower calibrated stone surface",
+      "shared_mesh": "V004 | west shaft selective front and east-facing windows mesh",
+      "same_mesh_datablock": true,
+      "same_transform": true,
+      "source_hidden_and_replacement_visible": true,
+      "object_level_override_slots": [
+        {
+          "index": 0,
+          "link": "OBJECT",
+          "material": "V005 | west subdued coarse stone courses"
+        }
+      ],
+      "shared_mesh_base_materials_unchanged": true
+    }
+  ],
+  "new_mesh_datablocks": 0,
+  "selected_candidate": "B"
+}

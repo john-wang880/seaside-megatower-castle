@@ -27,3 +27,9 @@ ZIP保留34项成果和原MANIFEST.json/SHA256SUMS.txt，共36文件。模型字
 模型SHA-256：`2de2e160de07f09cd8e23680671d9b8b3827d1fec0a0e2bcfecbc72f322c03ce`
 
 完整ZIP SHA-256：`138ddeb4e6ac6265db2bbf94f851c7437bbf3fee61281d806951c7e0ff11b3ce`
+
+## 远端恢复验收
+
+固定提交：https://github.com/john-wang880/seaside-megatower-castle/commit/d47f1b01411387056132b12b6c6a0f7a99bdb5ab
+
+44件新增/更新文件逐字节读回一致，完整ZIP恢复和解包校验通过。恢复模型直接确认两件替换对象分别共享原网格，变换一致；两份新材质均仅通过OBJECT级材质槽覆盖，原共享网格的数据级材质和原对象槽位未变。原主体对象隐藏、替换对象可见，可见几何集合与v004一致。 详细证据见 reports/github_restore_validation.json。

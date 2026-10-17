@@ -8,6 +8,10 @@ A highly detailed, beautiful, and monumental seaside castle project.
 
 See [checkpoints/v005](checkpoints/v005/README.md) for full restoration, controlled previews, scripts and technical records. This checkpoint is part of ongoing refinement; earlier versions remain intact.
 
+v005 fixed-commit readback, complete archive restoration and Blender reopening passed. 恢复模型直接确认两件替换对象分别共享原网格，变换一致；两份新材质均仅通过OBJECT级材质槽覆盖，原共享网格的数据级材质和原对象槽位未变。原主体对象隐藏、替换对象可见，可见几何集合与v004一致。
+
+https://github.com/john-wang880/seaside-megatower-castle/commit/d47f1b01411387056132b12b6c6a0f7a99bdb5ab
+
 ## Previous checkpoint: v004
 
 新增14扇真实凹深窗，总数22；主塔正面4/4/2、副塔2/4/2，东侧各仅中段2窗。保持主次层级和大片实墙。 v003原66网格、58材质、对象变换、相机、灯光、世界与曝光不变；7个新/替代网格闭合，14窗真实凹深射线通过；工程重开和可重跑验证通过。
