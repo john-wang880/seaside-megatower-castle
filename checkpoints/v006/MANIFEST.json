@@ -1,0 +1,164 @@
+{
+  "checkpoint": "v006",
+  "status": "Accepted checkpoint; long-term refinement in progress, not final completion.",
+  "project_minimum_end_beijing": "2026-11-01",
+  "blender_version": "5.2.2 LTS",
+  "model_sha256": "a22434b9d7b33f7a73cbafcd96d8d609ef1647893a2b9523544a2aeb94a242d1",
+  "artifact_count": 30,
+  "total_artifact_bytes": 25752584,
+  "before_after_camera_checks_passed": true,
+  "original_v005_sealed_model_unchanged": true,
+  "text_path_scan_matches": 0,
+  "files": [
+    {
+      "path": "previews/v005_before_hero.json",
+      "bytes": 531,
+      "sha256": "e09df60d92599ab27fd6116ba8435ebdb9aabf446c7045b29f18a809543582a3"
+    },
+    {
+      "path": "previews/v005_before_hero.png",
+      "bytes": 622474,
+      "sha256": "1acf7225e9abab1a6f8b245ffbe7e706c0d6118fcad32b471c7b45edfec4247f"
+    },
+    {
+      "path": "previews/v005_before_main_rib.json",
+      "bytes": 540,
+      "sha256": "fc9884d84a7d810c6cbb4c1b66ac1285753b8c2c10ceb3c7677ba7331bcf6a79"
+    },
+    {
+      "path": "previews/v005_before_main_rib.png",
+      "bytes": 1074419,
+      "sha256": "0093e8d13991a97f72f7f3f14290684207c02d86fac278fdebeb0c7f7e76428a"
+    },
+    {
+      "path": "previews/v005_before_west_rib.json",
+      "bytes": 552,
+      "sha256": "8821d61848745a8d07346a78f81df76ca337e8aaa047f8985f7577c05f81d313"
+    },
+    {
+      "path": "previews/v005_before_west_rib.png",
+      "bytes": 1033195,
+      "sha256": "6a926ca78114286d65b44e9f3f78d6937c3cf5f02a70b1a3ca98198e075237f3"
+    },
+    {
+      "path": "previews/v006_hero.json",
+      "bytes": 541,
+      "sha256": "2fb03deb7fb471dd6cb776a9a5dadeeba5f0f74d1450b1c8affa85563d5f90e9"
+    },
+    {
+      "path": "previews/v006_hero.png",
+      "bytes": 623251,
+      "sha256": "c9d042d41bf4dd84ac96a8821b0397553284e20d9ca8dd10b40fe1f5a9e21449"
+    },
+    {
+      "path": "previews/v006_main_rib.json",
+      "bytes": 551,
+      "sha256": "a14fd321e01745fbde23ced2f26a227365bff47113a38c3bed77189a8b9f45c4"
+    },
+    {
+      "path": "previews/v006_main_rib.png",
+      "bytes": 1050988,
+      "sha256": "4a2a1eeb68701bddf8a5feac7889fb32beeb208bafdc7680c2fec328687d5609"
+    },
+    {
+      "path": "previews/v006_west_rib.json",
+      "bytes": 564,
+      "sha256": "7742b98099d3e4632d9af19cb86b8ff71441e1fb45d2296123e1a53f493e69f4"
+    },
+    {
+      "path": "previews/v006_west_rib.png",
+      "bytes": 1037277,
+      "sha256": "334b0344a96f315f315275a84e8c09403e9c49f4bc24d7e42b376e0d640d979d"
+    },
+    {
+      "path": "reports/REBUILD_V006.md",
+      "bytes": 2414,
+      "sha256": "5a00f06cddc1bb17e720e2ba265f00eab997a26f87a771b16c1a4aeb1e4130fc"
+    },
+    {
+      "path": "reports/V006_STAGE_REVIEW.md",
+      "bytes": 3197,
+      "sha256": "4189f328b13341fec798e86792489d177e0466bd2c8de8e9f0d61293680cce31"
+    },
+    {
+      "path": "reports/v005_before_hero_metadata_check.json",
+      "bytes": 351,
+      "sha256": "6cf1cf9ff27eda650a42f04553da028c38b125818b54d7bb5fbaa06b8042dcab"
+    },
+    {
+      "path": "reports/v005_before_main_rib_metadata_check.json",
+      "bytes": 470,
+      "sha256": "330117375eab2ef005c06a92e5d0098d57e7fc832d526d456c09dab3bdada275"
+    },
+    {
+      "path": "reports/v005_before_west_rib_metadata_check.json",
+      "bytes": 470,
+      "sha256": "08ad07525b04efea1a53b45711c1a21be079ff52e823d182b456eb12285dad41"
+    },
+    {
+      "path": "reports/v006_build_validation.json",
+      "bytes": 8649,
+      "sha256": "0af78b5991f3f9a9c6b595cef19c84079c1db72cd27564f1928e6124a1c643ad"
+    },
+    {
+      "path": "reports/v006_delivery_validation.json",
+      "bytes": 1457,
+      "sha256": "cbc07338ff8a3a7f7d161893d2ff41708a9cdd6574e8fe8cca79bdc2db8992e0"
+    },
+    {
+      "path": "reports/v006_hero_metadata_check.json",
+      "bytes": 447,
+      "sha256": "033ce56163a35fc43cc858217f023b406e433a9aedbc7cea50adad2c44bfce0f"
+    },
+    {
+      "path": "reports/v006_main_rib_metadata_check.json",
+      "bytes": 456,
+      "sha256": "05c8cb352191375c4230d8c4658215947a44357169e8ae4434f25cec9ba1d352"
+    },
+    {
+      "path": "reports/v006_repeatability_validation.json",
+      "bytes": 1214,
+      "sha256": "58c769ef1149c844346ca717e821bf19d6e3f43b17fdc5a40ddbda02d0c26d80"
+    },
+    {
+      "path": "reports/v006_sample_geometry_validation.json",
+      "bytes": 2962,
+      "sha256": "2389dad5bb5a6487fa531b6c9e62fc04472208dadfcad196b772b7b3f6fb0f2c"
+    },
+    {
+      "path": "reports/v006_west_rib_metadata_check.json",
+      "bytes": 456,
+      "sha256": "c11f1ac91acbd7357737923789a600afc5e77d1f1a360f57b4ce40cbb62fcb19"
+    },
+    {
+      "path": "scripts/clean_preview_metadata.py",
+      "bytes": 1934,
+      "sha256": "28d1be06e5d8772d26ca95afcc440d25d86e1b116838eaa0c20ed203f9636ed2"
+    },
+    {
+      "path": "scripts/refine_v006.py",
+      "bytes": 10699,
+      "sha256": "b785e6ad8ba63b22d4373d24ade64253efb5e7ba4aa7e169b14fbf9156e09b6c"
+    },
+    {
+      "path": "scripts/render_v006_review.py",
+      "bytes": 2989,
+      "sha256": "61d8709d8adc0acf93e67eae589fa788480f99a75a370a1841c6475a05df1b88"
+    },
+    {
+      "path": "scripts/validate_v006.py",
+      "bytes": 6875,
+      "sha256": "e91f0837c0510ca072d2573073dfe39daebdfaa38d3745a690f066b0f39bc1dd"
+    },
+    {
+      "path": "scripts/validate_v006_sample_geometry.py",
+      "bytes": 3395,
+      "sha256": "bcb500e04c2f7ca6fc1ff99dec9ff4eeb2c84aa9ad75a4927712c509c2a472c7"
+    },
+    {
+      "path": "海边巨塔城堡_v006_局部石肋分块样板.blend",
+      "bytes": 20259266,
+      "sha256": "a22434b9d7b33f7a73cbafcd96d8d609ef1647893a2b9523544a2aeb94a242d1"
+    }
+  ]
+}

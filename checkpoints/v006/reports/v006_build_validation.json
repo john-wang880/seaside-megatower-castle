@@ -1,0 +1,313 @@
+{
+  "version": "v006 two short actual stonework samples",
+  "source_filename": "海边巨塔城堡_v005_双塔石砌校准.blend",
+  "source_sha256": "2de2e160de07f09cd8e23680671d9b8b3827d1fec0a0e2bcfecbc72f322c03ce",
+  "output_filename": "海边巨塔城堡_v006_局部石肋分块样板.blend",
+  "samples": [
+    {
+      "tower": "main",
+      "source_object": "Citadel | carved ivory tracery",
+      "replacement_object": "V006 | main facade with one short jointed rib sample",
+      "source_component_vertices": [
+        7576,
+        7577,
+        7578,
+        7579,
+        7580,
+        7581,
+        7582,
+        7583
+      ],
+      "source_component_bounds": [
+        [
+          44.14,
+          26.5,
+          64.8
+        ],
+        [
+          45.06,
+          27.7,
+          180.0
+        ]
+      ],
+      "original_material": "Citadel • warm carved stone",
+      "sample_stone_material": "V006 | main sampled rib stone without competing fine brick grid",
+      "joint_backing_material": "V006 | main lightly recessed joint backing",
+      "sample_nominal_z_range": [
+        125.62,
+        136.42
+      ],
+      "original_end_tilt_preserved": true,
+      "stones": [
+        {
+          "nominal_z_bottom": 125.62,
+          "nominal_z_top": 127.771,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        {
+          "nominal_z_bottom": 127.789,
+          "nominal_z_top": 129.931,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        {
+          "nominal_z_bottom": 129.94899999999998,
+          "nominal_z_top": 132.091,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        {
+          "nominal_z_bottom": 132.10899999999998,
+          "nominal_z_top": 134.251,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        {
+          "nominal_z_bottom": 134.26899999999998,
+          "nominal_z_top": 136.42,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      ],
+      "joint_width": 0.018,
+      "joint_backing_ray_checks": [
+        {
+          "nominal_z": 127.78,
+          "front_surface_y": 26.5,
+          "actual_joint_backing_y": 26.53499984741211,
+          "backing_recess": 0.034999847412109375,
+          "material_index": 2
+        },
+        {
+          "nominal_z": 129.94,
+          "front_surface_y": 26.5,
+          "actual_joint_backing_y": 26.53499984741211,
+          "backing_recess": 0.034999847412109375,
+          "material_index": 2
+        },
+        {
+          "nominal_z": 132.1,
+          "front_surface_y": 26.5,
+          "actual_joint_backing_y": 26.53499984741211,
+          "backing_recess": 0.034999847412109375,
+          "material_index": 2
+        },
+        {
+          "nominal_z": 134.26,
+          "front_surface_y": 26.5,
+          "actual_joint_backing_y": 26.53499984741211,
+          "backing_recess": 0.034999847412109375,
+          "material_index": 2
+        }
+      ],
+      "stone_front_envelope_ray_checks": [
+        {
+          "z": 126.7,
+          "actual_front_y": 26.5
+        },
+        {
+          "z": 128.86,
+          "actual_front_y": 26.5
+        },
+        {
+          "z": 131.01999999999998,
+          "actual_front_y": 26.5
+        },
+        {
+          "z": 133.18,
+          "actual_front_y": 26.5
+        },
+        {
+          "z": 135.33999999999997,
+          "actual_front_y": 26.5
+        }
+      ],
+      "lower_and_upper_continuations_touch_sample_end_faces": true,
+      "core_overlaps_continuations_each_end": 0.01,
+      "source_topology": {
+        "vertices": 35852,
+        "faces": 26066,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "replacement_topology": {
+        "vertices": 35988,
+        "faces": 26208,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "visible_face_increase": 142
+    },
+    {
+      "tower": "west",
+      "source_object": "Western citadel_West_Sunlit ivory carved stone",
+      "replacement_object": "V006 | west facade with one short jointed rib sample",
+      "source_component_vertices": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "source_component_bounds": [
+        [
+          -126.7134,
+          84.575,
+          78.31952
+        ],
+        [
+          -125.5266,
+          85.625,
+          167.024
+        ]
+      ],
+      "original_material": "West_Sunlit ivory carved stone",
+      "sample_stone_material": "V006 | west sampled rib stone without competing fine brick grid",
+      "joint_backing_material": "V006 | west lightly recessed joint backing",
+      "sample_nominal_z_range": [
+        137.95,
+        147.45
+      ],
+      "original_end_tilt_preserved": true,
+      "stones": [
+        {
+          "nominal_z_bottom": 137.95,
+          "nominal_z_top": 139.841,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        {
+          "nominal_z_bottom": 139.85899999999998,
+          "nominal_z_top": 141.741,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        {
+          "nominal_z_bottom": 141.759,
+          "nominal_z_top": 143.64100000000002,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        {
+          "nominal_z_bottom": 143.659,
+          "nominal_z_top": 145.54100000000003,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        {
+          "nominal_z_bottom": 145.559,
+          "nominal_z_top": 147.45,
+          "bevel": 0.01,
+          "vertices": 24,
+          "faces": 26,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      ],
+      "joint_width": 0.018,
+      "joint_backing_ray_checks": [
+        {
+          "nominal_z": 139.85,
+          "front_surface_y": 84.57499694824219,
+          "actual_joint_backing_y": 84.61000061035156,
+          "backing_recess": 0.035003662109375,
+          "material_index": 2
+        },
+        {
+          "nominal_z": 141.75,
+          "front_surface_y": 84.57499694824219,
+          "actual_joint_backing_y": 84.61000061035156,
+          "backing_recess": 0.035003662109375,
+          "material_index": 2
+        },
+        {
+          "nominal_z": 143.65,
+          "front_surface_y": 84.57499694824219,
+          "actual_joint_backing_y": 84.61000061035156,
+          "backing_recess": 0.035003662109375,
+          "material_index": 2
+        },
+        {
+          "nominal_z": 145.55,
+          "front_surface_y": 84.57499694824219,
+          "actual_joint_backing_y": 84.61000061035156,
+          "backing_recess": 0.035003662109375,
+          "material_index": 2
+        }
+      ],
+      "stone_front_envelope_ray_checks": [
+        {
+          "z": 138.89999999999998,
+          "actual_front_y": 84.57499694824219
+        },
+        {
+          "z": 140.8,
+          "actual_front_y": 84.57499694824219
+        },
+        {
+          "z": 142.7,
+          "actual_front_y": 84.57499694824219
+        },
+        {
+          "z": 144.60000000000002,
+          "actual_front_y": 84.57499694824219
+        },
+        {
+          "z": 146.5,
+          "actual_front_y": 84.57499694824219
+        }
+      ],
+      "lower_and_upper_continuations_touch_sample_end_faces": true,
+      "core_overlaps_continuations_each_end": 0.01,
+      "source_topology": {
+        "vertices": 14240,
+        "faces": 10520,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "replacement_topology": {
+        "vertices": 14376,
+        "faces": 10662,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "visible_face_increase": 142
+    }
+  ],
+  "new_stone_count": 10,
+  "total_visible_face_increase": 284,
+  "lights_world_exposure_unchanged": true,
+  "status": "Awaiting actual near/macro render review; not project completion.",
+  "output_sha256": "a22434b9d7b33f7a73cbafcd96d8d609ef1647893a2b9523544a2aeb94a242d1"
+}

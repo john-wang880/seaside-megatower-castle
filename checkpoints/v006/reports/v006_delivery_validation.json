@@ -1,0 +1,38 @@
+{
+  "version": "v006 rib sample geometry",
+  "blender_version": "5.2.2 LTS",
+  "reopened": true,
+  "baseline_filename": "海边巨塔城堡_v005_双塔石砌校准.blend",
+  "checkpoint_filename": "海边巨塔城堡_v006_局部石肋分块样板.blend",
+  "baseline_sha256": "2de2e160de07f09cd8e23680671d9b8b3827d1fec0a0e2bcfecbc72f322c03ce",
+  "checkpoint_sha256": "a22434b9d7b33f7a73cbafcd96d8d609ef1647893a2b9523544a2aeb94a242d1",
+  "baseline_meshes_checked": 73,
+  "baseline_mesh_data_changed": [],
+  "baseline_materials_checked": 60,
+  "baseline_material_node_graphs_changed": [],
+  "baseline_object_transforms_changed": [],
+  "intentional_visibility_changes": [
+    "Citadel | carved ivory tracery",
+    "Western citadel_West_Sunlit ivory carved stone"
+  ],
+  "baseline_cameras_unchanged": true,
+  "lights_unchanged": true,
+  "world_unchanged": true,
+  "view_transform_and_exposure_unchanged": true,
+  "visible_geometry_identical": false,
+  "object_count": 85,
+  "mesh_count": 75,
+  "material_count": 64,
+  "image_count": 0,
+  "linked_library_count": 0,
+  "embedded_text_count": 0,
+  "render_output_relative": true,
+  "render_filename_stamp_disabled": true,
+  "file_browser_directories_relative": true,
+  "autoexec_enabled": false,
+  "new_render_objects": [
+    "V006 | main facade with one short jointed rib sample",
+    "V006 | west facade with one short jointed rib sample"
+  ],
+  "geometry_change_scope_limited_to_two_sample_replacements": true
+}

@@ -1,0 +1,96 @@
+{
+  "checkpoint_filename": "海边巨塔城堡_v006_局部石肋分块样板.blend",
+  "checkpoint_sha256": "a22434b9d7b33f7a73cbafcd96d8d609ef1647893a2b9523544a2aeb94a242d1",
+  "read_only": true,
+  "samples": [
+    {
+      "tower": "main",
+      "untouched_source_faces_matched_exactly": 26060,
+      "removed_original_component_faces": 6,
+      "new_sample_component_faces": 148,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "joint_width_and_backing_checks": [
+        {
+          "nominal_z": 127.78,
+          "measured_clear_joint_width": 0.01800537109375,
+          "measured_backing_recess": 0.034999847412109375
+        },
+        {
+          "nominal_z": 129.94,
+          "measured_clear_joint_width": 0.01800537109375,
+          "measured_backing_recess": 0.034999847412109375
+        },
+        {
+          "nominal_z": 132.1,
+          "measured_clear_joint_width": 0.0179901123046875,
+          "measured_backing_recess": 0.034999847412109375
+        },
+        {
+          "nominal_z": 134.26,
+          "measured_clear_joint_width": 0.0179901123046875,
+          "measured_backing_recess": 0.034999847412109375
+        }
+      ],
+      "continuation_contact_checks": [
+        {
+          "nominal_z": 125.62,
+          "lower_hit_z": 125.6199951171875,
+          "upper_hit_z": 125.6199951171875,
+          "actual_end_gap": 0.0
+        },
+        {
+          "nominal_z": 136.42,
+          "lower_hit_z": 136.4199981689453,
+          "upper_hit_z": 136.4199981689453,
+          "actual_end_gap": 0.0
+        }
+      ]
+    },
+    {
+      "tower": "west",
+      "untouched_source_faces_matched_exactly": 10514,
+      "removed_original_component_faces": 6,
+      "new_sample_component_faces": 148,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "joint_width_and_backing_checks": [
+        {
+          "nominal_z": 139.85,
+          "measured_clear_joint_width": 0.01800537109375,
+          "measured_backing_recess": 0.035003662109375
+        },
+        {
+          "nominal_z": 141.75,
+          "measured_clear_joint_width": 0.01800537109375,
+          "measured_backing_recess": 0.035003662109375
+        },
+        {
+          "nominal_z": 143.65,
+          "measured_clear_joint_width": 0.0179901123046875,
+          "measured_backing_recess": 0.035003662109375
+        },
+        {
+          "nominal_z": 145.55,
+          "measured_clear_joint_width": 0.0179901123046875,
+          "measured_backing_recess": 0.035003662109375
+        }
+      ],
+      "continuation_contact_checks": [
+        {
+          "nominal_z": 137.95,
+          "lower_hit_z": 137.9497528076172,
+          "upper_hit_z": 137.94976806640625,
+          "actual_end_gap": 1.52587890625e-05
+        },
+        {
+          "nominal_z": 147.45,
+          "lower_hit_z": 147.44976806640625,
+          "upper_hit_z": 147.4497833251953,
+          "actual_end_gap": 1.52587890625e-05
+        }
+      ]
+    }
+  ],
+  "all_checks_passed": true
+}
