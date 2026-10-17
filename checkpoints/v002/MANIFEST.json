@@ -1,0 +1,127 @@
+{
+  "checkpoint": "v002",
+  "status": "Locally validated checkpoint; first structural art pass",
+  "file_count": 24,
+  "files": [
+    {
+      "path": "海边巨塔城堡_v002_塔冠与岩岸.blend",
+      "bytes": 19071600,
+      "sha256": "efbc062150f3621b829ba95970c87e68f7dbc063e5d6289958a73c20d9299607"
+    },
+    {
+      "path": "scripts/refine_v002.py",
+      "bytes": 25524,
+      "sha256": "3a5aefc3b026c215871c15deec3bff2e1a1aafce063595d53c0d163761cf90b5"
+    },
+    {
+      "path": "scripts/render_checkpoint.py",
+      "bytes": 4064,
+      "sha256": "0bee1658be653f37ba008624a2485e49e1ad999a0f1287d66dcf238fa25973bd"
+    },
+    {
+      "path": "scripts/clean_preview_metadata.py",
+      "bytes": 1934,
+      "sha256": "28d1be06e5d8772d26ca95afcc440d25d86e1b116838eaa0c20ed203f9636ed2"
+    },
+    {
+      "path": "scripts/validate_checkpoint.py",
+      "bytes": 5919,
+      "sha256": "f8fa6fa20c1fba41d4e17da7ad2974ede2b67fde1f7cf9a47c78317f268c210c"
+    },
+    {
+      "path": "reports/V002_STAGE_REVIEW.md",
+      "bytes": 6357,
+      "sha256": "bb0e042ec075d107b95810ddd36817c7669cc2e0feb01a548a829e15ff835d64"
+    },
+    {
+      "path": "reports/V003_PROPOSAL.md",
+      "bytes": 2077,
+      "sha256": "e6e68b52f697ebd98c1ec40ac87e9bde67b2c8e9f86c509bf014dd9f06a653d2"
+    },
+    {
+      "path": "reports/v002_build_validation.json",
+      "bytes": 2167,
+      "sha256": "3d4a9edc1559f1d420fee46f2c91b853736c05747d6640927c5a8ef7d1eaf26b"
+    },
+    {
+      "path": "reports/v002_delivery_validation.json",
+      "bytes": 1123,
+      "sha256": "9e6809a43ec46bb40b45a582686e9548c26720ef38bbf3ca0cc198cd8c6ffcf8"
+    },
+    {
+      "path": "previews/v001_aerial_review.png",
+      "bytes": 713958,
+      "sha256": "ba00a47f9422ede94268137c7cfd7ff3c5c61201a63872e6416f9cc7a7591fd8"
+    },
+    {
+      "path": "previews/v001_hero_review.png",
+      "bytes": 606015,
+      "sha256": "30ee3691277c64085b1ad996c01295551893013fffe67318463701181b6469be"
+    },
+    {
+      "path": "previews/v001_bridge_review.png",
+      "bytes": 819159,
+      "sha256": "3761797ad7d21cfae6df5027b27a5eef6d9a32f9be8f0c34b54278c2e082bbd2"
+    },
+    {
+      "path": "previews/v002_hero.png",
+      "bytes": 617638,
+      "sha256": "345221e3bc443738a5d2950571278ac9b1448e63455027648cf945ccea31e3fe"
+    },
+    {
+      "path": "previews/v002_aerial.png",
+      "bytes": 722417,
+      "sha256": "10c06c4c1e082da86defaaefda4ddfa21e3b694334c9a3b517418b05e26529cd"
+    },
+    {
+      "path": "previews/v002_aerial_crown_detail.png",
+      "bytes": 593758,
+      "sha256": "31fc4637242c6aaee64f117c1d0de7a8d8f365bbd80ce98070a556ce93c7cc45"
+    },
+    {
+      "path": "previews/v002_hero.json",
+      "bytes": 512,
+      "sha256": "9e3ac9823ec2c7235d15e5fb29abbe4a8bd92a65e8e29abfb7667174053e8b0a"
+    },
+    {
+      "path": "previews/v002_aerial.json",
+      "bytes": 519,
+      "sha256": "c22c164f5745e88b8299474857cf95c8c2e0c41988862c4be376fda07fd3dd5a"
+    },
+    {
+      "path": "previews/v002_aerial_crown_detail.json",
+      "bytes": 519,
+      "sha256": "4a7906d15288bd46d1286e1a3212fd056a8711f38cc96537e9033a942958af7c"
+    },
+    {
+      "path": "reports/v001_aerial_metadata_check.json",
+      "bytes": 492,
+      "sha256": "0c637787135b0f81be1c16c4a03f1b59810ab9914b6758335fc6b1c597c39b94"
+    },
+    {
+      "path": "reports/v001_bridge_metadata_check.json",
+      "bytes": 492,
+      "sha256": "4556896843b77af1cef5a6b7111313667acb19d937f7e9d19944b14d6c883389"
+    },
+    {
+      "path": "reports/v001_hero_metadata_check.json",
+      "bytes": 492,
+      "sha256": "3691de38f270059b8813065d370f96891024350f533da26e2116d0f9c8c351fb"
+    },
+    {
+      "path": "reports/v002_aerial_metadata_check.json",
+      "bytes": 451,
+      "sha256": "ef6d21149038405c3130bd1ee07c74465b402f9d1f0f8742d7e98b88cd91c3ce"
+    },
+    {
+      "path": "reports/v002_crown_metadata_check.json",
+      "bytes": 477,
+      "sha256": "53aa698350b73c12a444b1d49b27bbac098fb2f4d2da50d127f4dda6e68740ed"
+    },
+    {
+      "path": "reports/v002_hero_metadata_check.json",
+      "bytes": 447,
+      "sha256": "7f1bba33dd1b81dc4f6ec7b96c614aa1f00f99f1865fbd67acfecc0bc9c527d0"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": "v002",
+  "source_filename": "海边巨塔城堡_v001_净化基线.blend",
+  "output_filename": "海边巨塔城堡_v002_塔冠与岩岸.blend",
+  "source_sha256": "09627b876322cd515b6d2fa73015ff916f8b0f483e8a382f51bd5c95c5382b79",
+  "autoexec_enabled": false,
+  "new_collection": "REFINEMENT | v002 crowns and solid coast",
+  "changes": [
+    "Main stepped masonry belfry, short-ridge hipped slate roof, four lower corner pinnacles",
+    "Lower western octagonal lantern and faceted cap; no copied corner pinnacles",
+    "Western front shoreline gently reshaped into shallow coves; interior terrain retained; closed rock shore extends below sea",
+    "Dedicated darker wet tidal slate; full coastal skyline camera"
+  ],
+  "main_crown_top": 212.7,
+  "western_crown_top": 188.0,
+  "western_original_open_boundary_edges": 256,
+  "western_solid_hull": {
+    "vertices": 17666,
+    "faces": 35328,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume": 2367353.815388823
+  },
+  "interior_terrain_top_preserved": true,
+  "front_shoreline_vertices_reshaped": 159,
+  "nearshore_grass_faces_conformed": 0,
+  "closed_hull_normals_outward": true,
+  "original_terrain_object_retained_hidden": true,
+  "added_architecture_objects": [
+    {
+      "name": "V002 | main crown masonry and terraces",
+      "vertices": 3016,
+      "faces": 2050
+    },
+    {
+      "name": "V002 | main crown slate and roof seams",
+      "vertices": 166,
+      "faces": 105
+    },
+    {
+      "name": "V002 | main roof terrace parapet",
+      "vertices": 352,
+      "faces": 264
+    },
+    {
+      "name": "V002 | western octagonal lantern masonry",
+      "vertices": 2032,
+      "faces": 1366
+    },
+    {
+      "name": "V002 | western lantern low slate cap",
+      "vertices": 160,
+      "faces": 100
+    }
+  ],
+  "all_original_cameras_retained": true,
+  "images": 0,
+  "libraries": 0,
+  "texts": 0,
+  "notes": [
+    "Early structural art pass, not final detail or project completion.",
+    "Material/light/weather refinements and multi-view high-resolution checks remain."
+  ],
+  "output_sha256": "efbc062150f3621b829ba95970c87e68f7dbc063e5d6289958a73c20d9299607"
+}

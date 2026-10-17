@@ -2,6 +2,10 @@
 
 A highly detailed, beautiful, and monumental seaside castle project.
 
+## Latest checkpoint: v002
+
+The first structural art pass adds differentiated tower crowns and a closed, reshaped western shore. The baseline remains preserved. Open [checkpoints/v002](checkpoints/v002/README.md) for restoration instructions, reviewed previews, rerunnable scripts, and the stage review. v003 is a proposal, not yet implemented.
+
 ## Restore the editable baseline
 
 The verified Blender baseline is preserved inside a ZIP archive. Repository copies of the ZIP are split into two parts to stay within the upload interface's request-size limit. No project detail is removed by splitting.
