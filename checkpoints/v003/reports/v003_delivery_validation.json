@@ -1,0 +1,33 @@
+{
+  "version": "v003 sample",
+  "blender_version": "5.2.2 LTS",
+  "reopened": true,
+  "baseline_filename": "海边巨塔城堡_v002_塔冠与岩岸.blend",
+  "checkpoint_filename": "海边巨塔城堡_v003_双塔样板窗洞.blend",
+  "baseline_sha256": "efbc062150f3621b829ba95970c87e68f7dbc063e5d6289958a73c20d9299607",
+  "checkpoint_sha256": "37329013c72ba07e7434b67e6963dbab62eb61bb4b7ec97db0f20594ce488cf9",
+  "baseline_meshes_checked": 59,
+  "baseline_mesh_data_changed": [],
+  "baseline_materials_checked": 58,
+  "baseline_material_node_graphs_changed": [],
+  "baseline_object_transforms_changed": [],
+  "intentional_visibility_changes": [
+    "Citadel | monumental shadowed tower",
+    "Western citadel_West_Ancient monolith",
+    "Western citadel_West_Deep architectural recess"
+  ],
+  "baseline_cameras_unchanged": true,
+  "lights_unchanged": true,
+  "world_unchanged": true,
+  "view_transform_and_exposure_unchanged": true,
+  "object_count": 74,
+  "mesh_count": 66,
+  "material_count": 58,
+  "image_count": 0,
+  "linked_library_count": 0,
+  "embedded_text_count": 0,
+  "render_output_relative": true,
+  "render_filename_stamp_disabled": true,
+  "file_browser_directories_relative": true,
+  "autoexec_enabled": false
+}

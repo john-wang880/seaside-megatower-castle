@@ -2,7 +2,11 @@
 
 A highly detailed, beautiful, and monumental seaside castle project.
 
-## Latest checkpoint: v002
+## Latest checkpoint: v003
+
+The dual-tower sample adds eight genuinely recessed pointed-arch windows with secondary divisions and recessed tracery, while preserving the v002 base geometry, materials and lighting. This is a local sample, not a completed tower-wide refinement. See [checkpoints/v003](checkpoints/v003/README.md) for source restoration, six controlled before/after previews, rerunnable scripts and review reports. Selective v004 expansion remains future work.
+
+## Previous checkpoint: v002
 
 The first structural art pass adds differentiated tower crowns and a closed, reshaped western shore. The baseline remains preserved. Full fixed-commit readback, ZIP restoration, Blender reopening, baseline-preservation checks, and closed-shore topology checks passed.
 

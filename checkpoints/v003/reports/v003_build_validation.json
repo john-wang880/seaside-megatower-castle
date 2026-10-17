@@ -1,0 +1,238 @@
+{
+  "version": "v003 sample pass",
+  "source_filename": "海边巨塔城堡_v002_塔冠与岩岸.blend",
+  "source_sha256": "efbc062150f3621b829ba95970c87e68f7dbc063e5d6289958a73c20d9299607",
+  "output_filename": "海边巨塔城堡_v003_双塔样板窗洞.blend",
+  "scope": "Main front central panel z124.45–162.78; west front middle band z104.65–136.65; no expansion yet",
+  "visual_revision": "Secondary ribs extended into existing floor cornices, with isolated end caps removed after actual preview critique",
+  "window_count": 8,
+  "windows": [
+    {
+      "tower": "main",
+      "x": 32.5,
+      "width": 3.55,
+      "bottom": 129.4,
+      "shoulder": 135.7,
+      "apex": 138.3,
+      "front": 28.8,
+      "back": 31.05
+    },
+    {
+      "tower": "main",
+      "x": 32.5,
+      "width": 3.55,
+      "bottom": 143.2,
+      "shoulder": 150.1,
+      "apex": 152.7,
+      "front": 28.8,
+      "back": 31.05
+    },
+    {
+      "tower": "main",
+      "x": 38.1,
+      "width": 3.55,
+      "bottom": 129.4,
+      "shoulder": 135.7,
+      "apex": 138.3,
+      "front": 28.8,
+      "back": 31.05
+    },
+    {
+      "tower": "main",
+      "x": 38.1,
+      "width": 3.55,
+      "bottom": 143.2,
+      "shoulder": 150.1,
+      "apex": 152.7,
+      "front": 28.8,
+      "back": 31.05
+    },
+    {
+      "tower": "west",
+      "x": -137.0,
+      "width": 3.0,
+      "bottom": 108.2,
+      "shoulder": 114.4,
+      "apex": 116.8,
+      "front": 86.0,
+      "back": 88.2
+    },
+    {
+      "tower": "west",
+      "x": -137.0,
+      "width": 3.0,
+      "bottom": 122.4,
+      "shoulder": 128.8,
+      "apex": 131.2,
+      "front": 86.0,
+      "back": 88.2
+    },
+    {
+      "tower": "west",
+      "x": -128.9,
+      "width": 3.0,
+      "bottom": 108.2,
+      "shoulder": 114.4,
+      "apex": 116.8,
+      "front": 86.0,
+      "back": 88.2
+    },
+    {
+      "tower": "west",
+      "x": -128.9,
+      "width": 3.0,
+      "bottom": 122.4,
+      "shoulder": 128.8,
+      "apex": 131.2,
+      "front": 86.0,
+      "back": 88.2
+    }
+  ],
+  "true_void_ray_checks": [
+    {
+      "tower": "main",
+      "x": 32.5,
+      "bottom": 129.4,
+      "actual_wall_recess_depth": 2.25,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "main",
+      "x": 32.5,
+      "bottom": 143.2,
+      "actual_wall_recess_depth": 2.25,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "main",
+      "x": 38.1,
+      "bottom": 129.4,
+      "actual_wall_recess_depth": 2.25,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "main",
+      "x": 38.1,
+      "bottom": 143.2,
+      "actual_wall_recess_depth": 2.25,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "west",
+      "x": -137.0,
+      "bottom": 108.2,
+      "actual_wall_recess_depth": 2.2,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "west",
+      "x": -137.0,
+      "bottom": 122.4,
+      "actual_wall_recess_depth": 2.2,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "west",
+      "x": -128.9,
+      "bottom": 108.2,
+      "actual_wall_recess_depth": 2.2,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "west",
+      "x": -128.9,
+      "bottom": 122.4,
+      "actual_wall_recess_depth": 2.2,
+      "backing_wall_hit": true
+    }
+  ],
+  "secondary_rib_actual_surface_contact_checks": [
+    {
+      "tower": "main",
+      "end": "lower",
+      "rib_endpoint_z": 124.45,
+      "actual_cornice_surface_z": 124.5,
+      "embedded_contact_depth": 0.05
+    },
+    {
+      "tower": "main",
+      "end": "upper",
+      "rib_endpoint_z": 162.78,
+      "actual_cornice_surface_z": 162.72,
+      "embedded_contact_depth": 0.06
+    },
+    {
+      "tower": "west",
+      "end": "lower",
+      "rib_endpoint_z": 104.65,
+      "actual_cornice_surface_z": 104.76909,
+      "embedded_contact_depth": 0.11909
+    },
+    {
+      "tower": "west",
+      "end": "upper",
+      "rib_endpoint_z": 136.65,
+      "actual_cornice_surface_z": 136.52931,
+      "embedded_contact_depth": 0.12069
+    }
+  ],
+  "source_objects_retained_hidden": [
+    "Citadel | monumental shadowed tower",
+    "Western citadel_West_Ancient monolith",
+    "Western citadel_West_Deep architectural recess"
+  ],
+  "replacement_meshes": {
+    "V003 | main shaft with four genuine recessed lancets": {
+      "vertices": 346,
+      "faces": 217,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | western monolith with four genuine recessed lancets": {
+      "vertices": 204,
+      "faces": 109,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | western existing recesses opened at sample windows": {
+      "vertices": 1330,
+      "faces": 751,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "added_objects": {
+    "V003 | two facade samples stone reveals and restrained frames": {
+      "vertices": 1472,
+      "faces": 1472,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | two facade samples recessed mullions and tracery": {
+      "vertices": 2336,
+      "faces": 2304,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | two facade samples deep muted glazing": {
+      "vertices": 368,
+      "faces": 200,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | two facade samples secondary structural divisions": {
+      "vertices": 304,
+      "faces": 228,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "lighting_world_exposure_changed": false,
+  "tower_heights_and_outer_primary_ribs_changed": false,
+  "images": 0,
+  "libraries": 0,
+  "texts": 0,
+  "autoexec_enabled": false,
+  "status": "Sample geometry awaiting same-camera visual review; not whole-tower completion.",
+  "output_sha256": "37329013c72ba07e7434b67e6963dbab62eb61bb4b7ec97db0f20594ce488cf9"
+}
