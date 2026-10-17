@@ -27,3 +27,9 @@ ZIP保留30项成果和原MANIFEST.json/SHA256SUMS.txt，共32文件。模型字
 模型SHA-256：`a22434b9d7b33f7a73cbafcd96d8d609ef1647893a2b9523544a2aeb94a242d1`
 
 完整ZIP SHA-256：`e139578ff5d0e129f13f8b876e61485589999430f1ea3156d4f0eb4ed0d52c94`
+
+## 远端恢复验收
+
+固定提交：https://github.com/john-wang880/seaside-megatower-castle/commit/bd426940a6b27a633f9bcb1783531c04b4bc35c8
+
+40件新增/更新文件逐字节读回一致，完整ZIP恢复和解包校验通过。对远端恢复模型重新运行局部几何验收：两件原合并对象除各目标6面之外，共36,574原面按顶点与材质逐面精确保留；8道净缝约0.018且背衬内退约0.035，4处上下接触误差小于0.0001；两件替代网格均零开放边、零非流形边。 详细证据见 reports/github_restore_validation.json。

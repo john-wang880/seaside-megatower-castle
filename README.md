@@ -8,6 +8,10 @@ A highly detailed, beautiful, and monumental seaside castle project.
 
 See [checkpoints/v006](checkpoints/v006/README.md) for full restoration, controlled previews, scripts and technical records. This checkpoint is part of ongoing refinement; earlier versions remain intact.
 
+v006 fixed-commit readback, complete archive restoration and Blender reopening passed. 对远端恢复模型重新运行局部几何验收：两件原合并对象除各目标6面之外，共36,574原面按顶点与材质逐面精确保留；8道净缝约0.018且背衬内退约0.035，4处上下接触误差小于0.0001；两件替代网格均零开放边、零非流形边。
+
+https://github.com/john-wang880/seaside-megatower-castle/commit/bd426940a6b27a633f9bcb1783531c04b4bc35c8
+
 ## Previous checkpoint: v005
 
 仅封存已接受的B：保留两塔原宏观色域，以主塔约±3.5%、副塔约±2.4%的克制块色校准世界尺度石砌、凹灰缝与粗糙度。A因均匀新砖感被舍弃，不在本包。 原73网格、58材质节点图、对象变换、相机、灯光、世界与曝光保持，可见几何集合一致；只新增2个共享原网格对象和2份对象级覆盖材质，共83对象、73网格、60材质。四组同机位实渲、工程重开和自身重跑验证通过。

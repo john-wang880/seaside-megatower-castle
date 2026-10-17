@@ -1,0 +1,141 @@
+{
+  "version": "v006 rib sample geometry",
+  "blender_version": "5.2.2 LTS",
+  "reopened": true,
+  "baseline_filename": "海边巨塔城堡_v005_双塔石砌校准.blend",
+  "checkpoint_filename": "海边巨塔城堡_v006_局部石肋分块样板.blend",
+  "baseline_sha256": "2de2e160de07f09cd8e23680671d9b8b3827d1fec0a0e2bcfecbc72f322c03ce",
+  "checkpoint_sha256": "a22434b9d7b33f7a73cbafcd96d8d609ef1647893a2b9523544a2aeb94a242d1",
+  "baseline_meshes_checked": 73,
+  "baseline_mesh_data_changed": [],
+  "baseline_materials_checked": 60,
+  "baseline_material_node_graphs_changed": [],
+  "baseline_object_transforms_changed": [],
+  "intentional_visibility_changes": [
+    "Citadel | carved ivory tracery",
+    "Western citadel_West_Sunlit ivory carved stone"
+  ],
+  "baseline_cameras_unchanged": true,
+  "lights_unchanged": true,
+  "world_unchanged": true,
+  "view_transform_and_exposure_unchanged": true,
+  "visible_geometry_identical": false,
+  "object_count": 85,
+  "mesh_count": 75,
+  "material_count": 64,
+  "image_count": 0,
+  "linked_library_count": 0,
+  "embedded_text_count": 0,
+  "render_output_relative": true,
+  "render_filename_stamp_disabled": true,
+  "file_browser_directories_relative": true,
+  "autoexec_enabled": false,
+  "new_render_objects": [
+    "V006 | main facade with one short jointed rib sample",
+    "V006 | west facade with one short jointed rib sample"
+  ],
+  "geometry_change_scope_limited_to_two_sample_replacements": true,
+  "source_commit": "bd426940a6b27a633f9bcb1783531c04b4bc35c8",
+  "readback_byte_equal": true,
+  "changed_or_added_repository_files_read_back": 40,
+  "archive_restoration_checks_passed": true,
+  "archive_sha256": "e139578ff5d0e129f13f8b876e61485589999430f1ea3156d4f0eb4ed0d52c94",
+  "restored_payload_file_count": 32,
+  "sample_geometry_revalidation": {
+    "checkpoint_filename": "海边巨塔城堡_v006_局部石肋分块样板.blend",
+    "checkpoint_sha256": "a22434b9d7b33f7a73cbafcd96d8d609ef1647893a2b9523544a2aeb94a242d1",
+    "read_only": true,
+    "samples": [
+      {
+        "tower": "main",
+        "untouched_source_faces_matched_exactly": 26060,
+        "removed_original_component_faces": 6,
+        "new_sample_component_faces": 148,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "joint_width_and_backing_checks": [
+          {
+            "nominal_z": 127.78,
+            "measured_clear_joint_width": 0.01800537109375,
+            "measured_backing_recess": 0.034999847412109375
+          },
+          {
+            "nominal_z": 129.94,
+            "measured_clear_joint_width": 0.01800537109375,
+            "measured_backing_recess": 0.034999847412109375
+          },
+          {
+            "nominal_z": 132.1,
+            "measured_clear_joint_width": 0.0179901123046875,
+            "measured_backing_recess": 0.034999847412109375
+          },
+          {
+            "nominal_z": 134.26,
+            "measured_clear_joint_width": 0.0179901123046875,
+            "measured_backing_recess": 0.034999847412109375
+          }
+        ],
+        "continuation_contact_checks": [
+          {
+            "nominal_z": 125.62,
+            "lower_hit_z": 125.6199951171875,
+            "upper_hit_z": 125.6199951171875,
+            "actual_end_gap": 0.0
+          },
+          {
+            "nominal_z": 136.42,
+            "lower_hit_z": 136.4199981689453,
+            "upper_hit_z": 136.4199981689453,
+            "actual_end_gap": 0.0
+          }
+        ]
+      },
+      {
+        "tower": "west",
+        "untouched_source_faces_matched_exactly": 10514,
+        "removed_original_component_faces": 6,
+        "new_sample_component_faces": 148,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "joint_width_and_backing_checks": [
+          {
+            "nominal_z": 139.85,
+            "measured_clear_joint_width": 0.01800537109375,
+            "measured_backing_recess": 0.035003662109375
+          },
+          {
+            "nominal_z": 141.75,
+            "measured_clear_joint_width": 0.01800537109375,
+            "measured_backing_recess": 0.035003662109375
+          },
+          {
+            "nominal_z": 143.65,
+            "measured_clear_joint_width": 0.0179901123046875,
+            "measured_backing_recess": 0.035003662109375
+          },
+          {
+            "nominal_z": 145.55,
+            "measured_clear_joint_width": 0.0179901123046875,
+            "measured_backing_recess": 0.035003662109375
+          }
+        ],
+        "continuation_contact_checks": [
+          {
+            "nominal_z": 137.95,
+            "lower_hit_z": 137.9497528076172,
+            "upper_hit_z": 137.94976806640625,
+            "actual_end_gap": 1.52587890625e-05
+          },
+          {
+            "nominal_z": 147.45,
+            "lower_hit_z": 147.44976806640625,
+            "upper_hit_z": 147.4497833251953,
+            "actual_end_gap": 1.52587890625e-05
+          }
+        ]
+      }
+    ],
+    "all_checks_passed": true
+  },
+  "project_complete": false
+}
