@@ -39,4 +39,10 @@ Keep scripts and documentation in Git. Save significant scene checkpoints and re
 
 ## Publication verification
 
-The initial README write and readback succeeded on 2026-10-17 at 16:12 UTC. The source archive is being published and verified; current results belong in the root task log.
+The complete baseline backup was committed and independently downloaded again from its fixed commit. All nine repository files matched the staged files byte for byte. Both archive parts, the reconstructed ZIP, and every extracted payload file passed SHA-256 verification. The restored Blender project reopened successfully in Blender 5.2.2 LTS with 60 objects, 53 meshes, and 54 materials.
+
+Verified source checkpoint: https://github.com/john-wang880/seaside-megatower-castle/commit/c934a844fe8599bbee859f3588da7481be932d6f
+
+Archive SHA-256: `64a394e5fd9e610002602be56f867acf872a8bb23ad590c1fa87496b6d71ca91`
+
+The current root task log and checksums include this verification record. The archive itself retains its original packaging-time documents. No artistic edits are included in this baseline.
