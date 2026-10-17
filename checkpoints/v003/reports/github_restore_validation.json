@@ -1,0 +1,149 @@
+{
+  "version": "v003 sample",
+  "blender_version": "5.2.2 LTS",
+  "reopened": true,
+  "baseline_filename": "海边巨塔城堡_v002_塔冠与岩岸.blend",
+  "checkpoint_filename": "海边巨塔城堡_v003_双塔样板窗洞.blend",
+  "baseline_sha256": "efbc062150f3621b829ba95970c87e68f7dbc063e5d6289958a73c20d9299607",
+  "checkpoint_sha256": "37329013c72ba07e7434b67e6963dbab62eb61bb4b7ec97db0f20594ce488cf9",
+  "baseline_meshes_checked": 59,
+  "baseline_mesh_data_changed": [],
+  "baseline_materials_checked": 58,
+  "baseline_material_node_graphs_changed": [],
+  "baseline_object_transforms_changed": [],
+  "intentional_visibility_changes": [
+    "Citadel | monumental shadowed tower",
+    "Western citadel_West_Ancient monolith",
+    "Western citadel_West_Deep architectural recess"
+  ],
+  "baseline_cameras_unchanged": true,
+  "lights_unchanged": true,
+  "world_unchanged": true,
+  "view_transform_and_exposure_unchanged": true,
+  "object_count": 74,
+  "mesh_count": 66,
+  "material_count": 58,
+  "image_count": 0,
+  "linked_library_count": 0,
+  "embedded_text_count": 0,
+  "render_output_relative": true,
+  "render_filename_stamp_disabled": true,
+  "file_browser_directories_relative": true,
+  "autoexec_enabled": false,
+  "source_commit": "235cf9e35ae7bfd3611062cc8197823d02cb4fab",
+  "changed_or_added_repository_files_read_back": 38,
+  "readback_byte_equal": true,
+  "archive_sha256": "76696ef3d7e8042241b7806288d997ee8795ee533053ac29778f79c6f0e7bb9f",
+  "archive_payload_file_count": 30,
+  "archive_restoration_checks_passed": true,
+  "replacement_and_added_mesh_topology": {
+    "V003 | main shaft with four genuine recessed lancets": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | western monolith with four genuine recessed lancets": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | western existing recesses opened at sample windows": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | two facade samples stone reveals and restrained frames": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | two facade samples recessed mullions and tracery": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | two facade samples deep muted glazing": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V003 | two facade samples secondary structural divisions": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "true_void_ray_checks": [
+    {
+      "tower": "main",
+      "x": 32.5,
+      "bottom": 129.4,
+      "actual_wall_recess_depth": 2.25,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "main",
+      "x": 32.5,
+      "bottom": 143.2,
+      "actual_wall_recess_depth": 2.25,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "main",
+      "x": 38.1,
+      "bottom": 129.4,
+      "actual_wall_recess_depth": 2.25,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "main",
+      "x": 38.1,
+      "bottom": 143.2,
+      "actual_wall_recess_depth": 2.25,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "west",
+      "x": -137.0,
+      "bottom": 108.2,
+      "actual_wall_recess_depth": 2.2,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "west",
+      "x": -137.0,
+      "bottom": 122.4,
+      "actual_wall_recess_depth": 2.2,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "west",
+      "x": -128.9,
+      "bottom": 108.2,
+      "actual_wall_recess_depth": 2.2,
+      "backing_wall_hit": true
+    },
+    {
+      "tower": "west",
+      "x": -128.9,
+      "bottom": 122.4,
+      "actual_wall_recess_depth": 2.2,
+      "backing_wall_hit": true
+    }
+  ],
+  "secondary_rib_contact_checks": [
+    {
+      "tower": "main",
+      "end": "lower",
+      "embedded_contact_depth": 0.05
+    },
+    {
+      "tower": "main",
+      "end": "upper",
+      "embedded_contact_depth": 0.06
+    },
+    {
+      "tower": "west",
+      "end": "lower",
+      "embedded_contact_depth": 0.11909
+    },
+    {
+      "tower": "west",
+      "end": "upper",
+      "embedded_contact_depth": 0.12069
+    }
+  ]
+}

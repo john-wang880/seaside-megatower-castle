@@ -26,3 +26,9 @@ ZIP保存28项封存成果及原MANIFEST.json/SHA256SUMS.txt，共30文件。模
 模型SHA-256：`37329013c72ba07e7434b67e6963dbab62eb61bb4b7ec97db0f20594ce488cf9`
 
 完整ZIP SHA-256：`76696ef3d7e8042241b7806288d997ee8795ee533053ac29778f79c6f0e7bb9f`
+
+## 远端恢复验收
+
+固定提交：https://github.com/john-wang880/seaside-megatower-castle/commit/235cf9e35ae7bfd3611062cc8197823d02cb4fab
+
+38件新增/更新仓库文件逐字节读回一致，三片ZIP恢复及解包载荷校验通过。远端恢复模型重新通过Blender基线保留核验，7网格闭合、8窗真实凹深射线、4处次肋承托接触复核通过。详细证据见 reports/github_restore_validation.json。
