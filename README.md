@@ -4,7 +4,11 @@ A highly detailed, beautiful, and monumental seaside castle project.
 
 ## Latest checkpoint: v002
 
-The first structural art pass adds differentiated tower crowns and a closed, reshaped western shore. The baseline remains preserved. Open [checkpoints/v002](checkpoints/v002/README.md) for restoration instructions, reviewed previews, rerunnable scripts, and the stage review. v003 is a proposal, not yet implemented.
+The first structural art pass adds differentiated tower crowns and a closed, reshaped western shore. The baseline remains preserved. Full fixed-commit readback, ZIP restoration, Blender reopening, baseline-preservation checks, and closed-shore topology checks passed.
+
+Verified v002 source: https://github.com/john-wang880/seaside-megatower-castle/commit/2e2bed12271a634ad1e6dcd199fce7db20f9f053
+
+Open [checkpoints/v002](checkpoints/v002/README.md) for restoration instructions, reviewed previews, rerunnable scripts, and the stage review. v003 is a proposal, not yet implemented.
 
 ## Restore the editable baseline
 

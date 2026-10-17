@@ -1,0 +1,42 @@
+{
+  "version": "v002",
+  "blender_version": "5.2.2 LTS",
+  "reopened": true,
+  "baseline_filename": "海边巨塔城堡_Dots轻量版.blend",
+  "checkpoint_filename": "海边巨塔城堡_v002_塔冠与岩岸.blend",
+  "baseline_sha256": "09627b876322cd515b6d2fa73015ff916f8b0f483e8a382f51bd5c95c5382b79",
+  "checkpoint_sha256": "efbc062150f3621b829ba95970c87e68f7dbc063e5d6289958a73c20d9299607",
+  "baseline_meshes_checked": 53,
+  "baseline_mesh_data_changed": [],
+  "baseline_materials_checked": 54,
+  "baseline_material_node_graphs_changed": [],
+  "baseline_object_transforms_changed": [],
+  "intentional_visibility_changes": [
+    "Western foreground | sweeping grassy slope"
+  ],
+  "baseline_cameras_unchanged": true,
+  "lights_unchanged": true,
+  "world_unchanged": true,
+  "view_transform_and_exposure_unchanged": true,
+  "object_count": 67,
+  "mesh_count": 59,
+  "material_count": 58,
+  "image_count": 0,
+  "linked_library_count": 0,
+  "embedded_text_count": 0,
+  "render_output_relative": true,
+  "render_filename_stamp_disabled": true,
+  "file_browser_directories_relative": true,
+  "autoexec_enabled": false,
+  "source_commit": "2e2bed12271a634ad1e6dcd199fce7db20f9f053",
+  "changed_or_added_repository_files_read_back": 34,
+  "readback_byte_equal": true,
+  "archive_sha256": "6d2ccae9a36039a64ad74abf61ce01da5e50a547f7c19631b012a1f7b7385a85",
+  "archive_payload_file_count": 26,
+  "archive_restoration_checks_passed": true,
+  "shore_integrity": {
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume": 2367353.815388823
+  }
+}

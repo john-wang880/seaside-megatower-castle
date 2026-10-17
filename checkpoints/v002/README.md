@@ -26,3 +26,9 @@ ZIP 包含封存目录的 24 项成果，以及原 SHA256SUMS.txt 和 MANIFEST.j
 模型 SHA-256：`efbc062150f3621b829ba95970c87e68f7dbc063e5d6289958a73c20d9299607`
 
 完整 ZIP SHA-256：`6d2ccae9a36039a64ad74abf61ce01da5e50a547f7c19631b012a1f7b7385a85`
+
+## 远端恢复验收
+
+固定提交：https://github.com/john-wang880/seaside-megatower-castle/commit/2e2bed12271a634ad1e6dcd199fce7db20f9f053
+
+全部34件新增/更新仓库文件已下载并与上传前字节比对一致，三片恢复包、完整ZIP和解包载荷校验通过；恢复出的工程已用Blender 5.2.2重新打开并复核基线保留和闭合岸体。详细结果见 reports/github_restore_validation.json。
