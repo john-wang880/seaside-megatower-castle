@@ -2,7 +2,13 @@
 
 A highly detailed, beautiful, and monumental seaside castle project.
 
-## Latest checkpoint: v003
+## Latest checkpoint: v004
+
+新增14扇真实凹深窗，总数22；主塔正面4/4/2、副塔2/4/2，东侧各仅中段2窗。保持主次层级和大片实墙。 v003原66网格、58材质、对象变换、相机、灯光、世界与曝光不变；7个新/替代网格闭合，14窗真实凹深射线通过；工程重开和可重跑验证通过。
+
+See [checkpoints/v004](checkpoints/v004/README.md) for full restoration, controlled previews, scripts and technical records. This checkpoint is part of ongoing refinement; earlier versions remain intact.
+
+## Previous checkpoint: v003
 
 The dual-tower sample adds eight genuinely recessed pointed-arch windows with secondary divisions and recessed tracery, while preserving the v002 base geometry, materials and lighting. This is a local sample, not a completed tower-wide refinement. See [checkpoints/v003](checkpoints/v003/README.md) for source restoration, six controlled before/after previews, rerunnable scripts and review reports. Selective v004 expansion remains future work.
 

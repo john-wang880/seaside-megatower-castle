@@ -1,0 +1,381 @@
+{
+  "version": "v004 selective expansion",
+  "source_filename": "海边巨塔城堡_v003_双塔样板窗洞.blend",
+  "source_sha256": "37329013c72ba07e7434b67e6963dbab62eb61bb4b7ec97db0f20594ce488cf9",
+  "output_filename": "海边巨塔城堡_v004_双塔层级窗群.blend",
+  "new_window_count": 14,
+  "v003_existing_windows_retained": 8,
+  "total_refined_windows": 22,
+  "windows": [
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 32.5,
+      "width": 3.55,
+      "bottom": 90.8,
+      "shoulder": 97.2,
+      "apex": 99.8,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "lower two-tier group"
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 32.5,
+      "width": 3.55,
+      "bottom": 106.3,
+      "shoulder": 113.1,
+      "apex": 115.7,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "lower two-tier group"
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 32.5,
+      "width": 3.3,
+      "bottom": 166.0,
+      "shoulder": 172.0,
+      "apex": 174.5,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "single pair below crown"
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 38.1,
+      "width": 3.55,
+      "bottom": 90.8,
+      "shoulder": 97.2,
+      "apex": 99.8,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "lower two-tier group"
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 38.1,
+      "width": 3.55,
+      "bottom": 106.3,
+      "shoulder": 113.1,
+      "apex": 115.7,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "lower two-tier group"
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 38.1,
+      "width": 3.3,
+      "bottom": 166.0,
+      "shoulder": 172.0,
+      "apex": 174.5,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "single pair below crown"
+    },
+    {
+      "tower": "main",
+      "face": "east",
+      "x": 44.0,
+      "width": 3.6,
+      "bottom": 129.4,
+      "shoulder": 135.7,
+      "apex": 138.3,
+      "plane": 53.05,
+      "front": 0,
+      "back": 2.25,
+      "group": "one sparse east-side column"
+    },
+    {
+      "tower": "main",
+      "face": "east",
+      "x": 44.0,
+      "width": 3.6,
+      "bottom": 143.2,
+      "shoulder": 150.1,
+      "apex": 152.7,
+      "plane": 53.05,
+      "front": 0,
+      "back": 2.25,
+      "group": "one sparse east-side column"
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "x": -137.0,
+      "width": 2.8,
+      "bottom": 85.8,
+      "shoulder": 92.0,
+      "apex": 94.5,
+      "plane": 86.0,
+      "front": 0,
+      "back": 2.2,
+      "group": "single lower pair"
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "x": -137.0,
+      "width": 2.9,
+      "bottom": 147.0,
+      "shoulder": 153.3,
+      "apex": 155.8,
+      "plane": 86.0,
+      "front": 0,
+      "back": 2.2,
+      "group": "single upper pair"
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "x": -128.9,
+      "width": 2.8,
+      "bottom": 85.8,
+      "shoulder": 92.0,
+      "apex": 94.5,
+      "plane": 86.0,
+      "front": 0,
+      "back": 2.2,
+      "group": "single lower pair"
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "x": -128.9,
+      "width": 2.9,
+      "bottom": 147.0,
+      "shoulder": 153.3,
+      "apex": 155.8,
+      "plane": 86.0,
+      "front": 0,
+      "back": 2.2,
+      "group": "single upper pair"
+    },
+    {
+      "tower": "west",
+      "face": "east",
+      "x": 100.0,
+      "width": 2.8,
+      "bottom": 108.2,
+      "shoulder": 114.4,
+      "apex": 116.8,
+      "plane": -120.1,
+      "front": 0,
+      "back": 2.1,
+      "group": "one sparse east-side column"
+    },
+    {
+      "tower": "west",
+      "face": "east",
+      "x": 100.0,
+      "width": 2.8,
+      "bottom": 122.4,
+      "shoulder": 128.8,
+      "apex": 131.2,
+      "plane": -120.1,
+      "front": 0,
+      "back": 2.1,
+      "group": "one sparse east-side column"
+    }
+  ],
+  "actual_void_depth_checks": [
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "lower two-tier group",
+      "center_u": 32.5,
+      "bottom": 90.8,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "lower two-tier group",
+      "center_u": 32.5,
+      "bottom": 106.3,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "single pair below crown",
+      "center_u": 32.5,
+      "bottom": 166.0,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "lower two-tier group",
+      "center_u": 38.1,
+      "bottom": 90.8,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "lower two-tier group",
+      "center_u": 38.1,
+      "bottom": 106.3,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "single pair below crown",
+      "center_u": 38.1,
+      "bottom": 166.0,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "east",
+      "group": "one sparse east-side column",
+      "center_u": 44.0,
+      "bottom": 129.4,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "east",
+      "group": "one sparse east-side column",
+      "center_u": 44.0,
+      "bottom": 143.2,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "group": "single lower pair",
+      "center_u": -137.0,
+      "bottom": 85.8,
+      "actual_depth": 2.2
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "group": "single upper pair",
+      "center_u": -137.0,
+      "bottom": 147.0,
+      "actual_depth": 2.2
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "group": "single lower pair",
+      "center_u": -128.9,
+      "bottom": 85.8,
+      "actual_depth": 2.2
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "group": "single upper pair",
+      "center_u": -128.9,
+      "bottom": 147.0,
+      "actual_depth": 2.2
+    },
+    {
+      "tower": "west",
+      "face": "east",
+      "group": "one sparse east-side column",
+      "center_u": 100.0,
+      "bottom": 108.2,
+      "actual_depth": 2.1
+    },
+    {
+      "tower": "west",
+      "face": "east",
+      "group": "one sparse east-side column",
+      "center_u": 100.0,
+      "bottom": 122.4,
+      "actual_depth": 2.1
+    }
+  ],
+  "new_rib_contacts": [
+    {
+      "group": "main lower",
+      "actual_lower_surface_z": 86.0999984741211,
+      "actual_upper_surface_z": 123.72000122070312,
+      "rib_z0": 86.04499847412109,
+      "rib_z1": 123.77500122070313,
+      "overlap_each_end": 0.055
+    },
+    {
+      "group": "main upper",
+      "actual_lower_surface_z": 163.5,
+      "actual_upper_surface_z": 179.5749969482422,
+      "rib_z0": 163.445,
+      "rib_z1": 179.6299969482422,
+      "overlap_each_end": 0.055
+    }
+  ],
+  "mesh_topology": {
+    "V004 | main shaft selective front and east-facing windows": {
+      "vertices": 720,
+      "faces": 413,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | west shaft selective front and east-facing windows": {
+      "vertices": 482,
+      "faces": 257,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | west old recess strips opened for selected upper and lower windows": {
+      "vertices": 1518,
+      "faces": 851,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | varied facade groups stone reveals and restrained frames": {
+      "vertices": 2576,
+      "faces": 2576,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | varied facade groups recessed mullions and tracery": {
+      "vertices": 4088,
+      "faces": 4032,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | varied facade groups deep muted glazing": {
+      "vertices": 644,
+      "faces": 350,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | varied facade groups secondary structural divisions": {
+      "vertices": 480,
+      "faces": 360,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "source_objects_retained_hidden": [
+    "V003 | main shaft with four genuine recessed lancets",
+    "V003 | western monolith with four genuine recessed lancets",
+    "V003 | western existing recesses opened at sample windows"
+  ],
+  "lights_world_exposure_unchanged": true,
+  "tower_silhouettes_unchanged": true,
+  "images": 0,
+  "libraries": 0,
+  "texts": 0,
+  "status": "Awaiting actual render review; not project completion.",
+  "output_sha256": "e23172759e1742f2de0f2d9244629b7e1c0491fd1a6d2b39e1d977f01c15fa58"
+}

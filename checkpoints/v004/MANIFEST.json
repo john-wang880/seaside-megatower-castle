@@ -1,0 +1,154 @@
+{
+  "checkpoint": "v004",
+  "status": "Accepted checkpoint; long-term refinement in progress, not final completion.",
+  "project_minimum_end_beijing": "2026-11-01",
+  "blender_version": "5.2.2 LTS",
+  "model_sha256": "e23172759e1742f2de0f2d9244629b7e1c0491fd1a6d2b39e1d977f01c15fa58",
+  "artifact_count": 28,
+  "total_artifact_bytes": 24789075,
+  "before_after_camera_checks_passed": true,
+  "original_v003_sealed_model_unchanged": true,
+  "text_path_scan_matches": 0,
+  "files": [
+    {
+      "path": "previews/v003_before_hero.json",
+      "bytes": 531,
+      "sha256": "fde3bdf555c28645aac8df1f74fba2e2baf554c9d52601df061f8f96cb057c9a"
+    },
+    {
+      "path": "previews/v003_before_hero.png",
+      "bytes": 620080,
+      "sha256": "668a849718d60096aa2d42240f747acd97d068ad5b8af557fbfe3cf4f4e33c1d"
+    },
+    {
+      "path": "previews/v003_before_main_tower.json",
+      "bytes": 540,
+      "sha256": "03d8d7bd4bc5aaa7e1f4f9f76002f7ea5dfc6faebd08fedd044c3eca2f9ef85c"
+    },
+    {
+      "path": "previews/v003_before_main_tower.png",
+      "bytes": 1138146,
+      "sha256": "beb42f1b1e9a24dfaf8a4e9b5c7ea033b313dbe429e13f2419fd4e6e3b2254f4"
+    },
+    {
+      "path": "previews/v003_before_west_tower.json",
+      "bytes": 542,
+      "sha256": "1e8120eabf64fae4d370df7e2927f5e12bdd87ed146d83a4d3939dd2dbc16d63"
+    },
+    {
+      "path": "previews/v003_before_west_tower.png",
+      "bytes": 969453,
+      "sha256": "d23abbd7699e79159a744c29e0dfa5933b0189ec0a93c69668244c222d9ab1c8"
+    },
+    {
+      "path": "previews/v004_hero.json",
+      "bytes": 531,
+      "sha256": "c02cb0b150bc0a6212cc8a246a95291cc142258f48c146ee8255b525dbfe802e"
+    },
+    {
+      "path": "previews/v004_hero.png",
+      "bytes": 623529,
+      "sha256": "7b1f0c8d349ce9a25a69999d7d15a451e783c3b5eed70a52224d5a818a077f87"
+    },
+    {
+      "path": "previews/v004_main_tower.json",
+      "bytes": 540,
+      "sha256": "65e7eb9f7a168aa49b2bae9f90d017b05f6b76b3da9e759e481d2446231d7192"
+    },
+    {
+      "path": "previews/v004_main_tower.png",
+      "bytes": 1151964,
+      "sha256": "6fe02df32993284483c0ac2f97c97903a393047c3b475bc8590a951b56d14782"
+    },
+    {
+      "path": "previews/v004_west_tower.json",
+      "bytes": 542,
+      "sha256": "72cc909a86892e434f1973b5c668142747b729d9f6d1eb01230dbe0a6755582c"
+    },
+    {
+      "path": "previews/v004_west_tower.png",
+      "bytes": 980672,
+      "sha256": "780d9cef1060fe7ad30b71713df0387a0cca6a2c3afff41f138edb5691541d0e"
+    },
+    {
+      "path": "reports/REBUILD_V004.md",
+      "bytes": 1862,
+      "sha256": "a205eef765f8bc38e8a1d986bcca7e4bdf2ffbdeee6b2ecd876f052d5cf81093"
+    },
+    {
+      "path": "reports/V004_STAGE_REVIEW.md",
+      "bytes": 2375,
+      "sha256": "dfc894b50f9ee2a29a1788107b4676134682b9494c2f78f04f19a32af1a98180"
+    },
+    {
+      "path": "reports/v003_before_hero_metadata_check.json",
+      "bytes": 351,
+      "sha256": "b75e2417cb63e7c97094d3d31d8ac4a5f8c744cc3f146faa3d094f6a92400afb"
+    },
+    {
+      "path": "reports/v003_before_main_tower_metadata_check.json",
+      "bytes": 474,
+      "sha256": "e562d51b9474ae15719eae6bab84485509c0c3047b6407c81dba1c8a1498ddd5"
+    },
+    {
+      "path": "reports/v003_before_west_tower_metadata_check.json",
+      "bytes": 473,
+      "sha256": "5a0b0cc82128de7f51f5984d31d803eb93361aee0e34f94d6adf931cd4e7a9bd"
+    },
+    {
+      "path": "reports/v004_build_validation.json",
+      "bytes": 8812,
+      "sha256": "59884b8e46210d70ec979f36b2d34c00c4387f759c2a7ecdb81de766eabec0cd"
+    },
+    {
+      "path": "reports/v004_delivery_validation.json",
+      "bytes": 1283,
+      "sha256": "72443a14063e7efc4251fc546ecf50e100813b6048f1cbec123657c7b027f412"
+    },
+    {
+      "path": "reports/v004_hero_metadata_check.json",
+      "bytes": 447,
+      "sha256": "8780c3d0d042e64bd847e4876427b440772a20d0487b76ce74c5589fe8d0d051"
+    },
+    {
+      "path": "reports/v004_main_tower_metadata_check.json",
+      "bytes": 460,
+      "sha256": "68a14e0e500b3dd7309d881ae0bc2729bdd8f033b121275a42147afb82c0d09d"
+    },
+    {
+      "path": "reports/v004_repeatability_validation.json",
+      "bytes": 1064,
+      "sha256": "1701ac0c4470a48844634542e968d9fe9800b970b20356a30e909b9c64a3a2b0"
+    },
+    {
+      "path": "reports/v004_west_tower_metadata_check.json",
+      "bytes": 459,
+      "sha256": "7f2aa34f1c510e98a4980c43be2866dd8c65f889ad27ab3fca9c77bee593c6ad"
+    },
+    {
+      "path": "scripts/clean_preview_metadata.py",
+      "bytes": 1934,
+      "sha256": "28d1be06e5d8772d26ca95afcc440d25d86e1b116838eaa0c20ed203f9636ed2"
+    },
+    {
+      "path": "scripts/refine_v004.py",
+      "bytes": 12387,
+      "sha256": "12d8f69e21ee75c3e22563d0a21e6033b494d0e9931aacca0681127e05435c26"
+    },
+    {
+      "path": "scripts/render_v004_review.py",
+      "bytes": 2701,
+      "sha256": "22693aa855a0990a12f0c2470ee92bf161137ffa9b74d22667f32f3835a33eac"
+    },
+    {
+      "path": "scripts/validate_v004.py",
+      "bytes": 6043,
+      "sha256": "ee013d576672da17cfc07203b205319f486471b90c58eb69d7198276b06098b3"
+    },
+    {
+      "path": "海边巨塔城堡_v004_双塔层级窗群.blend",
+      "bytes": 19260880,
+      "sha256": "e23172759e1742f2de0f2d9244629b7e1c0491fd1a6d2b39e1d977f01c15fa58"
+    }
+  ]
+}
