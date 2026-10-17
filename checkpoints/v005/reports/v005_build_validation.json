@@ -1,0 +1,48 @@
+{
+  "version": "v005 tower material calibration B retained macro patina",
+  "source_filename": "海边巨塔城堡_v004_双塔层级窗群.blend",
+  "source_sha256": "e23172759e1742f2de0f2d9244629b7e1c0491fd1a6d2b39e1d977f01c15fa58",
+  "output_filename": "海边巨塔城堡_v005_双塔石砌校准.blend",
+  "replacements": [
+    {
+      "source_object": "V004 | main shaft selective front and east-facing windows",
+      "replacement_object": "V005 | main tower calibrated stone surface",
+      "linked_mesh_unchanged": true,
+      "material_slot_overrides": 1,
+      "material": "V005 | main large ashlar calibrated world units"
+    },
+    {
+      "source_object": "V004 | west shaft selective front and east-facing windows",
+      "replacement_object": "V005 | west tower calibrated stone surface",
+      "linked_mesh_unchanged": true,
+      "material_slot_overrides": 1,
+      "material": "V005 | west subdued coarse stone courses"
+    }
+  ],
+  "new_materials": [
+    "V005 | main large ashlar calibrated world units",
+    "V005 | west subdued coarse stone courses"
+  ],
+  "original_materials_unchanged": true,
+  "new_meshes": 0,
+  "new_geometry_faces": 0,
+  "unit_settings": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "stone_dimensions_scene_units": {
+    "main": [
+      1.3,
+      0.52
+    ],
+    "west": [
+      1.65,
+      0.65
+    ]
+  },
+  "projection": "True-normal selected world XZ/YZ, XY tops, equal world-unit scale",
+  "mortar_is_shader_bump_not_displacement": true,
+  "lighting_world_exposure_unchanged": true,
+  "status": "Awaiting same-view render review; not project completion.",
+  "output_sha256": "2de2e160de07f09cd8e23680671d9b8b3827d1fec0a0e2bcfecbc72f322c03ce"
+}

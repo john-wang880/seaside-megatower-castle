@@ -2,7 +2,13 @@
 
 A highly detailed, beautiful, and monumental seaside castle project.
 
-## Latest checkpoint: v004
+## Latest checkpoint: v005
+
+仅封存已接受的B：保留两塔原宏观色域，以主塔约±3.5%、副塔约±2.4%的克制块色校准世界尺度石砌、凹灰缝与粗糙度。A因均匀新砖感被舍弃，不在本包。 原73网格、58材质节点图、对象变换、相机、灯光、世界与曝光保持，可见几何集合一致；只新增2个共享原网格对象和2份对象级覆盖材质，共83对象、73网格、60材质。四组同机位实渲、工程重开和自身重跑验证通过。
+
+See [checkpoints/v005](checkpoints/v005/README.md) for full restoration, controlled previews, scripts and technical records. This checkpoint is part of ongoing refinement; earlier versions remain intact.
+
+## Previous checkpoint: v004
 
 新增14扇真实凹深窗，总数22；主塔正面4/4/2、副塔2/4/2，东侧各仅中段2窗。保持主次层级和大片实墙。 v003原66网格、58材质、对象变换、相机、灯光、世界与曝光不变；7个新/替代网格闭合，14窗真实凹深射线通过；工程重开和可重跑验证通过。
 

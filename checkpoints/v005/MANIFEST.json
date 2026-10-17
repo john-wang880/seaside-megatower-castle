@@ -1,0 +1,186 @@
+{
+  "checkpoint": "v005",
+  "selected_candidate": "B, original macro colour retained with restrained block modulation",
+  "status": "Accepted material calibration checkpoint; long-term refinement in progress, not final completion.",
+  "project_minimum_end_beijing": "2026-11-01",
+  "blender_version": "5.2.2 LTS",
+  "model_sha256": "2de2e160de07f09cd8e23680671d9b8b3827d1fec0a0e2bcfecbc72f322c03ce",
+  "artifact_count": 34,
+  "total_artifact_bytes": 24843417,
+  "before_after_camera_checks_passed": true,
+  "original_v004_sealed_model_unchanged": true,
+  "geometry_identical_to_v004": true,
+  "text_path_scan_matches": 0,
+  "files": [
+    {
+      "path": "previews/v004_before_hero.json",
+      "bytes": 531,
+      "sha256": "c02cb0b150bc0a6212cc8a246a95291cc142258f48c146ee8255b525dbfe802e"
+    },
+    {
+      "path": "previews/v004_before_hero.png",
+      "bytes": 623529,
+      "sha256": "7b1f0c8d349ce9a25a69999d7d15a451e783c3b5eed70a52224d5a818a077f87"
+    },
+    {
+      "path": "previews/v004_before_main.json",
+      "bytes": 533,
+      "sha256": "032108af34dcff17f8dbbc775feb74caa09ecebb0a14e590291f0bebaf1f003e"
+    },
+    {
+      "path": "previews/v004_before_main.png",
+      "bytes": 790800,
+      "sha256": "150c666f15d1100d89484756ed0049a5eaae7cf7cf21ea3ec74fc1c9b51018c9"
+    },
+    {
+      "path": "previews/v004_before_west.json",
+      "bytes": 531,
+      "sha256": "28f6feee5e63ef03f03b7d8ffc954e0fccd33280d4317553348e33f28a121cd6"
+    },
+    {
+      "path": "previews/v004_before_west.png",
+      "bytes": 756346,
+      "sha256": "a4c746e99d0356c81aea0a0a2870a327e07b16cd03c0a20d140cdbafb501ef45"
+    },
+    {
+      "path": "previews/v004_before_west_stone.json",
+      "bytes": 545,
+      "sha256": "845bc86fc087e7e47fb3e8c392a153d2730c5a152df4973afa231996448394a3"
+    },
+    {
+      "path": "previews/v004_before_west_stone.png",
+      "bytes": 593830,
+      "sha256": "39cc261c7d675d355e908ffb31fff2907eaa9ed838dcb74144c00ec932d3d4ee"
+    },
+    {
+      "path": "previews/v005_final_hero.json",
+      "bytes": 531,
+      "sha256": "e09df60d92599ab27fd6116ba8435ebdb9aabf446c7045b29f18a809543582a3"
+    },
+    {
+      "path": "previews/v005_final_hero.png",
+      "bytes": 622474,
+      "sha256": "1acf7225e9abab1a6f8b245ffbe7e706c0d6118fcad32b471c7b45edfec4247f"
+    },
+    {
+      "path": "previews/v005_final_main.json",
+      "bytes": 533,
+      "sha256": "b748a09141bbe000d7c7fdec91b51fd31a4296dcf7e684e38c6d5613b89e1c6c"
+    },
+    {
+      "path": "previews/v005_final_main.png",
+      "bytes": 781487,
+      "sha256": "8efa67d833b045fb153a1df95341ca814f55c25bfd7bd41e3171ac528d92f3ad"
+    },
+    {
+      "path": "previews/v005_final_west.json",
+      "bytes": 531,
+      "sha256": "9996a03b95b0c655b02a1ae06427c6c51f266bf55e87a97d950bdf9db785df25"
+    },
+    {
+      "path": "previews/v005_final_west.png",
+      "bytes": 757626,
+      "sha256": "350dab6f43ec41ebc9c09c91d690e7fe9d7a0f5db65d31a35b48526de894b106"
+    },
+    {
+      "path": "previews/v005_final_west_stone.json",
+      "bytes": 545,
+      "sha256": "daa355fd8c874ef6045492334a6ab09a87457ca20957cf7a6b1891d96ccfadac"
+    },
+    {
+      "path": "previews/v005_final_west_stone.png",
+      "bytes": 607663,
+      "sha256": "8e93eeabb2941f2dd17e83ef4242e6c4008608860f5fee795f220d3a815841d9"
+    },
+    {
+      "path": "reports/REBUILD_V005.md",
+      "bytes": 1935,
+      "sha256": "afb878fb3f544eb902330a3e2110213c4d7142f213252df7076228b0c91091db"
+    },
+    {
+      "path": "reports/V005_STAGE_REVIEW.md",
+      "bytes": 3593,
+      "sha256": "d9ea7e34c3e57d3c832ea9358d679ed721ab20176acc345713a71a2acb31ed6f"
+    },
+    {
+      "path": "reports/v004_before_hero_metadata_check.json",
+      "bytes": 351,
+      "sha256": "41db5d6f55fc5150a8336eec56c13b1bf9150b90bca098b3f5186da6be91033c"
+    },
+    {
+      "path": "reports/v004_before_main_metadata_check.json",
+      "bytes": 461,
+      "sha256": "5e093f0fcaacd659d499c3ff35700a001ee6b3202d81f1218b4e9c770fa7663c"
+    },
+    {
+      "path": "reports/v004_before_west_metadata_check.json",
+      "bytes": 461,
+      "sha256": "44192d96bfcc401ab75324247ca4fd946ad30b063f8c16d1f9676238b19bccf0"
+    },
+    {
+      "path": "reports/v004_before_west_stone_metadata_check.json",
+      "bytes": 473,
+      "sha256": "cc2dfed253e56b5ab8e6bd9edb04e603c679dc562ec4f9686208b765ab20fc16"
+    },
+    {
+      "path": "reports/v005_build_validation.json",
+      "bytes": 1703,
+      "sha256": "cde41612758c3c1bfe3bbe39fa6f2ba2e1cd757115baa888cff9bec098444e6f"
+    },
+    {
+      "path": "reports/v005_delivery_validation.json",
+      "bytes": 1271,
+      "sha256": "84a1065ccc2d524655b205c176ca97a01ef1dabf921a9f4a7eb4c6f7abff6a59"
+    },
+    {
+      "path": "reports/v005_final_hero_metadata_check.json",
+      "bytes": 459,
+      "sha256": "c9efd99ce5e2c513d00ebf1a4b55d774c53bd78090810e4c90e2c8d0295a8d5f"
+    },
+    {
+      "path": "reports/v005_final_main_metadata_check.json",
+      "bytes": 459,
+      "sha256": "a7253359c0c6a425354f69750e66e411bf5dcb145d79c6d1824a35b337ab130b"
+    },
+    {
+      "path": "reports/v005_final_west_metadata_check.json",
+      "bytes": 459,
+      "sha256": "5070777dcebc1e72a24c33a434746e11bbdd9e7ff6e3da24130f6255def6b5de"
+    },
+    {
+      "path": "reports/v005_final_west_stone_metadata_check.json",
+      "bytes": 471,
+      "sha256": "3c710430fe88644aec64c9ef190c13a7088d5774650588fffdb6b05a5e1b4337"
+    },
+    {
+      "path": "reports/v005_repeatability_validation.json",
+      "bytes": 1108,
+      "sha256": "36955c7664a24add80897570066c1a3f0c9a071600a0d6c38aa4eda8d2721dfe"
+    },
+    {
+      "path": "scripts/clean_preview_metadata.py",
+      "bytes": 1934,
+      "sha256": "28d1be06e5d8772d26ca95afcc440d25d86e1b116838eaa0c20ed203f9636ed2"
+    },
+    {
+      "path": "scripts/refine_v005.py",
+      "bytes": 9395,
+      "sha256": "8c93550866f65b58188e0de135a4e17b181716393752f2b92c32a10f1eaba5a7"
+    },
+    {
+      "path": "scripts/render_v005_review.py",
+      "bytes": 2752,
+      "sha256": "65bbb4e9f658e8d99da848979473c3b8fb9e50d9cab397bb98e62d8398496d23"
+    },
+    {
+      "path": "scripts/validate_v005.py",
+      "bytes": 6627,
+      "sha256": "9d202830f577bcaeb73b841015bed5ba9078c7df9689fd0c15465347d54e29fb"
+    },
+    {
+      "path": "海边巨塔城堡_v005_双塔石砌校准.blend",
+      "bytes": 19271470,
+      "sha256": "2de2e160de07f09cd8e23680671d9b8b3827d1fec0a0e2bcfecbc72f322c03ce"
+    }
+  ]
+}
