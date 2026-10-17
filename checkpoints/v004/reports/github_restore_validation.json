@@ -1,0 +1,183 @@
+{
+  "version": "v004 expansion",
+  "blender_version": "5.2.2 LTS",
+  "reopened": true,
+  "baseline_filename": "海边巨塔城堡_v003_双塔样板窗洞.blend",
+  "checkpoint_filename": "海边巨塔城堡_v004_双塔层级窗群.blend",
+  "baseline_sha256": "37329013c72ba07e7434b67e6963dbab62eb61bb4b7ec97db0f20594ce488cf9",
+  "checkpoint_sha256": "e23172759e1742f2de0f2d9244629b7e1c0491fd1a6d2b39e1d977f01c15fa58",
+  "baseline_meshes_checked": 66,
+  "baseline_mesh_data_changed": [],
+  "baseline_materials_checked": 58,
+  "baseline_material_node_graphs_changed": [],
+  "baseline_object_transforms_changed": [],
+  "intentional_visibility_changes": [
+    "V003 | main shaft with four genuine recessed lancets",
+    "V003 | western existing recesses opened at sample windows",
+    "V003 | western monolith with four genuine recessed lancets"
+  ],
+  "baseline_cameras_unchanged": true,
+  "lights_unchanged": true,
+  "world_unchanged": true,
+  "view_transform_and_exposure_unchanged": true,
+  "object_count": 81,
+  "mesh_count": 73,
+  "material_count": 58,
+  "image_count": 0,
+  "linked_library_count": 0,
+  "embedded_text_count": 0,
+  "render_output_relative": true,
+  "render_filename_stamp_disabled": true,
+  "file_browser_directories_relative": true,
+  "autoexec_enabled": false,
+  "source_commit": "f1d4612999fa590e4d47ab04452fa7ae7492af86",
+  "changed_or_added_repository_files_read_back": 38,
+  "readback_byte_equal": true,
+  "archive_sha256": "f2fb3dc2c7a7b5f4e4c67a11600bcf8f9a1ce6196384d0913c144c57bb2c941d",
+  "archive_payload_file_count": 30,
+  "archive_restoration_checks_passed": true,
+  "remote_mesh_topology": {
+    "V004 | main shaft selective front and east-facing windows": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | west shaft selective front and east-facing windows": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | west old recess strips opened for selected upper and lower windows": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | varied facade groups stone reveals and restrained frames": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | varied facade groups recessed mullions and tracery": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | varied facade groups deep muted glazing": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "V004 | varied facade groups secondary structural divisions": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "remote_window_depth_ray_checks": [
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "lower two-tier group",
+      "center_u": 32.5,
+      "bottom": 90.8,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "lower two-tier group",
+      "center_u": 32.5,
+      "bottom": 106.3,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "single pair below crown",
+      "center_u": 32.5,
+      "bottom": 166.0,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "lower two-tier group",
+      "center_u": 38.1,
+      "bottom": 90.8,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "lower two-tier group",
+      "center_u": 38.1,
+      "bottom": 106.3,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "group": "single pair below crown",
+      "center_u": 38.1,
+      "bottom": 166.0,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "east",
+      "group": "one sparse east-side column",
+      "center_u": 44.0,
+      "bottom": 129.4,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "main",
+      "face": "east",
+      "group": "one sparse east-side column",
+      "center_u": 44.0,
+      "bottom": 143.2,
+      "actual_depth": 2.25
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "group": "single lower pair",
+      "center_u": -137.0,
+      "bottom": 85.8,
+      "actual_depth": 2.2
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "group": "single upper pair",
+      "center_u": -137.0,
+      "bottom": 147.0,
+      "actual_depth": 2.2
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "group": "single lower pair",
+      "center_u": -128.9,
+      "bottom": 85.8,
+      "actual_depth": 2.2
+    },
+    {
+      "tower": "west",
+      "face": "front",
+      "group": "single upper pair",
+      "center_u": -128.9,
+      "bottom": 147.0,
+      "actual_depth": 2.2
+    },
+    {
+      "tower": "west",
+      "face": "east",
+      "group": "one sparse east-side column",
+      "center_u": 100.0,
+      "bottom": 108.2,
+      "actual_depth": 2.1
+    },
+    {
+      "tower": "west",
+      "face": "east",
+      "group": "one sparse east-side column",
+      "center_u": 100.0,
+      "bottom": 122.4,
+      "actual_depth": 2.1
+    }
+  ]
+}

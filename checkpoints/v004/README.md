@@ -27,3 +27,9 @@ v003原66网格、58材质、对象变换、相机、灯光、世界与曝光不
 模型SHA-256：`e23172759e1742f2de0f2d9244629b7e1c0491fd1a6d2b39e1d977f01c15fa58`
 
 完整ZIP SHA-256：`f2fb3dc2c7a7b5f4e4c67a11600bcf8f9a1ce6196384d0913c144c57bb2c941d`
+
+## 远端恢复验收
+
+固定提交：https://github.com/john-wang880/seaside-megatower-castle/commit/f1d4612999fa590e4d47ab04452fa7ae7492af86
+
+38件新增/更新仓库文件逐字节读回一致，三片ZIP恢复及解包载荷校验通过。远端恢复模型重新通过Blender基线保留核验，7个新/替代网格闭合，14个新增窗口实际凹深射线复核通过。详细证据见 reports/github_restore_validation.json。

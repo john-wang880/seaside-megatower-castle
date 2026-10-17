@@ -8,6 +8,10 @@ A highly detailed, beautiful, and monumental seaside castle project.
 
 See [checkpoints/v004](checkpoints/v004/README.md) for full restoration, controlled previews, scripts and technical records. This checkpoint is part of ongoing refinement; earlier versions remain intact.
 
+Verified v004 fixed-commit readback, complete restoration and Blender reopening passed. All seven new/replacement meshes are closed, and fourteen new windows passed actual recess-depth ray checks.
+
+https://github.com/john-wang880/seaside-megatower-castle/commit/f1d4612999fa590e4d47ab04452fa7ae7492af86
+
 ## Previous checkpoint: v003
 
 The dual-tower sample adds eight genuinely recessed pointed-arch windows with secondary divisions and recessed tracery, while preserving the v002 base geometry, materials and lighting. This is a local sample, not a completed tower-wide refinement. See [checkpoints/v003](checkpoints/v003/README.md) for source restoration, six controlled before/after previews, rerunnable scripts and review reports. Selective v004 expansion remains future work.
