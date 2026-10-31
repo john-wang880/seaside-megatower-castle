@@ -1,6 +1,6 @@
 {
-  "model": "prototype_v5.blend",
-  "model_sha256": "dfa9f4f1faf94171dde4bef0d00b8d106a92fe04b3a9e9ba218235799b71378a",
+  "model": "castle_v013.blend",
+  "model_sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
   "method": "separate evaluated connected components; strict closed-edge test; three agreeing oblique ray parities; evaluated-object AABB broadphase",
   "synthetic_regressions": {
     "cube_inside": true,
@@ -1818,6 +1818,6 @@
     }
   ],
   "sampled_occupancy_clear": true,
-  "seconds": 2.2164058685302734,
+  "seconds": 1.9726977348327637,
   "limits": "Known named open terrain/path sheets are surface-collision-tested and make no enclosed-volume claim. Unknown open candidates fail. Discrete samples only, not continuous-volume proof. Eastern walking endpoint x=-3.5 stops before intentionally closed doorway."
 }

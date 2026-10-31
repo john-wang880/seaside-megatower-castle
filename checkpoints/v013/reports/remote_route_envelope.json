@@ -1,6 +1,6 @@
 {
-  "model": "castle_v012.blend",
-  "model_sha256": "dfa9f4f1faf94171dde4bef0d00b8d106a92fe04b3a9e9ba218235799b71378a",
+  "model": "castle_v013.blend",
+  "model_sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
   "method": "separate evaluated connected components; strict closed-edge test; three agreeing oblique ray parities; evaluated-object AABB broadphase",
   "synthetic_regressions": {
     "cube_inside": true,
@@ -12,9 +12,14 @@
     "triangle_box_contact": true,
     "triangle_box_separated": true,
     "off_center_obstacle_not_missed_by_center_sampling": true,
-    "fully_enclosed_prism_detected_by_containment": true
+    "fully_enclosed_prism_detected_by_containment": true,
+    "expected_riser_contact_accepted": true,
+    "tall_named_stair_boundary_curtain_rejected": true,
+    "named_stair_body_intrusion_is_interior_collision": true,
+    "wrong_side_stair_contact_rejected": true
   },
   "continuous_envelope": {
+    "step_contact_rule": "Expected next-riser plane AND intended floor-to-next-floor band; object name alone is insufficient.",
     "triangle_sat_tolerance": 2e-05,
     "width": 1.2,
     "vertical_offsets": [
@@ -430,7 +435,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                45.5,
+                29.181249618530273
+              ],
+              [
+                5.05002,
+                45.5,
+                29.181249618530273
+              ],
+              [
+                5.05002,
+                45.50002,
+                29.181249618530273
+              ],
+              [
+                3.84998,
+                45.50002,
+                29.181249618530273
+              ]
+            ],
+            "expected_plane_y": 45.5,
+            "expected_height_band": [
+              29,
+              29.18125
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                45.5,
+                29.02498
+              ],
+              [
+                5.05002,
+                45.5,
+                29.09260355962438
+              ],
+              [
+                4.78303802540877,
+                45.5,
+                29.02498
+              ]
+            ],
+            "expected_plane_y": 45.5,
+            "expected_height_band": [
+              29,
+              29.18125
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                4.78303802540877,
+                45.5,
+                29.02498
+              ],
+              [
+                5.05002,
+                45.5,
+                29.09260355962438
+              ],
+              [
+                5.05002,
+                45.5,
+                29.181249618530273
+              ],
+              [
+                3.84998,
+                45.5,
+                29.181249618530273
+              ],
+              [
+                3.84998,
+                45.5,
+                29.02498
+              ]
+            ],
+            "expected_plane_y": 45.5,
+            "expected_height_band": [
+              29,
+              29.18125
+            ]
+          }
+        ]
       },
       {
         "prism": 3,
@@ -451,7 +551,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                46.099998474121094,
+                29.206229999999998
+              ],
+              [
+                5.05002,
+                46.099998474121094,
+                29.329113049905505
+              ],
+              [
+                3.84998,
+                46.099998474121094,
+                29.214635796587785
+              ],
+              [
+                3.84998,
+                46.099998474121094,
+                29.206229999999998
+              ]
+            ],
+            "expected_plane_y": 46.1,
+            "expected_height_band": [
+              29.18125,
+              29.3625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                46.099998474121094,
+                29.214635796587785
+              ],
+              [
+                5.05002,
+                46.099998474121094,
+                29.329113049905505
+              ],
+              [
+                5.05002,
+                46.099998474121094,
+                29.362499237060547
+              ],
+              [
+                3.84998,
+                46.099998474121094,
+                29.362499237060547
+              ]
+            ],
+            "expected_plane_y": 46.1,
+            "expected_height_band": [
+              29.18125,
+              29.3625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                46.099998474121094,
+                29.362499237060547
+              ],
+              [
+                5.05002,
+                46.099998474121094,
+                29.362499237060547
+              ],
+              [
+                5.05002,
+                46.10002,
+                29.362499237060547
+              ],
+              [
+                3.84998,
+                46.10002,
+                29.362499237060547
+              ]
+            ],
+            "expected_plane_y": 46.1,
+            "expected_height_band": [
+              29.18125,
+              29.3625
+            ]
+          }
+        ]
       },
       {
         "prism": 4,
@@ -472,7 +667,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                46.70000076293945,
+                29.38748
+              ],
+              [
+                5.05002,
+                46.70000076293945,
+                29.510364224450715
+              ],
+              [
+                3.84998,
+                46.70000076293945,
+                29.39588576645166
+              ],
+              [
+                3.84998,
+                46.70000076293945,
+                29.38748
+              ]
+            ],
+            "expected_plane_y": 46.7,
+            "expected_height_band": [
+              29.3625,
+              29.54375
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                46.70000076293945,
+                29.39588576645166
+              ],
+              [
+                5.05002,
+                46.70000076293945,
+                29.510364224450715
+              ],
+              [
+                5.05002,
+                46.70000076293945,
+                29.543750762939453
+              ],
+              [
+                3.84998,
+                46.70000076293945,
+                29.543750762939453
+              ]
+            ],
+            "expected_plane_y": 46.7,
+            "expected_height_band": [
+              29.3625,
+              29.54375
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                46.70000076293945,
+                29.543750762939453
+              ],
+              [
+                5.05002,
+                46.70000076293945,
+                29.543750762939453
+              ],
+              [
+                5.05002,
+                46.70002,
+                29.543750762939453
+              ],
+              [
+                3.84998,
+                46.70002,
+                29.543750762939453
+              ]
+            ],
+            "expected_plane_y": 46.7,
+            "expected_height_band": [
+              29.3625,
+              29.54375
+            ]
+          }
+        ]
       },
       {
         "prism": 5,
@@ -493,7 +783,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                47.29999923706055,
+                29.56873
+              ],
+              [
+                5.05002,
+                47.29999923706055,
+                29.691614194314685
+              ],
+              [
+                3.84998,
+                47.29999923706055,
+                29.577136940996965
+              ],
+              [
+                3.84998,
+                47.29999923706055,
+                29.56873
+              ]
+            ],
+            "expected_plane_y": 47.300000000000004,
+            "expected_height_band": [
+              29.54375,
+              29.725
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                47.29999923706055,
+                29.577136940996965
+              ],
+              [
+                5.05002,
+                47.29999923706055,
+                29.691614194314685
+              ],
+              [
+                5.05002,
+                47.29999923706055,
+                29.725000381469727
+              ],
+              [
+                3.84998,
+                47.29999923706055,
+                29.725000381469727
+              ]
+            ],
+            "expected_plane_y": 47.300000000000004,
+            "expected_height_band": [
+              29.54375,
+              29.725
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                47.29999923706055,
+                29.725000381469727
+              ],
+              [
+                5.05002,
+                47.29999923706055,
+                29.725000381469727
+              ],
+              [
+                5.05002,
+                47.30002,
+                29.725000381469727
+              ],
+              [
+                3.84998,
+                47.30002,
+                29.725000381469727
+              ]
+            ],
+            "expected_plane_y": 47.300000000000004,
+            "expected_height_band": [
+              29.54375,
+              29.725
+            ]
+          }
+        ]
       },
       {
         "prism": 6,
@@ -514,7 +899,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                47.900001525878906,
+                29.74998
+              ],
+              [
+                5.05002,
+                47.900001525878906,
+                29.872863812844958
+              ],
+              [
+                3.84998,
+                47.900001525878906,
+                29.75838655952724
+              ],
+              [
+                3.84998,
+                47.900001525878906,
+                29.74998
+              ]
+            ],
+            "expected_plane_y": 47.9,
+            "expected_height_band": [
+              29.725,
+              29.90625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                47.900001525878906,
+                29.75838655952724
+              ],
+              [
+                5.05002,
+                47.900001525878906,
+                29.872863812844958
+              ],
+              [
+                5.05002,
+                47.900001525878906,
+                29.90625
+              ],
+              [
+                3.84998,
+                47.900001525878906,
+                29.90625
+              ]
+            ],
+            "expected_plane_y": 47.9,
+            "expected_height_band": [
+              29.725,
+              29.90625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                47.900001525878906,
+                29.90625
+              ],
+              [
+                5.05002,
+                47.900001525878906,
+                29.90625
+              ],
+              [
+                5.05002,
+                47.90002,
+                29.90625
+              ],
+              [
+                3.84998,
+                47.90002,
+                29.90625
+              ]
+            ],
+            "expected_plane_y": 47.9,
+            "expected_height_band": [
+              29.725,
+              29.90625
+            ]
+          }
+        ]
       },
       {
         "prism": 7,
@@ -535,7 +1015,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                48.5,
+                29.93123
+              ],
+              [
+                5.05002,
+                48.5,
+                30.05411343137523
+              ],
+              [
+                3.84998,
+                48.5,
+                29.939636178057512
+              ],
+              [
+                3.84998,
+                48.5,
+                29.93123
+              ]
+            ],
+            "expected_plane_y": 48.5,
+            "expected_height_band": [
+              29.90625,
+              30.0875
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                48.5,
+                29.939636178057512
+              ],
+              [
+                5.05002,
+                48.5,
+                30.05411343137523
+              ],
+              [
+                5.05002,
+                48.5,
+                30.087499618530273
+              ],
+              [
+                3.84998,
+                48.5,
+                30.087499618530273
+              ]
+            ],
+            "expected_plane_y": 48.5,
+            "expected_height_band": [
+              29.90625,
+              30.0875
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                48.5,
+                30.087499618530273
+              ],
+              [
+                5.05002,
+                48.5,
+                30.087499618530273
+              ],
+              [
+                5.05002,
+                48.50002,
+                30.087499618530273
+              ],
+              [
+                3.84998,
+                48.50002,
+                30.087499618530273
+              ]
+            ],
+            "expected_plane_y": 48.5,
+            "expected_height_band": [
+              29.90625,
+              30.0875
+            ]
+          }
+        ]
       },
       {
         "prism": 8,
@@ -556,7 +1131,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                49.099998474121094,
+                30.112479999999998
+              ],
+              [
+                5.05002,
+                49.099998474121094,
+                30.235363049905505
+              ],
+              [
+                3.84998,
+                49.099998474121094,
+                30.120885796587785
+              ],
+              [
+                3.84998,
+                49.099998474121094,
+                30.112479999999998
+              ]
+            ],
+            "expected_plane_y": 49.1,
+            "expected_height_band": [
+              30.0875,
+              30.26875
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                49.099998474121094,
+                30.120885796587785
+              ],
+              [
+                5.05002,
+                49.099998474121094,
+                30.235363049905505
+              ],
+              [
+                5.05002,
+                49.099998474121094,
+                30.268749237060547
+              ],
+              [
+                3.84998,
+                49.099998474121094,
+                30.268749237060547
+              ]
+            ],
+            "expected_plane_y": 49.1,
+            "expected_height_band": [
+              30.0875,
+              30.26875
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                49.099998474121094,
+                30.268749237060547
+              ],
+              [
+                5.05002,
+                49.099998474121094,
+                30.268749237060547
+              ],
+              [
+                5.05002,
+                49.10002,
+                30.268749237060547
+              ],
+              [
+                3.84998,
+                49.10002,
+                30.268749237060547
+              ]
+            ],
+            "expected_plane_y": 49.1,
+            "expected_height_band": [
+              30.0875,
+              30.26875
+            ]
+          }
+        ]
       },
       {
         "prism": 9,
@@ -577,7 +1247,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                49.70000076293945,
+                30.29373
+              ],
+              [
+                5.05002,
+                49.70000076293945,
+                30.416614224450715
+              ],
+              [
+                3.84998,
+                49.70000076293945,
+                30.30213576645166
+              ],
+              [
+                3.84998,
+                49.70000076293945,
+                30.29373
+              ]
+            ],
+            "expected_plane_y": 49.7,
+            "expected_height_band": [
+              30.26875,
+              30.45
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                49.70000076293945,
+                30.30213576645166
+              ],
+              [
+                5.05002,
+                49.70000076293945,
+                30.416614224450715
+              ],
+              [
+                5.05002,
+                49.70000076293945,
+                30.450000762939453
+              ],
+              [
+                3.84998,
+                49.70000076293945,
+                30.450000762939453
+              ]
+            ],
+            "expected_plane_y": 49.7,
+            "expected_height_band": [
+              30.26875,
+              30.45
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                49.70000076293945,
+                30.450000762939453
+              ],
+              [
+                5.05002,
+                49.70000076293945,
+                30.450000762939453
+              ],
+              [
+                5.05002,
+                49.70002,
+                30.450000762939453
+              ],
+              [
+                3.84998,
+                49.70002,
+                30.450000762939453
+              ]
+            ],
+            "expected_plane_y": 49.7,
+            "expected_height_band": [
+              30.26875,
+              30.45
+            ]
+          }
+        ]
       },
       {
         "prism": 10,
@@ -598,7 +1363,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                50.29999923706055,
+                30.47498
+              ],
+              [
+                5.05002,
+                50.29999923706055,
+                30.597864194314685
+              ],
+              [
+                3.84998,
+                50.29999923706055,
+                30.483386940996965
+              ],
+              [
+                3.84998,
+                50.29999923706055,
+                30.47498
+              ]
+            ],
+            "expected_plane_y": 50.300000000000004,
+            "expected_height_band": [
+              30.45,
+              30.63125
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                50.29999923706055,
+                30.483386940996965
+              ],
+              [
+                5.05002,
+                50.29999923706055,
+                30.597864194314685
+              ],
+              [
+                5.05002,
+                50.29999923706055,
+                30.631250381469727
+              ],
+              [
+                3.84998,
+                50.29999923706055,
+                30.631250381469727
+              ]
+            ],
+            "expected_plane_y": 50.300000000000004,
+            "expected_height_band": [
+              30.45,
+              30.63125
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                50.29999923706055,
+                30.631250381469727
+              ],
+              [
+                5.05002,
+                50.29999923706055,
+                30.631250381469727
+              ],
+              [
+                5.05002,
+                50.30002,
+                30.631250381469727
+              ],
+              [
+                3.84998,
+                50.30002,
+                30.631250381469727
+              ]
+            ],
+            "expected_plane_y": 50.300000000000004,
+            "expected_height_band": [
+              30.45,
+              30.63125
+            ]
+          }
+        ]
       },
       {
         "prism": 11,
@@ -619,7 +1479,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                50.900001525878906,
+                30.65623
+              ],
+              [
+                5.05002,
+                50.900001525878906,
+                30.779113812844958
+              ],
+              [
+                3.84998,
+                50.900001525878906,
+                30.66463655952724
+              ],
+              [
+                3.84998,
+                50.900001525878906,
+                30.65623
+              ]
+            ],
+            "expected_plane_y": 50.9,
+            "expected_height_band": [
+              30.63125,
+              30.8125
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                50.900001525878906,
+                30.66463655952724
+              ],
+              [
+                5.05002,
+                50.900001525878906,
+                30.779113812844958
+              ],
+              [
+                5.05002,
+                50.900001525878906,
+                30.8125
+              ],
+              [
+                3.84998,
+                50.900001525878906,
+                30.8125
+              ]
+            ],
+            "expected_plane_y": 50.9,
+            "expected_height_band": [
+              30.63125,
+              30.8125
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                50.900001525878906,
+                30.8125
+              ],
+              [
+                5.05002,
+                50.900001525878906,
+                30.8125
+              ],
+              [
+                5.05002,
+                50.90002,
+                30.8125
+              ],
+              [
+                3.84998,
+                50.90002,
+                30.8125
+              ]
+            ],
+            "expected_plane_y": 50.9,
+            "expected_height_band": [
+              30.63125,
+              30.8125
+            ]
+          }
+        ]
       },
       {
         "prism": 12,
@@ -640,7 +1595,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                51.5,
+                30.83748
+              ],
+              [
+                5.05002,
+                51.5,
+                30.96036343137523
+              ],
+              [
+                3.84998,
+                51.5,
+                30.845886178057512
+              ],
+              [
+                3.84998,
+                51.5,
+                30.83748
+              ]
+            ],
+            "expected_plane_y": 51.5,
+            "expected_height_band": [
+              30.8125,
+              30.99375
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                51.5,
+                30.845886178057512
+              ],
+              [
+                5.05002,
+                51.5,
+                30.96036343137523
+              ],
+              [
+                5.05002,
+                51.5,
+                30.993749618530273
+              ],
+              [
+                3.84998,
+                51.5,
+                30.993749618530273
+              ]
+            ],
+            "expected_plane_y": 51.5,
+            "expected_height_band": [
+              30.8125,
+              30.99375
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                51.5,
+                30.993749618530273
+              ],
+              [
+                5.05002,
+                51.5,
+                30.993749618530273
+              ],
+              [
+                5.05002,
+                51.50002,
+                30.993749618530273
+              ],
+              [
+                3.84998,
+                51.50002,
+                30.993749618530273
+              ]
+            ],
+            "expected_plane_y": 51.5,
+            "expected_height_band": [
+              30.8125,
+              30.99375
+            ]
+          }
+        ]
       },
       {
         "prism": 13,
@@ -661,7 +1711,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                52.099998474121094,
+                31.018729999999998
+              ],
+              [
+                5.05002,
+                52.099998474121094,
+                31.141613049905505
+              ],
+              [
+                3.84998,
+                52.099998474121094,
+                31.027135796587785
+              ],
+              [
+                3.84998,
+                52.099998474121094,
+                31.018729999999998
+              ]
+            ],
+            "expected_plane_y": 52.1,
+            "expected_height_band": [
+              30.99375,
+              31.175
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                52.099998474121094,
+                31.027135796587785
+              ],
+              [
+                5.05002,
+                52.099998474121094,
+                31.141613049905505
+              ],
+              [
+                5.05002,
+                52.099998474121094,
+                31.174999237060547
+              ],
+              [
+                3.84998,
+                52.099998474121094,
+                31.174999237060547
+              ]
+            ],
+            "expected_plane_y": 52.1,
+            "expected_height_band": [
+              30.99375,
+              31.175
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                52.099998474121094,
+                31.174999237060547
+              ],
+              [
+                5.05002,
+                52.099998474121094,
+                31.174999237060547
+              ],
+              [
+                5.05002,
+                52.10002,
+                31.174999237060547
+              ],
+              [
+                3.84998,
+                52.10002,
+                31.174999237060547
+              ]
+            ],
+            "expected_plane_y": 52.1,
+            "expected_height_band": [
+              30.99375,
+              31.175
+            ]
+          }
+        ]
       },
       {
         "prism": 14,
@@ -682,7 +1827,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                52.70000076293945,
+                31.19998
+              ],
+              [
+                5.05002,
+                52.70000076293945,
+                31.322864224450715
+              ],
+              [
+                3.84998,
+                52.70000076293945,
+                31.20838576645166
+              ],
+              [
+                3.84998,
+                52.70000076293945,
+                31.19998
+              ]
+            ],
+            "expected_plane_y": 52.7,
+            "expected_height_band": [
+              31.175,
+              31.35625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                52.70000076293945,
+                31.20838576645166
+              ],
+              [
+                5.05002,
+                52.70000076293945,
+                31.322864224450715
+              ],
+              [
+                5.05002,
+                52.70000076293945,
+                31.356250762939453
+              ],
+              [
+                3.84998,
+                52.70000076293945,
+                31.356250762939453
+              ]
+            ],
+            "expected_plane_y": 52.7,
+            "expected_height_band": [
+              31.175,
+              31.35625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                52.70000076293945,
+                31.356250762939453
+              ],
+              [
+                5.05002,
+                52.70000076293945,
+                31.356250762939453
+              ],
+              [
+                5.05002,
+                52.70002,
+                31.356250762939453
+              ],
+              [
+                3.84998,
+                52.70002,
+                31.356250762939453
+              ]
+            ],
+            "expected_plane_y": 52.7,
+            "expected_height_band": [
+              31.175,
+              31.35625
+            ]
+          }
+        ]
       },
       {
         "prism": 15,
@@ -703,7 +1943,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                53.29999923706055,
+                31.38123
+              ],
+              [
+                5.05002,
+                53.29999923706055,
+                31.504114194314685
+              ],
+              [
+                3.84998,
+                53.29999923706055,
+                31.389636940996965
+              ],
+              [
+                3.84998,
+                53.29999923706055,
+                31.38123
+              ]
+            ],
+            "expected_plane_y": 53.300000000000004,
+            "expected_height_band": [
+              31.35625,
+              31.5375
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                53.29999923706055,
+                31.389636940996965
+              ],
+              [
+                5.05002,
+                53.29999923706055,
+                31.504114194314685
+              ],
+              [
+                5.05002,
+                53.29999923706055,
+                31.537500381469727
+              ],
+              [
+                3.84998,
+                53.29999923706055,
+                31.537500381469727
+              ]
+            ],
+            "expected_plane_y": 53.300000000000004,
+            "expected_height_band": [
+              31.35625,
+              31.5375
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                53.29999923706055,
+                31.537500381469727
+              ],
+              [
+                5.05002,
+                53.29999923706055,
+                31.537500381469727
+              ],
+              [
+                5.05002,
+                53.30002,
+                31.537500381469727
+              ],
+              [
+                3.84998,
+                53.30002,
+                31.537500381469727
+              ]
+            ],
+            "expected_plane_y": 53.300000000000004,
+            "expected_height_band": [
+              31.35625,
+              31.5375
+            ]
+          }
+        ]
       },
       {
         "prism": 16,
@@ -724,7 +2059,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                53.900001525878906,
+                31.56248
+              ],
+              [
+                5.05002,
+                53.900001525878906,
+                31.685363812844958
+              ],
+              [
+                3.84998,
+                53.900001525878906,
+                31.57088655952724
+              ],
+              [
+                3.84998,
+                53.900001525878906,
+                31.56248
+              ]
+            ],
+            "expected_plane_y": 53.9,
+            "expected_height_band": [
+              31.5375,
+              31.71875
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                53.900001525878906,
+                31.57088655952724
+              ],
+              [
+                5.05002,
+                53.900001525878906,
+                31.685363812844958
+              ],
+              [
+                5.05002,
+                53.900001525878906,
+                31.71875
+              ],
+              [
+                3.84998,
+                53.900001525878906,
+                31.71875
+              ]
+            ],
+            "expected_plane_y": 53.9,
+            "expected_height_band": [
+              31.5375,
+              31.71875
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                53.900001525878906,
+                31.71875
+              ],
+              [
+                5.05002,
+                53.900001525878906,
+                31.71875
+              ],
+              [
+                5.05002,
+                53.90002,
+                31.71875
+              ],
+              [
+                3.84998,
+                53.90002,
+                31.71875
+              ]
+            ],
+            "expected_plane_y": 53.9,
+            "expected_height_band": [
+              31.5375,
+              31.71875
+            ]
+          }
+        ]
       },
       {
         "prism": 17,
@@ -745,7 +2175,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                54.5,
+                31.74373
+              ],
+              [
+                5.05002,
+                54.5,
+                31.86661343137523
+              ],
+              [
+                3.84998,
+                54.5,
+                31.752136178057512
+              ],
+              [
+                3.84998,
+                54.5,
+                31.74373
+              ]
+            ],
+            "expected_plane_y": 54.5,
+            "expected_height_band": [
+              31.71875,
+              31.9
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                54.5,
+                31.752136178057512
+              ],
+              [
+                5.05002,
+                54.5,
+                31.86661343137523
+              ],
+              [
+                5.05002,
+                54.5,
+                31.899999618530273
+              ],
+              [
+                3.84998,
+                54.5,
+                31.899999618530273
+              ]
+            ],
+            "expected_plane_y": 54.5,
+            "expected_height_band": [
+              31.71875,
+              31.9
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                54.5,
+                31.899999618530273
+              ],
+              [
+                5.05002,
+                54.5,
+                31.899999618530273
+              ],
+              [
+                5.05002,
+                54.50002,
+                31.899999618530273
+              ],
+              [
+                3.84998,
+                54.50002,
+                31.899999618530273
+              ]
+            ],
+            "expected_plane_y": 54.5,
+            "expected_height_band": [
+              31.71875,
+              31.9
+            ]
+          }
+        ]
       },
       {
         "prism": 18,
@@ -766,7 +2291,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                55.099998474121094,
+                31.924979999999998
+              ],
+              [
+                5.05002,
+                55.099998474121094,
+                32.0478630499055
+              ],
+              [
+                3.84998,
+                55.099998474121094,
+                31.933385796587785
+              ],
+              [
+                3.84998,
+                55.099998474121094,
+                31.924979999999998
+              ]
+            ],
+            "expected_plane_y": 55.1,
+            "expected_height_band": [
+              31.9,
+              32.08125
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                55.099998474121094,
+                31.933385796587785
+              ],
+              [
+                5.05002,
+                55.099998474121094,
+                32.0478630499055
+              ],
+              [
+                5.05002,
+                55.099998474121094,
+                32.08124923706055
+              ],
+              [
+                3.84998,
+                55.099998474121094,
+                32.08124923706055
+              ]
+            ],
+            "expected_plane_y": 55.1,
+            "expected_height_band": [
+              31.9,
+              32.08125
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                55.099998474121094,
+                32.08124923706055
+              ],
+              [
+                5.05002,
+                55.099998474121094,
+                32.08124923706055
+              ],
+              [
+                5.05002,
+                55.10002,
+                32.08124923706055
+              ],
+              [
+                3.84998,
+                55.10002,
+                32.08124923706055
+              ]
+            ],
+            "expected_plane_y": 55.1,
+            "expected_height_band": [
+              31.9,
+              32.08125
+            ]
+          }
+        ]
       },
       {
         "prism": 19,
@@ -787,7 +2407,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                55.70000076293945,
+                32.10623
+              ],
+              [
+                5.05002,
+                55.70000076293945,
+                32.22911422445071
+              ],
+              [
+                3.84998,
+                55.70000076293945,
+                32.114635766451656
+              ],
+              [
+                3.84998,
+                55.70000076293945,
+                32.10623
+              ]
+            ],
+            "expected_plane_y": 55.7,
+            "expected_height_band": [
+              32.08125,
+              32.2625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                55.70000076293945,
+                32.114635766451656
+              ],
+              [
+                5.05002,
+                55.70000076293945,
+                32.22911422445071
+              ],
+              [
+                5.05002,
+                55.70000076293945,
+                32.26250076293945
+              ],
+              [
+                3.84998,
+                55.70000076293945,
+                32.26250076293945
+              ]
+            ],
+            "expected_plane_y": 55.7,
+            "expected_height_band": [
+              32.08125,
+              32.2625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                55.70000076293945,
+                32.26250076293945
+              ],
+              [
+                5.05002,
+                55.70000076293945,
+                32.26250076293945
+              ],
+              [
+                5.05002,
+                55.70002,
+                32.26250076293945
+              ],
+              [
+                3.84998,
+                55.70002,
+                32.26250076293945
+              ]
+            ],
+            "expected_plane_y": 55.7,
+            "expected_height_band": [
+              32.08125,
+              32.2625
+            ]
+          }
+        ]
       },
       {
         "prism": 20,
@@ -808,7 +2523,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                56.29999923706055,
+                32.28748
+              ],
+              [
+                5.05002,
+                56.29999923706055,
+                32.410362638299745
+              ],
+              [
+                3.84998,
+                56.29999923706055,
+                32.29588658966336
+              ],
+              [
+                3.84998,
+                56.29999923706055,
+                32.28748
+              ]
+            ],
+            "expected_plane_y": 56.300000000000004,
+            "expected_height_band": [
+              32.2625,
+              32.44375
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                56.29999923706055,
+                32.29588658966336
+              ],
+              [
+                5.05002,
+                56.29999923706055,
+                32.410362638299745
+              ],
+              [
+                5.05002,
+                56.29999923706055,
+                32.443748474121094
+              ],
+              [
+                3.84998,
+                56.29999923706055,
+                32.443748474121094
+              ]
+            ],
+            "expected_plane_y": 56.300000000000004,
+            "expected_height_band": [
+              32.2625,
+              32.44375
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                56.29999923706055,
+                32.443748474121094
+              ],
+              [
+                5.05002,
+                56.29999923706055,
+                32.443748474121094
+              ],
+              [
+                5.05002,
+                56.30002,
+                32.443748474121094
+              ],
+              [
+                3.84998,
+                56.30002,
+                32.443748474121094
+              ]
+            ],
+            "expected_plane_y": 56.300000000000004,
+            "expected_height_band": [
+              32.2625,
+              32.44375
+            ]
+          }
+        ]
       },
       {
         "prism": 21,
@@ -829,7 +2639,102 @@
         ],
         "triangle_interior_intersections": 0,
         "triangle_boundary_contacts": 3,
-        "intentional_step_boundary": true
+        "intentional_step_boundary": true,
+        "geometric_contact_classification": [
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                5.05002,
+                56.900001525878906,
+                32.46873
+              ],
+              [
+                5.05002,
+                56.900001525878906,
+                32.59161346151126
+              ],
+              [
+                3.84998,
+                56.900001525878906,
+                32.4771350035122
+              ],
+              [
+                3.84998,
+                56.900001525878906,
+                32.46873
+              ]
+            ],
+            "expected_plane_y": 56.9,
+            "expected_height_band": [
+              32.44375,
+              32.625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                56.900001525878906,
+                32.4771350035122
+              ],
+              [
+                5.05002,
+                56.900001525878906,
+                32.59161346151126
+              ],
+              [
+                5.05002,
+                56.900001525878906,
+                32.625
+              ],
+              [
+                3.84998,
+                56.900001525878906,
+                32.625
+              ]
+            ],
+            "expected_plane_y": 56.9,
+            "expected_height_band": [
+              32.44375,
+              32.625
+            ]
+          },
+          {
+            "accepted": true,
+            "reason": null,
+            "clipped_contact_vertices": [
+              [
+                3.84998,
+                56.900001525878906,
+                32.625
+              ],
+              [
+                5.05002,
+                56.900001525878906,
+                32.625
+              ],
+              [
+                5.05002,
+                56.90002,
+                32.625
+              ],
+              [
+                3.84998,
+                56.90002,
+                32.625
+              ]
+            ],
+            "expected_plane_y": 56.9,
+            "expected_height_band": [
+              32.44375,
+              32.625
+            ]
+          }
+        ]
       }
     ],
     "clear": true,
@@ -6736,7 +8641,7 @@
     }
   ],
   "sampled_occupancy_clear": true,
-  "seconds": 1.2750616073608398,
+  "seconds": 1.2796590328216553,
   "limits": "Known named open terrain/path sheets are surface-collision-tested and make no enclosed-volume claim. Unknown open candidates fail. Discrete samples only, not continuous-volume proof. v012 L-route to existing covered terrace; not an open-sky courtyard or dynamic navigation certification.",
   "route_acceptance_pass": true
 }
