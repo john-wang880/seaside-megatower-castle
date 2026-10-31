@@ -1,0 +1,60 @@
+{
+  "model_sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
+  "resolution": [
+    1600,
+    1155
+  ],
+  "reviewed_at_original_resolution": true,
+  "hero": "Crisp architecture silhouette and facade edges; no obvious new black seams, isolated fireflies or exterior lantern wash. Existing angular shoreline geology and stylized grass retained.",
+  "bend": "Stone textures, floor-wall joins, fixture bracket and stair edges readable; no visible floating fixture attachment, black cut-face bands or isolated bright speckles. Strong ceiling/wall shadows follow lantern housings; upper terrace remains dim beyond this inspected route.",
+  "acceptance": "No new rendering blocker found in these two views; this is image QA, not geometry/photometric safety certification.",
+  "runs": {
+    "hero": {
+      "source": "castle_v013.blend",
+      "sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
+      "runtime": "5.2.3 LTS",
+      "camera": [
+        [
+          115,
+          -470,
+          24
+        ],
+        [
+          -35,
+          35,
+          85
+        ],
+        43
+      ],
+      "samples": 64,
+      "seconds": 203.8631875514984,
+      "saved": false,
+      "peak_rss_linux_kib": 2557928,
+      "lighting": "actual scene practical lanterns; original world and lights retained; no diagnostic lights"
+    },
+    "bend": {
+      "source": "castle_v013.blend",
+      "sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
+      "runtime": "5.2.3 LTS",
+      "camera": [
+        [
+          4.45,
+          38.1,
+          30.6
+        ],
+        [
+          4.45,
+          49,
+          31
+        ],
+        28
+      ],
+      "samples": 96,
+      "seconds": 350.6874098777771,
+      "saved": false,
+      "peak_rss_linux_kib": 2563604,
+      "lighting": "actual scene practical lanterns; original world and lights retained; no diagnostic lights"
+    }
+  },
+  "performance_note": "Parallel CPU rendering; elapsed times are observations, not comparable speed benchmarks."
+}

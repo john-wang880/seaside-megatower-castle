@@ -7,8 +7,8 @@
 沿入口—L形转角—20级台阶通往北侧有顶露台，新增4具真实壁灯笼和局部暖光，让原本近黑的内廊可读。原世界、太阳、曝光、灯光及全部来源几何保持不变；**新增局部照明是实际场景改动，不是诊断补光**。不是全城堡导航完成版。
 
 - [入口实际照明](checkpoints/v013/previews/v013_east_portal.png)
-- [内廊实际照明](checkpoints/v013/previews/v013_bend.png)
-- [整体全景](checkpoints/v013/previews/v013_hero.png)
+- [内廊实际照明](checkpoints/v013/previews/v013_bend_highres.png)
+- [整体全景](checkpoints/v013/previews/v013_hero_highres.png)
 - [模型清单](checkpoints/v013/MANIFEST.json)
 - [验证和适用边界](checkpoints/v013/README.md)
 - [后续计划](CONTINUATION.md)
