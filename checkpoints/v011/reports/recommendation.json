@@ -1,0 +1,34 @@
+{
+  "source": "castle_v010.blend",
+  "source_sha256": "791c806a8638c2cf916dffdea51e21d288eaeaaf0983b964f11a0fed616e6bcf",
+  "candidate_objects_and_meshes": [
+    {
+      "object": "V007 | woodland boughs minus gate-intersecting tree",
+      "mesh": "V007 | woodland boughs minus gate-intersecting tree"
+    },
+    {
+      "object": "V007 | woodland trunks minus gate-intersecting tree",
+      "mesh": "V007 | woodland trunks minus gate-intersecting tree"
+    },
+    {
+      "object": "V009 | woodland boughs with western approach clearance",
+      "mesh": "V009 | woodland boughs with western approach clearance"
+    },
+    {
+      "object": "V009 | woodland trunks with western approach clearance",
+      "mesh": "V009 | woodland trunks with western approach clearance"
+    }
+  ],
+  "core_geometry_estimate_bytes": 49520760,
+  "polygons_removed_if_approved": 748222,
+  "visible_polygons_unchanged": 657709,
+  "hidden_polygons_after_if_approved": 520545,
+  "authority": "Audit only; parent approval required before removal",
+  "preserve": [
+    "Dense western woodland | irregular three-dimensional needle boughs",
+    "Woodland tree trunks",
+    "V010 | woodland boughs with gate exit clearance",
+    "V010 | woodland trunks with gate exit clearance"
+  ],
+  "limits": "Core geometry estimate excludes attributes/allocator/caches; does not predict compressed file savings or render speed. Older per-version replay scripts should use archived source checkpoints, not pruned latest scene."
+}

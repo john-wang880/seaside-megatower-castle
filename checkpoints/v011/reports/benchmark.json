@@ -1,0 +1,97 @@
+{
+  "010": {
+    "runs": [
+      {
+        "model": "castle_v010.blend",
+        "sha256": "791c806a8638c2cf916dffdea51e21d288eaeaaf0983b964f11a0fed616e6bcf",
+        "bytes": 54307405,
+        "load_seconds": 0.5227984779994586,
+        "process_peak_rss_kib": 535656,
+        "objects": 116,
+        "meshes": 106,
+        "visible_polygons": 657709,
+        "hidden_polygons": 1268767,
+        "runtime": "5.2.3 LTS",
+        "scope": "One isolated Blender process, warm filesystem cache; peak captured immediately after load before streaming hash, includes process startup. Concurrent render can affect timing. No render-performance claim."
+      },
+      {
+        "model": "castle_v010.blend",
+        "sha256": "791c806a8638c2cf916dffdea51e21d288eaeaaf0983b964f11a0fed616e6bcf",
+        "bytes": 54307405,
+        "load_seconds": 0.4148571890000312,
+        "process_peak_rss_kib": 534896,
+        "objects": 116,
+        "meshes": 106,
+        "visible_polygons": 657709,
+        "hidden_polygons": 1268767,
+        "runtime": "5.2.3 LTS",
+        "scope": "One isolated Blender process, warm filesystem cache; peak captured immediately after load before streaming hash, includes process startup. Concurrent render can affect timing. No render-performance claim."
+      },
+      {
+        "model": "castle_v010.blend",
+        "sha256": "791c806a8638c2cf916dffdea51e21d288eaeaaf0983b964f11a0fed616e6bcf",
+        "bytes": 54307405,
+        "load_seconds": 0.48482274200068787,
+        "process_peak_rss_kib": 538620,
+        "objects": 116,
+        "meshes": 106,
+        "visible_polygons": 657709,
+        "hidden_polygons": 1268767,
+        "runtime": "5.2.3 LTS",
+        "scope": "One isolated Blender process, warm filesystem cache; peak captured immediately after load before streaming hash, includes process startup. Concurrent render can affect timing. No render-performance claim."
+      }
+    ],
+    "median_load_seconds": 0.48482274200068787,
+    "median_peak_rss_kib": 535656,
+    "model_bytes": 54307405
+  },
+  "011": {
+    "runs": [
+      {
+        "model": "castle_v011.blend",
+        "sha256": "95b9de7c661817f7cb00dfb531724355d49a33983a6b02b0305959ac4d06c2fe",
+        "bytes": 32691218,
+        "load_seconds": 0.36838401699969836,
+        "process_peak_rss_kib": 492248,
+        "objects": 112,
+        "meshes": 102,
+        "visible_polygons": 657709,
+        "hidden_polygons": 520545,
+        "runtime": "5.2.3 LTS",
+        "scope": "One isolated Blender process, warm filesystem cache; peak captured immediately after load before streaming hash, includes process startup. Concurrent render can affect timing. No render-performance claim."
+      },
+      {
+        "model": "castle_v011.blend",
+        "sha256": "95b9de7c661817f7cb00dfb531724355d49a33983a6b02b0305959ac4d06c2fe",
+        "bytes": 32691218,
+        "load_seconds": 0.4211293799999112,
+        "process_peak_rss_kib": 496868,
+        "objects": 112,
+        "meshes": 102,
+        "visible_polygons": 657709,
+        "hidden_polygons": 520545,
+        "runtime": "5.2.3 LTS",
+        "scope": "One isolated Blender process, warm filesystem cache; peak captured immediately after load before streaming hash, includes process startup. Concurrent render can affect timing. No render-performance claim."
+      },
+      {
+        "model": "castle_v011.blend",
+        "sha256": "95b9de7c661817f7cb00dfb531724355d49a33983a6b02b0305959ac4d06c2fe",
+        "bytes": 32691218,
+        "load_seconds": 0.3776066099999298,
+        "process_peak_rss_kib": 495372,
+        "objects": 112,
+        "meshes": 102,
+        "visible_polygons": 657709,
+        "hidden_polygons": 520545,
+        "runtime": "5.2.3 LTS",
+        "scope": "One isolated Blender process, warm filesystem cache; peak captured immediately after load before streaming hash, includes process startup. Concurrent render can affect timing. No render-performance claim."
+      }
+    ],
+    "median_load_seconds": 0.3776066099999298,
+    "median_peak_rss_kib": 495372,
+    "model_bytes": 32691218
+  },
+  "file_size_reduction_percent": 39.803387770047195,
+  "median_peak_rss_reduction_percent": 7.520498230207451,
+  "limits": "Isolated-process warm-cache observations; RSS before streaming hash. Startup included; other renders may run, so timing is noisy, not general speedup."
+}

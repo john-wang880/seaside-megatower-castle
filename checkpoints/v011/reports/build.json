@@ -1,0 +1,49 @@
+{
+  "version": "v011",
+  "scope": "Only redundant hidden intermediate forest copies removed; full originals and latest visible geometry preserved. No architectural or lighting change.",
+  "runtime": "5.2.3 LTS",
+  "source_sha256": "791c806a8638c2cf916dffdea51e21d288eaeaaf0983b964f11a0fed616e6bcf",
+  "output_sha256": "95b9de7c661817f7cb00dfb531724355d49a33983a6b02b0305959ac4d06c2fe",
+  "source_bytes": 54307405,
+  "output_bytes": 32691218,
+  "removed": [
+    {
+      "object": "V007 | woodland boughs minus gate-intersecting tree",
+      "mesh": "V007 | woodland boughs minus gate-intersecting tree",
+      "vertices": 204154,
+      "polygons": 311206,
+      "rollback_commit": "38f9d594ea390e03b35a87921e6d0e7f19d232cc",
+      "mesh_users_before": 1
+    },
+    {
+      "object": "V007 | woodland trunks minus gate-intersecting tree",
+      "mesh": "V007 | woodland trunks minus gate-intersecting tree",
+      "vertices": 130530,
+      "polygons": 65060,
+      "rollback_commit": "38f9d594ea390e03b35a87921e6d0e7f19d232cc",
+      "mesh_users_before": 1
+    },
+    {
+      "object": "V009 | woodland boughs with western approach clearance",
+      "mesh": "V009 | woodland boughs with western approach clearance",
+      "vertices": 204154,
+      "polygons": 307976,
+      "rollback_commit": "38f9d594ea390e03b35a87921e6d0e7f19d232cc",
+      "mesh_users_before": 1
+    },
+    {
+      "object": "V009 | woodland trunks with western approach clearance",
+      "mesh": "V009 | woodland trunks with western approach clearance",
+      "vertices": 130530,
+      "polygons": 63980,
+      "rollback_commit": "38f9d594ea390e03b35a87921e6d0e7f19d232cc",
+      "mesh_users_before": 1
+    }
+  ],
+  "preserved_forest_objects": [
+    "Dense western woodland | irregular three-dimensional needle boughs",
+    "Woodland tree trunks",
+    "V010 | woodland boughs with gate exit clearance",
+    "V010 | woodland trunks with gate exit clearance"
+  ]
+}
