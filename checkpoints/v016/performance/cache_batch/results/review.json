@@ -1,0 +1,30 @@
+{
+  "recipe_snapshot_sha256": "45c494f9b5e9603c7401ffa7400fb88143942fa6e40d9399fae28a191403c01e",
+  "current_v016_manifest_sha256": "5d314b01186f9ea121fd51c7c4c25693a45639e87e9e66a37644e23b7722d59d",
+  "hero_bend_recipe_records_exactly_equal_to_current_v016": {
+    "hero": true,
+    "bend": true
+  },
+  "camera_pose_checks": [
+    {
+      "persistent_data": false,
+      "translation_max_error_m": 1.5258789076710855e-06,
+      "forward_vector_max_error": 4.510717001304787e-08,
+      "matrix_is_not_stale_identity": true,
+      "note": "Pre-render recorded matrix matches recipe numerically. No supplemental render or source load was needed."
+    },
+    {
+      "persistent_data": true,
+      "translation_max_error_m": 1.5258789076710855e-06,
+      "forward_vector_max_error": 4.510717001304787e-08,
+      "matrix_is_not_stale_identity": true,
+      "note": "Pre-render recorded matrix matches recipe numerically. No supplemental render or source load was needed."
+    }
+  ],
+  "peak_memory_increase_kib": 66900,
+  "peak_memory_increase_percent": 4.8411046691694715,
+  "elapsed_reduction_percent": 3.2610154193205787,
+  "visual_qa": "Inspected ON bend: correct interior route and lighting, no new image anomaly; corresponding OFF image pixels exactly equal. All corresponding hero pixels exact as well.",
+  "recommendation": "Do not adopt persistent-data default on this evidence alone: only about 3.3 percent batch elapsed reduction from one fixed-order comparison, with increased peak memory. Source and profile remain unchanged.",
+  "scope": "Unchanged scene, camera-only transition, not arbitrary mutation safety."
+}

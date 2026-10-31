@@ -1,0 +1,34 @@
+{
+  "source_sha256_after": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "comparisons": [
+    {
+      "frame": "01_hero.png",
+      "decoded_exact": true,
+      "max_channel_difference_8bit": 0,
+      "mean_absolute_channel_difference_8bit": 0.0,
+      "settings_equal_except_output_and_cache": true
+    },
+    {
+      "frame": "02_bend.png",
+      "decoded_exact": true,
+      "max_channel_difference_8bit": 0,
+      "mean_absolute_channel_difference_8bit": 0.0,
+      "settings_equal_except_output_and_cache": true
+    },
+    {
+      "frame": "03_hero.png",
+      "decoded_exact": true,
+      "max_channel_difference_8bit": 0,
+      "mean_absolute_channel_difference_8bit": 0.0,
+      "settings_equal_except_output_and_cache": true
+    }
+  ],
+  "all_corresponding_pixels_exact": true,
+  "all_corresponding_settings_equal": true,
+  "off_total_render_seconds": 210.0737877050051,
+  "on_total_render_seconds": 203.2232490959941,
+  "observed_batch_speed_ratio": 1.0337094236977535,
+  "off_peak_rss_linux_kib": 1381916,
+  "on_peak_rss_linux_kib": 1448816,
+  "limitation": "Single OFF then ON batch, unchanged scene, camera-only transitions. Not arbitrary mutation cache safety or a general performance guarantee. No profile/source changes saved."
+}
