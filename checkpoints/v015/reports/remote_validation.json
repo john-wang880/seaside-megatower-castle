@@ -1,0 +1,25 @@
+{
+  "remote_commit": "395ee54986c7d99457f81ab034e4ead8799d9e63",
+  "fresh_remote_archive_checksums_pass": true,
+  "model_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+  "model_bytes": 34895559,
+  "byte_exact_restore": true,
+  "storage_tests_passed": 10,
+  "blender_reopened": true,
+  "checks_passed": [
+    "hinge_contacts",
+    "route_envelope",
+    "architecture",
+    "previous_approaches",
+    "bridge_span",
+    "door_architecture",
+    "source_preservation",
+    "route_support"
+  ],
+  "original_scene_preserved": true,
+  "new_mesh_objects": 20,
+  "new_materials": 0,
+  "new_lights": 0,
+  "previous_verified_v014_history_commit": "e9babb581b6b6c84adb8104985fcfee1689a23dc",
+  "limits": "Four static hinge support assemblies; not articulation, structural capacity or whole-castle navigation certification. Diagnostic preview temporary neutral fill is not saved lighting."
+}

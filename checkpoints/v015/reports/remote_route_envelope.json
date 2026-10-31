@@ -1,6 +1,6 @@
 {
-  "model": "castle_v014.blend",
-  "model_sha256": "83ea4d898b232e1f9d5f3ee314d16227a3fb31b954f88e4e5c3bdb5be8c2add5",
+  "model": "castle_v015.blend",
+  "model_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
   "method": "separate evaluated connected components; strict closed-edge test; three agreeing oblique ray parities; evaluated-object AABB broadphase",
   "synthetic_regressions": {
     "cube_inside": true,
@@ -8638,10 +8638,52 @@
       "components": 1,
       "candidate_components": 0,
       "modifiers_evaluated": []
+    },
+    {
+      "object": "V015 | north hinge lower barrel",
+      "evaluated_vertices": 48,
+      "components": 1,
+      "candidate_components": 0,
+      "modifiers_evaluated": []
+    },
+    {
+      "object": "V015 | north hinge lower pintle",
+      "evaluated_vertices": 8,
+      "components": 1,
+      "candidate_components": 0,
+      "modifiers_evaluated": []
+    },
+    {
+      "object": "V015 | north hinge lower wall anchor",
+      "evaluated_vertices": 8,
+      "components": 1,
+      "candidate_components": 0,
+      "modifiers_evaluated": []
+    },
+    {
+      "object": "V015 | north hinge upper barrel",
+      "evaluated_vertices": 48,
+      "components": 1,
+      "candidate_components": 0,
+      "modifiers_evaluated": []
+    },
+    {
+      "object": "V015 | north hinge upper pintle",
+      "evaluated_vertices": 8,
+      "components": 1,
+      "candidate_components": 0,
+      "modifiers_evaluated": []
+    },
+    {
+      "object": "V015 | north hinge upper wall anchor",
+      "evaluated_vertices": 8,
+      "components": 1,
+      "candidate_components": 0,
+      "modifiers_evaluated": []
     }
   ],
   "sampled_occupancy_clear": true,
-  "seconds": 1.2355718612670898,
+  "seconds": 1.4010365009307861,
   "limits": "Known named open terrain/path sheets are surface-collision-tested and make no enclosed-volume claim. Unknown open candidates fail. Discrete samples only, not continuous-volume proof. v012 L-route to existing covered terrace; not an open-sky courtyard or dynamic navigation certification.",
   "route_acceptance_pass": true
 }

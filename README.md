@@ -14,3 +14,5 @@
 - [持续计划](CONTINUATION.md)
 
 旧版仅从当前目录撤下，Git历史保留。新版本独立远端恢复通过后才清理旧当前载荷；不强推、不清除历史。
+
+v015已从提交`395ee54986c7d99457f81ab034e4ead8799d9e63`独立恢复并通过Blender检查，见[远端验证](checkpoints/v015/reports/remote_validation.json)。当前目录只保留v015；旧版由Git历史恢复。

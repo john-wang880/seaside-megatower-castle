@@ -1,6 +1,6 @@
 {
-  "source_sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
-  "candidate_sha256": "83ea4d898b232e1f9d5f3ee314d16227a3fb31b954f88e4e5c3bdb5be8c2add5",
+  "source_sha256": "83ea4d898b232e1f9d5f3ee314d16227a3fb31b954f88e4e5c3bdb5be8c2add5",
+  "candidate_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
   "source_file_unchanged": true,
   "candidate_file_unchanged": true,
   "allowed_removed_objects": [],
@@ -8,32 +8,60 @@
   "removed_meshes": [],
   "removed_objects_were_hidden": true,
   "original_full_forest_and_latest_visible_preserved": true,
-  "remaining_meshes_checked": 166,
-  "visible_evaluated_meshes_checked": 149,
+  "remaining_meshes_checked": 186,
+  "visible_evaluated_meshes_checked": 169,
   "differences": {
     "objects": [],
     "objects_added": [
-      "V014 | landing marker cage upright 0",
-      "V014 | landing marker cage upright 1",
-      "V014 | landing marker cage upright 2",
-      "V014 | landing marker cage upright 3",
-      "V014 | landing marker hood rim",
-      "V014 | landing marker lower cup",
-      "V014 | landing marker luminous flame",
-      "V014 | landing marker mounting plate",
-      "V014 | landing marker practical warm source",
-      "V014 | landing marker rain hood",
-      "V014 | landing marker wall arm"
+      "V015 | north hinge lower barrel",
+      "V015 | north hinge lower neck",
+      "V015 | north hinge lower pin cap",
+      "V015 | north hinge lower pintle",
+      "V015 | north hinge lower wall anchor",
+      "V015 | north hinge upper barrel",
+      "V015 | north hinge upper neck",
+      "V015 | north hinge upper pin cap",
+      "V015 | north hinge upper pintle",
+      "V015 | north hinge upper wall anchor",
+      "V015 | south hinge lower barrel",
+      "V015 | south hinge lower neck",
+      "V015 | south hinge lower pin cap",
+      "V015 | south hinge lower pintle",
+      "V015 | south hinge lower wall anchor",
+      "V015 | south hinge upper barrel",
+      "V015 | south hinge upper neck",
+      "V015 | south hinge upper pin cap",
+      "V015 | south hinge upper pintle",
+      "V015 | south hinge upper wall anchor"
     ],
     "meshes": [],
-    "meshes_added": [],
+    "meshes_added": [
+      "V015 | north hinge lower barrel",
+      "V015 | north hinge lower neck",
+      "V015 | north hinge lower pin cap",
+      "V015 | north hinge lower pintle",
+      "V015 | north hinge lower wall anchor",
+      "V015 | north hinge upper barrel",
+      "V015 | north hinge upper neck",
+      "V015 | north hinge upper pin cap",
+      "V015 | north hinge upper pintle",
+      "V015 | north hinge upper wall anchor",
+      "V015 | south hinge lower barrel",
+      "V015 | south hinge lower neck",
+      "V015 | south hinge lower pin cap",
+      "V015 | south hinge lower pintle",
+      "V015 | south hinge lower wall anchor",
+      "V015 | south hinge upper barrel",
+      "V015 | south hinge upper neck",
+      "V015 | south hinge upper pin cap",
+      "V015 | south hinge upper pintle",
+      "V015 | south hinge upper wall anchor"
+    ],
     "materials": [],
     "materials_added": [],
     "materials_removed": [],
     "lights": [],
-    "lights_added": [
-      "V014 | low-power landing practical"
-    ],
+    "lights_added": [],
     "lights_removed": [],
     "cameras": [],
     "cameras_added": [],
@@ -43,16 +71,26 @@
     "worlds_removed": [],
     "visible_evaluated": [],
     "visible_evaluated_added": [
-      "V014 | landing marker cage upright 0",
-      "V014 | landing marker cage upright 1",
-      "V014 | landing marker cage upright 2",
-      "V014 | landing marker cage upright 3",
-      "V014 | landing marker hood rim",
-      "V014 | landing marker lower cup",
-      "V014 | landing marker luminous flame",
-      "V014 | landing marker mounting plate",
-      "V014 | landing marker rain hood",
-      "V014 | landing marker wall arm"
+      "V015 | north hinge lower barrel",
+      "V015 | north hinge lower neck",
+      "V015 | north hinge lower pin cap",
+      "V015 | north hinge lower pintle",
+      "V015 | north hinge lower wall anchor",
+      "V015 | north hinge upper barrel",
+      "V015 | north hinge upper neck",
+      "V015 | north hinge upper pin cap",
+      "V015 | north hinge upper pintle",
+      "V015 | north hinge upper wall anchor",
+      "V015 | south hinge lower barrel",
+      "V015 | south hinge lower neck",
+      "V015 | south hinge lower pin cap",
+      "V015 | south hinge lower pintle",
+      "V015 | south hinge lower wall anchor",
+      "V015 | south hinge upper barrel",
+      "V015 | south hinge upper neck",
+      "V015 | south hinge upper pin cap",
+      "V015 | south hinge upper pintle",
+      "V015 | south hinge upper wall anchor"
     ],
     "visible_evaluated_removed": [],
     "scene": [],
@@ -8764,6 +8802,1006 @@
         72
       ]
     ],
+    "V015 | north hinge lower barrel": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        48
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        48
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        72
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        72
+      ]
+    ],
+    "V015 | north hinge lower neck": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        12
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        12
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        36
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        36
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        8
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        8
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        18
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        18
+      ]
+    ],
+    "V015 | north hinge lower pin cap": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        48
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        48
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        72
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        72
+      ]
+    ],
+    "V015 | north hinge lower pintle": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        8
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        8
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        12
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        12
+      ]
+    ],
+    "V015 | north hinge lower wall anchor": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        8
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        8
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        12
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        12
+      ]
+    ],
+    "V015 | north hinge upper barrel": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        48
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        48
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        72
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        72
+      ]
+    ],
+    "V015 | north hinge upper neck": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        12
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        12
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        36
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        36
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        8
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        8
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        18
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        18
+      ]
+    ],
+    "V015 | north hinge upper pin cap": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        48
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        48
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        72
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        72
+      ]
+    ],
+    "V015 | north hinge upper pintle": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        8
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        8
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        12
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        12
+      ]
+    ],
+    "V015 | north hinge upper wall anchor": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        8
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        8
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        12
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        12
+      ]
+    ],
+    "V015 | south hinge lower barrel": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        48
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        48
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        72
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        72
+      ]
+    ],
+    "V015 | south hinge lower neck": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        12
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        12
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        36
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        36
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        8
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        8
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        18
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        18
+      ]
+    ],
+    "V015 | south hinge lower pin cap": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        48
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        48
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        72
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        72
+      ]
+    ],
+    "V015 | south hinge lower pintle": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        8
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        8
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        12
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        12
+      ]
+    ],
+    "V015 | south hinge lower wall anchor": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        8
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        8
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        12
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        12
+      ]
+    ],
+    "V015 | south hinge upper barrel": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        48
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        48
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        72
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        72
+      ]
+    ],
+    "V015 | south hinge upper neck": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        12
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        12
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        36
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        36
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        8
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        8
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        18
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        18
+      ]
+    ],
+    "V015 | south hinge upper pin cap": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        48
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        48
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        144
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        26
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        72
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        72
+      ]
+    ],
+    "V015 | south hinge upper pintle": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        8
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        8
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        12
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        12
+      ]
+    ],
+    "V015 | south hinge upper wall anchor": [
+      [
+        ".select_vert",
+        "BOOLEAN",
+        "POINT",
+        8
+      ],
+      [
+        "position",
+        "FLOAT_VECTOR",
+        "POINT",
+        8
+      ],
+      [
+        ".corner_vert",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".corner_edge",
+        "INT",
+        "CORNER",
+        24
+      ],
+      [
+        ".select_poly",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        "sharp_face",
+        "BOOLEAN",
+        "FACE",
+        6
+      ],
+      [
+        ".edge_verts",
+        "INT32_2D",
+        "EDGE",
+        12
+      ],
+      [
+        ".select_edge",
+        "BOOLEAN",
+        "EDGE",
+        12
+      ]
+    ],
     "Volume cloud bank | central remote bounds": [
       [
         ".select_vert",
@@ -9622,7 +10660,7 @@
     ]
   },
   "scope": "Deep semantic identity of all remaining persisted mesh topology/attribute fields, material slots, deform weights, shape keys, computed corner normals, node graphs, transforms and evaluated visible mesh data. Exact blend file bytes intentionally differ; source/candidate themselves not saved.",
-  "seconds": 14.28959345817566,
+  "seconds": 14.146049976348877,
   "addition_counts_valid": true,
   "source_preservation_pass": true
 }
