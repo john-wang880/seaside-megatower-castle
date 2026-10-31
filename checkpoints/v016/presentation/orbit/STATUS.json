@@ -1,0 +1,13 @@
+{
+  "stage": "recipe_and_resume_code_backed_up_before_long_render",
+  "final_animation_rendered": false,
+  "source_model_changed": false,
+  "expected_frames": 96,
+  "fps": 12,
+  "resolution": [
+    960,
+    694
+  ],
+  "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "note": "Five low-resolution feasibility frames exist, not a completed animation. Final rendering may start after remote checkpoint verification; verify per-frame receipts on recovery."
+}

@@ -1,0 +1,89 @@
+{
+  "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "preview_count": 5,
+  "preview_resolution": [
+    640,
+    462
+  ],
+  "preview_samples": 16,
+  "preview_mean_seconds": 57.854463634402784,
+  "preview_min_max_seconds": [
+    57.06206554000528,
+    58.526963867007
+  ],
+  "measured_frame_timings": [
+    {
+      "view": "key_001",
+      "elapsed_seconds": 58.417197221002425,
+      "cycles_metadata": {
+        "cycles.ViewLayer.samples": "16",
+        "cycles.ViewLayer.total_time": "00:58.18",
+        "cycles.ViewLayer.render_time": "00:03.65",
+        "cycles.ViewLayer.synchronization_time": "00:54.53"
+      }
+    },
+    {
+      "view": "key_025",
+      "elapsed_seconds": 57.53361804100132,
+      "cycles_metadata": {
+        "cycles.ViewLayer.samples": "16",
+        "cycles.ViewLayer.total_time": "00:57.30",
+        "cycles.ViewLayer.render_time": "00:04.29",
+        "cycles.ViewLayer.synchronization_time": "00:53.01"
+      }
+    },
+    {
+      "view": "key_049",
+      "elapsed_seconds": 57.06206554000528,
+      "cycles_metadata": {
+        "cycles.ViewLayer.samples": "16",
+        "cycles.ViewLayer.total_time": "00:56.83",
+        "cycles.ViewLayer.render_time": "00:04.18",
+        "cycles.ViewLayer.synchronization_time": "00:52.64"
+      }
+    },
+    {
+      "view": "key_072",
+      "elapsed_seconds": 58.526963867007,
+      "cycles_metadata": {
+        "cycles.ViewLayer.samples": "16",
+        "cycles.ViewLayer.total_time": "00:58.29",
+        "cycles.ViewLayer.render_time": "00:03.77",
+        "cycles.ViewLayer.synchronization_time": "00:54.52"
+      }
+    },
+    {
+      "view": "key_096",
+      "elapsed_seconds": 57.73247350299789,
+      "cycles_metadata": {
+        "cycles.ViewLayer.samples": "16",
+        "cycles.ViewLayer.total_time": "00:57.50",
+        "cycles.ViewLayer.render_time": "00:03.96",
+        "cycles.ViewLayer.synchronization_time": "00:53.53"
+      }
+    }
+  ],
+  "proposed_path": "8 seconds at12fps,96 genuine Blender camera frames;40-degree frontal partial arc,not360",
+  "visual_findings": [
+    "All five keyframes keep both tower tops and principal rocky coastline inside frame.",
+    "No cloud or foreground-tree blockage of the tower silhouettes in the five inspected keyframes.",
+    "Offshore marker is naturally hidden behind main headland at start, emerges by middle; not a missing-object failure.",
+    "Meadow continues beyond left image boundary; this is framed castle/coast,not an entire-island survey.",
+    "Camera translates around castle with visible parallax; reflections and noise must still be checked temporally in final sequence."
+  ],
+  "path_bounds_report": "path_plan.json: conservative selected evaluated-geometry AABB projections checked atall96plannedpositions; no all-ray occlusion or fullscene traversal guarantee.",
+  "estimate": {
+    "same_preview_quality_96_frames_minutes": 92.56714181504445,
+    "same_preview_quality_with20percent_margin_minutes": 111.08057017805334,
+    "original80_sample_final_96frames_estimated_minutes_range": [
+      110,
+      150
+    ],
+    "estimate_basis": "Measured~58seconds/keyframe at640x462/16samples; previous1200x866/original80sample hero81.24seconds.96frames at81.24seconds\u2248130minutes. Final-resolution/sample costs are extrapolations,not measured guarantee.",
+    "24fps_same8seconds": "192genuineframes roughly doubles rendercost; not recommended for bounded first preview."
+  },
+  "recommendation": "Approve only8seconds12fps first. Keep80samples for final fidelity if budget110\u2013150minutes acceptable; resolution960x694 is a reasonable unmeasured middle option. Do not launch untilownerdecision.",
+  "ffmpeg": "Available/usr/bin/ffmpeg7.1.5; noinstallationneeded. Encodingpossible afteractualframes, audioomitted.",
+  "source_saved": false,
+  "long_sequence_started": false
+}
