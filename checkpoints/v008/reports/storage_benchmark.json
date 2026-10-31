@@ -1,0 +1,31 @@
+{
+  "v007": {
+    "model_bytes": 31465624,
+    "frame_count": 81,
+    "largest_frame_bytes": 1046640,
+    "sha256": "9d0640e5998043d3abe30f075b673a2d8cc7ca2cc74917a2e8f9f2bdb712d6a2"
+  },
+  "v008": {
+    "model_bytes": 32051860,
+    "frame_count": 81,
+    "largest_frame_bytes": 1046640,
+    "sha256": "d27f34b8d70516130e1d45b4ea728273333d6cad040d2da31b7479698fc767cf"
+  },
+  "v008_repeat": {
+    "model_bytes": 32051850,
+    "frame_count": 81,
+    "largest_frame_bytes": 1046640,
+    "sha256": "dfb4933c307718ccd0b8e5ad0c30e1ab69f545df30e2cacef58d1f84f3e78c4b"
+  },
+  "v007\u2192v008": {
+    "reused_bytes": 22326930,
+    "new_bytes": 9724930,
+    "reuse_fraction": 0.6965876551314026
+  },
+  "v008\u2192v008_repeat": {
+    "reused_bytes": 30626533,
+    "new_bytes": 1425317,
+    "reuse_fraction": 0.9555308975924947
+  },
+  "standard_python_restore_byte_exact": true
+}

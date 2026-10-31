@@ -14,4 +14,4 @@
 
 公开仓库只保存项目成果和必要恢复信息，不保存凭据、私人资料、内部记录或临时文件。不要同时启动两个会写入同一版本的工作进程。
 
-备份效率待改进：压缩 blend 每版约 30 MB。后续研究标准 Python 可恢复的内容寻址分块，复用不变数据，避免无意义增加 Git 历史体积。
+备份使用标准 Python 的内容寻址分块：scripts/package_checkpoint.py 根据原始 Zstd seek table 切分压缩字节，不重新编码。恢复并验证后，才清理当前树里不再被最新 MANIFEST 引用的 model_chunks；Git 历史保留。先跑 python -m unittest discover -s tests，再进行真实模型恢复、Blender 重开和几何验证。基准 v007→v008 约 69.7% 模型载荷字节可复用；这是载荷复用，不是已存在 Git 历史缩减。

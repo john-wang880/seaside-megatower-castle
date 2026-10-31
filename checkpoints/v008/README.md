@@ -24,12 +24,16 @@
 
 ## 恢复与重建
 
-下载本目录全部 castle-v008.zip.part*、MANIFEST.json、restore_checkpoint.py，运行：
+下载/克隆整个仓库（需包含根目录 model_chunks/），然后运行：
 
 ```
-python restore_checkpoint.py
+python checkpoints/v008/restore_checkpoint.py
 ```
 
-恢复后用 Blender 5.2.3 LTS 或兼容版本打开 restored/castle_v008.blend，并关闭自动执行。脚本校验所有分片、完整 ZIP 和模型 SHA-256。
+恢复到 checkpoints/v008/restored/castle_v008.blend。脚本使用标准 Python，校验每个内容寻址块和完整模型 SHA-256，不需要安装压缩库。模型原始压缩字节不重新编码，恢复结果与验证模型逐字节相同；使用 Blender 5.2.3 LTS 或兼容版本，关闭自动执行后打开。
+
+MANIFEST.json 按原始顺序引用 model_chunks/ 中的 SHA-256 文件。未变化的数据块可在后续版本复用，减少重复备份载荷。恢复时不会覆盖内容不同的已有模型；可用 --output 指定另一个输出文件。
+
+旧 ZIP 分片恢复格式仍可在提交 4ff652e7100ac265d8f12a070b350fb37bb41868 中使用。
 
 重建脚本 scripts/refine_v008.py 需要 v007 源模型，拒绝覆盖输入或在已加工的 v008 上重复叠加。v007 可从 Git 提交 4678deec80b81e20ffbc396c632ca881ca5b6740 恢复。
