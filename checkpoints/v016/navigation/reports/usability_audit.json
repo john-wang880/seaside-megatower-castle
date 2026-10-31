@@ -1,0 +1,29 @@
+{
+  "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+  "strongest_issue": "Finished entrance-to-north-terrace route has no saved inspection cameras or in-file navigation guide; other workspaces still orbit world origin near/below ground.",
+  "positive_findings": [
+    "Layout correctly opens in existing hero camera",
+    "Five exterior cameras retained",
+    "No external images, fonts, libraries or cache dependencies",
+    "Hidden originals retained without global collection visibility edits"
+  ],
+  "measured_evidence": {
+    "modeling_orbit_center": [
+      0,
+      0,
+      0
+    ],
+    "modeling_view_distance": 17.98656,
+    "interior_floor_z": 29,
+    "all_saved_cameras_exterior": true,
+    "camera_count": 5,
+    "text_blocks": 0,
+    "active_object": "V013 | stair luminous flame",
+    "active_object_dimensions": [
+      0.05,
+      0.05,
+      0.11
+    ]
+  },
+  "implemented_scope": "Optional explicitly requested separate viewer copy,5owned cameras plus activecamera/selection/savedviewports; canonicalbytesunchanged. Not a newmodelversion."
+}

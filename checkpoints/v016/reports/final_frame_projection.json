@@ -1,0 +1,73 @@
+{
+  "model_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "camera": {
+    "label": "Offshore marker and supported stair",
+    "camera_name": "REVIEW | 06 Offshore marker",
+    "location": [
+      164.62448120117188,
+      130.65777587890625,
+      36.22731018066406
+    ],
+    "target": [
+      119.0,
+      195.0,
+      14.0
+    ],
+    "lens": 45.0,
+    "clip_start": 0.05,
+    "clip_end": 3000,
+    "provenance": "Matched actual v016 offshore marker inspection; independent asset, not main-castle walking route."
+  },
+  "selected_objects": [
+    {
+      "object": "Western citadel_West_Sea stack basalt",
+      "vertices": 39
+    },
+    {
+      "object": "V004 | west old recess strips opened for selected upper and lower windows",
+      "vertices": 146
+    },
+    {
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "vertices": 288
+    },
+    {
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "vertices": 1272
+    },
+    {
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "vertices": 184
+    },
+    {
+      "object": "V016 | offshore final arrival step",
+      "vertices": 8
+    },
+    {
+      "object": "V016 | offshore final step support",
+      "vertices": 8
+    },
+    {
+      "object": "V016 | offshore terrain-following stair core",
+      "vertices": 618
+    },
+    {
+      "object": "V016 | offshore upper landing",
+      "vertices": 8
+    }
+  ],
+  "selected_vertices": 2571,
+  "normalized_xy_bounds": [
+    [
+      0.3158470094203949,
+      0.689288854598999
+    ],
+    [
+      0.08331027626991272,
+      0.8978305459022522
+    ]
+  ],
+  "old_marker_rock_and_all_new_parts_inside_7_5_percent_margin": true,
+  "scope": "All evaluated vertices in audited offshore source components and4newparts; not whole-scene inventory. Matched camera, original source lighting/material/geometry untouched.",
+  "source_unchanged": true
+}

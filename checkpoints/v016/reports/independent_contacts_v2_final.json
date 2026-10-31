@@ -1,0 +1,721 @@
+{
+  "canonical_v015_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+  "canonical_v015_bytes_unchanged": true,
+  "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "source_unchanged": true,
+  "temporary_datablocks_cleaned": true,
+  "scope": "Static closed-positive-volume geometric support connectivity only; no walkability, dynamic simulation or structural/load claim. Exact component-specific intended contacts, no prefix exemption.",
+  "volume_threshold": 1e-08,
+  "scanned_visible_mesh_objects": [
+    "V013 | entrance mounting plate",
+    "V013 | entrance wall arm",
+    "V013 | entrance lower cup",
+    "V013 | entrance hood rim",
+    "V013 | entrance rain hood",
+    "V013 | entrance cage upright 0",
+    "V013 | entrance cage upright 1",
+    "V013 | entrance cage upright 2",
+    "V013 | entrance cage upright 3",
+    "V013 | entrance luminous flame",
+    "V013 | turn mounting plate",
+    "V013 | turn wall arm",
+    "V013 | turn lower cup",
+    "V013 | turn hood rim",
+    "V013 | turn rain hood",
+    "V013 | turn cage upright 0",
+    "V013 | turn cage upright 1",
+    "V013 | turn cage upright 2",
+    "V013 | turn cage upright 3",
+    "V013 | turn luminous flame",
+    "V013 | corridor mounting plate",
+    "V013 | corridor wall arm",
+    "V013 | corridor lower cup",
+    "V013 | corridor hood rim",
+    "V013 | corridor rain hood",
+    "V013 | corridor cage upright 0",
+    "V013 | corridor cage upright 1",
+    "V013 | corridor cage upright 2",
+    "V013 | corridor cage upright 3",
+    "V013 | corridor luminous flame",
+    "V013 | stair mounting plate",
+    "V013 | stair wall arm",
+    "V013 | stair lower cup",
+    "V013 | stair hood rim",
+    "V013 | stair rain hood",
+    "V013 | stair cage upright 0",
+    "V013 | stair cage upright 1",
+    "V013 | stair cage upright 2",
+    "V013 | stair cage upright 3",
+    "V013 | stair luminous flame",
+    "V014 | landing marker cage upright 0",
+    "V014 | landing marker cage upright 1",
+    "V014 | landing marker cage upright 2",
+    "V014 | landing marker cage upright 3",
+    "V014 | landing marker hood rim",
+    "V014 | landing marker lower cup",
+    "V014 | landing marker luminous flame",
+    "V014 | landing marker mounting plate",
+    "V014 | landing marker rain hood",
+    "V014 | landing marker wall arm",
+    "V015 | south hinge lower neck",
+    "V015 | south hinge lower barrel",
+    "V015 | south hinge lower pintle",
+    "V015 | south hinge lower wall anchor",
+    "V015 | south hinge lower pin cap",
+    "V015 | south hinge upper neck",
+    "V015 | south hinge upper barrel",
+    "V015 | south hinge upper pintle",
+    "V015 | south hinge upper wall anchor",
+    "V015 | south hinge upper pin cap",
+    "V015 | north hinge lower neck",
+    "V015 | north hinge lower barrel",
+    "V015 | north hinge lower pintle",
+    "V015 | north hinge lower wall anchor",
+    "V015 | north hinge lower pin cap",
+    "V015 | north hinge upper neck",
+    "V015 | north hinge upper barrel",
+    "V015 | north hinge upper pintle",
+    "V015 | north hinge upper wall anchor",
+    "V015 | north hinge upper pin cap",
+    "Fine meadow grass blades",
+    "Open sea | rippled three-dimensional water surface",
+    "Distant ocean to the horizon",
+    "Broken coastal surf and fine windblown foam trails",
+    "Citadel | oxidized spire roofs",
+    "Citadel | deep window recesses",
+    "Citadel | muted window panes",
+    "Citadel | projecting individual stones",
+    "Citadel | relief flowers and shadowed sculpture",
+    "Citadel | small verdigris fittings",
+    "Western citadel_West_Aged blue slate",
+    "Western citadel_West_Sea stack basalt",
+    "Narrow winding limestone footpath | conformed to meadow",
+    "Traveler | full length ivory skirt",
+    "Traveler | white tunic",
+    "Traveler | purple-red shoulder cape",
+    "Traveler | neck",
+    "Traveler | face",
+    "Traveler | pale gold hair cap",
+    "Traveler | loose hair at nape",
+    "Traveler | right hand",
+    "Traveler | left hand",
+    "Traveler | front boot",
+    "Traveler | rear boot",
+    "Traveler | walking staff",
+    "Loose limestone chips beside the path",
+    "Small clusters of pale wildflowers along the meadow path",
+    "Volume cloud bank | far west",
+    "Volume cloud bank | western high",
+    "Volume cloud bank | western lower",
+    "Volume cloud bank | western wisps",
+    "Volume cloud bank | eastern high",
+    "Volume cloud bank | eastern sunlit",
+    "Volume cloud bank | eastern horizon",
+    "Volume cloud bank | central remote",
+    "Air perspective behind the citadel",
+    "Six tiny sea birds above the surf",
+    "V002 | main crown masonry and terraces",
+    "V002 | main crown slate and roof seams",
+    "V002 | main roof terrace parapet",
+    "V002 | western octagonal lantern masonry",
+    "V002 | western lantern low slate cap",
+    "V002 | western headland with solid rock shore",
+    "V003 | two facade samples stone reveals and restrained frames",
+    "V003 | two facade samples recessed mullions and tracery",
+    "V003 | two facade samples deep muted glazing",
+    "V003 | two facade samples secondary structural divisions",
+    "V004 | west old recess strips opened for selected upper and lower windows",
+    "V004 | varied facade groups stone reveals and restrained frames",
+    "V004 | varied facade groups recessed mullions and tracery",
+    "V004 | varied facade groups deep muted glazing",
+    "V004 | varied facade groups secondary structural divisions",
+    "V005 | main tower calibrated stone surface",
+    "V005 | west tower calibrated stone surface",
+    "V006 | main facade with one short jointed rib sample",
+    "V007 | western stonework with actual bridgehead passage",
+    "V007 | continuous stone passage threshold",
+    "V007 | eastern portal individual arch stones",
+    "V008 | eastern stepped approach embedded in rock",
+    "V008 | south approach parapet",
+    "V008 | north approach parapet",
+    "V008 | individually jointed limestone tread caps",
+    "V008 | gallery with genuine eastern approach portal",
+    "V008 | coastal rock blades locally excavated for approach",
+    "V008 | tapered gallery portal arch stones",
+    "V009 | nine broad western approach treads",
+    "V009 | south approach parapet",
+    "V009 | north approach parapet",
+    "V009 | terrain-following woodland entry apron",
+    "V010 | south closed-entry stone jamb",
+    "V010 | north closed-entry stone jamb",
+    "V010 | closed-entry stone arch",
+    "V010 | headland with local stair-edge clearance",
+    "V010 | woodland trunks with gate exit clearance",
+    "V010 | woodland boughs with gate exit clearance",
+    "V012 | ashlar with bounded entrance and north stairwell",
+    "V012 | terrace ledges with bounded stair opening",
+    "V012 | retained west rib facade with buried-route clearance",
+    "V012 | foundation with continuous L-shaped passage",
+    "V012 | legacy ashlar with buried-route clearance",
+    "V012 | entrance hall limestone floor",
+    "V012 | north corridor limestone floor",
+    "V012 | twenty north stair treads",
+    "V012 | hall south stone lining",
+    "V012 | hall north stone lining",
+    "V012 | hall east stone lining",
+    "V012 | entrance hall ceiling lining",
+    "V012 | west north corridor stone lining",
+    "V012 | east north corridor stone lining",
+    "V012 | north corridor ceiling lining",
+    "V012 | west lined stairwell and terrace guard",
+    "V012 | east lined stairwell and terrace guard",
+    "V012 | stairwell ceiling lining",
+    "V012 | south outward-open timber leaf",
+    "V012 | south open-leaf iron strap",
+    "V012 | south open-leaf iron strap.001",
+    "V012 | north outward-open timber leaf",
+    "V012 | north open-leaf iron strap",
+    "V012 | north open-leaf iron strap.001"
+  ],
+  "visible_nonmesh_geometry": [],
+  "source_component_count": 14,
+  "required_contacts": [
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5824",
+      "volume": 0.11093896494428357,
+      "closed": true,
+      "result_faces": 8,
+      "pass": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5832",
+      "volume": 0.3095762546615646,
+      "closed": true,
+      "result_faces": 11,
+      "pass": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5840",
+      "volume": 0.3095768287082734,
+      "closed": true,
+      "result_faces": 11,
+      "pass": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5848",
+      "volume": 0.3096001623161726,
+      "closed": true,
+      "result_faces": 11,
+      "pass": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5856",
+      "volume": 0.30960016231557574,
+      "closed": true,
+      "result_faces": 11,
+      "pass": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5864",
+      "volume": 0.30960016231610155,
+      "closed": true,
+      "result_faces": 11,
+      "pass": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5872",
+      "volume": 0.3096001623160731,
+      "closed": true,
+      "result_faces": 11,
+      "pass": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5880",
+      "volume": 0.2760601409711967,
+      "closed": true,
+      "result_faces": 11,
+      "pass": true
+    },
+    {
+      "left": "core",
+      "right": "Western citadel_West_Sea stack basalt#0",
+      "volume": 11.582094748182044,
+      "closed": true,
+      "result_faces": 595,
+      "pass": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5704",
+      "volume": 4.660565595795276,
+      "closed": true,
+      "result_faces": 63,
+      "pass": true
+    },
+    {
+      "left": "landing",
+      "right": "core",
+      "volume": 0.2192978099840328,
+      "closed": true,
+      "result_faces": 8,
+      "pass": true
+    },
+    {
+      "left": "landing",
+      "right": "V012 | legacy ashlar with buried-route clearance#5824",
+      "volume": 0.06478906174743315,
+      "closed": true,
+      "result_faces": 6,
+      "pass": true
+    },
+    {
+      "left": "arrival",
+      "right": "landing",
+      "volume": 0.009000540732813533,
+      "closed": true,
+      "result_faces": 6,
+      "pass": true
+    },
+    {
+      "left": "arrival",
+      "right": "support",
+      "volume": 0.018720026548862845,
+      "closed": true,
+      "result_faces": 6,
+      "pass": true
+    },
+    {
+      "left": "arrival",
+      "right": "V012 | legacy ashlar with buried-route clearance#5712",
+      "volume": 0.0179956121428404,
+      "closed": true,
+      "result_faces": 6,
+      "pass": true
+    },
+    {
+      "left": "support",
+      "right": "core",
+      "volume": 0.016561075290365324,
+      "closed": true,
+      "result_faces": 7,
+      "pass": true
+    },
+    {
+      "left": "support",
+      "right": "V012 | legacy ashlar with buried-route clearance#5704",
+      "volume": 0.08735962798700303,
+      "closed": true,
+      "result_faces": 6,
+      "pass": true
+    },
+    {
+      "left": "support",
+      "right": "landing",
+      "volume": 0.008640563509741739,
+      "closed": true,
+      "result_faces": 6,
+      "pass": true
+    },
+    {
+      "left": "support",
+      "right": "V012 | legacy ashlar with buried-route clearance#5712",
+      "volume": 0.02399424740886502,
+      "closed": true,
+      "result_faces": 6,
+      "pass": true
+    }
+  ],
+  "new_part_topology_bounds": [
+    {
+      "part": "core",
+      "bounds": [
+        [
+          113.8499984741211,
+          184.5,
+          -1.3846731185913086
+        ],
+        [
+          118.1500015258789,
+          191.8000030517578,
+          6.113999843597412
+        ]
+      ],
+      "closed": true,
+      "signed_volume": 114.15888016134397,
+      "visible": true,
+      "materials": [
+        "West_Ashlar stone variation"
+      ],
+      "within_agreed_bounds": true
+    },
+    {
+      "part": "landing",
+      "bounds": [
+        [
+          113.75,
+          190.10000610351562,
+          6.084000110626221
+        ],
+        [
+          118.25,
+          191.8000030517578,
+          6.443999767303467
+        ]
+      ],
+      "closed": true,
+      "signed_volume": 2.753992429737991,
+      "visible": true,
+      "materials": [
+        "West_Ashlar stone variation"
+      ],
+      "within_agreed_bounds": true
+    },
+    {
+      "part": "arrival",
+      "bounds": [
+        [
+          113.75,
+          191.75,
+          6.263999938964844
+        ],
+        [
+          114.75,
+          192.39999389648438,
+          6.624000072479248
+        ]
+      ],
+      "closed": true,
+      "signed_volume": 0.23399788951792644,
+      "visible": true,
+      "materials": [
+        "West_Ashlar stone variation"
+      ],
+      "within_agreed_bounds": true
+    },
+    {
+      "part": "support",
+      "bounds": [
+        [
+          113.8499984741211,
+          191.75,
+          5.699999809265137
+        ],
+        [
+          114.6500015258789,
+          192.39999389648438,
+          6.300000190734863
+        ]
+      ],
+      "closed": true,
+      "signed_volume": 0.3119984588499847,
+      "visible": true,
+      "materials": [
+        "West_Ashlar stone variation"
+      ],
+      "within_agreed_bounds": true
+    }
+  ],
+  "all_positive_contacts": [
+    {
+      "left": "core",
+      "right": "Western citadel_West_Sea stack basalt#0",
+      "volume": 11.582094748182044,
+      "closed": true,
+      "result_faces": 595,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5704",
+      "volume": 4.660565595795276,
+      "closed": true,
+      "result_faces": 63,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5824",
+      "volume": 0.11093896494428357,
+      "closed": true,
+      "result_faces": 8,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5832",
+      "volume": 0.3095762546615646,
+      "closed": true,
+      "result_faces": 11,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5840",
+      "volume": 0.3095768287082734,
+      "closed": true,
+      "result_faces": 11,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5848",
+      "volume": 0.3096001623161726,
+      "closed": true,
+      "result_faces": 11,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5856",
+      "volume": 0.30960016231557574,
+      "closed": true,
+      "result_faces": 11,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5864",
+      "volume": 0.30960016231610155,
+      "closed": true,
+      "result_faces": 11,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5872",
+      "volume": 0.3096001623160731,
+      "closed": true,
+      "result_faces": 11,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "V012 | legacy ashlar with buried-route clearance#5880",
+      "volume": 0.2760601409711967,
+      "closed": true,
+      "result_faces": 11,
+      "allowed": true
+    },
+    {
+      "left": "landing",
+      "right": "V012 | legacy ashlar with buried-route clearance#5824",
+      "volume": 0.06478906174743315,
+      "closed": true,
+      "result_faces": 6,
+      "allowed": true
+    },
+    {
+      "left": "arrival",
+      "right": "V012 | legacy ashlar with buried-route clearance#5712",
+      "volume": 0.0179956121428404,
+      "closed": true,
+      "result_faces": 6,
+      "allowed": true
+    },
+    {
+      "left": "support",
+      "right": "V012 | legacy ashlar with buried-route clearance#5704",
+      "volume": 0.08735962798700303,
+      "closed": true,
+      "result_faces": 6,
+      "allowed": true
+    },
+    {
+      "left": "support",
+      "right": "V012 | legacy ashlar with buried-route clearance#5712",
+      "volume": 0.02399424740886502,
+      "closed": true,
+      "result_faces": 6,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "landing",
+      "volume": 0.2192978099840328,
+      "closed": true,
+      "result_faces": 8,
+      "allowed": true
+    },
+    {
+      "left": "core",
+      "right": "support",
+      "volume": 0.016561075290365324,
+      "closed": true,
+      "result_faces": 7,
+      "allowed": true
+    },
+    {
+      "left": "landing",
+      "right": "arrival",
+      "volume": 0.009000540732813533,
+      "closed": true,
+      "result_faces": 6,
+      "allowed": true
+    },
+    {
+      "left": "landing",
+      "right": "support",
+      "volume": 0.008640563509741739,
+      "closed": true,
+      "result_faces": 6,
+      "allowed": true
+    },
+    {
+      "left": "arrival",
+      "right": "support",
+      "volume": 0.018720026548862845,
+      "closed": true,
+      "result_faces": 6,
+      "allowed": true
+    }
+  ],
+  "unexpected_intersections": [],
+  "uncertain": [],
+  "open_surface_checks": [
+    {
+      "hardware": "core",
+      "source": "Open sea | rippled three-dimensional water surface#0",
+      "surface_aabb_triangle_hits": 7
+    },
+    {
+      "hardware": "core",
+      "source": "Distant ocean to the horizon#0",
+      "surface_aabb_triangle_hits": 1
+    }
+  ],
+  "nonstructural_fluid_contacts": [
+    {
+      "hardware": "core",
+      "source": "Open sea | rippled three-dimensional water surface#0",
+      "surface_aabb_triangle_hits": 7,
+      "classification": "intentional nonstructural fluid surface; never a support link",
+      "bounds": [
+        [
+          -780.0,
+          -650.0,
+          -0.4289982318878174
+        ],
+        [
+          900.0,
+          1030.0,
+          -0.23100148141384125
+        ]
+      ],
+      "materials": [
+        "North sea | teal depth and crossing wavelets"
+      ]
+    },
+    {
+      "hardware": "core",
+      "source": "Distant ocean to the horizon#0",
+      "surface_aabb_triangle_hits": 1,
+      "classification": "intentional nonstructural fluid surface; never a support link",
+      "bounds": [
+        [
+          -12000.0,
+          -12000.0,
+          -0.4320000112056732
+        ],
+        [
+          12000.0,
+          12000.0,
+          -0.4320000112056732
+        ]
+      ],
+      "materials": [
+        "North sea | teal depth and crossing wavelets"
+      ]
+    }
+  ],
+  "negative_controls": {
+    "missing_core_rejected": true,
+    "detached_core_rejected": true
+  },
+  "allowed_pairs": [
+    [
+      "V012 | legacy ashlar with buried-route clearance#5840",
+      "core"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5824",
+      "core"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5872",
+      "core"
+    ],
+    [
+      "arrival",
+      "support"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5824",
+      "landing"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5880",
+      "core"
+    ],
+    [
+      "arrival",
+      "landing"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5712",
+      "arrival"
+    ],
+    [
+      "core",
+      "support"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5848",
+      "core"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5704",
+      "core"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5704",
+      "support"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5832",
+      "core"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5856",
+      "core"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5864",
+      "core"
+    ],
+    [
+      "Western citadel_West_Sea stack basalt#0",
+      "core"
+    ],
+    [
+      "core",
+      "landing"
+    ],
+    [
+      "landing",
+      "support"
+    ],
+    [
+      "V012 | legacy ashlar with buried-route clearance#5712",
+      "support"
+    ]
+  ],
+  "pass": true
+}

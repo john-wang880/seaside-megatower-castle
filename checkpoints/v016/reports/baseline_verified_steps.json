@@ -1,0 +1,269 @@
+{
+  "steps": [
+    {
+      "seed": 5824,
+      "bounds": [
+        [
+          113.75,
+          189.260009765625,
+          6.0839996337890625
+        ],
+        [
+          118.25,
+          190.13999938964844,
+          6.443999767303467
+        ]
+      ],
+      "dimensions": [
+        4.5,
+        0.8799896240234375,
+        0.3600001335144043
+      ],
+      "exact_clipped_rock_max_z": 4.9161834716796875,
+      "minimum_vertical_separation_from_rock": 1.167816162109375,
+      "nearest_nonstair_architecture_AABB_lower_bound": [
+        0.9840064630293415,
+        "V012 | legacy ashlar with buried-route clearance",
+        5704
+      ],
+      "closed_box": {
+        "vertices": 8,
+        "faces": 6,
+        "edges": 12,
+        "all_edge_face_incidence_two": true
+      }
+    },
+    {
+      "seed": 5832,
+      "bounds": [
+        [
+          113.75,
+          188.54000854492188,
+          5.74560022354126
+        ],
+        [
+          118.25,
+          189.4199981689453,
+          6.105599880218506
+        ]
+      ],
+      "dimensions": [
+        4.5,
+        0.8799896240234375,
+        0.3599996566772461
+      ],
+      "exact_clipped_rock_max_z": 4.116268157958984,
+      "minimum_vertical_separation_from_rock": 1.6293320655822754,
+      "nearest_nonstair_architecture_AABB_lower_bound": [
+        1.6800079345703125,
+        "V012 | legacy ashlar with buried-route clearance",
+        5704
+      ],
+      "closed_box": {
+        "vertices": 8,
+        "faces": 6,
+        "edges": 12,
+        "all_edge_face_incidence_two": true
+      }
+    },
+    {
+      "seed": 5840,
+      "bounds": [
+        [
+          113.75,
+          187.82000732421875,
+          5.407199859619141
+        ],
+        [
+          118.25,
+          188.6999969482422,
+          5.767200469970703
+        ]
+      ],
+      "dimensions": [
+        4.5,
+        0.8799896240234375,
+        0.3600006103515625
+      ],
+      "exact_clipped_rock_max_z": 3.279991626739502,
+      "minimum_vertical_separation_from_rock": 2.1272082328796387,
+      "nearest_nonstair_architecture_AABB_lower_bound": [
+        2.4000091552734375,
+        "V012 | legacy ashlar with buried-route clearance",
+        5704
+      ],
+      "closed_box": {
+        "vertices": 8,
+        "faces": 6,
+        "edges": 12,
+        "all_edge_face_incidence_two": true
+      }
+    },
+    {
+      "seed": 5848,
+      "bounds": [
+        [
+          113.75,
+          187.10000610351562,
+          5.06879997253418
+        ],
+        [
+          118.25,
+          187.98001098632812,
+          5.428800106048584
+        ]
+      ],
+      "dimensions": [
+        4.5,
+        0.8800048828125,
+        0.3600001335144043
+      ],
+      "exact_clipped_rock_max_z": 2.443732738494873,
+      "minimum_vertical_separation_from_rock": 2.6250672340393066,
+      "nearest_nonstair_architecture_AABB_lower_bound": [
+        3.1199951171875,
+        "V012 | legacy ashlar with buried-route clearance",
+        5704
+      ],
+      "closed_box": {
+        "vertices": 8,
+        "faces": 6,
+        "edges": 12,
+        "all_edge_face_incidence_two": true
+      }
+    },
+    {
+      "seed": 5856,
+      "bounds": [
+        [
+          113.75,
+          186.3800048828125,
+          4.730400085449219
+        ],
+        [
+          118.25,
+          187.260009765625,
+          5.090400218963623
+        ]
+      ],
+      "dimensions": [
+        4.5,
+        0.8800048828125,
+        0.3600001335144043
+      ],
+      "exact_clipped_rock_max_z": 1.676904320716858,
+      "minimum_vertical_separation_from_rock": 3.053495764732361,
+      "nearest_nonstair_architecture_AABB_lower_bound": [
+        3.839996337890625,
+        "V012 | legacy ashlar with buried-route clearance",
+        5704
+      ],
+      "closed_box": {
+        "vertices": 8,
+        "faces": 6,
+        "edges": 12,
+        "all_edge_face_incidence_two": true
+      }
+    },
+    {
+      "seed": 5864,
+      "bounds": [
+        [
+          113.75,
+          185.66000366210938,
+          4.3919997215271
+        ],
+        [
+          118.25,
+          186.54000854492188,
+          4.751999855041504
+        ]
+      ],
+      "dimensions": [
+        4.5,
+        0.8800048828125,
+        0.3600001335144043
+      ],
+      "exact_clipped_rock_max_z": 1.0451200008392334,
+      "minimum_vertical_separation_from_rock": 3.346879720687866,
+      "nearest_nonstair_architecture_AABB_lower_bound": [
+        4.55999755859375,
+        "V012 | legacy ashlar with buried-route clearance",
+        5704
+      ],
+      "closed_box": {
+        "vertices": 8,
+        "faces": 6,
+        "edges": 12,
+        "all_edge_face_incidence_two": true
+      }
+    },
+    {
+      "seed": 5872,
+      "bounds": [
+        [
+          113.75,
+          184.94000244140625,
+          4.053599834442139
+        ],
+        [
+          118.25,
+          185.82000732421875,
+          4.413599967956543
+        ]
+      ],
+      "dimensions": [
+        4.5,
+        0.8800048828125,
+        0.3600001335144043
+      ],
+      "exact_clipped_rock_max_z": 0.32125407457351685,
+      "minimum_vertical_separation_from_rock": 3.732345759868622,
+      "nearest_nonstair_architecture_AABB_lower_bound": [
+        5.279998779296875,
+        "V012 | legacy ashlar with buried-route clearance",
+        5704
+      ],
+      "closed_box": {
+        "vertices": 8,
+        "faces": 6,
+        "edges": 12,
+        "all_edge_face_incidence_two": true
+      }
+    },
+    {
+      "seed": 5880,
+      "bounds": [
+        [
+          113.75,
+          184.22000122070312,
+          3.7151999473571777
+        ],
+        [
+          118.25,
+          185.10000610351562,
+          4.075200080871582
+        ]
+      ],
+      "dimensions": [
+        4.5,
+        0.8800048828125,
+        0.3600001335144043
+      ],
+      "exact_clipped_rock_max_z": -0.46153318881988525,
+      "minimum_vertical_separation_from_rock": 4.176733136177063,
+      "nearest_nonstair_architecture_AABB_lower_bound": [
+        6.001559313099383,
+        "V012 | legacy ashlar with buried-route clearance",
+        5704
+      ],
+      "closed_box": {
+        "vertices": 8,
+        "faces": 6,
+        "edges": 12,
+        "all_edge_face_incidence_two": true
+      }
+    }
+  ],
+  "method": "Exact clipping of every evaluated rock triangle to each axis-aligned stair footprint, maximum rock z; strict AABB separation lower bound to every other offshore architectural component. Visible object full-bounds screening excludes all other objects except water below z\u2212.23. Adjacent steps deliberately overlap .16m in y and .0216m in z."
+}

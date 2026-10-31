@@ -1,0 +1,61 @@
+{
+  "source": "castle_v015.blend",
+  "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+  "camera": {
+    "selection": [
+      {
+        "object": "Western citadel_West_Sea stack basalt",
+        "selected_vertices": 39
+      },
+      {
+        "object": "V004 | west old recess strips opened for selected upper and lower windows",
+        "selected_vertices": 146
+      },
+      {
+        "object": "V007 | western stonework with actual bridgehead passage",
+        "selected_vertices": 288
+      },
+      {
+        "object": "V012 | retained west rib facade with buried-route clearance",
+        "selected_vertices": 1272
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "selected_vertices": 184
+      }
+    ],
+    "selection_rule": "Evaluated vertices x>100 AND y>170 in audited offshore-containing objects only; excludes distant merged castle components.",
+    "location": [
+      164.62448120117188,
+      130.65777587890625,
+      36.22731018066406
+    ],
+    "target": [
+      119.0,
+      195.0,
+      14.0
+    ],
+    "lens": 45.0,
+    "normalized_xy_bounds": [
+      [
+        0.3158470094203949,
+        0.689288854598999
+      ],
+      [
+        0.08331027626991272,
+        0.8978305459022522
+      ]
+    ],
+    "all_selected_vertices_inside_7_5_percent_margin": true,
+    "scope": "Selected offshore marker plus rock support only, not whole castle."
+  },
+  "resolution": [
+    900,
+    650
+  ],
+  "samples": 48,
+  "seconds": 138.77357745170593,
+  "peak_rss_linux_kib": 1536184,
+  "lighting": "Actual canonical world/lights/exposure/atmosphere unchanged. No diagnostic fill or geometry hidden.",
+  "source_saved": false
+}

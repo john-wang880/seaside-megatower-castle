@@ -1,0 +1,60 @@
+{
+  "current_manifest_sha256": "5d314b01186f9ea121fd51c7c4c25693a45639e87e9e66a37644e23b7722d59d",
+  "reference_v015_manifest_sha256": "45c494f9b5e9603c7401ffa7400fb88143942fa6e40d9399fae28a191403c01e",
+  "six_prior_camera_recipes_identical": true,
+  "new_offshore_camera_matches_actual_frame": true,
+  "current_model_original_cameras_preserved": true,
+  "source_preservation_report": "../../reports/preservation.json",
+  "scope": "Two newv016 actual images(hero/offshore); five accuratelylabelledv015 actual route references. Camera recipe equality does not claimoldimageswere rerendered orpixel-equivalent tofuturemodel. Priorcompletion-timehash caveat remainsin v015_reference_camera_reconciliation.json.",
+  "views": [
+    {
+      "view": "hero",
+      "image_sha256": "94b7f672c223c96711b4f51ffae89b4d92658e4a6aff386a3715083b88077714",
+      "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+      "source_checkpoint": "v016 actual",
+      "not_relabelled_or_edited": true
+    },
+    {
+      "view": "west_approach",
+      "image_sha256": "a41130e80068bb8e5a344e98c516d7540cd4a56988b6a8024db51f1a79e17913",
+      "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+      "source_checkpoint": "v015 reference, unchanged original route",
+      "not_relabelled_or_edited": true
+    },
+    {
+      "view": "east_portal",
+      "image_sha256": "085dffbaa2e328362e901e98c91cc876d16a613be99b24064131cf9a7b172d75",
+      "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+      "source_checkpoint": "v015 reference, unchanged original route",
+      "not_relabelled_or_edited": true
+    },
+    {
+      "view": "bend",
+      "image_sha256": "95f01e9ae8d52ff7805221e69b08dad8b46b9964d36369d4796aef1d9be66228",
+      "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+      "source_checkpoint": "v015 reference, unchanged original route",
+      "not_relabelled_or_edited": true
+    },
+    {
+      "view": "upper_stairs",
+      "image_sha256": "58107683c1d6fcc307614c09c9ca99ab60e702c69db7cf6dc14eba77e7561f06",
+      "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+      "source_checkpoint": "v015 reference, unchanged original route",
+      "not_relabelled_or_edited": true
+    },
+    {
+      "view": "terminal",
+      "image_sha256": "4ad729020c989b3f6aa0add65f84b0e30feb4037ec2c9d30489652f0de9d58b0",
+      "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+      "source_checkpoint": "v015 reference, unchanged original route",
+      "not_relabelled_or_edited": true
+    },
+    {
+      "view": "offshore_marker",
+      "image_sha256": "aaf023feab9493ae3e20f48cb84ec11bbf607290537f51535d3cae8e786b5403",
+      "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+      "source_checkpoint": "v016 actual",
+      "not_relabelled_or_edited": true
+    }
+  ]
+}

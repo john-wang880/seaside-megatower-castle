@@ -1,20 +1,14 @@
 # 海边巨塔城堡 · 持续精修
 
-最新检查点：[v015 门叶静态铰接支撑](checkpoints/v015/README.md)。
+最新检查点：[v016 离岸小塔台阶承托](checkpoints/v016/README.md)。
 
-**[六视角导航图与可选查看副本](checkpoints/v015/navigation/README.md)**：从海岸全景到入口、内廊和楼梯，真实照明静帧；原模型不变。
+补齐原8块悬空台阶的岩体承托与短平台，原塔身、原台阶、材质和灯光完整保留。4个新增实体、19处连接、6,027个独立贴岩内部采样及来源/通路回归通过；不是结构承载或全岛可通行认证。
 
-克隆完整仓库（含model_chunks），运行 `python checkpoints/v015/restore_checkpoint.py`，用Blender5.2.3LTS打开。逐块和整文件SHA-256验证，精确恢复原字节。
+- [当前整体全景](checkpoints/v016/previews/hero_final.png)
+- [小塔修复后实际照明](checkpoints/v016/previews/marker_after_actual.png) · [修复前](checkpoints/v016/previews/marker_before_actual.png)
+- **[七视角导航与可选查看副本](checkpoints/v016/navigation/README.md)**
+- [恢复清单](checkpoints/v016/MANIFEST.json) · [验证范围](checkpoints/v016/README.md) · [持续计划](CONTINUATION.md)
 
-四组小型锻铁铰接构件补齐原开启门叶与石门框之间的悬空连接。原门叶、建筑、材质及全部灯光保留；28处连接、碰撞/通路/来源保留/重复构建检查通过。仅静态构造连接，不是运动机构或承载认证。
+克隆完整仓库（含model_chunks），运行 `python checkpoints/v016/restore_checkpoint.py`，用Blender5.2.3LTS打开。逐块/整文件SHA-256验证，精确恢复原字节。
 
-- [铰接近景（临时补光诊断，非工程实际灯光）](checkpoints/v015/previews/after_hinge_DIAGNOSTIC.png)
-- [入口实际照明回归](checkpoints/v015/previews/after_door_actual.png)
-- [来源v014整体全景参考](checkpoints/v015/previews/unchanged_source_v014_hero.png)
-- [恢复清单](checkpoints/v015/MANIFEST.json)
-- [证据及边界](checkpoints/v015/README.md)
-- [持续计划](CONTINUATION.md)
-
-旧版仅从当前目录撤下，Git历史保留。新版本独立远端恢复通过后才清理旧当前载荷；不强推、不清除历史。
-
-v015已从提交`395ee54986c7d99457f81ab034e4ead8799d9e63`独立恢复并通过Blender检查，见[远端验证](checkpoints/v015/reports/remote_validation.json)。当前目录只保留v015；旧版由Git历史恢复。
+v016本地验证完成；本次发布后独立远端恢复通过才撤旧当前载荷。来源v015已验证，Git历史保留；不强推、不永久删除历史。导航中的5张旧路线图明确保留v015出处，当前全景/小塔图为v016，不将旧图冒充新渲染。

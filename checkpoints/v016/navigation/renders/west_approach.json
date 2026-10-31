@@ -1,0 +1,50 @@
+{
+  "view": "west_approach",
+  "source": "castle_v015.blend",
+  "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+  "view_manifest_sha256": "45c494f9b5e9603c7401ffa7400fb88143942fa6e40d9399fae28a191403c01e",
+  "preset": {
+    "label": "Western woodland approach",
+    "camera_name": "REVIEW | 05 Western approach",
+    "location": [
+      -99,
+      38,
+      32
+    ],
+    "target": [
+      -79,
+      38,
+      26.5
+    ],
+    "lens": 38,
+    "clip_start": 0.05,
+    "clip_end": 3000,
+    "provenance": "Accepted v009 neutral review camera geometry; navigation uses only actual scene lights, no diagnostic lights."
+  },
+  "actual_camera": {
+    "location": [
+      -99.0,
+      38.0,
+      32.0
+    ],
+    "rotation_euler": [
+      1.3024300336837769,
+      -0.0,
+      -1.570796251296997
+    ],
+    "lens": 38.0,
+    "clip_start": 0.05000000074505806,
+    "clip_end": 3000.0
+  },
+  "resolution": [
+    720,
+    520
+  ],
+  "samples": 24,
+  "seconds": 125.89695644378662,
+  "peak_rss_linux_kib": 1338172,
+  "runtime": "5.2.3 LTS",
+  "lighting": "Actual existing world/lights/exposure unchanged. No diagnostic fill or hidden geometry.",
+  "scope": "Independent camera still, not simulated walking or a dynamic navigation proof.",
+  "source_saved": false
+}

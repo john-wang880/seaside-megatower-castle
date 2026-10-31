@@ -1,0 +1,2926 @@
+{
+  "source_reload_control": [],
+  "viewer_reload": [
+    [
+      "/Traveler | full length ivory skirt/mesh/hash",
+      [
+        "f8e551eb3f68c64d23c15a053834364887bf27866a345486e0b2fe657b87e988",
+        "bb05631d284f20194b71f645bfeb851d567b4b9437371a9e5e6fd4204da9166c"
+      ]
+    ],
+    [
+      "/Traveler | full length ivory skirt/mesh/trace/attributes/5/fields/value/hash",
+      [
+        "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12",
+        "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+      ]
+    ],
+    [
+      "/Traveler | full length ivory skirt/mesh/trace/topology/edges/select/hash",
+      [
+        "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12",
+        "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+      ]
+    ],
+    [
+      "/Traveler | purple-red shoulder cape/mesh/hash",
+      [
+        "1d464e3582b69b83651d6602964f8b8a1f216d93a98e9cf68d83284370375028",
+        "ba4a3d1d20b27e956dce90b8ea0fc2808e0f26d1bdb48e0780e9074a4ad8e8e1"
+      ]
+    ],
+    [
+      "/Traveler | purple-red shoulder cape/mesh/trace/attributes/5/fields/value/hash",
+      [
+        "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9",
+        "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+      ]
+    ],
+    [
+      "/Traveler | purple-red shoulder cape/mesh/trace/topology/edges/select/hash",
+      [
+        "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9",
+        "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+      ]
+    ],
+    [
+      "/Traveler | white tunic/mesh/hash",
+      [
+        "151c0816052f1313212cc1e0c90ed5b2048a20d3185ddaad4cadca3580f24a45",
+        "d02a50e9048be15b552b1489b3293d38b6e4949d08df02271dce9f0f2cf0d8f2"
+      ]
+    ],
+    [
+      "/Traveler | white tunic/mesh/trace/attributes/5/fields/value/hash",
+      [
+        "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12",
+        "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+      ]
+    ],
+    [
+      "/Traveler | white tunic/mesh/trace/topology/edges/select/hash",
+      [
+        "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12",
+        "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+      ]
+    ]
+  ],
+  "captures": {
+    "base": {
+      "Traveler | full length ivory skirt": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh": {
+          "hash": "f8e551eb3f68c64d23c15a053834364887bf27866a345486e0b2fe657b87e988",
+          "attribute_schema": [
+            [
+              "position",
+              "FLOAT_VECTOR",
+              "POINT",
+              576
+            ],
+            [
+              ".edge_verts",
+              "INT32_2D",
+              "EDGE",
+              1088
+            ],
+            [
+              ".corner_vert",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".corner_edge",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".select_vert",
+              "BOOLEAN",
+              "POINT",
+              576
+            ],
+            [
+              ".select_edge",
+              "BOOLEAN",
+              "EDGE",
+              1088
+            ],
+            [
+              ".select_poly",
+              "BOOLEAN",
+              "FACE",
+              512
+            ],
+            [
+              "sharp_face",
+              "BOOLEAN",
+              "FACE",
+              512
+            ]
+          ],
+          "vertices": 576,
+          "polygons": 512,
+          "trace": {
+            "attributes": [
+              {
+                "name": "position",
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "vector": {
+                    "count": 576,
+                    "type": "FLOAT",
+                    "width": 3,
+                    "hash": "6849230bbe7fe73afb1bf30d17c509fb60c8e06071df0ec4df8d78510775fa76"
+                  }
+                }
+              },
+              {
+                "name": ".edge_verts",
+                "type": "INT32_2D",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "INT",
+                    "width": 2,
+                    "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                  }
+                }
+              },
+              {
+                "name": ".corner_vert",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                  }
+                }
+              },
+              {
+                "name": ".corner_edge",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                  }
+                }
+              },
+              {
+                "name": ".select_vert",
+                "type": "BOOLEAN",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "value": {
+                    "count": 576,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                  }
+                }
+              },
+              {
+                "name": ".select_edge",
+                "type": "BOOLEAN",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+                  }
+                }
+              },
+              {
+                "name": ".select_poly",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                  }
+                }
+              },
+              {
+                "name": "sharp_face",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                  }
+                }
+              }
+            ],
+            "topology": {
+              "vertices": {
+                "co": {
+                  "count": 576,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "6849230bbe7fe73afb1bf30d17c509fb60c8e06071df0ec4df8d78510775fa76"
+                },
+                "select": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                },
+                "hide": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4"
+                }
+              },
+              "edges": {
+                "vertices": {
+                  "count": 1088,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                },
+                "select": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+                },
+                "hide": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_seam": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_edge_sharp": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                }
+              },
+              "loops": {
+                "vertex_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                },
+                "edge_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                }
+              },
+              "polygons": {
+                "loop_start": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "a81d9a79b168811141b1be92f979ae0a4e6f6e9be92f22cd6239a34e1c6750de"
+                },
+                "loop_total": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "378a7d90a548378fe5f0412bd99d612dcf8b566dfe6b709943e6786a72abb299"
+                },
+                "material_index": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+                },
+                "use_smooth": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "select": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "hide": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                }
+              }
+            },
+            "weights": [],
+            "shapes": null,
+            "uv_layers": [],
+            "uv_active_index": -1,
+            "custom_properties": {}
+          }
+        }
+      },
+      "Traveler | purple-red shoulder cape": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh": {
+          "hash": "1d464e3582b69b83651d6602964f8b8a1f216d93a98e9cf68d83284370375028",
+          "attribute_schema": [
+            [
+              "position",
+              "FLOAT_VECTOR",
+              "POINT",
+              990
+            ],
+            [
+              ".edge_verts",
+              "INT32_2D",
+              "EDGE",
+              1976
+            ],
+            [
+              ".corner_vert",
+              "INT",
+              "CORNER",
+              3952
+            ],
+            [
+              ".corner_edge",
+              "INT",
+              "CORNER",
+              3952
+            ],
+            [
+              ".select_vert",
+              "BOOLEAN",
+              "POINT",
+              990
+            ],
+            [
+              ".select_edge",
+              "BOOLEAN",
+              "EDGE",
+              1976
+            ],
+            [
+              ".select_poly",
+              "BOOLEAN",
+              "FACE",
+              988
+            ],
+            [
+              "sharp_face",
+              "BOOLEAN",
+              "FACE",
+              988
+            ],
+            [
+              "material_index",
+              "INT",
+              "FACE",
+              988
+            ]
+          ],
+          "vertices": 990,
+          "polygons": 988,
+          "trace": {
+            "attributes": [
+              {
+                "name": "position",
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 990,
+                "fields": {
+                  "vector": {
+                    "count": 990,
+                    "type": "FLOAT",
+                    "width": 3,
+                    "hash": "a7c0144ebd2a56ff4ce4958d8a0cdcf5225fa0a3e6d5e50b29607037b542af29"
+                  }
+                }
+              },
+              {
+                "name": ".edge_verts",
+                "type": "INT32_2D",
+                "domain": "EDGE",
+                "count": 1976,
+                "fields": {
+                  "value": {
+                    "count": 1976,
+                    "type": "INT",
+                    "width": 2,
+                    "hash": "e649dc4bc97eb5a7d603b06f30521a12a9544f36fd8bf15c2787584429bf7058"
+                  }
+                }
+              },
+              {
+                "name": ".corner_vert",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 3952,
+                "fields": {
+                  "value": {
+                    "count": 3952,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "03b3a6a1ac1197263e4270f4aa23e67099ec254421a47145a41870577144e497"
+                  }
+                }
+              },
+              {
+                "name": ".corner_edge",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 3952,
+                "fields": {
+                  "value": {
+                    "count": 3952,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "da06fdb0567ea551f536608ae94a6ee9b399f4990ddd1a08e51371d2b9cfd3c8"
+                  }
+                }
+              },
+              {
+                "name": ".select_vert",
+                "type": "BOOLEAN",
+                "domain": "POINT",
+                "count": 990,
+                "fields": {
+                  "value": {
+                    "count": 990,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "b903db3ce6fb94f87d5ac10072caa143977f6a7c325bb0ef4f91d12d6a45bcf9"
+                  }
+                }
+              },
+              {
+                "name": ".select_edge",
+                "type": "BOOLEAN",
+                "domain": "EDGE",
+                "count": 1976,
+                "fields": {
+                  "value": {
+                    "count": 1976,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9"
+                  }
+                }
+              },
+              {
+                "name": ".select_poly",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 988,
+                "fields": {
+                  "value": {
+                    "count": 988,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "bd162b46f2a767eb9f680c4341f9e01172a7f106ac19280d0974f67811233173"
+                  }
+                }
+              },
+              {
+                "name": "sharp_face",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 988,
+                "fields": {
+                  "value": {
+                    "count": 988,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "ed02a689d8616afce681709a192fbb432e3c246c001759a89e60196b8f8bdeea"
+                  }
+                }
+              },
+              {
+                "name": "material_index",
+                "type": "INT",
+                "domain": "FACE",
+                "count": 988,
+                "fields": {
+                  "value": {
+                    "count": 988,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "e4cbebfa02ab4cd20e14ce3e7ea773e1413d10ea7a0f1870b010edae93b86ff5"
+                  }
+                }
+              }
+            ],
+            "topology": {
+              "vertices": {
+                "co": {
+                  "count": 990,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "a7c0144ebd2a56ff4ce4958d8a0cdcf5225fa0a3e6d5e50b29607037b542af29"
+                },
+                "select": {
+                  "count": 990,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "b903db3ce6fb94f87d5ac10072caa143977f6a7c325bb0ef4f91d12d6a45bcf9"
+                },
+                "hide": {
+                  "count": 990,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "3449ddf7ca912858ea7e87b19040bf7b9b529099f50d0f3c3388c6c79083ae0b"
+                }
+              },
+              "edges": {
+                "vertices": {
+                  "count": 1976,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "e649dc4bc97eb5a7d603b06f30521a12a9544f36fd8bf15c2787584429bf7058"
+                },
+                "select": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9"
+                },
+                "hide": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756"
+                },
+                "use_seam": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756"
+                },
+                "use_edge_sharp": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756"
+                }
+              },
+              "loops": {
+                "vertex_index": {
+                  "count": 3952,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "03b3a6a1ac1197263e4270f4aa23e67099ec254421a47145a41870577144e497"
+                },
+                "edge_index": {
+                  "count": 3952,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "da06fdb0567ea551f536608ae94a6ee9b399f4990ddd1a08e51371d2b9cfd3c8"
+                }
+              },
+              "polygons": {
+                "loop_start": {
+                  "count": 988,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "74de8dc4d32303d4cd9a82af483adf7de0675f347a41e923ea5f701a6f058500"
+                },
+                "loop_total": {
+                  "count": 988,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "51231721a108e9f7ac97d558966e77990ee07facd70306cd596727ba77d7c7d9"
+                },
+                "material_index": {
+                  "count": 988,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "e4cbebfa02ab4cd20e14ce3e7ea773e1413d10ea7a0f1870b010edae93b86ff5"
+                },
+                "use_smooth": {
+                  "count": 988,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "bd162b46f2a767eb9f680c4341f9e01172a7f106ac19280d0974f67811233173"
+                },
+                "select": {
+                  "count": 988,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "bd162b46f2a767eb9f680c4341f9e01172a7f106ac19280d0974f67811233173"
+                },
+                "hide": {
+                  "count": 988,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "ed02a689d8616afce681709a192fbb432e3c246c001759a89e60196b8f8bdeea"
+                }
+              }
+            },
+            "weights": [],
+            "shapes": null,
+            "uv_layers": [],
+            "uv_active_index": -1,
+            "custom_properties": {}
+          }
+        }
+      },
+      "Traveler | white tunic": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh": {
+          "hash": "151c0816052f1313212cc1e0c90ed5b2048a20d3185ddaad4cadca3580f24a45",
+          "attribute_schema": [
+            [
+              "position",
+              "FLOAT_VECTOR",
+              "POINT",
+              576
+            ],
+            [
+              ".edge_verts",
+              "INT32_2D",
+              "EDGE",
+              1088
+            ],
+            [
+              ".corner_vert",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".corner_edge",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".select_vert",
+              "BOOLEAN",
+              "POINT",
+              576
+            ],
+            [
+              ".select_edge",
+              "BOOLEAN",
+              "EDGE",
+              1088
+            ],
+            [
+              ".select_poly",
+              "BOOLEAN",
+              "FACE",
+              512
+            ],
+            [
+              "sharp_face",
+              "BOOLEAN",
+              "FACE",
+              512
+            ]
+          ],
+          "vertices": 576,
+          "polygons": 512,
+          "trace": {
+            "attributes": [
+              {
+                "name": "position",
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "vector": {
+                    "count": 576,
+                    "type": "FLOAT",
+                    "width": 3,
+                    "hash": "5eb8c209634d9752a39ab69794c793d3d1c02e86befef6553328adad6d2b6537"
+                  }
+                }
+              },
+              {
+                "name": ".edge_verts",
+                "type": "INT32_2D",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "INT",
+                    "width": 2,
+                    "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                  }
+                }
+              },
+              {
+                "name": ".corner_vert",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                  }
+                }
+              },
+              {
+                "name": ".corner_edge",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                  }
+                }
+              },
+              {
+                "name": ".select_vert",
+                "type": "BOOLEAN",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "value": {
+                    "count": 576,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                  }
+                }
+              },
+              {
+                "name": ".select_edge",
+                "type": "BOOLEAN",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+                  }
+                }
+              },
+              {
+                "name": ".select_poly",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                  }
+                }
+              },
+              {
+                "name": "sharp_face",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                  }
+                }
+              }
+            ],
+            "topology": {
+              "vertices": {
+                "co": {
+                  "count": 576,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "5eb8c209634d9752a39ab69794c793d3d1c02e86befef6553328adad6d2b6537"
+                },
+                "select": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                },
+                "hide": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4"
+                }
+              },
+              "edges": {
+                "vertices": {
+                  "count": 1088,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                },
+                "select": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+                },
+                "hide": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_seam": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_edge_sharp": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                }
+              },
+              "loops": {
+                "vertex_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                },
+                "edge_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                }
+              },
+              "polygons": {
+                "loop_start": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "a81d9a79b168811141b1be92f979ae0a4e6f6e9be92f22cd6239a34e1c6750de"
+                },
+                "loop_total": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "378a7d90a548378fe5f0412bd99d612dcf8b566dfe6b709943e6786a72abb299"
+                },
+                "material_index": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+                },
+                "use_smooth": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "select": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "hide": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                }
+              }
+            },
+            "weights": [],
+            "shapes": null,
+            "uv_layers": [],
+            "uv_active_index": -1,
+            "custom_properties": {}
+          }
+        }
+      }
+    },
+    "control": {
+      "Traveler | full length ivory skirt": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh": {
+          "hash": "f8e551eb3f68c64d23c15a053834364887bf27866a345486e0b2fe657b87e988",
+          "attribute_schema": [
+            [
+              "position",
+              "FLOAT_VECTOR",
+              "POINT",
+              576
+            ],
+            [
+              ".edge_verts",
+              "INT32_2D",
+              "EDGE",
+              1088
+            ],
+            [
+              ".corner_vert",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".corner_edge",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".select_vert",
+              "BOOLEAN",
+              "POINT",
+              576
+            ],
+            [
+              ".select_edge",
+              "BOOLEAN",
+              "EDGE",
+              1088
+            ],
+            [
+              ".select_poly",
+              "BOOLEAN",
+              "FACE",
+              512
+            ],
+            [
+              "sharp_face",
+              "BOOLEAN",
+              "FACE",
+              512
+            ]
+          ],
+          "vertices": 576,
+          "polygons": 512,
+          "trace": {
+            "attributes": [
+              {
+                "name": "position",
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "vector": {
+                    "count": 576,
+                    "type": "FLOAT",
+                    "width": 3,
+                    "hash": "6849230bbe7fe73afb1bf30d17c509fb60c8e06071df0ec4df8d78510775fa76"
+                  }
+                }
+              },
+              {
+                "name": ".edge_verts",
+                "type": "INT32_2D",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "INT",
+                    "width": 2,
+                    "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                  }
+                }
+              },
+              {
+                "name": ".corner_vert",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                  }
+                }
+              },
+              {
+                "name": ".corner_edge",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                  }
+                }
+              },
+              {
+                "name": ".select_vert",
+                "type": "BOOLEAN",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "value": {
+                    "count": 576,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                  }
+                }
+              },
+              {
+                "name": ".select_edge",
+                "type": "BOOLEAN",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+                  }
+                }
+              },
+              {
+                "name": ".select_poly",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                  }
+                }
+              },
+              {
+                "name": "sharp_face",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                  }
+                }
+              }
+            ],
+            "topology": {
+              "vertices": {
+                "co": {
+                  "count": 576,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "6849230bbe7fe73afb1bf30d17c509fb60c8e06071df0ec4df8d78510775fa76"
+                },
+                "select": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                },
+                "hide": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4"
+                }
+              },
+              "edges": {
+                "vertices": {
+                  "count": 1088,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                },
+                "select": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+                },
+                "hide": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_seam": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_edge_sharp": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                }
+              },
+              "loops": {
+                "vertex_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                },
+                "edge_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                }
+              },
+              "polygons": {
+                "loop_start": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "a81d9a79b168811141b1be92f979ae0a4e6f6e9be92f22cd6239a34e1c6750de"
+                },
+                "loop_total": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "378a7d90a548378fe5f0412bd99d612dcf8b566dfe6b709943e6786a72abb299"
+                },
+                "material_index": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+                },
+                "use_smooth": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "select": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "hide": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                }
+              }
+            },
+            "weights": [],
+            "shapes": null,
+            "uv_layers": [],
+            "uv_active_index": -1,
+            "custom_properties": {}
+          }
+        }
+      },
+      "Traveler | purple-red shoulder cape": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh": {
+          "hash": "1d464e3582b69b83651d6602964f8b8a1f216d93a98e9cf68d83284370375028",
+          "attribute_schema": [
+            [
+              "position",
+              "FLOAT_VECTOR",
+              "POINT",
+              990
+            ],
+            [
+              ".edge_verts",
+              "INT32_2D",
+              "EDGE",
+              1976
+            ],
+            [
+              ".corner_vert",
+              "INT",
+              "CORNER",
+              3952
+            ],
+            [
+              ".corner_edge",
+              "INT",
+              "CORNER",
+              3952
+            ],
+            [
+              ".select_vert",
+              "BOOLEAN",
+              "POINT",
+              990
+            ],
+            [
+              ".select_edge",
+              "BOOLEAN",
+              "EDGE",
+              1976
+            ],
+            [
+              ".select_poly",
+              "BOOLEAN",
+              "FACE",
+              988
+            ],
+            [
+              "sharp_face",
+              "BOOLEAN",
+              "FACE",
+              988
+            ],
+            [
+              "material_index",
+              "INT",
+              "FACE",
+              988
+            ]
+          ],
+          "vertices": 990,
+          "polygons": 988,
+          "trace": {
+            "attributes": [
+              {
+                "name": "position",
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 990,
+                "fields": {
+                  "vector": {
+                    "count": 990,
+                    "type": "FLOAT",
+                    "width": 3,
+                    "hash": "a7c0144ebd2a56ff4ce4958d8a0cdcf5225fa0a3e6d5e50b29607037b542af29"
+                  }
+                }
+              },
+              {
+                "name": ".edge_verts",
+                "type": "INT32_2D",
+                "domain": "EDGE",
+                "count": 1976,
+                "fields": {
+                  "value": {
+                    "count": 1976,
+                    "type": "INT",
+                    "width": 2,
+                    "hash": "e649dc4bc97eb5a7d603b06f30521a12a9544f36fd8bf15c2787584429bf7058"
+                  }
+                }
+              },
+              {
+                "name": ".corner_vert",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 3952,
+                "fields": {
+                  "value": {
+                    "count": 3952,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "03b3a6a1ac1197263e4270f4aa23e67099ec254421a47145a41870577144e497"
+                  }
+                }
+              },
+              {
+                "name": ".corner_edge",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 3952,
+                "fields": {
+                  "value": {
+                    "count": 3952,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "da06fdb0567ea551f536608ae94a6ee9b399f4990ddd1a08e51371d2b9cfd3c8"
+                  }
+                }
+              },
+              {
+                "name": ".select_vert",
+                "type": "BOOLEAN",
+                "domain": "POINT",
+                "count": 990,
+                "fields": {
+                  "value": {
+                    "count": 990,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "b903db3ce6fb94f87d5ac10072caa143977f6a7c325bb0ef4f91d12d6a45bcf9"
+                  }
+                }
+              },
+              {
+                "name": ".select_edge",
+                "type": "BOOLEAN",
+                "domain": "EDGE",
+                "count": 1976,
+                "fields": {
+                  "value": {
+                    "count": 1976,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9"
+                  }
+                }
+              },
+              {
+                "name": ".select_poly",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 988,
+                "fields": {
+                  "value": {
+                    "count": 988,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "bd162b46f2a767eb9f680c4341f9e01172a7f106ac19280d0974f67811233173"
+                  }
+                }
+              },
+              {
+                "name": "sharp_face",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 988,
+                "fields": {
+                  "value": {
+                    "count": 988,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "ed02a689d8616afce681709a192fbb432e3c246c001759a89e60196b8f8bdeea"
+                  }
+                }
+              },
+              {
+                "name": "material_index",
+                "type": "INT",
+                "domain": "FACE",
+                "count": 988,
+                "fields": {
+                  "value": {
+                    "count": 988,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "e4cbebfa02ab4cd20e14ce3e7ea773e1413d10ea7a0f1870b010edae93b86ff5"
+                  }
+                }
+              }
+            ],
+            "topology": {
+              "vertices": {
+                "co": {
+                  "count": 990,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "a7c0144ebd2a56ff4ce4958d8a0cdcf5225fa0a3e6d5e50b29607037b542af29"
+                },
+                "select": {
+                  "count": 990,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "b903db3ce6fb94f87d5ac10072caa143977f6a7c325bb0ef4f91d12d6a45bcf9"
+                },
+                "hide": {
+                  "count": 990,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "3449ddf7ca912858ea7e87b19040bf7b9b529099f50d0f3c3388c6c79083ae0b"
+                }
+              },
+              "edges": {
+                "vertices": {
+                  "count": 1976,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "e649dc4bc97eb5a7d603b06f30521a12a9544f36fd8bf15c2787584429bf7058"
+                },
+                "select": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9"
+                },
+                "hide": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756"
+                },
+                "use_seam": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756"
+                },
+                "use_edge_sharp": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756"
+                }
+              },
+              "loops": {
+                "vertex_index": {
+                  "count": 3952,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "03b3a6a1ac1197263e4270f4aa23e67099ec254421a47145a41870577144e497"
+                },
+                "edge_index": {
+                  "count": 3952,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "da06fdb0567ea551f536608ae94a6ee9b399f4990ddd1a08e51371d2b9cfd3c8"
+                }
+              },
+              "polygons": {
+                "loop_start": {
+                  "count": 988,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "74de8dc4d32303d4cd9a82af483adf7de0675f347a41e923ea5f701a6f058500"
+                },
+                "loop_total": {
+                  "count": 988,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "51231721a108e9f7ac97d558966e77990ee07facd70306cd596727ba77d7c7d9"
+                },
+                "material_index": {
+                  "count": 988,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "e4cbebfa02ab4cd20e14ce3e7ea773e1413d10ea7a0f1870b010edae93b86ff5"
+                },
+                "use_smooth": {
+                  "count": 988,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "bd162b46f2a767eb9f680c4341f9e01172a7f106ac19280d0974f67811233173"
+                },
+                "select": {
+                  "count": 988,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "bd162b46f2a767eb9f680c4341f9e01172a7f106ac19280d0974f67811233173"
+                },
+                "hide": {
+                  "count": 988,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "ed02a689d8616afce681709a192fbb432e3c246c001759a89e60196b8f8bdeea"
+                }
+              }
+            },
+            "weights": [],
+            "shapes": null,
+            "uv_layers": [],
+            "uv_active_index": -1,
+            "custom_properties": {}
+          }
+        }
+      },
+      "Traveler | white tunic": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh": {
+          "hash": "151c0816052f1313212cc1e0c90ed5b2048a20d3185ddaad4cadca3580f24a45",
+          "attribute_schema": [
+            [
+              "position",
+              "FLOAT_VECTOR",
+              "POINT",
+              576
+            ],
+            [
+              ".edge_verts",
+              "INT32_2D",
+              "EDGE",
+              1088
+            ],
+            [
+              ".corner_vert",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".corner_edge",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".select_vert",
+              "BOOLEAN",
+              "POINT",
+              576
+            ],
+            [
+              ".select_edge",
+              "BOOLEAN",
+              "EDGE",
+              1088
+            ],
+            [
+              ".select_poly",
+              "BOOLEAN",
+              "FACE",
+              512
+            ],
+            [
+              "sharp_face",
+              "BOOLEAN",
+              "FACE",
+              512
+            ]
+          ],
+          "vertices": 576,
+          "polygons": 512,
+          "trace": {
+            "attributes": [
+              {
+                "name": "position",
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "vector": {
+                    "count": 576,
+                    "type": "FLOAT",
+                    "width": 3,
+                    "hash": "5eb8c209634d9752a39ab69794c793d3d1c02e86befef6553328adad6d2b6537"
+                  }
+                }
+              },
+              {
+                "name": ".edge_verts",
+                "type": "INT32_2D",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "INT",
+                    "width": 2,
+                    "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                  }
+                }
+              },
+              {
+                "name": ".corner_vert",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                  }
+                }
+              },
+              {
+                "name": ".corner_edge",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                  }
+                }
+              },
+              {
+                "name": ".select_vert",
+                "type": "BOOLEAN",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "value": {
+                    "count": 576,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                  }
+                }
+              },
+              {
+                "name": ".select_edge",
+                "type": "BOOLEAN",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+                  }
+                }
+              },
+              {
+                "name": ".select_poly",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                  }
+                }
+              },
+              {
+                "name": "sharp_face",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                  }
+                }
+              }
+            ],
+            "topology": {
+              "vertices": {
+                "co": {
+                  "count": 576,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "5eb8c209634d9752a39ab69794c793d3d1c02e86befef6553328adad6d2b6537"
+                },
+                "select": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                },
+                "hide": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4"
+                }
+              },
+              "edges": {
+                "vertices": {
+                  "count": 1088,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                },
+                "select": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+                },
+                "hide": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_seam": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_edge_sharp": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                }
+              },
+              "loops": {
+                "vertex_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                },
+                "edge_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                }
+              },
+              "polygons": {
+                "loop_start": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "a81d9a79b168811141b1be92f979ae0a4e6f6e9be92f22cd6239a34e1c6750de"
+                },
+                "loop_total": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "378a7d90a548378fe5f0412bd99d612dcf8b566dfe6b709943e6786a72abb299"
+                },
+                "material_index": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+                },
+                "use_smooth": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "select": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "hide": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                }
+              }
+            },
+            "weights": [],
+            "shapes": null,
+            "uv_layers": [],
+            "uv_active_index": -1,
+            "custom_properties": {}
+          }
+        }
+      }
+    },
+    "viewer": {
+      "Traveler | full length ivory skirt": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh": {
+          "hash": "bb05631d284f20194b71f645bfeb851d567b4b9437371a9e5e6fd4204da9166c",
+          "attribute_schema": [
+            [
+              "position",
+              "FLOAT_VECTOR",
+              "POINT",
+              576
+            ],
+            [
+              ".edge_verts",
+              "INT32_2D",
+              "EDGE",
+              1088
+            ],
+            [
+              ".corner_vert",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".corner_edge",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".select_vert",
+              "BOOLEAN",
+              "POINT",
+              576
+            ],
+            [
+              ".select_edge",
+              "BOOLEAN",
+              "EDGE",
+              1088
+            ],
+            [
+              ".select_poly",
+              "BOOLEAN",
+              "FACE",
+              512
+            ],
+            [
+              "sharp_face",
+              "BOOLEAN",
+              "FACE",
+              512
+            ]
+          ],
+          "vertices": 576,
+          "polygons": 512,
+          "trace": {
+            "attributes": [
+              {
+                "name": "position",
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "vector": {
+                    "count": 576,
+                    "type": "FLOAT",
+                    "width": 3,
+                    "hash": "6849230bbe7fe73afb1bf30d17c509fb60c8e06071df0ec4df8d78510775fa76"
+                  }
+                }
+              },
+              {
+                "name": ".edge_verts",
+                "type": "INT32_2D",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "INT",
+                    "width": 2,
+                    "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                  }
+                }
+              },
+              {
+                "name": ".corner_vert",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                  }
+                }
+              },
+              {
+                "name": ".corner_edge",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                  }
+                }
+              },
+              {
+                "name": ".select_vert",
+                "type": "BOOLEAN",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "value": {
+                    "count": 576,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                  }
+                }
+              },
+              {
+                "name": ".select_edge",
+                "type": "BOOLEAN",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+                  }
+                }
+              },
+              {
+                "name": ".select_poly",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                  }
+                }
+              },
+              {
+                "name": "sharp_face",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                  }
+                }
+              }
+            ],
+            "topology": {
+              "vertices": {
+                "co": {
+                  "count": 576,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "6849230bbe7fe73afb1bf30d17c509fb60c8e06071df0ec4df8d78510775fa76"
+                },
+                "select": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                },
+                "hide": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4"
+                }
+              },
+              "edges": {
+                "vertices": {
+                  "count": 1088,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                },
+                "select": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+                },
+                "hide": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_seam": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_edge_sharp": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                }
+              },
+              "loops": {
+                "vertex_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                },
+                "edge_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                }
+              },
+              "polygons": {
+                "loop_start": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "a81d9a79b168811141b1be92f979ae0a4e6f6e9be92f22cd6239a34e1c6750de"
+                },
+                "loop_total": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "378a7d90a548378fe5f0412bd99d612dcf8b566dfe6b709943e6786a72abb299"
+                },
+                "material_index": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+                },
+                "use_smooth": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "select": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "hide": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                }
+              }
+            },
+            "weights": [],
+            "shapes": null,
+            "uv_layers": [],
+            "uv_active_index": -1,
+            "custom_properties": {}
+          }
+        }
+      },
+      "Traveler | purple-red shoulder cape": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh": {
+          "hash": "ba4a3d1d20b27e956dce90b8ea0fc2808e0f26d1bdb48e0780e9074a4ad8e8e1",
+          "attribute_schema": [
+            [
+              "position",
+              "FLOAT_VECTOR",
+              "POINT",
+              990
+            ],
+            [
+              ".edge_verts",
+              "INT32_2D",
+              "EDGE",
+              1976
+            ],
+            [
+              ".corner_vert",
+              "INT",
+              "CORNER",
+              3952
+            ],
+            [
+              ".corner_edge",
+              "INT",
+              "CORNER",
+              3952
+            ],
+            [
+              ".select_vert",
+              "BOOLEAN",
+              "POINT",
+              990
+            ],
+            [
+              ".select_edge",
+              "BOOLEAN",
+              "EDGE",
+              1976
+            ],
+            [
+              ".select_poly",
+              "BOOLEAN",
+              "FACE",
+              988
+            ],
+            [
+              "sharp_face",
+              "BOOLEAN",
+              "FACE",
+              988
+            ],
+            [
+              "material_index",
+              "INT",
+              "FACE",
+              988
+            ]
+          ],
+          "vertices": 990,
+          "polygons": 988,
+          "trace": {
+            "attributes": [
+              {
+                "name": "position",
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 990,
+                "fields": {
+                  "vector": {
+                    "count": 990,
+                    "type": "FLOAT",
+                    "width": 3,
+                    "hash": "a7c0144ebd2a56ff4ce4958d8a0cdcf5225fa0a3e6d5e50b29607037b542af29"
+                  }
+                }
+              },
+              {
+                "name": ".edge_verts",
+                "type": "INT32_2D",
+                "domain": "EDGE",
+                "count": 1976,
+                "fields": {
+                  "value": {
+                    "count": 1976,
+                    "type": "INT",
+                    "width": 2,
+                    "hash": "e649dc4bc97eb5a7d603b06f30521a12a9544f36fd8bf15c2787584429bf7058"
+                  }
+                }
+              },
+              {
+                "name": ".corner_vert",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 3952,
+                "fields": {
+                  "value": {
+                    "count": 3952,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "03b3a6a1ac1197263e4270f4aa23e67099ec254421a47145a41870577144e497"
+                  }
+                }
+              },
+              {
+                "name": ".corner_edge",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 3952,
+                "fields": {
+                  "value": {
+                    "count": 3952,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "da06fdb0567ea551f536608ae94a6ee9b399f4990ddd1a08e51371d2b9cfd3c8"
+                  }
+                }
+              },
+              {
+                "name": ".select_vert",
+                "type": "BOOLEAN",
+                "domain": "POINT",
+                "count": 990,
+                "fields": {
+                  "value": {
+                    "count": 990,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "b903db3ce6fb94f87d5ac10072caa143977f6a7c325bb0ef4f91d12d6a45bcf9"
+                  }
+                }
+              },
+              {
+                "name": ".select_edge",
+                "type": "BOOLEAN",
+                "domain": "EDGE",
+                "count": 1976,
+                "fields": {
+                  "value": {
+                    "count": 1976,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+                  }
+                }
+              },
+              {
+                "name": ".select_poly",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 988,
+                "fields": {
+                  "value": {
+                    "count": 988,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "bd162b46f2a767eb9f680c4341f9e01172a7f106ac19280d0974f67811233173"
+                  }
+                }
+              },
+              {
+                "name": "sharp_face",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 988,
+                "fields": {
+                  "value": {
+                    "count": 988,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "ed02a689d8616afce681709a192fbb432e3c246c001759a89e60196b8f8bdeea"
+                  }
+                }
+              },
+              {
+                "name": "material_index",
+                "type": "INT",
+                "domain": "FACE",
+                "count": 988,
+                "fields": {
+                  "value": {
+                    "count": 988,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "e4cbebfa02ab4cd20e14ce3e7ea773e1413d10ea7a0f1870b010edae93b86ff5"
+                  }
+                }
+              }
+            ],
+            "topology": {
+              "vertices": {
+                "co": {
+                  "count": 990,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "a7c0144ebd2a56ff4ce4958d8a0cdcf5225fa0a3e6d5e50b29607037b542af29"
+                },
+                "select": {
+                  "count": 990,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "b903db3ce6fb94f87d5ac10072caa143977f6a7c325bb0ef4f91d12d6a45bcf9"
+                },
+                "hide": {
+                  "count": 990,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "3449ddf7ca912858ea7e87b19040bf7b9b529099f50d0f3c3388c6c79083ae0b"
+                }
+              },
+              "edges": {
+                "vertices": {
+                  "count": 1976,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "e649dc4bc97eb5a7d603b06f30521a12a9544f36fd8bf15c2787584429bf7058"
+                },
+                "select": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+                },
+                "hide": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756"
+                },
+                "use_seam": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756"
+                },
+                "use_edge_sharp": {
+                  "count": 1976,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756"
+                }
+              },
+              "loops": {
+                "vertex_index": {
+                  "count": 3952,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "03b3a6a1ac1197263e4270f4aa23e67099ec254421a47145a41870577144e497"
+                },
+                "edge_index": {
+                  "count": 3952,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "da06fdb0567ea551f536608ae94a6ee9b399f4990ddd1a08e51371d2b9cfd3c8"
+                }
+              },
+              "polygons": {
+                "loop_start": {
+                  "count": 988,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "74de8dc4d32303d4cd9a82af483adf7de0675f347a41e923ea5f701a6f058500"
+                },
+                "loop_total": {
+                  "count": 988,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "51231721a108e9f7ac97d558966e77990ee07facd70306cd596727ba77d7c7d9"
+                },
+                "material_index": {
+                  "count": 988,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "e4cbebfa02ab4cd20e14ce3e7ea773e1413d10ea7a0f1870b010edae93b86ff5"
+                },
+                "use_smooth": {
+                  "count": 988,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "bd162b46f2a767eb9f680c4341f9e01172a7f106ac19280d0974f67811233173"
+                },
+                "select": {
+                  "count": 988,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "bd162b46f2a767eb9f680c4341f9e01172a7f106ac19280d0974f67811233173"
+                },
+                "hide": {
+                  "count": 988,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "ed02a689d8616afce681709a192fbb432e3c246c001759a89e60196b8f8bdeea"
+                }
+              }
+            },
+            "weights": [],
+            "shapes": null,
+            "uv_layers": [],
+            "uv_active_index": -1,
+            "custom_properties": {}
+          }
+        }
+      },
+      "Traveler | white tunic": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh": {
+          "hash": "d02a50e9048be15b552b1489b3293d38b6e4949d08df02271dce9f0f2cf0d8f2",
+          "attribute_schema": [
+            [
+              "position",
+              "FLOAT_VECTOR",
+              "POINT",
+              576
+            ],
+            [
+              ".edge_verts",
+              "INT32_2D",
+              "EDGE",
+              1088
+            ],
+            [
+              ".corner_vert",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".corner_edge",
+              "INT",
+              "CORNER",
+              2048
+            ],
+            [
+              ".select_vert",
+              "BOOLEAN",
+              "POINT",
+              576
+            ],
+            [
+              ".select_edge",
+              "BOOLEAN",
+              "EDGE",
+              1088
+            ],
+            [
+              ".select_poly",
+              "BOOLEAN",
+              "FACE",
+              512
+            ],
+            [
+              "sharp_face",
+              "BOOLEAN",
+              "FACE",
+              512
+            ]
+          ],
+          "vertices": 576,
+          "polygons": 512,
+          "trace": {
+            "attributes": [
+              {
+                "name": "position",
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "vector": {
+                    "count": 576,
+                    "type": "FLOAT",
+                    "width": 3,
+                    "hash": "5eb8c209634d9752a39ab69794c793d3d1c02e86befef6553328adad6d2b6537"
+                  }
+                }
+              },
+              {
+                "name": ".edge_verts",
+                "type": "INT32_2D",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "INT",
+                    "width": 2,
+                    "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                  }
+                }
+              },
+              {
+                "name": ".corner_vert",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                  }
+                }
+              },
+              {
+                "name": ".corner_edge",
+                "type": "INT",
+                "domain": "CORNER",
+                "count": 2048,
+                "fields": {
+                  "value": {
+                    "count": 2048,
+                    "type": "INT",
+                    "width": 0,
+                    "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                  }
+                }
+              },
+              {
+                "name": ".select_vert",
+                "type": "BOOLEAN",
+                "domain": "POINT",
+                "count": 576,
+                "fields": {
+                  "value": {
+                    "count": 576,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                  }
+                }
+              },
+              {
+                "name": ".select_edge",
+                "type": "BOOLEAN",
+                "domain": "EDGE",
+                "count": 1088,
+                "fields": {
+                  "value": {
+                    "count": 1088,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+                  }
+                }
+              },
+              {
+                "name": ".select_poly",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                  }
+                }
+              },
+              {
+                "name": "sharp_face",
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 512,
+                "fields": {
+                  "value": {
+                    "count": 512,
+                    "type": "BOOLEAN",
+                    "width": 0,
+                    "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                  }
+                }
+              }
+            ],
+            "topology": {
+              "vertices": {
+                "co": {
+                  "count": 576,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "5eb8c209634d9752a39ab69794c793d3d1c02e86befef6553328adad6d2b6537"
+                },
+                "select": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6c6897240943a4e1218c0016a09d07f5ce5f57fe99c390cad571e4c2adb30015"
+                },
+                "hide": {
+                  "count": 576,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4"
+                }
+              },
+              "edges": {
+                "vertices": {
+                  "count": 1088,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "d2161c9860f89bbc34ec75f9c3b9c244061ea146f5f6b46abc0959f82cbb9d33"
+                },
+                "select": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+                },
+                "hide": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_seam": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                },
+                "use_edge_sharp": {
+                  "count": 1088,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6"
+                }
+              },
+              "loops": {
+                "vertex_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "3bec64d5a70e171af24d486932a6bf93b040a1149743d7f7b1065311d2ec2736"
+                },
+                "edge_index": {
+                  "count": 2048,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "eea964724fb5b8c6baf2e88bc8d2e36714bbd6d3a7b452c661d0ca55b0180849"
+                }
+              },
+              "polygons": {
+                "loop_start": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "a81d9a79b168811141b1be92f979ae0a4e6f6e9be92f22cd6239a34e1c6750de"
+                },
+                "loop_total": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "378a7d90a548378fe5f0412bd99d612dcf8b566dfe6b709943e6786a72abb299"
+                },
+                "material_index": {
+                  "count": 512,
+                  "type": "INT",
+                  "width": 1,
+                  "hash": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+                },
+                "use_smooth": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "select": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "6caf38d537984e261527b8caef5f990fb91415a1db917198821a79ed28997973"
+                },
+                "hide": {
+                  "count": 512,
+                  "type": "BOOLEAN",
+                  "width": 1,
+                  "hash": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+                }
+              }
+            },
+            "weights": [],
+            "shapes": null,
+            "uv_layers": [],
+            "uv_active_index": -1,
+            "custom_properties": {}
+          }
+        }
+      }
+    }
+  }
+}

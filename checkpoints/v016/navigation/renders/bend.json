@@ -1,0 +1,50 @@
+{
+  "view": "bend",
+  "source": "castle_v015.blend",
+  "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+  "view_manifest_sha256": "a0383eacbff1edf04b1eb070dcaf81422ef55c9930491aee6374bb64855ec65f",
+  "preset": {
+    "label": "Interior bend towards north stair",
+    "camera_name": "REVIEW | 02 Interior bend",
+    "location": [
+      4.45,
+      38.1,
+      30.6
+    ],
+    "target": [
+      4.45,
+      49,
+      31
+    ],
+    "lens": 28,
+    "clip_start": 0.05,
+    "clip_end": 3000,
+    "provenance": "Accepted v013 highres bend camera; current model retains route, with later landing marker."
+  },
+  "actual_camera": {
+    "location": [
+      4.449999809265137,
+      38.099998474121094,
+      30.600000381469727
+    ],
+    "rotation_euler": [
+      1.607477068901062,
+      -0.0,
+      0.0
+    ],
+    "lens": 28.0,
+    "clip_start": 0.05000000074505806,
+    "clip_end": 3000.0
+  },
+  "resolution": [
+    720,
+    520
+  ],
+  "samples": 24,
+  "seconds": 147.15166521072388,
+  "peak_rss_linux_kib": 1344660,
+  "runtime": "5.2.3 LTS",
+  "lighting": "Actual existing world/lights/exposure unchanged. No diagnostic fill or hidden geometry.",
+  "scope": "Independent camera still, not simulated walking or a dynamic navigation proof.",
+  "source_saved": false
+}
