@@ -1,0 +1,198 @@
+{
+  "source_sha256": "83ea4d898b232e1f9d5f3ee314d16227a3fb31b954f88e4e5c3bdb5be8c2add5",
+  "fixture_geometry_measurements": [
+    {
+      "name": "V014 | landing marker cage upright 0",
+      "bounds": [
+        [
+          5.258983135223389,
+          54.84898376464844,
+          32.95000457763672
+        ],
+        [
+          5.27698278427124,
+          54.866981506347656,
+          33.25
+        ]
+      ]
+    },
+    {
+      "name": "V014 | landing marker cage upright 1",
+      "bounds": [
+        [
+          5.143017292022705,
+          54.84898376464844,
+          32.95000457763672
+        ],
+        [
+          5.161016941070557,
+          54.866981506347656,
+          33.25
+        ]
+      ]
+    },
+    {
+      "name": "V014 | landing marker cage upright 2",
+      "bounds": [
+        [
+          5.143017292022705,
+          54.7330207824707,
+          32.95000457763672
+        ],
+        [
+          5.161016941070557,
+          54.75101852416992,
+          33.25
+        ]
+      ]
+    },
+    {
+      "name": "V014 | landing marker cage upright 3",
+      "bounds": [
+        [
+          5.258983135223389,
+          54.7330207824707,
+          32.95000457763672
+        ],
+        [
+          5.27698278427124,
+          54.75101852416992,
+          33.25
+        ]
+      ]
+    },
+    {
+      "name": "V014 | landing marker hood rim",
+      "bounds": [
+        [
+          5.105000019073486,
+          54.695003509521484,
+          33.247501373291016
+        ],
+        [
+          5.315000057220459,
+          54.90500259399414,
+          33.27250289916992
+        ]
+      ]
+    },
+    {
+      "name": "V014 | landing marker lower cup",
+      "bounds": [
+        [
+          5.105000019073486,
+          54.695003509521484,
+          32.92749786376953
+        ],
+        [
+          5.315000057220459,
+          54.90500259399414,
+          32.95249938964844
+        ]
+      ]
+    },
+    {
+      "name": "V014 | landing marker luminous flame",
+      "bounds": [
+        [
+          5.184999942779541,
+          54.775001525878906,
+          33.04500198364258
+        ],
+        [
+          5.235000133514404,
+          54.82500457763672,
+          33.15500259399414
+        ]
+      ]
+    },
+    {
+      "name": "V014 | landing marker mounting plate",
+      "bounds": [
+        [
+          5.377500057220459,
+          54.7550048828125,
+          32.95000076293945
+        ],
+        [
+          5.402499675750732,
+          54.845001220703125,
+          33.250003814697266
+        ]
+      ]
+    },
+    {
+      "name": "V014 | landing marker rain hood",
+      "bounds": [
+        [
+          5.099999904632568,
+          54.69000244140625,
+          33.27000045776367
+        ],
+        [
+          5.320000171661377,
+          54.910003662109375,
+          33.3599967956543
+        ]
+      ]
+    },
+    {
+      "name": "V014 | landing marker wall arm",
+      "bounds": [
+        [
+          5.196933269500732,
+          54.78200149536133,
+          33.087623596191406
+        ],
+        [
+          5.403067111968994,
+          54.8180046081543,
+          33.30238342285156
+        ]
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "fixture": "V014 | landing marker mounting plate",
+      "architecture": "V012 | east lined stairwell and terrace guard",
+      "component_seed": 0,
+      "intersection_volume": 6.748661073145354e-05,
+      "intersection_faces": 6,
+      "result_nonmanifold_edges": 0
+    },
+    {
+      "fixture": "V014 | landing marker wall arm",
+      "architecture": "V012 | east lined stairwell and terrace guard",
+      "component_seed": 0,
+      "intersection_volume": 9.330861317863271e-08,
+      "intersection_faces": 6,
+      "result_nonmanifold_edges": 0
+    }
+  ],
+  "intentional_wall_mount_intersections": [
+    {
+      "fixture": "V014 | landing marker mounting plate",
+      "architecture": "V012 | east lined stairwell and terrace guard",
+      "component_seed": 0,
+      "intersection_volume": 6.748661073145354e-05,
+      "intersection_faces": 6,
+      "result_nonmanifold_edges": 0
+    },
+    {
+      "fixture": "V014 | landing marker wall arm",
+      "architecture": "V012 | east lined stairwell and terrace guard",
+      "component_seed": 0,
+      "intersection_volume": 9.330861317863271e-08,
+      "intersection_faces": 6,
+      "result_nonmanifold_edges": 0
+    }
+  ],
+  "collisions": [],
+  "uncertain": [],
+  "temporary_datablocks_cleaned": true,
+  "source_unchanged": true,
+  "landing_fixture_architecture_clear": true,
+  "volume_tolerance": 1e-08,
+  "scope": "Independent new landing-marker-versus-closed-architecture volume intersections. Only plate/arm embedding in the named mount wall is allowed. Other overlaps/unknown-open components fail. Not structural certification."
+}

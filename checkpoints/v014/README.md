@@ -36,4 +36,4 @@ blender -b --disable-autoexec <v013.blend> --python checkpoints/v014/scripts/add
 
 本地新鲜分块恢复和10项存储测试通过。最终实际照明预览 `previews/v014_terrace_final.png` 为1200×866、64采样；`v014_hero_final.png` 为1600×1155、64采样。均以原分辨率复查，没有新的孤立亮点、黑缝或明显外景泛光。与v013同分辨率64采样全景均差0.0214/255，最大27/255，不是像素相同；新增灯也可能改变采样。
 
-CPU耗时约195/216秒，峰值RSS约1.93/2.64百万KiB；部分并行，不能作性能比率。见 `reports/final_render_qa.json`。本次发布后独立远端恢复另行记录。拒绝的候选仅作验证证据，不当作本版完成模型。
+CPU耗时约195/216秒，峰值RSS约1.93/2.64百万KiB；部分并行，不能作性能比率。见 `reports/final_render_qa.json`。远端提交 `44233fa9688b08c9043a88db64ae022120ac1bc9` 已独立拉回：逐文件校验、精确字节恢复、10项存储测试、Blender重开和全部通路/灯具/来源检查通过。保存模型还确认10个新网格对象确实共享原网格、光源独立且功率参数26，原上灯保持40。见 `reports/remote_validation.json` 与 `remote_*.json`。拒绝的候选仅作验证证据，不当作本版完成模型。
