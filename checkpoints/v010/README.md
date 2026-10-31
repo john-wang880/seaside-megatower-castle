@@ -27,3 +27,6 @@ python checkpoints/v010/restore_checkpoint.py
 `previews/v009_east_neutral.png` 与 `v010_east_neutral.png` 同机位前后；`v010_west_neutral.png` 展示西侧。均为真实模型的中性诊断照明，最终工程原照明未变。
 
 重建：在v009恢复模型上运行 `scripts/refine_v010.py --output <新文件.blend> --report <报告.json>`，勿覆盖来源。历史版本保留Git历史，远端新恢复通过后才撤旧树。
+
+## 同模型验证扩展
+新增主桥 x≈−58…−16 的255处桥面、765处占用采样，零碰撞/不确定；两端实测桥面重叠，无采样间隙。此为中央三条采样线，不代表全桥宽、护栏或连续身体扫掠认证。预筛选改用求值后的包围盒，增加扩张修改器与临时数据清理测试，共5项合成回归。`previews/hero_original_lighting.png`为本版整体原照明实渲，不是中性诊断灯光。模型字节未变。

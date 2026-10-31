@@ -1,11 +1,13 @@
 {
   "model": "castle_v009.blend",
   "model_sha256": "180f4abca9f39e5e66df48a61ac16be7f044ca99d840b9c840c79a8dbf4b1a95",
-  "method": "separate evaluated connected components; strict closed-edge test; three agreeing oblique ray parities; AABB cull",
+  "method": "separate evaluated connected components; strict closed-edge test; three agreeing oblique ray parities; evaluated-object AABB broadphase",
   "synthetic_regressions": {
     "cube_inside": true,
     "cube_outside": true,
-    "overlap_keeps_both_solid_interiors": true
+    "overlap_keeps_both_solid_interiors": true,
+    "expanding_modifier_evaluated_aabb": true,
+    "synthetic_temporary_datablocks_cleaned": true
   },
   "floor_samples": 263,
   "occupancy_points": 789,
@@ -4493,6 +4495,6 @@
     }
   ],
   "sampled_occupancy_clear": false,
-  "seconds": 3.170072317123413,
+  "seconds": 3.842008113861084,
   "limits": "Known named open terrain/path sheets are surface-collision-tested and make no enclosed-volume claim. Unknown open candidates fail. Discrete samples only, not continuous-volume proof. Eastern walking endpoint x=-3.5 stops before intentionally closed doorway."
 }

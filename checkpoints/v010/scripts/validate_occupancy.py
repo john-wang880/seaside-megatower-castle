@@ -51,17 +51,43 @@ for label,point,expected in [('cube_inside',(.4,.5,.6),1),('cube_outside',(1.4,.
  self_tests[label]=bits==[expected]*3
 shifted=BVHTree.FromPolygons([(x+.5,y,z) for x,y,z in unit_vertices],unit_faces,all_triangles=False)
 self_tests['overlap_keeps_both_solid_interiors']=all(parity(tree,Vector((.75,.5,.6)),d,10)[0]==1 for tree in(unit,shifted) for d in dirs)
+# Regression: an Array modifier expands a unit cube into a second cube at
+# x=3..4. Its evaluation must admit a point outside the original mesh AABB.
+# Temporary datablocks are always removed, including assertion/error paths.
+before_counts=(len(bpy.data.objects),len(bpy.data.meshes))
+test_mesh=bpy.data.meshes.new('TEMP occupancy expanding-modifier test')
+test_mesh.from_pydata(unit_vertices,[],unit_faces);test_mesh.update()
+test_object=bpy.data.objects.new('TEMP occupancy expanding-modifier test',test_mesh)
+bpy.context.scene.collection.objects.link(test_object)
+try:
+ modifier=test_object.modifiers.new('Expand bounding box','ARRAY');modifier.count=2
+ modifier.relative_offset_displace=(3,0,0)
+ bpy.context.view_layer.update();test_deps=bpy.context.evaluated_depsgraph_get()
+ evaluated=test_object.evaluated_get(test_deps)
+ ev=[evaluated.matrix_world@Vector(v) for v in evaluated.bound_box]
+ eval_bb=([min(v[k] for v in ev) for k in range(3)],[max(v[k] for v in ev) for k in range(3)])
+ raw_bb=([min(v[k] for v in unit_vertices) for k in range(3)],[max(v[k] for v in unit_vertices) for k in range(3)])
+ target=Vector((3.5,.5,.5))
+ self_tests['expanding_modifier_evaluated_aabb']=contains(eval_bb,target) and not contains(raw_bb,target)
+finally:
+ bpy.data.objects.remove(test_object,do_unlink=True)
+ bpy.data.meshes.remove(test_mesh)
+ bpy.context.view_layer.update()
+self_tests['synthetic_temporary_datablocks_cleaned']=(len(bpy.data.objects),len(bpy.data.meshes))==before_counts
 assert all(self_tests.values()),self_tests
 surface_tests=[]
 known_open_surfaces={'Castle headland | level courtyard and broken coastal escarpment','V010 | headland with local stair-edge clearance','Narrow winding limestone footpath | conformed to meadow'}
 collisions=[];uncertain=[];tested_components=[];object_stats=[];deps=bpy.context.evaluated_depsgraph_get()
 for o in bpy.data.objects:
  if o.type!='MESH' or o.hide_render or o.name.startswith(('Volume cloud','Air perspective')):continue
- bbox=[o.matrix_world@Vector(v) for v in o.bound_box];bb=([min(v[k] for v in bbox) for k in range(3)],[max(v[k] for v in bbox) for k in range(3)])
- if not intersects(bb):continue
  modifier_mismatch=[m.name for m in o.modifiers if m.show_viewport!=m.show_render]
  if modifier_mismatch:uncertain.append({'object':o.name,'reason':'viewport_render_modifier_visibility_mismatch','modifiers':modifier_mismatch})
- eo=o.evaluated_get(deps);me=eo.to_mesh();world=eo.matrix_world;vs=[world@v.co for v in me.vertices];parent=list(range(len(vs)))
+ eo=o.evaluated_get(deps)
+ # Cull only evaluated geometry: an expanding modifier can enter the route
+ # even when the original mesh bounds are entirely outside it.
+ bbox=[eo.matrix_world@Vector(v) for v in eo.bound_box];bb=([min(v[k] for v in bbox) for k in range(3)],[max(v[k] for v in bbox) for k in range(3)])
+ if not intersects(bb):continue
+ me=eo.to_mesh();world=eo.matrix_world;vs=[world@v.co for v in me.vertices];parent=list(range(len(vs)))
  def find(i):
   while parent[i]!=i:parent[i]=parent[parent[i]];i=parent[i]
   return i
@@ -120,6 +146,6 @@ for o in bpy.data.objects:
    if any(bit is None for bit in bits) or len(set(bits))!=1:uncertain.append({**record,'reason':'ray_parity_disagreement_or_limit'})
    elif bits[0]==1:collisions.append(record)
  object_stats.append({'object':o.name,'evaluated_vertices':len(vs),'components':len(groups),'candidate_components':len(candidate),'modifiers_evaluated':[m.type for m in o.modifiers if m.show_viewport]});eo.to_mesh_clear()
-r={'model':Path(bpy.data.filepath).name,'model_sha256':hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest(),'method':'separate evaluated connected components; strict closed-edge test; three agreeing oblique ray parities; AABB cull','synthetic_regressions':self_tests,'floor_samples':len(floors),'occupancy_points':len(points),'zones':dict(Counter(f['zone'] for f in floors)),'height_offsets':[.05,1.1,2.0],'collisions':collisions,'uncertain':uncertain,'known_open_surface_tests':surface_tests,'tested_components':tested_components,'objects':object_stats,'sampled_occupancy_clear':not collisions and not uncertain,'seconds':time.time()-start,'limits':'Known named open terrain/path sheets are surface-collision-tested and make no enclosed-volume claim. Unknown open candidates fail. Discrete samples only, not continuous-volume proof. Eastern walking endpoint x=-3.5 stops before intentionally closed doorway.'}
+r={'model':Path(bpy.data.filepath).name,'model_sha256':hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest(),'method':'separate evaluated connected components; strict closed-edge test; three agreeing oblique ray parities; evaluated-object AABB broadphase','synthetic_regressions':self_tests,'floor_samples':len(floors),'occupancy_points':len(points),'zones':dict(Counter(f['zone'] for f in floors)),'height_offsets':[.05,1.1,2.0],'collisions':collisions,'uncertain':uncertain,'known_open_surface_tests':surface_tests,'tested_components':tested_components,'objects':object_stats,'sampled_occupancy_clear':not collisions and not uncertain,'seconds':time.time()-start,'limits':'Known named open terrain/path sheets are surface-collision-tested and make no enclosed-volume claim. Unknown open candidates fail. Discrete samples only, not continuous-volume proof. Eastern walking endpoint x=-3.5 stops before intentionally closed doorway.'}
 Path(a.report).write_text(json.dumps(r,indent=2));print(json.dumps({k:r[k] for k in('floor_samples','occupancy_points','sampled_occupancy_clear','seconds')}));print('COLLISION OBJECTS',dict(Counter(x['object'] for x in collisions)));print('UNCERTAIN OBJECTS',dict(Counter(x['object'] for x in uncertain)))
 if not a.allow_collisions:assert r['sampled_occupancy_clear'],'Occupancy failed: inspect report collisions/uncertain'
