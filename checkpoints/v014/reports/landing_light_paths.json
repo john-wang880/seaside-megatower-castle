@@ -1,0 +1,521 @@
+{
+  "model_sha256": "83ea4d898b232e1f9d5f3ee314d16227a3fb31b954f88e4e5c3bdb5be8c2add5",
+  "light_position": [
+    5.210000038146973,
+    54.80000305175781,
+    33.10000228881836
+  ],
+  "rows": [
+    {
+      "floor_point": [
+        3.8499999046325684,
+        58.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        100.000711530447,
+        1184.2492252588272
+      ],
+      "in_frame": false,
+      "distance": 3.5090330884691006,
+      "cosine": 0.13479593253352048,
+      "unoccluded_inverse_square_cosine_factor": 0.010947169958990671
+    },
+    {
+      "floor_point": [
+        3.8499999046325684,
+        58.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        202.94156670570374,
+        931.529189646244
+      ],
+      "in_frame": false,
+      "distance": 3.9703035355263685,
+      "cosine": 0.11913532132209201,
+      "unoccluded_inverse_square_cosine_factor": 0.007557760399370952
+    },
+    {
+      "floor_point": [
+        3.8499999046325684,
+        59.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        259.091117978096,
+        793.6818860471249
+      ],
+      "in_frame": false,
+      "distance": 4.4399670170458885,
+      "cosine": 0.10653308586194915,
+      "unoccluded_inverse_square_cosine_factor": 0.0054041204377442515
+    },
+    {
+      "floor_point": [
+        3.8499999046325684,
+        59.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        294.44459080696106,
+        706.8890240043402
+      ],
+      "in_frame": false,
+      "distance": 4.915618380295357,
+      "cosine": 0.09622459492527799,
+      "unoccluded_inverse_square_cosine_factor": 0.003982261477303123
+    },
+    {
+      "floor_point": [
+        3.8499999046325684,
+        60.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        318.7500983476639,
+        647.2189383115619
+      ],
+      "in_frame": true,
+      "distance": 5.395674286772668,
+      "cosine": 0.08766344340145314,
+      "unoccluded_inverse_square_cosine_factor": 0.0030111131463427857
+    },
+    {
+      "floor_point": [
+        3.8499999046325684,
+        60.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        336.48658096790314,
+        603.6758534610271
+      ],
+      "in_frame": true,
+      "distance": 5.8790557107271315,
+      "cosine": 0.08045567361916868,
+      "unoccluded_inverse_square_cosine_factor": 0.002327777810980985
+    },
+    {
+      "floor_point": [
+        4.150000095367432,
+        58.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        275.0005066394806,
+        1184.2492252588272
+      ],
+      "in_frame": false,
+      "distance": 3.4040142167404683,
+      "cosine": 0.13895458636012947,
+      "unoccluded_inverse_square_cosine_factor": 0.011991959560009155
+    },
+    {
+      "floor_point": [
+        4.150000095367432,
+        58.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        326.47089064121246,
+        931.529189646244
+      ],
+      "in_frame": false,
+      "distance": 3.877797020991869,
+      "cosine": 0.12197734561418234,
+      "unoccluded_inverse_square_cosine_factor": 0.008111646814194049
+    },
+    {
+      "floor_point": [
+        4.150000095367432,
+        59.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        354.5456260442734,
+        793.6818860471249
+      ],
+      "in_frame": false,
+      "distance": 4.357442677104955,
+      "cosine": 0.10855068500073327,
+      "unoccluded_inverse_square_cosine_factor": 0.005717013308198378
+    },
+    {
+      "floor_point": [
+        4.150000095367432,
+        59.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        372.2223490476608,
+        706.8890240043402
+      ],
+      "in_frame": false,
+      "distance": 4.841208901968369,
+      "cosine": 0.09770356888727838,
+      "unoccluded_inverse_square_cosine_factor": 0.004168720532843386
+    },
+    {
+      "floor_point": [
+        4.150000095367432,
+        60.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        384.3751162290573,
+        647.2189383115619
+      ],
+      "in_frame": true,
+      "distance": 5.327973402780834,
+      "cosine": 0.08877735523309797,
+      "unoccluded_inverse_square_cosine_factor": 0.003127361651756738
+    },
+    {
+      "floor_point": [
+        4.150000095367432,
+        60.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        393.2433307170868,
+        603.6758534610271
+      ],
+      "in_frame": true,
+      "distance": 5.816983378146574,
+      "cosine": 0.08131420647137584,
+      "unoccluded_inverse_square_cosine_factor": 0.0024030941296439906
+    },
+    {
+      "floor_point": [
+        4.449999809265137,
+        58.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        450.0,
+        1184.2492252588272
+      ],
+      "in_frame": false,
+      "distance": 3.322847161816758,
+      "cosine": 0.14234882449199335,
+      "unoccluded_inverse_square_cosine_factor": 0.012892381651506631
+    },
+    {
+      "floor_point": [
+        4.449999809265137,
+        58.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        450.0,
+        931.529189646244
+      ],
+      "in_frame": false,
+      "distance": 3.806745356473936,
+      "cosine": 0.1242540131156289,
+      "unoccluded_inverse_square_cosine_factor": 0.008574380875385021
+    },
+    {
+      "floor_point": [
+        4.449999809265137,
+        59.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        450.0,
+        793.6818860471249
+      ],
+      "in_frame": false,
+      "distance": 4.2943343089794555,
+      "cosine": 0.1101459163209817,
+      "unoccluded_inverse_square_cosine_factor": 0.005972782481284763
+    },
+    {
+      "floor_point": [
+        4.449999809265137,
+        59.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        450.0,
+        706.8890240043402
+      ],
+      "in_frame": false,
+      "distance": 4.784485772318719,
+      "cosine": 0.09886190699694335,
+      "unoccluded_inverse_square_cosine_factor": 0.004318753817660512
+    },
+    {
+      "floor_point": [
+        4.449999809265137,
+        60.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        450.0,
+        647.2189383115619
+      ],
+      "in_frame": true,
+      "distance": 5.276485672657743,
+      "cosine": 0.08964364101322805,
+      "unoccluded_inverse_square_cosine_factor": 0.0032198078976310536
+    },
+    {
+      "floor_point": [
+        4.449999809265137,
+        60.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        450.0,
+        603.6758534610271
+      ],
+      "in_frame": true,
+      "distance": 5.769861011727752,
+      "cosine": 0.08197829834891182,
+      "unoccluded_inverse_square_cosine_factor": 0.002462454393960083
+    },
+    {
+      "floor_point": [
+        4.75,
+        58.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        624.9997615814209,
+        1184.2492252588272
+      ],
+      "in_frame": false,
+      "distance": 3.2673097398786664,
+      "cosine": 0.14476845634743438,
+      "unoccluded_inverse_square_cosine_factor": 0.013561050360883278
+    },
+    {
+      "floor_point": [
+        4.75,
+        58.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        573.5292971134186,
+        931.529189646244
+      ],
+      "in_frame": false,
+      "distance": 3.7583653207941596,
+      "cosine": 0.12585348870535665,
+      "unoccluded_inverse_square_cosine_factor": 0.008909786031882316
+    },
+    {
+      "floor_point": [
+        4.75,
+        59.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        545.4545080661774,
+        793.6818860471249
+      ],
+      "in_frame": false,
+      "distance": 4.25150641923429,
+      "cosine": 0.11125548001321407,
+      "unoccluded_inverse_square_cosine_factor": 0.00615510879247625
+    },
+    {
+      "floor_point": [
+        4.75,
+        59.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        527.7777850627899,
+        706.8890240043402
+      ],
+      "in_frame": false,
+      "distance": 4.746082993483422,
+      "cosine": 0.09966184495733135,
+      "unoccluded_inverse_square_cosine_factor": 0.004424439551454646
+    },
+    {
+      "floor_point": [
+        4.75,
+        60.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        515.6250178813934,
+        647.2189383115619
+      ],
+      "in_frame": true,
+      "distance": 5.241688728766213,
+      "cosine": 0.09023874020892257,
+      "unoccluded_inverse_square_cosine_factor": 0.0032843585989497026
+    },
+    {
+      "floor_point": [
+        4.75,
+        60.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        506.7567765712738,
+        603.6758534610271
+      ],
+      "in_frame": true,
+      "distance": 5.738056793912754,
+      "cosine": 0.08243267789767433,
+      "unoccluded_inverse_square_cosine_factor": 0.002503627559584803
+    },
+    {
+      "floor_point": [
+        5.050000190734863,
+        58.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        799.9995768070221,
+        1184.2492252588272
+      ],
+      "in_frame": false,
+      "distance": 3.2387208666079137,
+      "cosine": 0.14604635809401312,
+      "unoccluded_inverse_square_cosine_factor": 0.01392334847453139
+    },
+    {
+      "floor_point": [
+        5.050000190734863,
+        58.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        697.0586478710175,
+        931.529189646244
+      ],
+      "in_frame": false,
+      "distance": 3.733538509248793,
+      "cosine": 0.12669037329585292,
+      "unoccluded_inverse_square_cosine_factor": 0.009088712074930406
+    },
+    {
+      "floor_point": [
+        5.050000190734863,
+        59.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        640.9090161323547,
+        793.6818860471249
+      ],
+      "in_frame": false,
+      "distance": 4.229575244428912,
+      "cosine": 0.11183236143492181,
+      "unoccluded_inverse_square_cosine_factor": 0.006251352442466072
+    },
+    {
+      "floor_point": [
+        5.050000190734863,
+        59.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        605.5555164813995,
+        706.8890240043402
+      ],
+      "in_frame": false,
+      "distance": 4.726447259467525,
+      "cosine": 0.10007588395357653,
+      "unoccluded_inverse_square_cosine_factor": 0.004479812142449637
+    },
+    {
+      "floor_point": [
+        5.050000190734863,
+        60.0,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        581.2499821186066,
+        647.2189383115619
+      ],
+      "in_frame": true,
+      "distance": 5.223916217242603,
+      "cosine": 0.09054574533372636,
+      "unoccluded_inverse_square_cosine_factor": 0.003317994349227803
+    },
+    {
+      "floor_point": [
+        5.050000190734863,
+        60.5,
+        32.62699890136719
+      ],
+      "light_visible": true,
+      "closest_occluder": null,
+      "horizontal_arrival_pixel": [
+        563.5134994983673,
+        603.6758534610271
+      ],
+      "in_frame": true,
+      "distance": 5.721826254410721,
+      "cosine": 0.08266650653478913,
+      "unoccluded_inverse_square_cosine_factor": 0.0025249934307837872
+    }
+  ],
+  "scope": "Direct geometric visibility at30 sampled central terminal-floor positions. Surface/light visibility only, no volumetric attenuation or photometric certification. Horizontal camera projection diagnoses image-ROI scope."
+}

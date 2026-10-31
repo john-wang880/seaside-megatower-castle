@@ -1,0 +1,15 @@
+{
+  "v013": {
+    "midstairs_mean": 46.76262490842491,
+    "lowerstairs_mean": 33.86512434666667
+  },
+  "v1": {
+    "midstairs_mean": 15.427746842490842,
+    "lowerstairs_mean": 27.498694226666665
+  },
+  "v2": {
+    "midstairs_mean": 23.958027897435898,
+    "lowerstairs_mean": 28.62761784
+  },
+  "verdict": "Reject v2 as net readability improvement: midpoint gap persists. No arrival render warranted before solving lower flight regression. v013 baseline48 vs prototype32samples; coarse image metrics corroborated visually, not photometric safety proof."
+}

@@ -1,0 +1,98 @@
+{
+  "source_sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
+  "model_sha256": "83ea4d898b232e1f9d5f3ee314d16227a3fb31b954f88e4e5c3bdb5be8c2add5",
+  "new_objects": [
+    {
+      "name": "V014 | landing marker cage upright 0",
+      "type": "MESH",
+      "data": "V013 | stair cage upright 0 mesh",
+      "shared_mesh_data_with_source": true
+    },
+    {
+      "name": "V014 | landing marker cage upright 1",
+      "type": "MESH",
+      "data": "V013 | stair cage upright 1 mesh",
+      "shared_mesh_data_with_source": true
+    },
+    {
+      "name": "V014 | landing marker cage upright 2",
+      "type": "MESH",
+      "data": "V013 | stair cage upright 2 mesh",
+      "shared_mesh_data_with_source": true
+    },
+    {
+      "name": "V014 | landing marker cage upright 3",
+      "type": "MESH",
+      "data": "V013 | stair cage upright 3 mesh",
+      "shared_mesh_data_with_source": true
+    },
+    {
+      "name": "V014 | landing marker hood rim",
+      "type": "MESH",
+      "data": "V013 | stair hood rim mesh",
+      "shared_mesh_data_with_source": true
+    },
+    {
+      "name": "V014 | landing marker lower cup",
+      "type": "MESH",
+      "data": "V013 | stair lower cup mesh",
+      "shared_mesh_data_with_source": true
+    },
+    {
+      "name": "V014 | landing marker luminous flame",
+      "type": "MESH",
+      "data": "V013 | stair luminous flame mesh",
+      "shared_mesh_data_with_source": true
+    },
+    {
+      "name": "V014 | landing marker mounting plate",
+      "type": "MESH",
+      "data": "V013 | stair mounting plate mesh",
+      "shared_mesh_data_with_source": true
+    },
+    {
+      "name": "V014 | landing marker practical warm source",
+      "type": "LIGHT",
+      "data": "V014 | low-power landing practical",
+      "shared_mesh_data_with_source": false
+    },
+    {
+      "name": "V014 | landing marker rain hood",
+      "type": "MESH",
+      "data": "V013 | stair rain hood mesh",
+      "shared_mesh_data_with_source": true
+    },
+    {
+      "name": "V014 | landing marker wall arm",
+      "type": "MESH",
+      "data": "V013 | stair wall arm mesh",
+      "shared_mesh_data_with_source": true
+    }
+  ],
+  "light_power": 26,
+  "fixture_center": [
+    5.21,
+    54.8,
+    33.1
+  ],
+  "mount_wall_surface_probes": [
+    [
+      5.400000095367432,
+      54.79999923706055,
+      32.95000076293945
+    ],
+    [
+      5.400000095367432,
+      54.79999923706055,
+      33.099998474121094
+    ],
+    [
+      5.400000095367432,
+      54.79999923706055,
+      33.25
+    ]
+  ],
+  "original_4_lamps_unchanged": true,
+  "new_mesh_datablocks": 0,
+  "scope": "One low guard-mounted warm landing marker. Ten new mesh instances share existing lantern mesh data; one independent point light. Original four fixtures/powers and environment unchanged."
+}

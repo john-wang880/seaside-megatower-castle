@@ -1,0 +1,27 @@
+{
+  "world_region": "x3.85..5.05,y60..60.5,z32.625 centralterminalfloor only",
+  "projected_polygon_pixels": [
+    [
+      318.7500983476639,
+      647.2189383115619
+    ],
+    [
+      581.2499821186066,
+      647.2189383115619
+    ],
+    [
+      563.5134994983673,
+      603.6758534610271
+    ],
+    [
+      336.48658096790314,
+      603.6758534610271
+    ]
+  ],
+  "pixel_count": 11068,
+  "baseline_luma_mean": 17.223004354897,
+  "candidate_luma_mean": 17.50614094687387,
+  "baseline_luma_median": 17.2178,
+  "candidate_luma_median": 17.4304,
+  "scope": "World-projected footprint in originalhorizontalarrivalcamera, both32samples; display-luma notphotometry. EarlierbroadROIincludesmostlyfloorbeyondvalidatedroute."
+}
