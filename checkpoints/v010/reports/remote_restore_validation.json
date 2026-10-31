@@ -1,0 +1,19 @@
+{
+  "published_commit": "ff86639192610678f88ffeed1411a2e835590f9d",
+  "model_sha256": "791c806a8638c2cf916dffdea51e21d288eaeaaf0983b964f11a0fed616e6bcf",
+  "remote_manifest_checksums": "pass",
+  "remote_fresh_byte_exact_restore": "pass",
+  "remote_unit_tests": 10,
+  "remote_blender_reopen_occupancy": {
+    "floor_samples": 263,
+    "points": 789,
+    "open_surface_tests": 251,
+    "clear": true
+  },
+  "remote_dense_terrain_samples": 23368,
+  "local_repaired_patch_min_clearance": 0.10163497924804688,
+  "global_sampled_terrain_min_clearance": 0.034069061279296875,
+  "current_tree_retired_files": 49,
+  "history_retained": true,
+  "scope": "Sampled approach and closed vestibule only. Bridge span and through courtyard route not certified."
+}
