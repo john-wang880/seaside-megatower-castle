@@ -1,0 +1,75 @@
+{
+  "version": "v010",
+  "runtime": "5.2.3 LTS",
+  "source_sha256": "180f4abca9f39e5e66df48a61ac16be7f044ca99d840b9c840c79a8dbf4b1a95",
+  "output_sha256": "791c806a8638c2cf916dffdea51e21d288eaeaaf0983b964f11a0fed616e6bcf",
+  "foundation_clearance": {
+    "source": "Citadel | rock-set foundations and approach stair",
+    "replacement": "V010 | foundation with clear eastern entrance vestibule",
+    "components_cut": 1,
+    "untouched_faces": 18,
+    "source_modifiers_preserved": [
+      "BEVEL"
+    ]
+  },
+  "terrain_edits": [
+    {
+      "vertex": 5502,
+      "before": [
+        -11.56998348236084,
+        35.73026657104492,
+        27.931896209716797
+      ],
+      "after": [
+        -11.56998348236084,
+        35.73026657104492,
+        27.799999237060547
+      ]
+    },
+    {
+      "vertex": 5758,
+      "before": [
+        -11.967840194702148,
+        35.759613037109375,
+        27.960294723510742
+      ],
+      "after": [
+        -11.967840194702148,
+        35.759613037109375,
+        27.600000381469727
+      ]
+    },
+    {
+      "vertex": 6014,
+      "before": [
+        -12.36569595336914,
+        35.78895950317383,
+        27.811569213867188
+      ],
+      "after": [
+        -12.36569595336914,
+        35.78895950317383,
+        27.600000381469727
+      ]
+    }
+  ],
+  "vegetation": [
+    {
+      "source": "V009 | woodland trunks with western approach clearance",
+      "removed_range": [
+        98340,
+        98590
+      ],
+      "removed_faces": 125
+    },
+    {
+      "source": "V009 | woodland boughs with western approach clearance",
+      "removed_range": [
+        168367,
+        168580
+      ],
+      "removed_faces": 326
+    }
+  ],
+  "scope": "Clear actual eastern entrance vestibule ending at deliberately CLOSED door; no claim of through courtyard route."
+}
