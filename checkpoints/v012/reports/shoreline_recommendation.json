@@ -1,0 +1,23 @@
+{
+  "source_sha256": "dfa9f4f1faf94171dde4bef0d00b8d106a92fe04b3a9e9ba218235799b71378a",
+  "verdict": "No evidence-backed shoreline repair candidate from bounded geometry audit.",
+  "actual_water_object": "Open sea | rippled three-dimensional water surface",
+  "water_geometry_z_range": [
+    -0.4289982318878174,
+    -0.23100148141384125
+  ],
+  "water_displacement_link": false,
+  "coastal_rock_components_screened": 755,
+  "components_wholly_above_headland_and_sea": 0,
+  "main_headland_boundary_vertices": 256,
+  "main_headland_boundary_below_water_range": [
+    0.39481472969055176,
+    0.542161226272583
+  ],
+  "waterline_edge_crossings": {
+    "V002 | western headland with solid rock shore": 852,
+    "V010 | headland with local stair-edge clearance": 512
+  },
+  "foam_assessment": "Separate surf/spray geometry intentionally named windblown foam; sampled detached heights alone do not establish a defect. No deletion or flattening recommended.",
+  "limits": "No render assessment, wave simulation, erosion/load claim, or proof of all inter-object contacts. Rock screening uses all component vertices against visible terrain and actual sea surfaces; it does not infer engineering support."
+}

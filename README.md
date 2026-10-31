@@ -1,14 +1,17 @@
 # 海边巨塔城堡 · 持续精修
 
-当前最新已验证检查点：[v011 源数据保留的性能整理](checkpoints/v011/README.md)。
+最新检查点：[v012 入口至北侧有顶露台](checkpoints/v012/README.md)。
 
-恢复：下载/克隆整个仓库（包含 model_chunks），运行 python checkpoints/v011/restore_checkpoint.py，使用 Blender 5.2.3 LTS 打开 restored/castle_v011.blend。所有内容块及完整模型都有 SHA-256 校验，恢复保持原始压缩模型的精确字节。
+下载/克隆完整仓库（包含 model_chunks），运行 `python checkpoints/v012/restore_checkpoint.py`，用 Blender 5.2.3 LTS 打开生成的模型。标准 Python 恢复脚本逐块及整文件校验 SHA-256，保持模型字节精确一致。
 
-本轮只清理无依赖的隐藏中间林木副本，完整原始森林和最新可见几何保留。工程缩小39.80%，两张同机位实渲与v010逐像素相同。西侧台阶、东侧清空前室均保留；内院仍止于关闭的门，不是全场景完成版。
+入口新增 L 形走廊和20级台阶，到达现有北侧有顶露台；不是全城堡可导航完成版。原始网格、完整森林、材质和最终场景照明保留；塔楼上部几何没有改变。v011移除4份无依赖隐藏中间副本，v012在其上增加真实内部通路。
 
-- [恢复清单](checkpoints/v011/MANIFEST.json)
-- [东入口中性诊断图](checkpoints/v011/previews/v011_east_neutral.png) / [原照明全景](checkpoints/v011/previews/v011_hero_original_lighting.png)
-- [后续路线与恢复约定](CONTINUATION.md)
-- [阶段历史](TASK_LOG.md)
+- [模型清单](checkpoints/v012/MANIFEST.json)
+- [入口诊断图](checkpoints/v012/previews/v012_east.png)
+- [转角诊断图](checkpoints/v012/previews/v012_bend.png)
+- [露台诊断图](checkpoints/v012/previews/v012_terrace.png)
+- [原照明全景](checkpoints/v012/previews/v012_hero.png)
+- [验证证据及适用边界](checkpoints/v012/README.md)
+- [后续计划](CONTINUATION.md)
 
-旧版本从当前文件列表撤下后仍保存在 Git 历史中。不会重写历史或永久清除旧提交。
+v011已从远端提交8d10c409独立恢复验证。v012本地新鲜恢复及重开已通过；本次发布后还须独立远端恢复，结果另行记录。远端验证完成前保留旧检查点；完成后旧版仅从当前目录撤下，仍可从Git历史恢复，不清除历史。

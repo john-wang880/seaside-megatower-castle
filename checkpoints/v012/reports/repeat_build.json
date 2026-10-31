@@ -1,0 +1,304 @@
+{
+  "version": "v012",
+  "runtime": "5.2.3 LTS",
+  "source_sha256": "95b9de7c661817f7cb00dfb531724355d49a33983a6b02b0305959ac4d06c2fe",
+  "output_sha256": "1de40c5d5127a601e697fa6007fd82edac87f1cd51cacfd582b05b8f0cd7054e",
+  "excavations": [
+    {
+      "source": "Citadel | ashlar masonry",
+      "replacement": "V012 | ashlar with bounded entrance and north stairwell",
+      "untouched_faces": 14028,
+      "selected_components": [
+        {
+          "seed": 0,
+          "vertices": 24,
+          "faces": 26,
+          "bounds": [
+            [
+              -3.0,
+              -6.0,
+              30.0
+            ],
+            [
+              71.0,
+              70.0,
+              32.400001525878906
+            ]
+          ],
+          "result_vertices": 56,
+          "result_faces": 43
+        },
+        {
+          "seed": 48,
+          "vertices": 24,
+          "faces": 26,
+          "bounds": [
+            [
+              -7.0,
+              24.5,
+              34.20000076293945
+            ],
+            [
+              13.0,
+              51.5,
+              51.0
+            ]
+          ],
+          "result_vertices": 24,
+          "result_faces": 26
+        },
+        {
+          "seed": 5068,
+          "vertices": 24,
+          "faces": 26,
+          "bounds": [
+            [
+              -2.299999952316284,
+              -2.5,
+              31.5
+            ],
+            [
+              0.699999988079071,
+              58.5,
+              38.099998474121094
+            ]
+          ],
+          "result_vertices": 36,
+          "result_faces": 32
+        },
+        {
+          "seed": 6772,
+          "vertices": 24,
+          "faces": 26,
+          "bounds": [
+            [
+              -0.49383753538131714,
+              35.152320861816406,
+              30.899999618530273
+            ],
+            [
+              2.093837261199951,
+              36.847679138183594,
+              37.20000076293945
+            ]
+          ],
+          "result_vertices": 28,
+          "result_faces": 25
+        }
+      ],
+      "original_modifiers_baked_before_local_cuts": [
+        "BEVEL"
+      ],
+      "remaining_modifiers": []
+    },
+    {
+      "source": "Citadel | limestone ledges",
+      "replacement": "V012 | terrace ledges with bounded stair opening",
+      "untouched_faces": 49642,
+      "selected_components": [
+        {
+          "seed": 0,
+          "vertices": 24,
+          "faces": 26,
+          "bounds": [
+            [
+              -3.5,
+              -6.5,
+              32.29500198364258
+            ],
+            [
+              71.5,
+              70.5,
+              32.625
+            ]
+          ],
+          "result_vertices": 44,
+          "result_faces": 38
+        }
+      ],
+      "original_modifiers_baked_before_local_cuts": [
+        "BEVEL"
+      ],
+      "remaining_modifiers": []
+    },
+    {
+      "source": "V006 | west facade with one short jointed rib sample",
+      "replacement": "V012 | retained west rib facade with buried-route clearance",
+      "untouched_faces": 10650,
+      "selected_components": [
+        {
+          "seed": 12952,
+          "vertices": 8,
+          "faces": 6,
+          "bounds": [
+            [
+              -4.190766334533691,
+              34.79113006591797,
+              28.048572540283203
+            ],
+            [
+              13.190766334533691,
+              45.50886917114258,
+              32.251426696777344
+            ]
+          ],
+          "result_vertices": 24,
+          "result_faces": 18
+        },
+        {
+          "seed": 12960,
+          "vertices": 8,
+          "faces": 6,
+          "bounds": [
+            [
+              -4.190766334533691,
+              40.79113006591797,
+              28.048572540283203
+            ],
+            [
+              13.190766334533691,
+              51.50886917114258,
+              32.251426696777344
+            ]
+          ],
+          "result_vertices": 20,
+          "result_faces": 14
+        }
+      ],
+      "original_modifiers_baked_before_local_cuts": [],
+      "remaining_modifiers": []
+    },
+    {
+      "source": "V010 | foundation with clear eastern entrance vestibule",
+      "replacement": "V012 | foundation with continuous L-shaped passage",
+      "untouched_faces": 78,
+      "selected_components": [
+        {
+          "seed": 80,
+          "vertices": 48,
+          "faces": 50,
+          "bounds": [
+            [
+              -6.0,
+              -8.0,
+              27.600000381469727
+            ],
+            [
+              78.0,
+              72.0,
+              31.440000534057617
+            ]
+          ],
+          "result_vertices": 84,
+          "result_faces": 71
+        }
+      ],
+      "original_modifiers_baked_before_local_cuts": [
+        "BEVEL"
+      ],
+      "remaining_modifiers": []
+    },
+    {
+      "source": "Western citadel_West_Ashlar stone variation",
+      "replacement": "V012 | legacy ashlar with buried-route clearance",
+      "untouched_faces": 4392,
+      "selected_components": [
+        {
+          "seed": 5608,
+          "vertices": 8,
+          "faces": 6,
+          "bounds": [
+            [
+              3.0996897220611572,
+              39.96927261352539,
+              28.68000030517578
+            ],
+            [
+              6.300310134887695,
+              45.930728912353516,
+              28.895999908447266
+            ]
+          ],
+          "result_vertices": 22,
+          "result_faces": 14
+        },
+        {
+          "seed": 5616,
+          "vertices": 8,
+          "faces": 6,
+          "bounds": [
+            [
+              3.799689769744873,
+              40.419273376464844,
+              28.84800148010254
+            ],
+            [
+              7.00031042098999,
+              46.3807258605957,
+              29.06399917602539
+            ]
+          ],
+          "result_vertices": 8,
+          "result_faces": 6
+        },
+        {
+          "seed": 5624,
+          "vertices": 8,
+          "faces": 6,
+          "bounds": [
+            [
+              4.49968957901001,
+              40.8692741394043,
+              29.016000747680664
+            ],
+            [
+              7.700310230255127,
+              46.830726623535156,
+              29.23200035095215
+            ]
+          ],
+          "result_vertices": 12,
+          "result_faces": 8
+        },
+        {
+          "seed": 5632,
+          "vertices": 8,
+          "faces": 6,
+          "bounds": [
+            [
+              5.199689865112305,
+              41.319271087646484,
+              29.18400001525879
+            ],
+            [
+              8.400310516357422,
+              47.28072738647461,
+              29.399999618530273
+            ]
+          ],
+          "result_vertices": 10,
+          "result_faces": 7
+        }
+      ],
+      "original_modifiers_baked_before_local_cuts": [],
+      "remaining_modifiers": []
+    }
+  ],
+  "hidden_closed_door_parts": [
+    "V010 | deliberately closed eastern timber entry",
+    "V010 | double-door central seam",
+    "V010 | entry iron strap",
+    "V010 | entry iron strap.001",
+    "V010 | entry iron strap.002",
+    "V010 | entry iron strap.003"
+  ],
+  "flat_landing_join_edge_ids": [],
+  "door_bottom_elevation": 29.04,
+  "outward_door_angle_degrees": 90,
+  "stair_risers": 20,
+  "rise": 0.18125,
+  "tread_length": 0.6,
+  "clear_width": 1.9,
+  "destination": "existing northern covered terrace, z32.625; not an open-sky courtyard",
+  "scope": "Bounded entrance-to-covered-terrace route; publish only with matching validation and fresh restore evidence. Not dynamic navigation or construction certification."
+}
