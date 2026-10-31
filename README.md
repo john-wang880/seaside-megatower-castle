@@ -6,6 +6,7 @@
 
 - [当前整体全景](checkpoints/v016/previews/hero_final.png)
 - [小塔修复后实际照明](checkpoints/v016/previews/marker_after_actual.png) · [修复前](checkpoints/v016/previews/marker_before_actual.png)
+- **[八秒实际外景局部环绕视频](checkpoints/v016/presentation/orbit/README.md)**
 - **[当前七视角实渲拼图](checkpoints/v016/navigation/gallery/README.md)**
 - **[七视角导航与可选查看副本](checkpoints/v016/navigation/README.md)**
 - [恢复清单](checkpoints/v016/MANIFEST.json) · [验证范围](checkpoints/v016/README.md) · [持续计划](CONTINUATION.md)

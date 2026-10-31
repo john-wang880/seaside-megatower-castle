@@ -1,13 +1,16 @@
 {
-  "stage": "recipe_and_resume_code_backed_up_before_long_render",
-  "final_animation_rendered": false,
+  "stage": "completed_actual_frame_sequence_and_encoding_validated",
+  "final_animation_rendered": true,
   "source_model_changed": false,
-  "expected_frames": 96,
+  "frames": 96,
   "fps": 12,
+  "duration_seconds": 8,
   "resolution": [
     960,
     694
   ],
+  "video_sha256": "112ff8b9069f5562cdbb88a85f4c3b663257b5330a0cda1c320b8640aae820d7",
   "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
-  "note": "Five low-resolution feasibility frames exist, not a completed animation. Final rendering may start after remote checkpoint verification; verify per-frame receipts on recovery."
+  "raw_png_backup_scope": "Five final sample PNGs archived; all96 metadata byte-exact inside ZIP and all96 framehashes archived. Full96 PNG intermediates staylocal; regenerate missingframes from source+recipe ifneeded. DeliveredMP4 stored byte-exact.",
+  "qa_limits": "No real-time GUI playback tool used. Frame inspection, every-frame decode/source comparison and numeric continuity checks are not a guarantee against subtle temporal denoising shimmer. H264 yuv420p encoding is intentionally lossy."
 }

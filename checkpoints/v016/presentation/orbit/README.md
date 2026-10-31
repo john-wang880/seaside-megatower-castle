@@ -1,4 +1,12 @@
-# V016 partial exterior orbit — prepared, not yet rendered
+# v016 · 八秒实际外景局部环绕
+
+**[下载 / 播放 MP4](final/castle_v016_partial_orbit.mp4)** · [首帧](final/preview_frames/frame_0001.png) · [中段](final/preview_frames/frame_0049.png) · [末帧](final/preview_frames/frame_0096.png)
+
+96张真实Blender渲染帧，960×694、12fps、8秒；40度前侧局部环绕，不是360度或人物步行。原80采样、世界/灯光/曝光保留，仅临时相机移动，源模型未改。总运行107.5分钟，无音频、无AI补帧/插帧。
+
+全96帧来源/配方/质量/PNG检查通过；H.264/yuv420p视频全帧解码并逐一对照原图，无缺帧、96原始帧各不相同。H.264为有损编码，不宣称与PNG逐像素相同。人工检查了若干静帧，未使用实时GUI播放；不能保证细微时域降噪闪烁不存在。
+
+备份范围：成品MP4、96帧元数据原字节ZIP、全部帧哈希、5张最终样帧及完整恢复/渲染脚本。约72MB全套PNG中间帧仍在工作区，未存入仓库；若机器丢失需按配方重新渲染缺失帧，不能把只有哈希当作图像备份。模型本身保持原字节精确恢复。
 
 Approved target: **8 seconds, 12 fps, 96 actual Blender frames, 960×694**.
 A 40-degree frontal partial arc, not a 360-degree orbit or walking simulation.
@@ -49,9 +57,9 @@ H.264/yuv420p,12fps,CRF18,no audio. ffprobe verifies96 decoded frames,8 seconds,
 960×694,H.264 and12fps before publication. `video.json` records video/frame-manifest
 hashes and probe results. `--skip-encode` stops after verified PNGs.
 
-## Evidence and limits
+## Feasibility evidence and limits
 
-`path_plan.json` contains conservative geometry-bound projection tests at all96
+The five keyframe_renders previews are historical low-resolution feasibility images, not the final80sample sequence. `path_plan.json` contains conservative geometry-bound projection tests at all96
 positions. Five real previews passed visual review. This does not prove every
 intermediate frame is free of occlusion or temporal denoising artifacts; review
 the completed video. The offshore marker naturally emerges from behind the main
@@ -62,3 +70,6 @@ Final original-quality rendering is estimated110–150minutes, not guaranteed.
 No long render was launched during preparation. `test_resume_validation.py`
 uses temporary synthetic fixtures only; ten validation checks passed, including
 wrong source/recipe/code/quality/pose, corrupted PNG and incomplete output.
+
+## Full source-frame comparison
+`qa_final_video.py` reproduces every-frame encoding/source comparison with Python NumPy/Pillow and ffmpeg, expecting a complete locally rendered `final/frames/` directory next to this script. The archive alone deliberately lacks those96PNG intermediates; first re-render/resume into that directory or use the original local outputs. `final/final_qa.json` records the performed comparison. Archive verification can independently decode the deliveredMP4 and check all metadata/hash receipts without rebuilding the model.
