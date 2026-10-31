@@ -1,17 +1,16 @@
 # 海边巨塔城堡 · 持续精修
 
-最新检查点：[v012 入口至北侧有顶露台](checkpoints/v012/README.md)。
+最新检查点：[v013 真实内廊灯笼](checkpoints/v013/README.md)。
 
-下载/克隆完整仓库（包含 model_chunks），运行 `python checkpoints/v012/restore_checkpoint.py`，用 Blender 5.2.3 LTS 打开生成的模型。标准 Python 恢复脚本逐块及整文件校验 SHA-256，保持模型字节精确一致。
+克隆完整仓库（含model_chunks），运行 `python checkpoints/v013/restore_checkpoint.py`，用Blender5.2.3LTS打开生成工程。每块及完整模型均校验SHA-256，恢复保持精确原字节。
 
-入口新增 L 形走廊和20级台阶，到达现有北侧有顶露台；不是全城堡可导航完成版。原始网格、完整森林、材质和最终场景照明保留；塔楼上部几何没有改变。v011移除4份无依赖隐藏中间副本，v012在其上增加真实内部通路。
+沿入口—L形转角—20级台阶通往北侧有顶露台，新增4具真实壁灯笼和局部暖光，让原本近黑的内廊可读。原世界、太阳、曝光、灯光及全部来源几何保持不变；**新增局部照明是实际场景改动，不是诊断补光**。不是全城堡导航完成版。
 
-- [模型清单](checkpoints/v012/MANIFEST.json)
-- [入口诊断图](checkpoints/v012/previews/v012_east.png)
-- [转角诊断图](checkpoints/v012/previews/v012_bend.png)
-- [露台诊断图](checkpoints/v012/previews/v012_terrace.png)
-- [原照明全景](checkpoints/v012/previews/v012_hero.png)
-- [验证证据及适用边界](checkpoints/v012/README.md)
+- [入口实际照明](checkpoints/v013/previews/v013_east_portal.png)
+- [内廊实际照明](checkpoints/v013/previews/v013_bend.png)
+- [整体全景](checkpoints/v013/previews/v013_hero.png)
+- [模型清单](checkpoints/v013/MANIFEST.json)
+- [验证和适用边界](checkpoints/v013/README.md)
 - [后续计划](CONTINUATION.md)
 
-v011已从远端提交8d10c409独立恢复验证；v012已从提交70c00f08独立恢复并通过上述全部几何回归及10项存储测试，详见[远端验证报告](checkpoints/v012/reports/remote_validation.json)。当前目录仅保留最新检查点；旧版仍可从Git历史恢复，不清除历史。
+v012远端备份已验证，v013本地重开/重复构建/通路体/来源保留/灯具接触检查通过；远端独立恢复将在发布后记录。验证通过后才撤下当前树旧载荷；旧版始终保留Git历史，不强推、不清除历史。

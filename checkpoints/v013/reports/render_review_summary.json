@@ -1,0 +1,30 @@
+{
+  "east_portal": {
+    "samples": 24,
+    "seconds": 123.11707091331482,
+    "peak_rss_linux_kib": 1527448,
+    "source_sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
+    "median_display_luma_0_255": 26.1588,
+    "p95_display_luma_0_255": 40.7966,
+    "percent_any_channel_255": 0.0
+  },
+  "bend": {
+    "samples": 48,
+    "seconds": 159.2477731704712,
+    "peak_rss_linux_kib": 1531692,
+    "source_sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
+    "median_display_luma_0_255": 46.9364,
+    "p95_display_luma_0_255": 72.6986,
+    "percent_any_channel_255": 0.008376068376068376
+  },
+  "hero": {
+    "samples": 24,
+    "seconds": 124.0637059211731,
+    "peak_rss_linux_kib": 1534260,
+    "source_sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
+    "median_display_luma_0_255": 104.98759999999999,
+    "p95_display_luma_0_255": 170.17079999999999,
+    "percent_any_channel_255": 0.0
+  },
+  "review": "Actual-scene lantern illumination. Entrance hall and bend floor/treads readable; no obvious broad highlight clipping or exterior wash. Exterior stairs intentionally remain in original shadow. 48samplebend removes isolated24sample sparkles. Image statistics are not photometric certification. Parallel load means elapsed times are not performance ratios."
+}

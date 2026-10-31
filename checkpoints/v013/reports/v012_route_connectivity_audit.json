@@ -1,0 +1,2929 @@
+{
+  "model_sha256": "dfa9f4f1faf94171dde4bef0d00b8d106a92fe04b3a9e9ba218235799b71378a",
+  "source_unchanged": true,
+  "numeric_tolerance": 2e-05,
+  "prism_joins": [
+    {
+      "from": "entrance_hall",
+      "to": "turning_elbow",
+      "signed_overlap_xyz": [
+        0.6000000000000001,
+        1.2000000000000028,
+        2.075000000000003
+      ],
+      "meeting": true
+    },
+    {
+      "from": "turning_elbow",
+      "to": "north_corridor",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.6000000000000014,
+        2.075000000000003
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_corridor",
+      "to": "north_stair_1",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_1",
+      "to": "north_stair_2",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000007
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_2",
+      "to": "north_stair_3",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_3",
+      "to": "north_stair_4",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        7.105427357601002e-15,
+        1.8937500000000007
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_4",
+      "to": "north_stair_5",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_5",
+      "to": "north_stair_6",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_6",
+      "to": "north_stair_7",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000007
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_7",
+      "to": "north_stair_8",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000007
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_8",
+      "to": "north_stair_9",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        7.105427357601002e-15,
+        1.8937499999999972
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_9",
+      "to": "north_stair_10",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_10",
+      "to": "north_stair_11",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_11",
+      "to": "north_stair_12",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000007
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_12",
+      "to": "north_stair_13",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000007
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_13",
+      "to": "north_stair_14",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        7.105427357601002e-15,
+        1.8937499999999972
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_14",
+      "to": "north_stair_15",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_15",
+      "to": "north_stair_16",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_16",
+      "to": "north_stair_17",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_17",
+      "to": "north_stair_18",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937499999999972
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_18",
+      "to": "north_stair_19",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        7.105427357601002e-15,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_19",
+      "to": "north_stair_20",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        1.8937500000000043
+      ],
+      "meeting": true
+    },
+    {
+      "from": "north_stair_20",
+      "to": "covered_terrace_landing",
+      "signed_overlap_xyz": [
+        1.1999999999999997,
+        0.0,
+        2.075000000000003
+      ],
+      "meeting": true
+    }
+  ],
+  "all_prisms_connected": true,
+  "minimum_stair_shared_vertical_extent": 1.8937499999999972,
+  "floor_surface_union_checks": [
+    {
+      "zone": "entrance_hall",
+      "expected_floor_z": 29,
+      "expected_area": 9.540000000000022,
+      "covered_union_area": 9.540000000000022,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 3,
+      "support_objects": [
+        "V008 | eastern stepped approach embedded in rock",
+        "V012 | entrance hall limestone floor"
+      ]
+    },
+    {
+      "zone": "turning_elbow",
+      "expected_floor_z": 29,
+      "expected_area": 1.440000000000003,
+      "covered_union_area": 1.440000000000003,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 1,
+      "support_objects": [
+        "V012 | entrance hall limestone floor"
+      ]
+    },
+    {
+      "zone": "north_corridor",
+      "expected_floor_z": 29,
+      "expected_area": 8.999999999999998,
+      "covered_union_area": 8.999999999999998,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 4,
+      "support_objects": [
+        "V012 | entrance hall limestone floor",
+        "V012 | north corridor limestone floor"
+      ]
+    },
+    {
+      "zone": "north_stair_1",
+      "expected_floor_z": 29.18125,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            46.099998474121094,
+            46.1
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_2",
+      "expected_floor_z": 29.3625,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7200000000000015,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_3",
+      "expected_floor_z": 29.54375,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            46.7,
+            46.70000076293945
+          ]
+        },
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            47.29999923706055,
+            47.300000000000004
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_4",
+      "expected_floor_z": 29.725,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7200000000000015,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_5",
+      "expected_floor_z": 29.90625,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            47.9,
+            47.900001525878906
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_6",
+      "expected_floor_z": 30.0875,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            49.099998474121094,
+            49.1
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_7",
+      "expected_floor_z": 30.26875,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7200000000000015,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_8",
+      "expected_floor_z": 30.45,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            49.7,
+            49.70000076293945
+          ]
+        },
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            50.29999923706055,
+            50.300000000000004
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_9",
+      "expected_floor_z": 30.63125,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7200000000000015,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_10",
+      "expected_floor_z": 30.8125,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            50.9,
+            50.900001525878906
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_11",
+      "expected_floor_z": 30.99375,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            52.099998474121094,
+            52.1
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_12",
+      "expected_floor_z": 31.175,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7200000000000015,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_13",
+      "expected_floor_z": 31.35625,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            52.7,
+            52.70000076293945
+          ]
+        },
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            53.29999923706055,
+            53.300000000000004
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_14",
+      "expected_floor_z": 31.5375,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7200000000000015,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_15",
+      "expected_floor_z": 31.71875,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            53.9,
+            53.900001525878906
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_16",
+      "expected_floor_z": 31.9,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            55.099998474121094,
+            55.1
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_17",
+      "expected_floor_z": 32.08125,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7200000000000015,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_18",
+      "expected_floor_z": 32.2625,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            55.7,
+            55.70000076293945
+          ]
+        },
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            56.29999923706055,
+            56.300000000000004
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_19",
+      "expected_floor_z": 32.44375,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7200000000000015,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "north_stair_20",
+      "expected_floor_z": 32.625,
+      "expected_area": 0.7200000000000015,
+      "covered_union_area": 0.7199981689453123,
+      "uncovered_area": 1.8310546892053026e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            56.9,
+            56.900001525878906
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 3,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "zone": "covered_terrace_landing",
+      "expected_floor_z": 32.625,
+      "expected_area": 2.3999999999999995,
+      "covered_union_area": 2.3999999999999995,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 5,
+      "support_objects": [
+        "V012 | terrace ledges with bounded stair opening",
+        "V012 | twenty north stair treads"
+      ]
+    }
+  ],
+  "all_central_floor_footprints_supported": true,
+  "riser_surface_union_checks": [
+    {
+      "index": 1,
+      "expected_plane_y": 45.5,
+      "expected_z_range": [
+        29.0,
+        29.18125
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.21749954223632806,
+      "uncovered_area": 4.577636701919019e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            4.68441544827
+          ],
+          "y_gap_at_midpoint": [
+            29.181249618530273,
+            29.18125
+          ]
+        },
+        {
+          "x_interval": [
+            4.68441544827,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            29.181249618530273,
+            29.18125
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 3,
+      "support_objects": [
+        "V012 | north corridor limestone floor",
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 2,
+      "expected_plane_y": 46.1,
+      "expected_z_range": [
+        29.18125,
+        29.362499999999997
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174990844726579,
+      "uncovered_area": 9.155273403560482e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            29.362499237060547,
+            29.362499999999997
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 3,
+      "expected_plane_y": 46.7,
+      "expected_z_range": [
+        29.3625,
+        29.54375
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.21749999999999825,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 4,
+      "expected_plane_y": 47.3,
+      "expected_z_range": [
+        29.54375,
+        29.724999999999998
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.21749908447265365,
+      "uncovered_area": 9.155273446026513e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            29.54375,
+            29.543750762939453
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 5,
+      "expected_plane_y": 47.9,
+      "expected_z_range": [
+        29.725,
+        29.90625
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174995422363281,
+      "uncovered_area": 4.577636701641463e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            29.725,
+            29.725000381469727
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 6,
+      "expected_plane_y": 48.5,
+      "expected_z_range": [
+        29.90625,
+        30.0875
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174995422363281,
+      "uncovered_area": 4.577636701641463e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            30.087499618530273,
+            30.0875
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 7,
+      "expected_plane_y": 49.1,
+      "expected_z_range": [
+        30.0875,
+        30.268749999999997
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174990844726579,
+      "uncovered_area": 9.155273403560482e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            30.268749237060547,
+            30.268749999999997
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 8,
+      "expected_plane_y": 49.7,
+      "expected_z_range": [
+        30.26875,
+        30.45
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.21749999999999825,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 9,
+      "expected_plane_y": 50.3,
+      "expected_z_range": [
+        30.45,
+        30.631249999999998
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.21749908447265365,
+      "uncovered_area": 9.155273446026513e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            30.45,
+            30.450000762939453
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 10,
+      "expected_plane_y": 50.9,
+      "expected_z_range": [
+        30.63125,
+        30.8125
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174995422363281,
+      "uncovered_area": 4.577636701641463e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            30.63125,
+            30.631250381469727
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 11,
+      "expected_plane_y": 51.5,
+      "expected_z_range": [
+        30.8125,
+        30.99375
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174995422363281,
+      "uncovered_area": 4.577636701641463e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            30.993749618530273,
+            30.99375
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 12,
+      "expected_plane_y": 52.1,
+      "expected_z_range": [
+        30.99375,
+        31.174999999999997
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174990844726579,
+      "uncovered_area": 9.155273403560482e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            31.174999237060547,
+            31.174999999999997
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 13,
+      "expected_plane_y": 52.7,
+      "expected_z_range": [
+        31.175,
+        31.35625
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.21749999999999825,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 14,
+      "expected_plane_y": 53.3,
+      "expected_z_range": [
+        31.35625,
+        31.537499999999998
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.21749908447265365,
+      "uncovered_area": 9.155273446026513e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            31.35625,
+            31.356250762939453
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 15,
+      "expected_plane_y": 53.9,
+      "expected_z_range": [
+        31.5375,
+        31.71875
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174995422363281,
+      "uncovered_area": 4.577636701641463e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            31.5375,
+            31.537500381469727
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 16,
+      "expected_plane_y": 54.5,
+      "expected_z_range": [
+        31.71875,
+        31.9
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174995422363281,
+      "uncovered_area": 4.577636701641463e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            31.899999618530273,
+            31.9
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 17,
+      "expected_plane_y": 55.1,
+      "expected_z_range": [
+        31.9,
+        32.08125
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174990844726579,
+      "uncovered_area": 9.155273403560482e-07,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            32.08124923706055,
+            32.08125
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 18,
+      "expected_plane_y": 55.7,
+      "expected_z_range": [
+        32.08125,
+        32.262499999999996
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.21749999999999825,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 19,
+      "expected_plane_y": 56.3,
+      "expected_z_range": [
+        32.2625,
+        32.44375
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.2174972534179687,
+      "uncovered_area": 2.7465820295613508e-06,
+      "gap_cells": [
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            32.2625,
+            32.26250076293945
+          ]
+        },
+        {
+          "x_interval": [
+            3.85,
+            5.05
+          ],
+          "y_gap_at_midpoint": [
+            32.443748474121094,
+            32.44375
+          ]
+        }
+      ],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    },
+    {
+      "index": 20,
+      "expected_plane_y": 56.9,
+      "expected_z_range": [
+        32.44375,
+        32.625
+      ],
+      "expected_area": 0.21749999999999825,
+      "covered_union_area": 0.21749999999999825,
+      "uncovered_area": 0,
+      "gap_cells": [],
+      "meaningful_gap_cells": [],
+      "coverage_within_numeric_tolerance": true,
+      "triangles_considered": 2,
+      "support_objects": [
+        "V012 | twenty north stair treads"
+      ]
+    }
+  ],
+  "all_expected_riser_faces_present": true,
+  "strict_stair_contacts": [
+    {
+      "zone": "north_corridor",
+      "triangle_index": 551,
+      "contact_vertices": [
+        [
+          3.84998,
+          45.5,
+          29.181249618530273
+        ],
+        [
+          5.05002,
+          45.5,
+          29.181249618530273
+        ],
+        [
+          5.05002,
+          45.50002,
+          29.181249618530273
+        ],
+        [
+          3.84998,
+          45.50002,
+          29.181249618530273
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_corridor",
+      "triangle_index": 633,
+      "contact_vertices": [
+        [
+          5.05002,
+          45.5,
+          29.02498
+        ],
+        [
+          5.05002,
+          45.5,
+          29.09260355962438
+        ],
+        [
+          4.78303802540877,
+          45.5,
+          29.02498
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_corridor",
+      "triangle_index": 634,
+      "contact_vertices": [
+        [
+          4.78303802540877,
+          45.5,
+          29.02498
+        ],
+        [
+          5.05002,
+          45.5,
+          29.09260355962438
+        ],
+        [
+          5.05002,
+          45.5,
+          29.181249618530273
+        ],
+        [
+          3.84998,
+          45.5,
+          29.181249618530273
+        ],
+        [
+          3.84998,
+          45.5,
+          29.02498
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_1",
+      "triangle_index": 553,
+      "contact_vertices": [
+        [
+          5.05002,
+          46.099998474121094,
+          29.206229999999998
+        ],
+        [
+          5.05002,
+          46.099998474121094,
+          29.329113049905505
+        ],
+        [
+          3.84998,
+          46.099998474121094,
+          29.214635796587785
+        ],
+        [
+          3.84998,
+          46.099998474121094,
+          29.206229999999998
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_1",
+      "triangle_index": 554,
+      "contact_vertices": [
+        [
+          3.84998,
+          46.099998474121094,
+          29.214635796587785
+        ],
+        [
+          5.05002,
+          46.099998474121094,
+          29.329113049905505
+        ],
+        [
+          5.05002,
+          46.099998474121094,
+          29.362499237060547
+        ],
+        [
+          3.84998,
+          46.099998474121094,
+          29.362499237060547
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_1",
+      "triangle_index": 555,
+      "contact_vertices": [
+        [
+          3.84998,
+          46.099998474121094,
+          29.362499237060547
+        ],
+        [
+          5.05002,
+          46.099998474121094,
+          29.362499237060547
+        ],
+        [
+          5.05002,
+          46.10002,
+          29.362499237060547
+        ],
+        [
+          3.84998,
+          46.10002,
+          29.362499237060547
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_2",
+      "triangle_index": 557,
+      "contact_vertices": [
+        [
+          5.05002,
+          46.70000076293945,
+          29.38748
+        ],
+        [
+          5.05002,
+          46.70000076293945,
+          29.510364224450715
+        ],
+        [
+          3.84998,
+          46.70000076293945,
+          29.39588576645166
+        ],
+        [
+          3.84998,
+          46.70000076293945,
+          29.38748
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_2",
+      "triangle_index": 558,
+      "contact_vertices": [
+        [
+          3.84998,
+          46.70000076293945,
+          29.39588576645166
+        ],
+        [
+          5.05002,
+          46.70000076293945,
+          29.510364224450715
+        ],
+        [
+          5.05002,
+          46.70000076293945,
+          29.543750762939453
+        ],
+        [
+          3.84998,
+          46.70000076293945,
+          29.543750762939453
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_2",
+      "triangle_index": 559,
+      "contact_vertices": [
+        [
+          3.84998,
+          46.70000076293945,
+          29.543750762939453
+        ],
+        [
+          5.05002,
+          46.70000076293945,
+          29.543750762939453
+        ],
+        [
+          5.05002,
+          46.70002,
+          29.543750762939453
+        ],
+        [
+          3.84998,
+          46.70002,
+          29.543750762939453
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_3",
+      "triangle_index": 561,
+      "contact_vertices": [
+        [
+          5.05002,
+          47.29999923706055,
+          29.56873
+        ],
+        [
+          5.05002,
+          47.29999923706055,
+          29.691614194314685
+        ],
+        [
+          3.84998,
+          47.29999923706055,
+          29.577136940996965
+        ],
+        [
+          3.84998,
+          47.29999923706055,
+          29.56873
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_3",
+      "triangle_index": 562,
+      "contact_vertices": [
+        [
+          3.84998,
+          47.29999923706055,
+          29.577136940996965
+        ],
+        [
+          5.05002,
+          47.29999923706055,
+          29.691614194314685
+        ],
+        [
+          5.05002,
+          47.29999923706055,
+          29.725000381469727
+        ],
+        [
+          3.84998,
+          47.29999923706055,
+          29.725000381469727
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_3",
+      "triangle_index": 563,
+      "contact_vertices": [
+        [
+          3.84998,
+          47.29999923706055,
+          29.725000381469727
+        ],
+        [
+          5.05002,
+          47.29999923706055,
+          29.725000381469727
+        ],
+        [
+          5.05002,
+          47.30002,
+          29.725000381469727
+        ],
+        [
+          3.84998,
+          47.30002,
+          29.725000381469727
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_4",
+      "triangle_index": 565,
+      "contact_vertices": [
+        [
+          5.05002,
+          47.900001525878906,
+          29.74998
+        ],
+        [
+          5.05002,
+          47.900001525878906,
+          29.872863812844958
+        ],
+        [
+          3.84998,
+          47.900001525878906,
+          29.75838655952724
+        ],
+        [
+          3.84998,
+          47.900001525878906,
+          29.74998
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_4",
+      "triangle_index": 566,
+      "contact_vertices": [
+        [
+          3.84998,
+          47.900001525878906,
+          29.75838655952724
+        ],
+        [
+          5.05002,
+          47.900001525878906,
+          29.872863812844958
+        ],
+        [
+          5.05002,
+          47.900001525878906,
+          29.90625
+        ],
+        [
+          3.84998,
+          47.900001525878906,
+          29.90625
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_4",
+      "triangle_index": 567,
+      "contact_vertices": [
+        [
+          3.84998,
+          47.900001525878906,
+          29.90625
+        ],
+        [
+          5.05002,
+          47.900001525878906,
+          29.90625
+        ],
+        [
+          5.05002,
+          47.90002,
+          29.90625
+        ],
+        [
+          3.84998,
+          47.90002,
+          29.90625
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_5",
+      "triangle_index": 569,
+      "contact_vertices": [
+        [
+          5.05002,
+          48.5,
+          29.93123
+        ],
+        [
+          5.05002,
+          48.5,
+          30.05411343137523
+        ],
+        [
+          3.84998,
+          48.5,
+          29.939636178057512
+        ],
+        [
+          3.84998,
+          48.5,
+          29.93123
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_5",
+      "triangle_index": 570,
+      "contact_vertices": [
+        [
+          3.84998,
+          48.5,
+          29.939636178057512
+        ],
+        [
+          5.05002,
+          48.5,
+          30.05411343137523
+        ],
+        [
+          5.05002,
+          48.5,
+          30.087499618530273
+        ],
+        [
+          3.84998,
+          48.5,
+          30.087499618530273
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_5",
+      "triangle_index": 571,
+      "contact_vertices": [
+        [
+          3.84998,
+          48.5,
+          30.087499618530273
+        ],
+        [
+          5.05002,
+          48.5,
+          30.087499618530273
+        ],
+        [
+          5.05002,
+          48.50002,
+          30.087499618530273
+        ],
+        [
+          3.84998,
+          48.50002,
+          30.087499618530273
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_6",
+      "triangle_index": 573,
+      "contact_vertices": [
+        [
+          5.05002,
+          49.099998474121094,
+          30.112479999999998
+        ],
+        [
+          5.05002,
+          49.099998474121094,
+          30.235363049905505
+        ],
+        [
+          3.84998,
+          49.099998474121094,
+          30.120885796587785
+        ],
+        [
+          3.84998,
+          49.099998474121094,
+          30.112479999999998
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_6",
+      "triangle_index": 574,
+      "contact_vertices": [
+        [
+          3.84998,
+          49.099998474121094,
+          30.120885796587785
+        ],
+        [
+          5.05002,
+          49.099998474121094,
+          30.235363049905505
+        ],
+        [
+          5.05002,
+          49.099998474121094,
+          30.268749237060547
+        ],
+        [
+          3.84998,
+          49.099998474121094,
+          30.268749237060547
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_6",
+      "triangle_index": 575,
+      "contact_vertices": [
+        [
+          3.84998,
+          49.099998474121094,
+          30.268749237060547
+        ],
+        [
+          5.05002,
+          49.099998474121094,
+          30.268749237060547
+        ],
+        [
+          5.05002,
+          49.10002,
+          30.268749237060547
+        ],
+        [
+          3.84998,
+          49.10002,
+          30.268749237060547
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_7",
+      "triangle_index": 577,
+      "contact_vertices": [
+        [
+          5.05002,
+          49.70000076293945,
+          30.29373
+        ],
+        [
+          5.05002,
+          49.70000076293945,
+          30.416614224450715
+        ],
+        [
+          3.84998,
+          49.70000076293945,
+          30.30213576645166
+        ],
+        [
+          3.84998,
+          49.70000076293945,
+          30.29373
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_7",
+      "triangle_index": 578,
+      "contact_vertices": [
+        [
+          3.84998,
+          49.70000076293945,
+          30.30213576645166
+        ],
+        [
+          5.05002,
+          49.70000076293945,
+          30.416614224450715
+        ],
+        [
+          5.05002,
+          49.70000076293945,
+          30.450000762939453
+        ],
+        [
+          3.84998,
+          49.70000076293945,
+          30.450000762939453
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_7",
+      "triangle_index": 579,
+      "contact_vertices": [
+        [
+          3.84998,
+          49.70000076293945,
+          30.450000762939453
+        ],
+        [
+          5.05002,
+          49.70000076293945,
+          30.450000762939453
+        ],
+        [
+          5.05002,
+          49.70002,
+          30.450000762939453
+        ],
+        [
+          3.84998,
+          49.70002,
+          30.450000762939453
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_8",
+      "triangle_index": 581,
+      "contact_vertices": [
+        [
+          5.05002,
+          50.29999923706055,
+          30.47498
+        ],
+        [
+          5.05002,
+          50.29999923706055,
+          30.597864194314685
+        ],
+        [
+          3.84998,
+          50.29999923706055,
+          30.483386940996965
+        ],
+        [
+          3.84998,
+          50.29999923706055,
+          30.47498
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_8",
+      "triangle_index": 582,
+      "contact_vertices": [
+        [
+          3.84998,
+          50.29999923706055,
+          30.483386940996965
+        ],
+        [
+          5.05002,
+          50.29999923706055,
+          30.597864194314685
+        ],
+        [
+          5.05002,
+          50.29999923706055,
+          30.631250381469727
+        ],
+        [
+          3.84998,
+          50.29999923706055,
+          30.631250381469727
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_8",
+      "triangle_index": 583,
+      "contact_vertices": [
+        [
+          3.84998,
+          50.29999923706055,
+          30.631250381469727
+        ],
+        [
+          5.05002,
+          50.29999923706055,
+          30.631250381469727
+        ],
+        [
+          5.05002,
+          50.30002,
+          30.631250381469727
+        ],
+        [
+          3.84998,
+          50.30002,
+          30.631250381469727
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_9",
+      "triangle_index": 585,
+      "contact_vertices": [
+        [
+          5.05002,
+          50.900001525878906,
+          30.65623
+        ],
+        [
+          5.05002,
+          50.900001525878906,
+          30.779113812844958
+        ],
+        [
+          3.84998,
+          50.900001525878906,
+          30.66463655952724
+        ],
+        [
+          3.84998,
+          50.900001525878906,
+          30.65623
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_9",
+      "triangle_index": 586,
+      "contact_vertices": [
+        [
+          3.84998,
+          50.900001525878906,
+          30.66463655952724
+        ],
+        [
+          5.05002,
+          50.900001525878906,
+          30.779113812844958
+        ],
+        [
+          5.05002,
+          50.900001525878906,
+          30.8125
+        ],
+        [
+          3.84998,
+          50.900001525878906,
+          30.8125
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_9",
+      "triangle_index": 587,
+      "contact_vertices": [
+        [
+          3.84998,
+          50.900001525878906,
+          30.8125
+        ],
+        [
+          5.05002,
+          50.900001525878906,
+          30.8125
+        ],
+        [
+          5.05002,
+          50.90002,
+          30.8125
+        ],
+        [
+          3.84998,
+          50.90002,
+          30.8125
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_10",
+      "triangle_index": 589,
+      "contact_vertices": [
+        [
+          5.05002,
+          51.5,
+          30.83748
+        ],
+        [
+          5.05002,
+          51.5,
+          30.96036343137523
+        ],
+        [
+          3.84998,
+          51.5,
+          30.845886178057512
+        ],
+        [
+          3.84998,
+          51.5,
+          30.83748
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_10",
+      "triangle_index": 590,
+      "contact_vertices": [
+        [
+          3.84998,
+          51.5,
+          30.845886178057512
+        ],
+        [
+          5.05002,
+          51.5,
+          30.96036343137523
+        ],
+        [
+          5.05002,
+          51.5,
+          30.993749618530273
+        ],
+        [
+          3.84998,
+          51.5,
+          30.993749618530273
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_10",
+      "triangle_index": 591,
+      "contact_vertices": [
+        [
+          3.84998,
+          51.5,
+          30.993749618530273
+        ],
+        [
+          5.05002,
+          51.5,
+          30.993749618530273
+        ],
+        [
+          5.05002,
+          51.50002,
+          30.993749618530273
+        ],
+        [
+          3.84998,
+          51.50002,
+          30.993749618530273
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_11",
+      "triangle_index": 593,
+      "contact_vertices": [
+        [
+          5.05002,
+          52.099998474121094,
+          31.018729999999998
+        ],
+        [
+          5.05002,
+          52.099998474121094,
+          31.141613049905505
+        ],
+        [
+          3.84998,
+          52.099998474121094,
+          31.027135796587785
+        ],
+        [
+          3.84998,
+          52.099998474121094,
+          31.018729999999998
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_11",
+      "triangle_index": 594,
+      "contact_vertices": [
+        [
+          3.84998,
+          52.099998474121094,
+          31.027135796587785
+        ],
+        [
+          5.05002,
+          52.099998474121094,
+          31.141613049905505
+        ],
+        [
+          5.05002,
+          52.099998474121094,
+          31.174999237060547
+        ],
+        [
+          3.84998,
+          52.099998474121094,
+          31.174999237060547
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_11",
+      "triangle_index": 595,
+      "contact_vertices": [
+        [
+          3.84998,
+          52.099998474121094,
+          31.174999237060547
+        ],
+        [
+          5.05002,
+          52.099998474121094,
+          31.174999237060547
+        ],
+        [
+          5.05002,
+          52.10002,
+          31.174999237060547
+        ],
+        [
+          3.84998,
+          52.10002,
+          31.174999237060547
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_12",
+      "triangle_index": 597,
+      "contact_vertices": [
+        [
+          5.05002,
+          52.70000076293945,
+          31.19998
+        ],
+        [
+          5.05002,
+          52.70000076293945,
+          31.322864224450715
+        ],
+        [
+          3.84998,
+          52.70000076293945,
+          31.20838576645166
+        ],
+        [
+          3.84998,
+          52.70000076293945,
+          31.19998
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_12",
+      "triangle_index": 598,
+      "contact_vertices": [
+        [
+          3.84998,
+          52.70000076293945,
+          31.20838576645166
+        ],
+        [
+          5.05002,
+          52.70000076293945,
+          31.322864224450715
+        ],
+        [
+          5.05002,
+          52.70000076293945,
+          31.356250762939453
+        ],
+        [
+          3.84998,
+          52.70000076293945,
+          31.356250762939453
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_12",
+      "triangle_index": 599,
+      "contact_vertices": [
+        [
+          3.84998,
+          52.70000076293945,
+          31.356250762939453
+        ],
+        [
+          5.05002,
+          52.70000076293945,
+          31.356250762939453
+        ],
+        [
+          5.05002,
+          52.70002,
+          31.356250762939453
+        ],
+        [
+          3.84998,
+          52.70002,
+          31.356250762939453
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_13",
+      "triangle_index": 601,
+      "contact_vertices": [
+        [
+          5.05002,
+          53.29999923706055,
+          31.38123
+        ],
+        [
+          5.05002,
+          53.29999923706055,
+          31.504114194314685
+        ],
+        [
+          3.84998,
+          53.29999923706055,
+          31.389636940996965
+        ],
+        [
+          3.84998,
+          53.29999923706055,
+          31.38123
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_13",
+      "triangle_index": 602,
+      "contact_vertices": [
+        [
+          3.84998,
+          53.29999923706055,
+          31.389636940996965
+        ],
+        [
+          5.05002,
+          53.29999923706055,
+          31.504114194314685
+        ],
+        [
+          5.05002,
+          53.29999923706055,
+          31.537500381469727
+        ],
+        [
+          3.84998,
+          53.29999923706055,
+          31.537500381469727
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_13",
+      "triangle_index": 603,
+      "contact_vertices": [
+        [
+          3.84998,
+          53.29999923706055,
+          31.537500381469727
+        ],
+        [
+          5.05002,
+          53.29999923706055,
+          31.537500381469727
+        ],
+        [
+          5.05002,
+          53.30002,
+          31.537500381469727
+        ],
+        [
+          3.84998,
+          53.30002,
+          31.537500381469727
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_14",
+      "triangle_index": 605,
+      "contact_vertices": [
+        [
+          5.05002,
+          53.900001525878906,
+          31.56248
+        ],
+        [
+          5.05002,
+          53.900001525878906,
+          31.685363812844958
+        ],
+        [
+          3.84998,
+          53.900001525878906,
+          31.57088655952724
+        ],
+        [
+          3.84998,
+          53.900001525878906,
+          31.56248
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_14",
+      "triangle_index": 606,
+      "contact_vertices": [
+        [
+          3.84998,
+          53.900001525878906,
+          31.57088655952724
+        ],
+        [
+          5.05002,
+          53.900001525878906,
+          31.685363812844958
+        ],
+        [
+          5.05002,
+          53.900001525878906,
+          31.71875
+        ],
+        [
+          3.84998,
+          53.900001525878906,
+          31.71875
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_14",
+      "triangle_index": 607,
+      "contact_vertices": [
+        [
+          3.84998,
+          53.900001525878906,
+          31.71875
+        ],
+        [
+          5.05002,
+          53.900001525878906,
+          31.71875
+        ],
+        [
+          5.05002,
+          53.90002,
+          31.71875
+        ],
+        [
+          3.84998,
+          53.90002,
+          31.71875
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_15",
+      "triangle_index": 609,
+      "contact_vertices": [
+        [
+          5.05002,
+          54.5,
+          31.74373
+        ],
+        [
+          5.05002,
+          54.5,
+          31.86661343137523
+        ],
+        [
+          3.84998,
+          54.5,
+          31.752136178057512
+        ],
+        [
+          3.84998,
+          54.5,
+          31.74373
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_15",
+      "triangle_index": 610,
+      "contact_vertices": [
+        [
+          3.84998,
+          54.5,
+          31.752136178057512
+        ],
+        [
+          5.05002,
+          54.5,
+          31.86661343137523
+        ],
+        [
+          5.05002,
+          54.5,
+          31.899999618530273
+        ],
+        [
+          3.84998,
+          54.5,
+          31.899999618530273
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_15",
+      "triangle_index": 611,
+      "contact_vertices": [
+        [
+          3.84998,
+          54.5,
+          31.899999618530273
+        ],
+        [
+          5.05002,
+          54.5,
+          31.899999618530273
+        ],
+        [
+          5.05002,
+          54.50002,
+          31.899999618530273
+        ],
+        [
+          3.84998,
+          54.50002,
+          31.899999618530273
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_16",
+      "triangle_index": 613,
+      "contact_vertices": [
+        [
+          5.05002,
+          55.099998474121094,
+          31.924979999999998
+        ],
+        [
+          5.05002,
+          55.099998474121094,
+          32.0478630499055
+        ],
+        [
+          3.84998,
+          55.099998474121094,
+          31.933385796587785
+        ],
+        [
+          3.84998,
+          55.099998474121094,
+          31.924979999999998
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_16",
+      "triangle_index": 614,
+      "contact_vertices": [
+        [
+          3.84998,
+          55.099998474121094,
+          31.933385796587785
+        ],
+        [
+          5.05002,
+          55.099998474121094,
+          32.0478630499055
+        ],
+        [
+          5.05002,
+          55.099998474121094,
+          32.08124923706055
+        ],
+        [
+          3.84998,
+          55.099998474121094,
+          32.08124923706055
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_16",
+      "triangle_index": 615,
+      "contact_vertices": [
+        [
+          3.84998,
+          55.099998474121094,
+          32.08124923706055
+        ],
+        [
+          5.05002,
+          55.099998474121094,
+          32.08124923706055
+        ],
+        [
+          5.05002,
+          55.10002,
+          32.08124923706055
+        ],
+        [
+          3.84998,
+          55.10002,
+          32.08124923706055
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_17",
+      "triangle_index": 617,
+      "contact_vertices": [
+        [
+          5.05002,
+          55.70000076293945,
+          32.10623
+        ],
+        [
+          5.05002,
+          55.70000076293945,
+          32.22911422445071
+        ],
+        [
+          3.84998,
+          55.70000076293945,
+          32.114635766451656
+        ],
+        [
+          3.84998,
+          55.70000076293945,
+          32.10623
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_17",
+      "triangle_index": 618,
+      "contact_vertices": [
+        [
+          3.84998,
+          55.70000076293945,
+          32.114635766451656
+        ],
+        [
+          5.05002,
+          55.70000076293945,
+          32.22911422445071
+        ],
+        [
+          5.05002,
+          55.70000076293945,
+          32.26250076293945
+        ],
+        [
+          3.84998,
+          55.70000076293945,
+          32.26250076293945
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_17",
+      "triangle_index": 619,
+      "contact_vertices": [
+        [
+          3.84998,
+          55.70000076293945,
+          32.26250076293945
+        ],
+        [
+          5.05002,
+          55.70000076293945,
+          32.26250076293945
+        ],
+        [
+          5.05002,
+          55.70002,
+          32.26250076293945
+        ],
+        [
+          3.84998,
+          55.70002,
+          32.26250076293945
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_18",
+      "triangle_index": 621,
+      "contact_vertices": [
+        [
+          5.05002,
+          56.29999923706055,
+          32.28748
+        ],
+        [
+          5.05002,
+          56.29999923706055,
+          32.410362638299745
+        ],
+        [
+          3.84998,
+          56.29999923706055,
+          32.29588658966336
+        ],
+        [
+          3.84998,
+          56.29999923706055,
+          32.28748
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_18",
+      "triangle_index": 622,
+      "contact_vertices": [
+        [
+          3.84998,
+          56.29999923706055,
+          32.29588658966336
+        ],
+        [
+          5.05002,
+          56.29999923706055,
+          32.410362638299745
+        ],
+        [
+          5.05002,
+          56.29999923706055,
+          32.443748474121094
+        ],
+        [
+          3.84998,
+          56.29999923706055,
+          32.443748474121094
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_18",
+      "triangle_index": 623,
+      "contact_vertices": [
+        [
+          3.84998,
+          56.29999923706055,
+          32.443748474121094
+        ],
+        [
+          5.05002,
+          56.29999923706055,
+          32.443748474121094
+        ],
+        [
+          5.05002,
+          56.30002,
+          32.443748474121094
+        ],
+        [
+          3.84998,
+          56.30002,
+          32.443748474121094
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_19",
+      "triangle_index": 625,
+      "contact_vertices": [
+        [
+          5.05002,
+          56.900001525878906,
+          32.46873
+        ],
+        [
+          5.05002,
+          56.900001525878906,
+          32.59161346151126
+        ],
+        [
+          3.84998,
+          56.900001525878906,
+          32.4771350035122
+        ],
+        [
+          3.84998,
+          56.900001525878906,
+          32.46873
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_19",
+      "triangle_index": 626,
+      "contact_vertices": [
+        [
+          3.84998,
+          56.900001525878906,
+          32.4771350035122
+        ],
+        [
+          5.05002,
+          56.900001525878906,
+          32.59161346151126
+        ],
+        [
+          5.05002,
+          56.900001525878906,
+          32.625
+        ],
+        [
+          3.84998,
+          56.900001525878906,
+          32.625
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    },
+    {
+      "zone": "north_stair_19",
+      "triangle_index": 627,
+      "contact_vertices": [
+        [
+          3.84998,
+          56.900001525878906,
+          32.625
+        ],
+        [
+          5.05002,
+          56.900001525878906,
+          32.625
+        ],
+        [
+          5.05002,
+          56.90002,
+          32.625
+        ],
+        [
+          3.84998,
+          56.90002,
+          32.625
+        ]
+      ],
+      "strict_expected_riser_contact": true
+    }
+  ],
+  "all_actual_contacts_are_expected_riser_band": true,
+  "legacy_exception_synthetic_tall_contact_would_be_accepted": true,
+  "strict_rule_rejects_synthetic_tall_contact": true,
+  "overlap_cannot_conceal_gap_regression": true,
+  "scope": "Only24 central v012 stair-following prisms/footprints and20 risers. Prism connectivity does not prove traversal by a rigid2.1m-tall body: successive shared vertical overlap is1.89375m. No dynamic navigation or whole-castle claim."
+}

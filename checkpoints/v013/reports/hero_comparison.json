@@ -1,0 +1,32 @@
+{
+  "whole": {
+    "mean_absolute_channel_difference": 0.45782564102564105,
+    "maximum_channel_difference": 45.0,
+    "p99_channel_difference": 5.0,
+    "identical_pixel_percent": 59.46786324786325
+  },
+  "upper_facades_y0_400": {
+    "mean_absolute_channel_difference": 0.2706287037037037,
+    "maximum_channel_difference": 45.0,
+    "p99_channel_difference": 5.0,
+    "identical_pixel_percent": 78.44694444444444
+  },
+  "castle_base_y400_500": {
+    "mean_absolute_channel_difference": 0.9999148148148148,
+    "maximum_channel_difference": 35.0,
+    "p99_channel_difference": 8.0,
+    "identical_pixel_percent": 28.599999999999998
+  },
+  "water_y500_650": {
+    "mean_absolute_channel_difference": 0.5956246913580246,
+    "maximum_channel_difference": 18.0,
+    "p99_channel_difference": 4.0,
+    "identical_pixel_percent": 29.435555555555553
+  },
+  "baseline": "v012 hero24samples samecamera originalworld",
+  "candidate": "v013 prototypev3 actual4warmpracticalfixtures",
+  "dimensions": [
+    900,
+    650
+  ]
+}

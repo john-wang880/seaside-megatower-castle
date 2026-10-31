@@ -1,0 +1,12 @@
+{
+  "model_sha256": "954a9874826f6c5b54229551a25300f0967387019c9849cc6b310facb29fc2e4",
+  "local_byte_exact_restore": true,
+  "storage_tests": 10,
+  "fresh_restored_route_support_pass": true,
+  "repeat_deep_semantics_pass": true,
+  "original_meshes_materials_transforms_world_lights_unchanged": true,
+  "new_lights": 4,
+  "new_meshes": 40,
+  "remote_restore_verified": false,
+  "scope": "Local pre-publication evidence. Actual local scene lighting deliberately changed by new interior lanterns; original environment lighting remains unchanged."
+}

@@ -1,0 +1,489 @@
+{
+  "model_sha256": "9ee8afdbd1485eb2f062807750055c33c9134c1914dad9ccfb587d101ee67723",
+  "joint_checks": [
+    {
+      "fixture": "entrance",
+      "parts": [
+        "mounting plate",
+        "wall arm"
+      ],
+      "intersection_volume": 1.4602496302773962e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "wall arm",
+        "rain hood"
+      ],
+      "intersection_volume": 0.0,
+      "closed": true,
+      "positive_joint": false
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "rain hood",
+        "hood rim"
+      ],
+      "intersection_volume": 8.437142054804366e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "cage upright 0",
+        "lower cup"
+      ],
+      "intersection_volume": 6.076768029900482e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "cage upright 0",
+        "hood rim"
+      ],
+      "intersection_volume": 6.076768029900465e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "cage upright 1",
+        "lower cup"
+      ],
+      "intersection_volume": 6.076768029900482e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "cage upright 1",
+        "hood rim"
+      ],
+      "intersection_volume": 6.076768029900465e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "cage upright 2",
+        "lower cup"
+      ],
+      "intersection_volume": 6.076768029900482e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "cage upright 2",
+        "hood rim"
+      ],
+      "intersection_volume": 6.076768029900465e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "cage upright 3",
+        "lower cup"
+      ],
+      "intersection_volume": 6.076768029900482e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "cage upright 3",
+        "hood rim"
+      ],
+      "intersection_volume": 6.076768029900465e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "entrance",
+      "parts": [
+        "mounting plate",
+        "hall south stone lining"
+      ],
+      "intersection_volume": 6.744233216632035e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "mounting plate",
+        "wall arm"
+      ],
+      "intersection_volume": 1.460273407075073e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "wall arm",
+        "rain hood"
+      ],
+      "intersection_volume": 0.0,
+      "closed": true,
+      "positive_joint": false
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "rain hood",
+        "hood rim"
+      ],
+      "intersection_volume": 8.437142054804366e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "cage upright 0",
+        "lower cup"
+      ],
+      "intersection_volume": 6.076768029900482e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "cage upright 0",
+        "hood rim"
+      ],
+      "intersection_volume": 6.076768029900465e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "cage upright 1",
+        "lower cup"
+      ],
+      "intersection_volume": 6.076768029900482e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "cage upright 1",
+        "hood rim"
+      ],
+      "intersection_volume": 6.076768029900465e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "cage upright 2",
+        "lower cup"
+      ],
+      "intersection_volume": 6.076768029900482e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "cage upright 2",
+        "hood rim"
+      ],
+      "intersection_volume": 6.076768029900465e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "cage upright 3",
+        "lower cup"
+      ],
+      "intersection_volume": 6.076768029900482e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "cage upright 3",
+        "hood rim"
+      ],
+      "intersection_volume": 6.076768029900465e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "turn",
+      "parts": [
+        "mounting plate",
+        "hall east stone lining"
+      ],
+      "intersection_volume": 6.749383058349906e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "mounting plate",
+        "wall arm"
+      ],
+      "intersection_volume": 1.4602803974472673e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "wall arm",
+        "rain hood"
+      ],
+      "intersection_volume": 0.0,
+      "closed": true,
+      "positive_joint": false
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "rain hood",
+        "hood rim"
+      ],
+      "intersection_volume": 8.437142054804366e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "cage upright 0",
+        "lower cup"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "cage upright 0",
+        "hood rim"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "cage upright 1",
+        "lower cup"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "cage upright 1",
+        "hood rim"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "cage upright 2",
+        "lower cup"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "cage upright 2",
+        "hood rim"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "cage upright 3",
+        "lower cup"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "cage upright 3",
+        "hood rim"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "corridor",
+      "parts": [
+        "mounting plate",
+        "east north corridor stone lining"
+      ],
+      "intersection_volume": 6.749383058349906e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "mounting plate",
+        "wall arm"
+      ],
+      "intersection_volume": 1.4602734070750732e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "wall arm",
+        "rain hood"
+      ],
+      "intersection_volume": 0.0,
+      "closed": true,
+      "positive_joint": false
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "rain hood",
+        "hood rim"
+      ],
+      "intersection_volume": 8.450017678254126e-05,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "cage upright 0",
+        "lower cup"
+      ],
+      "intersection_volume": 6.06981574465762e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "cage upright 0",
+        "hood rim"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "cage upright 1",
+        "lower cup"
+      ],
+      "intersection_volume": 6.06981574465762e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "cage upright 1",
+        "hood rim"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "cage upright 2",
+        "lower cup"
+      ],
+      "intersection_volume": 6.06981574465762e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "cage upright 2",
+        "hood rim"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "cage upright 3",
+        "lower cup"
+      ],
+      "intersection_volume": 6.06981574465762e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "cage upright 3",
+        "hood rim"
+      ],
+      "intersection_volume": 6.074450601486194e-07,
+      "closed": true,
+      "positive_joint": true
+    },
+    {
+      "fixture": "stair",
+      "parts": [
+        "mounting plate",
+        "east lined stairwell and terrace guard"
+      ],
+      "intersection_volume": 6.749383058349906e-05,
+      "closed": true,
+      "positive_joint": true
+    }
+  ],
+  "all_joints_positive_closed_intersections": false,
+  "temporary_data_cleaned": true,
+  "source_unchanged": true,
+  "scope": "Intended mesh joint connectivity and plate-to-wall overlap only; not engineering strength certification. Flame/light intentionally suspended visually inside rigid cage."
+}

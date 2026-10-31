@@ -1,0 +1,13 @@
+{
+  "east": {
+    "display_encoded_luma_median_0_255": 25.231,
+    "display_encoded_luma_p95_0_255": 37.873999999999995,
+    "pixels_luma_below_10_percent": 27.545982905982907
+  },
+  "bend": {
+    "display_encoded_luma_median_0_255": 1.0,
+    "display_encoded_luma_p95_0_255": 2.7874000000000003,
+    "pixels_luma_below_10_percent": 99.9940170940171
+  },
+  "note": "Display-image statistics only, not photometric lux measurements. Original scene world/lights unchanged; floor-only albedo variation cannot resolve near-black corridor readability."
+}
