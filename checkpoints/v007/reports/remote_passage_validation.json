@@ -1,0 +1,72 @@
+{
+  "ray_samples": [
+    {
+      "y": 36.6,
+      "z": 27.6,
+      "blockers": []
+    },
+    {
+      "y": 36.6,
+      "z": 28.4,
+      "blockers": []
+    },
+    {
+      "y": 36.6,
+      "z": 29.4,
+      "blockers": []
+    },
+    {
+      "y": 38.0,
+      "z": 27.6,
+      "blockers": []
+    },
+    {
+      "y": 38.0,
+      "z": 28.4,
+      "blockers": []
+    },
+    {
+      "y": 38.0,
+      "z": 29.4,
+      "blockers": []
+    },
+    {
+      "y": 39.4,
+      "z": 27.6,
+      "blockers": []
+    },
+    {
+      "y": 39.4,
+      "z": 28.4,
+      "blockers": []
+    },
+    {
+      "y": 39.4,
+      "z": 29.4,
+      "blockers": []
+    }
+  ],
+  "new_mesh_topology": [
+    {
+      "name": "V007 | continuous stone passage threshold",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "V007 | eastern portal individual arch stones",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "V007 | western stonework with actual bridgehead passage",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "all_rays_clear": true,
+  "all_meshes_closed": true,
+  "source_commit": "7a068a49661c2303b74c0f7740fbba4490b551b8",
+  "remote_fetch_verified": true,
+  "checkpoint_file_checksums_verified": 27,
+  "model_sha256": "9d0640e5998043d3abe30f075b673a2d8cc7ca2cc74917a2e8f9f2bdb712d6a2"
+}
