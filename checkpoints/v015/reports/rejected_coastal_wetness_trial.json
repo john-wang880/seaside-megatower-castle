@@ -1,0 +1,118 @@
+{
+  "shore": {
+    "mean_abs_channel_difference": 1.5021584045584047,
+    "max_channel_difference": 39.0,
+    "p99_channel_difference": 21.0,
+    "waterline_rocks_roi_x150_850_y280_450": {
+      "mean_abs_difference": 5.4772436974789915,
+      "p95_difference": 21.0
+    }
+  },
+  "hero": {
+    "mean_abs_channel_difference": 0.07975396825396826,
+    "max_channel_difference": 40.0,
+    "p99_channel_difference": 1.0,
+    "upper_region_y0_740": {
+      "mean_abs_difference": 0.00177759009009009,
+      "max_difference": 13.0
+    }
+  },
+  "camera_shore": {
+    "location": [
+      68,
+      -130,
+      12
+    ],
+    "target": [
+      42,
+      -76,
+      2
+    ],
+    "lens_mm": 45,
+    "basis": "Evaluated source rock vertices mainfront x0..80,z<3 span y-87.88..-37.74."
+  },
+  "review": "No fake black stripe, plastic gloss, or upper-cliff/tower hue overhaul visible. However grounding gain is extremely subtle at closeup and negligible in hero; reject as standalone version on requested visible-benefit criterion. Prefer preserve v014 rather than amplify parameters merely to force a change.",
+  "runs": {
+    "before_shore": {
+      "source": "castle_v014.blend",
+      "sha256": "83ea4d898b232e1f9d5f3ee314d16227a3fb31b954f88e4e5c3bdb5be8c2add5",
+      "runtime": "5.2.3 LTS",
+      "camera": [
+        [
+          68,
+          -130,
+          12
+        ],
+        [
+          42,
+          -76,
+          2
+        ],
+        45
+      ],
+      "samples": 48,
+      "seconds": 136.516699552536,
+      "saved": false,
+      "peak_rss_linux_kib": 1537220,
+      "lighting": "actual scene practical lanterns; original world and lights retained; no diagnostic lights"
+    },
+    "after_shore": {
+      "source": "prototype_v1.blend",
+      "sha256": "5e2635bebda60f4a5b284a006b189b337a7d05e65ed18f4f02edb93d9b61b12a",
+      "runtime": "5.2.3 LTS",
+      "camera": [
+        [
+          68,
+          -130,
+          12
+        ],
+        [
+          42,
+          -76,
+          2
+        ],
+        45
+      ],
+      "samples": 48,
+      "seconds": 128.99148058891296,
+      "saved": false,
+      "peak_rss_linux_kib": 1526904,
+      "lighting": "actual scene practical lanterns; original world and lights retained; no diagnostic lights"
+    },
+    "after_hero": {
+      "source": "prototype_v1.blend",
+      "sha256": "5e2635bebda60f4a5b284a006b189b337a7d05e65ed18f4f02edb93d9b61b12a",
+      "runtime": "5.2.3 LTS",
+      "camera": [
+        [
+          115,
+          -470,
+          24
+        ],
+        [
+          -35,
+          35,
+          85
+        ],
+        43
+      ],
+      "samples": 64,
+      "seconds": 214.84415936470032,
+      "saved": false,
+      "peak_rss_linux_kib": 2638868,
+      "lighting": "actual scene practical lanterns; original world and lights retained; no diagnostic lights"
+    }
+  },
+  "status": "REJECTED; candidate model not published or adopted",
+  "retained_model": "v014",
+  "retained_model_sha256": "83ea4d898b232e1f9d5f3ee314d16227a3fb31b954f88e4e5c3bdb5be8c2add5",
+  "trial_parameters": {
+    "wet_color_multiplier": 0.65,
+    "wet_roughness": 0.38,
+    "full_wet_world_z": -0.33,
+    "dry_world_z": 2.67,
+    "only_visible_V008_rock_material_override": true
+  },
+  "geometry_source_preservation_and_repeat_checks": "passed; rejection is artistic, not a technical failure",
+  "decision": "Retain originalv014 materials. Do not amplify parameters merely to force visible difference. This report is a recovery note, not a new accepted modeling checkpoint."
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "axis_point": [
+      -3.549999952316284,
+      35.900001525878906,
+      29.690000534057617
+    ],
+    "nearest_non_door_geometry": [
+      {
+        "object": "V010 | south closed-entry stone jamb",
+        "distance": 0.05999994321723576,
+        "point": [
+          -3.490000009536743,
+          35.900001525878906,
+          29.690000534057617
+        ],
+        "face": 4
+      },
+      {
+        "object": "V008 | south approach parapet",
+        "distance": 0.20000076144845594,
+        "point": [
+          -3.549999475479126,
+          35.70000076293945,
+          29.690000534057617
+        ],
+        "face": 1
+      },
+      {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "distance": 0.3500022917910883,
+        "point": [
+          -3.549999952316284,
+          35.54999923706055,
+          29.690000534057617
+        ],
+        "face": 124
+      },
+      {
+        "object": "V012 | hall south stone lining",
+        "distance": 0.6499985896608751,
+        "point": [
+          -3.299999952316284,
+          36.5,
+          29.690000534057617
+        ],
+        "face": 5
+      }
+    ]
+  },
+  {
+    "axis_point": [
+      -3.549999952316284,
+      35.900001525878906,
+      30.59000015258789
+    ],
+    "nearest_non_door_geometry": [
+      {
+        "object": "V010 | south closed-entry stone jamb",
+        "distance": 0.05999994321723576,
+        "point": [
+          -3.490000009536743,
+          35.900001525878906,
+          30.59000015258789
+        ],
+        "face": 4
+      },
+      {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "distance": 0.3500022917910883,
+        "point": [
+          -3.549999952316284,
+          35.54999923706055,
+          30.59000015258789
+        ],
+        "face": 124
+      },
+      {
+        "object": "V010 | closed-entry stone arch",
+        "distance": 0.4232747477919024,
+        "point": [
+          -3.490000009536743,
+          35.90003967285156,
+          31.009000778198242
+        ],
+        "face": 76
+      },
+      {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "distance": 0.5499999544969529,
+        "point": [
+          -3.0,
+          35.90000534057617,
+          30.59000015258789
+        ],
+        "face": 14052
+      }
+    ]
+  },
+  {
+    "axis_point": [
+      -3.549999952316284,
+      40.099998474121094,
+      29.690000534057617
+    ],
+    "nearest_non_door_geometry": [
+      {
+        "object": "V010 | north closed-entry stone jamb",
+        "distance": 0.05999994321723576,
+        "point": [
+          -3.490000009536743,
+          40.099998474121094,
+          29.690000534057617
+        ],
+        "face": 5
+      },
+      {
+        "object": "V008 | north approach parapet",
+        "distance": 0.2000007614480296,
+        "point": [
+          -3.549999713897705,
+          40.29999923706055,
+          29.690000534057617
+        ],
+        "face": 0
+      },
+      {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "distance": 0.35000229179116954,
+        "point": [
+          -3.5500001907348633,
+          40.45000076293945,
+          29.690000534057617
+        ],
+        "face": 129
+      },
+      {
+        "object": "V012 | hall north stone lining",
+        "distance": 0.6499985896608751,
+        "point": [
+          -3.299999952316284,
+          39.5,
+          29.690000534057617
+        ],
+        "face": 5
+      }
+    ]
+  },
+  {
+    "axis_point": [
+      -3.549999952316284,
+      40.099998474121094,
+      30.59000015258789
+    ],
+    "nearest_non_door_geometry": [
+      {
+        "object": "V010 | north closed-entry stone jamb",
+        "distance": 0.05999994321723576,
+        "point": [
+          -3.490000009536743,
+          40.099998474121094,
+          30.59000015258789
+        ],
+        "face": 5
+      },
+      {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "distance": 0.35000229179116954,
+        "point": [
+          -3.549999713897705,
+          40.45000076293945,
+          30.59000015258789
+        ],
+        "face": 129
+      },
+      {
+        "object": "V010 | closed-entry stone arch",
+        "distance": 0.4232747477919024,
+        "point": [
+          -3.490000009536743,
+          40.09996032714844,
+          31.009000778198242
+        ],
+        "face": 2
+      },
+      {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "distance": 0.549999954483724,
+        "point": [
+          -3.0,
+          40.099998474121094,
+          30.59000015258789
+        ],
+        "face": 14053
+      }
+    ]
+  }
+]
