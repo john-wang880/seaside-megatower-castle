@@ -1,0 +1,852 @@
+{
+  "source_reload_control": {
+    "Traveler | full length ivory skirt": {
+      "coords": {
+        "counts": [
+          1728,
+          1728
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "normals": {
+        "counts": [
+          6144,
+          6144
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "loops": {
+        "counts": [
+          2048,
+          2048
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "material_indices": {
+        "counts": [
+          512,
+          512
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "attrs": {
+        "equal": true,
+        "a": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            576
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1088
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            576
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1088
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            512
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            512
+          ]
+        ],
+        "b": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            576
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1088
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            576
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1088
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            512
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            512
+          ]
+        ]
+      }
+    },
+    "Traveler | purple-red shoulder cape": {
+      "coords": {
+        "counts": [
+          2970,
+          2970
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "normals": {
+        "counts": [
+          11856,
+          11856
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "loops": {
+        "counts": [
+          3952,
+          3952
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "material_indices": {
+        "counts": [
+          988,
+          988
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "attrs": {
+        "equal": true,
+        "a": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            990
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1976
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            3952
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            3952
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            990
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1976
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            988
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            988
+          ],
+          [
+            "material_index",
+            "INT",
+            "FACE",
+            988
+          ]
+        ],
+        "b": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            990
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1976
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            3952
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            3952
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            990
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1976
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            988
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            988
+          ],
+          [
+            "material_index",
+            "INT",
+            "FACE",
+            988
+          ]
+        ]
+      }
+    },
+    "Traveler | white tunic": {
+      "coords": {
+        "counts": [
+          1728,
+          1728
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "normals": {
+        "counts": [
+          6144,
+          6144
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "loops": {
+        "counts": [
+          2048,
+          2048
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "material_indices": {
+        "counts": [
+          512,
+          512
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "attrs": {
+        "equal": true,
+        "a": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            576
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1088
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            576
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1088
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            512
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            512
+          ]
+        ],
+        "b": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            576
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1088
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            576
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1088
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            512
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            512
+          ]
+        ]
+      }
+    }
+  },
+  "viewer_reload": {
+    "Traveler | full length ivory skirt": {
+      "coords": {
+        "counts": [
+          1728,
+          1728
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "normals": {
+        "counts": [
+          6144,
+          6144
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "loops": {
+        "counts": [
+          2048,
+          2048
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "material_indices": {
+        "counts": [
+          512,
+          512
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "attrs": {
+        "equal": true,
+        "a": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            576
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1088
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            576
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1088
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            512
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            512
+          ]
+        ],
+        "b": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            576
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1088
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            576
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1088
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            512
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            512
+          ]
+        ]
+      }
+    },
+    "Traveler | purple-red shoulder cape": {
+      "coords": {
+        "counts": [
+          2970,
+          2970
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "normals": {
+        "counts": [
+          11856,
+          11856
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "loops": {
+        "counts": [
+          3952,
+          3952
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "material_indices": {
+        "counts": [
+          988,
+          988
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "attrs": {
+        "equal": true,
+        "a": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            990
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1976
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            3952
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            3952
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            990
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1976
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            988
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            988
+          ],
+          [
+            "material_index",
+            "INT",
+            "FACE",
+            988
+          ]
+        ],
+        "b": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            990
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1976
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            3952
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            3952
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            990
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1976
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            988
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            988
+          ],
+          [
+            "material_index",
+            "INT",
+            "FACE",
+            988
+          ]
+        ]
+      }
+    },
+    "Traveler | white tunic": {
+      "coords": {
+        "counts": [
+          1728,
+          1728
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "normals": {
+        "counts": [
+          6144,
+          6144
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0.0
+      },
+      "loops": {
+        "counts": [
+          2048,
+          2048
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "material_indices": {
+        "counts": [
+          512,
+          512
+        ],
+        "unequal": 0,
+        "max_abs_difference": 0
+      },
+      "attrs": {
+        "equal": true,
+        "a": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            576
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1088
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            576
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1088
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            512
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            512
+          ]
+        ],
+        "b": [
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            576
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1088
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            2048
+          ],
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            576
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1088
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            512
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            512
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "view": "upper_stairs",
+  "source": "castle_v015.blend",
+  "source_sha256": "578ff47936800fe2a651237b609d95090cd97fefa686a208f8215d57628ac389",
+  "view_manifest_sha256": "45c494f9b5e9603c7401ffa7400fb88143942fa6e40d9399fae28a191403c01e",
+  "preset": {
+    "label": "Covered terrace looking down the stair",
+    "camera_name": "REVIEW | 03 Upper stair",
+    "location": [
+      4.45,
+      61,
+      34.5
+    ],
+    "target": [
+      4.45,
+      49,
+      30.5
+    ],
+    "lens": 32,
+    "clip_start": 0.05,
+    "clip_end": 3000,
+    "provenance": "Accepted v014 final_review/terrace.json camera."
+  },
+  "actual_camera": {
+    "location": [
+      4.449999809265137,
+      61.0,
+      34.5
+    ],
+    "rotation_euler": [
+      1.2490458488464355,
+      8.293653053215166e-08,
+      3.1415927410125732
+    ],
+    "lens": 32.0,
+    "clip_start": 0.05000000074505806,
+    "clip_end": 3000.0
+  },
+  "resolution": [
+    720,
+    520
+  ],
+  "samples": 24,
+  "seconds": 132.32578539848328,
+  "peak_rss_linux_kib": 1341452,
+  "runtime": "5.2.3 LTS",
+  "lighting": "Actual existing world/lights/exposure unchanged. No diagnostic fill or hidden geometry.",
+  "scope": "Independent camera still, not simulated walking or a dynamic navigation proof.",
+  "source_saved": false
+}

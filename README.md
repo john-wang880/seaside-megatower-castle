@@ -2,6 +2,8 @@
 
 最新检查点：[v015 门叶静态铰接支撑](checkpoints/v015/README.md)。
 
+**[六视角导航图与可选查看副本](checkpoints/v015/navigation/README.md)**：从海岸全景到入口、内廊和楼梯，真实照明静帧；原模型不变。
+
 克隆完整仓库（含model_chunks），运行 `python checkpoints/v015/restore_checkpoint.py`，用Blender5.2.3LTS打开。逐块和整文件SHA-256验证，精确恢复原字节。
 
 四组小型锻铁铰接构件补齐原开启门叶与石门框之间的悬空连接。原门叶、建筑、材质及全部灯光保留；28处连接、碰撞/通路/来源保留/重复构建检查通过。仅静态构造连接，不是运动机构或承载认证。
