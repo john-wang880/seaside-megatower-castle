@@ -1,0 +1,64 @@
+{
+  "status": "UNACCEPTED visual prototype, not a published checkpoint",
+  "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "candidate_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "candidate_bytes": 35671703,
+  "source_unchanged": true,
+  "pitches": [
+    "south",
+    "east",
+    "north",
+    "west"
+  ],
+  "parameters": {
+    "exposure": 0.4,
+    "width": 0.6,
+    "length": 0.6,
+    "joint": 0.004,
+    "inset": 0.06,
+    "lip": 0.025,
+    "head": 0.003,
+    "bottom": -0.015,
+    "min_area": 0.003,
+    "min_span": 0.035
+  },
+  "added": [
+    {
+      "object": "V017 | main crown south slate courses",
+      "tiles": 1240,
+      "vertices": 9942,
+      "polygons": 7451,
+      "material": "V002 | quiet blue-grey roof slate",
+      "analytic_summed_volume_not_union": 12.088020477496094
+    },
+    {
+      "object": "V017 | main crown east slate courses",
+      "tiles": 1776,
+      "vertices": 14226,
+      "polygons": 10665,
+      "material": "V002 | quiet blue-grey roof slate",
+      "analytic_summed_volume_not_union": 17.589940064501583
+    },
+    {
+      "object": "V017 | main crown north slate courses",
+      "tiles": 1240,
+      "vertices": 9942,
+      "polygons": 7451,
+      "material": "V002 | quiet blue-grey roof slate",
+      "analytic_summed_volume_not_union": 12.088020477496094
+    },
+    {
+      "object": "V017 | main crown west slate courses",
+      "tiles": 1776,
+      "vertices": 14226,
+      "polygons": 10665,
+      "material": "V002 | quiet blue-grey roof slate",
+      "analytic_summed_volume_not_union": 17.589940064501583
+    }
+  ],
+  "existing_objects_removed": 0,
+  "existing_materials_modified": 0,
+  "source_shell_ribs_finial_pinnacles_untouched": true,
+  "intentional_overlap": "New tile bottoms embed below original shell; successive rows overlap as shallow noncoplanar wedges. Full source shell remains under joints/slivers.",
+  "limits": "Visual gain and deep semantic preservation require independent reopened checks. No waterproofing/historical/engineering claim."
+}

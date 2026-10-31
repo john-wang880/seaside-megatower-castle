@@ -1,0 +1,24 @@
+{
+  "status": "One-view actual-lighting visual review passed with shadow limitations",
+  "source_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "image": "render/image.png",
+  "image_sha256": "4cc3bee1e7076c830ad633d2f9e2c5e17e4f12a553b1f48da3eec4310a8dbf22",
+  "resolution": [
+    1200,
+    800
+  ],
+  "samples": 80,
+  "elapsed_seconds": 72.62611899199692,
+  "peak_rss_linux_kib": 1879472,
+  "camera_adjustment": "Distance only multiplied1.05 from supplied reversecrown camera; exactrecipe/projection recorded separately.",
+  "findings": [
+    "North and west main roof pitches visible from northwest reverse view; tile courses discernible, especially the narrower right-hand pitch.",
+    "Entire main roof silhouette, ridge finial and visible corner pinnacle caps fit frame.",
+    "No visible floating course, silhouette spike, open seam or gross tile-step artifact in this view.",
+    "Original actual lighting leaves both back-facing roof pitches substantially darker than front views; finejoint readability is limited, not altered by diagnostic fill.",
+    "Large dark facade recess belowcrown is outside changedroof scope; no claim made that this render proves unrelated sourcefacades defectfree."
+  ],
+  "limits": "Single oblique actualrender, not independent closedmesh/contact validation. Rearmost cap naturally occluded by roof; evaluated crown boundingproof includes selected geometry but does not guarantee every surface visible.",
+  "source_saved": false,
+  "quality_world_light_exposure_unchanged": true
+}

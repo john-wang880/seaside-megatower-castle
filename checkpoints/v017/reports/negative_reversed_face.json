@@ -1,0 +1,22 @@
+{
+  "control": "reversed_face",
+  "mutation_in_memory_only": {
+    "object": "V017 | main crown south slate courses",
+    "face": 0,
+    "operation": "reverse one face winding in memory"
+  },
+  "expected_failure_marker": "unclosed/inconsistently oriented tile",
+  "rejected_at_expected_check": true,
+  "failure": {
+    "exception_type": "AssertionError",
+    "message": "unclosed/inconsistently oriented tile",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v017/test_roof_negative_controls.py\", line 32, in <module>\n    try:runpy.run_path(str(validator),run_name='__main__')\n        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen runpy>\", line 287, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v017/validate_roof_geometry.py\", line 60, in <module>\n    assert all(z==2 for z in counts.values()) and all(z==directions[b,a] for (a,b),z in directions.items()),'unclosed/inconsistently oriented tile'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: unclosed/inconsistently oriented tile\n"
+  },
+  "candidate_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "baseline_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "candidate_file_unchanged": true,
+  "baseline_file_unchanged": true,
+  "validator_sha256": "111028baeb1fd9ff63e9f50100ad8cb7fc5399b6f1438bca8d0bcc3cdcf76b63",
+  "source_saved": false,
+  "scope": "Deliberate negative fixture in fresh Blender process; original candidate and baseline files never saved or modified. This is not a real candidate defect."
+}

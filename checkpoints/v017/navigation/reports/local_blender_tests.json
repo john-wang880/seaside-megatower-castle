@@ -1,0 +1,193 @@
+{
+  "source_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "checks": {
+    "unknown_view_rejected_before_mutation": true,
+    "source_overwrite_rejected": true,
+    "existing_output_rejected": true,
+    "deep_original_data_unchanged": true,
+    "chosen_camera_selected_in_viewer": true,
+    "original_collections_unchanged": true,
+    "duplicate_install_idempotent": true,
+    "view_switch_preserves_originals": true,
+    "saved_viewports_have_camera_and_sane_pivot": true,
+    "viewer_created": true,
+    "source_filepath_retained_after_copy_save": true,
+    "viewer_reopen_originals_unchanged": true,
+    "viewer_reopen_selected_camera": true,
+    "reopened_viewer_install_idempotent": true,
+    "object_collision_rejected_without_partial_install": true,
+    "collection_collision_rejected_without_partial_install": true,
+    "changed_owned_camera_rejected_without_reset": true,
+    "projection_type_collision_rejected_before_selection": true,
+    "sensor_shift_collision_rejected_before_selection": true,
+    "delta_transform_collision_rejected_before_selection": true,
+    "excluded_collection_rejected_before_selection": true,
+    "evaluated_ui_exclusion_is_exact_boolean_edge_schema": true,
+    "source_bytes_unchanged": true
+  },
+  "viewer": {
+    "view": "terminal",
+    "active_camera": "REVIEW | 05 Terminal arrival",
+    "added_or_reused_cameras": [
+      "REVIEW | 01 Western approach",
+      "REVIEW | 02 Eastern entrance",
+      "REVIEW | 03 Interior bend",
+      "REVIEW | 04 Upper stair",
+      "REVIEW | 05 Terminal arrival",
+      "REVIEW | 06 Offshore marker",
+      "REVIEW | 07 Main crown roof"
+    ],
+    "collection": "REVIEW | Optional navigation cameras",
+    "source_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+    "source_unchanged": true,
+    "viewer_output": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v017/navigation_tests/navigation_viewer_terminal.blend",
+    "viewer_sha256": "3fa0373c8396d7f53d0597e75b4f94fa3eb11c273f7cb8bf0c0c2cfc84630158"
+  },
+  "details": {
+    "original_data_differences": {
+      "meshes_changed": [],
+      "meshes_unexpected_additions": [],
+      "objects_changed": [],
+      "objects_unexpected_additions": [],
+      "objects_missing_additions": [],
+      "materials_changed": [],
+      "materials_unexpected_additions": [],
+      "lights_changed": [],
+      "lights_unexpected_additions": [],
+      "cameras_changed": [],
+      "cameras_unexpected_additions": [],
+      "cameras_missing_additions": [],
+      "worlds_changed": [],
+      "worlds_unexpected_additions": [],
+      "visible_evaluated_changed": [],
+      "visible_evaluated_unexpected_additions": [],
+      "scene_except_active_camera": [],
+      "libraries": [],
+      "texts": []
+    },
+    "evaluated_ui_edge_selection_differences": {
+      "Traveler | full length ivory skirt": {
+        "before": {
+          "attribute": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+          },
+          "edge_flags": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+          },
+          "schema": [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE"
+          ]
+        },
+        "after": {
+          "attribute": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          },
+          "edge_flags": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          },
+          "schema": [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE"
+          ]
+        }
+      },
+      "Traveler | purple-red shoulder cape": {
+        "before": {
+          "attribute": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9"
+          },
+          "edge_flags": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9"
+          },
+          "schema": [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE"
+          ]
+        },
+        "after": {
+          "attribute": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          },
+          "edge_flags": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          },
+          "schema": [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE"
+          ]
+        }
+      },
+      "Traveler | white tunic": {
+        "before": {
+          "attribute": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+          },
+          "edge_flags": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12"
+          },
+          "schema": [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE"
+          ]
+        },
+        "after": {
+          "attribute": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          },
+          "edge_flags": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          },
+          "schema": [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE"
+          ]
+        }
+      }
+    }
+  },
+  "all_pass": true,
+  "scope": "Only new owned cameras/collection plus active camera and saved VIEW_3D navigation state. Viewer selection explicitly changes to chosen camera; original object geometry/data preserved. Viewer file intentionally differs; canonical file bytes unchanged."
+}

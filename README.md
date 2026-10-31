@@ -1,18 +1,15 @@
 # 海边巨塔城堡 · 持续精修
 
-最新检查点：[v016 离岸小塔台阶承托](checkpoints/v016/README.md)。
+最新检查点：**[v017 主冠屋面瓦片层次](checkpoints/v017/README.md)**。
 
-补齐原8块悬空台阶的岩体承托与短平台，原塔身、原台阶、材质和灯光完整保留。4个新增实体、19处连接、6,027个独立贴岩内部采样及来源/通路回归通过；不是结构承载或全岛可通行认证。
+四坡面补齐克制的错缝瓦片层次和收边，原屋体、铜脊、尖杆、角尖塔、材质与灯光完整保留。6,032块闭合瓦片，来源/实际交接/负控制/重复构建/路线回归及导航检查通过；不是防水或承载工程认证。
 
-- [当前整体全景](checkpoints/v016/previews/hero_final.png)
-- [小塔修复后实际照明](checkpoints/v016/previews/marker_after_actual.png) · [修复前](checkpoints/v016/previews/marker_before_actual.png)
-- **[八秒实际外景局部环绕视频](checkpoints/v016/presentation/orbit/README.md)**
-- **[当前七视角实渲拼图](checkpoints/v016/navigation/gallery/README.md)**
-- **[七视角导航与可选查看副本](checkpoints/v016/navigation/README.md)**
-- [恢复清单](checkpoints/v016/MANIFEST.json) · [验证范围](checkpoints/v016/README.md) · [持续计划](CONTINUATION.md)
+- [屋面修改前](checkpoints/v017/previews/crown_before_v016.png) · **[修改后实际近景](checkpoints/v017/previews/crown_after_v017.png)**
+- [当前整体全景](checkpoints/v017/previews/hero_after_v017.png)
+- [八视角导航与可选查看副本](checkpoints/v017/navigation/README.md)
+- [恢复清单](checkpoints/v017/MANIFEST.json) · [验证范围](checkpoints/v017/README.md) · [持续计划](CONTINUATION.md)
+- [上一版v016八秒真实局部环绕视频](https://github.com/john-wang880/seaside-megatower-castle/blob/9d417969f97c309665fb37067a81785c0aa225a0/checkpoints/v016/presentation/orbit/README.md)（尚未包含v017屋面层次，保留于历史）
 
-克隆完整仓库（含model_chunks），运行 `python checkpoints/v016/restore_checkpoint.py`，用Blender5.2.3LTS打开。逐块/整文件SHA-256验证，精确恢复原字节。
+克隆完整仓库（含model_chunks），运行 `python checkpoints/v017/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块/整文件SHA-256验证，精确恢复原字节。
 
-v016已从提交`a76a0b0677815964cd3534ad02853b452ef7fcb5`独立远端恢复并验证通过，见[恢复报告](checkpoints/v016/reports/remote_validation.json)。当前只留最新检查点，旧版Git历史保留；不强推、不永久删除历史。导航七张均已重新渲染自当前v016，旧图仍保留于Git历史。
-
-- [不改画质的云端线程性能对照](checkpoints/v016/performance/thread_abba/README.md)：单机80采样全景8线程约快2.39倍，像素完全一致；默认不变，CPU总时间略增。
+本版先添加备份，独立远端恢复验证通过后才撤旧当前载荷；旧版Git历史保留，不强推、不永久删除历史。导航当前冠部/全景为v017，另外六张明确是v016原区域参考，不把旧图冒充新渲染。

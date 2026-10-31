@@ -1,0 +1,30 @@
+{
+  "model_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "source_v016_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "local_acceptance_pass": true,
+  "checks": {
+    "source_preservation": true,
+    "actual_geometry": true,
+    "repeat_semantics": true,
+    "navigation_23_blender_tests": true,
+    "route_envelope": true,
+    "bridge_samples": true,
+    "previous_approach_samples": true,
+    "doors": true,
+    "hinges": true,
+    "route_floor_support": true,
+    "reject_detached_tile": true,
+    "reject_reversed_face": true,
+    "reject_source_signature": true
+  },
+  "owner_and_parent_crown_visual_review": "Restrained courses readable at actual crown camera, palette/bronze retained; no bright-grid/hero regression observed. Parent accepted visual direction2026-10-31T23:13UTC.",
+  "hero_actual_review": true,
+  "original_data_changes": 0,
+  "new_mesh_objects": 4,
+  "new_materials_or_lights": 0,
+  "roof_scope": "Main4pitches only, originalroof retained. Narrow finialbase seating explicit. No drainage/waterproofing/historical/load certification.",
+  "legacy_scope": "Priorroute/bridge/door staticbounded checks rerun; notwholecastle continuousaccessibility.",
+  "render_performance_scope": "Single matchedview observations, notcontrolled speed/memory benchmark.",
+  "remote_backup_status": "Pending independent fetch/restore/validation before oldcurrentpayload cleanup.",
+  "rear_actual_review": "North/west pitches inspected in original naturalshadow, coherent courses/no visible floating rows or silhouette spikes. No diagnostic relight; fine details less readable in shadow."
+}

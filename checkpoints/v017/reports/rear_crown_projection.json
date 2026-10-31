@@ -1,0 +1,51 @@
+{
+  "source_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "objects": [
+    "V002 | main crown masonry and terraces",
+    "V002 | main crown slate and roof seams",
+    "V002 | main roof terrace parapet",
+    "V017 | main crown south slate courses",
+    "V017 | main crown east slate courses",
+    "V017 | main crown north slate courses",
+    "V017 | main crown west slate courses"
+  ],
+  "world_bounds": [
+    [
+      15.800000190734863,
+      25.399999618530273,
+      179.5749969482422
+    ],
+    [
+      55.900001525878906,
+      64.4000015258789,
+      212.6999969482422
+    ]
+  ],
+  "camera_recipe": {
+    "location": [
+      -31.149993896484375,
+      159.1999969482422,
+      208.14999389648438
+    ],
+    "target": [
+      35.0,
+      50.0,
+      184.0
+    ],
+    "lens": 45,
+    "clip_start": 0.1,
+    "clip_end": 3000
+  },
+  "distance_multiplier": 1.05,
+  "normalized_projection_bounds": [
+    [
+      0.24280694127082825,
+      0.7690693140029907
+    ],
+    [
+      0.3538695275783539,
+      0.9391853213310242
+    ]
+  ],
+  "proof": "Conservative evaluated roof/crown/parapet AABB corners fit60permille margin. Occlusion/shadow assessed visually afterrender."
+}
