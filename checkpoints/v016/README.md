@@ -31,4 +31,4 @@ python checkpoints/v016/restore_checkpoint.py
 ```
 blender -b --disable-autoexec <v015.blend> --python checkpoints/v016/scripts/support_offshore_steps.py -- --output <新文件.blend> --report <报告.json>
 ```
-独立承托/贴岩验证脚本需显式提供`--baseline <v015.blend>`，不会猜测用户本地路径或修改来源。新版本先远端恢复并验证通过，再撤旧当前载荷；Git历史保留。
+独立承托/贴岩验证脚本需显式提供`--baseline <v015.blend>`，不会猜测用户本地路径或修改来源。本版已从远端提交`a76a0b0677815964cd3534ad02853b452ef7fcb5`独立拉回、逐文件校验并精确恢复：10组核心Blender检查、23项导航Blender检查、完整机位边界及10+5项Python测试全部通过。见`reports/remote_validation.json`。通过后才撤旧当前载荷；Git历史保留。
