@@ -1,0 +1,88 @@
+{
+  "version": "v007",
+  "source_filename": "海边巨塔城堡_v006_局部石肋分块样板.blend",
+  "source_sha256": "a22434b9d7b33f7a73cbafcd96d8d609ef1647893a2b9523544a2aeb94a242d1",
+  "runtime": "5.2.3 LTS",
+  "modified_source_object": "Western citadel_West_Cool weathered limestone",
+  "original_component_vertices": 62,
+  "original_unchanged_faces": 13121,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "clear_passage_rays": [
+    {
+      "y": 36.6,
+      "z": 27.6,
+      "blocked": false
+    },
+    {
+      "y": 36.6,
+      "z": 28.4,
+      "blocked": false
+    },
+    {
+      "y": 36.6,
+      "z": 29.4,
+      "blocked": false
+    },
+    {
+      "y": 38,
+      "z": 27.6,
+      "blocked": false
+    },
+    {
+      "y": 38,
+      "z": 28.4,
+      "blocked": false
+    },
+    {
+      "y": 38,
+      "z": 29.4,
+      "blocked": false
+    },
+    {
+      "y": 39.4,
+      "z": 27.6,
+      "blocked": false
+    },
+    {
+      "y": 39.4,
+      "z": 28.4,
+      "blocked": false
+    },
+    {
+      "y": 39.4,
+      "z": 29.4,
+      "blocked": false
+    }
+  ],
+  "threshold_elevation": 27.4,
+  "scope": "Western gate internal east-west opening and threshold only; western approach stairs and eastern cliff landing remain future work.",
+  "vegetation_clearance": [
+    {
+      "source": "Woodland tree trunks",
+      "removed_vertex_range": [
+        13210,
+        13620
+      ],
+      "removed_faces": 205,
+      "retained_faces": 65060
+    },
+    {
+      "source": "Dense western woodland | irregular three-dimensional needle boughs",
+      "removed_vertex_range": [
+        47305,
+        47720
+      ],
+      "removed_faces": 666,
+      "retained_faces": 311206
+    }
+  ],
+  "new_objects": [
+    "V007 | western stonework with actual bridgehead passage",
+    "V007 | continuous stone passage threshold",
+    "V007 | eastern portal individual arch stones",
+    "V007 | woodland trunks minus gate-intersecting tree",
+    "V007 | woodland boughs minus gate-intersecting tree"
+  ],
+  "output_sha256": "9d0640e5998043d3abe30f075b673a2d8cc7ca2cc74917a2e8f9f2bdb712d6a2"
+}
