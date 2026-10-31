@@ -1,0 +1,1628 @@
+{
+  "differing_metadata": {
+    "cycles.ViewLayer.total_time": {
+      "01_threads_3": "02:37.39",
+      "02_threads_8": "01:05.66",
+      "03_threads_8": "01:06.16",
+      "04_threads_3": "02:38.33"
+    },
+    "RenderTime": {
+      "01_threads_3": "02:37.48",
+      "02_threads_8": "01:05.74",
+      "03_threads_8": "01:06.25",
+      "04_threads_3": "02:38.41"
+    },
+    "cycles.ViewLayer.render_time": {
+      "01_threads_3": "00:28.34",
+      "02_threads_8": "00:11.60",
+      "03_threads_8": "00:11.23",
+      "04_threads_3": "00:26.97"
+    },
+    "cycles.ViewLayer.synchronization_time": {
+      "01_threads_3": "02:09.05",
+      "02_threads_8": "00:54.06",
+      "03_threads_8": "00:54.93",
+      "04_threads_3": "02:11.36"
+    }
+  },
+  "cases": {
+    "01_threads_3": {
+      "png_metadata": {
+        "srgb": 3,
+        "gamma": 0.45455,
+        "chromaticity": [
+          0.3127,
+          0.329,
+          0.64,
+          0.33,
+          0.3,
+          0.6,
+          0.15,
+          0.06
+        ],
+        "exif": {
+          "bytes_sha256": "ef20c4551ea0c7d272c9de4d00ade2c06509d5af8331658d5249b996efdaa7bb",
+          "length": 60
+        },
+        "dpi": [
+          71.9836,
+          71.9836
+        ],
+        "Frame": "001",
+        "Camera": "V002 | full coastal skyline camera",
+        "Scene": "Scene",
+        "RenderTime": "02:37.48",
+        "cycles.ViewLayer.samples": "80",
+        "cycles.ViewLayer.total_time": "02:37.39",
+        "cycles.ViewLayer.render_time": "00:28.34",
+        "cycles.ViewLayer.synchronization_time": "02:09.05"
+      },
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13,
+          "sha256": "640176ebf944d7f48d3be7a878320564e06d2427926f07fb42e7537794846bc8"
+        },
+        {
+          "type": "sRGB",
+          "length": 1,
+          "sha256": "084fed08b978af4d7d196a7446a86b58009e636b611db16211b65a9aadff29c5"
+        },
+        {
+          "type": "gAMA",
+          "length": 4,
+          "sha256": "96256bc24f55fcd0b110db9a423c70063b27ea9e62c16789674d212fffa56f27"
+        },
+        {
+          "type": "cHRM",
+          "length": 32,
+          "sha256": "b287d3e5cf693bc123ec26ad76af3029f572d4b39b4e32979a81f10786a7d047"
+        },
+        {
+          "type": "eXIf",
+          "length": 54,
+          "sha256": "bac3a1a58a16fd3148097ebe3f45648d02a89abcae7be4c8d625e0a926782b62"
+        },
+        {
+          "type": "oFFs",
+          "length": 9,
+          "sha256": "3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d"
+        },
+        {
+          "type": "pHYs",
+          "length": 9,
+          "sha256": "e12fceb19829f8cacf3548e2048a0b467cdb41965b24105f0210295931a4cfc5"
+        },
+        {
+          "type": "tEXt",
+          "length": 9,
+          "sha256": "727616f5871ee87a4dd73e07ad61afb43256c8f61bb482c2ce3aa4f8a9f9458b"
+        },
+        {
+          "type": "tEXt",
+          "length": 41,
+          "sha256": "d77397db0f7288e69117248c732bc52a98316c402617b57f0ae71f7829822dbf"
+        },
+        {
+          "type": "tEXt",
+          "length": 11,
+          "sha256": "f0336835c98f96f08893cc14df7c1154b568e164fa95acb0465449d20615bd05"
+        },
+        {
+          "type": "tEXt",
+          "length": 19,
+          "sha256": "be8b0ac6913826207a0a03d1cd904cbc15c36da7d3ea3d820150eaefb432e73b"
+        },
+        {
+          "type": "tEXt",
+          "length": 27,
+          "sha256": "1cddec64604924762508db3d38eb09c56c308b253adaaefd3f8501f0f8573f79"
+        },
+        {
+          "type": "tEXt",
+          "length": 36,
+          "sha256": "a9a02b22fcbe810dc16936e188e9ed02173d12fb823cac7f16072243ce8c6c07"
+        },
+        {
+          "type": "tEXt",
+          "length": 37,
+          "sha256": "49c3fb3b47f23cee0a217767f325b4b820438a846efd704a0fcc775bc9d556e3"
+        },
+        {
+          "type": "tEXt",
+          "length": 46,
+          "sha256": "d57bbdb9d1ba4c0a9649f746e6601647781029710b58bbc42283c79068408a3f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "76b545a2ced05a6623412756626c49dbef56047d206147f02774208cf3b3114f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0c0a912ffae82c33a946544612a3f912064c95f834e1b885aa4db6445bf618c0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c2998c1dd0953261581d1c9c984c0a58b1c57d4a67c83b7b8b1f545db31527ce"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "771ca34da4eb627de2114a9b9428b8bd92db1a3e404c699ce7f6e4be18d6e9a6"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fceeb3b0df632bde2cab23021a45c040f8062199281e5b3b85ec51a1bb9da27f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7c0a6ddccd86b84a7d689f3c2a4945828ef6f212a4568f89c3379bf036e89dd5"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "abb452ebb53bc221e29d42d3491b66c960dced27edb0467da05401516aeaea39"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "df38a1557399930175a9c380beff700ee00510d8153833855ce3a98f99169d31"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "57e4532d2b21d0c71a92be423b1aac0d94b8763728e33ee3a7875c765cf8939a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6a822518012254c6ca8d8dcbe066eb606baf4479066726da948bf48aedcb18d7"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fd7af39299bc8a98bbde13fbfca7f2aacab4358c66cc7dd5515d4bd2d5ca0fe0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "58986ec16f076937fa05ab737a5bb41bc7dbed90fec5768455fab1db460a8517"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "21e183a4f676ece7fc25593898a99bec3386503abe4aba7dad1641ca6cf5e82a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c6cc61b5c1c8a5cc50cf92da349c304b15f445bdfcd27bdb00e64f16435f1efc"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "eea659f7590eeac8c9fb6e8d952350295b853906fc86a59dd774cd6c01f7768e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d8a61326d6709ed499e4b909376e33c4c4abac081da9796b8151e083c73adcd3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "1fcffd9a35840022349c87b614035ebaf8d947b81661d3403dff9668b5fc6b9c"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "ad9e20c0c04ecbcf568faf6cb1ed832486c1d392fe3d6991c4e74be314223df5"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0130ad105a017751a0c9ef34f93f05e68468eec25ebf9140cef73c0b4b29ddcc"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "520f6d179db7b29a89fbb42930f158693d88ae9b239c78b8a3881502679c3b1a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0a78e7e4b144db7f44240d11769a62de7e43750a3d5cf70caf6367ecca106df9"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "428d14c631349c4c74f614e9eb6e386dad943623ef55aa9340ee5eca52a2c7ca"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6eca8cc496ddcaa8745ae36f30912d4d45c167fc0ffaf5ec660f4fa17d75f4e8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "850caad5108d5f50825171b93a0b46954691c3dc309d18378456d87451d43283"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d747801bcfe030a1fb3aa7169966fb30cd57d13fd9244bf52adeb0c405789fa8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7f452e03bd3a1fad06006ec187b870cdb2e1d5e874f7d625489933f4a563fc5e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d9c6c623dd3ecfe485eb07d59840cd59664601278dfc7ff59b26643538a45a21"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f2486deffcc4081f48e1690a2bed8786f335b62b166b502418a05d98ac830869"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "320dc749dfa75624eadbdcfb9d656ea68d7a4487b67306eb3a1875115403692e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "627074bd54b4ba5188d387eeeb5e7fd741091f50d0cbbd598f3348e9ef9feba8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "4885a08a229b2e363e242a14735d897d668c02aa47714b0f3c0ef0e1be9e62c0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "a53602cd222351757f27c2c89ef29e2752929da6716ae7cd303f4ef2cbf26c57"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d89e3c5d18ad2e72b449ebabe274e87bb9730e5bb5076d5bded694e5d6b62e4d"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "04f3a52d6e4857cfa754f3e6631291397e8e947f6cceb24c243792256f70dd3f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "13680c0ded81ac228ada3d75decb3a3fca3015d037232f2f40868d60aef3ae20"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6c8a2363675ab28eb7e9dda6dbea271fbc30530de71460781d4cf1c36dd315c3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "302de7e97c1242d48f92cba7c64b451c763843ea3ef4949054cc9402013eb95a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "1a97e6d0e767b2b8f00f7200fa7d88eaf811cc1c910d15c993302a87ad879d76"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "dfd8b4b49c816f916f1f66010b6659c725d85d9fc38fc2aa35ec5e12ef75310e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "ea3ccbdd2243b0a699457941836814402a7ce438a52b2e6aa42e6b0244f61ebe"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c8fdc8fe99d081c6b8e11618e89a3186965ef5fb58abafd3b6679406f9700e69"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f3e249d4f8c0d840b83db78cd1e2d0a44b36888c65b8cdee39b0a857bfd83ec0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "da1fc3d7c253e4060e7837a92a41c530112c2bbcac67c053ca2de22f6a426551"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "47e45a2573de8964da44a50584b767c2ad35314c8c885b0f95f176caf7accaab"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "33423778775416e0170a2160bbb23dbc4ea06d6fac75bdd9a5394dc51c40e397"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7bbcb83e64e7f4dbbb4d27a719867cb7707268428ef203d0949e42d2707cee35"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "bcc6959b2cedbbf58ac3331d08d3c462f2c06b1ac2e2d22086f910863ba1da03"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "86d5fb1bb7a7da575148f0737c11dd156c180d3a6cd6101222901bc7b1fc3b5d"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "41866da7f7b7bfd9f4923113a881c1d0b1487de14c65af46a5bdec17617da79f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "9d109d9c27e0cf303a774a40c56bfdf89c0553c04160f155f103c155bb61fdbb"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fabce06f3d7eac4548ef6b91d698b2f72b7ee55e1c8deaa3dd016a15d8fdc1d7"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "26d87e2290db25b984f065e55f70a733c219f6c48d2ede9cdcd55d056673b3c3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7dea2c4e8843c0896c977ffe68c17d9fedf0851e9cd63e5cf98c1b07fdb7e88a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "3ae415f84d0aeaaa5a85610970ef6a2ff58cd7ef4815eb56daee9c3bee15f6dd"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f50bf831038c3b95524e75f75254fc4b2765dd27478c6ae10aa4b4df75054340"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7f787e34e757e2fa5621a04938b3899a89549d6e06761d06842d700d0be58651"
+        },
+        {
+          "type": "IDAT",
+          "length": 1886,
+          "sha256": "40fae748fdb6299045c21e5f18315b5ed57c1e665d3c5cd19e6f93eb67be2a45"
+        },
+        {
+          "type": "IEND",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    "02_threads_8": {
+      "png_metadata": {
+        "srgb": 3,
+        "gamma": 0.45455,
+        "chromaticity": [
+          0.3127,
+          0.329,
+          0.64,
+          0.33,
+          0.3,
+          0.6,
+          0.15,
+          0.06
+        ],
+        "exif": {
+          "bytes_sha256": "ef20c4551ea0c7d272c9de4d00ade2c06509d5af8331658d5249b996efdaa7bb",
+          "length": 60
+        },
+        "dpi": [
+          71.9836,
+          71.9836
+        ],
+        "Frame": "001",
+        "Camera": "V002 | full coastal skyline camera",
+        "Scene": "Scene",
+        "RenderTime": "01:05.74",
+        "cycles.ViewLayer.samples": "80",
+        "cycles.ViewLayer.total_time": "01:05.66",
+        "cycles.ViewLayer.render_time": "00:11.60",
+        "cycles.ViewLayer.synchronization_time": "00:54.06"
+      },
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13,
+          "sha256": "640176ebf944d7f48d3be7a878320564e06d2427926f07fb42e7537794846bc8"
+        },
+        {
+          "type": "sRGB",
+          "length": 1,
+          "sha256": "084fed08b978af4d7d196a7446a86b58009e636b611db16211b65a9aadff29c5"
+        },
+        {
+          "type": "gAMA",
+          "length": 4,
+          "sha256": "96256bc24f55fcd0b110db9a423c70063b27ea9e62c16789674d212fffa56f27"
+        },
+        {
+          "type": "cHRM",
+          "length": 32,
+          "sha256": "b287d3e5cf693bc123ec26ad76af3029f572d4b39b4e32979a81f10786a7d047"
+        },
+        {
+          "type": "eXIf",
+          "length": 54,
+          "sha256": "bac3a1a58a16fd3148097ebe3f45648d02a89abcae7be4c8d625e0a926782b62"
+        },
+        {
+          "type": "oFFs",
+          "length": 9,
+          "sha256": "3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d"
+        },
+        {
+          "type": "pHYs",
+          "length": 9,
+          "sha256": "e12fceb19829f8cacf3548e2048a0b467cdb41965b24105f0210295931a4cfc5"
+        },
+        {
+          "type": "tEXt",
+          "length": 9,
+          "sha256": "727616f5871ee87a4dd73e07ad61afb43256c8f61bb482c2ce3aa4f8a9f9458b"
+        },
+        {
+          "type": "tEXt",
+          "length": 41,
+          "sha256": "d77397db0f7288e69117248c732bc52a98316c402617b57f0ae71f7829822dbf"
+        },
+        {
+          "type": "tEXt",
+          "length": 11,
+          "sha256": "f0336835c98f96f08893cc14df7c1154b568e164fa95acb0465449d20615bd05"
+        },
+        {
+          "type": "tEXt",
+          "length": 19,
+          "sha256": "95e2313a3237c1a12da13e9f075b8f686529fe3355f22fbf4d664c7ded7e68d3"
+        },
+        {
+          "type": "tEXt",
+          "length": 27,
+          "sha256": "1cddec64604924762508db3d38eb09c56c308b253adaaefd3f8501f0f8573f79"
+        },
+        {
+          "type": "tEXt",
+          "length": 36,
+          "sha256": "9338e4f6ce4ad33a7199d786cac8fedc3b82d21d426f9dde91d8071fd75a3302"
+        },
+        {
+          "type": "tEXt",
+          "length": 37,
+          "sha256": "ed16b5c27fe3834405d4fe197639d1dbbdb1aa6f6d9f09fcae5d390eb2dd1afb"
+        },
+        {
+          "type": "tEXt",
+          "length": 46,
+          "sha256": "46def247c4e16304327cdaf1936d2ccce9f34707f98c3c7e550087eb03ae75f1"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "76b545a2ced05a6623412756626c49dbef56047d206147f02774208cf3b3114f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0c0a912ffae82c33a946544612a3f912064c95f834e1b885aa4db6445bf618c0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c2998c1dd0953261581d1c9c984c0a58b1c57d4a67c83b7b8b1f545db31527ce"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "771ca34da4eb627de2114a9b9428b8bd92db1a3e404c699ce7f6e4be18d6e9a6"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fceeb3b0df632bde2cab23021a45c040f8062199281e5b3b85ec51a1bb9da27f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7c0a6ddccd86b84a7d689f3c2a4945828ef6f212a4568f89c3379bf036e89dd5"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "abb452ebb53bc221e29d42d3491b66c960dced27edb0467da05401516aeaea39"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "df38a1557399930175a9c380beff700ee00510d8153833855ce3a98f99169d31"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "57e4532d2b21d0c71a92be423b1aac0d94b8763728e33ee3a7875c765cf8939a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6a822518012254c6ca8d8dcbe066eb606baf4479066726da948bf48aedcb18d7"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fd7af39299bc8a98bbde13fbfca7f2aacab4358c66cc7dd5515d4bd2d5ca0fe0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "58986ec16f076937fa05ab737a5bb41bc7dbed90fec5768455fab1db460a8517"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "21e183a4f676ece7fc25593898a99bec3386503abe4aba7dad1641ca6cf5e82a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c6cc61b5c1c8a5cc50cf92da349c304b15f445bdfcd27bdb00e64f16435f1efc"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "eea659f7590eeac8c9fb6e8d952350295b853906fc86a59dd774cd6c01f7768e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d8a61326d6709ed499e4b909376e33c4c4abac081da9796b8151e083c73adcd3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "1fcffd9a35840022349c87b614035ebaf8d947b81661d3403dff9668b5fc6b9c"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "ad9e20c0c04ecbcf568faf6cb1ed832486c1d392fe3d6991c4e74be314223df5"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0130ad105a017751a0c9ef34f93f05e68468eec25ebf9140cef73c0b4b29ddcc"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "520f6d179db7b29a89fbb42930f158693d88ae9b239c78b8a3881502679c3b1a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0a78e7e4b144db7f44240d11769a62de7e43750a3d5cf70caf6367ecca106df9"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "428d14c631349c4c74f614e9eb6e386dad943623ef55aa9340ee5eca52a2c7ca"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6eca8cc496ddcaa8745ae36f30912d4d45c167fc0ffaf5ec660f4fa17d75f4e8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "850caad5108d5f50825171b93a0b46954691c3dc309d18378456d87451d43283"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d747801bcfe030a1fb3aa7169966fb30cd57d13fd9244bf52adeb0c405789fa8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7f452e03bd3a1fad06006ec187b870cdb2e1d5e874f7d625489933f4a563fc5e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d9c6c623dd3ecfe485eb07d59840cd59664601278dfc7ff59b26643538a45a21"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f2486deffcc4081f48e1690a2bed8786f335b62b166b502418a05d98ac830869"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "320dc749dfa75624eadbdcfb9d656ea68d7a4487b67306eb3a1875115403692e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "627074bd54b4ba5188d387eeeb5e7fd741091f50d0cbbd598f3348e9ef9feba8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "4885a08a229b2e363e242a14735d897d668c02aa47714b0f3c0ef0e1be9e62c0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "a53602cd222351757f27c2c89ef29e2752929da6716ae7cd303f4ef2cbf26c57"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d89e3c5d18ad2e72b449ebabe274e87bb9730e5bb5076d5bded694e5d6b62e4d"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "04f3a52d6e4857cfa754f3e6631291397e8e947f6cceb24c243792256f70dd3f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "13680c0ded81ac228ada3d75decb3a3fca3015d037232f2f40868d60aef3ae20"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6c8a2363675ab28eb7e9dda6dbea271fbc30530de71460781d4cf1c36dd315c3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "302de7e97c1242d48f92cba7c64b451c763843ea3ef4949054cc9402013eb95a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "1a97e6d0e767b2b8f00f7200fa7d88eaf811cc1c910d15c993302a87ad879d76"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "dfd8b4b49c816f916f1f66010b6659c725d85d9fc38fc2aa35ec5e12ef75310e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "ea3ccbdd2243b0a699457941836814402a7ce438a52b2e6aa42e6b0244f61ebe"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c8fdc8fe99d081c6b8e11618e89a3186965ef5fb58abafd3b6679406f9700e69"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f3e249d4f8c0d840b83db78cd1e2d0a44b36888c65b8cdee39b0a857bfd83ec0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "da1fc3d7c253e4060e7837a92a41c530112c2bbcac67c053ca2de22f6a426551"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "47e45a2573de8964da44a50584b767c2ad35314c8c885b0f95f176caf7accaab"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "33423778775416e0170a2160bbb23dbc4ea06d6fac75bdd9a5394dc51c40e397"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7bbcb83e64e7f4dbbb4d27a719867cb7707268428ef203d0949e42d2707cee35"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "bcc6959b2cedbbf58ac3331d08d3c462f2c06b1ac2e2d22086f910863ba1da03"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "86d5fb1bb7a7da575148f0737c11dd156c180d3a6cd6101222901bc7b1fc3b5d"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "41866da7f7b7bfd9f4923113a881c1d0b1487de14c65af46a5bdec17617da79f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "9d109d9c27e0cf303a774a40c56bfdf89c0553c04160f155f103c155bb61fdbb"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fabce06f3d7eac4548ef6b91d698b2f72b7ee55e1c8deaa3dd016a15d8fdc1d7"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "26d87e2290db25b984f065e55f70a733c219f6c48d2ede9cdcd55d056673b3c3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7dea2c4e8843c0896c977ffe68c17d9fedf0851e9cd63e5cf98c1b07fdb7e88a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "3ae415f84d0aeaaa5a85610970ef6a2ff58cd7ef4815eb56daee9c3bee15f6dd"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f50bf831038c3b95524e75f75254fc4b2765dd27478c6ae10aa4b4df75054340"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7f787e34e757e2fa5621a04938b3899a89549d6e06761d06842d700d0be58651"
+        },
+        {
+          "type": "IDAT",
+          "length": 1886,
+          "sha256": "40fae748fdb6299045c21e5f18315b5ed57c1e665d3c5cd19e6f93eb67be2a45"
+        },
+        {
+          "type": "IEND",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    "03_threads_8": {
+      "png_metadata": {
+        "srgb": 3,
+        "gamma": 0.45455,
+        "chromaticity": [
+          0.3127,
+          0.329,
+          0.64,
+          0.33,
+          0.3,
+          0.6,
+          0.15,
+          0.06
+        ],
+        "exif": {
+          "bytes_sha256": "ef20c4551ea0c7d272c9de4d00ade2c06509d5af8331658d5249b996efdaa7bb",
+          "length": 60
+        },
+        "dpi": [
+          71.9836,
+          71.9836
+        ],
+        "Frame": "001",
+        "Camera": "V002 | full coastal skyline camera",
+        "Scene": "Scene",
+        "RenderTime": "01:06.25",
+        "cycles.ViewLayer.samples": "80",
+        "cycles.ViewLayer.total_time": "01:06.16",
+        "cycles.ViewLayer.render_time": "00:11.23",
+        "cycles.ViewLayer.synchronization_time": "00:54.93"
+      },
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13,
+          "sha256": "640176ebf944d7f48d3be7a878320564e06d2427926f07fb42e7537794846bc8"
+        },
+        {
+          "type": "sRGB",
+          "length": 1,
+          "sha256": "084fed08b978af4d7d196a7446a86b58009e636b611db16211b65a9aadff29c5"
+        },
+        {
+          "type": "gAMA",
+          "length": 4,
+          "sha256": "96256bc24f55fcd0b110db9a423c70063b27ea9e62c16789674d212fffa56f27"
+        },
+        {
+          "type": "cHRM",
+          "length": 32,
+          "sha256": "b287d3e5cf693bc123ec26ad76af3029f572d4b39b4e32979a81f10786a7d047"
+        },
+        {
+          "type": "eXIf",
+          "length": 54,
+          "sha256": "bac3a1a58a16fd3148097ebe3f45648d02a89abcae7be4c8d625e0a926782b62"
+        },
+        {
+          "type": "oFFs",
+          "length": 9,
+          "sha256": "3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d"
+        },
+        {
+          "type": "pHYs",
+          "length": 9,
+          "sha256": "e12fceb19829f8cacf3548e2048a0b467cdb41965b24105f0210295931a4cfc5"
+        },
+        {
+          "type": "tEXt",
+          "length": 9,
+          "sha256": "727616f5871ee87a4dd73e07ad61afb43256c8f61bb482c2ce3aa4f8a9f9458b"
+        },
+        {
+          "type": "tEXt",
+          "length": 41,
+          "sha256": "d77397db0f7288e69117248c732bc52a98316c402617b57f0ae71f7829822dbf"
+        },
+        {
+          "type": "tEXt",
+          "length": 11,
+          "sha256": "f0336835c98f96f08893cc14df7c1154b568e164fa95acb0465449d20615bd05"
+        },
+        {
+          "type": "tEXt",
+          "length": 19,
+          "sha256": "bd748952ddbaa1b5af37f3f5ea581686c03ce6f339342a30badb72a84bee0493"
+        },
+        {
+          "type": "tEXt",
+          "length": 27,
+          "sha256": "1cddec64604924762508db3d38eb09c56c308b253adaaefd3f8501f0f8573f79"
+        },
+        {
+          "type": "tEXt",
+          "length": 36,
+          "sha256": "fe5f40f602e1860e1882429482f02a785a2715bec0e33fc91cb96c1964783c98"
+        },
+        {
+          "type": "tEXt",
+          "length": 37,
+          "sha256": "9f8668ad43b8c8d9e15463304cfb40af7ede7e9d9da851754dc87c028645e50c"
+        },
+        {
+          "type": "tEXt",
+          "length": 46,
+          "sha256": "f0157b4c69dfdf22a6492e70552e6e2e82c92340f0ddccfca16ef3ba56ef558f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "76b545a2ced05a6623412756626c49dbef56047d206147f02774208cf3b3114f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0c0a912ffae82c33a946544612a3f912064c95f834e1b885aa4db6445bf618c0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c2998c1dd0953261581d1c9c984c0a58b1c57d4a67c83b7b8b1f545db31527ce"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "771ca34da4eb627de2114a9b9428b8bd92db1a3e404c699ce7f6e4be18d6e9a6"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fceeb3b0df632bde2cab23021a45c040f8062199281e5b3b85ec51a1bb9da27f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7c0a6ddccd86b84a7d689f3c2a4945828ef6f212a4568f89c3379bf036e89dd5"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "abb452ebb53bc221e29d42d3491b66c960dced27edb0467da05401516aeaea39"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "df38a1557399930175a9c380beff700ee00510d8153833855ce3a98f99169d31"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "57e4532d2b21d0c71a92be423b1aac0d94b8763728e33ee3a7875c765cf8939a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6a822518012254c6ca8d8dcbe066eb606baf4479066726da948bf48aedcb18d7"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fd7af39299bc8a98bbde13fbfca7f2aacab4358c66cc7dd5515d4bd2d5ca0fe0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "58986ec16f076937fa05ab737a5bb41bc7dbed90fec5768455fab1db460a8517"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "21e183a4f676ece7fc25593898a99bec3386503abe4aba7dad1641ca6cf5e82a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c6cc61b5c1c8a5cc50cf92da349c304b15f445bdfcd27bdb00e64f16435f1efc"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "eea659f7590eeac8c9fb6e8d952350295b853906fc86a59dd774cd6c01f7768e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d8a61326d6709ed499e4b909376e33c4c4abac081da9796b8151e083c73adcd3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "1fcffd9a35840022349c87b614035ebaf8d947b81661d3403dff9668b5fc6b9c"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "ad9e20c0c04ecbcf568faf6cb1ed832486c1d392fe3d6991c4e74be314223df5"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0130ad105a017751a0c9ef34f93f05e68468eec25ebf9140cef73c0b4b29ddcc"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "520f6d179db7b29a89fbb42930f158693d88ae9b239c78b8a3881502679c3b1a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0a78e7e4b144db7f44240d11769a62de7e43750a3d5cf70caf6367ecca106df9"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "428d14c631349c4c74f614e9eb6e386dad943623ef55aa9340ee5eca52a2c7ca"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6eca8cc496ddcaa8745ae36f30912d4d45c167fc0ffaf5ec660f4fa17d75f4e8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "850caad5108d5f50825171b93a0b46954691c3dc309d18378456d87451d43283"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d747801bcfe030a1fb3aa7169966fb30cd57d13fd9244bf52adeb0c405789fa8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7f452e03bd3a1fad06006ec187b870cdb2e1d5e874f7d625489933f4a563fc5e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d9c6c623dd3ecfe485eb07d59840cd59664601278dfc7ff59b26643538a45a21"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f2486deffcc4081f48e1690a2bed8786f335b62b166b502418a05d98ac830869"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "320dc749dfa75624eadbdcfb9d656ea68d7a4487b67306eb3a1875115403692e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "627074bd54b4ba5188d387eeeb5e7fd741091f50d0cbbd598f3348e9ef9feba8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "4885a08a229b2e363e242a14735d897d668c02aa47714b0f3c0ef0e1be9e62c0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "a53602cd222351757f27c2c89ef29e2752929da6716ae7cd303f4ef2cbf26c57"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d89e3c5d18ad2e72b449ebabe274e87bb9730e5bb5076d5bded694e5d6b62e4d"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "04f3a52d6e4857cfa754f3e6631291397e8e947f6cceb24c243792256f70dd3f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "13680c0ded81ac228ada3d75decb3a3fca3015d037232f2f40868d60aef3ae20"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6c8a2363675ab28eb7e9dda6dbea271fbc30530de71460781d4cf1c36dd315c3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "302de7e97c1242d48f92cba7c64b451c763843ea3ef4949054cc9402013eb95a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "1a97e6d0e767b2b8f00f7200fa7d88eaf811cc1c910d15c993302a87ad879d76"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "dfd8b4b49c816f916f1f66010b6659c725d85d9fc38fc2aa35ec5e12ef75310e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "ea3ccbdd2243b0a699457941836814402a7ce438a52b2e6aa42e6b0244f61ebe"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c8fdc8fe99d081c6b8e11618e89a3186965ef5fb58abafd3b6679406f9700e69"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f3e249d4f8c0d840b83db78cd1e2d0a44b36888c65b8cdee39b0a857bfd83ec0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "da1fc3d7c253e4060e7837a92a41c530112c2bbcac67c053ca2de22f6a426551"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "47e45a2573de8964da44a50584b767c2ad35314c8c885b0f95f176caf7accaab"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "33423778775416e0170a2160bbb23dbc4ea06d6fac75bdd9a5394dc51c40e397"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7bbcb83e64e7f4dbbb4d27a719867cb7707268428ef203d0949e42d2707cee35"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "bcc6959b2cedbbf58ac3331d08d3c462f2c06b1ac2e2d22086f910863ba1da03"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "86d5fb1bb7a7da575148f0737c11dd156c180d3a6cd6101222901bc7b1fc3b5d"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "41866da7f7b7bfd9f4923113a881c1d0b1487de14c65af46a5bdec17617da79f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "9d109d9c27e0cf303a774a40c56bfdf89c0553c04160f155f103c155bb61fdbb"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fabce06f3d7eac4548ef6b91d698b2f72b7ee55e1c8deaa3dd016a15d8fdc1d7"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "26d87e2290db25b984f065e55f70a733c219f6c48d2ede9cdcd55d056673b3c3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7dea2c4e8843c0896c977ffe68c17d9fedf0851e9cd63e5cf98c1b07fdb7e88a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "3ae415f84d0aeaaa5a85610970ef6a2ff58cd7ef4815eb56daee9c3bee15f6dd"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f50bf831038c3b95524e75f75254fc4b2765dd27478c6ae10aa4b4df75054340"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7f787e34e757e2fa5621a04938b3899a89549d6e06761d06842d700d0be58651"
+        },
+        {
+          "type": "IDAT",
+          "length": 1886,
+          "sha256": "40fae748fdb6299045c21e5f18315b5ed57c1e665d3c5cd19e6f93eb67be2a45"
+        },
+        {
+          "type": "IEND",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    "04_threads_3": {
+      "png_metadata": {
+        "srgb": 3,
+        "gamma": 0.45455,
+        "chromaticity": [
+          0.3127,
+          0.329,
+          0.64,
+          0.33,
+          0.3,
+          0.6,
+          0.15,
+          0.06
+        ],
+        "exif": {
+          "bytes_sha256": "ef20c4551ea0c7d272c9de4d00ade2c06509d5af8331658d5249b996efdaa7bb",
+          "length": 60
+        },
+        "dpi": [
+          71.9836,
+          71.9836
+        ],
+        "Frame": "001",
+        "Camera": "V002 | full coastal skyline camera",
+        "Scene": "Scene",
+        "RenderTime": "02:38.41",
+        "cycles.ViewLayer.samples": "80",
+        "cycles.ViewLayer.total_time": "02:38.33",
+        "cycles.ViewLayer.render_time": "00:26.97",
+        "cycles.ViewLayer.synchronization_time": "02:11.36"
+      },
+      "chunks": [
+        {
+          "type": "IHDR",
+          "length": 13,
+          "sha256": "640176ebf944d7f48d3be7a878320564e06d2427926f07fb42e7537794846bc8"
+        },
+        {
+          "type": "sRGB",
+          "length": 1,
+          "sha256": "084fed08b978af4d7d196a7446a86b58009e636b611db16211b65a9aadff29c5"
+        },
+        {
+          "type": "gAMA",
+          "length": 4,
+          "sha256": "96256bc24f55fcd0b110db9a423c70063b27ea9e62c16789674d212fffa56f27"
+        },
+        {
+          "type": "cHRM",
+          "length": 32,
+          "sha256": "b287d3e5cf693bc123ec26ad76af3029f572d4b39b4e32979a81f10786a7d047"
+        },
+        {
+          "type": "eXIf",
+          "length": 54,
+          "sha256": "bac3a1a58a16fd3148097ebe3f45648d02a89abcae7be4c8d625e0a926782b62"
+        },
+        {
+          "type": "oFFs",
+          "length": 9,
+          "sha256": "3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d"
+        },
+        {
+          "type": "pHYs",
+          "length": 9,
+          "sha256": "e12fceb19829f8cacf3548e2048a0b467cdb41965b24105f0210295931a4cfc5"
+        },
+        {
+          "type": "tEXt",
+          "length": 9,
+          "sha256": "727616f5871ee87a4dd73e07ad61afb43256c8f61bb482c2ce3aa4f8a9f9458b"
+        },
+        {
+          "type": "tEXt",
+          "length": 41,
+          "sha256": "d77397db0f7288e69117248c732bc52a98316c402617b57f0ae71f7829822dbf"
+        },
+        {
+          "type": "tEXt",
+          "length": 11,
+          "sha256": "f0336835c98f96f08893cc14df7c1154b568e164fa95acb0465449d20615bd05"
+        },
+        {
+          "type": "tEXt",
+          "length": 19,
+          "sha256": "1eb6654d6d5515952ab353ccfa28ead56c20693114a7fbdd9b6b703c35489625"
+        },
+        {
+          "type": "tEXt",
+          "length": 27,
+          "sha256": "1cddec64604924762508db3d38eb09c56c308b253adaaefd3f8501f0f8573f79"
+        },
+        {
+          "type": "tEXt",
+          "length": 36,
+          "sha256": "c7c0a9983dbc98961d9da7aeac62bdca41ca995c645bc9747d06889c48d151df"
+        },
+        {
+          "type": "tEXt",
+          "length": 37,
+          "sha256": "8622d9d63b60944c9e262cb04415534d5c70b0eac6e14d94040cc42ecaf7508d"
+        },
+        {
+          "type": "tEXt",
+          "length": 46,
+          "sha256": "f4d5eb75577658ee3d75f567b31584762e8095aab609830b649cb418a90fb309"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "76b545a2ced05a6623412756626c49dbef56047d206147f02774208cf3b3114f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0c0a912ffae82c33a946544612a3f912064c95f834e1b885aa4db6445bf618c0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c2998c1dd0953261581d1c9c984c0a58b1c57d4a67c83b7b8b1f545db31527ce"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "771ca34da4eb627de2114a9b9428b8bd92db1a3e404c699ce7f6e4be18d6e9a6"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fceeb3b0df632bde2cab23021a45c040f8062199281e5b3b85ec51a1bb9da27f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7c0a6ddccd86b84a7d689f3c2a4945828ef6f212a4568f89c3379bf036e89dd5"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "abb452ebb53bc221e29d42d3491b66c960dced27edb0467da05401516aeaea39"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "df38a1557399930175a9c380beff700ee00510d8153833855ce3a98f99169d31"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "57e4532d2b21d0c71a92be423b1aac0d94b8763728e33ee3a7875c765cf8939a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6a822518012254c6ca8d8dcbe066eb606baf4479066726da948bf48aedcb18d7"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fd7af39299bc8a98bbde13fbfca7f2aacab4358c66cc7dd5515d4bd2d5ca0fe0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "58986ec16f076937fa05ab737a5bb41bc7dbed90fec5768455fab1db460a8517"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "21e183a4f676ece7fc25593898a99bec3386503abe4aba7dad1641ca6cf5e82a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c6cc61b5c1c8a5cc50cf92da349c304b15f445bdfcd27bdb00e64f16435f1efc"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "eea659f7590eeac8c9fb6e8d952350295b853906fc86a59dd774cd6c01f7768e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d8a61326d6709ed499e4b909376e33c4c4abac081da9796b8151e083c73adcd3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "1fcffd9a35840022349c87b614035ebaf8d947b81661d3403dff9668b5fc6b9c"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "ad9e20c0c04ecbcf568faf6cb1ed832486c1d392fe3d6991c4e74be314223df5"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0130ad105a017751a0c9ef34f93f05e68468eec25ebf9140cef73c0b4b29ddcc"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "520f6d179db7b29a89fbb42930f158693d88ae9b239c78b8a3881502679c3b1a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "0a78e7e4b144db7f44240d11769a62de7e43750a3d5cf70caf6367ecca106df9"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "428d14c631349c4c74f614e9eb6e386dad943623ef55aa9340ee5eca52a2c7ca"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6eca8cc496ddcaa8745ae36f30912d4d45c167fc0ffaf5ec660f4fa17d75f4e8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "850caad5108d5f50825171b93a0b46954691c3dc309d18378456d87451d43283"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d747801bcfe030a1fb3aa7169966fb30cd57d13fd9244bf52adeb0c405789fa8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7f452e03bd3a1fad06006ec187b870cdb2e1d5e874f7d625489933f4a563fc5e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d9c6c623dd3ecfe485eb07d59840cd59664601278dfc7ff59b26643538a45a21"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f2486deffcc4081f48e1690a2bed8786f335b62b166b502418a05d98ac830869"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "320dc749dfa75624eadbdcfb9d656ea68d7a4487b67306eb3a1875115403692e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "627074bd54b4ba5188d387eeeb5e7fd741091f50d0cbbd598f3348e9ef9feba8"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "4885a08a229b2e363e242a14735d897d668c02aa47714b0f3c0ef0e1be9e62c0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "a53602cd222351757f27c2c89ef29e2752929da6716ae7cd303f4ef2cbf26c57"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "d89e3c5d18ad2e72b449ebabe274e87bb9730e5bb5076d5bded694e5d6b62e4d"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "04f3a52d6e4857cfa754f3e6631291397e8e947f6cceb24c243792256f70dd3f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "13680c0ded81ac228ada3d75decb3a3fca3015d037232f2f40868d60aef3ae20"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "6c8a2363675ab28eb7e9dda6dbea271fbc30530de71460781d4cf1c36dd315c3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "302de7e97c1242d48f92cba7c64b451c763843ea3ef4949054cc9402013eb95a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "1a97e6d0e767b2b8f00f7200fa7d88eaf811cc1c910d15c993302a87ad879d76"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "dfd8b4b49c816f916f1f66010b6659c725d85d9fc38fc2aa35ec5e12ef75310e"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "ea3ccbdd2243b0a699457941836814402a7ce438a52b2e6aa42e6b0244f61ebe"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "c8fdc8fe99d081c6b8e11618e89a3186965ef5fb58abafd3b6679406f9700e69"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f3e249d4f8c0d840b83db78cd1e2d0a44b36888c65b8cdee39b0a857bfd83ec0"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "da1fc3d7c253e4060e7837a92a41c530112c2bbcac67c053ca2de22f6a426551"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "47e45a2573de8964da44a50584b767c2ad35314c8c885b0f95f176caf7accaab"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "33423778775416e0170a2160bbb23dbc4ea06d6fac75bdd9a5394dc51c40e397"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7bbcb83e64e7f4dbbb4d27a719867cb7707268428ef203d0949e42d2707cee35"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "bcc6959b2cedbbf58ac3331d08d3c462f2c06b1ac2e2d22086f910863ba1da03"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "86d5fb1bb7a7da575148f0737c11dd156c180d3a6cd6101222901bc7b1fc3b5d"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "41866da7f7b7bfd9f4923113a881c1d0b1487de14c65af46a5bdec17617da79f"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "9d109d9c27e0cf303a774a40c56bfdf89c0553c04160f155f103c155bb61fdbb"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "fabce06f3d7eac4548ef6b91d698b2f72b7ee55e1c8deaa3dd016a15d8fdc1d7"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "26d87e2290db25b984f065e55f70a733c219f6c48d2ede9cdcd55d056673b3c3"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7dea2c4e8843c0896c977ffe68c17d9fedf0851e9cd63e5cf98c1b07fdb7e88a"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "3ae415f84d0aeaaa5a85610970ef6a2ff58cd7ef4815eb56daee9c3bee15f6dd"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "f50bf831038c3b95524e75f75254fc4b2765dd27478c6ae10aa4b4df75054340"
+        },
+        {
+          "type": "IDAT",
+          "length": 8192,
+          "sha256": "7f787e34e757e2fa5621a04938b3899a89549d6e06761d06842d700d0be58651"
+        },
+        {
+          "type": "IDAT",
+          "length": 1886,
+          "sha256": "40fae748fdb6299045c21e5f18315b5ed57c1e665d3c5cd19e6f93eb67be2a45"
+        },
+        {
+          "type": "IEND",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  },
+  "visual_qa": "Inspected case02: coherent full hero framing; no new visible artifact. All decoded RGB pixels identical across all four, so same visual result.",
+  "source_saved": false
+}

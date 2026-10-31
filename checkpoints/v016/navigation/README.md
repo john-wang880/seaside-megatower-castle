@@ -62,3 +62,6 @@ blender -b --disable-autoexec --python checkpoints/v016/navigation/test_navigati
 测试目录应使用新的空目录；测试会在其中生成查看副本，源文件不保存。当前23项Blender检查、5项Python测试的[本地结果](reports/local_blender_tests.json)与[来源v015的求值UI缓存对照](reports/deep_evaluation_control.json)保留。
 
 图像渲染期间相机名称/观察中心标注有过整理，早期旁注保留当时的元数据而没有改写；[相机配方核对](renders/camera_reconciliation.json)逐张确认与最终预设一致。图像本身没有编辑。[渲染检查](renders/render_qa.json)说明暗处与采样限制。
+
+## 可选云端线程数
+实际静帧渲染脚本 `render_manifest_still.py` 新增 `--threads 8`，省略时仍为4线程，不改原工程的3线程设置。仅在有足够空闲CPU时显式使用。此云端80采样全景测试平均158.10秒降到66.15秒，四张解码像素完全相同；导航脚本本身仍24采样，不能套用该倍率。[完整对照与计算量代价](../performance/thread_abba/README.md)。
