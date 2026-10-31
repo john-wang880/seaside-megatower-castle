@@ -12,4 +12,4 @@
 
 克隆完整仓库（含model_chunks），运行 `python checkpoints/v017/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块/整文件SHA-256验证，精确恢复原字节。
 
-本版先添加备份，独立远端恢复验证通过后才撤旧当前载荷；旧版Git历史保留，不强推、不永久删除历史。导航当前冠部/全景为v017，另外六张明确是v016原区域参考，不把旧图冒充新渲染。
+本版已从提交`6fd51224b13aca639e64b236fe8f1ae8da9068d4`独立远端恢复并通过检查，见[恢复验证](checkpoints/v017/reports/remote_validation.json)。当前只保留最新模型载荷；旧版Git历史保留，不强推、不永久删除历史。导航当前冠部/全景为v017，另外六张明确是v016原区域参考，不把旧图冒充新渲染。
