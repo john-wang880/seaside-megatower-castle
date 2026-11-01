@@ -1,0 +1,24 @@
+{
+  "catalog_unchanged": true,
+  "note": "Exact historical recipe bytes archived for Git-only provenance; original work paths in pinned catalog are provenance references, never runtime imports. Nine other camera receipts already reside in checkpoints/v018/navigation/renders.",
+  "detail_recipe_copies": [
+    {
+      "view": "bridge_close",
+      "historical_recipe_path": "work/v021_pier_surface/visual/views.json",
+      "public_copy": "scripts/current_inspection/provenance/bridge_close_views.json",
+      "sha256": "6d8dbb2b78baf23c041e51604bdbb788298ef68805bb411e5cbb8c678c0bc115"
+    },
+    {
+      "view": "west_lower_tier",
+      "historical_recipe_path": "work/v022_rib_study/visual/views.json",
+      "public_copy": "scripts/current_inspection/provenance/west_lower_tier_views.json",
+      "sha256": "254eb8a9958204f1dde6ff5e7efefaae26212a076bd674de6c156c7338f24a59"
+    },
+    {
+      "view": "path_context",
+      "historical_recipe_path": "work/v023_path_conformance/visual/views.json",
+      "public_copy": "scripts/current_inspection/provenance/path_context_views.json",
+      "sha256": "ed6365ccf22cc70258b28ab8899a426403934baa7212102845cff50460edd81e"
+    }
+  ]
+}

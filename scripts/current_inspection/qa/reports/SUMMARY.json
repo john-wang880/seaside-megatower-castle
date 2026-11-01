@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "viewer_validation_sha256": "0cdc7fbf90acf4a5b7564cebd5d20502a555df1ca144c51bcd19c2b5dbc2b936",
+  "input_sha256": {
+    "source": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+    "viewer": "6f0973123b5d27a9685b67c5c43b6cc8f50c5e24e7cdcec8c6698014d274193d",
+    "receipt": "e483ef5facb93ef4ec153b57f3e1ab7265f9a47bd360d8ccc92c37153ca1699e"
+  },
+  "runtime_sha256": {
+    "export_inspection.py": "138f005164c84e164e47097e84faa33819f178d68b488445b9580c3204efe22b",
+    "preflight.py": "00925910a03c9f7c62d972a2897cc283df5f12c2e00192568a109731b81b8894",
+    "catalog.json": "50db598769115c47314e633671d631ccde7f06b44a56731ce8292075836bff9f",
+    "ui_template.py": "28d751955b393612162b5b54d0b23373a119e788c63a4c2d0b203d9b580a8084"
+  },
+  "source_categories_checked": 13,
+  "actual_API_negative_count": 20,
+  "independent_pure_tests": 24,
+  "test_script_sha256": "ef89b53fe3e49abff67df2b7701edf9574d6a159d5a19c548790110d5d97a33d",
+  "test_log_sha256": "dc8341d62fa2d2d1bc2e38d02ca18b4ea8e21a1fe3ccc832863bd7e0cb8d89c1",
+  "validator_sha256": "4652692a0e5661762d84187cd73030dc7b0efe0b460cf527d23093bb4eb024f1",
+  "snapshot_helper_sha256": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+  "actual_reopen_register_roundtrip": true,
+  "scope": "Linux actual file/API QA; filesystem mocks only for unsupported platform behavior, no nativeWindows/desktopclick/render claim. Sourcec4 immutable; derived copy only.",
+  "earlier_registration_failure_evidence": "validation.log retained; final RNA class name fixed and fresh export retested."
+}

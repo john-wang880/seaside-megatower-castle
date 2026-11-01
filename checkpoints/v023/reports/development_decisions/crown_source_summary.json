@@ -1,0 +1,300 @@
+{
+  "status": "read-only artistic feasibility; brief review required, no defect claim or prototype",
+  "source_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "source_unchanged": true,
+  "existing_belfry_ring_components": [
+    {
+      "seed": 176,
+      "bounds": [
+        [
+          25.10999870300293,
+          33.599998474121094,
+          182.9499969482422
+        ],
+        [
+          29.989999771118164,
+          34.04999923706055,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 388,
+      "bounds": [
+        [
+          32.560001373291016,
+          33.599998474121094,
+          182.9499969482422
+        ],
+        [
+          37.439998626708984,
+          34.04999923706055,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 600,
+      "bounds": [
+        [
+          40.01000213623047,
+          33.599998474121094,
+          182.9499969482422
+        ],
+        [
+          44.88999938964844,
+          34.04999923706055,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 828,
+      "bounds": [
+        [
+          40.01000213623047,
+          58.95000076293945,
+          182.9499969482422
+        ],
+        [
+          44.88999938964844,
+          59.400001525878906,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 1040,
+      "bounds": [
+        [
+          32.560001373291016,
+          58.95000076293945,
+          182.9499969482422
+        ],
+        [
+          37.439998626708984,
+          59.400001525878906,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 1252,
+      "bounds": [
+        [
+          25.10999870300293,
+          58.95000076293945,
+          182.9499969482422
+        ],
+        [
+          29.989999771118164,
+          59.400001525878906,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 1480,
+      "bounds": [
+        [
+          47.54999923706055,
+          36.73500061035156,
+          182.9499969482422
+        ],
+        [
+          48.0,
+          41.51499938964844,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 1692,
+      "bounds": [
+        [
+          47.54999923706055,
+          44.11000061035156,
+          182.9499969482422
+        ],
+        [
+          48.0,
+          48.88999938964844,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 1904,
+      "bounds": [
+        [
+          47.54999923706055,
+          51.48500061035156,
+          182.9499969482422
+        ],
+        [
+          48.0,
+          56.26499938964844,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 2132,
+      "bounds": [
+        [
+          22.0,
+          51.48500061035156,
+          182.9499969482422
+        ],
+        [
+          22.450000762939453,
+          56.26499938964844,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 2344,
+      "bounds": [
+        [
+          22.0,
+          44.11000061035156,
+          182.9499969482422
+        ],
+        [
+          22.450000762939453,
+          48.88999938964844,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    },
+    {
+      "seed": 2556,
+      "bounds": [
+        [
+          22.0,
+          36.73500061035156,
+          182.9499969482422
+        ],
+        [
+          22.450000762939453,
+          41.51499938964844,
+          190.8419952392578
+        ]
+      ],
+      "material_indices": [
+        3
+      ],
+      "vertices": 76,
+      "faces": 40
+    }
+  ],
+  "main_masonry_material_slots": [
+    {
+      "index": 0,
+      "link": "DATA",
+      "name": "V002 | subdued crown cornice stone"
+    },
+    {
+      "index": 1,
+      "link": "DATA",
+      "name": "Citadel \u2022 deep slate ashlar"
+    },
+    {
+      "index": 2,
+      "link": "DATA",
+      "name": "Citadel \u2022 aged gallery grey"
+    },
+    {
+      "index": 3,
+      "link": "DATA",
+      "name": "Citadel \u2022 pale cornice stone"
+    }
+  ],
+  "existing_openings": {
+    "south_north_centers": [
+      27.55,
+      35,
+      42.45
+    ],
+    "width": 4.2,
+    "bottom": 182.95,
+    "shoulder": 186.8,
+    "apex": 190.4,
+    "south_plane_y": 33.8,
+    "north_plane_y": 59.2,
+    "east_west_width": 4.1,
+    "east_plane_x": 47.8,
+    "west_plane_x": 22.2,
+    "wall_depth": 1.15,
+    "count": 12
+  },
+  "opportunity": "A coherent whole-belfry secondary inner-tracery family could echo the existing recessed paired-lancet grammar below. Leave all outer arches, roof, terraces, pinnacles and shaft windows untouched. No automatic commitment to ornament.",
+  "budget_proposal": {
+    "additional_triangles_ceiling": 4000,
+    "principle": "dozens of closed architectural members, not needle-scale detail; primary arch negative spaces remain dominant",
+    "not_measured_new_asset": true
+  },
+  "historical_region_identity_all13": true,
+  "evidence_files": [
+    "survey.json",
+    "historical_region_identity.json",
+    "camera_preflight.json",
+    "BRIEF.md"
+  ]
+}

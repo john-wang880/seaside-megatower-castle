@@ -1,0 +1,24 @@
+{
+  "target": "scripts/current_inspection",
+  "files_sha256": {
+    "export_inspection.py": "138f005164c84e164e47097e84faa33819f178d68b488445b9580c3204efe22b",
+    "preflight.py": "00925910a03c9f7c62d972a2897cc283df5f12c2e00192568a109731b81b8894",
+    "ui_template.py": "28d751955b393612162b5b54d0b23373a119e788c63a4c2d0b203d9b580a8084",
+    "catalog.json": "50db598769115c47314e633671d631ccde7f06b44a56731ce8292075836bff9f",
+    "test_preflight.py": "13629b0c6a9c665fc2bdd91dcd8f472f608594451a0fbf6c3ed22b854003f281",
+    "README.md": "2dc737e59d1c058f908caa6cf3e6f77a6ec6535ed782d016bc31e442a4f2e70c",
+    "DESIGN.md": "9a6efcc1f3998872d26a212bbe388b7be5327b3239772ad881e9e77934895b91",
+    "VALIDATION.json": "df9537ed8165ea2e740fd3d81c830172d06bf8bed4c129649008c60cff41f272",
+    "reports/PROVENANCE.md": "6d99c268d467defa88207881bb72d345d766a137b07372ae40e0eeadc3593169",
+    "reports/implementation_tests.log": "cac4fe11fdbbe9f0a1faccd5f8680497dc454ad28b2e165585b6729c5a3d6337",
+    "reports/linux_export_validated.json": "e483ef5facb93ef4ec153b57f3e1ab7265f9a47bd360d8ccc92c37153ca1699e",
+    "reports/preliminary_pre_publication_fix_export.json": "0aa2fa71684542f81f1026b242da8e4ea80847c19ff524fb45877ede1e4b17c6",
+    "reports/superseded_repeat_ui_failure_export.json": "10476d1e7cb63133f0032d26a863a738148bb69874dd96d726f7e7d83da98bc1",
+    "provenance/bridge_close_views.json": "6d8dbb2b78baf23c041e51604bdbb788298ef68805bb411e5cbb8c678c0bc115",
+    "provenance/mapping.json": "217aeacf00ce9dd5391c0cee6ceb8d970d97a6d4be57f237eca78e53365e46f5",
+    "provenance/path_context_views.json": "ed6365ccf22cc70258b28ab8899a426403934baa7212102845cff50460edd81e",
+    "provenance/west_lower_tier_views.json": "254eb8a9958204f1dde6ff5e7efefaae26212a076bd674de6c156c7338f24a59"
+  },
+  "runtime_frozen": true,
+  "excluded": "All .blend copies, caches, scratch logs and build helpers. Independent QA packaged separately by owner."
+}

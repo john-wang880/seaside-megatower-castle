@@ -1,0 +1,1606 @@
+{
+  "method": "Exact XY segment clipping to each actual terrain triangle, affine heightdifference minima at clipped endpoints. Six fullcross-strip boundaryedges perrow; coverage check novertex-onlyapproximation.",
+  "rows": [
+    {
+      "row": 83,
+      "full_cross_boundary_covered": true,
+      "min_clearance": 0.020399175490435795,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02149099234841856,
+          "pieces": [
+            {
+              "terrain_face": 14126,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021855408086423722,
+                0.02149099234841856
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.020399175490435795,
+          "pieces": [
+            {
+              "terrain_face": 13615,
+              "t": [
+                0.9585614023149329,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.020399175490439347,
+                0.02071627000603371
+              ]
+            },
+            {
+              "terrain_face": 14126,
+              "t": [
+                0.0,
+                0.9585614023149329
+              ],
+              "clearance_endpoints": [
+                0.02149099234841856,
+                0.020399175490435795
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02071627000603371,
+          "pieces": [
+            {
+              "terrain_face": 13615,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02071627000603371,
+                0.021496137021411954
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021496137021411954,
+          "pieces": [
+            {
+              "terrain_face": 13615,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021496137021411954,
+                0.02192244271985544
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021610770455847472,
+          "pieces": [
+            {
+              "terrain_face": 13615,
+              "t": [
+                0.0,
+                0.7745950135524909
+              ],
+              "clearance_endpoints": [
+                0.02192244271985544,
+                0.021610770455847472
+              ]
+            },
+            {
+              "terrain_face": 13617,
+              "t": [
+                0.7745950135524909,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021610770455847472,
+                0.021788477991499633
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021106297135890628,
+          "pieces": [
+            {
+              "terrain_face": 13616,
+              "t": [
+                0.920853565535787,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.027602311508989175,
+                0.021106297135890628
+              ]
+            },
+            {
+              "terrain_face": 13617,
+              "t": [
+                0.0,
+                0.920853565535787
+              ],
+              "clearance_endpoints": [
+                0.021788477991499633,
+                0.027602311508992727
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row": 84,
+      "full_cross_boundary_covered": true,
+      "min_clearance": 0.019873160742534424,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021207384558586284,
+          "pieces": [
+            {
+              "terrain_face": 14129,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021592047224196165,
+                0.021207384558586284
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.019873160742534424,
+          "pieces": [
+            {
+              "terrain_face": 13617,
+              "t": [
+                0.7443947913218003,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.019873160742534424,
+                0.02121303439847466
+              ]
+            },
+            {
+              "terrain_face": 14128,
+              "t": [
+                0.2112048758204097,
+                0.7443947913218003
+              ],
+              "clearance_endpoints": [
+                0.021515901151637706,
+                0.019873160742534424
+              ]
+            },
+            {
+              "terrain_face": 14129,
+              "t": [
+                0.0,
+                0.2112048758204097
+              ],
+              "clearance_endpoints": [
+                0.021207384558586284,
+                0.021515901151637706
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021086976729385754,
+          "pieces": [
+            {
+              "terrain_face": 13616,
+              "t": [
+                0.04357699949125808,
+                0.9038964558242604
+              ],
+              "clearance_endpoints": [
+                0.024922756172305327,
+                0.021086976729389306
+              ]
+            },
+            {
+              "terrain_face": 13617,
+              "t": [
+                0.0,
+                0.04357699949125808
+              ],
+              "clearance_endpoints": [
+                0.02121303439847466,
+                0.024922756172301774
+              ]
+            },
+            {
+              "terrain_face": 13618,
+              "t": [
+                0.9038964558242604,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021086976729385754,
+                0.021873880035901294
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021838892158314138,
+          "pieces": [
+            {
+              "terrain_face": 13618,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021873880035901294,
+                0.021838892158314138
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021452761717867475,
+          "pieces": [
+            {
+              "terrain_face": 13618,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021838892158314138,
+                0.021452761717867475
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.019888294774577986,
+          "pieces": [
+            {
+              "terrain_face": 13107,
+              "t": [
+                0.990284733467933,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.019888294774577986,
+                0.020673936854926467
+              ]
+            },
+            {
+              "terrain_face": 13618,
+              "t": [
+                0.0,
+                0.990284733467933
+              ],
+              "clearance_endpoints": [
+                0.021452761717867475,
+                0.01988829477458154
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row": 85,
+      "full_cross_boundary_covered": true,
+      "min_clearance": -0.009787767515000212,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02152804554328469,
+          "pieces": [
+            {
+              "terrain_face": 14130,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021987480103248913,
+                0.02152804554328469
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021381796221835003,
+          "pieces": [
+            {
+              "terrain_face": 13619,
+              "t": [
+                0.6359099224398457,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.039039970097327625,
+                0.021381796221835003
+              ]
+            },
+            {
+              "terrain_face": 14130,
+              "t": [
+                0.0,
+                0.6359099224398457
+              ],
+              "clearance_endpoints": [
+                0.02152804554328469,
+                0.039039970097327625
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021363517397016807,
+          "pieces": [
+            {
+              "terrain_face": 13619,
+              "t": [
+                0.0,
+                0.03672939068996121
+              ],
+              "clearance_endpoints": [
+                0.021381796221835003,
+                0.021363517397016807
+              ]
+            },
+            {
+              "terrain_face": 13621,
+              "t": [
+                0.03672939068996121,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021363517397016807,
+                0.02196617395287248
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021903662176772087,
+          "pieces": [
+            {
+              "terrain_face": 13621,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02196617395287248,
+                0.021903662176772087
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021271294255331696,
+          "pieces": [
+            {
+              "terrain_face": 13620,
+              "t": [
+                0.6249704639224722,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.030694217761219278,
+                0.021271294255331696
+              ]
+            },
+            {
+              "terrain_face": 13621,
+              "t": [
+                0.0,
+                0.6249704639224722
+              ],
+              "clearance_endpoints": [
+                0.021903662176772087,
+                0.03069421776122283
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": -0.009787767515000212,
+          "pieces": [
+            {
+              "terrain_face": 13109,
+              "t": [
+                0.4891976017655097,
+                1.0
+              ],
+              "clearance_endpoints": [
+                -0.00978776751499666,
+                0.021016331778863417
+              ]
+            },
+            {
+              "terrain_face": 13620,
+              "t": [
+                0.0,
+                0.4891976017655097
+              ],
+              "clearance_endpoints": [
+                0.021271294255331696,
+                -0.009787767515000212
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row": 86,
+      "full_cross_boundary_covered": true,
+      "min_clearance": 0.017024919771063907,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021347682447313332,
+          "pieces": [
+            {
+              "terrain_face": 14133,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02179879473080959,
+                0.021347682447313332
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021347682447313332,
+          "pieces": [
+            {
+              "terrain_face": 13620,
+              "t": [
+                0.5075243402009155,
+                0.7870973161945168
+              ],
+              "clearance_endpoints": [
+                0.04594770011398808,
+                0.028759047719784547
+              ]
+            },
+            {
+              "terrain_face": 13621,
+              "t": [
+                0.4044532633926404,
+                0.5075243402009155
+              ],
+              "clearance_endpoints": [
+                0.047272054017611254,
+                0.04594770011399163
+              ]
+            },
+            {
+              "terrain_face": 13622,
+              "t": [
+                0.7870973161945168,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.0287590477197881,
+                0.021719099756932536
+              ]
+            },
+            {
+              "terrain_face": 14132,
+              "t": [
+                0.20446830419317893,
+                0.4044532633926404
+              ],
+              "clearance_endpoints": [
+                0.0326413557800862,
+                0.047272054017611254
+              ]
+            },
+            {
+              "terrain_face": 14133,
+              "t": [
+                0.0,
+                0.20446830419317893
+              ],
+              "clearance_endpoints": [
+                0.021347682447313332,
+                0.032641355780089754
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021719099756932536,
+          "pieces": [
+            {
+              "terrain_face": 13622,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021719099756932536,
+                0.022022555872254657
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021670516511239413,
+          "pieces": [
+            {
+              "terrain_face": 13622,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.022022555872254657,
+                0.021670516511239413
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.017024919771063907,
+          "pieces": [
+            {
+              "terrain_face": 13111,
+              "t": [
+                0.9725596952646614,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.017024919771063907,
+                0.02062601451656576
+              ]
+            },
+            {
+              "terrain_face": 13622,
+              "t": [
+                0.0,
+                0.9725596952646614
+              ],
+              "clearance_endpoints": [
+                0.021670516511239413,
+                0.017024919771063907
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02062601451656576,
+          "pieces": [
+            {
+              "terrain_face": 13111,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02062601451656576,
+                0.02181132455043766
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row": 87,
+      "full_cross_boundary_covered": true,
+      "min_clearance": 0.01689940069726603,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.020862903463235938,
+          "pieces": [
+            {
+              "terrain_face": 14134,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021976882796177932,
+                0.020862903463235938
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.020862903463235938,
+          "pieces": [
+            {
+              "terrain_face": 13623,
+              "t": [
+                0.0015267366307431492,
+                0.9128424182134117
+              ],
+              "clearance_endpoints": [
+                0.020922871975482593,
+                0.0216887404032029
+              ]
+            },
+            {
+              "terrain_face": 13625,
+              "t": [
+                0.9128424182134117,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.0216887404032029,
+                0.022022162607406415
+              ]
+            },
+            {
+              "terrain_face": 14134,
+              "t": [
+                0.0,
+                0.0015267366307431492
+              ],
+              "clearance_endpoints": [
+                0.020862903463235938,
+                0.020922871975482593
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.022022162607406415,
+          "pieces": [
+            {
+              "terrain_face": 13625,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.022022162607406415,
+                0.022225456206179217
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02041814138148723,
+          "pieces": [
+            {
+              "terrain_face": 13624,
+              "t": [
+                0.9097049444689372,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02041814138148723,
+                0.02164396143745506
+              ]
+            },
+            {
+              "terrain_face": 13625,
+              "t": [
+                0.0,
+                0.9097049444689372
+              ],
+              "clearance_endpoints": [
+                0.022225456206179217,
+                0.02041814138148723
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.01689940069726603,
+          "pieces": [
+            {
+              "terrain_face": 13113,
+              "t": [
+                0.6051364026390528,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.01689940069726603,
+                0.021142129504539753
+              ]
+            },
+            {
+              "terrain_face": 13624,
+              "t": [
+                0.0,
+                0.6051364026390528
+              ],
+              "clearance_endpoints": [
+                0.02164396143745506,
+                0.01689940069726603
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021142129504539753,
+          "pieces": [
+            {
+              "terrain_face": 13113,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021142129504539753,
+                0.02167336614567006
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row": 88,
+      "full_cross_boundary_covered": true,
+      "min_clearance": 0.015361372030898934,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021184035334560036,
+          "pieces": [
+            {
+              "terrain_face": 13625,
+              "t": [
+                0.6438203796207961,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02906063008199311,
+                0.021319480285285408
+              ]
+            },
+            {
+              "terrain_face": 14136,
+              "t": [
+                0.0,
+                0.6438203796207961
+              ],
+              "clearance_endpoints": [
+                0.021184035334560036,
+                0.02906063008199311
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.0194498232864575,
+          "pieces": [
+            {
+              "terrain_face": 13624,
+              "t": [
+                0.18782637378215197,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.019449823286464607,
+                0.02218983395569296
+              ]
+            },
+            {
+              "terrain_face": 13625,
+              "t": [
+                0.0,
+                0.18782637378215197
+              ],
+              "clearance_endpoints": [
+                0.021319480285285408,
+                0.0194498232864575
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.015361372030898934,
+          "pieces": [
+            {
+              "terrain_face": 13624,
+              "t": [
+                0.0,
+                0.39574203561003096
+              ],
+              "clearance_endpoints": [
+                0.02218983395569296,
+                0.015361372030898934
+              ]
+            },
+            {
+              "terrain_face": 13626,
+              "t": [
+                0.39574203561003096,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.01536137203090604,
+                0.022216713122645615
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02129992357727062,
+          "pieces": [
+            {
+              "terrain_face": 13626,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.022216713122645615,
+                0.02129992357727062
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.017445678507293394,
+          "pieces": [
+            {
+              "terrain_face": 13115,
+              "t": [
+                0.46188342853420966,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.017445678507293394,
+                0.021303609372889554
+              ]
+            },
+            {
+              "terrain_face": 13626,
+              "t": [
+                0.0,
+                0.46188342853420966
+              ],
+              "clearance_endpoints": [
+                0.02129992357727062,
+                0.017445678507293394
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021303609372889554,
+          "pieces": [
+            {
+              "terrain_face": 13115,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021303609372889554,
+                0.02198141256392816
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row": 89,
+      "full_cross_boundary_covered": true,
+      "min_clearance": 0.0065778973043677524,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.0065778973043677524,
+          "pieces": [
+            {
+              "terrain_face": 13627,
+              "t": [
+                0.307107607623601,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.0065778973043677524,
+                0.021530304612561224
+              ]
+            },
+            {
+              "terrain_face": 14138,
+              "t": [
+                0.0,
+                0.307107607623601
+              ],
+              "clearance_endpoints": [
+                0.02111022587171263,
+                0.0065778973043677524
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021530304612561224,
+          "pieces": [
+            {
+              "terrain_face": 13627,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021530304612561224,
+                0.022142189723453498
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.022142189723453498,
+          "pieces": [
+            {
+              "terrain_face": 13627,
+              "t": [
+                0.0,
+                0.9645106456182994
+              ],
+              "clearance_endpoints": [
+                0.022142189723453498,
+                0.022375926927615808
+              ]
+            },
+            {
+              "terrain_face": 13629,
+              "t": [
+                0.9645106456182994,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02237592692761936,
+                0.022162741628466875
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.020968832755283273,
+          "pieces": [
+            {
+              "terrain_face": 13628,
+              "t": [
+                0.9211909209639316,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.020968832755286826,
+                0.02134487830431908
+              ]
+            },
+            {
+              "terrain_face": 13629,
+              "t": [
+                0.0,
+                0.9211909209639316
+              ],
+              "clearance_endpoints": [
+                0.022162741628466875,
+                0.020968832755283273
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02134487830431908,
+          "pieces": [
+            {
+              "terrain_face": 13117,
+              "t": [
+                0.3246521110636719,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.035285405185241814,
+                0.021497765574007843
+              ]
+            },
+            {
+              "terrain_face": 13628,
+              "t": [
+                0.0,
+                0.3246521110636719
+              ],
+              "clearance_endpoints": [
+                0.02134487830431908,
+                0.035285405185245367
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021497765574007843,
+          "pieces": [
+            {
+              "terrain_face": 13116,
+              "t": [
+                0.4149092804856113,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.022267239781673,
+                0.022016312838662344
+              ]
+            },
+            {
+              "terrain_face": 13117,
+              "t": [
+                0.0,
+                0.4149092804856113
+              ],
+              "clearance_endpoints": [
+                0.021497765574007843,
+                0.022267239781669446
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row": 90,
+      "full_cross_boundary_covered": true,
+      "min_clearance": 0.01979008868921639,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02070871325620871,
+          "pieces": [
+            {
+              "terrain_face": 13629,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02070871325620871,
+                0.021987510347933892
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021734165188082244,
+          "pieces": [
+            {
+              "terrain_face": 13628,
+              "t": [
+                0.04635428401249228,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021734165188085797,
+                0.02238148257037409
+              ]
+            },
+            {
+              "terrain_face": 13629,
+              "t": [
+                0.0,
+                0.04635428401249228
+              ],
+              "clearance_endpoints": [
+                0.021987510347933892,
+                0.021734165188082244
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.022099642700130318,
+          "pieces": [
+            {
+              "terrain_face": 13628,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02238148257037409,
+                0.022099642700130318
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.01979008868921639,
+          "pieces": [
+            {
+              "terrain_face": 13628,
+              "t": [
+                0.0,
+                0.7034981643144022
+              ],
+              "clearance_endpoints": [
+                0.022099642700130318,
+                0.019790088689219942
+              ]
+            },
+            {
+              "terrain_face": 13630,
+              "t": [
+                0.7034981643144022,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.01979008868921639,
+                0.021220771939233884
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021220771939233884,
+          "pieces": [
+            {
+              "terrain_face": 13119,
+              "t": [
+                0.25103279102689136,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.03292226034929868,
+                0.021570527340024626
+              ]
+            },
+            {
+              "terrain_face": 13630,
+              "t": [
+                0.0,
+                0.25103279102689136
+              ],
+              "clearance_endpoints": [
+                0.021220771939233884,
+                0.03292226034929513
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021570527340024626,
+          "pieces": [
+            {
+              "terrain_face": 13119,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021570527340024626,
+                0.02196873300018254
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row": 91,
+      "full_cross_boundary_covered": true,
+      "min_clearance": 0.021063387538486467,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021063387538486467,
+          "pieces": [
+            {
+              "terrain_face": 13631,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021063387538486467,
+                0.02200589328602831
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02200589328602831,
+          "pieces": [
+            {
+              "terrain_face": 13631,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02200589328602831,
+                0.02244126616575315
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.022327031420758203,
+          "pieces": [
+            {
+              "terrain_face": 13631,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02244126616575315,
+                0.022327031420758203
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021734745043922032,
+          "pieces": [
+            {
+              "terrain_face": 13631,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.022327031420758203,
+                0.021734745043922032
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02131920291697753,
+          "pieces": [
+            {
+              "terrain_face": 13121,
+              "t": [
+                0.7235204026009627,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.035522005850140204,
+                0.02131920291697753
+              ]
+            },
+            {
+              "terrain_face": 13631,
+              "t": [
+                0.0,
+                0.4372481500476225
+              ],
+              "clearance_endpoints": [
+                0.021734745043922032,
+                0.033173073715182966
+              ]
+            },
+            {
+              "terrain_face": 13632,
+              "t": [
+                0.625855910455584,
+                0.7235204026009627
+              ],
+              "clearance_endpoints": [
+                0.03409552445560493,
+                0.03552200585013665
+              ]
+            },
+            {
+              "terrain_face": 13633,
+              "t": [
+                0.4372481500476225,
+                0.625855910455584
+              ],
+              "clearance_endpoints": [
+                0.03317307371518652,
+                0.034095524455608484
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.02131920291697753,
+          "pieces": [
+            {
+              "terrain_face": 13120,
+              "t": [
+                0.09675480734536275,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021540114729706517,
+                0.022041593408399507
+              ]
+            },
+            {
+              "terrain_face": 13121,
+              "t": [
+                0.0,
+                0.09675480734536275
+              ],
+              "clearance_endpoints": [
+                0.02131920291697753,
+                0.021540114729706517
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "row": 92,
+      "full_cross_boundary_covered": true,
+      "min_clearance": 0.01172020689693909,
+      "edges": [
+        {
+          "column": 0,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.01172020689693909,
+          "pieces": [
+            {
+              "terrain_face": 13633,
+              "t": [
+                0.16529043838696617,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.011720206896942642,
+                0.021341523950425767
+              ]
+            },
+            {
+              "terrain_face": 14144,
+              "t": [
+                0.0,
+                0.16529043838696617
+              ],
+              "clearance_endpoints": [
+                0.020887206381917878,
+                0.01172020689693909
+              ]
+            }
+          ]
+        },
+        {
+          "column": 1,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021341523950425767,
+          "pieces": [
+            {
+              "terrain_face": 13633,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021341523950425767,
+                0.0218739714864995
+              ]
+            }
+          ]
+        },
+        {
+          "column": 2,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021161687879910573,
+          "pieces": [
+            {
+              "terrain_face": 13632,
+              "t": [
+                0.0771898806137471,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.021161687879910573,
+                0.02221590545789809
+              ]
+            },
+            {
+              "terrain_face": 13633,
+              "t": [
+                0.0,
+                0.0771898806137471
+              ],
+              "clearance_endpoints": [
+                0.0218739714864995,
+                0.021161687879910573
+              ]
+            }
+          ]
+        },
+        {
+          "column": 3,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.022021494823384558,
+          "pieces": [
+            {
+              "terrain_face": 13632,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.02221590545789809,
+                0.022021494823384558
+              ]
+            }
+          ]
+        },
+        {
+          "column": 4,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021363470814169006,
+          "pieces": [
+            {
+              "terrain_face": 13632,
+              "t": [
+                0.0,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.022021494823384558,
+                0.021363470814169006
+              ]
+            }
+          ]
+        },
+        {
+          "column": 5,
+          "coverage_fraction": 1.0,
+          "min_clearance": 0.021363470814169006,
+          "pieces": [
+            {
+              "terrain_face": 13123,
+              "t": [
+                0.328588517169608,
+                1.0
+              ],
+              "clearance_endpoints": [
+                0.03849794305216747,
+                0.02160847115366238
+              ]
+            },
+            {
+              "terrain_face": 13632,
+              "t": [
+                0.0,
+                0.2501285752177101
+              ],
+              "clearance_endpoints": [
+                0.021363470814169006,
+                0.035310752782443444
+              ]
+            },
+            {
+              "terrain_face": 13634,
+              "t": [
+                0.2501285752177101,
+                0.328588517169608
+              ],
+              "clearance_endpoints": [
+                0.03531075278243989,
+                0.03849794305216392
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

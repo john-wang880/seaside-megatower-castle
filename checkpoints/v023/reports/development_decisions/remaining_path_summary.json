@@ -1,0 +1,306 @@
+{
+  "source_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "source_unchanged": true,
+  "evaluated_original_faces": 1392,
+  "masked_v023_faces_excluded": [
+    1140,
+    1260
+  ],
+  "summary": {
+    "plan_area": 488.57185576370637,
+    "buried_area": 49.41261231986466,
+    "minimum_gap": -0.10237121659554305,
+    "maximum_partition_error": 1.6653345369377348e-14,
+    "maximum_overlay_overlap": 1.1259784019912347e-14
+  },
+  "row_band_ranking_by_buried_area": [
+    {
+      "rows": [
+        64,
+        83
+      ],
+      "face_count": 228,
+      "plan_area": 78.96599078429114,
+      "buried_area": 14.531226363382629,
+      "buried_pale_interior_area": 9.672085136773656,
+      "minimum_gap": -0.10237121659554305,
+      "visibility": {
+        "hero": {
+          "unoccluded_centroid_count": 183,
+          "pixel_bounds_of_samples": [
+            [
+              435.9002351760864,
+              445.3731894493103
+            ],
+            [
+              598.0280683636665,
+              604.27509111166
+            ]
+          ]
+        },
+        "stand": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        },
+        "approach": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        }
+      }
+    },
+    {
+      "rows": [
+        4,
+        38
+      ],
+      "face_count": 408,
+      "plan_area": 143.4648513867578,
+      "buried_area": 12.226488240214712,
+      "buried_pale_interior_area": 7.657645154842046,
+      "minimum_gap": -0.06097450080895861,
+      "visibility": {
+        "hero": {
+          "unoccluded_centroid_count": 280,
+          "pixel_bounds_of_samples": [
+            [
+              421.8518614768982,
+              477.05132961273193
+            ],
+            [
+              617.6033548116684,
+              637.6345539093018
+            ]
+          ]
+        },
+        "stand": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        },
+        "approach": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        }
+      }
+    },
+    {
+      "rows": [
+        43,
+        47
+      ],
+      "face_count": 48,
+      "plan_area": 19.741748831085715,
+      "buried_area": 6.580796121364625,
+      "buried_pale_interior_area": 4.618429207981546,
+      "minimum_gap": -0.06980481703368469,
+      "visibility": {
+        "hero": {
+          "unoccluded_centroid_count": 73,
+          "pixel_bounds_of_samples": [
+            [
+              455.29414415359497,
+              466.2184238433838
+            ],
+            [
+              611.0388578772545,
+              613.5606110095978
+            ]
+          ]
+        },
+        "stand": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        },
+        "approach": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        }
+      }
+    },
+    {
+      "rows": [
+        50,
+        60
+      ],
+      "face_count": 120,
+      "plan_area": 46.39773085188426,
+      "buried_area": 4.9613014515218286,
+      "buried_pale_interior_area": 2.5272708794993033,
+      "minimum_gap": -0.04183932126434087,
+      "visibility": {
+        "hero": {
+          "unoccluded_centroid_count": 79,
+          "pixel_bounds_of_samples": [
+            [
+              434.98878479003906,
+              453.59634160995483
+            ],
+            [
+              604.187108874321,
+              609.996646463871
+            ]
+          ]
+        },
+        "stand": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        },
+        "approach": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        }
+      }
+    },
+    {
+      "rows": [
+        109,
+        116
+      ],
+      "face_count": 84,
+      "plan_area": 31.666034873458557,
+      "buried_area": 4.235744614244437,
+      "buried_pale_interior_area": 3.030554914780961,
+      "minimum_gap": -0.03558299093188566,
+      "visibility": {
+        "hero": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        },
+        "stand": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        },
+        "approach": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        }
+      }
+    },
+    {
+      "rows": [
+        106,
+        108
+      ],
+      "face_count": 24,
+      "plan_area": 13.780905994572095,
+      "buried_area": 4.0741706708858905,
+      "buried_pale_interior_area": 2.9846248472646253,
+      "minimum_gap": -0.04227695650718033,
+      "visibility": {
+        "hero": {
+          "unoccluded_centroid_count": 56,
+          "pixel_bounds_of_samples": [
+            [
+              441.2307143211365,
+              448.28460216522217
+            ],
+            [
+              573.8972428441048,
+              576.2063571810722
+            ]
+          ]
+        },
+        "stand": {
+          "unoccluded_centroid_count": 20,
+          "pixel_bounds_of_samples": [
+            [
+              738.0884885787964,
+              787.956690788269
+            ],
+            [
+              427.8089189529419,
+              441.27773743867874
+            ]
+          ]
+        },
+        "approach": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        }
+      }
+    },
+    {
+      "rows": [
+        84,
+        91
+      ],
+      "face_count": 84,
+      "plan_area": 27.652871860213054,
+      "buried_area": 2.5537062607565866,
+      "buried_pale_interior_area": 1.2282045048131365,
+      "minimum_gap": -0.07246436798596534,
+      "visibility": {
+        "hero": {
+          "unoccluded_centroid_count": 47,
+          "pixel_bounds_of_samples": [
+            [
+              437.60422468185425,
+              444.83113288879395
+            ],
+            [
+              591.9313819408417,
+              595.1398817300797
+            ]
+          ]
+        },
+        "stand": {
+          "unoccluded_centroid_count": 47,
+          "pixel_bounds_of_samples": [
+            [
+              836.9928359985352,
+              919.8974132537842
+            ],
+            [
+              732.7231957912445,
+              862.9292952683754
+            ]
+          ]
+        },
+        "approach": {
+          "unoccluded_centroid_count": 0,
+          "pixel_bounds_of_samples": null
+        }
+      }
+    }
+  ],
+  "one_source_view_gate_proposal": {
+    "rows": [
+      84,
+      90
+    ],
+    "source_faces": [
+      1008,
+      1080
+    ],
+    "face_count": 72,
+    "bounds": [
+      [
+        -98.50785827636719,
+        26.503894805908203,
+        24.661577224731445
+      ],
+      [
+        -92.80529022216797,
+        35.17238998413086,
+        26.706253051757812
+      ]
+    ],
+    "plan_area": 24.246150973696786,
+    "buried_area": 2.2175802312401474,
+    "buried_pale_interior_area": 1.1627498190244598,
+    "minimum_gap": -0.07246436798596534,
+    "fixed_cross_boundary_minima": [
+      0.019873160742534424,
+      0.01979008868921639
+    ],
+    "view": "existing accepted v023 stand/practical_after.png, no new camera",
+    "framing_limit": "start seam row84 lies about30\u201349px below the stand frame; visible defects85/87 are within frame, full repair footprint not shown",
+    "status": "feasibility only; owner/art director must judge meaningful actual-image benefit before any candidate"
+  },
+  "limits": [
+    "Area is planimetric coordinate-units squared, not pixel area.",
+    "Visibility is one centroid per nontrivial buried overlay polygon; not a full visibility raster or all-angle guarantee.",
+    "Row bands are adjacency along the authored strip, not a claim all buried polygons within each band touch.",
+    "No renderer, model save, material edit or new camera view generated.",
+    "Preserve v023 patch and Mask; no whole-path rewrite or new connector."
+  ]
+}

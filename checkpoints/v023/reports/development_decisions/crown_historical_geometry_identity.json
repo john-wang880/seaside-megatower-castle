@@ -1,0 +1,143 @@
+{
+  "current_source_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "historical_v017_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "objects": {
+    "V002 | main crown masonry and terraces": true,
+    "V002 | main crown slate and roof seams": true,
+    "V002 | main roof terrace parapet": true,
+    "V004 | varied facade groups stone reveals and restrained frames": true,
+    "V004 | varied facade groups recessed mullions and tracery": true,
+    "V004 | varied facade groups deep muted glazing": true,
+    "V004 | varied facade groups secondary structural divisions": true,
+    "V005 | main tower calibrated stone surface": true,
+    "V006 | main facade with one short jointed rib sample": true,
+    "V017 | main crown south slate courses": true,
+    "V017 | main crown east slate courses": true,
+    "V017 | main crown north slate courses": true,
+    "V017 | main crown west slate courses": true
+  },
+  "current_object_geometry_transform_material_binding_hashes": {
+    "V002 | main crown masonry and terraces": "b02d3c40e1e9d4faf6634128c78f3cf717af22055ec7b6c7adf60b4ea078819c",
+    "V002 | main crown slate and roof seams": "2657b2139f928be1e9065986a96fe44f782894df2c993d2d8cdd70528302cb26",
+    "V002 | main roof terrace parapet": "945c3128a267a170112852eefbb20f79753c8348624fa6bf1e0170e8b3d93a96",
+    "V004 | varied facade groups stone reveals and restrained frames": "4d88f84076f9939030cd3c305b0c4af051345f5c26dfb87066fb7685fd226967",
+    "V004 | varied facade groups recessed mullions and tracery": "5d4af7a19bd47051bf6a45afad04b4484cce60edc1adc63586a72ebf7c807f55",
+    "V004 | varied facade groups deep muted glazing": "f1debe8488221890aebe7bd3a9299d85df6cf038844f907dcbc66961bcde8383",
+    "V004 | varied facade groups secondary structural divisions": "d687ea379e9de829682c410f4eb6c591cb578cbca371c9283015c2e8e5d4d8fe",
+    "V005 | main tower calibrated stone surface": "a48bd23f03f2f3be405a9f14652fe124faa41dc71523723240f350110581999c",
+    "V006 | main facade with one short jointed rib sample": "595a362b8c71d5162d0a64fa6cfeca03afd69f6a15cfeae4cffcc47039e4fc56",
+    "V017 | main crown south slate courses": "24e702b03d53676ad8b97f80bc821c24e247b9bf3626b16d4475196610914633",
+    "V017 | main crown east slate courses": "357f2e1a51944a599bd3547f657d34eed3f288ae7f8f34c943f67bbaae3b85d2",
+    "V017 | main crown north slate courses": "359bba5837ea7663fd1e06f3682fd6f14ebdf84cd1730708c4261063cb76db48",
+    "V017 | main crown west slate courses": "eae730a261b75848dd61ba68703521d2927b7080cbcda6b25cc867402910acf6"
+  },
+  "dependencies": {
+    "V002 | main crown masonry and terraces": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V002 | main crown slate and roof seams": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V002 | main roof terrace parapet": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V004 | varied facade groups stone reveals and restrained frames": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V004 | varied facade groups recessed mullions and tracery": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V004 | varied facade groups deep muted glazing": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V004 | varied facade groups secondary structural divisions": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V005 | main tower calibrated stone surface": {
+      "mesh_users": 2,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V006 | main facade with one short jointed rib sample": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V017 | main crown south slate courses": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V017 | main crown east slate courses": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V017 | main crown north slate courses": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    },
+    "V017 | main crown west slate courses": {
+      "mesh_users": 1,
+      "modifiers": [],
+      "parent": null,
+      "constraints": 0,
+      "animation": false,
+      "uv_layers": []
+    }
+  },
+  "source_unchanged": true,
+  "historical_source_unchanged": true,
+  "limits": "Geometry/topology/face materials/smoothing/transforms and material names only; no assertion entire historical scene or graph/lighting identical."
+}
