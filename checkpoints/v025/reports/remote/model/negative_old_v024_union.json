@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "case": "old_v024_union",
+  "rejected": true,
+  "gate_script_sha256": "f4b9da93b8762c25bac47600814040aefe70515ce8942adaf89d7d4db8c6a09a",
+  "failure": "Other active evaluated geometry changed, including V024 union",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v025/remote additive \u4e2d\u6587/checkpoints/v025/qa/negative_model.py\", line 16, in <module>\n    try:exec(compile(text,str(script),'exec'),{'__name__':'__main__','__file__':str(script)})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v025/remote additive \u4e2d\u6587/checkpoints/v025/qa/export_preservation.py\", line 38, in <module>\n    old=copy.deepcopy(base['visible_evaluated']);old.pop(TARGET);assert non==old,'Other active evaluated geometry changed, including V024 union'\n                                                                        ^^^^^^^^\nAssertionError: Other active evaluated geometry changed, including V024 union\n",
+  "scope": "Actual candidate loaded, in-memory mutation only; no model save."
+}

@@ -31,3 +31,5 @@ python checkpoints/v025/restore_checkpoint.py
 固定 Git 来源的独立重建 `48f1270189ab16598ff709188a03a057efe608488ecdc6c60d1922fb88059160` 与验收模型完整语义一致，公开完整 QA 通过。保留验收8a359字节，不以重建保存元数据覆盖。见[复现说明](REPRODUCE.md)、[独立 QA](qa/README.md)、[重建收据](reports/rebuild/rebuild_verification.json)。
 
 这是有界渲染表面清理，不是承载修复、全路线可达或全建筑工程认证。数值是作者场景坐标，不是统一校准的现实米制。旧影片/展陈图保留历史版本身份。
+
+已从远端 `de8b2d90c52ccf95402c41b895db4be169300e8a` 独立精确恢复，完整模型QA（11次Blender、7次Python）与13书签检查副本导出/重开通过。见[远端收据](reports/remote/VERIFIED.json)。之后才撤下旧v024当前载荷，历史保留。
