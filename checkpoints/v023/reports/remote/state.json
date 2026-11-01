@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+    "candidate": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51"
+  },
+  "actual_geometry_sha256": "61627bef9fe873acd57dd8b04aaf71caa4aebbae8619920230d1586742763782",
+  "active_non_target_evaluated_exact": true,
+  "paired_rollback_twice_exact": true,
+  "native_modifier_runtime_differences": {},
+  "source_unchanged": true,
+  "candidate_unchanged": true,
+  "scope": "Only new63weights retained as separately checked nonrendering rollback data; all earlierweights/modifiers exact. No GUI/wholecastle navigation claim."
+}

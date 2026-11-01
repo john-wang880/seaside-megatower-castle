@@ -17,3 +17,5 @@
 - [v018内廊至露台28秒影片与来源](https://github.com/john-wang880/seaside-megatower-castle/blob/89cce41edf648eef6487d54ee1ce2a46bbb0ae17/checkpoints/v018/presentation/interior_route/STATUS.md)，336真实帧；不含后续树冠、入口、桥墩、石肋和路径修改。
 - [v018独立便携重渲染工具](checkpoints/v018/presentation/portable_interior/README.md)：仍绑定历史v018；原生Windows未实测，不会自动重渲染或降低质量。
 - [历史v016八秒局部环绕](https://github.com/john-wang880/seaside-megatower-castle/blob/9d417969f97c309665fb37067a81785c0aa225a0/checkpoints/v016/presentation/orbit/README.md)，不含后续屋面和树冠。
+
+已从远端`389770297a21ef2401917e83807e0122711b8df9`独立恢复c4验收模型，1168项根校验、13核心/8预检/3计划测试及公开QA的4次Blender+3次Python调用（含九类负例和五数学测试）通过。见[远端验证收据](checkpoints/v023/reports/remote/VERIFIED.json)。

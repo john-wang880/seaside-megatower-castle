@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+    "candidate": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51"
+  },
+  "actual_geometry_sha256": "61627bef9fe873acd57dd8b04aaf71caa4aebbae8619920230d1586742763782",
+  "full_source_checks": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true
+  },
+  "diff": {},
+  "evaluated_complement_all_attributes_exact": true,
+  "kept_faces": 1392,
+  "owned_weights": 63,
+  "original14seam_vertices_exact": true,
+  "source_unchanged": true,
+  "candidate_unchanged": true
+}

@@ -1,0 +1,66 @@
+{
+  "commit": "389770297a21ef2401917e83807e0122711b8df9",
+  "tree": "9001cddccb71625c504a616b3bdc2a22f7fe08cc",
+  "source_commit": "a80fdd6bc589f03159c23cc3cfaea1cfbdb2adc3",
+  "model_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "root_checksum_count": 1168,
+  "core_tests": 13,
+  "builder_preflight_tests": 8,
+  "plan_tests": 3,
+  "fresh_remote_exact_restore": true,
+  "remote_public_blender_calls": 4,
+  "remote_python_calls": 3,
+  "model_negative_controls": 2,
+  "exported_geometry_negative_controls": 7,
+  "math_tests": 5,
+  "qa_summary_sha256": "fabd5c6a36279cf0ec25e04702a6a7d46e0467bf4b12a6a9c47cc92dc68c9d1d",
+  "source_candidate_and_frozen_bundle_unchanged": true,
+  "historical_frozen_bundles_verified": [
+    {
+      "manifest": "checkpoints/v019/rebuild/BUNDLE_SHA256.json",
+      "payloads": 20
+    },
+    {
+      "manifest": "checkpoints/v020/qa/FILES.json",
+      "payloads": 11
+    },
+    {
+      "manifest": "checkpoints/v020/reproduce/RECIPE_FILES.json",
+      "payloads": 10
+    },
+    {
+      "manifest": "checkpoints/v020/presentation/exhibition/FILES.json",
+      "payloads": 27
+    },
+    {
+      "manifest": "checkpoints/v021/qa/FILES.json",
+      "payloads": 12
+    },
+    {
+      "manifest": "checkpoints/v021/reproduce/RECIPE_FILES.json",
+      "payloads": 8
+    },
+    {
+      "manifest": "checkpoints/v022/qa/FILES.json",
+      "payloads": 13
+    },
+    {
+      "manifest": "checkpoints/v022/reproduce/RECIPE_FILES.json",
+      "payloads": 7
+    },
+    {
+      "manifest": "checkpoints/v022/reports/midground_stand_negative/FILES.json",
+      "payloads": 21
+    },
+    {
+      "manifest": "checkpoints/v023/qa/FILES.json",
+      "payloads": 14
+    },
+    {
+      "manifest": "checkpoints/v023/reproduce/RECIPE_FILES.json",
+      "payloads": 7
+    }
+  ],
+  "cleanup_permitted_only_after_this_verification": true,
+  "no_force_push_history_preserved": true
+}

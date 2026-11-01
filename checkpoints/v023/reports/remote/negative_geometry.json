@@ -1,0 +1,60 @@
+{
+  "pass": true,
+  "actual_export_sha256": "61627bef9fe873acd57dd8b04aaf71caa4aebbae8619920230d1586742763782",
+  "input_sha256": {
+    "source": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+    "candidate": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51"
+  },
+  "scope": "Mutated actual evaluated mesh export only; identical independent full-face/domain/seam checker executed without model writes.",
+  "cases": [
+    {
+      "case": "burial",
+      "rejected": true,
+      "error": "(710, 'gap', -0.1770352114770688, 0.02100174995482007)",
+      "actual_assertion": " g0=min(p['minimum']for p in pieces);g1=max(p['maximum']for p in pieces);assert .016<=g0<=g1<=.030,(f['id'],'gap',g0,g1);gaplo=min(gaplo,g0);gaphi=max(gaphi,g1);pz=plane(t);bounds0=bounds(t);covered=wrong0=0.",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/negative_geometry.py\", line 27, in <module>\n    try:exec(compile(s,str(P/'check_actual_overlay.py')+'[geometry-negative]','exec'),{'__file__':str(P/'check_actual_overlay.py'),'FIXTURE':x})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/check_actual_overlay.py[geometry-negative]\", line 20, in <module>\nAssertionError: (710, 'gap', -0.1770352114770688, 0.02100174995482007)\n"
+    },
+    {
+      "case": "floating",
+      "rejected": true,
+      "error": "(710, 'gap', 0.02099888446804954, 0.22296478852293689)",
+      "actual_assertion": " g0=min(p['minimum']for p in pieces);g1=max(p['maximum']for p in pieces);assert .016<=g0<=g1<=.030,(f['id'],'gap',g0,g1);gaplo=min(gaplo,g0);gaphi=max(gaphi,g1);pz=plane(t);bounds0=bounds(t);covered=wrong0=0.",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/negative_geometry.py\", line 27, in <module>\n    try:exec(compile(s,str(P/'check_actual_overlay.py')+'[geometry-negative]','exec'),{'__file__':str(P/'check_actual_overlay.py'),'FIXTURE':x})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/check_actual_overlay.py[geometry-negative]\", line 20, in <module>\nAssertionError: (710, 'gap', 0.02099888446804954, 0.22296478852293689)\n"
+    },
+    {
+      "case": "xy_escape",
+      "rejected": true,
+      "error": "(3, 'outside', 0.09083942300320802, 0.0909153880305834, 1.2068550776425568e-05)",
+      "actual_assertion": " bound=epsxy*perim(xy)+math.pi*epsxy**2+1e-10;assert abs(covered-ar)<=bound,(f['id'],'outside',covered,ar,bound);assert wrong0<=bound,(f['id'],'material',wrong0,bound);wrong+=wrong0;outside+=max(0,ar-covered)",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/negative_geometry.py\", line 27, in <module>\n    try:exec(compile(s,str(P/'check_actual_overlay.py')+'[geometry-negative]','exec'),{'__file__':str(P/'check_actual_overlay.py'),'FIXTURE':x})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/check_actual_overlay.py[geometry-negative]\", line 28, in <module>\nAssertionError: (3, 'outside', 0.09083942300320802, 0.0909153880305834, 1.2068550776425568e-05)\n"
+    },
+    {
+      "case": "material",
+      "rejected": true,
+      "error": "(734, 'material', 0.364868031538208, 3.15943931080089e-05)",
+      "actual_assertion": " bound=epsxy*perim(xy)+math.pi*epsxy**2+1e-10;assert abs(covered-ar)<=bound,(f['id'],'outside',covered,ar,bound);assert wrong0<=bound,(f['id'],'material',wrong0,bound);wrong+=wrong0;outside+=max(0,ar-covered)",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/negative_geometry.py\", line 27, in <module>\n    try:exec(compile(s,str(P/'check_actual_overlay.py')+'[geometry-negative]','exec'),{'__file__':str(P/'check_actual_overlay.py'),'FIXTURE':x})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/check_actual_overlay.py[geometry-negative]\", line 28, in <module>\nAssertionError: (734, 'material', 0.364868031538208, 3.15943931080089e-05)\n"
+    },
+    {
+      "case": "seam",
+      "rejected": true,
+      "error": "('seam Z', 0.0019999999999988916)",
+      "actual_assertion": "   oldz=SV[u][2]+t*(SV[v][2]-SV[u][2]);err=abs(point[2]-oldz);seamZ=max(seamZ,err);slope=abs(SV[v][2]-SV[u][2])/math.dist(SV[u][:2],SV[v][:2]);assert err<=epsz+slope*epsxy+1e-10,('seam Z',err)",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/negative_geometry.py\", line 27, in <module>\n    try:exec(compile(s,str(P/'check_actual_overlay.py')+'[geometry-negative]','exec'),{'__file__':str(P/'check_actual_overlay.py'),'FIXTURE':x})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/check_actual_overlay.py[geometry-negative]\", line 58, in <module>\nAssertionError: ('seam Z', 0.0019999999999988916)\n"
+    },
+    {
+      "case": "hole",
+      "rejected": true,
+      "error": "(1251, 'hole/area', 0.3648680315382058, 4.7361593551760885e-05)",
+      "actual_assertion": " xy=[tuple(v[:2])for v in st];error=abs(sourceAreas[sf['id']]-area(xy));bound=epsxy*perim(xy)+math.pi*epsxy**2+1e-10;assert error<=bound,(sf['id'],'hole/area',error,bound);areaErrors.append(error)",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/negative_geometry.py\", line 27, in <module>\n    try:exec(compile(s,str(P/'check_actual_overlay.py')+'[geometry-negative]','exec'),{'__file__':str(P/'check_actual_overlay.py'),'FIXTURE':x})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/check_actual_overlay.py[geometry-negative]\", line 34, in <module>\nAssertionError: (1251, 'hole/area', 0.3648680315382058, 4.7361593551760885e-05)\n"
+    },
+    {
+      "case": "duplicate",
+      "rejected": true,
+      "error": "Nonmanifold patch edge",
+      "actual_assertion": "assert all(n<=2 for n in edges.values()),'Nonmanifold patch edge'",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/negative_geometry.py\", line 27, in <module>\n    try:exec(compile(s,str(P/'check_actual_overlay.py')+'[geometry-negative]','exec'),{'__file__':str(P/'check_actual_overlay.py'),'FIXTURE':x})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/check_actual_overlay.py[geometry-negative]\", line 30, in <module>\nAssertionError: Nonmanifold patch edge\n"
+    }
+  ]
+}

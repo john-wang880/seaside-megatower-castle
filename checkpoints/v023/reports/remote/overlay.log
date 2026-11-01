@@ -1,0 +1,41 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+    "candidate": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51"
+  },
+  "terrain_scope": "Upward projected faces of actual closed headland upper surface; downward underside cap separately excluded, not counted as a second terrain layer. Coverage and overlaps checked.",
+  "actual_geometry_sha256": "61627bef9fe873acd57dd8b04aaf71caa4aebbae8619920230d1586742763782",
+  "actual_patch_faces": 800,
+  "actual_patch_vertices": 442,
+  "full_face_gap_range": [
+    0.01701742459652067,
+    0.025655164989025536
+  ],
+  "area": 57.567736258439254,
+  "source_area": 57.56772292019741,
+  "maximum_sourceface_partition_area_error": 3.724999280141361e-06,
+  "total_wrong_material_rounding_overlap_area": 7.763326958522106e-05,
+  "total_outside_source_rounding_area": 3.3888205105489706e-05,
+  "new_new_positive_area_overlaps": [],
+  "maximum_boundary_xy_error": 3.7641256160254676e-06,
+  "maximum_end_seam_z_error": 1.8188499808502456e-06,
+  "rounding_bounds": {
+    "one_ulp_xy_euclidean": 8.529922399520072e-06,
+    "one_ulp_z": 3.814697265625e-06,
+    "area_bound": "local perimeter*XY_ULP_norm+pi*XY_ULP_norm\u00b2+1e-10",
+    "seam_z_bound": "Z_ULP+source_edge_grade*XY_ULP_norm+1e-10"
+  },
+  "full_surface_z_displacement_range": [
+    -0.08543974892667805,
+    0.1052454026757701
+  ],
+  "surface_grade_max": 0.4525074091516484,
+  "terrain_grade_max_in_export": 0.45227729981297865,
+  "excluded_terrain_underside": {
+    "triangles": 42,
+    "constant_z": -6.5,
+    "not_ground_support": true
+  },
+  "scope": "Actual candidate evaluated triangles against actual terrain; complete affine overlay, not vertex sampling. Original XY/material domains within explicit float32-coordinate bounds; no positive-area triangle overlaps or unmatched interior mesh edges. Open downward-oriented surface, not manifold solid. No camera pixel coverage claim."
+}

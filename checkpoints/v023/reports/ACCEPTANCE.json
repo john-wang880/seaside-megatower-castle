@@ -1,5 +1,5 @@
 {
-  "status": "ACCEPTED_LOCAL_PENDING_REMOTE_BACKUP",
+  "status": "ACCEPTED_AND_REMOTE_RESTORE_QA_VERIFIED",
   "model_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
   "model_bytes": 47628324,
   "source_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
@@ -21,5 +21,7 @@
     "math_tests": 5
   },
   "all_inputs_and_full_frozen_bundle_inventories_unchanged": true,
-  "geometry_limits": "Open downward-oriented path surface; float32 XY/material/seam residuals explicitly ULP-bounded, not zero/exact-rational or solid/load/global navigation claim."
+  "geometry_limits": "Open downward-oriented path surface; float32 XY/material/seam residuals explicitly ULP-bounded, not zero/exact-rational or solid/load/global navigation claim.",
+  "remote_verified_commit": "389770297a21ef2401917e83807e0122711b8df9",
+  "remote_verification_report": "remote/VERIFIED.json"
 }

@@ -1,0 +1,10 @@
+{
+  "case": "extra_mask",
+  "rejected": true,
+  "mutation": "bpy.data.objects[plan['path_object']].vertex_groups[0].add([0],1.,'REPLACE')",
+  "actual_assertion": "bpy.context.view_layer.update();o=bpy.data.objects[plan['path_object']];assert len(o.modifiers)==len(o.vertex_groups)==1;mod=o.modifiers[0];assert o.vertex_groups[0].name==plan['group']and mod.name==plan['modifier']and mod.type=='MASK'and mod.mode=='VERTEX_GROUP'and mod.vertex_group==plan['group']and mod.invert_vertex_group and mod.threshold==.5 and not mod.use_smooth and mod.show_viewport and mod.show_render;assert [(v.index,[(g.group,g.weight)for g in v.groups])for v in o.data.vertices if v.groups]==[(i,[(0,1.)])for i in range(672,735)]",
+  "error": "",
+  "source_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "candidate_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/negative_state.py\", line 6, in <module>\n    try:exec(compile(s,str(p)+'[expanded-negative]','exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023/remote_additive/checkpoints/v023/qa/export_and_preserve.py[expanded-negative]\", line 14, in <module>\nAssertionError\n"
+}
