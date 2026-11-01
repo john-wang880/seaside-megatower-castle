@@ -1,0 +1,39 @@
+{
+  "repository": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024/remote additive 中文",
+  "manifest": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024/remote additive 中文/checkpoints/v024/MANIFEST.json",
+  "manifest_sha256": "5d86a9c3d22bde2c2c44efabc02ea71e8b8e927a61ba80b1b0dfa37dc87e0da3",
+  "source": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024/remote additive 中文/checkpoints/v024/restored/castle_v024.blend",
+  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "source_bytes": 47631759,
+  "output": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024/remote additive 中文/validation/inspection.blend",
+  "report": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024/remote additive 中文/validation/inspection.json",
+  "catalog_sha256": "a75a7e8eb1549e25bcf40d81e8740ccb75e7c01ec7c1852c16692a6432da41a0",
+  "reviewed_version": 24,
+  "runtime_sha256": {
+    "export_inspection.py": "138f005164c84e164e47097e84faa33819f178d68b488445b9580c3204efe22b",
+    "preflight.py": "9297401ed9c15df444cefa451139ce25110adbcede45e53b037b492312a698f8",
+    "catalog.json": "a75a7e8eb1549e25bcf40d81e8740ccb75e7c01ec7c1852c16692a6432da41a0",
+    "ui_template.py": "0bb7ae392578838727d0b233c0a84349cc5a8304ae193ee29d02b5b8e81d451e"
+  },
+  "output_sha256": "9ce23eecf1d040c5564d9cbb333ab42820c982adff36a9741ad27928f1c26ee3",
+  "output_bytes": 47667444,
+  "source_unchanged": true,
+  "source_saved": false,
+  "rendered": false,
+  "manual_text_only": true,
+  "text_use_module": false,
+  "default_camera": "V002 | full coastal skyline camera",
+  "added_cameras": 11,
+  "bookmark_count": 12,
+  "marker": {
+    "owner": "castle-current-inspection-v1",
+    "catalog_sha256": "a75a7e8eb1549e25bcf40d81e8740ccb75e7c01ec7c1852c16692a6432da41a0",
+    "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+    "source_bytes": 47631759,
+    "reviewed_version": 24,
+    "manifest_sha256": "5d86a9c3d22bde2c2c44efabc02ea71e8b8e927a61ba80b1b0dfa37dc87e0da3",
+    "ui_text_sha256": "9e532d7b1eb2a2bc405cfe2634fd4cb37046b2bdc91ffb6ee8d9aa37392a2d82",
+    "notice": "Derived inspection copy. Marker records export provenance only, not certification of later user edits."
+  },
+  "scope": "Only owned cameras/collection/manualText/provenance marker added; original settings preserved. Independent deep QA is separate."
+}

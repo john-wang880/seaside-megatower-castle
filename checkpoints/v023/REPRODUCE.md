@@ -1,3 +1,5 @@
+> 历史 v023 文档：当前载荷已撤下，以下恢复步骤须在固定历史提交 `4a7cd90ceb9d545de67951cae536e2c4604a547a` 的独立工作树中运行。先执行 `git worktree add --detach ../castle-v023-history 4a7cd90ceb9d545de67951cae536e2c4604a547a`；不要在当前目录直接运行已无清单的 v023 恢复命令。最新版见仓库根说明。
+
 # v023复现与来源
 
 精确恢复优先使用`restore_checkpoint.py`；程序重建是配方核查，不替代验收归档。

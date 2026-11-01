@@ -1,0 +1,33 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+    "candidate": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856"
+  },
+  "normalized_source_checks": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true
+  },
+  "actual_post_bevel_complement_exact": true,
+  "kept_domains": {
+    "POINT": 12040,
+    "EDGE": 23969,
+    "FACE": 12931,
+    "CORNER": 47938
+  },
+  "native_mask_runtime_differences": {},
+  "repeated_state_exact": true,
+  "all_input_files_unchanged": true,
+  "closed_consistent_positive_union": true,
+  "scope": "No geometry acceptance from this export alone; run independent boundary partition."
+}

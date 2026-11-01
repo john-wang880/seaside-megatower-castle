@@ -35,3 +35,5 @@ python checkpoints/v024/restore_checkpoint.py
 [程序复现与固定来源](REPRODUCE.md) · [独立 QA](qa/README.md) · [背面来源调查](reports/discovery/REVIEW.md)
 
 这是表现性重复表面清理，不是补建缺失建筑、承重修复或全路线可达认证。平淡后墙是原有前后层次，保持不动。所有数值为作者场景坐标，不是经整场景校准的现实米制工程量。旧影片/展陈图保留其历史版本身份。
+
+已从远端 `dcfd8d65f7b9da7b5e9298730d4662c0433260cd` 独立恢复并运行完整模型 QA（5 次 Blender、3 次 Python）及当前检查副本导出/重开验证。见 [远端收据](reports/remote/VERIFIED.json)。旧 v023 当前载荷在这些检查通过后撤下，历史仍可恢复。

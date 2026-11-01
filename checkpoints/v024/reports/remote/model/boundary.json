@@ -1,0 +1,36 @@
+{
+  "pass": true,
+  "source_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "candidate_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "geometry_export_sha256": "11db54ee09d2367fccb112a0d75e4ac6406174eec3d6f4cb87a13b00051dc515",
+  "original_solids": 6,
+  "independent_union_boundary_pieces": 1031,
+  "saved_triangles": 260,
+  "coverage": [
+    {
+      "side": "saved",
+      "area": 4386.297369691864,
+      "absolute_coverage_residual": 2.5603420533877597e-11,
+      "residual_fraction": 5.837137425015994e-15,
+      "sum_rounding_area_budget": 0.7794225397515274
+    },
+    {
+      "side": "reference",
+      "area": 4386.297369691864,
+      "absolute_coverage_residual": 7.695514020487896e-11,
+      "residual_fraction": 1.7544442092918344e-14,
+      "sum_rounding_area_budget": 0.9927532030084071
+    }
+  ],
+  "matched_surface_pairs": 1716,
+  "maximum_matched_plane_displacement": 1.4210854715202004e-14,
+  "predeclared_max_coordinate_ulp": 7.62939453125e-06,
+  "distance_budget_4ulp": 3.0517578125e-05,
+  "reference_union_volume": 12531.591999421355,
+  "saved_union_volume": 12531.59199942135,
+  "volume_difference": -5.4569682106375694e-12,
+  "volume_budget": 0.26771834531810695,
+  "failures": [],
+  "math_controls": 6,
+  "scope": "Both-direction oriented surface coverage from independently clipped convex input boundary; saved float32 numerical bounds, not exact rational or global model certification."
+}
