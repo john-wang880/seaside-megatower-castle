@@ -8,7 +8,7 @@
 - [恢复与可逆对照](checkpoints/v021/README.md) · [程序复现](checkpoints/v021/REPRODUCE.md)
 - [恢复清单](checkpoints/v021/MANIFEST.json) · [持续计划](CONTINUATION.md)
 
-克隆完整仓库（含model_chunks），运行 `python checkpoints/v021/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块及整文件SHA-256验证。先追加新版，远端独立恢复/重验后再撤旧当前载荷；Git历史保留，不强推。发布状态以检查点验收收据为准。
+克隆完整仓库（含model_chunks），运行 `python checkpoints/v021/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块及整文件SHA-256验证。先追加新版，远端独立恢复/重验后再撤旧当前载荷；Git历史保留，不强推。已从远端`7aef44a`精确恢复并复验，见[验证收据](checkpoints/v021/reports/remote/VERIFIED.json)。
 
 v019精细树冠、v020西侧入口石作均保留；本版只增加2,891工程字节，不宣称性能提速、结构工程安全或全城可达。
 

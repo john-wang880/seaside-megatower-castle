@@ -1,0 +1,10 @@
+{
+  "case": "orientation",
+  "rejected": true,
+  "error": "",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021/remote_additive/checkpoints/v021/qa/negative.py\", line 10, in <module>\n    try:exec(compile(s,str(p)+'[negative-expanded]','exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021/remote_additive/checkpoints/v021/qa/validate.py[negative-expanded]\", line 39, in <module>\nAssertionError\n",
+  "actual_executed_assertion": " bm=bmesh.new();bm.from_mesh(m);assert all(e.is_manifold and e.is_contiguous for e in bm.edges);vol=bm.calc_volume(signed=True);assert vol>0;bm.free()",
+  "executed_mutation": "m=bpy.data.objects[plan['pairs'][0]['union_object']].data; bm=bmesh.new();bm.from_mesh(m);bm.faces.ensure_lookup_table();bm.faces[0].normal_flip();bm.to_mesh(m);bm.free()",
+  "candidate_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614"
+}

@@ -1,6 +1,6 @@
 {
   "checkpoint": "v021",
-  "status": "LOCAL_ACCEPTED_REMOTE_BACKUP_PENDING",
+  "status": "ACCEPTED_AND_REMOTE_RESTORE_VERIFIED",
   "model_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
   "model_bytes": 47600146,
   "source_commit": "23fd4aaaceb64996913bfa3ff4109fc149737b9d",
@@ -17,7 +17,7 @@
   "analytic_plan_tests": 2,
   "build_preflight_tests": 4,
   "local_exact_chunk_restore": true,
-  "remote_restore_verified": false,
+  "remote_restore_verified": true,
   "notes": [
     "Two exact occupied-set union surfaces remove a demonstrated local black rendering artifact; no new support or shape change.",
     "Only two owned16vertexMasks/groups plus two8vertex6face unionboxes; original source components retained.",
@@ -26,5 +26,6 @@
     "Original executed builder archived; hardened-O guard changes no geometry recipe.",
     "Do not withdraw old current payload until remote exact restore and publicQA pass."
   ],
-  "recorded_utc": "2026-11-01T15:24:46.647208+00:00"
+  "recorded_utc": "2026-11-01T15:24:46.647208+00:00",
+  "remote_backup_commit": "7aef44a9dc8699953741cc748579ce477a356e2d"
 }
