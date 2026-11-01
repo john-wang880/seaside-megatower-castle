@@ -1,0 +1,48 @@
+{
+  "approved": true,
+  "approved_by": "implementation owner /root/optimize_castle_cloud_model",
+  "authority": "Parent authorized full28s/336frame route after staged actual pilot review; this receipt records implementation review, not new user consent.",
+  "identity": {
+    "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+    "plan_sha256": "27141d08ce3316651051ef3f6e42365871e873a2c82e4286d8d83e59c867ca11",
+    "worker_sha256": "79517ae084af0230ef13459c08ab8b34d9a454b0f3c1a43ba2310b0e305c2d80",
+    "motion_sha256": "9fa2cbd38ba74d7588cfbce7d55ff87abefdb410c6ecea53c4d61bf429fc4a28",
+    "runner_sha256": "ecbc44e2f128018e93d06b2b7cf299bdd39e5506db22a9e3e8b7b0c14f62f4e4",
+    "validator_sha256": "06025c79c8eb808aa648f18049b67ebe3d2826f8b73787c713d3b15245c19771"
+  },
+  "approved_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    336
+  ],
+  "pilot_complete_sha256": "29610b1a84506f13efb52120f0450a77d6c199c682a432505e29203ee8ca5a97",
+  "decision_utc": "2026-11-01T02:24:00Z",
+  "decision_notes": [
+    "Independent all25 identity/hash/camera/near-plane checks pass, including21 adjacent pose transitions.",
+    "Owner inspected actual entry/anticipation/former failed turn/endpoint; V2 corrects the wall-dominated turn and retains truthful doorway occlusion and real terrace opening.",
+    "Approve continuation of remaining311 exact-plan frames only; reuse25 validated V2 frames, no V1 migration or code/source change.",
+    "Pilot still-image and numerical review is not complete temporal flicker certification. Review remaining frames and final decode before delivery. No whole-body or whole-castle accessibility claim."
+  ]
+}

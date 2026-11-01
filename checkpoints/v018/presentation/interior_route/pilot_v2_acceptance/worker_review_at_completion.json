@@ -1,0 +1,118 @@
+{
+  "status": "V2 pilot technicallycomplete; visualturnimprovementconfirmed; ownerfullapprovalpending",
+  "pilot_complete_sha256": "29610b1a84506f13efb52120f0450a77d6c199c682a432505e29203ee8ca5a97",
+  "identity": {
+    "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+    "plan_sha256": "27141d08ce3316651051ef3f6e42365871e873a2c82e4286d8d83e59c867ca11",
+    "worker_sha256": "79517ae084af0230ef13459c08ab8b34d9a454b0f3c1a43ba2310b0e305c2d80",
+    "motion_sha256": "9fa2cbd38ba74d7588cfbce7d55ff87abefdb410c6ecea53c4d61bf429fc4a28",
+    "runner_sha256": "ecbc44e2f128018e93d06b2b7cf299bdd39e5506db22a9e3e8b7b0c14f62f4e4",
+    "validator_sha256": "06025c79c8eb808aa648f18049b67ebe3d2826f8b73787c713d3b15245c19771"
+  },
+  "validated_frames": 25,
+  "timing_seconds": {
+    "total_render": 2423.2195469549915,
+    "mean": 96.92878187819966,
+    "minimum": 70.34211219799909,
+    "maximum": 106.87459238999872
+  },
+  "clips": [
+    {
+      "clip": "entrance.mp4",
+      "source_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "video_sha256": "cbc0965f420f0a5e798e150c326ab1e3e4f513a067a1a523664ed704b088e1db",
+      "adjacent_frame_mae_8bit": [
+        0.1152522614473263,
+        0.3074747838616715,
+        0.49967028898495036,
+        0.7042347102145373,
+        0.952354506884406,
+        1.195756284021774,
+        1.4138813840858149
+      ],
+      "maximum_mean_brightness_step_8bit": 0.07523765209734279,
+      "scope": "Separate8frame12fps actualV2pilot snippet,notcontinuousfullroute."
+    },
+    {
+      "clip": "anticipation.mp4",
+      "source_indices": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "video_sha256": "f0237a441a6e28792bb28dee98799429cf555a38fc2d8c362b2ffc2650de20a5",
+      "adjacent_frame_mae_8bit": [
+        5.929300752481589,
+        6.314621857989113,
+        6.764807476785142,
+        7.287259345981428,
+        8.115455391450528,
+        8.75766540585975,
+        9.380743175632405
+      ],
+      "maximum_mean_brightness_step_8bit": 0.5407635886967626,
+      "scope": "Separate8frame12fps actualV2pilot snippet,notcontinuousfullroute."
+    },
+    {
+      "clip": "turn.mp4",
+      "source_indices": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "video_sha256": "0e161f532209476cba99d79654f975d1f9385b2825271b59b32192c650dd333a",
+      "adjacent_frame_mae_8bit": [
+        3.4101930235350624,
+        3.4356358069164266,
+        3.4171039465257764,
+        3.404624459654179,
+        3.4214001961255205,
+        3.3999719820685237,
+        3.346880503522254
+      ],
+      "maximum_mean_brightness_step_8bit": 0.29354636967659076,
+      "scope": "Separate8frame12fps actualV2pilot snippet,notcontinuousfullroute."
+    }
+  ],
+  "visually_inspected_indices": [
+    1,
+    8,
+    54,
+    58,
+    61,
+    76,
+    80,
+    83,
+    336
+  ],
+  "findings": [
+    "V2 formerfailure76 nowclearlyshowscorridor/stairs,83maintainscenteredroute.",
+    "Earlyanticipation54\u201361 naturallyrevealsdoorway/jambedge andwallbeforecorridor; not geometrycollision orhiddenobject removal.",
+    "Entrance andfinalactualdaylightopening coherent underunchangedlighting.",
+    "No largeflash or skippedpose obvious in sampleframes; numericadjacentdifferences accompanymotion anddo notproveabsenceofsubtletemporaldenoising shimmer."
+  ],
+  "full_stage_approved": false,
+  "full_stage_started": false,
+  "source_saved": false,
+  "no_cross_identity_reuse": true,
+  "limits": "Frameinspection andshortclipencoding, not real-timeGUIplayback. Finalfullvideo stillrequiresdecode/sequenceQA."
+}
