@@ -1,0 +1,27 @@
+{
+  "decision": "retain_v018_no_sampled_issue_warrants_geometry_change",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "source_unchanged": true,
+  "model_saved": false,
+  "git_changed": false,
+  "actual_images_viewed": [
+    "visual/actual/west_cornice.png",
+    "visual/actual/main_gallery.png"
+  ],
+  "evidence": [
+    "GEOMETRY_REVIEW.md",
+    "offline_contacts.json",
+    "components_extended.json",
+    "identity.json"
+  ],
+  "bounded_negative_findings": [
+    "West diagonal bracket has positive contacts to both primary ribs and horizontal bracket; matching opposite diagonal exists.",
+    "44 parapet components form4 internally connected11-piece rail/post assemblies.",
+    "430 main lower-gallery components intersecting sampled bounds are closed; actual practical-scale view has no obvious corrective issue."
+  ],
+  "limits": [
+    "No structural capacity or whole-castle contact certification.",
+    "Sparse windows and limited rib samples are deliberate; no mechanical extension proposed.",
+    "Internal parapet contact does not independently certify external masonry anchoring."
+  ]
+}

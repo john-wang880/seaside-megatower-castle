@@ -312,3 +312,6 @@ Corrected navigation example paths and stale v017 help example; added restore/op
 
 ## 2026-11-01 — optional still telemetry; no unjustified scene purge
 Read-only datablock inventory found no worthwhile orphan cleanup. Preserved editing semantics and all hidden originals. Removed hard Unix-only resource dependency from the optional still renderer via lazy Linux-only telemetry with explicit null fallback. No model/settings changes, no dependencies, no change to frozen interior render identity. Platform tests simulate unsupported systems; no native Windows execution claimed.
+
+## 2026-11-01 — bounded gallery/corbel evidence, no forced model version
+Two current actual80sample context stills resolve western projecting fin as connected paired brackets; main lower gallery remains coherent at practical scale. Archived precise sampled geometry/contact limits and repeatable saved-geometry contact analysis. No defect warranting an edit established, no model changes or broad certification.

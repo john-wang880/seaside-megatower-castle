@@ -1,0 +1,38 @@
+{
+  "decision": "No geometry change justified by this bounded visual audit. Retain canonical V018.",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "current_images": {
+    "west_cornice": {
+      "image": "work/gallery_arcade_audit_v018/visual/actual/west_cornice.png",
+      "image_sha256": "c086740ccce7a7e2e88149a2219309ea18fabf271a91f459b87ea36daf6e3960",
+      "render_seconds": 91.38487150799483,
+      "source_unchanged": true,
+      "actual_lighting": true
+    },
+    "main_gallery": {
+      "image": "work/gallery_arcade_audit_v018/visual/actual/main_gallery.png",
+      "image_sha256": "ad191db7059dc18f1ec44904f5215a34fc152d99902142525860e7a2432bf927",
+      "render_seconds": 84.37695394799812,
+      "source_unchanged": true,
+      "actual_lighting": true
+    }
+  },
+  "west_cornice_findings": [
+    "Broader current actual view resolves the prominent fin into a repeated family of diagonal and horizontal projecting corner brackets, rather than an isolated loose triangular surface.",
+    "Angular end/notch silhouettes and shadowed slots are conspicuous close-up, but not by themselves evidence of faulty contact. Independent geometry audit reports positive contacts among sampled brace, ribs, bracket and cap.",
+    "Stone-rib sample joints remain narrow; no broad black break or visible base discontinuity in the inspected region. Do not mechanically expand the sample."
+  ],
+  "main_gallery_findings": [
+    "The sampled lower facade shows consistent horizontal corbel rows, window-frame reliefs and stepped supports at practical1200px scale.",
+    "No obviously floating new component, broken gallery rhythm or inexplicable isolated silhouette is visible in this actual-light still.",
+    "The broader view includes adjacent architecture for scale; it is not a close inspection of every arch, reveal or corbel contact."
+  ],
+  "prior_coverage": "See initial_coverage.json for upper balustrade/arcade views and historical V006 rib samples. No roof/forest/shore/entrance issue reopened.",
+  "preflight": "Selected region bounds fit with6%image margins after distance-only adjustments; west center ray hits intended facade, main ray unobstructed through target distance. This does not prove every pixel unoccluded.",
+  "limits": [
+    "Actual existing lighting only; hidden/back-facing/contact interiors not visually certified.",
+    "Closed component/contact proof belongs to separate offline_contacts.json, not inferred from images alone.",
+    "No structural engineering, accessibility or full-castle correctness claim."
+  ],
+  "followup": "None warranted in sampled regions. No more renders or edits proposed."
+}

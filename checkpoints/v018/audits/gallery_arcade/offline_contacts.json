@@ -1,0 +1,1283 @@
+{
+  "method": "Convex hull SAT of actual component world vertices; all hull-triple normals and all edge-direction crosses; positive grid witness checks. Does not imply structural capacity. Nonplanar original quads replaced only analytically by their vertex convex hull, not model mutation.",
+  "west_selected_contacts": [
+    {
+      "components": [
+        376,
+        48
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0250091552734375,
+        "positive_interior_grid_witness": [
+          -125.80419540405273,
+          84.57749786376954,
+          137.21979522705078
+        ],
+        "actual_face_fan_three_ray_inside_both": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "components": [
+        376,
+        56
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0250091552734375,
+        "positive_interior_grid_witness": [
+          -120.95607986450196,
+          84.57749786376954,
+          134.85559844970703
+        ],
+        "actual_face_fan_three_ray_inside_both": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "components": [
+        376,
+        368
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.32108124241923974,
+        "positive_interior_grid_witness": [
+          -125.25140075683593,
+          83.14000015258789,
+          137.2283920288086
+        ],
+        "actual_face_fan_three_ray_inside_both": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "components": [
+        368,
+        360
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.47882554174933034,
+        "positive_interior_grid_witness": [
+          -122.07799987792968,
+          83.05000152587891,
+          137.1626449584961
+        ],
+        "actual_face_fan_three_ray_inside_both": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "components": [
+        368,
+        304
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.28368408101883347,
+        "positive_interior_grid_witness": [
+          -125.25140075683593,
+          83.90499877929688,
+          137.24940338134766
+        ],
+        "actual_face_fan_three_ray_inside_both": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "components": [
+        392,
+        56
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0250091552734375,
+        "positive_interior_grid_witness": [
+          -120.34319686889648,
+          84.57749786376954,
+          134.79182891845704
+        ],
+        "actual_face_fan_three_ray_inside_both": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "components": [
+        392,
+        384
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.32230394789201,
+        "positive_interior_grid_witness": [
+          -115.8086036682129,
+          83.14000015258789,
+          136.86074829101562
+        ],
+        "actual_face_fan_three_ray_inside_both": [
+          true,
+          true,
+          true
+        ]
+      }
+    }
+  ],
+  "parapet_component_count": 44,
+  "parapet_islands": [
+    [
+      0,
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80
+    ],
+    [
+      88,
+      96,
+      104,
+      112,
+      120,
+      128,
+      136,
+      144,
+      152,
+      160,
+      168
+    ],
+    [
+      176,
+      184,
+      192,
+      200,
+      208,
+      216,
+      224,
+      232,
+      240,
+      248,
+      256
+    ],
+    [
+      264,
+      272,
+      280,
+      288,
+      296,
+      304,
+      312,
+      320,
+      328,
+      336,
+      344
+    ]
+  ],
+  "parapet_links": [
+    {
+      "components": [
+        0,
+        16
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          20.47799892425537,
+          27.447999572753908,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        0,
+        24
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          24.075998497009277,
+          27.447999572753908,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        0,
+        32
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          27.925998878479003,
+          27.447999572753908,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        0,
+        40
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          31.77599754333496,
+          27.447999572753908,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        0,
+        48
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          35.625999450683594,
+          27.447999572753908,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        0,
+        56
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          39.47599830627441,
+          27.447999572753908,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        0,
+        64
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          43.325996780395506,
+          27.447999572753908,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        0,
+        72
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          47.175999069213866,
+          27.447999572753908,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        0,
+        80
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          50.99799766540527,
+          27.447999572753908,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        8,
+        16
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          20.47799892425537,
+          27.447999572753908,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        8,
+        24
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          24.075998497009277,
+          27.447999572753908,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        8,
+        32
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          27.925998878479003,
+          27.447999572753908,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        8,
+        40
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          31.77599754333496,
+          27.447999572753908,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        8,
+        48
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          35.625999450683594,
+          27.447999572753908,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        8,
+        56
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          39.47599830627441,
+          27.447999572753908,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        8,
+        64
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          43.325996780395506,
+          27.447999572753908,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        8,
+        72
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          47.175999069213866,
+          27.447999572753908,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        8,
+        80
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          50.99799766540527,
+          27.447999572753908,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        88,
+        104
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          50.99799766540527,
+          62.068000411987306,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        88,
+        112
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          47.175999069213866,
+          62.068000411987306,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        88,
+        120
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          43.325996780395506,
+          62.068000411987306,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        88,
+        128
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          39.47599830627441,
+          62.068000411987306,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        88,
+        136
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          35.625999450683594,
+          62.068000411987306,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        88,
+        144
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          31.77599754333496,
+          62.068000411987306,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        88,
+        152
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          27.925998878479003,
+          62.068000411987306,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        88,
+        160
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          24.075998497009277,
+          62.068000411987306,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        88,
+        168
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          20.47799892425537,
+          62.068000411987306,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        96,
+        104
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          50.99799766540527,
+          62.068000411987306,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        96,
+        112
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          47.175999069213866,
+          62.068000411987306,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        96,
+        120
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          43.325996780395506,
+          62.068000411987306,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        96,
+        128
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          39.47599830627441,
+          62.068000411987306,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        96,
+        136
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          35.625999450683594,
+          62.068000411987306,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        96,
+        144
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          31.77599754333496,
+          62.068000411987306,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        96,
+        152
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          27.925998878479003,
+          62.068000411987306,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        96,
+        160
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          24.075998497009277,
+          62.068000411987306,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        96,
+        168
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          20.47799892425537,
+          62.068000411987306,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        176,
+        192
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          59.14800262451172,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        176,
+        200
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          55.551002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        176,
+        208
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          51.926002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        176,
+        216
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          48.301002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        176,
+        224
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          44.676002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        176,
+        232
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          41.051002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        176,
+        240
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          37.426002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        176,
+        248
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          33.801002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        176,
+        256
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          30.428001403808594,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        184,
+        192
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          59.14800262451172,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        184,
+        200
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          55.551002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        184,
+        208
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          51.926002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        184,
+        216
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          48.301002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        184,
+        224
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          44.676002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        184,
+        232
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          41.051002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        184,
+        240
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          37.426002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        184,
+        248
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          33.801002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        184,
+        256
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          17.748000717163087,
+          30.428001403808594,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        264,
+        280
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          30.428001403808594,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        264,
+        288
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          33.801002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        264,
+        296
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          37.426002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        264,
+        304
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          41.051002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        264,
+        312
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          44.676002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        264,
+        320
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          48.301002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        264,
+        328
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          51.926002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        264,
+        336
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          55.551002502441406,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        264,
+        344
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.100006103515625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          59.14800262451172,
+          181.76000061035157
+        ]
+      }
+    },
+    {
+      "components": [
+        272,
+        280
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          30.428001403808594,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        272,
+        288
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          33.801002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        272,
+        296
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          37.426002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        272,
+        304
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          41.051002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        272,
+        312
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          44.676002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        272,
+        320
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          48.301002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        272,
+        328
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          51.926002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        272,
+        336
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          55.551002502441406,
+          183.56000213623048
+        ]
+      }
+    },
+    {
+      "components": [
+        272,
+        344
+      ],
+      "result": {
+        "intersects": true,
+        "minimum_axis_overlap": 0.0999908447265625,
+        "positive_interior_grid_witness": [
+          53.568000411987306,
+          59.14800262451172,
+          183.56000213623048
+        ]
+      }
+    }
+  ],
+  "limitations": "Bounded same-object contact audit. External masonry/pinnacle anchoring not certified by this test; no geometry changes."
+}

@@ -1,0 +1,467 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "objects": [
+    {
+      "name": "Air perspective behind the citadel",
+      "mesh": "Air perspective behind the citadel bounds",
+      "vertices": 8,
+      "faces": 6,
+      "bounds": [
+        [
+          -362.0,
+          237.5,
+          4.5
+        ],
+        [
+          378.0,
+          312.5,
+          89.5
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Citadel | deep window recesses",
+      "mesh": "Citadel | deep window recesses Geometry",
+      "vertices": 4410,
+      "faces": 2415,
+      "bounds": [
+        [
+          -10.050000190734863,
+          -6.53000020980835,
+          31.799999237060547
+        ],
+        [
+          81.91000366210938,
+          64.51499938964844,
+          81.83999633789062
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Citadel | muted window panes",
+      "mesh": "Citadel | muted window panes Geometry",
+      "vertices": 672,
+      "faces": 368,
+      "bounds": [
+        [
+          -5.15500020980835,
+          -4.743000030517578,
+          31.967998504638672
+        ],
+        [
+          60.29085922241211,
+          24.43199920654297,
+          55.51799774169922
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Citadel | oxidized spire roofs",
+      "mesh": "Citadel | oxidized spire roofs Geometry",
+      "vertices": 600,
+      "faces": 360,
+      "bounds": [
+        [
+          -11.28600025177002,
+          0.764102041721344,
+          51.540000915527344
+        ],
+        [
+          76.79100036621094,
+          63.93498229980469,
+          108.21000671386719
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Citadel | projecting individual stones",
+      "mesh": "Citadel | projecting individual stones Geometry",
+      "vertices": 10832,
+      "faces": 8124,
+      "bounds": [
+        [
+          -4.519999980926514,
+          -6.65500020980835,
+          31.065000534057617
+        ],
+        [
+          81.7699966430664,
+          59.94499969482422,
+          60.73500061035156
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Citadel | relief flowers and shadowed sculpture",
+      "mesh": "Citadel | relief flowers and shadowed sculpture Geometry",
+      "vertices": 7770,
+      "faces": 4871,
+      "bounds": [
+        [
+          -9.109999656677246,
+          -5.122499942779541,
+          31.96500015258789
+        ],
+        [
+          67.2699966430664,
+          60.650001525878906,
+          163.68600463867188
+        ]
+      ],
+      "modifiers": [
+        [
+          "Soft carved stone arrises",
+          "BEVEL"
+        ]
+      ]
+    },
+    {
+      "name": "Citadel | small verdigris fittings",
+      "mesh": "Citadel | small verdigris fittings Geometry",
+      "vertices": 2476,
+      "faces": 1554,
+      "bounds": [
+        [
+          -8.875,
+          -2.505000114440918,
+          40.80084228515625
+        ],
+        [
+          76.79100036621094,
+          63.93498229980469,
+          163.37603759765625
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V002 | main crown masonry and terraces",
+      "mesh": "V002 | main crown masonry and terraces",
+      "vertices": 3016,
+      "faces": 2050,
+      "bounds": [
+        [
+          15.800000190734863,
+          25.399999618530273,
+          179.5749969482422
+        ],
+        [
+          55.900001525878906,
+          64.4000015258789,
+          192.5749969482422
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V002 | main crown slate and roof seams",
+      "mesh": "V002 | main crown slate and roof seams",
+      "vertices": 166,
+      "faces": 105,
+      "bounds": [
+        [
+          17.414180755615234,
+          27.314180374145508,
+          189.10000610351562
+        ],
+        [
+          54.38581848144531,
+          62.585819244384766,
+          212.6999969482422
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V002 | main roof terrace parapet",
+      "mesh": "V002 | main roof terrace parapet",
+      "vertices": 352,
+      "faces": 264,
+      "bounds": [
+        [
+          17.700000762939453,
+          27.399999618530273,
+          181.35000610351562
+        ],
+        [
+          54.0,
+          62.5,
+          183.9499969482422
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V002 | western lantern low slate cap",
+      "mesh": "V002 | western lantern low slate cap",
+      "vertices": 160,
+      "faces": 100,
+      "bounds": [
+        [
+          -143.03927612304688,
+          89.96073913574219,
+          177.73007202148438
+        ],
+        [
+          -122.96073913574219,
+          110.03926086425781,
+          188.0
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V002 | western octagonal lantern masonry",
+      "mesh": "V002 | western octagonal lantern masonry",
+      "vertices": 2032,
+      "faces": 1366,
+      "bounds": [
+        [
+          -147.85000610351562,
+          84.1500015258789,
+          166.8000030517578
+        ],
+        [
+          -118.1500015258789,
+          115.8499984741211,
+          177.75
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V003 | two facade samples deep muted glazing",
+      "mesh": "V003 | two facade samples deep muted glazing",
+      "vertices": 368,
+      "faces": 200,
+      "bounds": [
+        [
+          -138.3000030517578,
+          30.93000030517578,
+          108.37999725341797
+        ],
+        [
+          39.67499923706055,
+          88.15499877929688,
+          152.4499969482422
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V003 | two facade samples recessed mullions and tracery",
+      "mesh": "V003 | two facade samples recessed mullions and tracery",
+      "vertices": 2336,
+      "faces": 2304,
+      "bounds": [
+        [
+          -138.3000030517578,
+          30.40999984741211,
+          108.37999725341797
+        ],
+        [
+          39.67499923706055,
+          87.9800033569336,
+          152.4499969482422
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V003 | two facade samples secondary structural divisions",
+      "mesh": "V003 | two facade samples secondary structural divisions",
+      "vertices": 304,
+      "faces": 228,
+      "bounds": [
+        [
+          -139.74000549316406,
+          27.940000534057617,
+          104.6500015258789
+        ],
+        [
+          41.439998626708984,
+          86.20999908447266,
+          162.77999877929688
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V003 | two facade samples stone reveals and restrained frames",
+      "mesh": "V003 | two facade samples stone reveals and restrained frames",
+      "vertices": 1472,
+      "faces": 1472,
+      "bounds": [
+        [
+          -138.8300018310547,
+          28.31999969482422,
+          107.91999816894531
+        ],
+        [
+          40.20500183105469,
+          88.0,
+          153.13999938964844
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V004 | varied facade groups deep muted glazing",
+      "mesh": "V004 | varied facade groups deep muted glazing",
+      "vertices": 644,
+      "faces": 350,
+      "bounds": [
+        [
+          -138.25,
+          30.93000030517578,
+          85.9800033569336
+        ],
+        [
+          50.91999816894531,
+          101.19999694824219,
+          174.25
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V004 | varied facade groups recessed mullions and tracery",
+      "mesh": "V004 | varied facade groups recessed mullions and tracery",
+      "vertices": 4088,
+      "faces": 4032,
+      "bounds": [
+        [
+          -138.25,
+          30.40999984741211,
+          85.9800033569336
+        ],
+        [
+          51.439998626708984,
+          101.19999694824219,
+          174.25
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V004 | varied facade groups secondary structural divisions",
+      "mesh": "V004 | varied facade groups secondary structural divisions",
+      "vertices": 480,
+      "faces": 360,
+      "bounds": [
+        [
+          -138.89999389648438,
+          27.939998626708984,
+          84.70500183105469
+        ],
+        [
+          53.90999984741211,
+          101.8499984741211,
+          179.62998962402344
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V004 | varied facade groups stone reveals and restrained frames",
+      "mesh": "V004 | varied facade groups stone reveals and restrained frames",
+      "vertices": 2576,
+      "faces": 2576,
+      "bounds": [
+        [
+          -138.77999877929688,
+          28.31999969482422,
+          85.5199966430664
+        ],
+        [
+          53.529998779296875,
+          101.7300033569336,
+          174.94000244140625
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V004 | west old recess strips opened for selected upper and lower windows",
+      "mesh": "V004 | west old recess strips opened for selected upper and lower windows mesh",
+      "vertices": 1518,
+      "faces": 851,
+      "bounds": [
+        [
+          -152.37149047851562,
+          33.369998931884766,
+          7.127999305725098
+        ],
+        [
+          119.75,
+          193.01998901367188,
+          167.0240020751953
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V006 | main facade with one short jointed rib sample",
+      "mesh": "V006 | main facade with one short jointed rib sample mesh",
+      "vertices": 35988,
+      "faces": 26208,
+      "bounds": [
+        [
+          -9.125,
+          -6.684999942779541,
+          31.763999938964844
+        ],
+        [
+          81.93000030517578,
+          64.55999755859375,
+          180.0
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "V007 | western stonework with actual bridgehead passage",
+      "mesh": "V007 | western stonework with actual bridgehead passage",
+      "vertices": 17846,
+      "faces": 13231,
+      "bounds": [
+        [
+          -155.9271697998047,
+          32.775001525878906,
+          5.039999961853027
+        ],
+        [
+          120.89999389648438,
+          197.72500610351562,
+          79.3280029296875
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Western citadel_West_Aged blue slate",
+      "mesh": "Western citadel_West_Aged blue slate_mesh",
+      "vertices": 160,
+      "faces": 100,
+      "bounds": [
+        [
+          -151.2887725830078,
+          32.8583984375,
+          33.823551177978516
+        ],
+        [
+          -55.758399963378906,
+          109.96600341796875,
+          84.84085083007812
+        ]
+      ],
+      "modifiers": []
+    }
+  ],
+  "source_unchanged": true
+}

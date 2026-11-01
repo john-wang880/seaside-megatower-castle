@@ -1,0 +1,26 @@
+{
+  "scope": "Read-only bounded visual coverage audit. No claim about unseen contacts or whole-building engineering safety. No geometry/lighting/render changes.",
+  "images_reviewed": [
+    {
+      "path": "work/v018/visual/west_crown_actual.png",
+      "finding": "Upper octagonal arched reveals and corner piers appear coherent at1200x800. Lower gallery band is cropped; roof excluded from this audit."
+    },
+    {
+      "path": "work/v017/full_crown_render/image.png",
+      "finding": "Main upper balustrade rails/posts, corner piers and arched reveals show no obvious detached gap at1200x800. Corbel band nearbottom is partiallycropped; sourceV017,historical coverage."
+    },
+    {
+      "path": "work/holistic_exterior_review/northeast_wide_actual.png",
+      "finding": "Whole-building context only; too distant for contact assessment. Blank backfaces are intentional, not missingwindow defects."
+    },
+    {
+      "path": "checkpoints/v006/restored/previews/v006_main_rib.png",
+      "finding": "Historical stone sample has narrow regular joints and continuous base connection; no need to expand or enlarge joints."
+    },
+    {
+      "path": "checkpoints/v006/restored/previews/v006_west_rib.png",
+      "finding": "Historical west cornice below sample includes a large triangular fin/cut-slot. Could be intentional but deserves current practicalscale context before classifying. Report explicitly says inheritedV005, notV006damage."
+    }
+  ],
+  "next": "Coordinate exact lower gallery/cornice geometry bounds with survey; propose at most2 current actual-light medium-detail camera poses to owner. No renders until approved."
+}
