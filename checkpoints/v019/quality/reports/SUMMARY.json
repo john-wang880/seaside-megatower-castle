@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_VERIFIED_REMOTE_EXPORT_QA_PENDING",
+  "status": "REMOTE_EXPORT_AND_QA_VERIFIED",
   "accepted_source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
   "canonical_model_changed": false,
   "new_model_version": false,
@@ -30,5 +30,13 @@
     "HeadlessBlenderAPIpanel tests, notactualWindows/desktopUIclicks",
     "Mode switchdoesnotundoarbitraryuseredits",
     "ManualTextnotautoexecuted,nosourceoverwrite"
-  ]
+  ],
+  "remote_commit": "f019a93e84e100372adcbaff8584b3ef6dad23db",
+  "remote_tree": "4b877c15612e092672525b3195d3aac7d82ba7f6",
+  "remote_quality_files_unchanged": 25,
+  "remote_root_checksum_files": 615,
+  "remote_core_tests": 13,
+  "remote_pure_tests": 5,
+  "remote_fresh_viewer_bytes_match_actual_render_inputs": true,
+  "remote_report": "remote_SUMMARY.json"
 }

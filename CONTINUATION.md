@@ -111,3 +111,5 @@ v019追加备份`3f7be81d9b2401fe7ec70cf5d0d225a1e3d10b9a`已从远端独立恢�
 v019自包含工具已在远端`ae89e57ee917b1ae105247215361fc4cbc6beef9`的全新Git-only目录完成六阶段实际再现；固定历史基线另从Git恢复。模型字节不改，无新艺术版本。报告见v019/reports/rebuild/SUMMARY.json。
 
 可选v019quality工具导出独立HIGH/LOW浏览副本，手动侧栏按钮，不改验收模型。两模式分别与v019/v018原树冠等价，实际像素精确匹配；本次LOW观测峰值少约102MiB但仍存储高细节数据。不是新版本/全森林简化，也不自动执行脚本。远端验证状态见quality/reports/SUMMARY.json。
+
+HIGH/LOWquality工具已从远端`f019a93e84e100372adcbaff8584b3ef6dad23db`独立重新导出并全量复验；两副本字节与实际像素对照输入相同。验收工程e717不变，当前不需继续微调按钮或同一性能对照。

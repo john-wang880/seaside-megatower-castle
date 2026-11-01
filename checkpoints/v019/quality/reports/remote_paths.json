@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "source_unchanged": true,
+  "checks": {
+    "unicode_spaces_new_paths": true,
+    "source output alias": true,
+    "existing output": true,
+    "existing report": true,
+    "missing output parent": true,
+    "wrong source": true,
+    "source symlink output": true
+  },
+  "scope": "Linux filesystem tests including Unicode/spaces; no Windows GUI claim."
+}

@@ -36,3 +36,7 @@ LOW仍把完整高细节网格保存在文件中，所以**不是缩小文件或
 ### 实际同相机测量
 
 1200×866、原80采样、同一云端CPU/8线程的两个独立进程：HIGH峰值2,122,336KiB，LOW为2,017,628KiB，本次约少102.25MiB；渲染76.83/75.09秒。仅一组顺序观察，不宣称普遍加速。HIGH与原v019对照图、LOW与原v018对照图解码后像素分别完全一致。见[验证汇总](reports/SUMMARY.json)。图片仍可查看[HIGH](../previews/approach_after.png) / [LOW](../previews/approach_before.png)；未通过重打光制造差异。
+
+### 远端独立复验
+
+从提交`f019a93e84e100372adcbaff8584b3ef6dad23db`重新取回公开工具和工程，重新导出HIGH/LOW；两份新副本的文件SHA也与上述实际渲染输入一致。全部原场景/模式/按钮API/拒绝错误状态和7项路径检查通过，公开工具文件保持不变。见[远端报告](reports/remote_SUMMARY.json)。
