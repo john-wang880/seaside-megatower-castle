@@ -1,0 +1,1887 @@
+{
+  "source_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "generator": "build.py",
+  "concept": "Seven staggered overlapping radial branch tiers, broad folded fans, taper to continuous pointed core. Closed convex fan solids intentionally overlap one another and core.",
+  "units": "coordinate units",
+  "trees": [
+    {
+      "trunk_seed": 90130,
+      "object": "STUDY | crown trunk 90130",
+      "source_range": [
+        159318,
+        159634
+      ],
+      "source_counts": [
+        316,
+        480,
+        38
+      ],
+      "mapping_verified": true,
+      "bounds": [
+        [
+          -114.94964599609375,
+          42.31443786621094,
+          31.08250617980957
+        ],
+        [
+          -111.95314025878906,
+          45.78433609008789,
+          40.51176071166992
+        ]
+      ],
+      "authored_vertices": 686,
+      "authored_triangles": 1208,
+      "components": [
+        {
+          "role": "tier_00_fan_00",
+          "vertex_range": [
+            0,
+            16
+          ],
+          "triangle_range": [
+            0,
+            28
+          ],
+          "material_slot": 0,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.03463899272232818
+        },
+        {
+          "role": "tier_00_fan_01",
+          "vertex_range": [
+            16,
+            32
+          ],
+          "triangle_range": [
+            28,
+            56
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.027214078874764805
+        },
+        {
+          "role": "tier_00_fan_02",
+          "vertex_range": [
+            32,
+            48
+          ],
+          "triangle_range": [
+            56,
+            84
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.03708716329206493
+        },
+        {
+          "role": "tier_00_fan_03",
+          "vertex_range": [
+            48,
+            64
+          ],
+          "triangle_range": [
+            84,
+            112
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.04056825206015942
+        },
+        {
+          "role": "tier_00_fan_04",
+          "vertex_range": [
+            64,
+            80
+          ],
+          "triangle_range": [
+            112,
+            140
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.033632400245994724
+        },
+        {
+          "role": "tier_00_fan_05",
+          "vertex_range": [
+            80,
+            96
+          ],
+          "triangle_range": [
+            140,
+            168
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.04122178076714833
+        },
+        {
+          "role": "tier_01_fan_00",
+          "vertex_range": [
+            96,
+            112
+          ],
+          "triangle_range": [
+            168,
+            196
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.02981111691906385
+        },
+        {
+          "role": "tier_01_fan_01",
+          "vertex_range": [
+            112,
+            128
+          ],
+          "triangle_range": [
+            196,
+            224
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.022213534540025157
+        },
+        {
+          "role": "tier_01_fan_02",
+          "vertex_range": [
+            128,
+            144
+          ],
+          "triangle_range": [
+            224,
+            252
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.023271235122198374
+        },
+        {
+          "role": "tier_01_fan_03",
+          "vertex_range": [
+            144,
+            160
+          ],
+          "triangle_range": [
+            252,
+            280
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.027932666821306552
+        },
+        {
+          "role": "tier_01_fan_04",
+          "vertex_range": [
+            160,
+            176
+          ],
+          "triangle_range": [
+            280,
+            308
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.01943921434128684
+        },
+        {
+          "role": "tier_01_fan_05",
+          "vertex_range": [
+            176,
+            192
+          ],
+          "triangle_range": [
+            308,
+            336
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.023479220927523064
+        },
+        {
+          "role": "tier_02_fan_00",
+          "vertex_range": [
+            192,
+            208
+          ],
+          "triangle_range": [
+            336,
+            364
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.01478568274109982
+        },
+        {
+          "role": "tier_02_fan_01",
+          "vertex_range": [
+            208,
+            224
+          ],
+          "triangle_range": [
+            364,
+            392
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.01219873292678371
+        },
+        {
+          "role": "tier_02_fan_02",
+          "vertex_range": [
+            224,
+            240
+          ],
+          "triangle_range": [
+            392,
+            420
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.016751083940205733
+        },
+        {
+          "role": "tier_02_fan_03",
+          "vertex_range": [
+            240,
+            256
+          ],
+          "triangle_range": [
+            420,
+            448
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.015082095866218895
+        },
+        {
+          "role": "tier_02_fan_04",
+          "vertex_range": [
+            256,
+            272
+          ],
+          "triangle_range": [
+            448,
+            476
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.01630184318892093
+        },
+        {
+          "role": "tier_02_fan_05",
+          "vertex_range": [
+            272,
+            288
+          ],
+          "triangle_range": [
+            476,
+            504
+          ],
+          "material_slot": 0,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.013256729249588926
+        },
+        {
+          "role": "tier_03_fan_00",
+          "vertex_range": [
+            288,
+            304
+          ],
+          "triangle_range": [
+            504,
+            532
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.00861408969678493
+        },
+        {
+          "role": "tier_03_fan_01",
+          "vertex_range": [
+            304,
+            320
+          ],
+          "triangle_range": [
+            532,
+            560
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.006679540918302822
+        },
+        {
+          "role": "tier_03_fan_02",
+          "vertex_range": [
+            320,
+            336
+          ],
+          "triangle_range": [
+            560,
+            588
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0074041318478509
+        },
+        {
+          "role": "tier_03_fan_03",
+          "vertex_range": [
+            336,
+            352
+          ],
+          "triangle_range": [
+            588,
+            616
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.01100394379051517
+        },
+        {
+          "role": "tier_03_fan_04",
+          "vertex_range": [
+            352,
+            368
+          ],
+          "triangle_range": [
+            616,
+            644
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.00639392230486106
+        },
+        {
+          "role": "tier_03_fan_05",
+          "vertex_range": [
+            368,
+            384
+          ],
+          "triangle_range": [
+            644,
+            672
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.009541660425632262
+        },
+        {
+          "role": "tier_04_fan_00",
+          "vertex_range": [
+            384,
+            400
+          ],
+          "triangle_range": [
+            672,
+            700
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.005868329904817893
+        },
+        {
+          "role": "tier_04_fan_01",
+          "vertex_range": [
+            400,
+            416
+          ],
+          "triangle_range": [
+            700,
+            728
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.003956934845524853
+        },
+        {
+          "role": "tier_04_fan_02",
+          "vertex_range": [
+            416,
+            432
+          ],
+          "triangle_range": [
+            728,
+            756
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.005635805232516097
+        },
+        {
+          "role": "tier_04_fan_03",
+          "vertex_range": [
+            432,
+            448
+          ],
+          "triangle_range": [
+            756,
+            784
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.005786668115811599
+        },
+        {
+          "role": "tier_04_fan_04",
+          "vertex_range": [
+            448,
+            464
+          ],
+          "triangle_range": [
+            784,
+            812
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.004930664974392947
+        },
+        {
+          "role": "tier_04_fan_05",
+          "vertex_range": [
+            464,
+            480
+          ],
+          "triangle_range": [
+            812,
+            840
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.005992542989657585
+        },
+        {
+          "role": "tier_05_fan_00",
+          "vertex_range": [
+            480,
+            496
+          ],
+          "triangle_range": [
+            840,
+            868
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.002070734159824517
+        },
+        {
+          "role": "tier_05_fan_01",
+          "vertex_range": [
+            496,
+            512
+          ],
+          "triangle_range": [
+            868,
+            896
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0020563642489212076
+        },
+        {
+          "role": "tier_05_fan_02",
+          "vertex_range": [
+            512,
+            528
+          ],
+          "triangle_range": [
+            896,
+            924
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.001502694745965174
+        },
+        {
+          "role": "tier_05_fan_03",
+          "vertex_range": [
+            528,
+            544
+          ],
+          "triangle_range": [
+            924,
+            952
+          ],
+          "material_slot": 0,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.002051586896633705
+        },
+        {
+          "role": "tier_05_fan_04",
+          "vertex_range": [
+            544,
+            560
+          ],
+          "triangle_range": [
+            952,
+            980
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0021044058407042477
+        },
+        {
+          "role": "tier_06_fan_00",
+          "vertex_range": [
+            560,
+            576
+          ],
+          "triangle_range": [
+            980,
+            1008
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0006015052538084425
+        },
+        {
+          "role": "tier_06_fan_01",
+          "vertex_range": [
+            576,
+            592
+          ],
+          "triangle_range": [
+            1008,
+            1036
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0006747020902103569
+        },
+        {
+          "role": "tier_06_fan_02",
+          "vertex_range": [
+            592,
+            608
+          ],
+          "triangle_range": [
+            1036,
+            1064
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0007231196980461716
+        },
+        {
+          "role": "tier_06_fan_03",
+          "vertex_range": [
+            608,
+            624
+          ],
+          "triangle_range": [
+            1064,
+            1092
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0007590949629150868
+        },
+        {
+          "role": "tier_06_fan_04",
+          "vertex_range": [
+            624,
+            640
+          ],
+          "triangle_range": [
+            1092,
+            1120
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0007783349193767103
+        },
+        {
+          "role": "continuous_core_and_pointed_leader",
+          "vertex_range": [
+            640,
+            686
+          ],
+          "triangle_range": [
+            1120,
+            1208
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.04667481756089062
+        }
+      ],
+      "material_triangles": {
+        "Cypress needles \u2014 deep blue green": 84,
+        "Fir needles \u2014 forest green": 1096,
+        "Sunlit needle tips": 28
+      },
+      "attachment": "All fan root heels straddle central axis and overlap continuous opaque core, which extends through original trunk centerline. Exact source trunk included only in diagnostic, not asset.",
+      "source_trunk_component_vertices": 10,
+      "source_trunk_bounds": [
+        [
+          -113.9883804321289,
+          44.03080749511719,
+          30.38589859008789
+        ],
+        [
+          -113.42670440673828,
+          44.49665451049805,
+          39.76082992553711
+        ]
+      ]
+    },
+    {
+      "trunk_seed": 54140,
+      "object": "STUDY | crown trunk 54140",
+      "source_range": [
+        122118,
+        122433
+      ],
+      "source_counts": [
+        315,
+        470,
+        40
+      ],
+      "mapping_verified": true,
+      "bounds": [
+        [
+          -111.53778839111328,
+          48.61549377441406,
+          31.46342658996582
+        ],
+        [
+          -108.53599548339844,
+          51.5863037109375,
+          39.57206344604492
+        ]
+      ],
+      "authored_vertices": 686,
+      "authored_triangles": 1208,
+      "components": [
+        {
+          "role": "tier_00_fan_00",
+          "vertex_range": [
+            0,
+            16
+          ],
+          "triangle_range": [
+            0,
+            28
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.045524343238050415
+        },
+        {
+          "role": "tier_00_fan_01",
+          "vertex_range": [
+            16,
+            32
+          ],
+          "triangle_range": [
+            28,
+            56
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.03403775679157947
+        },
+        {
+          "role": "tier_00_fan_02",
+          "vertex_range": [
+            32,
+            48
+          ],
+          "triangle_range": [
+            56,
+            84
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.04087223975929662
+        },
+        {
+          "role": "tier_00_fan_03",
+          "vertex_range": [
+            48,
+            64
+          ],
+          "triangle_range": [
+            84,
+            112
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.028368563186722005
+        },
+        {
+          "role": "tier_00_fan_04",
+          "vertex_range": [
+            64,
+            80
+          ],
+          "triangle_range": [
+            112,
+            140
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.032570593929628903
+        },
+        {
+          "role": "tier_00_fan_05",
+          "vertex_range": [
+            80,
+            96
+          ],
+          "triangle_range": [
+            140,
+            168
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.026672701934228337
+        },
+        {
+          "role": "tier_01_fan_00",
+          "vertex_range": [
+            96,
+            112
+          ],
+          "triangle_range": [
+            168,
+            196
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.024704096552488612
+        },
+        {
+          "role": "tier_01_fan_01",
+          "vertex_range": [
+            112,
+            128
+          ],
+          "triangle_range": [
+            196,
+            224
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.03071861476568188
+        },
+        {
+          "role": "tier_01_fan_02",
+          "vertex_range": [
+            128,
+            144
+          ],
+          "triangle_range": [
+            224,
+            252
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.022893048893371102
+        },
+        {
+          "role": "tier_01_fan_03",
+          "vertex_range": [
+            144,
+            160
+          ],
+          "triangle_range": [
+            252,
+            280
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.023052327318433097
+        },
+        {
+          "role": "tier_01_fan_04",
+          "vertex_range": [
+            160,
+            176
+          ],
+          "triangle_range": [
+            280,
+            308
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.027007892374973825
+        },
+        {
+          "role": "tier_01_fan_05",
+          "vertex_range": [
+            176,
+            192
+          ],
+          "triangle_range": [
+            308,
+            336
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.025425762104060338
+        },
+        {
+          "role": "tier_02_fan_00",
+          "vertex_range": [
+            192,
+            208
+          ],
+          "triangle_range": [
+            336,
+            364
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.01737542220015882
+        },
+        {
+          "role": "tier_02_fan_01",
+          "vertex_range": [
+            208,
+            224
+          ],
+          "triangle_range": [
+            364,
+            392
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.016658094921387256
+        },
+        {
+          "role": "tier_02_fan_02",
+          "vertex_range": [
+            224,
+            240
+          ],
+          "triangle_range": [
+            392,
+            420
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.016468160667156034
+        },
+        {
+          "role": "tier_02_fan_03",
+          "vertex_range": [
+            240,
+            256
+          ],
+          "triangle_range": [
+            420,
+            448
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.01799720255532141
+        },
+        {
+          "role": "tier_02_fan_04",
+          "vertex_range": [
+            256,
+            272
+          ],
+          "triangle_range": [
+            448,
+            476
+          ],
+          "material_slot": 0,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.011761564689105818
+        },
+        {
+          "role": "tier_02_fan_05",
+          "vertex_range": [
+            272,
+            288
+          ],
+          "triangle_range": [
+            476,
+            504
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.011447450594644313
+        },
+        {
+          "role": "tier_03_fan_00",
+          "vertex_range": [
+            288,
+            304
+          ],
+          "triangle_range": [
+            504,
+            532
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.008853607297368938
+        },
+        {
+          "role": "tier_03_fan_01",
+          "vertex_range": [
+            304,
+            320
+          ],
+          "triangle_range": [
+            532,
+            560
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.008011755261920415
+        },
+        {
+          "role": "tier_03_fan_02",
+          "vertex_range": [
+            320,
+            336
+          ],
+          "triangle_range": [
+            560,
+            588
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.007216300419341041
+        },
+        {
+          "role": "tier_03_fan_03",
+          "vertex_range": [
+            336,
+            352
+          ],
+          "triangle_range": [
+            588,
+            616
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.010049532897583348
+        },
+        {
+          "role": "tier_03_fan_04",
+          "vertex_range": [
+            352,
+            368
+          ],
+          "triangle_range": [
+            616,
+            644
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.00870162047026964
+        },
+        {
+          "role": "tier_03_fan_05",
+          "vertex_range": [
+            368,
+            384
+          ],
+          "triangle_range": [
+            644,
+            672
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.011877019637458446
+        },
+        {
+          "role": "tier_04_fan_00",
+          "vertex_range": [
+            384,
+            400
+          ],
+          "triangle_range": [
+            672,
+            700
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0034824795031737315
+        },
+        {
+          "role": "tier_04_fan_01",
+          "vertex_range": [
+            400,
+            416
+          ],
+          "triangle_range": [
+            700,
+            728
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.005174061904816955
+        },
+        {
+          "role": "tier_04_fan_02",
+          "vertex_range": [
+            416,
+            432
+          ],
+          "triangle_range": [
+            728,
+            756
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.004223483837635538
+        },
+        {
+          "role": "tier_04_fan_03",
+          "vertex_range": [
+            432,
+            448
+          ],
+          "triangle_range": [
+            756,
+            784
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.004494747262019911
+        },
+        {
+          "role": "tier_04_fan_04",
+          "vertex_range": [
+            448,
+            464
+          ],
+          "triangle_range": [
+            784,
+            812
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.005142755207564219
+        },
+        {
+          "role": "tier_04_fan_05",
+          "vertex_range": [
+            464,
+            480
+          ],
+          "triangle_range": [
+            812,
+            840
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0054551258049097785
+        },
+        {
+          "role": "tier_05_fan_00",
+          "vertex_range": [
+            480,
+            496
+          ],
+          "triangle_range": [
+            840,
+            868
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0016666376116101687
+        },
+        {
+          "role": "tier_05_fan_01",
+          "vertex_range": [
+            496,
+            512
+          ],
+          "triangle_range": [
+            868,
+            896
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0015125302866382797
+        },
+        {
+          "role": "tier_05_fan_02",
+          "vertex_range": [
+            512,
+            528
+          ],
+          "triangle_range": [
+            896,
+            924
+          ],
+          "material_slot": 0,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.001834787079350723
+        },
+        {
+          "role": "tier_05_fan_03",
+          "vertex_range": [
+            528,
+            544
+          ],
+          "triangle_range": [
+            924,
+            952
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0016926188195062319
+        },
+        {
+          "role": "tier_05_fan_04",
+          "vertex_range": [
+            544,
+            560
+          ],
+          "triangle_range": [
+            952,
+            980
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0016608524754683335
+        },
+        {
+          "role": "tier_06_fan_00",
+          "vertex_range": [
+            560,
+            576
+          ],
+          "triangle_range": [
+            980,
+            1008
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0005898799445346169
+        },
+        {
+          "role": "tier_06_fan_01",
+          "vertex_range": [
+            576,
+            592
+          ],
+          "triangle_range": [
+            1008,
+            1036
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0007399739657684452
+        },
+        {
+          "role": "tier_06_fan_02",
+          "vertex_range": [
+            592,
+            608
+          ],
+          "triangle_range": [
+            1036,
+            1064
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0005214993936713493
+        },
+        {
+          "role": "tier_06_fan_03",
+          "vertex_range": [
+            608,
+            624
+          ],
+          "triangle_range": [
+            1064,
+            1092
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0007914609583820969
+        },
+        {
+          "role": "tier_06_fan_04",
+          "vertex_range": [
+            624,
+            640
+          ],
+          "triangle_range": [
+            1092,
+            1120
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0007602740514627208
+        },
+        {
+          "role": "continuous_core_and_pointed_leader",
+          "vertex_range": [
+            640,
+            686
+          ],
+          "triangle_range": [
+            1120,
+            1208
+          ],
+          "material_slot": 1,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.04667481756089062
+        }
+      ],
+      "material_triangles": {
+        "Cypress needles \u2014 deep blue green": 56,
+        "Fir needles \u2014 forest green": 1152
+      },
+      "attachment": "All fan root heels straddle central axis and overlap continuous opaque core, which extends through original trunk centerline. Exact source trunk included only in diagnostic, not asset.",
+      "source_trunk_component_vertices": 10,
+      "source_trunk_bounds": [
+        [
+          -110.26707458496094,
+          49.89668273925781,
+          30.576074600219727
+        ],
+        [
+          -109.71752166748047,
+          50.273258209228516,
+          38.88749694824219
+        ]
+      ]
+    },
+    {
+      "trunk_seed": 3350,
+      "object": "STUDY | crown trunk 3350",
+      "source_range": [
+        15211,
+        15589
+      ],
+      "source_counts": [
+        378,
+        608,
+        37
+      ],
+      "mapping_verified": true,
+      "bounds": [
+        [
+          -109.34844207763672,
+          41.10434341430664,
+          29.440134048461914
+        ],
+        [
+          -104.19918060302734,
+          46.340354919433594,
+          37.430397033691406
+        ]
+      ],
+      "authored_vertices": 686,
+      "authored_triangles": 1208,
+      "components": [
+        {
+          "role": "tier_00_fan_00",
+          "vertex_range": [
+            0,
+            16
+          ],
+          "triangle_range": [
+            0,
+            28
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.04397735774402897
+        },
+        {
+          "role": "tier_00_fan_01",
+          "vertex_range": [
+            16,
+            32
+          ],
+          "triangle_range": [
+            28,
+            56
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.045976985988075626
+        },
+        {
+          "role": "tier_00_fan_02",
+          "vertex_range": [
+            32,
+            48
+          ],
+          "triangle_range": [
+            56,
+            84
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.03132047180064652
+        },
+        {
+          "role": "tier_00_fan_03",
+          "vertex_range": [
+            48,
+            64
+          ],
+          "triangle_range": [
+            84,
+            112
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.02778702432938923
+        },
+        {
+          "role": "tier_00_fan_04",
+          "vertex_range": [
+            64,
+            80
+          ],
+          "triangle_range": [
+            112,
+            140
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.03221894082763421
+        },
+        {
+          "role": "tier_00_fan_05",
+          "vertex_range": [
+            80,
+            96
+          ],
+          "triangle_range": [
+            140,
+            168
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.03691679317217618
+        },
+        {
+          "role": "tier_01_fan_00",
+          "vertex_range": [
+            96,
+            112
+          ],
+          "triangle_range": [
+            168,
+            196
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.028955743876352642
+        },
+        {
+          "role": "tier_01_fan_01",
+          "vertex_range": [
+            112,
+            128
+          ],
+          "triangle_range": [
+            196,
+            224
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.02409172046318795
+        },
+        {
+          "role": "tier_01_fan_02",
+          "vertex_range": [
+            128,
+            144
+          ],
+          "triangle_range": [
+            224,
+            252
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.03148318126350808
+        },
+        {
+          "role": "tier_01_fan_03",
+          "vertex_range": [
+            144,
+            160
+          ],
+          "triangle_range": [
+            252,
+            280
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.027604657679383318
+        },
+        {
+          "role": "tier_01_fan_04",
+          "vertex_range": [
+            160,
+            176
+          ],
+          "triangle_range": [
+            280,
+            308
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.03114716561174439
+        },
+        {
+          "role": "tier_01_fan_05",
+          "vertex_range": [
+            176,
+            192
+          ],
+          "triangle_range": [
+            308,
+            336
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.02781813348003077
+        },
+        {
+          "role": "tier_02_fan_00",
+          "vertex_range": [
+            192,
+            208
+          ],
+          "triangle_range": [
+            336,
+            364
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.018809604747358554
+        },
+        {
+          "role": "tier_02_fan_01",
+          "vertex_range": [
+            208,
+            224
+          ],
+          "triangle_range": [
+            364,
+            392
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.015560533858607143
+        },
+        {
+          "role": "tier_02_fan_02",
+          "vertex_range": [
+            224,
+            240
+          ],
+          "triangle_range": [
+            392,
+            420
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.02029839380137985
+        },
+        {
+          "role": "tier_02_fan_03",
+          "vertex_range": [
+            240,
+            256
+          ],
+          "triangle_range": [
+            420,
+            448
+          ],
+          "material_slot": 0,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.01998240468309956
+        },
+        {
+          "role": "tier_02_fan_04",
+          "vertex_range": [
+            256,
+            272
+          ],
+          "triangle_range": [
+            448,
+            476
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.013494478371515878
+        },
+        {
+          "role": "tier_02_fan_05",
+          "vertex_range": [
+            272,
+            288
+          ],
+          "triangle_range": [
+            476,
+            504
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.01746429891010706
+        },
+        {
+          "role": "tier_03_fan_00",
+          "vertex_range": [
+            288,
+            304
+          ],
+          "triangle_range": [
+            504,
+            532
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.008776644216716053
+        },
+        {
+          "role": "tier_03_fan_01",
+          "vertex_range": [
+            304,
+            320
+          ],
+          "triangle_range": [
+            532,
+            560
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0091156842637085
+        },
+        {
+          "role": "tier_03_fan_02",
+          "vertex_range": [
+            320,
+            336
+          ],
+          "triangle_range": [
+            560,
+            588
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.009403160201709266
+        },
+        {
+          "role": "tier_03_fan_03",
+          "vertex_range": [
+            336,
+            352
+          ],
+          "triangle_range": [
+            588,
+            616
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.009111161156104
+        },
+        {
+          "role": "tier_03_fan_04",
+          "vertex_range": [
+            352,
+            368
+          ],
+          "triangle_range": [
+            616,
+            644
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.011212187062849993
+        },
+        {
+          "role": "tier_03_fan_05",
+          "vertex_range": [
+            368,
+            384
+          ],
+          "triangle_range": [
+            644,
+            672
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.008528059012305167
+        },
+        {
+          "role": "tier_04_fan_00",
+          "vertex_range": [
+            384,
+            400
+          ],
+          "triangle_range": [
+            672,
+            700
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.004620412167227068
+        },
+        {
+          "role": "tier_04_fan_01",
+          "vertex_range": [
+            400,
+            416
+          ],
+          "triangle_range": [
+            700,
+            728
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.004178263467792525
+        },
+        {
+          "role": "tier_04_fan_02",
+          "vertex_range": [
+            416,
+            432
+          ],
+          "triangle_range": [
+            728,
+            756
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.005823407232745706
+        },
+        {
+          "role": "tier_04_fan_03",
+          "vertex_range": [
+            432,
+            448
+          ],
+          "triangle_range": [
+            756,
+            784
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.005869561826204685
+        },
+        {
+          "role": "tier_04_fan_04",
+          "vertex_range": [
+            448,
+            464
+          ],
+          "triangle_range": [
+            784,
+            812
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.005746462034919191
+        },
+        {
+          "role": "tier_04_fan_05",
+          "vertex_range": [
+            464,
+            480
+          ],
+          "triangle_range": [
+            812,
+            840
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.004612718553774339
+        },
+        {
+          "role": "tier_05_fan_00",
+          "vertex_range": [
+            480,
+            496
+          ],
+          "triangle_range": [
+            840,
+            868
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0023952108584784585
+        },
+        {
+          "role": "tier_05_fan_01",
+          "vertex_range": [
+            496,
+            512
+          ],
+          "triangle_range": [
+            868,
+            896
+          ],
+          "material_slot": 0,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.002276671195544426
+        },
+        {
+          "role": "tier_05_fan_02",
+          "vertex_range": [
+            512,
+            528
+          ],
+          "triangle_range": [
+            896,
+            924
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0017883076987381071
+        },
+        {
+          "role": "tier_05_fan_03",
+          "vertex_range": [
+            528,
+            544
+          ],
+          "triangle_range": [
+            924,
+            952
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.00262861182474409
+        },
+        {
+          "role": "tier_05_fan_04",
+          "vertex_range": [
+            544,
+            560
+          ],
+          "triangle_range": [
+            952,
+            980
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.001865704339217633
+        },
+        {
+          "role": "tier_06_fan_00",
+          "vertex_range": [
+            560,
+            576
+          ],
+          "triangle_range": [
+            980,
+            1008
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0007124695228032587
+        },
+        {
+          "role": "tier_06_fan_01",
+          "vertex_range": [
+            576,
+            592
+          ],
+          "triangle_range": [
+            1008,
+            1036
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0005225753909672384
+        },
+        {
+          "role": "tier_06_fan_02",
+          "vertex_range": [
+            592,
+            608
+          ],
+          "triangle_range": [
+            1036,
+            1064
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0007760029555920414
+        },
+        {
+          "role": "tier_06_fan_03",
+          "vertex_range": [
+            608,
+            624
+          ],
+          "triangle_range": [
+            1064,
+            1092
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0008611103552337544
+        },
+        {
+          "role": "tier_06_fan_04",
+          "vertex_range": [
+            624,
+            640
+          ],
+          "triangle_range": [
+            1092,
+            1120
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.0008520503048114838
+        },
+        {
+          "role": "continuous_core_and_pointed_leader",
+          "vertex_range": [
+            640,
+            686
+          ],
+          "triangle_range": [
+            1120,
+            1208
+          ],
+          "material_slot": 2,
+          "closed_oriented": true,
+          "pre_fit_volume": 0.04667481756089062
+        }
+      ],
+      "material_triangles": {
+        "Cypress needles \u2014 deep blue green": 56,
+        "Sunlit needle tips": 1152
+      },
+      "attachment": "All fan root heels straddle central axis and overlap continuous opaque core, which extends through original trunk centerline. Exact source trunk included only in diagnostic, not asset.",
+      "source_trunk_component_vertices": 10,
+      "source_trunk_bounds": [
+        [
+          -106.8835678100586,
+          43.759033203125,
+          28.866859436035156
+        ],
+        [
+          -106.22917175292969,
+          44.154109954833984,
+          36.835487365722656
+        ]
+      ]
+    }
+  ],
+  "integration": "Append only STUDY collection, reuse original material names by identity/remap; mask exact verified original ranges separately. No original object modified.",
+  "total_triangles": 3624,
+  "asset_sha256": "a806609799c9d9dc2e9792694649f50dc18b7c938d639140435334ebc7d3b673",
+  "asset_bytes": 131268,
+  "design_preflight_status": "REJECT: shelf-like polygonal rims and exposed vertical tier gaps; no whole-scene acceptance",
+  "verification_limits": [
+    "Convexity, closed manifold topology and positive signed volume checked before envelope fit. Post-fit independent self-intersection/contact certification not performed.",
+    "Per-tree source AABB matched exactly; new occupied volume outside old canopy solids not quantified. Occupancy preservation and route clearance NOT certified.",
+    "Core intended to intersect original woody carrier and all fan heels; actual intersection/contact independently unverified.",
+    "No baseline/A whole-scene comparison performed: rejected at isolated design preflight."
+  ],
+  "generator_sha256": "ea840120de69e00c3484ed0ce88127bcf4c9b174fe4345b178cfde00060ade5f"
+}

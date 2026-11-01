@@ -1,0 +1,354 @@
+{
+  "source_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "source_unchanged": true,
+  "camera_reference": {
+    "location": [
+      83.50981903076172,
+      -363.8041076660156,
+      16.0
+    ],
+    "target": [
+      -35.0,
+      35.0,
+      85.0
+    ],
+    "resolution": [
+      2400,
+      2400
+    ],
+    "lens": 43,
+    "radius": 416.0400137838742,
+    "reference_matrix": [
+      [
+        0.9585715532302856,
+        0.04660593345761299,
+        0.2810133695602417,
+        83.50981903076172
+      ],
+      [
+        0.28485193848609924,
+        -0.15683606266975403,
+        -0.9456541538238525,
+        -363.8041076660156
+      ],
+      [
+        -6.140955832734107e-08,
+        0.9865243434906006,
+        -0.16361437737941742,
+        16.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_data": {
+      "lens": 43.0,
+      "sensor_width": 36.0,
+      "sensor_height": 24.0,
+      "sensor_fit": "HORIZONTAL",
+      "clip_start": 0.10000000149011612,
+      "clip_end": 3000.0,
+      "shift_x": 0.0,
+      "shift_y": -0.07893162965774536
+    },
+    "projection": {
+      "main_architecture": {
+        "xy": [
+          [
+            0.2571350038051605,
+            0.8542983531951904
+          ],
+          [
+            0.3496140241622925,
+            0.9299999475479126
+          ]
+        ]
+      },
+      "offshore_architecture": {
+        "xy": [
+          [
+            0.9231688380241394,
+            0.9558169841766357
+          ],
+          [
+            0.3392297327518463,
+            0.41859182715415955
+          ]
+        ]
+      },
+      "supporting_coast": {
+        "xy": [
+          [
+            0.09166295826435089,
+            0.8670197129249573
+          ],
+          [
+            0.3183273375034332,
+            0.4333799481391907
+          ]
+        ]
+      }
+    }
+  },
+  "rays": [
+    {
+      "pixel": [
+        730,
+        1335
+      ],
+      "object": "V010 | woodland boughs with gate exit clearance",
+      "location": [
+        -113.84503936767578,
+        44.35009765625,
+        39.058143615722656
+      ],
+      "face": 241184,
+      "source_vertex_ids": [
+        159627,
+        159629,
+        159632
+      ],
+      "component_seed": 159627
+    },
+    {
+      "pixel": [
+        730,
+        1360
+      ],
+      "object": "V010 | woodland boughs with gate exit clearance",
+      "location": [
+        -113.5119857788086,
+        43.8953857421875,
+        35.177833557128906
+      ],
+      "face": 241084,
+      "source_vertex_ids": [
+        159553,
+        159557,
+        159556
+      ],
+      "component_seed": 159552
+    },
+    {
+      "pixel": [
+        730,
+        1385
+      ],
+      "object": "V010 | woodland boughs with gate exit clearance",
+      "location": [
+        -107.91883087158203,
+        32.5484619140625,
+        30.907886505126953
+      ],
+      "face": 251167,
+      "source_vertex_ids": [
+        166504,
+        166508,
+        166512
+      ],
+      "component_seed": 166501
+    },
+    {
+      "pixel": [
+        730,
+        1410
+      ],
+      "object": "V010 | woodland boughs with gate exit clearance",
+      "location": [
+        -88.65023040771484,
+        -7.143341064453125,
+        26.06291961669922
+      ],
+      "face": 250796,
+      "source_vertex_ids": [
+        166283,
+        166280,
+        166284
+      ],
+      "component_seed": 166277
+    },
+    {
+      "pixel": [
+        765,
+        1335
+      ],
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "location": [
+        -125.33116149902344,
+        81.5,
+        41.061805725097656
+      ],
+      "face": 8
+    },
+    {
+      "pixel": [
+        765,
+        1360
+      ],
+      "object": "V010 | woodland boughs with gate exit clearance",
+      "location": [
+        -110.39554595947266,
+        49.878204345703125,
+        35.385826110839844
+      ],
+      "face": 185212,
+      "source_vertex_ids": [
+        122314,
+        122311,
+        122316
+      ],
+      "component_seed": 122310
+    },
+    {
+      "pixel": [
+        765,
+        1385
+      ],
+      "object": "V010 | woodland boughs with gate exit clearance",
+      "location": [
+        -106.94524383544922,
+        42.737762451171875,
+        31.23351287841797
+      ],
+      "face": 23146,
+      "source_vertex_ids": [
+        15259,
+        15265,
+        15268
+      ],
+      "component_seed": 15253
+    },
+    {
+      "pixel": [
+        765,
+        1410
+      ],
+      "object": "V002 | western headland with solid rock shore",
+      "location": [
+        -102.3382797241211,
+        33.118560791015625,
+        27.15674591064453
+      ],
+      "face": 12097
+    },
+    {
+      "pixel": [
+        800,
+        1335
+      ],
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "location": [
+        -108.02562713623047,
+        57.56999969482422,
+        39.625736236572266
+      ],
+      "face": 4620
+    },
+    {
+      "pixel": [
+        800,
+        1360
+      ],
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "location": [
+        -108.01376342773438,
+        57.75975036621094,
+        35.6808967590332
+      ],
+      "face": 8724
+    },
+    {
+      "pixel": [
+        800,
+        1385
+      ],
+      "object": "V002 | western headland with solid rock shore",
+      "location": [
+        -107.7290267944336,
+        57.348052978515625,
+        31.72173500061035
+      ],
+      "face": 14171
+    },
+    {
+      "pixel": [
+        800,
+        1410
+      ],
+      "object": "Narrow winding limestone footpath | conformed to meadow",
+      "location": [
+        -98.96546173095703,
+        38.253509521484375,
+        27.258716583251953
+      ],
+      "face": 1111
+    },
+    {
+      "pixel": [
+        835,
+        1335
+      ],
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "location": [
+        -102.63932800292969,
+        59.04834747314453,
+        39.619693756103516
+      ],
+      "face": 7998
+    },
+    {
+      "pixel": [
+        835,
+        1360
+      ],
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "location": [
+        -102.54293060302734,
+        59.03176498413086,
+        35.666351318359375
+      ],
+      "face": 7998
+    },
+    {
+      "pixel": [
+        835,
+        1385
+      ],
+      "object": "V010 | woodland boughs with gate exit clearance",
+      "location": [
+        -88.34989166259766,
+        26.962310791015625,
+        30.53287124633789
+      ],
+      "face": 99213,
+      "source_vertex_ids": [
+        65627,
+        65628,
+        65630
+      ],
+      "component_seed": 65622
+    },
+    {
+      "pixel": [
+        835,
+        1410
+      ],
+      "object": "V010 | woodland boughs with gate exit clearance",
+      "location": [
+        -75.46324920654297,
+        -2.16644287109375,
+        26.089031219482422
+      ],
+      "face": 203909,
+      "source_vertex_ids": [
+        134546,
+        134545,
+        134544
+      ],
+      "component_seed": 134544
+    }
+  ]
+}
