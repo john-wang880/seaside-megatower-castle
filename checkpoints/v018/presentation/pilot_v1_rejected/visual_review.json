@@ -1,0 +1,82 @@
+{
+  "receipt_integrity_pass": true,
+  "representative_actual_images_viewed": [
+    4,
+    76,
+    83,
+    303,
+    336
+  ],
+  "visual_acceptance": false,
+  "findings": [
+    "Frame 76 is dominated by nearby stone wall and lantern; corridor destination is not legible. Frame 83 reveals the stair corridor only at the left while the close wall still dominates. Geometric camera clearance does not resolve this composition failure.",
+    "Entrance frame 4 is legible warm interior; arrival frame 303 and terminal 336 show real daylight and exterior tower through the opening, with naturally dark interior framing.",
+    "Five still-image inspections and pixel-difference statistics do not certify temporal denoiser stability or absence of flicker. No interpolated or encoded video was generated in this review."
+  ],
+  "sequence_statistics": {
+    "1": {
+      "translation_m": [
+        4.7206878662109375e-05,
+        0.029832839965820312
+      ],
+      "orientation_degrees": [
+        0.0,
+        0.0
+      ],
+      "pixel_mae_8bit": [
+        0.11321245597182196,
+        2.1816147334293947
+      ],
+      "pixel_p95_difference": [
+        1.0,
+        7.0
+      ]
+    },
+    "76": {
+      "translation_m": [
+        0.02916146280626745,
+        0.029166698455810547
+      ],
+      "orientation_degrees": [
+        3.5853596516640502,
+        3.7428984809916344
+      ],
+      "pixel_mae_8bit": [
+        13.982271153538264,
+        16.423356948447005
+      ],
+      "pixel_p95_difference": [
+        41.0,
+        68.0
+      ]
+    },
+    "303": {
+      "translation_m": [
+        0.049999237060546875,
+        0.0500030517578125
+      ],
+      "orientation_degrees": [
+        1.3026509416759666,
+        1.6992099788376887
+      ],
+      "pixel_mae_8bit": [
+        7.764951068683958,
+        9.318623418988153
+      ],
+      "pixel_p95_difference": [
+        50.0,
+        65.0
+      ]
+    }
+  },
+  "disposition": "Hold full render. Owner is evaluating gaze-only revision; any changed plan/code requires new identity and revised pilot review. No approval receipt created.",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "identity": {
+    "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+    "plan_sha256": "2b12721de9c4374610d1e5ae56b1dd8d67a4ff0c4f72597cb7c27df5fd16b688",
+    "worker_sha256": "79517ae084af0230ef13459c08ab8b34d9a454b0f3c1a43ba2310b0e305c2d80",
+    "motion_sha256": "d7c037301d2afa0ade52a9f8d91045c6b34ede3050df472aed8c3613eb0f7420",
+    "runner_sha256": "ecbc44e2f128018e93d06b2b7cf299bdd39e5506db22a9e3e8b7b0c14f62f4e4",
+    "validator_sha256": "06025c79c8eb808aa648f18049b67ebe3d2826f8b73787c713d3b15245c19771"
+  }
+}

@@ -1,7 +1,6 @@
 {
   "all_pass": true,
-  "synthetic_and_pure_only": true,
-  "render_started": false,
+  "no_blender_started": true,
   "tests": [
     {
       "test": "test_resume_validation.py",
@@ -13,11 +12,14 @@
       "test": "test_motion_plan.py",
       "returncode": 0,
       "stdout": "",
-      "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.080s\n\nOK\n"
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.087s\n\nOK\n"
     },
     {
-      "test": "Full-stage without owner pilot approval rejected, dry-run only",
-      "returncode": 1,
+      "test": "Portable plan generator byte-exact reproduction",
+      "pass": true
+    },
+    {
+      "test": "Full-stage without newownerpilot approval rejected",
       "expected_rejection": true
     }
   ]

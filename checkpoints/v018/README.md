@@ -41,3 +41,6 @@ blender -b --disable-autoexec --python checkpoints/v018/scripts/validate_geometr
 [入口内廊至露台相机预览计划](presentation/interior_route/README.md)已保存可复现脚本、连续相机空间检查与分阶段渲染计划；目标28秒/12fps/336张真实帧，**尚未完成视频**。先渲染25张覆盖入口、转角、开口和终点的试片，通过实际画面复核后才继续其余帧。
 
 [草岩交界只读审查](audits/landscape_transition/README.md)得到有用否定结果：当前展示尺度未见值得局部改动的明显边界问题，保留v018，不凭空散布植被或重复湿润/浪花调整。
+
+### 相机预览视线修订V2
+第一轮真实25帧技术检查通过，但转角近墙/灯笼占画面过大，未批准全片。V2只改提前看向实际转角开口的视线，336个位置/速度/灯光及露台到达视线不变。新25帧试片为1–8、54–61、76–83、336；新独立运行身份，不把旧图冒充新渲染。旧失败试片见[pilot V1证据](presentation/pilot_v1_rejected/README.md)，仍无已完成影片。

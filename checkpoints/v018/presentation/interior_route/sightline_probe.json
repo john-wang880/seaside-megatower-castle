@@ -1,0 +1,7567 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "source_saved": false,
+  "scope": "Actual evaluated scene first-ray hits to beyond-bend points, not wholeframevisibility/illumination proof.",
+  "rays": [
+    {
+      "t": 1.0,
+      "s": 0.39571005629662503,
+      "origin": [
+        -2.604290008544922,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.068360106170886,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.0,
+      "s": 0.39571005629662503,
+      "origin": [
+        -2.604290008544922,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 12.004385981109284,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.0,
+      "s": 0.39571005629662503,
+      "origin": [
+        -2.604290008544922,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 15.828851447299977,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 5.152240633565328
+    },
+    {
+      "t": 1.05,
+      "s": 0.45326050039968946,
+      "origin": [
+        -2.5467395782470703,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.13384044722045,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.05,
+      "s": 0.45326050039968946,
+      "origin": [
+        -2.5467395782470703,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 12.100227396164343,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.05,
+      "s": 0.45326050039968946,
+      "origin": [
+        -2.5467395782470703,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 15.952448724359428,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 5.113345598204976
+    },
+    {
+      "t": 1.1,
+      "s": 0.5139255958136615,
+      "origin": [
+        -2.486074447631836,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.204017328915628,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.1,
+      "s": 0.5139255958136615,
+      "origin": [
+        -2.486074447631836,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 12.20290144505958,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.1,
+      "s": 0.5139255958136615,
+      "origin": [
+        -2.486074447631836,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 16.08478666924622,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 5.072373387216921
+    },
+    {
+      "t": 1.15,
+      "s": 0.5772922910709534,
+      "origin": [
+        -2.4227077960968018,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.278615284496825,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.15,
+      "s": 0.5772922910709534,
+      "origin": [
+        -2.4227077960968018,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 12.311996379884665,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.15,
+      "s": 0.5772922910709534,
+      "origin": [
+        -2.4227077960968018,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 16.225319882862586,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 5.029604602769327
+    },
+    {
+      "t": 1.2,
+      "s": 0.6429206496972115,
+      "origin": [
+        -2.357079267501831,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.357308605767383,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.2,
+      "s": 0.6429206496972115,
+      "origin": [
+        -2.357079267501831,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 12.427027086080537,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.2,
+      "s": 0.6429206496972115,
+      "origin": [
+        -2.357079267501831,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 16.373408702339752,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.985343233675075
+    },
+    {
+      "t": 1.25,
+      "s": 0.7103595622282591,
+      "origin": [
+        -2.289640426635742,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.439736023379634,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.25,
+      "s": 0.7103595622282591,
+      "origin": [
+        -2.289640426635742,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 12.547456811583752,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.25,
+      "s": 0.7103595622282591,
+      "origin": [
+        -2.289640426635742,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 16.52834763689827,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.939894908728807
+    },
+    {
+      "t": 1.3,
+      "s": 0.7791645531626251,
+      "origin": [
+        -2.2208354473114014,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.525512816469075,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.3,
+      "s": 0.7791645531626251,
+      "origin": [
+        -2.2208354473114014,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 12.672715100347578,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.3,
+      "s": 0.7791645531626251,
+      "origin": [
+        -2.2208354473114014,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 16.689388849428386,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.89356470725534
+    },
+    {
+      "t": 1.35,
+      "s": 0.8489176828496741,
+      "origin": [
+        -2.1510822772979736,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.614257353779474,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.35,
+      "s": 0.8489176828496741,
+      "origin": [
+        -2.1510822772979736,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 12.802236737426187,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.35,
+      "s": 0.8489176828496741,
+      "origin": [
+        -2.1510822772979736,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 16.85579254283364,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.846635511213513
+    },
+    {
+      "t": 1.4,
+      "s": 0.9192495443133228,
+      "origin": [
+        -2.0807504653930664,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.705612995376883,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.4,
+      "s": 0.9192495443133228,
+      "origin": [
+        -2.0807504653930664,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 12.935493799030956,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.4,
+      "s": 0.9192495443133228,
+      "origin": [
+        -2.0807504653930664,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 17.026868275798087,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.799360510452401
+    },
+    {
+      "t": 1.45,
+      "s": 0.989863355011349,
+      "origin": [
+        -2.010136604309082,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.799290141038238,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.45,
+      "s": 0.989863355011349,
+      "origin": [
+        -2.010136604309082,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 13.072056939660849,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.45,
+      "s": 0.989863355011349,
+      "origin": [
+        -2.010136604309082,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 17.20205355855148,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.751938507458978
+    },
+    {
+      "t": 1.5,
+      "s": 1.0605611435302928,
+      "origin": [
+        -1.939438819885254,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.895103819680994,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.5,
+      "s": 1.0605611435302928,
+      "origin": [
+        -1.939438819885254,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 13.211649939753173,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.5,
+      "s": 1.0605611435302928,
+      "origin": [
+        -1.939438819885254,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 17.380983401374788,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.704506129503387
+    },
+    {
+      "t": 1.55,
+      "s": 1.1312652197656459,
+      "origin": [
+        -1.8687348365783691,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 8.993018390053805,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.55,
+      "s": 1.1312652197656459,
+      "origin": [
+        -1.8687348365783691,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 13.354214362139112,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.55,
+      "s": 1.1312652197656459,
+      "origin": [
+        -1.8687348365783691,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 17.56357240176741,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.657117250823036
+    },
+    {
+      "t": 1.6,
+      "s": 1.2019692960009987,
+      "origin": [
+        -1.7980307340621948,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 9.09309425378316,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.6,
+      "s": 1.2019692960009987,
+      "origin": [
+        -1.7980307340621948,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 13.499831375274795,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.6,
+      "s": 1.2019692960009987,
+      "origin": [
+        -1.7980307340621948,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 17.749913633070047,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.609775312465409
+    },
+    {
+      "t": 1.65,
+      "s": 1.2726733722363512,
+      "origin": [
+        -1.7273266315460205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 9.195403835952824,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.65,
+      "s": 1.2726733722363512,
+      "origin": [
+        -1.7273266315460205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 13.648599154404174,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.65,
+      "s": 1.2726733722363512,
+      "origin": [
+        -1.7273266315460205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 17.940121189150116,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.562483565418482
+    },
+    {
+      "t": 1.7000000000000002,
+      "s": 1.3433774484717045,
+      "origin": [
+        -1.6566225290298462,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 9.300020664468322,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.7000000000000002,
+      "s": 1.3433774484717045,
+      "origin": [
+        -1.6566225290298462,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 13.800616933770863,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.7000000000000002,
+      "s": 1.3433774484717045,
+      "origin": [
+        -1.6566225290298462,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 18.13430969012266,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.515243194040794
+    },
+    {
+      "t": 1.75,
+      "s": 1.4140815247070573,
+      "origin": [
+        -1.5859184265136719,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 9.407023685687669,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.75,
+      "s": 1.4140815247070573,
+      "origin": [
+        -1.5859184265136719,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 13.955991236647773,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.75,
+      "s": 1.4140815247070573,
+      "origin": [
+        -1.5859184265136719,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 18.33260218309212,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.468055340987887
+    },
+    {
+      "t": 1.8,
+      "s": 1.48478560094241,
+      "origin": [
+        -1.515214443206787,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 9.516494708354815,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.8,
+      "s": 1.48478560094241,
+      "origin": [
+        -1.515214443206787,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 14.114832108282133,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.8,
+      "s": 1.48478560094241,
+      "origin": [
+        -1.515214443206787,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 18.535125254212375,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.4209231845103245
+    },
+    {
+      "t": 1.85,
+      "s": 1.555489677177763,
+      "origin": [
+        -1.4445103406906128,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 9.628519286885044,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.85,
+      "s": 1.555489677177763,
+      "origin": [
+        -1.4445103406906128,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 14.27725434640513,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.85,
+      "s": 1.555489677177763,
+      "origin": [
+        -1.4445103406906128,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 18.74201052605824,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.3738462135845095
+    },
+    {
+      "t": 1.9,
+      "s": 1.6261937534131157,
+      "origin": [
+        -1.3738062381744385,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 9.743187718402085,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.9,
+      "s": 1.6261937534131157,
+      "origin": [
+        -1.3738062381744385,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 14.443378887058374,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.9,
+      "s": 1.6261937534131157,
+      "origin": [
+        -1.3738062381744385,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 18.953396338696706,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.326828266576337
+    },
+    {
+      "t": 1.9500000000000002,
+      "s": 1.696897829648469,
+      "origin": [
+        -1.3031021356582642,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 9.860592161037278,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.9500000000000002,
+      "s": 1.696897829648469,
+      "origin": [
+        -1.3031021356582642,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 14.613328566885501,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 1.9500000000000002,
+      "s": 1.696897829648469,
+      "origin": [
+        -1.3031021356582642,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 19.169422270010003,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.279869984875766
+    },
+    {
+      "t": 2.0,
+      "s": 1.7676019058838215,
+      "origin": [
+        -1.2323981523513794,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 9.98083151825935,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.0,
+      "s": 1.7676019058838215,
+      "origin": [
+        -1.2323981523513794,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 14.787235129480017,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.0,
+      "s": 1.7676019058838215,
+      "origin": [
+        -1.2323981523513794,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 19.390237954441314,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.232974132142826
+    },
+    {
+      "t": 2.05,
+      "s": 1.838305982119174,
+      "origin": [
+        -1.161694049835205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 10.104008626579624,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.05,
+      "s": 1.838305982119174,
+      "origin": [
+        -1.161694049835205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 14.965235073481445,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.05,
+      "s": 1.838305982119174,
+      "origin": [
+        -1.161694049835205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 19.615997693007223,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.186141818685672
+    },
+    {
+      "t": 2.1,
+      "s": 1.9090100583545273,
+      "origin": [
+        -1.0909899473190308,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 10.230231301004546,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.1,
+      "s": 1.9090100583545273,
+      "origin": [
+        -1.0909899473190308,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 15.147471083382824,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.1,
+      "s": 1.9090100583545273,
+      "origin": [
+        -1.0909899473190308,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 19.846862159823115,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.139377483437444
+    },
+    {
+      "t": 2.1500000000000004,
+      "s": 1.9797141345898805,
+      "origin": [
+        -1.0202858448028564,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 10.359613519826071,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.1500000000000004,
+      "s": 1.9797141345898805,
+      "origin": [
+        -1.0202858448028564,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 15.33409364719956,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.1500000000000004,
+      "s": 1.9797141345898805,
+      "origin": [
+        -1.0202858448028564,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 20.0830003251723,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.092681468675769
+    },
+    {
+      "t": 2.2,
+      "s": 2.0504182108252333,
+      "origin": [
+        -0.9495818018913269,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 10.492272236390935,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.2,
+      "s": 2.0504182108252333,
+      "origin": [
+        -0.9495818018913269,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 15.525256359031829,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.2,
+      "s": 2.0504182108252333,
+      "origin": [
+        -0.9495818018913269,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 20.324583379421796,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 4.046056531192462
+    },
+    {
+      "t": 2.25,
+      "s": 2.1211222870605857,
+      "origin": [
+        -0.8788776993751526,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 10.628332960174088,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.25,
+      "s": 2.1211222870605857,
+      "origin": [
+        -0.8788776993751526,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 15.721123859443368,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.25,
+      "s": 2.1211222870605857,
+      "origin": [
+        -0.8788776993751526,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 20.571794633844146,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.9995049472025457
+    },
+    {
+      "t": 2.3,
+      "s": 2.191826363295938,
+      "origin": [
+        -0.808173656463623,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 10.767926661342203,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.3,
+      "s": 2.191826363295938,
+      "origin": [
+        -0.808173656463623,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 15.921867248007405,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.3,
+      "s": 2.191826363295938,
+      "origin": [
+        -0.808173656463623,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 20.82482355369799,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.953029602203934
+    },
+    {
+      "t": 2.35,
+      "s": 2.2625304395312917,
+      "origin": [
+        -0.7374695539474487,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 10.911191033103039,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.35,
+      "s": 2.2625304395312917,
+      "origin": [
+        -0.7374695539474487,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 16.127665770844125,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.35,
+      "s": 2.2625304395312917,
+      "origin": [
+        -0.7374695539474487,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 21.083867719135355,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.906633652920295
+    },
+    {
+      "t": 2.4000000000000004,
+      "s": 2.333234515766645,
+      "origin": [
+        -0.6667655110359192,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 11.058270922660872,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.4000000000000004,
+      "s": 2.333234515766645,
+      "origin": [
+        -0.6667655110359192,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 16.33870729431495,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.4000000000000004,
+      "s": 2.333234515766645,
+      "origin": [
+        -0.6667655110359192,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 21.349133232634735,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.8603189400901985
+    },
+    {
+      "t": 2.45,
+      "s": 2.4039385920019978,
+      "origin": [
+        -0.5960614085197449,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 11.209319827664793,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.45,
+      "s": 2.4039385920019978,
+      "origin": [
+        -0.5960614085197449,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 16.555190289533908,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.45,
+      "s": 2.4039385920019978,
+      "origin": [
+        -0.5960614085197449,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 21.620837003251975,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.81408886749955
+    },
+    {
+      "t": 2.5,
+      "s": 2.47464266823735,
+      "origin": [
+        -0.5253573060035706,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 11.364496294958771,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.5,
+      "s": 2.47464266823735,
+      "origin": [
+        -0.5253573060035706,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 16.77731849621266,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.5,
+      "s": 2.47464266823735,
+      "origin": [
+        -0.5253573060035706,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 21.89919982697361,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.7679468195002364
+    },
+    {
+      "t": 2.55,
+      "s": 2.5453467444727025,
+      "origin": [
+        -0.454653263092041,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 11.523970570386597,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.55,
+      "s": 2.5453467444727025,
+      "origin": [
+        -0.454653263092041,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 17.00531025769445,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.55,
+      "s": 2.5453467444727025,
+      "origin": [
+        -0.454653263092041,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 22.184457856454333,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.721895360290415
+    },
+    {
+      "t": 2.6,
+      "s": 2.6160508207080557,
+      "origin": [
+        -0.3839491903781891,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 11.687921134172413,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.6,
+      "s": 2.6160508207080557,
+      "origin": [
+        -0.3839491903781891,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 17.2393933364205,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.6,
+      "s": 2.6160508207080557,
+      "origin": [
+        -0.3839491903781891,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 22.476855820048524,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.675939814951047
+    },
+    {
+      "t": 2.6500000000000004,
+      "s": 2.686754896943409,
+      "origin": [
+        -0.31324511766433716,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 11.856536334980156,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.6500000000000004,
+      "s": 2.686754896943409,
+      "origin": [
+        -0.31324511766433716,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 17.479807015384857,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.6500000000000004,
+      "s": 2.686754896943409,
+      "origin": [
+        -0.31324511766433716,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 22.77664936284042,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.6300822591393764
+    },
+    {
+      "t": 2.7,
+      "s": 2.7574589731787618,
+      "origin": [
+        -0.24254103004932404,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 12.03001625681582,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.7,
+      "s": 2.7574589731787618,
+      "origin": [
+        -0.24254103004932404,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 17.72680449295046,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.7,
+      "s": 2.7574589731787618,
+      "origin": [
+        -0.24254103004932404,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 23.08410770561743,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.5843254581892263
+    },
+    {
+      "t": 2.75,
+      "s": 2.8281630494141146,
+      "origin": [
+        -0.1718369573354721,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 12.20856874269393,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.75,
+      "s": 2.8281630494141146,
+      "origin": [
+        -0.1718369573354721,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 17.980646931752347,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.75,
+      "s": 2.8281630494141146,
+      "origin": [
+        -0.1718369573354721,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 23.39950588814792,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.538674943852928
+    },
+    {
+      "t": 2.8,
+      "s": 2.898867125649467,
+      "origin": [
+        -0.10113287717103958,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 12.392417209624618,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.8,
+      "s": 2.898867125649467,
+      "origin": [
+        -0.10113287717103958,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 18.241614260290223,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.8,
+      "s": 2.898867125649467,
+      "origin": [
+        -0.10113287717103958,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 23.723137827218217,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.493134713629504
+    },
+    {
+      "t": 2.85,
+      "s": 2.9695712018848206,
+      "origin": [
+        -0.030428798869252205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 12.581796867680143,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.85,
+      "s": 2.9695712018848206,
+      "origin": [
+        -0.030428798869252205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 18.509999423607244,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.85,
+      "s": 2.9695712018848206,
+      "origin": [
+        -0.030428798869252205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 24.055308728344087,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.447709104200681
+    },
+    {
+      "t": 2.9000000000000004,
+      "s": 3.0402752781201734,
+      "origin": [
+        0.04027527943253517,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 12.776956811589011,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.9000000000000004,
+      "s": 3.0402752781201734,
+      "origin": [
+        0.04027527943253517,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 18.78611095612207,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.9000000000000004,
+      "s": 3.0402752781201734,
+      "origin": [
+        0.04027527943253517,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 24.396337818700754,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.4024024185307926
+    },
+    {
+      "t": 2.95,
+      "s": 3.110979354355526,
+      "origin": [
+        0.1109793558716774,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 12.978162417948926,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.95,
+      "s": 3.110979354355526,
+      "origin": [
+        0.1109793558716774,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 19.07027592250008,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 2.95,
+      "s": 3.110979354355526,
+      "origin": [
+        0.1109793558716774,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 24.746561461136853,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.357218697942774
+    },
+    {
+      "t": 3.0,
+      "s": 3.181683430590879,
+      "origin": [
+        0.18168343603610992,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 13.185690985392778,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.0,
+      "s": 3.181683430590879,
+      "origin": [
+        0.18168343603610992,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 19.3628332667557,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.0,
+      "s": 3.181683430590879,
+      "origin": [
+        0.18168343603610992,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 25.106324401056956,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.312165000458322
+    },
+    {
+      "t": 3.0500000000000003,
+      "s": 3.252387506826232,
+      "origin": [
+        0.25238749384880066,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 13.399841079827544,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.0500000000000003,
+      "s": 3.252387506826232,
+      "origin": [
+        0.25238749384880066,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 19.66414645374947,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.0500000000000003,
+      "s": 3.252387506826232,
+      "origin": [
+        0.25238749384880066,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 25.475994727558607,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.267244260368805
+    },
+    {
+      "t": 3.1,
+      "s": 3.323091583061584,
+      "origin": [
+        0.323091596364975,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 13.620928463932993,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.1,
+      "s": 3.323091583061584,
+      "origin": [
+        0.323091596364975,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 19.97459709035794,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.1,
+      "s": 3.323091583061584,
+      "origin": [
+        0.323091596364975,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 25.855955321080952,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.222464155772053
+    },
+    {
+      "t": 3.15,
+      "s": 3.3937956592969374,
+      "origin": [
+        0.3937956690788269,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 13.849288866970234,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.15,
+      "s": 3.3937956592969374,
+      "origin": [
+        0.3937956690788269,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 20.294588134369494,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.15,
+      "s": 3.3937956592969374,
+      "origin": [
+        0.3937956690788269,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 26.24660705302928,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.177829807820314
+    },
+    {
+      "t": 3.2,
+      "s": 3.4644997355322906,
+      "origin": [
+        0.46449974179267883,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 14.085280358941638,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.2,
+      "s": 3.4644997355322906,
+      "origin": [
+        0.46449974179267883,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 20.624546441210924,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.2,
+      "s": 3.4644997355322906,
+      "origin": [
+        0.46449974179267883,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 26.64837106752747,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.1333465453936302
+    },
+    {
+      "t": 3.25,
+      "s": 3.535203811767643,
+      "origin": [
+        0.5352038145065308,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 14.329282689259557,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.25,
+      "s": 3.535203811767643,
+      "origin": [
+        0.5352038145065308,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 20.964920966781975,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.25,
+      "s": 3.535203811767643,
+      "origin": [
+        0.5352038145065308,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 27.061685685347292,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.0890222655837167
+    },
+    {
+      "t": 3.3000000000000003,
+      "s": 3.6059078880029967,
+      "origin": [
+        0.6059079170227051,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 14.581700612951265,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.3000000000000003,
+      "s": 3.6059078880029967,
+      "origin": [
+        0.6059079170227051,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 21.31618644773561,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.3000000000000003,
+      "s": 3.6059078880029967,
+      "origin": [
+        0.6059079170227051,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 27.48700990159202,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.0448640006721086
+    },
+    {
+      "t": 3.35,
+      "s": 3.676611964238349,
+      "origin": [
+        0.6766119599342346,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 14.842967718914604,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.35,
+      "s": 3.676611964238349,
+      "origin": [
+        0.6766119599342346,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 21.678847622858175,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.35,
+      "s": 3.676611964238349,
+      "origin": [
+        0.6766119599342346,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 27.924827387966314,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 3.000878009363381
+    },
+    {
+      "t": 3.4000000000000004,
+      "s": 3.7473160404737023,
+      "origin": [
+        0.7473160624504089,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 15.113547125663416,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.4000000000000004,
+      "s": 3.7473160404737023,
+      "origin": [
+        0.7473160624504089,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 22.05343893930552,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.4000000000000004,
+      "s": 3.7473160404737023,
+      "origin": [
+        0.7473160624504089,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 28.37564489514905,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 2.957072386209846
+    },
+    {
+      "t": 3.45,
+      "s": 3.8180201167090546,
+      "origin": [
+        0.8180201053619385,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 15.393931075865822,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.45,
+      "s": 3.8180201167090546,
+      "origin": [
+        0.8180201053619385,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 22.44052260840939,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.45,
+      "s": 3.8180201167090546,
+      "origin": [
+        0.8180201053619385,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 28.839988594155372,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 2.9134556289251203
+    },
+    {
+      "t": 3.5,
+      "s": 3.8887241929444074,
+      "origin": [
+        0.8887242078781128,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 15.6846501162754,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.5,
+      "s": 3.8887241929444074,
+      "origin": [
+        0.8887242078781128,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 22.8406997188471,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.5,
+      "s": 3.8887241929444074,
+      "origin": [
+        0.8887242078781128,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 29.318415954244887,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 2.870034868553146
+    },
+    {
+      "t": 3.5500000000000003,
+      "s": 3.95942826917976,
+      "origin": [
+        0.9594282507896423,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 15.98626850591208,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.5500000000000003,
+      "s": 3.95942826917976,
+      "origin": [
+        0.9594282507896423,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 23.25460210629601,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.5500000000000003,
+      "s": 3.95942826917976,
+      "origin": [
+        0.9594282507896423,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 29.811504355481663,
+      "blocked_before_target": true,
+      "hit_object": "V012 | hall north stone lining",
+      "hit_distance": 2.826821596560294
+    },
+    {
+      "t": 3.6,
+      "s": 4.0301323454151134,
+      "origin": [
+        1.0301322937011719,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 16.299394273060777,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.6,
+      "s": 4.0301323454151134,
+      "origin": [
+        1.0301322937011719,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 23.682904176704245,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.6,
+      "s": 4.0301323454151134,
+      "origin": [
+        1.0301322937011719,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 30.31986343122544,
+      "blocked_before_target": true,
+      "hit_object": "V012 | west north corridor stone lining",
+      "hit_distance": 2.783823860950334
+    },
+    {
+      "t": 3.6500000000000004,
+      "s": 4.100836421650467,
+      "origin": [
+        1.1008363962173462,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 16.624678947967535,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.6500000000000004,
+      "s": 4.100836421650467,
+      "origin": [
+        1.1008363962173462,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 24.126320218146297,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.6500000000000004,
+      "s": 4.100836421650467,
+      "origin": [
+        1.1008363962173462,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 30.844129845171313,
+      "blocked_before_target": true,
+      "hit_object": "V012 | west north corridor stone lining",
+      "hit_distance": 2.7410525006753064
+    },
+    {
+      "t": 3.7,
+      "s": 4.171540497885819,
+      "origin": [
+        1.1715404987335205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 16.962823679171567,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.7,
+      "s": 4.171540497885819,
+      "origin": [
+        1.1715404987335205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 24.585610152483117,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.7,
+      "s": 4.171540497885819,
+      "origin": [
+        1.1715404987335205,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 31.38497191694305,
+      "blocked_before_target": true,
+      "hit_object": "V012 | west north corridor stone lining",
+      "hit_distance": 2.6985173197307177
+    },
+    {
+      "t": 3.75,
+      "s": 4.242244574121171,
+      "origin": [
+        1.2422446012496948,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 17.314580247916567,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.75,
+      "s": 4.242244574121171,
+      "origin": [
+        1.2422446012496948,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 25.06157796407485,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.75,
+      "s": 4.242244574121171,
+      "origin": [
+        1.2422446012496948,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 31.943085359392196,
+      "blocked_before_target": true,
+      "hit_object": "V012 | west north corridor stone lining",
+      "hit_distance": 2.6562303661574487
+    },
+    {
+      "t": 3.8000000000000003,
+      "s": 4.312948650356525,
+      "origin": [
+        1.3129487037658691,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 17.68075798989397,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.8000000000000003,
+      "s": 4.312948650356525,
+      "origin": [
+        1.3129487037658691,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 25.55507775787087,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.8000000000000003,
+      "s": 4.312948650356525,
+      "origin": [
+        1.3129487037658691,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 32.51919778536309,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.85,
+      "s": 4.383652726591878,
+      "origin": [
+        1.383652687072754,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 18.062231787422135,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.85,
+      "s": 4.383652726591878,
+      "origin": [
+        1.383652687072754,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 26.067020701466813,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.85,
+      "s": 4.383652726591878,
+      "origin": [
+        1.383652687072754,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 33.11407387341112,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.9000000000000004,
+      "s": 4.454356802827231,
+      "origin": [
+        1.4543567895889282,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 18.45994446748247,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.9000000000000004,
+      "s": 4.454356802827231,
+      "origin": [
+        1.4543567895889282,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 26.598373855772145,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.9000000000000004,
+      "s": 4.454356802827231,
+      "origin": [
+        1.4543567895889282,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 33.728510749672886,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.95,
+      "s": 4.5250608790625835,
+      "origin": [
+        1.5250608921051025,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 18.874916019370914,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.95,
+      "s": 4.5250608790625835,
+      "origin": [
+        1.5250608921051025,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 27.150167534576422,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 3.95,
+      "s": 4.5250608790625835,
+      "origin": [
+        1.5250608921051025,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 34.36334298406187,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.0,
+      "s": 4.595764955297936,
+      "origin": [
+        1.5957649946212769,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 19.308246785249242,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.0,
+      "s": 4.595764955297936,
+      "origin": [
+        1.5957649946212769,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 27.72349386752378,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.0,
+      "s": 4.595764955297936,
+      "origin": [
+        1.5957649946212769,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 35.019437060548256,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.050000000000001,
+      "s": 4.666469031533289,
+      "origin": [
+        1.6664689779281616,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 19.761128108173484,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.050000000000001,
+      "s": 4.666469031533289,
+      "origin": [
+        1.6664689779281616,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 28.319514466984895,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.050000000000001,
+      "s": 4.666469031533289,
+      "origin": [
+        1.6664689779281616,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 35.69769599695688,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.1,
+      "s": 4.737173107768641,
+      "origin": [
+        1.737173080444336,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 20.23485462932261,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.1,
+      "s": 4.737173107768641,
+      "origin": [
+        1.737173080444336,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 28.939469163712868,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.1,
+      "s": 4.737173107768641,
+      "origin": [
+        1.737173080444336,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 36.399064631457534,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.15,
+      "s": 4.8078771840039956,
+      "origin": [
+        1.8078771829605103,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 20.73082996292387,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.15,
+      "s": 4.8078771840039956,
+      "origin": [
+        1.8078771829605103,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 29.58467486568892,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.15,
+      "s": 4.8078771840039956,
+      "origin": [
+        1.8078771829605103,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 37.124523218905104,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.2,
+      "s": 4.878581260239349,
+      "origin": [
+        1.8785812854766846,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 21.250581133881273,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.2,
+      "s": 4.878581260239349,
+      "origin": [
+        1.8785812854766846,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 30.25653460312689,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.2,
+      "s": 4.878581260239349,
+      "origin": [
+        1.8785812854766846,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 37.87509214629032,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.25,
+      "s": 4.9492853364747,
+      "origin": [
+        1.9492853879928589,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 21.795765842874722,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.25,
+      "s": 4.9492853364747,
+      "origin": [
+        1.9492853879928589,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 30.956535726738853,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.25,
+      "s": 4.9492853364747,
+      "origin": [
+        1.9492853879928589,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 38.651823987891156,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.300000000000001,
+      "s": 5.019989412710054,
+      "origin": [
+        2.019989490509033,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 22.368189404277956,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.300000000000001,
+      "s": 5.019989412710054,
+      "origin": [
+        2.019989490509033,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 31.686258939860302,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.300000000000001,
+      "s": 5.019989412710054,
+      "origin": [
+        2.019989490509033,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 39.45580727680969,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.35,
+      "s": 5.090693488945405,
+      "origin": [
+        2.090693473815918,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 22.96982425887963,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.35,
+      "s": 5.090693488945405,
+      "origin": [
+        2.090693473815918,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 32.447388428723315,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.35,
+      "s": 5.090693488945405,
+      "origin": [
+        2.090693473815918,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 40.28817080406785,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.4,
+      "s": 5.16139756518076,
+      "origin": [
+        2.1613974571228027,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 23.60282154602961,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.4,
+      "s": 5.16139756518076,
+      "origin": [
+        2.1613974571228027,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 33.24170953597356,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.4,
+      "s": 5.16139756518076,
+      "origin": [
+        2.1613974571228027,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 41.150073716718374,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.45,
+      "s": 5.2321016414161114,
+      "origin": [
+        2.2321016788482666,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 24.269534198032872,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.45,
+      "s": 5.2321016414161114,
+      "origin": [
+        2.2321016788482666,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 34.0711184375365,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.45,
+      "s": 5.2321016414161114,
+      "origin": [
+        2.2321016788482666,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 42.04270840751961,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.5,
+      "s": 5.302805717651465,
+      "origin": [
+        2.3028056621551514,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 24.972528863143506,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.5,
+      "s": 5.302805717651465,
+      "origin": [
+        2.3028056621551514,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 34.937614877107976,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.5,
+      "s": 5.302805717651465,
+      "origin": [
+        2.3028056621551514,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 42.96728475663565,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.550000000000001,
+      "s": 5.373509793886818,
+      "origin": [
+        2.3735098838806152,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 25.71462517370073,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.550000000000001,
+      "s": 5.373509793886818,
+      "origin": [
+        2.3735098838806152,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 35.84332540260081,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.550000000000001,
+      "s": 5.373509793886818,
+      "origin": [
+        2.3735098838806152,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 43.9250468517664,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.6,
+      "s": 5.444213870122169,
+      "origin": [
+        2.4442138671875,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 26.498902287682004,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.6,
+      "s": 5.444213870122169,
+      "origin": [
+        2.4442138671875,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 36.790482319614185,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.6,
+      "s": 5.444213870122169,
+      "origin": [
+        2.4442138671875,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 44.91724225013304,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.65,
+      "s": 5.514917936676812,
+      "origin": [
+        2.5149178504943848,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 27.32874405584034,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.65,
+      "s": 5.514917936676812,
+      "origin": [
+        2.5149178504943848,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 37.78144576810796,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.65,
+      "s": 5.514917936676812,
+      "origin": [
+        2.5149178504943848,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 45.94513721335963,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.7,
+      "s": 5.585611934269856,
+      "origin": [
+        2.5856118202209473,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 28.207731412622312,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.7,
+      "s": 5.585611934269856,
+      "origin": [
+        2.5856118202209473,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 38.81854060431075,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.7,
+      "s": 5.585611934269856,
+      "origin": [
+        2.5856118202209473,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 47.00984183502851,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.75,
+      "s": 5.65621852946079,
+      "origin": [
+        2.6562185287475586,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 29.13886100227458,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.75,
+      "s": 5.65621852946079,
+      "origin": [
+        2.6562185287475586,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 39.90312136586657,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.75,
+      "s": 5.65621852946079,
+      "origin": [
+        2.6562185287475586,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 48.111366996758896,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.800000000000001,
+      "s": 5.726571344264454,
+      "origin": [
+        2.7265713214874268,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 30.123968285451003,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.800000000000001,
+      "s": 5.726571344264454,
+      "origin": [
+        2.7265713214874268,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 41.03494631910189,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.800000000000001,
+      "s": 5.726571344264454,
+      "origin": [
+        2.7265713214874268,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 49.248056140570206,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.85,
+      "s": 5.796433935202244,
+      "origin": [
+        2.796433925628662,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 31.1636042145431,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.85,
+      "s": 5.796433935202244,
+      "origin": [
+        2.796433925628662,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 42.21212986883974,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.85,
+      "s": 5.796433935202244,
+      "origin": [
+        2.796433925628662,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 50.416637945640105,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.9,
+      "s": 5.865519165905227,
+      "origin": [
+        2.8655190467834473,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 32.25690754645232,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.9,
+      "s": 5.865519165905227,
+      "origin": [
+        2.8655190467834473,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 43.431119624963785,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.9,
+      "s": 5.865519165905227,
+      "origin": [
+        2.8655190467834473,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 51.61231327645868,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.95,
+      "s": 5.933507003300151,
+      "origin": [
+        2.933506965637207,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 33.40150643277509,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.95,
+      "s": 5.933507003300151,
+      "origin": [
+        2.933506965637207,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 44.68673523696665,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 4.95,
+      "s": 5.933507003300151,
+      "origin": [
+        2.933506965637207,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 52.828906850259315,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.0,
+      "s": 6.000060737378411,
+      "origin": [
+        3.000060796737671,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 34.59341501285465,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.0,
+      "s": 6.000060737378411,
+      "origin": [
+        3.000060796737671,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 45.9722262030296,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.0,
+      "s": 6.000060737378411,
+      "origin": [
+        3.000060796737671,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 54.0590333561199,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.05,
+      "s": 6.064841624547929,
+      "origin": [
+        3.0648415088653564,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 35.82699232156409,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.05,
+      "s": 6.064841624547929,
+      "origin": [
+        3.0648415088653564,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 47.279414945501394,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.05,
+      "s": 6.064841624547929,
+      "origin": [
+        3.0648415088653564,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 55.294333711768786,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.1000000000000005,
+      "s": 6.127521954567958,
+      "origin": [
+        3.1275219917297363,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 37.094980407223,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.1000000000000005,
+      "s": 6.127521954567958,
+      "origin": [
+        3.1275219917297363,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 48.59892692979158,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.1000000000000005,
+      "s": 6.127521954567958,
+      "origin": [
+        3.1275219917297363,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 56.52577127889884,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.15,
+      "s": 6.187796541066812,
+      "origin": [
+        3.1877965927124023,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 38.38856919242749,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.15,
+      "s": 6.187796541066812,
+      "origin": [
+        3.1877965927124023,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 49.92043501809901,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.15,
+      "s": 6.187796541066812,
+      "origin": [
+        3.1877965927124023,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 57.743910740684,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.2,
+      "s": 6.245392635642537,
+      "origin": [
+        3.2453925609588623,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 39.69762896464588,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.2,
+      "s": 6.245392635642537,
+      "origin": [
+        3.2453925609588623,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 51.23304513835783,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.2,
+      "s": 6.245392635642537,
+      "origin": [
+        3.2453925609588623,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 58.93929213562625,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.25,
+      "s": 6.3000782655464835,
+      "origin": [
+        3.3000781536102295,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 41.0110197215746,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.25,
+      "s": 6.3000782655464835,
+      "origin": [
+        3.3000781536102295,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 52.52570521688701,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.25,
+      "s": 6.3000782655464835,
+      "origin": [
+        3.3000781536102295,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 60.102784916221005,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.3,
+      "s": 6.351668994949833,
+      "origin": [
+        3.3516690731048584,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 42.31700180483986,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.3,
+      "s": 6.351668994949833,
+      "origin": [
+        3.3516690731048584,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 53.787647467474926,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.3,
+      "s": 6.351668994949833,
+      "origin": [
+        3.3516690731048584,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 61.22593388822413,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.3500000000000005,
+      "s": 6.400033109793025,
+      "origin": [
+        3.4000329971313477,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 43.603723398949306,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.3500000000000005,
+      "s": 6.400033109793025,
+      "origin": [
+        3.4000329971313477,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 55.0088306043184,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.3500000000000005,
+      "s": 6.400033109793025,
+      "origin": [
+        3.4000329971313477,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 62.30127252762409,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.4,
+      "s": 6.445095226218127,
+      "origin": [
+        3.4450953006744385,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 44.85984016640269,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.4,
+      "s": 6.445095226218127,
+      "origin": [
+        3.4450953006744385,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 56.180432285806106,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.4,
+      "s": 6.445095226218127,
+      "origin": [
+        3.4450953006744385,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 63.32265605787317,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.45,
+      "s": 6.486838322584127,
+      "origin": [
+        3.4868383407592773,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 46.075023488482465,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.45,
+      "s": 6.486838322584127,
+      "origin": [
+        3.4868383407592773,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 57.29516976658411,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.45,
+      "s": 6.486838322584127,
+      "origin": [
+        3.4868383407592773,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 64.28542985973861,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.5,
+      "s": 6.525304195065151,
+      "origin": [
+        3.525304079055786,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 47.240570913463245,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.5,
+      "s": 6.525304195065151,
+      "origin": [
+        3.525304079055786,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 58.34766989178006,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.5,
+      "s": 6.525304195065151,
+      "origin": [
+        3.525304079055786,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 65.1866397731452,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.55,
+      "s": 6.560592336831607,
+      "origin": [
+        3.5605924129486084,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 48.34986927169688,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.55,
+      "s": 6.560592336831607,
+      "origin": [
+        3.5605924129486084,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 59.334676166069535,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.55,
+      "s": 6.560592336831607,
+      "origin": [
+        3.5605924129486084,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 66.02510824338052,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.6000000000000005,
+      "s": 6.592857240814254,
+      "origin": [
+        3.5928571224212646,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 49.39871097985768,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.6000000000000005,
+      "s": 6.592857240814254,
+      "origin": [
+        3.5928571224212646,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 60.25512360678357,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.6000000000000005,
+      "s": 6.592857240814254,
+      "origin": [
+        3.5928571224212646,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 66.80141360801781,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.65,
+      "s": 6.622304126051201,
+      "origin": [
+        3.6223042011260986,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 50.385591719240104,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.65,
+      "s": 6.622304126051201,
+      "origin": [
+        3.6223042011260986,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 61.110214697167926,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.65,
+      "s": 6.622304126051201,
+      "origin": [
+        3.6223042011260986,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 67.51788972517929,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.7,
+      "s": 6.64918308761783,
+      "origin": [
+        3.6491830348968506,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 51.311667915285426,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.7,
+      "s": 6.64918308761783,
+      "origin": [
+        3.6491830348968506,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 61.903229079945,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.7,
+      "s": 6.64918308761783,
+      "origin": [
+        3.6491830348968506,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 68.17842192187715,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.75,
+      "s": 6.673781670139648,
+      "origin": [
+        3.673781633377075,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 52.18073572972962,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.75,
+      "s": 6.673781670139648,
+      "origin": [
+        3.673781633377075,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 62.639394002941344,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.75,
+      "s": 6.673781670139648,
+      "origin": [
+        3.673781633377075,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 68.78831461679499,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.800000000000001,
+      "s": 6.696415864888056,
+      "origin": [
+        3.696415901184082,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 52.99890887619598,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.800000000000001,
+      "s": 6.696415864888056,
+      "origin": [
+        3.696415901184082,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 63.32553735769885,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.800000000000001,
+      "s": 6.696415864888056,
+      "origin": [
+        3.696415901184082,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 69.35399456779452,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.8500000000000005,
+      "s": 6.717419530459061,
+      "origin": [
+        3.7174196243286133,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 53.774233760135104,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.8500000000000005,
+      "s": 6.717419530459061,
+      "origin": [
+        3.7174196243286133,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 63.96972790338347,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.8500000000000005,
+      "s": 6.717419530459061,
+      "origin": [
+        3.7174196243286133,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 69.8827179861357,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.9,
+      "s": 6.7371322370348965,
+      "origin": [
+        3.7371323108673096,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 54.5161641386436,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.9,
+      "s": 6.7371322370348965,
+      "origin": [
+        3.7371323108673096,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 64.58082971615772,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.9,
+      "s": 6.7371322370348965,
+      "origin": [
+        3.7371323108673096,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 70.38221689600267,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.95,
+      "s": 6.755885534228583,
+      "origin": [
+        3.755885601043701,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 55.23493573094796,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.95,
+      "s": 6.755885534228583,
+      "origin": [
+        3.755885601043701,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 65.16799942515726,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 5.95,
+      "s": 6.755885534228583,
+      "origin": [
+        3.755885601043701,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 70.86030566628958,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.0,
+      "s": 6.773987642511409,
+      "origin": [
+        3.7739875316619873,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 55.940823810242115,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.0,
+      "s": 6.773987642511409,
+      "origin": [
+        3.7739875316619873,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 65.74010799616721,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.0,
+      "s": 6.773987642511409,
+      "origin": [
+        3.7739875316619873,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 71.32443107629899,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.050000000000001,
+      "s": 6.791706568223335,
+      "origin": [
+        3.7917065620422363,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 56.643359948973014,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.050000000000001,
+      "s": 6.791706568223335,
+      "origin": [
+        3.7917065620422363,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 66.3051473389007,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.050000000000001,
+      "s": 6.791706568223335,
+      "origin": [
+        3.7917065620422363,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 71.7812143739252,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.1000000000000005,
+      "s": 6.809251642166332,
+      "origin": [
+        3.809251546859741,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 57.35035276196234,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.1000000000000005,
+      "s": 6.809251642166332,
+      "origin": [
+        3.809251546859741,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 66.8694977636329,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.1000000000000005,
+      "s": 6.809251642166332,
+      "origin": [
+        3.809251546859741,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 72.23588551360601,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.15,
+      "s": 6.826753491626146,
+      "origin": [
+        3.8267533779144287,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 58.06692332739467,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.15,
+      "s": 6.826753491626146,
+      "origin": [
+        3.8267533779144287,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 67.43723162980746,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.15,
+      "s": 6.826753491626146,
+      "origin": [
+        3.8267533779144287,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 72.6917534236914,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.2,
+      "s": 6.844253491626146,
+      "origin": [
+        3.8442535400390625,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 58.79477105175282,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.2,
+      "s": 6.844253491626146,
+      "origin": [
+        3.8442535400390625,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 68.00962416867206,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.2,
+      "s": 6.844253491626146,
+      "origin": [
+        3.8442535400390625,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 73.14984931253692,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.25,
+      "s": 6.861753491626146,
+      "origin": [
+        3.861753463745117,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 59.5339846601174,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.25,
+      "s": 6.861753491626146,
+      "origin": [
+        3.861753463745117,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 68.58666465914357,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.25,
+      "s": 6.861753491626146,
+      "origin": [
+        3.861753463745117,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 73.61016827399943,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.300000000000001,
+      "s": 6.879253491626146,
+      "origin": [
+        3.879253387451172,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 60.28459090548071,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.300000000000001,
+      "s": 6.879253491626146,
+      "origin": [
+        3.879253387451172,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 69.16829942674627,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.300000000000001,
+      "s": 6.879253491626146,
+      "origin": [
+        3.879253387451172,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 74.07267299434064,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.3500000000000005,
+      "s": 6.896753491626146,
+      "origin": [
+        3.8967535495758057,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 61.046602046913165,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.3500000000000005,
+      "s": 6.896753491626146,
+      "origin": [
+        3.8967535495758057,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 69.75447027838243,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.3500000000000005,
+      "s": 6.896753491626146,
+      "origin": [
+        3.8967535495758057,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 74.53732472525309,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.4,
+      "s": 6.9142534916261456,
+      "origin": [
+        3.9142534732818604,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 61.81998305615883,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.4,
+      "s": 6.9142534916261456,
+      "origin": [
+        3.9142534732818604,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 70.34509020676542,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.4,
+      "s": 6.9142534916261456,
+      "origin": [
+        3.9142534732818604,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 75.00406416815945,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.45,
+      "s": 6.931753491626146,
+      "origin": [
+        3.931753396987915,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 62.6047129587695,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.45,
+      "s": 6.931753491626146,
+      "origin": [
+        3.931753396987915,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 70.9400912601852,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.45,
+      "s": 6.931753491626146,
+      "origin": [
+        3.931753396987915,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 75.47284946873891,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.5,
+      "s": 6.949253491626146,
+      "origin": [
+        3.949253559112549,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 63.40075344694171,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.5,
+      "s": 6.949253491626146,
+      "origin": [
+        3.949253559112549,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 71.53940081658638,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.5,
+      "s": 6.949253491626146,
+      "origin": [
+        3.949253559112549,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 75.94363736550217,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.550000000000001,
+      "s": 6.966753491626146,
+      "origin": [
+        3.9667534828186035,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 64.20801472829379,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.550000000000001,
+      "s": 6.966753491626146,
+      "origin": [
+        3.9667534828186035,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 72.14291679429891,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.550000000000001,
+      "s": 6.966753491626146,
+      "origin": [
+        3.9667534828186035,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 76.41636383927408,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.6000000000000005,
+      "s": 6.984253491626146,
+      "origin": [
+        3.984253406524658,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 65.02641970354489,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.6000000000000005,
+      "s": 6.984253491626146,
+      "origin": [
+        3.984253406524658,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 72.75055662811147,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.6000000000000005,
+      "s": 6.984253491626146,
+      "origin": [
+        3.984253406524658,
+        38.0,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 76.8909826169083,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.65,
+      "s": 7.001753491626146,
+      "origin": [
+        4.001753330230713,
+        38.000003814697266,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 65.8557783000058,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.65,
+      "s": 7.001753491626146,
+      "origin": [
+        4.001753330230713,
+        38.000003814697266,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 73.362184690614,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.65,
+      "s": 7.001753491626146,
+      "origin": [
+        4.001753330230713,
+        38.000003814697266,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 77.36741624229583,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.7,
+      "s": 7.019253491626146,
+      "origin": [
+        4.019247531890869,
+        38.00041198730469,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 66.68734920863865,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.7,
+      "s": 7.019253491626146,
+      "origin": [
+        4.019247531890869,
+        38.00041198730469,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 73.97344251221118,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.7,
+      "s": 7.019253491626146,
+      "origin": [
+        4.019247531890869,
+        38.00041198730469,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 77.84309266875161,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.75,
+      "s": 7.036753491626146,
+      "origin": [
+        4.036712646484375,
+        38.00149917602539,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 67.51496063788419,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.75,
+      "s": 7.036753491626146,
+      "origin": [
+        4.036712646484375,
+        38.00149917602539,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 74.58112094710694,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.75,
+      "s": 7.036753491626146,
+      "origin": [
+        4.036712646484375,
+        38.00149917602539,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 78.31601304044798,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.800000000000001,
+      "s": 7.054253491626146,
+      "origin": [
+        4.054121971130371,
+        38.003265380859375,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 68.33827290552827,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.800000000000001,
+      "s": 7.054253491626146,
+      "origin": [
+        4.054121971130371,
+        38.003265380859375,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 75.1848473414291,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.800000000000001,
+      "s": 7.054253491626146,
+      "origin": [
+        4.054121971130371,
+        38.003265380859375,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 78.78581530218005,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.8500000000000005,
+      "s": 7.071753491626146,
+      "origin": [
+        4.0714497566223145,
+        38.005706787109375,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 69.15703199700094,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.8500000000000005,
+      "s": 7.071753491626146,
+      "origin": [
+        4.0714497566223145,
+        38.005706787109375,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 75.78429886262127,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.8500000000000005,
+      "s": 7.071753491626146,
+      "origin": [
+        4.0714497566223145,
+        38.005706787109375,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 79.25217252497295,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.9,
+      "s": 7.089253491626146,
+      "origin": [
+        4.088669300079346,
+        38.00882339477539,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 69.97082222778059,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.9,
+      "s": 7.089253491626146,
+      "origin": [
+        4.088669300079346,
+        38.00882339477539,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 76.37906034112724,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.9,
+      "s": 7.089253491626146,
+      "origin": [
+        4.088669300079346,
+        38.00882339477539,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 79.71469716136436,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.95,
+      "s": 7.1067534916261454,
+      "origin": [
+        4.105754852294922,
+        38.012603759765625,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 70.77944661154322,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.95,
+      "s": 7.1067534916261454,
+      "origin": [
+        4.105754852294922,
+        38.012603759765625,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 76.96882746312302,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 6.95,
+      "s": 7.1067534916261454,
+      "origin": [
+        4.105754852294922,
+        38.012603759765625,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 80.1730711063082,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.0,
+      "s": 7.1242534916261455,
+      "origin": [
+        4.1226806640625,
+        38.01704406738281,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 71.58251344761112,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.0,
+      "s": 7.1242534916261455,
+      "origin": [
+        4.1226806640625,
+        38.01704406738281,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 77.55319797021065,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.0,
+      "s": 7.1242534916261455,
+      "origin": [
+        4.1226806640625,
+        38.01704406738281,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 80.6269184208843,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.050000000000001,
+      "s": 7.1417534916261465,
+      "origin": [
+        4.139420509338379,
+        38.02214431762695,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 72.37949542460454,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.050000000000001,
+      "s": 7.1417534916261465,
+      "origin": [
+        4.139420509338379,
+        38.02214431762695,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 78.13169538887855,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.050000000000001,
+      "s": 7.1417534916261465,
+      "origin": [
+        4.139420509338379,
+        38.02214431762695,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 81.07581591593711,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.1000000000000005,
+      "s": 7.159253491626146,
+      "origin": [
+        4.15595006942749,
+        38.02788543701172,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 73.170239427941,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.1000000000000005,
+      "s": 7.159253491626146,
+      "origin": [
+        4.15595006942749,
+        38.02788543701172,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 78.70403374286464,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.1000000000000005,
+      "s": 7.159253491626146,
+      "origin": [
+        4.15595006942749,
+        38.02788543701172,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 81.51946055044847,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.15,
+      "s": 7.176753491626146,
+      "origin": [
+        4.172243595123291,
+        38.03426742553711,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 73.95413311930923,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.15,
+      "s": 7.176753491626146,
+      "origin": [
+        4.172243595123291,
+        38.03426742553711,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 79.26968928176602,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.15,
+      "s": 7.176753491626146,
+      "origin": [
+        4.172243595123291,
+        38.03426742553711,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 81.95740140107296,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.2,
+      "s": 7.194253491626146,
+      "origin": [
+        4.188276290893555,
+        38.04127883911133,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 74.73074725652111,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.2,
+      "s": 7.194253491626146,
+      "origin": [
+        4.188276290893555,
+        38.04127883911133,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 79.82822701072583,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.2,
+      "s": 7.194253491626146,
+      "origin": [
+        4.188276290893555,
+        38.04127883911133,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 82.38924242487384,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.25,
+      "s": 7.211753491626146,
+      "origin": [
+        4.204024791717529,
+        38.04890823364258,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 75.49966332867064,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.25,
+      "s": 7.211753491626146,
+      "origin": [
+        4.204024791717529,
+        38.04890823364258,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 80.37922588992274,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.25,
+      "s": 7.211753491626146,
+      "origin": [
+        4.204024791717529,
+        38.04890823364258,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 82.81460291811133,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.300000000000001,
+      "s": 7.229253491626146,
+      "origin": [
+        4.2194647789001465,
+        38.05714416503906,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 76.26033941534189,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.300000000000001,
+      "s": 7.229253491626146,
+      "origin": [
+        4.2194647789001465,
+        38.05714416503906,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 80.92218721354082,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.300000000000001,
+      "s": 7.229253491626146,
+      "origin": [
+        4.2194647789001465,
+        38.05714416503906,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 83.23304839354094,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.3500000000000005,
+      "s": 7.246753491626146,
+      "origin": [
+        4.234572410583496,
+        38.065975189208984,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 77.01218530187356,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.3500000000000005,
+      "s": 7.246753491626146,
+      "origin": [
+        4.234572410583496,
+        38.065975189208984,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 81.45658702110273,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.3500000000000005,
+      "s": 7.246753491626146,
+      "origin": [
+        4.234572410583496,
+        38.065975189208984,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 83.64413052392605,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.4,
+      "s": 7.264253491626146,
+      "origin": [
+        4.249325752258301,
+        38.07538604736328,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 77.7546935220105,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.4,
+      "s": 7.264253491626146,
+      "origin": [
+        4.249325752258301,
+        38.07538604736328,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 81.98195239534327,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.4,
+      "s": 7.264253491626146,
+      "origin": [
+        4.249325752258301,
+        38.07538604736328,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 84.0474401993998,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.45,
+      "s": 7.281753491626146,
+      "origin": [
+        4.263701915740967,
+        38.08536148071289,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 78.48721300022332,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.45,
+      "s": 7.281753491626146,
+      "origin": [
+        4.263701915740967,
+        38.08536148071289,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 82.49772279279253,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.45,
+      "s": 7.281753491626146,
+      "origin": [
+        4.263701915740967,
+        38.08536148071289,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 84.44250868903873,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.5,
+      "s": 7.299253491626146,
+      "origin": [
+        4.277679443359375,
+        38.095890045166016,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 79.20903981702384,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.5,
+      "s": 7.299253491626146,
+      "origin": [
+        4.277679443359375,
+        38.095890045166016,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 83.00332286577927,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.5,
+      "s": 7.299253491626146,
+      "origin": [
+        4.277679443359375,
+        38.095890045166016,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 84.8288663129053,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.550000000000001,
+      "s": 7.316753491626146,
+      "origin": [
+        4.291236877441406,
+        38.10695266723633,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 79.91946659549743,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.550000000000001,
+      "s": 7.316753491626146,
+      "origin": [
+        4.291236877441406,
+        38.10695266723633,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 83.49816327801271,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.550000000000001,
+      "s": 7.316753491626146,
+      "origin": [
+        4.291236877441406,
+        38.10695266723633,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 85.2060318151518,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.6000000000000005,
+      "s": 7.334253491626146,
+      "origin": [
+        4.304354190826416,
+        38.118534088134766,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 80.61772297006726,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.6000000000000005,
+      "s": 7.334253491626146,
+      "origin": [
+        4.304354190826416,
+        38.118534088134766,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 83.98163530053304,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.6000000000000005,
+      "s": 7.334253491626146,
+      "origin": [
+        4.304354190826416,
+        38.118534088134766,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 85.57352052198593,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.65,
+      "s": 7.3517534916261456,
+      "origin": [
+        4.317010879516602,
+        38.130619049072266,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 81.30290107459105,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.65,
+      "s": 7.3517534916261456,
+      "origin": [
+        4.317010879516602,
+        38.130619049072266,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 84.45305276544978,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.65,
+      "s": 7.3517534916261456,
+      "origin": [
+        4.317010879516602,
+        38.130619049072266,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 85.93079790742038,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.7,
+      "s": 7.369253491626146,
+      "origin": [
+        4.329188346862793,
+        38.143184661865234,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 81.97417020321191,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.7,
+      "s": 7.369253491626146,
+      "origin": [
+        4.329188346862793,
+        38.143184661865234,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 84.91177592626231,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.7,
+      "s": 7.369253491626146,
+      "origin": [
+        4.329188346862793,
+        38.143184661865234,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 86.27736593194162,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.75,
+      "s": 7.386753491626146,
+      "origin": [
+        4.3408684730529785,
+        38.15621566772461,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 82.63052682954951,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.75,
+      "s": 7.386753491626146,
+      "origin": [
+        4.3408684730529785,
+        38.15621566772461,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 85.35708780220695,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.75,
+      "s": 7.386753491626146,
+      "origin": [
+        4.3408684730529785,
+        38.15621566772461,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 86.61268490865646,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.800000000000001,
+      "s": 7.404253491626146,
+      "origin": [
+        4.352032661437988,
+        38.16969299316406,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 83.27083593592924,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.800000000000001,
+      "s": 7.404253491626146,
+      "origin": [
+        4.352032661437988,
+        38.16969299316406,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 85.78819781343635,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.800000000000001,
+      "s": 7.404253491626146,
+      "origin": [
+        4.352032661437988,
+        38.16969299316406,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 86.93616813767048,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.8500000000000005,
+      "s": 7.421753491626146,
+      "origin": [
+        4.362664699554443,
+        38.183589935302734,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 83.89402972461062,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.8500000000000005,
+      "s": 7.421753491626146,
+      "origin": [
+        4.362664699554443,
+        38.183589935302734,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 86.20436584505208,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.8500000000000005,
+      "s": 7.421753491626146,
+      "origin": [
+        4.362664699554443,
+        38.183589935302734,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 87.24727218890494,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.9,
+      "s": 7.439253491626146,
+      "origin": [
+        4.372748374938965,
+        38.19789123535156,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 84.49878657327898,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.9,
+      "s": 7.439253491626146,
+      "origin": [
+        4.372748374938965,
+        38.19789123535156,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 86.60473908932605,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.9,
+      "s": 7.439253491626146,
+      "origin": [
+        4.372748374938965,
+        38.19789123535156,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 87.54539069113987,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.95,
+      "s": 7.456753491626146,
+      "origin": [
+        4.382267951965332,
+        38.21257400512695,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 85.08370211876876,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.95,
+      "s": 7.456753491626146,
+      "origin": [
+        4.382267951965332,
+        38.21257400512695,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 86.98842878992637,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 7.95,
+      "s": 7.456753491626146,
+      "origin": [
+        4.382267951965332,
+        38.21257400512695,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 87.82989970411964,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.0,
+      "s": 7.474253491626146,
+      "origin": [
+        4.391210079193115,
+        38.22761535644531,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 85.64734864987697,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.0,
+      "s": 7.474253491626146,
+      "origin": [
+        4.391210079193115,
+        38.22761535644531,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 87.35456609794491,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.0,
+      "s": 7.474253491626146,
+      "origin": [
+        4.391210079193115,
+        38.22761535644531,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 88.10020421384131,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.05,
+      "s": 7.491753491626146,
+      "origin": [
+        4.399560451507568,
+        38.24299240112305,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 86.18802113259261,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.05,
+      "s": 7.491753491626146,
+      "origin": [
+        4.399560451507568,
+        38.24299240112305,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 87.70215172913237,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.05,
+      "s": 7.491753491626146,
+      "origin": [
+        4.399560451507568,
+        38.24299240112305,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 88.35563100545063,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.100000000000001,
+      "s": 7.509253491626146,
+      "origin": [
+        4.40730619430542,
+        38.25868606567383,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 86.70387306534859,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.100000000000001,
+      "s": 7.509253491626146,
+      "origin": [
+        4.40730619430542,
+        38.25868606567383,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 88.03015175213464,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.100000000000001,
+      "s": 7.509253491626146,
+      "origin": [
+        4.40730619430542,
+        38.25868606567383,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 88.59550083420133,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.15,
+      "s": 7.526753491626146,
+      "origin": [
+        4.4144368171691895,
+        38.27466583251953,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 87.19304694980663,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.15,
+      "s": 7.526753491626146,
+      "origin": [
+        4.4144368171691895,
+        38.27466583251953,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 88.33756572130159,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.15,
+      "s": 7.526753491626146,
+      "origin": [
+        4.4144368171691895,
+        38.27466583251953,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 88.81917318001175,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.2,
+      "s": 7.5442534916261454,
+      "origin": [
+        4.420939922332764,
+        38.29090881347656,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 87.65322470670033,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.2,
+      "s": 7.5442534916261454,
+      "origin": [
+        4.420939922332764,
+        38.29090881347656,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 88.62319037400539,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.2,
+      "s": 7.5442534916261454,
+      "origin": [
+        4.420939922332764,
+        38.29090881347656,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.02588670486173,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.25,
+      "s": 7.5617534916261455,
+      "origin": [
+        4.426806926727295,
+        38.307395935058594,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 88.0820818360802,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.25,
+      "s": 7.5617534916261455,
+      "origin": [
+        4.426806926727295,
+        38.307395935058594,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 88.88589445669146,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.25,
+      "s": 7.5617534916261455,
+      "origin": [
+        4.426806926727295,
+        38.307395935058594,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.21495454647075,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.3,
+      "s": 7.5792534916261465,
+      "origin": [
+        4.432028770446777,
+        38.3240966796875,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 88.47696835386822,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.3,
+      "s": 7.5792534916261465,
+      "origin": [
+        4.432028770446777,
+        38.3240966796875,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 89.12443097360435,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.3,
+      "s": 7.5792534916261465,
+      "origin": [
+        4.432028770446777,
+        38.3240966796875,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.38562970667165,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.350000000000001,
+      "s": 7.5967534916261465,
+      "origin": [
+        4.436596870422363,
+        38.34099197387695,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 88.8348761424774,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.350000000000001,
+      "s": 7.5967534916261465,
+      "origin": [
+        4.436596870422363,
+        38.34099197387695,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 89.3374527332933,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.350000000000001,
+      "s": 7.5967534916261465,
+      "origin": [
+        4.436596870422363,
+        38.34099197387695,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.53712392580803,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.4,
+      "s": 7.614253491626146,
+      "origin": [
+        4.440505027770996,
+        38.35804748535156,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 89.15263009198365,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.4,
+      "s": 7.614253491626146,
+      "origin": [
+        4.440505027770996,
+        38.35804748535156,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 89.52362434994491,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.4,
+      "s": 7.614253491626146,
+      "origin": [
+        4.440505027770996,
+        38.35804748535156,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.66868418019537,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.45,
+      "s": 7.631753491626146,
+      "origin": [
+        4.443747043609619,
+        38.375244140625,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 89.42658381530728,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.45,
+      "s": 7.631753491626146,
+      "origin": [
+        4.443747043609619,
+        38.375244140625,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 89.68148341812042,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.45,
+      "s": 7.631753491626146,
+      "origin": [
+        4.443747043609619,
+        38.375244140625,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.77950206386687,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.5,
+      "s": 7.649253491626146,
+      "origin": [
+        4.44631814956665,
+        38.39255142211914,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 89.6527426565295,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.5,
+      "s": 7.649253491626146,
+      "origin": [
+        4.44631814956665,
+        38.39255142211914,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 89.80952362987301,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.5,
+      "s": 7.649253491626146,
+      "origin": [
+        4.44631814956665,
+        38.39255142211914,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.86877142051485,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.55,
+      "s": 7.666753491626146,
+      "origin": [
+        4.448214054107666,
+        38.40994644165039,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 89.8265989248943,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.55,
+      "s": 7.666753491626146,
+      "origin": [
+        4.448214054107666,
+        38.40994644165039,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 89.90613659168255,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.55,
+      "s": 7.666753491626146,
+      "origin": [
+        4.448214054107666,
+        38.40994644165039,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.93565236201498,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.600000000000001,
+      "s": 7.684253491626146,
+      "origin": [
+        4.449432373046875,
+        38.427406311035156,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 89.94322031410238,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.600000000000001,
+      "s": 7.684253491626146,
+      "origin": [
+        4.449432373046875,
+        38.427406311035156,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 89.96968871087843,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.600000000000001,
+      "s": 7.684253491626146,
+      "origin": [
+        4.449432373046875,
+        38.427406311035156,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.97932606542528,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.65,
+      "s": 7.701753491626146,
+      "origin": [
+        4.4499711990356445,
+        38.44489669799805,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 89.99704695433546,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.65,
+      "s": 7.701753491626146,
+      "origin": [
+        4.4499711990356445,
+        38.44489669799805,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 89.99844636501726,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.65,
+      "s": 7.701753491626146,
+      "origin": [
+        4.4499711990356445,
+        38.44489669799805,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 89.9989458929201,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.7,
+      "s": 7.719253491626145,
+      "origin": [
+        4.449999809265137,
+        38.46239471435547,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.7,
+      "s": 7.719253491626145,
+      "origin": [
+        4.449999809265137,
+        38.46239471435547,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.7,
+      "s": 7.719253491626145,
+      "origin": [
+        4.449999809265137,
+        38.46239471435547,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.75,
+      "s": 7.736753491626146,
+      "origin": [
+        4.449999809265137,
+        38.479896545410156,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.75,
+      "s": 7.736753491626146,
+      "origin": [
+        4.449999809265137,
+        38.479896545410156,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.75,
+      "s": 7.736753491626146,
+      "origin": [
+        4.449999809265137,
+        38.479896545410156,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.8,
+      "s": 7.754253491626146,
+      "origin": [
+        4.449999809265137,
+        38.49739456176758,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.8,
+      "s": 7.754253491626146,
+      "origin": [
+        4.449999809265137,
+        38.49739456176758,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.8,
+      "s": 7.754253491626146,
+      "origin": [
+        4.449999809265137,
+        38.49739456176758,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.850000000000001,
+      "s": 7.771753491626146,
+      "origin": [
+        4.449999809265137,
+        38.514896392822266,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.850000000000001,
+      "s": 7.771753491626146,
+      "origin": [
+        4.449999809265137,
+        38.514896392822266,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.850000000000001,
+      "s": 7.771753491626146,
+      "origin": [
+        4.449999809265137,
+        38.514896392822266,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.9,
+      "s": 7.7892534916261456,
+      "origin": [
+        4.449999809265137,
+        38.53239440917969,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.9,
+      "s": 7.7892534916261456,
+      "origin": [
+        4.449999809265137,
+        38.53239440917969,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.9,
+      "s": 7.7892534916261456,
+      "origin": [
+        4.449999809265137,
+        38.53239440917969,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.95,
+      "s": 7.806753491626146,
+      "origin": [
+        4.449999809265137,
+        38.549896240234375,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.95,
+      "s": 7.806753491626146,
+      "origin": [
+        4.449999809265137,
+        38.549896240234375,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 8.95,
+      "s": 7.806753491626146,
+      "origin": [
+        4.449999809265137,
+        38.549896240234375,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.0,
+      "s": 7.824253491626146,
+      "origin": [
+        4.449999809265137,
+        38.5673942565918,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.0,
+      "s": 7.824253491626146,
+      "origin": [
+        4.449999809265137,
+        38.5673942565918,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.0,
+      "s": 7.824253491626146,
+      "origin": [
+        4.449999809265137,
+        38.5673942565918,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.05,
+      "s": 7.841753491626146,
+      "origin": [
+        4.449999809265137,
+        38.584896087646484,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.05,
+      "s": 7.841753491626146,
+      "origin": [
+        4.449999809265137,
+        38.584896087646484,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.05,
+      "s": 7.841753491626146,
+      "origin": [
+        4.449999809265137,
+        38.584896087646484,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.1,
+      "s": 7.859253491626146,
+      "origin": [
+        4.449999809265137,
+        38.602394104003906,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.1,
+      "s": 7.859253491626146,
+      "origin": [
+        4.449999809265137,
+        38.602394104003906,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.1,
+      "s": 7.859253491626146,
+      "origin": [
+        4.449999809265137,
+        38.602394104003906,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.15,
+      "s": 7.876753491626146,
+      "origin": [
+        4.449999809265137,
+        38.619895935058594,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.15,
+      "s": 7.876753491626146,
+      "origin": [
+        4.449999809265137,
+        38.619895935058594,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.15,
+      "s": 7.876753491626146,
+      "origin": [
+        4.449999809265137,
+        38.619895935058594,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.200000000000001,
+      "s": 7.894253491626146,
+      "origin": [
+        4.449999809265137,
+        38.637393951416016,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.200000000000001,
+      "s": 7.894253491626146,
+      "origin": [
+        4.449999809265137,
+        38.637393951416016,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.200000000000001,
+      "s": 7.894253491626146,
+      "origin": [
+        4.449999809265137,
+        38.637393951416016,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.25,
+      "s": 7.911753491626146,
+      "origin": [
+        4.449999809265137,
+        38.6548957824707,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.25,
+      "s": 7.911753491626146,
+      "origin": [
+        4.449999809265137,
+        38.6548957824707,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.25,
+      "s": 7.911753491626146,
+      "origin": [
+        4.449999809265137,
+        38.6548957824707,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.3,
+      "s": 7.929253491626146,
+      "origin": [
+        4.449999809265137,
+        38.672393798828125,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.3,
+      "s": 7.929253491626146,
+      "origin": [
+        4.449999809265137,
+        38.672393798828125,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.3,
+      "s": 7.929253491626146,
+      "origin": [
+        4.449999809265137,
+        38.672393798828125,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.35,
+      "s": 7.946753491626145,
+      "origin": [
+        4.449999809265137,
+        38.68989562988281,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.35,
+      "s": 7.946753491626145,
+      "origin": [
+        4.449999809265137,
+        38.68989562988281,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.35,
+      "s": 7.946753491626145,
+      "origin": [
+        4.449999809265137,
+        38.68989562988281,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.4,
+      "s": 7.964255589607779,
+      "origin": [
+        4.449999809265137,
+        38.7073974609375,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.4,
+      "s": 7.964255589607779,
+      "origin": [
+        4.449999809265137,
+        38.7073974609375,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.4,
+      "s": 7.964255589607779,
+      "origin": [
+        4.449999809265137,
+        38.7073974609375,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.450000000000001,
+      "s": 7.981803093298982,
+      "origin": [
+        4.449999809265137,
+        38.724945068359375,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.450000000000001,
+      "s": 7.981803093298982,
+      "origin": [
+        4.449999809265137,
+        38.724945068359375,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.450000000000001,
+      "s": 7.981803093298982,
+      "origin": [
+        4.449999809265137,
+        38.724945068359375,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.5,
+      "s": 7.999528892988157,
+      "origin": [
+        4.449999809265137,
+        38.742671966552734,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.5,
+      "s": 7.999528892988157,
+      "origin": [
+        4.449999809265137,
+        38.742671966552734,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.5,
+      "s": 7.999528892988157,
+      "origin": [
+        4.449999809265137,
+        38.742671966552734,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.55,
+      "s": 8.017644056383151,
+      "origin": [
+        4.449999809265137,
+        38.76078414916992,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.55,
+      "s": 8.017644056383151,
+      "origin": [
+        4.449999809265137,
+        38.76078414916992,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.55,
+      "s": 8.017644056383151,
+      "origin": [
+        4.449999809265137,
+        38.76078414916992,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.6,
+      "s": 8.036417836827502,
+      "origin": [
+        4.449999809265137,
+        38.77956008911133,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.6,
+      "s": 8.036417836827502,
+      "origin": [
+        4.449999809265137,
+        38.77956008911133,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.6,
+      "s": 8.036417836827502,
+      "origin": [
+        4.449999809265137,
+        38.77956008911133,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.65,
+      "s": 8.056159252055446,
+      "origin": [
+        4.449999809265137,
+        38.79930114746094,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.65,
+      "s": 8.056159252055446,
+      "origin": [
+        4.449999809265137,
+        38.79930114746094,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.65,
+      "s": 8.056159252055446,
+      "origin": [
+        4.449999809265137,
+        38.79930114746094,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.700000000000001,
+      "s": 8.077200239364013,
+      "origin": [
+        4.449999809265137,
+        38.820343017578125,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.700000000000001,
+      "s": 8.077200239364013,
+      "origin": [
+        4.449999809265137,
+        38.820343017578125,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.700000000000001,
+      "s": 8.077200239364013,
+      "origin": [
+        4.449999809265137,
+        38.820343017578125,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.75,
+      "s": 8.099880387202171,
+      "origin": [
+        4.449999809265137,
+        38.843021392822266,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.75,
+      "s": 8.099880387202171,
+      "origin": [
+        4.449999809265137,
+        38.843021392822266,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.75,
+      "s": 8.099880387202171,
+      "origin": [
+        4.449999809265137,
+        38.843021392822266,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.8,
+      "s": 8.124533243177074,
+      "origin": [
+        4.449999809265137,
+        38.86767578125,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.8,
+      "s": 8.124533243177074,
+      "origin": [
+        4.449999809265137,
+        38.86767578125,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.8,
+      "s": 8.124533243177074,
+      "origin": [
+        4.449999809265137,
+        38.86767578125,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.85,
+      "s": 8.151474198477356,
+      "origin": [
+        4.449999809265137,
+        38.894615173339844,
+        30.649999618530273
+      ],
+      "target_y": 39.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.85,
+      "s": 8.151474198477356,
+      "origin": [
+        4.449999809265137,
+        38.894615173339844,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.85,
+      "s": 8.151474198477356,
+      "origin": [
+        4.449999809265137,
+        38.894615173339844,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.9,
+      "s": 8.180989948713512,
+      "origin": [
+        4.449999809265137,
+        38.92413330078125,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.9,
+      "s": 8.180989948713512,
+      "origin": [
+        4.449999809265137,
+        38.92413330078125,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.950000000000001,
+      "s": 8.21332953117536,
+      "origin": [
+        4.449999809265137,
+        38.95647048950195,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 9.950000000000001,
+      "s": 8.21332953117536,
+      "origin": [
+        4.449999809265137,
+        38.95647048950195,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 10.0,
+      "s": 8.248696938506557,
+      "origin": [
+        4.449999809265137,
+        38.99184036254883,
+        30.649999618530273
+      ],
+      "target_y": 39.5,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    },
+    {
+      "t": 10.0,
+      "s": 8.248696938506557,
+      "origin": [
+        4.449999809265137,
+        38.99184036254883,
+        30.649999618530273
+      ],
+      "target_y": 40.0,
+      "yaw_degrees": 90.0,
+      "blocked_before_target": false,
+      "hit_object": null,
+      "hit_distance": null
+    }
+  ]
+}

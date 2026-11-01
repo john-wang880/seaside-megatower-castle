@@ -1,0 +1,37 @@
+{
+  "status": "V2 lowresolution orientation feasibility improved; newactual-quality pilot stillrequired",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "source_unchanged": true,
+  "views": [
+    {
+      "view": "frame_0001",
+      "image_sha256": "f36ac1280648d412c0a1f785e8a003bd9529ceeebd4ac1d3e000a456f74abfb5",
+      "seconds": 60.23707392500364
+    },
+    {
+      "view": "frame_0058",
+      "image_sha256": "a97920a2bfa26d7afe05f13721cb57087a9d6951adc1ab9257412a3c1ebc3c3f",
+      "seconds": 57.8937798429979
+    },
+    {
+      "view": "frame_0076",
+      "image_sha256": "23dc8bce94366df657e62e8c45181d4db310757c07fe4d8b2e4cfe83dfe98623",
+      "seconds": 59.5840449669995
+    },
+    {
+      "view": "frame_0083",
+      "image_sha256": "da1929912e38c8cf5942c2731c6eee49f1dce5f99520c8bc2167069b4b832241",
+      "seconds": 57.33402131999901
+    }
+  ],
+  "visual_findings": {
+    "frame_0001": "Naturalentrance framing, smallopeninganticipation, no source/light change.",
+    "frame_0058": "Actualnear jamb/doorwayedge visible whileapproachingcorner; routeisnotyet fullyrevealed. Thisisphysicalocclusion, not hiddengeometry.",
+    "frame_0076": "Formerclosewallfailure nowshowsnorthcorridor andstairs immediately; largeclose lantern no longerdominates.",
+    "frame_0083": "Readable centered corridor/stair view; natural warmactual lights retained."
+  },
+  "limits": "640x462/16samples staticfeasibility only, notaccepted80samplemotion. Actual25frame V2pilotneeded after immutablecheckpoint; oldpilot remainsrejected/fullstageblocked.",
+  "model_or_light_changes": false,
+  "oldframes_reused_or_relabelled": false,
+  "long_render_started": false
+}

@@ -1,0 +1,7502 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "source_scene_frame": 1,
+  "status": "Prepared; independent finalproof andGit checkpoint required before pilotrender",
+  "fps": 12,
+  "frame_count": 336,
+  "encoded_duration_seconds": 28.0,
+  "first_to_last_pose_seconds": 27.916666666666668,
+  "timestamp_convention": "Actualdisplaytimestamps i/12, i0..335; finalposeheld forlast1/12second of28s video.",
+  "resolution": [
+    960,
+    694
+  ],
+  "sensor_width_mm": 36,
+  "sensor_fit": "HORIZONTAL",
+  "camera_proxy_radius_m": 0.12,
+  "xy_path_unchanged_from_feasibility": true,
+  "eye_vertical_change": "Stabilized nearlinear ascent withquintic slope ramps, notperstep cubic bobbing; independentproof mustregenerate.",
+  "exact_eyeheight_bounds_m": [
+    1.559375,
+    1.740625
+  ],
+  "cruise_speed_mps": 1.4140815247070573,
+  "time_segments": [
+    {
+      "name": "start",
+      "t0": 0.0,
+      "t1": 1.5,
+      "s0": 0.0,
+      "s1": 1.0605611435302928,
+      "v0": 0,
+      "v1": 1.4140815247070573
+    },
+    {
+      "name": "hall",
+      "t0": 1.5,
+      "t1": 4.639450434011848,
+      "s0": 1.0605611435302928,
+      "s1": 5.5,
+      "v0": 1.4140815247070573,
+      "v1": 1.4140815247070573
+    },
+    {
+      "name": "slow_for_turn",
+      "t0": 4.639450434011848,
+      "t1": 6.139450434011848,
+      "s0": 5.5,
+      "s1": 6.823061143530293,
+      "v0": 1.4140815247070573,
+      "v1": 0.35
+    },
+    {
+      "name": "rounded_turn",
+      "t0": 6.139450434011848,
+      "t1": 9.359275738211013,
+      "s0": 6.823061143530293,
+      "s1": 7.95,
+      "v0": 0.35,
+      "v1": 0.35
+    },
+    {
+      "name": "resume",
+      "t0": 9.359275738211013,
+      "t1": 10.859275738211013,
+      "s0": 7.95,
+      "s1": 9.273061143530294,
+      "v0": 0.35,
+      "v1": 1.4140815247070573
+    },
+    {
+      "name": "north_route",
+      "t0": 10.859275738211013,
+      "t1": 21.839504660787654,
+      "s0": 9.273061143530294,
+      "s1": 24.800000000000004,
+      "v0": 1.4140815247070573,
+      "v1": 1.4140815247070573
+    },
+    {
+      "name": "slow_for_arrival",
+      "t0": 21.839504660787654,
+      "t1": 23.339504660787654,
+      "s0": 24.800000000000004,
+      "s1": 26.310561143530297,
+      "v0": 1.4140815247070573,
+      "v1": 0.6
+    },
+    {
+      "name": "arrival",
+      "t0": 23.339504660787654,
+      "t1": 25.916666666666668,
+      "s0": 26.310561143530297,
+      "s1": 27.856858347057706,
+      "v0": 0.6,
+      "v1": 0.6
+    },
+    {
+      "name": "stop",
+      "t0": 25.916666666666668,
+      "t1": 27.916666666666668,
+      "s0": 27.856858347057706,
+      "s1": 28.456858347057707,
+      "v0": 0.6,
+      "v1": 0
+    }
+  ],
+  "gaze_knots_seconds": {
+    "turn_start": 4.639450434011848,
+    "turn_end": 8.394002327929574,
+    "arrival_start": 21.41520097707727,
+    "arrival_end": 27.416666666666668
+  },
+  "dense_metrics": {
+    "horizontal_speed_mps": 1.4140815247070573,
+    "speed_3d_mps": 1.4771936775241439,
+    "acceleration_3d_mps2": 1.8876678352921261,
+    "yaw_rate_degrees_per_second": 44.945443442202006,
+    "yaw_acceleration_degrees_per_second2": 36.86087463360629,
+    "pitch_rate_degrees_per_second": 2.499389444988351,
+    "pitch_acceleration_degrees_per_second2": 1.2823739744263751
+  },
+  "translational_join_limit": "XYquartercircle is C1, not globallyC2. Atcirclejoins withspeed.35, centripetalacceleration jumps by.35\u00b2/.45\u2248.27223m/s\u00b2. Speed/gaze timefunctions C2 withno angularvelocity/acceleration jumps; do not claimzero translationaljerk.",
+  "pilot_windows": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    [
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310
+    ]
+  ],
+  "pilot_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    336
+  ],
+  "pilot_scope": "25 actualframe pilot (3\u00d78 windows plusfinalpose336) thenmandatorypause forreview; validpilotframes reused inremaining311, neverinterpolated.",
+  "motion_code_sha256": "d7c037301d2afa0ade52a9f8d91045c6b34ede3050df472aed8c3613eb0f7420",
+  "frames": [
+    {
+      "index": 1,
+      "time_seconds": 0.0,
+      "recipe": {
+        "location": [
+          -3.0,
+          38.0,
+          30.65
+        ],
+        "target": [
+          0.9847787923669822,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 2,
+      "time_seconds": 0.08333333333333333,
+      "recipe": {
+        "location": [
+          -2.9999527908092305,
+          38.0,
+          30.65
+        ],
+        "target": [
+          0.9848260015577517,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 3,
+      "time_seconds": 0.16666666666666666,
+      "recipe": {
+        "location": [
+          -2.999295541586618,
+          38.0,
+          30.65
+        ],
+        "target": [
+          0.9854832507803644,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 4,
+      "time_seconds": 0.25,
+      "recipe": {
+        "location": [
+          -2.9966812001252694,
+          38.0,
+          30.65
+        ],
+        "target": [
+          0.9880975922417128,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 5,
+      "time_seconds": 0.3333333333333333,
+      "recipe": {
+        "location": [
+          -2.990261311452395,
+          38.0,
+          30.65
+        ],
+        "target": [
+          0.9945174809145874,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 6,
+      "time_seconds": 0.4166666666666667,
+      "recipe": {
+        "location": [
+          -2.9779778791407976,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.0068009132261846,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 7,
+      "time_seconds": 0.5,
+      "recipe": {
+        "location": [
+          -2.957810324880139,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.0269684674868431,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 8,
+      "time_seconds": 0.5833333333333334,
+      "recipe": {
+        "location": [
+          -2.927977546307974,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.0568012460590084,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 9,
+      "time_seconds": 0.6666666666666666,
+      "recipe": {
+        "location": [
+          -2.8870950731005514,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.0976837192664308,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 10,
+      "time_seconds": 0.75,
+      "recipe": {
+        "location": [
+          -2.8342873213233917,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.1504914710435905,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 11,
+      "time_seconds": 0.8333333333333334,
+      "recipe": {
+        "location": [
+          -2.76925494604163,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.2155238463253522,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 12,
+      "time_seconds": 0.9166666666666666,
+      "recipe": {
+        "location": [
+          -2.692297292190131,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.292481500176851,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 13,
+      "time_seconds": 1.0,
+      "recipe": {
+        "location": [
+          -2.604289943703375,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.380488848663607,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 14,
+      "time_seconds": 1.0833333333333333,
+      "recipe": {
+        "location": [
+          -2.506617370905112,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.4781614214618704,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 15,
+      "time_seconds": 1.1666666666666667,
+      "recipe": {
+        "location": [
+          -2.4010606761577877,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.5837181162091944,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 16,
+      "time_seconds": 1.25,
+      "recipe": {
+        "location": [
+          -2.289640437771741,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.6951383545952412,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 17,
+      "time_seconds": 1.3333333333333333,
+      "recipe": {
+        "location": [
+          -2.1744146521741676,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.8103641401928146,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 18,
+      "time_seconds": 1.4166666666666667,
+      "recipe": {
+        "location": [
+          -2.0572317743378585,
+          38.0,
+          30.65
+        ],
+        "target": [
+          1.9275470180291236,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 19,
+      "time_seconds": 1.5,
+      "recipe": {
+        "location": [
+          -1.9394388564697072,
+          38.0,
+          30.65
+        ],
+        "target": [
+          2.045339935897275,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 20,
+      "time_seconds": 1.5833333333333333,
+      "recipe": {
+        "location": [
+          -1.8215987294107858,
+          38.0,
+          30.65
+        ],
+        "target": [
+          2.1631800629561964,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 21,
+      "time_seconds": 1.6666666666666667,
+      "recipe": {
+        "location": [
+          -1.7037586023518643,
+          38.0,
+          30.65
+        ],
+        "target": [
+          2.281020190015118,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 22,
+      "time_seconds": 1.75,
+      "recipe": {
+        "location": [
+          -1.5859184752929427,
+          38.0,
+          30.65
+        ],
+        "target": [
+          2.3988603170740395,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 23,
+      "time_seconds": 1.8333333333333333,
+      "recipe": {
+        "location": [
+          -1.4680783482340214,
+          38.0,
+          30.65
+        ],
+        "target": [
+          2.516700444132961,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 24,
+      "time_seconds": 1.9166666666666667,
+      "recipe": {
+        "location": [
+          -1.3502382211750996,
+          38.0,
+          30.65
+        ],
+        "target": [
+          2.6345405711918826,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 25,
+      "time_seconds": 2.0,
+      "recipe": {
+        "location": [
+          -1.2323980941161785,
+          38.0,
+          30.65
+        ],
+        "target": [
+          2.7523806982508034,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 26,
+      "time_seconds": 2.0833333333333335,
+      "recipe": {
+        "location": [
+          -1.114557967057257,
+          38.0,
+          30.65
+        ],
+        "target": [
+          2.870220825309725,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 27,
+      "time_seconds": 2.1666666666666665,
+      "recipe": {
+        "location": [
+          -0.9967178399983361,
+          38.0,
+          30.65
+        ],
+        "target": [
+          2.988060952368646,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 28,
+      "time_seconds": 2.25,
+      "recipe": {
+        "location": [
+          -0.8788777129394143,
+          38.0,
+          30.65
+        ],
+        "target": [
+          3.105901079427568,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 29,
+      "time_seconds": 2.3333333333333335,
+      "recipe": {
+        "location": [
+          -0.7610375858804925,
+          38.0,
+          30.65
+        ],
+        "target": [
+          3.2237412064864897,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 30,
+      "time_seconds": 2.4166666666666665,
+      "recipe": {
+        "location": [
+          -0.6431974588215716,
+          38.0,
+          30.65
+        ],
+        "target": [
+          3.3415813335454105,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 31,
+      "time_seconds": 2.5,
+      "recipe": {
+        "location": [
+          -0.5253573317626499,
+          38.0,
+          30.65
+        ],
+        "target": [
+          3.4594214606043323,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 32,
+      "time_seconds": 2.5833333333333335,
+      "recipe": {
+        "location": [
+          -0.4075172047037281,
+          38.0,
+          30.65
+        ],
+        "target": [
+          3.577261587663254,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 33,
+      "time_seconds": 2.6666666666666665,
+      "recipe": {
+        "location": [
+          -0.2896770776448072,
+          38.0,
+          30.65
+        ],
+        "target": [
+          3.695101714722175,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 34,
+      "time_seconds": 2.75,
+      "recipe": {
+        "location": [
+          -0.17183695058588544,
+          38.0,
+          30.65
+        ],
+        "target": [
+          3.8129418417810967,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 35,
+      "time_seconds": 2.8333333333333335,
+      "recipe": {
+        "location": [
+          -0.053996823526963666,
+          38.0,
+          30.65
+        ],
+        "target": [
+          3.9307819688400185,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 36,
+      "time_seconds": 2.9166666666666665,
+      "recipe": {
+        "location": [
+          0.06384330353195677,
+          38.0,
+          30.65
+        ],
+        "target": [
+          4.0486220958989385,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 37,
+      "time_seconds": 3.0,
+      "recipe": {
+        "location": [
+          0.181683430590879,
+          38.0,
+          30.65
+        ],
+        "target": [
+          4.166462222957861,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 38,
+      "time_seconds": 3.0833333333333335,
+      "recipe": {
+        "location": [
+          0.29952355764980076,
+          38.0,
+          30.65
+        ],
+        "target": [
+          4.284302350016783,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 39,
+      "time_seconds": 3.1666666666666665,
+      "recipe": {
+        "location": [
+          0.4173636847087212,
+          38.0,
+          30.65
+        ],
+        "target": [
+          4.402142477075703,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 40,
+      "time_seconds": 3.25,
+      "recipe": {
+        "location": [
+          0.535203811767643,
+          38.0,
+          30.65
+        ],
+        "target": [
+          4.519982604134626,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 41,
+      "time_seconds": 3.3333333333333335,
+      "recipe": {
+        "location": [
+          0.6530439388265648,
+          38.0,
+          30.65
+        ],
+        "target": [
+          4.6378227311935465,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 42,
+      "time_seconds": 3.4166666666666665,
+      "recipe": {
+        "location": [
+          0.7708840658854856,
+          38.0,
+          30.65
+        ],
+        "target": [
+          4.755662858252467,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 43,
+      "time_seconds": 3.5,
+      "recipe": {
+        "location": [
+          0.8887241929444074,
+          38.0,
+          30.65
+        ],
+        "target": [
+          4.87350298531139,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 44,
+      "time_seconds": 3.5833333333333335,
+      "recipe": {
+        "location": [
+          1.0065643200033296,
+          38.0,
+          30.65
+        ],
+        "target": [
+          4.991343112370312,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 45,
+      "time_seconds": 3.6666666666666665,
+      "recipe": {
+        "location": [
+          1.1244044470622505,
+          38.0,
+          30.65
+        ],
+        "target": [
+          5.109183239429233,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 46,
+      "time_seconds": 3.75,
+      "recipe": {
+        "location": [
+          1.2422445741211714,
+          38.0,
+          30.65
+        ],
+        "target": [
+          5.227023366488154,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 47,
+      "time_seconds": 3.8333333333333335,
+      "recipe": {
+        "location": [
+          1.3600847011800932,
+          38.0,
+          30.65
+        ],
+        "target": [
+          5.344863493547075,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 48,
+      "time_seconds": 3.9166666666666665,
+      "recipe": {
+        "location": [
+          1.477924828239015,
+          38.0,
+          30.65
+        ],
+        "target": [
+          5.462703620605997,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 49,
+      "time_seconds": 4.0,
+      "recipe": {
+        "location": [
+          1.5957649552979358,
+          38.0,
+          30.65
+        ],
+        "target": [
+          5.580543747664918,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 50,
+      "time_seconds": 4.083333333333333,
+      "recipe": {
+        "location": [
+          1.7136050823568567,
+          38.0,
+          30.65
+        ],
+        "target": [
+          5.698383874723839,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 51,
+      "time_seconds": 4.166666666666667,
+      "recipe": {
+        "location": [
+          1.8314452094157794,
+          38.0,
+          30.65
+        ],
+        "target": [
+          5.8162240017827616,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 52,
+      "time_seconds": 4.25,
+      "recipe": {
+        "location": [
+          1.9492853364747003,
+          38.0,
+          30.65
+        ],
+        "target": [
+          5.934064128841682,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 53,
+      "time_seconds": 4.333333333333333,
+      "recipe": {
+        "location": [
+          2.067125463533621,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.051904255900603,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 54,
+      "time_seconds": 4.416666666666667,
+      "recipe": {
+        "location": [
+          2.184965590592544,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.169744382959526,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 55,
+      "time_seconds": 4.5,
+      "recipe": {
+        "location": [
+          2.3028057176514647,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.287584510018447,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 56,
+      "time_seconds": 4.583333333333333,
+      "recipe": {
+        "location": [
+          2.4206458447103856,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.405424637077368,
+          38.0,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 57,
+      "time_seconds": 4.666666666666667,
+      "recipe": {
+        "location": [
+          2.5384855486612663,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.5232643409584625,
+          38.00002358302746,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.00033909233419074635,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 58,
+      "time_seconds": 4.75,
+      "recipe": {
+        "location": [
+          2.65621852946079,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.640997028843118,
+          38.00152805693186,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.021971411653917895,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 59,
+      "time_seconds": 4.833333333333333,
+      "recipe": {
+        "location": [
+          2.773217757633515,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.757988588800691,
+          38.007965373620685,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.11453147550380581,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 60,
+      "time_seconds": 4.916666666666667,
+      "recipe": {
+        "location": [
+          2.888320142803815,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.8730354881955975,
+          38.02248644696055,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.3233266919591681,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 61,
+      "time_seconds": 5.0,
+      "recipe": {
+        "location": [
+          3.000060737378411,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.984553409549186,
+          38.047751120563504,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 0.6866135619704957,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 62,
+      "time_seconds": 5.083333333333333,
+      "recipe": {
+        "location": [
+          3.106881324110094,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.09073304842271,
+          38.08595035072104,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 1.2359467217897517,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 63,
+      "time_seconds": 5.166666666666667,
+      "recipe": {
+        "location": [
+          3.207305215572573,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.189665008232929,
+          38.13882545119623,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 1.9965279853966567,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 64,
+      "time_seconds": 5.25,
+      "recipe": {
+        "location": [
+          3.3000782655464835,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.279441259547724,
+          38.207682897878335,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 2.98755538692494,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 65,
+      "time_seconds": 5.333333333333333,
+      "recipe": {
+        "location": [
+          3.3842760923165356,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.358238389696226,
+          38.29340361807995,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 4.222572223088664,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 66,
+      "time_seconds": 5.416666666666667,
+      "recipe": {
+        "location": [
+          3.459377513879801,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.42438598399354,
+          38.39644653614828,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 5.709816095608506,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 67,
+      "time_seconds": 5.5,
+      "recipe": {
+        "location": [
+          3.525304195065151,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.476421875946473,
+          38.51684726556756,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 7.452567953637966,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 68,
+      "time_seconds": 5.583333333333333,
+      "recipe": {
+        "location": [
+          3.5824265065638397,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.513134587001324,
+          38.65421404026598,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 9.449501136189758,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 69,
+      "time_seconds": 5.666666666666667,
+      "recipe": {
+        "location": [
+          3.6315355958712274,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.533591957771176,
+          38.80772406962639,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 11.695030414562057,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 70,
+      "time_seconds": 5.75,
+      "recipe": {
+        "location": [
+          3.6737816701396477,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.537153690638587,
+          38.976124303213275,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 14.179661034764678,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 71,
+      "time_seconds": 5.833333333333333,
+      "recipe": {
+        "location": [
+          3.710578490942426,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.523464262165584,
+          39.157740955352985,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 16.890337759945524,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 72,
+      "time_seconds": 5.916666666666667,
+      "recipe": {
+        "location": [
+          3.7434740809490377,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.4924214616071865,
+          39.350501966364384,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 19.81079391281682,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 73,
+      "time_seconds": 6.0,
+      "recipe": {
+        "location": [
+          3.7739876425114094,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.444114760017095,
+          39.55197582630886,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 22.921900418081226,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 74,
+      "time_seconds": 6.083333333333333,
+      "recipe": {
+        "location": [
+          3.8034126881613677,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.3787269416166215,
+          39.75942888834342,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 26.202014844858414,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 75,
+      "time_seconds": 6.166666666666667,
+      "recipe": {
+        "location": [
+          3.8325868249594794,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.296392518728773,
+          39.969901555892854,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 29.627330449111152,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 76,
+      "time_seconds": 6.25,
+      "recipe": {
+        "location": [
+          3.8617534916261462,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.197131500135505,
+          40.180301714086795,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 33.172225216071546,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 77,
+      "time_seconds": 6.333333333333333,
+      "recipe": {
+        "location": [
+          3.890920158292812,
+          38.0,
+          30.65
+        ],
+        "target": [
+          7.081257102776473,
+          40.387511718245655,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 36.8096109026675,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 78,
+      "time_seconds": 6.416666666666667,
+      "recipe": {
+        "location": [
+          3.920086824959479,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.9496267482477885,
+          40.58850340492338,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 40.51128207994895,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 79,
+      "time_seconds": 6.5,
+      "recipe": {
+        "location": [
+          3.9492534916261457,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.803642473726697,
+          40.780454200838534,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 44.24826517551393,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 80,
+      "time_seconds": 6.583333333333333,
+      "recipe": {
+        "location": [
+          3.9784201582928125,
+          38.0,
+          30.65
+        ],
+        "target": [
+          6.645214073128685,
+          40.9608566733113,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 47.991167515935174,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 81,
+      "time_seconds": 6.666666666666667,
+      "recipe": {
+        "location": [
+          4.007586465543201,
+          38.00006395394394,
+          30.65
+        ],
+        "target": [
+          6.476694244462579,
+          41.12767786876423,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 51.71052636918627,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 82,
+      "time_seconds": 6.75,
+      "recipe": {
+        "location": [
+          4.036712643260978,
+          38.00150007600359,
+          30.65
+        ],
+        "target": [
+          6.300751814726697,
+          41.28061408045151,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 55.3771579870678,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 83,
+      "time_seconds": 6.833333333333333,
+      "recipe": {
+        "location": [
+          4.065684646609569,
+          38.00481966889835,
+          30.65
+        ],
+        "target": [
+          6.120232128329753,
+          41.41909802156014,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 58.962506647633816,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 84,
+      "time_seconds": 6.916666666666667,
+      "recipe": {
+        "location": [
+          4.094380807957783,
+          38.01000879203189,
+          30.65
+        ],
+        "target": [
+          5.938109287537847,
+          41.542589621635514,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 62.43899369761812,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 85,
+      "time_seconds": 7.0,
+      "recipe": {
+        "location": [
+          4.1226806180700795,
+          38.01704565373478,
+          30.65
+        ],
+        "target": [
+          5.757378592360208,
+          41.65108260414536,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 65.78036659486035,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 86,
+      "time_seconds": 7.083333333333333,
+      "recipe": {
+        "location": [
+          4.15046523218388,
+          38.02590070277841,
+          30.65
+        ],
+        "target": [
+          5.580946081954265,
+          41.745065469569184,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 68.96204795073247,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 87,
+      "time_seconds": 7.166666666666667,
+      "recipe": {
+        "location": [
+          4.177617969096914,
+          38.036536752475044,
+          30.65
+        ],
+        "target": [
+          5.411529605862702,
+          41.82545798374281,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 71.96148457256501,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 88,
+      "time_seconds": 7.25,
+      "recipe": {
+        "location": [
+          4.204024801168747,
+          38.04890913684297,
+          30.65
+        ],
+        "target": [
+          5.251575891461044,
+          41.893528589705,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 74.75849650607316,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 89,
+      "time_seconds": 7.333333333333333,
+      "recipe": {
+        "location": [
+          4.2295748331786776,
+          38.06296589818082,
+          30.65
+        ],
+        "target": [
+          5.103196069858203,
+          41.95079922265863,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 77.33562607778344,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 90,
+      "time_seconds": 7.416666666666667,
+      "recipe": {
+        "location": [
+          4.254160768029089,
+          38.07864800526339,
+          30.65
+        ],
+        "target": [
+          4.968120061641931,
+          41.99894444190712,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 79.67848693745962,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 91,
+      "time_seconds": 7.5,
+      "recipe": {
+        "location": [
+          4.277679357338502,
+          38.09588960124267,
+          30.65
+        ],
+        "target": [
+          4.847668347998134,
+          42.03969164681043,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 81.77611310052912,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 92,
+      "time_seconds": 7.583333333333333,
+      "recipe": {
+        "location": [
+          4.300031835032104,
+          38.11461828021303,
+          30.65
+        ],
+        "target": [
+          4.742738159163483,
+          42.07472852295524,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 83.62130799050925,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 93,
+      "time_seconds": 7.666666666666667,
+      "recipe": {
+        "location": [
+          4.321124332108863,
+          38.134755391279036,
+          30.65
+        ],
+        "target": [
+          4.653800133670661,
+          42.10562290797522,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 85.21099348143366,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 94,
+      "time_seconds": 7.75,
+      "recipe": {
+        "location": [
+          4.340868270843437,
+          38.15621636884911,
+          30.65
+        ],
+        "target": [
+          4.58090109779712,
+          42.133759111055944,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 86.54655894027863,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 95,
+      "time_seconds": 7.833333333333333,
+      "recipe": {
+        "location": [
+          4.359180736767421,
+          38.17891108776785,
+          30.65
+        ],
+        "target": [
+          4.523668772009202,
+          42.16029347462295,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 87.63421026938889,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 96,
+      "time_seconds": 7.916666666666667,
+      "recipe": {
+        "location": [
+          4.375984826867812,
+          38.202744241795706,
+          30.65
+        ],
+        "target": [
+          4.4813148525631235,
+          42.18613069176321,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 88.48531894890442,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 97,
+      "time_seconds": 8.0,
+      "recipe": {
+        "location": [
+          4.391209972540424,
+          38.227615743846556,
+          30.65
+        ],
+        "target": [
+          4.452633911883479,
+          42.21192109406424,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 89.11677107918682,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 98,
+      "time_seconds": 8.083333333333334,
+      "recipe": {
+        "location": [
+          4.404792235942012,
+          38.253421146302394,
+          30.65
+        ],
+        "target": [
+          4.435996742497553,
+          42.23807775671041,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 89.55131642324477,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 99,
+      "time_seconds": 8.166666666666666,
+      "recipe": {
+        "location": [
+          4.416674578496598,
+          38.28005207964002,
+          30.65
+        ],
+        "target": [
+          4.429337945186703,
+          42.264810750280155,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 89.81791744916138,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 100,
+      "time_seconds": 8.25,
+      "recipe": {
+        "location": [
+          4.426807100428379,
+          38.30739670752777,
+          30.65
+        ],
+        "target": [
+          4.430138538951243,
+          42.29217410728488,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 89.95209837251966,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 101,
+      "time_seconds": 8.333333333333334,
+      "recipe": {
+        "location": [
+          4.435147250315329,
+          38.335340196481035,
+          30.65
+        ],
+        "target": [
+          4.435404979558708,
+          42.32011898051326,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 89.99629419882949,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 102,
+      "time_seconds": 8.416666666666666,
+      "recipe": {
+        "location": [
+          4.441660003783458,
+          38.363765198104275,
+          30.65
+        ],
+        "target": [
+          4.441660003783458,
+          42.348543990471256,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 103,
+      "time_seconds": 8.5,
+      "recipe": {
+        "location": [
+          4.446318010591312,
+          38.39255234189444,
+          30.65
+        ],
+        "target": [
+          4.446318010591312,
+          42.37733113426142,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 104,
+      "time_seconds": 8.583333333333334,
+      "recipe": {
+        "location": [
+          4.449101709487031,
+          38.421580736536164,
+          30.65
+        ],
+        "target": [
+          4.449101709487031,
+          42.406359528903145,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 105,
+      "time_seconds": 8.666666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          38.45072847790178,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.43550727026876,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 106,
+      "time_seconds": 8.75,
+      "recipe": {
+        "location": [
+          4.45,
+          38.479895144568445,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.46467393693543,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 107,
+      "time_seconds": 8.833333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          38.509061811235114,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.493840603602095,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 108,
+      "time_seconds": 8.916666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          38.538228477901775,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.52300727026876,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 109,
+      "time_seconds": 9.0,
+      "recipe": {
+        "location": [
+          4.45,
+          38.567395144568444,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.552173936935425,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 110,
+      "time_seconds": 9.083333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          38.59656181123511,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.581340603602094,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 111,
+      "time_seconds": 9.166666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          38.625728477901774,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.610507270268755,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 112,
+      "time_seconds": 9.25,
+      "recipe": {
+        "location": [
+          4.45,
+          38.65489514456844,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.639673936935424,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 113,
+      "time_seconds": 9.333333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          38.68406181123511,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.66884060360209,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 114,
+      "time_seconds": 9.416666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          38.7132366412569,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.69801543362388,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 115,
+      "time_seconds": 9.5,
+      "recipe": {
+        "location": [
+          4.45,
+          38.74267054593046,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.72744933829744,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 116,
+      "time_seconds": 9.583333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          38.77320993472976,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.757988727096745,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 117,
+      "time_seconds": 9.666666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          38.80615341996647,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.79093221233345,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 118,
+      "time_seconds": 9.75,
+      "recipe": {
+        "location": [
+          4.45,
+          38.84302204014447,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.82780083251145,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 119,
+      "time_seconds": 9.833333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          38.8853629069398,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.87014169930678,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 120,
+      "time_seconds": 9.916666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          38.934586640269416,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.9193654326364,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 121,
+      "time_seconds": 10.0,
+      "recipe": {
+        "location": [
+          4.45,
+          38.991838591448854,
+          30.65
+        ],
+        "target": [
+          4.45,
+          42.976617383815835,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 122,
+      "time_seconds": 10.083333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          39.0579038544387,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.04268264680568,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 123,
+      "time_seconds": 10.166666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          39.13314606517992,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.1179248575469,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 124,
+      "time_seconds": 10.25,
+      "recipe": {
+        "location": [
+          4.45,
+          39.21747998901808,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.20225878138506,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 125,
+      "time_seconds": 10.333333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          39.31037789621639,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.29515668858337,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 126,
+      "time_seconds": 10.416666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          39.41090972555761,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.39568851792459,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 127,
+      "time_seconds": 10.5,
+      "recipe": {
+        "location": [
+          4.45,
+          39.51781703603483,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.50259582840181,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 128,
+      "time_seconds": 10.583333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          39.62962074663107,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.61439953899805,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 129,
+      "time_seconds": 10.666666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          39.74476266418778,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.72954145655476,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 130,
+      "time_seconds": 10.75,
+      "recipe": {
+        "location": [
+          4.45,
+          39.86178079936215,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.84655959172913,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 131,
+      "time_seconds": 10.833333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          39.97951847067331,
+          30.65
+        ],
+        "target": [
+          4.45,
+          43.964297263040294,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 132,
+      "time_seconds": 10.916666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          40.09735824808752,
+          30.65
+        ],
+        "target": [
+          4.45,
+          44.0821370404545,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 133,
+      "time_seconds": 11.0,
+      "recipe": {
+        "location": [
+          4.45,
+          40.21519837514644,
+          30.65
+        ],
+        "target": [
+          4.45,
+          44.199977167513424,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 134,
+      "time_seconds": 11.083333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          40.33303850220536,
+          30.65
+        ],
+        "target": [
+          4.45,
+          44.31781729457234,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 135,
+      "time_seconds": 11.166666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          40.45087862926428,
+          30.65
+        ],
+        "target": [
+          4.45,
+          44.43565742163126,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 136,
+      "time_seconds": 11.25,
+      "recipe": {
+        "location": [
+          4.45,
+          40.56871875632321,
+          30.65
+        ],
+        "target": [
+          4.45,
+          44.55349754869019,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 137,
+      "time_seconds": 11.333333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          40.686558883382126,
+          30.65
+        ],
+        "target": [
+          4.45,
+          44.67133767574911,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 138,
+      "time_seconds": 11.416666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          40.804399010441045,
+          30.65
+        ],
+        "target": [
+          4.45,
+          44.78917780280803,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 139,
+      "time_seconds": 11.5,
+      "recipe": {
+        "location": [
+          4.45,
+          40.92223913749997,
+          30.65
+        ],
+        "target": [
+          4.45,
+          44.90701792986695,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 140,
+      "time_seconds": 11.583333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          41.04007926455889,
+          30.65
+        ],
+        "target": [
+          4.45,
+          45.02485805692587,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 141,
+      "time_seconds": 11.666666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          41.15791939161781,
+          30.65
+        ],
+        "target": [
+          4.45,
+          45.14269818398479,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 142,
+      "time_seconds": 11.75,
+      "recipe": {
+        "location": [
+          4.45,
+          41.275759518676736,
+          30.65
+        ],
+        "target": [
+          4.45,
+          45.26053831104372,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 143,
+      "time_seconds": 11.833333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          41.393599645735655,
+          30.65
+        ],
+        "target": [
+          4.45,
+          45.37837843810264,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 144,
+      "time_seconds": 11.916666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          41.511439772794574,
+          30.65
+        ],
+        "target": [
+          4.45,
+          45.496218565161556,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 145,
+      "time_seconds": 12.0,
+      "recipe": {
+        "location": [
+          4.45,
+          41.6292798998535,
+          30.65
+        ],
+        "target": [
+          4.45,
+          45.61405869222048,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 146,
+      "time_seconds": 12.083333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          41.74712002691242,
+          30.65
+        ],
+        "target": [
+          4.45,
+          45.7318988192794,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 147,
+      "time_seconds": 12.166666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          41.86496015397134,
+          30.65
+        ],
+        "target": [
+          4.45,
+          45.84973894633832,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 148,
+      "time_seconds": 12.25,
+      "recipe": {
+        "location": [
+          4.45,
+          41.982800281030265,
+          30.65
+        ],
+        "target": [
+          4.45,
+          45.967579073397246,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 149,
+      "time_seconds": 12.333333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          42.100640408089184,
+          30.65
+        ],
+        "target": [
+          4.45,
+          46.085419200456165,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 150,
+      "time_seconds": 12.416666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          42.2184805351481,
+          30.65
+        ],
+        "target": [
+          4.45,
+          46.203259327515084,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 151,
+      "time_seconds": 12.5,
+      "recipe": {
+        "location": [
+          4.45,
+          42.33632066220703,
+          30.65
+        ],
+        "target": [
+          4.45,
+          46.32109945457401,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 152,
+      "time_seconds": 12.583333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          42.45416078926595,
+          30.65
+        ],
+        "target": [
+          4.45,
+          46.43893958163293,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 153,
+      "time_seconds": 12.666666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          42.57200091632487,
+          30.65
+        ],
+        "target": [
+          4.45,
+          46.55677970869185,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 154,
+      "time_seconds": 12.75,
+      "recipe": {
+        "location": [
+          4.45,
+          42.689841043383794,
+          30.65
+        ],
+        "target": [
+          4.45,
+          46.674619835750775,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 155,
+      "time_seconds": 12.833333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          42.80768117044271,
+          30.65
+        ],
+        "target": [
+          4.45,
+          46.792459962809694,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 156,
+      "time_seconds": 12.916666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          42.92552129750163,
+          30.65
+        ],
+        "target": [
+          4.45,
+          46.91030008986861,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 157,
+      "time_seconds": 13.0,
+      "recipe": {
+        "location": [
+          4.45,
+          43.04336142456056,
+          30.65
+        ],
+        "target": [
+          4.45,
+          47.02814021692754,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 158,
+      "time_seconds": 13.083333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          43.16120155161948,
+          30.65
+        ],
+        "target": [
+          4.45,
+          47.14598034398646,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 159,
+      "time_seconds": 13.166666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          43.2790416786784,
+          30.65
+        ],
+        "target": [
+          4.45,
+          47.26382047104538,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 160,
+      "time_seconds": 13.25,
+      "recipe": {
+        "location": [
+          4.45,
+          43.396881805737316,
+          30.65
+        ],
+        "target": [
+          4.45,
+          47.3816605981043,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 161,
+      "time_seconds": 13.333333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          43.51472193279624,
+          30.65
+        ],
+        "target": [
+          4.45,
+          47.49950072516322,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 162,
+      "time_seconds": 13.416666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          43.63256205985516,
+          30.65
+        ],
+        "target": [
+          4.45,
+          47.61734085222214,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 163,
+      "time_seconds": 13.5,
+      "recipe": {
+        "location": [
+          4.45,
+          43.75040218691408,
+          30.65
+        ],
+        "target": [
+          4.45,
+          47.73518097928106,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 164,
+      "time_seconds": 13.583333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          43.868242313973006,
+          30.65
+        ],
+        "target": [
+          4.45,
+          47.85302110633999,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 165,
+      "time_seconds": 13.666666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          43.986082441031925,
+          30.65
+        ],
+        "target": [
+          4.45,
+          47.97086123339891,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 166,
+      "time_seconds": 13.75,
+      "recipe": {
+        "location": [
+          4.45,
+          44.103922568090844,
+          30.65
+        ],
+        "target": [
+          4.45,
+          48.088701360457826,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 167,
+      "time_seconds": 13.833333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          44.22176269514977,
+          30.65
+        ],
+        "target": [
+          4.45,
+          48.20654148751675,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 168,
+      "time_seconds": 13.916666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          44.33960282220869,
+          30.65
+        ],
+        "target": [
+          4.45,
+          48.32438161457567,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 169,
+      "time_seconds": 14.0,
+      "recipe": {
+        "location": [
+          4.45,
+          44.457442949267616,
+          30.65
+        ],
+        "target": [
+          4.45,
+          48.4422217416346,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 170,
+      "time_seconds": 14.083333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          44.575283076326535,
+          30.65
+        ],
+        "target": [
+          4.45,
+          48.560061868693516,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 171,
+      "time_seconds": 14.166666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          44.693123203385454,
+          30.65
+        ],
+        "target": [
+          4.45,
+          48.677901995752435,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 172,
+      "time_seconds": 14.25,
+      "recipe": {
+        "location": [
+          4.45,
+          44.81096333044437,
+          30.65
+        ],
+        "target": [
+          4.45,
+          48.795742122811355,
+          30.301377029009366
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 173,
+      "time_seconds": 14.333333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          44.92880345750329,
+          30.650002270116836
+        ],
+        "target": [
+          4.45,
+          48.913582249870274,
+          30.301379299126204
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 174,
+      "time_seconds": 14.416666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          45.04664358456222,
+          30.651181269121494
+        ],
+        "target": [
+          4.45,
+          49.0314223769292,
+          30.30255829813086
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 175,
+      "time_seconds": 14.5,
+      "recipe": {
+        "location": [
+          4.45,
+          45.164483711621145,
+          30.659388333616487
+        ],
+        "target": [
+          4.45,
+          49.149262503988126,
+          30.310765362625855
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 176,
+      "time_seconds": 14.583333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          45.282323838680064,
+          30.679714281384133
+        ],
+        "target": [
+          4.45,
+          49.267102631047045,
+          30.3310913103935
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 177,
+      "time_seconds": 14.666666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          45.40016396573898,
+          30.710748035447462
+        ],
+        "target": [
+          4.45,
+          49.384942758105964,
+          30.36212506445683
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 178,
+      "time_seconds": 14.75,
+      "recipe": {
+        "location": [
+          4.45,
+          45.5180040927979,
+          30.746063736366033
+        ],
+        "target": [
+          4.45,
+          49.50278288516488,
+          30.3974407653754
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 179,
+      "time_seconds": 14.833333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          45.63584421985683,
+          30.781661274748416
+        ],
+        "target": [
+          4.45,
+          49.62062301222381,
+          30.433038303757783
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 180,
+      "time_seconds": 14.916666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          45.75368434691575,
+          30.817258813130795
+        ],
+        "target": [
+          4.45,
+          49.73846313928273,
+          30.468635842140163
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 181,
+      "time_seconds": 15.0,
+      "recipe": {
+        "location": [
+          4.45,
+          45.87152447397467,
+          30.85285635151318
+        ],
+        "target": [
+          4.45,
+          49.85630326634165,
+          30.504233380522546
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 182,
+      "time_seconds": 15.083333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          45.989364601033586,
+          30.888453889895562
+        ],
+        "target": [
+          4.45,
+          49.97414339340057,
+          30.53983091890493
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 183,
+      "time_seconds": 15.166666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          46.10720472809251,
+          30.924051428277945
+        ],
+        "target": [
+          4.45,
+          50.09198352045949,
+          30.575428457287313
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 184,
+      "time_seconds": 15.25,
+      "recipe": {
+        "location": [
+          4.45,
+          46.22504485515143,
+          30.959648966660325
+        ],
+        "target": [
+          4.45,
+          50.20982364751841,
+          30.611025995669692
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 185,
+      "time_seconds": 15.333333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          46.34288498221035,
+          30.995246505042708
+        ],
+        "target": [
+          4.45,
+          50.32766377457733,
+          30.646623534052075
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 186,
+      "time_seconds": 15.416666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          46.460725109269276,
+          31.03084404342509
+        ],
+        "target": [
+          4.45,
+          50.44550390163626,
+          30.68222107243446
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 187,
+      "time_seconds": 15.5,
+      "recipe": {
+        "location": [
+          4.45,
+          46.578565236328195,
+          31.066441581807474
+        ],
+        "target": [
+          4.45,
+          50.56334402869518,
+          30.717818610816842
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 188,
+      "time_seconds": 15.583333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          46.696405363387115,
+          31.102039120189854
+        ],
+        "target": [
+          4.45,
+          50.681184155754096,
+          30.75341614919922
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 189,
+      "time_seconds": 15.666666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          46.81424549044604,
+          31.13763665857224
+        ],
+        "target": [
+          4.45,
+          50.79902428281302,
+          30.78901368758161
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 190,
+      "time_seconds": 15.75,
+      "recipe": {
+        "location": [
+          4.45,
+          46.93208561750496,
+          31.17323419695462
+        ],
+        "target": [
+          4.45,
+          50.91686440987194,
+          30.824611225963988
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 191,
+      "time_seconds": 15.833333333333334,
+      "recipe": {
+        "location": [
+          4.45,
+          47.04992574456388,
+          31.208831735337004
+        ],
+        "target": [
+          4.45,
+          51.03470453693086,
+          30.86020876434637
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 192,
+      "time_seconds": 15.916666666666666,
+      "recipe": {
+        "location": [
+          4.45,
+          47.167765871622805,
+          31.244429273719387
+        ],
+        "target": [
+          4.45,
+          51.15254466398979,
+          30.895806302728754
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 193,
+      "time_seconds": 16.0,
+      "recipe": {
+        "location": [
+          4.45,
+          47.285605998681724,
+          31.28002681210177
+        ],
+        "target": [
+          4.45,
+          51.270384791048706,
+          30.931403841111138
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 194,
+      "time_seconds": 16.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          47.40344612574064,
+          31.31562435048415
+        ],
+        "target": [
+          4.45,
+          51.388224918107625,
+          30.967001379493517
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 195,
+      "time_seconds": 16.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          47.52128625279957,
+          31.351221888866533
+        ],
+        "target": [
+          4.45,
+          51.50606504516655,
+          31.0025989178759
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 196,
+      "time_seconds": 16.25,
+      "recipe": {
+        "location": [
+          4.45,
+          47.63912637985849,
+          31.386819427248916
+        ],
+        "target": [
+          4.45,
+          51.62390517222547,
+          31.038196456258284
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 197,
+      "time_seconds": 16.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          47.75696650691741,
+          31.4224169656313
+        ],
+        "target": [
+          4.45,
+          51.74174529928439,
+          31.073793994640667
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 198,
+      "time_seconds": 16.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          47.874806633976334,
+          31.458014504013683
+        ],
+        "target": [
+          4.45,
+          51.859585426343315,
+          31.10939153302305
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 199,
+      "time_seconds": 16.5,
+      "recipe": {
+        "location": [
+          4.45,
+          47.99264676103525,
+          31.493612042396062
+        ],
+        "target": [
+          4.45,
+          51.977425553402234,
+          31.14498907140543
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 200,
+      "time_seconds": 16.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          48.11048688809417,
+          31.529209580778446
+        ],
+        "target": [
+          4.45,
+          52.095265680461154,
+          31.180586609787813
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 201,
+      "time_seconds": 16.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          48.2283270151531,
+          31.56480711916083
+        ],
+        "target": [
+          4.45,
+          52.21310580752008,
+          31.216184148170196
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 202,
+      "time_seconds": 16.75,
+      "recipe": {
+        "location": [
+          4.45,
+          48.34616714221202,
+          31.600404657543212
+        ],
+        "target": [
+          4.45,
+          52.330945934579,
+          31.25178168655258
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 203,
+      "time_seconds": 16.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          48.46400726927094,
+          31.63600219592559
+        ],
+        "target": [
+          4.45,
+          52.44878606163792,
+          31.28737922493496
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 204,
+      "time_seconds": 16.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          48.58184739632986,
+          31.67159973430798
+        ],
+        "target": [
+          4.45,
+          52.566626188696844,
+          31.322976763317346
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 205,
+      "time_seconds": 17.0,
+      "recipe": {
+        "location": [
+          4.45,
+          48.69968752338878,
+          31.707197272690358
+        ],
+        "target": [
+          4.45,
+          52.68446631575576,
+          31.358574301699726
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 206,
+      "time_seconds": 17.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          48.8175276504477,
+          31.74279481107274
+        ],
+        "target": [
+          4.45,
+          52.80230644281468,
+          31.39417184008211
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 207,
+      "time_seconds": 17.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          48.93536777750663,
+          31.778392349455125
+        ],
+        "target": [
+          4.45,
+          52.92014656987361,
+          31.429769378464492
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 208,
+      "time_seconds": 17.25,
+      "recipe": {
+        "location": [
+          4.45,
+          49.05320790456555,
+          31.813989887837508
+        ],
+        "target": [
+          4.45,
+          53.03798669693253,
+          31.465366916846875
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 209,
+      "time_seconds": 17.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          49.171048031624466,
+          31.849587426219887
+        ],
+        "target": [
+          4.45,
+          53.15582682399145,
+          31.500964455229255
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 210,
+      "time_seconds": 17.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          49.28888815868339,
+          31.885184964602274
+        ],
+        "target": [
+          4.45,
+          53.27366695105037,
+          31.53656199361164
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 211,
+      "time_seconds": 17.5,
+      "recipe": {
+        "location": [
+          4.45,
+          49.40672828574231,
+          31.920782502984654
+        ],
+        "target": [
+          4.45,
+          53.39150707810929,
+          31.57215953199402
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 212,
+      "time_seconds": 17.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          49.52456841280123,
+          31.956380041367037
+        ],
+        "target": [
+          4.45,
+          53.50934720516821,
+          31.607757070376405
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 213,
+      "time_seconds": 17.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          49.642408539860156,
+          31.99197757974942
+        ],
+        "target": [
+          4.45,
+          53.62718733222714,
+          31.643354608758788
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 214,
+      "time_seconds": 17.75,
+      "recipe": {
+        "location": [
+          4.45,
+          49.760248666919075,
+          32.0275751181318
+        ],
+        "target": [
+          4.45,
+          53.74502745928606,
+          31.678952147141167
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 215,
+      "time_seconds": 17.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          49.878088793977994,
+          32.06317265651418
+        ],
+        "target": [
+          4.45,
+          53.862867586344976,
+          31.71454968552355
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 216,
+      "time_seconds": 17.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          49.99592892103692,
+          32.09877019489657
+        ],
+        "target": [
+          4.45,
+          53.9807077134039,
+          31.750147223905934
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 217,
+      "time_seconds": 18.0,
+      "recipe": {
+        "location": [
+          4.45,
+          50.11376904809584,
+          32.13436773327895
+        ],
+        "target": [
+          4.45,
+          54.09854784046282,
+          31.785744762288317
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 218,
+      "time_seconds": 18.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          50.23160917515476,
+          32.16996527166133
+        ],
+        "target": [
+          4.45,
+          54.21638796752174,
+          31.8213423006707
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 219,
+      "time_seconds": 18.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          50.349449302213685,
+          32.205562810043716
+        ],
+        "target": [
+          4.45,
+          54.334228094580666,
+          31.856939839053084
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 220,
+      "time_seconds": 18.25,
+      "recipe": {
+        "location": [
+          4.45,
+          50.467289429272604,
+          32.2411603484261
+        ],
+        "target": [
+          4.45,
+          54.452068221639585,
+          31.892537377435467
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 221,
+      "time_seconds": 18.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          50.58512955633152,
+          32.27675788680848
+        ],
+        "target": [
+          4.45,
+          54.569908348698505,
+          31.92813491581785
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 222,
+      "time_seconds": 18.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          50.70296968339045,
+          32.312355425190866
+        ],
+        "target": [
+          4.45,
+          54.68774847575743,
+          31.963732454200233
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 223,
+      "time_seconds": 18.5,
+      "recipe": {
+        "location": [
+          4.45,
+          50.82080981044937,
+          32.34795296357325
+        ],
+        "target": [
+          4.45,
+          54.80558860281635,
+          31.999329992582616
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 224,
+      "time_seconds": 18.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          50.93864993750829,
+          32.383550501955625
+        ],
+        "target": [
+          4.45,
+          54.92342872987527,
+          32.03492753096499
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 225,
+      "time_seconds": 18.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          51.056490064567214,
+          32.419148040338015
+        ],
+        "target": [
+          4.45,
+          55.041268856934195,
+          32.07052506934738
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 226,
+      "time_seconds": 18.75,
+      "recipe": {
+        "location": [
+          4.45,
+          51.17433019162613,
+          32.45474557872039
+        ],
+        "target": [
+          4.45,
+          55.159108983993114,
+          32.10612260772976
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 227,
+      "time_seconds": 18.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          51.29217031868505,
+          32.490343117102775
+        ],
+        "target": [
+          4.45,
+          55.27694911105203,
+          32.14172014611214
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 228,
+      "time_seconds": 18.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          51.41001044574398,
+          32.52594065548516
+        ],
+        "target": [
+          4.45,
+          55.39478923811096,
+          32.177317684494525
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 229,
+      "time_seconds": 19.0,
+      "recipe": {
+        "location": [
+          4.45,
+          51.5278505728029,
+          32.56153819386754
+        ],
+        "target": [
+          4.45,
+          55.51262936516988,
+          32.21291522287691
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 230,
+      "time_seconds": 19.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          51.64569069986182,
+          32.597135732249924
+        ],
+        "target": [
+          4.45,
+          55.6304694922288,
+          32.24851276125929
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 231,
+      "time_seconds": 19.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          51.76353082692074,
+          32.63273327063231
+        ],
+        "target": [
+          4.45,
+          55.748309619287724,
+          32.284110299641675
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 232,
+      "time_seconds": 19.25,
+      "recipe": {
+        "location": [
+          4.45,
+          51.88137095397966,
+          32.66833080901469
+        ],
+        "target": [
+          4.45,
+          55.86614974634664,
+          32.31970783802406
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 233,
+      "time_seconds": 19.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          51.99921108103858,
+          32.703928347397074
+        ],
+        "target": [
+          4.45,
+          55.98398987340556,
+          32.35530537640644
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 234,
+      "time_seconds": 19.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          52.11705120809751,
+          32.73952588577946
+        ],
+        "target": [
+          4.45,
+          56.10183000046449,
+          32.390902914788825
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 235,
+      "time_seconds": 19.5,
+      "recipe": {
+        "location": [
+          4.45,
+          52.234891335156426,
+          32.77512342416183
+        ],
+        "target": [
+          4.45,
+          56.21967012752341,
+          32.4265004531712
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 236,
+      "time_seconds": 19.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          52.352731462215345,
+          32.81072096254422
+        ],
+        "target": [
+          4.45,
+          56.33751025458233,
+          32.462097991553584
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 237,
+      "time_seconds": 19.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          52.47057158927427,
+          32.8463185009266
+        ],
+        "target": [
+          4.45,
+          56.45535038164125,
+          32.49769552993597
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 238,
+      "time_seconds": 19.75,
+      "recipe": {
+        "location": [
+          4.45,
+          52.58841171633319,
+          32.88191603930898
+        ],
+        "target": [
+          4.45,
+          56.57319050870017,
+          32.53329306831835
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 239,
+      "time_seconds": 19.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          52.70625184339211,
+          32.917513577691366
+        ],
+        "target": [
+          4.45,
+          56.69103063575909,
+          32.568890606700734
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 240,
+      "time_seconds": 19.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          52.824091970451036,
+          32.95311111607375
+        ],
+        "target": [
+          4.45,
+          56.80887076281802,
+          32.60448814508312
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 241,
+      "time_seconds": 20.0,
+      "recipe": {
+        "location": [
+          4.45,
+          52.941932097509955,
+          32.98870865445613
+        ],
+        "target": [
+          4.45,
+          56.92671088987694,
+          32.6400856834655
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 242,
+      "time_seconds": 20.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          53.059772224568874,
+          33.024306192838516
+        ],
+        "target": [
+          4.45,
+          57.044551016935856,
+          32.67568322184788
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 243,
+      "time_seconds": 20.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          53.1776123516278,
+          33.0599037312209
+        ],
+        "target": [
+          4.45,
+          57.16239114399478,
+          32.71128076023027
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 244,
+      "time_seconds": 20.25,
+      "recipe": {
+        "location": [
+          4.45,
+          53.29545247868672,
+          33.09550126960328
+        ],
+        "target": [
+          4.45,
+          57.2802312710537,
+          32.74687829861265
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 245,
+      "time_seconds": 20.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          53.41329260574564,
+          33.13109880798566
+        ],
+        "target": [
+          4.45,
+          57.39807139811262,
+          32.782475836995026
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 246,
+      "time_seconds": 20.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          53.531132732804565,
+          33.16669634636804
+        ],
+        "target": [
+          4.45,
+          57.515911525171546,
+          32.81807337537741
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 247,
+      "time_seconds": 20.5,
+      "recipe": {
+        "location": [
+          4.45,
+          53.648972859863484,
+          33.202293884750425
+        ],
+        "target": [
+          4.45,
+          57.633751652230465,
+          32.85367091375979
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 248,
+      "time_seconds": 20.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          53.7668129869224,
+          33.23789142313281
+        ],
+        "target": [
+          4.45,
+          57.751591779289384,
+          32.889268452142176
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 249,
+      "time_seconds": 20.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          53.88465311398133,
+          33.27348896151519
+        ],
+        "target": [
+          4.45,
+          57.86943190634831,
+          32.92486599052456
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 250,
+      "time_seconds": 20.75,
+      "recipe": {
+        "location": [
+          4.45,
+          54.00249324104025,
+          33.309086499897575
+        ],
+        "target": [
+          4.45,
+          57.98727203340723,
+          32.96046352890694
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 251,
+      "time_seconds": 20.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          54.12033336809917,
+          33.34468403827996
+        ],
+        "target": [
+          4.45,
+          58.10511216046615,
+          32.996061067289325
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 252,
+      "time_seconds": 20.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          54.238173495158094,
+          33.38028157666234
+        ],
+        "target": [
+          4.45,
+          58.222952287525075,
+          33.03165860567171
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 253,
+      "time_seconds": 21.0,
+      "recipe": {
+        "location": [
+          4.45,
+          54.35601362221701,
+          33.415879115044724
+        ],
+        "target": [
+          4.45,
+          58.340792414583994,
+          33.06725614405409
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 254,
+      "time_seconds": 21.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          54.47385374927593,
+          33.4514766534271
+        ],
+        "target": [
+          4.45,
+          58.45863254164291,
+          33.10285368243647
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 255,
+      "time_seconds": 21.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          54.59169387633486,
+          33.48707419180949
+        ],
+        "target": [
+          4.45,
+          58.57647266870184,
+          33.13845122081886
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 256,
+      "time_seconds": 21.25,
+      "recipe": {
+        "location": [
+          4.45,
+          54.70953400339378,
+          33.52267173019187
+        ],
+        "target": [
+          4.45,
+          58.69431279576076,
+          33.174048759201234
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 257,
+      "time_seconds": 21.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          54.8273741304527,
+          33.55826926857425
+        ],
+        "target": [
+          4.45,
+          58.81215292281968,
+          33.20964629758362
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0,
+      "pitch_degrees": -5.0
+    },
+    {
+      "index": 258,
+      "time_seconds": 21.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          54.94521425751162,
+          33.59386680695663
+        ],
+        "target": [
+          4.449999999240483,
+          58.929993049885695,
+          33.24524383604702
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.00000001092084,
+      "pitch_degrees": -4.99999999883511
+    },
+    {
+      "index": 259,
+      "time_seconds": 21.5,
+      "recipe": {
+        "location": [
+          4.45,
+          55.06305438457054,
+          33.62946434533902
+        ],
+        "target": [
+          4.449855956697452,
+          59.04783451853396,
+          33.28085673896474
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.00207114897738,
+      "pitch_degrees": -4.999779077442413
+    },
+    {
+      "index": 260,
+      "time_seconds": 21.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          55.18089451162946,
+          33.6650618837214
+        ],
+        "target": [
+          4.4489007550700475,
+          59.1656834089162,
+          33.31655616537389
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.01580562864514,
+      "pitch_degrees": -4.998314066277852
+    },
+    {
+      "index": 261,
+      "time_seconds": 21.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          55.29873463868839,
+          33.70065942210378
+        ],
+        "target": [
+          4.446399961153017,
+          59.283545382073754,
+          33.352420453691494
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.0517633055068,
+      "pitch_degrees": -4.994478580745941
+    },
+    {
+      "index": 262,
+      "time_seconds": 21.75,
+      "recipe": {
+        "location": [
+          4.45,
+          55.416574765747306,
+          33.736256960486166
+        ],
+        "target": [
+          4.441684983231298,
+          59.40142237943426,
+          33.38852091664036
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.11955656079098,
+      "pitch_degrees": -4.987247300182294
+    },
+    {
+      "index": 263,
+      "time_seconds": 21.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          55.534414892806225,
+          33.77185449886854
+        ],
+        "target": [
+          4.43415109532049,
+          59.519309708076094,
+          33.424922050896654
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.22787817547469,
+      "pitch_degrees": -4.9756929946160335
+    },
+    {
+      "index": 264,
+      "time_seconds": 21.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          55.652234939766565,
+          33.807445971387814
+        ],
+        "target": [
+          4.4232554840420555,
+          59.63717253493486,
+          33.46167568133892
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.38452920438566,
+      "pitch_degrees": -4.958983551532197
+    },
+    {
+      "index": 265,
+      "time_seconds": 22.0,
+      "recipe": {
+        "location": [
+          4.45,
+          55.769744573747474,
+          33.842943673319546
+        ],
+        "target": [
+          4.408515351830589,
+          59.75469209022861,
+          33.49874559828558
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.59644685030487,
+      "pitch_degrees": -4.936379002634146
+    },
+    {
+      "index": 266,
+      "time_seconds": 22.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          55.88619707059911,
+          33.87812203174348
+        ],
+        "target": [
+          4.389506115554239,
+          59.87107597005227,
+          33.53595153822069
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 90.86973233806901,
+      "pitch_degrees": -4.907228550605972
+    },
+    {
+      "index": 267,
+      "time_seconds": 22.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          56.000543580142306,
+          33.91266420650132
+        ],
+        "target": [
+          4.365859741136674,
+          59.98520912556029,
+          33.57301599437997
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 91.2096787886728,
+      "pitch_degrees": -4.870967595874901
+    },
+    {
+      "index": 268,
+      "time_seconds": 22.25,
+      "recipe": {
+        "location": [
+          4.45,
+          56.11160306309988,
+          33.94621342531142
+        ],
+        "target": [
+          4.337263251863545,
+          60.095820983582975,
+          33.60961576084988
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 91.6207990933715,
+      "pitch_degrees": -4.8271147633737055
+    },
+    {
+      "index": 269,
+      "time_seconds": 22.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          56.21820637914062,
+          33.97841651036539
+        ],
+        "target": [
+          4.30345744078754,
+          60.20162731808238,
+          33.64542566733842
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 92.10685378778336,
+      "pitch_degrees": -4.775268929303108
+    },
+    {
+      "index": 270,
+      "time_seconds": 22.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          56.31931452515674,
+          34.008959596141096
+        ],
+        "target": [
+          4.2642358064910075,
+          60.301446978497005,
+          33.68015450423372
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 92.67087892599201,
+      "pitch_degrees": -4.715106247894185
+    },
+    {
+      "index": 271,
+      "time_seconds": 22.5,
+      "recipe": {
+        "location": [
+          4.45,
+          56.41411102377492,
+          34.03759603843201
+        ],
+        "target": [
+          4.219443717195361,
+          60.394293552300006,
+          33.71357313787872
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 93.3152139546489,
+      "pitch_degrees": -4.646377178170785
+    },
+    {
+      "index": 272,
+      "time_seconds": 22.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          56.50206846210094,
+          34.06416651459299
+        ],
+        "target": [
+          4.1689777917797795,
+          60.47944201246844,
+          33.745534816037974
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 94.04152958707573,
+      "pitch_degrees": -4.568903510711923
+    },
+    {
+      "index": 273,
+      "time_seconds": 22.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          56.58298918069772,
+          34.08861131500243
+        ],
+        "target": [
+          4.112785468745182,
+          60.55647037638495,
+          33.77598766357694
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 94.85085567736698,
+      "pitch_degrees": -4.482575394414189
+    },
+    {
+      "index": 274,
+      "time_seconds": 22.75,
+      "recipe": {
+        "location": [
+          4.45,
+          56.657020112797184,
+          34.11097482574081
+        ],
+        "target": [
+          4.050864716619584,
+          60.625276380436375,
+          33.804979368416525
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 95.74360909449214,
+      "pitch_degrees": -4.387348363254172
+    },
+    {
+      "index": 275,
+      "time_seconds": 22.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          56.72464177374536,
+          34.131402202485575
+        ],
+        "target": [
+          3.983263822811319,
+          60.686069153742125,
+          33.83265405786328
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 96.71962159639837,
+      "pitch_degrees": -4.283240363050841
+    },
+    {
+      "index": 276,
+      "time_seconds": 22.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          56.7866314006813,
+          34.150128235622475
+        ],
+        "target": [
+          3.9100811834731957,
+          60.739335854636956,
+          33.85924136544882
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 97.77816770411283,
+      "pitch_degrees": -4.170328778227963
+    },
+    {
+      "index": 277,
+      "time_seconds": 23.0,
+      "recipe": {
+        "location": [
+          4.45,
+          56.84400024244938,
+          34.167458406573246
+        ],
+        "target": [
+          3.831465005438077,
+          60.785783214464765,
+          33.88503768843832
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 98.91799257584503,
+      "pitch_degrees": -4.04874745857653
+    },
+    {
+      "index": 278,
+      "time_seconds": 23.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          56.89790499974529,
+          34.18374213533972
+        ],
+        "target": [
+          3.7476128234872363,
+          60.82625391478945,
+          33.91037963618917
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 100.13733988108942,
+      "pitch_degrees": -3.9186837460171287
+    },
+    {
+      "index": 279,
+      "time_seconds": 23.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          56.94953341549544,
+          34.19931919924871
+        ],
+        "target": [
+          3.658770732722602,
+          60.861617706339786,
+          33.93559064953791
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 101.43397967472781,
+      "pitch_degrees": -3.780375501362367
+    },
+    {
+      "index": 280,
+      "time_seconds": 23.25,
+      "recipe": {
+        "location": [
+          4.45,
+          56.99996401547003,
+          34.21428925704081
+        ],
+        "target": [
+          3.5652322370561556,
+          60.8926371611001,
+          33.960750725559194
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 102.80523627113156,
+      "pitch_degrees": -3.6341081310792998
+    },
+    {
+      "index": 281,
+      "time_seconds": 23.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          57.04999999912964,
+          34.22840423560414
+        ],
+        "target": [
+          3.4673366210268552,
+          60.91980793331808,
+          33.985589005197866
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 104.24801611826442,
+      "pitch_degrees": -3.480211614051796
+    },
+    {
+      "index": 282,
+      "time_seconds": 23.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          57.10000000000001,
+          34.241186556927296
+        ],
+        "target": [
+          3.3654667633120807,
+          60.943196110642724,
+          34.00960220154046
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 105.75883567178467,
+      "pitch_degrees": -3.3190575283429684
+    },
+    {
+      "index": 283,
+      "time_seconds": 23.5,
+      "recipe": {
+        "location": [
+          4.45,
+          57.150000000000006,
+          34.25211861274206
+        ],
+        "target": [
+          3.2600463261918433,
+          60.962566790286814,
+          34.03224427637559
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 107.33384926914752,
+      "pitch_degrees": -3.1510560779575973
+    },
+    {
+      "index": 284,
+      "time_seconds": 23.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          57.2,
+          34.26083984375
+        ],
+        "target": [
+          3.151536275394201,
+          60.97767732458558,
+          34.05312372209643
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 108.96887700370783,
+      "pitch_degrees": -2.976653119604497
+    },
+    {
+      "index": 285,
+      "time_seconds": 23.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          57.25,
+          34.267222779408726
+        ],
+        "target": [
+          3.0404307085177344,
+          60.988319626793675,
+          34.07207980505556
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 110.65943259882238,
+      "pitch_degrees": -2.796327189458947
+    },
+    {
+      "index": 286,
+      "time_seconds": 23.75,
+      "recipe": {
+        "location": [
+          4.45,
+          57.30000000000001,
+          34.27139489026063
+        ],
+        "target": [
+          2.9272519967025317,
+          60.99432608533314,
+          34.089204622461445
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 112.40075128195203,
+      "pitch_degrees": -2.610586529925117
+    },
+    {
+      "index": 287,
+      "time_seconds": 23.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          57.349999999999994,
+          34.27371673583984
+        ],
+        "target": [
+          2.8125452723388356,
+          60.995574906552214,
+          34.10482145592683
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 114.18781765876471,
+      "pitch_degrees": -2.419966116398431
+    },
+    {
+      "index": 288,
+      "time_seconds": 23.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          57.400000000000006,
+          34.274716408393346
+        ],
+        "target": [
+          2.6968723241614674,
+          60.99199473805425,
+          34.11941942194615
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 116.01539358723754,
+      "pitch_degrees": -2.225024684027996
+    },
+    {
+      "index": 289,
+      "time_seconds": 24.0,
+      "recipe": {
+        "location": [
+          4.45,
+          57.45,
+          34.27498027241606
+        ],
+        "target": [
+          2.5808049887954696,
+          60.983568438497244,
+          34.13354441930855
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 117.87804605175906,
+      "pitch_degrees": -2.0263417544790334
+    },
+    {
+      "index": 290,
+      "time_seconds": 24.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          57.5,
+          34.275
+        ],
+        "target": [
+          2.464918153393981,
+          60.97033587943184,
+          34.147646373419384
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 119.77017503723212,
+      "pitch_degrees": -1.8245146626952407
+    },
+    {
+      "index": 291,
+      "time_seconds": 24.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          57.55000000000001,
+          34.275
+        ],
+        "target": [
+          2.349782506191853,
+          60.9523956889061,
+          34.16190687547209
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 121.68604140317609,
+      "pitch_degrees": -1.6201555836612176
+    },
+    {
+      "index": 292,
+      "time_seconds": 24.25,
+      "recipe": {
+        "location": [
+          4.45,
+          57.60000000000001,
+          34.275
+        ],
+        "target": [
+          2.23595718945609,
+          60.92990587449732,
+          34.17630197536373
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 123.61979475782908,
+      "pitch_degrees": -1.4138885591648989
+    },
+    {
+      "index": 293,
+      "time_seconds": 24.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          57.650000000000006,
+          34.275
+        ],
+        "target": [
+          2.1239825215013743,
+          60.90308329417183,
+          34.190787347155656
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 125.56550133225079,
+      "pitch_degrees": -1.2063465245599168
+    },
+    {
+      "index": 294,
+      "time_seconds": 24.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          57.7,
+          34.275
+        ],
+        "target": [
+          2.0143729604538585,
+          60.87220197576351,
+          34.20531822911395
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 127.51717185442476,
+      "pitch_degrees": -0.9981683355280264
+    },
+    {
+      "index": 295,
+      "time_seconds": 24.5,
+      "recipe": {
+        "location": [
+          4.45,
+          57.75,
+          34.275
+        ],
+        "target": [
+          1.9076104818758246,
+          60.83759031860751,
+          34.219849636687755
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 129.46878942336053,
+      "pitch_degrees": -0.789995794841543
+    },
+    {
+      "index": 296,
+      "time_seconds": 24.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          57.80000000000001,
+          34.275
+        ],
+        "target": [
+          1.804138535113355,
+          60.79962724260252,
+          34.23433657583537
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 131.41433738319662,
+      "pitch_degrees": -0.5824706791256942
+    },
+    {
+      "index": 297,
+      "time_seconds": 24.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          57.85000000000001,
+          34.275
+        ],
+        "target": [
+          1.7043567295306512,
+          60.75873737935305,
+          34.24873425651568
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 133.34782719730262,
+      "pitch_degrees": -0.3762317656210543
+    },
+    {
+      "index": 298,
+      "time_seconds": 24.75,
+      "recipe": {
+        "location": [
+          4.45,
+          57.900000000000006,
+          34.275
+        ],
+        "target": [
+          1.608616382195624,
+          60.715385425801934,
+          34.26299830616037
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 135.26332632238143,
+      "pitch_degrees": -0.17191185894597893
+    },
+    {
+      "index": 299,
+      "time_seconds": 24.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          57.95,
+          34.275
+        ],
+        "target": [
+          1.5172170339147595,
+          60.67006980180406,
+          34.27708498294586
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 137.1549860825723,
+      "pitch_degrees": 0.029865182141042723
+    },
+    {
+      "index": 300,
+      "time_seconds": 24.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          58.0,
+          34.275
+        ],
+        "target": [
+          1.4304040118485126,
+          60.623315768552885,
+          34.290951388693195
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 139.01706954355268,
+      "pitch_degrees": 0.228487417978954
+    },
+    {
+      "index": 301,
+      "time_seconds": 25.0,
+      "recipe": {
+        "location": [
+          4.45,
+          58.05000000000001,
+          34.275
+        ],
+        "target": [
+          1.34836708551106,
+          60.575668174061164,
+          34.30455568123838
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 140.8439793866409,
+      "pitch_degrees": 0.42335780124169897
+    },
+    {
+      "index": 302,
+      "time_seconds": 25.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          58.099999999999994,
+          34.275
+        ],
+        "target": [
+          1.271240230108532,
+          60.527683994745736,
+          34.317857286135286
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 142.6302857828987,
+      "pitch_degrees": 0.6138971501758625
+    },
+    {
+      "index": 303,
+      "time_seconds": 25.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          58.150000000000006,
+          34.275
+        ],
+        "target": [
+          1.1991024782571134,
+          60.479924838622004,
+          34.330817107576586
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 144.3707542672335,
+      "pitch_degrees": 0.7995471218382422
+    },
+    {
+      "index": 304,
+      "time_seconds": 25.25,
+      "recipe": {
+        "location": [
+          4.45,
+          58.2,
+          34.275
+        ],
+        "target": [
+          1.1319798094513742,
+          60.43294956604202,
+          34.34339773844528
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 146.06037361250083,
+      "pitch_degrees": 0.9797731853334195
+    },
+    {
+      "index": 305,
+      "time_seconds": 25.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          58.25,
+          34.275
+        ],
+        "target": [
+          1.0698479974056063,
+          60.387307168968384,
+          34.35556366943894
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 147.69438370360677,
+      "pitch_degrees": 1.154067595051389
+    },
+    {
+      "index": 306,
+      "time_seconds": 25.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          58.30000000000001,
+          34.275
+        ],
+        "target": [
+          1.012636309568137,
+          60.343530030356256,
+          34.367281497240015
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 149.26830341161067,
+      "pitch_degrees": 1.3219523639051385
+    },
+    {
+      "index": 307,
+      "time_seconds": 25.5,
+      "recipe": {
+        "location": [
+          4.45,
+          58.35000000000001,
+          34.275
+        ],
+        "target": [
+          0.9602319314903474,
+          60.30212766240723,
+          34.378520131737396
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 150.77795846782712,
+      "pitch_degrees": 1.4829822365682253
+    },
+    {
+      "index": 308,
+      "time_seconds": 25.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          58.400000000000006,
+          34.275
+        ],
+        "target": [
+          0.912484971852813,
+          60.263580997461105,
+          34.38925100233567
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 152.21950933792866,
+      "pitch_degrees": 1.6367476627123905
+    },
+    {
+      "index": 309,
+      "time_seconds": 25.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          58.45,
+          34.275
+        ],
+        "target": [
+          0.8692138920947343,
+          60.22833727936091,
+          34.39944826341859
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 153.5894790960483,
+      "pitch_degrees": 1.7828777702451521
+    },
+    {
+      "index": 310,
+      "time_seconds": 25.75,
+      "recipe": {
+        "location": [
+          4.45,
+          58.5,
+          34.275
+        ],
+        "target": [
+          0.8302111978051605,
+          60.19680557750021,
+          34.4090889990605
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 154.88478129888165,
+      "pitch_degrees": 1.9210433385473742
+    },
+    {
+      "index": 311,
+      "time_seconds": 25.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          58.55000000000001,
+          34.275
+        ],
+        "target": [
+          0.7952492271513765,
+          60.16935292159275,
+          34.41815342710339
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 156.1027478597896,
+      "pitch_degrees": 2.0509597717108887
+    },
+    {
+      "index": 312,
+      "time_seconds": 25.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          58.60000000000001,
+          34.275
+        ],
+        "target": [
+          0.7640858743078422,
+          60.14630103351289,
+          34.426625102737
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 157.2411569229007,
+      "pitch_degrees": 2.1723900717760767
+    },
+    {
+      "index": 313,
+      "time_seconds": 26.0,
+      "recipe": {
+        "location": [
+          4.45,
+          58.64999140358756,
+          34.275
+        ],
+        "target": [
+          0.7364700926540295,
+          60.12791501776224,
+          34.43449112173376
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 158.29826073721358,
+      "pitch_degrees": 2.2851478119694493
+    },
+    {
+      "index": 314,
+      "time_seconds": 26.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          58.6998693897891,
+          34.275
+        ],
+        "target": [
+          0.7121470329104826,
+          60.114313518757825,
+          34.44174232349942
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 159.2728135306993,
+      "pitch_degrees": 2.389100109941256
+    },
+    {
+      "index": 315,
+      "time_seconds": 26.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          58.74937286376954,
+          34.275
+        ],
+        "target": [
+          0.6908626848435966,
+          60.10540688891095,
+          34.44837349410303
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 160.16409938440393,
+      "pitch_degrees": 2.484170601003087
+    },
+    {
+      "index": 316,
+      "time_seconds": 26.25,
+      "recipe": {
+        "location": [
+          4.45,
+          58.79812242798354,
+          34.275
+        ],
+        "target": [
+          0.6723679071887756,
+          60.10093373679817,
+          34.45438356944663
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 160.9719601065509,
+      "pitch_degrees": 2.5703424113654325
+    },
+    {
+      "index": 317,
+      "time_seconds": 26.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          58.84566333284104,
+          34.275
+        ],
+        "target": [
+          0.6564217485903265,
+          60.100502740835076,
+          34.45977583872547
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 161.69682310664365,
+      "pitch_degrees": 2.6476611313753207
+    },
+    {
+      "index": 318,
+      "time_seconds": 26.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          58.89150390625001,
+          34.275
+        ],
+        "target": [
+          0.6427939823090059,
+          60.10363015679706,
+          34.46455814831397
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 162.33972926956739,
+      "pitch_degrees": 2.716237788753853
+    },
+    {
+      "index": 319,
+      "time_seconds": 26.5,
+      "recipe": {
+        "location": [
+          4.45,
+          58.935149462036634,
+          34.275
+        ],
+        "target": [
+          0.6312667989981944,
+          60.10977295421181,
+          34.4687431061914
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 162.90236082969238,
+      "pitch_degrees": 2.7762518218338528
+    },
+    {
+      "index": 320,
+      "time_seconds": 26.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          58.9761316872428,
+          34.275
+        ],
+        "target": [
+          0.6216356249138975,
+          60.11835752532891,
+          34.47234828699553
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 163.38706924497595,
+      "pitch_degrees": 2.827954052797435
+    },
+    {
+      "index": 321,
+      "time_seconds": 26.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          59.014033508300784,
+          34.275
+        ],
+        "target": [
+          0.6137090575317843,
+          60.12880392074835,
+          34.47539643776229
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 163.79690307106497,
+      "pitch_degrees": 2.8716696609135965
+    },
+    {
+      "index": 322,
+      "time_seconds": 26.75,
+      "recipe": {
+        "location": [
+          4.45,
+          59.048509436085396,
+          34.275
+        ],
+        "target": [
+          0.6073079368195282,
+          60.1405455767895,
+          34.47791568437628
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 164.13563583539823,
+      "pitch_degrees": 2.907801155775811
+    },
+    {
+      "index": 323,
+      "time_seconds": 26.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          59.07930138984335,
+          34.275
+        ],
+        "target": [
+          0.6022635985425286,
+          60.15304451014326,
+          34.47993973872266
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 164.40779391130908,
+      "pitch_degrees": 2.936831350539636
+    },
+    {
+      "index": 324,
+      "time_seconds": 26.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          59.10625,
+          34.275
+        ],
+        "target": [
+          0.5984153861864603,
+          60.16580196408044,
+          34.48150810649489
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 164.61868439212742,
+      "pitch_degrees": 2.9593263351602586
+    },
+    {
+      "index": 325,
+      "time_seconds": 27.0,
+      "recipe": {
+        "location": [
+          4.45,
+          59.12930138984335,
+          34.275
+        ],
+        "target": [
+          0.5956075305830497,
+          60.178364496325855,
+          34.4826662955782
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 164.77442296528278,
+      "pitch_degrees": 2.9759384496301626
+    },
+    {
+      "index": 326,
+      "time_seconds": 27.083333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          59.14850943608539,
+          34.275
+        ],
+        "target": [
+          0.5936855413256361,
+          60.190325500601276,
+          34.483466024895364
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 164.88196178640635,
+      "pitch_degrees": 2.987409257216677
+    },
+    {
+      "index": 327,
+      "time_seconds": 27.166666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          59.16403350830079,
+          34.275
+        ],
+        "target": [
+          0.5924922917228974,
+          60.20132215094338,
+          34.48396543357078
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 164.9491173534331,
+      "pitch_degrees": 2.994572517699533
+    },
+    {
+      "index": 328,
+      "time_seconds": 27.25,
+      "recipe": {
+        "location": [
+          4.45,
+          59.1761316872428,
+          34.275
+        ],
+        "target": [
+          0.5918640194991012,
+          60.21102774969042,
+          34.484229290241046
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 164.98459838070517,
+      "pitch_degrees": 2.9983571606085517
+    },
+    {
+      "index": 329,
+      "time_seconds": 27.333333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          59.185149462036634,
+          34.275
+        ],
+        "target": [
+          0.591626508844548,
+          60.21913944642074,
+          34.48432920231599
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 164.99803367307345,
+      "pitch_degrees": 2.999790258461167
+    },
+    {
+      "index": 330,
+      "time_seconds": 27.416666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          59.191503906250006,
+          34.275
+        ],
+        "target": [
+          0.5915917659420824,
+          60.22536127663542,
+          34.48434382497177
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 165.0,
+      "pitch_degrees": 3.0
+    },
+    {
+      "index": 331,
+      "time_seconds": 27.5,
+      "recipe": {
+        "location": [
+          4.45,
+          59.195663332841036,
+          34.275
+        ],
+        "target": [
+          0.5915917659420824,
+          60.22952070322645,
+          34.48434382497177
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 165.0,
+      "pitch_degrees": 3.0
+    },
+    {
+      "index": 332,
+      "time_seconds": 27.583333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          59.19812242798355,
+          34.275
+        ],
+        "target": [
+          0.5915917659420824,
+          60.23197979836896,
+          34.48434382497177
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 165.0,
+      "pitch_degrees": 3.0
+    },
+    {
+      "index": 333,
+      "time_seconds": 27.666666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          59.19937286376954,
+          34.275
+        ],
+        "target": [
+          0.5915917659420824,
+          60.23323023415495,
+          34.48434382497177
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 165.0,
+      "pitch_degrees": 3.0
+    },
+    {
+      "index": 334,
+      "time_seconds": 27.75,
+      "recipe": {
+        "location": [
+          4.45,
+          59.1998693897891,
+          34.275
+        ],
+        "target": [
+          0.5915917659420824,
+          60.23372676017451,
+          34.48434382497177
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 165.0,
+      "pitch_degrees": 3.0
+    },
+    {
+      "index": 335,
+      "time_seconds": 27.833333333333332,
+      "recipe": {
+        "location": [
+          4.45,
+          59.199991403587575,
+          34.275
+        ],
+        "target": [
+          0.5915917659420824,
+          60.23384877397299,
+          34.48434382497177
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 165.0,
+      "pitch_degrees": 3.0
+    },
+    {
+      "index": 336,
+      "time_seconds": 27.916666666666668,
+      "recipe": {
+        "location": [
+          4.45,
+          59.2,
+          34.275
+        ],
+        "target": [
+          0.5915917659420824,
+          60.233857370385415,
+          34.48434382497177
+        ],
+        "lens": 26,
+        "clip_start": 0.05,
+        "clip_end": 3000
+      },
+      "yaw_degrees": 165.0,
+      "pitch_degrees": 3.0
+    }
+  ],
+  "expected_blender_version": "5.2.3 LTS",
+  "expected_cycles": {
+    "name": "",
+    "device": "CPU",
+    "shading_system": false,
+    "preview_pause": false,
+    "use_denoising": true,
+    "denoiser": "OPENIMAGEDENOISE",
+    "denoising_prefilter": "ACCURATE",
+    "denoising_quality": "HIGH",
+    "denoising_input_passes": "RGB_ALBEDO_NORMAL",
+    "denoising_use_gpu": false,
+    "use_preview_denoising": false,
+    "preview_denoiser": "AUTO",
+    "preview_denoising_prefilter": "FAST",
+    "preview_denoising_quality": "BALANCED",
+    "preview_denoising_input_passes": "RGB_ALBEDO",
+    "preview_denoising_start_sample": 1,
+    "preview_denoising_use_gpu": true,
+    "samples": 80,
+    "preview_samples": 1024,
+    "use_sample_subset": false,
+    "sample_offset": 0,
+    "sample_subset_length": 2048,
+    "time_limit": 0.0,
+    "sampling_pattern": "AUTOMATIC",
+    "scrambling_distance": 1.0,
+    "preview_scrambling_distance": false,
+    "auto_scrambling_distance": false,
+    "use_layer_samples": "USE",
+    "light_sampling_threshold": 0.009999999776482582,
+    "use_adaptive_sampling": true,
+    "adaptive_threshold": 0.03500000014901161,
+    "adaptive_min_samples": 12,
+    "use_preview_adaptive_sampling": true,
+    "preview_adaptive_threshold": 0.10000000149011612,
+    "preview_adaptive_min_samples": 0,
+    "direct_light_sampling_type": "MULTIPLE_IMPORTANCE_SAMPLING",
+    "use_light_tree": true,
+    "min_light_bounces": 0,
+    "min_transparent_bounces": 0,
+    "caustics_reflective": true,
+    "caustics_refractive": true,
+    "blur_glossy": 1.0,
+    "use_guiding": false,
+    "use_deterministic_guiding": true,
+    "guiding_distribution_type": "PARALLAX_AWARE_VMM",
+    "guiding_directional_sampling_type": "RIS",
+    "use_surface_guiding": true,
+    "surface_guiding_probability": 0.5,
+    "use_volume_guiding": true,
+    "guiding_training_samples": 128,
+    "volume_guiding_probability": 0.5,
+    "use_guiding_direct_light": true,
+    "use_guiding_mis_weights": true,
+    "guiding_roughness_threshold": 0.05000000074505806,
+    "max_bounces": 8,
+    "diffuse_bounces": 4,
+    "glossy_bounces": 4,
+    "transmission_bounces": 12,
+    "volume_bounces": 1,
+    "transparent_max_bounces": 8,
+    "volume_step_rate": 1.0,
+    "volume_preview_step_rate": 1.0,
+    "volume_max_steps": 1024,
+    "volume_biased": false,
+    "dicing_rate": 1.0,
+    "preview_dicing_rate": 8.0,
+    "max_subdivisions": 12,
+    "offscreen_dicing_scale": 4.0,
+    "film_exposure": 1.0,
+    "film_transparent_glass": false,
+    "film_transparent_roughness": 0.10000000149011612,
+    "pixel_filter_type": "BLACKMAN_HARRIS",
+    "filter_width": 1.5,
+    "use_pixel_jitter": false,
+    "seed": 0,
+    "use_animated_seed": false,
+    "sample_clamp_direct": 0.0,
+    "sample_clamp_indirect": 10.0,
+    "debug_bvh_type": "DYNAMIC_BVH",
+    "debug_use_spatial_splits": false,
+    "debug_use_hair_bvh": true,
+    "debug_use_compact_bvh": false,
+    "debug_bvh_time_steps": 0,
+    "bake_type": "COMBINED",
+    "use_camera_cull": false,
+    "camera_cull_margin": 0.10000000149011612,
+    "use_distance_cull": false,
+    "distance_cull_margin": 50.0,
+    "rolling_shutter_type": "NONE",
+    "rolling_shutter_duration": 0.10000000149011612,
+    "texture_resolution": 1.0,
+    "texture_resolution_render": 1.0,
+    "texture_limit": "OFF",
+    "texture_limit_render": "OFF",
+    "use_fast_gi": false,
+    "fast_gi_method": "REPLACE",
+    "ao_bounces": 1,
+    "ao_bounces_render": 1,
+    "use_auto_tile": true,
+    "tile_size": 2048,
+    "debug_use_cpu_avx2": true,
+    "debug_use_cpu_sse42": true,
+    "debug_bvh_layout": "EMBREE",
+    "debug_use_cuda_adaptive_compile": false,
+    "debug_use_optix_debug": false,
+    "debug_use_hip_adaptive_compile": false,
+    "debug_use_metal_adaptive_compile": false,
+    "debug_use_texture_cache_eviction": true,
+    "debug_texture_cache_preserve_unused": 0
+  },
+  "expected_render_except_filepath": {
+    "resolution_x": 960,
+    "resolution_y": 694,
+    "resolution_percentage": 100,
+    "preview_pixel_size": "AUTO",
+    "pixel_aspect_x": 1.0,
+    "pixel_aspect_y": 1.0,
+    "ppm_factor": 72.0,
+    "ppm_base": 0.02539999969303608,
+    "fps": 24,
+    "fps_base": 1.0,
+    "frame_map_old": 100,
+    "frame_map_new": 100,
+    "dither_intensity": 1.0,
+    "filter_size": 1.5,
+    "film_transparent": false,
+    "use_freestyle": false,
+    "threads": 8,
+    "threads_mode": "FIXED",
+    "use_motion_blur": false,
+    "motion_blur_shutter": 0.5,
+    "motion_blur_position": "CENTER",
+    "hair_type": "STRAND",
+    "hair_subdiv": 0,
+    "use_high_quality_normals": false,
+    "anisotropic_filter": "FILTER_2",
+    "use_border": false,
+    "border_min_x": 0.0,
+    "border_min_y": 0.0,
+    "border_max_x": 1.0,
+    "border_max_y": 1.0,
+    "use_crop_to_border": false,
+    "use_placeholder": false,
+    "use_overwrite": true,
+    "save_output": true,
+    "use_compositing": true,
+    "use_sequencer": true,
+    "use_file_extension": true,
+    "file_extension": ".png",
+    "is_movie_format": false,
+    "use_lock_interface": false,
+    "use_render_cache": false,
+    "use_stamp_time": false,
+    "use_stamp_date": false,
+    "use_stamp_frame": true,
+    "use_stamp_frame_range": false,
+    "use_stamp_camera": true,
+    "use_stamp_lens": false,
+    "use_stamp_scene": true,
+    "use_stamp_note": false,
+    "use_stamp_marker": false,
+    "use_stamp_filename": false,
+    "use_stamp_sequencer_strip": false,
+    "use_stamp_render_time": true,
+    "stamp_note_text": "",
+    "use_stamp": false,
+    "use_stamp_labels": true,
+    "metadata_input": "SCENE",
+    "use_stamp_memory": false,
+    "use_stamp_hostname": false,
+    "stamp_font_size": 12,
+    "stamp_foreground": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "stamp_background": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "sequencer_gl_preview": "SOLID",
+    "use_sequencer_override_scene_strip": false,
+    "use_single_layer": false,
+    "use_multiview": false,
+    "views_format": "STEREO_3D",
+    "engine": "CYCLES",
+    "has_multiple_engines": true,
+    "use_spherical_stereo": true,
+    "use_simplify": false,
+    "simplify_subdivision": 6,
+    "simplify_child_particles": 1.0,
+    "simplify_subdivision_render": 6,
+    "simplify_child_particles_render": 1.0,
+    "simplify_volumes": 1.0,
+    "use_simplify_normals": false,
+    "use_texture_cache": true,
+    "use_auto_generate_texture_cache": false,
+    "simplify_gpencil": false,
+    "simplify_gpencil_onplay": false,
+    "simplify_gpencil_antialiasing": true,
+    "simplify_gpencil_view_fill": true,
+    "simplify_gpencil_modifier": true,
+    "simplify_gpencil_shader_fx": true,
+    "simplify_gpencil_tint": true,
+    "use_persistent_data": false,
+    "line_thickness_mode": "ABSOLUTE",
+    "line_thickness": 1.0,
+    "compositor_device": "GPU",
+    "compositor_precision": "AUTO",
+    "compositor_denoise_device": "AUTO",
+    "compositor_denoise_preview_quality": "BALANCED",
+    "compositor_denoise_final_quality": "HIGH"
+  },
+  "expected_view_settings": {
+    "look": "AgX - Medium High Contrast",
+    "view_transform": "AgX",
+    "exposure": 0.20000000298023224,
+    "gamma": 1.0,
+    "use_curve_mapping": false,
+    "use_white_balance": false,
+    "white_balance_temperature": 6500.0,
+    "white_balance_tint": 10.0,
+    "white_balance_whitepoint": [
+      0.9993047714233398,
+      1.0003489255905151,
+      0.9985780119895935
+    ],
+    "is_hdr": false,
+    "support_emulation": true
+  },
+  "expected_image_settings": {
+    "media_type": "IMAGE",
+    "file_format": "PNG",
+    "color_mode": "RGB",
+    "color_depth": "8",
+    "quality": 90,
+    "compression": 15,
+    "use_preview": false,
+    "exr_codec": "ZIP",
+    "use_exr_interleave": false,
+    "use_jpeg2k_ycc": false,
+    "use_jpeg2k_cinema_preset": false,
+    "use_jpeg2k_cinema_48": false,
+    "jpeg2k_codec": "JP2",
+    "tiff_codec": "DEFLATE",
+    "use_cineon_log": false,
+    "cineon_black": 0,
+    "cineon_white": 0,
+    "cineon_gamma": 0.0,
+    "views_format": "INDIVIDUAL",
+    "color_management": "FOLLOW_SCENE",
+    "has_linear_colorspace": false
+  },
+  "duration_seconds": 28,
+  "threads": 8
+}

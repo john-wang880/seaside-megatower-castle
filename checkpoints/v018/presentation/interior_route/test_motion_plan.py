@@ -29,4 +29,13 @@ class MotionTests(unittest.TestCase):
   windows=self.plan['pilot_windows'];self.assertEqual(len(windows),3);self.assertTrue(all(len(w)==8 and all(b==a+1 for a,b in zip(w,w[1:])) for w in windows));self.assertEqual(len(set(self.plan['pilot_indices'])),25)
  def test_scene_frozen_original_quality(self):
   self.assertEqual(self.plan['source_scene_frame'],1);self.assertEqual(self.plan['expected_cycles']['samples'],80);self.assertEqual(self.plan['expected_cycles']['max_bounces'],8);self.assertFalse(self.plan['expected_render_except_filepath']['use_persistent_data'])
+ def test_v2_all_polynomial_joins_C2(self):
+  for left,right in zip(f.YAW_SPLINES,f.YAW_SPLINES[1:]):
+   c=left['coefficients'];d=right['coefficients'];h=left['t1']-left['t0'];H=right['t1']-right['t0']
+   self.assertLess(abs(sum(c)-d[0]),1e-9)
+   self.assertLess(abs(sum(i*c[i] for i in range(1,6))/h-d[1]/H),1e-8)
+   self.assertLess(abs(sum(i*(i-1)*c[i] for i in range(2,6))/h**2-2*d[2]/H**2),1e-7)
+ def test_historical_arrival_exact_but_not_relabelled(self):
+  old=json.loads(Path(__file__).with_name('historical_v1_plan.json').read_text())
+  for i in list(range(303,311))+[336]:self.assertEqual(self.plan['frames'][i-1],old['frames'][i-1])
 if __name__=='__main__':unittest.main()
