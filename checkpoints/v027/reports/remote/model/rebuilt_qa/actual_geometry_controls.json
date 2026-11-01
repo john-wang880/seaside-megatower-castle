@@ -1,0 +1,49 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "candidate": "eb8fc5f9f729085d7038febaf9be8b581feb3c7a55338b6a4f1e7f178129621f"
+  },
+  "geometry_sha256": "861c9d7032122ef1a7f047f52454d9c401027edae599c2219e00766cec380765",
+  "controls": [
+    {
+      "case": "missing_actual_face",
+      "rejected_by": "closed edge incidence"
+    },
+    {
+      "case": "reverse_actual_face",
+      "rejected_by": "directed edge orientation"
+    },
+    {
+      "case": "duplicate_actual_exposed_face",
+      "rejected_by": "positive-area explicit coplanar clipping"
+    },
+    {
+      "case": "union_translation_detaches_all_crowns",
+      "rejected_by": "actual source-host containment",
+      "stations": [
+        {
+          "station": -1.8,
+          "detached_crown_outside_source": true
+        },
+        {
+          "station": 0.4,
+          "detached_crown_outside_source": true
+        },
+        {
+          "station": 2.6,
+          "detached_crown_outside_source": true
+        }
+      ]
+    },
+    {
+      "case": "actual_new_vertex_inside_protected_prism",
+      "rejected_by": "strict point-in-prism collision"
+    },
+    {
+      "case": "exceed_reviewed_height",
+      "rejected_by": "actual bounds"
+    }
+  ],
+  "scope": "Six bounded pure exported-geometry controls, not saved or Blender-mutated candidate files. Source preservation has separate actual native negative tests."
+}

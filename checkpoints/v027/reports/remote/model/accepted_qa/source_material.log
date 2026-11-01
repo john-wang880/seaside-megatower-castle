@@ -1,0 +1,15 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.471  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_source_v026.blend"
+00:10.148  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:10.149  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_restored.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote 中文/checkpoints/v027/qa/validate_preservation.py", line 46, in <module>
+    Path(a.geometry).write_text(json.dumps({'input_sha256':hashes,'builder_receipt_sha256':sha(a.build_report),'candidate_bounds':[lo,hi],'broadphase':broad,'objects':exports,'authored_operands_native_loop_triangles':operands}));unchanged=all(sha(getattr(a,k))==v for k,v in hashes.items());result={'pass':all(checks.values())and unchanged,'input_sha256':hashes,'checks':checks,'changed_names':changed,'new_mesh_object':NAME,'new_collection':COLL,'added_records':added,'traveler_derived_UI':ui,'inputs_unchanged':unchanged};Path(a.report).write_text(json.dumps(result,indent=2));assert result['pass'],changed;print('PRESERVATION PASS')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ~~~~~~^^^^^^^^
+AssertionError: {'materials': ['Citadel • weathered limestone']}
+
+Error: script failed, file: '/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote 中文/checkpoints/v027/qa/validate_preservation.py', exiting.
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

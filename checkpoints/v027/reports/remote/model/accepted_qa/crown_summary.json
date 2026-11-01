@@ -1,0 +1,1024 @@
+{
+  "pass": true,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "image_sha256": "a009f6e7a5337803827e6b47db74bb1e49106d918af611ca13043ec8359f7f62",
+  "ray_report_sha256": "14321fb76e5825f9f22deed332255521c68529c05d188c6e88569405781c35fb",
+  "pixel_count": 36,
+  "first_hit_objects": {
+    "V012 | entrance hall ceiling lining": 27,
+    "V027 | three pointed bays with high wall bands": 9
+  },
+  "crown_seating_profiles": [
+    {
+      "operand": "arch -1.8",
+      "ceiling_underside": 32.79999923706055,
+      "contact_y_interval": [
+        37.852703904069514,
+        38.147296095930486
+      ],
+      "width": 0.2945921918609713,
+      "vertical_embed": 0.020000457763671875
+    },
+    {
+      "operand": "arch 0.4",
+      "ceiling_underside": 32.79999923706055,
+      "contact_y_interval": [
+        37.852703904069514,
+        38.147296095930486
+      ],
+      "width": 0.2945921918609713,
+      "vertical_embed": 0.020000457763671875
+    },
+    {
+      "operand": "arch 2.6",
+      "ceiling_underside": 32.79999923706055,
+      "contact_y_interval": [
+        37.852703904069514,
+        38.147296095930486
+      ],
+      "width": 0.2945921918609713,
+      "vertical_embed": 0.020000457763671875
+    }
+  ],
+  "dark_actual_pixel_samples": [
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        540,
+        186
+      ],
+      "rgb": [
+        10,
+        4,
+        0
+      ],
+      "ray_direction": [
+        0.9284370541572571,
+        0.10052758455276489,
+        0.3576294183731079
+      ],
+      "first_hit": {
+        "hit": true,
+        "object": "V012 | entrance hall ceiling lining",
+        "point": [
+          2.5815858840942383,
+          38.60435104370117,
+          32.79999923706055
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "face": 0,
+        "distance": 6.011808306725336,
+        "material": "Citadel \u2022 weathered limestone"
+      },
+      "nearby_light_center_visibility": [
+        {
+          "light": "V013 | corridor practical warm source",
+          "light_type": "POINT",
+          "distance": 5.895459768729203,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | hall north stone lining",
+            "point": [
+              3.008760929107666,
+              39.400001525878906,
+              32.4797477722168
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "face": 2,
+            "distance": 0.9581417841663634,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | entrance practical warm source",
+          "light_type": "POINT",
+          "distance": 3.6081303684043364,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              2.478199005126953,
+              38.53168869018555,
+              32.729820251464844
+            ],
+            "normal": [
+              0.0,
+              0.22122162580490112,
+              0.9752236008644104
+            ],
+            "face": 959,
+            "distance": 0.14449859263075462,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | stair practical warm source",
+          "light_type": "POINT",
+          "distance": 11.134310956798075,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | hall north stone lining",
+            "point": [
+              2.7753026485443115,
+              39.400001525878906,
+              32.74684143066406
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "face": 2,
+            "distance": 0.8206101904854333,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | turn practical warm source",
+          "light_type": "POINT",
+          "distance": 3.2144629729789123,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              2.7052695751190186,
+              38.60649871826172,
+              32.71284866333008
+            ],
+            "normal": [
+              0.0,
+              0.22122162580490112,
+              0.9752236008644104
+            ],
+            "face": 433,
+            "distance": 0.15126206421023025,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V014 | landing marker practical warm source",
+          "light_type": "POINT",
+          "distance": 16.41029419009016,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | entrance hall ceiling lining",
+            "point": [
+              2.5824544429779053,
+              38.609703063964844,
+              32.79999923706055
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "face": 0,
+            "distance": 0.005422946849439481,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        }
+      ],
+      "down_from_ceiling": {
+        "hit": true,
+        "object": "V027 | three pointed bays with high wall bands",
+        "point": [
+          2.5815858840942383,
+          38.60435104370117,
+          32.71333694458008
+        ],
+        "normal": [
+          0.0,
+          0.22122162580490112,
+          0.9752236008644104
+        ],
+        "face": 959,
+        "distance": 0.08656310900670183,
+        "material": "Citadel \u2022 weathered limestone"
+      }
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        570,
+        181
+      ],
+      "rgb": [
+        2,
+        1,
+        0
+      ],
+      "ray_direction": [
+        0.9301733374595642,
+        0.058804649859666824,
+        0.36238041520118713
+      ],
+      "first_hit": {
+        "hit": true,
+        "object": "V012 | entrance hall ceiling lining",
+        "point": [
+          2.518709659576416,
+          38.3488883972168,
+          32.79999923706055
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "face": 0,
+        "distance": 5.9329905953650215,
+        "material": "Citadel \u2022 weathered limestone"
+      },
+      "nearby_light_center_visibility": [
+        {
+          "light": "V013 | corridor practical warm source",
+          "light_type": "POINT",
+          "distance": 6.136570803038381,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              2.6147961616516113,
+              38.532798767089844,
+              32.72956848144531
+            ],
+            "normal": [
+              0.0,
+              0.22122162580490112,
+              0.9752236008644104
+            ],
+            "face": 433,
+            "distance": 0.21909397724376783,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | entrance practical warm source",
+          "light_type": "POINT",
+          "distance": 3.4403751833494005,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              2.477569580078125,
+              38.32342529296875,
+              32.77131652832031
+            ],
+            "normal": [
+              0.0,
+              0.18490101397037506,
+              0.9827571511268616
+            ],
+            "face": 951,
+            "distance": 0.05619514016198321,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | stair practical warm source",
+          "light_type": "POINT",
+          "distance": 11.396859015915636,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | hall north stone lining",
+            "point": [
+              2.774688482284546,
+              39.400001525878906,
+              32.73142623901367
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "face": 2,
+            "distance": 1.0839984643725022,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | turn practical warm source",
+          "light_type": "POINT",
+          "distance": 3.2796098095168804,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              2.568795919418335,
+              38.3544921875,
+              32.765472412109375
+            ],
+            "normal": [
+              0.0,
+              0.18490101397037506,
+              0.9827571511268616
+            ],
+            "face": 425,
+            "distance": 0.061035224080048064,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V014 | landing marker practical warm source",
+          "light_type": "POINT",
+          "distance": 16.67250027462717,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | entrance hall ceiling lining",
+            "point": [
+              2.519599199295044,
+              38.35432434082031,
+              32.79999923706055
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "face": 0,
+            "distance": 0.005509137942211419,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        }
+      ],
+      "down_from_ceiling": {
+        "hit": true,
+        "object": "V027 | three pointed bays with high wall bands",
+        "point": [
+          2.518709659576416,
+          38.3488883972168,
+          32.76652526855469
+        ],
+        "normal": [
+          0.0,
+          0.18490101397037506,
+          0.9827571511268616
+        ],
+        "face": 951,
+        "distance": 0.033374786158945506,
+        "material": "Citadel \u2022 weathered limestone"
+      }
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        520,
+        28
+      ],
+      "rgb": [
+        3,
+        1,
+        0
+      ],
+      "ray_direction": [
+        0.8345085382461548,
+        0.11395194381475449,
+        0.5390828847885132
+      ],
+      "first_hit": {
+        "hit": true,
+        "object": "V012 | entrance hall ceiling lining",
+        "point": [
+          0.3282327651977539,
+          38.4544677734375,
+          32.79999923706055
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "face": 0,
+        "distance": 3.9882543359309777,
+        "material": "Citadel \u2022 weathered limestone"
+      },
+      "nearby_light_center_visibility": [
+        {
+          "light": "V013 | corridor practical warm source",
+          "light_type": "POINT",
+          "distance": 7.29174559050944,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | hall north stone lining",
+            "point": [
+              1.2430769205093384,
+              39.400001525878906,
+              32.43074035644531
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "face": 2,
+            "distance": 1.3664745815371724,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | entrance practical warm source",
+          "light_type": "POINT",
+          "distance": 2.4372811677710255,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.3197627067565918,
+              38.41151428222656,
+              32.75474548339844
+            ],
+            "normal": [
+              0.0,
+              0.18490102887153625,
+              0.9827572107315063
+            ],
+            "face": 781,
+            "distance": 0.06289419470323941,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | stair practical warm source",
+          "light_type": "POINT",
+          "distance": 12.006440585012319,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | hall north stone lining",
+            "point": [
+              0.749945878982544,
+              39.400001525878906,
+              32.73771286010742
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "face": 2,
+            "distance": 1.037180447792227,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | turn practical warm source",
+          "light_type": "POINT",
+          "distance": 5.224175783864598,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.47367918491363525,
+              38.46029281616211,
+              32.74478530883789
+            ],
+            "normal": [
+              0.0,
+              0.20327867567539215,
+              0.9791209101676941
+            ],
+            "face": 267,
+            "distance": 0.15564776609793052,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V014 | landing marker practical warm source",
+          "light_type": "POINT",
+          "distance": 17.06160094220803,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | entrance hall ceiling lining",
+            "point": [
+              0.32984617352485657,
+              38.459869384765625,
+              32.79999923706055
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "face": 0,
+            "distance": 0.005638291267863533,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        }
+      ],
+      "down_from_ceiling": {
+        "hit": true,
+        "object": "V027 | three pointed bays with high wall bands",
+        "point": [
+          0.3282327651977539,
+          38.4544677734375,
+          32.745994567871094
+        ],
+        "normal": [
+          0.0,
+          0.20327867567539215,
+          0.9791209101676941
+        ],
+        "face": 785,
+        "distance": 0.05390548800538024,
+        "material": "Citadel \u2022 weathered limestone"
+      }
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        700,
+        6
+      ],
+      "rgb": [
+        1,
+        0,
+        0
+      ],
+      "ray_direction": [
+        0.8342522382736206,
+        -0.11203526705503464,
+        0.539880633354187
+      ],
+      "first_hit": {
+        "hit": true,
+        "object": "V012 | entrance hall ceiling lining",
+        "point": [
+          0.322293758392334,
+          37.553836822509766,
+          32.79999923706055
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "face": 0,
+        "distance": 3.9823605942887204,
+        "material": "Citadel \u2022 weathered limestone"
+      },
+      "nearby_light_center_visibility": [
+        {
+          "light": "V013 | corridor practical warm source",
+          "light_type": "POINT",
+          "distance": 7.945252484870436,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.4040682017803192,
+              37.6533203125,
+              32.76694107055664
+            ],
+            "normal": [
+              0.0,
+              -0.18490102887153625,
+              0.9827572107315063
+            ],
+            "face": 737,
+            "distance": 0.13292975193675652,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | entrance practical warm source",
+          "light_type": "POINT",
+          "distance": 1.9363551949245503,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.3117252290248871,
+              37.52878952026367,
+              32.74251937866211
+            ],
+            "normal": [
+              0.0,
+              -0.20327867567539215,
+              0.9791209101676941
+            ],
+            "face": 733,
+            "distance": 0.06349490621645294,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | stair practical warm source",
+          "light_type": "POINT",
+          "distance": 12.83509041422587,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.4105696678161621,
+              37.76778793334961,
+              32.78689956665039
+            ],
+            "normal": [
+              0.0,
+              -0.1668042242527008,
+              0.985990047454834
+            ],
+            "face": 741,
+            "distance": 0.23181183580454853,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | turn practical warm source",
+          "light_type": "POINT",
+          "distance": 5.3397919234444595,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.4451318383216858,
+              37.58138656616211,
+              32.7534065246582
+            ],
+            "normal": [
+              0.0,
+              -0.18490102887153625,
+              0.9827572107315063
+            ],
+            "face": 219,
+            "distance": 0.13420071170801162,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V014 | landing marker practical warm source",
+          "light_type": "POINT",
+          "distance": 17.92791040252866,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | entrance hall ceiling lining",
+            "point": [
+              0.32390913367271423,
+              37.55953598022461,
+              32.79999923706055
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "face": 0,
+            "distance": 0.0059244977121527655,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        }
+      ],
+      "down_from_ceiling": {
+        "hit": true,
+        "object": "V027 | three pointed bays with high wall bands",
+        "point": [
+          0.322293758392334,
+          37.553836822509766,
+          32.747718811035156
+        ],
+        "normal": [
+          0.0,
+          -0.20327867567539215,
+          0.9791209101676941
+        ],
+        "face": 733,
+        "distance": 0.052181243757048114,
+        "material": "Citadel \u2022 weathered limestone"
+      }
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        760,
+        0
+      ],
+      "rgb": [
+        8,
+        4,
+        0
+      ],
+      "ray_direction": [
+        0.8263710141181946,
+        -0.1807386726140976,
+        0.5333334803581238
+      ],
+      "first_hit": {
+        "hit": true,
+        "object": "V012 | entrance hall ceiling lining",
+        "point": [
+          0.33130645751953125,
+          37.27139663696289,
+          32.79999923706055
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "face": 0,
+        "distance": 4.031248469685109,
+        "material": "Citadel \u2022 weathered limestone"
+      },
+      "nearby_light_center_visibility": [
+        {
+          "light": "V013 | corridor practical warm source",
+          "light_type": "POINT",
+          "distance": 8.153383299309795,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.4969978928565979,
+              37.482933044433594,
+              32.73299789428711
+            ],
+            "normal": [
+              0.0,
+              -0.20327867567539215,
+              0.9791209101676941
+            ],
+            "face": 215,
+            "distance": 0.27690648478459406,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | entrance practical warm source",
+          "light_type": "POINT",
+          "distance": 1.8449007237837514,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.3074494004249573,
+              37.236732482910156,
+              32.673892974853516
+            ],
+            "normal": [
+              0.0,
+              -0.25788334012031555,
+              0.9661760926246643
+            ],
+            "face": 713,
+            "distance": 0.13284783033665615,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | stair practical warm source",
+          "light_type": "POINT",
+          "distance": 13.092859210574671,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.5020034909248352,
+              37.69575500488281,
+              32.77471160888672
+            ],
+            "normal": [
+              0.0,
+              -0.1668042242527008,
+              0.985990047454834
+            ],
+            "face": 223,
+            "distance": 0.45809601773698466,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | turn practical warm source",
+          "light_type": "POINT",
+          "distance": 5.39669620458512,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V013 | turn luminous flame",
+            "point": [
+              5.187478065490723,
+              38.643638610839844,
+              30.958539962768555
+            ],
+            "normal": [
+              -0.9622631072998047,
+              -0.2578376829624176,
+              0.08700276911258698
+            ],
+            "face": 78,
+            "distance": 5.371783513948374,
+            "material": "V013 | warm lantern flame"
+          }
+        },
+        {
+          "light": "V014 | landing marker practical warm source",
+          "light_type": "POINT",
+          "distance": 18.197355770286183,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | entrance hall ceiling lining",
+            "point": [
+              0.33291885256767273,
+              37.277191162109375,
+              32.79999923706055
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "face": 0,
+            "distance": 0.006015494714301818,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        }
+      ],
+      "down_from_ceiling": {
+        "hit": true,
+        "object": "V027 | three pointed bays with high wall bands",
+        "point": [
+          0.33130645751953125,
+          37.27139663696289,
+          32.68308639526367
+        ],
+        "normal": [
+          0.0,
+          -0.24014148116111755,
+          0.9707379341125488
+        ],
+        "face": 199,
+        "distance": 0.11681365941882126,
+        "material": "Citadel \u2022 weathered limestone"
+      }
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        820,
+        0
+      ],
+      "rgb": [
+        11,
+        5,
+        1
+      ],
+      "ray_direction": [
+        0.8185928463935852,
+        -0.24545623362064362,
+        0.5192851424217224
+      ],
+      "first_hit": {
+        "hit": true,
+        "object": "V012 | entrance hall ceiling lining",
+        "point": [
+          0.3892252445220947,
+          36.983734130859375,
+          32.79999923706055
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "face": 0,
+        "distance": 4.140307072363748,
+        "material": "Citadel \u2022 weathered limestone"
+      },
+      "nearby_light_center_visibility": [
+        {
+          "light": "V013 | corridor practical warm source",
+          "light_type": "POINT",
+          "distance": 8.34158845827353,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              2.0880162715911865,
+              39.279998779296875,
+              32.10572814941406
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "face": 1078,
+            "distance": 2.9394892490739952,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | entrance practical warm source",
+          "light_type": "POINT",
+          "distance": 1.8031033565042067,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V027 | three pointed bays with high wall bands",
+            "point": [
+              0.3434438109397888,
+              36.96094512939453,
+              32.59407424926758
+            ],
+            "normal": [
+              0.0,
+              -0.30339115858078003,
+              0.9528661370277405
+            ],
+            "face": 697,
+            "distance": 0.21208380471813829,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | stair practical warm source",
+          "light_type": "POINT",
+          "distance": 13.338733887196625,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | hall north stone lining",
+            "point": [
+              1.3273719549179077,
+              39.400001525878906,
+              32.65980529785156
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "face": 2,
+            "distance": 2.5957838348028384,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        },
+        {
+          "light": "V013 | turn practical warm source",
+          "light_type": "POINT",
+          "distance": 5.425720829692496,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V013 | turn luminous flame",
+            "point": [
+              5.187823295593262,
+              38.642337799072266,
+              30.958511352539062
+            ],
+            "normal": [
+              -0.9622631072998047,
+              -0.2578376829624176,
+              0.08700276911258698
+            ],
+            "face": 78,
+            "distance": 5.400761502932152,
+            "material": "V013 | warm lantern flame"
+          }
+        },
+        {
+          "light": "V014 | landing marker practical warm source",
+          "light_type": "POINT",
+          "distance": 18.459397794190544,
+          "toward_light_first_hit": {
+            "hit": true,
+            "object": "V012 | entrance hall ceiling lining",
+            "point": [
+              0.3908184766769409,
+              36.9896240234375,
+              32.79999923706055
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "face": 0,
+            "distance": 0.006102381541272076,
+            "material": "Citadel \u2022 weathered limestone"
+          }
+        }
+      ],
+      "down_from_ceiling": {
+        "hit": true,
+        "object": "V027 | three pointed bays with high wall bands",
+        "point": [
+          0.3892252445220947,
+          36.983734130859375,
+          32.60111618041992
+        ],
+        "normal": [
+          0.0,
+          -0.29345470666885376,
+          0.9559729695320129
+        ],
+        "face": 187,
+        "distance": 0.19878387670785994,
+        "material": "Citadel \u2022 weathered limestone"
+      }
+    }
+  ],
+  "scope": "Bounded archived actual-image pixel rays on exact accepted geometry or independently semantically equal rebuild. Dark sampled strips hit intact ceiling; curved haunch airspace remains intentional, crown seats positive. Nearby light-center occlusions support shadows, not a complete Cycles radiometric decomposition."
+}

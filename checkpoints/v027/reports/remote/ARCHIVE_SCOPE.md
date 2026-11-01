@@ -1,0 +1,1 @@
+Remote reports/logs and summaries retained. Large temporary geometry exports and native rebuilt/viewer binaries are omitted; pinned archived scripts regenerate them. Remote proof binds the prior additive commit, avoiding a self-referential final commit hash.

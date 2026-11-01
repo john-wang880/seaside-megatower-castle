@@ -33,3 +33,5 @@ python checkpoints/v027/restore_checkpoint.py
 [程序复现](REPRODUCE.md) · [独立QA](qa/README.md) · [源与视角研究](reports/discovery/NATIVE_FEASIBILITY.md)
 
 此前远岸岩肩也用过工作标签v027，但美术已拒绝并只存于v026审计；**本版没有导入那块岩体**。
+
+已从远端固定提交 `9f0299675509a8854408f61828cfd4cf5a478d47` 的全新归档逐项核验2160条根校验，精确恢复验收工程和来源；公开QA、全新公开配方重建及完整语义/几何复验通过，16书签副本导出重开也通过。见[远端收据](reports/remote/VERIFIED.json)。随后才撤旧当前模型载荷，历史不删。

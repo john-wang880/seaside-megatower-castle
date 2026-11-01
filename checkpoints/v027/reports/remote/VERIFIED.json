@@ -1,0 +1,18 @@
+{
+  "commit": "9f0299675509a8854408f61828cfd4cf5a478d47",
+  "tree": "54f389a3b4f54a43f910d633f3d21b46178919f4",
+  "model_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "source_fixed_commit": "054bc322fed3ad54080471901566c3b1c96d8e8e",
+  "root_checksums": 2160,
+  "remote_QA_summary_sha256": "ef64c733ad586f3f5bbaea0cf20d25bf97f1f486a553f1d5459f773914e0f5c9",
+  "remote_native_calls": 10,
+  "accepted_and_rebuilt_full_QA_pass": true,
+  "source_and_archive_unchanged": true,
+  "qa_manifest_sha256": "471e2faedee2f31a23ab5b567c33d556e5bd0c82a322b583c76f9da309087090",
+  "recipe_manifest_sha256": "75881636d4cd8b75160ba6f6e310e2cdf3c27963a78e91af98f5c76406ed7e2b",
+  "inspection_bookmarks": 16,
+  "inspection_summary_sha256": "0b95f5129a9bc0e614ad6cf6866b7a6bd10de921862860f168534147069c36e4",
+  "inspection_source_preserved": true,
+  "scope": "Bounded interior ceiling geometry, no global engineering/navigation certification; actual native Linux, Windows not executed."
+}

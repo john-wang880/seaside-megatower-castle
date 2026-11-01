@@ -1,0 +1,284 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_source_v026.blend": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/rebuilt.blend": "eb8fc5f9f729085d7038febaf9be8b581feb3c7a55338b6a4f1e7f178129621f",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/builder_report.json": "42c1b65262358ed2d0142493e26998b61e9848c5ec9ea200ab57548be4711106",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_restored.blend": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255"
+  },
+  "candidate_sha256": "eb8fc5f9f729085d7038febaf9be8b581feb3c7a55338b6a4f1e7f178129621f",
+  "qa_manifest_sha256": "471e2faedee2f31a23ab5b567c33d556e5bd0c82a322b583c76f9da309087090",
+  "bundle_inventory_unchanged": true,
+  "inputs_unchanged": true,
+  "semantic_repeat_required_and_passed": true,
+  "native_calls": 5,
+  "commands": [
+    {
+      "command": [
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "-b",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python-expr",
+        "import sys; sys.dont_write_bytecode=True",
+        "--python",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/validate_repeat.py",
+        "--",
+        "--accepted",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_restored.blend",
+        "--rebuilt",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/rebuilt.blend",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/repeat.json"
+      ],
+      "native": true,
+      "expected_exit": 0
+    },
+    {
+      "command": [
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "-b",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python-expr",
+        "import sys; sys.dont_write_bytecode=True",
+        "--python",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/validate_preservation.py",
+        "--",
+        "--source",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_source_v026.blend",
+        "--candidate",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/rebuilt.blend",
+        "--candidate-sha",
+        "eb8fc5f9f729085d7038febaf9be8b581feb3c7a55338b6a4f1e7f178129621f",
+        "--build-report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/builder_report.json",
+        "--operand-reference",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/accepted_operands.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/preservation.json",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/geometry.json"
+      ],
+      "native": true,
+      "expected_exit": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/classify_neighbors.py",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/geometry.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/neighbor_classification.json"
+      ],
+      "native": false,
+      "expected_exit": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/audit_geometry.py",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/geometry.json",
+        "--plan",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/plan.json",
+        "--neighbor-report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/neighbor_classification.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/solid_contacts.json"
+      ],
+      "native": false,
+      "expected_exit": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/check_touches.py",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/geometry.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/touches.json"
+      ],
+      "native": false,
+      "expected_exit": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/check_clearance.py",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/geometry.json",
+        "--envelopes",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/protected_envelopes.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/clearance.json"
+      ],
+      "native": false,
+      "expected_exit": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/test_actual_geometry.py",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/geometry.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/actual_geometry_controls.json"
+      ],
+      "native": false,
+      "expected_exit": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/test_predicates.py"
+      ],
+      "native": false,
+      "expected_exit": 0
+    },
+    {
+      "command": [
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "-b",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python-expr",
+        "import sys; sys.dont_write_bytecode=True",
+        "--python",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/validate_preservation.py",
+        "--",
+        "--source",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_source_v026.blend",
+        "--candidate",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/rebuilt.blend",
+        "--candidate-sha",
+        "eb8fc5f9f729085d7038febaf9be8b581feb3c7a55338b6a4f1e7f178129621f",
+        "--build-report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/builder_report.json",
+        "--operand-reference",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/accepted_operands.json",
+        "--negative",
+        "source_vertex",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/source_vertex.json",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/source_vertex_geometry.json"
+      ],
+      "native": true,
+      "expected_exit": 1
+    },
+    {
+      "command": [
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "-b",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python-expr",
+        "import sys; sys.dont_write_bytecode=True",
+        "--python",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/validate_preservation.py",
+        "--",
+        "--source",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_source_v026.blend",
+        "--candidate",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/rebuilt.blend",
+        "--candidate-sha",
+        "eb8fc5f9f729085d7038febaf9be8b581feb3c7a55338b6a4f1e7f178129621f",
+        "--build-report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/builder_report.json",
+        "--operand-reference",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/accepted_operands.json",
+        "--negative",
+        "source_material",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/source_material.json",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/source_material_geometry.json"
+      ],
+      "native": true,
+      "expected_exit": 1
+    },
+    {
+      "command": [
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "-b",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python-expr",
+        "import sys; sys.dont_write_bytecode=True",
+        "--python",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/probe_crown.py",
+        "--",
+        "--candidate",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/rebuilt.blend",
+        "--candidate-sha",
+        "eb8fc5f9f729085d7038febaf9be8b581feb3c7a55338b6a4f1e7f178129621f",
+        "--receipt",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/crown_render_receipt.json",
+        "--pixels",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/crown_pixels.json",
+        "--seating-report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/solid_contacts.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/crown_rays.json"
+      ],
+      "native": true,
+      "expected_exit": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/summarize_crown.py",
+        "--rays",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/crown_rays.json",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/geometry.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa/crown_summary.json"
+      ],
+      "native": false,
+      "expected_exit": 0
+    }
+  ],
+  "model_negative_controls": [
+    "source_vertex",
+    "source_material"
+  ],
+  "exported_geometry_controls": 6,
+  "math_controls": 13,
+  "reports": {
+    "neighbor_classification.json": "9ab0cf8b72af2ab7b6de03d110775f1b7b8209d556362d586f4085fa09085e40",
+    "repeat.json": "ccb7ddfda0028eb8083b158468282c92c8fa4d1940f678f313c16ce35ac3feca",
+    "actual_geometry_controls.json": "d4e7cd62905785dfd880d73fa37561bf5f9f16d0f30824f31d15f3eb83958790",
+    "solid_contacts.json": "38b3e6f21c4ab573d657b4b493a0e9c29a62d87ce17c49dbbc3826633ca0ec6d",
+    "source_vertex_geometry.json": "8079bc00f8c3356ec9970c3aa4fa3b32ad097fa14d5e4cbf8727a97c6b1c76d1",
+    "preservation.json": "6a3796c84f089121d8d061fd33cd76cd97c885a07d6e6e27844e9de042b33df3",
+    "source_vertex.json": "c460f2792ed831225bec3afb6d86c4fe5183b5f18182d284004e730305710223",
+    "source_material.json": "ee2258d9e22f6ea40337a36a8fd23f73d230b775e6346d717c37d0b2dd1680c4",
+    "clearance.json": "b7ef18833989d6f24163e3aeb20ad89863aafecdf1a2290caa39cc948bb4a488",
+    "touches.json": "2603cb5c56f0bb516c4f40fbc0820ed6e5fe898136bf98dccbb7ba1cd30cd021",
+    "source_material_geometry.json": "861c9d7032122ef1a7f047f52454d9c401027edae599c2219e00766cec380765",
+    "geometry.json": "861c9d7032122ef1a7f047f52454d9c401027edae599c2219e00766cec380765",
+    "crown_rays.json": "f0cc009c75138cad09a04ada341bdfa20a5a97261197c603a95c334391453839",
+    "crown_summary.json": "c890ee74355813f123b1bcecbba4f95d31732d0f2b4fc0b2271429769a753712"
+  },
+  "scope": "One additive hall union; exact12-category original preservation,29finite support/backing witnesses, explicit neighbor/coplanar/containment proof, original static/camera envelope separation and bounded actual-image crown rays. Not structural/global accessibility certification; no old-walk ceiling cadence claim."
+}

@@ -1,0 +1,81 @@
+{
+  "pass": true,
+  "owner_verified_remote_commit": "9f0299675509a8854408f61828cfd4cf5a478d47",
+  "archive": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587",
+  "archive_file_count": 2161,
+  "archive_inventory_before_sha256": "52ede5a9c7d1bc38e1ebf1e77abb6022290958d45073c31d8acb2511c4164fac",
+  "archive_unchanged": true,
+  "source_and_accepted_unchanged": true,
+  "input_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_source_v026.blend": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_restored.blend": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255"
+  },
+  "qa_manifest_sha256": "471e2faedee2f31a23ab5b567c33d556e5bd0c82a322b583c76f9da309087090",
+  "recipe_manifest_sha256": "75881636d4cd8b75160ba6f6e310e2cdf3c27963a78e91af98f5c76406ed7e2b",
+  "rebuilt_sha256": "eb8fc5f9f729085d7038febaf9be8b581feb3c7a55338b6a4f1e7f178129621f",
+  "native_calls": 10,
+  "qa_guard_methods": 17,
+  "recipe_guard_methods": 17,
+  "commands": [
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/test_runner.py"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/reproduce/test_guards.py",
+      "-v"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/run_qa.py",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_source_v026.blend",
+      "--candidate",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_restored.blend",
+      "--build-report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/reports/build/build_receipt.json",
+      "--output-dir",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/accepted_qa",
+      "--blender",
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/reproduce/rebuild.py",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_source_v026.blend",
+      "--output",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/rebuilt.blend",
+      "--report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/rebuilt.json",
+      "--blender",
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote \u4e2d\u6587/checkpoints/v027/qa/run_qa.py",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_source_v026.blend",
+      "--candidate",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/rebuilt.blend",
+      "--build-report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/fresh rebuild \u4e2d\u6587/builder_report.json",
+      "--accepted",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_restored.blend",
+      "--output-dir",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/remote_qa/rebuilt_qa",
+      "--blender",
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender"
+    ]
+  ],
+  "accepted_summary_sha256": "1ac060be2689d27cca7c10ffa27d04ed3511115f9598d9c78b1807f28f717b10",
+  "rebuilt_summary_sha256": "68e14951a64b535b98e0b657c7f944484af0fa6a414ffb18568b1653180a6194",
+  "no_render": true,
+  "scope": "Fresh archived runtime/model accepted-byte full QA, fresh archived recipe rebuild from fixed Git historical source, full semantic equality then complete independent QA. No new accepted model or source mutation. Existing finite crown/route and architectural limits retained."
+}
