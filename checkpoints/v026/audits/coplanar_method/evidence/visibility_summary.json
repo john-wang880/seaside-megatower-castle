@@ -1,0 +1,1958 @@
+{
+  "groups": [
+    {
+      "version": "v024",
+      "rows": [
+        {
+          "union": "V024 | exact evaluated rear stepped union",
+          "camera_receipt": "checkpoints/v024/reports/visual/hero_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 17,
+          "in_frame": 17,
+          "nearer_occluder": 17,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V024 | exact evaluated rear stepped union",
+          "camera_receipt": "checkpoints/v024/reports/visual/rear_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 17,
+          "in_frame": 17,
+          "nearer_occluder": 15,
+          "first_surface_in_frame": 2
+        }
+      ],
+      "first_surface_samples": [
+        {
+          "union": "V024 | exact evaluated rear stepped union",
+          "neighbor": "V012 | terrace ledges with bounded stair opening",
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "sample": [
+            2.226380713803555,
+            49.1079335042462,
+            66.30000305175781
+          ],
+          "sample_index": 0,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v024/reports/visual/rear_after_receipt.json",
+          "camera_height": 210.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 476.11021878309595,
+          "nearest_hit": [
+            476.1101379394531,
+            "V024 | exact evaluated rear stepped union",
+            99
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V024 | exact evaluated rear stepped union",
+          "neighbor": "V012 | terrace ledges with bounded stair opening",
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "sample": [
+            0.8663455883776077,
+            57.30081199748443,
+            66.30000305175781
+          ],
+          "sample_index": 4,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v024/reports/visual/rear_after_receipt.json",
+          "camera_height": 210.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 468.2089838820808,
+          "nearest_hit": [
+            468.2089538574219,
+            "V012 | terrace ledges with bounded stair opening",
+            64731
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        }
+      ]
+    },
+    {
+      "version": "v025",
+      "rows": [
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "camera_receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 21,
+          "in_frame": 21,
+          "nearer_occluder": 21,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "camera_receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 21,
+          "in_frame": 21,
+          "nearer_occluder": 21,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "camera_receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 21,
+          "in_frame": 21,
+          "nearer_occluder": 21,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "camera_receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 143,
+          "in_frame": 143,
+          "nearer_occluder": 138,
+          "first_surface_in_frame": 5
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "camera_receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 143,
+          "in_frame": 143,
+          "nearer_occluder": 138,
+          "first_surface_in_frame": 5
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "camera_receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 143,
+          "in_frame": 143,
+          "nearer_occluder": 136,
+          "first_surface_in_frame": 7
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "camera_receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 19,
+          "in_frame": 19,
+          "nearer_occluder": 19,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "camera_receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 19,
+          "in_frame": 19,
+          "nearer_occluder": 19,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "camera_receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 19,
+          "in_frame": 19,
+          "nearer_occluder": 19,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "camera_receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 134,
+          "in_frame": 134,
+          "nearer_occluder": 132,
+          "first_surface_in_frame": 2
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "camera_receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 134,
+          "in_frame": 134,
+          "nearer_occluder": 134,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "camera_receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 134,
+          "in_frame": 134,
+          "nearer_occluder": 126,
+          "first_surface_in_frame": 8
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "camera_receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 11,
+          "in_frame": 11,
+          "nearer_occluder": 11,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "camera_receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 11,
+          "in_frame": 11,
+          "nearer_occluder": 11,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "camera_receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 11,
+          "in_frame": 11,
+          "nearer_occluder": 11,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "camera_receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 134,
+          "in_frame": 134,
+          "nearer_occluder": 131,
+          "first_surface_in_frame": 3
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "camera_receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 134,
+          "in_frame": 134,
+          "nearer_occluder": 134,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "camera_receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 134,
+          "in_frame": 134,
+          "nearer_occluder": 126,
+          "first_surface_in_frame": 8
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "camera_receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 143,
+          "in_frame": 143,
+          "nearer_occluder": 137,
+          "first_surface_in_frame": 6
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "camera_receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 143,
+          "in_frame": 143,
+          "nearer_occluder": 143,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "camera_receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "same_facing_contact": true,
+          "sample_rays": 143,
+          "in_frame": 143,
+          "nearer_occluder": 134,
+          "first_surface_in_frame": 9
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "camera_receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 20,
+          "in_frame": 20,
+          "nearer_occluder": 20,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "camera_receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 20,
+          "in_frame": 20,
+          "nearer_occluder": 20,
+          "first_surface_in_frame": 0
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "camera_receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "same_facing_contact": false,
+          "sample_rays": 20,
+          "in_frame": 20,
+          "nearer_occluder": 20,
+          "first_surface_in_frame": 0
+        }
+      ],
+      "first_surface_samples": [
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 3726,
+          "normal": [
+            0.0,
+            -0.7071067811865476,
+            -0.7071067811865476
+          ],
+          "plane_offset": -43.70366003464495,
+          "sample": [
+            12.60236503187566,
+            21.00113594582848,
+            40.80517280050941
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 501.8463904030265,
+          "nearest_hit": [
+            501.84637451171875,
+            "V025 | exact evaluated rear return union 01",
+            259
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 3726,
+          "normal": [
+            0.0,
+            -0.7071067811865476,
+            -0.7071067811865476
+          ],
+          "plane_offset": -43.70366003464495,
+          "sample": [
+            10.401575356764404,
+            21.004037618325725,
+            40.802271128012165
+          ],
+          "sample_index": 0,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 502.30279767827284,
+          "nearest_hit": [
+            502.3027648925781,
+            "V008 | gallery with genuine eastern approach portal",
+            3732
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 3731,
+          "normal": [
+            -0.7070533440599155,
+            -0.7071602142751603,
+            0.0
+          ],
+          "plane_offset": -4.956079516872087,
+          "sample": [
+            -13.994660095869737,
+            21.000970412144838,
+            51.09730911254883
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 486.1871939375081,
+          "nearest_hit": [
+            486.1871643066406,
+            "V008 | gallery with genuine eastern approach portal",
+            3742
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 3731,
+          "normal": [
+            -0.7070533440599155,
+            -0.7071602142751603,
+            0.0
+          ],
+          "plane_offset": -4.956079516872087,
+          "sample": [
+            -13.997571772333934,
+            21.00388164857934,
+            51.09730911254883
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 486.1847195695981,
+          "nearest_hit": [
+            486.1846618652344,
+            "V008 | gallery with genuine eastern approach portal",
+            3742
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9508,
+          "normal": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "plane_offset": -21.0,
+          "sample": [
+            10.01178858657999,
+            21.0,
+            41.32950984821407
+          ],
+          "sample_index": 0,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 502.39808552006696,
+          "nearest_hit": [
+            502.3980407714844,
+            "V025 | exact evaluated rear return union 01",
+            264
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9509,
+          "normal": [
+            0.0,
+            -0.0,
+            -1.0
+          ],
+          "plane_offset": -40.79999923706055,
+          "sample": [
+            14.835968027565926,
+            23.084680152473283,
+            40.79999923706055
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 503.4357839809654,
+          "nearest_hit": [
+            503.435791015625,
+            "V008 | gallery with genuine eastern approach portal",
+            15299
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9509,
+          "normal": [
+            0.0,
+            -0.0,
+            -1.0
+          ],
+          "plane_offset": -40.79999923706055,
+          "sample": [
+            14.835968027565926,
+            21.445093827790565,
+            40.79999923706055
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 501.8300052981381,
+          "nearest_hit": [
+            501.8299865722656,
+            "V008 | gallery with genuine eastern approach portal",
+            15299
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            23.957325979743516,
+            46.510311126708984
+          ],
+          "sample_index": 1,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "camera_height": 210.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 504.62015611063833,
+          "nearest_hit": [
+            504.6201477050781,
+            "V025 | exact evaluated rear return union 01",
+            196
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            23.957325979743516,
+            46.510311126708984
+          ],
+          "sample_index": 1,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 487.7364958707692,
+          "nearest_hit": [
+            487.7365417480469,
+            "V008 | gallery with genuine eastern approach portal",
+            15313
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            22.348232446806087,
+            51.09730911254883
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "camera_height": 210.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 504.6754100719095,
+          "nearest_hit": [
+            504.6754150390625,
+            "V008 | gallery with genuine eastern approach portal",
+            15313
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            22.348232446806087,
+            51.09730911254883
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 486.3252427123424,
+          "nearest_hit": [
+            486.32525634765625,
+            "V008 | gallery with genuine eastern approach portal",
+            15313
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            23.957325979743516,
+            51.09730911254883
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "camera_height": 210.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 503.15275156382677,
+          "nearest_hit": [
+            503.1527404785156,
+            "V025 | exact evaluated rear return union 01",
+            196
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            23.957325979743516,
+            51.09730911254883
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 486.5010766765289,
+          "nearest_hit": [
+            486.50103759765625,
+            "V025 | exact evaluated rear return union 01",
+            196
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            21.671965455744452,
+            50.33280944824219
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "camera_height": 210.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 505.5564404229512,
+          "nearest_hit": [
+            505.556396484375,
+            "V008 | gallery with genuine eastern approach portal",
+            15312
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            21.671965455744452,
+            50.33280944824219
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 486.45613601395246,
+          "nearest_hit": [
+            486.4560852050781,
+            "V008 | gallery with genuine eastern approach portal",
+            15312
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            21.806562413529683,
+            50.33280944824219
+          ],
+          "sample_index": 4,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/rear_after_receipt.json",
+          "camera_height": 210.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 505.4291048981301,
+          "nearest_hit": [
+            505.4290466308594,
+            "V008 | gallery with genuine eastern approach portal",
+            15312
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 01",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 9516,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 14.0,
+          "sample": [
+            -14.0,
+            21.806562413529683,
+            50.33280944824219
+          ],
+          "sample_index": 4,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 486.47045156323793,
+          "nearest_hit": [
+            486.470458984375,
+            "V008 | gallery with genuine eastern approach portal",
+            15312
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 4172,
+          "normal": [
+            -0.7070533440599155,
+            -0.7071602142751603,
+            0.0
+          ],
+          "plane_offset": -12.380460240146935,
+          "sample": [
+            -6.494648607923043,
+            24.000958925934263,
+            61.502709070841476
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 491.08555737081406,
+          "nearest_hit": [
+            491.0855407714844,
+            "V025 | exact evaluated rear return union 02",
+            167
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 4172,
+          "normal": [
+            -0.7070533440599155,
+            -0.7071602142751603,
+            0.0
+          ],
+          "plane_offset": -12.380460240146935,
+          "sample": [
+            -6.497525820547156,
+            24.003835703737067,
+            61.502709070841476
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 491.08310569517533,
+          "nearest_hit": [
+            491.0830383300781,
+            "V025 | exact evaluated rear return union 02",
+            167
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 7821,
+          "normal": [
+            -0.7070533440599155,
+            0.0,
+            0.7071602142751603
+          ],
+          "plane_offset": 49.56677345131625,
+          "sample": [
+            -6.498948256174723,
+            26.33123016357422,
+            63.59474054972331
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 490.8427716334873,
+          "nearest_hit": [
+            490.84271240234375,
+            "V008 | gallery with genuine eastern approach portal",
+            11923
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 10422,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 6.5,
+          "sample": [
+            -6.5,
+            26.963674618048657,
+            57.5319086710612
+          ],
+          "sample_index": 1,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 492.3875952390682,
+          "nearest_hit": [
+            492.3876037597656,
+            "V008 | gallery with genuine eastern approach portal",
+            17125
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 10422,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 6.5,
+          "sample": [
+            -6.5,
+            25.37362700002667,
+            61.502709070841476
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 491.23324085797384,
+          "nearest_hit": [
+            491.2332458496094,
+            "V025 | exact evaluated rear return union 02",
+            196
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 10422,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 6.5,
+          "sample": [
+            -6.5,
+            26.963674618048657,
+            61.502709070841476
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 491.4150168136908,
+          "nearest_hit": [
+            491.4150085449219,
+            "V008 | gallery with genuine eastern approach portal",
+            17125
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 10422,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 6.5,
+          "sample": [
+            -6.5,
+            24.69168536394554,
+            60.840909004211426
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 491.31692327030305,
+          "nearest_hit": [
+            491.31695556640625,
+            "V008 | gallery with genuine eastern approach portal",
+            17124
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 10422,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 6.5,
+          "sample": [
+            -6.5,
+            24.845328236646203,
+            60.840909004211426
+          ],
+          "sample_index": 4,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 491.3340502405479,
+          "nearest_hit": [
+            491.33404541015625,
+            "V008 | gallery with genuine eastern approach portal",
+            17124
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 5604,
+          "normal": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "plane_offset": 1.7633054561704,
+          "sample": [
+            26.499041074065737,
+            24.00535058334308,
+            61.502709070841476
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 503.26946489616773,
+          "nearest_hit": [
+            503.2694396972656,
+            "V025 | exact evaluated rear return union 02",
+            219
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 02",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 5604,
+          "normal": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "plane_offset": 1.7633054561704,
+          "sample": [
+            26.496164296262933,
+            24.002473805540276,
+            61.502709070841476
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 503.267145583952,
+          "nearest_hit": [
+            503.2671203613281,
+            "V025 | exact evaluated rear return union 02",
+            219
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 4540,
+          "normal": [
+            -0.7070533440599155,
+            -0.7071602142751603,
+            0.0
+          ],
+          "plane_offset": -20.15826076523649,
+          "sample": [
+            2.505346609402795,
+            26.00096370788564,
+            72.22370529174805
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 497.5572755287984,
+          "nearest_hit": [
+            497.5572204589844,
+            "V008 | gallery with genuine eastern approach portal",
+            5360
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 4540,
+          "normal": [
+            -0.7070533440599155,
+            -0.7071602142751603,
+            0.0
+          ],
+          "plane_offset": -20.15826076523649,
+          "sample": [
+            2.5024550487561994,
+            26.003854831542565,
+            72.22370529174805
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 497.5547904816614,
+          "nearest_hit": [
+            497.55474853515625,
+            "V025 | exact evaluated rear return union 03",
+            165
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 8073,
+          "normal": [
+            -0.7070533440599156,
+            0.0,
+            0.7071602142751604
+          ],
+          "plane_offset": 50.840625827030465,
+          "sample": [
+            2.5010517438252764,
+            28.33123016357422,
+            74.39474360148111
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 497.3552575345571,
+          "nearest_hit": [
+            497.355224609375,
+            "V008 | gallery with genuine eastern approach portal",
+            12427
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11178,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -2.5,
+          "sample": [
+            2.5,
+            28.96103154621106,
+            68.01590728759766
+          ],
+          "sample_index": 1,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 498.82170194572655,
+          "nearest_hit": [
+            498.8216857910156,
+            "V008 | gallery with genuine eastern approach portal",
+            18637
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11178,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -2.5,
+          "sample": [
+            2.5,
+            27.36305471267628,
+            72.22370529174805
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 497.70724154970424,
+          "nearest_hit": [
+            497.70721435546875,
+            "V025 | exact evaluated rear return union 03",
+            194
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11178,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -2.5,
+          "sample": [
+            2.5,
+            28.96103154621106,
+            72.22370529174805
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 497.8939458837155,
+          "nearest_hit": [
+            497.8939514160156,
+            "V008 | gallery with genuine eastern approach portal",
+            18637
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11178,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -2.5,
+          "sample": [
+            2.5,
+            26.671270923074857,
+            71.52240562438965
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 497.7803438786561,
+          "nearest_hit": [
+            497.7802734375,
+            "V008 | gallery with genuine eastern approach portal",
+            18636
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11178,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -2.5,
+          "sample": [
+            2.5,
+            26.816984580262734,
+            71.52240562438965
+          ],
+          "sample_index": 4,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 497.7969542064189,
+          "nearest_hit": [
+            497.7969055175781,
+            "V008 | gallery with genuine eastern approach portal",
+            18636
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 5810,
+          "normal": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "plane_offset": 2.470412237356946,
+          "sample": [
+            29.49903629211436,
+            26.005345801391705,
+            72.22370529174805
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 505.6255902827982,
+          "nearest_hit": [
+            505.6255798339844,
+            "V025 | exact evaluated rear return union 03",
+            217
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 5810,
+          "normal": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0.0
+          ],
+          "plane_offset": 2.470412237356946,
+          "sample": [
+            29.496145168457435,
+            26.00245467773478,
+            72.22370529174805
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 505.62323590738305,
+          "nearest_hit": [
+            505.6231994628906,
+            "V008 | gallery with genuine eastern approach portal",
+            7900
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 03",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11635,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 29.5,
+          "sample": [
+            29.5,
+            26.338568725186384,
+            71.7460774386908
+          ],
+          "sample_index": 4,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 505.90701392477376,
+          "nearest_hit": [
+            505.9070129394531,
+            "V008 | gallery with genuine eastern approach portal",
+            19551
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V005 | main tower calibrated stone surface",
+          "neighbor_polygon": 36,
+          "normal": [
+            0.0,
+            -1.0,
+            -0.0
+          ],
+          "plane_offset": -27.200000762939453,
+          "sample": [
+            25.846191570615165,
+            27.200000762939453,
+            84.2917903495844
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 508.7154028373668,
+          "nearest_hit": [
+            508.71533203125,
+            "V005 | main tower calibrated stone surface",
+            370
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V005 | main tower calibrated stone surface",
+          "neighbor_polygon": 36,
+          "normal": [
+            0.0,
+            -1.0,
+            -0.0
+          ],
+          "plane_offset": -27.200000762939453,
+          "sample": [
+            25.84047947506359,
+            27.200000762939453,
+            83.9890494760125
+          ],
+          "sample_index": 4,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 508.68061302201517,
+          "nearest_hit": [
+            508.6805419921875,
+            "V005 | main tower calibrated stone surface",
+            370
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 4841,
+          "normal": [
+            -0.7070533440599155,
+            -0.7071602142751603,
+            0.0
+          ],
+          "plane_offset": -27.016806986396396,
+          "sample": [
+            11.005351392036363,
+            27.200959688914303,
+            82.5027084350586
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 503.8491057714787,
+          "nearest_hit": [
+            503.84912109375,
+            "V025 | exact evaluated rear return union 04",
+            167
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 4841,
+          "normal": [
+            -0.7070533440599155,
+            -0.7071602142751603,
+            0.0
+          ],
+          "plane_offset": -27.016806986396396,
+          "sample": [
+            11.002474179290473,
+            27.203836466838865,
+            82.5027084350586
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 503.84662559070557,
+          "nearest_hit": [
+            503.84661865234375,
+            "V008 | gallery with genuine eastern approach portal",
+            5962
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 8279,
+          "normal": [
+            -0.7070533440599156,
+            0.0,
+            0.7071602142751604
+          ],
+          "plane_offset": 52.043704430046105,
+          "sample": [
+            11.001051743825276,
+            29.531230926513672,
+            84.5947405497233
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 503.71434984545994,
+          "nearest_hit": [
+            503.7142333984375,
+            "V025 | exact evaluated rear return union 04",
+            176
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 8279,
+          "normal": [
+            -0.7070533440599156,
+            0.0,
+            0.7071602142751604
+          ],
+          "plane_offset": 52.043704430046105,
+          "sample": [
+            11.001972493671495,
+            30.11246109008789,
+            84.59566116042038
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 503.784129824363,
+          "nearest_hit": [
+            503.7840270996094,
+            "V025 | exact evaluated rear return union 04",
+            176
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11796,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -11.0,
+          "sample": [
+            11.0,
+            30.163675358555302,
+            78.53190612792969
+          ],
+          "sample_index": 1,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 504.9717238564267,
+          "nearest_hit": [
+            504.97174072265625,
+            "V008 | gallery with genuine eastern approach portal",
+            19873
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11796,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -11.0,
+          "sample": [
+            11.0,
+            28.573627673234874,
+            82.5027084350586
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 504.0015789188903,
+          "nearest_hit": [
+            504.0015563964844,
+            "V008 | gallery with genuine eastern approach portal",
+            19873
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11796,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -11.0,
+          "sample": [
+            11.0,
+            30.163675358555302,
+            82.5027084350586
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 504.18884275651743,
+          "nearest_hit": [
+            504.1888427734375,
+            "V008 | gallery with genuine eastern approach portal",
+            19873
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11796,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -11.0,
+          "sample": [
+            11.0,
+            27.884410082880223,
+            81.84090805053711
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 504.05040622116235,
+          "nearest_hit": [
+            504.0503234863281,
+            "V025 | exact evaluated rear return union 04",
+            196
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 11796,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": -11.0,
+          "sample": [
+            11.0,
+            28.03805288828245,
+            81.84090805053711
+          ],
+          "sample_index": 4,
+          "inside_camera_frame": true,
+          "receipt": "work/lateral_coverage_v025/actual/receipt.json",
+          "camera_height": 180.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 504.06807358008143,
+          "nearest_hit": [
+            504.0680236816406,
+            "V025 | exact evaluated rear return union 04",
+            196
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 5972,
+          "normal": [
+            0.7071067811865476,
+            -0.7071067811865476,
+            0.0
+          ],
+          "plane_offset": 2.682543732233249,
+          "sample": [
+            30.999041074025143,
+            27.205351346241947,
+            82.5027084350586
+          ],
+          "sample_index": 2,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 507.63361272242895,
+          "nearest_hit": [
+            507.6335144042969,
+            "V025 | exact evaluated rear return union 04",
+            219
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 5972,
+          "normal": [
+            0.7071067811865476,
+            -0.7071067811865476,
+            0.0
+          ],
+          "plane_offset": 2.682543732233249,
+          "sample": [
+            30.996164296100588,
+            27.202474568317385,
+            82.5027084350586
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 507.63128737872455,
+          "nearest_hit": [
+            507.63128662109375,
+            "V008 | gallery with genuine eastern approach portal",
+            8224
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 12139,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 31.0,
+          "sample": [
+            31.0,
+            28.610442684165303,
+            82.07876893537924
+          ],
+          "sample_index": 3,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 508.96121469755064,
+          "nearest_hit": [
+            508.9611511230469,
+            "V008 | gallery with genuine eastern approach portal",
+            20559
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        },
+        {
+          "union": "V025 | exact evaluated rear return union 04",
+          "neighbor": "V008 | gallery with genuine eastern approach portal",
+          "neighbor_polygon": 12139,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset": 31.0,
+          "sample": [
+            31.0,
+            27.5633349876321,
+            82.07876893537924
+          ],
+          "sample_index": 4,
+          "inside_camera_frame": true,
+          "receipt": "checkpoints/v025/reports/visual/hero_after_receipt.json",
+          "camera_height": 24.0,
+          "outward_front_facing": true,
+          "distance_to_contact": 507.9354375227291,
+          "nearest_hit": [
+            507.9354248046875,
+            "V008 | gallery with genuine eastern approach portal",
+            20559
+          ],
+          "nearer_occluder": false,
+          "contact_at_first_surface": true,
+          "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof.",
+          "same_facing_contact": true
+        }
+      ]
+    }
+  ],
+  "scope": "Finite stratified camera rays. First-surface geometry does not quantify screen pixels, material visibility or perceived z-fighting. Same-facing vs opposite-facing classified explicitly; not all contacts are hidden."
+}

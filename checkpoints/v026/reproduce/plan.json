@@ -1,0 +1,117 @@
+{
+  "schema": "v026-shared-shaft-two-solid-union-v1",
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "source_bytes": 47663562,
+  "object": "V005 | main tower calibrated stone surface",
+  "hidden": "V004 | main shaft selective front and east-facing windows",
+  "original_mesh": "V004 | main shaft selective front and east-facing windows mesh",
+  "derivative_mesh": "V026 | single-user main shaft rollback mesh",
+  "material": "V005 | main large ashlar calibrated world units",
+  "raw_material": "Citadel \u2022 deep slate ashlar",
+  "collection": "V026 | main shaft duplicate skin correction",
+  "replacement": "V026 | exact main shaft two-solid union",
+  "group": "V026 | original two shaft solids rollback",
+  "modifier": "V026 | remove two original shaft solids",
+  "mapping": [
+    {
+      "raw": {
+        "seed": 0,
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "evaluated": {
+        "seed": 0,
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "bounds": [
+          [
+            17.5,
+            31.5,
+            39.599998474121094
+          ],
+          [
+            47.5,
+            62.5,
+            180.0
+          ]
+        ],
+        "faces": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "raw": {
+        "seed": 16,
+        "indices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "evaluated": {
+        "seed": 16,
+        "indices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "bounds": [
+          [
+            17.5,
+            31.0,
+            42.0
+          ],
+          [
+            27.5,
+            43.0,
+            180.0
+          ]
+        ],
+        "faces": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    }
+  ],
+  "tolerances": {
+    "strict_crossing": 1e-07,
+    "positive_volume": 1e-09
+  }
+}

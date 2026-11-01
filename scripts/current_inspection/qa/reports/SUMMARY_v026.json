@@ -1,0 +1,107 @@
+{
+  "pass": true,
+  "manifest_identity": {
+    "repository": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle",
+    "manifest": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/checkpoints/v026/MANIFEST.json",
+    "manifest_sha256": "d8b18772c2ea576f616c0a0b4aa851c64227ed847965bbadcb155c520e0453c6",
+    "source": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/castle_v026.blend",
+    "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "source_bytes": 47680699,
+    "output": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026_test/qa/unused-preflight-copy.blend",
+    "report": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026_test/qa/unused-preflight-report.json",
+    "catalog_sha256": "de7060701c8a6e3e53a9020d655d12e8a54d4e8ec2782091bc11e6d12df780b0",
+    "reviewed_version": 26
+  },
+  "input_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/castle_v026.blend": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026_test/viewer.blend": "e2b5b2947210a3f7d3c94fe2320f18afac6852ac86a185b7929c26e2897efe84",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026_test/export.json": "577808f688467db4ccaa75ba6ce81309989509abcb9fb5c6c3ee3e1cfc947639"
+  },
+  "runtime_sha256": {
+    "preflight.py": "c652a864983a4b2efb3b4750fc590b04a279db0bac609357fdddb3ca327bb62f",
+    "export_inspection.py": "9d9f7879f8a137d0cca174581fdef0cf2882d48326b581f7a8aab5af5c2d531a",
+    "ui_template.py": "55dc286da161ae42129c9c5241f761a479a3b59e41cf03c2d614f9bfc0dab32c",
+    "catalog.json": "de7060701c8a6e3e53a9020d655d12e8a54d4e8ec2782091bc11e6d12df780b0"
+  },
+  "qa_manifest_sha256": "62ce4a5ab437125fc05d648d0fe1fe6902c3e62bc3280bd7a29a9302669cbac1",
+  "qa_inventory_unchanged": true,
+  "all_model_runtime_inputs_unchanged": true,
+  "pure_tests": 24,
+  "actual_source_category_names": [
+    "meshes",
+    "objects",
+    "materials",
+    "lights",
+    "cameras",
+    "worlds",
+    "visible_evaluated",
+    "scene",
+    "libraries",
+    "texts",
+    "collections",
+    "scene_custom",
+    "visibility"
+  ],
+  "actual_source_category_count": 13,
+  "api_negative_cases": [
+    "canonical untagged refuses UI",
+    "export marker collision",
+    "export collection collision",
+    "export Text collision",
+    "export camera object collision",
+    "export orphan camera data collision",
+    "foreign unselected camera owner",
+    "foreign camera-data owner",
+    "partial inventory",
+    "changed unselected lens",
+    "changed DOF",
+    "changed delta transform",
+    "owned parent hidden render",
+    "owned layer excluded",
+    "autoexec Text flag",
+    "unknown bookmark",
+    "foreign context scene",
+    "original hero parent render hidden",
+    "foreign registration registry",
+    "foreign unregister registry"
+  ],
+  "commands": [
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026/qa/test_preflight_independent.py",
+      "--tool",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/castle_v026.blend"
+    ],
+    [
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+      "-b",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "--python-expr",
+      "import sys; sys.dont_write_bytecode=True",
+      "--python",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026/qa/validate_copy.py",
+      "--",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/castle_v026.blend",
+      "--viewer",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026_test/viewer.blend",
+      "--receipt",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026_test/export.json",
+      "--tool",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026",
+      "--report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v026_test/qa/validation.json"
+    ]
+  ],
+  "reports": {
+    "validation.json": "19e52b30cb3c638b952535e5958ab2f7e809496229f0db73a0f978511da1d487",
+    "pure_tests.log": "ae8ff259aef4090d7637236b5f3aa1e84d6e50f74ac95a070b7691e8e3970358"
+  },
+  "scope": "Actual Linux reopen/headless manual UI/operator API; no render/model save, nativeWindows or desktopclick claim. Export provenance is not later edit certification."
+}

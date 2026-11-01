@@ -1,0 +1,62 @@
+{
+  "resolution": [
+    1200,
+    866
+  ],
+  "source_scene_frame": 1,
+  "samples": 80,
+  "threads": 8,
+  "view_scope": "Elevated north/rear architectural discovery; not a human-eye route walkthrough or accessibility proof",
+  "views": {
+    "rear_landward": {
+      "location": [
+        -50.0,
+        500.0,
+        210.0
+      ],
+      "target": [
+        -35.0,
+        55.0,
+        105.0
+      ],
+      "reference_matrix": [
+        [
+          -0.999432384967804,
+          0.007732450030744076,
+          -0.03278935328125954,
+          -50.0
+        ],
+        [
+          -0.033688757568597794,
+          -0.2293950617313385,
+          0.972750186920166,
+          500.0
+        ],
+        [
+          2.6687128951152772e-08,
+          0.9733026623725891,
+          0.2295253574848175,
+          210.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_data": {
+        "lens": 45.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0
+      }
+    }
+  },
+  "baseline_source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "scope": "Same exact north camera as v024 accepted rear image; only candidate source changes. Each receipt records actual source hash."
+}

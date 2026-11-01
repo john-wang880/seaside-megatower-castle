@@ -1,0 +1,25 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.473  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026_shaft_surface/candidate.blend"
+/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026_shaft_qa/adjacent.py:25: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not any(s.material and(not s.material.use_nodes or any(n.type=='OUTPUT_MATERIAL'and n.is_active_output and n.inputs['Surface'].is_linked for n in s.material.node_tree.nodes))for s in o.material_slots):continue
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026_shaft_qa/adjacent.py", line 38, in <module>
+    out.write_text(json.dumps({'model_sha256':a.sha256,'source_unchanged':True,'plane_tolerance':eps,'minimum_reported_pair_area':1e-8,'helper_sha256':sha(root/'coplanar_predicate.py'),'results':results,'scope':'Explicit triangle bounds/plane filter and oriented polygon overlap. All render-visible neighboring surface meshes evaluated before bounds cull. Exact-zero derived triangles omitted only from normal operations. Pair areas can double-count multiway contacts; contacts alone do not establish exposure or geometric regression. Historical reports remain unchanged.'},indent=2));print('RECHECK',[(r['union'],r['by_object'])for r in results])
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/5.2/python/lib/python3.13/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/5.2/python/lib/python3.13/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/5.2/python/lib/python3.13/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/5.2/python/lib/python3.13/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type bool is not JSON serializable
+
+Error: script failed, file: 'work/v026_shaft_qa/adjacent.py', exiting.
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

@@ -1,0 +1,201 @@
+{
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "visible_object": "V005 | main tower calibrated stone surface",
+  "hidden_original_object": "V004 | main shaft selective front and east-facing windows",
+  "original_shared_mesh": "V004 | main shaft selective front and east-facing windows mesh",
+  "owned_derivative_mesh": "V026 | single-user main shaft rollback mesh",
+  "union_object": "V026 | exact main shaft two-solid union",
+  "union_mesh": "V026 | exact main shaft two-solid union",
+  "collection": "V026 | main shaft duplicate skin correction",
+  "group": "V026 | original two shaft solids rollback",
+  "modifier": "V026 | remove two original shaft solids",
+  "effective_material": "V005 | main large ashlar calibrated world units",
+  "original_data_slot_material": "Citadel \u2022 deep slate ashlar",
+  "original_material_link": "OBJECT",
+  "components": [
+    {
+      "seed": 0,
+      "vertex_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "face_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "bounds": [
+        [
+          17.5,
+          31.5,
+          39.599998474121094
+        ],
+        [
+          47.5,
+          62.5,
+          180.0
+        ]
+      ],
+      "exact_box_corner_set": true,
+      "closed_oriented_convex": true,
+      "material_indices": [
+        0
+      ]
+    },
+    {
+      "seed": 16,
+      "vertex_ids": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "face_ids": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "bounds": [
+        [
+          17.5,
+          31.0,
+          42.0
+        ],
+        [
+          27.5,
+          43.0,
+          180.0
+        ]
+      ],
+      "exact_box_corner_set": true,
+      "closed_oriented_convex": true,
+      "material_indices": [
+        0
+      ]
+    }
+  ],
+  "selected_raw_vertex_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "selected_face_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "dependency_delta": {
+    "visible_data_pointer": "Original shared mesh \u2192 owned identical derivative",
+    "original_shared_mesh_users": [
+      2,
+      1
+    ],
+    "owned_derivative_users": 1,
+    "hidden_original_pointer_and_raw_data": "Unchanged exactly",
+    "full_undo": "Remove own Mask/group, restore visible.data original pointer, remove derivative and own union/collection; originalusers2 restored"
+  },
+  "geometry_requirement": "Exact occupied-set/exterior union of the two actual boxes, not AABB and not deleting protruding B",
+  "existing_third_component_contacts": [
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "source_polygon": 13,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 180.0,
+      "same_facing": true,
+      "pairwise_area": 140.0
+    },
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "source_polygon": 28,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 180.0,
+      "same_facing": true,
+      "pairwise_area": 18.84998893737793
+    }
+  ],
+  "new_contact_rule": "Compare BEFORE/AFTER exact neighbor polygon/plane/orientation coverage; retain these pre-existing top contacts without automatically removing third components. No new contacts elsewhere beyond declared saved-float budget.",
+  "expected_duplicate_skins_removed_within_selected_pair": [
+    {
+      "face_ids": [
+        4,
+        18
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "area": 1587.0
+    },
+    {
+      "face_ids": [
+        5,
+        19
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "area": 115.0
+    }
+  ],
+  "source_unchanged": true,
+  "native_derivative_feasibility_pass": true,
+  "status": "Read-only independent scope proof; productioncandidate not yet built or accepted",
+  "evidence_sha256": {
+    "source_proof.json": "48b8ca1cffa17d135fce4cb51af1d28796a267e5d244c7fcea9df5b4b62e839e",
+    "native_derivative.json": "b58c1465c67bbd14c780343bb512ce46539772dd7d08c358a40c779b2197ebd1",
+    "adjacent_source.json": "6ee8e824e2479ef7d874469b10fb863c504df0326a34ba0ec4a5c6903dd3d5f4",
+    "coplanar_controls.json": "7b7f25bd00bae8c73d5cd9159c955b3b6711beb218e67d11e09bd6e2c5333f13",
+    "coplanar_predicate.py": "ac413106e3d4c137ae67f50eaedc49e9174594c8f44c7f259d6eacae0c96eb4c"
+  },
+  "source_face_identity_note": "Contacts reference original source polygon IDs. After own Mask removes faces0..5 and14..19, map kept evaluated neighbor polygon indices back to original IDs (source13\u2192evaluated7; source28\u2192evaluated16); compare logical source-face contacts, not reindexed raw integers.",
+  "controls_passed": 9
+}

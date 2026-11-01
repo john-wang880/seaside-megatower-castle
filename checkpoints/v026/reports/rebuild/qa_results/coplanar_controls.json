@@ -1,0 +1,118 @@
+{
+  "pass": true,
+  "controls": [
+    {
+      "name": "contained coplanar same-facing",
+      "pass": true,
+      "broadphase_indices": [
+        0
+      ],
+      "contact": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_offset": 0.0,
+        "same_facing": true,
+        "area": 0.5,
+        "max_plane_distance": 0.0,
+        "strict_coplanar_at_1e_7": true
+      }
+    },
+    {
+      "name": "identical coplanar triangles",
+      "pass": true,
+      "broadphase_indices": [
+        0
+      ],
+      "contact": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_offset": 0.0,
+        "same_facing": true,
+        "area": 2.0,
+        "max_plane_distance": 0.0,
+        "strict_coplanar_at_1e_7": true
+      }
+    },
+    {
+      "name": "opposite-facing shared interface",
+      "pass": true,
+      "broadphase_indices": [
+        0
+      ],
+      "contact": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_offset": 0.0,
+        "same_facing": false,
+        "area": 0.5,
+        "max_plane_distance": 0.0,
+        "strict_coplanar_at_1e_7": true
+      }
+    },
+    {
+      "name": "separated parallel plane",
+      "pass": true,
+      "broadphase_indices": [],
+      "contact": null
+    },
+    {
+      "name": "overlapping AABBs but disjoint coplanar triangles",
+      "pass": true,
+      "broadphase_indices": [
+        0
+      ],
+      "contact": null
+    },
+    {
+      "name": "zero-area edge contact",
+      "pass": true,
+      "broadphase_indices": [
+        0
+      ],
+      "contact": null
+    },
+    {
+      "name": "spatially disjoint bounds",
+      "pass": true,
+      "broadphase_indices": [],
+      "contact": null
+    },
+    {
+      "name": "near-plane within declared saved-float budget",
+      "pass": true,
+      "broadphase_indices": [
+        0
+      ],
+      "contact": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_offset": 0.0,
+        "same_facing": true,
+        "area": 0.5,
+        "max_plane_distance": 1e-06,
+        "strict_coplanar_at_1e_7": false
+      }
+    },
+    {
+      "name": "actual known source polygon13 positive control",
+      "pass": true,
+      "area": 140.0
+    }
+  ],
+  "adjacent_runtime_sha256": "6cc65a8dd7b309d32e04415b5f66082a9884fb750886c323f0dd056ebd97f1f3",
+  "helper_sha256": "ac413106e3d4c137ae67f50eaedc49e9174594c8f44c7f259d6eacae0c96eb4c",
+  "source_proof_sha256": "48b8ca1cffa17d135fce4cb51af1d28796a267e5d244c7fcea9df5b4b62e839e",
+  "scope": "Pure tests of the exact shared native-scan predicate, including known actual140-area coplanar source contact; no source/model mutation."
+}

@@ -1,0 +1,310 @@
+{
+  "status": "Fresh guarded rebuild; independent semantic equivalence to accepted candidate still required",
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "source_unchanged": true,
+  "wrapper_sha256": "03f5efc2da2538961b2c13eb35915d2e27f7668d7f7fa32f5477b17efc124a8d",
+  "pinned_runtime": {
+    "plan.json": "de67090e807c3a496b890423772cfdaaad1f8e15a0597d793d2c8a000cb5087d",
+    "SCOPE.json": "bbbca9d427f62bfc5fcf40b69d4e51da78b71e6d87aa28f5f7e3c13c9d65a1da",
+    "scripts/SCOPE.json": "bbbca9d427f62bfc5fcf40b69d4e51da78b71e6d87aa28f5f7e3c13c9d65a1da",
+    "scripts/build.py": "38a38d07f08b2b1f3e20d2be488e815f79cb039b36871aafbc8160272258acfb",
+    "scripts/snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249"
+  },
+  "output_sha256": "2dfc901717c43cc3ec3bbfc62b0eca27914cdc6524caf78f22e310a4a13ebfd6",
+  "output_bytes": 47680699,
+  "output": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026_shaft_surface/fresh Git-only rebuild 中文/rebuilt.blend",
+  "command": [
+    "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026_shaft_surface/fresh Git-only rebuild 中文/recipe/scripts/build.py",
+    "--",
+    "--source",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026_shaft_surface/fresh Git-only rebuild 中文/source/castle_v025.blend",
+    "--plan",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026_shaft_surface/fresh Git-only rebuild 中文/recipe/plan.json",
+    "--output",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026_shaft_surface/fresh Git-only rebuild 中文/.v026-rebuild-ki89ux88/candidate.blend",
+    "--report",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026_shaft_surface/fresh Git-only rebuild 中文/.v026-rebuild-ki89ux88/build.json"
+  ],
+  "builder_report": {
+    "status": "Unaccepted technical candidate; independent occupied-set/exterior/complement QA and actual visual gate required",
+    "hashes": {
+      "source": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+      "plan": "de67090e807c3a496b890423772cfdaaad1f8e15a0597d793d2c8a000cb5087d",
+      "builder": "38a38d07f08b2b1f3e20d2be488e815f79cb039b36871aafbc8160272258acfb",
+      "helper": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+      "scope": "bbbca9d427f62bfc5fcf40b69d4e51da78b71e6d87aa28f5f7e3c13c9d65a1da"
+    },
+    "object": "V005 | main tower calibrated stone surface",
+    "owned_names": {
+      "collection": "V026 | main shaft duplicate skin correction",
+      "replacement": "V026 | exact main shaft two-solid union",
+      "union_mesh": "V026 | exact main shaft two-solid union",
+      "derivative_mesh": "V026 | single-user main shaft rollback mesh",
+      "group": "V026 | original two shaft solids rollback",
+      "modifier": "V026 | remove two original shaft solids"
+    },
+    "raw_weight_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "evaluated_removed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "input_evaluated_parts": [
+      {
+        "seed": 0,
+        "vertices": [
+          [
+            17.5,
+            31.5,
+            39.599998474121094
+          ],
+          [
+            47.5,
+            31.5,
+            39.599998474121094
+          ],
+          [
+            47.5,
+            62.5,
+            39.599998474121094
+          ],
+          [
+            17.5,
+            62.5,
+            39.599998474121094
+          ],
+          [
+            17.5,
+            31.5,
+            180.0
+          ],
+          [
+            47.5,
+            31.5,
+            180.0
+          ],
+          [
+            47.5,
+            62.5,
+            180.0
+          ],
+          [
+            17.5,
+            62.5,
+            180.0
+          ]
+        ],
+        "faces": [
+          [
+            0,
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            5,
+            4
+          ],
+          [
+            1,
+            2,
+            6,
+            5
+          ],
+          [
+            2,
+            3,
+            7,
+            6
+          ],
+          [
+            3,
+            0,
+            4,
+            7
+          ],
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "smooth": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "seed": 16,
+        "vertices": [
+          [
+            17.5,
+            31.0,
+            42.0
+          ],
+          [
+            27.5,
+            31.0,
+            42.0
+          ],
+          [
+            27.5,
+            43.0,
+            42.0
+          ],
+          [
+            17.5,
+            43.0,
+            42.0
+          ],
+          [
+            17.5,
+            31.0,
+            180.0
+          ],
+          [
+            27.5,
+            31.0,
+            180.0
+          ],
+          [
+            27.5,
+            43.0,
+            180.0
+          ],
+          [
+            17.5,
+            43.0,
+            180.0
+          ]
+        ],
+        "faces": [
+          [
+            0,
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            5,
+            4
+          ],
+          [
+            1,
+            2,
+            6,
+            5
+          ],
+          [
+            2,
+            3,
+            7,
+            6
+          ],
+          [
+            3,
+            0,
+            4,
+            7
+          ],
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "smooth": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    ],
+    "boolean_steps": [
+      {
+        "operand": "V026 temporary evaluated operand 1",
+        "vertices": 20,
+        "faces": 14
+      }
+    ],
+    "union": {
+      "vertices": 20,
+      "faces": 14,
+      "triangles": 36,
+      "signed_volume": 131262.00141906738
+    },
+    "checks": {
+      "closed_oriented": true,
+      "positive_volume": true,
+      "no_exact_duplicate_polygons": true,
+      "no_strict_nonadjacent_transverse_triangle_crossings": true,
+      "exact_evaluated_complement_face_records": true,
+      "shared_original_and_hidden_exact": true,
+      "full_original_pointer_rollback_exact": true,
+      "effective_OBJECT_material_retained": true,
+      "native_owned_names_exact": true,
+      "raw_rollback_mesh_attributes_exact": true,
+      "existing_material_exact": true
+    },
+    "material_mapping": "Existing shared Geometry Position material; original object transform copied, no material/node edits",
+    "existing_contacts": "Preserve source polygon13 and28 top contacts; explicit-plane independent QA required; no BVH coplanar absence claim",
+    "source_saved": false,
+    "rendered": false,
+    "candidate_sha256": "2dfc901717c43cc3ec3bbfc62b0eca27914cdc6524caf78f22e310a4a13ebfd6",
+    "candidate_bytes": 47680699,
+    "source_unchanged": true
+  },
+  "rendered": false,
+  "source_saved": false,
+  "publication": "Exclusive hardlinks, temp inode captured before link; no fallback overwrite"
+}

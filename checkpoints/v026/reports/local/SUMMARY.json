@@ -1,0 +1,15 @@
+{
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "model_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "core_tests": 13,
+  "reproduce_wrapper_tests": 19,
+  "model_QA_guard_tests": 13,
+  "historical_QA_guard_tests": 13,
+  "inspection_implementation_tests": 18,
+  "inspection_independent_tests": 24,
+  "inspection_manual_bookmarks": 14,
+  "inspection_source_categories": 13,
+  "inspection_API_negatives": 20,
+  "remote_full_verification_pending": true,
+  "historical_public_wrapper_native_replay_pending": true
+}

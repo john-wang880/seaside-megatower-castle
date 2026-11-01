@@ -1,0 +1,34 @@
+{
+  "pass": true,
+  "scope": "Four actual in-memory model mutations; source files never saved",
+  "controls": [
+    {
+      "case": "weight",
+      "rejected": true,
+      "returncode": 1,
+      "expected_invariant_trace": "v.index,[(g.group,g.weight)",
+      "log_sha256": "1ad48ed2a4a0c15a9b36182211637f7c8c6dfbf8ebb24f9f5efb4e67a99c1a5b"
+    },
+    {
+      "case": "hidden",
+      "rejected": true,
+      "returncode": 1,
+      "expected_invariant_trace": "ss.mesh_snapshot(original)==raw",
+      "log_sha256": "2546aa395632790777f0d03513037e72324308f35808f60024ffba7839d5d68b"
+    },
+    {
+      "case": "material",
+      "rejected": true,
+      "returncode": 1,
+      "expected_invariant_trace": "s.material.name for s in u.material_slots",
+      "log_sha256": "af9a40b078fa884471444226d901673c37958cb8e4d81903f7f4c98d17ea1ebd"
+    },
+    {
+      "case": "old_union",
+      "rejected": true,
+      "returncode": 1,
+      "expected_invariant_trace": "Other active evaluated mesh changed",
+      "log_sha256": "33eff230db045e816c906bee24b41d7923d3d9d65050cc0f572bdf6ba810c1b3"
+    }
+  ]
+}

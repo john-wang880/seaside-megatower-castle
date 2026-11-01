@@ -1,0 +1,26 @@
+import bpy,sys,json,hashlib,collections
+from pathlib import Path
+from mathutils import Vector
+from mathutils.bvhtree import BVHTree
+sys.path.insert(0,str(Path(__file__).resolve().parent));from surface_partition import *
+P=Path('work/shaft_surface_qa_v025');src=Path('work/v025/castle_v025.blend');sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();h=sha(src);assert h=='8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2';bpy.ops.wm.open_mainfile(filepath=str(src.resolve()),use_scripts=False);target=bpy.data.objects['V005 | main tower calibrated stone surface'];export=json.loads(Path('work/lateral_coverage_v025/shaft_geometry.json').read_text());assert [list(v.co)for v in target.data.vertices]==export['vertices'];assert [(f.index,list(f.vertices))for f in target.data.polygons]==[(f['id'],f['vertices'])for f in export['faces']];proof=json.loads((P/'source_proof.json').read_text());ref=union_boundary([x['faces']for x in proof['geometry']['original_convex_solids']]);tri=[[f['polygon'][0],f['polygon'][i],f['polygon'][i+1]]for f in ref for i in range(1,len(f['polygon'])-1)];uv=[Vector(v)for t in tri for v in t];ut=[(3*i,3*i+1,3*i+2)for i in range(len(tri))];eps=0.00006103515625;ub=BVHTree.FromPolygons(uv,ut,all_triangles=True,epsilon=eps);up=[plane(t)for t in tri];lo=[min(v[k]for v in uv)for k in range(3)];hi=[max(v[k]for v in uv)for k in range(3)];ids=set(range(8))|set(range(16,24));dg=bpy.context.evaluated_depsgraph_get();rows=[];scanned=[]
+for o in bpy.context.scene.objects:
+ if o.type!='MESH' or o.hide_render:continue
+ eo=o.evaluated_get(dg);bb=[eo.matrix_world@Vector(v)for v in eo.bound_box]
+ if any(max(v[k]for v in bb)<lo[k]-eps or min(v[k]for v in bb)>hi[k]+eps for k in range(3)):continue
+ if not any(s.material and (not s.material.use_nodes or any(n.type=='OUTPUT_MATERIAL'and n.is_active_output and n.inputs['Surface'].is_linked for n in s.material.node_tree.nodes))for s in o.material_slots):continue
+ me=eo.to_mesh();me.calc_loop_triangles();vs=[eo.matrix_world@v.co for v in me.vertices];ts=[(t.index,tuple(t.vertices),t.polygon_index)for t in me.loop_triangles if not(o==target and ids.intersection(t.vertices))];bv=BVHTree.FromPolygons(vs,[x[1]for x in ts],all_triangles=True,epsilon=eps);pairs=ub.overlap(bv);scanned.append({'object':o.name,'triangles':len(ts),'broadphase_pairs':len(pairs)})
+ for i,j in pairs:
+  ti,t,fi=ts[j];q=[tuple(vs[k])for k in t]
+  if exact_zero_triangle(q):continue
+  n,d=up[i];qn,qd=plane(q);al=dot(n,qn);dist=max(abs(dot(n,v)-d)for v in q)
+  if abs(al)<.99999 or dist>eps:continue
+  proj=[sub(v,mul(n,dot(n,v)-d))for v in q]
+  if al<0:proj.reverse()
+  ar=overlap_area(tri[i],proj,n)
+  if ar>1e-8:rows.append({'object':o.name,'source_polygon':fi,'virtual_union_triangle':i,'normal':n,'plane_offset':d,'same_facing':al>0,'area':ar,'max_plane_distance':dist})
+ eo.to_mesh_clear()
+summary=collections.defaultdict(lambda:{'same_facing_area':0.,'opposite_facing_area':0.,'pairs':0})
+for r in rows:
+ s=summary[r['object']];s['same_facing_area'if r['same_facing']else'opposite_facing_area']+=r['area'];s['pairs']+=1
+assert sha(src)==h;(P/'adjacent_source.json').write_text(json.dumps({'source_sha256':h,'source_unchanged':True,'actual_full_export_matches_source':True,'objects_scanned':scanned,'contacts':rows,'by_object':dict(summary),'scope':'Virtual exact two-box union boundary compared against all evaluated render-visible neighboring surface meshes, excluding only the two selected originals. Existing contacts must be compared/preserved, not automatically waived or globally removed. Pair areas may double-count multiway contacts.'},indent=2));print('SOURCE ADJACENT',dict(summary))

@@ -1,0 +1,935 @@
+{
+  "scope": "Plane rounding for readable grouping only; raw exact normals/distances remain in contact reports. Pairwise sums may double-count multiway overlap, not exposed or unique surface area.",
+  "groups": [
+    {
+      "version": "v024",
+      "union": "V024 | exact evaluated rear stepped union",
+      "planes": [
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "normal_rounded": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset_rounded": -46.2,
+          "same_facing_pairwise_area": 0.8262736374486792,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 8
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "normal_rounded": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset_rounded": 66.3,
+          "same_facing_pairwise_area": 767.2619807510673,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 12
+        }
+      ]
+    },
+    {
+      "version": "v025",
+      "union": "V025 | exact evaluated rear return union 01",
+      "planes": [
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "plane_offset_rounded": -52.0,
+          "same_facing_pairwise_area": 0.0,
+          "opposite_facing_pairwise_area": 134.4328291361599,
+          "pairs": 4
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset_rounded": 53.4,
+          "same_facing_pairwise_area": 134.4337749175173,
+          "opposite_facing_pairwise_area": 140.31374583947215,
+          "pairs": 312
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.577292,
+            -0.577379,
+            -0.577379
+          ],
+          "plane_offset_rounded": -27.60724,
+          "same_facing_pairwise_area": 3.447986519152355e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.577292,
+            -0.577379,
+            0.577379
+          ],
+          "plane_offset_rounded": 26.7819,
+          "same_facing_pairwise_area": 3.447986519152355e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            -0.707107,
+            -0.707107
+          ],
+          "plane_offset_rounded": -43.70366,
+          "same_facing_pairwise_area": 0.3568071357464271,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 10
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            0.0,
+            -0.70716
+          ],
+          "plane_offset_rounded": -18.95785,
+          "same_facing_pairwise_area": 0.031120229952788885,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 4
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            -0.70716,
+            -0.0
+          ],
+          "plane_offset_rounded": -4.95608,
+          "same_facing_pairwise_area": 0.11221302094548198,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 12
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            -0.707107,
+            0.707107
+          ],
+          "plane_offset_rounded": 22.9058,
+          "same_facing_pairwise_area": 0.3439692188812576,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 465
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            0.0,
+            0.70716
+          ],
+          "plane_offset_rounded": 47.65664,
+          "same_facing_pairwise_area": 0.03112022995278889,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 3
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.0,
+            -1.0,
+            0.0
+          ],
+          "plane_offset_rounded": -21.0,
+          "same_facing_pairwise_area": 112.98057639892097,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 502
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset_rounded": -40.8,
+          "same_facing_pairwise_area": 175.12371470623478,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 48
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "plane_offset_rounded": 14.0,
+          "same_facing_pairwise_area": 43.85299369756848,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 23
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.57735,
+            -0.57735,
+            -0.57735
+          ],
+          "plane_offset_rounded": -20.67642,
+          "same_facing_pairwise_area": 3.4476391062192116e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.57735,
+            -0.57735,
+            0.57735
+          ],
+          "plane_offset_rounded": 33.70997,
+          "same_facing_pairwise_area": 3.4476391062192116e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            0.0,
+            -0.707107
+          ],
+          "plane_offset_rounded": -10.46964,
+          "same_facing_pairwise_area": 0.03111787814992359,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 4
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            -0.707107,
+            0.0
+          ],
+          "plane_offset_rounded": 3.53107,
+          "same_facing_pairwise_area": 0.1122045408380549,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 12
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            0.0,
+            0.707107
+          ],
+          "plane_offset_rounded": 56.13982,
+          "same_facing_pairwise_area": 0.031117878150084363,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 3
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset_rounded": 26.0,
+          "same_facing_pairwise_area": 43.85299369756842,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 23
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "normal_rounded": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset_rounded": 53.4,
+          "same_facing_pairwise_area": 20.585698143768212,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 7
+        }
+      ]
+    },
+    {
+      "version": "v025",
+      "union": "V025 | exact evaluated rear return union 02",
+      "planes": [
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset_rounded": 63.6,
+          "same_facing_pairwise_area": 110.85841351943625,
+          "opposite_facing_pairwise_area": 134.17986728731196,
+          "pairs": 277
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.577292,
+            -0.577379,
+            -0.577379
+          ],
+          "plane_offset_rounded": -40.45905,
+          "same_facing_pairwise_area": 3.447986519152355e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.577292,
+            -0.577379,
+            0.577379
+          ],
+          "plane_offset_rounded": 26.60933,
+          "same_facing_pairwise_area": 3.447986519152355e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            -0.707107,
+            -0.707107
+          ],
+          "plane_offset_rounded": -54.14055,
+          "same_facing_pairwise_area": 0.29434618060256695,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 10
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            0.0,
+            -0.70716
+          ],
+          "plane_offset_rounded": -32.57695,
+          "same_facing_pairwise_area": 0.0311202299527487,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 4
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            -0.70716,
+            -0.0
+          ],
+          "plane_offset_rounded": -12.38046,
+          "same_facing_pairwise_area": 0.09829208666197668,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 12
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            -0.707107,
+            0.707107
+          ],
+          "plane_offset_rounded": 27.99697,
+          "same_facing_pairwise_area": 0.28364807823164856,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 389
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            0.0,
+            0.70716
+          ],
+          "plane_offset_rounded": 49.56677,
+          "same_facing_pairwise_area": 0.031120229952819038,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 3
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.0,
+            -1.0,
+            0.0
+          ],
+          "plane_offset_rounded": -24.0,
+          "same_facing_pairwise_area": 94.97250227622705,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 426
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset_rounded": -52.56,
+          "same_facing_pairwise_area": 136.57330351699053,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 39
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "plane_offset_rounded": 6.5,
+          "same_facing_pairwise_area": 38.41267457732465,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 23
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.57735,
+            -0.57735,
+            -0.57735
+          ],
+          "plane_offset_rounded": -28.90944,
+          "same_facing_pairwise_area": 3.4476391062192116e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.57735,
+            -0.57735,
+            0.57735
+          ],
+          "plane_offset_rounded": 38.15557,
+          "same_facing_pairwise_area": 3.4476391062192116e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            0.0,
+            -0.707107
+          ],
+          "plane_offset_rounded": -18.43166,
+          "same_facing_pairwise_area": 0.031117878150204947,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 4
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            -0.707107,
+            0.0
+          ],
+          "plane_offset_rounded": 1.76331,
+          "same_facing_pairwise_area": 0.09828465858084448,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 12
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            0.0,
+            0.707107
+          ],
+          "plane_offset_rounded": 63.70586,
+          "same_facing_pairwise_area": 0.031117878150084363,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 3
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset_rounded": 26.5,
+          "same_facing_pairwise_area": 38.41267457732465,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 23
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "normal_rounded": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset_rounded": -24.1,
+          "same_facing_pairwise_area": 0.0,
+          "opposite_facing_pairwise_area": 1.558442789610126,
+          "pairs": 6
+        }
+      ]
+    },
+    {
+      "version": "v025",
+      "union": "V025 | exact evaluated rear return union 03",
+      "planes": [
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset_rounded": 74.4,
+          "same_facing_pairwise_area": 90.77046636141309,
+          "opposite_facing_pairwise_area": 115.0035003315734,
+          "pairs": 220
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.577292,
+            -0.577379,
+            -0.577379
+          ],
+          "plane_offset_rounded": -52.69871,
+          "same_facing_pairwise_area": 3.447986519152355e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.577292,
+            -0.577379,
+            0.577379
+          ],
+          "plane_offset_rounded": 26.49465,
+          "same_facing_pairwise_area": 3.447986519152355e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            -0.707107,
+            -0.707107
+          ],
+          "plane_offset_rounded": -62.76726,
+          "same_facing_pairwise_area": 0.24080821905100688,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 10
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            0.0,
+            -0.70716
+          ],
+          "plane_offset_rounded": -46.15347,
+          "same_facing_pairwise_area": 0.03112022995282909,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 4
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            -0.70716,
+            -0.0
+          ],
+          "plane_offset_rounded": -20.15826,
+          "same_facing_pairwise_area": 0.10364630786710977,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 12
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            -0.707107,
+            0.707107
+          ],
+          "plane_offset_rounded": 34.21951,
+          "same_facing_pairwise_area": 0.2322500162699186,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 313
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            0.0,
+            0.70716
+          ],
+          "plane_offset_rounded": 50.84063,
+          "same_facing_pairwise_area": 0.031120229952829086,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 3
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.0,
+            -1.0,
+            0.0
+          ],
+          "plane_offset_rounded": -26.0,
+          "same_facing_pairwise_area": 88.81298311988272,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 350
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset_rounded": -62.76,
+          "same_facing_pairwise_area": 115.64901762831862,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 38
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "plane_offset_rounded": -2.5,
+          "same_facing_pairwise_area": 40.50511114817391,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 23
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.57735,
+            -0.57735,
+            -0.57735
+          ],
+          "plane_offset_rounded": -34.22106,
+          "same_facing_pairwise_area": 3.4476391062192116e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.57735,
+            -0.57735,
+            0.57735
+          ],
+          "plane_offset_rounded": 44.9683,
+          "same_facing_pairwise_area": 3.4476391062192116e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            0.0,
+            -0.707107
+          ],
+          "plane_offset_rounded": -23.52283,
+          "same_facing_pairwise_area": 0.031117878150084363,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 4
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            -0.707107,
+            0.0
+          ],
+          "plane_offset_rounded": 2.47041,
+          "same_facing_pairwise_area": 0.10363847515887789,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 12
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            0.0,
+            0.707107
+          ],
+          "plane_offset_rounded": 73.46393,
+          "same_facing_pairwise_area": 0.031117878150084363,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 3
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset_rounded": 29.5,
+          "same_facing_pairwise_area": 40.505111148173796,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 23
+        }
+      ]
+    },
+    {
+      "version": "v025",
+      "union": "V025 | exact evaluated rear return union 04",
+      "planes": [
+        {
+          "object": "V005 | main tower calibrated stone surface",
+          "normal_rounded": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "plane_offset_rounded": -27.2,
+          "same_facing_pairwise_area": 7.36688408062048,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 20
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset_rounded": 84.6,
+          "same_facing_pairwise_area": 67.19511826681264,
+          "opposite_facing_pairwise_area": 105.29185138451618,
+          "pairs": 174
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.577292,
+            -0.577379,
+            -0.577379
+          ],
+          "plane_offset_rounded": -64.53424,
+          "same_facing_pairwise_area": 3.447986519152355e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.577292,
+            -0.577379,
+            0.577379
+          ],
+          "plane_offset_rounded": 26.78407,
+          "same_facing_pairwise_area": 3.447986519152355e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            -0.707107,
+            -0.707107
+          ],
+          "plane_offset_rounded": -71.25254,
+          "same_facing_pairwise_area": 0.17834726390773958,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 10
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            0.0,
+            -0.70716
+          ],
+          "plane_offset_rounded": -59.80075,
+          "same_facing_pairwise_area": 0.031120229952808987,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 4
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            -0.70716,
+            -0.0
+          ],
+          "plane_offset_rounded": -27.01681,
+          "same_facing_pairwise_area": 0.09829208666193646,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 12
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            -0.707107,
+            0.707107
+          ],
+          "plane_offset_rounded": 40.58347,
+          "same_facing_pairwise_area": 0.17192883577034057,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 217
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.707053,
+            0.0,
+            0.70716
+          ],
+          "plane_offset_rounded": 52.0437,
+          "same_facing_pairwise_area": 0.031120229952829086,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 3
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -0.0,
+            -1.0,
+            0.0
+          ],
+          "plane_offset_rounded": -27.2,
+          "same_facing_pairwise_area": 75.38869186306817,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 273
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset_rounded": -73.56,
+          "same_facing_pairwise_area": 91.23735242111434,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 34
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "plane_offset_rounded": -11.0,
+          "same_facing_pairwise_area": 38.412674577324424,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 23
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.57735,
+            -0.57735,
+            -0.57735
+          ],
+          "plane_offset_rounded": -40.28324,
+          "same_facing_pairwise_area": 3.4476391062192116e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.57735,
+            -0.57735,
+            0.57735
+          ],
+          "plane_offset_rounded": 51.03048,
+          "same_facing_pairwise_area": 3.4476391062192116e-05,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 1
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            0.0,
+            -0.707107
+          ],
+          "plane_offset_rounded": -30.09892,
+          "same_facing_pairwise_area": 0.03111787815012456,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 4
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            -0.707107,
+            0.0
+          ],
+          "plane_offset_rounded": 2.68254,
+          "same_facing_pairwise_area": 0.09828465858076407,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 12
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            0.707107,
+            0.0,
+            0.707107
+          ],
+          "plane_offset_rounded": 81.73708,
+          "same_facing_pairwise_area": 0.031117878150084363,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 3
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "normal_rounded": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "plane_offset_rounded": 31.0,
+          "same_facing_pairwise_area": 38.41267457732465,
+          "opposite_facing_pairwise_area": 0.0,
+          "pairs": 23
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "normal_rounded": [
+            -0.0,
+            -1.0,
+            0.0
+          ],
+          "plane_offset_rounded": -27.2,
+          "same_facing_pairwise_area": 0.0,
+          "opposite_facing_pairwise_area": 1.5627392370295752,
+          "pairs": 21
+        }
+      ]
+    }
+  ]
+}

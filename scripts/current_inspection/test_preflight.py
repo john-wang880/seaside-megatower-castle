@@ -5,7 +5,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 import preflight as p
 class Guards(unittest.TestCase):
  def setUp(self):
-  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)/'项目 with spaces';self.root.mkdir();self.repo=self.root/'repo';self.repo.mkdir();self.cp=self.repo/'checkpoints/v025';self.cp.mkdir(parents=True);self.manifest={'format':'blend-zstd-frames-v1','model':'castle_v025.blend','model_sha256':p.SOURCE_SHA,'model_bytes':p.SOURCE_BYTES};self.mp=self.cp/'MANIFEST.json';self.mp.write_text(json.dumps(self.manifest));self.source=self.root/'source.blend';self.source.write_bytes(b'test');self.out=self.root/'检查 copy.blend';self.report=self.root/'检查 report.json';self.catalog=Path(__file__).with_name('catalog.json')
+  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)/'项目 with spaces';self.root.mkdir();self.repo=self.root/'repo';self.repo.mkdir();self.cp=self.repo/'checkpoints/v026';self.cp.mkdir(parents=True);self.manifest={'format':'blend-zstd-frames-v1','model':'castle_v026.blend','model_sha256':p.SOURCE_SHA,'model_bytes':p.SOURCE_BYTES};self.mp=self.cp/'MANIFEST.json';self.mp.write_text(json.dumps(self.manifest));self.source=self.root/'source.blend';self.source.write_bytes(b'test');self.out=self.root/'检查 copy.blend';self.report=self.root/'检查 report.json';self.catalog=Path(__file__).with_name('catalog.json')
  def tearDown(self):self.tmp.cleanup()
  def test_import_without_bpy(self):
   cmd=[sys.executable,'-c',"import sys;sys.path.insert(0,"+repr(str(Path(__file__).parent))+ ");import export_inspection;assert 'bpy' not in sys.modules"]
@@ -17,18 +17,21 @@ class Guards(unittest.TestCase):
   namespace,operator=ast.literal_eval(assignment.value).split('.')
   self.assertEqual(cls.name,namespace.upper()+'_OT_'+operator)
  def test_known_catalog(self):
-  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),13);v=c['views']['rear_landward'];root=self.catalog.parent
-  recipe=json.loads((root/v['provenance']['recipe']).read_text());receipt=json.loads((root/v['provenance']['receipt']).read_text())
-  self.assertEqual(p.sha(root/v['provenance']['recipe']),v['provenance']['recipe_sha256']);self.assertEqual(p.sha(root/v['provenance']['receipt']),v['provenance']['receipt_sha256'])
-  self.assertEqual(receipt['manifest_sha256'],v['provenance']['recipe_sha256']);self.assertEqual(receipt['source_sha256_before'],p.SOURCE_SHA);self.assertEqual(receipt['source_sha256_after'],p.SOURCE_SHA)
-  self.assertEqual(v['matrix'],recipe['views']['rear_landward']['reference_matrix']);self.assertEqual(v['reference_resolution'],recipe['resolution'])
-  data=dict(recipe['views']['rear_landward']['camera_data']);data.setdefault('type','PERSP');self.assertEqual(v['data'],data)
+  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),14);root=self.catalog.parent
+  for key in ['rear_landward','west_lateral']:
+   v=c['views'][key];pr=v['provenance'];recipe=json.loads((root/pr['recipe']).read_text());receipt=json.loads((root/pr['receipt']).read_text())
+   self.assertEqual(p.sha(root/pr['recipe']),pr['recipe_sha256']);self.assertEqual(p.sha(root/pr['receipt']),pr['receipt_sha256']);self.assertEqual(receipt['manifest_sha256'],pr['recipe_sha256'])
+   self.assertEqual(receipt['source_sha256_before'],pr['render_source_sha256']);self.assertEqual(receipt['source_sha256_after'],pr['render_source_sha256'])
+   self.assertEqual(v['matrix'],recipe['views'][key]['reference_matrix']);self.assertEqual(v['reference_resolution'],recipe['resolution']);data=dict(recipe['views'][key]['camera_data']);data.setdefault('type','PERSP');self.assertEqual(v['data'],data)
+  self.assertEqual(c['views']['west_lateral']['provenance']['render_source_sha256'],p.SOURCE_SHA)
+  runner=(root/'qa/run_qa.py').read_text();self.assertIn("r['manual_bookmarks_tested']==14",runner)
+  exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':13,'bookmark_count':14",exporter)
 
  def test_corrupt_catalog(self):
   f=self.root/'bad.json';f.write_text(self.catalog.read_text()+' ')
   with self.assertRaises(p.GuardError):p.load_catalog(f)
  def test_future_no_fallback(self):
-  d=self.repo/'checkpoints/v026';d.mkdir();(d/'MANIFEST.json').write_text('{}')
+  d=self.repo/'checkpoints/v027';d.mkdir();(d/'MANIFEST.json').write_text('{}')
   with self.assertRaises(p.GuardError):p.latest_manifest(self.repo)
  def test_numeric_not_lexicographic(self):
   d=self.repo/'checkpoints/v9';d.mkdir();(d/'MANIFEST.json').write_text('{}');self.assertEqual(p.latest_manifest(self.repo)[1],self.mp)

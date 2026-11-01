@@ -1,0 +1,481 @@
+{
+  "pass": false,
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "candidate_sha256": "2dfc901717c43cc3ec3bbfc62b0eca27914cdc6524caf78f22e310a4a13ebfd6",
+  "geometry_export_sha256": "87359d1a1c2a6826da07a707e86c2608b27243da4375cfda60be9920ca2e75bd",
+  "original_solids": 2,
+  "independent_union_boundary_pieces": 15,
+  "saved_triangles": 36,
+  "original_saved_loop_triangle_count": 36,
+  "exact_zero_measure_loop_triangles": [],
+  "coverage": [
+    {
+      "side": "saved",
+      "area": 19136.800186157227,
+      "absolute_coverage_residual": 8857.254094696045,
+      "residual_fraction": 0.46283882407378735,
+      "sum_rounding_area_budget": 1.376774287013156
+    },
+    {
+      "side": "reference",
+      "area": 19136.800186157227,
+      "absolute_coverage_residual": 8857.254094696047,
+      "residual_fraction": 0.4628388240737874,
+      "sum_rounding_area_budget": 0.7180673032999039
+    }
+  ],
+  "set_coverage_uncovered_area": 8857.254094696045,
+  "set_coverage_duplicate_area": 1.0231815394945443e-12,
+  "set_coverage_rows": [
+    {
+      "reference_piece": 0,
+      "uncovered_area": 0.9300000000000637,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.029785215854644775
+    },
+    {
+      "reference_piece": 1,
+      "uncovered_area": 0.072000045776349,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.015820372849702835
+    },
+    {
+      "reference_piece": 2,
+      "uncovered_area": 4.140000000000441,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.07714849710464478
+    },
+    {
+      "reference_piece": 3,
+      "uncovered_area": 74.4000473022461,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.016308654099702835
+    },
+    {
+      "reference_piece": 4,
+      "uncovered_area": 4278.0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.08251959085464478
+    },
+    {
+      "reference_piece": 5,
+      "uncovered_area": 0.072000045776349,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.015820372849702835
+    },
+    {
+      "reference_piece": 6,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 9.094947017729282e-13,
+      "budget": 0.07714849710464478
+    },
+    {
+      "reference_piece": 7,
+      "uncovered_area": 4.140000000000214,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.07226568460464478
+    },
+    {
+      "reference_piece": 8,
+      "uncovered_area": 4352.400047302246,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.08369146659970284
+    },
+    {
+      "reference_piece": 9,
+      "uncovered_area": 0.92999999999995,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.029785215854644775
+    },
+    {
+      "reference_piece": 10,
+      "uncovered_area": 0.014999999999986358,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.005127012729644775
+    },
+    {
+      "reference_piece": 11,
+      "uncovered_area": 4.140000000000214,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.07226568460464478
+    },
+    {
+      "reference_piece": 12,
+      "uncovered_area": 69.0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.06762701272964478
+    },
+    {
+      "reference_piece": 13,
+      "uncovered_area": 69.0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.06762701272964478
+    },
+    {
+      "reference_piece": 14,
+      "uncovered_area": 0.014999999999986358,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.005127012729644775
+    }
+  ],
+  "matched_surface_pairs": 30,
+  "maximum_matched_plane_displacement": 0.0,
+  "predeclared_max_coordinate_ulp": 1.52587890625e-05,
+  "distance_budget_4ulp": 6.103515625e-05,
+  "reference_union_volume": 131262.00141906738,
+  "saved_union_volume": 131262.0014190674,
+  "volume_difference": 2.9103830456733704e-11,
+  "volume_budget": 2.336035178974271,
+  "failures": [
+    {
+      "side": "saved",
+      "index": 1,
+      "area": 465.00000000000006,
+      "coverage": 464.07046499999984,
+      "residual": 0.9295350000002145,
+      "budget": 0.025424695644743894
+    },
+    {
+      "side": "saved",
+      "index": 3,
+      "area": 1404.0000152587886,
+      "coverage": 1399.7911742130468,
+      "residual": 4.208841045741792,
+      "budget": 0.07378359240576782
+    },
+    {
+      "side": "saved",
+      "index": 6,
+      "area": 2176.200023651123,
+      "coverage": 0.0,
+      "residual": 2176.200023651123,
+      "budget": 0.07694870291814115
+    },
+    {
+      "side": "saved",
+      "index": 7,
+      "area": 2176.200023651123,
+      "coverage": 0.0,
+      "residual": 2176.200023651123,
+      "budget": 0.07694870291814115
+    },
+    {
+      "side": "saved",
+      "index": 9,
+      "area": 2106.0000228881836,
+      "coverage": 2101.79012884243,
+      "residual": 4.209894045753572,
+      "budget": 0.07665273516125456
+    },
+    {
+      "side": "saved",
+      "index": 10,
+      "area": 1368.9000148773193,
+      "coverage": 0.0,
+      "residual": 1368.9000148773193,
+      "budget": 0.0736445179618867
+    },
+    {
+      "side": "saved",
+      "index": 11,
+      "area": 37.20002365112305,
+      "coverage": 0.0,
+      "residual": 37.20002365112305,
+      "budget": 0.015745363822241364
+    },
+    {
+      "side": "saved",
+      "index": 12,
+      "area": 1345.5,
+      "coverage": 0.0,
+      "residual": 1345.5,
+      "budget": 0.07309450230186587
+    },
+    {
+      "side": "saved",
+      "index": 13,
+      "area": 13.800008773803711,
+      "coverage": 0.0,
+      "residual": 13.800008773803711,
+      "budget": 0.015195348162220543
+    },
+    {
+      "side": "saved",
+      "index": 14,
+      "area": 793.5,
+      "coverage": 0.0,
+      "residual": 793.5,
+      "budget": 0.07030727094646885
+    },
+    {
+      "side": "saved",
+      "index": 15,
+      "area": 793.5,
+      "coverage": 0.0,
+      "residual": 793.5,
+      "budget": 0.07030727094646885
+    },
+    {
+      "side": "saved",
+      "index": 17,
+      "area": 465.0000000000001,
+      "coverage": 464.0704650000001,
+      "residual": 0.9295349999999871,
+      "budget": 0.025424695644743894
+    },
+    {
+      "side": "saved",
+      "index": 26,
+      "area": 2.5,
+      "coverage": 2.4850225000000137,
+      "residual": 0.014977499999986321,
+      "budget": 0.00500799226998911
+    },
+    {
+      "side": "saved",
+      "index": 27,
+      "area": 690.0000000000001,
+      "coverage": 685.8662099999998,
+      "residual": 4.133790000000317,
+      "budget": 0.06991261928516818
+    },
+    {
+      "side": "saved",
+      "index": 29,
+      "area": 34.5,
+      "coverage": 0.0,
+      "residual": 34.5,
+      "budget": 0.06750516355828949
+    },
+    {
+      "side": "saved",
+      "index": 30,
+      "area": 34.5,
+      "coverage": 0.0,
+      "residual": 34.5,
+      "budget": 0.06750516355828949
+    },
+    {
+      "side": "saved",
+      "index": 31,
+      "area": 34.5,
+      "coverage": 0.0,
+      "residual": 34.5,
+      "budget": 0.06750516355828949
+    },
+    {
+      "side": "saved",
+      "index": 32,
+      "area": 34.5,
+      "coverage": 0.0,
+      "residual": 34.5,
+      "budget": 0.06750516355828949
+    },
+    {
+      "side": "saved",
+      "index": 34,
+      "area": 2.5,
+      "coverage": 2.4850225000000137,
+      "residual": 0.014977499999986321,
+      "budget": 0.00500799226998911
+    },
+    {
+      "side": "reference",
+      "index": 0,
+      "area": 930.0,
+      "coverage": 929.0699999999998,
+      "residual": 0.9300000000001774,
+      "budget": 0.029785215854644775
+    },
+    {
+      "side": "reference",
+      "index": 1,
+      "area": 72.00004577636719,
+      "coverage": 71.92804573059061,
+      "residual": 0.07200004577657637,
+      "budget": 0.015820372849702835
+    },
+    {
+      "side": "reference",
+      "index": 2,
+      "area": 2760.0,
+      "coverage": 2755.8599999999997,
+      "residual": 4.140000000000327,
+      "budget": 0.07714849710464478
+    },
+    {
+      "side": "reference",
+      "index": 3,
+      "area": 74.4000473022461,
+      "coverage": 0.0,
+      "residual": 74.4000473022461,
+      "budget": 0.016308654099702835
+    },
+    {
+      "side": "reference",
+      "index": 4,
+      "area": 4278.0,
+      "coverage": 0.0,
+      "residual": 4278.0,
+      "budget": 0.08251959085464478
+    },
+    {
+      "side": "reference",
+      "index": 5,
+      "area": 72.00004577636719,
+      "coverage": 71.92804573059084,
+      "residual": 0.072000045776349,
+      "budget": 0.015820372849702835
+    },
+    {
+      "side": "reference",
+      "index": 7,
+      "area": 1380.0,
+      "coverage": 1375.8599999999997,
+      "residual": 4.140000000000327,
+      "budget": 0.07226568460464478
+    },
+    {
+      "side": "reference",
+      "index": 8,
+      "area": 4352.400047302246,
+      "coverage": 0.0,
+      "residual": 4352.400047302246,
+      "budget": 0.08369146659970284
+    },
+    {
+      "side": "reference",
+      "index": 9,
+      "area": 930.0,
+      "coverage": 929.0700000000002,
+      "residual": 0.9299999999998363,
+      "budget": 0.029785215854644775
+    },
+    {
+      "side": "reference",
+      "index": 10,
+      "area": 5.0,
+      "coverage": 4.985000000000014,
+      "residual": 0.014999999999986358,
+      "budget": 0.005127012729644775
+    },
+    {
+      "side": "reference",
+      "index": 11,
+      "area": 1380.0,
+      "coverage": 1375.8599999999997,
+      "residual": 4.140000000000327,
+      "budget": 0.07226568460464478
+    },
+    {
+      "side": "reference",
+      "index": 12,
+      "area": 69.0,
+      "coverage": 0.0,
+      "residual": 69.0,
+      "budget": 0.06762701272964478
+    },
+    {
+      "side": "reference",
+      "index": 13,
+      "area": 69.0,
+      "coverage": 0.0,
+      "residual": 69.0,
+      "budget": 0.06762701272964478
+    },
+    {
+      "side": "reference",
+      "index": 14,
+      "area": 5.0,
+      "coverage": 4.985000000000014,
+      "residual": 0.014999999999986358,
+      "budget": 0.005127012729644775
+    },
+    {
+      "reference_piece": 0,
+      "uncovered_area": 0.9300000000000637,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.029785215854644775
+    },
+    {
+      "reference_piece": 1,
+      "uncovered_area": 0.072000045776349,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.015820372849702835
+    },
+    {
+      "reference_piece": 2,
+      "uncovered_area": 4.140000000000441,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.07714849710464478
+    },
+    {
+      "reference_piece": 3,
+      "uncovered_area": 74.4000473022461,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.016308654099702835
+    },
+    {
+      "reference_piece": 4,
+      "uncovered_area": 4278.0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.08251959085464478
+    },
+    {
+      "reference_piece": 5,
+      "uncovered_area": 0.072000045776349,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.015820372849702835
+    },
+    {
+      "reference_piece": 7,
+      "uncovered_area": 4.140000000000214,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.07226568460464478
+    },
+    {
+      "reference_piece": 8,
+      "uncovered_area": 4352.400047302246,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.08369146659970284
+    },
+    {
+      "reference_piece": 9,
+      "uncovered_area": 0.92999999999995,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.029785215854644775
+    },
+    {
+      "reference_piece": 10,
+      "uncovered_area": 0.014999999999986358,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.005127012729644775
+    },
+    {
+      "reference_piece": 11,
+      "uncovered_area": 4.140000000000214,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.07226568460464478
+    },
+    {
+      "reference_piece": 12,
+      "uncovered_area": 69.0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.06762701272964478
+    },
+    {
+      "reference_piece": 13,
+      "uncovered_area": 69.0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.06762701272964478
+    },
+    {
+      "reference_piece": 14,
+      "uncovered_area": 0.014999999999986358,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.005127012729644775
+    }
+  ],
+  "math_controls": 6,
+  "scope": "Both-direction oriented surface coverage from independently clipped convex input boundary; saved float32 numerical bounds, not exact rational or global model certification."
+}

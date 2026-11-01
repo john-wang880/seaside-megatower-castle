@@ -1,0 +1,47 @@
+{
+  "recheck_completed": true,
+  "historical_zero_adjacency_claim_superseded": true,
+  "models": {
+    "v024": {
+      "path": "work/v024/castle_v024.blend",
+      "sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+      "unchanged": true
+    },
+    "v025": {
+      "path": "work/v025/castle_v025.blend",
+      "sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+      "unchanged": true
+    }
+  },
+  "original_reports_and_scripts_unchanged": true,
+  "predicate_controls": 9,
+  "historical_native_scan_loads": 2,
+  "finite_visibility_native_loads": 2,
+  "sample_counts": {
+    "v024": 34,
+    "v025": 1875
+  },
+  "same_facing_first_surface_in_frame_samples": {
+    "v024": 2,
+    "v025": 53
+  },
+  "inherited_original_boundary_linkage_pass": true,
+  "no_automatic_geometry_repair": true,
+  "files": {
+    "v024.json": "0a473b0ea580914720ce41eadef3a78a89562c164cf1c40b83d2f61628b67134",
+    "v025.json": "9d13e5021010c59c7c8c69b95c2e2758ddbd04434c656290e2ab4067366f6655",
+    "v024_original_boundary.json": "f3f2a971d623e520c1c4df5a2870544fc5694d3de68bbd781e04d24b5f8aea13",
+    "v025_original_boundary.json": "0bda649d85cf81c56ca7097c48c6472bd638b6a2017abeea939ea3ffaa1b143d",
+    "v024_visibility.json": "84c452abdcaa27d7fedd76006f29b54a8e8a9b2b9d856e902098d13bd617c4d2",
+    "v025_visibility.json": "cf0112bb9f77fd6cbaf00c60f4d0f596011569d82544a764685ab7a4ba258162",
+    "plane_summary.json": "cb9e156b11ce1c3caa89c0cbf5f120b15384a45ff014a15ac9679f7dc590d104",
+    "visibility_summary.json": "5844e22da52aeeb02b54ba9ff9d1a4cbf6016be9a8b76dfa243fc9ecad682339",
+    "coplanar_controls.json": "7b7f25bd00bae8c73d5cd9159c955b3b6711beb218e67d11e09bd6e2c5333f13",
+    "coplanar_predicate.py": "ac413106e3d4c137ae67f50eaedc49e9174594c8f44c7f259d6eacae0c96eb4c",
+    "adjacent_saved.py": "74a0ce2995f046fd2cc819bfb56a75ee5ef103d2bf8a8fd135c2ea9fbd94fef7",
+    "contact_visibility.py": "a31bf799636855e7d08cb548d99b7079fd144cc376a398a94ea1e35b6c620826",
+    "link_original_boundary.py": "664351ce79ecba562f77ffa13f3dced46341872f2998e6b764ef7bf17897de26",
+    "METHODOLOGY_NOTICE.md": "81cbb6c69b76c9fe1cdf7d3219c138d952b448bc7d5c02bd274c42a2c5cac09d"
+  },
+  "scope": "Method correction and bounded geometry/visibility evidence; no model-wide absence or visual-artifact guarantee."
+}

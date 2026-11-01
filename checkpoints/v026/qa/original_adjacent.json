@@ -1,0 +1,235 @@
+{
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "source_unchanged": true,
+  "shared_predicate_sha256": "ac413106e3d4c137ae67f50eaedc49e9174594c8f44c7f259d6eacae0c96eb4c",
+  "shared_controls_sha256": "7b7f25bd00bae8c73d5cd9159c955b3b6711beb218e67d11e09bd6e2c5333f13",
+  "actual_full_export_matches_source": true,
+  "objects_scanned": [
+    {
+      "object": "Citadel | oxidized spire roofs",
+      "triangles": 1080,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "Citadel | deep window recesses",
+      "triangles": 8400,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "Citadel | projecting individual stones",
+      "triangles": 16248,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "triangles": 35432,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "Citadel | small verdigris fittings",
+      "triangles": 4320,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V002 | main crown masonry and terraces",
+      "triangles": 4948,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V003 | two facade samples stone reveals and restrained frames",
+      "triangles": 2944,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V003 | two facade samples recessed mullions and tracery",
+      "triangles": 4608,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V003 | two facade samples deep muted glazing",
+      "triangles": 704,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V003 | two facade samples secondary structural divisions",
+      "triangles": 456,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V004 | west old recess strips opened for selected upper and lower windows",
+      "triangles": 2900,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V004 | varied facade groups stone reveals and restrained frames",
+      "triangles": 5152,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V004 | varied facade groups recessed mullions and tracery",
+      "triangles": 8064,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V004 | varied facade groups deep muted glazing",
+      "triangles": 1232,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V004 | varied facade groups secondary structural divisions",
+      "triangles": 720,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "triangles": 1336,
+      "broadphase_pairs": 8
+    },
+    {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "triangles": 55668,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "triangles": 26864,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V008 | gallery with genuine eastern approach portal",
+      "triangles": 21196,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "triangles": 24332,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V012 | terrace ledges with bounded stair opening",
+      "triangles": 84164,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "triangles": 21956,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "triangles": 8848,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V024 | exact evaluated rear stepped union",
+      "triangles": 260,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V025 | exact evaluated rear return union 01",
+      "triangles": 280,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V025 | exact evaluated rear return union 02",
+      "triangles": 280,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V025 | exact evaluated rear return union 03",
+      "triangles": 278,
+      "broadphase_pairs": 0
+    },
+    {
+      "object": "V025 | exact evaluated rear return union 04",
+      "triangles": 280,
+      "broadphase_pairs": 0
+    }
+  ],
+  "contacts": [
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "source_polygon": 13,
+      "virtual_union_triangle": 18,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 180.0,
+      "same_facing": true,
+      "area": 35.43295019157085,
+      "max_plane_distance": 0.0,
+      "strict_coplanar_at_1e_7": true
+    },
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "source_polygon": 13,
+      "virtual_union_triangle": 18,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 180.0,
+      "same_facing": true,
+      "area": 102.29554443208508,
+      "max_plane_distance": 0.0,
+      "strict_coplanar_at_1e_7": true
+    },
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "source_polygon": 28,
+      "virtual_union_triangle": 18,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 180.0,
+      "same_facing": true,
+      "area": 3.063121404648882,
+      "max_plane_distance": 0.0,
+      "strict_coplanar_at_1e_7": true
+    },
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "source_polygon": 28,
+      "virtual_union_triangle": 18,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 180.0,
+      "same_facing": true,
+      "area": 15.786867532729048,
+      "max_plane_distance": 0.0,
+      "strict_coplanar_at_1e_7": true
+    },
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "source_polygon": 13,
+      "virtual_union_triangle": 19,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 180.0,
+      "same_facing": true,
+      "area": 2.2715053763440665,
+      "max_plane_distance": 0.0,
+      "strict_coplanar_at_1e_7": true
+    }
+  ],
+  "by_object": {
+    "V005 | main tower calibrated stone surface": {
+      "same_facing_area": 158.84998893737793,
+      "opposite_facing_area": 0.0,
+      "pairs": 5
+    }
+  },
+  "broadphase": "Explicit vectorized triangle AABB and all-vertex plane distance; NOT BVH.overlap narrow triangle intersection",
+  "scope": "Virtual exact two-box union boundary compared against all evaluated render-visible neighboring surface meshes, excluding only the two selected originals. Existing contacts must be compared/preserved, not automatically waived or globally removed. Pair areas may double-count multiway contacts."
+}

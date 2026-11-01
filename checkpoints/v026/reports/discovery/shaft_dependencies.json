@@ -1,0 +1,498 @@
+{
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "mesh": "V004 | main shaft selective front and east-facing windows mesh",
+  "mesh_users": [
+    {
+      "object": "V004 | main shaft selective front and east-facing windows",
+      "hide_render": true,
+      "hide_viewport": true,
+      "local_hide": false
+    },
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "hide_render": false,
+      "hide_viewport": false,
+      "local_hide": false
+    }
+  ],
+  "object_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "parent": null,
+  "constraints": [],
+  "animation": false,
+  "shape_keys": false,
+  "material": "V005 | main large ashlar calibrated world units",
+  "material_slots": [
+    {
+      "link": "OBJECT",
+      "material": "V005 | main large ashlar calibrated world units"
+    }
+  ],
+  "material_nodes": [
+    {
+      "name": "Principled BSDF",
+      "type": "BSDF_PRINCIPLED"
+    },
+    {
+      "name": "Material Output",
+      "type": "OUTPUT_MATERIAL"
+    },
+    {
+      "name": "Geometry",
+      "type": "NEW_GEOMETRY"
+    },
+    {
+      "name": "Separate XYZ",
+      "type": "SEPXYZ"
+    },
+    {
+      "name": "Math",
+      "type": "MATH"
+    },
+    {
+      "name": "Math.001",
+      "type": "MATH"
+    },
+    {
+      "name": "Combine XYZ",
+      "type": "COMBXYZ"
+    },
+    {
+      "name": "Brick Texture",
+      "type": "TEX_BRICK"
+    },
+    {
+      "name": "Noise Texture",
+      "type": "TEX_NOISE"
+    },
+    {
+      "name": "Mix (Legacy)",
+      "type": "MIX_RGB"
+    },
+    {
+      "name": "Noise Texture.001",
+      "type": "TEX_NOISE"
+    },
+    {
+      "name": "Color Ramp",
+      "type": "VALTORGB"
+    },
+    {
+      "name": "Mix (Legacy).001",
+      "type": "MIX_RGB"
+    },
+    {
+      "name": "Bump",
+      "type": "BUMP"
+    },
+    {
+      "name": "Bump.001",
+      "type": "BUMP"
+    },
+    {
+      "name": "V005 world position",
+      "type": "SEPXYZ"
+    },
+    {
+      "name": "V005 true face normal",
+      "type": "SEPXYZ"
+    },
+    {
+      "name": "V005 abs normal X",
+      "type": "MATH"
+    },
+    {
+      "name": "V005 abs normal Y",
+      "type": "MATH"
+    },
+    {
+      "name": "V005 abs normal Z",
+      "type": "MATH"
+    },
+    {
+      "name": "V005 side-axis decision",
+      "type": "MATH"
+    },
+    {
+      "name": "V005 max horizontal normal",
+      "type": "MATH"
+    },
+    {
+      "name": "V005 top-axis decision",
+      "type": "MATH"
+    },
+    {
+      "name": "V005 world XZ",
+      "type": "COMBXYZ"
+    },
+    {
+      "name": "V005 world YZ",
+      "type": "COMBXYZ"
+    },
+    {
+      "name": "V005 world XY",
+      "type": "COMBXYZ"
+    },
+    {
+      "name": "V005 equal-scale wall projection",
+      "type": "MIX_RGB"
+    },
+    {
+      "name": "V005 wall or top projection",
+      "type": "MIX_RGB"
+    },
+    {
+      "name": "V005 normalized restrained block colour",
+      "type": "VECT_MATH"
+    },
+    {
+      "name": "V005 preserve old patina with subtle ashlar",
+      "type": "MIX_RGB"
+    },
+    {
+      "name": "V005 block tone for roughness",
+      "type": "RGBTOBW"
+    },
+    {
+      "name": "V005 restrained block roughness",
+      "type": "MAP_RANGE"
+    },
+    {
+      "name": "V005 more matte recessed joints",
+      "type": "MIX_RGB"
+    }
+  ],
+  "links": [
+    {
+      "from": "Principled BSDF",
+      "output": "BSDF",
+      "to": "Material Output",
+      "input": "Surface"
+    },
+    {
+      "from": "Geometry",
+      "output": "Position",
+      "to": "Separate XYZ",
+      "input": "Vector"
+    },
+    {
+      "from": "Separate XYZ",
+      "output": "Y",
+      "to": "Math",
+      "input": "Value"
+    },
+    {
+      "from": "Separate XYZ",
+      "output": "X",
+      "to": "Math.001",
+      "input": "Value"
+    },
+    {
+      "from": "Math",
+      "output": "Value",
+      "to": "Math.001",
+      "input": "Value"
+    },
+    {
+      "from": "Math.001",
+      "output": "Value",
+      "to": "Combine XYZ",
+      "input": "X"
+    },
+    {
+      "from": "Separate XYZ",
+      "output": "Z",
+      "to": "Combine XYZ",
+      "input": "Y"
+    },
+    {
+      "from": "Geometry",
+      "output": "Position",
+      "to": "Noise Texture",
+      "input": "Vector"
+    },
+    {
+      "from": "Brick Texture",
+      "output": "Color",
+      "to": "Mix (Legacy)",
+      "input": "Color1"
+    },
+    {
+      "from": "Noise Texture",
+      "output": "Color",
+      "to": "Mix (Legacy)",
+      "input": "Color2"
+    },
+    {
+      "from": "Geometry",
+      "output": "Position",
+      "to": "Noise Texture.001",
+      "input": "Vector"
+    },
+    {
+      "from": "Noise Texture.001",
+      "output": "Factor",
+      "to": "Color Ramp",
+      "input": "Factor"
+    },
+    {
+      "from": "Mix (Legacy)",
+      "output": "Color",
+      "to": "Mix (Legacy).001",
+      "input": "Color1"
+    },
+    {
+      "from": "Color Ramp",
+      "output": "Color",
+      "to": "Mix (Legacy).001",
+      "input": "Color2"
+    },
+    {
+      "from": "Brick Texture",
+      "output": "Factor",
+      "to": "Bump",
+      "input": "Height"
+    },
+    {
+      "from": "Noise Texture",
+      "output": "Factor",
+      "to": "Bump.001",
+      "input": "Height"
+    },
+    {
+      "from": "Bump",
+      "output": "Normal",
+      "to": "Bump.001",
+      "input": "Normal"
+    },
+    {
+      "from": "Bump.001",
+      "output": "Normal",
+      "to": "Principled BSDF",
+      "input": "Normal"
+    },
+    {
+      "from": "Geometry",
+      "output": "Position",
+      "to": "V005 world position",
+      "input": "Vector"
+    },
+    {
+      "from": "Geometry",
+      "output": "True Normal",
+      "to": "V005 true face normal",
+      "input": "Vector"
+    },
+    {
+      "from": "V005 true face normal",
+      "output": "X",
+      "to": "V005 abs normal X",
+      "input": "Value"
+    },
+    {
+      "from": "V005 true face normal",
+      "output": "Y",
+      "to": "V005 abs normal Y",
+      "input": "Value"
+    },
+    {
+      "from": "V005 true face normal",
+      "output": "Z",
+      "to": "V005 abs normal Z",
+      "input": "Value"
+    },
+    {
+      "from": "V005 abs normal X",
+      "output": "Value",
+      "to": "V005 side-axis decision",
+      "input": "Value"
+    },
+    {
+      "from": "V005 abs normal Y",
+      "output": "Value",
+      "to": "V005 side-axis decision",
+      "input": "Value"
+    },
+    {
+      "from": "V005 abs normal X",
+      "output": "Value",
+      "to": "V005 max horizontal normal",
+      "input": "Value"
+    },
+    {
+      "from": "V005 abs normal Y",
+      "output": "Value",
+      "to": "V005 max horizontal normal",
+      "input": "Value"
+    },
+    {
+      "from": "V005 abs normal Z",
+      "output": "Value",
+      "to": "V005 top-axis decision",
+      "input": "Value"
+    },
+    {
+      "from": "V005 max horizontal normal",
+      "output": "Value",
+      "to": "V005 top-axis decision",
+      "input": "Value"
+    },
+    {
+      "from": "V005 world position",
+      "output": "X",
+      "to": "V005 world XZ",
+      "input": "X"
+    },
+    {
+      "from": "V005 world position",
+      "output": "Z",
+      "to": "V005 world XZ",
+      "input": "Y"
+    },
+    {
+      "from": "V005 world position",
+      "output": "Y",
+      "to": "V005 world YZ",
+      "input": "X"
+    },
+    {
+      "from": "V005 world position",
+      "output": "Z",
+      "to": "V005 world YZ",
+      "input": "Y"
+    },
+    {
+      "from": "V005 world position",
+      "output": "X",
+      "to": "V005 world XY",
+      "input": "X"
+    },
+    {
+      "from": "V005 world position",
+      "output": "Y",
+      "to": "V005 world XY",
+      "input": "Y"
+    },
+    {
+      "from": "V005 side-axis decision",
+      "output": "Value",
+      "to": "V005 equal-scale wall projection",
+      "input": "Factor"
+    },
+    {
+      "from": "V005 world XZ",
+      "output": "Vector",
+      "to": "V005 equal-scale wall projection",
+      "input": "Color1"
+    },
+    {
+      "from": "V005 world YZ",
+      "output": "Vector",
+      "to": "V005 equal-scale wall projection",
+      "input": "Color2"
+    },
+    {
+      "from": "V005 top-axis decision",
+      "output": "Value",
+      "to": "V005 wall or top projection",
+      "input": "Factor"
+    },
+    {
+      "from": "V005 equal-scale wall projection",
+      "output": "Color",
+      "to": "V005 wall or top projection",
+      "input": "Color1"
+    },
+    {
+      "from": "V005 world XY",
+      "output": "Vector",
+      "to": "V005 wall or top projection",
+      "input": "Color2"
+    },
+    {
+      "from": "V005 wall or top projection",
+      "output": "Color",
+      "to": "Brick Texture",
+      "input": "Vector"
+    },
+    {
+      "from": "Brick Texture",
+      "output": "Color",
+      "to": "V005 normalized restrained block colour",
+      "input": "Vector"
+    },
+    {
+      "from": "Mix (Legacy).001",
+      "output": "Color",
+      "to": "V005 preserve old patina with subtle ashlar",
+      "input": "Color1"
+    },
+    {
+      "from": "V005 normalized restrained block colour",
+      "output": "Vector",
+      "to": "V005 preserve old patina with subtle ashlar",
+      "input": "Color2"
+    },
+    {
+      "from": "V005 preserve old patina with subtle ashlar",
+      "output": "Color",
+      "to": "Principled BSDF",
+      "input": "Base Color"
+    },
+    {
+      "from": "Brick Texture",
+      "output": "Color",
+      "to": "V005 block tone for roughness",
+      "input": "Color"
+    },
+    {
+      "from": "V005 block tone for roughness",
+      "output": "Val",
+      "to": "V005 restrained block roughness",
+      "input": "Value"
+    },
+    {
+      "from": "Brick Texture",
+      "output": "Factor",
+      "to": "V005 more matte recessed joints",
+      "input": "Factor"
+    },
+    {
+      "from": "V005 restrained block roughness",
+      "output": "Result",
+      "to": "V005 more matte recessed joints",
+      "input": "Color1"
+    },
+    {
+      "from": "V005 more matte recessed joints",
+      "output": "Color",
+      "to": "Principled BSDF",
+      "input": "Roughness"
+    }
+  ],
+  "source_unchanged": true
+}

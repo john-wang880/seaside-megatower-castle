@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "hashes": {
+    "source": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+    "candidate": "2dfc901717c43cc3ec3bbfc62b0eca27914cdc6524caf78f22e310a4a13ebfd6"
+  },
+  "normalized_full_scene_checks": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true
+  },
+  "native_low_and_repeat": true,
+  "full_pointer_rollback_users2": true,
+  "active_original_users1_derivative_users1": true,
+  "shared_hidden_original_exact": true,
+  "effective_object_material_exact": true,
+  "complement_all_attributes_exact": true,
+  "closed_oriented_positive": true,
+  "scope": "Boundary and adjacency proofs separate; models never saved."
+}

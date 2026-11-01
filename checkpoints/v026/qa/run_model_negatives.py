@@ -1,0 +1,8 @@
+import subprocess,sys,json,hashlib,argparse,os
+from pathlib import Path
+if sys.flags.optimize:raise RuntimeError('Optimized Python refused')
+p=argparse.ArgumentParser();p.add_argument('--blender',required=True);p.add_argument('--source',required=True);p.add_argument('--candidate',required=True);p.add_argument('--candidate-sha',required=True);p.add_argument('--output-dir',required=True);a=p.parse_args();out=Path(a.output_dir);out.mkdir(exist_ok=False);script=Path(__file__).with_name('validate.py');rows=[]
+for case in ['weight','hidden','material','old_union']:
+ report=out/(case+'.json');geo=out/(case+'_geometry.json');cmd=[a.blender,'-b','--factory-startup','--disable-autoexec','--python-exit-code','1','--python-expr','import sys; sys.dont_write_bytecode=True','--python',str(script),'--','--source',a.source,'--candidate',a.candidate,'--candidate-sha',a.candidate_sha,'--report',str(report),'--geometry',str(geo),'--negative',case];r=subprocess.run(cmd,capture_output=True,text=True);log=r.stdout+r.stderr;(out/(case+'.log')).write_text(log)
+ expected={'weight':'v.index,[(g.group,g.weight)','hidden':'ss.mesh_snapshot(original)==raw','material':'s.material.name for s in u.material_slots','old_union':'Other active evaluated mesh changed'}[case];passed=expected in log and r.returncode!=0 and 'AssertionError'in log and not report.exists() and not geo.exists();rows.append({'case':case,'rejected':passed,'returncode':r.returncode,'expected_invariant_trace':expected,'log_sha256':hashlib.sha256(log.encode()).hexdigest()});assert passed,case
+(out/'SUMMARY.json').write_text(json.dumps({'pass':True,'scope':'Four actual in-memory model mutations; source files never saved','controls':rows},indent=2))
