@@ -1,0 +1,211 @@
+--- scripts/current_inspection/export_inspection.py
++++ work/current_inspection_v027_hall/export_inspection.py
+@@ -55,7 +55,7 @@
+   result=bpy.ops.wm.save_as_mainfile(filepath=str(model_tmp),copy=True,compress=True,check_existing=False)
+   require('FINISHED' in result and model_tmp.is_file(),'Inspection-copy save failed')
+   again,_=preflight(repository,source,output,report,ROOT/'catalog.json');require(again==identity and all(sha(ROOT/n)==h for n,h in runtime.items()),'Source/manifest/runtime changed during export')
+-  receipt={**identity,'runtime_sha256':runtime,'output_sha256':sha(model_tmp),'output_bytes':model_tmp.stat().st_size,'source_unchanged':True,'source_saved':False,'rendered':False,'manual_text_only':True,'text_use_module':False,'default_camera':bpy.context.scene.camera.name,'added_cameras':14,'bookmark_count':15,'marker':marker,'scope':'Only owned cameras/collection/manualText/provenance marker added; original settings preserved. Independent deep QA is separate.'}
++  receipt={**identity,'runtime_sha256':runtime,'output_sha256':sha(model_tmp),'output_bytes':model_tmp.stat().st_size,'source_unchanged':True,'source_saved':False,'rendered':False,'manual_text_only':True,'text_use_module':False,'default_camera':bpy.context.scene.camera.name,'added_cameras':15,'bookmark_count':16,'marker':marker,'scope':'Only owned cameras/collection/manualText/provenance marker added; original settings preserved. Independent deep QA is separate.'}
+   rep_tmp=temp_for(report,'.json');rep_tmp.write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+   with open(rep_tmp,'rb') as f:os.fsync(f.fileno())
+   with open(model_tmp,'rb') as f:os.fsync(f.fileno())
+--- scripts/current_inspection/preflight.py
++++ work/current_inspection_v027_hall/preflight.py
+@@ -1,10 +1,10 @@
+ """Import-safe stdlib guards; no bpy, installation, network or rendering."""
+ import hashlib,json,math,os,re,sys
+ from pathlib import Path
+-CATALOG_SHA='03405e881888a989bfda1da2eb763138e204134e422a807c5843b514a7fe56c0'
+-VERSION=26
+-SOURCE_SHA='efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee'
+-SOURCE_BYTES=47680699
++CATALOG_SHA='efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4'
++VERSION=27
++SOURCE_SHA='37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255'
++SOURCE_BYTES=47773404
+ class GuardError(ValueError):pass
+ def require(ok,message):
+  if not ok:raise GuardError(message)
+@@ -24,7 +24,7 @@
+  p=unaliased(path);require(p.is_file() and sha(p)==CATALOG_SHA,'Reviewed camera catalog hash mismatch')
+  c=json.loads(p.read_text(encoding='utf-8'))
+  require(c['schema']=='castle-current-inspection-catalog-v1' and c['reviewed_version']==VERSION and c['source_sha256']==SOURCE_SHA and c['source_bytes']==SOURCE_BYTES,'Unsupported catalog/source binding')
+- require(len(c['views'])==15 and c['views']['hero']['existing'],'Catalog must contain fifteen reviewed views')
++ require(len(c['views'])==16 and c['views']['hero']['existing'],'Catalog must contain sixteen reviewed views')
+  names=[]
+  for k,v in c['views'].items():
+   m=v['matrix'];require(len(m)==4 and all(len(row)==4 for row in m) and all(isinstance(x,(int,float)) and math.isfinite(x) for row in m for x in row),'Invalid camera matrix')
+@@ -43,7 +43,7 @@
+  nums=[v for v,p in found];require(len(nums)==len(set(nums)),'Ambiguous numeric checkpoint versions')
+  version,path=max(found,key=lambda item:item[0]);require(version==VERSION,'Latest checkpoint v%d is not reviewed by this catalog; no fallback'%version)
+  m=json.loads(path.read_text(encoding='utf-8'));require(m.get('format')=='blend-zstd-frames-v1','Unsupported checkpoint format')
+- require(m.get('model_sha256')==SOURCE_SHA and m.get('model_bytes')==SOURCE_BYTES and m.get('model')=='castle_v026.blend','Latest manifest source binding mismatch')
++ require(m.get('model_sha256')==SOURCE_SHA and m.get('model_bytes')==SOURCE_BYTES and m.get('model')=='castle_v027.blend','Latest manifest source binding mismatch')
+  return root,path,m
+ def new_destination(value,suffix):
+  p=unaliased(value);require(p.suffix.lower()==suffix,'Expected '+suffix+' destination');require(p.parent.is_dir(),'Destination parent must already exist');require(not os.path.lexists(p),'Destination already exists (including dangling link): '+str(p));return p
+--- scripts/current_inspection/qa/run_qa.py
++++ work/current_inspection_v027_hall/qa/run_qa.py
+@@ -15,7 +15,7 @@
+ report=out/'validation.json';cmd2=[str(blender),'-b','--factory-startup','--disable-autoexec','--python-exit-code','1','--python-expr','import sys; sys.dont_write_bytecode=True','--python',str(qa/'validate_copy.py'),'--','--source',str(source),'--viewer',str(viewer),'--receipt',str(receipt),'--tool',str(tool),'--report',str(report)]
+ with (out/'validation.log').open('w')as log:r=subprocess.run(cmd2,cwd=out,stdout=log,stderr=subprocess.STDOUT)
+ assert r.returncode==0,'Actual Blender API/deep preservation failed'
+-r=json.loads(report.read_text());assert r['pass']and all(r['full_source_category_checks'].values())and r['manual_bookmarks_tested']==15 and r['all_inputs_unchanged'];assert len(r['negative_cases'])==20
++r=json.loads(report.read_text());assert r['pass']and all(r['full_source_category_checks'].values())and r['manual_bookmarks_tested']==16 and r['all_inputs_unchanged'];assert len(r['negative_cases'])==20
+ assert all(sha(f)==h for f,h in modelhashes.items());assert all(sha(tool/n)==h for n,h in runtime.items());assert inventory=={str(f.relative_to(qa)):sha(f)for f in qa.rglob('*')if f.is_file()}
+ summary={'pass':True,'manifest_identity':identity,'input_sha256':modelhashes,'runtime_sha256':runtime,'qa_manifest_sha256':sha(qa/'FILES.json'),'qa_inventory_unchanged':True,'all_model_runtime_inputs_unchanged':True,'pure_tests':24,'actual_source_category_names':list(r['full_source_category_checks']),'actual_source_category_count':len(r['full_source_category_checks']),'api_negative_cases':r['negative_cases'],'commands':[cmd,cmd2],'reports':{'validation.json':sha(report),'pure_tests.log':sha(out/'pure_tests.log')},'scope':'Actual Linux reopen/headless manual UI/operator API; no render/model save, nativeWindows or desktopclick claim. Export provenance is not later edit certification.'};(out/'SUMMARY.json').write_text(json.dumps(summary,indent=2));print('PORTABLE INDEPENDENT QA PASS')
+ if (out/'unused-preflight-copy.blend').exists()or(out/'unused-preflight-report.json').exists():raise RuntimeError('Preflight unexpectedly wrote output')
+--- scripts/current_inspection/qa/test_preflight_independent.py
++++ work/current_inspection_v027_hall/qa/test_preflight_independent.py
+@@ -6,24 +6,24 @@
+ parser=argparse.ArgumentParser(add_help=False);parser.add_argument('--tool',required=True);parser.add_argument('--source',required=True);args,remaining=parser.parse_known_args();sys.argv=[sys.argv[0]]+remaining;TOOL=Path(args.tool).resolve();SOURCE=Path(args.source).resolve();spec=importlib.util.spec_from_file_location('inspection_preflight',TOOL/'preflight.py');q=importlib.util.module_from_spec(spec);spec.loader.exec_module(q)
+ class Guards(unittest.TestCase):
+  def setUp(self):
+-  self.temp=tempfile.TemporaryDirectory(prefix='inspection QA 中文 ');self.root=Path(self.temp.name);self.repo=self.root/'repo';(self.repo/'checkpoints/v026').mkdir(parents=True);self.m={'format':'blend-zstd-frames-v1','model_sha256':q.SOURCE_SHA,'model_bytes':q.SOURCE_BYTES,'model':'castle_v026.blend'};(self.repo/'checkpoints/v026/MANIFEST.json').write_text(json.dumps(self.m));self.out=self.root/'new copy.blend';self.report=self.root/'new report.json'
++  self.temp=tempfile.TemporaryDirectory(prefix='inspection QA 中文 ');self.root=Path(self.temp.name);self.repo=self.root/'repo';(self.repo/'checkpoints/v027').mkdir(parents=True);self.m={'format':'blend-zstd-frames-v1','model_sha256':q.SOURCE_SHA,'model_bytes':q.SOURCE_BYTES,'model':'castle_v027.blend'};(self.repo/'checkpoints/v027/MANIFEST.json').write_text(json.dumps(self.m));self.out=self.root/'new copy.blend';self.report=self.root/'new report.json'
+  def tearDown(self):self.temp.cleanup()
+  def test_latest_reviewed(self):self.assertEqual(q.latest_manifest(self.repo)[2],self.m)
+  def test_unknown_newest(self):
+-  (self.repo/'checkpoints/v027').mkdir();(self.repo/'checkpoints/v027/MANIFEST.json').write_text('{}')
++  (self.repo/'checkpoints/v028').mkdir();(self.repo/'checkpoints/v028/MANIFEST.json').write_text('{}')
+   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
+  def test_numeric_ambiguity(self):
+-  (self.repo/'checkpoints/v26').mkdir();(self.repo/'checkpoints/v26/MANIFEST.json').write_text(json.dumps(self.m))
++  (self.repo/'checkpoints/v27').mkdir();(self.repo/'checkpoints/v27/MANIFEST.json').write_text(json.dumps(self.m))
+   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
+  def test_stale_only(self):
+-  (self.repo/'checkpoints/v026').rename(self.repo/'checkpoints/v025')
++  (self.repo/'checkpoints/v027').rename(self.repo/'checkpoints/v026')
+   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
+  def test_changed_manifest(self):
+-  self.m['model_sha256']='0'*64;(self.repo/'checkpoints/v026/MANIFEST.json').write_text(json.dumps(self.m))
++  self.m['model_sha256']='0'*64;(self.repo/'checkpoints/v027/MANIFEST.json').write_text(json.dumps(self.m))
+   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
+  def test_no_manifest_not_live(self):
+   (self.repo/'checkpoints/v999').mkdir();self.assertEqual(q.latest_manifest(self.repo)[2],self.m)
+- def test_reviewed_catalog(self):self.assertEqual(len(q.load_catalog(TOOL/'catalog.json')['views']),15)
++ def test_reviewed_catalog(self):self.assertEqual(len(q.load_catalog(TOOL/'catalog.json')['views']),16)
+  def test_corrupt_catalog(self):
+   c=self.root/'catalog.json';c.write_text((TOOL/'catalog.json').read_text()+' ')
+   with self.assertRaises(q.GuardError):q.load_catalog(c)
+@@ -56,7 +56,7 @@
+  def test_source_output_alias(self):
+   with self.assertRaises(q.GuardError):q.preflight(self.repo,self.real_source(),self.real_source(),self.report,TOOL/'catalog.json')
+  def test_immutable_checkpoint_output(self):
+-  with self.assertRaises(q.GuardError):q.preflight(self.repo,self.real_source(),self.repo/'checkpoints/v026/new.blend',self.report,TOOL/'catalog.json')
++  with self.assertRaises(q.GuardError):q.preflight(self.repo,self.real_source(),self.repo/'checkpoints/v027/new.blend',self.report,TOOL/'catalog.json')
+  def setup_publish(self):
+   a=self.root/'temp.blend';b=self.root/'temp.json';a.write_bytes(b'blend');b.write_bytes(b'receipt');return a,b
+  def test_publish_pair(self):
+--- scripts/current_inspection/qa/validate_copy.py
++++ work/current_inspection_v027_hall/qa/validate_copy.py
+@@ -5,7 +5,7 @@
+ if sys.flags.optimize:raise RuntimeError('Assertions required')
+ p=argparse.ArgumentParser()
+ for k in ['source','viewer','receipt','tool','report']:p.add_argument('--'+k,required=True)
+-a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);paths={k:Path(getattr(a,k)).resolve()for k in ['source','viewer','receipt','tool','report']};sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest();assert not paths['report'].exists();hashes={k:sha(paths[k])for k in ['source','viewer','receipt']};assert hashes['source']=='efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee';receipt=json.loads(paths['receipt'].read_text());assert receipt['output_sha256']==hashes['viewer']and receipt['source_sha256']==hashes['source'];runtime={n:sha(paths['tool']/n)for n in receipt['runtime_sha256']};assert runtime==receipt['runtime_sha256'];catalog=json.loads((paths['tool']/'catalog.json').read_text());owned=[v['camera_name']for v in catalog['views'].values()if not v['existing']];config={k:catalog[k]for k in ['collection','text','marker','views','source_sha256']};config['catalog_sha256']=sha(paths['tool']/'catalog.json');template=(paths['tool']/'ui_template.py').read_text();expectedcode=template.replace('CONFIG = None  # Exporter replaces this assignment with literal reviewed config.','CONFIG = '+repr(config));ui=types.ModuleType('independent_inspection_ui');exec(compile(expectedcode,'owned-manual-ui','exec'),ui.__dict__)
++a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);paths={k:Path(getattr(a,k)).resolve()for k in ['source','viewer','receipt','tool','report']};sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest();assert not paths['report'].exists();hashes={k:sha(paths[k])for k in ['source','viewer','receipt']};assert hashes['source']=='37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255';receipt=json.loads(paths['receipt'].read_text());assert receipt['output_sha256']==hashes['viewer']and receipt['source_sha256']==hashes['source'];runtime={n:sha(paths['tool']/n)for n in receipt['runtime_sha256']};assert runtime==receipt['runtime_sha256'];catalog=json.loads((paths['tool']/'catalog.json').read_text());owned=[v['camera_name']for v in catalog['views'].values()if not v['existing']];config={k:catalog[k]for k in ['collection','text','marker','views','source_sha256']};config['catalog_sha256']=sha(paths['tool']/'catalog.json');template=(paths['tool']/'ui_template.py').read_text();expectedcode=template.replace('CONFIG = None  # Exporter replaces this assignment with literal reviewed config.','CONFIG = '+repr(config));ui=types.ModuleType('independent_inspection_ui');exec(compile(expectedcode,'owned-manual-ui','exec'),ui.__dict__)
+ def load(path):bpy.ops.wm.open_mainfile(filepath=str(path),load_ui=True,use_scripts=False)
+ def visibility():
+  r={}
+@@ -42,7 +42,7 @@
+ assert ui.register()is True and ui.register()is False
+ for key in catalog['views']:
+  result=ui.select_bookmark(key);assert bpy.context.scene.camera.name==catalog['views'][key]['camera_name'];assert ui.select_bookmark(key)==result
+- assert bpy.ops.castle26_inspection.bookmark(view_id=key)=={'FINISHED'}
++ assert bpy.ops.castle27_inspection.bookmark(view_id=key)=={'FINISHED'}
+ ui.select_bookmark('hero');assert snapshot()==viewer,'Bookmark roundtrip changed non-viewport data'
+ assert ui.unregister()is True and ui.unregister()is False;assert not any(hasattr(bpy.types,n)for n in ui.CLASS_NAMES)
+ # Guard fixtures are in-memory and restored; a different chosen key must not bypass ownership.
+@@ -69,4 +69,4 @@
+ # Reopen again with scripts disabled; immutable manual copy remains reusable.
+ load(paths['viewer']);ui.verify();assert snapshot()==viewer
+ assert all(sha(paths[k])==v for k,v in hashes.items());assert runtime=={n:sha(paths['tool']/n)for n in runtime}
+-result={'pass':True,'input_sha256':hashes,'runtime_sha256':runtime,'full_source_category_checks':checks,'negative_cases':negatives,'manual_bookmarks_tested':15,'paired_register_unregister_idempotent':True,'reopened_no_auto_registration':True,'source_existing_camera_data_exact':True,'source_visibility_selection_quality_exact':True,'all_inputs_unchanged':True,'scope':'Actual Linux background export/reopen/manualPython and operator API validation, not native Windows or desktop button clicking. UI marker records provenance, not post-edit certification.'};paths['report'].write_text(json.dumps(result,indent=2));print('INDEPENDENT INSPECTION COPY PASS')
++result={'pass':True,'input_sha256':hashes,'runtime_sha256':runtime,'full_source_category_checks':checks,'negative_cases':negatives,'manual_bookmarks_tested':16,'paired_register_unregister_idempotent':True,'reopened_no_auto_registration':True,'source_existing_camera_data_exact':True,'source_visibility_selection_quality_exact':True,'all_inputs_unchanged':True,'scope':'Actual Linux background export/reopen/manualPython and operator API validation, not native Windows or desktop button clicking. UI marker records provenance, not post-edit certification.'};paths['report'].write_text(json.dumps(result,indent=2));print('INDEPENDENT INSPECTION COPY PASS')
+--- scripts/current_inspection/test_preflight.py
++++ work/current_inspection_v027_hall/test_preflight.py
+@@ -5,7 +5,7 @@
+ import preflight as p
+ class Guards(unittest.TestCase):
+  def setUp(self):
+-  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)/'项目 with spaces';self.root.mkdir();self.repo=self.root/'repo';self.repo.mkdir();self.cp=self.repo/'checkpoints/v026';self.cp.mkdir(parents=True);self.manifest={'format':'blend-zstd-frames-v1','model':'castle_v026.blend','model_sha256':p.SOURCE_SHA,'model_bytes':p.SOURCE_BYTES};self.mp=self.cp/'MANIFEST.json';self.mp.write_text(json.dumps(self.manifest));self.source=self.root/'source.blend';self.source.write_bytes(b'test');self.out=self.root/'检查 copy.blend';self.report=self.root/'检查 report.json';self.catalog=Path(__file__).with_name('catalog.json')
++  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)/'项目 with spaces';self.root.mkdir();self.repo=self.root/'repo';self.repo.mkdir();self.cp=self.repo/'checkpoints/v027';self.cp.mkdir(parents=True);self.manifest={'format':'blend-zstd-frames-v1','model':'castle_v027.blend','model_sha256':p.SOURCE_SHA,'model_bytes':p.SOURCE_BYTES};self.mp=self.cp/'MANIFEST.json';self.mp.write_text(json.dumps(self.manifest));self.source=self.root/'source.blend';self.source.write_bytes(b'test');self.out=self.root/'检查 copy.blend';self.report=self.root/'检查 report.json';self.catalog=Path(__file__).with_name('catalog.json')
+  def tearDown(self):self.tmp.cleanup()
+  def test_import_without_bpy(self):
+   cmd=[sys.executable,'-c',"import sys;sys.path.insert(0,"+repr(str(Path(__file__).parent))+ ");import export_inspection;assert 'bpy' not in sys.modules"]
+@@ -17,21 +17,21 @@
+   namespace,operator=ast.literal_eval(assignment.value).split('.')
+   self.assertEqual(cls.name,namespace.upper()+'_OT_'+operator)
+  def test_known_catalog(self):
+-  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),15);root=self.catalog.parent
+-  for key in ['rear_landward','west_lateral','east_lateral']:
++  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),16);root=self.catalog.parent
++  for key in ['rear_landward','west_lateral','east_lateral','ceiling_inspection']:
+    v=c['views'][key];pr=v['provenance'];recipe=json.loads((root/pr['recipe']).read_text());receipt=json.loads((root/pr['receipt']).read_text())
+    self.assertEqual(p.sha(root/pr['recipe']),pr['recipe_sha256']);self.assertEqual(p.sha(root/pr['receipt']),pr['receipt_sha256']);self.assertEqual(receipt['manifest_sha256'],pr['recipe_sha256'])
+    self.assertEqual(receipt['source_sha256_before'],pr['render_source_sha256']);self.assertEqual(receipt['source_sha256_after'],pr['render_source_sha256'])
+    self.assertEqual(v['matrix'],recipe['views'][key]['reference_matrix']);self.assertEqual(v['reference_resolution'],recipe['resolution']);data=dict(recipe['views'][key]['camera_data']);data.setdefault('type','PERSP');self.assertEqual(v['data'],data)
+-  self.assertEqual(c['views']['west_lateral']['provenance']['render_source_sha256'],p.SOURCE_SHA)
+-  runner=(root/'qa/run_qa.py').read_text();self.assertIn("r['manual_bookmarks_tested']==15",runner)
+-  exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':14,'bookmark_count':15",exporter)
++  self.assertEqual(c['views']['ceiling_inspection']['provenance']['render_source_sha256'],p.SOURCE_SHA)
++  runner=(root/'qa/run_qa.py').read_text();self.assertIn("r['manual_bookmarks_tested']==16",runner)
++  exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':15,'bookmark_count':16",exporter)
+ 
+  def test_corrupt_catalog(self):
+   f=self.root/'bad.json';f.write_text(self.catalog.read_text()+' ')
+   with self.assertRaises(p.GuardError):p.load_catalog(f)
+  def test_future_no_fallback(self):
+-  d=self.repo/'checkpoints/v027';d.mkdir();(d/'MANIFEST.json').write_text('{}')
++  d=self.repo/'checkpoints/v028';d.mkdir();(d/'MANIFEST.json').write_text('{}')
+   with self.assertRaises(p.GuardError):p.latest_manifest(self.repo)
+  def test_numeric_not_lexicographic(self):
+   d=self.repo/'checkpoints/v9';d.mkdir();(d/'MANIFEST.json').write_text('{}');self.assertEqual(p.latest_manifest(self.repo)[1],self.mp)
+--- scripts/current_inspection/ui_template.py
++++ work/current_inspection_v027_hall/ui_template.py
+@@ -6,7 +6,7 @@
+ TAG='castle_inspection_owner'
+ OWNER='castle-current-inspection-v1'
+ REGISTRY='_castle_current_inspection_registry_v1'
+-CLASS_NAMES=('CASTLE26_INSPECTION_OT_bookmark','CASTLE26_PT_bookmarks')
++CLASS_NAMES=('CASTLE27_INSPECTION_OT_bookmark','CASTLE27_PT_bookmarks')
+ def need(ok,msg):
+  if not ok:raise RuntimeError(msg)
+ def verify():
+@@ -52,15 +52,15 @@
+     space=area.spaces.active;space.camera=o;space.use_local_camera=False;space.region_3d.view_perspective='CAMERA'
+  return {'camera':o.name,'reference_resolution':v['reference_resolution'],'guidance':'Render aspect/quality unchanged. For exact historical framing set reference aspect manually in this copy.'}
+ 
+-class CASTLE26_INSPECTION_OT_bookmark(bpy.types.Operator):
+- bl_idname='castle26_inspection.bookmark';bl_label='检查视角 / Inspection bookmark'
++class CASTLE27_INSPECTION_OT_bookmark(bpy.types.Operator):
++ bl_idname='castle27_inspection.bookmark';bl_label='检查视角 / Inspection bookmark'
+  view_id:bpy.props.StringProperty()
+  def execute(self,context):
+   try:
+    result=select_bookmark(self.view_id,context);self.report({'INFO'},'Reference %s; current render settings unchanged'%result['reference_resolution']);return {'FINISHED'}
+   except Exception as exc:self.report({'ERROR'},str(exc));return {'CANCELLED'}
+-class CASTLE26_PT_bookmarks(bpy.types.Panel):
+- bl_label='城堡检查 / Castle inspection';bl_idname='CASTLE26_PT_bookmarks';bl_space_type='VIEW_3D';bl_region_type='UI';bl_category='Castle检查'
++class CASTLE27_PT_bookmarks(bpy.types.Panel):
++ bl_label='城堡检查 / Castle inspection';bl_idname='CASTLE27_PT_bookmarks';bl_space_type='VIEW_3D';bl_region_type='UI';bl_category='Castle检查'
+  def draw(self,context):
+   layout=self.layout
+   try:verify()
+@@ -68,13 +68,13 @@
+   layout.label(text='派生副本 / Derived inspection copy')
+   layout.label(text='Quality and aspect stay unchanged')
+   for key,v in CONFIG['views'].items():
+-   row=layout.row();row.operator(CASTLE26_INSPECTION_OT_bookmark.bl_idname,text=v['label']).view_id=key
++   row=layout.row();row.operator(CASTLE27_INSPECTION_OT_bookmark.bl_idname,text=v['label']).view_id=key
+   layout.label(text='Z: Solid / Material Preview / Rendered')
+   layout.label(text='Manual quality edits: this copy only')
+   layout.label(text='Provenance is not edit certification')
+ 
+ def register():
+- verify();classes=(CASTLE26_INSPECTION_OT_bookmark,CASTLE26_PT_bookmarks);old=sys.modules.get(REGISTRY)
++ verify();classes=(CASTLE27_INSPECTION_OT_bookmark,CASTLE27_PT_bookmarks);old=sys.modules.get(REGISTRY)
+  if old is not None:
+   need(getattr(old,'owner',None)==OWNER and getattr(old,'catalog_sha256',None)==CONFIG['catalog_sha256'],'Registry collision')
+   need(all(getattr(bpy.types,c.__name__,None) is c for c in old.classes),'Registered class ownership changed')

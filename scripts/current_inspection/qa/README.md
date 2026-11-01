@@ -1,13 +1,7 @@
-# v026 inspection independent QA
+# v027 independent inspection QA — fresh native run passed
 
-Fresh15-bookmark extension QA passed; historical14-bookmark acceptance was not reused. The checker must use a new viewer/receipt generated from exactefcdsource and a real highest-livev026manifest.
-
+After accepted real v027 manifest and fresh viewer export:
 ```sh
-python -B run_qa.py --repository-root FRESH_REPOSITORY --tool FRESH_REPOSITORY/scripts/current_inspection --source RESTORED_V026.blend --viewer NEW_VIEWER.blend --receipt NEW_EXPORT.json --output-dir NEW_QA_DIRECTORY --blender BLENDER_5_2_3_EXECUTABLE
+python -B run_qa.py --repository-root "$repo" --tool "$tool" --source "$source" --viewer "$viewer" --receipt "$receipt" --output-dir "$new_qa_directory" --blender "$blender"
 ```
-
-Quote paths containing spaces/Unicode. Outputdirectory must be new in an existing parent, outside immutablecheckpoint/tool/QA trees. No installation/network/modelsave/render occurs. Require SUMMARY.json pass and validation.json:13originalstatecategories,15bookmarks,20negativeAPIcases, repeatregistration/unregistration and disabled-scriptreopen. Canonical raw/evaluatedgeometry, source cameras, materials/world/lights/render/visibility and all existing modifier weights must remain exact after subtracting only14owned cameras/collection/manualText/provenance marker.
-
-24puretests cover reviewedv026, unknownfuture27, stale25, numericambiguity26/v026, wronghash/size/catalog, aliases/symlinks, freshdestination, Unicode, optimized-mode refusal and exclusivepublication failure/foreign-inode protection. Existing18implementationtests additionally bind exactrear andlateralprovenance and assert runner15/export14+15counts, preventing the previousv025late wrapper-count omission.
-
-Runtime and full QAinventory/modelinputs are hashed before/after. FILES.json binds this bundle. No nativeWindows/desktopclick claim; ordinary explicit manualText/operator API tests are not GUI clicks. Fresh extension run passed; historicalreports deliberately excluded. Packaging adds reports/docs only; executed Python/runtime unchanged. Original executed QA inventory and README are archived under provenance.
+Require13 source categories,16 bookmarks,20 API negatives, repeat registration/unregister, disabled-script reopen, exact input/runtime inventories. Only15 owned cameras/collection/manual Text/provenance marker may be subtracted. All source geometry/attributes/modifiers/weights/materials/lights/world/camera settings must remain exact. 24 pure guard tests supplement18 implementation tests, including future28/stale26/ambiguity27 guards and Unicode paths. Linux5.2.3 native validation passed; Windows/desktop clicking untested. No renderer/model saver in QA.

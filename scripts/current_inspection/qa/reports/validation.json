@@ -1,0 +1,58 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+    "viewer": "396863f091d933388607bc7523278c6e7af03f345b1b889d47f75ddf0b2b86fc",
+    "receipt": "a6bcc539bf84d94a3537c52e0a772adfd180adb64297454b7aa2e907e729e801"
+  },
+  "runtime_sha256": {
+    "export_inspection.py": "581291d3d060dd34dd879e32d71c92f1bb19a7607b6f4309256003cab6bb04d0",
+    "preflight.py": "51de7275a4bb105645d572f58de44753e71cae33508174cdf8c1bdd07945cf6b",
+    "catalog.json": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
+    "ui_template.py": "8b02829a0172e4a0845ead523ae0d6a687acd9fc0758f3434fb1b96b69670bf6"
+  },
+  "full_source_category_checks": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true,
+    "visibility": true
+  },
+  "negative_cases": [
+    "canonical untagged refuses UI",
+    "export marker collision",
+    "export collection collision",
+    "export Text collision",
+    "export camera object collision",
+    "export orphan camera data collision",
+    "foreign unselected camera owner",
+    "foreign camera-data owner",
+    "partial inventory",
+    "changed unselected lens",
+    "changed DOF",
+    "changed delta transform",
+    "owned parent hidden render",
+    "owned layer excluded",
+    "autoexec Text flag",
+    "unknown bookmark",
+    "foreign context scene",
+    "original hero parent render hidden",
+    "foreign registration registry",
+    "foreign unregister registry"
+  ],
+  "manual_bookmarks_tested": 16,
+  "paired_register_unregister_idempotent": true,
+  "reopened_no_auto_registration": true,
+  "source_existing_camera_data_exact": true,
+  "source_visibility_selection_quality_exact": true,
+  "all_inputs_unchanged": true,
+  "scope": "Actual Linux background export/reopen/manualPython and operator API validation, not native Windows or desktop button clicking. UI marker records provenance, not post-edit certification."
+}

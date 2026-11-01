@@ -1,0 +1,34 @@
+{
+  "status": "Fresh local actual tool export/reopen passed; remote publication separate",
+  "baseline_fixed_commit": "054bc322",
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "source_bytes": 47773404,
+  "original_15_records_exact_except_owned_namespace": {
+    "hero": true,
+    "west_approach": true,
+    "east_portal": true,
+    "bend": true,
+    "upper_stairs": true,
+    "terminal": true,
+    "offshore_marker": true,
+    "crown": true,
+    "west_crown": true,
+    "bridge_close": true,
+    "west_lower_tier": true,
+    "path_context": true,
+    "rear_landward": true,
+    "west_lateral": true,
+    "east_lateral": true
+  },
+  "catalog_sha256": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
+  "bookmark_count": 16,
+  "added_camera_count": 15,
+  "new_recipe_matches_render_receipt": true,
+  "pure_tests": {
+    "implementation": 18,
+    "independent": 24,
+    "pass": true
+  },
+  "preflight_correction": "Initial independent numeric-ambiguity fixture mkdir used v27 but manifest path still v26; corrected fixture to v27 and reran all42 tests. No runtime/model change.",
+  "native_qa": "PASS16bookmarks/13sourcecategories/20APInegatives"
+}

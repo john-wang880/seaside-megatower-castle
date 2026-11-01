@@ -1,0 +1,633 @@
+{
+  "historical_source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "current_source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "all_selected_checks_pass": true,
+  "objects": [
+    {
+      "object": "V013 | entrance mounting plate",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance wall arm",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance lower cup",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance hood rim",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance rain hood",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance cage upright 0",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance cage upright 1",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance cage upright 2",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance cage upright 3",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance luminous flame",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | entrance practical warm source",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "light_data_exact": true
+    },
+    {
+      "object": "V013 | turn mounting plate",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn wall arm",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn lower cup",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn hood rim",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn rain hood",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn cage upright 0",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn cage upright 1",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn cage upright 2",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn cage upright 3",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn luminous flame",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | turn practical warm source",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "light_data_exact": true
+    },
+    {
+      "object": "V013 | corridor mounting plate",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor wall arm",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor lower cup",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor hood rim",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor rain hood",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor cage upright 0",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor cage upright 1",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor cage upright 2",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor cage upright 3",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor luminous flame",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | corridor practical warm source",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "light_data_exact": true
+    },
+    {
+      "object": "V013 | stair mounting plate",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair wall arm",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair lower cup",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair hood rim",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair rain hood",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair cage upright 0",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair cage upright 1",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair cage upright 2",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair cage upright 3",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair luminous flame",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V013 | stair practical warm source",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "light_data_exact": true
+    },
+    {
+      "object": "V014 | landing marker cage upright 0",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V014 | landing marker cage upright 1",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V014 | landing marker cage upright 2",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V014 | landing marker cage upright 3",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V014 | landing marker hood rim",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V014 | landing marker lower cup",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V014 | landing marker luminous flame",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V014 | landing marker mounting plate",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V014 | landing marker practical warm source",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "light_data_exact": true
+    },
+    {
+      "object": "V014 | landing marker rain hood",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V014 | landing marker wall arm",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge lower neck",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge lower barrel",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge lower pintle",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge lower wall anchor",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge lower pin cap",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge upper neck",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge upper barrel",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge upper pintle",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge upper wall anchor",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | south hinge upper pin cap",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge lower neck",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge lower barrel",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge lower pintle",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge lower wall anchor",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge lower pin cap",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge upper neck",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge upper barrel",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge upper pintle",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge upper wall anchor",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V015 | north hinge upper pin cap",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | entrance hall limestone floor",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | north corridor limestone floor",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | hall south stone lining",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | hall north stone lining",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | hall east stone lining",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | entrance hall ceiling lining",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | west north corridor stone lining",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | east north corridor stone lining",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | north corridor ceiling lining",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | south outward-open timber leaf",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | south open-leaf iron strap",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | south open-leaf iron strap.001",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | north outward-open timber leaf",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | north open-leaf iron strap",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    },
+    {
+      "object": "V012 | north open-leaf iron strap.001",
+      "matrix_exact": true,
+      "visibility_exact": true,
+      "evaluated_geometry_exact": true,
+      "material_assignment_exact": true
+    }
+  ],
+  "scope": "Selected actual evaluated vertices/faces, material slot bindings, object transforms/visibility and light energy/color/type only. Not a whole-scene/materialgraph/pixel identity claim. No render/save."
+}

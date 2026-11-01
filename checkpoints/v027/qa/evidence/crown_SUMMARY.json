@@ -1,0 +1,172 @@
+{
+  "pass_no_missing_roof_or_unseated_crown_evidence": true,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "image_sha256": "a009f6e7a5337803827e6b47db74bb1e49106d918af611ca13043ec8359f7f62",
+  "ray_report_sha256": "c289b477a9f2580f7212e7cae49ba13fa6f1a9da1b435f40d05fdcdaabc0b689",
+  "pixel_count": 36,
+  "first_hit_objects": {
+    "V012 | entrance hall ceiling lining": 27,
+    "V027 | three pointed bays with high wall bands": 9
+  },
+  "dark_samples": [
+    {
+      "pixel": [
+        540,
+        186
+      ],
+      "rgb": [
+        10,
+        4,
+        0
+      ],
+      "object": "V012 | entrance hall ceiling lining",
+      "material": "Citadel \u2022 weathered limestone",
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "vertical_gap_to_arch": 0.08656310900670183,
+      "entrance_turn_light_centers_blocked_by_arch": true
+    },
+    {
+      "pixel": [
+        570,
+        181
+      ],
+      "rgb": [
+        2,
+        1,
+        0
+      ],
+      "object": "V012 | entrance hall ceiling lining",
+      "material": "Citadel \u2022 weathered limestone",
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "vertical_gap_to_arch": 0.033374786158945506,
+      "entrance_turn_light_centers_blocked_by_arch": true
+    },
+    {
+      "pixel": [
+        520,
+        28
+      ],
+      "rgb": [
+        3,
+        1,
+        0
+      ],
+      "object": "V012 | entrance hall ceiling lining",
+      "material": "Citadel \u2022 weathered limestone",
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "vertical_gap_to_arch": 0.05390548800538024,
+      "entrance_turn_light_centers_blocked_by_arch": true
+    },
+    {
+      "pixel": [
+        700,
+        6
+      ],
+      "rgb": [
+        1,
+        0,
+        0
+      ],
+      "object": "V012 | entrance hall ceiling lining",
+      "material": "Citadel \u2022 weathered limestone",
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "vertical_gap_to_arch": 0.052181243757048114,
+      "entrance_turn_light_centers_blocked_by_arch": true
+    },
+    {
+      "pixel": [
+        760,
+        0
+      ],
+      "rgb": [
+        8,
+        4,
+        0
+      ],
+      "object": "V012 | entrance hall ceiling lining",
+      "material": "Citadel \u2022 weathered limestone",
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "vertical_gap_to_arch": 0.11681365941882126,
+      "entrance_turn_light_centers_blocked_by_arch": false
+    },
+    {
+      "pixel": [
+        820,
+        0
+      ],
+      "rgb": [
+        11,
+        5,
+        1
+      ],
+      "object": "V012 | entrance hall ceiling lining",
+      "material": "Citadel \u2022 weathered limestone",
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "vertical_gap_to_arch": 0.19878387670785994,
+      "entrance_turn_light_centers_blocked_by_arch": false
+    }
+  ],
+  "crown_seating_profile": [
+    {
+      "operand": "arch -1.8",
+      "ceiling_underside": 32.79999923706055,
+      "saved_extrados_contact_y_interval": [
+        37.852703904069514,
+        38.147296095930486
+      ],
+      "width": 0.2945921918609713,
+      "maximum_vertical_embed": 0.020000457763671875,
+      "scope": "Exact saved operand YZ profile intersection with original horizontal ceiling underside; union membership separately proved by crown witnesses. Not a new load/waterproofing claim."
+    },
+    {
+      "operand": "arch 0.4",
+      "ceiling_underside": 32.79999923706055,
+      "saved_extrados_contact_y_interval": [
+        37.852703904069514,
+        38.147296095930486
+      ],
+      "width": 0.2945921918609713,
+      "maximum_vertical_embed": 0.020000457763671875,
+      "scope": "Exact saved operand YZ profile intersection with original horizontal ceiling underside; union membership separately proved by crown witnesses. Not a new load/waterproofing claim."
+    },
+    {
+      "operand": "arch 2.6",
+      "ceiling_underside": 32.79999923706055,
+      "saved_extrados_contact_y_interval": [
+        37.852703904069514,
+        38.147296095930486
+      ],
+      "width": 0.2945921918609713,
+      "maximum_vertical_embed": 0.020000457763671875,
+      "scope": "Exact saved operand YZ profile intersection with original horizontal ceiling underside; union membership separately proved by crown witnesses. Not a new load/waterproofing claim."
+    }
+  ],
+  "finding": "The sampled thin black strips hit intact weathered-limestone ceiling, not background. Away from the actual crown center there is real intentional haunch airspace between curved extrados and flat ceiling; sampled dark locations have small positive vertical gaps, while all three central crowns embed positively into ceiling. Entrance/turn light-center rays at the darkest samples are blocked by the new arch, supporting shadow interpretation. No same-plane skin overlap was found in prior full explicit contact audit.",
+  "limits": "Finite exact camera pixel-center geometry rays and nearby-light center visibility. Cycles area-light sampling, indirect illumination, material microtexture, denoising and antialiasing are not reproduced; this is not a radiometric causal decomposition. Actual surface hits distinguish solid/haunch views from missing roof; independent seating/coplanar proofs remain necessary.",
+  "source_unchanged": true,
+  "rendered": false
+}

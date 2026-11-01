@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "case": "source_vertex",
+      "returncode": 1,
+      "expected_positive": false,
+      "result_checked": true,
+      "changed_names": {
+        "meshes": [
+          "V012 | entrance hall ceiling lining"
+        ],
+        "visible_evaluated": [
+          "V012 | entrance hall ceiling lining"
+        ]
+      }
+    },
+    {
+      "case": "source_material",
+      "returncode": 1,
+      "expected_positive": false,
+      "result_checked": true,
+      "changed_names": {
+        "materials": [
+          "Citadel \u2022 weathered limestone"
+        ]
+      }
+    }
+  ]
+}

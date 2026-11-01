@@ -1,0 +1,111 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "candidate": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255"
+  },
+  "geometry_sha256": "af5572b813e2fa00b9ff1d9450b05bb6ff5763ade342a67dc89ae917c8311b30",
+  "envelopes_sha256": "08d13412f9e9f849f48dbca60d7abd9c4dc5f7c19bda3981a6738249cb80e9ee",
+  "body_prisms": [
+    {
+      "zone": "entrance_hall",
+      "distance_lower_bound": 0.8799995422363267
+    },
+    {
+      "zone": "turning_elbow",
+      "distance_lower_bound": 1.0940288535259555
+    },
+    {
+      "zone": "north_corridor",
+      "distance_lower_bound": 1.0940288535259555
+    },
+    {
+      "zone": "north_stair_1",
+      "distance_lower_bound": 6.134685607679961
+    },
+    {
+      "zone": "north_stair_2",
+      "distance_lower_bound": 6.711626032971758
+    },
+    {
+      "zone": "north_stair_3",
+      "distance_lower_bound": 7.296792694934727
+    },
+    {
+      "zone": "north_stair_4",
+      "distance_lower_bound": 7.888355112711474
+    },
+    {
+      "zone": "north_stair_5",
+      "distance_lower_bound": 8.484935071884582
+    },
+    {
+      "zone": "north_stair_6",
+      "distance_lower_bound": 9.083288216392027
+    },
+    {
+      "zone": "north_stair_7",
+      "distance_lower_bound": 9.681845199650503
+    },
+    {
+      "zone": "north_stair_8",
+      "distance_lower_bound": 10.280570417926466
+    },
+    {
+      "zone": "north_stair_9",
+      "distance_lower_bound": 10.879436095951567
+    },
+    {
+      "zone": "north_stair_10",
+      "distance_lower_bound": 11.478420249051831
+    },
+    {
+      "zone": "north_stair_11",
+      "distance_lower_bound": 12.077505249917815
+    },
+    {
+      "zone": "north_stair_12",
+      "distance_lower_bound": 12.676676800713254
+    },
+    {
+      "zone": "north_stair_13",
+      "distance_lower_bound": 13.275923182878502
+    },
+    {
+      "zone": "north_stair_14",
+      "distance_lower_bound": 13.875234700920917
+    },
+    {
+      "zone": "north_stair_15",
+      "distance_lower_bound": 14.474603264117093
+    },
+    {
+      "zone": "north_stair_16",
+      "distance_lower_bound": 15.074022067833736
+    },
+    {
+      "zone": "north_stair_17",
+      "distance_lower_bound": 15.673485347856989
+    },
+    {
+      "zone": "north_stair_18",
+      "distance_lower_bound": 16.272988188941728
+    },
+    {
+      "zone": "north_stair_19",
+      "distance_lower_bound": 16.872526374120326
+    },
+    {
+      "zone": "north_stair_20",
+      "distance_lower_bound": 17.472096264997376
+    },
+    {
+      "zone": "covered_terrace_landing",
+      "distance_lower_bound": 18.07169470584551
+    }
+  ],
+  "minimum_body_gap": 0.8799995422363267,
+  "camera_interval_count": 572,
+  "minimum_camera_envelope_gap": 1.2098995422363288,
+  "scope": "Historical accepted central static prisms and analytic continuous eye/near-plane sphere envelope. Current test only checks disjointness of additive geometry; unchanged existing source is proven independently. This does not rerun or generalize historical whole-scene clearance."
+}

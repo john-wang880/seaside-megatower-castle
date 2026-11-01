@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027_hall_bays/git_only_rebuild/source 历史/checkpoints/v026/restore_checkpoint.py", line 74, in <module>
+    main()
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027_hall_bays/git_only_rebuild/source 历史/checkpoints/v026/restore_checkpoint.py", line 70, in main
+    print('Verified and restored:', restore(Path(__file__).resolve().parent, args.repository_root, args.output))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027_hall_bays/git_only_rebuild/source 历史/checkpoints/v026/restore_checkpoint.py", line 45, in restore
+    chunk = path.read_bytes()
+            ^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'work/v027_hall_bays/git_only_rebuild/source 历史/model_chunks/11a0e728adb0566b399b25f0a71f43c8bc904dc15773a6d247fe2416cbbc13bb.bin'

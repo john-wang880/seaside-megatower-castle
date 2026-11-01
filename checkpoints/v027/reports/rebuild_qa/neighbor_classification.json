@@ -1,0 +1,265 @@
+{
+  "pass": true,
+  "geometry_sha256": "db383b5256d75d2c4fc321dbcddf100b73d0486818adab2d8962c90e18544be0",
+  "failures": [],
+  "input_sha256": {
+    "source": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "candidate": "3aca0f43eb9c27f5e7c4194587920db30abf17b7af5b3515950c452986527a10"
+  },
+  "actual_triangle_box_separation": [
+    {
+      "object": "Citadel | deep window recesses",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "Citadel | projecting individual stones",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "V004 | west old recess strips opened for selected upper and lower windows",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "V008 | gallery with genuine eastern approach portal",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "triangle_box_false_positives": [
+        {
+          "triangle": 24122,
+          "separation_lower_bound": 16.8776644559912
+        },
+        {
+          "triangle": 24123,
+          "separation_lower_bound": 14.882558008938265
+        },
+        {
+          "triangle": 24255,
+          "separation_lower_bound": 2.8736730126168792
+        },
+        {
+          "triangle": 24258,
+          "separation_lower_bound": 0.09157243216353772
+        },
+        {
+          "triangle": 24261,
+          "separation_lower_bound": 0.759739555750721
+        },
+        {
+          "triangle": 24264,
+          "separation_lower_bound": 0.08670148442486025
+        },
+        {
+          "triangle": 24313,
+          "separation_lower_bound": 0.9167536735347415
+        },
+        {
+          "triangle": 24315,
+          "separation_lower_bound": 0.09421078652341852
+        },
+        {
+          "triangle": 24317,
+          "separation_lower_bound": 0.9167536735347415
+        },
+        {
+          "triangle": 24319,
+          "separation_lower_bound": 0.09421078652341852
+        }
+      ],
+      "full_component_containment_checks": [
+        {
+          "seed": 13177,
+          "triangle_count": 112,
+          "bounds": [
+            [
+              -3.0,
+              -6.0,
+              30.0
+            ],
+            [
+              71.0,
+              70.0,
+              32.400001525878906
+            ]
+          ],
+          "union_interior_probe": {
+            "state": "outside",
+            "parity": [
+              0,
+              0,
+              0
+            ],
+            "crossings": [
+              0,
+              0,
+              0
+            ],
+            "surface_margin": 1.555023713253797
+          },
+          "closed_edges": true,
+          "positive_volume": true,
+          "not_wholly_enclosed_by_new_box": true
+        },
+        {
+          "seed": 13247,
+          "triangle_count": 68,
+          "bounds": [
+            [
+              -2.299999952316284,
+              -2.5,
+              31.5
+            ],
+            [
+              0.699999988079071,
+              58.5,
+              38.099998474121094
+            ]
+          ],
+          "union_interior_probe": {
+            "state": "outside",
+            "parity": [
+              0,
+              0,
+              0
+            ],
+            "crossings": [
+              2,
+              2,
+              2
+            ],
+            "surface_margin": 0.09000152587890398
+          },
+          "closed_edges": true,
+          "positive_volume": true,
+          "not_wholly_enclosed_by_new_box": true
+        },
+        {
+          "seed": 13275,
+          "triangle_count": 52,
+          "bounds": [
+            [
+              -0.49383753538131714,
+              35.152320861816406,
+              30.899999618530273
+            ],
+            [
+              2.093837261199951,
+              36.77857208251953,
+              37.20000076293945
+            ]
+          ],
+          "union_interior_probe": {
+            "state": "outside",
+            "parity": [
+              0,
+              0,
+              0
+            ],
+            "crossings": [
+              0,
+              0,
+              0
+            ],
+            "surface_margin": 1.9709467696076821
+          },
+          "closed_edges": true,
+          "positive_volume": true,
+          "not_wholly_enclosed_by_new_box": true
+        }
+      ]
+    },
+    {
+      "object": "V012 | foundation with continuous L-shaped passage",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "triangle_box_false_positives": [],
+      "full_component_containment_checks": []
+    },
+    {
+      "object": "V012 | terrace ledges with bounded stair opening",
+      "triangle_box_false_positives": [
+        {
+          "triangle": 84115,
+          "separation_lower_bound": 16.87266392444881
+        },
+        {
+          "triangle": 84118,
+          "separation_lower_bound": 14.881490743815904
+        },
+        {
+          "triangle": 84140,
+          "separation_lower_bound": 16.87266392444881
+        },
+        {
+          "triangle": 84141,
+          "separation_lower_bound": 14.881490743815904
+        }
+      ],
+      "full_component_containment_checks": [
+        {
+          "seed": 45899,
+          "triangle_count": 88,
+          "bounds": [
+            [
+              -3.5,
+              -6.5,
+              32.29500198364258
+            ],
+            [
+              71.5,
+              70.5,
+              32.625
+            ]
+          ],
+          "union_interior_probe": {
+            "state": "outside",
+            "parity": [
+              0,
+              0,
+              0
+            ],
+            "crossings": [
+              0,
+              0,
+              0
+            ],
+            "surface_margin": 1.5113652768275447
+          },
+          "closed_edges": true,
+          "positive_volume": true,
+          "not_wholly_enclosed_by_new_box": true
+        }
+      ]
+    }
+  ],
+  "controls": 2,
+  "scope": "Explicit triangle-vs-entire-addition-box SAT resolves broadphase candidates. Full connected old components with overlapping bounds checked separately for closedness and outside parity at known new-union interior point; no crossing of entire box plus connected new union excludes unobserved containment. No AABB-only collision waiver."
+}

@@ -1,0 +1,22 @@
+test_checkpoint_output (__main__.Guards.test_checkpoint_output) ... ok
+test_existing_output (__main__.Guards.test_existing_output) ... ok
+test_extra_cache (__main__.Guards.test_extra_cache) ... ok
+test_hardlink_alias (__main__.Guards.test_hardlink_alias) ... ok
+test_missing_parent (__main__.Guards.test_missing_parent) ... ok
+test_operand_drift (__main__.Guards.test_operand_drift) ... ok
+test_optimized (__main__.Guards.test_optimized) ... ok
+test_output_under_bundle (__main__.Guards.test_output_under_bundle) ... ok
+test_payload_tamper (__main__.Guards.test_payload_tamper) ... ok
+test_rebuilt_with_reference (__main__.Guards.test_rebuilt_with_reference) ... ok
+test_receipt_identity (__main__.Guards.test_receipt_identity) ... ok
+test_symlink (__main__.Guards.test_symlink) ... ok
+test_traversal (__main__.Guards.test_traversal) ... ok
+test_unknown_candidate (__main__.Guards.test_unknown_candidate) ... ok
+test_valid (__main__.Guards.test_valid) ... ok
+test_wrong_accepted (__main__.Guards.test_wrong_accepted) ... ok
+test_wrong_source (__main__.Guards.test_wrong_source) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.138s
+
+OK

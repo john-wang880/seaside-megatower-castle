@@ -1,0 +1,17 @@
+{
+  "successful_executed_candidate_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "candidate_was_built_by_wrapper": false,
+  "frozen_executed_payload": {
+    "plan.json": "2d4673f76244d1c7d1bf40f002370e219f35db7198ba413a309a6008f0384e78",
+    "scripts/build.py": "6da85e129267f3e5bac597c8635ea1741c1744ed0e147ec3f5816220f23b19a1",
+    "scripts/plan.json": "2d4673f76244d1c7d1bf40f002370e219f35db7198ba413a309a6008f0384e78",
+    "scripts/snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "scripts/support_envelope.json": "8fe6d70b4b6f24b5ae83a4bfb2df3734d3644f5ca2fa229a20478e1cae60352e"
+  },
+  "wrapper_sha256": "811ace4ddc5321227b58f8bfcddebdf006ca7b34b331ec09173df0815492e32e",
+  "fresh_native_rebuild_status": "PASS: guarded fixed-history source rebuild and independent all12-category semantic/full QA",
+  "fresh_rebuild_sha256": "3aca0f43eb9c27f5e7c4194587920db30abf17b7af5b3515950c452986527a10",
+  "independent_summary_sha256": "036f87438cc7861c6ca8140bcbdd03b72f8525f176f759139425a204cb99e668",
+  "independent_public_qa_manifest_sha256": "471e2faedee2f31a23ab5b567c33d556e5bd0c82a322b583c76f9da309087090",
+  "provenance_note": "Metadata updated after independent completion; isolated executed recipe retains initial pending metadata and original inventory."
+}

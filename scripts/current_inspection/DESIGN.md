@@ -1,2 +1,5 @@
-# v026 manual east-view extension
-Base fixedGit8e89fe44963b73bcd75bfaf59406cc808e9efd43. Exact source/version/namespace unchanged. Original14catalog records exact; one reviewed east_lateral view added.15bookmarks/14added cameras throughout guards/export/QA, source-statecategories13/APInegatives20 unchanged. No source model bump, quality/render behavior or originaldata change. Fresh actual15-bookmark/13-state/20-negative/reopen validation passed locally; remote publication remains owner responsibility.
+# Narrow v027 refresh
+
+Only reviewed version/source binding, owned UI namespace and one explicitly approved standing-eye ceiling bookmark change. Geometry, source cameras, render/lighting/quality/LOD and manual opt-in behavior are unchanged. Original15 catalog entries are compared structurally after normalizing only INSPECT27→INSPECT26 owned names. New camera provenance binds actual candidate receipt; old provenance remains historical, not relabeled current.
+
+Counts:16 bookmarks,15 added cameras,13 original-state QA categories,20 API negatives. Fresh native validation passed; no stale acceptance reports retained.

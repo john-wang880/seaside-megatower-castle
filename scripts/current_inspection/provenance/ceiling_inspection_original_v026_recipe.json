@@ -1,0 +1,64 @@
+{
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "source_scene_frame": 1,
+  "resolution": [
+    960,
+    694
+  ],
+  "samples": 80,
+  "threads": 8,
+  "views": {
+    "ceiling_inspection": {
+      "location": [
+        -3.0,
+        38.0,
+        30.649999618530273
+      ],
+      "target": [
+        0.8831450939178467,
+        38.78184127807617,
+        31.20669174194336
+      ],
+      "lens": 26,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "reference_matrix": [
+        [
+          0.19738131761550903,
+          -0.13643518090248108,
+          -0.9707863330841064,
+          -3.0
+        ],
+        [
+          -0.980326771736145,
+          -0.0274703036993742,
+          -0.19546039402484894,
+          38.0
+        ],
+        [
+          -1.2142264438352868e-07,
+          0.9902680516242981,
+          -0.13917319476604462,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_data": {
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0
+      }
+    }
+  },
+  "scope": "NEW separate standing-eye inspection, same frame1 position/yaw/lens, pitch +8 degrees. Historical walk unchanged."
+}

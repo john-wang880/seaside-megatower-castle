@@ -1,47 +1,25 @@
 {
   "pass": true,
-  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
-  "viewer_sha256": "8777486075abef02e2d73cd834581a360863d198d4be05f6ece634a4f634a958",
-  "runtime_sha256": {
-    "export_inspection.py": "a561073de8d7cfae3c5e8dd29b5e88ab42992cd12d2dd6e7600622215274ab90",
-    "preflight.py": "2666781717fc7b9dac2d1609a07da078a0a5631ea9e8d3015d6cb648125aeaa3",
-    "catalog.json": "03405e881888a989bfda1da2eb763138e204134e422a807c5843b514a7fe56c0",
-    "ui_template.py": "55dc286da161ae42129c9c5241f761a479a3b59e41cf03c2d614f9bfc0dab32c"
-  },
-  "implementation_pure_tests": 18,
-  "independent_pure_tests": 24,
-  "actual_source_categories": {
-    "meshes": true,
-    "objects": true,
-    "materials": true,
-    "lights": true,
-    "cameras": true,
-    "worlds": true,
-    "visible_evaluated": true,
-    "scene": true,
-    "libraries": true,
-    "texts": true,
-    "collections": true,
-    "scene_custom": true,
-    "visibility": true
-  },
-  "bookmarks": 15,
-  "added_cameras": 14,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "viewer_sha256": "396863f091d933388607bc7523278c6e7af03f345b1b889d47f75ddf0b2b86fc",
+  "catalog_sha256": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
+  "bookmarks": 16,
+  "added_cameras": 15,
+  "source_categories": 13,
   "api_negatives": 20,
-  "repeat_register_unregister": true,
-  "disabled_script_reopen": true,
-  "all_inputs_unchanged": true,
-  "reports": {
-    "reports/export_v026.json": "c1a29e979512f7ff8000c6e0a33ff17e972e85b3d752e3a8d729a28b5028622d",
-    "reports/implementation_tests18.log": "821802d99ef3e69063f8012443ea1177f1b4990be223bfd13b986dea8753895b",
-    "qa/reports/SUMMARY_v026.json": "986dfc1f1efb1ecbbae88f8b4eb04b01d3902bfd1d7ef764a88669084980f235",
-    "qa/reports/pure_tests_v026.log": "443f8e70f3b9384044f0de56536cd36835769434b0135ba2a991f52c2715d71f",
-    "qa/reports/validation_v026.json": "2c8815c6331a2f6df14c960d4b3c02a7f2c324bc52a2d805428916a3103636aa"
-  },
-  "limits": [
-    "Local validation; owner handles remote publication/fresh remote verification.",
-    "No render, native Windows execution or desktop-click claim.",
-    "Viewer binary excluded, regenerate explicitly.",
-    "Docs/report packaging changes neither executed Python nor runtime/catalog."
-  ]
+  "pure_tests": [
+    18,
+    24
+  ],
+  "runtime_unchanged": true,
+  "source_unchanged": true,
+  "rendered": false,
+  "native_windows_tested": false,
+  "remote_publication": "owner task",
+  "evidence": [
+    "reports/export.json",
+    "qa/reports/SUMMARY.json",
+    "qa/reports/validation.json"
+  ],
+  "packaging_note": "Reports/docs added after executed full-inventory validation. Executed inventory and QA manifest retained under provenance; Python/runtime unchanged."
 }

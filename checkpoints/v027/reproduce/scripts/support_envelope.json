@@ -1,0 +1,2043 @@
+{
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "scope": "CPU proposal only, no candidate geometry/contact proof. All boxes conservative and based on actual previously exported evaluated closed host boxes.",
+  "addition_envelopes": [
+    {
+      "name": "arch_-1.8",
+      "bounds": [
+        [
+          -1.94,
+          36.56,
+          32.15
+        ],
+        [
+          -1.6600000000000001,
+          39.44,
+          32.82
+        ]
+      ]
+    },
+    {
+      "name": "arch_0.4",
+      "bounds": [
+        [
+          0.26,
+          36.56,
+          32.15
+        ],
+        [
+          0.54,
+          39.44,
+          32.82
+        ]
+      ]
+    },
+    {
+      "name": "arch_2.6",
+      "bounds": [
+        [
+          2.46,
+          36.56,
+          32.15
+        ],
+        [
+          2.74,
+          39.44,
+          32.82
+        ]
+      ]
+    },
+    {
+      "name": "south_band",
+      "bounds": [
+        [
+          -2.5,
+          36.56,
+          31.98
+        ],
+        [
+          3.2,
+          36.72,
+          32.22
+        ]
+      ]
+    },
+    {
+      "name": "north_band",
+      "bounds": [
+        [
+          -2.5,
+          39.28,
+          31.98
+        ],
+        [
+          3.2,
+          39.44,
+          32.22
+        ]
+      ]
+    }
+  ],
+  "combined_box": [
+    [
+      -2.5,
+      36.56,
+      31.98
+    ],
+    [
+      3.2,
+      39.44,
+      32.82
+    ]
+  ],
+  "body_prism": [
+    [
+      -3.5,
+      37.4,
+      29
+    ],
+    [
+      4.45,
+      38.6,
+      31.1
+    ]
+  ],
+  "body_separation": [
+    {
+      "addition": "arch_-1.8",
+      "lower_bound": 1.0499999999999972
+    },
+    {
+      "addition": "arch_0.4",
+      "lower_bound": 1.0499999999999972
+    },
+    {
+      "addition": "arch_2.6",
+      "lower_bound": 1.0499999999999972
+    },
+    {
+      "addition": "south_band",
+      "lower_bound": 1.1121151019566267
+    },
+    {
+      "addition": "north_band",
+      "lower_bound": 1.1121151019566267
+    }
+  ],
+  "fixture_pair_count": 380,
+  "minimum_fixture": {
+    "addition": "south_band",
+    "object": "V013 | entrance rain hood",
+    "AABB_separation_lower_bound": 0.6700005340576176
+  },
+  "fixture_clearance": [
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance mounting plate",
+      "AABB_separation_lower_bound": 1.87369345641251
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance wall arm",
+      "AABB_separation_lower_bound": 1.8713324066757158
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance lower cup",
+      "AABB_separation_lower_bound": 1.9935598509923416
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance hood rim",
+      "AABB_separation_lower_bound": 1.8106025359658404
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance rain hood",
+      "AABB_separation_lower_bound": 1.7629806859591015
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance cage upright 0",
+      "AABB_separation_lower_bound": 1.955280189081158
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance cage upright 1",
+      "AABB_separation_lower_bound": 1.8547782816514176
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance cage upright 2",
+      "AABB_separation_lower_bound": 1.8547782816514176
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance cage upright 3",
+      "AABB_separation_lower_bound": 1.955280189081158
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | entrance luminous flame",
+      "AABB_separation_lower_bound": 1.9404254573438555
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn mounting plate",
+      "AABB_separation_lower_bound": 7.115399233654545
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn wall arm",
+      "AABB_separation_lower_bound": 6.929125727904678
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn lower cup",
+      "AABB_separation_lower_bound": 6.89789656232964
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn hood rim",
+      "AABB_separation_lower_bound": 6.842585672532944
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn rain hood",
+      "AABB_separation_lower_bound": 6.825041893351959
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn cage upright 0",
+      "AABB_separation_lower_bound": 6.998201398859021
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn cage upright 1",
+      "AABB_separation_lower_bound": 6.883570255982474
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn cage upright 2",
+      "AABB_separation_lower_bound": 6.883570255982474
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn cage upright 3",
+      "AABB_separation_lower_bound": 6.998201398859021
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | turn luminous flame",
+      "AABB_separation_lower_bound": 6.9401042334153145
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor mounting plate",
+      "AABB_separation_lower_bound": 8.186302451651642
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor wall arm",
+      "AABB_separation_lower_bound": 8.037683848221503
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor lower cup",
+      "AABB_separation_lower_bound": 7.972503224572933
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor hood rim",
+      "AABB_separation_lower_bound": 7.919849045487748
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor rain hood",
+      "AABB_separation_lower_bound": 7.900866633817398
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor cage upright 0",
+      "AABB_separation_lower_bound": 8.13172691035733
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor cage upright 1",
+      "AABB_separation_lower_bound": 8.033286948359548
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor cage upright 2",
+      "AABB_separation_lower_bound": 7.974593152287751
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor cage upright 3",
+      "AABB_separation_lower_bound": 8.073748775783182
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | corridor luminous flame",
+      "AABB_separation_lower_bound": 8.045835029612556
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair mounting plate",
+      "AABB_separation_lower_bound": 12.158688195006173
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair wall arm",
+      "AABB_separation_lower_bound": 12.077288489374364
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair lower cup",
+      "AABB_separation_lower_bound": 11.955483898219999
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair hood rim",
+      "AABB_separation_lower_bound": 11.95350531667023
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair rain hood",
+      "AABB_separation_lower_bound": 11.946552504656811
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair cage upright 0",
+      "AABB_separation_lower_bound": 12.167664240991764
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair cage upright 1",
+      "AABB_separation_lower_bound": 12.102097740952347
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair cage upright 2",
+      "AABB_separation_lower_bound": 12.006368072271318
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair cage upright 3",
+      "AABB_separation_lower_bound": 12.072454499264094
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V013 | stair luminous flame",
+      "AABB_separation_lower_bound": 12.064761669944817
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker cage upright 0",
+      "AABB_separation_lower_bound": 16.891595823808697
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker cage upright 1",
+      "AABB_separation_lower_bound": 16.844427153363384
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker cage upright 2",
+      "AABB_separation_lower_bound": 16.738411815905575
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker cage upright 3",
+      "AABB_separation_lower_bound": 16.785878394316846
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker hood rim",
+      "AABB_separation_lower_bound": 16.693205646542033
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker lower cup",
+      "AABB_separation_lower_bound": 16.68807697502298
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker luminous flame",
+      "AABB_separation_lower_bound": 16.79484807635971
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker mounting plate",
+      "AABB_separation_lower_bound": 16.85504914897354
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker rain hood",
+      "AABB_separation_lower_bound": 16.68720089126743
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V014 | landing marker wall arm",
+      "AABB_separation_lower_bound": 16.806729787061304
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge lower neck",
+      "AABB_separation_lower_bound": 2.950542981980393
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge lower barrel",
+      "AABB_separation_lower_bound": 2.914814974309829
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge lower pintle",
+      "AABB_separation_lower_bound": 2.9840584722462165
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge lower wall anchor",
+      "AABB_separation_lower_bound": 2.867977312234253
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge lower pin cap",
+      "AABB_separation_lower_bound": 2.9059159449074143
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge upper neck",
+      "AABB_separation_lower_bound": 2.271498233371007
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge upper barrel",
+      "AABB_separation_lower_bound": 2.2369952801085375
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge upper pintle",
+      "AABB_separation_lower_bound": 2.2796049995168026
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge upper wall anchor",
+      "AABB_separation_lower_bound": 2.1879891739518915
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | south hinge upper pin cap",
+      "AABB_separation_lower_bound": 2.233461402475916
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge lower neck",
+      "AABB_separation_lower_bound": 2.950542981980393
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge lower barrel",
+      "AABB_separation_lower_bound": 2.914814974309829
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge lower pintle",
+      "AABB_separation_lower_bound": 2.9840584722462165
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge lower wall anchor",
+      "AABB_separation_lower_bound": 2.867977312234253
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge lower pin cap",
+      "AABB_separation_lower_bound": 2.9059159449074143
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge upper neck",
+      "AABB_separation_lower_bound": 2.271498233371007
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge upper barrel",
+      "AABB_separation_lower_bound": 2.2369952801085375
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge upper pintle",
+      "AABB_separation_lower_bound": 2.2796049995168026
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge upper wall anchor",
+      "AABB_separation_lower_bound": 2.1879891739518915
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V015 | north hinge upper pin cap",
+      "AABB_separation_lower_bound": 2.233461402475916
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V012 | south outward-open timber leaf",
+      "AABB_separation_lower_bound": 1.7400281125029597
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V012 | south open-leaf iron strap",
+      "AABB_separation_lower_bound": 3.1079897574868713
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V012 | south open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 2.472569648834418
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V012 | north outward-open timber leaf",
+      "AABB_separation_lower_bound": 1.7400281125029597
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V012 | north open-leaf iron strap",
+      "AABB_separation_lower_bound": 3.1079897574868713
+    },
+    {
+      "addition": "arch_-1.8",
+      "object": "V012 | north open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 2.472569648834418
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance mounting plate",
+      "AABB_separation_lower_bound": 0.9740262694659978
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance wall arm",
+      "AABB_separation_lower_bound": 0.9296692933332491
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance lower cup",
+      "AABB_separation_lower_bound": 1.2570922282432153
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance hood rim",
+      "AABB_separation_lower_bound": 0.9403624482436636
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance rain hood",
+      "AABB_separation_lower_bound": 0.8532882850455019
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance cage upright 0",
+      "AABB_separation_lower_bound": 0.969409204081014
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance cage upright 1",
+      "AABB_separation_lower_bound": 0.9989839314039299
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance cage upright 2",
+      "AABB_separation_lower_bound": 0.9989839314039299
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance cage upright 3",
+      "AABB_separation_lower_bound": 0.969409204081014
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | entrance luminous flame",
+      "AABB_separation_lower_bound": 1.0710980144464801
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn mounting plate",
+      "AABB_separation_lower_bound": 4.950142018419437
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn wall arm",
+      "AABB_separation_lower_bound": 4.762591413013225
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn lower cup",
+      "AABB_separation_lower_bound": 4.759724456381454
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn hood rim",
+      "AABB_separation_lower_bound": 4.679207048424955
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn rain hood",
+      "AABB_separation_lower_bound": 4.655877711627099
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn cage upright 0",
+      "AABB_separation_lower_bound": 4.83438693362555
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn cage upright 1",
+      "AABB_separation_lower_bound": 4.721256547164824
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn cage upright 2",
+      "AABB_separation_lower_bound": 4.721256547164824
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn cage upright 3",
+      "AABB_separation_lower_bound": 4.83438693362555
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | turn luminous flame",
+      "AABB_separation_lower_bound": 4.784040867555292
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor mounting plate",
+      "AABB_separation_lower_bound": 6.394571727500416
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor wall arm",
+      "AABB_separation_lower_bound": 6.266885610744593
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor lower cup",
+      "AABB_separation_lower_bound": 6.215690434851343
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor hood rim",
+      "AABB_separation_lower_bound": 6.148008524667956
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor rain hood",
+      "AABB_separation_lower_bound": 6.12533215303348
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor cage upright 0",
+      "AABB_separation_lower_bound": 6.365646608919369
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor cage upright 1",
+      "AABB_separation_lower_bound": 6.28016107355408
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor cage upright 2",
+      "AABB_separation_lower_bound": 6.204906112070897
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor cage upright 3",
+      "AABB_separation_lower_bound": 6.29141426862653
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | corridor luminous flame",
+      "AABB_separation_lower_bound": 6.281517458027998
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair mounting plate",
+      "AABB_separation_lower_bound": 11.032166531176568
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair wall arm",
+      "AABB_separation_lower_bound": 10.978633378967134
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair lower cup",
+      "AABB_separation_lower_bound": 10.863130080997571
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair hood rim",
+      "AABB_separation_lower_bound": 10.86095250296861
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair rain hood",
+      "AABB_separation_lower_bound": 10.854313297769629
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair cage upright 0",
+      "AABB_separation_lower_bound": 11.065646266103338
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair cage upright 1",
+      "AABB_separation_lower_bound": 11.0166915926091
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair cage upright 2",
+      "AABB_separation_lower_bound": 10.911443451805823
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair cage upright 3",
+      "AABB_separation_lower_bound": 10.960868206570998
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V013 | stair luminous flame",
+      "AABB_separation_lower_bound": 10.967245524941058
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker cage upright 0",
+      "AABB_separation_lower_bound": 16.11590778330307
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker cage upright 1",
+      "AABB_separation_lower_bound": 16.08233347621127
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker cage upright 2",
+      "AABB_separation_lower_bound": 15.971260251900832
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker cage upright 3",
+      "AABB_separation_lower_bound": 16.005067562300702
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker hood rim",
+      "AABB_separation_lower_bound": 15.92912786921555
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker lower cup",
+      "AABB_separation_lower_bound": 15.923753107869038
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker luminous flame",
+      "AABB_separation_lower_bound": 16.024634852619062
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker mounting plate",
+      "AABB_separation_lower_bound": 16.06137234368669
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker rain hood",
+      "AABB_separation_lower_bound": 15.92352580319865
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V014 | landing marker wall arm",
+      "AABB_separation_lower_bound": 16.035450095007953
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge lower neck",
+      "AABB_separation_lower_bound": 4.522577124444875
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge lower barrel",
+      "AABB_separation_lower_bound": 4.492009108508215
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge lower pintle",
+      "AABB_separation_lower_bound": 4.505619298111649
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge lower wall anchor",
+      "AABB_separation_lower_bound": 4.429593001306339
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge lower pin cap",
+      "AABB_separation_lower_bound": 4.491141055723722
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge upper neck",
+      "AABB_separation_lower_bound": 4.111897880814398
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge upper barrel",
+      "AABB_separation_lower_bound": 4.08486809819948
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge upper pintle",
+      "AABB_separation_lower_bound": 4.073401434618701
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge upper wall anchor",
+      "AABB_separation_lower_bound": 4.0228468674636835
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | south hinge upper pin cap",
+      "AABB_separation_lower_bound": 4.088318766912595
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge lower neck",
+      "AABB_separation_lower_bound": 4.522577124444875
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge lower barrel",
+      "AABB_separation_lower_bound": 4.492009108508215
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge lower pintle",
+      "AABB_separation_lower_bound": 4.505619298111649
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge lower wall anchor",
+      "AABB_separation_lower_bound": 4.429593001306339
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge lower pin cap",
+      "AABB_separation_lower_bound": 4.491141055723722
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge upper neck",
+      "AABB_separation_lower_bound": 4.111897880814398
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge upper barrel",
+      "AABB_separation_lower_bound": 4.08486809819948
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge upper pintle",
+      "AABB_separation_lower_bound": 4.073401434618701
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge upper wall anchor",
+      "AABB_separation_lower_bound": 4.0228468674636835
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V015 | north hinge upper pin cap",
+      "AABB_separation_lower_bound": 4.088318766912595
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V012 | south outward-open timber leaf",
+      "AABB_separation_lower_bound": 3.866742507911829
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V012 | south open-leaf iron strap",
+      "AABB_separation_lower_bound": 4.716312176102389
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V012 | south open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 4.3240722563511245
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V012 | north outward-open timber leaf",
+      "AABB_separation_lower_bound": 3.866742507911829
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V012 | north open-leaf iron strap",
+      "AABB_separation_lower_bound": 4.716312176102389
+    },
+    {
+      "addition": "arch_0.4",
+      "object": "V012 | north open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 4.3240722563511245
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance mounting plate",
+      "AABB_separation_lower_bound": 2.5951352885239016
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance wall arm",
+      "AABB_separation_lower_bound": 2.601746522164212
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance lower cup",
+      "AABB_separation_lower_bound": 2.665010484920053
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance hood rim",
+      "AABB_separation_lower_bound": 2.5310633236825866
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance rain hood",
+      "AABB_separation_lower_bound": 2.495616336702919
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance cage upright 0",
+      "AABB_separation_lower_bound": 2.574690283596281
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance cage upright 1",
+      "AABB_separation_lower_bound": 2.6828143861872453
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance cage upright 2",
+      "AABB_separation_lower_bound": 2.6828143861872453
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance cage upright 3",
+      "AABB_separation_lower_bound": 2.574690283596281
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | entrance luminous flame",
+      "AABB_separation_lower_bound": 2.64976432063534
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn mounting plate",
+      "AABB_separation_lower_bound": 2.838821190344971
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn wall arm",
+      "AABB_separation_lower_bound": 2.6517485894224744
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn lower cup",
+      "AABB_separation_lower_bound": 2.72194357339611
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn hood rim",
+      "AABB_separation_lower_bound": 2.578561327195154
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn rain hood",
+      "AABB_separation_lower_bound": 2.540314485500307
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn cage upright 0",
+      "AABB_separation_lower_bound": 2.7290605029985198
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn cage upright 1",
+      "AABB_separation_lower_bound": 2.622401056140501
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn cage upright 2",
+      "AABB_separation_lower_bound": 2.622401056140501
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn cage upright 3",
+      "AABB_separation_lower_bound": 2.7290605029985198
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | turn luminous flame",
+      "AABB_separation_lower_bound": 2.699823563533219
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor mounting plate",
+      "AABB_separation_lower_bound": 4.944243857899571
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor wall arm",
+      "AABB_separation_lower_bound": 4.860385671153514
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor lower cup",
+      "AABB_separation_lower_bound": 4.836197628093701
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor hood rim",
+      "AABB_separation_lower_bound": 4.748895527958739
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor rain hood",
+      "AABB_separation_lower_bound": 4.721831678978241
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor cage upright 0",
+      "AABB_separation_lower_bound": 4.959630122767599
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor cage upright 1",
+      "AABB_separation_lower_bound": 4.901749384136651
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor cage upright 2",
+      "AABB_separation_lower_bound": 4.804954086639629
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor cage upright 3",
+      "AABB_separation_lower_bound": 4.863986811710594
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | corridor luminous flame",
+      "AABB_separation_lower_bound": 4.884614808485981
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair mounting plate",
+      "AABB_separation_lower_bound": 10.25980984813278
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair wall arm",
+      "AABB_separation_lower_bound": 10.241088051763255
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair lower cup",
+      "AABB_separation_lower_bound": 10.13713939298217
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair hood rim",
+      "AABB_separation_lower_bound": 10.134805828816692
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair rain hood",
+      "AABB_separation_lower_bound": 10.128776707270987
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair cage upright 0",
+      "AABB_separation_lower_bound": 10.321094975415342
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair cage upright 1",
+      "AABB_separation_lower_bound": 10.293406509108834
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair cage upright 2",
+      "AABB_separation_lower_bound": 10.180683774533826
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair cage upright 3",
+      "AABB_separation_lower_bound": 10.208677977428616
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V013 | stair luminous flame",
+      "AABB_separation_lower_bound": 10.231445384505049
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker cage upright 0",
+      "AABB_separation_lower_bound": 15.61406282442035
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker cage upright 1",
+      "AABB_separation_lower_bound": 15.595774233912397
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker cage upright 2",
+      "AABB_separation_lower_bound": 15.481210480742375
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker cage upright 3",
+      "AABB_separation_lower_bound": 15.499634249840454
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker hood rim",
+      "AABB_separation_lower_bound": 15.443157533027247
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker lower cup",
+      "AABB_separation_lower_bound": 15.43761357711889
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker luminous flame",
+      "AABB_separation_lower_bound": 15.530322675705856
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker mounting plate",
+      "AABB_separation_lower_bound": 15.541000009998506
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker rain hood",
+      "AABB_separation_lower_bound": 15.43809167043485
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V014 | landing marker wall arm",
+      "AABB_separation_lower_bound": 15.53979257788492
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge lower neck",
+      "AABB_separation_lower_bound": 6.471607513175564
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge lower barrel",
+      "AABB_separation_lower_bound": 6.44516449187922
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge lower pintle",
+      "AABB_separation_lower_bound": 6.432464967121687
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge lower wall anchor",
+      "AABB_separation_lower_bound": 6.379443114485291
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge lower pin cap",
+      "AABB_separation_lower_bound": 6.447972432164023
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge upper neck",
+      "AABB_separation_lower_bound": 6.191583330642031
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge upper barrel",
+      "AABB_separation_lower_bound": 6.168317994084594
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge upper pintle",
+      "AABB_separation_lower_bound": 6.137475013495809
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge upper wall anchor",
+      "AABB_separation_lower_bound": 6.104039417696617
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | south hinge upper pin cap",
+      "AABB_separation_lower_bound": 6.174168028441546
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge lower neck",
+      "AABB_separation_lower_bound": 6.471607513175564
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge lower barrel",
+      "AABB_separation_lower_bound": 6.44516449187922
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge lower pintle",
+      "AABB_separation_lower_bound": 6.432464967121687
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge lower wall anchor",
+      "AABB_separation_lower_bound": 6.379443114485291
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge lower pin cap",
+      "AABB_separation_lower_bound": 6.447972432164023
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge upper neck",
+      "AABB_separation_lower_bound": 6.191583330642031
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge upper barrel",
+      "AABB_separation_lower_bound": 6.168317994084594
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge upper pintle",
+      "AABB_separation_lower_bound": 6.137475013495809
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge upper wall anchor",
+      "AABB_separation_lower_bound": 6.104039417696617
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V015 | north hinge upper pin cap",
+      "AABB_separation_lower_bound": 6.174168028441546
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V012 | south outward-open timber leaf",
+      "AABB_separation_lower_bound": 6.046130780315946
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V012 | south open-leaf iron strap",
+      "AABB_separation_lower_bound": 6.671401708206455
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V012 | south open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 6.400125083774055
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V012 | north outward-open timber leaf",
+      "AABB_separation_lower_bound": 6.046130780315946
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V012 | north open-leaf iron strap",
+      "AABB_separation_lower_bound": 6.671401708206455
+    },
+    {
+      "addition": "arch_2.6",
+      "object": "V012 | north open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 6.400125083774055
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance mounting plate",
+      "AABB_separation_lower_bound": 0.7800011444091801
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance wall arm",
+      "AABB_separation_lower_bound": 0.7276196289062504
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance lower cup",
+      "AABB_separation_lower_bound": 1.0774998474121098
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance hood rim",
+      "AABB_separation_lower_bound": 0.757500152587891
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance rain hood",
+      "AABB_separation_lower_bound": 0.6700005340576176
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance cage upright 0",
+      "AABB_separation_lower_bound": 0.7890223985973812
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance cage upright 1",
+      "AABB_separation_lower_bound": 0.7890223985973812
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance cage upright 2",
+      "AABB_separation_lower_bound": 0.7800050782143406
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance cage upright 3",
+      "AABB_separation_lower_bound": 0.7800050782143406
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | entrance luminous flame",
+      "AABB_separation_lower_bound": 0.876156804547775
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn mounting plate",
+      "AABB_separation_lower_bound": 3.0115018650931384
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn wall arm",
+      "AABB_separation_lower_bound": 2.885904434460336
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn lower cup",
+      "AABB_separation_lower_bound": 2.888972068086302
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn hood rim",
+      "AABB_separation_lower_bound": 2.7739793091833125
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn rain hood",
+      "AABB_separation_lower_bound": 2.7414050125292215
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn cage upright 0",
+      "AABB_separation_lower_bound": 2.9883403795726706
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn cage upright 1",
+      "AABB_separation_lower_bound": 2.9096533934730857
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn cage upright 2",
+      "AABB_separation_lower_bound": 2.8320580713000973
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn cage upright 3",
+      "AABB_separation_lower_bound": 2.9128419581657905
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | turn luminous flame",
+      "AABB_separation_lower_bound": 2.9188820959420783
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor mounting plate",
+      "AABB_separation_lower_bound": 7.148549298916016
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor wall arm",
+      "AABB_separation_lower_bound": 7.114095213640992
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor lower cup",
+      "AABB_separation_lower_bound": 7.06173918068384
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor hood rim",
+      "AABB_separation_lower_bound": 7.01000437872423
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor rain hood",
+      "AABB_separation_lower_bound": 6.992209323519133
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor cage upright 0",
+      "AABB_separation_lower_bound": 7.202391418459338
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor cage upright 1",
+      "AABB_separation_lower_bound": 7.170100891247041
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor cage upright 2",
+      "AABB_separation_lower_bound": 7.059739666977279
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor cage upright 3",
+      "AABB_separation_lower_bound": 7.092532659038487
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | corridor luminous flame",
+      "AABB_separation_lower_bound": 7.125254638043607
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair mounting plate",
+      "AABB_separation_lower_bound": 12.821264225064482
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair wall arm",
+      "AABB_separation_lower_bound": 12.818501695206495
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair lower cup",
+      "AABB_separation_lower_bound": 12.718567377325101
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair hood rim",
+      "AABB_separation_lower_bound": 12.718480892976903
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair rain hood",
+      "AABB_separation_lower_bound": 12.712821191771795
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair cage upright 0",
+      "AABB_separation_lower_bound": 12.894432922236035
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair cage upright 1",
+      "AABB_separation_lower_bound": 12.87642438847095
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair cage upright 2",
+      "AABB_separation_lower_bound": 12.761801242938034
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair cage upright 3",
+      "AABB_separation_lower_bound": 12.779971295675505
+    },
+    {
+      "addition": "south_band",
+      "object": "V013 | stair luminous flame",
+      "AABB_separation_lower_bound": 12.809732619100009
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker cage upright 0",
+      "AABB_separation_lower_bound": 18.26013062859605
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker cage upright 1",
+      "AABB_separation_lower_bound": 18.24741831655526
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker cage upright 2",
+      "AABB_separation_lower_bound": 18.132212788024283
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker cage upright 3",
+      "AABB_separation_lower_bound": 18.145005812736088
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker hood rim",
+      "AABB_separation_lower_bound": 18.104848392408446
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker lower cup",
+      "AABB_separation_lower_bound": 18.08950882327152
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker luminous flame",
+      "AABB_separation_lower_bound": 18.18251723896718
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker mounting plate",
+      "AABB_separation_lower_bound": 18.18064379322575
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker rain hood",
+      "AABB_separation_lower_bound": 18.10064883762608
+    },
+    {
+      "addition": "south_band",
+      "object": "V014 | landing marker wall arm",
+      "AABB_separation_lower_bound": 18.192757108419325
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge lower neck",
+      "AABB_separation_lower_bound": 2.5430304252122626
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge lower barrel",
+      "AABB_separation_lower_bound": 2.5068798416466778
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge lower pintle",
+      "AABB_separation_lower_bound": 2.5932421181788707
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge lower wall anchor",
+      "AABB_separation_lower_bound": 2.469128206473218
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge lower pin cap",
+      "AABB_separation_lower_bound": 2.495645724888211
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge upper neck",
+      "AABB_separation_lower_bound": 1.7963863586515592
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge upper barrel",
+      "AABB_separation_lower_bound": 1.76024088110742
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge upper pintle",
+      "AABB_separation_lower_bound": 1.8228821109257827
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge upper wall anchor",
+      "AABB_separation_lower_bound": 1.721800433308753
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | south hinge upper pin cap",
+      "AABB_separation_lower_bound": 1.7544941755205767
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge lower neck",
+      "AABB_separation_lower_bound": 4.1518924858741695
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge lower barrel",
+      "AABB_separation_lower_bound": 4.119955895336378
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge lower pintle",
+      "AABB_separation_lower_bound": 4.182835420405633
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge lower wall anchor",
+      "AABB_separation_lower_bound": 4.133447205326373
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge lower pin cap",
+      "AABB_separation_lower_bound": 4.119738977691312
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge upper neck",
+      "AABB_separation_lower_bound": 3.7414183701174797
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge upper barrel",
+      "AABB_separation_lower_bound": 3.713224743882914
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge upper pintle",
+      "AABB_separation_lower_bound": 3.754211856173858
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge upper wall anchor",
+      "AABB_separation_lower_bound": 3.7354234607820525
+    },
+    {
+      "addition": "south_band",
+      "object": "V015 | north hinge upper pin cap",
+      "AABB_separation_lower_bound": 3.717828865358367
+    },
+    {
+      "addition": "south_band",
+      "object": "V012 | south outward-open timber leaf",
+      "AABB_separation_lower_bound": 1.240200744116199
+    },
+    {
+      "addition": "south_band",
+      "object": "V012 | south open-leaf iron strap",
+      "AABB_separation_lower_bound": 2.68479051763781
+    },
+    {
+      "addition": "south_band",
+      "object": "V012 | south open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 1.9920091188526334
+    },
+    {
+      "addition": "south_band",
+      "object": "V012 | north outward-open timber leaf",
+      "AABB_separation_lower_bound": 3.5393346246046202
+    },
+    {
+      "addition": "south_band",
+      "object": "V012 | north open-leaf iron strap",
+      "AABB_separation_lower_bound": 4.3790516647983155
+    },
+    {
+      "addition": "south_band",
+      "object": "V012 | north open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 3.992003718556265
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance mounting plate",
+      "AABB_separation_lower_bound": 2.7696029925315604
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance wall arm",
+      "AABB_separation_lower_bound": 2.5815946831594485
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance lower cup",
+      "AABB_separation_lower_bound": 2.617103119412879
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance hood rim",
+      "AABB_separation_lower_bound": 2.5024047030083243
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance rain hood",
+      "AABB_separation_lower_bound": 2.4725075232355174
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance cage upright 0",
+      "AABB_separation_lower_bound": 2.54546838449959
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance cage upright 1",
+      "AABB_separation_lower_bound": 2.54546838449959
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance cage upright 2",
+      "AABB_separation_lower_bound": 2.6560942363039497
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance cage upright 3",
+      "AABB_separation_lower_bound": 2.6560942363039497
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | entrance luminous flame",
+      "AABB_separation_lower_bound": 2.615690877179448
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn mounting plate",
+      "AABB_separation_lower_bound": 2.420357656393841
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn wall arm",
+      "AABB_separation_lower_bound": 2.246606496216342
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn lower cup",
+      "AABB_separation_lower_bound": 2.3002502577684107
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn hood rim",
+      "AABB_separation_lower_bound": 2.154054977468756
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn rain hood",
+      "AABB_separation_lower_bound": 2.115016758450118
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn cage upright 0",
+      "AABB_separation_lower_bound": 2.3088523264193905
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn cage upright 1",
+      "AABB_separation_lower_bound": 2.206060677129517
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn cage upright 2",
+      "AABB_separation_lower_bound": 2.23846601166824
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn cage upright 3",
+      "AABB_separation_lower_bound": 2.339834489751146
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | turn luminous flame",
+      "AABB_separation_lower_bound": 2.2927862956223324
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor mounting plate",
+      "AABB_separation_lower_bound": 4.675654726142122
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor wall arm",
+      "AABB_separation_lower_bound": 4.606894743267588
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor lower cup",
+      "AABB_separation_lower_bound": 4.577614855552058
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor hood rim",
+      "AABB_separation_lower_bound": 4.49739467908905
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor rain hood",
+      "AABB_separation_lower_bound": 4.472649611161195
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor cage upright 0",
+      "AABB_separation_lower_bound": 4.703527007961004
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor cage upright 1",
+      "AABB_separation_lower_bound": 4.653930700019447
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor cage upright 2",
+      "AABB_separation_lower_bound": 4.551868595468716
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor cage upright 3",
+      "AABB_separation_lower_bound": 4.602564835442237
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | corridor luminous flame",
+      "AABB_separation_lower_bound": 4.628224493014917
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair mounting plate",
+      "AABB_separation_lower_bound": 10.15129538862896
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair wall arm",
+      "AABB_separation_lower_bound": 10.140567335017671
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair lower cup",
+      "AABB_separation_lower_bound": 10.037546778996484
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair hood rim",
+      "AABB_separation_lower_bound": 10.037437194523456
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair rain hood",
+      "AABB_separation_lower_bound": 10.03162088964158
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair cage upright 0",
+      "AABB_separation_lower_bound": 10.218568246439338
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair cage upright 1",
+      "AABB_separation_lower_bound": 10.195834524603821
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair cage upright 2",
+      "AABB_separation_lower_bound": 10.082020938700504
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair cage upright 3",
+      "AABB_separation_lower_bound": 10.105010715601964
+    },
+    {
+      "addition": "north_band",
+      "object": "V013 | stair luminous flame",
+      "AABB_separation_lower_bound": 10.131359719841894
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker cage upright 0",
+      "AABB_separation_lower_bound": 15.563068427970883
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker cage upright 1",
+      "AABB_separation_lower_bound": 15.548151129303735
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker cage upright 2",
+      "AABB_separation_lower_bound": 15.433233865057275
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker cage upright 3",
+      "AABB_separation_lower_bound": 15.448262131631045
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker hood rim",
+      "AABB_separation_lower_bound": 15.407787518663989
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker lower cup",
+      "AABB_separation_lower_bound": 15.38975991935616
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker luminous flame",
+      "AABB_separation_lower_bound": 15.484932187276682
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker mounting plate",
+      "AABB_separation_lower_bound": 15.486244934575264
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker rain hood",
+      "AABB_separation_lower_bound": 15.403735750193988
+    },
+    {
+      "addition": "north_band",
+      "object": "V014 | landing marker wall arm",
+      "AABB_separation_lower_bound": 15.49572596141195
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge lower neck",
+      "AABB_separation_lower_bound": 4.1518924858741695
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge lower barrel",
+      "AABB_separation_lower_bound": 4.119955895336378
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge lower pintle",
+      "AABB_separation_lower_bound": 4.182835420405633
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge lower wall anchor",
+      "AABB_separation_lower_bound": 4.133447205326373
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge lower pin cap",
+      "AABB_separation_lower_bound": 4.119738977691312
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge upper neck",
+      "AABB_separation_lower_bound": 3.7414183701174797
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge upper barrel",
+      "AABB_separation_lower_bound": 3.713224743882914
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge upper pintle",
+      "AABB_separation_lower_bound": 3.754211856173858
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge upper wall anchor",
+      "AABB_separation_lower_bound": 3.7354234607820525
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | south hinge upper pin cap",
+      "AABB_separation_lower_bound": 3.717828865358367
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge lower neck",
+      "AABB_separation_lower_bound": 2.5430304252122626
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge lower barrel",
+      "AABB_separation_lower_bound": 2.5068798416466778
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge lower pintle",
+      "AABB_separation_lower_bound": 2.5932421181788707
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge lower wall anchor",
+      "AABB_separation_lower_bound": 2.469128206473218
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge lower pin cap",
+      "AABB_separation_lower_bound": 2.495645724888211
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge upper neck",
+      "AABB_separation_lower_bound": 1.7963863586515592
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge upper barrel",
+      "AABB_separation_lower_bound": 1.76024088110742
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge upper pintle",
+      "AABB_separation_lower_bound": 1.8228821109257827
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge upper wall anchor",
+      "AABB_separation_lower_bound": 1.721800433308753
+    },
+    {
+      "addition": "north_band",
+      "object": "V015 | north hinge upper pin cap",
+      "AABB_separation_lower_bound": 1.7544941755205767
+    },
+    {
+      "addition": "north_band",
+      "object": "V012 | south outward-open timber leaf",
+      "AABB_separation_lower_bound": 3.5393346246046202
+    },
+    {
+      "addition": "north_band",
+      "object": "V012 | south open-leaf iron strap",
+      "AABB_separation_lower_bound": 4.3790516647983155
+    },
+    {
+      "addition": "north_band",
+      "object": "V012 | south open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 3.992003718556265
+    },
+    {
+      "addition": "north_band",
+      "object": "V012 | north outward-open timber leaf",
+      "AABB_separation_lower_bound": 1.240200744116199
+    },
+    {
+      "addition": "north_band",
+      "object": "V012 | north open-leaf iron strap",
+      "AABB_separation_lower_bound": 2.68479051763781
+    },
+    {
+      "addition": "north_band",
+      "object": "V012 | north open-leaf iron strap.001",
+      "AABB_separation_lower_bound": 1.9920091188526334
+    }
+  ],
+  "expected_side_embed": 0.039998474121091476,
+  "expected_north_embed": 0.039998474121091476,
+  "expected_ceiling_embed": 0.02000076293945341,
+  "band_arch_vertical_overlap": 0.07000000000000028,
+  "north_band_end_to_north_wall_end": 0.2999999999999998,
+  "last_arch_end_to_north_wall_end": 0.7599999999999998,
+  "band_end_to_turn_wall_start": 0.20000009536743146,
+  "limitations": "Boxes show available seating and positive fixture/body separation, not actual mesh intersection or optical/shadow clearance. Heel must retain positive-area rectangular seating, not tangency; crown needs finite positive-width over-ceiling region, not isolated apex. Full curve/tessellation/union/contact checks deferred."
+}

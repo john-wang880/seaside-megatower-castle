@@ -1,0 +1,1298 @@
+{
+  "pass": false,
+  "input_sha256": {
+    "source": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "candidate": "3aca0f43eb9c27f5e7c4194587920db30abf17b7af5b3515950c452986527a10"
+  },
+  "checks": {
+    "meshes": true,
+    "objects": true,
+    "materials": false,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true
+  },
+  "changed_names": {
+    "materials": [
+      "Citadel \u2022 weathered limestone"
+    ]
+  },
+  "new_mesh_object": "V027 | three pointed bays with high wall bands",
+  "new_collection": "V027 | first hall ceiling bay study",
+  "added_records": {
+    "meshes": {
+      "hash": "14c7af89eb7e4de83f0782fe98499d3ae39a974551c5cb2f7f1932f6cffd2d45",
+      "attribute_schema": [
+        [
+          ".select_vert",
+          "BOOLEAN",
+          "POINT",
+          550
+        ],
+        [
+          ".select_edge",
+          "BOOLEAN",
+          "EDGE",
+          1656
+        ],
+        [
+          ".select_poly",
+          "BOOLEAN",
+          "FACE",
+          1104
+        ],
+        [
+          "sharp_face",
+          "BOOLEAN",
+          "FACE",
+          1104
+        ],
+        [
+          "position",
+          "FLOAT_VECTOR",
+          "POINT",
+          550
+        ],
+        [
+          ".edge_verts",
+          "INT32_2D",
+          "EDGE",
+          1656
+        ],
+        [
+          ".corner_vert",
+          "INT",
+          "CORNER",
+          3312
+        ],
+        [
+          ".corner_edge",
+          "INT",
+          "CORNER",
+          3312
+        ],
+        [
+          "material_index",
+          "INT",
+          "FACE",
+          1104
+        ]
+      ],
+      "vertices": 550,
+      "polygons": 1104,
+      "debug_payload": {
+        "attributes": [
+          {
+            "name": ".select_vert",
+            "type": "BOOLEAN",
+            "domain": "POINT",
+            "count": 550,
+            "fields": {
+              "value": {
+                "count": 550,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "8b6302086a3d0a4e854de1235fb7ccfccf16b01c824448408e140d8b56b158cd"
+              }
+            }
+          },
+          {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1656,
+            "fields": {
+              "value": {
+                "count": 1656,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "7a654590e184e13e3fdc8734b6de39e896ab768914254f9f04b529f4665c933f"
+              }
+            }
+          },
+          {
+            "name": ".select_poly",
+            "type": "BOOLEAN",
+            "domain": "FACE",
+            "count": 1104,
+            "fields": {
+              "value": {
+                "count": 1104,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "f6f165185b4b621cdeaf6a69e0cab7d9a13792b967cce8ba5eaa01d85dedfe73"
+              }
+            }
+          },
+          {
+            "name": "sharp_face",
+            "type": "BOOLEAN",
+            "domain": "FACE",
+            "count": 1104,
+            "fields": {
+              "value": {
+                "count": 1104,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "f6f165185b4b621cdeaf6a69e0cab7d9a13792b967cce8ba5eaa01d85dedfe73"
+              }
+            }
+          },
+          {
+            "name": "position",
+            "type": "FLOAT_VECTOR",
+            "domain": "POINT",
+            "count": 550,
+            "fields": {
+              "vector": {
+                "count": 550,
+                "type": "FLOAT",
+                "width": 3,
+                "hash": "61729215ce8bf8039c10b8813fea118117edb9426a327e235c2bd663d3233c9e"
+              }
+            }
+          },
+          {
+            "name": ".edge_verts",
+            "type": "INT32_2D",
+            "domain": "EDGE",
+            "count": 1656,
+            "fields": {
+              "value": {
+                "count": 1656,
+                "type": "INT",
+                "width": 2,
+                "hash": "7a7ecfdffbc83c88aa1614553014c11ebb22986e4b4260bb97ff1ef5d6129fa1"
+              }
+            }
+          },
+          {
+            "name": ".corner_vert",
+            "type": "INT",
+            "domain": "CORNER",
+            "count": 3312,
+            "fields": {
+              "value": {
+                "count": 3312,
+                "type": "INT",
+                "width": 0,
+                "hash": "05dd4fe91b9d32a644e9ae381d721c08899322223003d4462628a36aa0c3106f"
+              }
+            }
+          },
+          {
+            "name": ".corner_edge",
+            "type": "INT",
+            "domain": "CORNER",
+            "count": 3312,
+            "fields": {
+              "value": {
+                "count": 3312,
+                "type": "INT",
+                "width": 0,
+                "hash": "53fd8b3345938250bbcb7a813c5616245ae6f32a82cc5cbbb6abd028eae55e54"
+              }
+            }
+          },
+          {
+            "name": "material_index",
+            "type": "INT",
+            "domain": "FACE",
+            "count": 1104,
+            "fields": {
+              "value": {
+                "count": 1104,
+                "type": "INT",
+                "width": 0,
+                "hash": "49e387070e8882b15ad6a2870048a56e39e0743054c624f6a811ed4edb96af92"
+              }
+            }
+          }
+        ],
+        "topology": {
+          "vertices": {
+            "co": {
+              "count": 550,
+              "type": "FLOAT",
+              "width": 3,
+              "hash": "61729215ce8bf8039c10b8813fea118117edb9426a327e235c2bd663d3233c9e"
+            },
+            "select": {
+              "count": 550,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "8b6302086a3d0a4e854de1235fb7ccfccf16b01c824448408e140d8b56b158cd"
+            },
+            "hide": {
+              "count": 550,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "25778f162c4243167f8eaa876f1b0619e67afc158de7805600471a563ec5e8b7"
+            }
+          },
+          "edges": {
+            "vertices": {
+              "count": 1656,
+              "type": "INT",
+              "width": 2,
+              "hash": "7a7ecfdffbc83c88aa1614553014c11ebb22986e4b4260bb97ff1ef5d6129fa1"
+            },
+            "select": {
+              "count": 1656,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "7a654590e184e13e3fdc8734b6de39e896ab768914254f9f04b529f4665c933f"
+            },
+            "hide": {
+              "count": 1656,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "f8ae869707f0b5b28616c2bd13782d5d89ee022dbc737f19ca0cd46f6cd9af64"
+            },
+            "use_seam": {
+              "count": 1656,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "f8ae869707f0b5b28616c2bd13782d5d89ee022dbc737f19ca0cd46f6cd9af64"
+            },
+            "use_edge_sharp": {
+              "count": 1656,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "f8ae869707f0b5b28616c2bd13782d5d89ee022dbc737f19ca0cd46f6cd9af64"
+            }
+          },
+          "loops": {
+            "vertex_index": {
+              "count": 3312,
+              "type": "INT",
+              "width": 1,
+              "hash": "05dd4fe91b9d32a644e9ae381d721c08899322223003d4462628a36aa0c3106f"
+            },
+            "edge_index": {
+              "count": 3312,
+              "type": "INT",
+              "width": 1,
+              "hash": "53fd8b3345938250bbcb7a813c5616245ae6f32a82cc5cbbb6abd028eae55e54"
+            }
+          },
+          "polygons": {
+            "loop_start": {
+              "count": 1104,
+              "type": "INT",
+              "width": 1,
+              "hash": "4b2fe327b22a4610fc5e8ef98e7cb24591ba124050a9f23fffb1f8600626de5a"
+            },
+            "loop_total": {
+              "count": 1104,
+              "type": "INT",
+              "width": 1,
+              "hash": "2308f7d910c15288a07e451b0db654a268de3dac7e3ff148df7836a023809460"
+            },
+            "material_index": {
+              "count": 1104,
+              "type": "INT",
+              "width": 1,
+              "hash": "49e387070e8882b15ad6a2870048a56e39e0743054c624f6a811ed4edb96af92"
+            },
+            "use_smooth": {
+              "count": 1104,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "9688ec46af8fa56e8423a06a9e420db47500eb701e44ba3855faf7984ed1a0a6"
+            },
+            "select": {
+              "count": 1104,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "f6f165185b4b621cdeaf6a69e0cab7d9a13792b967cce8ba5eaa01d85dedfe73"
+            },
+            "hide": {
+              "count": 1104,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "9688ec46af8fa56e8423a06a9e420db47500eb701e44ba3855faf7984ed1a0a6"
+            }
+          }
+        },
+        "corner_normals": {
+          "count": 3312,
+          "type": "FLOAT",
+          "width": 3,
+          "hash": "8db1abc288852e666b7ff7b11656f4cb1b407fdc098d2851990a7363794a4b46"
+        },
+        "materials": [
+          "Citadel \u2022 weathered limestone"
+        ],
+        "weights": [],
+        "shapes": null,
+        "uv_layers": [],
+        "uv_active_index": -1,
+        "custom_properties": {}
+      }
+    },
+    "objects": {
+      "properties": {
+        "name": "V027 | three pointed bays with high wall bands",
+        "name_full": "V027 | three pointed bays with high wall bands",
+        "id_type": "OBJECT",
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_linked_packed": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "data": {
+          "id_type": "Mesh",
+          "name": "V027 | three pointed bays with high wall bands"
+        },
+        "type": "MESH",
+        "mode": "OBJECT",
+        "bound_box": [
+          [
+            -2.5,
+            36.560001373291016,
+            31.979999542236328
+          ],
+          [
+            -2.5,
+            36.560001373291016,
+            32.81999969482422
+          ],
+          [
+            -2.5,
+            39.439998626708984,
+            32.81999969482422
+          ],
+          [
+            -2.5,
+            39.439998626708984,
+            31.979999542236328
+          ],
+          [
+            3.200000047683716,
+            36.560001373291016,
+            31.979999542236328
+          ],
+          [
+            3.200000047683716,
+            36.560001373291016,
+            32.81999969482422
+          ],
+          [
+            3.200000047683716,
+            39.439998626708984,
+            32.81999969482422
+          ],
+          [
+            3.200000047683716,
+            39.439998626708984,
+            31.979999542236328
+          ]
+        ],
+        "parent": null,
+        "parent_type": "OBJECT",
+        "parent_vertices": [
+          0,
+          0,
+          0
+        ],
+        "parent_bone": "",
+        "parent_bone_head_tail_factor": 1.0,
+        "use_parent_final_indices": false,
+        "use_camera_lock_parent": false,
+        "track_axis": "POS_Y",
+        "up_axis": "Z",
+        "material_slots": [
+          {
+            "link": "DATA",
+            "material": {
+              "id_type": "Material",
+              "name": "Citadel \u2022 weathered limestone"
+            },
+            "slot_index": 0,
+            "name": "Citadel \u2022 weathered limestone",
+            "custom_properties": null
+          }
+        ],
+        "active_material": {
+          "id_type": "Material",
+          "name": "Citadel \u2022 weathered limestone"
+        },
+        "active_material_index": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "XYZ",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          5.699999809265137,
+          2.8799972534179688,
+          0.8400001525878906
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "lock_location": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_rotations_4d": true,
+        "lock_scale": [
+          false,
+          false,
+          false
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "modifiers": [],
+        "shader_effects": [],
+        "constraints": [],
+        "vertex_groups": [],
+        "empty_display_type": "PLAIN_AXES",
+        "empty_display_size": 1.0,
+        "empty_image_offset": [
+          0.0,
+          0.0
+        ],
+        "image_user": null,
+        "empty_image_depth": "DEFAULT",
+        "show_empty_image_perspective": true,
+        "show_empty_image_orthographic": true,
+        "show_empty_image_only_axis_aligned": false,
+        "use_empty_image_alpha": false,
+        "empty_image_side": "DOUBLE_SIDED",
+        "add_rest_position_attribute": false,
+        "pass_index": 0,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "field": null,
+        "collision": null,
+        "soft_body": null,
+        "particle_systems": [],
+        "rigid_body": null,
+        "rigid_body_constraint": null,
+        "use_simulation_cache": true,
+        "hide_viewport": false,
+        "hide_select": false,
+        "hide_render": false,
+        "hide_probe_volume": false,
+        "hide_probe_sphere": false,
+        "hide_probe_plane": false,
+        "hide_surface_pick": false,
+        "show_instancer_for_render": true,
+        "show_instancer_for_viewport": true,
+        "visible_camera": true,
+        "visible_diffuse": true,
+        "visible_glossy": true,
+        "visible_transmission": true,
+        "visible_volume_scatter": true,
+        "visible_shadow": true,
+        "is_holdout": false,
+        "is_shadow_catcher": false,
+        "visible_raycast": true,
+        "instance_type": "NONE",
+        "use_instance_vertices_rotation": false,
+        "use_instance_faces_scale": false,
+        "instance_faces_scale": 1.0,
+        "instance_collection": null,
+        "is_instancer": false,
+        "display_type": "TEXTURED",
+        "show_bounds": false,
+        "display_bounds_type": "BOX",
+        "show_name": false,
+        "show_axis": false,
+        "show_texture_space": false,
+        "show_wire": false,
+        "show_all_edges": false,
+        "use_grease_pencil_lights": false,
+        "show_transparent": false,
+        "show_in_front": false,
+        "pose": null,
+        "show_only_shape_key": false,
+        "use_shape_key_edit_mode": false,
+        "active_shape_key": null,
+        "active_shape_key_index": 0,
+        "use_dynamic_topology_sculpting": false,
+        "is_from_instancer": false,
+        "is_from_set": false,
+        "display": {
+          "show_shadows": true,
+          "custom_properties": null
+        },
+        "lineart": {
+          "usage": "INHERIT",
+          "use_crease_override": false,
+          "crease_threshold": 2.4434609413146973,
+          "use_intersection_priority_override": false,
+          "intersection_priority": 0,
+          "custom_properties": null
+        },
+        "use_mesh_mirror_x": false,
+        "use_mesh_mirror_y": false,
+        "use_mesh_mirror_z": false,
+        "lightgroup": "",
+        "light_linking": {
+          "receiver_collection": null,
+          "blocker_collection": null,
+          "custom_properties": null
+        },
+        "shadow_terminator_normal_offset": 0.0,
+        "shadow_terminator_geometry_offset": 0.10000000149011612,
+        "shadow_terminator_shading_offset": 0.0,
+        "animation_data": null,
+        "animation_visualization": {
+          "motion_path": {
+            "type": "RANGE",
+            "range": "SCENE",
+            "bake_location": "HEADS",
+            "show_frame_numbers": false,
+            "show_keyframe_highlight": true,
+            "show_keyframe_numbers": true,
+            "show_keyframe_action_all": false,
+            "frame_step": 1,
+            "frame_start": 1,
+            "frame_end": 250,
+            "frame_before": 10,
+            "frame_after": 10,
+            "has_motion_paths": false,
+            "use_camera_space_bake": false,
+            "custom_properties": null
+          },
+          "custom_properties": null
+        },
+        "motion_path": null,
+        "selection_sets": [],
+        "active_selection_set": 0,
+        "cycles": {
+          "name": "",
+          "use_motion_blur": true,
+          "use_deform_motion": true,
+          "motion_steps": 1,
+          "use_camera_cull": false,
+          "use_distance_cull": false,
+          "shadow_terminator_offset": 0.0,
+          "shadow_terminator_geometry_offset": 0.10000000149011612,
+          "ao_distance": 0.0,
+          "is_caustics_caster": false,
+          "is_caustics_receiver": false,
+          "custom_properties": {}
+        },
+        "custom_properties": {}
+      },
+      "type": "MESH",
+      "data": "V027 | three pointed bays with high wall bands",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hidden": false,
+      "parent": null,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "slots": [
+        [
+          "DATA",
+          "Citadel \u2022 weathered limestone"
+        ]
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "vertex_groups": [],
+      "custom_properties": {}
+    },
+    "visible_evaluated": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh": {
+        "hash": "14c7af89eb7e4de83f0782fe98499d3ae39a974551c5cb2f7f1932f6cffd2d45",
+        "attribute_schema": [
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            550
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            1656
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            1104
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            1104
+          ],
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            550
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            1656
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            3312
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            3312
+          ],
+          [
+            "material_index",
+            "INT",
+            "FACE",
+            1104
+          ]
+        ],
+        "vertices": 550,
+        "polygons": 1104,
+        "debug_payload": {
+          "attributes": [
+            {
+              "name": ".select_vert",
+              "type": "BOOLEAN",
+              "domain": "POINT",
+              "count": 550,
+              "fields": {
+                "value": {
+                  "count": 550,
+                  "type": "BOOLEAN",
+                  "width": 0,
+                  "hash": "8b6302086a3d0a4e854de1235fb7ccfccf16b01c824448408e140d8b56b158cd"
+                }
+              }
+            },
+            {
+              "name": ".select_edge",
+              "type": "BOOLEAN",
+              "domain": "EDGE",
+              "count": 1656,
+              "fields": {
+                "value": {
+                  "count": 1656,
+                  "type": "BOOLEAN",
+                  "width": 0,
+                  "hash": "7a654590e184e13e3fdc8734b6de39e896ab768914254f9f04b529f4665c933f"
+                }
+              }
+            },
+            {
+              "name": ".select_poly",
+              "type": "BOOLEAN",
+              "domain": "FACE",
+              "count": 1104,
+              "fields": {
+                "value": {
+                  "count": 1104,
+                  "type": "BOOLEAN",
+                  "width": 0,
+                  "hash": "f6f165185b4b621cdeaf6a69e0cab7d9a13792b967cce8ba5eaa01d85dedfe73"
+                }
+              }
+            },
+            {
+              "name": "sharp_face",
+              "type": "BOOLEAN",
+              "domain": "FACE",
+              "count": 1104,
+              "fields": {
+                "value": {
+                  "count": 1104,
+                  "type": "BOOLEAN",
+                  "width": 0,
+                  "hash": "f6f165185b4b621cdeaf6a69e0cab7d9a13792b967cce8ba5eaa01d85dedfe73"
+                }
+              }
+            },
+            {
+              "name": "position",
+              "type": "FLOAT_VECTOR",
+              "domain": "POINT",
+              "count": 550,
+              "fields": {
+                "vector": {
+                  "count": 550,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "61729215ce8bf8039c10b8813fea118117edb9426a327e235c2bd663d3233c9e"
+                }
+              }
+            },
+            {
+              "name": ".edge_verts",
+              "type": "INT32_2D",
+              "domain": "EDGE",
+              "count": 1656,
+              "fields": {
+                "value": {
+                  "count": 1656,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "7a7ecfdffbc83c88aa1614553014c11ebb22986e4b4260bb97ff1ef5d6129fa1"
+                }
+              }
+            },
+            {
+              "name": ".corner_vert",
+              "type": "INT",
+              "domain": "CORNER",
+              "count": 3312,
+              "fields": {
+                "value": {
+                  "count": 3312,
+                  "type": "INT",
+                  "width": 0,
+                  "hash": "05dd4fe91b9d32a644e9ae381d721c08899322223003d4462628a36aa0c3106f"
+                }
+              }
+            },
+            {
+              "name": ".corner_edge",
+              "type": "INT",
+              "domain": "CORNER",
+              "count": 3312,
+              "fields": {
+                "value": {
+                  "count": 3312,
+                  "type": "INT",
+                  "width": 0,
+                  "hash": "53fd8b3345938250bbcb7a813c5616245ae6f32a82cc5cbbb6abd028eae55e54"
+                }
+              }
+            },
+            {
+              "name": "material_index",
+              "type": "INT",
+              "domain": "FACE",
+              "count": 1104,
+              "fields": {
+                "value": {
+                  "count": 1104,
+                  "type": "INT",
+                  "width": 0,
+                  "hash": "49e387070e8882b15ad6a2870048a56e39e0743054c624f6a811ed4edb96af92"
+                }
+              }
+            }
+          ],
+          "topology": {
+            "vertices": {
+              "co": {
+                "count": 550,
+                "type": "FLOAT",
+                "width": 3,
+                "hash": "61729215ce8bf8039c10b8813fea118117edb9426a327e235c2bd663d3233c9e"
+              },
+              "select": {
+                "count": 550,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "8b6302086a3d0a4e854de1235fb7ccfccf16b01c824448408e140d8b56b158cd"
+              },
+              "hide": {
+                "count": 550,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "25778f162c4243167f8eaa876f1b0619e67afc158de7805600471a563ec5e8b7"
+              }
+            },
+            "edges": {
+              "vertices": {
+                "count": 1656,
+                "type": "INT",
+                "width": 2,
+                "hash": "7a7ecfdffbc83c88aa1614553014c11ebb22986e4b4260bb97ff1ef5d6129fa1"
+              },
+              "select": {
+                "count": 1656,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "7a654590e184e13e3fdc8734b6de39e896ab768914254f9f04b529f4665c933f"
+              },
+              "hide": {
+                "count": 1656,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "f8ae869707f0b5b28616c2bd13782d5d89ee022dbc737f19ca0cd46f6cd9af64"
+              },
+              "use_seam": {
+                "count": 1656,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "f8ae869707f0b5b28616c2bd13782d5d89ee022dbc737f19ca0cd46f6cd9af64"
+              },
+              "use_edge_sharp": {
+                "count": 1656,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "f8ae869707f0b5b28616c2bd13782d5d89ee022dbc737f19ca0cd46f6cd9af64"
+              }
+            },
+            "loops": {
+              "vertex_index": {
+                "count": 3312,
+                "type": "INT",
+                "width": 1,
+                "hash": "05dd4fe91b9d32a644e9ae381d721c08899322223003d4462628a36aa0c3106f"
+              },
+              "edge_index": {
+                "count": 3312,
+                "type": "INT",
+                "width": 1,
+                "hash": "53fd8b3345938250bbcb7a813c5616245ae6f32a82cc5cbbb6abd028eae55e54"
+              }
+            },
+            "polygons": {
+              "loop_start": {
+                "count": 1104,
+                "type": "INT",
+                "width": 1,
+                "hash": "4b2fe327b22a4610fc5e8ef98e7cb24591ba124050a9f23fffb1f8600626de5a"
+              },
+              "loop_total": {
+                "count": 1104,
+                "type": "INT",
+                "width": 1,
+                "hash": "2308f7d910c15288a07e451b0db654a268de3dac7e3ff148df7836a023809460"
+              },
+              "material_index": {
+                "count": 1104,
+                "type": "INT",
+                "width": 1,
+                "hash": "49e387070e8882b15ad6a2870048a56e39e0743054c624f6a811ed4edb96af92"
+              },
+              "use_smooth": {
+                "count": 1104,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "9688ec46af8fa56e8423a06a9e420db47500eb701e44ba3855faf7984ed1a0a6"
+              },
+              "select": {
+                "count": 1104,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "f6f165185b4b621cdeaf6a69e0cab7d9a13792b967cce8ba5eaa01d85dedfe73"
+              },
+              "hide": {
+                "count": 1104,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "9688ec46af8fa56e8423a06a9e420db47500eb701e44ba3855faf7984ed1a0a6"
+              }
+            }
+          },
+          "corner_normals": {
+            "count": 3312,
+            "type": "FLOAT",
+            "width": 3,
+            "hash": "8db1abc288852e666b7ff7b11656f4cb1b407fdc098d2851990a7363794a4b46"
+          },
+          "materials": [
+            "Citadel \u2022 weathered limestone"
+          ],
+          "weights": [],
+          "shapes": null,
+          "uv_layers": [],
+          "uv_active_index": -1,
+          "custom_properties": {}
+        }
+      }
+    }
+  },
+  "traveler_derived_UI": [
+    {
+      "object": "Traveler | full length ivory skirt",
+      "source": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      },
+      "candidate": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      }
+    },
+    {
+      "object": "Traveler | purple-red shoulder cape",
+      "source": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1976,
+          "fields": {
+            "value": {
+              "count": 1976,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1976,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+        }
+      },
+      "candidate": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1976,
+          "fields": {
+            "value": {
+              "count": 1976,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1976,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+        }
+      }
+    },
+    {
+      "object": "Traveler | white tunic",
+      "source": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      },
+      "candidate": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      }
+    }
+  ],
+  "inputs_unchanged": true
+}

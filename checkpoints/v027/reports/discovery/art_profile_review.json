@@ -1,0 +1,5780 @@
+{
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "scope": "ART target renewed bounds/projection only; no geometry/no Blender/no render. Curve surrogate deliberately not a final pointedarch recipe.",
+  "intrados_min_body_top_margin": 1.0499999999999972,
+  "band_min_body_top_margin": 0.879999999999999,
+  "profiles": [
+    {
+      "station_x": -1.8,
+      "intrados_samples": [
+        [
+          -1.8,
+          36.6,
+          32.15
+        ],
+        [
+          -1.8,
+          36.71666666666667,
+          32.19253472222222
+        ],
+        [
+          -1.8,
+          36.833333333333336,
+          32.232638888888886
+        ],
+        [
+          -1.8,
+          36.95,
+          32.2703125
+        ],
+        [
+          -1.8,
+          37.06666666666667,
+          32.30555555555556
+        ],
+        [
+          -1.8,
+          37.18333333333334,
+          32.338368055555556
+        ],
+        [
+          -1.8,
+          37.300000000000004,
+          32.36875
+        ],
+        [
+          -1.8,
+          37.41666666666667,
+          32.396701388888886
+        ],
+        [
+          -1.8,
+          37.53333333333333,
+          32.42222222222222
+        ],
+        [
+          -1.8,
+          37.65,
+          32.4453125
+        ],
+        [
+          -1.8,
+          37.766666666666666,
+          32.46597222222222
+        ],
+        [
+          -1.8,
+          37.88333333333333,
+          32.484201388888884
+        ],
+        [
+          -1.8,
+          38.0,
+          32.5
+        ],
+        [
+          -1.8,
+          38.11666666666667,
+          32.484201388888884
+        ],
+        [
+          -1.8,
+          38.233333333333334,
+          32.46597222222222
+        ],
+        [
+          -1.8,
+          38.35,
+          32.4453125
+        ],
+        [
+          -1.8,
+          38.46666666666667,
+          32.42222222222222
+        ],
+        [
+          -1.8,
+          38.583333333333336,
+          32.396701388888886
+        ],
+        [
+          -1.8,
+          38.7,
+          32.36875
+        ],
+        [
+          -1.8,
+          38.81666666666667,
+          32.338368055555556
+        ],
+        [
+          -1.8,
+          38.93333333333334,
+          32.30555555555555
+        ],
+        [
+          -1.8,
+          39.050000000000004,
+          32.270312499999996
+        ],
+        [
+          -1.8,
+          39.16666666666667,
+          32.232638888888886
+        ],
+        [
+          -1.8,
+          39.28333333333333,
+          32.19253472222222
+        ],
+        [
+          -1.8,
+          39.4,
+          32.15
+        ]
+      ],
+      "extrados_vertical_surrogate": [
+        [
+          -1.8,
+          36.6,
+          32.449999999999996
+        ],
+        [
+          -1.8,
+          36.71666666666667,
+          32.49253472222222
+        ],
+        [
+          -1.8,
+          36.833333333333336,
+          32.53263888888888
+        ],
+        [
+          -1.8,
+          36.95,
+          32.5703125
+        ],
+        [
+          -1.8,
+          37.06666666666667,
+          32.605555555555554
+        ],
+        [
+          -1.8,
+          37.18333333333334,
+          32.63836805555555
+        ],
+        [
+          -1.8,
+          37.300000000000004,
+          32.668749999999996
+        ],
+        [
+          -1.8,
+          37.41666666666667,
+          32.69670138888888
+        ],
+        [
+          -1.8,
+          37.53333333333333,
+          32.722222222222214
+        ],
+        [
+          -1.8,
+          37.65,
+          32.7453125
+        ],
+        [
+          -1.8,
+          37.766666666666666,
+          32.76597222222222
+        ],
+        [
+          -1.8,
+          37.88333333333333,
+          32.78420138888888
+        ],
+        [
+          -1.8,
+          38.0,
+          32.8
+        ],
+        [
+          -1.8,
+          38.11666666666667,
+          32.78420138888888
+        ],
+        [
+          -1.8,
+          38.233333333333334,
+          32.76597222222222
+        ],
+        [
+          -1.8,
+          38.35,
+          32.7453125
+        ],
+        [
+          -1.8,
+          38.46666666666667,
+          32.722222222222214
+        ],
+        [
+          -1.8,
+          38.583333333333336,
+          32.69670138888888
+        ],
+        [
+          -1.8,
+          38.7,
+          32.668749999999996
+        ],
+        [
+          -1.8,
+          38.81666666666667,
+          32.63836805555555
+        ],
+        [
+          -1.8,
+          38.93333333333334,
+          32.60555555555555
+        ],
+        [
+          -1.8,
+          39.050000000000004,
+          32.57031249999999
+        ],
+        [
+          -1.8,
+          39.16666666666667,
+          32.53263888888888
+        ],
+        [
+          -1.8,
+          39.28333333333333,
+          32.49253472222222
+        ],
+        [
+          -1.8,
+          39.4,
+          32.449999999999996
+        ]
+      ],
+      "landmarks": {
+        "south_spring": [
+          -1.8,
+          36.6,
+          32.15
+        ],
+        "crown_intrados": [
+          -1.8,
+          38,
+          32.5
+        ],
+        "crown_outer_target": [
+          -1.8,
+          38,
+          32.82
+        ],
+        "north_spring": [
+          -1.8,
+          39.4,
+          32.15
+        ]
+      }
+    },
+    {
+      "station_x": 0.4,
+      "intrados_samples": [
+        [
+          0.4,
+          36.6,
+          32.15
+        ],
+        [
+          0.4,
+          36.71666666666667,
+          32.19253472222222
+        ],
+        [
+          0.4,
+          36.833333333333336,
+          32.232638888888886
+        ],
+        [
+          0.4,
+          36.95,
+          32.2703125
+        ],
+        [
+          0.4,
+          37.06666666666667,
+          32.30555555555556
+        ],
+        [
+          0.4,
+          37.18333333333334,
+          32.338368055555556
+        ],
+        [
+          0.4,
+          37.300000000000004,
+          32.36875
+        ],
+        [
+          0.4,
+          37.41666666666667,
+          32.396701388888886
+        ],
+        [
+          0.4,
+          37.53333333333333,
+          32.42222222222222
+        ],
+        [
+          0.4,
+          37.65,
+          32.4453125
+        ],
+        [
+          0.4,
+          37.766666666666666,
+          32.46597222222222
+        ],
+        [
+          0.4,
+          37.88333333333333,
+          32.484201388888884
+        ],
+        [
+          0.4,
+          38.0,
+          32.5
+        ],
+        [
+          0.4,
+          38.11666666666667,
+          32.484201388888884
+        ],
+        [
+          0.4,
+          38.233333333333334,
+          32.46597222222222
+        ],
+        [
+          0.4,
+          38.35,
+          32.4453125
+        ],
+        [
+          0.4,
+          38.46666666666667,
+          32.42222222222222
+        ],
+        [
+          0.4,
+          38.583333333333336,
+          32.396701388888886
+        ],
+        [
+          0.4,
+          38.7,
+          32.36875
+        ],
+        [
+          0.4,
+          38.81666666666667,
+          32.338368055555556
+        ],
+        [
+          0.4,
+          38.93333333333334,
+          32.30555555555555
+        ],
+        [
+          0.4,
+          39.050000000000004,
+          32.270312499999996
+        ],
+        [
+          0.4,
+          39.16666666666667,
+          32.232638888888886
+        ],
+        [
+          0.4,
+          39.28333333333333,
+          32.19253472222222
+        ],
+        [
+          0.4,
+          39.4,
+          32.15
+        ]
+      ],
+      "extrados_vertical_surrogate": [
+        [
+          0.4,
+          36.6,
+          32.449999999999996
+        ],
+        [
+          0.4,
+          36.71666666666667,
+          32.49253472222222
+        ],
+        [
+          0.4,
+          36.833333333333336,
+          32.53263888888888
+        ],
+        [
+          0.4,
+          36.95,
+          32.5703125
+        ],
+        [
+          0.4,
+          37.06666666666667,
+          32.605555555555554
+        ],
+        [
+          0.4,
+          37.18333333333334,
+          32.63836805555555
+        ],
+        [
+          0.4,
+          37.300000000000004,
+          32.668749999999996
+        ],
+        [
+          0.4,
+          37.41666666666667,
+          32.69670138888888
+        ],
+        [
+          0.4,
+          37.53333333333333,
+          32.722222222222214
+        ],
+        [
+          0.4,
+          37.65,
+          32.7453125
+        ],
+        [
+          0.4,
+          37.766666666666666,
+          32.76597222222222
+        ],
+        [
+          0.4,
+          37.88333333333333,
+          32.78420138888888
+        ],
+        [
+          0.4,
+          38.0,
+          32.8
+        ],
+        [
+          0.4,
+          38.11666666666667,
+          32.78420138888888
+        ],
+        [
+          0.4,
+          38.233333333333334,
+          32.76597222222222
+        ],
+        [
+          0.4,
+          38.35,
+          32.7453125
+        ],
+        [
+          0.4,
+          38.46666666666667,
+          32.722222222222214
+        ],
+        [
+          0.4,
+          38.583333333333336,
+          32.69670138888888
+        ],
+        [
+          0.4,
+          38.7,
+          32.668749999999996
+        ],
+        [
+          0.4,
+          38.81666666666667,
+          32.63836805555555
+        ],
+        [
+          0.4,
+          38.93333333333334,
+          32.60555555555555
+        ],
+        [
+          0.4,
+          39.050000000000004,
+          32.57031249999999
+        ],
+        [
+          0.4,
+          39.16666666666667,
+          32.53263888888888
+        ],
+        [
+          0.4,
+          39.28333333333333,
+          32.49253472222222
+        ],
+        [
+          0.4,
+          39.4,
+          32.449999999999996
+        ]
+      ],
+      "landmarks": {
+        "south_spring": [
+          0.4,
+          36.6,
+          32.15
+        ],
+        "crown_intrados": [
+          0.4,
+          38,
+          32.5
+        ],
+        "crown_outer_target": [
+          0.4,
+          38,
+          32.82
+        ],
+        "north_spring": [
+          0.4,
+          39.4,
+          32.15
+        ]
+      }
+    },
+    {
+      "station_x": 2.6,
+      "intrados_samples": [
+        [
+          2.6,
+          36.6,
+          32.15
+        ],
+        [
+          2.6,
+          36.71666666666667,
+          32.19253472222222
+        ],
+        [
+          2.6,
+          36.833333333333336,
+          32.232638888888886
+        ],
+        [
+          2.6,
+          36.95,
+          32.2703125
+        ],
+        [
+          2.6,
+          37.06666666666667,
+          32.30555555555556
+        ],
+        [
+          2.6,
+          37.18333333333334,
+          32.338368055555556
+        ],
+        [
+          2.6,
+          37.300000000000004,
+          32.36875
+        ],
+        [
+          2.6,
+          37.41666666666667,
+          32.396701388888886
+        ],
+        [
+          2.6,
+          37.53333333333333,
+          32.42222222222222
+        ],
+        [
+          2.6,
+          37.65,
+          32.4453125
+        ],
+        [
+          2.6,
+          37.766666666666666,
+          32.46597222222222
+        ],
+        [
+          2.6,
+          37.88333333333333,
+          32.484201388888884
+        ],
+        [
+          2.6,
+          38.0,
+          32.5
+        ],
+        [
+          2.6,
+          38.11666666666667,
+          32.484201388888884
+        ],
+        [
+          2.6,
+          38.233333333333334,
+          32.46597222222222
+        ],
+        [
+          2.6,
+          38.35,
+          32.4453125
+        ],
+        [
+          2.6,
+          38.46666666666667,
+          32.42222222222222
+        ],
+        [
+          2.6,
+          38.583333333333336,
+          32.396701388888886
+        ],
+        [
+          2.6,
+          38.7,
+          32.36875
+        ],
+        [
+          2.6,
+          38.81666666666667,
+          32.338368055555556
+        ],
+        [
+          2.6,
+          38.93333333333334,
+          32.30555555555555
+        ],
+        [
+          2.6,
+          39.050000000000004,
+          32.270312499999996
+        ],
+        [
+          2.6,
+          39.16666666666667,
+          32.232638888888886
+        ],
+        [
+          2.6,
+          39.28333333333333,
+          32.19253472222222
+        ],
+        [
+          2.6,
+          39.4,
+          32.15
+        ]
+      ],
+      "extrados_vertical_surrogate": [
+        [
+          2.6,
+          36.6,
+          32.449999999999996
+        ],
+        [
+          2.6,
+          36.71666666666667,
+          32.49253472222222
+        ],
+        [
+          2.6,
+          36.833333333333336,
+          32.53263888888888
+        ],
+        [
+          2.6,
+          36.95,
+          32.5703125
+        ],
+        [
+          2.6,
+          37.06666666666667,
+          32.605555555555554
+        ],
+        [
+          2.6,
+          37.18333333333334,
+          32.63836805555555
+        ],
+        [
+          2.6,
+          37.300000000000004,
+          32.668749999999996
+        ],
+        [
+          2.6,
+          37.41666666666667,
+          32.69670138888888
+        ],
+        [
+          2.6,
+          37.53333333333333,
+          32.722222222222214
+        ],
+        [
+          2.6,
+          37.65,
+          32.7453125
+        ],
+        [
+          2.6,
+          37.766666666666666,
+          32.76597222222222
+        ],
+        [
+          2.6,
+          37.88333333333333,
+          32.78420138888888
+        ],
+        [
+          2.6,
+          38.0,
+          32.8
+        ],
+        [
+          2.6,
+          38.11666666666667,
+          32.78420138888888
+        ],
+        [
+          2.6,
+          38.233333333333334,
+          32.76597222222222
+        ],
+        [
+          2.6,
+          38.35,
+          32.7453125
+        ],
+        [
+          2.6,
+          38.46666666666667,
+          32.722222222222214
+        ],
+        [
+          2.6,
+          38.583333333333336,
+          32.69670138888888
+        ],
+        [
+          2.6,
+          38.7,
+          32.668749999999996
+        ],
+        [
+          2.6,
+          38.81666666666667,
+          32.63836805555555
+        ],
+        [
+          2.6,
+          38.93333333333334,
+          32.60555555555555
+        ],
+        [
+          2.6,
+          39.050000000000004,
+          32.57031249999999
+        ],
+        [
+          2.6,
+          39.16666666666667,
+          32.53263888888888
+        ],
+        [
+          2.6,
+          39.28333333333333,
+          32.49253472222222
+        ],
+        [
+          2.6,
+          39.4,
+          32.449999999999996
+        ]
+      ],
+      "landmarks": {
+        "south_spring": [
+          2.6,
+          36.6,
+          32.15
+        ],
+        "crown_intrados": [
+          2.6,
+          38,
+          32.5
+        ],
+        "crown_outer_target": [
+          2.6,
+          38,
+          32.82
+        ],
+        "north_spring": [
+          2.6,
+          39.4,
+          32.15
+        ]
+      }
+    }
+  ],
+  "review_envelopes": [
+    {
+      "name": "rib0",
+      "bounds": [
+        [
+          -1.94,
+          36.3,
+          32.15
+        ],
+        [
+          -1.6600000000000001,
+          39.7,
+          32.82
+        ]
+      ],
+      "note": "Conservative full .30radial lateral extent, not a designed boundary"
+    },
+    {
+      "name": "rib1",
+      "bounds": [
+        [
+          0.26,
+          36.3,
+          32.15
+        ],
+        [
+          0.54,
+          39.7,
+          32.82
+        ]
+      ],
+      "note": "Conservative full .30radial lateral extent, not a designed boundary"
+    },
+    {
+      "name": "rib2",
+      "bounds": [
+        [
+          2.46,
+          36.3,
+          32.15
+        ],
+        [
+          2.74,
+          39.7,
+          32.82
+        ]
+      ],
+      "note": "Conservative full .30radial lateral extent, not a designed boundary"
+    },
+    {
+      "name": "south band",
+      "bounds": [
+        [
+          -2.5,
+          36.56,
+          31.98
+        ],
+        [
+          3.2,
+          36.72,
+          32.22
+        ]
+      ]
+    },
+    {
+      "name": "north band",
+      "bounds": [
+        [
+          -2.5,
+          39.28,
+          31.98
+        ],
+        [
+          3.2,
+          39.44,
+          32.22
+        ]
+      ]
+    }
+  ],
+  "fixture_clearance": [
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance mounting plate",
+      "separation_lower_bound": 1.87369345641251
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance wall arm",
+      "separation_lower_bound": 1.8713324066757158
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance lower cup",
+      "separation_lower_bound": 1.9935598509923416
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance hood rim",
+      "separation_lower_bound": 1.8106025359658404
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance rain hood",
+      "separation_lower_bound": 1.7629806859591015
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance cage upright 0",
+      "separation_lower_bound": 1.955280189081158
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance cage upright 1",
+      "separation_lower_bound": 1.8547782816514176
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance cage upright 2",
+      "separation_lower_bound": 1.8547782816514176
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance cage upright 3",
+      "separation_lower_bound": 1.955280189081158
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | entrance luminous flame",
+      "separation_lower_bound": 1.9404254573438555
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn mounting plate",
+      "separation_lower_bound": 7.115399233654545
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn wall arm",
+      "separation_lower_bound": 6.929125727904678
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn lower cup",
+      "separation_lower_bound": 6.89789656232964
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn hood rim",
+      "separation_lower_bound": 6.842585672532944
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn rain hood",
+      "separation_lower_bound": 6.825041893351959
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn cage upright 0",
+      "separation_lower_bound": 6.998201398859021
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn cage upright 1",
+      "separation_lower_bound": 6.883570255982474
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn cage upright 2",
+      "separation_lower_bound": 6.883570255982474
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn cage upright 3",
+      "separation_lower_bound": 6.998201398859021
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | turn luminous flame",
+      "separation_lower_bound": 6.9401042334153145
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor mounting plate",
+      "separation_lower_bound": 8.061969168743403
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor wall arm",
+      "separation_lower_bound": 7.910127840514778
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor lower cup",
+      "separation_lower_bound": 7.846770509438177
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor hood rim",
+      "separation_lower_bound": 7.793266880152125
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor rain hood",
+      "separation_lower_bound": 7.774142646154099
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor cage upright 0",
+      "separation_lower_bound": 8.003493649043762
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor cage upright 1",
+      "separation_lower_bound": 7.903456664038723
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor cage upright 2",
+      "separation_lower_bound": 7.847634466802333
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor cage upright 3",
+      "separation_lower_bound": 7.94837405225054
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | corridor luminous flame",
+      "separation_lower_bound": 7.918640168437855
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair mounting plate",
+      "separation_lower_bound": 11.947614694062446
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair wall arm",
+      "separation_lower_bound": 11.864175372584626
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair lower cup",
+      "separation_lower_bound": 11.74208645041857
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair hood rim",
+      "separation_lower_bound": 11.740071904557025
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair rain hood",
+      "separation_lower_bound": 11.733103437302834
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair cage upright 0",
+      "separation_lower_bound": 11.954705446699613
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair cage upright 1",
+      "separation_lower_bound": 11.887964458535517
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair cage upright 2",
+      "separation_lower_bound": 11.793053221003806
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair cage upright 3",
+      "separation_lower_bound": 11.860328310100611
+    },
+    {
+      "envelope": "rib0",
+      "object": "V013 | stair luminous flame",
+      "separation_lower_bound": 11.851576863547294
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker cage upright 0",
+      "separation_lower_bound": 16.654757215801556
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker cage upright 1",
+      "separation_lower_bound": 16.606915865606965
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker cage upright 2",
+      "separation_lower_bound": 16.501201753568203
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker cage upright 3",
+      "separation_lower_bound": 16.549348708088427
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker hood rim",
+      "separation_lower_bound": 16.455944607733446
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker lower cup",
+      "separation_lower_bound": 16.450741968049368
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker luminous flame",
+      "separation_lower_bound": 16.557787325441353
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker mounting plate",
+      "separation_lower_bound": 16.619160005104078
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker rain hood",
+      "separation_lower_bound": 16.449932289100314
+    },
+    {
+      "envelope": "rib0",
+      "object": "V014 | landing marker wall arm",
+      "separation_lower_bound": 16.56972918782035
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge lower neck",
+      "separation_lower_bound": 2.90704371731875
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge lower barrel",
+      "separation_lower_bound": 2.872132881084934
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge lower pintle",
+      "separation_lower_bound": 2.9410549555683403
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge lower wall anchor",
+      "separation_lower_bound": 2.819520288444018
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge lower pin cap",
+      "separation_lower_bound": 2.8621927468596065
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge upper neck",
+      "separation_lower_bound": 2.2147016751915536
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge upper barrel",
+      "separation_lower_bound": 2.181088910470251
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge upper pintle",
+      "separation_lower_bound": 2.2230155734296306
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge upper wall anchor",
+      "separation_lower_bound": 2.124075662208789
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | south hinge upper pin cap",
+      "separation_lower_bound": 2.176269670251891
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge lower neck",
+      "separation_lower_bound": 2.90704371731875
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge lower barrel",
+      "separation_lower_bound": 2.872132881084934
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge lower pintle",
+      "separation_lower_bound": 2.9410549555683403
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge lower wall anchor",
+      "separation_lower_bound": 2.819520288444018
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge lower pin cap",
+      "separation_lower_bound": 2.8621927468596065
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge upper neck",
+      "separation_lower_bound": 2.2147016751915536
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge upper barrel",
+      "separation_lower_bound": 2.181088910470251
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge upper pintle",
+      "separation_lower_bound": 2.2230155734296306
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge upper wall anchor",
+      "separation_lower_bound": 2.124075662208789
+    },
+    {
+      "envelope": "rib0",
+      "object": "V015 | north hinge upper pin cap",
+      "separation_lower_bound": 2.176269670251891
+    },
+    {
+      "envelope": "rib0",
+      "object": "V012 | south outward-open timber leaf",
+      "separation_lower_bound": 1.6589450339772076
+    },
+    {
+      "envelope": "rib0",
+      "object": "V012 | south open-leaf iron strap",
+      "separation_lower_bound": 3.0480159066856785
+    },
+    {
+      "envelope": "rib0",
+      "object": "V012 | south open-leaf iron strap.001",
+      "separation_lower_bound": 2.3967480683423474
+    },
+    {
+      "envelope": "rib0",
+      "object": "V012 | north outward-open timber leaf",
+      "separation_lower_bound": 1.6589450339772076
+    },
+    {
+      "envelope": "rib0",
+      "object": "V012 | north open-leaf iron strap",
+      "separation_lower_bound": 3.0480159066856785
+    },
+    {
+      "envelope": "rib0",
+      "object": "V012 | north open-leaf iron strap.001",
+      "separation_lower_bound": 2.3967480683423474
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance mounting plate",
+      "separation_lower_bound": 0.9740262694659978
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance wall arm",
+      "separation_lower_bound": 0.9296692933332491
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance lower cup",
+      "separation_lower_bound": 1.2570922282432153
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance hood rim",
+      "separation_lower_bound": 0.9403624482436636
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance rain hood",
+      "separation_lower_bound": 0.8532882850455019
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance cage upright 0",
+      "separation_lower_bound": 0.969409204081014
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance cage upright 1",
+      "separation_lower_bound": 0.9989839314039299
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance cage upright 2",
+      "separation_lower_bound": 0.9989839314039299
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance cage upright 3",
+      "separation_lower_bound": 0.969409204081014
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | entrance luminous flame",
+      "separation_lower_bound": 1.0710980144464801
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn mounting plate",
+      "separation_lower_bound": 4.950142018419437
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn wall arm",
+      "separation_lower_bound": 4.762591413013225
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn lower cup",
+      "separation_lower_bound": 4.759724456381454
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn hood rim",
+      "separation_lower_bound": 4.679207048424955
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn rain hood",
+      "separation_lower_bound": 4.655877711627099
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn cage upright 0",
+      "separation_lower_bound": 4.83438693362555
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn cage upright 1",
+      "separation_lower_bound": 4.721256547164824
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn cage upright 2",
+      "separation_lower_bound": 4.721256547164824
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn cage upright 3",
+      "separation_lower_bound": 4.83438693362555
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | turn luminous flame",
+      "separation_lower_bound": 4.784040867555292
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor mounting plate",
+      "separation_lower_bound": 6.23460877890499
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor wall arm",
+      "separation_lower_bound": 6.102427063675874
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor lower cup",
+      "separation_lower_bound": 6.0535780612680075
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor hood rim",
+      "separation_lower_bound": 5.984062882469795
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor rain hood",
+      "separation_lower_bound": 5.960980984902447
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor cage upright 0",
+      "separation_lower_bound": 6.200998693380036
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor cage upright 1",
+      "separation_lower_bound": 6.113211198334161
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor cage upright 2",
+      "separation_lower_bound": 6.040868368011675
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor cage upright 3",
+      "separation_lower_bound": 6.129692021586954
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | corridor luminous flame",
+      "separation_lower_bound": 6.117749779859218
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair mounting plate",
+      "separation_lower_bound": 10.799097028270783
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair wall arm",
+      "separation_lower_bound": 10.743749386766257
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair lower cup",
+      "separation_lower_bound": 10.62782170179666
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair hood rim",
+      "separation_lower_bound": 10.625595900477578
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair rain hood",
+      "separation_lower_bound": 10.618931993852502
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair cage upright 0",
+      "separation_lower_bound": 10.831041340626786
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair cage upright 1",
+      "separation_lower_bound": 10.781021421113296
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair cage upright 2",
+      "separation_lower_bound": 10.676274077997828
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair cage upright 3",
+      "separation_lower_bound": 10.726782454603574
+    },
+    {
+      "envelope": "rib1",
+      "object": "V013 | stair luminous flame",
+      "separation_lower_bound": 10.732281882448836
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker cage upright 0",
+      "separation_lower_bound": 15.867495458398944
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker cage upright 1",
+      "separation_lower_bound": 15.833394408099874
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker cage upright 2",
+      "separation_lower_bound": 15.722480186887262
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker cage upright 3",
+      "separation_lower_bound": 15.756821280541493
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker hood rim",
+      "separation_lower_bound": 15.680309717887212
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker lower cup",
+      "separation_lower_bound": 15.674849639324055
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker luminous flame",
+      "separation_lower_bound": 15.776004607197486
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker mounting plate",
+      "separation_lower_bound": 15.813648504487537
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker rain hood",
+      "separation_lower_bound": 15.674701679317595
+    },
+    {
+      "envelope": "rib1",
+      "object": "V014 | landing marker wall arm",
+      "separation_lower_bound": 15.786874895681617
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge lower neck",
+      "separation_lower_bound": 4.494318984277901
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge lower barrel",
+      "separation_lower_bound": 4.464431294472925
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge lower pintle",
+      "separation_lower_bound": 4.477254130089644
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge lower wall anchor",
+      "separation_lower_bound": 4.3983741258195765
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge lower pin cap",
+      "separation_lower_bound": 4.462975221051062
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge upper neck",
+      "separation_lower_bound": 4.08079691581615
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge upper barrel",
+      "separation_lower_bound": 4.054521960951287
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge upper pintle",
+      "separation_lower_bound": 4.042004271823863
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge upper wall anchor",
+      "separation_lower_bound": 3.988445525830758
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | south hinge upper pin cap",
+      "separation_lower_bound": 4.057357536771724
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge lower neck",
+      "separation_lower_bound": 4.494318984277901
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge lower barrel",
+      "separation_lower_bound": 4.464431294472925
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge lower pintle",
+      "separation_lower_bound": 4.477254130089644
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge lower wall anchor",
+      "separation_lower_bound": 4.3983741258195765
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge lower pin cap",
+      "separation_lower_bound": 4.462975221051062
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge upper neck",
+      "separation_lower_bound": 4.08079691581615
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge upper barrel",
+      "separation_lower_bound": 4.054521960951287
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge upper pintle",
+      "separation_lower_bound": 4.042004271823863
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge upper wall anchor",
+      "separation_lower_bound": 3.988445525830758
+    },
+    {
+      "envelope": "rib1",
+      "object": "V015 | north hinge upper pin cap",
+      "separation_lower_bound": 4.057357536771724
+    },
+    {
+      "envelope": "rib1",
+      "object": "V012 | south outward-open timber leaf",
+      "separation_lower_bound": 3.8309396257249064
+    },
+    {
+      "envelope": "rib1",
+      "object": "V012 | south open-leaf iron strap",
+      "separation_lower_bound": 4.67700771618107
+    },
+    {
+      "envelope": "rib1",
+      "object": "V012 | south open-leaf iron strap.001",
+      "separation_lower_bound": 4.281168241603117
+    },
+    {
+      "envelope": "rib1",
+      "object": "V012 | north outward-open timber leaf",
+      "separation_lower_bound": 3.8309396257249064
+    },
+    {
+      "envelope": "rib1",
+      "object": "V012 | north open-leaf iron strap",
+      "separation_lower_bound": 4.67700771618107
+    },
+    {
+      "envelope": "rib1",
+      "object": "V012 | north open-leaf iron strap.001",
+      "separation_lower_bound": 4.281168241603117
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance mounting plate",
+      "separation_lower_bound": 2.5951352885239016
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance wall arm",
+      "separation_lower_bound": 2.601746522164212
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance lower cup",
+      "separation_lower_bound": 2.665010484920053
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance hood rim",
+      "separation_lower_bound": 2.5310633236825866
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance rain hood",
+      "separation_lower_bound": 2.495616336702919
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance cage upright 0",
+      "separation_lower_bound": 2.574690283596281
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance cage upright 1",
+      "separation_lower_bound": 2.6828143861872453
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance cage upright 2",
+      "separation_lower_bound": 2.6828143861872453
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance cage upright 3",
+      "separation_lower_bound": 2.574690283596281
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | entrance luminous flame",
+      "separation_lower_bound": 2.64976432063534
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn mounting plate",
+      "separation_lower_bound": 2.838821190344971
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn wall arm",
+      "separation_lower_bound": 2.6517485894224744
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn lower cup",
+      "separation_lower_bound": 2.72194357339611
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn hood rim",
+      "separation_lower_bound": 2.578561327195154
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn rain hood",
+      "separation_lower_bound": 2.540314485500307
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn cage upright 0",
+      "separation_lower_bound": 2.7290605029985198
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn cage upright 1",
+      "separation_lower_bound": 2.622401056140501
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn cage upright 2",
+      "separation_lower_bound": 2.622401056140501
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn cage upright 3",
+      "separation_lower_bound": 2.7290605029985198
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | turn luminous flame",
+      "separation_lower_bound": 2.699823563533219
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor mounting plate",
+      "separation_lower_bound": 4.735540768933276
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor wall arm",
+      "separation_lower_bound": 4.6464082560275015
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor lower cup",
+      "separation_lower_bound": 4.625992570242843
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor hood rim",
+      "separation_lower_bound": 4.5346453551991655
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor rain hood",
+      "separation_lower_bound": 4.5065834866321115
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor cage upright 0",
+      "separation_lower_bound": 4.746457521174924
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor cage upright 1",
+      "separation_lower_bound": 4.68594441607434
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor cage upright 2",
+      "separation_lower_bound": 4.5911670144685575
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor cage upright 3",
+      "separation_lower_bound": 4.65291290317408
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | corridor luminous flame",
+      "separation_lower_bound": 4.672136836688062
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair mounting plate",
+      "separation_lower_bound": 10.008770972214164
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair wall arm",
+      "separation_lower_bound": 9.988876037865177
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair lower cup",
+      "separation_lower_bound": 9.884563421884485
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair hood rim",
+      "separation_lower_bound": 9.882170214903331
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair rain hood",
+      "separation_lower_bound": 9.876118524485262
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair cage upright 0",
+      "separation_lower_bound": 10.069157399076825
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair cage upright 1",
+      "separation_lower_bound": 10.040774213057668
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair cage upright 2",
+      "separation_lower_bound": 9.92821998666571
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair cage upright 3",
+      "separation_lower_bound": 9.956924024687954
+    },
+    {
+      "envelope": "rib2",
+      "object": "V013 | stair luminous flame",
+      "separation_lower_bound": 9.979172042615037
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker cage upright 0",
+      "separation_lower_bound": 15.357535164450324
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker cage upright 1",
+      "separation_lower_bound": 15.338940719539549
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker cage upright 2",
+      "separation_lower_bound": 15.224424690022365
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker cage upright 3",
+      "separation_lower_bound": 15.243158828534929
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker hood rim",
+      "separation_lower_bound": 15.186379185472251
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker lower cup",
+      "separation_lower_bound": 15.18074145526147
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker luminous flame",
+      "separation_lower_bound": 15.273647947300812
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker mounting plate",
+      "separation_lower_bound": 15.284844741498388
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker rain hood",
+      "separation_lower_bound": 15.181313288224393
+    },
+    {
+      "envelope": "rib2",
+      "object": "V014 | landing marker wall arm",
+      "separation_lower_bound": 15.283157808061109
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge lower neck",
+      "separation_lower_bound": 6.4518914351125805
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge lower barrel",
+      "separation_lower_bound": 6.425974344761202
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge lower pintle",
+      "separation_lower_bound": 6.412628543673528
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge lower wall anchor",
+      "separation_lower_bound": 6.357805851424752
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge lower pin cap",
+      "separation_lower_bound": 6.428386137068605
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge upper neck",
+      "separation_lower_bound": 6.170972648308606
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge upper barrel",
+      "separation_lower_bound": 6.148263806010298
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge upper pintle",
+      "separation_lower_bound": 6.116682011284717
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge upper wall anchor",
+      "separation_lower_bound": 6.08142236703315
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | south hinge upper pin cap",
+      "separation_lower_bound": 6.153710318558906
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge lower neck",
+      "separation_lower_bound": 6.4518914351125805
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge lower barrel",
+      "separation_lower_bound": 6.425974344761202
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge lower pintle",
+      "separation_lower_bound": 6.412628543673528
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge lower wall anchor",
+      "separation_lower_bound": 6.357805851424752
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge lower pin cap",
+      "separation_lower_bound": 6.428386137068605
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge upper neck",
+      "separation_lower_bound": 6.170972648308606
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge upper barrel",
+      "separation_lower_bound": 6.148263806010298
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge upper pintle",
+      "separation_lower_bound": 6.116682011284717
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge upper wall anchor",
+      "separation_lower_bound": 6.08142236703315
+    },
+    {
+      "envelope": "rib2",
+      "object": "V015 | north hinge upper pin cap",
+      "separation_lower_bound": 6.153710318558906
+    },
+    {
+      "envelope": "rib2",
+      "object": "V012 | south outward-open timber leaf",
+      "separation_lower_bound": 6.023296290748193
+    },
+    {
+      "envelope": "rib2",
+      "object": "V012 | south open-leaf iron strap",
+      "separation_lower_bound": 6.6436737869213305
+    },
+    {
+      "envelope": "rib2",
+      "object": "V012 | south open-leaf iron strap.001",
+      "separation_lower_bound": 6.371216659533678
+    },
+    {
+      "envelope": "rib2",
+      "object": "V012 | north outward-open timber leaf",
+      "separation_lower_bound": 6.023296290748193
+    },
+    {
+      "envelope": "rib2",
+      "object": "V012 | north open-leaf iron strap",
+      "separation_lower_bound": 6.6436737869213305
+    },
+    {
+      "envelope": "rib2",
+      "object": "V012 | north open-leaf iron strap.001",
+      "separation_lower_bound": 6.371216659533678
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance mounting plate",
+      "separation_lower_bound": 0.7800011444091801
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance wall arm",
+      "separation_lower_bound": 0.7276196289062504
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance lower cup",
+      "separation_lower_bound": 1.0774998474121098
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance hood rim",
+      "separation_lower_bound": 0.757500152587891
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance rain hood",
+      "separation_lower_bound": 0.6700005340576176
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance cage upright 0",
+      "separation_lower_bound": 0.7890223985973812
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance cage upright 1",
+      "separation_lower_bound": 0.7890223985973812
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance cage upright 2",
+      "separation_lower_bound": 0.7800050782143406
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance cage upright 3",
+      "separation_lower_bound": 0.7800050782143406
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | entrance luminous flame",
+      "separation_lower_bound": 0.876156804547775
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn mounting plate",
+      "separation_lower_bound": 3.0115018650931384
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn wall arm",
+      "separation_lower_bound": 2.885904434460336
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn lower cup",
+      "separation_lower_bound": 2.888972068086302
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn hood rim",
+      "separation_lower_bound": 2.7739793091833125
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn rain hood",
+      "separation_lower_bound": 2.7414050125292215
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn cage upright 0",
+      "separation_lower_bound": 2.9883403795726706
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn cage upright 1",
+      "separation_lower_bound": 2.9096533934730857
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn cage upright 2",
+      "separation_lower_bound": 2.8320580713000973
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn cage upright 3",
+      "separation_lower_bound": 2.9128419581657905
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | turn luminous flame",
+      "separation_lower_bound": 2.9188820959420783
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor mounting plate",
+      "separation_lower_bound": 7.148549298916016
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor wall arm",
+      "separation_lower_bound": 7.114095213640992
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor lower cup",
+      "separation_lower_bound": 7.06173918068384
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor hood rim",
+      "separation_lower_bound": 7.01000437872423
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor rain hood",
+      "separation_lower_bound": 6.992209323519133
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor cage upright 0",
+      "separation_lower_bound": 7.202391418459338
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor cage upright 1",
+      "separation_lower_bound": 7.170100891247041
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor cage upright 2",
+      "separation_lower_bound": 7.059739666977279
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor cage upright 3",
+      "separation_lower_bound": 7.092532659038487
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | corridor luminous flame",
+      "separation_lower_bound": 7.125254638043607
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair mounting plate",
+      "separation_lower_bound": 12.821264225064482
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair wall arm",
+      "separation_lower_bound": 12.818501695206495
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair lower cup",
+      "separation_lower_bound": 12.718567377325101
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair hood rim",
+      "separation_lower_bound": 12.718480892976903
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair rain hood",
+      "separation_lower_bound": 12.712821191771795
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair cage upright 0",
+      "separation_lower_bound": 12.894432922236035
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair cage upright 1",
+      "separation_lower_bound": 12.87642438847095
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair cage upright 2",
+      "separation_lower_bound": 12.761801242938034
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair cage upright 3",
+      "separation_lower_bound": 12.779971295675505
+    },
+    {
+      "envelope": "south band",
+      "object": "V013 | stair luminous flame",
+      "separation_lower_bound": 12.809732619100009
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker cage upright 0",
+      "separation_lower_bound": 18.26013062859605
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker cage upright 1",
+      "separation_lower_bound": 18.24741831655526
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker cage upright 2",
+      "separation_lower_bound": 18.132212788024283
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker cage upright 3",
+      "separation_lower_bound": 18.145005812736088
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker hood rim",
+      "separation_lower_bound": 18.104848392408446
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker lower cup",
+      "separation_lower_bound": 18.08950882327152
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker luminous flame",
+      "separation_lower_bound": 18.18251723896718
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker mounting plate",
+      "separation_lower_bound": 18.18064379322575
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker rain hood",
+      "separation_lower_bound": 18.10064883762608
+    },
+    {
+      "envelope": "south band",
+      "object": "V014 | landing marker wall arm",
+      "separation_lower_bound": 18.192757108419325
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge lower neck",
+      "separation_lower_bound": 2.5430304252122626
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge lower barrel",
+      "separation_lower_bound": 2.5068798416466778
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge lower pintle",
+      "separation_lower_bound": 2.5932421181788707
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge lower wall anchor",
+      "separation_lower_bound": 2.469128206473218
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge lower pin cap",
+      "separation_lower_bound": 2.495645724888211
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge upper neck",
+      "separation_lower_bound": 1.7963863586515592
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge upper barrel",
+      "separation_lower_bound": 1.76024088110742
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge upper pintle",
+      "separation_lower_bound": 1.8228821109257827
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge upper wall anchor",
+      "separation_lower_bound": 1.721800433308753
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | south hinge upper pin cap",
+      "separation_lower_bound": 1.7544941755205767
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge lower neck",
+      "separation_lower_bound": 4.1518924858741695
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge lower barrel",
+      "separation_lower_bound": 4.119955895336378
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge lower pintle",
+      "separation_lower_bound": 4.182835420405633
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge lower wall anchor",
+      "separation_lower_bound": 4.133447205326373
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge lower pin cap",
+      "separation_lower_bound": 4.119738977691312
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge upper neck",
+      "separation_lower_bound": 3.7414183701174797
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge upper barrel",
+      "separation_lower_bound": 3.713224743882914
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge upper pintle",
+      "separation_lower_bound": 3.754211856173858
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge upper wall anchor",
+      "separation_lower_bound": 3.7354234607820525
+    },
+    {
+      "envelope": "south band",
+      "object": "V015 | north hinge upper pin cap",
+      "separation_lower_bound": 3.717828865358367
+    },
+    {
+      "envelope": "south band",
+      "object": "V012 | south outward-open timber leaf",
+      "separation_lower_bound": 1.240200744116199
+    },
+    {
+      "envelope": "south band",
+      "object": "V012 | south open-leaf iron strap",
+      "separation_lower_bound": 2.68479051763781
+    },
+    {
+      "envelope": "south band",
+      "object": "V012 | south open-leaf iron strap.001",
+      "separation_lower_bound": 1.9920091188526334
+    },
+    {
+      "envelope": "south band",
+      "object": "V012 | north outward-open timber leaf",
+      "separation_lower_bound": 3.5393346246046202
+    },
+    {
+      "envelope": "south band",
+      "object": "V012 | north open-leaf iron strap",
+      "separation_lower_bound": 4.3790516647983155
+    },
+    {
+      "envelope": "south band",
+      "object": "V012 | north open-leaf iron strap.001",
+      "separation_lower_bound": 3.992003718556265
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance mounting plate",
+      "separation_lower_bound": 2.7696029925315604
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance wall arm",
+      "separation_lower_bound": 2.5815946831594485
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance lower cup",
+      "separation_lower_bound": 2.617103119412879
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance hood rim",
+      "separation_lower_bound": 2.5024047030083243
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance rain hood",
+      "separation_lower_bound": 2.4725075232355174
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance cage upright 0",
+      "separation_lower_bound": 2.54546838449959
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance cage upright 1",
+      "separation_lower_bound": 2.54546838449959
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance cage upright 2",
+      "separation_lower_bound": 2.6560942363039497
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance cage upright 3",
+      "separation_lower_bound": 2.6560942363039497
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | entrance luminous flame",
+      "separation_lower_bound": 2.615690877179448
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn mounting plate",
+      "separation_lower_bound": 2.420357656393841
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn wall arm",
+      "separation_lower_bound": 2.246606496216342
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn lower cup",
+      "separation_lower_bound": 2.3002502577684107
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn hood rim",
+      "separation_lower_bound": 2.154054977468756
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn rain hood",
+      "separation_lower_bound": 2.115016758450118
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn cage upright 0",
+      "separation_lower_bound": 2.3088523264193905
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn cage upright 1",
+      "separation_lower_bound": 2.206060677129517
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn cage upright 2",
+      "separation_lower_bound": 2.23846601166824
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn cage upright 3",
+      "separation_lower_bound": 2.339834489751146
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | turn luminous flame",
+      "separation_lower_bound": 2.2927862956223324
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor mounting plate",
+      "separation_lower_bound": 4.675654726142122
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor wall arm",
+      "separation_lower_bound": 4.606894743267588
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor lower cup",
+      "separation_lower_bound": 4.577614855552058
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor hood rim",
+      "separation_lower_bound": 4.49739467908905
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor rain hood",
+      "separation_lower_bound": 4.472649611161195
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor cage upright 0",
+      "separation_lower_bound": 4.703527007961004
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor cage upright 1",
+      "separation_lower_bound": 4.653930700019447
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor cage upright 2",
+      "separation_lower_bound": 4.551868595468716
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor cage upright 3",
+      "separation_lower_bound": 4.602564835442237
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | corridor luminous flame",
+      "separation_lower_bound": 4.628224493014917
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair mounting plate",
+      "separation_lower_bound": 10.15129538862896
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair wall arm",
+      "separation_lower_bound": 10.140567335017671
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair lower cup",
+      "separation_lower_bound": 10.037546778996484
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair hood rim",
+      "separation_lower_bound": 10.037437194523456
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair rain hood",
+      "separation_lower_bound": 10.03162088964158
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair cage upright 0",
+      "separation_lower_bound": 10.218568246439338
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair cage upright 1",
+      "separation_lower_bound": 10.195834524603821
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair cage upright 2",
+      "separation_lower_bound": 10.082020938700504
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair cage upright 3",
+      "separation_lower_bound": 10.105010715601964
+    },
+    {
+      "envelope": "north band",
+      "object": "V013 | stair luminous flame",
+      "separation_lower_bound": 10.131359719841894
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker cage upright 0",
+      "separation_lower_bound": 15.563068427970883
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker cage upright 1",
+      "separation_lower_bound": 15.548151129303735
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker cage upright 2",
+      "separation_lower_bound": 15.433233865057275
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker cage upright 3",
+      "separation_lower_bound": 15.448262131631045
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker hood rim",
+      "separation_lower_bound": 15.407787518663989
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker lower cup",
+      "separation_lower_bound": 15.38975991935616
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker luminous flame",
+      "separation_lower_bound": 15.484932187276682
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker mounting plate",
+      "separation_lower_bound": 15.486244934575264
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker rain hood",
+      "separation_lower_bound": 15.403735750193988
+    },
+    {
+      "envelope": "north band",
+      "object": "V014 | landing marker wall arm",
+      "separation_lower_bound": 15.49572596141195
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge lower neck",
+      "separation_lower_bound": 4.1518924858741695
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge lower barrel",
+      "separation_lower_bound": 4.119955895336378
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge lower pintle",
+      "separation_lower_bound": 4.182835420405633
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge lower wall anchor",
+      "separation_lower_bound": 4.133447205326373
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge lower pin cap",
+      "separation_lower_bound": 4.119738977691312
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge upper neck",
+      "separation_lower_bound": 3.7414183701174797
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge upper barrel",
+      "separation_lower_bound": 3.713224743882914
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge upper pintle",
+      "separation_lower_bound": 3.754211856173858
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge upper wall anchor",
+      "separation_lower_bound": 3.7354234607820525
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | south hinge upper pin cap",
+      "separation_lower_bound": 3.717828865358367
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge lower neck",
+      "separation_lower_bound": 2.5430304252122626
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge lower barrel",
+      "separation_lower_bound": 2.5068798416466778
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge lower pintle",
+      "separation_lower_bound": 2.5932421181788707
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge lower wall anchor",
+      "separation_lower_bound": 2.469128206473218
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge lower pin cap",
+      "separation_lower_bound": 2.495645724888211
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge upper neck",
+      "separation_lower_bound": 1.7963863586515592
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge upper barrel",
+      "separation_lower_bound": 1.76024088110742
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge upper pintle",
+      "separation_lower_bound": 1.8228821109257827
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge upper wall anchor",
+      "separation_lower_bound": 1.721800433308753
+    },
+    {
+      "envelope": "north band",
+      "object": "V015 | north hinge upper pin cap",
+      "separation_lower_bound": 1.7544941755205767
+    },
+    {
+      "envelope": "north band",
+      "object": "V012 | south outward-open timber leaf",
+      "separation_lower_bound": 3.5393346246046202
+    },
+    {
+      "envelope": "north band",
+      "object": "V012 | south open-leaf iron strap",
+      "separation_lower_bound": 4.3790516647983155
+    },
+    {
+      "envelope": "north band",
+      "object": "V012 | south open-leaf iron strap.001",
+      "separation_lower_bound": 3.992003718556265
+    },
+    {
+      "envelope": "north band",
+      "object": "V012 | north outward-open timber leaf",
+      "separation_lower_bound": 1.240200744116199
+    },
+    {
+      "envelope": "north band",
+      "object": "V012 | north open-leaf iron strap",
+      "separation_lower_bound": 2.68479051763781
+    },
+    {
+      "envelope": "north band",
+      "object": "V012 | north open-leaf iron strap.001",
+      "separation_lower_bound": 1.9920091188526334
+    }
+  ],
+  "projection": [
+    {
+      "view": "frame_0001",
+      "station_x": -1.8,
+      "intrados": [
+        {
+          "pixel": [
+            1936.8393355076273,
+            -1076.7277981410568
+          ],
+          "depth": 0.765898994505239,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1800.152738862554,
+            -1081.0422171693322
+          ],
+          "depth": 0.7851320601470011,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1669.6894157181143,
+            -1082.6867136822823
+          ],
+          "depth": 0.8045769631028676,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1545.10950876584,
+            -1081.8489820860432
+          ],
+          "depth": 0.8242337033728351,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1426.0957882820746,
+            -1078.703065184939
+          ],
+          "depth": 0.8441022809569052,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1312.35185631341,
+            -1073.410480149891
+          ],
+          "depth": 0.8641826958550798,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1203.6005167755052,
+            -1066.1212385347874
+          ],
+          "depth": 0.8844749480673562,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1099.5822939792913,
+            -1056.9747716099257
+          ],
+          "depth": 0.9049790375937352,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1000.0540841659039,
+            -1046.1007709428661
+          ],
+          "depth": 0.9256949644342161,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            904.7879264286729,
+            -1033.6199529940347
+          ],
+          "depth": 0.9466227285888014,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            813.5698809658392,
+            -1019.6447554816584
+          ],
+          "depth": 0.9677623300574902,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            726.1990039734096,
+            -1004.2799723874089
+          ],
+          "depth": 0.9891137688402818,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            642.4864096827041,
+            -987.62333370141
+          ],
+          "depth": 1.010677044937177,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            562.0523886045299,
+            -947.0677895646483
+          ],
+          "depth": 1.0349942061174104,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            485.3101332881161,
+            -906.538746199157
+          ],
+          "depth": 1.0595232046117458,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            412.0540708080611,
+            -866.058160045466
+          ],
+          "depth": 1.0842640404201838,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            342.0928960131402,
+            -825.6459814702564
+          ],
+          "depth": 1.1092167135427253,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            275.2483728749322,
+            -785.3203362727309
+          ],
+          "depth": 1.1343812239793696,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            211.35425410918512,
+            -745.0976888582908
+          ],
+          "depth": 1.1597575717301174,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            150.2553056962013,
+            -704.9929891687585
+          ],
+          "depth": 1.185345756794968,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            91.80642462651971,
+            -665.0198051917695
+          ],
+          "depth": 1.211145779173921,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            35.87183965881476,
+            -625.1904426435419
+          ],
+          "depth": 1.237157638866977,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -17.67561386496773,
+            -585.5160532220305
+          ],
+          "depth": 1.2633813358741364,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -68.95515301544802,
+            -546.0067326575936
+          ],
+          "depth": 1.2898168701953985,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -118.07864701061035,
+            -506.6716096408236
+          ],
+          "depth": 1.3164642418307633,
+          "in_frame": false
+        }
+      ],
+      "extrados_surrogate": [
+        {
+          "pixel": [
+            1988.3317492181739,
+            -1407.155184647539
+          ],
+          "depth": 0.7397522174502473,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1845.631503766581,
+            -1403.2450391142588
+          ],
+          "depth": 0.7589852830920094,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1709.6499907173652,
+            -1396.8962634845593
+          ],
+          "depth": 0.778430186047876,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1580.0043978565845,
+            -1388.292160472255
+          ],
+          "depth": 0.7980869263178434,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1456.3386675642055,
+            -1377.6020121022254
+          ],
+          "depth": 0.8179555039019135,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1338.3212591085544,
+            -1364.9822961293141
+          ],
+          "depth": 0.8380359188000872,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1225.6431293120058,
+            -1350.5777818137262
+          ],
+          "depth": 0.8583281710123636,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1118.015907251235,
+            -1334.5225185987051
+          ],
+          "depth": 0.8788322605387435,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1015.1702416989672,
+            -1316.940729536149
+          ],
+          "depth": 0.8995481873792244,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            916.8543026368262,
+            -1297.9476198414427
+          ],
+          "depth": 0.9204759515338097,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            822.8324204341452,
+            -1277.6501096941713
+          ],
+          "depth": 0.9416155530024977,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            732.8838482481875,
+            -1256.147499307209
+          ],
+          "depth": 0.9629669917852901,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            646.8016349031137,
+            -1233.5320733371516
+          ],
+          "depth": 0.9845302678821852,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            564.1789533988202,
+            -1185.9980713826637
+          ],
+          "depth": 1.0088474290624188,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            485.4444665100642,
+            -1138.7721224176703
+          ],
+          "depth": 1.0333764275567532,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            410.3750573280774,
+            -1091.861167034548
+          ],
+          "depth": 1.058117263365192,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            338.7636074169161,
+            -1045.2711447009788
+          ],
+          "depth": 1.0830699364877336,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            270.41760692359287,
+            -999.0070941550928
+          ],
+          "depth": 1.108234446924378,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            205.15790652340718,
+            -953.0732431223829
+          ],
+          "depth": 1.1336107946751248,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            142.81759461817745,
+            -907.4730886192705
+          ],
+          "depth": 1.1591989797399753,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            83.24098538350034,
+            -862.2094689410435
+          ],
+          "depth": 1.1849990021189294,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            26.282705122790073,
+            -817.2846282895645
+          ],
+          "depth": 1.2110108618119853,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -28.19313401900466,
+            -772.7002748738296
+          ],
+          "depth": 1.2372345588191447,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -80.31368255825875,
+            -728.457633211793
+          ],
+          "depth": 1.2636700931404068,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -130.19803278802664,
+            -684.5574912713673
+          ],
+          "depth": 1.2903174647757716,
+          "in_frame": false
+        }
+      ],
+      "intrados_in_frame": 0,
+      "landmarks": {
+        "south_spring": {
+          "pixel": [
+            1936.8393355076273,
+            -1076.7277981410568
+          ],
+          "depth": 0.765898994505239,
+          "in_frame": false
+        },
+        "crown_intrados": {
+          "pixel": [
+            642.4864096827041,
+            -987.62333370141
+          ],
+          "depth": 1.010677044937177,
+          "in_frame": false
+        },
+        "crown_outer_target": {
+          "pixel": [
+            647.0974805211342,
+            -1250.391221895621
+          ],
+          "depth": 0.9827871494118519,
+          "in_frame": false
+        },
+        "north_spring": {
+          "pixel": [
+            -118.07864701061035,
+            -506.6716096408236
+          ],
+          "depth": 1.3164642418307633,
+          "in_frame": false
+        }
+      },
+      "note": "Point projection only, no depthbuffer/occlusion; curvature surrogate not finalgeometry."
+    },
+    {
+      "view": "frame_0001",
+      "station_x": 0.4,
+      "intrados": [
+        {
+          "pixel": [
+            966.1581030771167,
+            -71.86962148674843
+          ],
+          "depth": 2.914410811770805,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            935.9404430399171,
+            -79.6121740668845
+          ],
+          "depth": 2.9336438774125666,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            906.0858512333934,
+            -86.65423597632832
+          ],
+          "depth": 2.9530887803684336,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            876.5935854043323,
+            -93.0080476186588
+          ],
+          "depth": 2.9727455206384006,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            847.4627688089683,
+            -98.68582184385488
+          ],
+          "depth": 2.9926140982224716,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            818.6923952169735,
+            -103.6997362597504
+          ],
+          "depth": 3.0126945131206453,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            790.2813338554711,
+            -108.06192588096066
+          ],
+          "depth": 3.032986765332922,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            762.2283342886152,
+            -111.78447611067617
+          ],
+          "depth": 3.0534908548593016,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            734.5320312286016,
+            -114.87941605023444
+          ],
+          "depth": 3.0742067816997825,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            707.1909492743384,
+            -117.35871213105965
+          ],
+          "depth": 3.0951345458543678,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            680.2035075743886,
+            -119.23426206317323
+          ],
+          "depth": 3.116274147323056,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            653.5680244110088,
+            -120.51788909428751
+          ],
+          "depth": 3.1376255861058477,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            627.282721702527,
+            -121.22133657311768
+          ],
+          "depth": 3.1591888622027433,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            601.2488349591886,
+            -114.65426365323486
+          ],
+          "depth": 3.1835060233829764,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            575.6033387926749,
+            -107.63339523094193
+          ],
+          "depth": 3.2080350218773117,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            550.3424338438351,
+            -100.17044114786412
+          ],
+          "depth": 3.23277585768575,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            525.4622856256584,
+            -92.2769295292964
+          ],
+          "depth": 3.2577285308082917,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            500.959028321242,
+            -83.96420619271824
+          ],
+          "depth": 3.282893041244936,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            476.8287684407164,
+            -75.24343425804312
+          ],
+          "depth": 3.3082693889956833,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            453.06758833961254,
+            -66.12559394961283
+          ],
+          "depth": 3.3338575740605334,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            429.6715496012878,
+            -56.62148258008663
+          ],
+          "depth": 3.359657596439487,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            406.63669628611603,
+            -46.74171470673789
+          ],
+          "depth": 3.3856694561325433,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            383.9590580501616,
+            -36.496722450874834
+          ],
+          "depth": 3.4118931531397023,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            361.63465313620367,
+            -25.896755971450034
+          ],
+          "depth": 3.438328687460964,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            339.6594912399334,
+            -14.951884084090908
+          ],
+          "depth": 3.464976059096329,
+          "in_frame": false
+        }
+      ],
+      "extrados_surrogate": [
+        {
+          "pixel": [
+            970.5591693562487,
+            -147.40308606456705
+          ],
+          "depth": 2.888264034715813,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            940.0406524698197,
+            -154.71561335385354
+          ],
+          "depth": 2.907497100357575,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            909.8921260620907,
+            -161.32163933761512
+          ],
+          "depth": 2.9269420033134415,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            880.1127676463565,
+            -167.2337260722417
+          ],
+          "depth": 2.946598743583409,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            850.7016182435406,
+            -172.46440177564358
+          ],
+          "depth": 2.9664673211674795,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            821.6575875541996,
+            -177.02615305451113
+          ],
+          "depth": 2.986547736065653,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            792.979459065344,
+            -180.9314174820678
+          ],
+          "depth": 3.00683998827793,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            764.6658950875782,
+            -184.1925765211222
+          ],
+          "depth": 3.02734407780431,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            736.7154417183981,
+            -186.82194878681733
+          ],
+          "depth": 3.0480600046447908,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            709.1265337278712,
+            -188.83178364314264
+          ],
+          "depth": 3.0689877687993756,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            681.8974993633105,
+            -190.23425512688914
+          ],
+          "depth": 3.090127370268064,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            655.0265650697885,
+            -191.04145619252446
+          ],
+          "depth": 3.1114788090508556,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            628.5118601237585,
+            -191.26539327109376
+          ],
+          "depth": 3.1330420851477516,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            602.2529146100312,
+            -184.1044758559551
+          ],
+          "depth": 3.1573592463279843,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            576.3889393249924,
+            -176.49052650600933
+          ],
+          "depth": 3.1818882448223196,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            550.9159962368515,
+            -168.43545056288772
+          ],
+          "depth": 3.206629080630758,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            525.8301135969192,
+            -159.95096384307303
+          ],
+          "depth": 3.2315817537533,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            501.1272898037567,
+            -151.04859221620578
+          ],
+          "depth": 3.2567462641899443,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            476.8034971207217,
+            -141.73967138639867
+          ],
+          "depth": 3.282122611940691,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            452.8546852496287,
+            -132.03534686620623
+          ],
+          "depth": 3.3077107970055413,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            429.2767847633686,
+            -121.94657413305362
+          ],
+          "depth": 3.3335108193844953,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            406.06571040041604,
+            -111.48411895830725
+          ],
+          "depth": 3.359522679077551,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            383.2173642241652,
+            -100.65855789937854
+          ],
+          "depth": 3.38574637608471,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            360.7276386501753,
+            -89.48027894563211
+          ],
+          "depth": 3.4121819104059723,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            338.59241934435704,
+            -77.95948230909875
+          ],
+          "depth": 3.438829282041337,
+          "in_frame": false
+        }
+      ],
+      "intrados_in_frame": 0,
+      "landmarks": {
+        "south_spring": {
+          "pixel": [
+            966.1581030771167,
+            -71.86962148674843
+          ],
+          "depth": 2.914410811770805,
+          "in_frame": false
+        },
+        "crown_intrados": {
+          "pixel": [
+            627.282721702527,
+            -121.22133657311768
+          ],
+          "depth": 3.1591888622027433,
+          "in_frame": false
+        },
+        "crown_outer_target": {
+          "pixel": [
+            628.5945325322762,
+            -195.9765883403739
+          ],
+          "depth": 3.1312989666774182,
+          "in_frame": false
+        },
+        "north_spring": {
+          "pixel": [
+            339.6594912399334,
+            -14.951884084090908
+          ],
+          "depth": 3.464976059096329,
+          "in_frame": false
+        }
+      },
+      "note": "Point projection only, no depthbuffer/occlusion; curvature surrogate not finalgeometry."
+    },
+    {
+      "view": "frame_0001",
+      "station_x": 2.6,
+      "intrados": [
+        {
+          "pixel": [
+            819.3172693578913,
+            80.14136574541973
+          ],
+          "depth": 5.062922629036371,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            802.4300153814095,
+            75.0967486954515
+          ],
+          "depth": 5.082155694678132,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            785.6574042842977,
+            70.43073583352762
+          ],
+          "depth": 5.1016005976339995,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            769.0002115666714,
+            66.13959361201731
+          ],
+          "depth": 5.121257337903966,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            752.4591723977596,
+            62.21955259741273
+          ],
+          "depth": 5.141125915488038,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            736.0349820821724,
+            58.66680970081561
+          ],
+          "depth": 5.161206330386211,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            719.7282965399406,
+            55.47753037804019
+          ],
+          "depth": 5.181498582598488,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            703.5397327995663,
+            52.64785079823181
+          ],
+          "depth": 5.202002672124868,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            687.4698695032906,
+            50.17387998001495
+          ],
+          "depth": 5.222718598965349,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            671.5192474238265,
+            48.05170189422956
+          ],
+          "depth": 5.243646363119934,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            655.6883699918274,
+            46.277377532412046
+          ],
+          "depth": 5.264785964588622,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            639.9777038333201,
+            44.84694694018355
+          ],
+          "depth": 5.286137403371414,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            624.3876793163968,
+            43.756431214836766
+          ],
+          "depth": 5.30770067946831,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            608.8572293963177,
+            46.9249362219266
+          ],
+          "depth": 5.332017840648542,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            593.4633051709704,
+            50.38982066886715
+          ],
+          "depth": 5.356546839142878,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            578.205857675682,
+            54.14662249204334
+          ],
+          "depth": 5.3812876749513165,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            563.084806752156,
+            58.190892327295415
+          ],
+          "depth": 5.406240348073858,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            548.1000417901931,
+            62.51819495603056
+          ],
+          "depth": 5.431404858510502,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            533.2514224668835,
+            67.1241107036043
+          ],
+          "depth": 5.456781206261249,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            518.5387794827443,
+            72.00423679032103
+          ],
+          "depth": 5.482369391326099,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            503.9619152943085,
+            77.1541886355137
+          ],
+          "depth": 5.508169413705053,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            489.52060484269936,
+            82.56960111513958
+          ],
+          "depth": 5.53418127339811,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            475.21459627771696,
+            88.2461297733998
+          ],
+          "depth": 5.560404970405268,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            461.0436116770296,
+            94.17945198887746
+          ],
+          "depth": 5.5868405047265295,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            447.00734776003515,
+            100.36526809577819
+          ],
+          "depth": 5.613487876361895,
+          "in_frame": true
+        }
+      ],
+      "extrados_surrogate": [
+        {
+          "pixel": [
+            821.0787189771158,
+            37.61694177680718
+          ],
+          "depth": 5.036775851981378,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            804.0974332556962,
+            32.70799983568661
+          ],
+          "depth": 5.05600891762314,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            787.2320279930995,
+            28.180347785384093
+          ],
+          "depth": 5.075453820579007,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            770.4832800740606,
+            24.03018491194037
+          ],
+          "depth": 5.095110560848974,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            753.8519255172254,
+            20.253674808302804
+          ],
+          "depth": 5.114979138433045,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            737.3386599536823,
+            16.846947640118007
+          ],
+          "depth": 5.135059553331219,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            720.944139119383,
+            13.806102380015458
+          ],
+          "depth": 5.155351805543496,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            704.6689793606602,
+            11.12720900930468
+          ],
+          "depth": 5.175855895069876,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            688.513758152042,
+            8.806310686090432
+          ],
+          "depth": 5.196571821910357,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            672.4790146255887,
+            6.83942587885468
+          ],
+          "depth": 5.217499586064942,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            656.5652501110088,
+            5.222550464664443
+          ],
+          "depth": 5.2386391875336304,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            640.7729286857665,
+            3.9516597911733493
+          ],
+          "depth": 5.259990626316421,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            625.1024777344592,
+            3.022710701722461
+          ],
+          "depth": 5.281553902413318,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            609.4922194144223,
+            6.393515129272305
+          ],
+          "depth": 5.30587106359355,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            594.0198625819443,
+            10.06190976596975
+          ],
+          "depth": 5.330400062087886,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            578.6853484358468,
+            14.023369973070418
+          ],
+          "depth": 5.355140897896324,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            563.4885866871911,
+            18.273384747855648
+          ],
+          "depth": 5.380093571018866,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            548.4294563152858,
+            22.80745817945216
+          ],
+          "depth": 5.405258081455511,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            533.5078063209313,
+            27.62111085588263
+          ],
+          "depth": 5.430634429206258,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            518.7234564763577,
+            32.70988122271493
+          ],
+          "depth": 5.456222614271107,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            504.07619807136314,
+            38.0693268937946
+          ],
+          "depth": 5.482022636650061,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            489.56579465518115,
+            43.695025914524614
+          ],
+          "depth": 5.508034496343117,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            475.19198277359584,
+            49.582577978236976
+          ],
+          "depth": 5.534258193350276,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            460.9544727008979,
+            55.727605596184134
+          ],
+          "depth": 5.560693727671538,
+          "in_frame": true
+        },
+        {
+          "pixel": [
+            446.8529491662396,
+            62.12575522173995
+          ],
+          "depth": 5.587341099306903,
+          "in_frame": true
+        }
+      ],
+      "intrados_in_frame": 25,
+      "landmarks": {
+        "south_spring": {
+          "pixel": [
+            819.3172693578913,
+            80.14136574541973
+          ],
+          "depth": 5.062922629036371,
+          "in_frame": true
+        },
+        "crown_intrados": {
+          "pixel": [
+            624.3876793163968,
+            43.756431214836766
+          ],
+          "depth": 5.30770067946831,
+          "in_frame": true
+        },
+        "crown_outer_target": {
+          "pixel": [
+            625.1503826841438,
+            0.292784638181265
+          ],
+          "depth": 5.279810783942985,
+          "in_frame": true
+        },
+        "north_spring": {
+          "pixel": [
+            447.00734776003515,
+            100.36526809577819
+          ],
+          "depth": 5.613487876361895,
+          "in_frame": true
+        }
+      },
+      "note": "Point projection only, no depthbuffer/occlusion; curvature surrogate not finalgeometry."
+    },
+    {
+      "view": "frame_0001",
+      "bands": [
+        {
+          "name": "south band",
+          "corners": [
+            {
+              "pixel": [
+                12215.400629595704,
+                -10087.14557696487
+              ],
+              "depth": 0.08923288728145273,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                15808.647048556846,
+                -15708.45281368505
+              ],
+              "depth": 0.06831546563745938,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                8255.321460205763,
+                -7383.120566334237
+              ],
+              "depth": 0.12069375855719677,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                9885.363828600406,
+                -10665.070978778791
+              ],
+              "depth": 0.09977633691320342,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                803.0710614748346,
+                122.67703067972266
+              ],
+              "depth": 5.655831686560419,
+              "in_frame": true
+            },
+            {
+              "pixel": [
+                804.2703330923182,
+                92.4265159496982
+              ],
+              "depth": 5.634914264916425,
+              "in_frame": true
+            },
+            {
+              "pixel": [
+                782.1621656462088,
+                123.58238712235767
+              ],
+              "depth": 5.687292557836163,
+              "in_frame": true
+            },
+            {
+              "pixel": [
+                783.2775934819587,
+                93.50317154727178
+              ],
+              "depth": 5.666375136192169,
+              "in_frame": true
+            }
+          ]
+        },
+        {
+          "name": "north band",
+          "corners": [
+            {
+              "pixel": [
+                -804.446862533219,
+                -1196.9209760419594
+              ],
+              "depth": 0.6240676989691032,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                -848.9918764077696,
+                -1525.2995780693495
+              ],
+              "depth": 0.6031502773251098,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                -908.700279180682,
+                -1125.7345593062953
+              ],
+              "depth": 0.6555285702448472,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                -954.4732697903978,
+                -1435.4874040517063
+              ],
+              "depth": 0.6346111486008539,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                476.5221946556793,
+                136.81661618595757
+              ],
+              "depth": 6.19066649824807,
+              "in_frame": true
+            },
+            {
+              "pixel": [
+                476.51040040135007,
+                109.23635462448824
+              ],
+              "depth": 6.1697490766040755,
+              "in_frame": true
+            },
+            {
+              "pixel": [
+                459.06168809218264,
+                137.57265716671952
+              ],
+              "depth": 6.222127369523814,
+              "in_frame": true
+            },
+            {
+              "pixel": [
+                458.9910573005557,
+                110.13486997624186
+              ],
+              "depth": 6.2012099478798195,
+              "in_frame": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "view": "frame_0076",
+      "station_x": -1.8,
+      "intrados": [
+        {
+          "pixel": [
+            1426.0453086538296,
+            585.6163084996736
+          ],
+          "depth": -3.488337506383321,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1463.9864551248588,
+            603.6063448119019
+          ],
+          "depth": -3.3838447025313725,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1504.411678340148,
+            622.2487033221323
+          ],
+          "depth": -3.2791400616780804,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1547.5748903959905,
+            641.6116687313743
+          ],
+          "depth": -3.174223583823445,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1593.7658219963787,
+            661.7731519449319
+          ],
+          "depth": -3.069095268967466,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1643.3165694067395,
+            682.8224495907106
+          ],
+          "depth": -2.9637551171101504,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1696.6096318824123,
+            704.8624041079719
+          ],
+          "depth": -2.8582031282514837,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1754.0878510587456,
+            728.0120749951466
+          ],
+          "depth": -2.7524393023914735,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1816.26679895186,
+            752.4100681305913
+          ],
+          "depth": -2.646463639530127,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1883.7503484662604,
+            778.2187204035364
+          ],
+          "depth": -2.5402761396674305,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1957.2504229368083,
+            805.6294074755901
+          ],
+          "depth": -2.4338768028033897,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2037.6122945483116,
+            834.86934282315
+          ],
+          "depth": -2.3272656289380054,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2125.847339852228,
+            866.2103809015305
+          ],
+          "depth": -2.220442618071285,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2225.2751966474193,
+            891.1028793916842
+          ],
+          "depth": -2.1108657261870905,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2335.7874681648873,
+            917.9428526760407
+          ],
+          "depth": -2.0010769973015528,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2459.3518502159773,
+            947.0785095493403
+          ],
+          "depth": -1.8910764314146715,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2598.4310491546826,
+            978.945647186298
+          ],
+          "depth": -1.7808640285264459,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2756.1488903026416,
+            1014.0970428244725
+          ],
+          "depth": -1.6704397886368776,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2936.528126697246,
+            1053.2445322996903
+          ],
+          "depth": -1.5598037117459729,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3144.8388546394735,
+            1097.3206596532584
+          ],
+          "depth": -1.4489557978537175,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3388.12259764015,
+            1147.571409989297
+          ],
+          "depth": -1.3378960469601178,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3676.004871014648,
+            1205.6999868924602
+          ],
+          "depth": -1.226624459065175,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            4022.000198727425,
+            1274.0977257027655
+          ],
+          "depth": -1.1151410341688885,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            4445.696894733932,
+            1356.2306747433342
+          ],
+          "depth": -1.0034457722712657,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            4976.601124882616,
+            1457.3197742196908
+          ],
+          "depth": -0.8915386733722994,
+          "in_frame": false
+        }
+      ],
+      "extrados_surrogate": [
+        {
+          "pixel": [
+            1419.007009488451,
+            642.7995076031664
+          ],
+          "depth": -3.5144842448348705,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1456.441559718004,
+            662.4038740768135
+          ],
+          "depth": -3.409991440982922,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1496.3079892751957,
+            682.7613446651952
+          ],
+          "depth": -3.30528680012963,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1538.8529017183637,
+            703.9498784352385
+          ],
+          "depth": -3.2003703222749946,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1584.3574022822875,
+            726.0583350662159
+          ],
+          "depth": -3.0952420074190155,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1633.1433504100962,
+            749.1884503349763
+          ],
+          "depth": -2.9899018555616994,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1685.5810231521905,
+            773.4572573638972
+          ],
+          "depth": -2.884349866703033,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1742.0985753643022,
+            799.0000755666429
+          ],
+          "depth": -2.778586040843023,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1803.193808193462,
+            825.9742288963429
+          ],
+          "depth": -2.6726103779816763,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1869.4489307988847,
+            854.5637098048542
+          ],
+          "depth": -2.56642287811898,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1941.5492428193463,
+            884.9850819599332
+          ],
+          "depth": -2.460023541254939,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2020.3070087780516,
+            917.4950233525084
+          ],
+          "depth": -2.3534123673895544,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2106.6922895178986,
+            952.4000674742607
+          ],
+          "depth": -2.246589356522834,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2203.921438947695,
+            981.4074415045401
+          ],
+          "depth": -2.1370124646386395,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2311.851885242061,
+            1012.7918788078151
+          ],
+          "depth": -2.027223735753102,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2432.3578162281296,
+            1046.9721461888753
+          ],
+          "depth": -1.917223169866221,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2567.7781853972674,
+            1084.470847400472
+          ],
+          "depth": -1.8070107669779953,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2721.070301005973,
+            1125.9487377405148
+          ],
+          "depth": -1.696586527088427,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2896.0286327199296,
+            1172.2536094336654
+          ],
+          "depth": -1.5859504501975223,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3097.6036048101473,
+            1224.4915158258816
+          ],
+          "depth": -1.4751025363052666,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3332.378075520151,
+            1284.1332255353545
+          ],
+          "depth": -1.3640427854116668,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3609.3006748322864,
+            1353.1780634380407
+          ],
+          "depth": -1.2527711975167244,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3940.8534912171085,
+            1434.4147931098914
+          ],
+          "depth": -1.141287772620438,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            4344.987118115216,
+            1531.8539413795286
+          ],
+          "depth": -1.0295925107228152,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            4848.483750129921,
+            1651.4791751399616
+          ],
+          "depth": -0.9176854118238489,
+          "in_frame": false
+        }
+      ],
+      "intrados_in_frame": 0,
+      "landmarks": {
+        "south_spring": {
+          "pixel": [
+            1426.0453086538296,
+            585.6163084996736
+          ],
+          "depth": -3.488337506383321,
+          "in_frame": false
+        },
+        "crown_intrados": {
+          "pixel": [
+            2125.847339852228,
+            866.2103809015305
+          ],
+          "depth": -2.220442618071285,
+          "in_frame": false
+        },
+        "crown_outer_target": {
+          "pixel": [
+            2105.431126985654,
+            958.0747695227624
+          ],
+          "depth": -2.2483324724196048,
+          "in_frame": false
+        },
+        "north_spring": {
+          "pixel": [
+            4976.601124882616,
+            1457.3197742196908
+          ],
+          "depth": -0.8915386733722994,
+          "in_frame": false
+        }
+      },
+      "note": "Point projection only, no depthbuffer/occlusion; curvature surrogate not finalgeometry."
+    },
+    {
+      "view": "frame_0076",
+      "station_x": 0.4,
+      "intrados": [
+        {
+          "pixel": [
+            1179.3873083798296,
+            674.6967393659984
+          ],
+          "depth": -2.6881879360020955,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1219.102892535233,
+            701.8608394139154
+          ],
+          "depth": -2.583695132150147,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1262.233160219228,
+            730.6703917116436
+          ],
+          "depth": -2.478990491296855,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1309.241453935443,
+            761.3508181479048
+          ],
+          "depth": -2.3740740134422196,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1360.678902247996,
+            794.1702407515146
+          ],
+          "depth": -2.2689456985862404,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1417.2062437760057,
+            829.4500971768258
+          ],
+          "depth": -2.163605546728925,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1479.6225024875598,
+            867.5790887533831
+          ],
+          "depth": -2.058053557870258,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1548.9031621701563,
+            909.0317490628306
+          ],
+          "depth": -1.952289732010248,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1626.2517258385415,
+            954.393523129436
+          ],
+          "depth": -1.8463140691489013,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1713.1704751818193,
+            1004.3951857680244
+          ],
+          "depth": -1.740126569286205,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1811.5593234965143,
+            1059.9609249814298
+          ],
+          "depth": -1.633727232422164,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1923.856697088135,
+            1122.2768685705132
+          ],
+          "depth": -1.5271160585567798,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2053.244882065528,
+            1192.8909675784844
+          ],
+          "depth": -1.4202930476900595,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2207.3005886159985,
+            1260.2902781291966
+          ],
+          "depth": -1.3107161558058649,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2389.8013377638504,
+            1338.764186096423
+          ],
+          "depth": -1.2009274269203272,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2609.441402959215,
+            1431.7019828102643
+          ],
+          "depth": -1.090926861033446,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2878.8601624849766,
+            1544.0308627191305
+          ],
+          "depth": -0.9807144581452203,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3217.1660778427163,
+            1683.1998350430165
+          ],
+          "depth": -0.870290218255652,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3654.6827283302937,
+            1861.0298500470788
+          ],
+          "depth": -0.7596541413647473,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            4242.591660610599,
+            2097.4728296691974
+          ],
+          "depth": -0.648806227472492,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            5074.590624268209,
+            2429.0546044553507
+          ],
+          "depth": -0.5377464765788922,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            6342.612323689204,
+            2930.595515267345
+          ],
+          "depth": -0.42647488868394934,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            8511.293693740052,
+            3783.223021593369
+          ],
+          "depth": -0.31499146378766296,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            13069.123414016587,
+            5567.188310495058
+          ],
+          "depth": -0.20329620189004016,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            28807.808337057344,
+            11709.724738473851
+          ],
+          "depth": -0.09138910299107383,
+          "in_frame": false
+        }
+      ],
+      "extrados_surrogate": [
+        {
+          "pixel": [
+            1172.6502285793474,
+            747.8786838995887
+          ],
+          "depth": -2.714334674453645,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1211.6981824966447,
+            777.700697453518
+          ],
+          "depth": -2.6098418706016964,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1254.06880184238,
+            809.3793577522829
+          ],
+          "depth": -2.5051372297484042,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1300.2081382828744,
+            843.1660294791369
+          ],
+          "depth": -2.400220751893769,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1350.6458104109347,
+            879.3591612688938
+          ],
+          "depth": -2.29509243703779,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1406.0155355961444,
+            918.3158539737191
+          ],
+          "depth": -2.189752285180474,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1467.0820281159647,
+            960.4670158838874
+          ],
+          "depth": -2.0842002963218076,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1534.7766920473919,
+            1006.3374731824167
+          ],
+          "depth": -1.9784364704617974,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1610.2456571230023,
+            1056.5730347988153
+          ],
+          "depth": -1.8724608076004507,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1694.9154418197866,
+            1111.9774889784428
+          ],
+          "depth": -1.7662733077377544,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1790.5842818646918,
+            1173.5640605232086
+          ],
+          "depth": -1.6598739708737136,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1899.551643383467,
+            1242.62838241421
+          ],
+          "depth": -1.5532627970083288,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2024.805941762453,
+            1320.8542622919313
+          ],
+          "depth": -1.4464397861416085,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2173.517566295445,
+            1397.423958241055
+          ],
+          "depth": -1.336862894257414,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2349.1069202945805,
+            1486.495347637654
+          ],
+          "depth": -1.2270741653718766,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2559.5987249877608,
+            1591.80519495952
+          ],
+          "depth": -1.1170735994849954,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2816.5652188116987,
+            1718.7421717215325
+          ],
+          "depth": -1.0068611965967698,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3137.3300589472437,
+            1875.3731068300378
+          ],
+          "depth": -0.8964369567072015,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3549.048345148923,
+            2074.3428563512493
+          ],
+          "depth": -0.7858008798162968,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            4096.834108165818,
+            2336.658881784955
+          ],
+          "depth": -0.674952965924041,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            4861.547536639173,
+            2699.973901355051
+          ],
+          "depth": -0.5638932150304412,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            6003.944937601371,
+            3239.144391309004
+          ],
+          "depth": -0.4526216271354988,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            7895.730480538214,
+            4127.255044831871
+          ],
+          "depth": -0.34113820223921243,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            11634.498713736048,
+            5875.402596798499
+          ],
+          "depth": -0.22944294034158963,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            22506.072809561225,
+            10944.93928917232
+          ],
+          "depth": -0.1175358414426233,
+          "in_frame": false
+        }
+      ],
+      "intrados_in_frame": 0,
+      "landmarks": {
+        "south_spring": {
+          "pixel": [
+            1179.3873083798296,
+            674.6967393659984
+          ],
+          "depth": -2.6881879360020955,
+          "in_frame": false
+        },
+        "crown_intrados": {
+          "pixel": [
+            2053.244882065528,
+            1192.8909675784844
+          ],
+          "depth": -1.4202930476900595,
+          "in_frame": false
+        },
+        "crown_outer_target": {
+          "pixel": [
+            2022.9465251956967,
+            1329.2208563911156
+          ],
+          "depth": -1.4481829020383792,
+          "in_frame": false
+        },
+        "north_spring": {
+          "pixel": [
+            28807.808337057344,
+            11709.724738473851
+          ],
+          "depth": -0.09138910299107383,
+          "in_frame": false
+        }
+      },
+      "note": "Point projection only, no depthbuffer/occlusion; curvature surrogate not finalgeometry."
+    },
+    {
+      "view": "frame_0076",
+      "station_x": 2.6,
+      "intrados": [
+        {
+          "pixel": [
+            723.6622716047663,
+            839.2816406763071
+          ],
+          "depth": -1.8880383656208695,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            754.495784217763,
+            888.2748891504241
+          ],
+          "depth": -1.7835455617689209,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            789.2060431442986,
+            942.4414401317165
+          ],
+          "depth": -1.6788409209156288,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            828.5807601123922,
+            1002.8356198234715
+          ],
+          "depth": -1.5739244430609935,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            873.636521810764,
+            1070.8180825305697
+          ],
+          "depth": -1.4687961282050144,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            925.7084277521775,
+            1148.1757827741383
+          ],
+          "depth": -1.3634559763476988,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            986.5854359108993,
+            1237.3031230976815
+          ],
+          "depth": -1.257903987489032,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1058.7211333209914,
+            1341.4840513118154
+          ],
+          "depth": -1.1521401616290219,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1145.573990597662,
+            1465.3474601735372
+          ],
+          "depth": -1.0461644987676753,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1252.180490834594,
+            1615.6342682020054
+          ],
+          "depth": -0.9399769989049789,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1386.171020222575,
+            1802.5570967210313
+          ],
+          "depth": -0.8335776620409381,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1559.6865511811543,
+            2042.3655756147762
+          ],
+          "depth": -0.7269664881755538,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1793.2895695531854,
+            2362.5807630785016
+          ],
+          "depth": -0.6201434773088335,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2132.9871001929014,
+            2786.6436447268825
+          ],
+          "depth": -0.5105665854246388,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2659.4916667733005,
+            3439.917921368064
+          ],
+          "depth": -0.40077785653910114,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3585.552072254155,
+            4583.461277143092
+          ],
+          "depth": -0.2907772906522199,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            5644.658799561268,
+            7117.317817101222
+          ],
+          "depth": -0.18056488776399426,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            14196.555014927206,
+            17618.26688504975
+          ],
+          "depth": -0.07014064787442598,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -24007.209994891535,
+            -29253.26051599777
+          ],
+          "depth": 0.040495429016478734,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -6267.254773673874,
+            -7477.9485772339285
+          ],
+          "depth": 0.15134334290873408,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -3524.08431304019,
+            -4104.752887210392
+          ],
+          "depth": 0.26240309380233384,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -2410.792935985183,
+            -2731.546310415258
+          ],
+          "depth": 0.3736746816972767,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -1807.3948382645165,
+            -1984.0279823412964
+          ],
+          "depth": 0.48515810659356307,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -1428.810819211903,
+            -1512.3857689647518
+          ],
+          "depth": 0.5968533684911859,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -1169.0933671782125,
+            -1186.6146332242054
+          ],
+          "depth": 0.7087604673901522,
+          "in_frame": false
+        }
+      ],
+      "extrados_surrogate": [
+        {
+          "pixel": [
+            720.3339801291535,
+            940.8062689948445
+          ],
+          "depth": -1.914185104072419,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            750.5298272682917,
+            994.953752483472
+          ],
+          "depth": -1.8096923002204703,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            784.4642364973213,
+            1054.8408688759027
+          ],
+          "depth": -1.7049876593671782,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            822.8846121236794,
+            1121.61816544041
+          ],
+          "depth": -1.600071181512543,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            866.7517747821022,
+            1196.764707405781
+          ],
+          "depth": -1.4949428666565638,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            917.3219919454225,
+            1282.214349982964
+          ],
+          "depth": -1.3896027147992478,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            976.269995167783,
+            1380.5451024907718
+          ],
+          "depth": -1.2840507259405816,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1045.879046740242,
+            1495.2717036491351
+          ],
+          "depth": -1.1782869000805714,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1129.3449511856445,
+            1631.313595574206
+          ],
+          "depth": -1.0723112372192247,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1231.2825532008974,
+            1795.7745912230928
+          ],
+          "depth": -0.9661237373565283,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1358.611712934065,
+            1999.3066826592028
+          ],
+          "depth": -0.8597244004924876,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1522.2017837600722,
+            2258.641434918447
+          ],
+          "depth": -0.7531132266271028,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            1740.1582822037033,
+            2601.6492554045467
+          ],
+          "depth": -0.6462902157603825,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2052.4595415721137,
+            3053.8622134735065
+          ],
+          "depth": -0.5367133238761879,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            2526.010036725329,
+            3735.8455302886678
+          ],
+          "depth": -0.4269245949906506,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            3329.339091846857,
+            4887.757691101473
+          ],
+          "depth": -0.3169240291037694,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            4991.386520810569,
+            7263.351022306666
+          ],
+          "depth": -0.20671162621554373,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            10471.839012190421,
+            15080.25212768707
+          ],
+          "depth": -0.09628738632597544,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -68628.7508922218,
+            -97632.93292560021
+          ],
+          "depth": 0.014348690564929267,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -7676.388146896303,
+            -10767.218091837116
+          ],
+          "depth": 0.12519660445718506,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -3967.2205530668243,
+            -5474.482427139314
+          ],
+          "depth": 0.23625635535078482,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -2628.285704567761,
+            -3559.400419151142
+          ],
+          "depth": 0.3475279432457272,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -1937.6920954656794,
+            -2568.2341439230113
+          ],
+          "depth": 0.4590113681420136,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -1516.2623789764812,
+            -1960.6464872447962
+          ],
+          "depth": 0.5707066300396364,
+          "in_frame": false
+        },
+        {
+          "pixel": [
+            -1232.2600145035888,
+            -1548.9095897174147
+          ],
+          "depth": 0.6826137289386027,
+          "in_frame": false
+        }
+      ],
+      "intrados_in_frame": 0,
+      "landmarks": {
+        "south_spring": {
+          "pixel": [
+            723.6622716047663,
+            839.2816406763071
+          ],
+          "depth": -1.8880383656208695,
+          "in_frame": false
+        },
+        "crown_intrados": {
+          "pixel": [
+            1793.2895695531854,
+            2362.5807630785016
+          ],
+          "depth": -0.6201434773088335,
+          "in_frame": false
+        },
+        "crown_outer_target": {
+          "pixel": [
+            1736.7686395540413,
+            2616.901224596409
+          ],
+          "depth": -0.6480333316571532,
+          "in_frame": false
+        },
+        "north_spring": {
+          "pixel": [
+            -1169.0933671782125,
+            -1186.6146332242054
+          ],
+          "depth": 0.7087604673901522,
+          "in_frame": false
+        }
+      },
+      "note": "Point projection only, no depthbuffer/occlusion; curvature surrogate not finalgeometry."
+    },
+    {
+      "view": "frame_0076",
+      "bands": [
+        {
+          "name": "south band",
+          "corners": [
+            {
+              "pixel": [
+                1473.790531125848,
+                532.1854869323331
+              ],
+              "depth": -3.7652111925679455,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                1468.3000945916308,
+                574.9450476987155
+              ],
+              "depth": -3.7861285833291847,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                1525.7610484879601,
+                542.2718182064376
+              ],
+              "depth": -3.6168226878244587,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                1519.7478133902544,
+                586.7176037773665
+              ],
+              "depth": -3.637740078585698,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                517.0159715768472,
+                833.3879853310243
+              ],
+              "depth": -1.6920963965802243,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                516.5639779207677,
+                924.2178584007628
+              ],
+              "depth": -1.7130137873414635,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                546.8103389363691,
+                885.9727136858779
+              ],
+              "depth": -1.5437078918367375,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                545.9171590774334,
+                984.7138571904351
+              ],
+              "depth": -1.5646252825979767,
+              "in_frame": false
+            }
+          ]
+        },
+        {
+          "name": "north band",
+          "corners": [
+            {
+              "pixel": [
+                4045.3674536289154,
+                1031.271854621986
+              ],
+              "depth": -1.2426066119286636,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                3986.3435032338566,
+                1151.1378882938448
+              ],
+              "depth": -1.2635240026899028,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                4565.885800854512,
+                1132.2929864261164
+              ],
+              "depth": -1.0942181071851769,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                4489.2439363614185,
+                1266.214390988664
+              ],
+              "depth": -1.115135497946416,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                -424.4492847997656,
+                -828.2245659512231
+              ],
+              "depth": 0.8305081840590576,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                -447.817541266765,
+                -1063.3426348271187
+              ],
+              "depth": 0.8095907932978184,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                -328.7202638434038,
+                -659.2703303427448
+              ],
+              "depth": 0.9788966888025443,
+              "in_frame": false
+            },
+            {
+              "pixel": [
+                -346.378603629198,
+                -854.2801207576975
+              ],
+              "depth": 0.9579792980413051,
+              "in_frame": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "host_note": "Actual sidewalls .1thick andceiling32.799999..32.900002 unchanged. Crown32.82 can seat .020001; fullradial feet mayextend beyondthinlinings, requiring actuallegacyhost checks or bounded heel profile before geometryapproval. Bandtop32.22 overlaps springheight32.15 by.07 nominal."
+}

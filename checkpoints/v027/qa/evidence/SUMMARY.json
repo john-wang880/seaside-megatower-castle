@@ -1,0 +1,53 @@
+{
+  "technical_gate_pass": true,
+  "input_sha256": {
+    "source": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "candidate": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255"
+  },
+  "reports": {
+    "preservation.json": "098cca3c0ca02d3a9548bebb257be9d4b9ebcf7021d519e11601c174fb6feb18",
+    "solid_contacts_final.json": "72218a81cea407c8dac4d37245d838af403a24914956f99e5d1288e1be3f4227",
+    "neighbor_classification.json": "3b6917c28e13268b28f4d2e90294eb82f6f83a7b84fc858a52d806086e2a5892",
+    "touches.json": "2603cb5c56f0bb516c4f40fbc0820ed6e5fe898136bf98dccbb7ba1cd30cd021",
+    "clearance.json": "2bc0980cbd91a9d80121942cf810180815a0f98783e8e487ebcd6605727df6e6",
+    "native_controls.json": "6f0eedb421c1c48ca7b9d48215beeb34585836e2e8e56c18f0a36b291d5410dd",
+    "actual_geometry_controls.json": "c035a0a8d6db558d3d898e532f0d99bd1ca2ad7bdfe4deaff72633f687a68ff5",
+    "predicate_controls.json": "228370b6a1270f906e9e9d5575eac382a7cb3b25c08089999bbd844a97500b24"
+  },
+  "scripts": {
+    "audit_geometry.py": "e2a7eea2670c378071ca690bfb95fb767a35ec815af57b81724d9c0400966c0e",
+    "geometry_checks.py": "4464c5265aac951cc1b0ac87465ce1a43be7f79f64dcaece529bedc4e8663233",
+    "test_predicates.py": "936065cf1db58a74b1d859fc6488897642e0d408e25592295695efa659bb4960",
+    "coplanar_predicate.py": "ac413106e3d4c137ae67f50eaedc49e9174594c8f44c7f259d6eacae0c96eb4c",
+    "check_clearance.py": "265b891de0e8c2b82bbfa08ab82122c4d97e6ef3bfd470f7c410fd7f7f7d5b6c",
+    "check_touches.py": "161b4d8c2953c2ec034b15c85f321e207127240d9e356114f3c51ba59c857fc7",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "test_actual_geometry.py": "7350c5abb2923a705c1b3ab3d6222d42c1e2b5e4c7a080b6e02ea7ebd6d97b90",
+    "classify_neighbors.py": "b1c729d4f3db86e18ae7c127b3bf188feaf34a5da8a47ad044c3902b0e655511",
+    "run_native_checks.py": "cb49ed119bc27487c69473cae424af1cdb17b3b645ee179d76b7bda2ffa9cb71",
+    "audit_initial_broadphase_hold.py": "e4f64763c5d186f6d63facfff25f3167c2fb5f5d9e8c3b4d6b8ae9f7de2935c0",
+    "surface_partition.py": "0cbbd0597518201e1b9f32761fecc4b89225f80618d6a3e508b92ea50d29c4cb",
+    "validate_preservation.py": "da377db72c87246353ece6d41e767bed48c6ede9138ee5a1073041f858b70866"
+  },
+  "new_counts": [
+    550,
+    1104
+  ],
+  "source_categories": 12,
+  "signed_volume": 1.1767063592892466,
+  "minimum_triangle_area": 0.0002147682971553877,
+  "contact_witness_count": 29,
+  "contact_scope": "3 crowns,6 heels,2 bands,18 backed joints; source-host where specified, both actual saved union and authoritative authored operand membership",
+  "minimum_witness_radius_scene_units": 0.009915671491416866,
+  "saved_coordinate_max_ulp": 3.814697265625e-06,
+  "maximum_envelope_rounding_residual": 4.5776367230132564e-07,
+  "static_body_minimum_margin": 0.8799995422363267,
+  "historical_camera_envelope_minimum_margin": 1.2098995422363288,
+  "geometry_controls": 6,
+  "native_negative_controls": 2,
+  "math_controls": 13,
+  "source_and_candidate_unchanged": true,
+  "broadphase_hold_resolved": "Initial14 triangle-AABB candidates across two legacy objects were not collisions. Explicit full triangle-vs-envelope SAT and full closed-component containment showed separation. Initial hold report retained; no model/tolerance change.",
+  "scope": "One connected added architecture mesh; finite positive contacts and explicit protected envelopes, not whole-building welded/structural or global accessibility certification. Scene units are not calibrated physical metres. Revised +8-degree inspection is not an old-walk cadence claim. Actual artistic gate remains pending.",
+  "rendered_or_saved_model_by_qa": false
+}

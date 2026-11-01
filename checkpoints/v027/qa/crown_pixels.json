@@ -1,0 +1,442 @@
+{
+  "image_sha256": "a009f6e7a5337803827e6b47db74bb1e49106d918af611ca13043ec8359f7f62",
+  "resolution": [
+    960,
+    694
+  ],
+  "selection": "Minimum RGB-sum per fixed column in rear visible crown-top strip y165..195, adjacent +/-5px controls; near crown clipped image-top y0..30. Finite actual pixel centers, not exhaustive seam segmentation.",
+  "samples": [
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        480,
+        176
+      ],
+      "rgb": [
+        30,
+        17,
+        3
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        480,
+        171
+      ],
+      "rgb": [
+        34,
+        20,
+        4
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        480,
+        181
+      ],
+      "rgb": [
+        34,
+        20,
+        4
+      ]
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        510,
+        184
+      ],
+      "rgb": [
+        28,
+        16,
+        3
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        510,
+        179
+      ],
+      "rgb": [
+        31,
+        18,
+        3
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        510,
+        189
+      ],
+      "rgb": [
+        52,
+        33,
+        9
+      ]
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        540,
+        186
+      ],
+      "rgb": [
+        10,
+        4,
+        0
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        540,
+        181
+      ],
+      "rgb": [
+        28,
+        16,
+        2
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        540,
+        191
+      ],
+      "rgb": [
+        41,
+        26,
+        8
+      ]
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        570,
+        181
+      ],
+      "rgb": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        570,
+        176
+      ],
+      "rgb": [
+        37,
+        22,
+        5
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        570,
+        186
+      ],
+      "rgb": [
+        44,
+        28,
+        10
+      ]
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        600,
+        175
+      ],
+      "rgb": [
+        42,
+        26,
+        6
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        600,
+        170
+      ],
+      "rgb": [
+        48,
+        30,
+        7
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        600,
+        180
+      ],
+      "rgb": [
+        44,
+        29,
+        10
+      ]
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        630,
+        173
+      ],
+      "rgb": [
+        51,
+        32,
+        8
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        630,
+        168
+      ],
+      "rgb": [
+        54,
+        35,
+        8
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        630,
+        178
+      ],
+      "rgb": [
+        60,
+        41,
+        17
+      ]
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        660,
+        175
+      ],
+      "rgb": [
+        15,
+        6,
+        0
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        660,
+        170
+      ],
+      "rgb": [
+        53,
+        34,
+        9
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        660,
+        180
+      ],
+      "rgb": [
+        63,
+        43,
+        18
+      ]
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        690,
+        177
+      ],
+      "rgb": [
+        29,
+        17,
+        3
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        690,
+        172
+      ],
+      "rgb": [
+        48,
+        29,
+        6
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        690,
+        182
+      ],
+      "rgb": [
+        68,
+        46,
+        21
+      ]
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        720,
+        181
+      ],
+      "rgb": [
+        39,
+        23,
+        4
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        720,
+        176
+      ],
+      "rgb": [
+        58,
+        37,
+        10
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        720,
+        186
+      ],
+      "rgb": [
+        60,
+        41,
+        16
+      ]
+    },
+    {
+      "label": "rear_dark_strip",
+      "pixel": [
+        750,
+        184
+      ],
+      "rgb": [
+        39,
+        23,
+        4
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        750,
+        179
+      ],
+      "rgb": [
+        57,
+        36,
+        10
+      ]
+    },
+    {
+      "label": "adjacent_control",
+      "pixel": [
+        750,
+        189
+      ],
+      "rgb": [
+        42,
+        26,
+        5
+      ]
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        520,
+        28
+      ],
+      "rgb": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        580,
+        15
+      ],
+      "rgb": [
+        35,
+        23,
+        8
+      ]
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        640,
+        30
+      ],
+      "rgb": [
+        29,
+        18,
+        6
+      ]
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        700,
+        6
+      ],
+      "rgb": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        760,
+        0
+      ],
+      "rgb": [
+        8,
+        4,
+        0
+      ]
+    },
+    {
+      "label": "near_crown_top_visible_band",
+      "pixel": [
+        820,
+        0
+      ],
+      "rgb": [
+        11,
+        5,
+        1
+      ]
+    }
+  ]
+}

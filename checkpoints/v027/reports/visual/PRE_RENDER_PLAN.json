@@ -1,0 +1,45 @@
+{
+  "status": "Prepared only; independent QA and owner per-view GO required",
+  "primary": "ceiling_inspection",
+  "conditional_followups": [
+    "frame_0001",
+    "frame_0076",
+    "hero"
+  ],
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "baseline_source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "baseline_images_previously_rendered": true,
+  "baseline_refs": {
+    "ceiling_inspection": {
+      "image_sha256": "7f3d9b4b87c6f4ccfce11b8120d4e86c943c71813791a887ebc35a98cff03826",
+      "receipt_sha256": "5cb90d8c2e26834f600f1153c51a31138b23bb42e1a7a1f3ce231118100c24b5",
+      "manifest_sha256": "bd8a5b80e0c9427a0268e76b9446cc6a08aeabb6e736035fe4b7ff833a25ea17",
+      "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+      "historical_path": "work/interior_ceiling_v026/inspection_view/actual"
+    },
+    "frame_0001": {
+      "image_sha256": "53d245dca43bc002cbf837146dfca7de561a6559f5648866f98c8b0a3f1a5784",
+      "receipt_sha256": "524cba3da4563162ca73025922bd6c7b770838d6d5f57dd4ec882249e44ea52f",
+      "manifest_sha256": "fd70fe22ec7161e0e92d9a791217c2e72bb4735c72cee4e8dd81974fd38abe29",
+      "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+      "historical_path": "work/interior_ceiling_v026/frame_0001"
+    },
+    "frame_0076": {
+      "image_sha256": "5ea946e9d24325930cc951570c03572d49c59c224fcceff5dd8855d332340a6a",
+      "receipt_sha256": "d66ab39f9f855528078d8b292b7d889228e266ca17cdd3ba238a422faf231bc0",
+      "manifest_sha256": "fd70fe22ec7161e0e92d9a791217c2e72bb4735c72cee4e8dd81974fd38abe29",
+      "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+      "historical_path": "work/interior_ceiling_v026/frame_0076"
+    },
+    "hero": {
+      "image_sha256": "c814bca3e65ac09ab11882e35f567cfb7011de895023b5252222f016bdf56bdb",
+      "receipt_sha256": "1c3ff5cd277200c76bf86075ef8b4e1cb22b80dd2d1e885f7b35e17fa0647346",
+      "manifest_sha256": "1fca989c16bf0009a96833239d33ba2f5d492745c49c33980d0cb126530ea35e",
+      "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+      "historical_path": "work/v026_shaft_surface/visual/hero_after"
+    }
+  },
+  "recipes_equal_original": true,
+  "baseline_lighting_quality_camera_checks": "Exact runtime expected settings; render filepath is the sole excluded paired field",
+  "rendered": false
+}

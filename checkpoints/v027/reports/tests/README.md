@@ -1,0 +1,1 @@
+Initial core run occurred after v027 manifest staging but before updating latest README/CONTINUATION; its three recovery-documentation assertions failed. After updating both entry points to the actual v027 manifest/hash, all13core tests passed unchanged. Frozen reproducer17guard and QA17guard tests also passed. Initial failure is retained, not silently discarded.

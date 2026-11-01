@@ -1,0 +1,22 @@
+test_dangling_symlink (__main__.Guards.test_dangling_symlink) ... ok
+test_first_link_foreign_replacement_survives (__main__.Guards.test_first_link_foreign_replacement_survives) ... ok
+test_missing_parent (__main__.Guards.test_missing_parent) ... ok
+test_missing_sibling (__main__.Guards.test_missing_sibling) ... ok
+test_optimized (__main__.Guards.test_optimized) ... ok
+test_overwrite (__main__.Guards.test_overwrite) ... ok
+test_parent_alias (__main__.Guards.test_parent_alias) ... ok
+test_publish_failure_rolls_owned_back (__main__.Guards.test_publish_failure_rolls_owned_back) ... ok
+test_real_runtime (__main__.Guards.test_real_runtime) ... ok
+test_report_alias (__main__.Guards.test_report_alias) ... ok
+test_runtime_corruption (__main__.Guards.test_runtime_corruption) ... ok
+test_scope_mutations (__main__.Guards.test_scope_mutations) ... ok
+test_source_alias (__main__.Guards.test_source_alias) ... ok
+test_symlink (__main__.Guards.test_symlink) ... ok
+test_utf8_limit (__main__.Guards.test_utf8_limit) ... ok
+test_wrong_hash (__main__.Guards.test_wrong_hash) ... ok
+test_wrong_size (__main__.Guards.test_wrong_size) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.167s
+
+OK

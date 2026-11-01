@@ -1,0 +1,10 @@
+from pathlib import Path
+import json,math
+P=Path('work/interior_ceiling_v026');d=json.loads((P/'current_survey.json').read_text());O=P/'inspection_view'
+env=[{'name':'arch_'+str(x),'bounds':[[x-.14,36.56,32.15],[x+.14,39.44,32.82]]}for x in[-1.8,.4,2.6]]+[{'name':'south_band','bounds':[[-2.5,36.56,31.98],[3.2,36.72,32.22]]},{'name':'north_band','bounds':[[-2.5,39.28,31.98],[3.2,39.44,32.22]]}]
+def gap(a,b):return math.sqrt(sum(max(a[0][k]-b[1][k],b[0][k]-a[1][k],0)**2 for k in range(3)))
+fixtures=[o for o in d['objects'] if o['type']=='MESH' and (o['name'].startswith(('V013 |','V014 |','V015 |')) or 'timber leaf'in o['name'] or 'open-leaf'in o['name'])]
+clear=[{'addition':e['name'],'object':o['name'],'AABB_separation_lower_bound':gap(e['bounds'],o['bounds'])}for e in env for o in fixtures]
+body=[[-3.5,37.4,29],[4.45,38.6,31.1]]
+r={'source_sha256':d['source_sha256'],'scope':'CPU proposal only, no candidate geometry/contact proof. All boxes conservative and based on actual previously exported evaluated closed host boxes.','addition_envelopes':env,'combined_box':[[-2.5,36.56,31.98],[3.2,39.44,32.82]],'body_prism':body,'body_separation':[{'addition':e['name'],'lower_bound':gap(e['bounds'],body)}for e in env],'fixture_pair_count':len(clear),'minimum_fixture':min(clear,key=lambda a:a['AABB_separation_lower_bound']),'fixture_clearance':clear,'expected_side_embed':36.599998474121094-36.56,'expected_north_embed':39.44-39.400001525878906,'expected_ceiling_embed':32.82-32.79999923706055,'band_arch_vertical_overlap':32.22-32.15,'north_band_end_to_north_wall_end':3.5-3.2,'last_arch_end_to_north_wall_end':3.5-2.74,'band_end_to_turn_wall_start':3.4000000953674316-3.2,'limitations':'Boxes show available seating and positive fixture/body separation, not actual mesh intersection or optical/shadow clearance. Heel must retain positive-area rectangular seating, not tangency; crown needs finite positive-width over-ceiling region, not isolated apex. Full curve/tessellation/union/contact checks deferred.'}
+(O/'support_envelope.json').write_text(json.dumps(r,indent=2));print(r['minimum_fixture']);print(r['body_separation'])
