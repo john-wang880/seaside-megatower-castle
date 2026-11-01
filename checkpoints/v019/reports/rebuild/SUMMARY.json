@@ -1,0 +1,26 @@
+{
+  "status": "LOCAL_END_TO_END_PASS_REMOTE_REPLAY_PENDING",
+  "accepted_model_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "model_changed": false,
+  "inputs": "Only Git-restored historicalv018 c46 and acceptedv019 e717 plus stagednewpubliccode; no private641 or failedstudyinputs",
+  "controller_steps": 6,
+  "controller_mock_tests": 11,
+  "qa_negative_controls": 5,
+  "generator_repeat": true,
+  "exact_mesh_material_semantics": true,
+  "mapping_json_exact": true,
+  "full_source_preservation": true,
+  "components": 3199,
+  "needle_blades": 83118,
+  "tube_strict_crossings": 0,
+  "unicode_spaces_cwd_tested": true,
+  "local_runtime_seconds": 165.16945481300354,
+  "remote_replay_pending": true,
+  "earlier_failed_controller": "Firstfullpipelinecaughtstrayargument; corrected beforepublication andreintroducedbugnegative verifiesmockregression. No source/modelcorruption.",
+  "limits": [
+    "Linux Blender5.2.3 tested only",
+    "Reproduced blend bytes differ due save metadata; accepted archive remains exact",
+    "No render/newversion/artapproval",
+    "Needle open backs, legacy trunk envelope and bounded contact scope retained"
+  ]
+}

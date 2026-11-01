@@ -40,3 +40,7 @@ python checkpoints/v019/restore_checkpoint.py
 输出`checkpoints/v019/restored/castle_v019.blend`，用兼容Blender5.2.3LTS打开。标准Python逐块和整文件校验；当前树不重复存放完整.blend。原独立树模型与失败候选不进入发布树。
 
 代码、映射和复现限制见`REPRODUCE.md`。旧v016环绕/v018室内影片只作为固定历史版本参考，不能改标成v019影片。
+
+## 可选程序重建
+
+新增[自包含语义重建工具](REPRODUCE.md)仅使用Git可恢复的历史v018与验收v019，不依赖原独立树工作文件。它不改验收模型、不渲染或安装软件；Linux/Blender5.2.3限定，输出字节可以不同但完整语义必须一致。原执行脚本不重写。

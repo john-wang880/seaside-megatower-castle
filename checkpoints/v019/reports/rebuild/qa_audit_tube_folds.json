@@ -1,0 +1,6 @@
+{
+  "candidate_sha256": "3ff59fed88529c49a3802560ef1bb657e2698c25cd2de132b0b3b70e9df2407a",
+  "components_tested": 3199,
+  "folded_components": [],
+  "scope": "Strict interior segment/triangle crossings among nonadjacent triangles without shared vertices. Positive crossings prove surface self-intersection; negative result does not certify all possible coplanar/shared-vertex degeneracy. Numerical barycentric guard1e-9."
+}

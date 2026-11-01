@@ -1,0 +1,51 @@
+{
+  "source_report": "work/v019_repro/qa_results/preservation.json",
+  "source_report_sha256": "0298d9e3503f8a410d2bbce95184e64e774055951744ae0234d62aa32109e8a6",
+  "independent_semantic_manifest": {
+    "expected_slots": {
+      "V019 candidate | articulated conifer foliage": [
+        [
+          "DATA",
+          "Fir needles \u2014 forest green"
+        ],
+        [
+          "DATA",
+          "Sunlit needle tips"
+        ],
+        [
+          "DATA",
+          "Cypress needles \u2014 deep blue green"
+        ]
+      ],
+      "V019 candidate | connected conifer boughs": [
+        [
+          "DATA",
+          "Pine bark"
+        ]
+      ]
+    },
+    "accepted_model_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+    "generated_asset_sha256": "a19947490d2134c8c65325344532f37b3e5b83ed4cd0150e3ca4aa0c7ff0a7f0",
+    "expected_mesh_hashes": {
+      "V019 candidate | articulated conifer foliage": "2f2619f747343872e01c0f87780d0b12cd7d26ede9fcf4f41172e1f884883ba9",
+      "V019 candidate | connected conifer boughs": "6667fdda5418da54ddb3bbbec4d0743a4d7d1f6304d78098f891dd0308ad9573"
+    },
+    "actual_mesh_hashes": {
+      "V019 candidate | articulated conifer foliage": "2f2619f747343872e01c0f87780d0b12cd7d26ede9fcf4f41172e1f884883ba9",
+      "V019 candidate | connected conifer boughs": "6667fdda5418da54ddb3bbbec4d0743a4d7d1f6304d78098f891dd0308ad9573"
+    },
+    "expected_material_hashes": {
+      "Pine bark": "cc661f4d138b137f081f232d03b8e4fbe29329ea6bab22f368c19b8d67c303a0",
+      "Fir needles \u2014 forest green": "9c91ea81ecaa0c78285edfd8d3654ef5f8d8342da3a7805e4c75061a79cd3262",
+      "Sunlit needle tips": "6712a0a81374b81967f0098e7d55934a646160be856b2092897aeb63e47350e3",
+      "Cypress needles \u2014 deep blue green": "1b33dc2a75c886689f8794a4e5ab180469e78bc22a8fa513883a76165eab1b24"
+    },
+    "actual_material_hashes": {
+      "Pine bark": "cc661f4d138b137f081f232d03b8e4fbe29329ea6bab22f368c19b8d67c303a0",
+      "Fir needles \u2014 forest green": "9c91ea81ecaa0c78285edfd8d3654ef5f8d8342da3a7805e4c75061a79cd3262",
+      "Sunlit needle tips": "6712a0a81374b81967f0098e7d55934a646160be856b2092897aeb63e47350e3",
+      "Cypress needles \u2014 deep blue green": "1b33dc2a75c886689f8794a4e5ab180469e78bc22a8fa513883a76165eab1b24"
+    },
+    "pass": true
+  }
+}

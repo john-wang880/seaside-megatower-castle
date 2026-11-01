@@ -1,0 +1,409 @@
+{
+  "generated_asset_semantic_manifest": {
+    "expected_slots": {
+      "V019 candidate | articulated conifer foliage": [
+        [
+          "DATA",
+          "Fir needles \u2014 forest green"
+        ],
+        [
+          "DATA",
+          "Sunlit needle tips"
+        ],
+        [
+          "DATA",
+          "Cypress needles \u2014 deep blue green"
+        ]
+      ],
+      "V019 candidate | connected conifer boughs": [
+        [
+          "DATA",
+          "Pine bark"
+        ]
+      ]
+    },
+    "accepted_model_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+    "generated_asset_sha256": "a19947490d2134c8c65325344532f37b3e5b83ed4cd0150e3ca4aa0c7ff0a7f0",
+    "expected_mesh_hashes": {
+      "V019 candidate | articulated conifer foliage": "2f2619f747343872e01c0f87780d0b12cd7d26ede9fcf4f41172e1f884883ba9",
+      "V019 candidate | connected conifer boughs": "6667fdda5418da54ddb3bbbec4d0743a4d7d1f6304d78098f891dd0308ad9573"
+    },
+    "actual_mesh_hashes": {
+      "V019 candidate | articulated conifer foliage": "2f2619f747343872e01c0f87780d0b12cd7d26ede9fcf4f41172e1f884883ba9",
+      "V019 candidate | connected conifer boughs": "6667fdda5418da54ddb3bbbec4d0743a4d7d1f6304d78098f891dd0308ad9573"
+    },
+    "expected_material_hashes": {
+      "Pine bark": "cc661f4d138b137f081f232d03b8e4fbe29329ea6bab22f368c19b8d67c303a0",
+      "Fir needles \u2014 forest green": "9c91ea81ecaa0c78285edfd8d3654ef5f8d8342da3a7805e4c75061a79cd3262",
+      "Sunlit needle tips": "6712a0a81374b81967f0098e7d55934a646160be856b2092897aeb63e47350e3",
+      "Cypress needles \u2014 deep blue green": "1b33dc2a75c886689f8794a4e5ab180469e78bc22a8fa513883a76165eab1b24"
+    },
+    "actual_material_hashes": {
+      "Pine bark": "cc661f4d138b137f081f232d03b8e4fbe29329ea6bab22f368c19b8d67c303a0",
+      "Fir needles \u2014 forest green": "9c91ea81ecaa0c78285edfd8d3654ef5f8d8342da3a7805e4c75061a79cd3262",
+      "Sunlit needle tips": "6712a0a81374b81967f0098e7d55934a646160be856b2092897aeb63e47350e3",
+      "Cypress needles \u2014 deep blue green": "1b33dc2a75c886689f8794a4e5ab180469e78bc22a8fa513883a76165eab1b24"
+    },
+    "pass": true
+  },
+  "authored_asset_sha256": "a19947490d2134c8c65325344532f37b3e5b83ed4cd0150e3ca4aa0c7ff0a7f0",
+  "integrated_new_meshes_match_asset_exact": true,
+  "asset_file_unchanged": true,
+  "localized_evaluated_differences": {},
+  "complement_attribute_details": {
+    "expected": [
+      {
+        "name": ".corner_edge",
+        "type": "INT",
+        "domain": "CORNER",
+        "fields": {
+          "value": {
+            "count": 921462,
+            "width": 1,
+            "type": "INT",
+            "sha256": "d9dd02361f4a5760ee34a175c99d94b78870c88438da3c0cc1436e1d931cae82"
+          }
+        }
+      },
+      {
+        "name": ".corner_vert",
+        "type": "INT",
+        "domain": "CORNER",
+        "fields": {
+          "value": {
+            "count": 921462,
+            "width": 1,
+            "type": "INT",
+            "sha256": "ad2e43abddcceb64d44ae4c9b260360cdf04c5e20366d22c0f44f4df58b35fb1"
+          }
+        }
+      },
+      {
+        "name": ".edge_verts",
+        "type": "INT32_2D",
+        "domain": "EDGE",
+        "fields": {
+          "value": {
+            "count": 460731,
+            "width": 2,
+            "type": "INT",
+            "sha256": "9c1c9b6b9a9294f230a3814a50d67c5cb6ed92d201b1c33a7e3fd0d0375cab82"
+          }
+        }
+      },
+      {
+        "name": ".select_edge",
+        "type": "BOOLEAN",
+        "domain": "EDGE",
+        "fields": {
+          "value": {
+            "count": 460731,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "70d39476e0aac0ba9ffea57fdfa3bf451bbc48b5b3b95e201260a62638761308"
+          }
+        }
+      },
+      {
+        "name": ".select_poly",
+        "type": "BOOLEAN",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307154,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "dc910d6b197480b37005f84562bd544f967a163b189e84f6e3192da1fbd477a2"
+          }
+        }
+      },
+      {
+        "name": ".select_vert",
+        "type": "BOOLEAN",
+        "domain": "POINT",
+        "fields": {
+          "value": {
+            "count": 203856,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "15d31175f47dc588db5d3c6fd7331206febf5b02622e6929fb4463d528ff904a"
+          }
+        }
+      },
+      {
+        "name": "material_index",
+        "type": "INT",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307154,
+            "width": 1,
+            "type": "INT",
+            "sha256": "350125cd2d33a03cce11a87aa68a2215a2232cd079a12fc90b7e9345ea1a92c1"
+          }
+        }
+      },
+      {
+        "name": "position",
+        "type": "FLOAT_VECTOR",
+        "domain": "POINT",
+        "fields": {
+          "vector": {
+            "count": 203856,
+            "width": 3,
+            "type": "FLOAT",
+            "sha256": "df84f26b06fcf852c29d342382bc22c8c5da083031b1bc6c9e76e400e384d8cd"
+          }
+        }
+      },
+      {
+        "name": "sharp_face",
+        "type": "BOOLEAN",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307154,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "617bd518950ba0fe9000b15a261c9b63bc1536f3854be5f04dbe8b4f0b8d22b1"
+          }
+        }
+      }
+    ],
+    "actual": [
+      {
+        "name": ".corner_edge",
+        "type": "INT",
+        "domain": "CORNER",
+        "fields": {
+          "value": {
+            "count": 921462,
+            "width": 1,
+            "type": "INT",
+            "sha256": "d9dd02361f4a5760ee34a175c99d94b78870c88438da3c0cc1436e1d931cae82"
+          }
+        }
+      },
+      {
+        "name": ".corner_vert",
+        "type": "INT",
+        "domain": "CORNER",
+        "fields": {
+          "value": {
+            "count": 921462,
+            "width": 1,
+            "type": "INT",
+            "sha256": "ad2e43abddcceb64d44ae4c9b260360cdf04c5e20366d22c0f44f4df58b35fb1"
+          }
+        }
+      },
+      {
+        "name": ".edge_verts",
+        "type": "INT32_2D",
+        "domain": "EDGE",
+        "fields": {
+          "value": {
+            "count": 460731,
+            "width": 2,
+            "type": "INT",
+            "sha256": "9c1c9b6b9a9294f230a3814a50d67c5cb6ed92d201b1c33a7e3fd0d0375cab82"
+          }
+        }
+      },
+      {
+        "name": ".select_edge",
+        "type": "BOOLEAN",
+        "domain": "EDGE",
+        "fields": {
+          "value": {
+            "count": 460731,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "70d39476e0aac0ba9ffea57fdfa3bf451bbc48b5b3b95e201260a62638761308"
+          }
+        }
+      },
+      {
+        "name": ".select_poly",
+        "type": "BOOLEAN",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307154,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "dc910d6b197480b37005f84562bd544f967a163b189e84f6e3192da1fbd477a2"
+          }
+        }
+      },
+      {
+        "name": ".select_vert",
+        "type": "BOOLEAN",
+        "domain": "POINT",
+        "fields": {
+          "value": {
+            "count": 203856,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "15d31175f47dc588db5d3c6fd7331206febf5b02622e6929fb4463d528ff904a"
+          }
+        }
+      },
+      {
+        "name": "material_index",
+        "type": "INT",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307154,
+            "width": 1,
+            "type": "INT",
+            "sha256": "350125cd2d33a03cce11a87aa68a2215a2232cd079a12fc90b7e9345ea1a92c1"
+          }
+        }
+      },
+      {
+        "name": "position",
+        "type": "FLOAT_VECTOR",
+        "domain": "POINT",
+        "fields": {
+          "vector": {
+            "count": 203856,
+            "width": 3,
+            "type": "FLOAT",
+            "sha256": "df84f26b06fcf852c29d342382bc22c8c5da083031b1bc6c9e76e400e384d8cd"
+          }
+        }
+      },
+      {
+        "name": "sharp_face",
+        "type": "BOOLEAN",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307154,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "617bd518950ba0fe9000b15a261c9b63bc1536f3854be5f04dbe8b4f0b8d22b1"
+          }
+        }
+      }
+    ]
+  },
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "candidate_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "target": "V010 | woodland boughs with gate exit clearance",
+  "exact_owned_group": [
+    [
+      "V019 candidate | reversible left tree foliage",
+      0,
+      false
+    ]
+  ],
+  "selected_vertex_ranges": [
+    [
+      90395,
+      90693
+    ]
+  ],
+  "selected_vertex_count": 298,
+  "removed_complete_original_faces": 496,
+  "precise_weights_verified": true,
+  "modifier_settings_verified": {
+    "name": "V019 candidate | original foliage rollback mask",
+    "type": "MASK",
+    "mode": "VERTEX_GROUP",
+    "vertex_group": "V019 candidate | reversible left tree foliage",
+    "invert_vertex_group": true,
+    "threshold": 0.5,
+    "show_render": true,
+    "show_viewport": true,
+    "show_in_editmode": false,
+    "show_on_cage": false,
+    "use_smooth": false
+  },
+  "full_modifier_snapshot": {
+    "name": "V019 candidate | original foliage rollback mask",
+    "type": "MASK",
+    "show_viewport": true,
+    "show_render": true,
+    "show_in_editmode": false,
+    "show_on_cage": false,
+    "show_expanded": true,
+    "is_active": true,
+    "use_pin_to_last": false,
+    "is_override_data": false,
+    "use_apply_on_spline": false,
+    "execution_time": 0.0,
+    "persistent_uid": 951641420,
+    "mode": "VERTEX_GROUP",
+    "armature": null,
+    "vertex_group": "V019 candidate | reversible left tree foliage",
+    "invert_vertex_group": true,
+    "use_smooth": false,
+    "threshold": 0.5,
+    "custom_properties": null
+  },
+  "raw_target_except_owned_deform_weights_exact": false,
+  "evaluated_non_target_complement_exact": true,
+  "complement_field_differences": [],
+  "expected_complement_digest": "1aba81dde417b8b69b663c5f777daf3a42f3748924e4fe2622b3987c9ec12f80",
+  "actual_complement_digest": "1aba81dde417b8b69b663c5f777daf3a42f3748924e4fe2622b3987c9ec12f80",
+  "unselected_isolated_vertex_count": 2675,
+  "evaluator_removed_only_these_unselected_isolated_vertices": false,
+  "isolated_vertex_policy": "Raw source always exact. Evaluated complement may preserve all unselected vertices or omit exactly source degree-zero/unfaced vertices; retained coordinate/topology/attribute maps must still match exactly. No non-target faced/edged vertex omission allowed.",
+  "kept_element_counts": {
+    "POINT": 203856,
+    "EDGE": 460731,
+    "FACE": 307154,
+    "CORNER": 921462
+  },
+  "source_differences": {
+    "objects": [],
+    "meshes": [
+      "Dense western woodland | irregular three-dimensional needle boughs geometry"
+    ],
+    "materials": [],
+    "lights": [],
+    "cameras": [],
+    "worlds": [],
+    "visible_evaluated": [],
+    "scene": [],
+    "libraries": [],
+    "texts": []
+  },
+  "additions": {
+    "objects": [
+      "V019 candidate | articulated conifer foliage",
+      "V019 candidate | connected conifer boughs"
+    ],
+    "meshes": [
+      "V019 candidate | articulated conifer foliage",
+      "V019 candidate | connected conifer boughs"
+    ],
+    "materials": [],
+    "lights": [],
+    "cameras": [],
+    "worlds": [],
+    "visible_evaluated": [
+      "V019 candidate | articulated conifer foliage",
+      "V019 candidate | connected conifer boughs"
+    ]
+  },
+  "removals": {
+    "objects": [],
+    "meshes": [],
+    "materials": [],
+    "lights": [],
+    "cameras": [],
+    "worlds": [],
+    "visible_evaluated": []
+  },
+  "additions_exact": true,
+  "collection_change_exact": true,
+  "source_file_unchanged": true,
+  "candidate_file_unchanged": true,
+  "scope": "All persisted source meshes/attributes/weights and evaluated non-target objects exact; only validated target deform weights/group/Mask allowed. Actual evaluated complement mapped to independently retained original vertex/edge/face/corner IDs and all attributes/materials/normals/topology checked, not counts alone. Original hidden forests and all trunks included in ordinary exact comparisons. Replacement visual/contact QA separate.",
+  "seconds": 42.18969511985779,
+  "pass": false
+}

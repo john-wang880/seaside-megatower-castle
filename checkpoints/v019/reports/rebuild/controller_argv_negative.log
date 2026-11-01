@@ -1,0 +1,32 @@
+test_full_six_stage_pipeline_exact_flags (test_controller.Guards.test_full_six_stage_pipeline_exact_flags) ... FAIL
+
+======================================================================
+FAIL: test_full_six_stage_pipeline_exact_flags (test_controller.Guards.test_full_six_stage_pipeline_exact_flags)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/v019-argv-regression-vcrp64ak/test_controller.py", line 82, in test_full_six_stage_pipeline_exact_flags
+    with patch('rebuild.subprocess.run',side_effect=process):result=rebuild.run(self.a,self.root)
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/v019-argv-regression-vcrp64ak/rebuild.py", line 75, in run
+    geom=reports/'geometry.json';command('geometry_contact',root/'qa/validate_new_geometry.py',common+['--report',geom],geom,lambda d:d.get('geometry_and_attachment_pass') is True and d.get('issues')==[])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/v019-argv-regression-vcrp64ak/rebuild.py", line 53, in command
+    with (logs/(label+'.log')).open('xb') as f:result=subprocess.run(argv,stdout=f,stderr=subprocess.STDOUT,cwd=str(out),env=env,check=False)
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1204, in _execute_mock_call
+    result = effect(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/v019-argv-regression-vcrp64ak/test_controller.py", line 62, in process
+    self.assertEqual(len(args)%2,0,'Stray positional argument')
+AssertionError: 1 != 0 : Stray positional argument
+
+----------------------------------------------------------------------
+Ran 1 test in 0.012s
+
+FAILED (failures=1)

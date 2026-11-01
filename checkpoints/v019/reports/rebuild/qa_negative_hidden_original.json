@@ -1,0 +1,20 @@
+{
+  "control": "hidden_original",
+  "rejected_at_intended_invariant": true,
+  "failure": {
+    "message": "Inspect independent preservation differences",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_repro/qa/test_negative.py\", line 25, in <module>\n    try:exec(compile(code,a.validator,'exec'),{'__name__':'__main__','__file__':a.validator,'_negative_mutate':mutate})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"work/v019_repro/qa/validate_preservation.py\", line 329, in <module>\n    assert r['pass'], 'Inspect independent preservation differences'\n           ~^^^^^^^^\nAssertionError: Inspect independent preservation differences\n"
+  },
+  "mutation_in_memory_only": {
+    "object": "Dense western woodland | irregular three-dimensional needle boughs",
+    "mesh": "Dense western woodland | irregular three-dimensional needle boughs geometry"
+  },
+  "input_sha256": {
+    "baseline": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+    "checkpoint": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+    "asset": "a19947490d2134c8c65325344532f37b3e5b83ed4cd0150e3ca4aa0c7ff0a7f0",
+    "accepted_model": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a"
+  },
+  "all_inputs_unchanged": true,
+  "model_saved": false
+}

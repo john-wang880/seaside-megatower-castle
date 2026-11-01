@@ -1,0 +1,11 @@
+{
+  "numerical_recipe_ast_exact": true,
+  "mesh_constructor_ast_exact": true,
+  "excluded_original_statements": [
+    "(P/'attachment_mapping.json').write_text(json.dumps({'shoots':attachments,'final_space_projection_max_m':projection_max}))",
+    "(P/'transport_repaired_components.json').write_text(json.dumps({'tube_vertex_starts':transport_repairs,'method':'parallel transport first ring frame along tangent changes only for tubes whose legacy reference axis switches; all unaffected tube frames retain exact original construction'},indent=2))"
+  ],
+  "recipe_ast_sha256": "b07ef3bad50f68dc2b6a45f0de6d38a8f8379de3b1a7150fe166eeeed8fdd319",
+  "original_script_sha256": "5829a2eda297bed17614c44a3dc8318a527f171375da49ccc9d555f5a7674d76",
+  "adapter_sha256": "221344d8432ac88a53bca2a6cac6af765e078e623d92b3e6b3229000dcb9157c"
+}

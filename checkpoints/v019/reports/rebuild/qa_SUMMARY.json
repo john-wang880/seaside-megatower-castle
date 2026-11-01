@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "accepted_model_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "generated_asset_sha256": "a19947490d2134c8c65325344532f37b3e5b83ed4cd0150e3ca4aa0c7ff0a7f0",
+  "rebuilt_model_sha256": "3ff59fed88529c49a3802560ef1bb657e2698c25cd2de132b0b3b70e9df2407a",
+  "baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "generated_mapping_sha256": "1e177e2c433e1997d7218b2d6687d812622e1677092058b73310bbea8b6973db",
+  "original_mapping_decoded_sha256": "7c6d85b853bdc9773775b7d404e45bcee49b9ac9a3fb9d03e0ea7fb047f30191",
+  "mapping_json_values_exact": true,
+  "preintegration_semantic_guard_pass": true,
+  "rebuilt_deep_preservation_pass": true,
+  "wood_components": 3199,
+  "needle_blades": 83118,
+  "strict_fold_components": 0,
+  "negative_controls": {
+    "negative_asset_transform": true,
+    "negative_asset_vertex": true,
+    "negative_wrong_mask_vertex": true,
+    "negative_hidden_original": true,
+    "negative_asset_material": true
+  },
+  "qa_code_sha256": {
+    "audit_tube_folds.py": "2df27d8fe3cabdd309c8ea075d83bb01901f760d61e7ec75770d8f38996a0ad3",
+    "README.md": "399ed8ad66708018912aaa366f4766a5cc0321f92aca92b7a2f402926665e17b",
+    "test_negative.py": "34e79a3d7b1023b34c4ac9c84e64cd546fde489eb253acd674a08c5719dfab4f",
+    "validate_new_geometry.py": "0881af2ba03ea6756b4b3cf45ece46c0729927614150a3c592b393cf0fb2d091",
+    "validate_preservation.py": "e0b8cd15fbced2d3e21abca7b44e81012d0128619ef59d678e094bd32c2191db"
+  },
+  "private_original641_asset_used": false,
+  "scope": "New generator standalone derived from restored v018. Accepted e717 used only as exact semantic comparison oracle. Full source/evaluated complement and generated mesh/material checks; existing open trunk/needle and bounded crossing/route limitations retained. Not new model version or render."
+}

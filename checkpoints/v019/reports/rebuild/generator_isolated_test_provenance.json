@@ -1,0 +1,17 @@
+{
+  "historical_git_commit": "89cce41edf648eef6487d54ee1ce2a46bbb0ae17",
+  "restoration_method": "historical commit checkpoints/v018/restore_checkpoint.py reads content-addressed Git-restored chunks into a new isolated baseline path",
+  "baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "accepted_reference_sha256_before_after": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "generator_sha256": "221344d8432ac88a53bca2a6cac6af765e078e623d92b3e6b3229000dcb9157c",
+  "isolated_generator_copy_sha256": "221344d8432ac88a53bca2a6cac6af765e078e623d92b3e6b3229000dcb9157c",
+  "generation_input_files": [
+    "generate_conifer.py",
+    "baseline_v018.blend"
+  ],
+  "generator_reads_accepted_reference": false,
+  "original_executed_generator_sha256": "5829a2eda297bed17614c44a3dc8318a527f171375da49ccc9d555f5a7674d76",
+  "blender_render_invoked": false,
+  "canonical_model_saved": false,
+  "full_semantic_verification": "Passed independent pinned accepted e717 comparison: complete mesh semantic snapshots, transforms, material slots and four material graphs. Full fresh integration/geometry/negative suite remains owner/QA responsibility."
+}

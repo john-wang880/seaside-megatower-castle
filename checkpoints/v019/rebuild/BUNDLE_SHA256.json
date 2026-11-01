@@ -1,0 +1,28 @@
+{
+  "scope": "Frozen corrected controller bundle; self manifest excluded",
+  "files": {
+    "README.md": "990e8e0bfedd80b11f238a4d1fd289a85e50a7c865702520cab203203e9b86a5",
+    "generator/DESIGN.md": "ab97bdb2fd8d002b750f2cd51df4fb2ce276966f37c2ac3cbe0acde10a534630",
+    "generator/README.md": "5b3e1a013184f4c4b42184a55dbd597c584077471aa245a73a814dbbe1122c8c",
+    "generator/generate_conifer.py": "221344d8432ac88a53bca2a6cac6af765e078e623d92b3e6b3229000dcb9157c",
+    "generator/independent_semantic_manifest.json": "97753b14e443045a382c6ffca6adbb28a4305afed3db690ea33ba332c44c4107",
+    "generator/isolated_test_provenance.json": "99b610d00b38fc087ae063fe9cde654bde488e734e655da173cc86fdbc566844",
+    "generator/mapping_equivalence.json": "4cb5f0d296af3f45dcaa37ec93789d73666101ad14a5d64576a31422213ac0f7",
+    "generator/recipe_equivalence.json": "0ba26da729c2e9d62f6c11ed7daa89956a5853dd0e31398dda7488efd92c97c9",
+    "inputs/component_contact_mapping.json.gz": "28d7a0a39c0b90648f1573fc3f373b3ae137587210a9cd916987d7bfcd45f277",
+    "inputs/source_components.json": "5928d5fbc2398f37be1abb6f862b5f0af9f823ef9782405ce792576000bffd65",
+    "inputs/v018_route_envelope.json": "39fed0a3cb2299c34723f68d1c171e05559673aac852606e194cc17e51f74268",
+    "integration/deep_snapshot.py": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a",
+    "integration/integrate_conifer.py": "7ae075f8b9e6b6c2fcd3ec2bb2affd7ea6dfa77d04c13dcf09a76980672673af",
+    "qa/README.md": "399ed8ad66708018912aaa366f4766a5cc0321f92aca92b7a2f402926665e17b",
+    "qa/audit_tube_folds.py": "2df27d8fe3cabdd309c8ea075d83bb01901f760d61e7ec75770d8f38996a0ad3",
+    "qa/test_negative.py": "34e79a3d7b1023b34c4ac9c84e64cd546fde489eb253acd674a08c5719dfab4f",
+    "qa/validate_new_geometry.py": "0881af2ba03ea6756b4b3cf45ece46c0729927614150a3c592b393cf0fb2d091",
+    "qa/validate_preservation.py": "e0b8cd15fbced2d3e21abca7b44e81012d0128619ef59d678e094bd32c2191db",
+    "rebuild.py": "0f07fe57593e1246b176990c0c7d2e1a3225562f4c7aada796df389411c908d2",
+    "test_controller.py": "3e5684d20e1cc892344e8eed878e3d1dcb8c22527dd2beef929b60755306e619"
+  },
+  "upstream_qa_summary_sha256": "dd122a9152ff4158cd7f468248895fddbad4c18047e5c0f1ef7cc45775d977aa",
+  "validation": "11mock tests including complete6stage argv assertions PASS; reintroduced old trailingpositional fails at exact intended assertion; real rerun pending",
+  "fix": "Removed only stray acceptedmappinggzip positional from shared geometry/folds CLI. Required bundle path and independent mapping equality check retained."
+}

@@ -327,3 +327,6 @@ One actual1200×866/80sample oblique view completed. Four appliques read as reli
 
 ## 2026-11-01 — v019 bounded foreground conifer
 One authored foreground crown replaces pear-like clumps reversibly, original wood/full forest untouched. Independent QA caught11 self-intersecting tube-frame folds; consistent transported frames fixed them before acceptance. Corrected3,199wood components have zero detected strict nonadjacent crossings;83,118needle bases supported, five negative controls effective. Actual original-lit approach improves, hero no conspicuous regression.47,591,177B model vs35,962,496B; observed fresh-process peakRSS +119–125MiB, no speedup or fullforest replacement claim. Publication and remote restore gate follow; existingv018 films retain historical identity.
+
+## 2026-11-01 — self-contained v019 reproduction utility
+Added separate explicit-input generator/semantic QA/controller, retaining frozen executed scripts and model bytes. Numerical recipe AST unchanged; regenerated mesh/material semantics and mapping values exact against accepted v019, five mutation controls reject. Model restoration remains byte-exact; procedural rebuild allows saving metadata differences and does not create new acceptance/version. Fresh isolated controller and remote artifact checks recorded separately.

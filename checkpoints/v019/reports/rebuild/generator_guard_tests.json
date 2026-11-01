@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "case": "repeat",
+      "returncode": 0,
+      "expected": 0
+    },
+    {
+      "case": "reject_existing",
+      "returncode": 1,
+      "expected": 1
+    },
+    {
+      "case": "reject_alias",
+      "returncode": 1,
+      "expected": 1
+    },
+    {
+      "case": "reject_wrong_source",
+      "returncode": 1,
+      "expected": 1
+    }
+  ],
+  "deterministic_metadata_byte_exact": {
+    "generation_metadata.json": true,
+    "attachment_mapping.json": true,
+    "component_contact_mapping.json": true,
+    "transport_repaired_components.json": true
+  },
+  "baseline_unchanged": true,
+  "existing_output_unchanged": true,
+  "wrong_source_output_not_created": true,
+  "asset_a_sha256": "a19947490d2134c8c65325344532f37b3e5b83ed4cd0150e3ca4aa0c7ff0a7f0",
+  "asset_b_sha256": "0925f36c34d0c3cf790754de067fb1267ffb6f5fe97cf24d7475e23e4087015e",
+  "scope": "Independent fresh process repeat and non-destructive input/output guards. Full accepted-model semantic comparison delegated to QA adapter."
+}

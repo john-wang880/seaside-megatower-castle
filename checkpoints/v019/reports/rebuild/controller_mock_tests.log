@@ -1,0 +1,16 @@
+test_dry_run_no_writes_or_process (test_controller.Guards.test_dry_run_no_writes_or_process) ... ok
+test_existing_directory_refused (test_controller.Guards.test_existing_directory_refused) ... ok
+test_exit_zero_missing_receipt_rejected (test_controller.Guards.test_exit_zero_missing_receipt_rejected) ... ok
+test_full_six_stage_pipeline_exact_flags (test_controller.Guards.test_full_six_stage_pipeline_exact_flags) ... ok
+test_mapping_mutation_rejected (test_controller.Guards.test_mapping_mutation_rejected) ... ok
+test_mapping_serialization_allowed (test_controller.Guards.test_mapping_serialization_allowed) ... ok
+test_output_inside_bundle_refused (test_controller.Guards.test_output_inside_bundle_refused) ... ok
+test_subprocess_argv_spaces_and_nonzero (test_controller.Guards.test_subprocess_argv_spaces_and_nonzero) ... ok
+test_symlink_refused (test_controller.Guards.test_symlink_refused) ... ok
+test_wrong_hash_refused (test_controller.Guards.test_wrong_hash_refused) ... ok
+test_wrong_version_fail_closed (test_controller.Guards.test_wrong_version_fail_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.038s
+
+OK
