@@ -1,0 +1,20 @@
+{
+  "verified_commit": "e518933c0aebb8813cfb9b3283e215461f6218c8",
+  "tree": "234d058d370643485cb43352426e0dff60b2cf5d",
+  "root_checksums": 1949,
+  "model_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "model_unchanged": true,
+  "manual_bookmarks": 15,
+  "source_categories": 13,
+  "API_negative_cases": 20,
+  "pure_tests": 24,
+  "native_registration_reopen_pass": true,
+  "rejected_audit_payloads": 60,
+  "rejected_candidate_blend_not_published": true,
+  "rejected_QA_math_controls_replayed": 11,
+  "catalog_sha256": "03405e881888a989bfda1da2eb763138e204134e422a807c5843b514a7fe56c0",
+  "runtime_payload_sha256": "0417ac4563b88d028462cf4bc5083c9b662acb241c56794430b4e1a5722a6f2f",
+  "remote_QA_summary_sha256": "b69fb3259b17c730be0437f79523083309eaddfcd863bba1b112e49cac027074",
+  "source_restore_and_all_remote_checksums_pass": true,
+  "windows_native_untested": true
+}
