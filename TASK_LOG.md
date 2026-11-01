@@ -315,3 +315,6 @@ Read-only datablock inventory found no worthwhile orphan cleanup. Preserved edit
 
 ## 2026-11-01 — bounded gallery/corbel evidence, no forced model version
 Two current actual80sample context stills resolve western projecting fin as connected paired brackets; main lower gallery remains coherent at practical scale. Archived precise sampled geometry/contact limits and repeatable saved-geometry contact analysis. No defect warranting an edit established, no model changes or broad certification.
+
+## 2026-11-01 — opt-in portable video sibling, bounded integration only
+Added separate runner/worker/runtime helper with immutable frozen inputs, fresh pilot approval, guarded native leases, fail-closed paths/identity, interrupted resume, optional telemetry and explicit encoding.42focused tests plus30core/navigation tests pass. One actualLinux frame at original80samples/960×694 renders successfully; exact decoded pixels match the historical same-Linux frame while PNG bytes differ. Dry-run recognizes1valid/24pending; full-stage refusal verified. No25pilot/fullfilm, no new approval, no nativeWindows execution. Frozen51payloads/source unchanged.

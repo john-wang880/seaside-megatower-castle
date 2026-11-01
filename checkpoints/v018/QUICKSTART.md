@@ -41,3 +41,6 @@ blender -b --disable-autoexec --python-exit-code 1 checkpoints/v018/restored/cas
 本指南涉及恢复/副本工具，不自动启动长期渲染，也不会上传或删除Git历史。
 
 验证环境：上述恢复/列视角/另存流程在Linux云端实际执行；Windows终端引用说明没有在用户本机实测。查看副本的27项Blender安全/数据保持检查另见[验证记录](navigation/reports/quickstart_cli_regression.json)，非GUI点击流程录像。
+
+## 可选：自行重渲染内廊影片
+[新的可恢复影片工具](presentation/portable_interior/README.md)提供独立运行身份、原质量试映、进度恢复与新批准门槛，不替换已发布影片的冻结脚本。Linux已做小范围集成与安全测试，Windows接口仅模拟、未实机验证；确实需要重渲染时再考虑。正常查看仍直接使用现成MP4，不必重跑数小时。

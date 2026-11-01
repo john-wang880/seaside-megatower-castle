@@ -1,0 +1,27 @@
+{
+  "dry_run": true,
+  "identity": {
+    "schema": "portable-interior-v1",
+    "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+    "plan_sha256": "27141d08ce3316651051ef3f6e42365871e873a2c82e4286d8d83e59c867ca11",
+    "motion_sha256": "9fa2cbd38ba74d7588cfbce7d55ff87abefdb410c6ecea53c4d61bf429fc4a28",
+    "validator_sha256": "06025c79c8eb808aa648f18049b67ebe3d2826f8b73787c713d3b15245c19771",
+    "frozen_manifest_sha256": "082650eb4fa0769b37eabda25063ec0decb98ae4629a0cea04403009ff2cd85d",
+    "runtime_sha256": {
+      "run.py": "84ffa6d29a220f05175d95068e25cc964adbd0c4af03832504d784f241af4b4b",
+      "worker.py": "5f0d8eca9adc855e5690c738ab5ba5dd797090dbd747e07b41786c05f367a3b1",
+      "common.py": "5248cdd8322094014a21af46b1d4f6d31534fbd2005c5757c47b1c3cd8907570",
+      "platform_runtime.py": "b2ea10b3bcefb5ea6da90e907635735ddf180a0773b24af29a9c80fe1b2a24bd",
+      "frozen_bindings.json": "ffc3b1feb2cd37de79199c28baf781e47702041210f82dabed44e0ccbdad97dc"
+    },
+    "blender_executable_sha256": "b8b07a190fb25db76aae6de08dbc6c2b3d64e22e82bed6ba90de9545859f3431",
+    "blender_executable": "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+    "expected_blender_version": "5.2.3 LTS",
+    "platform": "linux",
+    "execution_lock": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/portable_runtime_cache/castle-portable-render/execution.lock",
+    "threads": 8
+  },
+  "valid_completed": 1,
+  "pending": 24,
+  "max_new_frames": null
+}

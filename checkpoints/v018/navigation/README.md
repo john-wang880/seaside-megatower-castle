@@ -63,3 +63,5 @@ blender -b --disable-autoexec --python-exit-code 1 checkpoints/v018/restored/cas
 - 已完成28秒影片的冻结脚本依赖Linux `fcntl`文件锁、`/proc`进程检查和`resource`，**不是Windows通用渲染器**。这些历史脚本/51文件身份保持不变以保存复现与审批绑定；不能为“兼容”随意跳过锁或挪用旧批准。Windows可先直接查看已备份MP4或用兼容Blender打开工程。
 
 官方接口边界：[Python resource](https://docs.python.org/3/library/resource.html)、[Python fcntl](https://docs.python.org/3/library/fcntl.html)。修复范围仅单帧可选统计，不承诺整个影片流水线跨平台。
+
+需要主动重渲染影片而非查看现成MP4时，可阅读[新建可选工具](../presentation/portable_interior/README.md)。它与历史Linux流水线分离，绑定新身份/新试映批准；Windows原生运行仍未实测。

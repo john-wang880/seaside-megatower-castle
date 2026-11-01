@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "scope": "One Linux actual frame only, not completed25pilot or336film. Native Windows untested.",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "runtime_sha256": {
+    "run.py": "84ffa6d29a220f05175d95068e25cc964adbd0c4af03832504d784f241af4b4b",
+    "worker.py": "5f0d8eca9adc855e5690c738ab5ba5dd797090dbd747e07b41786c05f367a3b1",
+    "common.py": "5248cdd8322094014a21af46b1d4f6d31534fbd2005c5757c47b1c3cd8907570",
+    "platform_runtime.py": "b2ea10b3bcefb5ea6da90e907635735ddf180a0773b24af29a9c80fe1b2a24bd",
+    "frozen_bindings.json": "ffc3b1feb2cd37de79199c28baf781e47702041210f82dabed44e0ccbdad97dc"
+  },
+  "actual_frame_index": 1,
+  "original_quality": {
+    "samples": 80,
+    "resolution": [
+      960,
+      694
+    ],
+    "threads": 8
+  },
+  "render_seconds": 104.33951921699918,
+  "output_path_contains_spaces_and_unicode": true,
+  "dry_resume_valid": 1,
+  "dry_resume_pending": 24,
+  "pilot_complete_absent": true,
+  "full_complete_absent": true,
+  "full_stage_without_approval_rejected": true,
+  "old_approval_or_frames_not_migrated": true,
+  "same_linux_historical_frame_pixels_equal": true,
+  "pixel_comparison_limit": "One exact same-source/quality/frame in this Linux environment only; not a guarantee for all frames/OS/builds.",
+  "actual_png_sha256": "b37544462f2d6ed32b1f43c0980622abe5acf2d99e5cb1fdb0456477fc0bf7fb",
+  "actual_png_local_only": false,
+  "focused_author_tests": 20,
+  "focused_independent_tests": 22,
+  "frozen_payload_files_unchanged": 51,
+  "source_unchanged": true,
+  "encoding_integration_run": false,
+  "pilot_approval_granted": false,
+  "pixel_identical_historical_reference_png": "../../interior_route/final/preview_frames/frame_0001.png",
+  "png_bytes_equal_to_historical": false,
+  "archived_actual_png": "linux_one_frame.png"
+}

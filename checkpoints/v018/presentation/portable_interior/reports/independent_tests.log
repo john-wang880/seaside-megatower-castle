@@ -1,0 +1,27 @@
+test_approval_byte_checks_positive (__main__.Tests.test_approval_byte_checks_positive) ... ok
+test_approval_inside_output (__main__.Tests.test_approval_inside_output) ... ok
+test_approval_wrong_receipt_order (__main__.Tests.test_approval_wrong_receipt_order) ... ok
+test_approved_metadata_mutation_rejected (__main__.Tests.test_approved_metadata_mutation_rejected) ... ok
+test_approved_png_mutation_rejected (__main__.Tests.test_approved_png_mutation_rejected) ... ok
+test_atomic_replace_failure_preserves (__main__.Tests.test_atomic_replace_failure_preserves) ... ok
+test_boundary_catches_identity_swap (__main__.Tests.test_boundary_catches_identity_swap) ... ok
+test_foreign_output (__main__.Tests.test_foreign_output) ... ok
+test_helper_hash_changes_identity (__main__.Tests.test_helper_hash_changes_identity) ... ok
+test_old_approval_not_accepted (__main__.Tests.test_old_approval_not_accepted) ... ok
+test_old_frame_not_accepted (__main__.Tests.test_old_frame_not_accepted) ... ok
+test_optimized_rejected (__main__.Tests.test_optimized_rejected) ... ok
+test_orphan_worker_holds_global_lock (__main__.Tests.test_orphan_worker_holds_global_lock) ... ok
+test_owned_symlink (__main__.Tests.test_owned_symlink) ... ok
+test_protected_code (__main__.Tests.test_protected_code) ... ok
+test_quarantine_denied_does_not_launch_worker (__main__.Tests.test_quarantine_denied_does_not_launch_worker) ... ok
+test_real_cross_process_lock (__main__.Tests.test_real_cross_process_lock) ... ok
+test_source_ancestor (__main__.Tests.test_source_ancestor) ... ok
+test_source_mismatch_rejected (__main__.Tests.test_source_mismatch_rejected) ... ok
+test_unicode_atomic (__main__.Tests.test_unicode_atomic) ... ok
+test_windows_adapter_mock (__main__.Tests.test_windows_adapter_mock) ... ok
+test_windows_lock_failure_no_bypass (__main__.Tests.test_windows_lock_failure_no_bypass) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.265s
+
+OK

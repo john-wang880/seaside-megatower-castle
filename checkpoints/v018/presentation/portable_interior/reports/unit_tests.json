@@ -1,0 +1,22 @@
+{
+  "command": "python -m unittest -v test_portable",
+  "passed": 20,
+  "failed": 0,
+  "test_script_sha256": "7566ccb595e474268281eb5166e6fbb4ec1de13f135ba35fdfcf24126269251d",
+  "platform": "Linux CPython3.12",
+  "windows_tests": "Adapter mocks only; not actual Windows runtime",
+  "blender_rendered_by_this_test_suite": false,
+  "frozen_payloads_verified_unchanged": 51,
+  "runtime_hashes": {
+    "run.py": "84ffa6d29a220f05175d95068e25cc964adbd0c4af03832504d784f241af4b4b",
+    "worker.py": "5f0d8eca9adc855e5690c738ab5ba5dd797090dbd747e07b41786c05f367a3b1",
+    "common.py": "5248cdd8322094014a21af46b1d4f6d31534fbd2005c5757c47b1c3cd8907570",
+    "platform_runtime.py": "b2ea10b3bcefb5ea6da90e907635735ddf180a0773b24af29a9c80fe1b2a24bd",
+    "frozen_bindings.json": "ffc3b1feb2cd37de79199c28baf781e47702041210f82dabed44e0ccbdad97dc"
+  },
+  "limitations": [
+    "No actual Windows Blender/NTFS/synchronized-folder validation",
+    "No new complete25framepilot or336framefilm generated",
+    "One-frame Linux integration is separately owned/reported by parent"
+  ]
+}

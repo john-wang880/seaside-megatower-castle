@@ -1,0 +1,47 @@
+{
+  "independent_tests_passed": 22,
+  "test_script_sha256": "1152b645b5aedb72b2e793df1a39fc7f1e78acf3c3ab5572f9e1666cbbbc1a6a",
+  "reviewed_runtime_sha256": {
+    "run.py": "84ffa6d29a220f05175d95068e25cc964adbd0c4af03832504d784f241af4b4b",
+    "worker.py": "5f0d8eca9adc855e5690c738ab5ba5dd797090dbd747e07b41786c05f367a3b1",
+    "common.py": "5248cdd8322094014a21af46b1d4f6d31534fbd2005c5757c47b1c3cd8907570",
+    "platform_runtime.py": "b2ea10b3bcefb5ea6da90e907635735ddf180a0773b24af29a9c80fe1b2a24bd",
+    "frozen_bindings.json": "ffc3b1feb2cd37de79199c28baf781e47702041210f82dabed44e0ccbdad97dc"
+  },
+  "closed_findings": [
+    "Worker validates protected/source output root itself before model open",
+    "Worker requires canonical owned identity file and stage/pilot approval envelope",
+    "Worker rechecks source/code/runtime after render before receipt",
+    "Worker full-stage checks all approval-bound pilot PNG/metadata hashes before and after render",
+    "Encoder now checks exact336PTS and strict fatal full decode"
+  ],
+  "pending_finding": null,
+  "coverage": [
+    "real POSIX competing process lock",
+    "orphan worker retains global lease after coordinator exits",
+    "stale-file reuse without unlink",
+    "Windows adapter mocked correct byte range and denial",
+    "optimized Python refused",
+    "wrong source/helper identity/post-lock identity swap rejected",
+    "foreign and redirected output/protected source/approval containment",
+    "Unicode paths and interrupted atomic replace preserves original",
+    "old-generation frame/approval rejected",
+    "quarantine failure stops without child launch",
+    "Changed approved PNG rejected",
+    "Changed approved metadata rejected",
+    "Wrong pilot receipt ordering rejected",
+    "Unmodified25frame byte-envelope accepted"
+  ],
+  "limitations": [
+    "No Blender execution in independent tests",
+    "No native Windows execution",
+    "No full25pilot or full336portable render authorized",
+    "New identity does not revalidate or authorize historical video under new code"
+  ],
+  "existing_frozen_payloads_modified": false,
+  "freeze_recommendation": "No remaining blocker found in bounded review; suitable to freeze for exactly one authorized actual Linux frame smoke. Not permission for full pilot/film.",
+  "frozen_archive_manifest_sha256": "082650eb4fa0769b37eabda25063ec0decb98ae4629a0cea04403009ff2cd85d",
+  "distributed_test_script": "test_independent.py",
+  "distributed_test_result": "22 passed on Linux; POSIX-only real process/orphan/symlink controls explicitly skipped off POSIX. Windows adapter tests are mocks only.",
+  "resource_cleanup": "22 tests rerun with -W error::ResourceWarning; subprocess pipes explicitly closed; orphan coordinator exits via os._exit deliberately and fixture worker released/reacquired before cleanup."
+}
