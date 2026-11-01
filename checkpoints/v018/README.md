@@ -26,7 +26,7 @@ python checkpoints/v018/restore_checkpoint.py
 ```
 兼容Blender5.2.3LTS。模型35,962,496字节，SHA-256 `c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd`。分块和整文件校验后字节精确恢复。比v017增加290,793字节，但新增备份压缩块16,420,539字节；不能把原文件小增量称为Git历史同等节省。
 
-来源v017保留于Git历史 `896e5c4e717e60a04dc1a25ba4c4c1632668f385`。先发布新增备份、独立远端恢复验证，再撤下旧当前载荷；不强推、不清除历史。发布验证状态见综合报告。
+来源v017保留于Git历史 `896e5c4e717e60a04dc1a25ba4c4c1632668f385`。先发布新增备份、独立远端恢复验证，再撤下旧当前载荷；不强推、不清除历史。已从远端提交`3322030e311e8857c4b9d444b4a122027f7643e1`精确恢复并复验：实际屋帽几何/来源/三负控制/七回归组、27导航Blender与32Python检查通过，见`reports/remote_validation.json`。
 
 ```
 blender -b --disable-autoexec --python checkpoints/v018/scripts/build_western_cap.py -- --baseline /path/v017.blend --output /new/path/v018.blend --report /new/path/build.json

@@ -1,0 +1,29 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "current_model_unchanged": true,
+  "front_image": "visual/west_crown_actual.png",
+  "rear_image": "visual/west_crown_rear_actual.png",
+  "both_viewed": true,
+  "front_verdict": "Modest close-view course gain retained with low octagonal form and originalbronze/finial unchanged.",
+  "rear_verdict": "Cleared by exact-camera v017 comparison: the same bright/white oblique left facet is already present before this iteration. Not a newly introduced tile/coverage defect. No material or lighting change made.",
+  "front_seconds": 91.57812741299858,
+  "rear_seconds": 68.33797151099861,
+  "independent_geometry": "../west_cap_v018_qa/final/geometry.json",
+  "independent_preservation": "../west_cap_v018_qa/final/preservation.json",
+  "repeat_validation": "repeat_validation.json",
+  "status": "OWNER ACCEPTED FINAL VISUALS; exact final c46SHA unchanged. Geometry/source/repeat and seven legacy regression groups passed; publication verification remains owner task.",
+  "rear_before_source_image": "../v018_navigation/rear_before_v017.png",
+  "rear_before_after_settings_equal": {
+    "cycles": true,
+    "view": true,
+    "world_hash": true,
+    "light_hashes": true,
+    "camera": true
+  },
+  "hero_image": "../v018_navigation/current_hero/image.png",
+  "hero_viewed": true,
+  "hero_verdict": "Overall dual-tower hierarchy, roof silhouettes, forest/coast and atmosphere visually preserved. Course gain is a modest close-view refinement, not a claimed dramatic hero improvement.",
+  "geometry_checked_all_eight_facets": true,
+  "forest_trial_not_in_final_model": true,
+  "owner_acceptance_recorded": true
+}

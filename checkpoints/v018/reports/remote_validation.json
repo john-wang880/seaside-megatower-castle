@@ -1,0 +1,24 @@
+{
+  "remote_commit": "3322030e311e8857c4b9d444b4a122027f7643e1",
+  "model_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "fresh_remote_archive_checksums_pass": true,
+  "byte_exact_restore_pass": true,
+  "checks": {
+    "geometry": true,
+    "preservation": true,
+    "route_envelope": true,
+    "architecture": true,
+    "previous_approaches": true,
+    "bridge_span": true,
+    "door_architecture": true,
+    "hinge_contacts": true,
+    "route_support": true,
+    "negative_detached_tile": true,
+    "negative_reversed_face": true,
+    "negative_source_signature": true
+  },
+  "navigation_blender_tests": 27,
+  "python_tests": 32,
+  "all_pass": true,
+  "scope": "Fresh remote exact restore; actual western cap geometry/source and three negative controls; seven bounded legacy groups;27navigationBlender and32Python checks. No structural/waterproof/accessibility certification."
+}
