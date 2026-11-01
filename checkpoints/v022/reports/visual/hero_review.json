@@ -1,0 +1,11 @@
+{
+  "status": "Hero preservation positive; owner controls final acceptance/publication",
+  "candidate_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "findings": [
+    "No conspicuous skyline, silhouette, contrast or texture-noise regression.",
+    "Single-rib joints appropriately quiet at broad hero scale; no reason to expand treatment."
+  ],
+  "comparison": "hero_comparison.json",
+  "source_saved": false,
+  "slot_released": true
+}

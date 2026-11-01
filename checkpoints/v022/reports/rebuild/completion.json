@@ -1,0 +1,23 @@
+{
+  "status": "CLEAN_REBUILD_PASS_PENDING_INDEPENDENT_SEMANTIC_QA",
+  "candidate_sha256": "2ea4b0c798479820161fde76fa9fb10c8a887599571146a0dd25097382c1a67d",
+  "candidate_bytes": 47611178,
+  "source_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "bundle_manifest_sha256": "57c47ce48f01fd48762c10bc5961021f2958641f87dbea61cb16a2eaaa9b89e4",
+  "all_manifest_files_and_source_unchanged": true,
+  "checks": {
+    "source_end_corners_exact": true,
+    "all_parts_closed_positive": true,
+    "no_xy_enlargement": true,
+    "all_cut_corners_inside_original_cornices": true,
+    "all12_joint_rays_hit_existing_subdued_backing": true,
+    "all_original_raw_meshes_exact_except_eight_owned_weights": true,
+    "non_target_evaluated_face_records_exact": true,
+    "all_original_materials_worlds_exact": true
+  },
+  "isolated_cwd_unicode_spaces": true,
+  "input_model_count": 1,
+  "no_private_candidate_or_work_helpers": true,
+  "bundle_no_bytecode_cache": true,
+  "source_snapshot_file_sha256": "13b190edcfd0961ebddc7f5b0ca6e488c390a17843daa255d6ab145eb4883503"
+}

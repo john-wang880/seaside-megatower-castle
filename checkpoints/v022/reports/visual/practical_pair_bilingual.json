@@ -1,0 +1,15 @@
+{
+  "output_sha256": "398395f485535d4adeedf19c222444f1bbd7e42957b1578b087c7f065df19388",
+  "input_paths": [
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_lower_tier_v021/visual/baseline/image.png",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v022_rib_study/visual/practical/image.png"
+  ],
+  "input_sha256": [
+    "d98074f86dcb9fd29d2b303de8b018428d2921bf69e34391eca8539e678ce5d8",
+    "b8ddbf37084acc6ad3de0e01ae7c7d0fca44a9e5facda34356cf71bbd7258fba"
+  ],
+  "uniform_scale": 0.5,
+  "resample": "LANCZOS",
+  "lighting_color_edits": false,
+  "labels_outside_images": true
+}

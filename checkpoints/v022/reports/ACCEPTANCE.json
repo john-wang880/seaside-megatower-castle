@@ -1,0 +1,21 @@
+{
+  "status": "ACCEPTED_LOCAL_PENDING_REMOTE_BACKUP",
+  "model_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "model_bytes": 47611178,
+  "source_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "source_commit": "743e140423c3838d0288109df64d40d258f6877b",
+  "visual_gate": {
+    "owner_practical": true,
+    "parent_practical": true,
+    "independent_art_director_practical": true,
+    "owner_hero_no_regression": true,
+    "no_repeated_style_tuning": true,
+    "scope": "One complete west lowest-tier rib; modest near-view stonecraft, not tower-wide transformation"
+  },
+  "local_technical_gate": true,
+  "clean_git_only_rebuild_semantic_equivalence": true,
+  "public_qa_eight_calls_and_five_negative_controls": true,
+  "models_and_frozen_bundles_unchanged": true,
+  "all_evidence_local_before_publication": true,
+  "scope_limits": "Intentional narrow recess/bevel volume removal, no enlargement; finite contact/backing/visibility tests, not global opacity/manifold/structural safety."
+}

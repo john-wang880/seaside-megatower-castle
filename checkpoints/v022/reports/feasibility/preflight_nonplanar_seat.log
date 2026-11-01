@@ -1,0 +1,16 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.412  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021/castle_v021.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_lower_tier_v021/preflight.py", line 33, in <module>
+    r['rib_convex_plane_check']=halfspaces(r['rib_seed'],r['strict_interior_witness']);r['seat_convex_plane_check']=halfspaces(r['seat_seed'],r['strict_interior_witness'])
+                                                                                                                    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_lower_tier_v021/preflight.py", line 29, in halfspaces
+    assert max(r['max_source_vertex_plane_distance']for r in rows)<.00002
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'work/west_lower_tier_v021/preflight.py', exiting.
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

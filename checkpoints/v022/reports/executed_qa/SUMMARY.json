@@ -1,0 +1,26 @@
+{
+  "technical_gate_pass": true,
+  "input_sha256": {
+    "source": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+    "candidate": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2"
+  },
+  "reports": {
+    "critical": "dccaf87aff7994b1763a759a3e27cdffb4a01ca1bb284b14dc796b91f6dfca94",
+    "deeper": "1bf5a0783fc147def22007e70c00909a4927800fff4020bf55430d853e6d5ca8",
+    "profile": "276436a407feb44efffe3edc2f7ce2fb78f8aec82c5320a2ccd166dd8cd2d8de",
+    "negative_mask": "83883a4a516b688505c05e15c97c91ad8c975132dbc4fd1a577b8f7098f92093",
+    "negative_hidden_original": "b99b297fde828106a97223e7ebe5648d19366fe1fc2c34e8b8ffb09242510695",
+    "negative_enlargement": "676ab910740c95ab0d21ad9f7d88017a91861bcee6b32ecc2456b704e7341ce9",
+    "negative_orientation": "3f7825d3aa6107107abdc446192ad6bb060858d197e4ab9e83956f375d976bc6",
+    "negative_backing_gap": "4eeeb5b3df8dcebc524d5e80fd10bc54775f79a3f289fbf2fb4f183d15cfa507"
+  },
+  "source_candidate_unchanged": true,
+  "joint_visibility": {
+    "other_original_geometry": 5,
+    "backing": 55
+  },
+  "scope": "One complete western lowest-tier rib only; source exact apart from owned8-weight Mask and additive replacement. Intentional shallow material removal, no enlarged envelope. Actual finite seat/core contacts and camera-ray visibility, not engineering/load/all-angle/globalmanifold certification.",
+  "continuation_core_exact_profile": true,
+  "negative_count": 5,
+  "public_adapter_status": "Prepared separately, AST only; requires isolated execution before publication."
+}

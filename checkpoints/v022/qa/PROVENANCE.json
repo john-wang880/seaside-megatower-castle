@@ -1,0 +1,34 @@
+{
+  "original_candidate_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "executed_original_files": {
+    "native_check_fragment.txt": "ac818a22fa3cc0abcf0f8155de7b96e100b5e352f2c9aa7d3d8f0e3532083a27",
+    "profile.py": "a191448d39ac42e2aee1579b8a2a98980e190026834635ed3603970d37aee45a",
+    "critical.py": "308210eecfca9f37f0cac2d97270dbdb29d28bfc44a2fa67c5c07c8d4b9fa64c",
+    "deeper.py": "fcd533ba8ffa65907eea1a9ba5a36d89fb5e9338ac78b552f2470c1e9dd9d940",
+    "geometry_support.py": "83bc8e6de7e92c01df9ae66fa37f87ca1f871d3b8c4289a461d455b80cc77a95",
+    "profile.json": "276436a407feb44efffe3edc2f7ce2fb78f8aec82c5320a2ccd166dd8cd2d8de",
+    "SUMMARY.json": "a500f59f7c71b5a39dfed02bcc0d73ae27cfe129d40fb07b852f91606327d797",
+    "negative.py": "841de87931160d2540885406de1ec8889d1663c67b03c1765c37af0d5d4279a0",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "complement.py": "772c406ef7e4a4396bb6d5f35fa8c8460126887391527520b52b63280a44a44a",
+    "profile_check_fragment.txt": "ef8d01e169bc9f722bb4e1c922f21f7a47fe9f7f4063f29886784d815a678e51",
+    "critical.json": "dccaf87aff7994b1763a759a3e27cdffb4a01ca1bb284b14dc796b91f6dfca94",
+    "deeper.json": "1bf5a0783fc147def22007e70c00909a4927800fff4020bf55430d853e6d5ca8"
+  },
+  "adapter_files": {
+    "critical.py": "162ec3506cd4bf404b6990fc1ac3a7cfe344275b458b14f5aaa3e1fb362bf519",
+    "README.md": "eba594867aba07d979c515cb1ffa3c6d31146c03d0daecd3045f84c1d1f2243b",
+    "deeper.py": "bf9c444ca75e288c91634709aa70d0d251aeeab1f7d27603782a157a9ec3b505",
+    "geometry_support.py": "83bc8e6de7e92c01df9ae66fa37f87ca1f871d3b8c4289a461d455b80cc77a95",
+    "common.py": "09a08f0d4936746f4ee4f2109149eb248bbe8fd2894073c9d9bd4b1a1550de4c",
+    "validate_repeat.py": "f776e7c645246cb7640a232b2f1629523822132c8c8d47b776f3c9eecc09053a",
+    "negative.py": "5ba5113b61f3610f610f80b2c7886be0576ea60a37adf6e0f151b41501205ba0",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "complement.py": "772c406ef7e4a4396bb6d5f35fa8c8460126887391527520b52b63280a44a44a",
+    "data/camera_preflight.json": "5954165e98e87ee441f901063b1ce4022bcd8306e6c4f45356a27d21db87aa75",
+    "data/plan.json": "97fd236c85f35d05ef4fdb7db67997b7a53a4cc5701d893432ab6be6d69350ec",
+    "data/build.json": "b77683ad45635e0fc4ee79243d269c6a433448b720b4d0e46a2ad4a94166df6e"
+  },
+  "changes": "Explicit portable CLI/hash-bound data/outputguards; exact-profile/native-Mask fragments integrated into critical; camera data bundled; no diagnostic work path; negative reports include exact model hashes; comparator pins991. Algorithms unchanged apart from combining separately executed checks.",
+  "status": "All Python AST parses pass. Adapter full isolated execution pending owner slot; executed local critical/deeper/profile/five negatives pass."
+}

@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+    "candidate": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2"
+  },
+  "native_modifier_control_differences": {},
+  "continuation_cut_rings_exact_float32": true,
+  "core_actual_vertices_exact_expected_inset_and_end_overlap": true,
+  "original_end_faces_exact": true,
+  "scope": "Original four edge continuations and tilted end faces preserved; core28/35mm insets and10mm overlap exact at savedfloat32 coordinates. Courses intentionally remove volume."
+}

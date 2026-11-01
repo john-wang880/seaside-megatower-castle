@@ -1,0 +1,9 @@
+{
+  "case": "orientation",
+  "rejected": true,
+  "error": "",
+  "actual_assertion": " assert all(e.is_manifold and e.is_contiguous for e in bm.edges);volume=bm.calc_volume(signed=True);assert volume>0;bm.free();ts=triangles(me,set(ids));assert all(np.linalg.norm(np.cross(t[1]-t[0],t[2]-t[0]))>1e-10 for t in ts);ts_by.append(ts);rows.append({'role':receipt['role'],'vertex_count':len(ids),'face_count':len(fs),'positive_volume':volume})",
+  "mutation": "mm=bpy.data.objects[plan['replacement']].data; bb=bmesh.new();bb.from_mesh(mm);bb.faces.ensure_lookup_table();bb.faces[0].normal_flip();bb.to_mesh(mm);bb.free()",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_lower_tier_qa/negative.py\", line 8, in <module>\n    try:exec(compile(s,str(p)+'[expanded-negative]','exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_lower_tier_qa/critical.py[expanded-negative]\", line 41, in <module>\nAssertionError\n",
+  "expanded_sha256": "05cd4747516fa02734f4770eeee27c7f92a25eedfa424377fab9cdcafedce15c"
+}

@@ -1,0 +1,546 @@
+{
+  "status": "UNACCEPTED complete lowest-tier rib course study",
+  "hashes": {
+    "source": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+    "plan": "97fd236c85f35d05ef4fdb7db67997b7a53a4cc5701d893432ab6be6d69350ec",
+    "builder": "10cb2e1f6e60fddf9e7eebe0828e9b87c06dfc1d0f980a00e1ca1ae200725c65",
+    "helper": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a"
+  },
+  "source_semantic_snapshot_sha256": "673798089792a52327ac87c4386ba59160959b61825e84aebad7eb0f030e1982",
+  "target_object": "V012 | retained west rib facade with buried-route clearance",
+  "selected_vertices": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "collection": "UNACCEPTED | v022 complete west lower-tier rib study",
+  "replacement": "V022 candidate | complete lower-tier west outer rib",
+  "material_slots": [
+    "West_Sunlit ivory carved stone",
+    "V006 | west lightly recessed joint backing"
+  ],
+  "parts": [
+    {
+      "role": "unchanged_lower_continuation",
+      "first_vertex": 0,
+      "vertex_count": 8,
+      "first_face": 0,
+      "face_count": 6,
+      "nominal_z": [
+        78.23138809204102,
+        79.2
+      ],
+      "volume": 1.2070285651016093,
+      "material_slot": 0,
+      "bevel": 0,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "unchanged_upper_continuation",
+      "first_vertex": 8,
+      "vertex_count": 8,
+      "first_face": 6,
+      "face_count": 6,
+      "nominal_z": [
+        103.45,
+        166.9353904724121
+      ],
+      "volume": 79.111788110009,
+      "material_slot": 0,
+      "bevel": 0,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "continuous_recessed_backing",
+      "first_vertex": 16,
+      "vertex_count": 8,
+      "first_face": 12,
+      "face_count": 6,
+      "nominal_z": [
+        79.19,
+        103.46000000000001
+      ],
+      "volume": 26.89547226392267,
+      "material_slot": 1,
+      "bevel": 0,
+      "inset_xy": [
+        0.028,
+        0.035
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_01",
+      "first_vertex": 24,
+      "vertex_count": 24,
+      "first_face": 18,
+      "face_count": 26,
+      "nominal_z": [
+        79.2,
+        81.05638461538462
+      ],
+      "volume": 2.3125039544434856,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_02",
+      "first_vertex": 48,
+      "vertex_count": 24,
+      "first_face": 44,
+      "face_count": 26,
+      "nominal_z": [
+        81.07438461538462,
+        82.92176923076923
+      ],
+      "volume": 2.301296640357485,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_03",
+      "first_vertex": 72,
+      "vertex_count": 24,
+      "first_face": 70,
+      "face_count": 26,
+      "nominal_z": [
+        82.93976923076923,
+        84.78715384615384
+      ],
+      "volume": 2.301287134576498,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_04",
+      "first_vertex": 96,
+      "vertex_count": 24,
+      "first_face": 96,
+      "face_count": 26,
+      "nominal_z": [
+        84.80515384615384,
+        86.65253846153847
+      ],
+      "volume": 2.301287134575901,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_05",
+      "first_vertex": 120,
+      "vertex_count": 24,
+      "first_face": 122,
+      "face_count": 26,
+      "nominal_z": [
+        86.67053846153847,
+        88.51792307692308
+      ],
+      "volume": 2.3012966403575064,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_06",
+      "first_vertex": 144,
+      "vertex_count": 24,
+      "first_face": 148,
+      "face_count": 26,
+      "nominal_z": [
+        88.53592307692308,
+        90.3833076923077
+      ],
+      "volume": 2.301290275113331,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_07",
+      "first_vertex": 168,
+      "vertex_count": 24,
+      "first_face": 174,
+      "face_count": 26,
+      "nominal_z": [
+        90.4013076923077,
+        92.24869230769231
+      ],
+      "volume": 2.301287134575901,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_08",
+      "first_vertex": 192,
+      "vertex_count": 24,
+      "first_face": 200,
+      "face_count": 26,
+      "nominal_z": [
+        92.26669230769231,
+        94.11407692307692
+      ],
+      "volume": 2.3012934998209644,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_09",
+      "first_vertex": 216,
+      "vertex_count": 24,
+      "first_face": 226,
+      "face_count": 26,
+      "nominal_z": [
+        94.13207692307692,
+        95.97946153846154
+      ],
+      "volume": 2.301290275113047,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_10",
+      "first_vertex": 240,
+      "vertex_count": 24,
+      "first_face": 252,
+      "face_count": 26,
+      "nominal_z": [
+        95.99746153846154,
+        97.84484615384615
+      ],
+      "volume": 2.3012871345774,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_11",
+      "first_vertex": 264,
+      "vertex_count": 24,
+      "first_face": 278,
+      "face_count": 26,
+      "nominal_z": [
+        97.86284615384615,
+        99.71023076923078
+      ],
+      "volume": 2.301293499820659,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_12",
+      "first_vertex": 288,
+      "vertex_count": 24,
+      "first_face": 304,
+      "face_count": 26,
+      "nominal_z": [
+        99.72823076923078,
+        101.57561538461539
+      ],
+      "volume": 2.3012950280027624,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    },
+    {
+      "role": "course_13",
+      "first_vertex": 312,
+      "vertex_count": 24,
+      "first_face": 330,
+      "face_count": 26,
+      "nominal_z": [
+        101.59361538461539,
+        103.45
+      ],
+      "volume": 2.3125039544430095,
+      "material_slot": 0,
+      "bevel": 0.01,
+      "inset_xy": [
+        0,
+        0
+      ],
+      "closed_oriented": true
+    }
+  ],
+  "course_nominal_exposure": 1.8653846153846154,
+  "seat_cut_checks": [
+    {
+      "nominal_z": 79.2,
+      "actual_cut_corners": [
+        [
+          -121.03739929199219,
+          84.57499694824219,
+          79.22517310394595
+        ],
+        [
+          -119.85060119628906,
+          84.57499694824219,
+          79.1743537902832
+        ],
+        [
+          -119.85060119628906,
+          85.625,
+          79.17482681274414
+        ],
+        [
+          -121.03739929199219,
+          85.625,
+          79.22564629302671
+        ]
+      ],
+      "seat_seed": 96,
+      "solid_angle_windings": [
+        0.9999999999999999,
+        1.0,
+        1.0000000000000002,
+        1.0
+      ],
+      "front_seat_cover_depth": 0.7249984741210938
+    },
+    {
+      "nominal_z": 103.45,
+      "actual_cut_corners": [
+        [
+          -121.03739929199219,
+          84.57499694824219,
+          103.47517101821349
+        ],
+        [
+          -119.85060119628906,
+          84.57499694824219,
+          103.4243537902832
+        ],
+        [
+          -119.85060119628906,
+          85.625,
+          103.42482681274414
+        ],
+        [
+          -121.03739929199219,
+          85.625,
+          103.47564837875917
+        ]
+      ],
+      "seat_seed": 192,
+      "solid_angle_windings": [
+        0.9999999999999867,
+        1.0000000000000002,
+        1.0000000000000002,
+        1.0000000000000002
+      ],
+      "front_seat_cover_depth": 0.0749969482421875
+    }
+  ],
+  "joint_backing_rays": [
+    {
+      "nominal_z": 81.06538461538462,
+      "actual_ray_height": 81.06514798227872,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        81.06514739990234
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 82.93076923076923,
+      "actual_ray_height": 82.93053251744286,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        82.93053436279297
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 84.79615384615384,
+      "actual_ray_height": 84.79591705260698,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        84.79591369628906
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 86.66153846153847,
+      "actual_ray_height": 86.66130158777113,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        86.66130065917969
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 88.52692307692308,
+      "actual_ray_height": 88.52668612293526,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        88.52668762207031
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 90.3923076923077,
+      "actual_ray_height": 90.3920706580994,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        90.3920669555664
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 92.25769230769231,
+      "actual_ray_height": 92.25745519326352,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        92.25745391845703
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 94.12307692307692,
+      "actual_ray_height": 94.12283972842766,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        94.12284088134766
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 95.98846153846154,
+      "actual_ray_height": 95.9882242635918,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        95.98822784423828
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 97.85384615384615,
+      "actual_ray_height": 97.85360879875593,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        97.85360717773438
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 99.71923076923078,
+      "actual_ray_height": 99.71899333392008,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        99.718994140625
+      ],
+      "material_slot": 1
+    },
+    {
+      "nominal_z": 101.58461538461539,
+      "actual_ray_height": 101.58437786908422,
+      "hit": [
+        -120.44400024414062,
+        84.61000061035156,
+        101.58438110351562
+      ],
+      "material_slot": 1
+    }
+  ],
+  "checks": {
+    "source_end_corners_exact": true,
+    "all_parts_closed_positive": true,
+    "no_xy_enlargement": true,
+    "all_cut_corners_inside_original_cornices": true,
+    "all12_joint_rays_hit_existing_subdued_backing": true,
+    "all_original_raw_meshes_exact_except_eight_owned_weights": true,
+    "non_target_evaluated_face_records_exact": true,
+    "all_original_materials_worlds_exact": true
+  },
+  "allowed_deltas": [
+    "One8-vertex owned weightgroup and invertedMask on originalribcomponent56",
+    "One replacementmesh/object andonecollection;16closedparts including13courses"
+  ],
+  "limits": [
+    "Occupied volume intentionally reduced at18mmjoints and10mmbevels; notv021union equivalence",
+    "Independent fullstate/evaluatedattributes/windowclearance andactualartgate required",
+    "Originalseatcontact doesnot certify unexaminedneighbor contacts"
+  ],
+  "candidate_sha256": "2ea4b0c798479820161fde76fa9fb10c8a887599571146a0dd25097382c1a67d",
+  "candidate_bytes": 47611178,
+  "source_unchanged": true
+}

@@ -1,0 +1,491 @@
+{
+  "source_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "source_unchanged": true,
+  "seat_contact_witnesses": [
+    {
+      "rib_seed": 56,
+      "seat_seed": 96,
+      "strict_interior_witness": [
+        -120.44,
+        85.3,
+        79.3
+      ],
+      "rib_three_ray_votes": [
+        true,
+        true,
+        true
+      ],
+      "seat_three_ray_votes": [
+        true,
+        true,
+        true
+      ],
+      "rib_convex_plane_check": {
+        "plane_distances": [
+          {
+            "face": 42,
+            "point_signed_distance": -1.0677145585439964,
+            "max_source_vertex_plane_distance": 2.8731357570865868e-18
+          },
+          {
+            "face": 43,
+            "point_signed_distance": -87.55508681535264,
+            "max_source_vertex_plane_distance": 1.5244821634225912e-05
+          },
+          {
+            "face": 44,
+            "point_signed_distance": -0.7250030517578097,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 45,
+            "point_signed_distance": -0.5893988037109352,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 46,
+            "point_signed_distance": -0.32500000000000284,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 47,
+            "point_signed_distance": -0.5973992919921898,
+            "max_source_vertex_plane_distance": 0.0
+          }
+        ],
+        "signed_solid_angle_winding": 1.0000000000000002
+      },
+      "seat_convex_plane_check": {
+        "plane_distances": [
+          {
+            "face": 72,
+            "point_signed_distance": -0.20749157586372177,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 73,
+            "point_signed_distance": -0.13529444419154965,
+            "max_source_vertex_plane_distance": 8.392137145114224e-05
+          },
+          {
+            "face": 74,
+            "point_signed_distance": -1.4500015258789034,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 75,
+            "point_signed_distance": -2.146001281738279,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 76,
+            "point_signed_distance": -30.85000152587891,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 77,
+            "point_signed_distance": -27.266008911132815,
+            "max_source_vertex_plane_distance": 0.0
+          }
+        ],
+        "signed_solid_angle_winding": 0.9999999999999999
+      },
+      "method_note": "Exact source faces triangulated for double-precision signed solid-angle winding: magnitude1 proves interior. Source slight nonplanarity measured, not flattened. Witness more than0.1m behind each face plane. Initial floatBVH upperrib ray disagreed and is retained as diagnostic, not relabeled three-ray success."
+    },
+    {
+      "rib_seed": 56,
+      "seat_seed": 192,
+      "strict_interior_witness": [
+        -120.44,
+        85.3,
+        103.4
+      ],
+      "rib_three_ray_votes": [
+        true,
+        true,
+        false
+      ],
+      "seat_three_ray_votes": [
+        true,
+        true,
+        true
+      ],
+      "rib_convex_plane_check": {
+        "plane_distances": [
+          {
+            "face": 42,
+            "point_signed_distance": -25.145647541087637,
+            "max_source_vertex_plane_distance": 2.8731357570865868e-18
+          },
+          {
+            "face": 43,
+            "point_signed_distance": -63.47714721739547,
+            "max_source_vertex_plane_distance": 1.5244821634225912e-05
+          },
+          {
+            "face": 44,
+            "point_signed_distance": -0.7250030517578097,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 45,
+            "point_signed_distance": -0.5893988037109352,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 46,
+            "point_signed_distance": -0.32500000000000284,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 47,
+            "point_signed_distance": -0.5973992919921898,
+            "max_source_vertex_plane_distance": 0.0
+          }
+        ],
+        "signed_solid_angle_winding": 1.0000000000000886
+      },
+      "seat_convex_plane_check": {
+        "plane_distances": [
+          {
+            "face": 144,
+            "point_signed_distance": -0.2077989158755879,
+            "max_source_vertex_plane_distance": 1.6263032587282567e-17
+          },
+          {
+            "face": 145,
+            "point_signed_distance": -0.13492208380956824,
+            "max_source_vertex_plane_distance": 1.5258528622172818e-05
+          },
+          {
+            "face": 146,
+            "point_signed_distance": -0.7999999999999972,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 147,
+            "point_signed_distance": -1.5440039062499977,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 148,
+            "point_signed_distance": -30.200000000000003,
+            "max_source_vertex_plane_distance": 0.0
+          },
+          {
+            "face": 149,
+            "point_signed_distance": -26.66398864746094,
+            "max_source_vertex_plane_distance": 0.0
+          }
+        ],
+        "signed_solid_angle_winding": 0.9999999999999997
+      },
+      "method_note": "Exact source faces triangulated for double-precision signed solid-angle winding: magnitude1 proves interior. Source slight nonplanarity measured, not flattened. Witness more than0.1m behind each face plane. Initial floatBVH upperrib ray disagreed and is retained as diagnostic, not relabeled three-ray success."
+    }
+  ],
+  "camera_location": [
+    -98.25,
+    3.5,
+    98.5
+  ],
+  "target": [
+    -132.0,
+    86.0,
+    91.0
+  ],
+  "camera_matrix_world": [
+    [
+      0.9255469441413879,
+      -0.031746260821819305,
+      0.37729963660240173,
+      -98.25
+    ],
+    [
+      0.3786328434944153,
+      0.07760193943977356,
+      -0.9222880005836487,
+      3.5
+    ],
+    [
+      1.2122127301950059e-08,
+      0.9964788556098938,
+      0.08384441584348679,
+      98.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "camera_rotation_euler": [
+    1.4868533611297607,
+    -1.2122127301950059e-08,
+    0.3883187174797058
+  ],
+  "camera_data": {
+    "lens": 55.0,
+    "sensor_width": 36.0,
+    "sensor_height": 24.0,
+    "sensor_fit": "AUTO",
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "clip_start": 0.05000000074505806,
+    "clip_end": 10000.0,
+    "type": "PERSP",
+    "dof_use": false
+  },
+  "resolution": [
+    1200,
+    866
+  ],
+  "target_bounds": [
+    [
+      -148,
+      83.5,
+      76
+    ],
+    [
+      -117,
+      91,
+      107
+    ]
+  ],
+  "bounds_projection": [
+    [
+      0.24512284994125366,
+      0.17197486758232117,
+      94.44019317626953
+    ],
+    [
+      0.23790960013866425,
+      0.874751627445221,
+      91.84101104736328
+    ],
+    [
+      0.30532100796699524,
+      0.20651735365390778,
+      101.35735321044922
+    ],
+    [
+      0.3001973032951355,
+      0.8609797358512878,
+      98.75817108154297
+    ],
+    [
+      0.7388609647750854,
+      0.10042759031057358,
+      82.74390411376953
+    ],
+    [
+      0.7466074824333191,
+      0.9034469723701477,
+      80.14472198486328
+    ],
+    [
+      0.7688210606575012,
+      0.14499588310718536,
+      89.66106414794922
+    ],
+    [
+      0.7768465876579285,
+      0.885545015335083,
+      87.06188201904297
+    ]
+  ],
+  "minimum_frame_margin_fraction": 0.0965530276298523,
+  "visibility_samples": [
+    {
+      "label": "rib",
+      "target": [
+        -120.44400024414062,
+        84.57499694824219,
+        80.0
+      ],
+      "projection": [
+        0.6831915378570557,
+        0.21409626305103302,
+        84.69940948486328
+      ],
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 44,
+      "hit": [
+        -120.44400024414062,
+        84.57501220703125,
+        80.0
+      ],
+      "target_distance_error": 1.52587890625e-05
+    },
+    {
+      "label": "rib",
+      "target": [
+        -120.44400024414062,
+        84.57499694824219,
+        84.0
+      ],
+      "projection": [
+        0.6839197874069214,
+        0.31298139691352844,
+        84.36402893066406
+      ],
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 44,
+      "hit": [
+        -120.44400024414062,
+        84.57499694824219,
+        84.0
+      ],
+      "target_distance_error": 0.0
+    },
+    {
+      "label": "rib",
+      "target": [
+        -120.44400024414062,
+        84.57499694824219,
+        88.0
+      ],
+      "projection": [
+        0.6846538782119751,
+        0.41265591979026794,
+        84.02864837646484
+      ],
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 44,
+      "hit": [
+        -120.44400024414062,
+        84.57500457763672,
+        88.0
+      ],
+      "target_distance_error": 7.62939453125e-06
+    },
+    {
+      "label": "rib",
+      "target": [
+        -120.44400024414062,
+        84.57499694824219,
+        92.0
+      ],
+      "projection": [
+        0.6853938102722168,
+        0.5131292343139648,
+        83.69327545166016
+      ],
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 44,
+      "hit": [
+        -120.44400024414062,
+        84.57499694824219,
+        92.0
+      ],
+      "target_distance_error": 0.0
+    },
+    {
+      "label": "rib",
+      "target": [
+        -120.44400024414062,
+        84.57499694824219,
+        96.0
+      ],
+      "projection": [
+        0.686139702796936,
+        0.6144108772277832,
+        83.35789489746094
+      ],
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 44,
+      "hit": [
+        -120.44400024414062,
+        84.57499694824219,
+        96.0
+      ],
+      "target_distance_error": 0.0
+    },
+    {
+      "label": "rib",
+      "target": [
+        -120.44400024414062,
+        84.57499694824219,
+        100.0
+      ],
+      "projection": [
+        0.6868916153907776,
+        0.7165109515190125,
+        83.02252197265625
+      ],
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 44,
+      "hit": [
+        -120.44400024414062,
+        84.57499694824219,
+        100.0
+      ],
+      "target_distance_error": 0.0
+    },
+    {
+      "label": "rib",
+      "target": [
+        -120.44400024414062,
+        84.57499694824219,
+        102.80000305175781
+      ],
+      "projection": [
+        0.6874216198921204,
+        0.78847336769104,
+        82.78775024414062
+      ],
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 44,
+      "hit": [
+        -120.44400024414062,
+        84.57499694824219,
+        102.80000305175781
+      ],
+      "target_distance_error": 0.0
+    },
+    {
+      "label": "lower_lancet_center",
+      "target": [
+        -137.0,
+        86.0,
+        90.0
+      ],
+      "projection": [
+        0.4226645231246948,
+        0.48060092329978943,
+        91.42179870605469
+      ],
+      "object": "V004 | varied facade groups deep muted glazing",
+      "face": 200,
+      "hit": [
+        -137.97695922851562,
+        88.07999420166016,
+        89.78569793701172
+      ],
+      "target_distance_error": 2.3079754530713976
+    },
+    {
+      "label": "lower_lancet_center",
+      "target": [
+        -128.89999389648438,
+        86.0,
+        90.0
+      ],
+      "projection": [
+        0.5496065020561218,
+        0.47376948595046997,
+        88.36566925048828
+      ],
+      "object": "V004 | varied facade groups deep muted glazing",
+      "face": 250,
+      "hit": [
+        -129.67274475097656,
+        88.07999420166016,
+        89.78569793701172
+      ],
+      "target_distance_error": 2.2292252521563114
+    }
+  ],
+  "rendered": false,
+  "saved": false
+}

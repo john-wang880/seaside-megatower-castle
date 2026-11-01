@@ -1,0 +1,48 @@
+{
+  "status": "CLOSED_READ_ONLY_NO_VISIBLE_REPAIR_CANDIDATE",
+  "source_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "source_unchanged": true,
+  "scope": "Only six original span-end shafts and six paired same-family foot components; central four already masked byv021 excluded from candidates. No globalcoplanar audit.",
+  "remaining_same_family_front_duplicate_area_m2": 1.0800020885471895,
+  "visibility": {
+    "original_hero": {
+      "samples": 9,
+      "target_visible_samples": 0,
+      "occluders": [
+        "V008 | coastal rock blades locally excavated for approach"
+      ],
+      "sample_projection_pixels": {
+        "x": [
+          634.8459005355835,
+          635.8250141143799
+        ],
+        "y_from_top": [
+          644.0128402709961,
+          649.402674973011
+        ]
+      }
+    },
+    "accepted_bridge_close": {
+      "samples": 9,
+      "target_visible_samples": 0,
+      "occluders": [
+        "V008 | coastal rock blades locally excavated for approach",
+        "V010 | headland with local stair-edge clearance"
+      ],
+      "sample_projection_pixels": {
+        "x": [
+          872.8179931640625,
+          883.4221601486206
+        ],
+        "y_from_top": [
+          720.8700088858604,
+          774.3508145064116
+        ]
+      }
+    }
+  },
+  "new_camera_proposed": false,
+  "rendered": false,
+  "model_saved": false,
+  "limits": "Finite3x3 frontpatchsamples in two existing practicalviews, not all-surface/all-angle invisibility certification. No broad source cleanup or modelversion warranted."
+}

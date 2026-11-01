@@ -1,0 +1,15 @@
+{
+  "original_executed_candidate_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "executed_hashes": {
+    "source": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+    "plan": "97fd236c85f35d05ef4fdb7db67997b7a53a4cc5701d893432ab6be6d69350ec",
+    "builder": "10cb2e1f6e60fddf9e7eebe0828e9b87c06dfc1d0f980a00e1ca1ae200725c65",
+    "helper": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a"
+  },
+  "recipe_modified": false,
+  "pure_tests": {
+    "preflight_negative": 8,
+    "plan_arithmetic": 1
+  },
+  "clean_isolated_rebuild": "pending"
+}

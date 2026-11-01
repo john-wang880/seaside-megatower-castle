@@ -1,0 +1,9 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.534  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021/castle_v021.blend"
+00:10.617  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:10.792  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v022_rib_study/candidate.blend"
+EXPECTED enlargement orig=np.array(original);assert np.all(coords[:,:2]>=orig[:,:2].min(axis=0)) and np.all(coords[:,:2]<=orig[:,:2].max(axis=0));assert set(original)<=set(map(tuple,coords));assert set(map(tuple,coords[parts[0]][:4]))==set(original[:4]) and set(map(tuple,coords[parts[1]][4:]))==set(original[4:])
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

@@ -1,0 +1,16 @@
+{
+  "fixed_source_commit": "743e140423c3838d0288109df64d40d258f6877b",
+  "source_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "bundle_manifest_sha256": "57c47ce48f01fd48762c10bc5961021f2958641f87dbea61cb16a2eaaa9b89e4",
+  "bundle_files": {
+    "README.md": "62fd94569bddbe79d77744ab0fa6b36464a4a2e589eaf860eeb4ba8dd7f4a85d",
+    "evidence/code_provenance.json": "5b826f8c134f65c0fba9af8247e5171242e6a773e9308c557de4c357290b8cb2",
+    "plan.json": "97fd236c85f35d05ef4fdb7db67997b7a53a4cc5701d893432ab6be6d69350ec",
+    "scripts/build.py": "10cb2e1f6e60fddf9e7eebe0828e9b87c06dfc1d0f980a00e1ca1ae200725c65",
+    "scripts/deep_snapshot.py": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a",
+    "test_plan.py": "be2cba8ae89958e74e4592b3ae4abf2b1a0a3e6c90712537183d2ac34ff09b8c",
+    "test_preflight.py": "68f986a976f7aee77ba32a87a57f74f00cc65663b7a8374a0f74c472cba67575"
+  },
+  "source_origin": "work/v022_rib_study/fresh Git source \u4e2d\u6587/checkpoints/v021/restored/castle_v021.blend",
+  "blender_started": false
+}

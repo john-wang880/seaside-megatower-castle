@@ -1,0 +1,9 @@
+{
+  "case": "backing_gap",
+  "rejected": true,
+  "error": "",
+  "actual_assertion": " lower=max(coords[parts[i],2].min(),coords[parts[2],2].min());upper=min(coords[parts[i],2].max(),coords[parts[2],2].max());assert upper>lower",
+  "mutation": "mm=bpy.data.objects[plan['replacement']].data; [setattr(mm.vertices[i].co,'z',100.) for i in range(20,24)]",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_lower_tier_qa/negative.py\", line 8, in <module>\n    try:exec(compile(s,str(p)+'[expanded-negative]','exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_lower_tier_qa/critical.py[expanded-negative]\", line 52, in <module>\nAssertionError\n",
+  "expanded_sha256": "503a946998d51983b856b1020f6b03218920a52a7ed117f589d9a10300b09b3e"
+}

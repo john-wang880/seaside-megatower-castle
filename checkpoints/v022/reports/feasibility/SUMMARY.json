@@ -1,0 +1,30 @@
+{
+  "status": "READ_ONLY_COMPLETE_PENDING_ACTUAL_BASELINE_ART_GATE",
+  "source_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "source_unchanged": true,
+  "target_object": "V012 | retained west rib facade with buried-route clearance",
+  "target_seed": 56,
+  "target_vertices": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "no_xy_taper": true,
+  "complete_raw_member_spans_multiple_tiers": true,
+  "lowest_tier_approximate_front_run_z": [
+    79.43,
+    103.19
+  ],
+  "existing_v006_sample_excluded": true,
+  "camera_minimum_margin": 0.0965530276298523,
+  "sampled_front_hits": 7,
+  "rendered": false,
+  "model_saved": false,
+  "candidate_created": false,
+  "scope": "One full lowest tier outer rib as artistic opportunity; no defect claim or preapproved candidate joints."
+}

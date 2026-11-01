@@ -1,0 +1,10 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.483  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021/castle_v021.blend"
+00:11.189  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:11.367  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v022_rib_study/candidate.blend"
+CRITICAL GEOMETRY PASS
+EXPECTED hidden_original o.modifiers.remove(mod);o.vertex_groups.remove(o.vertex_groups[0]);bpy.data.objects.remove(u,do_unlink=True);bpy.data.meshes.remove(me);bpy.data.collections.remove(bpy.data.collections[plan['collection']]);bpy.context.view_layer.update();after=snap();checks={k:after[k]==base[k]for k in base};diff={k:[n for n in base[k]if after[k].get(n)!=base[k][n]]for k in base if isinstance(base[k],dict)and not checks[k]};report={'pass':all(checks.values()),'input_sha256':hashes,'source_unchanged':sha(source)==hashes['source'],'candidate_unchanged':sha(candidate)==hashes['candidate'],'full_source_checks':checks,'differences':diff,'evaluated_complement_all_attributes_exact':True,'parts':rows,'seat_contacts':seats,'core_interior_overlap_witnesses':connections,'joint_normal_ray_probes':joint,'no_enlargement':True,'original_tilted_end_faces_exact':True,'limitations':['Finite geometric contacts, not structural capacity','Normal-view inset joint probes, not all grazing-angle opacity or practical-camera visual acceptance','Nonadjacent crossing/whole-neighbor/five negative/repeat gates deferred until actual visual gain warrants further work']};(P/'negative_hidden_original_full.json').write_text(json.dumps(report,indent=2));assert report['pass'],diff;print('CRITICAL FULL PASS',flush=True)
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

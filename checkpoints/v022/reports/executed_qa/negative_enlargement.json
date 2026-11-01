@@ -1,0 +1,9 @@
+{
+  "case": "enlargement",
+  "rejected": true,
+  "error": "",
+  "actual_assertion": "orig=np.array(original);assert np.all(coords[:,:2]>=orig[:,:2].min(axis=0)) and np.all(coords[:,:2]<=orig[:,:2].max(axis=0));assert set(original)<=set(map(tuple,coords));assert set(map(tuple,coords[parts[0]][:4]))==set(original[:4]) and set(map(tuple,coords[parts[1]][4:]))==set(original[4:])",
+  "mutation": "bpy.data.objects[plan['replacement']].data.vertices[24].co.x-=2",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_lower_tier_qa/negative.py\", line 8, in <module>\n    try:exec(compile(s,str(p)+'[expanded-negative]','exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_lower_tier_qa/critical.py[expanded-negative]\", line 43, in <module>\nAssertionError\n",
+  "expanded_sha256": "785cc737492f8a57be2f3cbb4b24fbca712a8d49ca7aaf0dfe6458ac19471c3c"
+}
