@@ -19,3 +19,6 @@
 [交付清单](final/delivery_manifest.json) · [独立视频检查](final/independent_qa/video.json) · [独立帧检查](final/independent_qa/frames.json) · [固定预启动配方](README.md) · [批准证据](pilot_v2_acceptance/README.md)
 
 `README.md`和51项`archive_checksums.json`保留为未修改的预启动快照；本状态页及`final/`是后来完成的结果。`final_checks/`提供可复查工具：逐原图比较需要完整本地原PNG；独立验证成品SHA/解码不需要重新渲染模型。所有旧试片来源均明确记录。
+
+## 复现平台边界
+此已完成影片的冻结渲染流水线在Linux执行，使用`fcntl`锁、`/proc`及`resource`；不是Windows即用脚本。为保留原身份与批准绑定，51个冻结载荷文件未做跨平台改写。直接查看MP4不需要运行流水线。恢复/查看副本与可选单帧工具的平台范围见[导航说明](../../navigation/README.md)。不要绕过并发锁或把旧批准用于已改代码。

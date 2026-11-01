@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "source_unchanged": true,
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "image_sha256": "514ae09e58327fcca581369ed6592ca77accb3c09244a896125f2790ea874938",
+  "linux_actual_render": true,
+  "windows_runtime_tested": false,
+  "unsupported_platform_simulations": [
+    "win32",
+    "darwin",
+    "freebsd14"
+  ],
+  "pure_tests_passed": 30,
+  "render_main_ast_unchanged_except_optional_resource_import_and_metric_call": true,
+  "frozen_film_51_payloads_unchanged": true,
+  "limits": "One unchanged-preset Linux smoke render, not pixel-equivalence/performance benchmark or native Windows validation. Film runner remains Linux-specific."
+}

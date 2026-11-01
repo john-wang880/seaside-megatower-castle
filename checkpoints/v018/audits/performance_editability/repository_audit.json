@@ -1,0 +1,264 @@
+{
+  "commit": "24bb79cf849bdc91505eb8ce1531c1ac07f550e6",
+  "scope": "Read-only tracked current tree plus explicitly separated local ignored legacy directories; no Blender or Git writes.",
+  "tracked_files": 371,
+  "logical_checkout_bytes": 87600396,
+  "unique_blob_uncompressed_bytes": 80767753,
+  "exact_duplicate_groups": 19,
+  "redundant_checkout_bytes": 6832643,
+  "byte_identical_groups": [
+    {
+      "blob_oid": "71cc635b837b2f6aa6c61fa508e047dd0f3391bb",
+      "sha256": "4c463784fa3bb65fdceb1bddaa3cc89a546d49dd83a680d4ede219eb8fa560b6",
+      "bytes_each": 1219674,
+      "paths": [
+        "checkpoints/v018/navigation/renders/hero.png",
+        "checkpoints/v018/previews/hero_after_v018.png"
+      ],
+      "redundant_checkout_bytes": 1219674,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "9f57c1331729bce5f86d51e85ec0e27f0a7e6dbf",
+      "sha256": "4697eb470eeb3fb12a44a67db7313a8035f7ea5921659b835c48a2873c6df8fa",
+      "bytes_each": 1002784,
+      "paths": [
+        "checkpoints/v018/navigation/rear_before_v017.png",
+        "checkpoints/v018/previews/west_cap_opposite_before_v017.png"
+      ],
+      "redundant_checkout_bytes": 1002784,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "1dc292d033c5894b9f081797f9fe94c4cb6a3779",
+      "sha256": "c987205598c17fef60f51d5438d1f3d96f307e18449d7a7365d6cc5887e61936",
+      "bytes_each": 991456,
+      "paths": [
+        "checkpoints/v018/navigation/renders/west_crown.png",
+        "checkpoints/v018/previews/west_cap_after_v018.png"
+      ],
+      "redundant_checkout_bytes": 991456,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "c35f644aecbf486b6b0c68ff2951fbe831a4409b",
+      "sha256": "aa4f3881d82f42f0afa2e9e7407827f9b66551e370bcb35d19d8a07c480cfa4c",
+      "bytes_each": 699377,
+      "paths": [
+        "checkpoints/v018/presentation/interior_route/final/preview_frames/frame_0336.png",
+        "checkpoints/v018/presentation/interior_route/pilot_v2_acceptance/frame_0336.png"
+      ],
+      "redundant_checkout_bytes": 699377,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "39d51d4c861f8578b2a2c27583fe1f5c39952763",
+      "sha256": "efd7faedf94dc3818758a6ade526d4e131003c5fb2cc14ad6af2cd44d72d8643",
+      "bytes_each": 699377,
+      "paths": [
+        "checkpoints/v018/presentation/interior_route/historical_v1_arrival/frame_0336/image.png",
+        "checkpoints/v018/presentation/pilot_v1_rejected/frame_0336.png"
+      ],
+      "redundant_checkout_bytes": 699377,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "b000870b93cc7ec5817808368de64526f9b1aa34",
+      "sha256": "c472a8406aa61961c0ebe0425fd4aebb64862d5c206fb6c19d6a91815e095f47",
+      "bytes_each": 688488,
+      "paths": [
+        "checkpoints/v018/presentation/interior_route/historical_v1_arrival/frame_0303/image.png",
+        "checkpoints/v018/presentation/pilot_v1_rejected/frame_0303.png"
+      ],
+      "redundant_checkout_bytes": 688488,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "6f5a543f4e472d26ec8daf7a1f3f98f41d500ddd",
+      "sha256": "12458f645412490eca88bb45f8be675d966d37f9e812786756200e5fd58612a5",
+      "bytes_each": 685226,
+      "paths": [
+        "checkpoints/v018/presentation/interior_route/final/preview_frames/frame_0076.png",
+        "checkpoints/v018/presentation/interior_route/pilot_v2_acceptance/frame_0076.png"
+      ],
+      "redundant_checkout_bytes": 685226,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "c61708b973c89390638977aa3a2d9fa96492dde8",
+      "sha256": "dd429e373975ff4c693a655ae215698dab3245b77131e531f924c63b8b1e9da1",
+      "bytes_each": 663656,
+      "paths": [
+        "checkpoints/v018/presentation/interior_route/final/preview_frames/frame_0001.png",
+        "checkpoints/v018/presentation/interior_route/pilot_v2_acceptance/frame_0001.png"
+      ],
+      "redundant_checkout_bytes": 663656,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "f311ae84c27799804c9fb48261d069aac1ffbf18",
+      "sha256": "3a6f0292f21d0bddb229b7fb6175ef5b2773c0a632eea3d65328c3473d3cdfd7",
+      "bytes_each": 63772,
+      "paths": [
+        "checkpoints/v018/reports/remote_route_support.json",
+        "checkpoints/v018/reports/route_support.json"
+      ],
+      "redundant_checkout_bytes": 63772,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "f5643931864a38653a4bc164a965202a31d94f70",
+      "sha256": "7c8b0f320716fc8e22b7fde0b456db875121d281598f535793727995bb149631",
+      "bytes_each": 44103,
+      "paths": [
+        "checkpoints/v018/reports/hinge_contacts.json",
+        "checkpoints/v018/reports/remote_hinge_contacts.json"
+      ],
+      "redundant_checkout_bytes": 44103,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "67dc5d5e353d770be6867422a93c0b779b245fdb",
+      "sha256": "99ca1facecb31ae9d16a6b253d14405c7b6dec43157657d83aa681f651b114a7",
+      "bytes_each": 21148,
+      "paths": [
+        "checkpoints/v018/navigation/renders/hero.json",
+        "checkpoints/v018/reports/hero_actual.json"
+      ],
+      "redundant_checkout_bytes": 21148,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "12edc95eba523ea112b435ab0838fae4fb5e4efb",
+      "sha256": "6f7554073b6b8ed2962ee96091adea2dff35f45d672c7b7fd63a2725b08a0681",
+      "bytes_each": 20383,
+      "paths": [
+        "checkpoints/v018/navigation/rear_before_v017.json",
+        "checkpoints/v018/reports/west_cap_opposite_before_v017.json"
+      ],
+      "redundant_checkout_bytes": 20383,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "1dacd9f319788549f7c3bf0bda7e5e7b622ad84a",
+      "sha256": "b7d3137a36c8751c78f6f084d26e5b5307ecff12df4b5b98cadf864d6497e58a",
+      "bytes_each": 20369,
+      "paths": [
+        "checkpoints/v018/navigation/renders/west_crown.json",
+        "checkpoints/v018/reports/west_cap_actual.json"
+      ],
+      "redundant_checkout_bytes": 20369,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "65a9ccf1c5fbeab25fda0ce98ea21ddc16f81c82",
+      "sha256": "0d836512a4e7b89f6a60e3d42c0d925c97c7b91fdc230567aef0fd72ea3a2e82",
+      "bytes_each": 6557,
+      "paths": [
+        "checkpoints/v018/reports/geometry.json",
+        "checkpoints/v018/reports/remote_geometry.json"
+      ],
+      "redundant_checkout_bytes": 6557,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "ec409c9aba48f7f054a7c09fe1a451d86995cd31",
+      "sha256": "2faf5aceeef57a582e24d7b01248509c2f6ae141d944c341f874d6df328a7881",
+      "bytes_each": 2070,
+      "paths": [
+        "checkpoints/v018/reports/door_architecture.json",
+        "checkpoints/v018/reports/remote_door_architecture.json"
+      ],
+      "redundant_checkout_bytes": 2070,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "427fe2d319b724f1d977185616af78b77b2dcb94",
+      "sha256": "af536c5961d7232aad72a33ea6beb8814215ed7949927abf99a7062cc27f5724",
+      "bytes_each": 1554,
+      "paths": [
+        "checkpoints/v018/reports/architecture.json",
+        "checkpoints/v018/reports/remote_architecture.json"
+      ],
+      "redundant_checkout_bytes": 1554,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "f161523d7894378f7a93dc84c3d7619db92a6e01",
+      "sha256": "8df048d2bb02b4be2a3c7b3d9ec86010f97df9c8fba9a6d79a5ae09bc169310a",
+      "bytes_each": 1513,
+      "paths": [
+        "checkpoints/v018/navigation/reports/rear_paired_visual_review.json",
+        "checkpoints/v018/reports/rear_paired_visual_review.json"
+      ],
+      "redundant_checkout_bytes": 1513,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "78ce316fb98e2bbc4c397a9a9c495f1587b4ecf8",
+      "sha256": "5b0a6014b57168aa7339a337eb7104eb2cfe8ca399774866fc72421a8c6d1488",
+      "bytes_each": 610,
+      "paths": [
+        "checkpoints/v018/navigation/reports/integration_summary.json",
+        "checkpoints/v018/reports/integration_summary.json"
+      ],
+      "redundant_checkout_bytes": 610,
+      "additional_unique_git_blob_bytes": 0
+    },
+    {
+      "blob_oid": "1f640fd13e72aa2b353eca0988fa4e4b856a7832",
+      "sha256": "975f6d2e046c9aac1a1b916d754520d2cb8d5aa0568e6e6810fa66c6827adf33",
+      "bytes_each": 526,
+      "paths": [
+        "checkpoints/v018/presentation/interior_route/final/run_identity.json",
+        "checkpoints/v018/presentation/interior_route/pilot_v2_acceptance/run_identity.json"
+      ],
+      "redundant_checkout_bytes": 526,
+      "additional_unique_git_blob_bytes": 0
+    }
+  ],
+  "model_chunks": {
+    "stored_unique": 94,
+    "manifest_unique_references": 94,
+    "manifest_entries": 109,
+    "all_stored_referenced": true,
+    "all_sha256_names_verified": true,
+    "logical_bytes": 31662428,
+    "orphan_chunks": []
+  },
+  "local_ignored_legacy_directories": [
+    {
+      "path": "checkpoints/v006",
+      "files": 33,
+      "logical_bytes": 51117170,
+      "tracked_in_current_commit": false,
+      "role": "local ignored restore/archive workspace; not published current-tree duplication; no deletion proposed"
+    },
+    {
+      "path": "checkpoints/v007",
+      "files": 7,
+      "logical_bytes": 62475997,
+      "tracked_in_current_commit": false,
+      "role": "local ignored restore/archive workspace; not published current-tree duplication; no deletion proposed"
+    },
+    {
+      "path": "checkpoints/v008",
+      "files": 8,
+      "logical_bytes": 63657675,
+      "tracked_in_current_commit": false,
+      "role": "local ignored restore/archive workspace; not published current-tree duplication; no deletion proposed"
+    },
+    {
+      "path": "checkpoints/v009",
+      "files": 1,
+      "logical_bytes": 5857,
+      "tracked_in_current_commit": false,
+      "role": "local ignored restore/archive workspace; not published current-tree duplication; no deletion proposed"
+    }
+  ],
+  "limits": [
+    "Unique-blob uncompressed bytes are NOT packfile/clone/network size. No history rewrite or historical blob deletion proposed.",
+    "Deduplicating current paths only saves ordinary checkout/archive duplication; Git already stores one blob per identical content.",
+    "Reference consolidation must update links, frozen evidence paths, checksums and tests atomically. No files removed or modified."
+  ]
+}

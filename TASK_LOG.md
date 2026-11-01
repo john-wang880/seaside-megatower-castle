@@ -309,3 +309,6 @@ Archived dense per-clump actual comparison and isolated whole-tree concept rejec
 
 ## 2026-11-01 — repository-root viewing quickstart
 Corrected navigation example paths and stale v017 help example; added restore/open/safe separate viewer guide. Actual Linux restore/list/export exercised with Blender5.2.3, source hash unchanged. No GUI click-through or Windows execution claimed. Tool logic and accepted model unchanged.
+
+## 2026-11-01 — optional still telemetry; no unjustified scene purge
+Read-only datablock inventory found no worthwhile orphan cleanup. Preserved editing semantics and all hidden originals. Removed hard Unix-only resource dependency from the optional still renderer via lazy Linux-only telemetry with explicit null fallback. No model/settings changes, no dependencies, no change to frozen interior render identity. Platform tests simulate unsupported systems; no native Windows execution claimed.

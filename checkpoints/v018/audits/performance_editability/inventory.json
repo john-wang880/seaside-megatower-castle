@@ -1,0 +1,1395 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "file_bytes": 35962496,
+  "datablocks": {
+    "meshes": {
+      "count": 202,
+      "zero_users": [],
+      "fake_users": []
+    },
+    "materials": {
+      "count": 66,
+      "zero_users": [],
+      "fake_users": []
+    },
+    "images": {
+      "count": 0,
+      "zero_users": [],
+      "fake_users": []
+    },
+    "actions": {
+      "count": 0,
+      "zero_users": [],
+      "fake_users": []
+    },
+    "node_groups": {
+      "count": 0,
+      "zero_users": [],
+      "fake_users": []
+    },
+    "curves": {
+      "count": 0,
+      "zero_users": [],
+      "fake_users": []
+    },
+    "cameras": {
+      "count": 5,
+      "zero_users": [],
+      "fake_users": []
+    },
+    "lights": {
+      "count": 7,
+      "zero_users": [],
+      "fake_users": []
+    },
+    "textures": {
+      "count": 0,
+      "zero_users": [],
+      "fake_users": []
+    }
+  },
+  "modifiers": [
+    {
+      "object": "Citadel | ashlar masonry",
+      "name": "Soft carved stone arrises",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "width": 0.06499999761581421,
+        "segments": 1
+      }
+    },
+    {
+      "object": "Citadel | limestone ledges",
+      "name": "Soft carved stone arrises",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "width": 0.03500000014901161,
+        "segments": 1
+      }
+    },
+    {
+      "object": "Citadel | monumental shadowed tower",
+      "name": "Soft carved stone arrises",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "width": 0.07500000298023224,
+        "segments": 1
+      }
+    },
+    {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "name": "Soft carved stone arrises",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "width": 0.02500000037252903,
+        "segments": 1
+      }
+    },
+    {
+      "object": "Citadel | rock-set foundations and approach stair",
+      "name": "Soft carved stone arrises",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "width": 0.05000000074505806,
+        "segments": 1
+      }
+    },
+    {
+      "object": "Citadel | secondary keep and galleries",
+      "name": "Soft carved stone arrises",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "width": 0.06499999761581421,
+        "segments": 1
+      }
+    },
+    {
+      "object": "Traveler | full length ivory skirt",
+      "name": "Soft sewn cloth folds",
+      "type": "SUBSURF",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "levels": 1,
+        "render_levels": 1
+      }
+    },
+    {
+      "object": "Traveler | purple-red shoulder cape",
+      "name": "Soft mantle",
+      "type": "SUBSURF",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "levels": 1,
+        "render_levels": 1
+      }
+    },
+    {
+      "object": "Traveler | purple-red shoulder cape",
+      "name": "Cloth thickness",
+      "type": "SOLIDIFY",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {}
+    },
+    {
+      "object": "Traveler | white tunic",
+      "name": "Soft sewn cloth folds",
+      "type": "SUBSURF",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "levels": 1,
+        "render_levels": 1
+      }
+    },
+    {
+      "object": "V008 | gallery with genuine eastern approach portal",
+      "name": "Soft carved stone arrises",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "width": 0.06499999761581421,
+        "segments": 1
+      }
+    },
+    {
+      "object": "V010 | foundation with clear eastern entrance vestibule",
+      "name": "Soft carved stone arrises",
+      "type": "BEVEL",
+      "show_render": true,
+      "show_viewport": true,
+      "properties": {
+        "width": 0.05000000074505806,
+        "segments": 1
+      }
+    }
+  ],
+  "collections": [
+    {
+      "name": "Atmosphere | summer cloud banks and distant gulls",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 10,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "CITADEL \u2022 Stone architecture",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 12,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "FOREGROUND | stone path, traveler and wildflowers",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 16,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "LANDSCAPE | coastal rock, meadow and sea",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 9,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v002 crowns and solid coast",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 7,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v003 two facade sample bays",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 7,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v004 varied tower fenestration",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 7,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v005 calibrated tower stone",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 2,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v006 two short rib stonework samples",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 2,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v007 western bridgehead passage",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 3,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v008 rock-supported eastern approach",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 7,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v009 western woodland approach",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 4,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v010 actual entrance clearance",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 13,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v012 north covered terrace connection",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 24,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v017 crown slate courses",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 4,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "REFINEMENT | v018 western cap slate courses",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 8,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    {
+      "name": "Western Citadel | gothic stonework",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "objects": 7,
+      "children": [],
+      "hide_render": false,
+      "hide_viewport": false
+    }
+  ],
+  "hidden_meshes": [
+    {
+      "name": "Castle headland | level courtyard and broken coastal escarpment",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Castle headland | level courtyard and broken coastal escarpment geometry",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 16385,
+      "polygons": 32512
+    },
+    {
+      "name": "Citadel | ashlar masonry",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Citadel | ashlar masonry Geometry",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 4388,
+      "polygons": 3210
+    },
+    {
+      "name": "Citadel | carved ivory tracery",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Citadel | carved ivory tracery Geometry",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 35852,
+      "polygons": 26066
+    },
+    {
+      "name": "Citadel | limestone ledges",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Citadel | limestone ledges Geometry",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 15288,
+      "polygons": 11448
+    },
+    {
+      "name": "Citadel | monumental shadowed tower",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Citadel | monumental shadowed tower Geometry",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 176,
+      "polygons": 132
+    },
+    {
+      "name": "Citadel | rock-set foundations and approach stair",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Citadel | rock-set foundations and approach stair Geometry",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "Citadel | secondary keep and galleries",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Citadel | secondary keep and galleries Geometry",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 4068,
+      "polygons": 3042
+    },
+    {
+      "name": "Dense western woodland | irregular three-dimensional needle boughs",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Dense western woodland | irregular three-dimensional needle boughs geometry",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 204154,
+      "polygons": 311872
+    },
+    {
+      "name": "Slanting slate ribs, coastal blade-rocks and tidal reefs",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Slanting slate ribs, coastal blade-rocks and tidal reefs geometry",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 17815,
+      "polygons": 23036
+    },
+    {
+      "name": "V003 | main shaft with four genuine recessed lancets",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V003 | main shaft with four genuine recessed lancets mesh",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 346,
+      "polygons": 217
+    },
+    {
+      "name": "V003 | western existing recesses opened at sample windows",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V003 | western existing recesses opened at sample windows mesh",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 1330,
+      "polygons": 751
+    },
+    {
+      "name": "V003 | western monolith with four genuine recessed lancets",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V003 | western monolith with four genuine recessed lancets mesh",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 204,
+      "polygons": 109
+    },
+    {
+      "name": "V004 | main shaft selective front and east-facing windows",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V004 | main shaft selective front and east-facing windows mesh",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 720,
+      "polygons": 413
+    },
+    {
+      "name": "V004 | west shaft selective front and east-facing windows",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V004 | west shaft selective front and east-facing windows mesh",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 482,
+      "polygons": 257
+    },
+    {
+      "name": "V006 | west facade with one short jointed rib sample",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V006 | west facade with one short jointed rib sample mesh",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 14376,
+      "polygons": 10662
+    },
+    {
+      "name": "V010 | deliberately closed eastern timber entry",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V010 | deliberately closed eastern timber entry",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 54,
+      "polygons": 29
+    },
+    {
+      "name": "V010 | double-door central seam",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V010 | double-door central seam",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "V010 | entry iron strap",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V010 | entry iron strap",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "V010 | entry iron strap.001",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V010 | entry iron strap.001",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "V010 | entry iron strap.002",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V010 | entry iron strap.002",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "V010 | entry iron strap.003",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V010 | entry iron strap.003",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "V010 | foundation with clear eastern entrance vestibule",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "V010 | foundation with clear eastern entrance vestibule",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 48,
+      "polygons": 28
+    },
+    {
+      "name": "Western citadel_West_Ancient monolith",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Western citadel_West_Ancient monolith_mesh",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 16,
+      "polygons": 10
+    },
+    {
+      "name": "Western citadel_West_Ashlar stone variation",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Western citadel_West_Ashlar stone variation_mesh",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 5888,
+      "polygons": 4416
+    },
+    {
+      "name": "Western citadel_West_Cool weathered limestone",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Western citadel_West_Cool weathered limestone_mesh",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 17620,
+      "polygons": 13156
+    },
+    {
+      "name": "Western citadel_West_Deep architectural recess",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Western citadel_West_Deep architectural recess_mesh",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 1134,
+      "polygons": 651
+    },
+    {
+      "name": "Western citadel_West_Sunlit ivory carved stone",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Western citadel_West_Sunlit ivory carved stone_mesh",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 14240,
+      "polygons": 10520
+    },
+    {
+      "name": "Western foreground | sweeping grassy slope",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Western foreground | sweeping grassy slope geometry",
+      "hide_render": true,
+      "hide_viewport": true,
+      "vertices": 16385,
+      "polygons": 32512
+    },
+    {
+      "name": "Woodland tree trunks",
+      "users": 1,
+      "fake_user": false,
+      "library": null,
+      "mesh": "Woodland tree trunks geometry",
+      "hide_render": true,
+      "hide_viewport": false,
+      "vertices": 130530,
+      "polygons": 65265
+    }
+  ],
+  "exact_mesh_payload_duplicates": [
+    [
+      {
+        "name": "V013 | corridor cage upright 0 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | corridor cage upright 1 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | corridor cage upright 2 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | corridor cage upright 3 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | stair cage upright 0 mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | stair cage upright 1 mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | stair cage upright 2 mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | stair cage upright 3 mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      }
+    ],
+    [
+      {
+        "name": "V013 | corridor hood rim mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | corridor lower cup mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | entrance hood rim mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | entrance lower cup mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | stair hood rim mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | stair lower cup mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | turn hood rim mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | turn lower cup mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      }
+    ],
+    [
+      {
+        "name": "V013 | corridor luminous flame mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 86,
+        "polygons": 96
+      },
+      {
+        "name": "V013 | entrance luminous flame mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 86,
+        "polygons": 96
+      },
+      {
+        "name": "V013 | stair luminous flame mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 86,
+        "polygons": 96
+      },
+      {
+        "name": "V013 | turn luminous flame mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 86,
+        "polygons": 96
+      }
+    ],
+    [
+      {
+        "name": "V013 | corridor mounting plate mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 8,
+        "polygons": 6
+      },
+      {
+        "name": "V013 | stair mounting plate mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 8,
+        "polygons": 6
+      },
+      {
+        "name": "V013 | turn mounting plate mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 8,
+        "polygons": 6
+      }
+    ],
+    [
+      {
+        "name": "V013 | corridor rain hood mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | entrance rain hood mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | stair rain hood mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      },
+      {
+        "name": "V013 | turn rain hood mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 32,
+        "polygons": 18
+      }
+    ],
+    [
+      {
+        "name": "V013 | entrance cage upright 0 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | entrance cage upright 1 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | entrance cage upright 2 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | entrance cage upright 3 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | turn cage upright 0 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | turn cage upright 1 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | turn cage upright 2 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | turn cage upright 3 mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      }
+    ],
+    [
+      {
+        "name": "V013 | stair wall arm mesh",
+        "users": 2,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      },
+      {
+        "name": "V013 | turn wall arm mesh",
+        "users": 1,
+        "fake_user": false,
+        "library": null,
+        "vertices": 24,
+        "polygons": 14
+      }
+    ]
+  ],
+  "images": [],
+  "material_usage": [
+    {
+      "name": "Atmosphere | central remote cloud density",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Atmosphere | eastern high cloud density",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Atmosphere | eastern horizon cloud density",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Atmosphere | eastern sunlit cloud density",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Atmosphere | far west cloud density",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Atmosphere | sunlit distant gulls",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Atmosphere | thin distant marine haze",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Atmosphere | western high cloud density",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Atmosphere | western lower cloud density",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Atmosphere | western wisps cloud density",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Breaking surf | warm white",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 aged carved recesses",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 aged gallery grey",
+      "users": 10,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 aperture darkness",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 blue green roof",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 deep slate ashlar",
+      "users": 18,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 old bronze patina",
+      "users": 3,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 pale cornice stone",
+      "users": 5,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 patched blocks",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 warm carved stone",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 weathered glazing",
+      "users": 3,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Citadel \u2022 weathered limestone",
+      "users": 21,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Cypress needles \u2014 deep blue green",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Distant sea pines",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Fir needles \u2014 forest green",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Fractured coastal grey-blue slate",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Grass blade dark green",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Grass blade olive",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Grass blade sunlight",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Meadow and slate | slope-based procedural strata",
+      "users": 4,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Meadow flowers | soft ivory",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Meadow flowers | yellow centers",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "North sea | teal depth and crossing wavelets",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Path debris | chalk",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Path debris | slate",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Path | chalky small limestone patches",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Path | pale worn limestone and earth",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Path | soft mossy verge",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Pine bark",
+      "users": 5,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Sunlit needle tips",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Thin translucent-looking sea foam",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Traveler | dark weathered leather",
+      "users": 3,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Traveler | ivory linen",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Traveler | light flaxen hair",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Traveler | muted purple-red shoulder mantle",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Traveler | warm pale skin",
+      "users": 4,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V002 | quiet blue-grey roof slate",
+      "users": 14,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V002 | subdued crown cornice stone",
+      "users": 8,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V002 | tidal slate with wet lower band",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V002 | varied salt-weathered coastal slate",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V005 | main large ashlar calibrated world units",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V005 | west subdued coarse stone courses",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V006 | main lightly recessed joint backing",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V006 | main sampled rib stone without competing fine brick grid",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V006 | west lightly recessed joint backing",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V006 | west sampled rib stone without competing fine brick grid",
+      "users": 2,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V013 | dark forged lantern iron",
+      "users": 56,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "V013 | warm lantern flame",
+      "users": 4,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "West_Aged blue slate",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "West_Ancient monolith",
+      "users": 3,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "West_Ashlar stone variation",
+      "users": 6,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "West_Cool weathered limestone",
+      "users": 13,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "West_Deep architectural recess",
+      "users": 3,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "West_Sea stack basalt",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "West_Sunlit ivory carved stone",
+      "users": 3,
+      "fake_user": false,
+      "library": null
+    },
+    {
+      "name": "Wildflower leaves",
+      "users": 1,
+      "fake_user": false,
+      "library": null
+    }
+  ],
+  "object_type_counts": {
+    "CAMERA": 5,
+    "MESH": 214,
+    "LIGHT": 7,
+    "EMPTY": 1
+  },
+  "source_unchanged": true,
+  "model_saved": false,
+  "limitations": "No delete/merge, no measured post-cleanup file/runtime savings. Exact mesh payload hashes include data attributes but object/material/collection semantics still require independent validation before any dedup. Hidden originals are recoverable baseline, not cleanup candidates."
+}

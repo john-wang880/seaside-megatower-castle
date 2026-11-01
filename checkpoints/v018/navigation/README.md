@@ -55,3 +55,11 @@ blender -b --disable-autoexec --python-exit-code 1 checkpoints/v018/restored/cas
 
 九张图片的完整来源映射：`reports/all_nine_image_provenance.json`；本版两相机实际姿态核对：`reports/current_camera_reconciliation.json`。
 后侧屋帽亮白斜面在匹配v017基线中已存在，见`reports/rear_paired_visual_review.json`；不归因为新增瓦片，也不借此判断原材质原因。
+
+## 平台边界：查看副本、单帧与影片不是同一工具
+- 恢复/列视角/查看副本入口见[快速开始](../QUICKSTART.md)。已实际验证Linux；没有宣称在用户Windows电脑跑过。
+- `render_manifest_still.py`原先无条件导入仅Unix提供的`resource`，会让Windows连单帧都无法开始。现在把Linux峰值RSS改为可选遥测：Linux仍记原`ru_maxrss`数值，Windows/macOS等或接口不可用时字段为`null`，**不是0、不是把未知单位当KiB**。渲染设置保持720×520/24采样，线程默认4；模拟平台测试不等于Windows实机验收。
+- 单帧工具是快速预览，不是80采样正式成片；输出PNG和同名JSON请用新路径，现有该路径文件可能被覆盖。它不保存源blend。
+- 已完成28秒影片的冻结脚本依赖Linux `fcntl`文件锁、`/proc`进程检查和`resource`，**不是Windows通用渲染器**。这些历史脚本/51文件身份保持不变以保存复现与审批绑定；不能为“兼容”随意跳过锁或挪用旧批准。Windows可先直接查看已备份MP4或用兼容Blender打开工程。
+
+官方接口边界：[Python resource](https://docs.python.org/3/library/resource.html)、[Python fcntl](https://docs.python.org/3/library/fcntl.html)。修复范围仅单帧可选统计，不承诺整个影片流水线跨平台。

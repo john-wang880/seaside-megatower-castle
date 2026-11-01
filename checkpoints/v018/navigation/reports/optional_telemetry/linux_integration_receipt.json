@@ -1,0 +1,52 @@
+{
+  "view": "west_crown",
+  "source": "castle_v018.blend",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "view_manifest_sha256": "e86ab12902ff93e22fbd1d1b2d2373e761fdc73245548a6d52c07574b85c75f6",
+  "manifest_hash_timing": "render-start bytes snapshot",
+  "preset": {
+    "label": "Western octagonal cap slate courses",
+    "camera_name": "REVIEW | 08 Western crown roof",
+    "location": [
+      -95,
+      35,
+      198
+    ],
+    "target": [
+      -133,
+      100,
+      176.5
+    ],
+    "lens": 55,
+    "clip_start": 0.1,
+    "clip_end": 3000,
+    "provenance": "Matched actual V018 western low octagonal cap audit camera; original lighting, not a walkthrough."
+  },
+  "actual_camera": {
+    "location": [
+      -95.0,
+      35.0,
+      198.0
+    ],
+    "rotation_euler": [
+      1.292646884918213,
+      5.3795425003499986e-08,
+      0.5290305614471436
+    ],
+    "lens": 55.0,
+    "clip_start": 0.10000000149011612,
+    "clip_end": 3000.0
+  },
+  "resolution": [
+    720,
+    520
+  ],
+  "samples": 24,
+  "render_threads": 8,
+  "seconds": 64.0422534942627,
+  "peak_rss_linux_kib": 1396408,
+  "runtime": "5.2.3 LTS",
+  "lighting": "Actual existing world/lights/exposure unchanged. No diagnostic fill or hidden geometry.",
+  "scope": "Independent camera still, not simulated walking or a dynamic navigation proof.",
+  "source_saved": false
+}
