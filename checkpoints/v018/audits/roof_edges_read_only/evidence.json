@@ -1,0 +1,15 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "evidence_sha256": {
+    "work/v017/final_actual_geometry.json": "ecf2a062f8ad56e232c1909ca60f829a70c674ac1c1a390369bd8e4657e551ca",
+    "work/west_cap_v018_qa/final/geometry.json": "0d836512a4e7b89f6a60e3d42c0d925c97c7b91fdc230567aef0fd72ea3a2e82",
+    "work/v018_navigation/renders/crown.png": "b37cfdc312815d25ba14c8e1594a76dbddf433831b0dffe93674099d926a955f",
+    "work/v018/visual/west_crown_actual.png": "c987205598c17fef60f51d5438d1f3d96f307e18449d7a7365d6cc5887e61936",
+    "work/v018/visual/west_crown_rear_actual.png": "c0e0f7393be86011df3050c7bc2e7a0950f565e1a8d46f2d1828f7142c86937c",
+    "work/vision_review_v016/sources/refine_v002.py": "3a5aefc3b026c215871c15deec3bff2e1a1aafce063595d53c0d163761cf90b5"
+  },
+  "finding": "No evidenced visible construction discontinuity; no new candidate proposed",
+  "new_blender_inspection": false,
+  "new_render": false,
+  "model_modified": false
+}

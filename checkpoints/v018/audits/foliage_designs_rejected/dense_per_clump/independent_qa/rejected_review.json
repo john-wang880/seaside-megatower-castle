@@ -1,0 +1,29 @@
+{
+  "candidate_status": "REJECTED: no convincing visual gain",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "candidate_sha256": "3da5a6ac692767b2b726fa417b1f2ac39aebdd289d5aed503e7583e8524364cd",
+  "strict_preservation_pass": true,
+  "exact_owned_weight_count": 298,
+  "complete_original_faces_masked": 496,
+  "allowed_additions": 25,
+  "actual_pair_viewed": [
+    "before_west.png",
+    "after_west.png"
+  ],
+  "visual_findings": [
+    "Original dense pear silhouette remains dominant.",
+    "New collars/notches do not read as convincing layered branching.",
+    "Polygon increase is not an acceptance criterion; canonical v018 retained."
+  ],
+  "not_run": [
+    "Independent actual-solid closed-positive checks",
+    "Whole-tree union grids29x29x59 and35x35x71",
+    "New route-clearance geometry audit",
+    "Negative control suite"
+  ],
+  "reason_not_run": "Owner stopped expensive acceptance suite after independent visual rejection; prepared code is not executed evidence.",
+  "preservation_scope": "All persisted source meshes/attributes/weights and evaluated non-target objects exact; only validated target deform weights/group/Mask allowed. Actual evaluated complement mapped to independently retained original vertex/edge/face/corner IDs and all attributes/materials/normals/topology checked, not counts alone. Original hidden forests and all trunks included in ordinary exact comparisons. Replacement visual/contact QA separate.",
+  "source_file_unchanged": true,
+  "candidate_file_unchanged": true,
+  "blender_released": true
+}

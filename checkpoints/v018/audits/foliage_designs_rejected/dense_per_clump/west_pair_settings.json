@@ -1,0 +1,24 @@
+{
+  "equal": {
+    "cycles": true,
+    "view": true,
+    "camera": true,
+    "world_hash": true,
+    "light_hashes": true
+  },
+  "seconds": [
+    74.5390290869982,
+    75.90945741099131
+  ],
+  "same_process_peak_rss_kib": [
+    1984520,
+    2104068
+  ],
+  "resource_limit": "Sequential same-process receipts, cumulative RSS cannot isolate additional memory cost.",
+  "render_field_differences": {
+    "filepath": [
+      "work/forest_dense_trial/before_west.png",
+      "work/forest_dense_trial/after_west.png"
+    ]
+  }
+}

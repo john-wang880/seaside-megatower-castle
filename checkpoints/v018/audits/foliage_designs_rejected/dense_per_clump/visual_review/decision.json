@@ -1,0 +1,30 @@
+{
+  "recommendation": "REJECT; retain canonical V018. No additional tuning/render requested.",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "candidate_sha256": "3da5a6ac692767b2b726fa417b1f2ac39aebdd289d5aed503e7583e8524364cd",
+  "viewed": [
+    "before_west.png",
+    "after_west.png",
+    "../v018_navigation/current_hero/image.png",
+    "after_hero.png"
+  ],
+  "west_settings_match_except_output_filepath": true,
+  "hero_receipt_comparison": {
+    "cycles_common_field_differences": {},
+    "view_settings_common_field_differences": {},
+    "camera_matrix_equal": true,
+    "camera_lens_gate_equal": true,
+    "dimensions_equal": true
+  },
+  "west_findings": [
+    "Opaque foliage mass is retained, unlike the rejected thin ladder recipe.",
+    "Tall smooth droplet/pear forms still dominate. Modified lower masses read as shallow rounded collars or notches rather than a clear overlapping branch-tier language.",
+    "Original dark-green palette and adjacent forest coherence remain; no apparent new obstruction to the bridge entrance."
+  ],
+  "hero_findings": [
+    "No conspicuous change or regression in overall castle silhouette, forest palette or foreground composition in inspected matched-view images.",
+    "Distant subtlety cannot compensate for insufficient local visual improvement."
+  ],
+  "limits": "Visual review of two actual-lighting still pairs, not a whole-forest assessment or independent topology/material preservation proof. Hero receipts use different serializer schemas; common quality/camera/gate fields compared explicitly. Strict preservation belongs to independent geometry validator.",
+  "decision_basis": "Fails the clear-local-gain criterion; geometry complexity alone is not acceptance evidence."
+}

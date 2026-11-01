@@ -1,0 +1,51 @@
+{
+  "status": "REJECTED by owner; retain accepted v018",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "candidate_sha256": "3da5a6ac692767b2b726fa417b1f2ac39aebdd289d5aed503e7583e8524364cd",
+  "source_bytes": 35962496,
+  "candidate_bytes": 36004914,
+  "model_version_created": false,
+  "published": false,
+  "viewed": [
+    "before_west.png",
+    "after_west.png",
+    "after_hero.png"
+  ],
+  "finding": "Broad opaque mass retained, but repeated upright spindle silhouette persists; new shallow shoulders read as ruffled/multiple pear lobes, not coherent outward bough tiers. No convincing visible net gain.",
+  "hero_finding": "Overall skyline/forest composition remains visually stable; no useful hero-scale benefit demonstrated.",
+  "lesson": "Per-clump legacy envelopes were an implementation choice, NOT a user requirement. They constrained the design to the same repeated spindle organization. Do not tune this recipe further. Any separately authorized reference-informed concept must be a new whole-tree design while preserving overall crown/footprint, trunk context and route clearance.",
+  "settings_identity": {
+    "equal": {
+      "cycles": true,
+      "view": true,
+      "camera": true,
+      "world_hash": true,
+      "light_hashes": true
+    },
+    "seconds": [
+      74.5390290869982,
+      75.90945741099131
+    ],
+    "same_process_peak_rss_kib": [
+      1984520,
+      2104068
+    ],
+    "resource_limit": "Sequential same-process receipts, cumulative RSS cannot isolate additional memory cost.",
+    "render_field_differences": {
+      "filepath": [
+        "work/forest_dense_trial/before_west.png",
+        "work/forest_dense_trial/after_west.png"
+      ]
+    }
+  },
+  "render_seconds": {
+    "before_west": 74.5390290869982,
+    "after_west": 75.90945741099131,
+    "after_hero": 82.57637681800406
+  },
+  "resource_limit": "Same sequential process; cumulative peak RSS is not a controlled isolated memory overhead.",
+  "geometry_scope": "25 source boughs replaced reversibly by75 closed masses/3600triangles; original palette and trunks unchanged. Builder preservation checks and independent bounded strict source-preservation check PASS (independent_qa/preservation.json). Full geometry/global union/negative acceptance suite NOT RUN because visual rejection already decides outcome.",
+  "next_action": "Stop this recipe. Await parent reference direction; no automatic further prototype.",
+  "independent_strict_preservation": "PASS: independent_qa/preservation.json",
+  "independent_full_geometry_acceptance": "NOT RUN after visual rejection"
+}

@@ -1,0 +1,16 @@
+{
+  "decision": "REJECT isolated concept; do not integrate or render full scene. Retain canonical V018.",
+  "reviewed_images": {
+    "front_silhouette": "0c6dd8f787ba1891681b78894fd8828b2166ebe007aca83fe9969eed58a05d45",
+    "side_silhouette": "ce513d6fd38499725b41d6b37ec30963e136c762d789fd8945d15b1f5c2a1679",
+    "oblique_neutral": "4502fc6845566b5bfe4f923bdae95f9831af4b466e55b692001c60c550d09e8e"
+  },
+  "findings": [
+    "Front and side have repeated nearly vertical blunt slab edges surrounding a narrow central spike. Outer gaps articulate stacked brackets, not outward-tapered conifer boughs.",
+    "Oblique neutral view confirms thick upright cuff/pocket-like masses with flat upper edges; these read as a segmented cactus or stacked armor rather than hanging foliage on radial branches.",
+    "Opaque central mass and tapered overall height are retained, but these alone do not satisfy the coherent layered-bough criterion.",
+    "Failure is present in geometry silhouette independent of actual scene lighting, so a hero render would not resolve this gate."
+  ],
+  "limits": "Isolated geometry/neutral diagnostics only, not an actual-scene palette comparison; no botanical species claim.",
+  "recommendation": "Stop this recipe without parameter tuning or additional scene renders. A future direction would need a genuinely different branch-level construction, not thinner versions of these upright cuffs. No such new work authorized by this review."
+}

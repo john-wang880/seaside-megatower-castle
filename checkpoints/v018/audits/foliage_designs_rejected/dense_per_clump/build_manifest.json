@@ -1,0 +1,4433 @@
+{
+  "status": "UNACCEPTED DENSE WHOLE-TREE CANDIDATE",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "recipe": "three broad overlapping opaque closed lobes per old bough; lower shoulder displaced outward/downward; no thin spine or spray arms",
+  "selected_vertices": [
+    90395,
+    90396,
+    90397,
+    90398,
+    90399,
+    90400,
+    90401,
+    90402,
+    90403,
+    90404,
+    90405,
+    90406,
+    90407,
+    90408,
+    90409,
+    90410,
+    90411,
+    90412,
+    90413,
+    90414,
+    90415,
+    90416,
+    90417,
+    90418,
+    90419,
+    90420,
+    90421,
+    90422,
+    90423,
+    90424,
+    90425,
+    90426,
+    90427,
+    90428,
+    90429,
+    90430,
+    90431,
+    90432,
+    90433,
+    90434,
+    90435,
+    90436,
+    90437,
+    90438,
+    90439,
+    90440,
+    90441,
+    90442,
+    90443,
+    90444,
+    90445,
+    90446,
+    90447,
+    90448,
+    90449,
+    90450,
+    90451,
+    90452,
+    90453,
+    90454,
+    90455,
+    90456,
+    90457,
+    90458,
+    90459,
+    90460,
+    90461,
+    90462,
+    90463,
+    90464,
+    90465,
+    90466,
+    90467,
+    90468,
+    90469,
+    90470,
+    90471,
+    90472,
+    90473,
+    90474,
+    90475,
+    90476,
+    90477,
+    90478,
+    90479,
+    90480,
+    90481,
+    90482,
+    90483,
+    90484,
+    90485,
+    90486,
+    90487,
+    90488,
+    90489,
+    90490,
+    90491,
+    90492,
+    90493,
+    90494,
+    90495,
+    90496,
+    90497,
+    90498,
+    90499,
+    90500,
+    90501,
+    90502,
+    90503,
+    90504,
+    90505,
+    90506,
+    90507,
+    90508,
+    90509,
+    90510,
+    90511,
+    90512,
+    90513,
+    90514,
+    90515,
+    90516,
+    90517,
+    90518,
+    90519,
+    90520,
+    90521,
+    90522,
+    90523,
+    90524,
+    90525,
+    90526,
+    90527,
+    90528,
+    90529,
+    90530,
+    90531,
+    90532,
+    90533,
+    90534,
+    90535,
+    90536,
+    90537,
+    90538,
+    90539,
+    90540,
+    90541,
+    90542,
+    90543,
+    90544,
+    90545,
+    90546,
+    90547,
+    90548,
+    90549,
+    90550,
+    90551,
+    90552,
+    90553,
+    90554,
+    90555,
+    90556,
+    90557,
+    90558,
+    90559,
+    90560,
+    90561,
+    90562,
+    90563,
+    90564,
+    90565,
+    90566,
+    90567,
+    90568,
+    90569,
+    90570,
+    90571,
+    90572,
+    90573,
+    90574,
+    90575,
+    90576,
+    90577,
+    90578,
+    90579,
+    90580,
+    90581,
+    90582,
+    90583,
+    90584,
+    90585,
+    90586,
+    90587,
+    90588,
+    90589,
+    90590,
+    90591,
+    90592,
+    90593,
+    90594,
+    90595,
+    90596,
+    90597,
+    90598,
+    90599,
+    90600,
+    90601,
+    90602,
+    90603,
+    90604,
+    90605,
+    90606,
+    90607,
+    90608,
+    90609,
+    90610,
+    90611,
+    90612,
+    90613,
+    90614,
+    90615,
+    90616,
+    90617,
+    90618,
+    90619,
+    90620,
+    90621,
+    90622,
+    90623,
+    90624,
+    90625,
+    90626,
+    90627,
+    90628,
+    90629,
+    90630,
+    90631,
+    90632,
+    90633,
+    90634,
+    90635,
+    90636,
+    90637,
+    90638,
+    90639,
+    90640,
+    90641,
+    90642,
+    90643,
+    90644,
+    90645,
+    90646,
+    90647,
+    90648,
+    90649,
+    90650,
+    90651,
+    90652,
+    90653,
+    90654,
+    90655,
+    90656,
+    90657,
+    90658,
+    90659,
+    90660,
+    90661,
+    90662,
+    90663,
+    90664,
+    90665,
+    90666,
+    90667,
+    90668,
+    90669,
+    90670,
+    90671,
+    90672,
+    90673,
+    90674,
+    90675,
+    90676,
+    90677,
+    90678,
+    90679,
+    90680,
+    90681,
+    90682,
+    90683,
+    90684,
+    90685,
+    90686,
+    90687,
+    90688,
+    90689,
+    90690,
+    90691,
+    90692
+  ],
+  "source_object": "V010 | woodland boughs with gate exit clearance",
+  "collection": "EXPERIMENT | dense foreground tree",
+  "new_objects": [
+    {
+      "object": "DENSE TRIAL | bough 90395",
+      "source_vertex_ids": [
+        90395,
+        90396,
+        90397,
+        90398,
+        90399,
+        90400,
+        90401,
+        90402,
+        90403,
+        90404,
+        90405,
+        90406,
+        90407,
+        90408,
+        90409,
+        90410,
+        90411
+      ],
+      "source_faces": [
+        137166,
+        137167,
+        137168,
+        137169,
+        137170,
+        137171,
+        137172,
+        137173,
+        137174,
+        137175,
+        137176,
+        137177,
+        137178,
+        137179,
+        137180,
+        137181,
+        137182,
+        137183,
+        137184,
+        137185,
+        137186,
+        137187,
+        137188,
+        137189,
+        137190,
+        137191,
+        137192,
+        137193,
+        137194,
+        137195
+      ],
+      "source_bounds": [
+        [
+          -82.71778106689453,
+          41.03582000732422,
+          23.83456039428711
+        ],
+        [
+          -81.24128723144531,
+          42.40018081665039,
+          26.264617919921875
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 1.6307088527537414,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26775,
+        26776,
+        26777,
+        26778,
+        26779
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26775,
+        26776,
+        26777,
+        26778,
+        26779
+      ],
+      "union_grid_counts": [
+        750,
+        609,
+        596
+      ],
+      "section_profile": [
+        {
+          "z": 23.928024145273064,
+          "old_occupied_samples": 7,
+          "new_union_samples": 3,
+          "intersection_samples": 1
+        },
+        {
+          "z": 24.11495164724497,
+          "old_occupied_samples": 52,
+          "new_union_samples": 40,
+          "intersection_samples": 38
+        },
+        {
+          "z": 24.301879149216873,
+          "old_occupied_samples": 68,
+          "new_union_samples": 55,
+          "intersection_samples": 54
+        },
+        {
+          "z": 24.488806651188778,
+          "old_occupied_samples": 79,
+          "new_union_samples": 67,
+          "intersection_samples": 66
+        },
+        {
+          "z": 24.675734153160683,
+          "old_occupied_samples": 87,
+          "new_union_samples": 81,
+          "intersection_samples": 79
+        },
+        {
+          "z": 24.862661655132587,
+          "old_occupied_samples": 95,
+          "new_union_samples": 81,
+          "intersection_samples": 80
+        },
+        {
+          "z": 25.049589157104492,
+          "old_occupied_samples": 104,
+          "new_union_samples": 84,
+          "intersection_samples": 82
+        },
+        {
+          "z": 25.236516659076397,
+          "old_occupied_samples": 94,
+          "new_union_samples": 72,
+          "intersection_samples": 71
+        },
+        {
+          "z": 25.4234441610483,
+          "old_occupied_samples": 72,
+          "new_union_samples": 63,
+          "intersection_samples": 63
+        },
+        {
+          "z": 25.610371663020207,
+          "old_occupied_samples": 50,
+          "new_union_samples": 43,
+          "intersection_samples": 42
+        },
+        {
+          "z": 25.79729916499211,
+          "old_occupied_samples": 29,
+          "new_union_samples": 20,
+          "intersection_samples": 20
+        },
+        {
+          "z": 25.984226666964016,
+          "old_occupied_samples": 11,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 26.17115416893592,
+          "old_occupied_samples": 2,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.687036607128751,
+        0.9890274300700335,
+        0.40340294514680863
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90412",
+      "source_vertex_ids": [
+        90412,
+        90413,
+        90414,
+        90415,
+        90416,
+        90417,
+        90418,
+        90419,
+        90420,
+        90421,
+        90422,
+        90423,
+        90424,
+        90425,
+        90426,
+        90427,
+        90428
+      ],
+      "source_faces": [
+        137196,
+        137197,
+        137198,
+        137199,
+        137200,
+        137201,
+        137202,
+        137203,
+        137204,
+        137205,
+        137206,
+        137207,
+        137208,
+        137209,
+        137210,
+        137211,
+        137212,
+        137213,
+        137214,
+        137215,
+        137216,
+        137217,
+        137218,
+        137219,
+        137220,
+        137221,
+        137222,
+        137223,
+        137224,
+        137225
+      ],
+      "source_bounds": [
+        [
+          -82.39929962158203,
+          41.927921295166016,
+          23.654376983642578
+        ],
+        [
+          -80.72228240966797,
+          43.645835876464844,
+          26.08233642578125
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 1.811086940506357,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26785,
+        26786,
+        26787,
+        26788,
+        26789
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26785,
+        26786,
+        26787,
+        26788,
+        26789
+      ],
+      "union_grid_counts": [
+        586,
+        465,
+        459
+      ],
+      "section_profile": [
+        {
+          "z": 23.74776003910945,
+          "old_occupied_samples": 9,
+          "new_union_samples": 3,
+          "intersection_samples": 1
+        },
+        {
+          "z": 23.934526150043194,
+          "old_occupied_samples": 30,
+          "new_union_samples": 15,
+          "intersection_samples": 14
+        },
+        {
+          "z": 24.121292260976936,
+          "old_occupied_samples": 44,
+          "new_union_samples": 35,
+          "intersection_samples": 34
+        },
+        {
+          "z": 24.308058371910683,
+          "old_occupied_samples": 54,
+          "new_union_samples": 46,
+          "intersection_samples": 45
+        },
+        {
+          "z": 24.494824482844425,
+          "old_occupied_samples": 70,
+          "new_union_samples": 60,
+          "intersection_samples": 59
+        },
+        {
+          "z": 24.68159059377817,
+          "old_occupied_samples": 89,
+          "new_union_samples": 73,
+          "intersection_samples": 73
+        },
+        {
+          "z": 24.868356704711914,
+          "old_occupied_samples": 87,
+          "new_union_samples": 76,
+          "intersection_samples": 76
+        },
+        {
+          "z": 25.055122815645657,
+          "old_occupied_samples": 75,
+          "new_union_samples": 63,
+          "intersection_samples": 63
+        },
+        {
+          "z": 25.241888926579403,
+          "old_occupied_samples": 55,
+          "new_union_samples": 45,
+          "intersection_samples": 45
+        },
+        {
+          "z": 25.428655037513145,
+          "old_occupied_samples": 40,
+          "new_union_samples": 32,
+          "intersection_samples": 32
+        },
+        {
+          "z": 25.61542114844689,
+          "old_occupied_samples": 22,
+          "new_union_samples": 16,
+          "intersection_samples": 16
+        },
+        {
+          "z": 25.802187259380634,
+          "old_occupied_samples": 9,
+          "new_union_samples": 1,
+          "intersection_samples": 1
+        },
+        {
+          "z": 25.988953370314377,
+          "old_occupied_samples": 2,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.7100975887060483,
+        1.1344833487155859,
+        0.4814271778638312
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90429",
+      "source_vertex_ids": [
+        90429,
+        90430,
+        90431,
+        90432,
+        90433,
+        90434,
+        90435,
+        90436,
+        90437,
+        90438,
+        90439,
+        90440,
+        90441,
+        90442,
+        90443,
+        90444,
+        90445
+      ],
+      "source_faces": [
+        137226,
+        137227,
+        137228,
+        137229,
+        137230,
+        137231,
+        137232,
+        137233,
+        137234,
+        137235,
+        137236,
+        137237,
+        137238,
+        137239,
+        137240,
+        137241,
+        137242,
+        137243,
+        137244,
+        137245,
+        137246,
+        137247,
+        137248,
+        137249,
+        137250,
+        137251,
+        137252,
+        137253,
+        137254,
+        137255
+      ],
+      "source_bounds": [
+        [
+          -83.73938751220703,
+          41.530818939208984,
+          24.204505920410156
+        ],
+        [
+          -82.15104675292969,
+          43.0367546081543,
+          26.63389015197754
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Sunlit needle tips",
+      "source_signed_volume": 1.4087683487668978,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26795,
+        26796,
+        26797,
+        26798,
+        26799
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26795,
+        26796,
+        26797,
+        26798,
+        26799
+      ],
+      "union_grid_counts": [
+        540,
+        469,
+        453
+      ],
+      "section_profile": [
+        {
+          "z": 24.29794377547044,
+          "old_occupied_samples": 3,
+          "new_union_samples": 3,
+          "intersection_samples": 1
+        },
+        {
+          "z": 24.484819485591007,
+          "old_occupied_samples": 16,
+          "new_union_samples": 10,
+          "intersection_samples": 7
+        },
+        {
+          "z": 24.671695195711575,
+          "old_occupied_samples": 34,
+          "new_union_samples": 28,
+          "intersection_samples": 27
+        },
+        {
+          "z": 24.858570905832146,
+          "old_occupied_samples": 49,
+          "new_union_samples": 44,
+          "intersection_samples": 42
+        },
+        {
+          "z": 25.045446615952713,
+          "old_occupied_samples": 65,
+          "new_union_samples": 58,
+          "intersection_samples": 56
+        },
+        {
+          "z": 25.23232232607328,
+          "old_occupied_samples": 87,
+          "new_union_samples": 77,
+          "intersection_samples": 74
+        },
+        {
+          "z": 25.419198036193848,
+          "old_occupied_samples": 93,
+          "new_union_samples": 79,
+          "intersection_samples": 78
+        },
+        {
+          "z": 25.606073746314415,
+          "old_occupied_samples": 77,
+          "new_union_samples": 66,
+          "intersection_samples": 66
+        },
+        {
+          "z": 25.792949456434982,
+          "old_occupied_samples": 53,
+          "new_union_samples": 49,
+          "intersection_samples": 48
+        },
+        {
+          "z": 25.97982516655555,
+          "old_occupied_samples": 34,
+          "new_union_samples": 33,
+          "intersection_samples": 32
+        },
+        {
+          "z": 26.16670087667612,
+          "old_occupied_samples": 22,
+          "new_union_samples": 18,
+          "intersection_samples": 18
+        },
+        {
+          "z": 26.353576586796688,
+          "old_occupied_samples": 7,
+          "new_union_samples": 4,
+          "intersection_samples": 4
+        },
+        {
+          "z": 26.540452296917255,
+          "old_occupied_samples": 0,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.5442850394771691,
+        0.9521634669942308,
+        0.4101996008699112
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90446",
+      "source_vertex_ids": [
+        90446,
+        90447,
+        90448,
+        90449,
+        90450,
+        90451,
+        90452,
+        90453,
+        90454,
+        90455,
+        90456,
+        90457,
+        90458,
+        90459,
+        90460,
+        90461,
+        90462
+      ],
+      "source_faces": [
+        137256,
+        137257,
+        137258,
+        137259,
+        137260,
+        137261,
+        137262,
+        137263,
+        137264,
+        137265,
+        137266,
+        137267,
+        137268,
+        137269,
+        137270,
+        137271,
+        137272,
+        137273,
+        137274,
+        137275,
+        137276,
+        137277,
+        137278,
+        137279,
+        137280,
+        137281,
+        137282,
+        137283,
+        137284,
+        137285
+      ],
+      "source_bounds": [
+        [
+          -82.17160034179688,
+          41.73334884643555,
+          25.392709732055664
+        ],
+        [
+          -80.6892318725586,
+          42.80502700805664,
+          27.81282615661621
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 1.3119435424893406,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26783,
+        26792,
+        26805,
+        26806,
+        26807,
+        26808,
+        26809,
+        26855,
+        26856,
+        26857,
+        26858,
+        26859
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26805,
+        26806,
+        26807,
+        26808,
+        26809,
+        26855,
+        26856,
+        26857,
+        26858,
+        26859
+      ],
+      "union_grid_counts": [
+        757,
+        603,
+        590
+      ],
+      "section_profile": [
+        {
+          "z": 25.4857911330003,
+          "old_occupied_samples": 6,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 25.671953934889572,
+          "old_occupied_samples": 36,
+          "new_union_samples": 17,
+          "intersection_samples": 15
+        },
+        {
+          "z": 25.858116736778847,
+          "old_occupied_samples": 53,
+          "new_union_samples": 42,
+          "intersection_samples": 41
+        },
+        {
+          "z": 26.044279538668118,
+          "old_occupied_samples": 73,
+          "new_union_samples": 63,
+          "intersection_samples": 60
+        },
+        {
+          "z": 26.230442340557392,
+          "old_occupied_samples": 98,
+          "new_union_samples": 75,
+          "intersection_samples": 74
+        },
+        {
+          "z": 26.416605142446663,
+          "old_occupied_samples": 119,
+          "new_union_samples": 94,
+          "intersection_samples": 93
+        },
+        {
+          "z": 26.602767944335938,
+          "old_occupied_samples": 119,
+          "new_union_samples": 103,
+          "intersection_samples": 102
+        },
+        {
+          "z": 26.788930746225212,
+          "old_occupied_samples": 96,
+          "new_union_samples": 82,
+          "intersection_samples": 82
+        },
+        {
+          "z": 26.975093548114483,
+          "old_occupied_samples": 70,
+          "new_union_samples": 64,
+          "intersection_samples": 61
+        },
+        {
+          "z": 27.161256350003757,
+          "old_occupied_samples": 50,
+          "new_union_samples": 41,
+          "intersection_samples": 40
+        },
+        {
+          "z": 27.34741915189303,
+          "old_occupied_samples": 28,
+          "new_union_samples": 21,
+          "intersection_samples": 21
+        },
+        {
+          "z": 27.533581953782303,
+          "old_occupied_samples": 8,
+          "new_union_samples": 1,
+          "intersection_samples": 1
+        },
+        {
+          "z": 27.719744755671574,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.46964247706364415,
+        0.8415804564390328,
+        0.320210047133969
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90463",
+      "source_vertex_ids": [
+        90463,
+        90464,
+        90465,
+        90466,
+        90467,
+        90468,
+        90469,
+        90470,
+        90471,
+        90472,
+        90473,
+        90474,
+        90475,
+        90476
+      ],
+      "source_faces": [
+        137286,
+        137287,
+        137288,
+        137289,
+        137290,
+        137291,
+        137292,
+        137293,
+        137294,
+        137295,
+        137296,
+        137297,
+        137298,
+        137299,
+        137300,
+        137301,
+        137302,
+        137303,
+        137304,
+        137305,
+        137306,
+        137307,
+        137308,
+        137309
+      ],
+      "source_bounds": [
+        [
+          -83.25789642333984,
+          41.984859466552734,
+          25.091928482055664
+        ],
+        [
+          -81.82318878173828,
+          43.36033248901367,
+          27.510446548461914
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Sunlit needle tips",
+      "source_signed_volume": 1.461821795510938,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26815,
+        26816,
+        26817,
+        26818,
+        26819
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26815,
+        26816,
+        26817,
+        26818,
+        26819
+      ],
+      "union_grid_counts": [
+        684,
+        528,
+        524
+      ],
+      "section_profile": [
+        {
+          "z": 25.184948407686672,
+          "old_occupied_samples": 5,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 25.370988258948692,
+          "old_occupied_samples": 20,
+          "new_union_samples": 6,
+          "intersection_samples": 6
+        },
+        {
+          "z": 25.557028110210712,
+          "old_occupied_samples": 42,
+          "new_union_samples": 34,
+          "intersection_samples": 33
+        },
+        {
+          "z": 25.743067961472732,
+          "old_occupied_samples": 61,
+          "new_union_samples": 51,
+          "intersection_samples": 51
+        },
+        {
+          "z": 25.92910781273475,
+          "old_occupied_samples": 84,
+          "new_union_samples": 71,
+          "intersection_samples": 70
+        },
+        {
+          "z": 26.11514766399677,
+          "old_occupied_samples": 109,
+          "new_union_samples": 83,
+          "intersection_samples": 82
+        },
+        {
+          "z": 26.30118751525879,
+          "old_occupied_samples": 109,
+          "new_union_samples": 95,
+          "intersection_samples": 95
+        },
+        {
+          "z": 26.48722736652081,
+          "old_occupied_samples": 85,
+          "new_union_samples": 68,
+          "intersection_samples": 68
+        },
+        {
+          "z": 26.67326721778283,
+          "old_occupied_samples": 67,
+          "new_union_samples": 54,
+          "intersection_samples": 54
+        },
+        {
+          "z": 26.859307069044846,
+          "old_occupied_samples": 50,
+          "new_union_samples": 43,
+          "intersection_samples": 42
+        },
+        {
+          "z": 27.045346920306866,
+          "old_occupied_samples": 37,
+          "new_union_samples": 20,
+          "intersection_samples": 20
+        },
+        {
+          "z": 27.231386771568886,
+          "old_occupied_samples": 14,
+          "new_union_samples": 3,
+          "intersection_samples": 3
+        },
+        {
+          "z": 27.417426622830906,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.5104928773710828,
+        0.9146599050773146,
+        0.38781898080742405
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90477",
+      "source_vertex_ids": [
+        90477,
+        90478,
+        90479,
+        90480,
+        90481,
+        90482,
+        90483,
+        90484,
+        90485,
+        90486,
+        90487,
+        90488,
+        90489,
+        90490,
+        90491,
+        90492
+      ],
+      "source_faces": [
+        137310,
+        137311,
+        137312,
+        137313,
+        137314,
+        137315,
+        137316,
+        137317,
+        137318,
+        137319,
+        137320,
+        137321,
+        137322,
+        137323,
+        137324,
+        137325,
+        137326,
+        137327,
+        137328,
+        137329,
+        137330,
+        137331,
+        137332,
+        137333,
+        137334,
+        137335,
+        137336,
+        137337
+      ],
+      "source_bounds": [
+        [
+          -82.97474670410156,
+          40.636268615722656,
+          24.937763214111328
+        ],
+        [
+          -81.52214813232422,
+          42.262088775634766,
+          27.356237411499023
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 1.5536395389741908,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26825,
+        26826,
+        26827,
+        26828,
+        26829
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26825,
+        26826,
+        26827,
+        26828,
+        26829
+      ],
+      "union_grid_counts": [
+        597,
+        506,
+        495
+      ],
+      "section_profile": [
+        {
+          "z": 25.030781452472393,
+          "old_occupied_samples": 2,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 25.216817929194523,
+          "old_occupied_samples": 20,
+          "new_union_samples": 7,
+          "intersection_samples": 6
+        },
+        {
+          "z": 25.402854405916653,
+          "old_occupied_samples": 36,
+          "new_union_samples": 33,
+          "intersection_samples": 32
+        },
+        {
+          "z": 25.588890882638786,
+          "old_occupied_samples": 54,
+          "new_union_samples": 49,
+          "intersection_samples": 49
+        },
+        {
+          "z": 25.774927359360916,
+          "old_occupied_samples": 70,
+          "new_union_samples": 65,
+          "intersection_samples": 63
+        },
+        {
+          "z": 25.960963836083046,
+          "old_occupied_samples": 92,
+          "new_union_samples": 77,
+          "intersection_samples": 75
+        },
+        {
+          "z": 26.147000312805176,
+          "old_occupied_samples": 98,
+          "new_union_samples": 86,
+          "intersection_samples": 85
+        },
+        {
+          "z": 26.333036789527306,
+          "old_occupied_samples": 83,
+          "new_union_samples": 73,
+          "intersection_samples": 72
+        },
+        {
+          "z": 26.519073266249436,
+          "old_occupied_samples": 59,
+          "new_union_samples": 53,
+          "intersection_samples": 51
+        },
+        {
+          "z": 26.705109742971565,
+          "old_occupied_samples": 42,
+          "new_union_samples": 36,
+          "intersection_samples": 35
+        },
+        {
+          "z": 26.8911462196937,
+          "old_occupied_samples": 28,
+          "new_union_samples": 22,
+          "intersection_samples": 22
+        },
+        {
+          "z": 27.07718269641583,
+          "old_occupied_samples": 11,
+          "new_union_samples": 5,
+          "intersection_samples": 5
+        },
+        {
+          "z": 27.26321917313796,
+          "old_occupied_samples": 2,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.58575048911401,
+        1.0075978791845728,
+        0.46148668822642464
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90493",
+      "source_vertex_ids": [
+        90493,
+        90494,
+        90495,
+        90496,
+        90497,
+        90498,
+        90499,
+        90500,
+        90501,
+        90502,
+        90503,
+        90504,
+        90505,
+        90506,
+        90507
+      ],
+      "source_faces": [
+        137338,
+        137339,
+        137340,
+        137341,
+        137342,
+        137343,
+        137344,
+        137345,
+        137346,
+        137347,
+        137348,
+        137349,
+        137350,
+        137351,
+        137352,
+        137353,
+        137354,
+        137355,
+        137356,
+        137357,
+        137358,
+        137359,
+        137360,
+        137361,
+        137362,
+        137363
+      ],
+      "source_bounds": [
+        [
+          -83.22138977050781,
+          41.654319763183594,
+          26.146514892578125
+        ],
+        [
+          -81.90541076660156,
+          42.93687438964844,
+          28.577646255493164
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 1.167476603163474,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26830,
+        26831,
+        26832,
+        26833,
+        26834,
+        26835,
+        26836,
+        26837,
+        26838,
+        26839,
+        26840,
+        26841,
+        26842,
+        26844,
+        26850,
+        26851,
+        26852,
+        26853
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26830,
+        26834,
+        26835,
+        26836,
+        26837,
+        26838,
+        26839,
+        26840,
+        26841,
+        26851,
+        26852,
+        26853
+      ],
+      "union_grid_counts": [
+        632,
+        511,
+        498
+      ],
+      "section_profile": [
+        {
+          "z": 26.240019944997933,
+          "old_occupied_samples": 3,
+          "new_union_samples": 3,
+          "intersection_samples": 0
+        },
+        {
+          "z": 26.42703004983755,
+          "old_occupied_samples": 24,
+          "new_union_samples": 12,
+          "intersection_samples": 11
+        },
+        {
+          "z": 26.61404015467717,
+          "old_occupied_samples": 45,
+          "new_union_samples": 42,
+          "intersection_samples": 40
+        },
+        {
+          "z": 26.80105025951679,
+          "old_occupied_samples": 60,
+          "new_union_samples": 56,
+          "intersection_samples": 54
+        },
+        {
+          "z": 26.988060364356407,
+          "old_occupied_samples": 77,
+          "new_union_samples": 68,
+          "intersection_samples": 66
+        },
+        {
+          "z": 27.175070469196026,
+          "old_occupied_samples": 92,
+          "new_union_samples": 77,
+          "intersection_samples": 76
+        },
+        {
+          "z": 27.362080574035645,
+          "old_occupied_samples": 95,
+          "new_union_samples": 77,
+          "intersection_samples": 77
+        },
+        {
+          "z": 27.549090678875263,
+          "old_occupied_samples": 82,
+          "new_union_samples": 61,
+          "intersection_samples": 60
+        },
+        {
+          "z": 27.736100783714882,
+          "old_occupied_samples": 62,
+          "new_union_samples": 50,
+          "intersection_samples": 49
+        },
+        {
+          "z": 27.9231108885545,
+          "old_occupied_samples": 48,
+          "new_union_samples": 40,
+          "intersection_samples": 40
+        },
+        {
+          "z": 28.11012099339412,
+          "old_occupied_samples": 29,
+          "new_union_samples": 23,
+          "intersection_samples": 23
+        },
+        {
+          "z": 28.297131098233738,
+          "old_occupied_samples": 13,
+          "new_union_samples": 2,
+          "intersection_samples": 2
+        },
+        {
+          "z": 28.484141203073357,
+          "old_occupied_samples": 2,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.4627661542499482,
+        0.7042746216933057,
+        0.3310327849214143
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90508",
+      "source_vertex_ids": [
+        90508,
+        90509,
+        90510,
+        90511,
+        90512,
+        90513,
+        90514,
+        90515,
+        90516,
+        90517,
+        90518,
+        90519,
+        90520,
+        90521,
+        90522,
+        90523,
+        90524
+      ],
+      "source_faces": [
+        137364,
+        137365,
+        137366,
+        137367,
+        137368,
+        137369,
+        137370,
+        137371,
+        137372,
+        137373,
+        137374,
+        137375,
+        137376,
+        137377,
+        137378,
+        137379,
+        137380,
+        137381,
+        137382,
+        137383,
+        137384,
+        137385,
+        137386,
+        137387,
+        137388,
+        137389,
+        137390,
+        137391,
+        137392,
+        137393
+      ],
+      "source_bounds": [
+        [
+          -82.57431030273438,
+          40.96006774902344,
+          26.052579879760742
+        ],
+        [
+          -81.60639190673828,
+          42.43088150024414,
+          28.496864318847656
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 1.1995589017050559,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26830,
+        26831,
+        26832,
+        26833,
+        26834,
+        26840,
+        26841,
+        26842,
+        26843,
+        26844,
+        26845,
+        26846,
+        26847,
+        26848,
+        26849,
+        26850,
+        26851,
+        26852,
+        26853,
+        26854
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26830,
+        26831,
+        26832,
+        26833,
+        26834,
+        26840,
+        26841,
+        26842,
+        26843,
+        26844,
+        26845,
+        26846,
+        26847,
+        26848,
+        26849,
+        26850,
+        26851,
+        26852,
+        26853,
+        26854
+      ],
+      "union_grid_counts": [
+        762,
+        626,
+        617
+      ],
+      "section_profile": [
+        {
+          "z": 26.146590819725624,
+          "old_occupied_samples": 9,
+          "new_union_samples": 1,
+          "intersection_samples": 1
+        },
+        {
+          "z": 26.334612699655388,
+          "old_occupied_samples": 43,
+          "new_union_samples": 31,
+          "intersection_samples": 31
+        },
+        {
+          "z": 26.522634579585148,
+          "old_occupied_samples": 59,
+          "new_union_samples": 53,
+          "intersection_samples": 51
+        },
+        {
+          "z": 26.71065645951491,
+          "old_occupied_samples": 76,
+          "new_union_samples": 68,
+          "intersection_samples": 67
+        },
+        {
+          "z": 26.898678339444675,
+          "old_occupied_samples": 92,
+          "new_union_samples": 75,
+          "intersection_samples": 75
+        },
+        {
+          "z": 27.086700219374436,
+          "old_occupied_samples": 106,
+          "new_union_samples": 88,
+          "intersection_samples": 87
+        },
+        {
+          "z": 27.2747220993042,
+          "old_occupied_samples": 110,
+          "new_union_samples": 95,
+          "intersection_samples": 93
+        },
+        {
+          "z": 27.462743979233963,
+          "old_occupied_samples": 96,
+          "new_union_samples": 75,
+          "intersection_samples": 74
+        },
+        {
+          "z": 27.650765859163723,
+          "old_occupied_samples": 73,
+          "new_union_samples": 63,
+          "intersection_samples": 61
+        },
+        {
+          "z": 27.838787739093487,
+          "old_occupied_samples": 54,
+          "new_union_samples": 45,
+          "intersection_samples": 45
+        },
+        {
+          "z": 28.02680961902325,
+          "old_occupied_samples": 32,
+          "new_union_samples": 28,
+          "intersection_samples": 28
+        },
+        {
+          "z": 28.21483149895301,
+          "old_occupied_samples": 11,
+          "new_union_samples": 4,
+          "intersection_samples": 4
+        },
+        {
+          "z": 28.402853378882774,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.4875930881571549,
+        0.7335884534519438,
+        0.30711131498355826
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90525",
+      "source_vertex_ids": [
+        90525,
+        90526,
+        90527,
+        90528,
+        90529,
+        90530,
+        90531,
+        90532,
+        90533,
+        90534,
+        90535,
+        90536,
+        90537,
+        90538,
+        90539,
+        90540,
+        90541
+      ],
+      "source_faces": [
+        137394,
+        137395,
+        137396,
+        137397,
+        137398,
+        137399,
+        137400,
+        137401,
+        137402,
+        137403,
+        137404,
+        137405,
+        137406,
+        137407,
+        137408,
+        137409,
+        137410,
+        137411,
+        137412,
+        137413,
+        137414,
+        137415,
+        137416,
+        137417,
+        137418,
+        137419,
+        137420,
+        137421,
+        137422,
+        137423
+      ],
+      "source_bounds": [
+        [
+          -82.26290893554688,
+          41.82432556152344,
+          25.930099487304688
+        ],
+        [
+          -80.99490356445312,
+          43.0845947265625,
+          28.35462188720703
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 1.0609579218144063,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26805,
+        26806,
+        26807,
+        26808,
+        26809,
+        26830,
+        26831,
+        26841,
+        26842,
+        26843,
+        26853,
+        26854,
+        26855,
+        26856,
+        26857,
+        26858,
+        26859
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26805,
+        26806,
+        26807,
+        26808,
+        26809,
+        26855,
+        26856,
+        26857,
+        26858,
+        26859
+      ],
+      "union_grid_counts": [
+        605,
+        492,
+        485
+      ],
+      "section_profile": [
+        {
+          "z": 26.023350348839394,
+          "old_occupied_samples": 3,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 26.209852071908806,
+          "old_occupied_samples": 19,
+          "new_union_samples": 7,
+          "intersection_samples": 7
+        },
+        {
+          "z": 26.396353794978214,
+          "old_occupied_samples": 33,
+          "new_union_samples": 26,
+          "intersection_samples": 25
+        },
+        {
+          "z": 26.582855518047626,
+          "old_occupied_samples": 47,
+          "new_union_samples": 41,
+          "intersection_samples": 39
+        },
+        {
+          "z": 26.76935724111704,
+          "old_occupied_samples": 65,
+          "new_union_samples": 57,
+          "intersection_samples": 56
+        },
+        {
+          "z": 26.955858964186447,
+          "old_occupied_samples": 90,
+          "new_union_samples": 76,
+          "intersection_samples": 76
+        },
+        {
+          "z": 27.14236068725586,
+          "old_occupied_samples": 105,
+          "new_union_samples": 90,
+          "intersection_samples": 90
+        },
+        {
+          "z": 27.32886241032527,
+          "old_occupied_samples": 87,
+          "new_union_samples": 70,
+          "intersection_samples": 68
+        },
+        {
+          "z": 27.51536413339468,
+          "old_occupied_samples": 67,
+          "new_union_samples": 58,
+          "intersection_samples": 57
+        },
+        {
+          "z": 27.701865856464092,
+          "old_occupied_samples": 49,
+          "new_union_samples": 43,
+          "intersection_samples": 43
+        },
+        {
+          "z": 27.888367579533504,
+          "old_occupied_samples": 28,
+          "new_union_samples": 22,
+          "intersection_samples": 22
+        },
+        {
+          "z": 28.074869302602913,
+          "old_occupied_samples": 11,
+          "new_union_samples": 2,
+          "intersection_samples": 2
+        },
+        {
+          "z": 28.261371025672325,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.36845154032956384,
+        0.6978830211426157,
+        0.32498956686395536
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90542",
+      "source_vertex_ids": [
+        90542,
+        90543,
+        90544,
+        90545,
+        90546,
+        90547,
+        90548,
+        90549,
+        90550,
+        90551,
+        90552
+      ],
+      "source_faces": [
+        137424,
+        137425,
+        137426,
+        137427,
+        137428,
+        137429,
+        137430,
+        137431,
+        137432,
+        137433,
+        137434,
+        137435,
+        137436,
+        137437,
+        137438,
+        137439,
+        137440,
+        137441
+      ],
+      "source_bounds": [
+        [
+          -82.26102447509766,
+          41.47990036010742,
+          27.4581241607666
+        ],
+        [
+          -81.40070343017578,
+          42.210567474365234,
+          29.915149688720703
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.4649639166503524,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26865,
+        26866,
+        26867,
+        26868,
+        26869
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26865,
+        26866,
+        26867,
+        26868,
+        26869
+      ],
+      "union_grid_counts": [
+        663,
+        540,
+        535
+      ],
+      "section_profile": [
+        {
+          "z": 27.55262514261099,
+          "old_occupied_samples": 4,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 27.741627106299767,
+          "old_occupied_samples": 22,
+          "new_union_samples": 12,
+          "intersection_samples": 12
+        },
+        {
+          "z": 27.930629069988544,
+          "old_occupied_samples": 43,
+          "new_union_samples": 38,
+          "intersection_samples": 37
+        },
+        {
+          "z": 28.119631033677322,
+          "old_occupied_samples": 64,
+          "new_union_samples": 54,
+          "intersection_samples": 54
+        },
+        {
+          "z": 28.308632997366097,
+          "old_occupied_samples": 80,
+          "new_union_samples": 70,
+          "intersection_samples": 69
+        },
+        {
+          "z": 28.497634961054874,
+          "old_occupied_samples": 97,
+          "new_union_samples": 81,
+          "intersection_samples": 81
+        },
+        {
+          "z": 28.686636924743652,
+          "old_occupied_samples": 106,
+          "new_union_samples": 91,
+          "intersection_samples": 91
+        },
+        {
+          "z": 28.87563888843243,
+          "old_occupied_samples": 92,
+          "new_union_samples": 73,
+          "intersection_samples": 71
+        },
+        {
+          "z": 29.064640852121208,
+          "old_occupied_samples": 69,
+          "new_union_samples": 56,
+          "intersection_samples": 55
+        },
+        {
+          "z": 29.253642815809982,
+          "old_occupied_samples": 48,
+          "new_union_samples": 39,
+          "intersection_samples": 39
+        },
+        {
+          "z": 29.44264477949876,
+          "old_occupied_samples": 27,
+          "new_union_samples": 23,
+          "intersection_samples": 23
+        },
+        {
+          "z": 29.631646743187538,
+          "old_occupied_samples": 10,
+          "new_union_samples": 3,
+          "intersection_samples": 3
+        },
+        {
+          "z": 29.820648706876316,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.17360847090215725,
+        0.2963629969797996,
+        0.12588195250979578
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90553",
+      "source_vertex_ids": [
+        90553,
+        90554,
+        90555,
+        90556,
+        90557,
+        90558,
+        90559,
+        90560,
+        90561,
+        90562,
+        90563
+      ],
+      "source_faces": [
+        137442,
+        137443,
+        137444,
+        137445,
+        137446,
+        137447,
+        137448,
+        137449,
+        137450,
+        137451,
+        137452,
+        137453,
+        137454,
+        137455,
+        137456,
+        137457,
+        137458,
+        137459
+      ],
+      "source_bounds": [
+        [
+          -82.45146179199219,
+          42.22903060913086,
+          27.429149627685547
+        ],
+        [
+          -81.60460662841797,
+          43.13423156738281,
+          29.865909576416016
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.5267576643382198,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26875,
+        26876,
+        26877,
+        26878,
+        26879
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26875,
+        26876,
+        26877,
+        26878,
+        26879
+      ],
+      "union_grid_counts": [
+        630,
+        516,
+        503
+      ],
+      "section_profile": [
+        {
+          "z": 27.52287116417518,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 27.710314237154446,
+          "old_occupied_samples": 15,
+          "new_union_samples": 6,
+          "intersection_samples": 5
+        },
+        {
+          "z": 27.897757310133713,
+          "old_occupied_samples": 34,
+          "new_union_samples": 30,
+          "intersection_samples": 28
+        },
+        {
+          "z": 28.08520038311298,
+          "old_occupied_samples": 59,
+          "new_union_samples": 51,
+          "intersection_samples": 51
+        },
+        {
+          "z": 28.272643456092247,
+          "old_occupied_samples": 73,
+          "new_union_samples": 66,
+          "intersection_samples": 64
+        },
+        {
+          "z": 28.460086529071514,
+          "old_occupied_samples": 87,
+          "new_union_samples": 74,
+          "intersection_samples": 74
+        },
+        {
+          "z": 28.64752960205078,
+          "old_occupied_samples": 100,
+          "new_union_samples": 84,
+          "intersection_samples": 82
+        },
+        {
+          "z": 28.83497267503005,
+          "old_occupied_samples": 91,
+          "new_union_samples": 71,
+          "intersection_samples": 71
+        },
+        {
+          "z": 29.022415748009315,
+          "old_occupied_samples": 74,
+          "new_union_samples": 60,
+          "intersection_samples": 58
+        },
+        {
+          "z": 29.209858820988583,
+          "old_occupied_samples": 52,
+          "new_union_samples": 47,
+          "intersection_samples": 45
+        },
+        {
+          "z": 29.39730189396785,
+          "old_occupied_samples": 29,
+          "new_union_samples": 26,
+          "intersection_samples": 24
+        },
+        {
+          "z": 29.584744966947117,
+          "old_occupied_samples": 14,
+          "new_union_samples": 1,
+          "intersection_samples": 1
+        },
+        {
+          "z": 29.772188039926384,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.18727578672511905,
+        0.33681589464591377,
+        0.15755288003553386
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90564",
+      "source_vertex_ids": [
+        90564,
+        90565,
+        90566,
+        90567,
+        90568,
+        90569,
+        90570,
+        90571,
+        90572
+      ],
+      "source_faces": [
+        137460,
+        137461,
+        137462,
+        137463,
+        137464,
+        137465,
+        137466,
+        137467,
+        137468,
+        137469,
+        137470,
+        137471,
+        137472,
+        137473
+      ],
+      "source_bounds": [
+        [
+          -83.00894165039062,
+          41.5545654296875,
+          27.010181427001953
+        ],
+        [
+          -81.93480682373047,
+          42.46767044067383,
+          29.487056732177734
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.527462588641356,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26885,
+        26886,
+        26887,
+        26888,
+        26889
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26885,
+        26886,
+        26887,
+        26888,
+        26889
+      ],
+      "union_grid_counts": [
+        474,
+        415,
+        400
+      ],
+      "section_profile": [
+        {
+          "z": 27.105445861816406,
+          "old_occupied_samples": 1,
+          "new_union_samples": 1,
+          "intersection_samples": 0
+        },
+        {
+          "z": 27.295974731445312,
+          "old_occupied_samples": 8,
+          "new_union_samples": 2,
+          "intersection_samples": 0
+        },
+        {
+          "z": 27.48650360107422,
+          "old_occupied_samples": 22,
+          "new_union_samples": 18,
+          "intersection_samples": 18
+        },
+        {
+          "z": 27.677032470703125,
+          "old_occupied_samples": 42,
+          "new_union_samples": 43,
+          "intersection_samples": 41
+        },
+        {
+          "z": 27.86756134033203,
+          "old_occupied_samples": 65,
+          "new_union_samples": 57,
+          "intersection_samples": 53
+        },
+        {
+          "z": 28.058090209960938,
+          "old_occupied_samples": 84,
+          "new_union_samples": 73,
+          "intersection_samples": 70
+        },
+        {
+          "z": 28.248619079589844,
+          "old_occupied_samples": 87,
+          "new_union_samples": 78,
+          "intersection_samples": 78
+        },
+        {
+          "z": 28.43914794921875,
+          "old_occupied_samples": 73,
+          "new_union_samples": 65,
+          "intersection_samples": 63
+        },
+        {
+          "z": 28.629676818847656,
+          "old_occupied_samples": 47,
+          "new_union_samples": 44,
+          "intersection_samples": 43
+        },
+        {
+          "z": 28.820205688476562,
+          "old_occupied_samples": 26,
+          "new_union_samples": 24,
+          "intersection_samples": 24
+        },
+        {
+          "z": 29.01073455810547,
+          "old_occupied_samples": 14,
+          "new_union_samples": 10,
+          "intersection_samples": 10
+        },
+        {
+          "z": 29.201263427734375,
+          "old_occupied_samples": 5,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 29.39179229736328,
+          "old_occupied_samples": 0,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.20705228825185407,
+        0.3734571387609927,
+        0.15227688823551944
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90573",
+      "source_vertex_ids": [
+        90573,
+        90574,
+        90575,
+        90576,
+        90577,
+        90578,
+        90579,
+        90580,
+        90581,
+        90582,
+        90583,
+        90584,
+        90585,
+        90586,
+        90587
+      ],
+      "source_faces": [
+        137474,
+        137475,
+        137476,
+        137477,
+        137478,
+        137479,
+        137480,
+        137481,
+        137482,
+        137483,
+        137484,
+        137485,
+        137486,
+        137487,
+        137488,
+        137489,
+        137490,
+        137491,
+        137492,
+        137493,
+        137494,
+        137495,
+        137496,
+        137497,
+        137498,
+        137499
+      ],
+      "source_bounds": [
+        [
+          -82.83679962158203,
+          42.02336120605469,
+          28.000011444091797
+        ],
+        [
+          -81.84305572509766,
+          43.06260681152344,
+          30.425146102905273
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.7667652866638075,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26895,
+        26896,
+        26897,
+        26898,
+        26899
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26895,
+        26896,
+        26897,
+        26898,
+        26899
+      ],
+      "union_grid_counts": [
+        678,
+        527,
+        522
+      ],
+      "section_profile": [
+        {
+          "z": 28.09328585404616,
+          "old_occupied_samples": 6,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 28.27983467395489,
+          "old_occupied_samples": 23,
+          "new_union_samples": 12,
+          "intersection_samples": 12
+        },
+        {
+          "z": 28.46638349386362,
+          "old_occupied_samples": 44,
+          "new_union_samples": 35,
+          "intersection_samples": 34
+        },
+        {
+          "z": 28.652932313772347,
+          "old_occupied_samples": 59,
+          "new_union_samples": 51,
+          "intersection_samples": 51
+        },
+        {
+          "z": 28.839481133681076,
+          "old_occupied_samples": 72,
+          "new_union_samples": 62,
+          "intersection_samples": 62
+        },
+        {
+          "z": 29.026029953589806,
+          "old_occupied_samples": 86,
+          "new_union_samples": 73,
+          "intersection_samples": 72
+        },
+        {
+          "z": 29.212578773498535,
+          "old_occupied_samples": 96,
+          "new_union_samples": 77,
+          "intersection_samples": 77
+        },
+        {
+          "z": 29.399127593407265,
+          "old_occupied_samples": 89,
+          "new_union_samples": 69,
+          "intersection_samples": 68
+        },
+        {
+          "z": 29.585676413315994,
+          "old_occupied_samples": 80,
+          "new_union_samples": 60,
+          "intersection_samples": 59
+        },
+        {
+          "z": 29.772225233224724,
+          "old_occupied_samples": 66,
+          "new_union_samples": 51,
+          "intersection_samples": 51
+        },
+        {
+          "z": 29.95877405313345,
+          "old_occupied_samples": 41,
+          "new_union_samples": 32,
+          "intersection_samples": 31
+        },
+        {
+          "z": 30.14532287304218,
+          "old_occupied_samples": 15,
+          "new_union_samples": 5,
+          "intersection_samples": 5
+        },
+        {
+          "z": 30.33187169295091,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.26766503624806615,
+        0.4440784712117723,
+        0.23755055105031417
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90588",
+      "source_vertex_ids": [
+        90588,
+        90589,
+        90590,
+        90591,
+        90592,
+        90593,
+        90594,
+        90595,
+        90596,
+        90597,
+        90598,
+        90599,
+        90600,
+        90601
+      ],
+      "source_faces": [
+        137500,
+        137501,
+        137502,
+        137503,
+        137504,
+        137505,
+        137506,
+        137507,
+        137508,
+        137509,
+        137510,
+        137511,
+        137512,
+        137513,
+        137514,
+        137515,
+        137516,
+        137517,
+        137518,
+        137519,
+        137520,
+        137521,
+        137522,
+        137523
+      ],
+      "source_bounds": [
+        [
+          -82.7272720336914,
+          41.20683288574219,
+          27.85417366027832
+        ],
+        [
+          -81.72344970703125,
+          42.1198616027832,
+          30.279375076293945
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.7070197629436733,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26905,
+        26906,
+        26907,
+        26908,
+        26909
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26905,
+        26906,
+        26907,
+        26908,
+        26909
+      ],
+      "union_grid_counts": [
+        709,
+        575,
+        565
+      ],
+      "section_profile": [
+        {
+          "z": 27.947450637817383,
+          "old_occupied_samples": 5,
+          "new_union_samples": 1,
+          "intersection_samples": 1
+        },
+        {
+          "z": 28.134004592895508,
+          "old_occupied_samples": 26,
+          "new_union_samples": 12,
+          "intersection_samples": 12
+        },
+        {
+          "z": 28.320558547973633,
+          "old_occupied_samples": 45,
+          "new_union_samples": 35,
+          "intersection_samples": 33
+        },
+        {
+          "z": 28.507112503051758,
+          "old_occupied_samples": 64,
+          "new_union_samples": 55,
+          "intersection_samples": 53
+        },
+        {
+          "z": 28.693666458129883,
+          "old_occupied_samples": 83,
+          "new_union_samples": 70,
+          "intersection_samples": 70
+        },
+        {
+          "z": 28.880220413208008,
+          "old_occupied_samples": 101,
+          "new_union_samples": 79,
+          "intersection_samples": 77
+        },
+        {
+          "z": 29.066774368286133,
+          "old_occupied_samples": 94,
+          "new_union_samples": 82,
+          "intersection_samples": 82
+        },
+        {
+          "z": 29.253328323364258,
+          "old_occupied_samples": 87,
+          "new_union_samples": 75,
+          "intersection_samples": 74
+        },
+        {
+          "z": 29.439882278442383,
+          "old_occupied_samples": 74,
+          "new_union_samples": 66,
+          "intersection_samples": 66
+        },
+        {
+          "z": 29.626436233520508,
+          "old_occupied_samples": 65,
+          "new_union_samples": 53,
+          "intersection_samples": 53
+        },
+        {
+          "z": 29.812990188598633,
+          "old_occupied_samples": 43,
+          "new_union_samples": 36,
+          "intersection_samples": 33
+        },
+        {
+          "z": 29.999544143676758,
+          "old_occupied_samples": 20,
+          "new_union_samples": 11,
+          "intersection_samples": 11
+        },
+        {
+          "z": 30.186098098754883,
+          "old_occupied_samples": 2,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.2553407867584951,
+        0.4346923678300433,
+        0.2255137617498804
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90602",
+      "source_vertex_ids": [
+        90602,
+        90603,
+        90604,
+        90605,
+        90606,
+        90607,
+        90608,
+        90609,
+        90610,
+        90611,
+        90612
+      ],
+      "source_faces": [
+        137524,
+        137525,
+        137526,
+        137527,
+        137528,
+        137529,
+        137530,
+        137531,
+        137532,
+        137533,
+        137534,
+        137535,
+        137536,
+        137537,
+        137538,
+        137539,
+        137540,
+        137541
+      ],
+      "source_bounds": [
+        [
+          -82.06730651855469,
+          41.74290084838867,
+          28.150165557861328
+        ],
+        [
+          -80.9678955078125,
+          42.67092514038086,
+          30.59808349609375
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.647915114944529,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26915,
+        26916,
+        26917,
+        26918,
+        26919
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26915,
+        26916,
+        26917,
+        26918,
+        26919
+      ],
+      "union_grid_counts": [
+        590,
+        471,
+        465
+      ],
+      "section_profile": [
+        {
+          "z": 28.244316247793343,
+          "old_occupied_samples": 4,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 28.432617627657375,
+          "old_occupied_samples": 19,
+          "new_union_samples": 4,
+          "intersection_samples": 3
+        },
+        {
+          "z": 28.620919007521408,
+          "old_occupied_samples": 36,
+          "new_union_samples": 26,
+          "intersection_samples": 26
+        },
+        {
+          "z": 28.80922038738544,
+          "old_occupied_samples": 52,
+          "new_union_samples": 42,
+          "intersection_samples": 41
+        },
+        {
+          "z": 28.997521767249474,
+          "old_occupied_samples": 72,
+          "new_union_samples": 58,
+          "intersection_samples": 58
+        },
+        {
+          "z": 29.185823147113506,
+          "old_occupied_samples": 92,
+          "new_union_samples": 74,
+          "intersection_samples": 73
+        },
+        {
+          "z": 29.37412452697754,
+          "old_occupied_samples": 98,
+          "new_union_samples": 85,
+          "intersection_samples": 84
+        },
+        {
+          "z": 29.562425906841572,
+          "old_occupied_samples": 83,
+          "new_union_samples": 70,
+          "intersection_samples": 69
+        },
+        {
+          "z": 29.750727286705605,
+          "old_occupied_samples": 63,
+          "new_union_samples": 49,
+          "intersection_samples": 49
+        },
+        {
+          "z": 29.939028666569637,
+          "old_occupied_samples": 41,
+          "new_union_samples": 36,
+          "intersection_samples": 36
+        },
+        {
+          "z": 30.12733004643367,
+          "old_occupied_samples": 22,
+          "new_union_samples": 19,
+          "intersection_samples": 19
+        },
+        {
+          "z": 30.315631426297703,
+          "old_occupied_samples": 7,
+          "new_union_samples": 7,
+          "intersection_samples": 6
+        },
+        {
+          "z": 30.503932806161735,
+          "old_occupied_samples": 1,
+          "new_union_samples": 1,
+          "intersection_samples": 1
+        }
+      ],
+      "new_component_volumes": [
+        0.2377004707521261,
+        0.43314190121763346,
+        0.18822637111899596
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90613",
+      "source_vertex_ids": [
+        90613,
+        90614,
+        90615,
+        90616,
+        90617,
+        90618,
+        90619,
+        90620,
+        90621,
+        90622,
+        90623,
+        90624,
+        90625,
+        90626
+      ],
+      "source_faces": [
+        137542,
+        137543,
+        137544,
+        137545,
+        137546,
+        137547,
+        137548,
+        137549,
+        137550,
+        137551,
+        137552,
+        137553,
+        137554,
+        137555,
+        137556,
+        137557,
+        137558,
+        137559,
+        137560,
+        137561,
+        137562,
+        137563,
+        137564,
+        137565
+      ],
+      "source_bounds": [
+        [
+          -82.89559936523438,
+          41.993019104003906,
+          28.994979858398438
+        ],
+        [
+          -81.97418212890625,
+          42.68595504760742,
+          31.411745071411133
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.5077110611529557,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26925,
+        26926,
+        26927,
+        26928,
+        26929
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26925,
+        26926,
+        26927,
+        26928,
+        26929
+      ],
+      "union_grid_counts": [
+        729,
+        573,
+        565
+      ],
+      "section_profile": [
+        {
+          "z": 29.087932366591232,
+          "old_occupied_samples": 3,
+          "new_union_samples": 2,
+          "intersection_samples": 0
+        },
+        {
+          "z": 29.273837382976826,
+          "old_occupied_samples": 33,
+          "new_union_samples": 18,
+          "intersection_samples": 16
+        },
+        {
+          "z": 29.45974239936242,
+          "old_occupied_samples": 57,
+          "new_union_samples": 45,
+          "intersection_samples": 45
+        },
+        {
+          "z": 29.64564741574801,
+          "old_occupied_samples": 75,
+          "new_union_samples": 61,
+          "intersection_samples": 61
+        },
+        {
+          "z": 29.831552432133602,
+          "old_occupied_samples": 89,
+          "new_union_samples": 73,
+          "intersection_samples": 72
+        },
+        {
+          "z": 30.017457448519192,
+          "old_occupied_samples": 109,
+          "new_union_samples": 84,
+          "intersection_samples": 82
+        },
+        {
+          "z": 30.203362464904785,
+          "old_occupied_samples": 105,
+          "new_union_samples": 90,
+          "intersection_samples": 90
+        },
+        {
+          "z": 30.38926748129038,
+          "old_occupied_samples": 90,
+          "new_union_samples": 72,
+          "intersection_samples": 72
+        },
+        {
+          "z": 30.57517249767597,
+          "old_occupied_samples": 69,
+          "new_union_samples": 54,
+          "intersection_samples": 54
+        },
+        {
+          "z": 30.76107751406156,
+          "old_occupied_samples": 50,
+          "new_union_samples": 45,
+          "intersection_samples": 44
+        },
+        {
+          "z": 30.94698253044715,
+          "old_occupied_samples": 34,
+          "new_union_samples": 23,
+          "intersection_samples": 23
+        },
+        {
+          "z": 31.132887546832745,
+          "old_occupied_samples": 13,
+          "new_union_samples": 6,
+          "intersection_samples": 6
+        },
+        {
+          "z": 31.318792563218338,
+          "old_occupied_samples": 2,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.19057320017903595,
+        0.2966617185684205,
+        0.13118666017013914
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90627",
+      "source_vertex_ids": [
+        90627,
+        90628,
+        90629,
+        90630,
+        90631,
+        90632,
+        90633,
+        90634,
+        90635,
+        90636,
+        90637
+      ],
+      "source_faces": [
+        137566,
+        137567,
+        137568,
+        137569,
+        137570,
+        137571,
+        137572,
+        137573,
+        137574,
+        137575,
+        137576,
+        137577,
+        137578,
+        137579,
+        137580,
+        137581,
+        137582,
+        137583
+      ],
+      "source_bounds": [
+        [
+          -82.48197937011719,
+          41.34428024291992,
+          28.78795051574707
+        ],
+        [
+          -81.64813232421875,
+          42.256797790527344,
+          31.249162673950195
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.4625154180939717,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26935,
+        26936,
+        26937,
+        26938,
+        26939
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26935,
+        26936,
+        26937,
+        26938,
+        26939
+      ],
+      "union_grid_counts": [
+        546,
+        444,
+        438
+      ],
+      "section_profile": [
+        {
+          "z": 28.882612521831806,
+          "old_occupied_samples": 2,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 29.071936534001278,
+          "old_occupied_samples": 19,
+          "new_union_samples": 8,
+          "intersection_samples": 8
+        },
+        {
+          "z": 29.26126054617075,
+          "old_occupied_samples": 32,
+          "new_union_samples": 31,
+          "intersection_samples": 30
+        },
+        {
+          "z": 29.450584558340218,
+          "old_occupied_samples": 52,
+          "new_union_samples": 38,
+          "intersection_samples": 38
+        },
+        {
+          "z": 29.63990857050969,
+          "old_occupied_samples": 72,
+          "new_union_samples": 63,
+          "intersection_samples": 61
+        },
+        {
+          "z": 29.82923258267916,
+          "old_occupied_samples": 99,
+          "new_union_samples": 79,
+          "intersection_samples": 78
+        },
+        {
+          "z": 30.018556594848633,
+          "old_occupied_samples": 96,
+          "new_union_samples": 80,
+          "intersection_samples": 80
+        },
+        {
+          "z": 30.207880607018105,
+          "old_occupied_samples": 75,
+          "new_union_samples": 62,
+          "intersection_samples": 62
+        },
+        {
+          "z": 30.397204619187576,
+          "old_occupied_samples": 50,
+          "new_union_samples": 45,
+          "intersection_samples": 43
+        },
+        {
+          "z": 30.586528631357048,
+          "old_occupied_samples": 30,
+          "new_union_samples": 26,
+          "intersection_samples": 26
+        },
+        {
+          "z": 30.775852643526516,
+          "old_occupied_samples": 14,
+          "new_union_samples": 11,
+          "intersection_samples": 11
+        },
+        {
+          "z": 30.965176655695988,
+          "old_occupied_samples": 5,
+          "new_union_samples": 1,
+          "intersection_samples": 1
+        },
+        {
+          "z": 31.15450066786546,
+          "old_occupied_samples": 0,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.18198348292420033,
+        0.3170306569933246,
+        0.12457621869187582
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90638",
+      "source_vertex_ids": [
+        90638,
+        90639,
+        90640,
+        90641,
+        90642,
+        90643,
+        90644,
+        90645,
+        90646
+      ],
+      "source_faces": [
+        137584,
+        137585,
+        137586,
+        137587,
+        137588,
+        137589,
+        137590,
+        137591,
+        137592,
+        137593,
+        137594,
+        137595,
+        137596,
+        137597
+      ],
+      "source_bounds": [
+        [
+          -82.01337432861328,
+          41.930423736572266,
+          29.162736892700195
+        ],
+        [
+          -81.28836822509766,
+          42.77656936645508,
+          31.58676528930664
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Cypress needles \u2014 deep blue green",
+      "source_signed_volume": 0.37480993694528786,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26945,
+        26946,
+        26947,
+        26948,
+        26949
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26945,
+        26946,
+        26947,
+        26948,
+        26949
+      ],
+      "union_grid_counts": [
+        571,
+        455,
+        450
+      ],
+      "section_profile": [
+        {
+          "z": 29.255968754108135,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 29.442432476924015,
+          "old_occupied_samples": 12,
+          "new_union_samples": 3,
+          "intersection_samples": 3
+        },
+        {
+          "z": 29.628896199739895,
+          "old_occupied_samples": 30,
+          "new_union_samples": 25,
+          "intersection_samples": 24
+        },
+        {
+          "z": 29.81535992255578,
+          "old_occupied_samples": 49,
+          "new_union_samples": 41,
+          "intersection_samples": 41
+        },
+        {
+          "z": 30.00182364537166,
+          "old_occupied_samples": 68,
+          "new_union_samples": 58,
+          "intersection_samples": 57
+        },
+        {
+          "z": 30.188287368187538,
+          "old_occupied_samples": 84,
+          "new_union_samples": 76,
+          "intersection_samples": 74
+        },
+        {
+          "z": 30.374751091003418,
+          "old_occupied_samples": 96,
+          "new_union_samples": 80,
+          "intersection_samples": 80
+        },
+        {
+          "z": 30.561214813819298,
+          "old_occupied_samples": 92,
+          "new_union_samples": 65,
+          "intersection_samples": 65
+        },
+        {
+          "z": 30.747678536635178,
+          "old_occupied_samples": 67,
+          "new_union_samples": 55,
+          "intersection_samples": 54
+        },
+        {
+          "z": 30.934142259451058,
+          "old_occupied_samples": 42,
+          "new_union_samples": 35,
+          "intersection_samples": 35
+        },
+        {
+          "z": 31.12060598226694,
+          "old_occupied_samples": 22,
+          "new_union_samples": 17,
+          "intersection_samples": 17
+        },
+        {
+          "z": 31.30706970508282,
+          "old_occupied_samples": 7,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 31.4935334278987,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.138011075844626,
+        0.25045463414301145,
+        0.10656174445784926
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90647",
+      "source_vertex_ids": [
+        90647,
+        90648,
+        90649,
+        90650,
+        90651,
+        90652,
+        90653
+      ],
+      "source_faces": [
+        137598,
+        137599,
+        137600,
+        137601,
+        137602,
+        137603,
+        137604,
+        137605,
+        137606,
+        137607
+      ],
+      "source_bounds": [
+        [
+          -82.49791717529297,
+          41.6313591003418,
+          30.09453773498535
+        ],
+        [
+          -81.99803924560547,
+          42.089271545410156,
+          32.54062271118164
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.15298613512307685,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26955,
+        26956,
+        26957,
+        26958,
+        26959
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26955,
+        26956,
+        26957,
+        26958,
+        26959
+      ],
+      "union_grid_counts": [
+        593,
+        461,
+        454
+      ],
+      "section_profile": [
+        {
+          "z": 30.188617926377518,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 30.376778309161846,
+          "old_occupied_samples": 11,
+          "new_union_samples": 4,
+          "intersection_samples": 4
+        },
+        {
+          "z": 30.564938691946175,
+          "old_occupied_samples": 34,
+          "new_union_samples": 30,
+          "intersection_samples": 29
+        },
+        {
+          "z": 30.753099074730507,
+          "old_occupied_samples": 63,
+          "new_union_samples": 52,
+          "intersection_samples": 52
+        },
+        {
+          "z": 30.941259457514835,
+          "old_occupied_samples": 89,
+          "new_union_samples": 61,
+          "intersection_samples": 60
+        },
+        {
+          "z": 31.129419840299168,
+          "old_occupied_samples": 103,
+          "new_union_samples": 74,
+          "intersection_samples": 74
+        },
+        {
+          "z": 31.317580223083496,
+          "old_occupied_samples": 99,
+          "new_union_samples": 86,
+          "intersection_samples": 85
+        },
+        {
+          "z": 31.505740605867825,
+          "old_occupied_samples": 78,
+          "new_union_samples": 63,
+          "intersection_samples": 63
+        },
+        {
+          "z": 31.693900988652157,
+          "old_occupied_samples": 55,
+          "new_union_samples": 49,
+          "intersection_samples": 45
+        },
+        {
+          "z": 31.882061371436485,
+          "old_occupied_samples": 34,
+          "new_union_samples": 28,
+          "intersection_samples": 28
+        },
+        {
+          "z": 32.07022175422082,
+          "old_occupied_samples": 19,
+          "new_union_samples": 12,
+          "intersection_samples": 12
+        },
+        {
+          "z": 32.25838213700514,
+          "old_occupied_samples": 7,
+          "new_union_samples": 2,
+          "intersection_samples": 2
+        },
+        {
+          "z": 32.446542519789475,
+          "old_occupied_samples": 0,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.05919945296583744,
+        0.09593745932939629,
+        0.03741661444291821
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90654",
+      "source_vertex_ids": [
+        90654,
+        90655,
+        90656,
+        90657,
+        90658,
+        90659
+      ],
+      "source_faces": [
+        137608,
+        137609,
+        137610,
+        137611,
+        137612,
+        137613,
+        137614,
+        137615
+      ],
+      "source_bounds": [
+        [
+          -82.06175994873047,
+          41.78700256347656,
+          29.96973991394043
+        ],
+        [
+          -81.53221130371094,
+          42.261348724365234,
+          32.426483154296875
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.10958164246403611,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26965,
+        26966,
+        26967,
+        26968,
+        26969
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26965,
+        26966,
+        26967,
+        26968,
+        26969
+      ],
+      "union_grid_counts": [
+        397,
+        321,
+        313
+      ],
+      "section_profile": [
+        {
+          "z": 30.064230038569523,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 30.253210287827713,
+          "old_occupied_samples": 6,
+          "new_union_samples": 1,
+          "intersection_samples": 0
+        },
+        {
+          "z": 30.4421905370859,
+          "old_occupied_samples": 18,
+          "new_union_samples": 14,
+          "intersection_samples": 12
+        },
+        {
+          "z": 30.63117078634409,
+          "old_occupied_samples": 35,
+          "new_union_samples": 31,
+          "intersection_samples": 30
+        },
+        {
+          "z": 30.820151035602276,
+          "old_occupied_samples": 50,
+          "new_union_samples": 46,
+          "intersection_samples": 45
+        },
+        {
+          "z": 31.009131284860466,
+          "old_occupied_samples": 65,
+          "new_union_samples": 56,
+          "intersection_samples": 55
+        },
+        {
+          "z": 31.198111534118652,
+          "old_occupied_samples": 73,
+          "new_union_samples": 62,
+          "intersection_samples": 61
+        },
+        {
+          "z": 31.38709178337684,
+          "old_occupied_samples": 64,
+          "new_union_samples": 48,
+          "intersection_samples": 47
+        },
+        {
+          "z": 31.57607203263503,
+          "old_occupied_samples": 41,
+          "new_union_samples": 36,
+          "intersection_samples": 36
+        },
+        {
+          "z": 31.765052281893215,
+          "old_occupied_samples": 27,
+          "new_union_samples": 23,
+          "intersection_samples": 23
+        },
+        {
+          "z": 31.954032531151405,
+          "old_occupied_samples": 12,
+          "new_union_samples": 4,
+          "intersection_samples": 4
+        },
+        {
+          "z": 32.14301278040959,
+          "old_occupied_samples": 5,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 32.33199302966778,
+          "old_occupied_samples": 0,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.04282118307840693,
+        0.0716087380445553,
+        0.0333868193544428
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90660",
+      "source_vertex_ids": [
+        90660,
+        90661,
+        90662,
+        90663,
+        90664,
+        90665,
+        90666
+      ],
+      "source_faces": [
+        137616,
+        137617,
+        137618,
+        137619,
+        137620,
+        137621,
+        137622,
+        137623,
+        137624,
+        137625
+      ],
+      "source_bounds": [
+        [
+          -82.32188415527344,
+          42.10610580444336,
+          30.003231048583984
+        ],
+        [
+          -81.80195617675781,
+          42.6800651550293,
+          32.460758209228516
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.1453735326688275,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26975,
+        26976,
+        26977,
+        26978,
+        26979
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26975,
+        26976,
+        26977,
+        26978,
+        26979
+      ],
+      "union_grid_counts": [
+        430,
+        362,
+        348
+      ],
+      "section_profile": [
+        {
+          "z": 30.09775132399339,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 30.2867918748122,
+          "old_occupied_samples": 7,
+          "new_union_samples": 1,
+          "intersection_samples": 1
+        },
+        {
+          "z": 30.47583242563101,
+          "old_occupied_samples": 19,
+          "new_union_samples": 19,
+          "intersection_samples": 17
+        },
+        {
+          "z": 30.66487297644982,
+          "old_occupied_samples": 39,
+          "new_union_samples": 35,
+          "intersection_samples": 34
+        },
+        {
+          "z": 30.85391352726863,
+          "old_occupied_samples": 59,
+          "new_union_samples": 51,
+          "intersection_samples": 50
+        },
+        {
+          "z": 31.04295407808744,
+          "old_occupied_samples": 73,
+          "new_union_samples": 61,
+          "intersection_samples": 58
+        },
+        {
+          "z": 31.23199462890625,
+          "old_occupied_samples": 77,
+          "new_union_samples": 68,
+          "intersection_samples": 67
+        },
+        {
+          "z": 31.42103517972506,
+          "old_occupied_samples": 64,
+          "new_union_samples": 53,
+          "intersection_samples": 53
+        },
+        {
+          "z": 31.61007573054387,
+          "old_occupied_samples": 45,
+          "new_union_samples": 43,
+          "intersection_samples": 39
+        },
+        {
+          "z": 31.79911628136268,
+          "old_occupied_samples": 25,
+          "new_union_samples": 23,
+          "intersection_samples": 21
+        },
+        {
+          "z": 31.98815683218149,
+          "old_occupied_samples": 17,
+          "new_union_samples": 8,
+          "intersection_samples": 8
+        },
+        {
+          "z": 32.1771973830003,
+          "old_occupied_samples": 4,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 32.36623793381911,
+          "old_occupied_samples": 0,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.05654556422177847,
+        0.09970161085999506,
+        0.041859869480740976
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90667",
+      "source_vertex_ids": [
+        90667,
+        90668,
+        90669,
+        90670,
+        90671,
+        90672
+      ],
+      "source_faces": [
+        137626,
+        137627,
+        137628,
+        137629,
+        137630,
+        137631,
+        137632,
+        137633
+      ],
+      "source_bounds": [
+        [
+          -82.07573699951172,
+          41.93210220336914,
+          30.549087524414062
+        ],
+        [
+          -81.60736846923828,
+          42.36902618408203,
+          33.06121063232422
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Cypress needles \u2014 deep blue green",
+      "source_signed_volume": 0.08685842947670609,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26985,
+        26986,
+        26987,
+        26988,
+        26989
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26985,
+        26986,
+        26987,
+        26988,
+        26989
+      ],
+      "union_grid_counts": [
+        385,
+        305,
+        295
+      ],
+      "section_profile": [
+        {
+          "z": 30.64570764394907,
+          "old_occupied_samples": 0,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 30.83894788301908,
+          "old_occupied_samples": 4,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 31.032188122089092,
+          "old_occupied_samples": 12,
+          "new_union_samples": 5,
+          "intersection_samples": 5
+        },
+        {
+          "z": 31.225428361159103,
+          "old_occupied_samples": 21,
+          "new_union_samples": 17,
+          "intersection_samples": 17
+        },
+        {
+          "z": 31.41866860022912,
+          "old_occupied_samples": 34,
+          "new_union_samples": 32,
+          "intersection_samples": 32
+        },
+        {
+          "z": 31.61190883929913,
+          "old_occupied_samples": 51,
+          "new_union_samples": 46,
+          "intersection_samples": 44
+        },
+        {
+          "z": 31.80514907836914,
+          "old_occupied_samples": 68,
+          "new_union_samples": 57,
+          "intersection_samples": 56
+        },
+        {
+          "z": 31.998389317439152,
+          "old_occupied_samples": 70,
+          "new_union_samples": 55,
+          "intersection_samples": 52
+        },
+        {
+          "z": 32.19162955650916,
+          "old_occupied_samples": 57,
+          "new_union_samples": 44,
+          "intersection_samples": 43
+        },
+        {
+          "z": 32.38486979557918,
+          "old_occupied_samples": 38,
+          "new_union_samples": 35,
+          "intersection_samples": 33
+        },
+        {
+          "z": 32.578110034649185,
+          "old_occupied_samples": 23,
+          "new_union_samples": 14,
+          "intersection_samples": 13
+        },
+        {
+          "z": 32.7713502737192,
+          "old_occupied_samples": 6,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 32.964590512789215,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.02749334949506496,
+        0.05548068169652254,
+        0.033124199340657995
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90673",
+      "source_vertex_ids": [
+        90673,
+        90674,
+        90675,
+        90676,
+        90677,
+        90678
+      ],
+      "source_faces": [
+        137634,
+        137635,
+        137636,
+        137637,
+        137638,
+        137639,
+        137640,
+        137641
+      ],
+      "source_bounds": [
+        [
+          -82.33751678466797,
+          42.0290412902832,
+          30.99038314819336
+        ],
+        [
+          -81.95881652832031,
+          42.43299865722656,
+          33.504642486572266
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.0814832074768977,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26980,
+        26981,
+        26982,
+        26983,
+        26984,
+        26990,
+        26991,
+        26992,
+        26993,
+        26994,
+        26995,
+        26996,
+        26997,
+        26998,
+        26999,
+        27000,
+        27001,
+        27002,
+        27003,
+        27004
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26995,
+        26996,
+        26997,
+        26998,
+        26999
+      ],
+      "union_grid_counts": [
+        478,
+        390,
+        385
+      ],
+      "section_profile": [
+        {
+          "z": 31.0870854304387,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 31.280489994929386,
+          "old_occupied_samples": 7,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 31.47389455942007,
+          "old_occupied_samples": 20,
+          "new_union_samples": 18,
+          "intersection_samples": 17
+        },
+        {
+          "z": 31.66729912391076,
+          "old_occupied_samples": 40,
+          "new_union_samples": 39,
+          "intersection_samples": 36
+        },
+        {
+          "z": 31.860703688401443,
+          "old_occupied_samples": 67,
+          "new_union_samples": 58,
+          "intersection_samples": 57
+        },
+        {
+          "z": 32.05410825289213,
+          "old_occupied_samples": 97,
+          "new_union_samples": 71,
+          "intersection_samples": 71
+        },
+        {
+          "z": 32.24751281738281,
+          "old_occupied_samples": 91,
+          "new_union_samples": 75,
+          "intersection_samples": 75
+        },
+        {
+          "z": 32.4409173818735,
+          "old_occupied_samples": 64,
+          "new_union_samples": 54,
+          "intersection_samples": 54
+        },
+        {
+          "z": 32.63432194636418,
+          "old_occupied_samples": 45,
+          "new_union_samples": 39,
+          "intersection_samples": 39
+        },
+        {
+          "z": 32.827726510854866,
+          "old_occupied_samples": 26,
+          "new_union_samples": 23,
+          "intersection_samples": 23
+        },
+        {
+          "z": 33.02113107534555,
+          "old_occupied_samples": 13,
+          "new_union_samples": 11,
+          "intersection_samples": 11
+        },
+        {
+          "z": 33.214535639836235,
+          "old_occupied_samples": 6,
+          "new_union_samples": 2,
+          "intersection_samples": 2
+        },
+        {
+          "z": 33.40794020432692,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.031892374799345674,
+        0.05630748668446965,
+        0.022005673420987176
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90679",
+      "source_vertex_ids": [
+        90679,
+        90680,
+        90681,
+        90682,
+        90683,
+        90684
+      ],
+      "source_faces": [
+        137642,
+        137643,
+        137644,
+        137645,
+        137646,
+        137647,
+        137648,
+        137649
+      ],
+      "source_bounds": [
+        [
+          -82.23307037353516,
+          41.7351188659668,
+          30.983808517456055
+        ],
+        [
+          -81.93075561523438,
+          42.08917236328125,
+          33.47206497192383
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.06779126048186394,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        27005,
+        27006,
+        27007,
+        27008,
+        27009
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        27005,
+        27006,
+        27007,
+        27008,
+        27009
+      ],
+      "union_grid_counts": [
+        564,
+        443,
+        432
+      ],
+      "section_profile": [
+        {
+          "z": 31.07951068878174,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 31.270915031433105,
+          "old_occupied_samples": 8,
+          "new_union_samples": 5,
+          "intersection_samples": 5
+        },
+        {
+          "z": 31.462319374084473,
+          "old_occupied_samples": 25,
+          "new_union_samples": 20,
+          "intersection_samples": 20
+        },
+        {
+          "z": 31.65372371673584,
+          "old_occupied_samples": 49,
+          "new_union_samples": 43,
+          "intersection_samples": 43
+        },
+        {
+          "z": 31.845128059387207,
+          "old_occupied_samples": 82,
+          "new_union_samples": 65,
+          "intersection_samples": 64
+        },
+        {
+          "z": 32.036532402038574,
+          "old_occupied_samples": 113,
+          "new_union_samples": 77,
+          "intersection_samples": 77
+        },
+        {
+          "z": 32.22793674468994,
+          "old_occupied_samples": 104,
+          "new_union_samples": 88,
+          "intersection_samples": 86
+        },
+        {
+          "z": 32.41934108734131,
+          "old_occupied_samples": 72,
+          "new_union_samples": 63,
+          "intersection_samples": 59
+        },
+        {
+          "z": 32.610745429992676,
+          "old_occupied_samples": 52,
+          "new_union_samples": 46,
+          "intersection_samples": 45
+        },
+        {
+          "z": 32.80214977264404,
+          "old_occupied_samples": 33,
+          "new_union_samples": 26,
+          "intersection_samples": 25
+        },
+        {
+          "z": 32.99355411529541,
+          "old_occupied_samples": 18,
+          "new_union_samples": 9,
+          "intersection_samples": 8
+        },
+        {
+          "z": 33.18495845794678,
+          "old_occupied_samples": 6,
+          "new_union_samples": 1,
+          "intersection_samples": 0
+        },
+        {
+          "z": 33.376362800598145,
+          "old_occupied_samples": 1,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.02530463063489979,
+        0.04580862765127829,
+        0.01644267187205154
+      ]
+    },
+    {
+      "object": "DENSE TRIAL | bough 90685",
+      "source_vertex_ids": [
+        90685,
+        90686,
+        90687,
+        90688,
+        90689,
+        90690,
+        90691,
+        90692
+      ],
+      "source_faces": [
+        137650,
+        137651,
+        137652,
+        137653,
+        137654,
+        137655,
+        137656,
+        137657,
+        137658,
+        137659,
+        137660,
+        137661
+      ],
+      "source_bounds": [
+        [
+          -82.25309753417969,
+          41.88603973388672,
+          31.95891571044922
+        ],
+        [
+          -81.70708465576172,
+          42.27167892456055,
+          34.13935852050781
+        ]
+      ],
+      "faces": 144,
+      "vertices": 78,
+      "material": "Fir needles \u2014 forest green",
+      "source_signed_volume": 0.12541400541037243,
+      "closed_edges_two_faces": true,
+      "source_carrier_inside_vertex_ids": [
+        26765,
+        26766,
+        26767,
+        26768,
+        26769,
+        26980,
+        26981,
+        26982,
+        26983,
+        26984,
+        26990,
+        26991,
+        26992,
+        26993,
+        26994,
+        27000,
+        27001,
+        27002,
+        27003,
+        27004,
+        27005,
+        27009
+      ],
+      "retained_carrier_inside_vertex_ids": [
+        26765,
+        26766,
+        26767,
+        26768,
+        26769,
+        26980
+      ],
+      "union_grid_counts": [
+        610,
+        485,
+        473
+      ],
+      "section_profile": [
+        {
+          "z": 32.04277889545147,
+          "old_occupied_samples": 4,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        },
+        {
+          "z": 32.21050526545598,
+          "old_occupied_samples": 26,
+          "new_union_samples": 9,
+          "intersection_samples": 7
+        },
+        {
+          "z": 32.37823163546049,
+          "old_occupied_samples": 39,
+          "new_union_samples": 34,
+          "intersection_samples": 33
+        },
+        {
+          "z": 32.545958005464996,
+          "old_occupied_samples": 53,
+          "new_union_samples": 45,
+          "intersection_samples": 45
+        },
+        {
+          "z": 32.7136843754695,
+          "old_occupied_samples": 64,
+          "new_union_samples": 57,
+          "intersection_samples": 54
+        },
+        {
+          "z": 32.88141074547401,
+          "old_occupied_samples": 72,
+          "new_union_samples": 61,
+          "intersection_samples": 59
+        },
+        {
+          "z": 33.049137115478516,
+          "old_occupied_samples": 74,
+          "new_union_samples": 64,
+          "intersection_samples": 63
+        },
+        {
+          "z": 33.216863485483024,
+          "old_occupied_samples": 84,
+          "new_union_samples": 64,
+          "intersection_samples": 64
+        },
+        {
+          "z": 33.38458985548753,
+          "old_occupied_samples": 76,
+          "new_union_samples": 65,
+          "intersection_samples": 64
+        },
+        {
+          "z": 33.552316225492035,
+          "old_occupied_samples": 66,
+          "new_union_samples": 53,
+          "intersection_samples": 52
+        },
+        {
+          "z": 33.720042595496544,
+          "old_occupied_samples": 36,
+          "new_union_samples": 29,
+          "intersection_samples": 28
+        },
+        {
+          "z": 33.88776896550105,
+          "old_occupied_samples": 14,
+          "new_union_samples": 4,
+          "intersection_samples": 4
+        },
+        {
+          "z": 34.05549533550556,
+          "old_occupied_samples": 2,
+          "new_union_samples": 0,
+          "intersection_samples": 0
+        }
+      ],
+      "new_component_volumes": [
+        0.04291548625405994,
+        0.07319308818235491,
+        0.04148148819672314
+      ]
+    }
+  ],
+  "estimated_source_volume": 18.60848936137723,
+  "estimated_new_union_volume": 15.116398486736141,
+  "estimated_intersection_volume": 14.831424523554272,
+  "estimated_union_volume_ratio": 0.8123388305829337,
+  "sampling": "13^3 midpoint grid per old clump bbox, per-clump unions; overlaps between original clumps counted separately in both totals, not exact whole-tree union",
+  "total_new_faces": 3600,
+  "source_unchanged": true,
+  "candidate_sha256": "3da5a6ac692767b2b726fa417b1f2ac39aebdd289d5aed503e7583e8524364cd",
+  "candidate_bytes": 36004914,
+  "group": "DENSE TRIAL | left tree source canopy",
+  "modifier": "DENSE TRIAL | reversible source canopy mask",
+  "checks": {
+    "other_raw_meshes_exact": true,
+    "target_raw_mesh_except_new_weights_exact": true,
+    "non_target_evaluated_faces_exact": true,
+    "material_graphs_exact": true,
+    "source_sha_unchanged": true
+  }
+}

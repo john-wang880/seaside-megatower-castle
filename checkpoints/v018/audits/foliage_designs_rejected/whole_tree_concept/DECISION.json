@@ -1,0 +1,28 @@
+{
+  "status": "OWNER AND INDEPENDENT VISUAL REVIEW REJECTED; retain canonical v018",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "source_unchanged": true,
+  "saved_model": false,
+  "full_scene_rendered": false,
+  "git_changed": false,
+  "viewed": [
+    "renders/front_silhouette.png",
+    "renders/side_silhouette.png",
+    "renders/oblique_neutral.png"
+  ],
+  "finding": "Crown is dense and no longer built from legacy pears, but outer fan walls form large slab/bracket shapes. Front/side silhouettes read as stacked block shelves around a central cone. Neutral oblique confirms a geometric design failure, not a shading/lighting acceptance issue.",
+  "decision": "Do not integrate or tune this recipe. No full-scene render. Retain canonical v018.",
+  "counts": {
+    "total_foliage_faces": 2290,
+    "triangle_equivalent": 4604
+  },
+  "limits": "Diagnostic isolated Workbench silhouette and neutral Cycles24-sample oblique only. No global union-volume, full contact/route or production source-preservation suite needed to establish concept rejection. Geometry JSON and script remain local review evidence.",
+  "reference_scope": "Reference images personally viewed and used for general structural direction only; local reference-only copyright images must not be published.",
+  "render_seconds": [
+    1.476405143737793,
+    0.0978095531463623,
+    2.2452290058135986
+  ],
+  "owner_finding": "Rectangular upright slabs/block shelves and central spike do not resemble the reference bough structure; no integration justified.",
+  "additional_scope_issue": "2290 polygons triangulate to4604 triangles, exceeding the provisional4000-triangle ceiling by604 (15.1%). Additional scope issue, not a measured renderer performance regression. No rebuild because concept is rejected."
+}

@@ -303,3 +303,6 @@ V1实际25帧完整后自动停机，技术身份/相机校验通过但视觉否
 
 ## 2026-11-01 10:14 UTC — 336帧影片验收
 单一工作者完整结束，336真实帧、28秒、12fps、960×694，源模型未保存改变。独立全部帧/相机/哈希验证及完整视频解码、逐帧原PNG比较通过；336解码帧互异，平均压缩误差1.4678/255、最大单帧平均1.6214/255，无音轨。实际转角、阶梯、终点检查未见新穿模，未实时GUI认证细微闪烁。成品5,608,180字节，SHAb4b83a2674f2cb68cb394033a7d2d1a7c2c1855c205e8c3ed64f51b624dd1c32。追加最终归档且修正恢复文档过期顶部状态，模型版本仍v018。
+
+## 2026-11-01 — rejected foliage designs, accepted v018 retained
+Archived dense per-clump actual comparison and isolated whole-tree concept rejection, with independent reviews and explicit test limits. Original model SHA unchanged. Per-clump envelopes were our implementation choice, not user constraint; whole-tree redesign permission did not make slab-like silhouette acceptable. No new model version, no copyrighted reference images, no repeated parameter pass. Next bounded read-only roof-edge assessment, no unsupported engineering claims.
