@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "source_bytes": 47680699,
+    "plan_sha256": "13db5405453470460cf3bb8868aa71fe23f1272f3fab8cde5911698b04e2e3e3",
+    "runtime_sha256": {
+      "run_final_orbit.py": "5fe91315cdf9a9aa60179dbedddce5b8edc041b318a176f5fdb6473d0fb997d7",
+      "render_final_frame.py": "ca8241850b7e8b84d9a7671be1f2d2acedf316c76cf0fa7299fb98cc13f480a5",
+      "orbit_common.py": "d0e280fcbd825006f5b065bfd6b742270bdc5ce10d487df6985e277e51c8f1a2",
+      "runtime_guards.py": "5cd5d0d0a780cd803c68a32c67d0cf482d7e5fc2f3a1c3d805ebda9143b94945",
+      "lighting_snapshot.py": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a"
+    },
+    "execution_lease_path": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/portable_runtime_cache/seaside-castle/orbit-execution.lock",
+    "bindings_sha256": "9c8ad3cfd61b574a5637036826de58348e15f4731ab9713ca795aaa2bbf59dbf",
+    "kind": "v026-partial-orbit-new-identity"
+  },
+  "frame": {
+    "valid": true,
+    "index": 49,
+    "png_sha256": "2316ab1a0d15ee8ed5e8550fa3d02659c527bc409337943d00ab69120b1edd78",
+    "metadata_sha256": "160d71d0b0e634845bc21e5a8c2a8033ea0334f77ce10f0a07d138b14db198af",
+    "decoded_pixels_sha256": "c5b9dce5d608d081cb90ab72403e369b1a7dee3392fc89c966ae8c76b159796c",
+    "elapsed_render_seconds": 75.33546375000151
+  },
+  "full_render_complete": false,
+  "encoding_performed": false
+}

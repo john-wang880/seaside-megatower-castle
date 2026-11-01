@@ -1,0 +1,19 @@
+{
+  "phase": "CPU-only readiness; no current-source Blender render",
+  "frame_validator_fixture_cases": 18,
+  "guard_resume_fixture_cases": 12,
+  "files_sha256": {
+    "recipe/test_resume_validation.py": "98f17e97e4a500c165f230b4c35db5b016563d9e57eca5520c9801707aa4fe47",
+    "recipe/resume_validation_tests.json": "e8aaa50575a72fa064b0050065f6f1e6bc1ea0dcda928e6e93c357ee89a40463",
+    "recipe/test_guards.py": "ca1b5e3ad3e363a98b2188e9018f309b30a705970bda67dab54c8e790c949ab6",
+    "guard_tests.log": "c728582c3035ca0eb5161f05ea667c78350a327d5195128feaf75b0be8f34c9b",
+    "recipe_comparison.json": "d02fcc925087924b51954a3a48709d6c07b073e7cdf54d971035e83e3130e7a4",
+    "dry_run.json": "765fb06a65c44136e9f6cfc83bd2693d7557e6c4d66a0aa33c54c85ea50a1da9",
+    "recipe/final_plan.json": "13db5405453470460cf3bb8868aa71fe23f1272f3fab8cde5911698b04e2e3e3",
+    "recipe/RUNTIME_BINDINGS.json": "9c8ad3cfd61b574a5637036826de58348e15f4731ab9713ca795aaa2bbf59dbf"
+  },
+  "independent_review_pending": false,
+  "independent_report_sha256": "01e0e16aa65b001b2b4feaab48d5859aee9edb4261230d4330633b6bcc079c52",
+  "runtime_frozen_after_independent_acceptance": true,
+  "actual_pilot_status": "Owner executing; not claimed passed by CPU evidence"
+}

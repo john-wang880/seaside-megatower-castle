@@ -1,0 +1,6058 @@
+{
+  "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "kind": "40 degree front-facing partial exterior arc, not 360 orbit",
+  "fps": 12,
+  "frame_count": 96,
+  "duration_seconds": 8,
+  "camera_radius": 639.45,
+  "target": [
+    -35.0,
+    35.0,
+    85.0
+  ],
+  "camera_z": 45,
+  "angle_degrees": [
+    -93,
+    -53
+  ],
+  "motion": "smoothstep angle; real Blender camera position each frame",
+  "bounds": {
+    "main_architecture": {
+      "min": [
+        -155.97662353515625,
+        -8.0,
+        5.699999809265137
+      ],
+      "max": [
+        82.5999984741211,
+        120.75,
+        212.6999969482422
+      ],
+      "evaluated_vertex_count": 204494
+    },
+    "offshore_architecture": {
+      "min": [
+        110.03300476074219,
+        184.22000122070312,
+        -1.3846731185913086
+      ],
+      "max": [
+        122.39999389648438,
+        198.89999389648438,
+        32.14800262451172
+      ],
+      "evaluated_vertex_count": 2532
+    },
+    "coastal_rock": {
+      "min": [
+        -212.32257080078125,
+        -140.8343505859375,
+        -3.841045379638672
+      ],
+      "max": [
+        127.06490325927734,
+        63.922210693359375,
+        31.415197372436523
+      ],
+      "evaluated_vertex_count": 18047
+    }
+  },
+  "selected_objects": [
+    "V013 | entrance mounting plate",
+    "V013 | entrance wall arm",
+    "V013 | entrance lower cup",
+    "V013 | entrance hood rim",
+    "V013 | entrance rain hood",
+    "V013 | entrance cage upright 0",
+    "V013 | entrance cage upright 1",
+    "V013 | entrance cage upright 2",
+    "V013 | entrance cage upright 3",
+    "V013 | entrance luminous flame",
+    "V013 | turn mounting plate",
+    "V013 | turn wall arm",
+    "V013 | turn lower cup",
+    "V013 | turn hood rim",
+    "V013 | turn rain hood",
+    "V013 | turn cage upright 0",
+    "V013 | turn cage upright 1",
+    "V013 | turn cage upright 2",
+    "V013 | turn cage upright 3",
+    "V013 | turn luminous flame",
+    "V013 | corridor mounting plate",
+    "V013 | corridor wall arm",
+    "V013 | corridor lower cup",
+    "V013 | corridor hood rim",
+    "V013 | corridor rain hood",
+    "V013 | corridor cage upright 0",
+    "V013 | corridor cage upright 1",
+    "V013 | corridor cage upright 2",
+    "V013 | corridor cage upright 3",
+    "V013 | corridor luminous flame",
+    "V013 | stair mounting plate",
+    "V013 | stair wall arm",
+    "V013 | stair lower cup",
+    "V013 | stair hood rim",
+    "V013 | stair rain hood",
+    "V013 | stair cage upright 0",
+    "V013 | stair cage upright 1",
+    "V013 | stair cage upright 2",
+    "V013 | stair cage upright 3",
+    "V013 | stair luminous flame",
+    "V014 | landing marker cage upright 0",
+    "V014 | landing marker cage upright 1",
+    "V014 | landing marker cage upright 2",
+    "V014 | landing marker cage upright 3",
+    "V014 | landing marker hood rim",
+    "V014 | landing marker lower cup",
+    "V014 | landing marker luminous flame",
+    "V014 | landing marker mounting plate",
+    "V014 | landing marker rain hood",
+    "V014 | landing marker wall arm",
+    "V015 | south hinge lower neck",
+    "V015 | south hinge lower barrel",
+    "V015 | south hinge lower pintle",
+    "V015 | south hinge lower wall anchor",
+    "V015 | south hinge lower pin cap",
+    "V015 | south hinge upper neck",
+    "V015 | south hinge upper barrel",
+    "V015 | south hinge upper pintle",
+    "V015 | south hinge upper wall anchor",
+    "V015 | south hinge upper pin cap",
+    "V015 | north hinge lower neck",
+    "V015 | north hinge lower barrel",
+    "V015 | north hinge lower pintle",
+    "V015 | north hinge lower wall anchor",
+    "V015 | north hinge lower pin cap",
+    "V015 | north hinge upper neck",
+    "V015 | north hinge upper barrel",
+    "V015 | north hinge upper pintle",
+    "V015 | north hinge upper wall anchor",
+    "V015 | north hinge upper pin cap",
+    "V016 | offshore terrain-following stair core",
+    "V016 | offshore upper landing",
+    "V016 | offshore final arrival step",
+    "V016 | offshore final step support",
+    "Citadel | oxidized spire roofs",
+    "Citadel | deep window recesses",
+    "Citadel | muted window panes",
+    "Citadel | projecting individual stones",
+    "Citadel | relief flowers and shadowed sculpture",
+    "Citadel | small verdigris fittings",
+    "Western citadel_West_Aged blue slate",
+    "V002 | main crown masonry and terraces",
+    "V002 | main crown slate and roof seams",
+    "V002 | main roof terrace parapet",
+    "V002 | western octagonal lantern masonry",
+    "V002 | western lantern low slate cap",
+    "V003 | two facade samples stone reveals and restrained frames",
+    "V003 | two facade samples recessed mullions and tracery",
+    "V003 | two facade samples deep muted glazing",
+    "V003 | two facade samples secondary structural divisions",
+    "V004 | west old recess strips opened for selected upper and lower windows",
+    "V004 | varied facade groups stone reveals and restrained frames",
+    "V004 | varied facade groups recessed mullions and tracery",
+    "V004 | varied facade groups deep muted glazing",
+    "V004 | varied facade groups secondary structural divisions",
+    "V006 | main facade with one short jointed rib sample",
+    "V007 | western stonework with actual bridgehead passage",
+    "V007 | continuous stone passage threshold",
+    "V007 | eastern portal individual arch stones",
+    "V008 | eastern stepped approach embedded in rock",
+    "V008 | south approach parapet",
+    "V008 | north approach parapet",
+    "V008 | individually jointed limestone tread caps",
+    "V008 | gallery with genuine eastern approach portal",
+    "V008 | coastal rock blades locally excavated for approach",
+    "V008 | tapered gallery portal arch stones",
+    "V009 | nine broad western approach treads",
+    "V009 | south approach parapet",
+    "V009 | north approach parapet",
+    "V010 | south closed-entry stone jamb",
+    "V010 | north closed-entry stone jamb",
+    "V010 | closed-entry stone arch",
+    "V012 | ashlar with bounded entrance and north stairwell",
+    "V012 | terrace ledges with bounded stair opening",
+    "V012 | retained west rib facade with buried-route clearance",
+    "V012 | foundation with continuous L-shaped passage",
+    "V012 | legacy ashlar with buried-route clearance",
+    "V012 | entrance hall limestone floor",
+    "V012 | north corridor limestone floor",
+    "V012 | twenty north stair treads",
+    "V012 | hall south stone lining",
+    "V012 | hall north stone lining",
+    "V012 | hall east stone lining",
+    "V012 | entrance hall ceiling lining",
+    "V012 | west north corridor stone lining",
+    "V012 | east north corridor stone lining",
+    "V012 | north corridor ceiling lining",
+    "V012 | west lined stairwell and terrace guard",
+    "V012 | east lined stairwell and terrace guard",
+    "V012 | stairwell ceiling lining",
+    "V012 | south outward-open timber leaf",
+    "V012 | south open-leaf iron strap",
+    "V012 | south open-leaf iron strap.001",
+    "V012 | north outward-open timber leaf",
+    "V012 | north open-leaf iron strap",
+    "V012 | north open-leaf iron strap.001"
+  ],
+  "proof": "Conservative AABB corners of evaluated selected geometry at all96 planned camera positions; projection fit does not prove occlusion-free rays. Sea/forest/background extent excluded.",
+  "frames": [
+    {
+      "frame": 1,
+      "seconds": 0.0,
+      "location": [
+        -68.46622467041016,
+        -603.5736694335938,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2754178047180176,
+              0.7220041155815125
+            ],
+            [
+              0.3003898561000824,
+              0.8351269364356995
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6872943639755249,
+              0.7094935774803162
+            ],
+            [
+              0.31335026025772095,
+              0.3792163133621216
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0860774889588356,
+              0.9057714939117432
+            ],
+            [
+              0.23656998574733734,
+              0.3726626932621002
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 2,
+      "seconds": 0.08333333333333333,
+      "location": [
+        -68.31907653808594,
+        -603.5813598632812,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27540677785873413,
+              0.7219985127449036
+            ],
+            [
+              0.30039462447166443,
+              0.8351073265075684
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6873558163642883,
+              0.7095534205436707
+            ],
+            [
+              0.31334665417671204,
+              0.3792152404785156
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08600807189941406,
+              0.9057141542434692
+            ],
+            [
+              0.23658429086208344,
+              0.3726609945297241
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 3,
+      "seconds": 0.16666666666666666,
+      "location": [
+        -67.88176727294922,
+        -603.60400390625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2753739655017853,
+              0.7219820618629456
+            ],
+            [
+              0.30040907859802246,
+              0.8350492715835571
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6875386238098145,
+              0.7097314596176147
+            ],
+            [
+              0.3133361041545868,
+              0.379212349653244
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08580157905817032,
+              0.9055436849594116
+            ],
+            [
+              0.2366270273923874,
+              0.37265610694885254
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 4,
+      "seconds": 0.25,
+      "location": [
+        -67.16051483154297,
+        -603.6407470703125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2753201723098755,
+              0.7219545841217041
+            ],
+            [
+              0.30043283104896545,
+              0.8349533081054688
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.687839925289154,
+              0.710024893283844
+            ],
+            [
+              0.3133186399936676,
+              0.37920746207237244
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08546194434165955,
+              0.905261754989624
+            ],
+            [
+              0.23669745028018951,
+              0.3726480007171631
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 5,
+      "seconds": 0.3333333333333333,
+      "location": [
+        -66.16151428222656,
+        -603.6902465820312,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27524614334106445,
+              0.7219160795211792
+            ],
+            [
+              0.30046504735946655,
+              0.8348197937011719
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6882572770118713,
+              0.7104312777519226
+            ],
+            [
+              0.3132937252521515,
+              0.3792000114917755
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08499310165643692,
+              0.9048698544502258
+            ],
+            [
+              0.2367943525314331,
+              0.3726360499858856
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 6,
+      "seconds": 0.4166666666666667,
+      "location": [
+        -64.89093017578125,
+        -603.7509765625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2751530706882477,
+              0.7218660712242126
+            ],
+            [
+              0.3005068302154541,
+              0.8346506953239441
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6887876391410828,
+              0.7109476923942566
+            ],
+            [
+              0.31326285004615784,
+              0.37919139862060547
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08440005779266357,
+              0.9043686389923096
+            ],
+            [
+              0.23691852390766144,
+              0.37262171506881714
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 7,
+      "seconds": 0.5,
+      "location": [
+        -63.35495376586914,
+        -603.821044921875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2750418484210968,
+              0.7218044996261597
+            ],
+            [
+              0.30055665969848633,
+              0.8344454765319824
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6894286274909973,
+              0.7115716934204102
+            ],
+            [
+              0.31322455406188965,
+              0.3791801333427429
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08368716388940811,
+              0.9037591218948364
+            ],
+            [
+              0.2370680272579193,
+              0.3726035952568054
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 8,
+      "seconds": 0.5833333333333334,
+      "location": [
+        -61.55973434448242,
+        -603.898193359375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27491381764411926,
+              0.721730649471283
+            ],
+            [
+              0.30061519145965576,
+              0.8342061638832092
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6901770830154419,
+              0.7123003005981445
+            ],
+            [
+              0.3131800889968872,
+              0.3791673183441162
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0828600600361824,
+              0.9030412435531616
+            ],
+            [
+              0.237243190407753,
+              0.37258273363113403
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 9,
+      "seconds": 0.6666666666666666,
+      "location": [
+        -59.511444091796875,
+        -603.9800415039062,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27477025985717773,
+              0.7216440439224243
+            ],
+            [
+              0.3006821870803833,
+              0.8339333534240723
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6910305023193359,
+              0.7131308913230896
+            ],
+            [
+              0.3131292760372162,
+              0.3791528046131134
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08192416280508041,
+              0.902215301990509
+            ],
+            [
+              0.23744340240955353,
+              0.3725590705871582
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 10,
+      "seconds": 0.75,
+      "location": [
+        -57.21624755859375,
+        -604.06396484375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2746126353740692,
+              0.7215440273284912
+            ],
+            [
+              0.30075690150260925,
+              0.8336273431777954
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6919858455657959,
+              0.7140605449676514
+            ],
+            [
+              0.31307172775268555,
+              0.3791361451148987
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08088557422161102,
+              0.90128093957901
+            ],
+            [
+              0.23766767978668213,
+              0.3725322186946869
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 11,
+      "seconds": 0.8333333333333334,
+      "location": [
+        -54.68032455444336,
+        -604.1470947265625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2744424343109131,
+              0.7214297652244568
+            ],
+            [
+              0.3008396327495575,
+              0.833289384841919
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6930403709411621,
+              0.7150864601135254
+            ],
+            [
+              0.31300798058509827,
+              0.37911778688430786
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07975012809038162,
+              0.9002376198768616
+            ],
+            [
+              0.23791588842868805,
+              0.37250256538391113
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 12,
+      "seconds": 0.9166666666666666,
+      "location": [
+        -51.90986633300781,
+        -604.2263793945312,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2742612063884735,
+              0.721300482749939
+            ],
+            [
+              0.3009299635887146,
+              0.8329201936721802
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6941912174224854,
+              0.7162058353424072
+            ],
+            [
+              0.3129378855228424,
+              0.379097580909729
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07852435111999512,
+              0.8990848064422607
+            ],
+            [
+              0.23818734288215637,
+              0.37247008085250854
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 13,
+      "seconds": 1.0,
+      "location": [
+        -48.91108703613281,
+        -604.2986450195312,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2740705609321594,
+              0.7211554050445557
+            ],
+            [
+              0.30102789402008057,
+              0.8325210213661194
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6954354643821716,
+              0.7174158096313477
+            ],
+            [
+              0.31286177039146423,
+              0.3790757954120636
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0772145539522171,
+              0.8978213667869568
+            ],
+            [
+              0.23848165571689606,
+              0.3724350333213806
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 14,
+      "seconds": 1.0833333333333333,
+      "location": [
+        -45.690223693847656,
+        -604.3606567382812,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2738721966743469,
+              0.7209933996200562
+            ],
+            [
+              0.3011327385902405,
+              0.8320916891098022
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.696770191192627,
+              0.7187132835388184
+            ],
+            [
+              0.312779039144516,
+              0.3790518343448639
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07582768052816391,
+              0.8964464664459229
+            ],
+            [
+              0.2387978732585907,
+              0.37239688634872437
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 15,
+      "seconds": 1.1666666666666667,
+      "location": [
+        -42.2535400390625,
+        -604.4088745117188,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27366769313812256,
+              0.7208137512207031
+            ],
+            [
+              0.30124467611312866,
+              0.8316341042518616
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6981925368309021,
+              0.7200955748558044
+            ],
+            [
+              0.31269028782844543,
+              0.37902626395225525
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0743701308965683,
+              0.8949589133262634
+            ],
+            [
+              0.23913581669330597,
+              0.37235620617866516
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 16,
+      "seconds": 1.25,
+      "location": [
+        -38.60733413696289,
+        -604.4398193359375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2734590172767639,
+              0.7206150889396667
+            ],
+            [
+              0.30136367678642273,
+              0.8311489224433899
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6996994018554688,
+              0.7215596437454224
+            ],
+            [
+              0.3125956356525421,
+              0.37899911403656006
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07284904271364212,
+              0.8933572173118591
+            ],
+            [
+              0.23949503898620605,
+              0.37231311202049255
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 17,
+      "seconds": 1.3333333333333333,
+      "location": [
+        -34.7579460144043,
+        -604.449951171875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27324777841567993,
+              0.7203966379165649
+            ],
+            [
+              0.3014732599258423,
+              0.8306998610496521
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7012879848480225,
+              0.7231025099754333
+            ],
+            [
+              0.3124938905239105,
+              0.3789699673652649
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07127123326063156,
+              0.8916402459144592
+            ],
+            [
+              0.2398287057876587,
+              0.3722730875015259
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 18,
+      "seconds": 1.4166666666666667,
+      "location": [
+        -30.711753845214844,
+        -604.4356079101562,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27303576469421387,
+              0.7201571464538574
+            ],
+            [
+              0.301345556974411,
+              0.8312237858772278
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7029552459716797,
+              0.7247211337089539
+            ],
+            [
+              0.3123781085014343,
+              0.3789418935775757
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0696437731385231,
+              0.8898063898086548
+            ],
+            [
+              0.23946471512317657,
+              0.37232619524002075
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 19,
+      "seconds": 1.5,
+      "location": [
+        -26.47517967224121,
+        -604.3931884765625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27282479405403137,
+              0.719895601272583
+            ],
+            [
+              0.3012112081050873,
+              0.831771731376648
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7046982049942017,
+              0.7264126539230347
+            ],
+            [
+              0.31225523352622986,
+              0.3789116144180298
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06797356903553009,
+              0.8878542184829712
+            ],
+            [
+              0.23908397555351257,
+              0.37238097190856934
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 20,
+      "seconds": 1.5833333333333333,
+      "location": [
+        -22.05469512939453,
+        -604.3189697265625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27261656522750854,
+              0.719610869884491
+            ],
+            [
+              0.3010712265968323,
+              0.8323438167572021
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7065138816833496,
+              0.7281740307807922
+            ],
+            [
+              0.3121260404586792,
+              0.3788799047470093
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06626755744218826,
+              0.8857821822166443
+            ],
+            [
+              0.23868797719478607,
+              0.3724380135536194
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 21,
+      "seconds": 1.6666666666666667,
+      "location": [
+        -17.45682144165039,
+        -604.2092895507812,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2724129557609558,
+              0.7193018198013306
+            ],
+            [
+              0.3009255826473236,
+              0.8329389691352844
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7083992958068848,
+              0.7300021648406982
+            ],
+            [
+              0.3119903802871704,
+              0.3788466155529022
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06453267484903336,
+              0.8835888504981995
+            ],
+            [
+              0.2382773756980896,
+              0.3724971413612366
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 22,
+      "seconds": 1.75,
+      "location": [
+        -12.688135147094727,
+        -604.0606079101562,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2722155451774597,
+              0.7189673781394958
+            ],
+            [
+              0.30077454447746277,
+              0.8335562348365784
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7103513479232788,
+              0.7318941950798035
+            ],
+            [
+              0.3118482828140259,
+              0.37881168723106384
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06277556717395782,
+              0.8812727928161621
+            ],
+            [
+              0.23785275220870972,
+              0.3725581169128418
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 23,
+      "seconds": 1.8333333333333333,
+      "location": [
+        -7.75526237487793,
+        -603.8693237304688,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2720261216163635,
+              0.7186064124107361
+            ],
+            [
+              0.30061838030815125,
+              0.834195077419281
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.712367057800293,
+              0.73384690284729
+            ],
+            [
+              0.3116999864578247,
+              0.37877535820007324
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06100323051214218,
+              0.8788324594497681
+            ],
+            [
+              0.23741522431373596,
+              0.3726210296154022
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 24,
+      "seconds": 1.9166666666666667,
+      "location": [
+        -2.6648874282836914,
+        -603.6319580078125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2718464136123657,
+              0.7182177901268005
+            ],
+            [
+              0.3004569113254547,
+              0.8348538279533386
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7144433856010437,
+              0.7358572483062744
+            ],
+            [
+              0.3115449845790863,
+              0.37873703241348267
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.05922224372625351,
+              0.8762665390968323
+            ],
+            [
+              0.23696503043174744,
+              0.3726852238178253
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 25,
+      "seconds": 2.0,
+      "location": [
+        2.576251268386841,
+        -603.344970703125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2716778814792633,
+              0.717800498008728
+            ],
+            [
+              0.3002908527851105,
+              0.8355324864387512
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7165772914886475,
+              0.7379223704338074
+            ],
+            [
+              0.3113838732242584,
+              0.37869733572006226
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.05743888393044472,
+              0.8735738396644592
+            ],
+            [
+              0.23650343716144562,
+              0.3727512061595917
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 26,
+      "seconds": 2.0833333333333335,
+      "location": [
+        7.961359977722168,
+        -603.0051879882812,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27152225375175476,
+              0.7173535823822021
+            ],
+            [
+              0.30011990666389465,
+              0.8362295031547546
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7187658548355103,
+              0.7400391101837158
+            ],
+            [
+              0.31121626496315,
+              0.3786558210849762
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.05565950274467468,
+              0.8707533478736877
+            ],
+            [
+              0.23603087663650513,
+              0.37281835079193115
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 27,
+      "seconds": 2.1666666666666665,
+      "location": [
+        13.483590126037598,
+        -602.6093139648438,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2713809013366699,
+              0.7168759703636169
+            ],
+            [
+              0.29994502663612366,
+              0.8369449377059937
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7210058569908142,
+              0.7422043681144714
+            ],
+            [
+              0.31104281544685364,
+              0.37861311435699463
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.05389031395316124,
+              0.8678039312362671
+            ],
+            [
+              0.23554876446723938,
+              0.3728872537612915
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 28,
+      "seconds": 2.25,
+      "location": [
+        19.13604164123535,
+        -602.154296875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2712554335594177,
+              0.716366708278656
+            ],
+            [
+              0.29976582527160645,
+              0.8376768827438354
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7232942581176758,
+              0.7444150447845459
+            ],
+            [
+              0.31086304783821106,
+              0.3785686492919922
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.052137311547994614,
+              0.8647245764732361
+            ],
+            [
+              0.23505745828151703,
+              0.37295711040496826
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 29,
+      "seconds": 2.3333333333333335,
+      "location": [
+        24.911760330200195,
+        -601.6371459960938,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27114710211753845,
+              0.7158249020576477
+            ],
+            [
+              0.2995826005935669,
+              0.8384249210357666
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.725628137588501,
+              0.7466682195663452
+            ],
+            [
+              0.31067711114883423,
+              0.3785226047039032
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.050405945628881454,
+              0.8615150451660156
+            ],
+            [
+              0.23455773293972015,
+              0.37302806973457336
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 30,
+      "seconds": 2.4166666666666665,
+      "location": [
+        30.803747177124023,
+        -601.05517578125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2710573971271515,
+              0.7152496576309204
+            ],
+            [
+              0.29939568042755127,
+              0.8391876220703125
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7280043363571167,
+              0.7489607334136963
+            ],
+            [
+              0.31048503518104553,
+              0.3784748911857605
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0487019382417202,
+              0.8581744432449341
+            ],
+            [
+              0.23405060172080994,
+              0.3730998933315277
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 31,
+      "seconds": 2.5,
+      "location": [
+        36.804954528808594,
+        -600.4056396484375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2709874212741852,
+              0.7146403789520264
+            ],
+            [
+              0.29920512437820435,
+              0.8399645090103149
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.730419933795929,
+              0.7512896060943604
+            ],
+            [
+              0.31028687953948975,
+              0.37842556834220886
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.047030381858348846,
+              0.8547027707099915
+            ],
+            [
+              0.23353679478168488,
+              0.37317249178886414
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 32,
+      "seconds": 2.5833333333333335,
+      "location": [
+        42.90829086303711,
+        -599.6862182617188,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27093833684921265,
+              0.7139961123466492
+            ],
+            [
+              0.299011766910553,
+              0.8407549262046814
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7328717708587646,
+              0.7536517381668091
+            ],
+            [
+              0.31008321046829224,
+              0.3783751428127289
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.045396264642477036,
+              0.8511000275611877
+            ],
+            [
+              0.23301778733730316,
+              0.37324628233909607
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 33,
+      "seconds": 2.6666666666666665,
+      "location": [
+        49.10663604736328,
+        -598.8945922851562,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.270911306142807,
+              0.7133161425590515
+            ],
+            [
+              0.2988155782222748,
+              0.8415578603744507
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7353568077087402,
+              0.7560440301895142
+            ],
+            [
+              0.3098738491535187,
+              0.37832334637641907
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.043804336339235306,
+              0.847366213798523
+            ],
+            [
+              0.23249401152133942,
+              0.37332090735435486
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 34,
+      "seconds": 2.75,
+      "location": [
+        55.392822265625,
+        -598.02880859375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27090734243392944,
+              0.7126002311706543
+            ],
+            [
+              0.2986162602901459,
+              0.8423715233802795
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7378721237182617,
+              0.7584636807441711
+            ],
+            [
+              0.3096584379673004,
+              0.378269761800766
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04225892573595047,
+              0.8435022234916687
+            ],
+            [
+              0.23196600377559662,
+              0.373395711183548
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 35,
+      "seconds": 2.8333333333333335,
+      "location": [
+        61.75966262817383,
+        -597.0869140625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27092722058296204,
+              0.7118476629257202
+            ],
+            [
+              0.29841405153274536,
+              0.8431950807571411
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7404146194458008,
+              0.7609074115753174
+            ],
+            [
+              0.30943694710731506,
+              0.3782142996788025
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04076419025659561,
+              0.8395084738731384
+            ],
+            [
+              0.23143449425697327,
+              0.37347063422203064
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 36,
+      "seconds": 2.9166666666666665,
+      "location": [
+        68.199951171875,
+        -596.0673828125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2709718644618988,
+              0.7110580205917358
+            ],
+            [
+              0.2982097566127777,
+              0.844028115272522
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7429813146591187,
+              0.7633723616600037
+            ],
+            [
+              0.3092101514339447,
+              0.3781576156616211
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03932381793856621,
+              0.8353862166404724
+            ],
+            [
+              0.23090104758739471,
+              0.37354612350463867
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 37,
+      "seconds": 3.0,
+      "location": [
+        74.70645141601562,
+        -594.9688720703125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2710419297218323,
+              0.7102311253547668
+            ],
+            [
+              0.2980036437511444,
+              0.8448699116706848
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7455692291259766,
+              0.7658554911613464
+            ],
+            [
+              0.30897822976112366,
+              0.37809982895851135
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.037941403687000275,
+              0.8311368823051453
+            ],
+            [
+              0.23036646842956543,
+              0.3736221492290497
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 38,
+      "seconds": 3.0833333333333335,
+      "location": [
+        81.27192687988281,
+        -593.7902221679688,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2711380422115326,
+              0.7093665599822998
+            ],
+            [
+              0.2977958619594574,
+              0.845719039440155
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7481753826141357,
+              0.7683538794517517
+            ],
+            [
+              0.30874103307724,
+              0.37804073095321655
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.036620113998651505,
+              0.8267620205879211
+            ],
+            [
+              0.22983157634735107,
+              0.3736984133720398
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 39,
+      "seconds": 3.1666666666666665,
+      "location": [
+        87.88912963867188,
+        -592.530517578125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27126070857048035,
+              0.7101916074752808
+            ],
+            [
+              0.29758623242378235,
+              0.8465743660926819
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7507967948913574,
+              0.7708645462989807
+            ],
+            [
+              0.30849841237068176,
+              0.37797999382019043
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03536279499530792,
+              0.8222638964653015
+            ],
+            [
+              0.2292967438697815,
+              0.37377452850341797
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 40,
+      "seconds": 3.25,
+      "location": [
+        94.55082702636719,
+        -591.1891479492188,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2714104652404785,
+              0.7116479277610779
+            ],
+            [
+              0.29737532138824463,
+              0.847434937953949
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7534306049346924,
+              0.7733846306800842
+            ],
+            [
+              0.30825075507164,
+              0.377918004989624
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03417221084237099,
+              0.8176448345184326
+            ],
+            [
+              0.22876323759555817,
+              0.37385064363479614
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 41,
+      "seconds": 3.3333333333333335,
+      "location": [
+        101.24978637695312,
+        -589.7658081054688,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27158746123313904,
+              0.7130994200706482
+            ],
+            [
+              0.2971629202365875,
+              0.8482995629310608
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7560738325119019,
+              0.7759112119674683
+            ],
+            [
+              0.30799782276153564,
+              0.3778543472290039
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03305019810795784,
+              0.8129075169563293
+            ],
+            [
+              0.22823143005371094,
+              0.3739263117313385
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 42,
+      "seconds": 3.4166666666666665,
+      "location": [
+        107.97879028320312,
+        -588.26025390625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.271791934967041,
+              0.7145441770553589
+            ],
+            [
+              0.29695025086402893,
+              0.8491681814193726
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7587236166000366,
+              0.7784413695335388
+            ],
+            [
+              0.3077406585216522,
+              0.3777899444103241
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.031998876482248306,
+              0.8080549836158752
+            ],
+            [
+              0.2277030348777771,
+              0.3740023076534271
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 43,
+      "seconds": 3.5,
+      "location": [
+        114.73065185546875,
+        -586.6727905273438,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27202412486076355,
+              0.7159804105758667
+            ],
+            [
+              0.29673677682876587,
+              0.8500389456748962
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7612482905387878,
+              0.7809723019599915
+            ],
+            [
+              0.30747875571250916,
+              0.37772420048713684
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03101997822523117,
+              0.8030908107757568
+            ],
+            [
+              0.22717824578285217,
+              0.37407785654067993
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 44,
+      "seconds": 3.5833333333333335,
+      "location": [
+        121.49821472167969,
+        -585.0037231445312,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27228397130966187,
+              0.7174062728881836
+            ],
+            [
+              0.29652294516563416,
+              0.8509110808372498
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7637080550193787,
+              0.7835012674331665
+            ],
+            [
+              0.3072124123573303,
+              0.3776572346687317
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.030114617198705673,
+              0.7980188727378845
+            ],
+            [
+              0.22665788233280182,
+              0.3741530179977417
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 45,
+      "seconds": 3.6666666666666665,
+      "location": [
+        128.2743682861328,
+        -583.2538452148438,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2725714147090912,
+              0.7188199758529663
+            ],
+            [
+              0.2963089942932129,
+              0.8517836332321167
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7661635875701904,
+              0.7861754894256592
+            ],
+            [
+              0.3069418966770172,
+              0.3775891661643982
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02928384207189083,
+              0.7932128310203552
+            ],
+            [
+              0.22614288330078125,
+              0.37422776222229004
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 46,
+      "seconds": 3.75,
+      "location": [
+        135.0520477294922,
+        -581.424072265625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2728862166404724,
+              0.7202198505401611
+            ],
+            [
+              0.2960951626300812,
+              0.8526557087898254
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7686120867729187,
+              0.7888913750648499
+            ],
+            [
+              0.30666735768318176,
+              0.37752002477645874
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.028528260067105293,
+              0.7937809824943542
+            ],
+            [
+              0.22563399374485016,
+              0.3743020296096802
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 47,
+      "seconds": 3.8333333333333335,
+      "location": [
+        141.82424926757812,
+        -579.515625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2732280492782593,
+              0.7216043472290039
+            ],
+            [
+              0.29588162899017334,
+              0.8535264134407043
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.771051287651062,
+              0.7915993332862854
+            ],
+            [
+              0.3063889443874359,
+              0.3774498403072357
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.027848273515701294,
+              0.7943172454833984
+            ],
+            [
+              0.2251318097114563,
+              0.37437567114830017
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 48,
+      "seconds": 3.9166666666666665,
+      "location": [
+        148.58401489257812,
+        -577.5301513671875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27359655499458313,
+              0.7229716181755066
+            ],
+            [
+              0.2956691086292267,
+              0.8543948531150818
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7734783291816711,
+              0.7942963242530823
+            ],
+            [
+              0.30610737204551697,
+              0.37737905979156494
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02724381722509861,
+              0.7948204874992371
+            ],
+            [
+              0.22463755309581757,
+              0.37444907426834106
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 49,
+      "seconds": 4.0,
+      "location": [
+        155.32447814941406,
+        -575.4694213867188,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27399152517318726,
+              0.7243205308914185
+            ],
+            [
+              0.2954566478729248,
+              0.855259120464325
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.775891125202179,
+              0.7969800233840942
+            ],
+            [
+              0.30582165718078613,
+              0.37730664014816284
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.026715025305747986,
+              0.7952900528907776
+            ],
+            [
+              0.22415074706077576,
+              0.3745209872722626
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 50,
+      "seconds": 4.083333333333333,
+      "location": [
+        162.03884887695312,
+        -573.33544921875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27441197633743286,
+              0.7256492376327515
+            ],
+            [
+              0.2952456474304199,
+              0.8561193943023682
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7782866954803467,
+              0.7996472716331482
+            ],
+            [
+              0.3055332601070404,
+              0.37723374366760254
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.026261242106556892,
+              0.7957248091697693
+            ],
+            [
+              0.22367313504219055,
+              0.37459251284599304
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 51,
+      "seconds": 4.166666666666667,
+      "location": [
+        168.7204132080078,
+        -571.130615234375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2748574912548065,
+              0.7269566059112549
+            ],
+            [
+              0.2950358986854553,
+              0.8569744229316711
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7806631326675415,
+              0.8022958040237427
+            ],
+            [
+              0.30524206161499023,
+              0.37716010212898254
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025881651788949966,
+              0.7961243987083435
+            ],
+            [
+              0.2232050895690918,
+              0.37466320395469666
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 52,
+      "seconds": 4.25,
+      "location": [
+        175.362548828125,
+        -568.8575439453125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27532723546028137,
+              0.7282412648200989
+            ],
+            [
+              0.29482758045196533,
+              0.8578232526779175
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7830179333686829,
+              0.8049228191375732
+            ],
+            [
+              0.3049481213092804,
+              0.3770856559276581
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025575192645192146,
+              0.7964881658554077
+            ],
+            [
+              0.2227468192577362,
+              0.37473294138908386
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 53,
+      "seconds": 4.333333333333333,
+      "location": [
+        181.95877075195312,
+        -566.51904296875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27582037448883057,
+              0.7295019626617432
+            ],
+            [
+              0.294621080160141,
+              0.8586649894714355
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7853487133979797,
+              0.8075258731842041
+            ],
+            [
+              0.30465203523635864,
+              0.37701061367988586
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025340864434838295,
+              0.7968157529830933
+            ],
+            [
+              0.22229935228824615,
+              0.37480175495147705
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 54,
+      "seconds": 4.416666666666667,
+      "location": [
+        188.50267028808594,
+        -564.118408203125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2763359248638153,
+              0.730737566947937
+            ],
+            [
+              0.2944164574146271,
+              0.8594989776611328
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.787653386592865,
+              0.8101024627685547
+            ],
+            [
+              0.30435386300086975,
+              0.3769350051879883
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025176869705319405,
+              0.7971068620681763
+            ],
+            [
+              0.22186291217803955,
+              0.37486952543258667
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 55,
+      "seconds": 4.5,
+      "location": [
+        194.98793029785156,
+        -561.658935546875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27687299251556396,
+              0.7319467067718506
+            ],
+            [
+              0.29421401023864746,
+              0.8603239059448242
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7899296879768372,
+              0.8126500248908997
+            ],
+            [
+              0.30405402183532715,
+              0.3768589198589325
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02508181519806385,
+              0.7973612546920776
+            ],
+            [
+              0.22143806517124176,
+              0.3749362826347351
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 56,
+      "seconds": 4.583333333333333,
+      "location": [
+        201.40841674804688,
+        -559.1442260742188,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27743035554885864,
+              0.7331287860870361
+            ],
+            [
+              0.29401400685310364,
+              0.8611394762992859
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7921756505966187,
+              0.8151664137840271
+            ],
+            [
+              0.30375292897224426,
+              0.37678253650665283
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025053557008504868,
+              0.7975791096687317
+            ],
+            [
+              0.221025288105011,
+              0.37500205636024475
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 57,
+      "seconds": 4.666666666666667,
+      "location": [
+        207.75804138183594,
+        -556.5782470703125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2780071496963501,
+              0.7342827320098877
+            ],
+            [
+              0.293816477060318,
+              0.8619446158409119
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7943893671035767,
+              0.8176494240760803
+            ],
+            [
+              0.30345067381858826,
+              0.37670573592185974
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025090152397751808,
+              0.7977607250213623
+            ],
+            [
+              0.22062478959560394,
+              0.37506651878356934
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "seconds": 4.75,
+      "location": [
+        214.03091430664062,
+        -553.965087890625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27860164642333984,
+              0.7354075312614441
+            ],
+            [
+              0.29362159967422485,
+              0.8627383708953857
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7965685129165649,
+              0.8200964331626892
+            ],
+            [
+              0.3031476140022278,
+              0.376628577709198
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02518896944820881,
+              0.7979058623313904
+            ],
+            [
+              0.22023692727088928,
+              0.3751297891139984
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 59,
+      "seconds": 4.833333333333333,
+      "location": [
+        220.2212371826172,
+        -551.3091430664062,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2792131006717682,
+              0.7365026473999023
+            ],
+            [
+              0.29342949390411377,
+              0.8635199069976807
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7987115979194641,
+              0.8225057125091553
+            ],
+            [
+              0.3028440475463867,
+              0.37655115127563477
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025347959250211716,
+              0.7980154156684875
+            ],
+            [
+              0.2198619395494461,
+              0.3751916289329529
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 60,
+      "seconds": 4.916666666666667,
+      "location": [
+        226.3233642578125,
+        -548.6149291992188,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27983957529067993,
+              0.7375670671463013
+            ],
+            [
+              0.29324090480804443,
+              0.8642891645431519
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8008164167404175,
+              0.8248746991157532
+            ],
+            [
+              0.3025408685207367,
+              0.3764740824699402
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025564076378941536,
+              0.7980895638465881
+            ],
+            [
+              0.2195005863904953,
+              0.37525254487991333
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 61,
+      "seconds": 5.0,
+      "location": [
+        232.331787109375,
+        -545.8872680664062,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2804800570011139,
+              0.7386004328727722
+            ],
+            [
+              0.29305538535118103,
+              0.8650447130203247
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8028815388679504,
+              0.827201783657074
+            ],
+            [
+              0.3022378087043762,
+              0.3763967752456665
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025834789499640465,
+              0.7981292605400085
+            ],
+            [
+              0.21915242075920105,
+              0.3753119707107544
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 62,
+      "seconds": 5.083333333333333,
+      "location": [
+        238.24111938476562,
+        -543.131103515625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28113284707069397,
+              0.7396021485328674
+            ],
+            [
+              0.2928732931613922,
+              0.8657863140106201
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8049052357673645,
+              0.8294848203659058
+            ],
+            [
+              0.30193549394607544,
+              0.37631961703300476
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0261569581925869,
+              0.7981352210044861
+            ],
+            [
+              0.21881788969039917,
+              0.3753700256347656
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 63,
+      "seconds": 5.166666666666667,
+      "location": [
+        244.04615783691406,
+        -540.3516845703125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28179654479026794,
+              0.7405716776847839
+            ],
+            [
+              0.2926948666572571,
+              0.8665130138397217
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.806885838508606,
+              0.8317219614982605
+            ],
+            [
+              0.30163437128067017,
+              0.3762427270412445
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02652761898934841,
+              0.7981085181236267
+            ],
+            [
+              0.2184971272945404,
+              0.3754267394542694
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 64,
+      "seconds": 5.25,
+      "location": [
+        249.74180603027344,
+        -537.5542602539062,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28246933221817017,
+              0.7415087223052979
+            ],
+            [
+              0.2925204932689667,
+              0.8672248721122742
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8088218569755554,
+              0.8339114189147949
+            ],
+            [
+              0.30133509635925293,
+              0.37616652250289917
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.026943307369947433,
+              0.798050045967102
+            ],
+            [
+              0.21819041669368744,
+              0.3754824101924896
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 65,
+      "seconds": 5.333333333333333,
+      "location": [
+        255.32313537597656,
+        -534.7445068359375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28314992785453796,
+              0.7424131035804749
+            ],
+            [
+              0.29234933853149414,
+              0.8679197430610657
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8107120394706726,
+              0.8360516428947449
+            ],
+            [
+              0.301037073135376,
+              0.37609001994132996
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.027401454746723175,
+              0.7979612946510315
+            ],
+            [
+              0.21789683401584625,
+              0.37553587555885315
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 66,
+      "seconds": 5.416666666666667,
+      "location": [
+        260.78533935546875,
+        -531.927978515625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28383633494377136,
+              0.7432845234870911
+            ],
+            [
+              0.29218244552612305,
+              0.8685983419418335
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8125547766685486,
+              0.8381407856941223
+            ],
+            [
+              0.300741583108902,
+              0.3760142922401428
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.027897723019123077,
+              0.7978435158729553
+            ],
+            [
+              0.21761725842952728,
+              0.3755880892276764
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 67,
+      "seconds": 5.5,
+      "location": [
+        266.1237487792969,
+        -529.110595703125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2845267951488495,
+              0.7441227436065674
+            ],
+            [
+              0.29201987385749817,
+              0.8692601919174194
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8143488764762878,
+              0.8401771783828735
+            ],
+            [
+              0.30044907331466675,
+              0.37593936920166016
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02842915616929531,
+              0.7976980209350586
+            ],
+            [
+              0.21735146641731262,
+              0.3756389915943146
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 68,
+      "seconds": 5.583333333333333,
+      "location": [
+        271.3338928222656,
+        -526.29833984375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28521981835365295,
+              0.744927704334259
+            ],
+            [
+              0.2918616533279419,
+              0.8699042797088623
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8160931468009949,
+              0.8421595096588135
+            ],
+            [
+              0.3001598119735718,
+              0.37586528062820435
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02899225242435932,
+              0.7975265383720398
+            ],
+            [
+              0.21709932386875153,
+              0.3756884038448334
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 69,
+      "seconds": 5.666666666666667,
+      "location": [
+        276.4113464355469,
+        -523.497314453125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.285913348197937,
+              0.7456994652748108
+            ],
+            [
+              0.291707843542099,
+              0.8705302476882935
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8177862763404846,
+              0.8440861105918884
+            ],
+            [
+              0.2998742461204529,
+              0.3757920563220978
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02958308719098568,
+              0.7973307371139526
+            ],
+            [
+              0.2168605774641037,
+              0.3757362365722656
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 70,
+      "seconds": 5.75,
+      "location": [
+        281.3518981933594,
+        -520.7137451171875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2866058349609375,
+              0.7464382648468018
+            ],
+            [
+              0.2915588319301605,
+              0.8711379766464233
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.819427490234375,
+              0.8459559679031372
+            ],
+            [
+              0.2995930016040802,
+              0.3757200837135315
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03019843064248562,
+              0.7971125245094299
+            ],
+            [
+              0.21663539111614227,
+              0.3757827579975128
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 71,
+      "seconds": 5.833333333333333,
+      "location": [
+        286.1513977050781,
+        -517.9539794921875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28729501366615295,
+              0.7471439242362976
+            ],
+            [
+              0.2914142310619354,
+              0.871726393699646
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8210154175758362,
+              0.8477674126625061
+            ],
+            [
+              0.2993161380290985,
+              0.37564897537231445
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.030834101140499115,
+              0.7968736290931702
+            ],
+            [
+              0.21642297506332397,
+              0.37582752108573914
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 72,
+      "seconds": 5.916666666666667,
+      "location": [
+        290.8058776855469,
+        -515.224365234375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28797951340675354,
+              0.7478171586990356
+            ],
+            [
+              0.2912740111351013,
+              0.8722951412200928
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8225497603416443,
+              0.8495198488235474
+            ],
+            [
+              0.2990439534187317,
+              0.3755788207054138
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.031486742198467255,
+              0.7966164946556091
+            ],
+            [
+              0.21622292697429657,
+              0.37587031722068787
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 73,
+      "seconds": 6.0,
+      "location": [
+        295.3114318847656,
+        -512.5314331054688,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28865697979927063,
+              0.7484574913978577
+            ],
+            [
+              0.2911393940448761,
+              0.8728448748588562
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.824028730392456,
+              0.8512110710144043
+            ],
+            [
+              0.2987780272960663,
+              0.3755107522010803
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03215229883790016,
+              0.7963424324989319
+            ],
+            [
+              0.2160361260175705,
+              0.37591227889060974
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 74,
+      "seconds": 6.083333333333333,
+      "location": [
+        299.6642761230469,
+        -509.8817443847656,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28932586312294006,
+              0.7490659356117249
+            ],
+            [
+              0.2910091280937195,
+              0.8733737468719482
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8254522681236267,
+              0.8528410196304321
+            ],
+            [
+              0.2985175848007202,
+              0.37544363737106323
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03282727301120758,
+              0.7960544228553772
+            ],
+            [
+              0.21586087346076965,
+              0.3759520649909973
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 75,
+      "seconds": 6.166666666666667,
+      "location": [
+        303.86077880859375,
+        -507.28192138671875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28998419642448425,
+              0.7496424317359924
+            ],
+            [
+              0.29088419675827026,
+              0.8738823533058167
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8268193006515503,
+              0.8544080257415771
+            ],
+            [
+              0.2982638478279114,
+              0.3753783702850342
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03350795432925224,
+              0.7957543730735779
+            ],
+            [
+              0.2156977653503418,
+              0.37599048018455505
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 76,
+      "seconds": 6.25,
+      "location": [
+        307.8973693847656,
+        -504.7385559082031,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2906298041343689,
+              0.7501874566078186
+            ],
+            [
+              0.2907644212245941,
+              0.8743705749511719
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8281289935112,
+              0.8559113144874573
+            ],
+            [
+              0.2980171740055084,
+              0.37531501054763794
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.034190237522125244,
+              0.7954444289207458
+            ],
+            [
+              0.2155461460351944,
+              0.37602734565734863
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 77,
+      "seconds": 6.333333333333333,
+      "location": [
+        311.7704772949219,
+        -502.25836181640625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29126134514808655,
+              0.7507019639015198
+            ],
+            [
+              0.2906497120857239,
+              0.8748372793197632
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8293812274932861,
+              0.8573501706123352
+            ],
+            [
+              0.29777780175209045,
+              0.3752533495426178
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03487103059887886,
+              0.7951275706291199
+            ],
+            [
+              0.21540547907352448,
+              0.37606245279312134
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 78,
+      "seconds": 6.416666666666667,
+      "location": [
+        315.4767150878906,
+        -499.8479919433594,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2918763756752014,
+              0.7511858344078064
+            ],
+            [
+              0.29054030776023865,
+              0.8752826452255249
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8305748105049133,
+              0.8587232232093811
+            ],
+            [
+              0.29754638671875,
+              0.3751937747001648
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0355459563434124,
+              0.7948055863380432
+            ],
+            [
+              0.21527549624443054,
+              0.37609589099884033
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 79,
+      "seconds": 6.5,
+      "location": [
+        319.01275634765625,
+        -497.51409912109375,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2924730181694031,
+              0.7516396641731262
+            ],
+            [
+              0.2904360890388489,
+              0.8757064342498779
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8317093849182129,
+              0.860029935836792
+            ],
+            [
+              0.2973233461380005,
+              0.37513625621795654
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03621149808168411,
+              0.7944812178611755
+            ],
+            [
+              0.21515561640262604,
+              0.3761276304721832
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 80,
+      "seconds": 6.583333333333333,
+      "location": [
+        322.3752136230469,
+        -495.2633972167969,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2930496335029602,
+              0.7520641684532166
+            ],
+            [
+              0.29033729434013367,
+              0.8761082291603088
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8327842354774475,
+              0.8612692356109619
+            ],
+            [
+              0.29710930585861206,
+              0.37508106231689453
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03686438873410225,
+              0.7941567301750183
+            ],
+            [
+              0.2150457352399826,
+              0.3761577308177948
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 81,
+      "seconds": 6.666666666666667,
+      "location": [
+        325.5608215332031,
+        -493.1024475097656,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2936043441295624,
+              0.7524600028991699
+            ],
+            [
+              0.2902437746524811,
+              0.8764877915382385
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8337992429733276,
+              0.862440824508667
+            ],
+            [
+              0.29690444469451904,
+              0.3750280737876892
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03750086575746536,
+              0.7938350439071655
+            ],
+            [
+              0.21494494378566742,
+              0.37618595361709595
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 82,
+      "seconds": 6.75,
+      "location": [
+        328.56634521484375,
+        -491.037841796875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2941349744796753,
+              0.7528272271156311
+            ],
+            [
+              0.29015615582466125,
+              0.8768451809883118
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8347532153129578,
+              0.8635429739952087
+            ],
+            [
+              0.2967097759246826,
+              0.3749779462814331
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03811721131205559,
+              0.79351806640625
+            ],
+            [
+              0.21485348045825958,
+              0.37621283531188965
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 83,
+      "seconds": 6.833333333333333,
+      "location": [
+        331.3885192871094,
+        -489.0760803222656,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29464033246040344,
+              0.7531672120094299
+            ],
+            [
+              0.29007408022880554,
+              0.8771800994873047
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8356464505195618,
+              0.8645761013031006
+            ],
+            [
+              0.2965255379676819,
+              0.37493056058883667
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.038710638880729675,
+              0.7932090163230896
+            ],
+            [
+              0.21477051079273224,
+              0.37623801827430725
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 84,
+      "seconds": 6.916666666666667,
+      "location": [
+        334.0240783691406,
+        -487.2236328125,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29511788487434387,
+              0.7534797787666321
+            ],
+            [
+              0.28999724984169006,
+              0.8774916529655457
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8364778757095337,
+              0.8655385375022888
+            ],
+            [
+              0.2963517904281616,
+              0.37488558888435364
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03927711769938469,
+              0.7929096817970276
+            ],
+            [
+              0.2146952748298645,
+              0.37626105546951294
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 85,
+      "seconds": 7.0,
+      "location": [
+        336.4697570800781,
+        -485.48681640625,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29556623101234436,
+              0.7537655830383301
+            ],
+            [
+              0.28992629051208496,
+              0.8777801990509033
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.837246835231781,
+              0.8664295673370361
+            ],
+            [
+              0.2961895763874054,
+              0.37484365701675415
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03981371968984604,
+              0.7926226854324341
+            ],
+            [
+              0.2146279215812683,
+              0.37628260254859924
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 86,
+      "seconds": 7.083333333333333,
+      "location": [
+        338.72222900390625,
+        -483.8718566894531,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2959839403629303,
+              0.7540256381034851
+            ],
+            [
+              0.28986090421676636,
+              0.8780452013015747
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.837953507900238,
+              0.8672491312026978
+            ],
+            [
+              0.2960388660430908,
+              0.3748045265674591
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04031766951084137,
+              0.792350709438324
+            ],
+            [
+              0.2145676463842392,
+              0.37630218267440796
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 87,
+      "seconds": 7.166666666666667,
+      "location": [
+        340.77813720703125,
+        -482.3848571777344,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2963685095310211,
+              0.7542595863342285
+            ],
+            [
+              0.289801687002182,
+              0.8782870173454285
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8385964035987854,
+              0.8679952025413513
+            ],
+            [
+              0.2959009110927582,
+              0.37476903200149536
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04078499972820282,
+              0.792095422744751
+            ],
+            [
+              0.21451464295387268,
+              0.37632036209106445
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 88,
+      "seconds": 7.25,
+      "location": [
+        342.6340026855469,
+        -481.0318298339844,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29671865701675415,
+              0.7544682621955872
+            ],
+            [
+              0.2897481322288513,
+              0.878504753112793
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.839175283908844,
+              0.8686676025390625
+            ],
+            [
+              0.29577547311782837,
+              0.37473660707473755
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.041213203221559525,
+              0.7918594479560852
+            ],
+            [
+              0.21446798741817474,
+              0.37633654475212097
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 89,
+      "seconds": 7.333333333333333,
+      "location": [
+        344.2863464355469,
+        -479.8185729980469,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2970331907272339,
+              0.754652202129364
+            ],
+            [
+              0.289700448513031,
+              0.87869793176651
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8396897315979004,
+              0.8692654967308044
+            ],
+            [
+              0.29566308856010437,
+              0.37470743060112
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.041600022464990616,
+              0.7916449904441833
+            ],
+            [
+              0.2144273966550827,
+              0.3763507604598999
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 90,
+      "seconds": 7.416666666666667,
+      "location": [
+        345.73150634765625,
+        -478.750732421875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29731014370918274,
+              0.7548114657402039
+            ],
+            [
+              0.28965893387794495,
+              0.8788669109344482
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8401387333869934,
+              0.8697876334190369
+            ],
+            [
+              0.2955644428730011,
+              0.37468191981315613
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04194221273064613,
+              0.7914538979530334
+            ],
+            [
+              0.21439293026924133,
+              0.3763633370399475
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 91,
+      "seconds": 7.5,
+      "location": [
+        346.9657287597656,
+        -477.8337707519531,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29754817485809326,
+              0.7549464702606201
+            ],
+            [
+              0.2896236181259155,
+              0.8790112137794495
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8405216336250305,
+              0.8702331781387329
+            ],
+            [
+              0.29548004269599915,
+              0.3746601939201355
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04223750904202461,
+              0.7912881970405579
+            ],
+            [
+              0.21436424553394318,
+              0.376374214887619
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 92,
+      "seconds": 7.583333333333333,
+      "location": [
+        347.9851379394531,
+        -477.07293701171875,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2977457046508789,
+              0.7550569176673889
+            ],
+            [
+              0.28959426283836365,
+              0.8791297674179077
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8408372402191162,
+              0.8706005215644836
+            ],
+            [
+              0.29540976881980896,
+              0.37464189529418945
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.042483482509851456,
+              0.791149377822876
+            ],
+            [
+              0.2143406867980957,
+              0.37638288736343384
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 93,
+      "seconds": 7.666666666666667,
+      "location": [
+        348.78564453125,
+        -476.4732360839844,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.297901451587677,
+              0.7551431655883789
+            ],
+            [
+              0.28957152366638184,
+              0.8792232871055603
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8410848379135132,
+              0.8708887696266174
+            ],
+            [
+              0.29535478353500366,
+              0.3746277987957001
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04267788678407669,
+              0.7910391688346863
+            ],
+            [
+              0.21432286500930786,
+              0.3763900101184845
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 94,
+      "seconds": 7.75,
+      "location": [
+        349.3630676269531,
+        -476.0394592285156,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2980141341686249,
+              0.7552051544189453
+            ],
+            [
+              0.28955456614494324,
+              0.8792901635169983
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8412632942199707,
+              0.871096670627594
+            ],
+            [
+              0.2953144907951355,
+              0.3746170699596405
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.042818792164325714,
+              0.7909591197967529
+            ],
+            [
+              0.21430961787700653,
+              0.376394659280777
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 95,
+      "seconds": 7.833333333333333,
+      "location": [
+        349.7129211425781,
+        -475.7761535644531,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2980826795101166,
+              0.755242645740509
+            ],
+            [
+              0.2895447611808777,
+              0.8793309926986694
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8413714170455933,
+              0.8712226152420044
+            ],
+            [
+              0.2952904999256134,
+              0.3746110200881958
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.042904652655124664,
+              0.7909104824066162
+            ],
+            [
+              0.21430206298828125,
+              0.37639784812927246
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    },
+    {
+      "frame": 96,
+      "seconds": 7.916666666666667,
+      "location": [
+        349.83062744140625,
+        -475.6874694824219,
+        45.0
+      ],
+      "target": [
+        -35.0,
+        35.0,
+        85.0
+      ],
+      "lens": 40,
+      "clip_start": 0.05,
+      "clip_end": 3000,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2981056272983551,
+              0.7552551031112671
+            ],
+            [
+              0.2895413935184479,
+              0.8793447017669678
+            ]
+          ],
+          "minimum_margin_required": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8414075970649719,
+              0.8712647557258606
+            ],
+            [
+              0.29528236389160156,
+              0.3746089041233063
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04293348267674446,
+              0.7908938527107239
+            ],
+            [
+              0.2142994999885559,
+              0.37639889121055603
+            ]
+          ],
+          "minimum_margin_required": 0.025,
+          "fits": true
+        }
+      }
+    }
+  ],
+  "source_saved": false
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "orbit-original-light-compatibility-v1",
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "historical_source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "actual_world_graph_and_light_data_transforms_equal": true,
+  "combined_lighting_state_sha256": "0b5082190d8a7008ec3578b1678dac56cb52e4b071c7243820d2b35812129c5f",
+  "signature_recipe": "compatibility.py lightstate(): deep_snapshot primitive for scene world/light objects/light data, exact world/light node tree_snapshot, world name and light matrix_world; deep_snapshot digest of entire lighting dictionary. This includes more than world name.",
+  "signature_script_sha256": "59892cd5cc89358cd1c372e4f22174f6d712f8a3a1cf58c3699758bef1553917",
+  "signature_helper_path": "work/v023_path_conformance/scripts/deep_snapshot.py",
+  "signature_helper_sha256": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a",
+  "expected_exposure_and_quality": "proposed_final_plan.json expected_view_settings/expected_cycles/expected_render_except_filepath/expected_image_settings copied unchanged",
+  "historical_plan_sha256": "a9dafec81e0053190a3eb855e6cd5cc24dc79255af96fa8fc1ed4cf22b3730c4",
+  "proposed_plan_sha256": "a685e9804bea1b5cd212d3e50b45035e8275ff3cb7c7ed37f4869a4969655d43",
+  "all96_recipes_exact": true,
+  "note": "Read-only compatibility evidence; not a rendered current film. Helper path is local audit provenance, not yet a portable production dependency."
+}

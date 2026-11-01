@@ -1,0 +1,32 @@
+{
+  "status": "full_authorized_not_started",
+  "parent_gate_utc": "2026-11-01T20:20:00Z",
+  "model_version": "v026",
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "source_bytes": 47680699,
+  "source_restore_commit": "b9015e58605c5a6d211bd7a977ad5fed542f8769",
+  "historical_recipe_commit": "9d417969f97c309665fb37067a81785c0aa225a0",
+  "plan_sha256": "13db5405453470460cf3bb8868aa71fe23f1272f3fab8cde5911698b04e2e3e3",
+  "runtime_bindings_sha256": "9c8ad3cfd61b574a5637036826de58348e15f4731ab9713ca795aaa2bbf59dbf",
+  "pilot_actual_frame": 49,
+  "pilot_frame_verified": true,
+  "pilot_render_seconds": 75.33546375000151,
+  "pilot_peak_rss_linux_kib": 1792664,
+  "pilot_png_sha256": "2316ab1a0d15ee8ed5e8550fa3d02659c527bc409337943d00ab69120b1edd78",
+  "pilot_decoded_pixels_sha256": "c5b9dce5d608d081cb90ab72403e369b1a7dee3392fc89c966ae8c76b159796c",
+  "completed_actual_frames": 1,
+  "remaining_frames": 95,
+  "remaining_render_estimate_minutes_from_single_pilot": 119.28115093750239,
+  "estimate_limit": "One-frame observation, not guaranteed duration or benchmark; plus final encode/QA",
+  "full_render_started": false,
+  "video_complete": false,
+  "raw_frames_in_this_package": [
+    49
+  ],
+  "metadata_without_png_not_recoverable": true,
+  "remote_backup_verified": false,
+  "historical_video_is_current": false,
+  "independent_art_pilot_pass": true,
+  "visual_scope": "One actual still only; temporal continuity and full96frame sequence remain unreviewed",
+  "cache_identity_recovery": "Different unavailable cache path requires new output identity/rerender, no receipt migration"
+}

@@ -1,0 +1,26 @@
+test_alias_and_source_containment (__main__.Guards.test_alias_and_source_containment) ... ok
+test_corrupt_frame_quarantined_and_rerendered (__main__.Guards.test_corrupt_frame_quarantined_and_rerendered) ... Frame 49/96 validated: 0.00s
+Pilot49 verified; stopped without full manifest or encoding.
+Frame 49/96 validated: 0.00s
+Pilot49 verified; stopped without full manifest or encoding.
+ok
+test_interrupted_lock_only_setup_resumes (__main__.Guards.test_interrupted_lock_only_setup_resumes) ... Frame 49/96 validated: 0.00s
+Pilot49 verified; stopped without full manifest or encoding.
+ok
+test_optimized_refusal (__main__.Guards.test_optimized_refusal) ... ok
+test_pilot_stop_and_verified_resume (__main__.Guards.test_pilot_stop_and_verified_resume) ... Frame 49/96 validated: 0.00s
+Pilot49 verified; stopped without full manifest or encoding.
+Pilot49 verified; stopped without full manifest or encoding.
+ok
+test_plan_mutation (__main__.Guards.test_plan_mutation) ... ok
+test_runtime_binding (__main__.Guards.test_runtime_binding) ... ok
+test_runtime_mutation (__main__.Guards.test_runtime_mutation) ... ok
+test_single_output_lock (__main__.Guards.test_single_output_lock) ... ok
+test_unknown_nonempty (__main__.Guards.test_unknown_nonempty) ... ok
+test_wrong_identity (__main__.Guards.test_wrong_identity) ... ok
+test_wrong_source (__main__.Guards.test_wrong_source) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.417s
+
+OK

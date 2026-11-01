@@ -1,0 +1,78 @@
+{
+  "synthetic_only": true,
+  "tests": [
+    {
+      "test": "valid fixture accepted",
+      "passed": true
+    },
+    {
+      "test": "wrong source",
+      "passed": true
+    },
+    {
+      "test": "wrong recipe hash",
+      "passed": true
+    },
+    {
+      "test": "wrong worker hash",
+      "passed": true
+    },
+    {
+      "test": "wrong runner identity",
+      "passed": true
+    },
+    {
+      "test": "wrong sample quality",
+      "passed": true
+    },
+    {
+      "test": "late NaN basis",
+      "passed": true
+    },
+    {
+      "test": "NaN elapsed",
+      "passed": true
+    },
+    {
+      "test": "negative elapsed",
+      "passed": true
+    },
+    {
+      "test": "wrong camera roll",
+      "passed": true
+    },
+    {
+      "test": "wrong sensor width",
+      "passed": true
+    },
+    {
+      "test": "wrong camera shift",
+      "passed": true
+    },
+    {
+      "test": "wrong DOF",
+      "passed": true
+    },
+    {
+      "test": "wrong scene frame",
+      "passed": true
+    },
+    {
+      "test": "wrong camera location",
+      "passed": true
+    },
+    {
+      "test": "corrupt PNG rejected",
+      "passed": true
+    },
+    {
+      "test": "wrong dimensions despite matching hash rejected",
+      "passed": true
+    },
+    {
+      "test": "incomplete frame rejected",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

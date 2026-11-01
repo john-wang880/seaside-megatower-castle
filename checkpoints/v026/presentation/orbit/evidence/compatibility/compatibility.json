@@ -1,0 +1,5419 @@
+{
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "source_unchanged": true,
+  "old_baseline_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+  "inputs": {
+    "work/orbit_v026/historical/checkpoints/v016/presentation/orbit/final_plan.json": "a9dafec81e0053190a3eb855e6cd5cc24dc79255af96fa8fc1ed4cf22b3730c4",
+    "work/orbit_v026/historical/checkpoints/v016/presentation/orbit/path_plan.json": "e2ddf36a97ecfde7049b2b48c483ddb0bc0bebfe1688c16cbb780c74ee12a3ab"
+  },
+  "settings_checks": {
+    "cycles_exact": true,
+    "view_exposure_exact": true,
+    "effective_render_except_filepath_exact": true,
+    "image_settings_exact": true,
+    "blender_version_exact": true,
+    "frame_exact": true,
+    "world_actual_v016_exact": true,
+    "lights_actual_v016_exact": true
+  },
+  "render_differences": {},
+  "world_light_state_sha256": {
+    "current": "0b5082190d8a7008ec3578b1678dac56cb52e4b071c7243820d2b35812129c5f",
+    "historical_v016": "0b5082190d8a7008ec3578b1678dac56cb52e4b071c7243820d2b35812129c5f"
+  },
+  "bounds": {
+    "main_architecture": {
+      "min": [
+        -155.97662353515625,
+        -8.0,
+        5.699999809265137
+      ],
+      "max": [
+        82.5999984741211,
+        120.75,
+        212.6999969482422
+      ],
+      "evaluated_vertex_count": 270799
+    },
+    "offshore_architecture": {
+      "min": [
+        110.03300476074219,
+        184.22000122070312,
+        -1.3846731185913086
+      ],
+      "max": [
+        122.39999389648438,
+        198.89999389648438,
+        32.14800262451172
+      ],
+      "evaluated_vertex_count": 2532
+    },
+    "coastal_rock": {
+      "min": [
+        -212.32257080078125,
+        -140.8343505859375,
+        -3.841045379638672
+      ],
+      "max": [
+        127.06490325927734,
+        63.922210693359375,
+        31.415197372436523
+      ],
+      "evaluated_vertex_count": 18047
+    }
+  },
+  "selected_objects": [
+    "V013 | entrance mounting plate",
+    "V013 | entrance wall arm",
+    "V013 | entrance lower cup",
+    "V013 | entrance hood rim",
+    "V013 | entrance rain hood",
+    "V013 | entrance cage upright 0",
+    "V013 | entrance cage upright 1",
+    "V013 | entrance cage upright 2",
+    "V013 | entrance cage upright 3",
+    "V013 | entrance luminous flame",
+    "V013 | turn mounting plate",
+    "V013 | turn wall arm",
+    "V013 | turn lower cup",
+    "V013 | turn hood rim",
+    "V013 | turn rain hood",
+    "V013 | turn cage upright 0",
+    "V013 | turn cage upright 1",
+    "V013 | turn cage upright 2",
+    "V013 | turn cage upright 3",
+    "V013 | turn luminous flame",
+    "V013 | corridor mounting plate",
+    "V013 | corridor wall arm",
+    "V013 | corridor lower cup",
+    "V013 | corridor hood rim",
+    "V013 | corridor rain hood",
+    "V013 | corridor cage upright 0",
+    "V013 | corridor cage upright 1",
+    "V013 | corridor cage upright 2",
+    "V013 | corridor cage upright 3",
+    "V013 | corridor luminous flame",
+    "V013 | stair mounting plate",
+    "V013 | stair wall arm",
+    "V013 | stair lower cup",
+    "V013 | stair hood rim",
+    "V013 | stair rain hood",
+    "V013 | stair cage upright 0",
+    "V013 | stair cage upright 1",
+    "V013 | stair cage upright 2",
+    "V013 | stair cage upright 3",
+    "V013 | stair luminous flame",
+    "V014 | landing marker cage upright 0",
+    "V014 | landing marker cage upright 1",
+    "V014 | landing marker cage upright 2",
+    "V014 | landing marker cage upright 3",
+    "V014 | landing marker hood rim",
+    "V014 | landing marker lower cup",
+    "V014 | landing marker luminous flame",
+    "V014 | landing marker mounting plate",
+    "V014 | landing marker rain hood",
+    "V014 | landing marker wall arm",
+    "V015 | south hinge lower neck",
+    "V015 | south hinge lower barrel",
+    "V015 | south hinge lower pintle",
+    "V015 | south hinge lower wall anchor",
+    "V015 | south hinge lower pin cap",
+    "V015 | south hinge upper neck",
+    "V015 | south hinge upper barrel",
+    "V015 | south hinge upper pintle",
+    "V015 | south hinge upper wall anchor",
+    "V015 | south hinge upper pin cap",
+    "V015 | north hinge lower neck",
+    "V015 | north hinge lower barrel",
+    "V015 | north hinge lower pintle",
+    "V015 | north hinge lower wall anchor",
+    "V015 | north hinge lower pin cap",
+    "V015 | north hinge upper neck",
+    "V015 | north hinge upper barrel",
+    "V015 | north hinge upper pintle",
+    "V015 | north hinge upper wall anchor",
+    "V015 | north hinge upper pin cap",
+    "V016 | offshore terrain-following stair core",
+    "V016 | offshore upper landing",
+    "V016 | offshore final arrival step",
+    "V016 | offshore final step support",
+    "Citadel | oxidized spire roofs",
+    "Citadel | deep window recesses",
+    "Citadel | muted window panes",
+    "Citadel | projecting individual stones",
+    "Citadel | relief flowers and shadowed sculpture",
+    "Citadel | small verdigris fittings",
+    "Western citadel_West_Aged blue slate",
+    "V002 | main crown masonry and terraces",
+    "V002 | main crown slate and roof seams",
+    "V002 | main roof terrace parapet",
+    "V002 | western octagonal lantern masonry",
+    "V002 | western lantern low slate cap",
+    "V003 | two facade samples stone reveals and restrained frames",
+    "V003 | two facade samples recessed mullions and tracery",
+    "V003 | two facade samples deep muted glazing",
+    "V003 | two facade samples secondary structural divisions",
+    "V004 | west old recess strips opened for selected upper and lower windows",
+    "V004 | varied facade groups stone reveals and restrained frames",
+    "V004 | varied facade groups recessed mullions and tracery",
+    "V004 | varied facade groups deep muted glazing",
+    "V004 | varied facade groups secondary structural divisions",
+    "V006 | main facade with one short jointed rib sample",
+    "V007 | western stonework with actual bridgehead passage",
+    "V007 | continuous stone passage threshold",
+    "V007 | eastern portal individual arch stones",
+    "V008 | eastern stepped approach embedded in rock",
+    "V008 | south approach parapet",
+    "V008 | north approach parapet",
+    "V008 | individually jointed limestone tread caps",
+    "V008 | gallery with genuine eastern approach portal",
+    "V008 | coastal rock blades locally excavated for approach",
+    "V008 | tapered gallery portal arch stones",
+    "V009 | nine broad western approach treads",
+    "V009 | south approach parapet",
+    "V009 | north approach parapet",
+    "V010 | south closed-entry stone jamb",
+    "V010 | north closed-entry stone jamb",
+    "V010 | closed-entry stone arch",
+    "V012 | ashlar with bounded entrance and north stairwell",
+    "V012 | terrace ledges with bounded stair opening",
+    "V012 | retained west rib facade with buried-route clearance",
+    "V012 | foundation with continuous L-shaped passage",
+    "V012 | legacy ashlar with buried-route clearance",
+    "V012 | entrance hall limestone floor",
+    "V012 | north corridor limestone floor",
+    "V012 | twenty north stair treads",
+    "V012 | hall south stone lining",
+    "V012 | hall north stone lining",
+    "V012 | hall east stone lining",
+    "V012 | entrance hall ceiling lining",
+    "V012 | west north corridor stone lining",
+    "V012 | east north corridor stone lining",
+    "V012 | north corridor ceiling lining",
+    "V012 | west lined stairwell and terrace guard",
+    "V012 | east lined stairwell and terrace guard",
+    "V012 | stairwell ceiling lining",
+    "V012 | south outward-open timber leaf",
+    "V012 | south open-leaf iron strap",
+    "V012 | south open-leaf iron strap.001",
+    "V012 | north outward-open timber leaf",
+    "V012 | north open-leaf iron strap",
+    "V012 | north open-leaf iron strap.001",
+    "V017 | main crown south slate courses",
+    "V017 | main crown east slate courses",
+    "V017 | main crown north slate courses",
+    "V017 | main crown west slate courses",
+    "V018 | western slate facet 01",
+    "V018 | western slate facet 02",
+    "V018 | western slate facet 03",
+    "V018 | western slate facet 04",
+    "V018 | western slate facet 05",
+    "V018 | western slate facet 06",
+    "V018 | western slate facet 07",
+    "V018 | western slate facet 08",
+    "V020 candidate | west portal radial stones",
+    "V020 candidate | south short approach coping",
+    "V020 candidate | north short approach coping",
+    "V022 candidate | complete lower-tier west outer rib",
+    "V023 candidate | terrain-conforming path rows 95 to 105",
+    "V024 | exact evaluated rear stepped union",
+    "V025 | exact evaluated rear return union 01",
+    "V025 | exact evaluated rear return union 02",
+    "V025 | exact evaluated rear return union 03",
+    "V025 | exact evaluated rear return union 04",
+    "V026 | exact main shaft two-solid union"
+  ],
+  "all96_framing_pass": true,
+  "frames": [
+    {
+      "index": 1,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2754178047180176,
+              0.7220041155815125
+            ],
+            [
+              0.30067744851112366,
+              0.834644079208374
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6872943639755249,
+              0.7094935774803162
+            ],
+            [
+              0.3136191964149475,
+              0.37939032912254333
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0860774889588356,
+              0.9057714939117432
+            ],
+            [
+              0.23694954812526703,
+              0.37284615635871887
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {
+        "main crown front": {
+          "target": [
+            35,
+            33.8,
+            185
+          ],
+          "projection": [
+            0.6197113394737244,
+            0.7358500957489014,
+            649.4033813476562
+          ],
+          "first_opaque_hit": {
+            "object": "V002 | main roof terrace parapet",
+            "face": 7,
+            "position": [
+              33.96107482910156,
+              27.399999618530273,
+              183.59423828125
+            ],
+            "distance_to_target": 6.634419851919639,
+            "before_target": true
+          }
+        },
+        "bridge central pier": {
+          "target": [
+            -40,
+            34.8,
+            20
+          ],
+          "projection": [
+            0.49129757285118103,
+            0.34333881735801697,
+            636.1812744140625
+          ],
+          "first_opaque_hit": {
+            "object": "V021 candidate | central pier shaft surface union",
+            "face": 2,
+            "position": [
+              -40.0,
+              34.79999923706055,
+              20.000001907348633
+            ],
+            "distance_to_target": 1.9073486328125e-06,
+            "before_target": false
+          }
+        },
+        "west entrance": {
+          "target": [
+            -71.4,
+            38,
+            29
+          ],
+          "projection": [
+            0.4364500045776367,
+            0.3652529716491699,
+            638.2923583984375
+          ],
+          "first_opaque_hit": {
+            "object": "V020 candidate | west portal radial stones",
+            "face": 124,
+            "position": [
+              -71.38883972167969,
+              35.560001373291016,
+              29.060850143432617
+            ],
+            "distance_to_target": 2.440782780157724,
+            "before_target": true
+          }
+        },
+        "near conifer crown context": {
+          "target": [
+            -82,
+            42,
+            30
+          ],
+          "projection": [
+            0.4181073307991028,
+            0.367862731218338,
+            641.787841796875
+          ],
+          "first_opaque_hit": {
+            "object": "V019 candidate | articulated conifer foliage",
+            "face": 327067,
+            "position": [
+              -82.0007095336914,
+              42.03390884399414,
+              29.99921226501465
+            ],
+            "distance_to_target": 0.03392541305472107,
+            "before_target": false
+          }
+        },
+        "offshore marker": {
+          "target": [
+            116,
+            190,
+            10
+          ],
+          "projection": [
+            0.6985675692558289,
+            0.336345374584198,
+            798.390380859375
+          ],
+          "first_opaque_hit": {
+            "object": "V010 | headland with local stair-edge clearance",
+            "face": 22178,
+            "position": [
+              65.41963958740234,
+              -27.596664428710938,
+              19.596946716308594
+            ],
+            "distance_to_target": 223.60407595459503,
+            "before_target": true
+          }
+        }
+      }
+    },
+    {
+      "index": 2,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27540677785873413,
+              0.7219985127449036
+            ],
+            [
+              0.3006822168827057,
+              0.8346244692802429
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6873558163642883,
+              0.7095534205436707
+            ],
+            [
+              0.3136155903339386,
+              0.37938928604125977
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08600807189941406,
+              0.9057141542434692
+            ],
+            [
+              0.23696383833885193,
+              0.37284448742866516
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 3,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2753739655017853,
+              0.7219820618629456
+            ],
+            [
+              0.30069664120674133,
+              0.8345665335655212
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6875386238098145,
+              0.7097314596176147
+            ],
+            [
+              0.31360507011413574,
+              0.37938639521598816
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08580157905817032,
+              0.9055436849594116
+            ],
+            [
+              0.2370065152645111,
+              0.3728395998477936
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 4,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2753201723098755,
+              0.7219545841217041
+            ],
+            [
+              0.3007203936576843,
+              0.8344706892967224
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.687839925289154,
+              0.710024893283844
+            ],
+            [
+              0.31358763575553894,
+              0.3793815076351166
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08546194434165955,
+              0.905261754989624
+            ],
+            [
+              0.23707684874534607,
+              0.3728314936161041
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 5,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27524614334106445,
+              0.7219160795211792
+            ],
+            [
+              0.30075255036354065,
+              0.8343373537063599
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6882572770118713,
+              0.7104312777519226
+            ],
+            [
+              0.3135627806186676,
+              0.37937408685684204
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08499310165643692,
+              0.9048698544502258
+            ],
+            [
+              0.23717361688613892,
+              0.37281957268714905
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 6,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2751530706882477,
+              0.7218660712242126
+            ],
+            [
+              0.3007943034172058,
+              0.8341684937477112
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6887876391410828,
+              0.7109476923942566
+            ],
+            [
+              0.31353190541267395,
+              0.379365473985672
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08440005779266357,
+              0.9043686389923096
+            ],
+            [
+              0.23729762434959412,
+              0.37280526757240295
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 7,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2750418484210968,
+              0.7218044996261597
+            ],
+            [
+              0.3008440136909485,
+              0.8339635729789734
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6894286274909973,
+              0.7115716934204102
+            ],
+            [
+              0.3134936988353729,
+              0.37935423851013184
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08368716388940811,
+              0.9037591218948364
+            ],
+            [
+              0.2374468892812729,
+              0.37278714776039124
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 8,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27491381764411926,
+              0.721730649471283
+            ],
+            [
+              0.30090248584747314,
+              0.8337246179580688
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6901770830154419,
+              0.7123003005981445
+            ],
+            [
+              0.31344926357269287,
+              0.3793414235115051
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0828600600361824,
+              0.9030412435531616
+            ],
+            [
+              0.23762178421020508,
+              0.37276631593704224
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 9,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27477025985717773,
+              0.7216440439224243
+            ],
+            [
+              0.30096936225891113,
+              0.8334521651268005
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6910305023193359,
+              0.7131308913230896
+            ],
+            [
+              0.3133985102176666,
+              0.3793269097805023
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08192416280508041,
+              0.902215301990509
+            ],
+            [
+              0.23782171308994293,
+              0.3727426826953888
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 10,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2746126353740692,
+              0.7215440273284912
+            ],
+            [
+              0.3010439872741699,
+              0.8331465721130371
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6919858455657959,
+              0.7140605449676514
+            ],
+            [
+              0.31334108114242554,
+              0.37931028008461
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.08088557422161102,
+              0.90128093957901
+            ],
+            [
+              0.23804567754268646,
+              0.37271586060523987
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 11,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2744424343109131,
+              0.7214297652244568
+            ],
+            [
+              0.3011265993118286,
+              0.8328091502189636
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6930403709411621,
+              0.7150864601135254
+            ],
+            [
+              0.3132774233818054,
+              0.37929195165634155
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07975012809038162,
+              0.9002376198768616
+            ],
+            [
+              0.23829352855682373,
+              0.3726862668991089
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 12,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2742612063884735,
+              0.721300482749939
+            ],
+            [
+              0.30121681094169617,
+              0.8324404954910278
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6941912174224854,
+              0.7162058353424072
+            ],
+            [
+              0.3132074475288391,
+              0.37927180528640747
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07852435111999512,
+              0.8990848064422607
+            ],
+            [
+              0.23856456577777863,
+              0.3726538419723511
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 13,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2740705609321594,
+              0.7211554050445557
+            ],
+            [
+              0.3013145923614502,
+              0.83204185962677
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6954354643821716,
+              0.7174158096313477
+            ],
+            [
+              0.3131313920021057,
+              0.37925001978874207
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0772145539522171,
+              0.8978213667869568
+            ],
+            [
+              0.23885847628116608,
+              0.3726188540458679
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 14,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2738721966743469,
+              0.7209933996200562
+            ],
+            [
+              0.30141928791999817,
+              0.8316131830215454
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.696770191192627,
+              0.7187132835388184
+            ],
+            [
+              0.3130488097667694,
+              0.37922611832618713
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07582768052816391,
+              0.8964464664459229
+            ],
+            [
+              0.2391742467880249,
+              0.37258073687553406
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 15,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27366769313812256,
+              0.7208137512207031
+            ],
+            [
+              0.3015310764312744,
+              0.8311562538146973
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6981925368309021,
+              0.7200955748558044
+            ],
+            [
+              0.3129601776599884,
+              0.3792005777359009
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0743701308965683,
+              0.8949589133262634
+            ],
+            [
+              0.23951168358325958,
+              0.37254011631011963
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 16,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2734590172767639,
+              0.7206150889396667
+            ],
+            [
+              0.30164986848831177,
+              0.8306717276573181
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.6996994018554688,
+              0.7215596437454224
+            ],
+            [
+              0.31286564469337463,
+              0.3791734576225281
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07284904271364212,
+              0.8933572173118591
+            ],
+            [
+              0.23987039923667908,
+              0.3724971115589142
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 17,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27324777841567993,
+              0.7203966379165649
+            ],
+            [
+              0.3017593026161194,
+              0.8302233815193176
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7012879848480225,
+              0.7231025099754333
+            ],
+            [
+              0.31276407837867737,
+              0.3791443407535553
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.07127123326063156,
+              0.8916402459144592
+            ],
+            [
+              0.2402035892009735,
+              0.3724571466445923
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 18,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27303576469421387,
+              0.7201571464538574
+            ],
+            [
+              0.3016318082809448,
+              0.8307465314865112
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7029552459716797,
+              0.7247211337089539
+            ],
+            [
+              0.3126484453678131,
+              0.37911632657051086
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0696437731385231,
+              0.8898063898086548
+            ],
+            [
+              0.23984010517597198,
+              0.37251016497612
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 19,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27282479405403137,
+              0.719895601272583
+            ],
+            [
+              0.3014976680278778,
+              0.8312937021255493
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7046982049942017,
+              0.7264126539230347
+            ],
+            [
+              0.31252574920654297,
+              0.37908610701560974
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06797356903553009,
+              0.8878542184829712
+            ],
+            [
+              0.23945990204811096,
+              0.3725648820400238
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 20,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27261656522750854,
+              0.719610869884491
+            ],
+            [
+              0.30135783553123474,
+              0.8318648934364319
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7065138816833496,
+              0.7281740307807922
+            ],
+            [
+              0.31239673495292664,
+              0.3790544271469116
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06626755744218826,
+              0.8857821822166443
+            ],
+            [
+              0.23906448483467102,
+              0.3726218342781067
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 21,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2724129557609558,
+              0.7193018198013306
+            ],
+            [
+              0.3012124300003052,
+              0.8324592113494873
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7083992958068848,
+              0.7300021648406982
+            ],
+            [
+              0.31226128339767456,
+              0.37902119755744934
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06453267484903336,
+              0.8835888504981995
+            ],
+            [
+              0.2386544793844223,
+              0.3726808726787567
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 22,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2722155451774597,
+              0.7189673781394958
+            ],
+            [
+              0.30106160044670105,
+              0.8330756425857544
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7103513479232788,
+              0.7318941950798035
+            ],
+            [
+              0.31211939454078674,
+              0.37898629903793335
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06277556717395782,
+              0.8812727928161621
+            ],
+            [
+              0.23823049664497375,
+              0.3727417588233948
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 23,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2720261216163635,
+              0.7186064124107361
+            ],
+            [
+              0.30090567469596863,
+              0.8337135314941406
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.712367057800293,
+              0.73384690284729
+            ],
+            [
+              0.3119712769985199,
+              0.3789500296115875
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.06100323051214218,
+              0.8788324594497681
+            ],
+            [
+              0.23779359459877014,
+              0.37280458211898804
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 24,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2718464136123657,
+              0.7182177901268005
+            ],
+            [
+              0.3007444441318512,
+              0.8343713879585266
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7144433856010437,
+              0.7358572483062744
+            ],
+            [
+              0.311816543340683,
+              0.3789117634296417
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.05922224372625351,
+              0.8762665390968323
+            ],
+            [
+              0.23734402656555176,
+              0.37286868691444397
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 25,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2716778814792633,
+              0.717800498008728
+            ],
+            [
+              0.30057862401008606,
+              0.8350489735603333
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7165772914886475,
+              0.7379223704338074
+            ],
+            [
+              0.3116556406021118,
+              0.3788721263408661
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.05743888393044472,
+              0.8735738396644592
+            ],
+            [
+              0.23688311874866486,
+              0.3729345500469208
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {
+        "main crown front": {
+          "target": [
+            35,
+            33.8,
+            185
+          ],
+          "projection": [
+            0.6208851933479309,
+            0.7398661375045776,
+            641.64208984375
+          ],
+          "first_opaque_hit": {
+            "object": "V002 | main roof terrace parapet",
+            "face": 7,
+            "position": [
+              34.67430877685547,
+              27.399999618530273,
+              183.59373474121094
+            ],
+            "distance_to_target": 6.5607661153553405,
+            "before_target": true
+          }
+        },
+        "bridge central pier": {
+          "target": [
+            -40,
+            34.8,
+            20
+          ],
+          "projection": [
+            0.4912694990634918,
+            0.3433917164802551,
+            636.73583984375
+          ],
+          "first_opaque_hit": {
+            "object": "V021 candidate | central pier shaft surface union",
+            "face": 2,
+            "position": [
+              -40.0,
+              34.79999923706055,
+              20.0
+            ],
+            "distance_to_target": 0.0,
+            "before_target": false
+          }
+        },
+        "west entrance": {
+          "target": [
+            -71.4,
+            38,
+            29
+          ],
+          "projection": [
+            0.43744829297065735,
+            0.3654956817626953,
+            642.3275756835938
+          ],
+          "first_opaque_hit": {
+            "object": "V007 | western stonework with actual bridgehead passage",
+            "face": 12687,
+            "position": [
+              -70.85553741455078,
+              33.279727935791016,
+              29.117759704589844
+            ],
+            "distance_to_target": 4.753028111470401,
+            "before_target": true
+          }
+        },
+        "near conifer crown context": {
+          "target": [
+            -82,
+            42,
+            30
+          ],
+          "projection": [
+            0.420131117105484,
+            0.3681527376174927,
+            646.9969482421875
+          ],
+          "first_opaque_hit": {
+            "object": "V010 | woodland boughs with gate exit clearance",
+            "face": 302112,
+            "position": [
+              -80.33573150634766,
+              29.301116943359375,
+              30.295164108276367
+            ],
+            "distance_to_target": 12.810875799286622,
+            "before_target": true
+          }
+        },
+        "offshore marker": {
+          "target": [
+            116,
+            190,
+            10
+          ],
+          "projection": [
+            0.7272390723228455,
+            0.3348945677280426,
+            781.5919189453125
+          ],
+          "first_opaque_hit": {
+            "object": "V010 | headland with local stair-edge clearance",
+            "face": 17600,
+            "position": [
+              86.35874938964844,
+              -17.326330184936523,
+              19.146615982055664
+            ],
+            "distance_to_target": 209.63412763255346,
+            "before_target": true
+          }
+        }
+      }
+    },
+    {
+      "index": 26,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27152225375175476,
+              0.7173535823822021
+            ],
+            [
+              0.30040791630744934,
+              0.8357450366020203
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7187658548355103,
+              0.7400391101837158
+            ],
+            [
+              0.3114882707595825,
+              0.3788306713104248
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.05565950274467468,
+              0.8707533478736877
+            ],
+            [
+              0.2364112287759781,
+              0.3730016052722931
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 27,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2713809013366699,
+              0.7168759703636169
+            ],
+            [
+              0.30023327469825745,
+              0.8364593982696533
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7210058569908142,
+              0.7422043681144714
+            ],
+            [
+              0.3113150894641876,
+              0.378788024187088
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.05389031395316124,
+              0.8678039312362671
+            ],
+            [
+              0.23592983186244965,
+              0.3730704188346863
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 28,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2712554335594177,
+              0.716366708278656
+            ],
+            [
+              0.3000543415546417,
+              0.8371903300285339
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7232942581176758,
+              0.7444150447845459
+            ],
+            [
+              0.31113559007644653,
+              0.37874361872673035
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.052137311547994614,
+              0.8647245764732361
+            ],
+            [
+              0.23543919622898102,
+              0.3731401860713959
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 29,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27114710211753845,
+              0.7158249020576477
+            ],
+            [
+              0.29987141489982605,
+              0.8379372358322144
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.725628137588501,
+              0.7466682195663452
+            ],
+            [
+              0.3109499216079712,
+              0.37869763374328613
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.050405945628881454,
+              0.8615150451660156
+            ],
+            [
+              0.23494021594524384,
+              0.3732110261917114
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 30,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2710573971271515,
+              0.7152496576309204
+            ],
+            [
+              0.2996847331523895,
+              0.8386988639831543
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7280043363571167,
+              0.7489607334136963
+            ],
+            [
+              0.310758113861084,
+              0.3786499798297882
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0487019382417202,
+              0.8581744432449341
+            ],
+            [
+              0.23443381488323212,
+              0.3732827305793762
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 31,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2709874212741852,
+              0.7146403789520264
+            ],
+            [
+              0.2994944453239441,
+              0.8394746780395508
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.730419933795929,
+              0.7512896060943604
+            ],
+            [
+              0.3105602264404297,
+              0.37860074639320374
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.047030381858348846,
+              0.8547027707099915
+            ],
+            [
+              0.23392075300216675,
+              0.3733552396297455
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 32,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27093833684921265,
+              0.7139961123466492
+            ],
+            [
+              0.2993013858795166,
+              0.8402639627456665
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7328717708587646,
+              0.7536517381668091
+            ],
+            [
+              0.31035685539245605,
+              0.37855038046836853
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.045396264642477036,
+              0.8511000275611877
+            ],
+            [
+              0.23340247571468353,
+              0.37342891097068787
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 33,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.270911306142807,
+              0.7133161425590515
+            ],
+            [
+              0.2991054654121399,
+              0.8410657048225403
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7353568077087402,
+              0.7560440301895142
+            ],
+            [
+              0.31014782190322876,
+              0.3784986734390259
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.043804336339235306,
+              0.847366213798523
+            ],
+            [
+              0.23287945985794067,
+              0.3735034465789795
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 34,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27090734243392944,
+              0.7126002311706543
+            ],
+            [
+              0.29890644550323486,
+              0.8418782353401184
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7378721237182617,
+              0.7584636807441711
+            ],
+            [
+              0.3099327087402344,
+              0.3784451484680176
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04225892573595047,
+              0.8435022234916687
+            ],
+            [
+              0.23235219717025757,
+              0.37357816100120544
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 35,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27092722058296204,
+              0.7118476629257202
+            ],
+            [
+              0.29870450496673584,
+              0.8427005410194397
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7404146194458008,
+              0.7609074115753174
+            ],
+            [
+              0.3097115159034729,
+              0.37838977575302124
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04076419025659561,
+              0.8395084738731384
+            ],
+            [
+              0.2318214774131775,
+              0.37365293502807617
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 36,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2709718644618988,
+              0.7110580205917358
+            ],
+            [
+              0.29850050806999207,
+              0.8435324430465698
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7429813146591187,
+              0.7633723616600037
+            ],
+            [
+              0.3094850778579712,
+              0.378333181142807
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03932381793856621,
+              0.8353862166404724
+            ],
+            [
+              0.23128879070281982,
+              0.37372833490371704
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 37,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2710419297218323,
+              0.7102311253547668
+            ],
+            [
+              0.29829469323158264,
+              0.8443729877471924
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7455692291259766,
+              0.7658554911613464
+            ],
+            [
+              0.3092534840106964,
+              0.37827548384666443
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.037941403687000275,
+              0.8311368823051453
+            ],
+            [
+              0.23075497150421143,
+              0.3738042414188385
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 38,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2711380422115326,
+              0.7093665599822998
+            ],
+            [
+              0.2980872392654419,
+              0.8452209234237671
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7481753826141357,
+              0.7683538794517517
+            ],
+            [
+              0.309016615152359,
+              0.3782164454460144
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.036620113998651505,
+              0.8267620205879211
+            ],
+            [
+              0.23022086918354034,
+              0.37388038635253906
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 39,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27126070857048035,
+              0.7101916074752808
+            ],
+            [
+              0.2978779077529907,
+              0.8460749983787537
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7507967948913574,
+              0.7708645462989807
+            ],
+            [
+              0.30877435207366943,
+              0.37815582752227783
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03536279499530792,
+              0.8222638964653015
+            ],
+            [
+              0.22968679666519165,
+              0.3739564120769501
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 40,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2714104652404785,
+              0.7116479277610779
+            ],
+            [
+              0.2976672649383545,
+              0.8469343781471252
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7534306049346924,
+              0.7733846306800842
+            ],
+            [
+              0.30852705240249634,
+              0.3780939280986786
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03417221084237099,
+              0.8176448345184326
+            ],
+            [
+              0.2291540652513504,
+              0.3740324079990387
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 41,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27158746123313904,
+              0.7130994200706482
+            ],
+            [
+              0.29745519161224365,
+              0.847797691822052
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7560738325119019,
+              0.7759112119674683
+            ],
+            [
+              0.3082744777202606,
+              0.37803035974502563
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03305019810795784,
+              0.8129075169563293
+            ],
+            [
+              0.22862300276756287,
+              0.3741079568862915
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 42,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.271791934967041,
+              0.7145441770553589
+            ],
+            [
+              0.29724282026290894,
+              0.8486650586128235
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7587236166000366,
+              0.7784413695335388
+            ],
+            [
+              0.30801770091056824,
+              0.377966046333313
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.031998876482248306,
+              0.8080549836158752
+            ],
+            [
+              0.2280953973531723,
+              0.37418386340141296
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 43,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27202412486076355,
+              0.7159804105758667
+            ],
+            [
+              0.29702964425086975,
+              0.8495345711708069
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7612482905387878,
+              0.7809723019599915
+            ],
+            [
+              0.3077561557292938,
+              0.3779003620147705
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03101997822523117,
+              0.8030908107757568
+            ],
+            [
+              0.22757135331630707,
+              0.3742592930793762
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 44,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27228397130966187,
+              0.7174062728881836
+            ],
+            [
+              0.2968161404132843,
+              0.8504054546356201
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7637080550193787,
+              0.7835012674331665
+            ],
+            [
+              0.30749019980430603,
+              0.3778335154056549
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.030114617198705673,
+              0.7980188727378845
+            ],
+            [
+              0.2270517349243164,
+              0.37433433532714844
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 45,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2725714147090912,
+              0.7188199758529663
+            ],
+            [
+              0.2966024577617645,
+              0.8512768149375916
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7661635875701904,
+              0.7861754894256592
+            ],
+            [
+              0.30722007155418396,
+              0.3777655363082886
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02928384207189083,
+              0.7932128310203552
+            ],
+            [
+              0.22653751075267792,
+              0.3744089901447296
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 46,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2728862166404724,
+              0.7202198505401611
+            ],
+            [
+              0.29638898372650146,
+              0.8521475791931152
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7686120867729187,
+              0.7888913750648499
+            ],
+            [
+              0.30694591999053955,
+              0.37769651412963867
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.028528260067105293,
+              0.7937809824943542
+            ],
+            [
+              0.22602930665016174,
+              0.3744831383228302
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 47,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2732280492782593,
+              0.7216043472290039
+            ],
+            [
+              0.2961757481098175,
+              0.8530170321464539
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.771051287651062,
+              0.7915993332862854
+            ],
+            [
+              0.30666792392730713,
+              0.3776264190673828
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.027848273515701294,
+              0.7943172454833984
+            ],
+            [
+              0.22552786767482758,
+              0.37455669045448303
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 48,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27359655499458313,
+              0.7229716181755066
+            ],
+            [
+              0.2959635257720947,
+              0.853884220123291
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7734783291816711,
+              0.7942963242530823
+            ],
+            [
+              0.3063867390155792,
+              0.3775557577610016
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02724381722509861,
+              0.7948204874992371
+            ],
+            [
+              0.22503431141376495,
+              0.3746299743652344
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 49,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27399152517318726,
+              0.7243205308914185
+            ],
+            [
+              0.2957513928413391,
+              0.8547472357749939
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.775891125202179,
+              0.7969800233840942
+            ],
+            [
+              0.3061014413833618,
+              0.37748342752456665
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.026715025305747986,
+              0.7952900528907776
+            ],
+            [
+              0.22454822063446045,
+              0.3747017979621887
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {
+        "main crown front": {
+          "target": [
+            35,
+            33.8,
+            185
+          ],
+          "projection": [
+            0.6181685328483582,
+            0.748809814453125,
+            625.0056762695312
+          ],
+          "first_opaque_hit": {
+            "object": "V002 | main roof terrace parapet",
+            "face": 8,
+            "position": [
+              36.246219635009766,
+              27.489669799804688,
+              183.5500030517578
+            ],
+            "distance_to_target": 6.593619160009398,
+            "before_target": true
+          }
+        },
+        "bridge central pier": {
+          "target": [
+            -40,
+            34.8,
+            20
+          ],
+          "projection": [
+            0.4915824234485626,
+            0.34350529313087463,
+            637.9365234375
+          ],
+          "first_opaque_hit": {
+            "object": "V021 candidate | central pier shaft surface union",
+            "face": 2,
+            "position": [
+              -40.0,
+              34.79999923706055,
+              20.0
+            ],
+            "distance_to_target": 0.0,
+            "before_target": false
+          }
+        },
+        "west entrance": {
+          "target": [
+            -71.4,
+            38,
+            29
+          ],
+          "projection": [
+            0.44220197200775146,
+            0.3659992218017578,
+            650.875
+          ],
+          "first_opaque_hit": {
+            "object": "V010 | woodland boughs with gate exit clearance",
+            "face": 254714,
+            "position": [
+              -67.90900421142578,
+              28.554054260253906,
+              29.246360778808594
+            ],
+            "distance_to_target": 10.073412877946646,
+            "before_target": true
+          }
+        },
+        "near conifer crown context": {
+          "target": [
+            -82,
+            42,
+            30
+          ],
+          "projection": [
+            0.42773881554603577,
+            0.3687440752983093,
+            657.8975219726562
+          ],
+          "first_opaque_hit": {
+            "object": "V010 | woodland boughs with gate exit clearance",
+            "face": 188443,
+            "position": [
+              -75.50590515136719,
+              25.10369873046875,
+              30.41045570373535
+            ],
+            "distance_to_target": 18.105985932849052,
+            "before_target": true
+          }
+        },
+        "offshore marker": {
+          "target": [
+            116,
+            190,
+            10
+          ],
+          "projection": [
+            0.7861667275428772,
+            0.33090487122535706,
+            738.848388671875
+          ],
+          "first_opaque_hit": {
+            "object": "V012 | retained west rib facade with buried-route clearance",
+            "face": 9574,
+            "position": [
+              115.88826751708984,
+              192.17501831054688,
+              9.900552749633789
+            ],
+            "distance_to_target": 2.1801556568135374,
+            "before_target": false
+          }
+        }
+      }
+    },
+    {
+      "index": 50,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27441197633743286,
+              0.7256492376327515
+            ],
+            [
+              0.2955406606197357,
+              0.8556062579154968
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7782866954803467,
+              0.7996472716331482
+            ],
+            [
+              0.3058134615421295,
+              0.3774106502532959
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.026261242106556892,
+              0.7957248091697693
+            ],
+            [
+              0.22407129406929016,
+              0.374773234128952
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 51,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2748574912548065,
+              0.7269566059112549
+            ],
+            [
+              0.2953312397003174,
+              0.8564600348472595
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7806631326675415,
+              0.8022958040237427
+            ],
+            [
+              0.3055226802825928,
+              0.37733709812164307
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025881651788949966,
+              0.7961243987083435
+            ],
+            [
+              0.22360390424728394,
+              0.3748438060283661
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 52,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27532723546028137,
+              0.7282412648200989
+            ],
+            [
+              0.29512321949005127,
+              0.8573077321052551
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7830179333686829,
+              0.8049228191375732
+            ],
+            [
+              0.30522918701171875,
+              0.37726274132728577
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025575192645192146,
+              0.7964881658554077
+            ],
+            [
+              0.22314631938934326,
+              0.37491345405578613
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 53,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27582037448883057,
+              0.7295019626617432
+            ],
+            [
+              0.2949170172214508,
+              0.8581482172012329
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7853487133979797,
+              0.8075258731842041
+            ],
+            [
+              0.3049335181713104,
+              0.3771878480911255
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025340864434838295,
+              0.7968157529830933
+            ],
+            [
+              0.22269947826862335,
+              0.37498217821121216
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 54,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2763359248638153,
+              0.730737566947937
+            ],
+            [
+              0.29471269249916077,
+              0.8589809536933899
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.787653386592865,
+              0.8101024627685547
+            ],
+            [
+              0.30463576316833496,
+              0.37711232900619507
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025176869705319405,
+              0.7971068620681763
+            ],
+            [
+              0.2222636640071869,
+              0.3750498294830322
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 55,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27687299251556396,
+              0.7319467067718506
+            ],
+            [
+              0.29451051354408264,
+              0.8598047494888306
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7899296879768372,
+              0.8126500248908997
+            ],
+            [
+              0.3043363690376282,
+              0.37703636288642883
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02508181519806385,
+              0.7973612546920776
+            ],
+            [
+              0.22183942794799805,
+              0.3751164972782135
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 56,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27743035554885864,
+              0.7331287860870361
+            ],
+            [
+              0.2943108081817627,
+              0.8606191277503967
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7921756505966187,
+              0.8151664137840271
+            ],
+            [
+              0.3040356934070587,
+              0.37696006894111633
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025053557008504868,
+              0.7975791096687317
+            ],
+            [
+              0.22142724692821503,
+              0.3751821517944336
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 57,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2780071496963501,
+              0.7342827320098877
+            ],
+            [
+              0.2941135764122009,
+              0.8614230751991272
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7943893671035767,
+              0.8176494240760803
+            ],
+            [
+              0.3037338852882385,
+              0.3768833875656128
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025090152397751808,
+              0.7977607250213623
+            ],
+            [
+              0.22102734446525574,
+              0.3752465546131134
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 58,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27860164642333984,
+              0.7354075312614441
+            ],
+            [
+              0.2939189672470093,
+              0.8622156977653503
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7965685129165649,
+              0.8200964331626892
+            ],
+            [
+              0.30343127250671387,
+              0.3768063485622406
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02518896944820881,
+              0.7979058623313904
+            ],
+            [
+              0.22064006328582764,
+              0.37530970573425293
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 59,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2792131006717682,
+              0.7365026473999023
+            ],
+            [
+              0.29372715950012207,
+              0.8629961013793945
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.7987115979194641,
+              0.8225057125091553
+            ],
+            [
+              0.30312812328338623,
+              0.3767290413379669
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025347959250211716,
+              0.7980154156684875
+            ],
+            [
+              0.22026559710502625,
+              0.37537145614624023
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 60,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.27983957529067993,
+              0.7375670671463013
+            ],
+            [
+              0.29353880882263184,
+              0.863764226436615
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8008164167404175,
+              0.8248746991157532
+            ],
+            [
+              0.302825391292572,
+              0.3766520619392395
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025564076378941536,
+              0.7980895638465881
+            ],
+            [
+              0.21990476548671722,
+              0.3754323124885559
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 61,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2804800570011139,
+              0.7386004328727722
+            ],
+            [
+              0.29335352778434753,
+              0.8645187020301819
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8028815388679504,
+              0.827201783657074
+            ],
+            [
+              0.302522748708725,
+              0.37657487392425537
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.025834789499640465,
+              0.7981292605400085
+            ],
+            [
+              0.21955709159374237,
+              0.3754916191101074
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 62,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28113284707069397,
+              0.7396021485328674
+            ],
+            [
+              0.2931717336177826,
+              0.8652592301368713
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8049052357673645,
+              0.8294848203659058
+            ],
+            [
+              0.30222088098526,
+              0.3764978349208832
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0261569581925869,
+              0.7981352210044861
+            ],
+            [
+              0.21922306716442108,
+              0.3755496144294739
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 63,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28179654479026794,
+              0.7405716776847839
+            ],
+            [
+              0.29299354553222656,
+              0.8659849166870117
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.806885838508606,
+              0.8317219614982605
+            ],
+            [
+              0.30192020535469055,
+              0.3764210641384125
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02652761898934841,
+              0.7981085181236267
+            ],
+            [
+              0.21890272200107574,
+              0.3756062388420105
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 64,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28246933221817017,
+              0.7415087223052979
+            ],
+            [
+              0.29281944036483765,
+              0.866695761680603
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8088218569755554,
+              0.8339114189147949
+            ],
+            [
+              0.30162134766578674,
+              0.3763449490070343
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.026943307369947433,
+              0.798050045967102
+            ],
+            [
+              0.21859648823738098,
+              0.37566182017326355
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 65,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28314992785453796,
+              0.7424131035804749
+            ],
+            [
+              0.2926485240459442,
+              0.8673896193504333
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8107120394706726,
+              0.8360516428947449
+            ],
+            [
+              0.3013237416744232,
+              0.37626856565475464
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.027401454746723175,
+              0.7979612946510315
+            ],
+            [
+              0.21830330789089203,
+              0.3757152259349823
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 66,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28383633494377136,
+              0.7432845234870911
+            ],
+            [
+              0.2924818694591522,
+              0.86806720495224
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8125547766685486,
+              0.8381407856941223
+            ],
+            [
+              0.30102869868278503,
+              0.37619295716285706
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.027897723019123077,
+              0.7978435158729553
+            ],
+            [
+              0.2180241197347641,
+              0.3757673501968384
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 67,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2845267951488495,
+              0.7441227436065674
+            ],
+            [
+              0.29231953620910645,
+              0.8687281012535095
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8143488764762878,
+              0.8401771783828735
+            ],
+            [
+              0.30073660612106323,
+              0.37611812353134155
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02842915616929531,
+              0.7976980209350586
+            ],
+            [
+              0.21775873005390167,
+              0.3758181929588318
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 68,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28521981835365295,
+              0.744927704334259
+            ],
+            [
+              0.2921615540981293,
+              0.869371235370636
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8160931468009949,
+              0.8421595096588135
+            ],
+            [
+              0.3004477620124817,
+              0.3760441541671753
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02899225242435932,
+              0.7975265383720398
+            ],
+            [
+              0.2175069898366928,
+              0.3758675158023834
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 69,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.285913348197937,
+              0.7456994652748108
+            ],
+            [
+              0.2920079827308655,
+              0.8699963688850403
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8177862763404846,
+              0.8440861105918884
+            ],
+            [
+              0.3001626133918762,
+              0.3759710192680359
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.02958308719098568,
+              0.7973307371139526
+            ],
+            [
+              0.21726854145526886,
+              0.3759152889251709
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 70,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2866058349609375,
+              0.7464382648468018
+            ],
+            [
+              0.2918591797351837,
+              0.8706032037734985
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.819427490234375,
+              0.8459559679031372
+            ],
+            [
+              0.29988178610801697,
+              0.37589916586875916
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03019843064248562,
+              0.7971125245094299
+            ],
+            [
+              0.2170437127351761,
+              0.3759617507457733
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 71,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28729501366615295,
+              0.7471439242362976
+            ],
+            [
+              0.29171475768089294,
+              0.8711907267570496
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8210154175758362,
+              0.8477674126625061
+            ],
+            [
+              0.29960528016090393,
+              0.3758281469345093
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.030834101140499115,
+              0.7968736290931702
+            ],
+            [
+              0.21683157980442047,
+              0.37600645422935486
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 72,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28797951340675354,
+              0.7478171586990356
+            ],
+            [
+              0.29157477617263794,
+              0.8717586994171143
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8225497603416443,
+              0.8495198488235474
+            ],
+            [
+              0.29933351278305054,
+              0.3757581114768982
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.031486742198467255,
+              0.7966164946556091
+            ],
+            [
+              0.21663181483745575,
+              0.3760491907596588
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {
+        "main crown front": {
+          "target": [
+            35,
+            33.8,
+            185
+          ],
+          "projection": [
+            0.6085433959960938,
+            0.7571121454238892,
+            610.3163452148438
+          ],
+          "first_opaque_hit": {
+            "object": "V002 | main crown masonry and terraces",
+            "face": 1824,
+            "position": [
+              23.99123191833496,
+              57.427589416503906,
+              191.02499389648438
+            ],
+            "distance_to_target": 26.75362649738758,
+            "before_target": false
+          }
+        },
+        "bridge central pier": {
+          "target": [
+            -40,
+            34.8,
+            20
+          ],
+          "projection": [
+            0.49234211444854736,
+            0.34360674023628235,
+            639.0125122070312
+          ],
+          "first_opaque_hit": {
+            "object": "V021 candidate | central pier shaft surface union",
+            "face": 2,
+            "position": [
+              -40.0000114440918,
+              34.79999923706055,
+              20.000001907348633
+            ],
+            "distance_to_target": 1.1601948795887412e-05,
+            "before_target": false
+          }
+        },
+        "west entrance": {
+          "target": [
+            -71.4,
+            38,
+            29
+          ],
+          "projection": [
+            0.449714332818985,
+            0.36642545461654663,
+            658.2899169921875
+          ],
+          "first_opaque_hit": {
+            "object": "V007 | western stonework with actual bridgehead passage",
+            "face": 12699,
+            "position": [
+              -68.30713653564453,
+              33.27606201171875,
+              29.13662338256836
+            ],
+            "distance_to_target": 5.648014684109573,
+            "before_target": true
+          }
+        },
+        "near conifer crown context": {
+          "target": [
+            -82,
+            42,
+            30
+          ],
+          "projection": [
+            0.4385884404182434,
+            0.36923229694366455,
+            667.177734375
+          ],
+          "first_opaque_hit": {
+            "object": "V019 candidate | articulated conifer foliage",
+            "face": 229687,
+            "position": [
+              -81.8052749633789,
+              41.708980560302734,
+              30.007835388183594
+            ],
+            "distance_to_target": 0.35024498397694237,
+            "before_target": true
+          }
+        },
+        "offshore marker": {
+          "target": [
+            116,
+            190,
+            10
+          ],
+          "projection": [
+            0.8352612853050232,
+            0.32600459456443787,
+            692.3433837890625
+          ],
+          "first_opaque_hit": {
+            "object": "V012 | retained west rib facade with buried-route clearance",
+            "face": 9551,
+            "position": [
+              115.47999572753906,
+              192.09793090820312,
+              9.895883560180664
+            ],
+            "distance_to_target": 2.1639221219897826,
+            "before_target": false
+          }
+        }
+      }
+    },
+    {
+      "index": 73,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28865697979927063,
+              0.7484574913978577
+            ],
+            [
+              0.29144033789634705,
+              0.8723075985908508
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.824028730392456,
+              0.8512110710144043
+            ],
+            [
+              0.29906797409057617,
+              0.3756901025772095
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03215229883790016,
+              0.7963424324989319
+            ],
+            [
+              0.21644529700279236,
+              0.3760910928249359
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 74,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28932586312294006,
+              0.7490659356117249
+            ],
+            [
+              0.29131028056144714,
+              0.8728357553482056
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8254522681236267,
+              0.8528410196304321
+            ],
+            [
+              0.29880788922309875,
+              0.37562310695648193
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03282727301120758,
+              0.7960544228553772
+            ],
+            [
+              0.216270312666893,
+              0.3761308193206787
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 75,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.28998419642448425,
+              0.7496424317359924
+            ],
+            [
+              0.29118552803993225,
+              0.8733436465263367
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8268193006515503,
+              0.8544080257415771
+            ],
+            [
+              0.29855453968048096,
+              0.37555792927742004
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03350795432925224,
+              0.7957543730735779
+            ],
+            [
+              0.21610742807388306,
+              0.3761691451072693
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 76,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2906298041343689,
+              0.7501874566078186
+            ],
+            [
+              0.29106593132019043,
+              0.8738311529159546
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8281289935112,
+              0.8559113144874573
+            ],
+            [
+              0.29830822348594666,
+              0.37549465894699097
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.034190237522125244,
+              0.7954444289207458
+            ],
+            [
+              0.21595601737499237,
+              0.3762059807777405
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 77,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29126134514808655,
+              0.7507019639015198
+            ],
+            [
+              0.29095137119293213,
+              0.8742972016334534
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8293812274932861,
+              0.8573501706123352
+            ],
+            [
+              0.29806917905807495,
+              0.375433087348938
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03487103059887886,
+              0.7951275706291199
+            ],
+            [
+              0.21581555902957916,
+              0.3762410283088684
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 78,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2918763756752014,
+              0.7511858344078064
+            ],
+            [
+              0.29084211587905884,
+              0.8747419118881226
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8305748105049133,
+              0.8587232232093811
+            ],
+            [
+              0.29783809185028076,
+              0.37537360191345215
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.0355459563434124,
+              0.7948055863380432
+            ],
+            [
+              0.21568575501441956,
+              0.376274436712265
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 79,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2924730181694031,
+              0.7516396641731262
+            ],
+            [
+              0.2907380163669586,
+              0.8751650452613831
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8317093849182129,
+              0.860029935836792
+            ],
+            [
+              0.2976153790950775,
+              0.37531617283821106
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03621149808168411,
+              0.7944812178611755
+            ],
+            [
+              0.21556603908538818,
+              0.37630611658096313
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 80,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2930496335029602,
+              0.7520641684532166
+            ],
+            [
+              0.29063940048217773,
+              0.875566303730011
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8327842354774475,
+              0.8612692356109619
+            ],
+            [
+              0.29740163683891296,
+              0.3752610683441162
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03686438873410225,
+              0.7941567301750183
+            ],
+            [
+              0.21545635163784027,
+              0.3763361871242523
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 81,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2936043441295624,
+              0.7524600028991699
+            ],
+            [
+              0.2905460298061371,
+              0.8759453296661377
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8337992429733276,
+              0.862440824508667
+            ],
+            [
+              0.2971971035003662,
+              0.37520816922187805
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03750086575746536,
+              0.7938350439071655
+            ],
+            [
+              0.21535569429397583,
+              0.3763643801212311
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 82,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2941349744796753,
+              0.7528272271156311
+            ],
+            [
+              0.2904585301876068,
+              0.8763022422790527
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8347532153129578,
+              0.8635429739952087
+            ],
+            [
+              0.2970027029514313,
+              0.3751581013202667
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03811721131205559,
+              0.79351806640625
+            ],
+            [
+              0.21526432037353516,
+              0.37639120221138
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 83,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29464033246040344,
+              0.7531672120094299
+            ],
+            [
+              0.29037657380104065,
+              0.8766366243362427
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8356464505195618,
+              0.8645761013031006
+            ],
+            [
+              0.29681873321533203,
+              0.37511077523231506
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.038710638880729675,
+              0.7932090163230896
+            ],
+            [
+              0.21518148481845856,
+              0.3764163553714752
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 84,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29511788487434387,
+              0.7534797787666321
+            ],
+            [
+              0.29029983282089233,
+              0.8769477605819702
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8364778757095337,
+              0.8655385375022888
+            ],
+            [
+              0.29664525389671326,
+              0.3750658631324768
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03927711769938469,
+              0.7929096817970276
+            ],
+            [
+              0.21510636806488037,
+              0.3764393627643585
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 85,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29556623101234436,
+              0.7537655830383301
+            ],
+            [
+              0.2902289927005768,
+              0.8772358894348145
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.837246835231781,
+              0.8664295673370361
+            ],
+            [
+              0.29648324847221375,
+              0.3750239908695221
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.03981371968984604,
+              0.7926226854324341
+            ],
+            [
+              0.21503911912441254,
+              0.37646085023880005
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 86,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2959839403629303,
+              0.7540256381034851
+            ],
+            [
+              0.29016369581222534,
+              0.8775004744529724
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.837953507900238,
+              0.8672491312026978
+            ],
+            [
+              0.29633277654647827,
+              0.3749849200248718
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04031766951084137,
+              0.792350709438324
+            ],
+            [
+              0.2149789184331894,
+              0.37648043036460876
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 87,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2963685095310211,
+              0.7542595863342285
+            ],
+            [
+              0.29010456800460815,
+              0.8777419328689575
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8385964035987854,
+              0.8679952025413513
+            ],
+            [
+              0.29619497060775757,
+              0.37494945526123047
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04078499972820282,
+              0.792095422744751
+            ],
+            [
+              0.21492600440979004,
+              0.37649857997894287
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 88,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29671865701675415,
+              0.7544682621955872
+            ],
+            [
+              0.29005110263824463,
+              0.8779593706130981
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.839175283908844,
+              0.8686676025390625
+            ],
+            [
+              0.2960697412490845,
+              0.37491708993911743
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.041213203221559525,
+              0.7918594479560852
+            ],
+            [
+              0.21487940847873688,
+              0.376514732837677
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 89,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2970331907272339,
+              0.754652202129364
+            ],
+            [
+              0.2900034487247467,
+              0.8781523108482361
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8396897315979004,
+              0.8692654967308044
+            ],
+            [
+              0.2959575057029724,
+              0.37488797307014465
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.041600022464990616,
+              0.7916449904441833
+            ],
+            [
+              0.2148388773202896,
+              0.37652894854545593
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 90,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29731014370918274,
+              0.7548114657402039
+            ],
+            [
+              0.2899619936943054,
+              0.8783209919929504
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8401387333869934,
+              0.8697876334190369
+            ],
+            [
+              0.29585903882980347,
+              0.3748624920845032
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04194221273064613,
+              0.7914538979530334
+            ],
+            [
+              0.21480447053909302,
+              0.37654149532318115
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 91,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.29754817485809326,
+              0.7549464702606201
+            ],
+            [
+              0.28992676734924316,
+              0.8784650564193726
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8405216336250305,
+              0.8702331781387329
+            ],
+            [
+              0.2957747280597687,
+              0.37484079599380493
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04223750904202461,
+              0.7912881970405579
+            ],
+            [
+              0.21477581560611725,
+              0.3765523433685303
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 92,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2977457046508789,
+              0.7550569176673889
+            ],
+            [
+              0.2898974120616913,
+              0.8785834908485413
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8408372402191162,
+              0.8706005215644836
+            ],
+            [
+              0.29570457339286804,
+              0.3748225271701813
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.042483482509851456,
+              0.791149377822876
+            ],
+            [
+              0.21475231647491455,
+              0.3765610158443451
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 93,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.297901451587677,
+              0.7551431655883789
+            ],
+            [
+              0.28987470269203186,
+              0.8786768913269043
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8410848379135132,
+              0.8708887696266174
+            ],
+            [
+              0.2956496775150299,
+              0.3748084604740143
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04267788678407669,
+              0.7910391688346863
+            ],
+            [
+              0.2147345095872879,
+              0.37656810879707336
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 94,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2980141341686249,
+              0.7552051544189453
+            ],
+            [
+              0.28985780477523804,
+              0.8787436485290527
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8412632942199707,
+              0.871096670627594
+            ],
+            [
+              0.2956094443798065,
+              0.3747977316379547
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.042818792164325714,
+              0.7909591197967529
+            ],
+            [
+              0.21472129225730896,
+              0.37657275795936584
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 95,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2980826795101166,
+              0.755242645740509
+            ],
+            [
+              0.2898480296134949,
+              0.8787843585014343
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8413714170455933,
+              0.8712226152420044
+            ],
+            [
+              0.2955854833126068,
+              0.3747917115688324
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.042904652655124664,
+              0.7909104824066162
+            ],
+            [
+              0.21471372246742249,
+              0.37657594680786133
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {}
+    },
+    {
+      "index": 96,
+      "projection": {
+        "main_architecture": {
+          "bounds_xy": [
+            [
+              0.2981056272983551,
+              0.7552551031112671
+            ],
+            [
+              0.28984466195106506,
+              0.8787980675697327
+            ]
+          ],
+          "margin": 0.055,
+          "fits": true
+        },
+        "offshore_architecture": {
+          "bounds_xy": [
+            [
+              0.8414075970649719,
+              0.8712647557258606
+            ],
+            [
+              0.29557734727859497,
+              0.37478959560394287
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        },
+        "coastal_rock": {
+          "bounds_xy": [
+            [
+              0.04293348267674446,
+              0.7908938527107239
+            ],
+            [
+              0.21471117436885834,
+              0.3765769898891449
+            ]
+          ],
+          "margin": 0.025,
+          "fits": true
+        }
+      },
+      "finite_target_sightlines": {
+        "main crown front": {
+          "target": [
+            35,
+            33.8,
+            185
+          ],
+          "projection": [
+            0.6015225648880005,
+            0.7608409523963928,
+            603.9417114257812
+          ],
+          "first_opaque_hit": {
+            "object": "V002 | main crown masonry and terraces",
+            "face": 1416,
+            "position": [
+              23.349998474121094,
+              52.65306854248047,
+              190.18057250976562
+            ],
+            "distance_to_target": 22.759593533806722,
+            "before_target": false
+          }
+        },
+        "bridge central pier": {
+          "target": [
+            -40,
+            34.8,
+            20
+          ],
+          "projection": [
+            0.49285274744033813,
+            0.34365150332450867,
+            639.485595703125
+          ],
+          "first_opaque_hit": {
+            "object": "V008 | coastal rock blades locally excavated for approach",
+            "face": 6237,
+            "position": [
+              2.6027374267578125,
+              -20.98876953125,
+              22.732131958007812
+            ],
+            "distance_to_target": 70.24844873826575,
+            "before_target": true
+          }
+        },
+        "west entrance": {
+          "target": [
+            -71.4,
+            38,
+            29
+          ],
+          "projection": [
+            0.45420077443122864,
+            0.36660492420196533,
+            661.458251953125
+          ],
+          "first_opaque_hit": {
+            "object": "V007 | western stonework with actual bridgehead passage",
+            "face": 12699,
+            "position": [
+              -67.5262680053711,
+              33.27606201171875,
+              29.147140502929688
+            ],
+            "distance_to_target": 6.110896163693089,
+            "before_target": true
+          }
+        },
+        "near conifer crown context": {
+          "target": [
+            -82,
+            42,
+            30
+          ],
+          "projection": [
+            0.4448263347148895,
+            0.36943361163139343,
+            671.0758056640625
+          ],
+          "first_opaque_hit": {
+            "object": "V019 candidate | articulated conifer foliage",
+            "face": 229912,
+            "position": [
+              -81.73919677734375,
+              41.687408447265625,
+              30.009057998657227
+            ],
+            "distance_to_target": 0.40720245881894734,
+            "before_target": true
+          }
+        },
+        "offshore marker": {
+          "target": [
+            116,
+            190,
+            10
+          ],
+          "projection": [
+            0.8552859425544739,
+            0.32327231764793396,
+            668.86767578125
+          ],
+          "first_opaque_hit": {
+            "object": "V012 | retained west rib facade with buried-route clearance",
+            "face": 9550,
+            "position": [
+              115.28167724609375,
+              192.0449981689453,
+              9.892477035522461
+            ],
+            "distance_to_target": 2.1701534713758504,
+            "before_target": false
+          }
+        }
+      }
+    }
+  ],
+  "recommended_single_render_index": 49,
+  "limits": "Conservative evaluated selected architectural/coastal-rock/offshore AABB fit, not entire sea/terrain/forest extent. 25 finite target rays at5 original frames, not exhaustive pixel occlusion proof. Conifer additions excluded from architecture bounds; target center hit is context not exact foliage surface certification. Volume containers skipped only for opaque classification; original clouds unchanged. No radius search, pose/quality change, render or model save."
+}

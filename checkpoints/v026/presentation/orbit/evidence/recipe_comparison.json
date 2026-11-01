@@ -1,0 +1,14 @@
+{
+  "all96poses_exact": true,
+  "all_original_quality_composition_fields_exact": true,
+  "changed_fields": [
+    "source_sha256"
+  ],
+  "additional_guard_fields": [
+    "expected_lighting_state_sha256",
+    "expected_camera_projection"
+  ],
+  "plan_sha256": "13db5405453470460cf3bb8868aa71fe23f1272f3fab8cde5911698b04e2e3e3",
+  "original_historical_plan_sha256": "a9dafec81e0053190a3eb855e6cd5cc24dc79255af96fa8fc1ed4cf22b3730c4",
+  "historical_runtime_modified": false
+}

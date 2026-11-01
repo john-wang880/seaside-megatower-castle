@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "tests": 12,
+  "failures": 0,
+  "errors": 0,
+  "recipe_inventory": {
+    "final_plan.json": "13db5405453470460cf3bb8868aa71fe23f1272f3fab8cde5911698b04e2e3e3",
+    "README.md": "4fc05033924db020f6d29991fd0e308391fd9572714a9e696bb044a32f419d23",
+    "RUNTIME_BINDINGS.json": "9c8ad3cfd61b574a5637036826de58348e15f4731ab9713ca795aaa2bbf59dbf",
+    "render_final_frame.py": "ca8241850b7e8b84d9a7671be1f2d2acedf316c76cf0fa7299fb98cc13f480a5",
+    "PROVENANCE_AND_RECOVERY.md": "9d6459116315be0d929237912f532fcb6df6fcf2f490336b310e977148d16639",
+    "lighting_snapshot.py": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a",
+    "test_resume_validation.py": "98f17e97e4a500c165f230b4c35db5b016563d9e57eca5520c9801707aa4fe47",
+    "run_final_orbit.py": "5fe91315cdf9a9aa60179dbedddce5b8edc041b318a176f5fdb6473d0fb997d7",
+    "orbit_common.py": "d0e280fcbd825006f5b065bfd6b742270bdc5ce10d487df6985e277e51c8f1a2",
+    "runtime_guards.py": "5cd5d0d0a780cd803c68a32c67d0cf482d7e5fc2f3a1c3d805ebda9143b94945",
+    "test_guards.py": "ca1b5e3ad3e363a98b2188e9018f309b30a705970bda67dab54c8e790c949ab6",
+    "resume_validation_tests.json": "e8aaa50575a72fa064b0050065f6f1e6bc1ea0dcda928e6e93c357ee89a40463"
+  },
+  "recipe_unchanged": true,
+  "scope": "Independent CPU/synthetic receipt and Linux flock fixtures; mocked frame worker only. No Blender/render/encode or full96-frame authorization."
+}
