@@ -1,0 +1,34 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+    "candidate": "48f1270189ab16598ff709188a03a057efe608488ecdc6c60d1922fb88059160"
+  },
+  "normalized_source_checks": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true
+  },
+  "all_kept_evaluated_attributes_and_deform_weights_exact": true,
+  "old_v024_modifiers_group_union_protected": true,
+  "kept_domains": {
+    "POINT": 11560,
+    "EDGE": 23009,
+    "FACE": 12411,
+    "CORNER": 46018
+  },
+  "native_mask_runtime_differences": {},
+  "repeated_state_exact": true,
+  "all_inputs_unchanged": true,
+  "each_union_closed_consistent_positive": true,
+  "scope": "Four individual union objects; inter-group original volume overlaps deliberately preserved."
+}

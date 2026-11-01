@@ -1,0 +1,12 @@
+{
+  "clean_rebuild_pass": true,
+  "rebuild_blender_calls": 12,
+  "rebuild_python_calls": 7,
+  "core_tests": 13,
+  "reproduce_wrapper_tests": 15,
+  "builder_guard_tests": 9,
+  "QA_runner_guard_tests": 13,
+  "model_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "remote_validation_pending": true
+}

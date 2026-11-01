@@ -1,12 +1,12 @@
 {
   "pass": true,
-  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
-  "viewer_sha256": "fa76c374f9916dd821565f49ec2bd10d84bfbef4484019cff220a4263fb4f9ce",
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "viewer_sha256": "e9253a2fac8a77421aa184d66c9c34fc1c864f0f82f4acd32fe28fb8ee6fd274",
   "runtime_sha256": {
-    "export_inspection.py": "138f005164c84e164e47097e84faa33819f178d68b488445b9580c3204efe22b",
-    "preflight.py": "9297401ed9c15df444cefa451139ce25110adbcede45e53b037b492312a698f8",
-    "catalog.json": "a75a7e8eb1549e25bcf40d81e8740ccb75e7c01ec7c1852c16692a6432da41a0",
-    "ui_template.py": "0bb7ae392578838727d0b233c0a84349cc5a8304ae193ee29d02b5b8e81d451e"
+    "export_inspection.py": "ce6d5b9b7f41cf3003381f08094c848a43e5f2b619cf500119cf1ff54d32b682",
+    "preflight.py": "20c7bfc2b541ec9070e8c3b974d05f60f9a7d419b404046d65f30d47f0f0f854",
+    "catalog.json": "aca0d8972a52decc801cbbdd71e6d6ebd9cec96c6c29e267ed1b440380b016e2",
+    "ui_template.py": "858bec02a90cea49595a3438432c09ecd6fb67369d80135a25a3932e2c7254b9"
   },
   "implementation_pure_tests": 18,
   "independent_pure_tests": 24,
@@ -25,22 +25,23 @@
     "scene_custom": true,
     "visibility": true
   },
-  "bookmarks": 12,
+  "bookmarks": 13,
   "api_negatives": 20,
   "repeat_register_unregister": true,
   "disabled_script_reopen": true,
   "all_inputs_unchanged": true,
   "reports": {
-    "qa/reports/SUMMARY_v024.json": "3cc2140d11c3eb07ecc6f2da1975de108c49badc224f5635553ad8063aad0695",
-    "qa/reports/pure_tests_v024.log": "0aef7274390affd415eb75c601cdddd7458195caabcf4eb562ce4a7aea4e147e",
-    "qa/reports/validation_v024.json": "5d3abec991a7352834e229869525174f4dcfbdc9aec4c8868f7b80ac3eca22e5",
-    "reports/export_v024.json": "139fce75f35886a9ad283956b6f0e45445b5351f0902f024dc138d6ed91e37b8",
-    "reports/implementation_tests18.log": "427b6a1fe980db891687b9dbbce70db505a0ea711298ca0aadc77902b37afe64"
+    "reports/export_v025.json": "35974d3202500f205c5aab1c589ccb2278a147e4e0a04522421d651f5766a4d7",
+    "reports/implementation_tests18.log": "edaf555609a9b9d56ea307a950f0917b9872abb271ba381cac03492c0b628e78",
+    "qa/reports/SUMMARY_v025.json": "9173df091ce15478061c530c74d695a0d4c41eb34876376b45ff2dad4190369d",
+    "qa/reports/pure_tests_v025.log": "d8241ae61e21b0a04f935802c973f9b3cb83acc3d97990215e7ad4860c25b984",
+    "qa/reports/validation_v025.json": "634676a8b25672d6e498ca1cda50af2ea4a7cadf319af65adeafe35f8929671b"
   },
   "limits": [
+    "Local validation only; remote publication/fresh-remote verification are owner responsibility.",
     "No render, native Windows execution or desktop-click claim.",
-    "Viewer binary is not included in the public payload; regenerate explicitly from canonical model.",
-    "Documentation/report packaging after execution does not change executed Python/runtime.",
-    "Remote publication/fresh remote QA remains owner responsibility."
-  ]
+    "Viewer binary excluded; explicit exporter recreates a derived copy.",
+    "Report/doc packaging does not change executed runtime or QA Python."
+  ],
+  "recoverable_wrapper_issue": "Initial run had stale12-count assertion after actual13-bookmark pass; corrected solely to13, complete rerun passed."
 }

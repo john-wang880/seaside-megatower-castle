@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "rebuilt_sha256": "48f1270189ab16598ff709188a03a057efe608488ecdc6c60d1922fb88059160",
+  "accepted_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "recipe_inventory_unchanged": true,
+  "recipe_file_count": 11,
+  "historical_manifest_unchanged": true,
+  "no_python_caches": true,
+  "qa_summary_sha256": "25a2c6cd54d41043778ac3e72f891c2f7090776b7e141fbfa76b8337fc2a018e",
+  "semantic_equivalence_passed": true,
+  "source_restore_git_commit": "0d332990a252bbb2d51f73e69bdefd34e2931c19",
+  "rendered": false,
+  "prior_failed_wrapper": "../fresh Git-only rebuild \u4e2d\u6587; missing sibling SCOPE stopped before source loading; preserved inventory/log",
+  "runtime_geometry_changes": false
+}

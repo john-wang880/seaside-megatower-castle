@@ -1,0 +1,108 @@
+{
+  "candidate_sha256": "48f1270189ab16598ff709188a03a057efe608488ecdc6c60d1922fb88059160",
+  "source_unchanged": true,
+  "evaluated_broadphase": true,
+  "scanned_objects": [
+    {
+      "object": "Citadel | oxidized spire roofs",
+      "triangles": 1080,
+      "aabb_triangle_candidates": 50,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "Citadel | deep window recesses",
+      "triangles": 8400,
+      "aabb_triangle_candidates": 0,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "triangles": 35432,
+      "aabb_triangle_candidates": 0,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "Citadel | small verdigris fittings",
+      "triangles": 4320,
+      "aabb_triangle_candidates": 0,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V004 | west old recess strips opened for selected upper and lower windows",
+      "triangles": 2900,
+      "aabb_triangle_candidates": 0,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "triangles": 1360,
+      "aabb_triangle_candidates": 360,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "triangles": 55668,
+      "aabb_triangle_candidates": 82,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "triangles": 26864,
+      "aabb_triangle_candidates": 0,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V008 | gallery with genuine eastern approach portal",
+      "triangles": 21196,
+      "aabb_triangle_candidates": 3871,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "triangles": 24332,
+      "aabb_triangle_candidates": 60,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V012 | terrace ledges with bounded stair opening",
+      "triangles": 84164,
+      "aabb_triangle_candidates": 387,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "triangles": 21956,
+      "aabb_triangle_candidates": 0,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "triangles": 8848,
+      "aabb_triangle_candidates": 0,
+      "hide_viewport": false,
+      "hide_get": false
+    },
+    {
+      "object": "V025 | exact evaluated rear return union 03",
+      "triangles": 278,
+      "aabb_triangle_candidates": 108,
+      "hide_viewport": false,
+      "hide_get": false
+    }
+  ],
+  "contacts": [],
+  "by_object": {},
+  "scope": "All render-visible surface-mesh objects with evaluated bounds intersecting entire selected union bounds. Triangle BVH broadphase plus actual oriented coplanar polygon overlap. Areas pairwise may include multiway overlap; exposure/burial not inferred from overlap alone."
+}

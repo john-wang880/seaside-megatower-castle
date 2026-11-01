@@ -1,0 +1,120 @@
+{
+  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "geometry_export_sha256": "9dd41aa51bac92a2da635d5cb9ff3e721dc16a2fdd3d1a94a5bb406c41aa587c",
+  "groups": [
+    {
+      "plane_y": 56.0,
+      "parts": 5,
+      "source_face_count": 130,
+      "independent_union_boundary_pieces": 603,
+      "union_volume": 5593.149291990788,
+      "union_area": 7555.243231659906
+    },
+    {
+      "plane_y": 57.0,
+      "parts": 5,
+      "source_face_count": 130,
+      "independent_union_boundary_pieces": 567,
+      "union_volume": 4269.809659476557,
+      "union_area": 5819.302530148577
+    },
+    {
+      "plane_y": 58.0,
+      "parts": 5,
+      "source_face_count": 130,
+      "independent_union_boundary_pieces": 605,
+      "union_volume": 3791.231383357601,
+      "union_area": 4907.917024052959
+    },
+    {
+      "plane_y": 59.20000076293945,
+      "parts": 5,
+      "source_face_count": 130,
+      "independent_union_boundary_pieces": 572,
+      "union_volume": 3030.9082007580546,
+      "union_area": 3809.125392567187
+    }
+  ],
+  "cross_group_pairs": [
+    {
+      "planes": [
+        56.0,
+        57.0
+      ],
+      "aabb_overlap_lengths": [
+        32.5,
+        32.0,
+        0.8400039672851562
+      ],
+      "actual_intersection_volume": 773.9638371205256,
+      "positive_area_coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        56.0,
+        58.0
+      ],
+      "aabb_overlap_lengths": [
+        23.5,
+        30.0,
+        -9.359996795654297
+      ],
+      "actual_intersection_volume": 0.0,
+      "positive_area_coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        56.0,
+        59.20000076293945
+      ],
+      "aabb_overlap_lengths": [
+        15.0,
+        28.799999237060547,
+        -20.159996032714844
+      ],
+      "actual_intersection_volume": 0.0,
+      "positive_area_coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        57.0,
+        58.0
+      ],
+      "aabb_overlap_lengths": [
+        24.0,
+        31.0,
+        0.8400001525878906
+      ],
+      "actual_intersection_volume": 553.6796605832551,
+      "positive_area_coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        57.0,
+        59.20000076293945
+      ],
+      "aabb_overlap_lengths": [
+        15.5,
+        29.799999237060547,
+        -9.959999084472656
+      ],
+      "actual_intersection_volume": 0.0,
+      "positive_area_coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        58.0,
+        59.20000076293945
+      ],
+      "aabb_overlap_lengths": [
+        18.5,
+        30.799999237060547,
+        0.8400039672851562
+      ],
+      "actual_intersection_volume": 427.2100941148219,
+      "positive_area_coplanar_exterior_contacts": []
+    }
+  ],
+  "recommended_strategy": "Four per-group actual evaluated unions, retaining cross-group interfaces; conditional on no positive-area same-facing inter-group exterior contacts.",
+  "scope": "Independent halfspace surface partition of current exported geometry. Cross-group volume overlap is not itself duplicate exterior skin. No source mutation or candidate built."
+}

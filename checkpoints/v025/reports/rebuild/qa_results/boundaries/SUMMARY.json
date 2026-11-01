@@ -1,0 +1,76 @@
+{
+  "pass": true,
+  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "candidate_sha256": "48f1270189ab16598ff709188a03a057efe608488ecdc6c60d1922fb88059160",
+  "geometry_export_sha256": "af1559c4a155879308f29066791b1b57e0070b76982a35d55a1b900f6f7a60b6",
+  "group_boundary_passes": 4,
+  "cross_group_pairs": [
+    {
+      "planes": [
+        56.0,
+        57.0
+      ],
+      "baseline_intersection_volume": 773.9638371205256,
+      "saved_boundary_intersection_volume": 773.9638371193429,
+      "difference": -1.1826841728179716e-09,
+      "numerical_volume_budget": 0.4081587451732124,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        56.0,
+        58.0
+      ],
+      "baseline_intersection_volume": 0.0,
+      "saved_boundary_intersection_volume": 0.0,
+      "difference": 0.0,
+      "numerical_volume_budget": 0.5301232080020593,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        56.0,
+        59.20000076293945
+      ],
+      "baseline_intersection_volume": 0.0,
+      "saved_boundary_intersection_volume": 0.0,
+      "difference": 0.0,
+      "numerical_volume_budget": 0.4630582890922347,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        57.0,
+        58.0
+      ],
+      "baseline_intersection_volume": 553.6796605832551,
+      "saved_boundary_intersection_volume": 553.6796605843908,
+      "difference": 1.1357315088389441e-09,
+      "numerical_volume_budget": 0.47714650202304015,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        57.0,
+        59.20000076293945
+      ],
+      "baseline_intersection_volume": 0.0,
+      "saved_boundary_intersection_volume": 0.0,
+      "difference": 0.0,
+      "numerical_volume_budget": 0.4100815831132155,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        58.0,
+        59.20000076293945
+      ],
+      "baseline_intersection_volume": 427.2100941148219,
+      "saved_boundary_intersection_volume": 427.21009411706314,
+      "difference": 2.2412223188439384e-09,
+      "numerical_volume_budget": 0.5320460459420625,
+      "coplanar_exterior_contacts": []
+    }
+  ],
+  "scope": "Each saved union boundary independently matches its five-source convex union. Intersections computed from saved boundary triangles clipped to opposite original convex decomposition; legitimate existing cross-frame overlaps retained, no global disjointness claim."
+}

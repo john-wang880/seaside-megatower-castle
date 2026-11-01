@@ -1,0 +1,135 @@
+{
+  "pass": true,
+  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "candidate_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "reports": {
+    "preservation.json": "59ee0522d450578d579bf4b6158276777c79cdb00b275dc4a100206075ed6329",
+    "rollback.json": "2f1d4cf7cd2b54f6b2056e13b5bfc0912b411a456a5050b479782ba97ea66e88",
+    "triangulation.json": "47c6558053c7359086d978443896fd98491ac3153a4e87f6419d7f66d1e3de95",
+    "triangulation_coverage.json": "710ee21d6b89752f7f25b3b21bba95d9b781509557e355a6a5dd7283f7ce7a93",
+    "boundary_set_final/SUMMARY.json": "0c6e28a9e9f35675c29694ca24bf93db385249de05cfc9ea3145abe2d559eafe",
+    "adjacent_01.json": "1b0e6fedf685db8f6aba79588c98a09e81425513f27a47e1ca9acaa3295c60f0",
+    "adjacent_02.json": "78ad64d9b3a87bff6e9d1167d9b96bb2a7a05c87cda4c73de6c776ee39ed25e7",
+    "adjacent_03.json": "e9b7a386b5a64ee90d461912753ecbb3738d5a67d946ff4b48a42dfb62571226",
+    "adjacent_04.json": "5823a45ae27c693f52d78c574c387e4533ce76611053c260ea34aa54c68d7218",
+    "negative_extra_mask_weight.json": "92b6b3a49f311e51626fdc5989123b44ed76308a710e185acdecd6c6f0544ab0",
+    "negative_old_v024_weight.json": "539822b3ca5d10a8838cc84c98b019e5442b3dbea78cf87043f9efa1e8333987",
+    "negative_old_v024_union.json": "4c835e3a82223e99d815160ee12a5aa263ce8151e264237b49a58a037518948f",
+    "negative_unrelated_hidden_source.json": "60e1b29d50a033e0519084ac3d541da0c23aa16be5a4e62ae680271ba896ffba",
+    "set_negatives_01/SUMMARY.json": "3e89e609c3f44e0f0324df4f10a879acaa4bb03f2870569e6d3801cc44103aa4",
+    "set_negatives_02/SUMMARY.json": "cce529b8dbcff73f631e148117b10d4b9cdf0f876a37a84faa529c8054f304ee",
+    "set_negatives_03/SUMMARY.json": "843987fa77619642bdff9739e9d1efd2bc006cf18c77cefc701457441ada668b",
+    "set_negatives_04/SUMMARY.json": "2d1b0e3a908f5285a1e84657740f8d68341047f4a5a18de52d83e1e3fdccba30"
+  },
+  "four_independent_group_boundaries_pass": true,
+  "full_old_v024_preservation": true,
+  "native_low_exact": true,
+  "geometry_negative_controls": 9,
+  "actual_blender_negative_controls": 4,
+  "math_controls": 7,
+  "compensating_hole_duplicate_control": {
+    "rejected": true,
+    "uncovered_area": 0.5,
+    "duplicate_area": 0.5,
+    "report_sha256": "5f2d95c8aa159cfa31d4df461285e95b5d97e0d86cd057de5bdd7a0f14db2270"
+  },
+  "maximum_saved_plane_displacement": 2.697398308271204e-06,
+  "maximum_absolute_group_volume_delta": 6.252412276808172e-08,
+  "uncovered_surface_area_by_group": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "duplicate_surface_residual_area_by_group": [
+    1.0718508905145727e-11,
+    1.0474241265989725e-11,
+    1.553170855545915e-11,
+    2.3579054622701896e-11
+  ],
+  "adjacent_objects_checked_by_group": [
+    17,
+    18,
+    16,
+    14
+  ],
+  "adjacent_positive_area_coplanar_contacts": 0,
+  "exact_zero_measure_derived_loop_triangles": 1,
+  "zero_measure_parent_coverage_proven_exact_rational": true,
+  "original_cross_group_intersections_preserved": [
+    {
+      "planes": [
+        56.0,
+        57.0
+      ],
+      "baseline_intersection_volume": 773.9638371205256,
+      "saved_boundary_intersection_volume": 773.9638371193429,
+      "difference": -1.1826841728179716e-09,
+      "numerical_volume_budget": 0.4081587451732124,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        56.0,
+        58.0
+      ],
+      "baseline_intersection_volume": 0.0,
+      "saved_boundary_intersection_volume": 0.0,
+      "difference": 0.0,
+      "numerical_volume_budget": 0.5301232080020593,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        56.0,
+        59.20000076293945
+      ],
+      "baseline_intersection_volume": 0.0,
+      "saved_boundary_intersection_volume": 0.0,
+      "difference": 0.0,
+      "numerical_volume_budget": 0.4630582890922347,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        57.0,
+        58.0
+      ],
+      "baseline_intersection_volume": 553.6796605832551,
+      "saved_boundary_intersection_volume": 553.6796605843908,
+      "difference": 1.1357315088389441e-09,
+      "numerical_volume_budget": 0.47714650202304015,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        57.0,
+        59.20000076293945
+      ],
+      "baseline_intersection_volume": 0.0,
+      "saved_boundary_intersection_volume": 0.0,
+      "difference": 0.0,
+      "numerical_volume_budget": 0.4100815831132155,
+      "coplanar_exterior_contacts": []
+    },
+    {
+      "planes": [
+        58.0,
+        59.20000076293945
+      ],
+      "baseline_intersection_volume": 427.2100941148219,
+      "saved_boundary_intersection_volume": 427.21009411706314,
+      "difference": 2.2412223188439384e-09,
+      "numerical_volume_budget": 0.5320460459420625,
+      "coplanar_exterior_contacts": []
+    }
+  ],
+  "all_model_files_unchanged": true,
+  "limits": [
+    "Four per-group numerical occupied-boundary equivalence, not global disjointness or structural certification.",
+    "Three legitimate adjacent-frame volume overlaps deliberately retained.",
+    "Only one exactly zero derived loop triangle omitted from normal/area integration; actual parent positive, convex and planar with exact-rational full coverage. No epsilon-based near-zero omission.",
+    "Actual same-camera visual acceptance remains pending.",
+    "Prior bd2 candidate superseded due native modifier-name truncation; geometry was not redesigned."
+  ]
+}

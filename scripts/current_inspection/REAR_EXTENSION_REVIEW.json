@@ -1,0 +1,17 @@
+{
+  "status": "code-only approved13-view catalog; actual export/reopen pending",
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "catalog_sha256": "aca0d8972a52decc801cbbdd71e6d6ebd9cec96c6c29e267ed1b440380b016e2",
+  "original12_records_unchanged": true,
+  "new_key": "rear_landward",
+  "exact_recipe_and_receipt_binding": true,
+  "recipe_sha256": "c050406219724d64beca61561cacb297c9280c641ee456b64312939ba312faf2",
+  "receipt_sha256": "dd701706defcb6f78e7b4215a12b5cfe2ab7c63c511abb05458016a61dcf00b9",
+  "no_new_render": true,
+  "runtime": {
+    "preflight.py": "20c7bfc2b541ec9070e8c3b974d05f60f9a7d419b404046d65f30d47f0f0f854",
+    "export_inspection.py": "ce6d5b9b7f41cf3003381f08094c848a43e5f2b619cf500119cf1ff54d32b682",
+    "ui_template.py": "858bec02a90cea49595a3438432c09ecd6fb67369d80135a25a3932e2c7254b9",
+    "catalog.json": "aca0d8972a52decc801cbbdd71e6d6ebd9cec96c6c29e267ed1b440380b016e2"
+  }
+}

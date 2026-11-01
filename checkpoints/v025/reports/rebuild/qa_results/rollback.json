@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+    "candidate": "48f1270189ab16598ff709188a03a057efe608488ecdc6c60d1922fb88059160"
+  },
+  "native_low_evaluator_exact_to_v024": true,
+  "old_v024_group_and_union_preserved": true,
+  "sole_normalization": "Only owned group1 values, proven bit-exact to original source-chain propagation of160rawweight1 assignments; all oldgroup0 values retained.",
+  "inherited_newgroup_vertex_count": 480,
+  "inherited_newgroup_values": [
+    0.9999998211860657,
+    0.9999998807907104,
+    0.9999999403953552,
+    1.0
+  ]
+}

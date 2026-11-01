@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "mathematical_control": "Equal-area missing half-face plus duplicated other half has unchanged signed area/volume but must fail set coverage.",
+  "uncovered_area": 0.5,
+  "duplicated_area": 0.5,
+  "failure_report_sha256": "9f355acdea8c4cb6a41f0f925df72e819708472435da4c84c37f81a077cdd7c0"
+}

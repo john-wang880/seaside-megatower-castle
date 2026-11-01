@@ -1,0 +1,20 @@
+test_alias (__main__.Guards.test_alias) ... ok
+test_dangling_link (__main__.Guards.test_dangling_link) ... ok
+test_existing_destination (__main__.Guards.test_existing_destination) ... ok
+test_foreign_inode_not_deleted (__main__.Guards.test_foreign_inode_not_deleted) ... ok
+test_import_no_bpy (__main__.Guards.test_import_no_bpy) ... ok
+test_optimized_refused (__main__.Guards.test_optimized_refused) ... ok
+test_overlong_utf8_name (__main__.Guards.test_overlong_utf8_name) ... ok
+test_publish (__main__.Guards.test_publish) ... ok
+test_rollback_own_file (__main__.Guards.test_rollback_own_file) ... ok
+test_scope (__main__.Guards.test_scope) ... ok
+test_scope_mutations (__main__.Guards.test_scope_mutations) ... ok
+test_success_unicode_mock_source_hash (__main__.Guards.test_success_unicode_mock_source_hash) ... ok
+test_tampered_runtime (__main__.Guards.test_tampered_runtime) ... ok
+test_wrong_hash (__main__.Guards.test_wrong_hash) ... ok
+test_wrong_size (__main__.Guards.test_wrong_size) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.276s
+
+OK

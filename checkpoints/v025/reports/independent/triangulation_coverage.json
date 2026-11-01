@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "candidate_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "actual_nonzero_triangle_index": 44,
+  "zero_triangle_index": 45,
+  "parent_polygon": 21,
+  "exact_rational_oriented_area_vector_equal": true,
+  "positive_triangle_exactly_parent_convex_hull": true,
+  "no_hole_or_positive_area_overlap_in_parent_tessellation": true,
+  "geometry_export_sha256": "7e07d0abe50ec174f88c1045bb859b22758a80642837710326fd741201de93a4",
+  "triangulation_audit_sha256": "47c6558053c7359086d978443896fd98491ac3153a4e87f6419d7f66d1e3de95"
+}

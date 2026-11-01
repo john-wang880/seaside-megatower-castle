@@ -1,0 +1,85 @@
+{
+  "pass": false,
+  "source_sha256": "synthetic-box",
+  "candidate_sha256": "synthetic-compensating-hole-duplicate",
+  "geometry_export_sha256": "cee209d70ce62e8fb47a658d56078750dcc04c02d0bd44c914aae6673d8637bd",
+  "original_solids": 1,
+  "independent_union_boundary_pieces": 6,
+  "saved_triangles": 12,
+  "original_saved_loop_triangle_count": 12,
+  "exact_zero_measure_loop_triangles": [],
+  "coverage": [
+    {
+      "side": "saved",
+      "area": 6.0,
+      "absolute_coverage_residual": 0.0,
+      "residual_fraction": 0.0,
+      "sum_rounding_area_budget": 7.814519049961229e-05
+    },
+    {
+      "side": "reference",
+      "area": 6.0,
+      "absolute_coverage_residual": 0.0,
+      "residual_fraction": 0.0,
+      "sum_rounding_area_budget": 4.577638901537284e-05
+    }
+  ],
+  "set_coverage_uncovered_area": 0.5,
+  "set_coverage_duplicate_area": 0.5,
+  "set_coverage_rows": [
+    {
+      "reference_piece": 0,
+      "uncovered_area": 0.5,
+      "duplicate_coverage_area": 0.5,
+      "budget": 7.629398169228807e-06
+    },
+    {
+      "reference_piece": 1,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.629398169228807e-06
+    },
+    {
+      "reference_piece": 2,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.629398169228807e-06
+    },
+    {
+      "reference_piece": 3,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.629398169228807e-06
+    },
+    {
+      "reference_piece": 4,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.629398169228807e-06
+    },
+    {
+      "reference_piece": 5,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.629398169228807e-06
+    }
+  ],
+  "matched_surface_pairs": 12,
+  "maximum_matched_plane_displacement": 0.0,
+  "predeclared_max_coordinate_ulp": 1.1920928955078125e-07,
+  "distance_budget_4ulp": 4.76837158203125e-07,
+  "reference_union_volume": 1.0,
+  "saved_union_volume": 0.9999999999999999,
+  "volume_difference": -1.1102230246251565e-16,
+  "volume_budget": 5.7220458984375e-06,
+  "failures": [
+    {
+      "reference_piece": 0,
+      "uncovered_area": 0.5,
+      "duplicate_coverage_area": 0.5,
+      "budget": 7.629398169228807e-06
+    }
+  ],
+  "math_controls": 6,
+  "scope": "Both-direction oriented surface coverage from independently clipped convex input boundary; saved float32 numerical bounds, not exact rational or global model certification."
+}

@@ -1,0 +1,39 @@
+{
+  "image": "work/v024_rear_surface/visual/rear_after/image.png",
+  "image_sha256": "54b57a8054199895c30d1b412ca63beafe34b04f6ade05c3ade615d4d9f26588",
+  "groups": [
+    {
+      "plane_y": 56.0,
+      "geometrically_exposed_pixel_centers": 436,
+      "median_display_rgb_average_0_255": 0.0,
+      "near_black_rgb_average_below12_count": 415,
+      "minimum": 0.0,
+      "maximum": 19.0
+    },
+    {
+      "plane_y": 59.20000076293945,
+      "geometrically_exposed_pixel_centers": 308,
+      "median_display_rgb_average_0_255": 0.0,
+      "near_black_rgb_average_below12_count": 306,
+      "minimum": 0.0,
+      "maximum": 17.333333333333332
+    },
+    {
+      "plane_y": 57.0,
+      "geometrically_exposed_pixel_centers": 281,
+      "median_display_rgb_average_0_255": 0.0,
+      "near_black_rgb_average_below12_count": 272,
+      "minimum": 0.0,
+      "maximum": 31.333333333333332
+    },
+    {
+      "plane_y": 58.0,
+      "geometrically_exposed_pixel_centers": 224,
+      "median_display_rgb_average_0_255": 0.0,
+      "near_black_rgb_average_below12_count": 224,
+      "minimum": 0.0,
+      "maximum": 3.6666666666666665
+    }
+  ],
+  "limits": "Existing actual PNG sampled without modification. Display-encoded RGB brightness is not linear irradiance; threshold is descriptive, not standalone proof. Antialiasing/shadows/materials can affect pixel values; actual geometry proof is separate."
+}

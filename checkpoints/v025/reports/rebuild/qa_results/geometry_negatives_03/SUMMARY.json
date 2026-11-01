@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "source_geometry_sha256": "a96411e0a86dbab87f0baa2201cd72249f735b51b0d5f2423bc3748a35f654f5",
+  "candidate_sha256": "48f1270189ab16598ff709188a03a057efe608488ecdc6c60d1922fb88059160",
+  "controls": [
+    {
+      "case": "filled_frame_recess",
+      "rejected": true,
+      "failure_count": 859,
+      "report_sha256": "3d8131a8bd38f95ba5c7d9c8bbed22a351040ff5f467cd5c57da3705400dd421"
+    }
+  ],
+  "scope": "Mutations of exported actual saved triangles, not saved model edits or additional Blender processes."
+}

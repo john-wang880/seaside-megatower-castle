@@ -1,0 +1,3474 @@
+{
+  "pass": true,
+  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "candidate_sha256": "48f1270189ab16598ff709188a03a057efe608488ecdc6c60d1922fb88059160",
+  "geometry_export_sha256": "90575c33c4f610acc096b266afcb18c7ca5380e4a293e4f12de281c8cecffbba",
+  "original_solids": 5,
+  "independent_union_boundary_pieces": 572,
+  "saved_triangles": 280,
+  "original_saved_loop_triangle_count": 280,
+  "exact_zero_measure_loop_triangles": [],
+  "coverage": [
+    {
+      "side": "saved",
+      "area": 3809.1253926480927,
+      "absolute_coverage_residual": 8.092719055366319e-08,
+      "residual_fraction": 2.1245609480291443e-11,
+      "sum_rounding_area_budget": 0.6875728059510303
+    },
+    {
+      "side": "reference",
+      "area": 3809.125392567187,
+      "absolute_coverage_residual": 5.510505718858737e-11,
+      "residual_fraction": 1.4466590492430317e-14,
+      "sum_rounding_area_budget": 0.6855910339401452
+    }
+  ],
+  "set_coverage_uncovered_area": 0,
+  "set_coverage_duplicate_area": 2.3579054622701896e-11,
+  "set_coverage_rows": [
+    {
+      "reference_piece": 0,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 3.2825990098041e-06
+    },
+    {
+      "reference_piece": 1,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.6252204620227926e-13,
+      "budget": 3.282763652151761e-06
+    },
+    {
+      "reference_piece": 2,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 3.2825990098041e-06
+    },
+    {
+      "reference_piece": 3,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 3.282021600022403e-14,
+      "budget": 3.282763652151761e-06
+    },
+    {
+      "reference_piece": 4,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009756752159591203
+    },
+    {
+      "reference_piece": 5,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009756750513167727
+    },
+    {
+      "reference_piece": 6,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0025070767004342423
+    },
+    {
+      "reference_piece": 7,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 8.039402477066915e-14,
+      "budget": 0.002377041484445487
+    },
+    {
+      "reference_piece": 8,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0026944252748341904
+    },
+    {
+      "reference_piece": 9,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.3877787807814457e-17,
+      "budget": 0.0026944254394765384
+    },
+    {
+      "reference_piece": 10,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009756752159591203
+    },
+    {
+      "reference_piece": 11,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009756750513167727
+    },
+    {
+      "reference_piece": 12,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002507074837789095
+    },
+    {
+      "reference_piece": 13,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.3877787807814457e-17,
+      "budget": 0.0023770433470906346
+    },
+    {
+      "reference_piece": 14,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0006835888663974767
+    },
+    {
+      "reference_piece": 15,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006834089241632098
+    },
+    {
+      "reference_piece": 16,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0011031000292745841
+    },
+    {
+      "reference_piece": 17,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0004922216206691429
+    },
+    {
+      "reference_piece": 18,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006834089241632061
+    },
+    {
+      "reference_piece": 19,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0012942225582359937
+    },
+    {
+      "reference_piece": 20,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0011824797851598332
+    },
+    {
+      "reference_piece": 21,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 1.4705833299613581e-05
+    },
+    {
+      "reference_piece": 22,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0006504452915817048
+    },
+    {
+      "reference_piece": 23,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.00039028067379846663
+    },
+    {
+      "reference_piece": 24,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.00032247174285376554
+    },
+    {
+      "reference_piece": 25,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.00042193210936964656
+    },
+    {
+      "reference_piece": 26,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0007175100651435744
+    },
+    {
+      "reference_piece": 27,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 3.755606738622281e-05
+    },
+    {
+      "reference_piece": 28,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0002059907627685128
+    },
+    {
+      "reference_piece": 29,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009205468391339655
+    },
+    {
+      "reference_piece": 30,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00020599076276851217
+    },
+    {
+      "reference_piece": 31,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0012123105515871196
+    },
+    {
+      "reference_piece": 32,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00043989414474244446
+    },
+    {
+      "reference_piece": 33,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.001160784049112648
+    },
+    {
+      "reference_piece": 34,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00043989414474244516
+    },
+    {
+      "reference_piece": 35,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0006598832470762295
+    },
+    {
+      "reference_piece": 36,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.00036000972934462777
+    },
+    {
+      "reference_piece": 37,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0009205477704565387
+    },
+    {
+      "reference_piece": 38,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.001160785366201667
+    },
+    {
+      "reference_piece": 39,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00036001066066720537
+    },
+    {
+      "reference_piece": 40,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0006835911150493848
+    },
+    {
+      "reference_piece": 41,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006834111725747989
+    },
+    {
+      "reference_piece": 42,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0011031026635521556
+    },
+    {
+      "reference_piece": 43,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0002793826025311628
+    },
+    {
+      "reference_piece": 44,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0004534783726969526
+    },
+    {
+      "reference_piece": 45,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009997794607434151
+    },
+    {
+      "reference_piece": 46,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003876136830938725
+    },
+    {
+      "reference_piece": 47,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0011391444079971824
+    },
+    {
+      "reference_piece": 48,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0006313009643070945
+    },
+    {
+      "reference_piece": 49,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0010067500137820816
+    },
+    {
+      "reference_piece": 50,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0004923995121036144
+    },
+    {
+      "reference_piece": 51,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006835888663974821
+    },
+    {
+      "reference_piece": 52,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0012943541581011044
+    },
+    {
+      "reference_piece": 53,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0011825344974024344
+    },
+    {
+      "reference_piece": 54,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.00027942642965007126
+    },
+    {
+      "reference_piece": 55,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.00045352683885688873
+    },
+    {
+      "reference_piece": 56,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0010826387729877432
+    },
+    {
+      "reference_piece": 57,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0006847334149858258
+    },
+    {
+      "reference_piece": 58,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006847379120493104
+    },
+    {
+      "reference_piece": 59,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 1.5133936716305856e-05
+    },
+    {
+      "reference_piece": 60,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.000650577388185158
+    },
+    {
+      "reference_piece": 61,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003905269910003961
+    },
+    {
+      "reference_piece": 62,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003224961127062712
+    },
+    {
+      "reference_piece": 63,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.000999764317608442
+    },
+    {
+      "reference_piece": 64,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003874357916594002
+    },
+    {
+      "reference_piece": 65,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -3.410605131648481e-13,
+      "budget": 0.0011390578912265593
+    },
+    {
+      "reference_piece": 66,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.00042224564584463056
+    },
+    {
+      "reference_piece": 67,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0007177299752271415
+    },
+    {
+      "reference_piece": 68,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 3.745083499997218e-05
+    },
+    {
+      "reference_piece": 69,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006309109996096176
+    },
+    {
+      "reference_piece": 70,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0010063893919935421
+    },
+    {
+      "reference_piece": 71,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.00020621367058055637
+    },
+    {
+      "reference_piece": 72,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0009206198082437485
+    },
+    {
+      "reference_piece": 73,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.00020621367058055637
+    },
+    {
+      "reference_piece": 74,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0012124084650942482
+    },
+    {
+      "reference_piece": 75,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00043994115902057016
+    },
+    {
+      "reference_piece": 76,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0011608229269886724
+    },
+    {
+      "reference_piece": 77,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.00043994115902056447
+    },
+    {
+      "reference_piece": 78,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0006598474088372696
+    },
+    {
+      "reference_piece": 79,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003599312102502922
+    },
+    {
+      "reference_piece": 80,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0009206207397070923
+    },
+    {
+      "reference_piece": 81,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.001160824244177231
+    },
+    {
+      "reference_piece": 82,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0003599321415728757
+    },
+    {
+      "reference_piece": 83,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0031932537359719167
+    },
+    {
+      "reference_piece": 84,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.7053025658242404e-13,
+      "budget": 0.003128400402210527
+    },
+    {
+      "reference_piece": 85,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0015967742523549796
+    },
+    {
+      "reference_piece": 86,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.001439221760258469
+    },
+    {
+      "reference_piece": 87,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0036657284945249557
+    },
+    {
+      "reference_piece": 88,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0036657284945249557
+    },
+    {
+      "reference_piece": 89,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.007571978261694312
+    },
+    {
+      "reference_piece": 90,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0031932518733267692
+    },
+    {
+      "reference_piece": 91,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.003128400402169301
+    },
+    {
+      "reference_piece": 92,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0015967761150413639
+    },
+    {
+      "reference_piece": 93,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0014392281202074066
+    },
+    {
+      "reference_piece": 94,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 3.282763652151761e-06
+    },
+    {
+      "reference_piece": 95,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 3.282763652151761e-06
+    },
+    {
+      "reference_piece": 96,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000585049492523228
+    },
+    {
+      "reference_piece": 97,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0025070768650765937
+    },
+    {
+      "reference_piece": 98,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.80855330711438e-13,
+      "budget": 0.0017941851737184585
+    },
+    {
+      "reference_piece": 99,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0015335951801534165
+    },
+    {
+      "reference_piece": 100,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.808622696053419e-13,
+      "budget": 0.0010098544052077661
+    },
+    {
+      "reference_piece": 101,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.3877787807814457e-17,
+      "budget": 0.0026944254394765384
+    },
+    {
+      "reference_piece": 102,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.6076029396572267e-13,
+      "budget": 0.0011527042076435227
+    },
+    {
+      "reference_piece": 103,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -8.039402477066915e-14,
+      "budget": 0.0005867738994485935
+    },
+    {
+      "reference_piece": 104,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.6076723285962657e-13,
+      "budget": 0.0005867738994485977
+    },
+    {
+      "reference_piece": 105,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000585049492523228
+    },
+    {
+      "reference_piece": 106,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0016060936256498922
+    },
+    {
+      "reference_piece": 107,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.0095036745715333e-14,
+      "budget": 0.0009047697755695238
+    },
+    {
+      "reference_piece": 108,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.808622696053419e-13,
+      "budget": 0.0016402745824859503
+    },
+    {
+      "reference_piece": 109,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -3.2153446571925315e-13,
+      "budget": 0.0006326119407267212
+    },
+    {
+      "reference_piece": 110,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.0096337788322316e-13,
+      "budget": 0.00015770066256260527
+    },
+    {
+      "reference_piece": 111,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.020395127923848e-14,
+      "budget": 0.0009047697755695205
+    },
+    {
+      "reference_piece": 112,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.4066525722000733e-13,
+      "budget": 0.0010098562678529128
+    },
+    {
+      "reference_piece": 113,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.003275102935731411
+    },
+    {
+      "reference_piece": 114,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.842170943040401e-14,
+      "budget": 0.0029170526553191907
+    },
+    {
+      "reference_piece": 115,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0017728692643837426
+    },
+    {
+      "reference_piece": 116,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.842170943040401e-14,
+      "budget": 0.0009949373627586137
+    },
+    {
+      "reference_piece": 117,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.003794589879600502
+    },
+    {
+      "reference_piece": 118,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0009949373627586129
+    },
+    {
+      "reference_piece": 119,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0062005854332785925
+    },
+    {
+      "reference_piece": 120,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0036195401200903813
+    },
+    {
+      "reference_piece": 121,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0031732415435802063
+    },
+    {
+      "reference_piece": 122,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0017954031469132115
+    },
+    {
+      "reference_piece": 123,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0026981942396448796
+    },
+    {
+      "reference_piece": 124,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.002219291090030582
+    },
+    {
+      "reference_piece": 125,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.00018490684518074146
+    },
+    {
+      "reference_piece": 126,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0024113622171857826
+    },
+    {
+      "reference_piece": 127,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -6.821210263296962e-13,
+      "budget": 0.0032498262943666295
+    },
+    {
+      "reference_piece": 128,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0013831603217469906
+    },
+    {
+      "reference_piece": 129,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00151556542092092
+    },
+    {
+      "reference_piece": 130,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0006778376306321807
+    },
+    {
+      "reference_piece": 131,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0017109125816850968
+    },
+    {
+      "reference_piece": 132,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0015155654209209235
+    },
+    {
+      "reference_piece": 133,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0008263518343723218
+    },
+    {
+      "reference_piece": 134,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0011023969543153484
+    },
+    {
+      "reference_piece": 135,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0007490082071843327
+    },
+    {
+      "reference_piece": 136,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0006778376306321889
+    },
+    {
+      "reference_piece": 137,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0011023969543153581
+    },
+    {
+      "reference_piece": 138,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0022551477262724422
+    },
+    {
+      "reference_piece": 139,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 7.456530400980625e-05
+    },
+    {
+      "reference_piece": 140,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0019721870182540704
+    },
+    {
+      "reference_piece": 141,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0014106602833908006
+    },
+    {
+      "reference_piece": 142,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.002033946594134601
+    },
+    {
+      "reference_piece": 143,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.000730566255048694
+    },
+    {
+      "reference_piece": 144,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0020158688409712623
+    },
+    {
+      "reference_piece": 145,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0006307871894273974
+    },
+    {
+      "reference_piece": 146,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0010748354439732316
+    },
+    {
+      "reference_piece": 147,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0013831625701585702
+    },
+    {
+      "reference_piece": 148,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0020030686688394922
+    },
+    {
+      "reference_piece": 149,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0032840987135759436
+    },
+    {
+      "reference_piece": 150,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0016353572960055383
+    },
+    {
+      "reference_piece": 151,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0021759857849519694
+    },
+    {
+      "reference_piece": 152,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000730570751871868
+    },
+    {
+      "reference_piece": 153,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.002015872566261557
+    },
+    {
+      "reference_piece": 154,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0010805564287231968
+    },
+    {
+      "reference_piece": 155,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0013669765980284657
+    },
+    {
+      "reference_piece": 156,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.001133284667373269
+    },
+    {
+      "reference_piece": 157,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 4.547473508864641e-13,
+      "budget": 0.0006835158138439034
+    },
+    {
+      "reference_piece": 158,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0011275449354632352
+    },
+    {
+      "reference_piece": 159,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0004131833677667557
+    },
+    {
+      "reference_piece": 160,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0007645737740784623
+    },
+    {
+      "reference_piece": 161,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0015938920776890923
+    },
+    {
+      "reference_piece": 162,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00039704127862887127
+    },
+    {
+      "reference_piece": 163,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0003224717428537648
+    },
+    {
+      "reference_piece": 164,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 4.547473508864641e-13,
+      "budget": 0.00029161108783998994
+    },
+    {
+      "reference_piece": 165,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.001049667398576268
+    },
+    {
+      "reference_piece": 166,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0010682318454283473
+    },
+    {
+      "reference_piece": 167,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.00042224362568652537
+    },
+    {
+      "reference_piece": 168,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0001806774351692519
+    },
+    {
+      "reference_piece": 169,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 4.547473508864641e-13,
+      "budget": 0.0005100040941687623
+    },
+    {
+      "reference_piece": 170,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.00021840790748996178
+    },
+    {
+      "reference_piece": 171,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.00029161108783999737
+    },
+    {
+      "reference_piece": 172,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 9.094947017729282e-13,
+      "budget": 0.0008851886289552642
+    },
+    {
+      "reference_piece": 173,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0002916110878399944
+    },
+    {
+      "reference_piece": 174,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0016300985417383694
+    },
+    {
+      "reference_piece": 175,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0005935924422764606
+    },
+    {
+      "reference_piece": 176,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0008851895602778342
+    },
+    {
+      "reference_piece": 177,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0005935933735990383
+    },
+    {
+      "reference_piece": 178,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0029170507926740393
+    },
+    {
+      "reference_piece": 179,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.842170943040401e-14,
+      "budget": 0.0009949373627586152
+    },
+    {
+      "reference_piece": 180,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0020479126263656376
+    },
+    {
+      "reference_piece": 181,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0017728674017385916
+    },
+    {
+      "reference_piece": 182,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0025709166352715085
+    },
+    {
+      "reference_piece": 183,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0009949373627586152
+    },
+    {
+      "reference_piece": 184,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 3.2825990098041e-06
+    },
+    {
+      "reference_piece": 185,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 3.2825990098041e-06
+    },
+    {
+      "reference_piece": 186,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0005850499581845153
+    },
+    {
+      "reference_piece": 187,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.6077417175353048e-13,
+      "budget": 0.0011525270119631256
+    },
+    {
+      "reference_piece": 188,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 3.469446951953614e-18,
+      "budget": 0.000586862335014292
+    },
+    {
+      "reference_piece": 189,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.6077417175353048e-13,
+      "budget": 0.0005868623350142887
+    },
+    {
+      "reference_piece": 190,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.6077417175353048e-13,
+      "budget": 0.0019583938554877966
+    },
+    {
+      "reference_piece": 191,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -3.2155528240096487e-13,
+      "budget": 0.0005524707684983837
+    },
+    {
+      "reference_piece": 192,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.3877787807814457e-17,
+      "budget": 0.001793535872825674
+    },
+    {
+      "reference_piece": 193,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 6.938893903907228e-18,
+      "budget": 0.0015335950155110714
+    },
+    {
+      "reference_piece": 194,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.4116819652419963e-13,
+      "budget": 0.0010105033768158544
+    },
+    {
+      "reference_piece": 195,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.6077417175353048e-13,
+      "budget": 0.0019583938554877996
+    },
+    {
+      "reference_piece": 196,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.607811106474344e-13,
+      "budget": 0.0007398193428983356
+    },
+    {
+      "reference_piece": 197,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0005850499581845153
+    },
+    {
+      "reference_piece": 198,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -3.2155528240096487e-13,
+      "budget": 0.0016054441694602609
+    },
+    {
+      "reference_piece": 199,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.607811106474344e-13,
+      "budget": 0.0009054185918807768
+    },
+    {
+      "reference_piece": 200,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 8.038708587676524e-14,
+      "budget": 0.001640274452635426
+    },
+    {
+      "reference_piece": 201,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 8.038708587676524e-14,
+      "budget": 0.0006319624845370879
+    },
+    {
+      "reference_piece": 202,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.4116646180072365e-13,
+      "budget": 0.00015705139646164063
+    },
+    {
+      "reference_piece": 203,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.4116819652419963e-13,
+      "budget": 0.0009054185918807818
+    },
+    {
+      "reference_piece": 204,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.6077417175353048e-13,
+      "budget": 0.0010105052394610045
+    },
+    {
+      "reference_piece": 205,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0029518816592878036
+    },
+    {
+      "reference_piece": 206,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0011474580573459848
+    },
+    {
+      "reference_piece": 207,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.002643055528465154
+    },
+    {
+      "reference_piece": 208,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0007210166574472853
+    },
+    {
+      "reference_piece": 209,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 5.94756613374345e-05
+    },
+    {
+      "reference_piece": 210,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006614514286804114
+    },
+    {
+      "reference_piece": 211,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006615221203222373
+    },
+    {
+      "reference_piece": 212,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.002193310419878862
+    },
+    {
+      "reference_piece": 213,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0017728436555170225
+    },
+    {
+      "reference_piece": 214,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0022241377574966836
+    },
+    {
+      "reference_piece": 215,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0004617588592987573
+    },
+    {
+      "reference_piece": 216,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000995013341466737
+    },
+    {
+      "reference_piece": 217,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0013829465423855895
+    },
+    {
+      "reference_piece": 218,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0015155470815510705
+    },
+    {
+      "reference_piece": 219,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00041507084433922996
+    },
+    {
+      "reference_piece": 220,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0008628459128518806
+    },
+    {
+      "reference_piece": 221,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0015155470815510625
+    },
+    {
+      "reference_piece": 222,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0008264770634228751
+    },
+    {
+      "reference_piece": 223,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00043896264234723594
+    },
+    {
+      "reference_piece": 224,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000677516961590091
+    },
+    {
+      "reference_piece": 225,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0011023160004202319
+    },
+    {
+      "reference_piece": 226,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -6.821210263296962e-13,
+      "budget": 0.0008540185855252704
+    },
+    {
+      "reference_piece": 227,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0019721351466829256
+    },
+    {
+      "reference_piece": 228,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.001410874062752202
+    },
+    {
+      "reference_piece": 229,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0008628459128518756
+    },
+    {
+      "reference_piece": 230,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0006336158768203805
+    },
+    {
+      "reference_piece": 231,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 6.821210263296962e-13,
+      "budget": 0.0016742557264640468
+    },
+    {
+      "reference_piece": 232,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0010765993403650275
+    },
+    {
+      "reference_piece": 233,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000748843767172569
+    },
+    {
+      "reference_piece": 234,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 6.821210263296962e-13,
+      "budget": 0.00223624057501504
+    },
+    {
+      "reference_piece": 235,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.410211525184693e-05
+    },
+    {
+      "reference_piece": 236,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.001997142155003505
+    },
+    {
+      "reference_piece": 237,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0007295686178872588
+    },
+    {
+      "reference_piece": 238,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002015256150647471
+    },
+    {
+      "reference_piece": 239,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006313572678660366
+    },
+    {
+      "reference_piece": 240,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0010752762778716697
+    },
+    {
+      "reference_piece": 241,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0013829487907971872
+    },
+    {
+      "reference_piece": 242,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.002002824938202871
+    },
+    {
+      "reference_piece": 243,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.003284822309070082
+    },
+    {
+      "reference_piece": 244,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.001636043343808722
+    },
+    {
+      "reference_piece": 245,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0021773212018186576
+    },
+    {
+      "reference_piece": 246,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0007295731147104424
+    },
+    {
+      "reference_piece": 247,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002015259875937769
+    },
+    {
+      "reference_piece": 248,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.001080755884204398
+    },
+    {
+      "reference_piece": 249,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.001367751196142508
+    },
+    {
+      "reference_piece": 250,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0011328071547351242
+    },
+    {
+      "reference_piece": 251,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0006834089241632068
+    },
+    {
+      "reference_piece": 252,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0011278029899800541
+    },
+    {
+      "reference_piece": 253,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0004132459822920348
+    },
+    {
+      "reference_piece": 254,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0007654921206150415
+    },
+    {
+      "reference_piece": 255,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0015933978889513772
+    },
+    {
+      "reference_piece": 256,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00039608390113319517
+    },
+    {
+      "reference_piece": 257,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0003224717428537559
+    },
+    {
+      "reference_piece": 258,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0002913087581677531
+    },
+    {
+      "reference_piece": 259,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0010502634128004861
+    },
+    {
+      "reference_piece": 260,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.001068599141845238
+    },
+    {
+      "reference_piece": 261,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00042190060178492393
+    },
+    {
+      "reference_piece": 262,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 4.547473508864641e-13,
+      "budget": 0.00018058486936875176
+    },
+    {
+      "reference_piece": 263,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0005106994016579561
+    },
+    {
+      "reference_piece": 264,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00021940554465139846
+    },
+    {
+      "reference_piece": 265,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.00029130875816775747
+    },
+    {
+      "reference_piece": 266,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0008852069683251146
+    },
+    {
+      "reference_piece": 267,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00029130875816775454
+    },
+    {
+      "reference_piece": 268,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 4.547473508864641e-13,
+      "budget": 0.0016301137345698083
+    },
+    {
+      "reference_piece": 269,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0005939131113185551
+    },
+    {
+      "reference_piece": 270,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0008852078996476892
+    },
+    {
+      "reference_piece": 271,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.547473508864641e-13,
+      "budget": 0.0005939140426411265
+    },
+    {
+      "reference_piece": 272,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0033354675403340778
+    },
+    {
+      "reference_piece": 273,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -6.821210263296962e-13,
+      "budget": 0.005627662864639299
+    },
+    {
+      "reference_piece": 274,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.003619405631353839
+    },
+    {
+      "reference_piece": 275,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0031735662281119534
+    },
+    {
+      "reference_piece": 276,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 4.547473508864641e-13,
+      "budget": 0.001795862320181504
+    },
+    {
+      "reference_piece": 277,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002700030932718034
+    },
+    {
+      "reference_piece": 278,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -6.821210263296962e-13,
+      "budget": 0.002218966405498836
+    },
+    {
+      "reference_piece": 279,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00018412298738070579
+    },
+    {
+      "reference_piece": 280,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -6.821210263296962e-13,
+      "budget": 0.0024124707595175694
+    },
+    {
+      "reference_piece": 281,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0032498262943666265
+    },
+    {
+      "reference_piece": 282,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.00201308288390791
+    },
+    {
+      "reference_piece": 283,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0017281916524045028
+    },
+    {
+      "reference_piece": 284,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.000995013341466744
+    },
+    {
+      "reference_piece": 285,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0020479000547629156
+    },
+    {
+      "reference_piece": 286,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0007574085420633306
+    },
+    {
+      "reference_piece": 287,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.000979912679457386
+    },
+    {
+      "reference_piece": 288,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 3.410605131648481e-13,
+      "budget": 0.0014591092558572474
+    },
+    {
+      "reference_piece": 289,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0022241396201418315
+    },
+    {
+      "reference_piece": 290,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0004617588592987573
+    },
+    {
+      "reference_piece": 291,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0007259021875757323
+    },
+    {
+      "reference_piece": 292,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0006496863652445876
+    },
+    {
+      "reference_piece": 293,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.3877787807814457e-17,
+      "budget": 0.001924599184240237
+    },
+    {
+      "reference_piece": 294,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0017938062827189503
+    },
+    {
+      "reference_piece": 295,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.4116819652419963e-13,
+      "budget": 0.0015483555213036129
+    },
+    {
+      "reference_piece": 296,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.813582700156303e-13,
+      "budget": 0.0015480331667089417
+    },
+    {
+      "reference_piece": 297,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.019354293838262e-14,
+      "budget": 0.0002511847175904434
+    },
+    {
+      "reference_piece": 298,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 3.2155528240096487e-13,
+      "budget": 0.00019135618026847273
+    },
+    {
+      "reference_piece": 299,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0001913848717904986
+    },
+    {
+      "reference_piece": 300,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.003791632580609108
+    },
+    {
+      "reference_piece": 301,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 6.821210263296962e-13,
+      "budget": 0.00031984210269914555
+    },
+    {
+      "reference_piece": 302,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00031986627381515623
+    },
+    {
+      "reference_piece": 303,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.002320461287757462
+    },
+    {
+      "reference_piece": 304,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0022549029868606124
+    },
+    {
+      "reference_piece": 305,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002533910491336894
+    },
+    {
+      "reference_piece": 306,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0023201064153527233
+    },
+    {
+      "reference_piece": 307,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002667076214375048
+    },
+    {
+      "reference_piece": 308,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0014764631740263271
+    },
+    {
+      "reference_piece": 309,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 8.526512829121202e-14,
+      "budget": 0.0023203160251144272
+    },
+    {
+      "reference_piece": 310,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.842170943040401e-14,
+      "budget": 0.0026672858467931934
+    },
+    {
+      "reference_piece": 311,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0020641381420981137
+    },
+    {
+      "reference_piece": 312,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.00044167325935454973
+    },
+    {
+      "reference_piece": 313,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0024217973720823713
+    },
+    {
+      "reference_piece": 314,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0015645434134899444
+    },
+    {
+      "reference_piece": 315,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.842170943040401e-14,
+      "budget": 0.003674715350877785
+    },
+    {
+      "reference_piece": 316,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0024959237517373947
+    },
+    {
+      "reference_piece": 317,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0014169137087834995
+    },
+    {
+      "reference_piece": 318,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0004414399277109626
+    },
+    {
+      "reference_piece": 319,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0024211014851701004
+    },
+    {
+      "reference_piece": 320,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.00015744179926505795
+    },
+    {
+      "reference_piece": 321,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.7053025658242404e-13,
+      "budget": 0.002790043886633486
+    },
+    {
+      "reference_piece": 322,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.001554308452543453
+    },
+    {
+      "reference_piece": 323,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0013966522741883614
+    },
+    {
+      "reference_piece": 324,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0014364383680165133
+    },
+    {
+      "reference_piece": 325,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00015754869131169298
+    },
+    {
+      "reference_piece": 326,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0023352059422036744
+    },
+    {
+      "reference_piece": 327,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0014366233710098705
+    },
+    {
+      "reference_piece": 328,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.002362393088209052
+    },
+    {
+      "reference_piece": 329,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.7053025658242404e-13,
+      "budget": 0.00190569176658417
+    },
+    {
+      "reference_piece": 330,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0017211891817753581
+    },
+    {
+      "reference_piece": 331,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.842170943040401e-14,
+      "budget": 0.0018606704390070113
+    },
+    {
+      "reference_piece": 332,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0018603647037802782
+    },
+    {
+      "reference_piece": 333,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0024820416023639286
+    },
+    {
+      "reference_piece": 334,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0018603647037802786
+    },
+    {
+      "reference_piece": 335,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002532420984649794
+    },
+    {
+      "reference_piece": 336,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0013418037293161655
+    },
+    {
+      "reference_piece": 337,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003224717428537648
+    },
+    {
+      "reference_piece": 338,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0018083111333851768
+    },
+    {
+      "reference_piece": 339,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009068687421830994
+    },
+    {
+      "reference_piece": 340,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.00035881622687586464
+    },
+    {
+      "reference_piece": 341,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.842170943040401e-14,
+      "budget": 0.0018605539598059513
+    },
+    {
+      "reference_piece": 342,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.002532606048478928
+    },
+    {
+      "reference_piece": 343,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.001739002523841942
+    },
+    {
+      "reference_piece": 344,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0016851916343611772
+    },
+    {
+      "reference_piece": 345,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0015645434134899444
+    },
+    {
+      "reference_piece": 346,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0036515654995348244
+    },
+    {
+      "reference_piece": 347,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.002393475338253738
+    },
+    {
+      "reference_piece": 348,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0021937368409890284
+    },
+    {
+      "reference_piece": 349,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.842170943040401e-14,
+      "budget": 0.00032249611270626725
+    },
+    {
+      "reference_piece": 350,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0018084198727897117
+    },
+    {
+      "reference_piece": 351,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009068045617247467
+    },
+    {
+      "reference_piece": 352,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0013411958463634107
+    },
+    {
+      "reference_piece": 353,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0018520975139852743
+    },
+    {
+      "reference_piece": 354,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0012214321687970809
+    },
+    {
+      "reference_piece": 355,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.000957221125425358
+    },
+    {
+      "reference_piece": 356,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0012489295041558095
+    },
+    {
+      "reference_piece": 357,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0016844766828012175
+    },
+    {
+      "reference_piece": 358,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0018514363182394159
+    },
+    {
+      "reference_piece": 359,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.002876736316457976
+    },
+    {
+      "reference_piece": 360,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.00030232894180236335
+    },
+    {
+      "reference_piece": 361,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0012224361482154678
+    },
+    {
+      "reference_piece": 362,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0006442230027799685
+    },
+    {
+      "reference_piece": 363,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0006440231552427846
+    },
+    {
+      "reference_piece": 364,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0006796568303775765
+    },
+    {
+      "reference_piece": 365,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006440231552427782
+    },
+    {
+      "reference_piece": 366,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002339864597694937
+    },
+    {
+      "reference_piece": 367,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.00030243583384900497
+    },
+    {
+      "reference_piece": 368,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0006997230438145403
+    },
+    {
+      "reference_piece": 369,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00047429259374786356
+    },
+    {
+      "reference_piece": 370,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006442230027799698
+    },
+    {
+      "reference_piece": 371,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.002340122259859739
+    },
+    {
+      "reference_piece": 372,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.00030226774413915063
+    },
+    {
+      "reference_piece": 373,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002036115124572667
+    },
+    {
+      "reference_piece": 374,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0020360539269094575
+    },
+    {
+      "reference_piece": 375,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0008251462843515377
+    },
+    {
+      "reference_piece": 376,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0014662741889407162
+    },
+    {
+      "reference_piece": 377,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006998359639778912
+    },
+    {
+      "reference_piece": 378,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.00047413568221984527
+    },
+    {
+      "reference_piece": 379,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006998929984173197
+    },
+    {
+      "reference_piece": 380,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0006997230438145383
+    },
+    {
+      "reference_piece": 381,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00043938320750616265
+    },
+    {
+      "reference_piece": 382,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.000699723043814537
+    },
+    {
+      "reference_piece": 383,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000864917686880109
+    },
+    {
+      "reference_piece": 384,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0003777965903282183
+    },
+    {
+      "reference_piece": 385,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0006998929984173214
+    },
+    {
+      "reference_piece": 386,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0008649396645748525
+    },
+    {
+      "reference_piece": 387,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00037782514093954653
+    },
+    {
+      "reference_piece": 388,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 4.0197012385334574e-14,
+      "budget": 0.001022858548267288
+    },
+    {
+      "reference_piece": 389,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.0097205150060304e-13,
+      "budget": 0.0001913543176233187
+    },
+    {
+      "reference_piece": 390,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.010197563961924e-14,
+      "budget": 0.001023208797983319
+    },
+    {
+      "reference_piece": 391,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.019354293838262e-14,
+      "budget": 0.000527341952640577
+    },
+    {
+      "reference_piece": 392,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 8.03905553237172e-14,
+      "budget": 0.0005273698474804091
+    },
+    {
+      "reference_piece": 393,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -4.019354293838262e-14,
+      "budget": 0.0002511847175904444
+    },
+    {
+      "reference_piece": 394,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.009677146919131e-14,
+      "budget": 0.00019138300886381321
+    },
+    {
+      "reference_piece": 395,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.607811106474344e-13,
+      "budget": 0.0008695441585020917
+    },
+    {
+      "reference_piece": 396,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.0095036745715333e-14,
+      "budget": 0.0010232371582029043
+    },
+    {
+      "reference_piece": 397,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -8.039402477066915e-14,
+      "budget": 0.0009051482767368903
+    },
+    {
+      "reference_piece": 398,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.4116819652419963e-13,
+      "budget": 0.0007747664514446098
+    },
+    {
+      "reference_piece": 399,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.2058323090036183e-13,
+      "budget": 0.00015707452339228602
+    },
+    {
+      "reference_piece": 400,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -6.821210263296962e-13,
+      "budget": 0.0012101024644182077
+    },
+    {
+      "reference_piece": 401,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00024357489830335893
+    },
+    {
+      "reference_piece": 402,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0012867484750768124
+    },
+    {
+      "reference_piece": 403,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009782302041340149
+    },
+    {
+      "reference_piece": 404,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0009130564904476819
+    },
+    {
+      "reference_piece": 405,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0002949231088809911
+    },
+    {
+      "reference_piece": 406,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.000319863093840681
+    },
+    {
+      "reference_piece": 407,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.00018414645861216514
+    },
+    {
+      "reference_piece": 408,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0001841267814843365
+    },
+    {
+      "reference_piece": 409,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0012292176058479162
+    },
+    {
+      "reference_piece": 410,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0009480308217715746
+    },
+    {
+      "reference_piece": 411,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.000604599920010263
+    },
+    {
+      "reference_piece": 412,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.00030348874546364023
+    },
+    {
+      "reference_piece": 413,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0012296398747743053
+    },
+    {
+      "reference_piece": 414,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0013513068563197653
+    },
+    {
+      "reference_piece": 415,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0013512304600776124
+    },
+    {
+      "reference_piece": 416,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0024820442366415042
+    },
+    {
+      "reference_piece": 417,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0005033418326466051
+    },
+    {
+      "reference_piece": 418,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0014005070821382576
+    },
+    {
+      "reference_piece": 419,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003954232982054666
+    },
+    {
+      "reference_piece": 420,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0012925146804808124
+    },
+    {
+      "reference_piece": 421,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009483670656816076
+    },
+    {
+      "reference_piece": 422,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000503185032240301
+    },
+    {
+      "reference_piece": 423,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0014005604014905412
+    },
+    {
+      "reference_piece": 424,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.00026715435488574603
+    },
+    {
+      "reference_piece": 425,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.00015911504636622646
+    },
+    {
+      "reference_piece": 426,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.842170943040401e-14,
+      "budget": 0.0010016800900702835
+    },
+    {
+      "reference_piece": 427,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.001217664989177174
+    },
+    {
+      "reference_piece": 428,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.842170943040401e-14,
+      "budget": 0.0023990372531795426
+    },
+    {
+      "reference_piece": 429,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0017390088837908966
+    },
+    {
+      "reference_piece": 430,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.001665390162201004
+    },
+    {
+      "reference_piece": 431,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0008773176412384972
+    },
+    {
+      "reference_piece": 432,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0003224711972976263
+    },
+    {
+      "reference_piece": 433,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0006673503128229242
+    },
+    {
+      "reference_piece": 434,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00032861558554830313
+    },
+    {
+      "reference_piece": 435,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0012858660464394002
+    },
+    {
+      "reference_piece": 436,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.842170943040401e-14,
+      "budget": 0.0007897376920832236
+    },
+    {
+      "reference_piece": 437,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009068013817502799
+    },
+    {
+      "reference_piece": 438,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0013411963917204742
+    },
+    {
+      "reference_piece": 439,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0004918858315599957
+    },
+    {
+      "reference_piece": 440,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009572256217680106
+    },
+    {
+      "reference_piece": 441,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.001248928732540473
+    },
+    {
+      "reference_piece": 442,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0011920542045955197
+    },
+    {
+      "reference_piece": 443,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.00237327293826459
+    },
+    {
+      "reference_piece": 444,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0017382803362879407
+    },
+    {
+      "reference_piece": 445,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0007901410376143797
+    },
+    {
+      "reference_piece": 446,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009068655624489239
+    },
+    {
+      "reference_piece": 447,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0013406195656844857
+    },
+    {
+      "reference_piece": 448,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0016651567011523763
+    },
+    {
+      "reference_piece": 449,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0004922891770911586
+    },
+    {
+      "reference_piece": 450,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0008518758052195123
+    },
+    {
+      "reference_piece": 451,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0003224955671089093
+    },
+    {
+      "reference_piece": 452,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.7053025658242404e-13,
+      "budget": 0.0006418543081987685
+    },
+    {
+      "reference_piece": 453,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003287656118946522
+    },
+    {
+      "reference_piece": 454,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0012293789123289593
+    },
+    {
+      "reference_piece": 455,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0016852006285464531
+    },
+    {
+      "reference_piece": 456,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0030570131061633168
+    },
+    {
+      "reference_piece": 457,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.001021473183601134
+    },
+    {
+      "reference_piece": 458,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0028431733512852184
+    },
+    {
+      "reference_piece": 459,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.002069995937217497
+    },
+    {
+      "reference_piece": 460,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.002193738703634174
+    },
+    {
+      "reference_piece": 461,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0018521004675848389
+    },
+    {
+      "reference_piece": 462,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0009967025645397866
+    },
+    {
+      "reference_piece": 463,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.001684485676306861
+    },
+    {
+      "reference_piece": 464,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0018514392719556079
+    },
+    {
+      "reference_piece": 465,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.00254761360461873
+    },
+    {
+      "reference_piece": 466,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009972830106926294
+    },
+    {
+      "reference_piece": 467,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0015126313475963427
+    },
+    {
+      "reference_piece": 468,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0003023289418023759
+    },
+    {
+      "reference_piece": 469,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0003023567548321247
+    },
+    {
+      "reference_piece": 470,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0012151662161257785
+    },
+    {
+      "reference_piece": 471,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0005478456383454329
+    },
+    {
+      "reference_piece": 472,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0009282135495621503
+    },
+    {
+      "reference_piece": 473,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003224955671089087
+    },
+    {
+      "reference_piece": 474,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000206213670580557
+    },
+    {
+      "reference_piece": 475,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0003706468863241514
+    },
+    {
+      "reference_piece": 476,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.0012148219782250624
+    },
+    {
+      "reference_piece": 477,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0002059907627685176
+    },
+    {
+      "reference_piece": 478,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0003707152477403968
+    },
+    {
+      "reference_piece": 479,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 2.2737367544323206e-13,
+      "budget": 0.0005477939074699725
+    },
+    {
+      "reference_piece": 480,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.000928309463477009
+    },
+    {
+      "reference_piece": 481,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.00025880821043807936
+    },
+    {
+      "reference_piece": 482,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 7.363580269430429e-05
+    },
+    {
+      "reference_piece": 483,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006442293627289231
+    },
+    {
+      "reference_piece": 484,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006440295147111179
+    },
+    {
+      "reference_piece": 485,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.000679660555667876
+    },
+    {
+      "reference_piece": 486,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0008559877377172847
+    },
+    {
+      "reference_piece": 487,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0002716178923822293
+    },
+    {
+      "reference_piece": 488,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006440295147111224
+    },
+    {
+      "reference_piece": 489,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.2737367544323206e-13,
+      "budget": 0.002190101848877462
+    },
+    {
+      "reference_piece": 490,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.44216160175484e-05
+    },
+    {
+      "reference_piece": 491,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.000601774244318635
+    },
+    {
+      "reference_piece": 492,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0002500573815323108
+    },
+    {
+      "reference_piece": 493,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0005458583738527858
+    },
+    {
+      "reference_piece": 494,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.8421709430404007e-13,
+      "budget": 0.0008561776677409072
+    },
+    {
+      "reference_piece": 495,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0002715161363174276
+    },
+    {
+      "reference_piece": 496,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0002671543548857479
+    },
+    {
+      "reference_piece": 497,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009282535939256745
+    },
+    {
+      "reference_piece": 498,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00027161459881064163
+    },
+    {
+      "reference_piece": 499,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0006442293627289262
+    },
+    {
+      "reference_piece": 500,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.002190345237279281
+    },
+    {
+      "reference_piece": 501,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 7.425352630768596e-05
+    },
+    {
+      "reference_piece": 502,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0005459879330334391
+    },
+    {
+      "reference_piece": 503,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0009282694160875076
+    },
+    {
+      "reference_piece": 504,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0002715194224486166
+    },
+    {
+      "reference_piece": 505,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0015255232538561384
+    },
+    {
+      "reference_piece": 506,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0015254842874096858
+    },
+    {
+      "reference_piece": 507,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006362554397680267
+    },
+    {
+      "reference_piece": 508,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0012773833443572064
+    },
+    {
+      "reference_piece": 509,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.458761667046454e-05
+    },
+    {
+      "reference_piece": 510,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.000601635308368224
+    },
+    {
+      "reference_piece": 511,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0002498546626148663
+    },
+    {
+      "reference_piece": 512,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 7.368453747314427e-05
+    },
+    {
+      "reference_piece": 513,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.00033510409362086125
+    },
+    {
+      "reference_piece": 514,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006998935442962207
+    },
+    {
+      "reference_piece": 515,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0006997235893706704
+    },
+    {
+      "reference_piece": 516,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0004393813448610108
+    },
+    {
+      "reference_piece": 517,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00045603324313963354
+    },
+    {
+      "reference_piece": 518,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006870838781518114
+    },
+    {
+      "reference_piece": 519,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006760223454734158
+    },
+    {
+      "reference_piece": 520,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00024882329641984403
+    },
+    {
+      "reference_piece": 521,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0004560819823640292
+    },
+    {
+      "reference_piece": 522,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.453887820885863e-05
+    },
+    {
+      "reference_piece": 523,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0006871072512788015
+    },
+    {
+      "reference_piece": 524,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0006760157720762106
+    },
+    {
+      "reference_piece": 525,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0003352834064668073
+    },
+    {
+      "reference_piece": 526,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0002479445860719264
+    },
+    {
+      "reference_piece": 527,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0010413089080698664
+    },
+    {
+      "reference_piece": 528,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0012296746183534698
+    },
+    {
+      "reference_piece": 529,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0018110788154171507
+    },
+    {
+      "reference_piece": 530,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.001635663149310235
+    },
+    {
+      "reference_piece": 531,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.842170943040401e-14,
+      "budget": 0.002423732083106556
+    },
+    {
+      "reference_piece": 532,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0012297290530189405
+    },
+    {
+      "reference_piece": 533,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0018109879875803617
+    },
+    {
+      "reference_piece": 534,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -8.526512829121202e-14,
+      "budget": 0.002589318669918795
+    },
+    {
+      "reference_piece": 535,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -2.842170943040401e-14,
+      "budget": 0.0017976919642486043
+    },
+    {
+      "reference_piece": 536,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0007978456703100997
+    },
+    {
+      "reference_piece": 537,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.001229051507842467
+    },
+    {
+      "reference_piece": 538,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0007492093153526286
+    },
+    {
+      "reference_piece": 539,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.001266841127913509
+    },
+    {
+      "reference_piece": 540,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0018110046024944586
+    },
+    {
+      "reference_piece": 541,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.002589105228197026
+    },
+    {
+      "reference_piece": 542,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0017974049492503058
+    },
+    {
+      "reference_piece": 543,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00022053534297102926
+    },
+    {
+      "reference_piece": 544,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0011047008413133503
+    },
+    {
+      "reference_piece": 545,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0009572094368279112
+    },
+    {
+      "reference_piece": 546,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.001041243721853759
+    },
+    {
+      "reference_piece": 547,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0011047120090028229
+    },
+    {
+      "reference_piece": 548,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0017557087018314713
+    },
+    {
+      "reference_piece": 549,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.00044167101084341767
+    },
+    {
+      "reference_piece": 550,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.002421798303404947
+    },
+    {
+      "reference_piece": 551,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.002840770484733638
+    },
+    {
+      "reference_piece": 552,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0015645389164264472
+    },
+    {
+      "reference_piece": 553,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0032527535049533688
+    },
+    {
+      "reference_piece": 554,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.002317243439552182
+    },
+    {
+      "reference_piece": 555,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0009079128197440345
+    },
+    {
+      "reference_piece": 556,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.00044143767929937677
+    },
+    {
+      "reference_piece": 557,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.002421102416492682
+    },
+    {
+      "reference_piece": 558,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0024093748090702194
+    },
+    {
+      "reference_piece": 559,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0001574373020024979
+    },
+    {
+      "reference_piece": 560,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 0.0019369344768184293
+    },
+    {
+      "reference_piece": 561,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 7.626524414868108e-05
+    },
+    {
+      "reference_piece": 562,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0015543071352553675
+    },
+    {
+      "reference_piece": 563,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0013966554544031385
+    },
+    {
+      "reference_piece": 564,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.1368683772161603e-13,
+      "budget": 0.0014233536291251327
+    },
+    {
+      "reference_piece": 565,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.00015754419404913353
+    },
+    {
+      "reference_piece": 566,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 1.1368683772161603e-13,
+      "budget": 0.0023352076452169833
+    },
+    {
+      "reference_piece": 567,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -5.684341886080802e-14,
+      "budget": 7.721765429185408e-05
+    },
+    {
+      "reference_piece": 568,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0014233752240258336
+    },
+    {
+      "reference_piece": 569,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": -1.7053025658242404e-13,
+      "budget": 0.0023623940196723934
+    },
+    {
+      "reference_piece": 570,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 5.684341886080802e-14,
+      "budget": 0.0019056909948934407
+    },
+    {
+      "reference_piece": 571,
+      "uncovered_area": 0,
+      "duplicate_coverage_area": 0.0,
+      "budget": 0.0017211936790379198
+    }
+  ],
+  "matched_surface_pairs": 1059,
+  "maximum_matched_plane_displacement": 2.697398308271204e-06,
+  "predeclared_max_coordinate_ulp": 7.62939453125e-06,
+  "distance_budget_4ulp": 3.0517578125e-05,
+  "reference_union_volume": 3030.9082007580546,
+  "saved_union_volume": 3030.9082006955305,
+  "volume_difference": -6.252412276808172e-08,
+  "volume_budget": 0.23249056351611894,
+  "failures": [],
+  "math_controls": 6,
+  "scope": "Both-direction oriented surface coverage from independently clipped convex input boundary; saved float32 numerical bounds, not exact rational or global model certification."
+}

@@ -1,0 +1,159 @@
+{
+  "pass": true,
+  "candidate_sha256": "48f1270189ab16598ff709188a03a057efe608488ecdc6c60d1922fb88059160",
+  "groups": [
+    {
+      "group": 1,
+      "positive_polygon_count": 113,
+      "loop_triangle_count": 280,
+      "maximum_triangulation_area_residual": 9.289192706707361e-09,
+      "all_nonzero_triangles_follow_polygon_orientation": true
+    },
+    {
+      "group": 2,
+      "positive_polygon_count": 113,
+      "loop_triangle_count": 280,
+      "maximum_triangulation_area_residual": 6.988902359617022e-09,
+      "all_nonzero_triangles_follow_polygon_orientation": true
+    },
+    {
+      "group": 3,
+      "positive_polygon_count": 114,
+      "loop_triangle_count": 278,
+      "maximum_triangulation_area_residual": 1.2034433158336633e-08,
+      "all_nonzero_triangles_follow_polygon_orientation": true
+    },
+    {
+      "group": 4,
+      "positive_polygon_count": 113,
+      "loop_triangle_count": 280,
+      "maximum_triangulation_area_residual": 5.860114056510657e-08,
+      "all_nonzero_triangles_follow_polygon_orientation": true
+    }
+  ],
+  "exact_zero_measure_loop_triangles": [
+    {
+      "group": 3,
+      "triangle": 45,
+      "vertices": [
+        59,
+        57,
+        128
+      ],
+      "parent_polygon": 21,
+      "parent_vertices": [
+        59,
+        50,
+        57,
+        128
+      ],
+      "parent_coordinates": [
+        [
+          4.8936896324157715,
+          57.993690490722656,
+          74.4000015258789
+        ],
+        [
+          27.10630989074707,
+          57.993690490722656,
+          74.4000015258789
+        ],
+        [
+          4.8936896324157715,
+          58.0,
+          74.39369201660156
+        ],
+        [
+          4.8936896324157715,
+          57.99424743652344,
+          74.39944458007812
+        ]
+      ],
+      "triangle_coordinates": [
+        [
+          4.8936896324157715,
+          57.993690490722656,
+          74.4000015258789
+        ],
+        [
+          4.8936896324157715,
+          58.0,
+          74.39369201660156
+        ],
+        [
+          4.8936896324157715,
+          57.99424743652344,
+          74.39944458007812
+        ]
+      ],
+      "parent_area": 0.0991015341126256,
+      "parent_loop_triangles": [
+        {
+          "index": 44,
+          "coordinates": [
+            [
+              4.8936896324157715,
+              57.993690490722656,
+              74.4000015258789
+            ],
+            [
+              27.10630989074707,
+              57.993690490722656,
+              74.4000015258789
+            ],
+            [
+              4.8936896324157715,
+              58.0,
+              74.39369201660156
+            ]
+          ]
+        },
+        {
+          "index": 45,
+          "coordinates": [
+            [
+              4.8936896324157715,
+              57.993690490722656,
+              74.4000015258789
+            ],
+            [
+              4.8936896324157715,
+              58.0,
+              74.39369201660156
+            ],
+            [
+              4.8936896324157715,
+              57.99424743652344,
+              74.39944458007812
+            ]
+          ]
+        }
+      ],
+      "exact_rational_cross_zero": true,
+      "parent_edge_segments": [
+        [
+          59,
+          50
+        ],
+        [
+          50,
+          57
+        ],
+        [
+          57,
+          128
+        ],
+        [
+          128,
+          59
+        ]
+      ],
+      "actual_nonzero_triangle_index": 44,
+      "nonzero_triangle_exactly_parent_convex_hull": true,
+      "parent_exact_planar_convex_with_one_collinear_boundary_vertex": true,
+      "nonzero_tessellation_triangle_count": 1
+    }
+  ],
+  "source_unchanged": true,
+  "scope": "One exact-rational collinear tessellation triangle, not a saved degenerate polygon. Omitting its zero measure for oriented surface integration does not remove any area or alter geometry."
+}

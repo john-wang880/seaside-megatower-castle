@@ -1,0 +1,8 @@
+{
+  "original_candidate_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "original_candidate_built_by_wrapper": false,
+  "superseded_candidate_sha256": "bd2fddc6f1ced997852c8d42106c7d0d3989e6bf228e56f8e4397626c6892f2d",
+  "difference": "Wrapper adds source/scope/runtime/output guards and private staging; successful executed builder/helper/plan/SCOPE exact copies",
+  "source_commit": "0d332990a252bbb2d51f73e69bdefd34e2931c19",
+  "fresh_rebuild_pending": true
+}

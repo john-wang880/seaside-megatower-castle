@@ -1,10 +1,10 @@
 {
   "schema": "castle-current-inspection-catalog-v1",
-  "reviewed_version": 24,
-  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
-  "source_bytes": 47631759,
-  "collection": "INSPECT24 | Optional review cameras",
-  "text": "INSPECT24 | Run manually for bookmarks.py",
+  "reviewed_version": 25,
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "source_bytes": 47663562,
+  "collection": "INSPECT25 | Optional review cameras",
+  "text": "INSPECT25 | Run manually for bookmarks.py",
   "marker": "castle_inspection_copy_v1",
   "views": {
     "hero": {
@@ -61,7 +61,7 @@
     },
     "west_approach": {
       "label": "西侧进路 / Western woodland approach",
-      "camera_name": "INSPECT24 | west_approach",
+      "camera_name": "INSPECT25 | west_approach",
       "existing": false,
       "matrix": [
         [
@@ -113,7 +113,7 @@
     },
     "east_portal": {
       "label": "东侧入口 / Eastern entrance arrival",
-      "camera_name": "INSPECT24 | east_portal",
+      "camera_name": "INSPECT25 | east_portal",
       "existing": false,
       "matrix": [
         [
@@ -165,7 +165,7 @@
     },
     "bend": {
       "label": "室内转角 / Interior bend towards north stair",
-      "camera_name": "INSPECT24 | bend",
+      "camera_name": "INSPECT25 | bend",
       "existing": false,
       "matrix": [
         [
@@ -217,7 +217,7 @@
     },
     "upper_stairs": {
       "label": "上层楼梯 / Covered terrace looking down the stair",
-      "camera_name": "INSPECT24 | upper_stairs",
+      "camera_name": "INSPECT25 | upper_stairs",
       "existing": false,
       "matrix": [
         [
@@ -269,7 +269,7 @@
     },
     "terminal": {
       "label": "终点平台 / Upper arrival and terminal floor",
-      "camera_name": "INSPECT24 | terminal",
+      "camera_name": "INSPECT25 | terminal",
       "existing": false,
       "matrix": [
         [
@@ -321,7 +321,7 @@
     },
     "offshore_marker": {
       "label": "离岸标塔 / Offshore marker and supported stair",
-      "camera_name": "INSPECT24 | offshore_marker",
+      "camera_name": "INSPECT25 | offshore_marker",
       "existing": false,
       "matrix": [
         [
@@ -373,7 +373,7 @@
     },
     "crown": {
       "label": "主塔屋顶 / Main crown slate courses",
-      "camera_name": "INSPECT24 | crown",
+      "camera_name": "INSPECT25 | crown",
       "existing": false,
       "matrix": [
         [
@@ -425,7 +425,7 @@
     },
     "west_crown": {
       "label": "西塔屋顶 / Western octagonal cap slate courses",
-      "camera_name": "INSPECT24 | west_crown",
+      "camera_name": "INSPECT25 | west_crown",
       "existing": false,
       "matrix": [
         [
@@ -477,7 +477,7 @@
     },
     "bridge_close": {
       "label": "桥墩与拱 / Bridge pier and arch",
-      "camera_name": "INSPECT24 | bridge_close",
+      "camera_name": "INSPECT25 | bridge_close",
       "existing": false,
       "matrix": [
         [
@@ -528,7 +528,7 @@
     },
     "west_lower_tier": {
       "label": "西塔下层石肋 / Western lower tier",
-      "camera_name": "INSPECT24 | west_lower_tier",
+      "camera_name": "INSPECT25 | west_lower_tier",
       "existing": false,
       "matrix": [
         [
@@ -579,7 +579,7 @@
     },
     "path_context": {
       "label": "既有路面 / Existing path context",
-      "camera_name": "INSPECT24 | path_context",
+      "camera_name": "INSPECT25 | path_context",
       "existing": false,
       "matrix": [
         [
@@ -626,6 +626,60 @@
         "recipe": "work/v023_path_conformance/visual/views.json",
         "recipe_sha256": "ed6365ccf22cc70258b28ab8899a426403934baa7212102845cff50460edd81e",
         "note": "Exact actual detail-camera recipe; elevated inspection, not a route walkthrough."
+      }
+    },
+    "rear_landward": {
+      "label": "背面总览 / Elevated rear overview",
+      "camera_name": "INSPECT25 | rear_landward",
+      "existing": false,
+      "matrix": [
+        [
+          -0.999432384967804,
+          0.007732450030744076,
+          -0.03278935328125954,
+          -50.0
+        ],
+        [
+          -0.033688757568597794,
+          -0.2293950617313385,
+          0.972750186920166,
+          500.0
+        ],
+        [
+          2.6687128951152772e-08,
+          0.9733026623725891,
+          0.2295253574848175,
+          210.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 45.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "recipe": "provenance/rear_landward_views.json",
+        "recipe_sha256": "c050406219724d64beca61561cacb297c9280c641ee456b64312939ba312faf2",
+        "receipt": "provenance/rear_landward_v025_receipt.json",
+        "receipt_sha256": "dd701706defcb6f78e7b4215a12b5cfe2ab7c63c511abb05458016a61dcf00b9",
+        "render_source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+        "note": "Explicitly approved actual v025 rear overview. Elevated architectural inspection, not a continuous route or accessibility proof; original lighting, no new render."
       }
     }
   }

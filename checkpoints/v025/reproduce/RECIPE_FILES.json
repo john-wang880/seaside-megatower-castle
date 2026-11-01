@@ -1,0 +1,21 @@
+{
+  "files_sha256": {
+    "README.md": "07ac939802b5766d20746a1192b6d9aec6285a2b94afd1fcbcbf1e420da5019d",
+    "RUNTIME.json": "d6ce866c144e874ca42f2b43d569216747699ca6c2b1b72fbbe49f196210f0ca",
+    "SCOPE.json": "5cbedd667a89fd41c1ce0dc3137fea83792ec3b1548367508f5bed9dc1daa739",
+    "WRAPPER_PROVENANCE.json": "115f6fdd74326ba7632f4ef665ccc5d594af22c85e393fa0811193116432afc8",
+    "guard_tests.log": "e9efb13bd7fda49b9b4a149ade23cf3611aff9b235acc55908d3b6575a62a547",
+    "plan.json": "08f3e9d3366d1a99704189486ddd822eb76f37d06959a8d98fbc89c3033ee065",
+    "rebuild.py": "9041230e4566b418aa1e71f1625999d9d9ddcfe645e538c683bb4667920aa3dc",
+    "scripts/SCOPE.json": "5cbedd667a89fd41c1ce0dc3137fea83792ec3b1548367508f5bed9dc1daa739",
+    "scripts/build.py": "96302af06d49668eeae532b824f7bf405d9cdc82d6df15b501fc79dbd26900a8",
+    "scripts/snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "test_guards.py": "5ec6552c28f9616961ed9e7dcea970f2f412711776ae6d87893c9578770a66f5"
+  },
+  "exclude": [
+    "__pycache__",
+    "*.pyc"
+  ],
+  "documentation_delta": "README later completed-gate note only; executed11-file input inventory preserved",
+  "executed_inventory": "fresh Git-only rebuild corrected \u4e2d\u6587/input_manifest.json"
+}
