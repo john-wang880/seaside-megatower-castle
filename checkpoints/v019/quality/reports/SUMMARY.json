@@ -1,0 +1,34 @@
+{
+  "status": "LOCAL_VERIFIED_REMOTE_EXPORT_QA_PENDING",
+  "accepted_source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "canonical_model_changed": false,
+  "new_model_version": false,
+  "modes": [
+    "HIGH currentv019",
+    "LOW originalv018targetcanopy"
+  ],
+  "original_other_data_preserved": true,
+  "actual_reference_decoded_pixels_exact": true,
+  "max_channel_difference": 0,
+  "high_peak_rss_kib": 2122336,
+  "low_peak_rss_kib": 2017628,
+  "observed_peak_reduction_mib": 102.25390625,
+  "high_render_seconds": 76.83,
+  "low_render_seconds": 75.09,
+  "source_quality_samples": 80,
+  "runtime": "Linux Blender5.2.3,8threads,1200x866",
+  "tests": {
+    "pure": 5,
+    "filesystem_guards": 7,
+    "mode_deep_preservation": true,
+    "reopen_operator_repeat_registration": true,
+    "ancestor_visibility_and_multiple_membership_guards": true
+  },
+  "limits": [
+    "One ordered pair, no guaranteed speedup or universalmemorybenefit",
+    "Hidden highdetail data remainsstored; nofilesizesaving",
+    "HeadlessBlenderAPIpanel tests, notactualWindows/desktopUIclicks",
+    "Mode switchdoesnotundoarbitraryuseredits",
+    "ManualTextnotautoexecuted,nosourceoverwrite"
+  ]
+}

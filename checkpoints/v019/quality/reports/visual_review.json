@@ -1,0 +1,44 @@
+{
+  "status": "PASS bounded actual-mode equivalence and visual review",
+  "high_decoded_pixels_exact_to_published_v019": true,
+  "low_decoded_pixels_exact_to_v018_baseline": true,
+  "both_images_inspected": true,
+  "findings": [
+    "HIGH preserves the accepted dense conifer appearance exactly at the tested actual camera/settings.",
+    "LOW restores the original pear-clump foliage appearance exactly at the same camera/settings.",
+    "No ghost trunk, duplicated foliage or exposed residual high-detail branch is visible in LOW; HIGH likewise shows no new artifact. Exact decoded-pixel equality is stronger than visual similarity for these two frames."
+  ],
+  "observed_metrics": [
+    {
+      "mode": "HIGH",
+      "load_seconds": 0.42932163999648765,
+      "render_seconds": 76.82972275499196,
+      "peak_rss_linux_kib": 2122336,
+      "process_wall_seconds": 78.07834207398992
+    },
+    {
+      "mode": "LOW",
+      "load_seconds": 0.4033265080070123,
+      "render_seconds": 75.08560085199133,
+      "peak_rss_linux_kib": 2017628,
+      "process_wall_seconds": 76.24905995799054
+    }
+  ],
+  "observed_low_peak_reduction_mib": 102.25390625,
+  "limits": [
+    "Only one fresh HIGH then LOW process at one actual approach viewpoint; not a randomized/repeated speed benchmark.",
+    "HIGH meshes remain stored in LOW viewer. No file-size savings or guaranteed load-time/storage-memory reduction claimed.",
+    "Native Blender Linux render only, not GUI toggle-click verification or native Windows validation.",
+    "Source/viewer files unchanged and no model-version change."
+  ],
+  "images": [
+    "final/HIGH/image.png",
+    "final/LOW/image.png"
+  ],
+  "receipts": [
+    "final/HIGH/receipt.json",
+    "final/LOW/receipt.json"
+  ],
+  "comparison": "final/comparison.json",
+  "scope_closed": "Two approved renders complete; Blender slot released; no further render requested."
+}

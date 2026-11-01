@@ -1,0 +1,108 @@
+{
+  "resolution": [
+    1200,
+    866
+  ],
+  "threads": 8,
+  "samples": 80,
+  "source_scene_frame": 1,
+  "views": {
+    "approach": {
+      "location": [
+        -99,
+        38,
+        32
+      ],
+      "target": [
+        -79,
+        38,
+        26.5
+      ],
+      "reference_matrix": [
+        [
+          7.549790126404332e-08,
+          0.2651565670967102,
+          -0.9642053842544556,
+          -99.0
+        ],
+        [
+          -1.0,
+          2.0018763535745165e-08,
+          -7.279547986627222e-08,
+          38.0
+        ],
+        [
+          0.0,
+          0.9642053842544556,
+          0.2651565670967102,
+          32.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_data": {
+        "lens": 38.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0
+      }
+    },
+    "hero": {
+      "existing_camera": "V002 | full coastal skyline camera",
+      "reference_matrix": [
+        [
+          0.9586064219474792,
+          0.03275119885802269,
+          0.2828447222709656,
+          115.0
+        ],
+        [
+          0.2847345769405365,
+          -0.11026249080896378,
+          -0.9522438645362854,
+          -470.0
+        ],
+        [
+          3.3001199994942e-08,
+          0.9933627247810364,
+          -0.11502372473478317,
+          24.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_data": {
+        "lens": 43.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0
+      }
+    }
+  },
+  "provenance": {
+    "approach": "work/forest_dense_trial/before_west_render_receipt.json; canonical V018, not rejected candidate",
+    "hero": "work/v018_navigation/current_hero/metadata.json; canonical V018"
+  },
+  "comparison_order": [
+    "baseline_approach",
+    "candidate_approach",
+    "baseline_hero",
+    "candidate_hero"
+  ]
+}

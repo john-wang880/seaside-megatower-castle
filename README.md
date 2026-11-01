@@ -6,6 +6,7 @@
 
 - [原光照前后对照](checkpoints/v019/previews/tree_crop_pair.png) · [整体全景](checkpoints/v019/previews/hero_after.png)
 - **[恢复、检查与原树切换](checkpoints/v019/README.md)**
+- [可选 HIGH/LOW 浏览副本和两个按钮](checkpoints/v019/quality/README.md)（不改原工程）
 - [恢复清单](checkpoints/v019/MANIFEST.json) · [持续计划](CONTINUATION.md)
 
 克隆完整仓库（含model_chunks），运行 `python checkpoints/v019/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块和整文件SHA-256验证，精确恢复原字节。

@@ -1,0 +1,41 @@
+{
+  "status": "OPTIONAL_VIEWER_COPY_NOT_NEW_CHECKPOINT",
+  "source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "source_file_unchanged": true,
+  "output_sha256": "f1877462966ca86b4330e42d2733319f7bf70087a1b8ddb6025fddcbde9e3321",
+  "output_bytes": 47595312,
+  "mode": "LOW",
+  "controls_sha256": "65eb4ebb7e8ca6c936212da0a58b024efe7bbe836f2fb9098c0bebcc8a16f8db",
+  "marker": {
+    "mode": "LOW",
+    "schema": "castle-v019-quality-v1",
+    "source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a"
+  },
+  "text": "CASTLE | v019 tree quality controls (manual)",
+  "text_use_module": false,
+  "flags": {
+    "mask_viewport": false,
+    "mask_render": false,
+    "objects": [
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        true
+      ]
+    ]
+  },
+  "allowed_deltas": [
+    "One manual-only Text datablock",
+    "One owned scene marker",
+    "Six paired visibility flags in LOW; canonical flags in HIGH"
+  ],
+  "limits": [
+    "Both high meshes remain stored; no file-size saving claim",
+    "One tree only; original wood/other forest unchanged",
+    "Manual panel never saves or installs an addon",
+    "Independent reopened-source/geometry preservation QA required"
+  ]
+}

@@ -330,3 +330,6 @@ One authored foreground crown replaces pear-like clumps reversibly, original woo
 
 ## 2026-11-01 — self-contained v019 reproduction utility
 Added separate explicit-input generator/semantic QA/controller, retaining frozen executed scripts and model bytes. Numerical recipe AST unchanged; regenerated mesh/material semantics and mapping values exact against accepted v019, five mutation controls reject. Model restoration remains byte-exact; procedural rebuild allows saving metadata differences and does not create new acceptance/version. Fresh isolated controller and remote artifact checks recorded separately.
+
+## 2026-11-01 — optional per-tree quality viewer
+Separate source-pinned HIGH/LOW export and manual sidebar controls, no autoexec/install/save. Scopedmask/objectflags preserve originalgeometry; strictmode/source/reopen/operator andguard tests pass. Ancestorvisibility gap caught andfailclosed beforefinalcopies. ActualHIGH andLOW decodedpixels exactlymatch originalv019/v018 approach respectively. OnefreshpairLOWpeakRSS102.25MiBlower; highgeometryremainsstored, nofilesize/speedguarantee. No newmodelversion; utilityremoteverification follows.
