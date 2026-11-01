@@ -1,0 +1,10 @@
+{
+  "case": "orientation",
+  "rejected": true,
+  "error": "",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/negative.py\", line 7, in <module>\n    try:exec(compile(s,str(p),'exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/validate.py\", line 41, in <module>\n    axis=max(range(3),key=lambda k:abs(f.normal[k]));assert abs(f.normal[axis])==1 and all(v.co[axis]==(hi[axis] if f.normal[axis]>0 else lo[axis]) for v in [m.vertices[i] for i in f.vertices])\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "actual_executed_assertion": " bm=bmesh.new();bm.from_mesh(m);assert all(e.is_manifold and e.is_contiguous for e in bm.edges);vol=bm.calc_volume(signed=True);assert vol>0;bm.free()",
+  "executed_mutation": "m=bpy.data.objects[plan['pairs'][0]['union_object']].data; bm=bmesh.new();bm.from_mesh(m);bm.faces.ensure_lookup_table();bm.faces[0].normal_flip();bm.to_mesh(m);bm.free()",
+  "executed_source_sha256": "1241de9bd863328c4c16f448f610b209c99bbdfbe37eac96bc62a404a348f1d3",
+  "traceback_note": "Python linecache displayed original validator text; actual executed assertion below uses expanded in-memory script line."
+}

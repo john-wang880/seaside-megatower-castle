@@ -1,0 +1,4078 @@
+{
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "source_unchanged": true,
+  "rays": [
+    {
+      "pixel": [
+        344,
+        210
+      ],
+      "direction": [
+        0.050710469484329224,
+        0.9986419677734375,
+        0.01194061804562807
+      ],
+      "hits": [
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11897,
+          "location": [
+            -39.9126091003418,
+            34.79999923706055,
+            25.72697639465332
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15882,
+            15883,
+            15887,
+            15886
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11898,
+          "location": [
+            -39.70000076293945,
+            38.98686981201172,
+            25.77703857421875
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15883,
+            15884,
+            15888,
+            15887
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11940,
+          "location": [
+            -39.587615966796875,
+            41.20000076293945,
+            25.80350112915039
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15958,
+            15959,
+            15963,
+            15962
+          ]
+        },
+        {
+          "object": "Air perspective behind the citadel",
+          "face": 2,
+          "location": [
+            -29.619613647460938,
+            237.49996948242188,
+            28.150632858276367
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "Atmosphere | thin distant marine haze",
+          "face_vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "object": "Air perspective behind the citadel",
+          "face": 4,
+          "location": [
+            -25.8111572265625,
+            312.5,
+            29.04739761352539
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "Atmosphere | thin distant marine haze",
+          "face_vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        344,
+        350
+      ],
+      "direction": [
+        0.04949084669351578,
+        0.9967796206474304,
+        -0.06309694796800613
+      ],
+      "hits": [
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11897,
+          "location": [
+            -39.98123550415039,
+            34.80000686645508,
+            21.151309967041016
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15882,
+            15883,
+            15887,
+            15886
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11898,
+          "location": [
+            -39.70000076293945,
+            40.464263916015625,
+            20.79275894165039
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15883,
+            15884,
+            15888,
+            15887
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11940,
+          "location": [
+            -39.66347122192383,
+            41.20000076293945,
+            20.746187210083008
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15958,
+            15959,
+            15963,
+            15962
+          ]
+        },
+        {
+          "object": "Air perspective behind the citadel",
+          "face": 2,
+          "location": [
+            -29.917030334472656,
+            237.50001525878906,
+            8.320240020751953
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "Atmosphere | thin distant marine haze",
+          "face_vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "object": "Air perspective behind the citadel",
+          "face": 0,
+          "location": [
+            -26.920578002929688,
+            297.8505859375,
+            4.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "material": "Atmosphere | thin distant marine haze",
+          "face_vertices": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "object": "Open sea | rippled three-dimensional water surface",
+          "face": 35148,
+          "location": [
+            -23.126319885253906,
+            374.26953125,
+            -0.33738136291503906
+          ],
+          "normal": [
+            -0.016107913106679916,
+            0.0021547130309045315,
+            0.9998679757118225
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            35294,
+            35295,
+            35536,
+            35535
+          ]
+        },
+        {
+          "object": "Distant ocean to the horizon",
+          "face": 0,
+          "location": [
+            -23.052143096923828,
+            375.76348876953125,
+            -0.4319502115249634
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        344,
+        550
+      ],
+      "direction": [
+        0.04725125804543495,
+        0.9842715859413147,
+        -0.17022575438022614
+      ],
+      "hits": [
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11897,
+          "location": [
+            -40.081214904785156,
+            34.80000305175781,
+            14.48488712310791
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15882,
+            15883,
+            15887,
+            15886
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11899,
+          "location": [
+            -39.77397537231445,
+            41.20000076293945,
+            13.378033638000488
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15884,
+            15885,
+            15889,
+            15888
+          ]
+        },
+        {
+          "object": "Open sea | rippled three-dimensional water surface",
+          "face": 26506,
+          "location": [
+            -35.97335433959961,
+            120.36915588378906,
+            -0.3139476776123047
+          ],
+          "normal": [
+            -0.012171518988907337,
+            0.015350373461842537,
+            0.9998080730438232
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            26616,
+            26617,
+            26858,
+            26857
+          ]
+        },
+        {
+          "object": "Distant ocean to the horizon",
+          "face": 0,
+          "location": [
+            -35.94058609008789,
+            121.05171203613281,
+            -0.4319930374622345
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        350,
+        700
+      ],
+      "direction": [
+        0.048403672873973846,
+        0.9673830270767212,
+        -0.24865084886550903
+      ],
+      "hits": [
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11897,
+          "location": [
+            -39.95783233642578,
+            34.79999542236328,
+            9.37230110168457
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15882,
+            15883,
+            15887,
+            15886
+          ]
+        },
+        {
+          "object": "V012 | legacy ashlar with buried-route clearance",
+          "face": 3865,
+          "location": [
+            -39.71015930175781,
+            39.749916076660156,
+            8.100000381469727
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "West_Ashlar stone variation",
+          "face_vertices": [
+            5156,
+            5157,
+            5158,
+            5159
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11898,
+          "location": [
+            -39.70000076293945,
+            39.95296859741211,
+            8.047808647155762
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15883,
+            15884,
+            15888,
+            15887
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11940,
+          "location": [
+            -39.63760757446289,
+            41.20000076293945,
+            7.727278709411621
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15958,
+            15959,
+            15963,
+            15962
+          ]
+        },
+        {
+          "object": "V012 | legacy ashlar with buried-route clearance",
+          "face": 3868,
+          "location": [
+            -39.61259078979492,
+            41.70000076293945,
+            7.598761081695557
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "West_Ashlar stone variation",
+          "face_vertices": [
+            5154,
+            5155,
+            5159,
+            5158
+          ]
+        },
+        {
+          "object": "V002 | western headland with solid rock shore",
+          "face": 29474,
+          "location": [
+            -39.590450286865234,
+            42.14254379272461,
+            7.485011577606201
+          ],
+          "normal": [
+            0.7221917510032654,
+            -0.2909156382083893,
+            0.627540647983551
+          ],
+          "material": "Meadow and slate | slope-based procedural strata",
+          "face_vertices": [
+            14610,
+            14867,
+            14611
+          ]
+        },
+        {
+          "object": "Open sea | rippled three-dimensional water surface",
+          "face": 24825,
+          "location": [
+            -38.070919036865234,
+            72.51148986816406,
+            -0.32085752487182617
+          ],
+          "normal": [
+            -0.0008033697376959026,
+            -0.012450581416487694,
+            0.9999221563339233
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            24928,
+            24929,
+            25170,
+            25169
+          ]
+        },
+        {
+          "object": "Distant ocean to the horizon",
+          "face": 0,
+          "location": [
+            -38.04930114746094,
+            72.94355773925781,
+            -0.43191394209861755
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "object": "V002 | western headland with solid rock shore",
+          "face": 35017,
+          "location": [
+            -37.86400604248047,
+            76.6468734741211,
+            -1.3837937116622925
+          ],
+          "normal": [
+            0.7583525776863098,
+            0.4811021685600281,
+            0.4398205876350403
+          ],
+          "material": "V002 | tidal slate with wet lower band",
+          "face_vertices": [
+            17381,
+            17382,
+            17638
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        350,
+        775
+      ],
+      "direction": [
+        0.04728071391582489,
+        0.9568643569946289,
+        -0.28666210174560547
+      ],
+      "hits": [
+        {
+          "object": "V012 | legacy ashlar with buried-route clearance",
+          "face": 3860,
+          "location": [
+            -40.02044677734375,
+            34.29999923706055,
+            6.935031890869141
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Ashlar stone variation",
+          "face_vertices": [
+            5144,
+            5145,
+            5149,
+            5148
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11897,
+          "location": [
+            -39.9957389831543,
+            34.79999923706055,
+            6.785240173339844
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15882,
+            15883,
+            15887,
+            15886
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11895,
+          "location": [
+            -39.86622619628906,
+            37.42109680175781,
+            6.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15882,
+            15885,
+            15884,
+            15883
+          ]
+        },
+        {
+          "object": "V002 | western headland with solid rock shore",
+          "face": 29984,
+          "location": [
+            -39.834171295166016,
+            38.06980895996094,
+            5.8056559562683105
+          ],
+          "normal": [
+            0.6993590593338013,
+            -0.28781938552856445,
+            0.6542606353759766
+          ],
+          "material": "Meadow and slate | slope-based procedural strata",
+          "face_vertices": [
+            14865,
+            15122,
+            14866
+          ]
+        },
+        {
+          "object": "V012 | legacy ashlar with buried-route clearance",
+          "face": 3858,
+          "location": [
+            -39.81674575805664,
+            38.4224853515625,
+            5.699999809265137
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "material": "West_Ashlar stone variation",
+          "face_vertices": [
+            5144,
+            5147,
+            5146,
+            5145
+          ]
+        },
+        {
+          "object": "Open sea | rippled three-dimensional water surface",
+          "face": 24345,
+          "location": [
+            -38.81812286376953,
+            58.63250732421875,
+            -0.3546175956726074
+          ],
+          "normal": [
+            -0.003940363880246878,
+            0.0005234651616774499,
+            0.9999921321868896
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            24446,
+            24447,
+            24688,
+            24687
+          ]
+        },
+        {
+          "object": "Distant ocean to the horizon",
+          "face": 0,
+          "location": [
+            -38.805362701416016,
+            58.89072799682617,
+            -0.4319758117198944
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "object": "V002 | western headland with solid rock shore",
+          "face": 35299,
+          "location": [
+            -37.80453109741211,
+            79.14550018310547,
+            -6.499999046325684
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "material": "V002 | tidal slate with wet lower band",
+          "face_vertices": [
+            17665,
+            17636,
+            17637
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        320,
+        775
+      ],
+      "direction": [
+        0.031548358500003815,
+        0.9577036499977112,
+        -0.2860218286514282
+      ],
+      "hits": [
+        {
+          "object": "V012 | legacy ashlar with buried-route clearance",
+          "face": 3860,
+          "location": [
+            -41.01361846923828,
+            34.30000305175781,
+            6.991174697875977
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Ashlar stone variation",
+          "face_vertices": [
+            5144,
+            5145,
+            5149,
+            5148
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11897,
+          "location": [
+            -40.99714660644531,
+            34.79999923706055,
+            6.841848850250244
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15882,
+            15883,
+            15887,
+            15886
+          ]
+        },
+        {
+          "object": "V002 | western headland with solid rock shore",
+          "face": 29473,
+          "location": [
+            -40.94028091430664,
+            36.5262336730957,
+            6.326301574707031
+          ],
+          "normal": [
+            0.7386902570724487,
+            -0.29997509717941284,
+            0.6036154627799988
+          ],
+          "material": "Meadow and slate | slope-based procedural strata",
+          "face_vertices": [
+            14610,
+            14865,
+            14866
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11895,
+          "location": [
+            -40.90428924560547,
+            37.61880874633789,
+            6.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15882,
+            15885,
+            15884,
+            15883
+          ]
+        },
+        {
+          "object": "V012 | legacy ashlar with buried-route clearance",
+          "face": 3858,
+          "location": [
+            -40.87119674682617,
+            38.62331771850586,
+            5.699999809265137
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "material": "West_Ashlar stone variation",
+          "face_vertices": [
+            5144,
+            5147,
+            5146,
+            5145
+          ]
+        },
+        {
+          "object": "Open sea | rippled three-dimensional water surface",
+          "face": 24345,
+          "location": [
+            -40.20275115966797,
+            58.91510772705078,
+            -0.36022138595581055
+          ],
+          "normal": [
+            -0.003940363880246878,
+            0.0005234651616774499,
+            0.9999921321868896
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            24446,
+            24447,
+            24688,
+            24687
+          ]
+        },
+        {
+          "object": "Distant ocean to the horizon",
+          "face": 0,
+          "location": [
+            -40.19480514526367,
+            59.15632629394531,
+            -0.4322618842124939
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "object": "V002 | western headland with solid rock shore",
+          "face": 35299,
+          "location": [
+            -39.52552795410156,
+            79.4732894897461,
+            -6.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "material": "V002 | tidal slate with wet lower band",
+          "face_vertices": [
+            17665,
+            17636,
+            17637
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        390,
+        775
+      ],
+      "direction": [
+        0.06834043562412262,
+        0.9553670883178711,
+        -0.2874082624912262
+      ],
+      "hits": [
+        {
+          "object": "V012 | retained west rib facade with buried-route clearance",
+          "face": 7788,
+          "location": [
+            -38.68798065185547,
+            34.27999496459961,
+            6.865642547607422
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Sunlit ivory carved stone",
+          "face_vertices": [
+            10488,
+            10489,
+            10493,
+            10492
+          ]
+        },
+        {
+          "object": "V012 | legacy ashlar with buried-route clearance",
+          "face": 3866,
+          "location": [
+            -38.68655014038086,
+            34.29999923706055,
+            6.859624862670898
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Ashlar stone variation",
+          "face_vertices": [
+            5152,
+            5153,
+            5157,
+            5156
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11938,
+          "location": [
+            -38.65078353881836,
+            34.79999923706055,
+            6.709207534790039
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15956,
+            15957,
+            15961,
+            15960
+          ]
+        },
+        {
+          "object": "V012 | retained west rib facade with buried-route clearance",
+          "face": 7790,
+          "location": [
+            -38.64506149291992,
+            34.880001068115234,
+            6.685140609741211
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "West_Sunlit ivory carved stone",
+          "face_vertices": [
+            10490,
+            10491,
+            10495,
+            10494
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11939,
+          "location": [
+            -38.5,
+            36.90788269042969,
+            6.075081825256348
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15957,
+            15958,
+            15962,
+            15961
+          ]
+        },
+        {
+          "object": "V012 | legacy ashlar with buried-route clearance",
+          "face": 3864,
+          "location": [
+            -38.41081237792969,
+            38.154685974121094,
+            5.699999809265137
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "material": "West_Ashlar stone variation",
+          "face_vertices": [
+            5152,
+            5155,
+            5154,
+            5153
+          ]
+        },
+        {
+          "object": "V002 | western headland with solid rock shore",
+          "face": 29986,
+          "location": [
+            -38.26242446899414,
+            40.22908020019531,
+            5.075948715209961
+          ],
+          "normal": [
+            0.699702262878418,
+            -0.3018602430820465,
+            0.6475316286087036
+          ],
+          "material": "Meadow and slate | slope-based procedural strata",
+          "face_vertices": [
+            14866,
+            15122,
+            14867
+          ]
+        },
+        {
+          "object": "Open sea | rippled three-dimensional water surface",
+          "face": 24346,
+          "location": [
+            -36.97490310668945,
+            58.22801971435547,
+            -0.33876895904541016
+          ],
+          "normal": [
+            -0.012108089402318,
+            0.000523431459441781,
+            0.9999265670776367
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            24447,
+            24448,
+            24689,
+            24688
+          ]
+        },
+        {
+          "object": "Distant ocean to the horizon",
+          "face": 0,
+          "location": [
+            -36.952659606933594,
+            58.538970947265625,
+            -0.43231356143951416
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "object": "V002 | western headland with solid rock shore",
+          "face": 35016,
+          "location": [
+            -35.60017395019531,
+            77.4460678100586,
+            -6.120238304138184
+          ],
+          "normal": [
+            0.7639408111572266,
+            0.4653804898262024,
+            0.44700711965560913
+          ],
+          "material": "V002 | tidal slate with wet lower band",
+          "face_vertices": [
+            17381,
+            17638,
+            17637
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        325,
+        500
+      ],
+      "direction": [
+        0.03773115575313568,
+        0.9889438152313232,
+        -0.14341042935848236
+      ],
+      "hits": [
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11897,
+          "location": [
+            -40.6802978515625,
+            34.80000305175781,
+            16.18316650390625
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15882,
+            15883,
+            15887,
+            15886
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11899,
+          "location": [
+            -40.436119079589844,
+            41.20000076293945,
+            15.25507926940918
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15884,
+            15885,
+            15889,
+            15888
+          ]
+        },
+        {
+          "object": "Open sea | rippled three-dimensional water surface",
+          "face": 27466,
+          "location": [
+            -36.32283020019531,
+            149.0104217529297,
+            -0.37891197204589844
+          ],
+          "normal": [
+            -0.004785128869116306,
+            -0.0019536481704562902,
+            0.9999866485595703
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            27580,
+            27581,
+            27822,
+            27821
+          ]
+        },
+        {
+          "object": "Distant ocean to the horizon",
+          "face": 0,
+          "location": [
+            -36.30883026123047,
+            149.37734985351562,
+            -0.43212056159973145
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        375,
+        500
+      ],
+      "direction": [
+        0.06444336473941803,
+        0.9874868392944336,
+        -0.14393317699432373
+      ],
+      "hits": [
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11938,
+          "location": [
+            -39.03219223022461,
+            34.80000305175781,
+            16.137969970703125
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15956,
+            15957,
+            15961,
+            15960
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11940,
+          "location": [
+            -38.61452865600586,
+            41.20000076293945,
+            15.205124855041504
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            15958,
+            15959,
+            15963,
+            15962
+          ]
+        },
+        {
+          "object": "Open sea | rippled three-dimensional water surface",
+          "face": 27226,
+          "location": [
+            -31.646223068237305,
+            147.9776153564453,
+            -0.35846710205078125
+          ],
+          "normal": [
+            -0.004785129334777594,
+            0.0018902425654232502,
+            0.9999867677688599
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            27339,
+            27340,
+            27581,
+            27580
+          ]
+        },
+        {
+          "object": "Distant ocean to the horizon",
+          "face": 0,
+          "location": [
+            -31.613330841064453,
+            148.4816131591797,
+            -0.43192917108535767
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        880,
+        270
+      ],
+      "direction": [
+        0.3329400420188904,
+        0.9427341818809509,
+        -0.02007977105677128
+      ],
+      "hits": [
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11988,
+          "location": [
+            -21.30000114440918,
+            35.444488525390625,
+            23.69126319885254
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            16041,
+            16038,
+            16042,
+            16045
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11982,
+          "location": [
+            -19.5,
+            40.5412712097168,
+            23.582704544067383
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            16004,
+            16037,
+            16005,
+            15972
+          ]
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "face": 11949,
+          "location": [
+            -19.26736068725586,
+            41.20000076293945,
+            23.568674087524414
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "West_Cool weathered limestone",
+          "face_vertices": [
+            16037,
+            16036,
+            16035,
+            16034,
+            16033,
+            16032,
+            16031,
+            16030,
+            16029,
+            16028,
+            16027,
+            16026,
+            16025,
+            16024,
+            16023,
+            16022,
+            16021,
+            16020,
+            16019,
+            16018,
+            16017,
+            16016,
+            16015,
+            16014,
+            16013,
+            16012,
+            16011,
+            16010,
+            16009,
+            16008,
+            16007,
+            16006,
+            16005
+          ]
+        },
+        {
+          "object": "V010 | headland with local stair-edge clearance",
+          "face": 15329,
+          "location": [
+            -14.838828086853027,
+            53.73958206176758,
+            23.30158805847168
+          ],
+          "normal": [
+            0.7029498219490051,
+            -0.10597637295722961,
+            -0.7032997608184814
+          ],
+          "material": "Meadow and slate | slope-based procedural strata",
+          "face_vertices": [
+            7538,
+            7794,
+            7793
+          ]
+        },
+        {
+          "object": "V008 | coastal rock blades locally excavated for approach",
+          "face": 5779,
+          "location": [
+            -14.711590766906738,
+            54.099857330322266,
+            23.293914794921875
+          ],
+          "normal": [
+            -0.7051135897636414,
+            -0.0343383252620697,
+            0.7082624435424805
+          ],
+          "material": "Fractured coastal grey-blue slate",
+          "face_vertices": [
+            6316,
+            6317,
+            6323
+          ]
+        },
+        {
+          "object": "V010 | headland with local stair-edge clearance",
+          "face": 15326,
+          "location": [
+            -14.535127639770508,
+            54.599517822265625,
+            23.28327178955078
+          ],
+          "normal": [
+            0.6343705654144287,
+            -0.5738037824630737,
+            -0.5179992914199829
+          ],
+          "material": "Meadow and slate | slope-based procedural strata",
+          "face_vertices": [
+            7536,
+            7537,
+            7793
+          ]
+        },
+        {
+          "object": "V008 | coastal rock blades locally excavated for approach",
+          "face": 5782,
+          "location": [
+            -13.91406536102295,
+            56.35808181762695,
+            23.24581527709961
+          ],
+          "normal": [
+            0.7137209177017212,
+            0.7004302144050598,
+            0.0
+          ],
+          "material": "Fractured coastal grey-blue slate",
+          "face_vertices": [
+            6310,
+            6311,
+            6319,
+            6318
+          ]
+        },
+        {
+          "object": "V010 | headland with local stair-edge clearance",
+          "face": 12746,
+          "location": [
+            -9.395870208740234,
+            69.15154266357422,
+            22.97332000732422
+          ],
+          "normal": [
+            0.9143792986869812,
+            0.0023277634754776955,
+            -0.4048520028591156
+          ],
+          "material": "Meadow and slate | slope-based procedural strata",
+          "face_vertices": [
+            6246,
+            6247,
+            6502
+          ]
+        },
+        {
+          "object": "V010 | headland with local stair-edge clearance",
+          "face": 17343,
+          "location": [
+            -6.054444313049316,
+            78.6129379272461,
+            22.77179718017578
+          ],
+          "normal": [
+            -0.05199858546257019,
+            -0.44880378246307373,
+            -0.8921162486076355
+          ],
+          "material": "Meadow and slate | slope-based procedural strata",
+          "face_vertices": [
+            8544,
+            8801,
+            8800
+          ]
+        },
+        {
+          "object": "Air perspective behind the citadel",
+          "face": 2,
+          "location": [
+            50.058799743652344,
+            237.50003051757812,
+            19.38758087158203
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "material": "Atmosphere | thin distant marine haze",
+          "face_vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "object": "Air perspective behind the citadel",
+          "face": 4,
+          "location": [
+            76.54611206054688,
+            312.5,
+            17.790119171142578
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "material": "Atmosphere | thin distant marine haze",
+          "face_vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "object": "Distant ocean to the horizon",
+          "face": 0,
+          "location": [
+            378.6847229003906,
+            1168.0186767578125,
+            -0.43200498819351196
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "material": "North sea | teal depth and crossing wavelets",
+          "face_vertices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "object": "Distant ocean to the horizon",
+      "components": [
+        {
+          "seed": 0,
+          "bounds": [
+            [
+              -12000.0,
+              -12000.0,
+              -0.4320000112056732
+            ],
+            [
+              12000.0,
+              12000.0,
+              -0.4320000112056732
+            ]
+          ],
+          "vertices": [
+            {
+              "id": 0,
+              "co": [
+                -12000.0,
+                -12000.0,
+                -0.4320000112056732
+              ]
+            },
+            {
+              "id": 1,
+              "co": [
+                12000.0,
+                -12000.0,
+                -0.4320000112056732
+              ]
+            },
+            {
+              "id": 2,
+              "co": [
+                12000.0,
+                12000.0,
+                -0.4320000112056732
+              ]
+            },
+            {
+              "id": 3,
+              "co": [
+                -12000.0,
+                12000.0,
+                -0.4320000112056732
+              ]
+            }
+          ],
+          "faces": [
+            {
+              "id": 0,
+              "vertices": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "components": [
+        {
+          "seed": 5144,
+          "bounds": [
+            [
+              -41.92499923706055,
+              34.29999923706055,
+              5.699999809265137
+            ],
+            [
+              -39.275001525878906,
+              41.70000076293945,
+              8.100000381469727
+            ]
+          ],
+          "vertices": [
+            {
+              "id": 5144,
+              "co": [
+                -41.92499923706055,
+                34.29999923706055,
+                5.699999809265137
+              ]
+            },
+            {
+              "id": 5145,
+              "co": [
+                -39.275001525878906,
+                34.29999923706055,
+                5.699999809265137
+              ]
+            },
+            {
+              "id": 5146,
+              "co": [
+                -39.275001525878906,
+                41.70000076293945,
+                5.699999809265137
+              ]
+            },
+            {
+              "id": 5147,
+              "co": [
+                -41.92499923706055,
+                41.70000076293945,
+                5.699999809265137
+              ]
+            },
+            {
+              "id": 5148,
+              "co": [
+                -41.92499923706055,
+                34.29999923706055,
+                8.100000381469727
+              ]
+            },
+            {
+              "id": 5149,
+              "co": [
+                -39.275001525878906,
+                34.29999923706055,
+                8.100000381469727
+              ]
+            },
+            {
+              "id": 5150,
+              "co": [
+                -39.275001525878906,
+                41.70000076293945,
+                8.100000381469727
+              ]
+            },
+            {
+              "id": 5151,
+              "co": [
+                -41.92499923706055,
+                41.70000076293945,
+                8.100000381469727
+              ]
+            }
+          ],
+          "faces": [
+            {
+              "id": 3858,
+              "vertices": [
+                5144,
+                5147,
+                5146,
+                5145
+              ],
+              "normal": [
+                -0.0,
+                0.0,
+                -1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3859,
+              "vertices": [
+                5148,
+                5149,
+                5150,
+                5151
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3860,
+              "vertices": [
+                5144,
+                5145,
+                5149,
+                5148
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                -0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3861,
+              "vertices": [
+                5145,
+                5146,
+                5150,
+                5149
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3862,
+              "vertices": [
+                5146,
+                5147,
+                5151,
+                5150
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3863,
+              "vertices": [
+                5147,
+                5144,
+                5148,
+                5151
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              "material_index": 0
+            }
+          ]
+        },
+        {
+          "seed": 5152,
+          "bounds": [
+            [
+              -40.724998474121094,
+              34.29999923706055,
+              5.699999809265137
+            ],
+            [
+              -38.07500076293945,
+              41.70000076293945,
+              8.100000381469727
+            ]
+          ],
+          "vertices": [
+            {
+              "id": 5152,
+              "co": [
+                -40.724998474121094,
+                34.29999923706055,
+                5.699999809265137
+              ]
+            },
+            {
+              "id": 5153,
+              "co": [
+                -38.07500076293945,
+                34.29999923706055,
+                5.699999809265137
+              ]
+            },
+            {
+              "id": 5154,
+              "co": [
+                -38.07500076293945,
+                41.70000076293945,
+                5.699999809265137
+              ]
+            },
+            {
+              "id": 5155,
+              "co": [
+                -40.724998474121094,
+                41.70000076293945,
+                5.699999809265137
+              ]
+            },
+            {
+              "id": 5156,
+              "co": [
+                -40.724998474121094,
+                34.29999923706055,
+                8.100000381469727
+              ]
+            },
+            {
+              "id": 5157,
+              "co": [
+                -38.07500076293945,
+                34.29999923706055,
+                8.100000381469727
+              ]
+            },
+            {
+              "id": 5158,
+              "co": [
+                -38.07500076293945,
+                41.70000076293945,
+                8.100000381469727
+              ]
+            },
+            {
+              "id": 5159,
+              "co": [
+                -40.724998474121094,
+                41.70000076293945,
+                8.100000381469727
+              ]
+            }
+          ],
+          "faces": [
+            {
+              "id": 3864,
+              "vertices": [
+                5152,
+                5155,
+                5154,
+                5153
+              ],
+              "normal": [
+                -0.0,
+                0.0,
+                -1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3865,
+              "vertices": [
+                5156,
+                5157,
+                5158,
+                5159
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3866,
+              "vertices": [
+                5152,
+                5153,
+                5157,
+                5156
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                -0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3867,
+              "vertices": [
+                5153,
+                5154,
+                5158,
+                5157
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3868,
+              "vertices": [
+                5154,
+                5155,
+                5159,
+                5158
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3869,
+              "vertices": [
+                5155,
+                5152,
+                5156,
+                5159
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              "material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "components": [
+        {
+          "seed": 10488,
+          "bounds": [
+            [
+              -38.82500076293945,
+              34.279998779296875,
+              6.0
+            ],
+            [
+              -38.17499923706055,
+              34.880001068115234,
+              16.200000762939453
+            ]
+          ],
+          "vertices": [
+            {
+              "id": 10488,
+              "co": [
+                -38.82500076293945,
+                34.279998779296875,
+                6.0
+              ]
+            },
+            {
+              "id": 10489,
+              "co": [
+                -38.17499923706055,
+                34.279998779296875,
+                6.0
+              ]
+            },
+            {
+              "id": 10490,
+              "co": [
+                -38.17499923706055,
+                34.880001068115234,
+                6.0
+              ]
+            },
+            {
+              "id": 10491,
+              "co": [
+                -38.82500076293945,
+                34.880001068115234,
+                6.0
+              ]
+            },
+            {
+              "id": 10492,
+              "co": [
+                -38.82500076293945,
+                34.279998779296875,
+                16.200000762939453
+              ]
+            },
+            {
+              "id": 10493,
+              "co": [
+                -38.17499923706055,
+                34.279998779296875,
+                16.200000762939453
+              ]
+            },
+            {
+              "id": 10494,
+              "co": [
+                -38.17499923706055,
+                34.880001068115234,
+                16.200000762939453
+              ]
+            },
+            {
+              "id": 10495,
+              "co": [
+                -38.82500076293945,
+                34.880001068115234,
+                16.200000762939453
+              ]
+            }
+          ],
+          "faces": [
+            {
+              "id": 7786,
+              "vertices": [
+                10488,
+                10491,
+                10490,
+                10489
+              ],
+              "normal": [
+                -0.0,
+                0.0,
+                -0.9999999403953552
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 7787,
+              "vertices": [
+                10492,
+                10493,
+                10494,
+                10495
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                0.9999999403953552
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 7788,
+              "vertices": [
+                10488,
+                10489,
+                10493,
+                10492
+              ],
+              "normal": [
+                0.0,
+                -0.9999999403953552,
+                -0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 7789,
+              "vertices": [
+                10489,
+                10490,
+                10494,
+                10493
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 7790,
+              "vertices": [
+                10490,
+                10491,
+                10495,
+                10494
+              ],
+              "normal": [
+                0.0,
+                0.9999999403953552,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 7791,
+              "vertices": [
+                10491,
+                10488,
+                10492,
+                10495
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              "material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "components": [
+        {
+          "seed": 15882,
+          "bounds": [
+            [
+              -41.5,
+              34.79999923706055,
+              6.0
+            ],
+            [
+              -39.70000076293945,
+              41.20000076293945,
+              26.399999618530273
+            ]
+          ],
+          "vertices": [
+            {
+              "id": 15882,
+              "co": [
+                -41.5,
+                34.79999923706055,
+                6.0
+              ]
+            },
+            {
+              "id": 15883,
+              "co": [
+                -39.70000076293945,
+                34.79999923706055,
+                6.0
+              ]
+            },
+            {
+              "id": 15884,
+              "co": [
+                -39.70000076293945,
+                41.20000076293945,
+                6.0
+              ]
+            },
+            {
+              "id": 15885,
+              "co": [
+                -41.5,
+                41.20000076293945,
+                6.0
+              ]
+            },
+            {
+              "id": 15886,
+              "co": [
+                -41.5,
+                34.79999923706055,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 15887,
+              "co": [
+                -39.70000076293945,
+                34.79999923706055,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 15888,
+              "co": [
+                -39.70000076293945,
+                41.20000076293945,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 15889,
+              "co": [
+                -41.5,
+                41.20000076293945,
+                26.399999618530273
+              ]
+            }
+          ],
+          "faces": [
+            {
+              "id": 11895,
+              "vertices": [
+                15882,
+                15885,
+                15884,
+                15883
+              ],
+              "normal": [
+                -0.0,
+                0.0,
+                -1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11896,
+              "vertices": [
+                15886,
+                15887,
+                15888,
+                15889
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11897,
+              "vertices": [
+                15882,
+                15883,
+                15887,
+                15886
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                -0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11898,
+              "vertices": [
+                15883,
+                15884,
+                15888,
+                15887
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11899,
+              "vertices": [
+                15884,
+                15885,
+                15889,
+                15888
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11900,
+              "vertices": [
+                15885,
+                15882,
+                15886,
+                15889
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              "material_index": 0
+            }
+          ]
+        },
+        {
+          "seed": 15956,
+          "bounds": [
+            [
+              -40.29999923706055,
+              34.79999923706055,
+              6.0
+            ],
+            [
+              -38.5,
+              41.20000076293945,
+              26.399999618530273
+            ]
+          ],
+          "vertices": [
+            {
+              "id": 15956,
+              "co": [
+                -40.29999923706055,
+                34.79999923706055,
+                6.0
+              ]
+            },
+            {
+              "id": 15957,
+              "co": [
+                -38.5,
+                34.79999923706055,
+                6.0
+              ]
+            },
+            {
+              "id": 15958,
+              "co": [
+                -38.5,
+                41.20000076293945,
+                6.0
+              ]
+            },
+            {
+              "id": 15959,
+              "co": [
+                -40.29999923706055,
+                41.20000076293945,
+                6.0
+              ]
+            },
+            {
+              "id": 15960,
+              "co": [
+                -40.29999923706055,
+                34.79999923706055,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 15961,
+              "co": [
+                -38.5,
+                34.79999923706055,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 15962,
+              "co": [
+                -38.5,
+                41.20000076293945,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 15963,
+              "co": [
+                -40.29999923706055,
+                41.20000076293945,
+                26.399999618530273
+              ]
+            }
+          ],
+          "faces": [
+            {
+              "id": 11936,
+              "vertices": [
+                15956,
+                15959,
+                15958,
+                15957
+              ],
+              "normal": [
+                -0.0,
+                0.0,
+                -1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11937,
+              "vertices": [
+                15960,
+                15961,
+                15962,
+                15963
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11938,
+              "vertices": [
+                15956,
+                15957,
+                15961,
+                15960
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                -0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11939,
+              "vertices": [
+                15957,
+                15958,
+                15962,
+                15961
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11940,
+              "vertices": [
+                15958,
+                15959,
+                15963,
+                15962
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11941,
+              "vertices": [
+                15959,
+                15956,
+                15960,
+                15963
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              "material_index": 0
+            }
+          ]
+        },
+        {
+          "seed": 15972,
+          "bounds": [
+            [
+              -19.5,
+              34.79999923706055,
+              17.100000381469727
+            ],
+            [
+              -6.5,
+              41.20000076293945,
+              26.399999618530273
+            ]
+          ],
+          "vertices": [
+            {
+              "id": 15972,
+              "co": [
+                -19.5,
+                34.79999923706055,
+                17.100000381469727
+              ]
+            },
+            {
+              "id": 15973,
+              "co": [
+                -19.066667556762695,
+                34.79999923706055,
+                19.13996696472168
+              ]
+            },
+            {
+              "id": 15974,
+              "co": [
+                -18.633333206176758,
+                34.79999923706055,
+                19.96039581298828
+              ]
+            },
+            {
+              "id": 15975,
+              "co": [
+                -18.200000762939453,
+                34.79999923706055,
+                20.572925567626953
+              ]
+            },
+            {
+              "id": 15976,
+              "co": [
+                -17.766666412353516,
+                34.79999923706055,
+                21.074853897094727
+              ]
+            },
+            {
+              "id": 15977,
+              "co": [
+                -17.33333396911621,
+                34.79999923706055,
+                21.504165649414062
+              ]
+            },
+            {
+              "id": 15978,
+              "co": [
+                -16.899999618530273,
+                34.79999923706055,
+                21.880460739135742
+              ]
+            },
+            {
+              "id": 15979,
+              "co": [
+                -16.46666717529297,
+                34.79999923706055,
+                22.2154541015625
+              ]
+            },
+            {
+              "id": 15980,
+              "co": [
+                -16.03333282470703,
+                34.79999923706055,
+                22.516813278198242
+              ]
+            },
+            {
+              "id": 15981,
+              "co": [
+                -15.600000381469727,
+                34.79999923706055,
+                22.789886474609375
+              ]
+            },
+            {
+              "id": 15982,
+              "co": [
+                -15.166666984558105,
+                34.79999923706055,
+                23.03857421875
+              ]
+            },
+            {
+              "id": 15983,
+              "co": [
+                -14.733333587646484,
+                34.79999923706055,
+                23.26582908630371
+              ]
+            },
+            {
+              "id": 15984,
+              "co": [
+                -14.300000190734863,
+                34.79999923706055,
+                23.473947525024414
+              ]
+            },
+            {
+              "id": 15985,
+              "co": [
+                -13.866666793823242,
+                34.79999923706055,
+                23.664745330810547
+              ]
+            },
+            {
+              "id": 15986,
+              "co": [
+                -13.433333396911621,
+                34.79999923706055,
+                23.839693069458008
+              ]
+            },
+            {
+              "id": 15987,
+              "co": [
+                -13.0,
+                34.79999923706055,
+                24.0
+              ]
+            },
+            {
+              "id": 15988,
+              "co": [
+                -12.566666603088379,
+                34.79999923706055,
+                23.839693069458008
+              ]
+            },
+            {
+              "id": 15989,
+              "co": [
+                -12.133333206176758,
+                34.79999923706055,
+                23.664745330810547
+              ]
+            },
+            {
+              "id": 15990,
+              "co": [
+                -11.699999809265137,
+                34.79999923706055,
+                23.473947525024414
+              ]
+            },
+            {
+              "id": 15991,
+              "co": [
+                -11.266666412353516,
+                34.79999923706055,
+                23.26582908630371
+              ]
+            },
+            {
+              "id": 15992,
+              "co": [
+                -10.833333015441895,
+                34.79999923706055,
+                23.03857421875
+              ]
+            },
+            {
+              "id": 15993,
+              "co": [
+                -10.399999618530273,
+                34.79999923706055,
+                22.789886474609375
+              ]
+            },
+            {
+              "id": 15994,
+              "co": [
+                -9.966666221618652,
+                34.79999923706055,
+                22.516813278198242
+              ]
+            },
+            {
+              "id": 15995,
+              "co": [
+                -9.533333778381348,
+                34.79999923706055,
+                22.2154541015625
+              ]
+            },
+            {
+              "id": 15996,
+              "co": [
+                -9.100000381469727,
+                34.79999923706055,
+                21.880460739135742
+              ]
+            },
+            {
+              "id": 15997,
+              "co": [
+                -8.666666984558105,
+                34.79999923706055,
+                21.504165649414062
+              ]
+            },
+            {
+              "id": 15998,
+              "co": [
+                -8.233333587646484,
+                34.79999923706055,
+                21.074853897094727
+              ]
+            },
+            {
+              "id": 15999,
+              "co": [
+                -7.800000190734863,
+                34.79999923706055,
+                20.572925567626953
+              ]
+            },
+            {
+              "id": 16000,
+              "co": [
+                -7.366666793823242,
+                34.79999923706055,
+                19.96039581298828
+              ]
+            },
+            {
+              "id": 16001,
+              "co": [
+                -6.933333396911621,
+                34.79999923706055,
+                19.13996696472168
+              ]
+            },
+            {
+              "id": 16002,
+              "co": [
+                -6.5,
+                34.79999923706055,
+                17.100000381469727
+              ]
+            },
+            {
+              "id": 16003,
+              "co": [
+                -6.5,
+                34.79999923706055,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 16004,
+              "co": [
+                -19.5,
+                34.79999923706055,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 16005,
+              "co": [
+                -19.5,
+                41.20000076293945,
+                17.100000381469727
+              ]
+            },
+            {
+              "id": 16006,
+              "co": [
+                -19.066667556762695,
+                41.20000076293945,
+                19.13996696472168
+              ]
+            },
+            {
+              "id": 16007,
+              "co": [
+                -18.633333206176758,
+                41.20000076293945,
+                19.96039581298828
+              ]
+            },
+            {
+              "id": 16008,
+              "co": [
+                -18.200000762939453,
+                41.20000076293945,
+                20.572925567626953
+              ]
+            },
+            {
+              "id": 16009,
+              "co": [
+                -17.766666412353516,
+                41.20000076293945,
+                21.074853897094727
+              ]
+            },
+            {
+              "id": 16010,
+              "co": [
+                -17.33333396911621,
+                41.20000076293945,
+                21.504165649414062
+              ]
+            },
+            {
+              "id": 16011,
+              "co": [
+                -16.899999618530273,
+                41.20000076293945,
+                21.880460739135742
+              ]
+            },
+            {
+              "id": 16012,
+              "co": [
+                -16.46666717529297,
+                41.20000076293945,
+                22.2154541015625
+              ]
+            },
+            {
+              "id": 16013,
+              "co": [
+                -16.03333282470703,
+                41.20000076293945,
+                22.516813278198242
+              ]
+            },
+            {
+              "id": 16014,
+              "co": [
+                -15.600000381469727,
+                41.20000076293945,
+                22.789886474609375
+              ]
+            },
+            {
+              "id": 16015,
+              "co": [
+                -15.166666984558105,
+                41.20000076293945,
+                23.03857421875
+              ]
+            },
+            {
+              "id": 16016,
+              "co": [
+                -14.733333587646484,
+                41.20000076293945,
+                23.26582908630371
+              ]
+            },
+            {
+              "id": 16017,
+              "co": [
+                -14.300000190734863,
+                41.20000076293945,
+                23.473947525024414
+              ]
+            },
+            {
+              "id": 16018,
+              "co": [
+                -13.866666793823242,
+                41.20000076293945,
+                23.664745330810547
+              ]
+            },
+            {
+              "id": 16019,
+              "co": [
+                -13.433333396911621,
+                41.20000076293945,
+                23.839693069458008
+              ]
+            },
+            {
+              "id": 16020,
+              "co": [
+                -13.0,
+                41.20000076293945,
+                24.0
+              ]
+            },
+            {
+              "id": 16021,
+              "co": [
+                -12.566666603088379,
+                41.20000076293945,
+                23.839693069458008
+              ]
+            },
+            {
+              "id": 16022,
+              "co": [
+                -12.133333206176758,
+                41.20000076293945,
+                23.664745330810547
+              ]
+            },
+            {
+              "id": 16023,
+              "co": [
+                -11.699999809265137,
+                41.20000076293945,
+                23.473947525024414
+              ]
+            },
+            {
+              "id": 16024,
+              "co": [
+                -11.266666412353516,
+                41.20000076293945,
+                23.26582908630371
+              ]
+            },
+            {
+              "id": 16025,
+              "co": [
+                -10.833333015441895,
+                41.20000076293945,
+                23.03857421875
+              ]
+            },
+            {
+              "id": 16026,
+              "co": [
+                -10.399999618530273,
+                41.20000076293945,
+                22.789886474609375
+              ]
+            },
+            {
+              "id": 16027,
+              "co": [
+                -9.966666221618652,
+                41.20000076293945,
+                22.516813278198242
+              ]
+            },
+            {
+              "id": 16028,
+              "co": [
+                -9.533333778381348,
+                41.20000076293945,
+                22.2154541015625
+              ]
+            },
+            {
+              "id": 16029,
+              "co": [
+                -9.100000381469727,
+                41.20000076293945,
+                21.880460739135742
+              ]
+            },
+            {
+              "id": 16030,
+              "co": [
+                -8.666666984558105,
+                41.20000076293945,
+                21.504165649414062
+              ]
+            },
+            {
+              "id": 16031,
+              "co": [
+                -8.233333587646484,
+                41.20000076293945,
+                21.074853897094727
+              ]
+            },
+            {
+              "id": 16032,
+              "co": [
+                -7.800000190734863,
+                41.20000076293945,
+                20.572925567626953
+              ]
+            },
+            {
+              "id": 16033,
+              "co": [
+                -7.366666793823242,
+                41.20000076293945,
+                19.96039581298828
+              ]
+            },
+            {
+              "id": 16034,
+              "co": [
+                -6.933333396911621,
+                41.20000076293945,
+                19.13996696472168
+              ]
+            },
+            {
+              "id": 16035,
+              "co": [
+                -6.5,
+                41.20000076293945,
+                17.100000381469727
+              ]
+            },
+            {
+              "id": 16036,
+              "co": [
+                -6.5,
+                41.20000076293945,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 16037,
+              "co": [
+                -19.5,
+                41.20000076293945,
+                26.399999618530273
+              ]
+            }
+          ],
+          "faces": [
+            {
+              "id": 11948,
+              "vertices": [
+                15972,
+                15973,
+                15974,
+                15975,
+                15976,
+                15977,
+                15978,
+                15979,
+                15980,
+                15981,
+                15982,
+                15983,
+                15984,
+                15985,
+                15986,
+                15987,
+                15988,
+                15989,
+                15990,
+                15991,
+                15992,
+                15993,
+                15994,
+                15995,
+                15996,
+                15997,
+                15998,
+                15999,
+                16000,
+                16001,
+                16002,
+                16003,
+                16004
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                -2.6470740976947127e-06
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11949,
+              "vertices": [
+                16037,
+                16036,
+                16035,
+                16034,
+                16033,
+                16032,
+                16031,
+                16030,
+                16029,
+                16028,
+                16027,
+                16026,
+                16025,
+                16024,
+                16023,
+                16022,
+                16021,
+                16020,
+                16019,
+                16018,
+                16017,
+                16016,
+                16015,
+                16014,
+                16013,
+                16012,
+                16011,
+                16010,
+                16009,
+                16008,
+                16007,
+                16006,
+                16005
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                -1.5882447996773408e-06
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11950,
+              "vertices": [
+                15972,
+                16005,
+                16006,
+                15973
+              ],
+              "normal": [
+                0.9781745076179504,
+                0.0,
+                -0.20778514444828033
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11951,
+              "vertices": [
+                15973,
+                16006,
+                16007,
+                15974
+              ],
+              "normal": [
+                0.8842377662658691,
+                0.0,
+                -0.4670369625091553
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11952,
+              "vertices": [
+                15974,
+                16007,
+                16008,
+                15975
+              ],
+              "normal": [
+                0.8163655400276184,
+                0.0,
+                -0.5775355100631714
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11953,
+              "vertices": [
+                15975,
+                16008,
+                16009,
+                15976
+              ],
+              "normal": [
+                0.7569342851638794,
+                0.0,
+                -0.6534909605979919
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11954,
+              "vertices": [
+                15976,
+                16009,
+                16010,
+                15977
+              ],
+              "normal": [
+                0.703803300857544,
+                0.0,
+                -0.7103947401046753
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11955,
+              "vertices": [
+                15977,
+                16010,
+                16011,
+                15978
+              ],
+              "normal": [
+                0.6556652188301086,
+                0.0,
+                -0.7550516724586487
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11956,
+              "vertices": [
+                15978,
+                16011,
+                16012,
+                15979
+              ],
+              "normal": [
+                0.611613929271698,
+                0.0,
+                -0.7911564111709595
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11957,
+              "vertices": [
+                15979,
+                16012,
+                16013,
+                15980
+              ],
+              "normal": [
+                0.5709485411643982,
+                0.0,
+                -0.8209857940673828
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11958,
+              "vertices": [
+                15980,
+                16013,
+                16014,
+                15981
+              ],
+              "normal": [
+                0.5331406593322754,
+                0.0,
+                -0.8460264801979065
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11959,
+              "vertices": [
+                15981,
+                16014,
+                16015,
+                15982
+              ],
+              "normal": [
+                0.49775049090385437,
+                0.0,
+                -0.8673202395439148
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11960,
+              "vertices": [
+                15982,
+                16015,
+                16016,
+                15983
+              ],
+              "normal": [
+                0.46444106101989746,
+                0.0,
+                -0.8856040239334106
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11961,
+              "vertices": [
+                15983,
+                16016,
+                16017,
+                15984
+              ],
+              "normal": [
+                0.43293121457099915,
+                0.0,
+                -0.9014269113540649
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11962,
+              "vertices": [
+                15984,
+                16017,
+                16018,
+                15985
+              ],
+              "normal": [
+                0.4029705822467804,
+                0.0,
+                -0.9152129292488098
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11963,
+              "vertices": [
+                15985,
+                16018,
+                16019,
+                15986
+              ],
+              "normal": [
+                0.3743668496608734,
+                0.0,
+                -0.9272807240486145
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11964,
+              "vertices": [
+                15986,
+                16019,
+                16020,
+                15987
+              ],
+              "normal": [
+                0.34695854783058167,
+                0.0,
+                -0.9378803968429565
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11965,
+              "vertices": [
+                15987,
+                16020,
+                16021,
+                15988
+              ],
+              "normal": [
+                -0.34695854783058167,
+                0.0,
+                -0.9378803968429565
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11966,
+              "vertices": [
+                15988,
+                16021,
+                16022,
+                15989
+              ],
+              "normal": [
+                -0.3743668496608734,
+                0.0,
+                -0.9272807240486145
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11967,
+              "vertices": [
+                15989,
+                16022,
+                16023,
+                15990
+              ],
+              "normal": [
+                -0.4029705822467804,
+                0.0,
+                -0.9152129292488098
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11968,
+              "vertices": [
+                15990,
+                16023,
+                16024,
+                15991
+              ],
+              "normal": [
+                -0.43293121457099915,
+                0.0,
+                -0.9014269113540649
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11969,
+              "vertices": [
+                15991,
+                16024,
+                16025,
+                15992
+              ],
+              "normal": [
+                -0.46444106101989746,
+                0.0,
+                -0.8856040239334106
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11970,
+              "vertices": [
+                15992,
+                16025,
+                16026,
+                15993
+              ],
+              "normal": [
+                -0.49775049090385437,
+                0.0,
+                -0.8673202395439148
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11971,
+              "vertices": [
+                15993,
+                16026,
+                16027,
+                15994
+              ],
+              "normal": [
+                -0.5331398248672485,
+                0.0,
+                -0.8460270762443542
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11972,
+              "vertices": [
+                15994,
+                16027,
+                16028,
+                15995
+              ],
+              "normal": [
+                -0.5709502696990967,
+                0.0,
+                -0.8209847211837769
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11973,
+              "vertices": [
+                15995,
+                16028,
+                16029,
+                15996
+              ],
+              "normal": [
+                -0.6116130948066711,
+                0.0,
+                -0.791157066822052
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11974,
+              "vertices": [
+                15996,
+                16029,
+                16030,
+                15997
+              ],
+              "normal": [
+                -0.6556660532951355,
+                0.0,
+                -0.7550510764122009
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11975,
+              "vertices": [
+                15997,
+                16030,
+                16031,
+                15998
+              ],
+              "normal": [
+                -0.7038025856018066,
+                0.0,
+                -0.7103955745697021
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11976,
+              "vertices": [
+                15998,
+                16031,
+                16032,
+                15999
+              ],
+              "normal": [
+                -0.7569350600242615,
+                0.0,
+                -0.6534901857376099
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11977,
+              "vertices": [
+                15999,
+                16032,
+                16033,
+                16000
+              ],
+              "normal": [
+                -0.8163650035858154,
+                0.0,
+                -0.577536404132843
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11978,
+              "vertices": [
+                16000,
+                16033,
+                16034,
+                16001
+              ],
+              "normal": [
+                -0.8842381834983826,
+                0.0,
+                -0.4670361876487732
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11979,
+              "vertices": [
+                16001,
+                16034,
+                16035,
+                16002
+              ],
+              "normal": [
+                -0.9781744480133057,
+                0.0,
+                -0.20778559148311615
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11980,
+              "vertices": [
+                16002,
+                16035,
+                16036,
+                16003
+              ],
+              "normal": [
+                0.9999999403953552,
+                0.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11981,
+              "vertices": [
+                16003,
+                16036,
+                16037,
+                16004
+              ],
+              "normal": [
+                -0.0,
+                0.0,
+                1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11982,
+              "vertices": [
+                16004,
+                16037,
+                16005,
+                15972
+              ],
+              "normal": [
+                -0.9999999403953552,
+                0.0,
+                0.0
+              ],
+              "material_index": 0
+            }
+          ]
+        },
+        {
+          "seed": 16038,
+          "bounds": [
+            [
+              -21.299999237060547,
+              34.79999923706055,
+              6.0
+            ],
+            [
+              -19.5,
+              41.20000076293945,
+              26.399999618530273
+            ]
+          ],
+          "vertices": [
+            {
+              "id": 16038,
+              "co": [
+                -21.299999237060547,
+                34.79999923706055,
+                6.0
+              ]
+            },
+            {
+              "id": 16039,
+              "co": [
+                -19.5,
+                34.79999923706055,
+                6.0
+              ]
+            },
+            {
+              "id": 16040,
+              "co": [
+                -19.5,
+                41.20000076293945,
+                6.0
+              ]
+            },
+            {
+              "id": 16041,
+              "co": [
+                -21.299999237060547,
+                41.20000076293945,
+                6.0
+              ]
+            },
+            {
+              "id": 16042,
+              "co": [
+                -21.299999237060547,
+                34.79999923706055,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 16043,
+              "co": [
+                -19.5,
+                34.79999923706055,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 16044,
+              "co": [
+                -19.5,
+                41.20000076293945,
+                26.399999618530273
+              ]
+            },
+            {
+              "id": 16045,
+              "co": [
+                -21.299999237060547,
+                41.20000076293945,
+                26.399999618530273
+              ]
+            }
+          ],
+          "faces": [
+            {
+              "id": 11983,
+              "vertices": [
+                16038,
+                16041,
+                16040,
+                16039
+              ],
+              "normal": [
+                -0.0,
+                0.0,
+                -1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11984,
+              "vertices": [
+                16042,
+                16043,
+                16044,
+                16045
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11985,
+              "vertices": [
+                16038,
+                16039,
+                16043,
+                16042
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                -0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11986,
+              "vertices": [
+                16039,
+                16040,
+                16044,
+                16043
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11987,
+              "vertices": [
+                16040,
+                16041,
+                16045,
+                16044
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 11988,
+              "vertices": [
+                16041,
+                16038,
+                16042,
+                16045
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              "material_index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "Air perspective behind the citadel",
+      "components": [
+        {
+          "seed": 0,
+          "bounds": [
+            [
+              -362.0,
+              237.5,
+              4.5
+            ],
+            [
+              378.0,
+              312.5,
+              89.5
+            ]
+          ],
+          "vertices": [
+            {
+              "id": 0,
+              "co": [
+                -362.0,
+                237.5,
+                4.5
+              ]
+            },
+            {
+              "id": 1,
+              "co": [
+                378.0,
+                237.5,
+                4.5
+              ]
+            },
+            {
+              "id": 2,
+              "co": [
+                378.0,
+                312.5,
+                4.5
+              ]
+            },
+            {
+              "id": 3,
+              "co": [
+                -362.0,
+                312.5,
+                4.5
+              ]
+            },
+            {
+              "id": 4,
+              "co": [
+                -362.0,
+                237.5,
+                89.5
+              ]
+            },
+            {
+              "id": 5,
+              "co": [
+                378.0,
+                237.5,
+                89.5
+              ]
+            },
+            {
+              "id": 6,
+              "co": [
+                378.0,
+                312.5,
+                89.5
+              ]
+            },
+            {
+              "id": 7,
+              "co": [
+                -362.0,
+                312.5,
+                89.5
+              ]
+            }
+          ],
+          "faces": [
+            {
+              "id": 0,
+              "vertices": [
+                0,
+                3,
+                2,
+                1
+              ],
+              "normal": [
+                -0.0,
+                0.0,
+                -1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 1,
+              "vertices": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "normal": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 2,
+              "vertices": [
+                0,
+                1,
+                5,
+                4
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                -0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 3,
+              "vertices": [
+                1,
+                2,
+                6,
+                5
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 4,
+              "vertices": [
+                2,
+                3,
+                7,
+                6
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "material_index": 0
+            },
+            {
+              "id": 5,
+              "vertices": [
+                3,
+                0,
+                4,
+                7
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              "material_index": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "embedded_texts": []
+}

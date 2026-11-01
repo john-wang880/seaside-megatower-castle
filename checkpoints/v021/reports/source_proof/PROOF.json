@@ -1,0 +1,260 @@
+{
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "source_unchanged": true,
+  "actual_evaluated_corner_face_verification": true,
+  "pairs": [
+    {
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "source_components": [
+        {
+          "seed": 15882,
+          "ids": [
+            15882,
+            15883,
+            15884,
+            15885,
+            15886,
+            15887,
+            15888,
+            15889
+          ],
+          "lo": [
+            -41.5,
+            34.79999923706055,
+            6.0
+          ],
+          "hi": [
+            -39.70000076293945,
+            41.20000076293945,
+            26.399999618530273
+          ]
+        },
+        {
+          "seed": 15956,
+          "ids": [
+            15956,
+            15957,
+            15958,
+            15959,
+            15960,
+            15961,
+            15962,
+            15963
+          ],
+          "lo": [
+            -40.29999923706055,
+            34.79999923706055,
+            6.0
+          ],
+          "hi": [
+            -38.5,
+            41.20000076293945,
+            26.399999618530273
+          ]
+        }
+      ],
+      "union_bounds": [
+        [
+          -41.5,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -38.5,
+          41.20000076293945,
+          26.399999618530273
+        ]
+      ],
+      "intersection_bounds": [
+        [
+          -40.29999923706055,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -39.70000076293945,
+          41.20000076293945,
+          26.399999618530273
+        ]
+      ],
+      "exact_rational_union_identity": true,
+      "union_volume_m3": 391.68008605956857,
+      "intersection_volume_m3": 78.33581799311995,
+      "duplicate_front_area_m2": 12.239968643189059,
+      "source_mesh_users": 1,
+      "source_modifiers": 0,
+      "source_groups": 0,
+      "source_weights": 0,
+      "transform_identity": true,
+      "flat_faces": true,
+      "material": "West_Cool weathered limestone",
+      "material_link": "DATA",
+      "material_world_position_driven": true,
+      "material_links": [
+        [
+          "ShaderNodeBsdfPrincipled",
+          "BSDF",
+          "ShaderNodeOutputMaterial",
+          "Surface"
+        ],
+        [
+          "ShaderNodeNewGeometry",
+          "Position",
+          "ShaderNodeTexNoise",
+          "Vector"
+        ],
+        [
+          "ShaderNodeTexNoise",
+          "Factor",
+          "ShaderNodeValToRGB",
+          "Factor"
+        ],
+        [
+          "ShaderNodeValToRGB",
+          "Color",
+          "ShaderNodeBsdfPrincipled",
+          "Base Color"
+        ],
+        [
+          "ShaderNodeTexNoise",
+          "Factor",
+          "ShaderNodeBump",
+          "Height"
+        ],
+        [
+          "ShaderNodeBump",
+          "Normal",
+          "ShaderNodeBsdfPrincipled",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "source_components": [
+        {
+          "seed": 5144,
+          "ids": [
+            5144,
+            5145,
+            5146,
+            5147,
+            5148,
+            5149,
+            5150,
+            5151
+          ],
+          "lo": [
+            -41.92499923706055,
+            34.29999923706055,
+            5.699999809265137
+          ],
+          "hi": [
+            -39.275001525878906,
+            41.70000076293945,
+            8.100000381469727
+          ]
+        },
+        {
+          "seed": 5152,
+          "ids": [
+            5152,
+            5153,
+            5154,
+            5155,
+            5156,
+            5157,
+            5158,
+            5159
+          ],
+          "lo": [
+            -40.724998474121094,
+            34.29999923706055,
+            5.699999809265137
+          ],
+          "hi": [
+            -38.07500076293945,
+            41.70000076293945,
+            8.100000381469727
+          ]
+        }
+      ],
+      "union_bounds": [
+        [
+          -41.92499923706055,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -38.07500076293945,
+          41.70000076293945,
+          8.100000381469727
+        ]
+      ],
+      "intersection_bounds": [
+        [
+          -40.724998474121094,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -39.275001525878906,
+          41.70000076293945,
+          8.100000381469727
+        ]
+      ],
+      "exact_rational_union_identity": true,
+      "union_volume_m3": 68.3760033016118,
+      "intersection_volume_m3": 25.75195725057226,
+      "duplicate_front_area_m2": 3.479993505476159,
+      "source_mesh_users": 1,
+      "source_modifiers": 0,
+      "source_groups": 0,
+      "source_weights": 0,
+      "transform_identity": true,
+      "flat_faces": true,
+      "material": "West_Ashlar stone variation",
+      "material_link": "DATA",
+      "material_world_position_driven": true,
+      "material_links": [
+        [
+          "ShaderNodeBsdfPrincipled",
+          "BSDF",
+          "ShaderNodeOutputMaterial",
+          "Surface"
+        ],
+        [
+          "ShaderNodeNewGeometry",
+          "Position",
+          "ShaderNodeTexNoise",
+          "Vector"
+        ],
+        [
+          "ShaderNodeTexNoise",
+          "Factor",
+          "ShaderNodeValToRGB",
+          "Factor"
+        ],
+        [
+          "ShaderNodeValToRGB",
+          "Color",
+          "ShaderNodeBsdfPrincipled",
+          "Base Color"
+        ],
+        [
+          "ShaderNodeTexNoise",
+          "Factor",
+          "ShaderNodeBump",
+          "Height"
+        ],
+        [
+          "ShaderNodeBump",
+          "Normal",
+          "ShaderNodeBsdfPrincipled",
+          "Normal"
+        ]
+      ]
+    }
+  ],
+  "scope": "Exact dyadic-rational union proof of actual evaluated boxes. No added volume, silhouette or opening/path/intrados occupancy change. No inferred author intent or structural support claim. Practical rendering effect remains untested."
+}

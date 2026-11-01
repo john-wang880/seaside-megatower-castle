@@ -1,0 +1,30 @@
+{
+  "checkpoint": "v021",
+  "status": "LOCAL_ACCEPTED_REMOTE_BACKUP_PENDING",
+  "model_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "model_bytes": 47600146,
+  "source_commit": "23fd4aaaceb64996913bfa3ff4109fc149737b9d",
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "technical_gate": true,
+  "actual_bridge_and_hero_review": true,
+  "independent_art_and_parent_bridge_review": true,
+  "self_contained_hardened_rebuild": true,
+  "rebuilt_sha256": "7aa31ae0884e11c394e3365d734fc297b1180c5e15673535157c236789d0d52b",
+  "full_semantic_repeat_exact": true,
+  "clean_public_QA_chain_nine_calls": true,
+  "negative_controls": 5,
+  "core_tests": 13,
+  "analytic_plan_tests": 2,
+  "build_preflight_tests": 4,
+  "local_exact_chunk_restore": true,
+  "remote_restore_verified": false,
+  "notes": [
+    "Two exact occupied-set union surfaces remove a demonstrated local black rendering artifact; no new support or shape change.",
+    "Only two owned16vertexMasks/groups plus two8vertex6face unionboxes; original source components retained.",
+    "Zero exposed same-facing target duplicates; buried shaft-bottom patches and opposite support interfaces explicitly distinguished.",
+    "Initial bytecode-only inventory incident documented; clean rerun with explicit no-bytecode setting passed unchanged complete bundle inventory.",
+    "Original executed builder archived; hardened-O guard changes no geometry recipe.",
+    "Do not withdraw old current payload until remote exact restore and publicQA pass."
+  ],
+  "recorded_utc": "2026-11-01T15:24:46.647208+00:00"
+}

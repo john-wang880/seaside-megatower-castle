@@ -1,0 +1,29 @@
+{
+  "technical_gate_pass": true,
+  "input_sha256": {
+    "source": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+    "candidate": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9"
+  },
+  "source_candidate_unchanged": true,
+  "reports": {
+    "preservation_geometry.json": "fc7002da1c06b0e0d52bf553ebe507811caebe0d1f0dcafc63cab85975e0a3b4",
+    "planes.json": "15d11cff8ebf81d033faa430f586da013e8b7dcf1029dd870ce7b3e6e06d4db6",
+    "state.json": "808a360bfae1b3a1b513e061a3756e56c6e45307a35aa4d4f092a2a93e411d02",
+    "negative_bounds.json": "8a3e8ee5bdb8d4d5638d13acabde98a93d25c69eedf2226375a788b04c9efea6",
+    "negative_orientation.json": "9705ad0f4b8de128868f1e7d7cb4749dfe0f2062f71ff4e9b53ff2654d3a2985",
+    "negative_material.json": "a737a98a4133760e03a20c13c6472f81ff122cde79fc754b9d189ea9c781fcc8",
+    "negative_mask.json": "02bbb29f120a377ea75f828391674634411d4583474f224580c31528dffd7488",
+    "negative_unrelated_source.json": "61377a47f318e843eb25e19bac94fec184df8bf8e897731a24598fec1a777f8f"
+  },
+  "code_sha256": {
+    "negative.py": "7989eb6a98b8aa9d809c561a834b3dbab8240fe5a73e8da629fa83b04a42ec17",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "complement.py": "772c406ef7e4a4396bb6d5f35fa8c8460126887391527520b52b63280a44a44a",
+    "planes.py": "19c4f0e411d46625de455cfaa8a3985a067595ad0a4fdf68dd8b1253cb6a69f4",
+    "validate.py": "120cea15bfad2fd56318266d5cee9530be24999664b33fdd8c4f2da797d7881c",
+    "state.py": "fcc453f80b70e814861d35de8caaacc43f984d887039201d349c70a99b87b01b"
+  },
+  "actual_render_gate": "PENDING owner identical practical-camera comparison",
+  "repeat_hardened_builder_gate": "PENDING separate deterministic rebuild and semantic comparison",
+  "scope": "Two exact occupied-set union surfaces; source/evaluated complement/raw state preservation, rollback repeat, no exposed same-facing duplicates on six new box planes; five negative fixtures. Not global manifold or load certification."
+}

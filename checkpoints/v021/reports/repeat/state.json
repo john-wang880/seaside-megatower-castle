@@ -1,0 +1,60 @@
+{
+  "pass": true,
+  "candidate_sha256": "7aa31ae0884e11c394e3365d734fc297b1180c5e15673535157c236789d0d52b",
+  "active_non_target_evaluated_exact": true,
+  "repeated_high_low_high_exact": true,
+  "modifier_native_comparisons": [
+    {
+      "name": "V021 candidate | original pier shaft rollback mask",
+      "properties": {
+        "name": "V021 candidate | original pier shaft rollback mask",
+        "type": "MASK",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": true,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 951641420,
+        "mode": "VERTEX_GROUP",
+        "armature": null,
+        "vertex_group": "V021 candidate | reversible pier shaft originals",
+        "invert_vertex_group": true,
+        "use_smooth": false,
+        "threshold": 0.5,
+        "custom_properties": null
+      },
+      "native_control_runtime_differences": {}
+    },
+    {
+      "name": "V021 candidate | original pier foot rollback mask",
+      "properties": {
+        "name": "V021 candidate | original pier foot rollback mask",
+        "type": "MASK",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": true,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 951641420,
+        "mode": "VERTEX_GROUP",
+        "armature": null,
+        "vertex_group": "V021 candidate | reversible pier foot originals",
+        "invert_vertex_group": true,
+        "use_smooth": false,
+        "threshold": 0.5,
+        "custom_properties": null
+      },
+      "native_control_runtime_differences": {}
+    }
+  ]
+}

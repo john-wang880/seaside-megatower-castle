@@ -1,0 +1,15 @@
+{
+  "status": "Positive local actual-view comparison; owner/art-director acceptance pending",
+  "candidate_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "baseline_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "findings": [
+    "Central black vertical strip disappears in matched actual lighting.",
+    "Forked appearance at pier foot resolves to continuous solid pier face.",
+    "Stone ring divisions and small inherited apex notch remain.",
+    "Right-side wall/pier shadow remains; no broad light/contrast change perceived."
+  ],
+  "interpretation": "Targeted visible surface correction, not a newly added structural support or aesthetic ring redesign.",
+  "limits": "Single practical local view; hero not rendered yet; geometry/volume preservation belongs to independent technical audit.",
+  "source_saved": false,
+  "slot_released": true
+}

@@ -1,0 +1,50 @@
+{
+  "copied_image_hashes_match_original_receipts": true,
+  "png_decode": {
+    "hero_before.png": {
+      "size": [
+        1200,
+        866
+      ],
+      "mode": "RGB",
+      "decode_pass": true
+    },
+    "hero_after.png": {
+      "size": [
+        1200,
+        866
+      ],
+      "mode": "RGB",
+      "decode_pass": true
+    },
+    "bridge_pair_bilingual.png": {
+      "size": [
+        1248,
+        550
+      ],
+      "mode": "RGB",
+      "decode_pass": true
+    },
+    "bridge_before.png": {
+      "size": [
+        1200,
+        866
+      ],
+      "mode": "RGB",
+      "decode_pass": true
+    },
+    "bridge_after.png": {
+      "size": [
+        1200,
+        866
+      ],
+      "mode": "RGB",
+      "decode_pass": true
+    }
+  },
+  "rendering_not_repeated": true,
+  "source_identities": {
+    "before": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+    "after": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9"
+  }
+}

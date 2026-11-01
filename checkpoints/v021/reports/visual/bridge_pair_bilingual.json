@@ -1,0 +1,16 @@
+{
+  "output_sha256": "7ba1095c51c582ed33fcc19a9a9812864b1481bef572e38931928255e0836715",
+  "input_paths": [
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/bridge_ring_feasibility_v020/visual/baseline/image.png",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_pier_surface/visual/candidate_actual/image.png"
+  ],
+  "input_sha256": [
+    "d2e24426730b7163ba01cdaef7f44745dbb96d88463ec118c90830e0a985bc7f",
+    "9714a10283dcef95603a9d62078e42b36d4bbd7d87b1f68f4cf7ecc41ce17083"
+  ],
+  "uniform_scale": 0.5,
+  "resample": "LANCZOS",
+  "lighting_color_edits": false,
+  "labels_outside_images": true,
+  "technical_scope": "No new support or added filling: identical occupied union shape, duplicate exposed surfaces removed. Black image regions were not painted or retouched."
+}

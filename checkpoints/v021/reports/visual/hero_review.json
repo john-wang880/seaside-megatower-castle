@@ -1,0 +1,12 @@
+{
+  "status": "Positive broad-hero preservation review; owner controls final acceptance/publication",
+  "candidate_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "image": "hero_actual/image.png",
+  "findings": [
+    "No conspicuous broad composition, skyline, palette or contrast regression.",
+    "Repaired pier remains subordinate at whole-scene scale; no new visible support/bulge."
+  ],
+  "settings_equality_proof": "hero_comparison.json",
+  "source_saved": false,
+  "render_slot_released": true
+}

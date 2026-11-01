@@ -1,0 +1,13 @@
+{
+  "scope": "Self-contained code/plans/docs and historical pure-test evidence; no models, logs or cache",
+  "files": {
+    "README.md": "d71a209ea5dafa60db6bd19aa2b674bd375f96cc12aa1ab7e2cf0fb3651af3aa",
+    "evidence/build_guard_tests.json": "2b7a5298df75946ef45bc2b30c5a2629ab38dfe2c33ae3a1f48b5ce4a1cbd3e5",
+    "evidence/builder_hardening.json": "dbc5698fc3bb2e1673dc1b6313da0ee6d97a4045be570d5277ab6f9764d52627",
+    "plan.json": "660d847827193a6624d6f9ab91e51d1621cac34bc28bb0cdf19e06c94ba3361a",
+    "scripts/build.py": "94343c38d0ffa505ebe197c53cc776553924d811b1d6a79e9b679c42caf59b12",
+    "scripts/deep_snapshot.py": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a",
+    "test_plan.py": "81fd924d67fa784d368d106c908651271b8d458b3af7ad0bf6979dbc92092283",
+    "test_preflight.py": "b281284eab28862a19fbfc70d539b4de8c0ebb20ed6a92565b84ed0ff42f1f9f"
+  }
+}

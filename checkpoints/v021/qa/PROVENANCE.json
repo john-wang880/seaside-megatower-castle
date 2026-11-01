@@ -1,0 +1,37 @@
+{
+  "original_candidate_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "executed_original_files": {
+    "SUMMARY.json": "c628685d687582e937ac96ff60b59dc8f9d9adbb16df670ded7c21457e3bcc6a",
+    "negative.py": "7989eb6a98b8aa9d809c561a834b3dbab8240fe5a73e8da629fa83b04a42ec17",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "complement.py": "772c406ef7e4a4396bb6d5f35fa8c8460126887391527520b52b63280a44a44a",
+    "planes.py": "19c4f0e411d46625de455cfaa8a3985a067595ad0a4fdf68dd8b1253cb6a69f4",
+    "preservation_geometry.json": "fc7002da1c06b0e0d52bf553ebe507811caebe0d1f0dcafc63cab85975e0a3b4",
+    "planes.json": "15d11cff8ebf81d033faa430f586da013e8b7dcf1029dd870ce7b3e6e06d4db6",
+    "validate.py": "120cea15bfad2fd56318266d5cee9530be24999664b33fdd8c4f2da797d7881c",
+    "state.json": "808a360bfae1b3a1b513e061a3756e56c6e45307a35aa4d4f092a2a93e411d02",
+    "state.py": "fcc453f80b70e814861d35de8caaacc43f984d887039201d349c70a99b87b01b"
+  },
+  "adapted_runtime_files": {
+    "README.md": "6a30d38c97fba700215336404ea62b314e74f386cf13e140a5791addb803b631",
+    "common.py": "521848021fa2bade6d4b2a7ac2b49614a7448af8e0a81c05fbb261ecf8716336",
+    "validate_repeat.py": "a99c011e158b436330d940a648d8ed8ed06bb552e8ec1e2f2efe75a32b01051d",
+    "negative.py": "a352fbe38c6c0dd6f39151bd26e17fa1d0bf23e0836556f56bed276158a31235",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "complement.py": "772c406ef7e4a4396bb6d5f35fa8c8460126887391527520b52b63280a44a44a",
+    "SCOPE.md": "2086c0f50fd8bacfd97359831536a6c21b61fd1804d832df028dda61d9bce050",
+    "planes.py": "e83badf00c1e517bf789020985bfa75f9e94cc66e6b7381a0e91daf5f80b3803",
+    "validate.py": "77eaf4e5482a467860f32d1fe003ded86b22fbec88a727d147e0097ee4e39d59",
+    "state.py": "2a4bbbb2d4ae27d3312cc246f110bfb4da30eef6ffc2f3363a874eac44a9fb11",
+    "data/plan.json": "660d847827193a6624d6f9ab91e51d1621cac34bc28bb0cdf19e06c94ba3361a"
+  },
+  "adapter_changes": "Explicit CLI/source/candidate/plan hash binding and new report guards; same geometry/preservation algorithms. Native temp Mask control includes its referenced VG. Negative error reports record actual expanded assertion. Comparator pins accepted457. Original files unchanged.",
+  "test_status": "All Python AST parses pass; Blender execution pending coordinated slot.",
+  "pure_guard_tests": {
+    "count": 6,
+    "pass": true,
+    "scope": "Host Python mocks of model hashes; Unicode paths, malformed/wrong hash, report overwrite/source alias and optimized-mode refusal. Not Blender runtime validation.",
+    "script_sha256": "4e955bc80d5171dedb3cdc4a6622f101ce4deffd05dbd8b01550c4d0647b6fff",
+    "log_sha256": "65378dcad145da2497120819bebfc3c46534dce9714ce064b3d809a56654aca2"
+  }
+}

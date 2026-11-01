@@ -1,0 +1,137 @@
+{
+  "status": "UNACCEPTED technical surface-union candidate",
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "plan_sha256": "660d847827193a6624d6f9ab91e51d1621cac34bc28bb0cdf19e06c94ba3361a",
+  "script_sha256": "94343c38d0ffa505ebe197c53cc776553924d811b1d6a79e9b679c42caf59b12",
+  "snapshot_helper_sha256": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a",
+  "objects": [
+    {
+      "target": "V007 | western stonework with actual bridgehead passage",
+      "selected_vertices": [
+        15882,
+        15883,
+        15884,
+        15885,
+        15886,
+        15887,
+        15888,
+        15889,
+        15956,
+        15957,
+        15958,
+        15959,
+        15960,
+        15961,
+        15962,
+        15963
+      ],
+      "removed_faces": [
+        11895,
+        11896,
+        11897,
+        11898,
+        11899,
+        11900,
+        11936,
+        11937,
+        11938,
+        11939,
+        11940,
+        11941
+      ],
+      "new_object": "V021 candidate | central pier shaft surface union",
+      "bounds": [
+        [
+          -41.5,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -38.5,
+          41.20000076293945,
+          26.399999618530273
+        ]
+      ],
+      "volume": 391.6800860595662,
+      "material": "West_Cool weathered limestone",
+      "group": "V021 candidate | reversible pier shaft originals",
+      "modifier": "V021 candidate | original pier shaft rollback mask",
+      "vertices": 8,
+      "polygons": 6,
+      "triangles": 12
+    },
+    {
+      "target": "V012 | legacy ashlar with buried-route clearance",
+      "selected_vertices": [
+        5144,
+        5145,
+        5146,
+        5147,
+        5148,
+        5149,
+        5150,
+        5151,
+        5152,
+        5153,
+        5154,
+        5155,
+        5156,
+        5157,
+        5158,
+        5159
+      ],
+      "removed_faces": [
+        3858,
+        3859,
+        3860,
+        3861,
+        3862,
+        3863,
+        3864,
+        3865,
+        3866,
+        3867,
+        3868,
+        3869
+      ],
+      "new_object": "V021 candidate | central pier foot surface union",
+      "bounds": [
+        [
+          -41.92499923706055,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -38.07500076293945,
+          41.70000076293945,
+          8.100000381469727
+        ]
+      ],
+      "volume": 68.37600330161149,
+      "material": "West_Ashlar stone variation",
+      "group": "V021 candidate | reversible pier foot originals",
+      "modifier": "V021 candidate | original pier foot rollback mask",
+      "vertices": 8,
+      "polygons": 6,
+      "triangles": 12
+    }
+  ],
+  "checks": {
+    "all_original_raw_meshes_exact_except_explicit_weights": true,
+    "non_target_evaluated_face_records_exact": true,
+    "original_material_graphs_and_world_exact": true,
+    "analytic_pair_unions_exact_boxes": true
+  },
+  "allowed_deltas": [
+    "Two owned inverted Mask modifiers and two16-vertex weight groups",
+    "Two8-vertex union box meshes/objects in one owned collection"
+  ],
+  "rollback": "Disable BOTH owned masks and hide BOTH union objects together. Raw source components retained.",
+  "limits": [
+    "Independent full-source and evaluated-attribute QA required",
+    "Visual disappearance of artifacts not yet tested; no structural certification"
+  ],
+  "candidate_sha256": "7aa31ae0884e11c394e3365d734fc297b1180c5e15673535157c236789d0d52b",
+  "candidate_bytes": 47600163,
+  "source_unchanged": true
+}

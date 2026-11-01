@@ -1,0 +1,78 @@
+{
+  "input_sha256": {
+    "source": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+    "candidate": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9"
+  },
+  "checks": {
+    "active_complements_geometry": true,
+    "rollback_repeated_evaluated_exact": true,
+    "normalized_full_source": {
+      "meshes": true,
+      "objects": true,
+      "materials": true,
+      "lights": true,
+      "cameras": true,
+      "worlds": true,
+      "visible_evaluated": true,
+      "scene": true,
+      "libraries": true,
+      "texts": true,
+      "collections": true,
+      "scene_custom": true
+    }
+  },
+  "differences": {},
+  "parts": [
+    {
+      "object": "V021 candidate | central pier shaft surface union",
+      "bounds": [
+        [
+          -41.5,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -38.5,
+          41.20000076293945,
+          26.399999618530273
+        ]
+      ],
+      "volume": 391.6800860595662,
+      "exact_occupied_union": true,
+      "all_attribute_complement_exact": true,
+      "kept_domain_counts": {
+        "POINT": 17830,
+        "EDGE": 26651,
+        "FACE": 13219,
+        "CORNER": 53302
+      }
+    },
+    {
+      "object": "V021 candidate | central pier foot surface union",
+      "bounds": [
+        [
+          -41.92499923706055,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -38.07500076293945,
+          41.70000076293945,
+          8.100000381469727
+        ]
+      ],
+      "volume": 68.37600330161149,
+      "exact_occupied_union": true,
+      "all_attribute_complement_exact": true,
+      "kept_domain_counts": {
+        "POINT": 5924,
+        "EDGE": 8839,
+        "FACE": 4415,
+        "CORNER": 17678
+      }
+    }
+  ],
+  "pass": true,
+  "source_unchanged": true,
+  "candidate_unchanged": true
+}

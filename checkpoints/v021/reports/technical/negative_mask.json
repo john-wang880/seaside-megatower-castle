@@ -1,0 +1,10 @@
+{
+  "case": "mask",
+  "rejected": true,
+  "error": "",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/negative.py\", line 7, in <module>\n    try:exec(compile(s,str(p),'exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/validate.py\", line 31, in <module>\n    eo=o.evaluated_get(dg);me=eo.to_mesh(preserve_all_data_layers=True,depsgraph=dg)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "actual_executed_assertion": " assert [(v.index,[(g.group,g.weight) for g in v.groups]) for v in o.data.vertices if v.groups]==[(i,[(0,1.0)]) for i in sorted(ids)]",
+  "executed_mutation": "bpy.data.objects[plan['pairs'][0]['target']].vertex_groups[0].add([0],1.,'REPLACE')",
+  "executed_source_sha256": "464e05ab6573506f9690ddedd67bb9d448ff2e0ecb07fc5722c01eb6a44c8da0",
+  "traceback_note": "Python linecache displayed original validator text; actual executed assertion below uses expanded in-memory script line."
+}

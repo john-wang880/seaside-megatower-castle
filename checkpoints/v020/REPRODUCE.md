@@ -1,3 +1,11 @@
+> **历史v020记录，不是最新模型入口。** 最新工程见[仓库首页](../../README.md)。本文v020恢复/复现及绑定673模型的工具请在固定历史工作树内运行：
+> ```sh
+> git worktree add --detach ../castle-v020-history 23fd4aaaceb64996913bfa3ff4109fc149737b9d
+> cd ../castle-v020-history
+> python checkpoints/v020/restore_checkpoint.py
+> ```
+> 之后仍在该工作树内执行本文命令。已有同名目录请改用新路径；不要把v021模型传给旧版工具。旧版模型/图像与代码在Git历史保留，展陈图未改标为新版本。
+
 # v020 程序复现与精确恢复
 
 恢复验收模型请优先运行`restore_checkpoint.py`，它复原673开头的精确SHA；程序重建用于检查配方，不替代归档。

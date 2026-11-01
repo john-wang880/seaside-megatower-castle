@@ -1,0 +1,13 @@
+# Independent candidate 45734849 technical gate
+
+Exact dyadic-coordinate occupied-set equality is proved for each original pair: same Y/Z intervals, overlapping X intervals, and union corners equal the replacement box. This is stronger than matching an AABB or sampled volume; it preserves all occupied space, exterior outline, bridge intrados and existing route clearance. It is not a structural/load assessment.
+
+All persisted source categories are compared after removing only the two owned Mask modifiers, their two exactly checked 16-vertex weight groups, two union objects/meshes and one collection **in memory only**. In particular, the pre-existing v019 tree Mask/deform weights and all v020 threshold components remain exact. Both active evaluated complements retain every expected POINT/EDGE/FACE/CORNER attribute and normal under explicit original-index remapping; no unselected isolated vertices are lost.
+
+Rollback compares evaluated geometry after disabling both Masks and hiding both union objects. The only normalized evaluated payload is the separately verified 16 owned deform weights per target. These weights remain stored even with disabled Masks; all other source weights are strict. The historical three SUBSURF garment edge-selection UI exception remains narrowly schema-checked; persisted selection is never waived.
+
+Six-plane audit uses evaluated bounds before broadphase, actual evaluated loop triangles and polygon clipping. Numerical coplanarity bound is 1e-6 m and positive-area reporting floor is 1e-8 m². Opposite-facing shaft side contacts are legitimate existing solid interfaces, not exposed doubled skins. Three same-facing bottom triangle patches remain strictly buried within the foot; whole bottom rectangle containment margins are X 0.424999237 m, Y 0.5 m, below 0.300000191 m and above 2.100000381 m. No claim of globally zero coplanars or whole-castle manifoldness is made.
+
+Five negative fixtures mutate only in-memory loaded candidate data; no save: box corner expansion, face reversal, wrong material, extra owned weight, unrelated forest vertex mutation. Each rejects the relevant actual invariant. Expanded-script traceback linecache displays original source lines; reports additionally identify the actual executed assertion and mutation.
+
+Technical acceptance does not establish that the practical-view black stripe has visually disappeared. Identical-camera actual before/after render remains a separate owner gate. The candidate was built by the original archived executed builder; current hardened builder needs a separate repeat semantic check before publication.

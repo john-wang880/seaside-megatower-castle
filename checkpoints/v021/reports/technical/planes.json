@@ -1,0 +1,91 @@
+{
+  "shaft_bottom_foot_minimum_margins_m": {
+    "x": 0.4249992370605469,
+    "y": 0.5,
+    "below": 0.3000001907348633,
+    "above": 2.1000003814697266
+  },
+  "exposed_same_facing_patches": 0,
+  "same_facing_scope": "Only shaft bottom z6, entire rectangle strictly buried in exact foot occupied volume; not exposed surface. Other contacts opposite-facing.",
+  "candidate_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "all_six_planes": true,
+  "evaluated_bounds_before_cull": true,
+  "render_visible_including_viewport_hidden": true,
+  "numerical_plane_bound_m": 1e-06,
+  "positive_area_floor_m2": 1e-08,
+  "contacts": [
+    {
+      "union": "V021 candidate | central pier shaft surface union",
+      "axis": 0,
+      "side": -1,
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "face": 11886,
+      "area": 29.760004653930082,
+      "facing": "opposite",
+      "max_plane_error": 0.0
+    },
+    {
+      "union": "V021 candidate | central pier shaft surface union",
+      "axis": 0,
+      "side": -1,
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "face": 11886,
+      "area": 29.760004653930082,
+      "facing": "opposite",
+      "max_plane_error": 0.0
+    },
+    {
+      "union": "V021 candidate | central pier shaft surface union",
+      "axis": 0,
+      "side": 1,
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "face": 11929,
+      "area": 32.640004119872174,
+      "facing": "opposite",
+      "max_plane_error": 0.0
+    },
+    {
+      "union": "V021 candidate | central pier shaft surface union",
+      "axis": 0,
+      "side": 1,
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "face": 11929,
+      "area": 32.640004119872174,
+      "facing": "opposite",
+      "max_plane_error": 0.0
+    },
+    {
+      "union": "V021 candidate | central pier shaft surface union",
+      "axis": 2,
+      "side": -1,
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 7420,
+      "area": 0.02253383585582469,
+      "facing": "same",
+      "max_plane_error": 0.0
+    },
+    {
+      "union": "V021 candidate | central pier shaft surface union",
+      "axis": 2,
+      "side": -1,
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 7420,
+      "area": 0.0034668202735019804,
+      "facing": "same",
+      "max_plane_error": 0.0
+    },
+    {
+      "union": "V021 candidate | central pier shaft surface union",
+      "axis": 2,
+      "side": -1,
+      "object": "V012 | retained west rib facade with buried-route clearance",
+      "face": 7786,
+      "area": 0.02600065612932667,
+      "facing": "same",
+      "max_plane_error": 0.0
+    }
+  ],
+  "same_facing_count": 3,
+  "opposite_facing_count": 4,
+  "unchanged": true
+}

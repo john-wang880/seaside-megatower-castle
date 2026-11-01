@@ -1,0 +1,10 @@
+{
+  "case": "bounds",
+  "rejected": true,
+  "error": "",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/negative.py\", line 7, in <module>\n    try:exec(compile(s,str(p),'exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/validate.py\", line 38, in <module>\n    assert [x.name for x in m.materials]==[sp['material']] and all(f.material_index==0 and not f.use_smooth for f in m.polygons)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "actual_executed_assertion": " assert len(m.vertices)==8 and len(m.polygons)==6 and {tuple(v.co) for v in m.vertices}=={(x,y,z)for x in[lo[0],hi[0]]for y in[lo[1],hi[1]]for z in[lo[2],hi[2]]}",
+  "executed_mutation": "bpy.data.objects[plan['pairs'][0]['union_object']].data.vertices[0].co.x-=.01",
+  "executed_source_sha256": "278151438d568093fd757b34c76900c5dc23fecd7274ec094f8175befd2ef76f",
+  "traceback_note": "Python linecache displayed original validator text; actual executed assertion below uses expanded in-memory script line."
+}

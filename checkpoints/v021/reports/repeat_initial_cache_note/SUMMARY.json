@@ -1,0 +1,37 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "source": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+    "rebuilt": "7aa31ae0884e11c394e3365d734fc297b1180c5e15673535157c236789d0d52b",
+    "accepted": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9"
+  },
+  "reports": {
+    "repeat": "7889cf0868b00eaaa072bc81bdb5ed1d8ce5b15639db035438876ff5691a93d8",
+    "preservation_geometry": "d3e42f71689ff56714714c89bac365a7a8ff18975fb3639f2a94466a00ceaa80",
+    "planes": "662cbddeeaebd434cd7149246f38da40ea0053e78ca4b0b648284ba45efa7bb0",
+    "state": "f572287548ae7ace6869c406597bec9cbc290b8fe829cc9d7e15a4c5e6ae27c1",
+    "negative_bounds": "2d84151584661894ba45a63eabc77f065264f7ceb0f6a2e04d6c8a882293a023",
+    "negative_orientation": "23361ffd6e46e912e9f5f3953a04e513d0cfab02d7745e5e6cb08e9b24bad6ec",
+    "negative_material": "78a45e5193dce491a1df871e3c9bd8ebc82ab6a3ace1d9efda8510fddefe7af5",
+    "negative_mask": "008a8f9ffcaa7cf71082e59145f1661366c053fcdbf5a4de1ffc8b4c67f2a3d5",
+    "negative_unrelated_source": "c1a5a2fb3ad3b16dd0517fdd854b77662e4eb3411e8ba7d4e872c6614eca068c"
+  },
+  "all_model_gates_pass": true,
+  "payload_files_unchanged": true,
+  "original_bundle_unchanged": true,
+  "models_unchanged": true,
+  "isolated_cwd": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/isolated public \u4e2d\u6587",
+  "private_helper_imports": false,
+  "cache_side_effect": {
+    "initial_inventory_guard_rejected": true,
+    "generated_cache_files_only": {
+      "__pycache__/common.cpython-313.pyc": "c7989945c291e4c3baaebc65feeac16a0b384824297040cab1b1e937eb4ead42",
+      "__pycache__/complement.cpython-313.pyc": "944e79902358ff2717cb91e806ba54204aa60cb051eb0f597dfc8df256702a27",
+      "__pycache__/snapshot_support.cpython-313.pyc": "3023fd7f16dd4f4555533281fc1ad745667209f424bd46c53b73338b8b46872e"
+    },
+    "reason": "Blender ignores host PYTHONDONTWRITEBYTECODE; imported only bundled modules and created bytecode caches.",
+    "cleanup": "Only these three generated files and __pycache__ directory removed; final inventory exact again.",
+    "future_invocation": "Add --python-expr import sys; sys.dont_write_bytecode=True before --python script."
+  },
+  "scope": "Full semantic repeat plus public portable gates and five actual negative controls; no rendering/model saves."
+}

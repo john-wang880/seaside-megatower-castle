@@ -1,0 +1,15 @@
+{
+  "decision": "NO_RING_ARTICULATION_PROTOTYPE",
+  "reviewers": [
+    "owner",
+    "parent",
+    "independent_art_director"
+  ],
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "baseline_image_sha256": "d2e24426730b7163ba01cdaef7f44745dbb96d88463ec118c90830e0a985bc7f",
+  "source_span_count": 3,
+  "visible_front_ring_blocks": 30,
+  "reason": "Existing stone divisions are perceptible and coherent at practical distance; no additional ring or deeper joints justified.",
+  "new_parent_authorized_readonly_question": "Long central pier black slot and forked foot: inspect actual sections/source intent/contact to distinguish opening vs shadows/material. No automatic fill or structural certification.",
+  "model_modified": false
+}

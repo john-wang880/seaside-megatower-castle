@@ -1,0 +1,199 @@
+{
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "source_unchanged": true,
+  "method": "All visible mesh evaluated triangles; constant worldY within1e-5 and actual triangle clipped to union front rectangle. Positive area >1e-8; includes either normal direction.",
+  "triangles": [
+    {
+      "region": "pier",
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "face": 11897,
+      "triangle": 23860,
+      "clipped_area": 18.35999187469497,
+      "coords": [
+        [
+          -41.5,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -39.70000076293945,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -39.70000076293945,
+          34.79999923706055,
+          26.399999618530273
+        ]
+      ]
+    },
+    {
+      "region": "pier",
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "face": 11897,
+      "triangle": 23861,
+      "clipped_area": 18.35999187469497,
+      "coords": [
+        [
+          -41.5,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -39.70000076293945,
+          34.79999923706055,
+          26.399999618530273
+        ],
+        [
+          -41.5,
+          34.79999923706055,
+          26.399999618530273
+        ]
+      ]
+    },
+    {
+      "region": "pier",
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "face": 11938,
+      "triangle": 24000,
+      "clipped_area": 18.35999187469497,
+      "coords": [
+        [
+          -40.29999923706055,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -38.5,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -38.5,
+          34.79999923706055,
+          26.399999618530273
+        ]
+      ]
+    },
+    {
+      "region": "pier",
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "face": 11938,
+      "triangle": 24001,
+      "clipped_area": 18.35999187469497,
+      "coords": [
+        [
+          -40.29999923706055,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -38.5,
+          34.79999923706055,
+          26.399999618530273
+        ],
+        [
+          -40.29999923706055,
+          34.79999923706055,
+          26.399999618530273
+        ]
+      ]
+    },
+    {
+      "region": "plinth",
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "face": 3860,
+      "triangle": 7720,
+      "clipped_area": 3.1799980115883955,
+      "coords": [
+        [
+          -41.92499923706055,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -39.275001525878906,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -39.275001525878906,
+          34.29999923706055,
+          8.100000381469727
+        ]
+      ]
+    },
+    {
+      "region": "plinth",
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "face": 3860,
+      "triangle": 7721,
+      "clipped_area": 3.1799980115883955,
+      "coords": [
+        [
+          -41.92499923706055,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -39.275001525878906,
+          34.29999923706055,
+          8.100000381469727
+        ],
+        [
+          -41.92499923706055,
+          34.29999923706055,
+          8.100000381469727
+        ]
+      ]
+    },
+    {
+      "region": "plinth",
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "face": 3866,
+      "triangle": 7732,
+      "clipped_area": 3.1799980115883955,
+      "coords": [
+        [
+          -40.724998474121094,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -38.07500076293945,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -38.07500076293945,
+          34.29999923706055,
+          8.100000381469727
+        ]
+      ]
+    },
+    {
+      "region": "plinth",
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "face": 3866,
+      "triangle": 7733,
+      "clipped_area": 3.1799980115883955,
+      "coords": [
+        [
+          -40.724998474121094,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -38.07500076293945,
+          34.29999923706055,
+          8.100000381469727
+        ],
+        [
+          -40.724998474121094,
+          34.29999923706055,
+          8.100000381469727
+        ]
+      ]
+    }
+  ]
+}

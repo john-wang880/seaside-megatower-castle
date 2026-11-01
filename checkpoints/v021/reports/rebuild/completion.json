@@ -1,0 +1,16 @@
+{
+  "status": "CLEAN_HARDENED_BUILD_PASS_PENDING_INDEPENDENT_SEMANTIC_QA",
+  "candidate_sha256": "7aa31ae0884e11c394e3365d734fc297b1180c5e15673535157c236789d0d52b",
+  "candidate_bytes": 47600163,
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "all_manifest_files_and_source_unchanged": true,
+  "checks": {
+    "all_original_raw_meshes_exact_except_explicit_weights": true,
+    "non_target_evaluated_face_records_exact": true,
+    "original_material_graphs_and_world_exact": true,
+    "analytic_pair_unions_exact_boxes": true
+  },
+  "isolated_cwd_unicode_spaces": true,
+  "input_model_count": 1,
+  "no_private_candidate_or_work_helpers": true
+}

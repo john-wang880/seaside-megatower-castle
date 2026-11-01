@@ -1,0 +1,10 @@
+{
+  "case": "unrelated_source",
+  "rejected": true,
+  "error": "('Rollback evaluated mismatch', ['V010 | woodland boughs with gate exit clearance'])",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/isolated clean final \u4e2d\u6587/copied bundle/negative.py\", line 10, in <module>\n    try:exec(compile(s,str(p)+'[negative-expanded]','exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/isolated clean final \u4e2d\u6587/copied bundle/validate.py[negative-expanded]\", line 60, in <module>\nAssertionError: ('Rollback evaluated mismatch', ['V010 | woodland boughs with gate exit clearance'])\n",
+  "actual_executed_assertion": "assert rollback['visible_evaluated']==expected,('Rollback evaluated mismatch',[n for n in expected if rollback['visible_evaluated'].get(n)!=expected[n]])",
+  "executed_mutation": "bpy.data.objects['V010 | woodland boughs with gate exit clearance'].data.vertices[0].co.x+=.01",
+  "candidate_sha256": "7aa31ae0884e11c394e3365d734fc297b1180c5e15673535157c236789d0d52b",
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614"
+}

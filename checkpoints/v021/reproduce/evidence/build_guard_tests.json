@@ -1,0 +1,12 @@
+{
+  "tests": {
+    "wrong_source": "rejected before bpy import/model load",
+    "existing_output": "rejected before bpy import/model load",
+    "source_alias": "rejected before bpy import/model load",
+    "optimized": "rejected before bpy import/model load"
+  },
+  "source_unchanged": true,
+  "no_blender_started": true,
+  "script_sha256": "94343c38d0ffa505ebe197c53cc776553924d811b1d6a79e9b679c42caf59b12",
+  "scope": "Four preflight failures only, not full Blender or geometry validation."
+}

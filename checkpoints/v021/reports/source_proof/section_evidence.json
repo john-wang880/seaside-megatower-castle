@@ -1,0 +1,111 @@
+{
+  "method": "Exact source evaluated corner equality proves both component pairs axis-aligned boxes; intersecting X intervals and equal Y/Z extents prove union and point occupancy analytically. Camera projection uses recorded matrix and sensor/lens. No model changes.",
+  "pairs": [
+    {
+      "object": "V007 | western stonework with actual bridgehead passage",
+      "seeds": [
+        15882,
+        15956
+      ],
+      "both_exact_axis_aligned_8corner_boxes": true,
+      "intersection_bounds": [
+        [
+          -40.29999923706055,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -39.70000076293945,
+          41.20000076293945,
+          26.399999618530273
+        ]
+      ],
+      "intersection_volume": 78.33581799311995,
+      "duplicated_front_area": 12.239968643189059,
+      "duplicated_front_corners_image_pixels": [
+        [
+          341.7683677556558,
+          798.630274243084
+        ],
+        [
+          332.1977839130983,
+          189.6632198038132
+        ],
+        [
+          359.64762535472175,
+          797.6127147682511
+        ],
+        [
+          350.756298002603,
+          189.74385324969288
+        ]
+      ],
+      "union_bounds": [
+        [
+          -41.5,
+          34.79999923706055,
+          6.0
+        ],
+        [
+          -38.5,
+          41.20000076293945,
+          26.399999618530273
+        ]
+      ],
+      "union_is_single_box": true
+    },
+    {
+      "object": "V012 | legacy ashlar with buried-route clearance",
+      "seeds": [
+        5144,
+        5152
+      ],
+      "both_exact_axis_aligned_8corner_boxes": true,
+      "intersection_bounds": [
+        [
+          -40.724998474121094,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -39.275001525878906,
+          41.70000076293945,
+          8.100000381469727
+        ]
+      ],
+      "intersection_volume": 25.75195725057226,
+      "duplicated_front_area": 3.479993505476159,
+      "duplicated_front_corners_image_pixels": [
+        [
+          329.8473804055885,
+          812.5678989964945
+        ],
+        [
+          328.6967749794216,
+          742.6459564234583
+        ],
+        [
+          373.37163431284324,
+          810.0328237032504
+        ],
+        [
+          372.41064198091743,
+          740.4072162258074
+        ]
+      ],
+      "union_bounds": [
+        [
+          -41.92499923706055,
+          34.29999923706055,
+          5.699999809265137
+        ],
+        [
+          -38.07500076293945,
+          41.70000076293945,
+          8.100000381469727
+        ]
+      ],
+      "union_is_single_box": true
+    }
+  ]
+}

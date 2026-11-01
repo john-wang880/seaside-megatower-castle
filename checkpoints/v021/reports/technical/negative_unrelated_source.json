@@ -1,0 +1,10 @@
+{
+  "case": "unrelated_source",
+  "rejected": true,
+  "error": "('Rollback evaluated mismatch', ['V010 | woodland boughs with gate exit clearance'])",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/negative.py\", line 7, in <module>\n    try:exec(compile(s,str(p),'exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v021_qa/validate.py\", line 62, in <module>\n    # Remove only explicitly owned additions in memory to independently compare every persisted field.\nAssertionError: ('Rollback evaluated mismatch', ['V010 | woodland boughs with gate exit clearance'])\n",
+  "actual_executed_assertion": "assert rollback['visible_evaluated']==expected,('Rollback evaluated mismatch',[n for n in expected if rollback['visible_evaluated'].get(n)!=expected[n]])",
+  "executed_mutation": "bpy.data.objects['V010 | woodland boughs with gate exit clearance'].data.vertices[0].co.x+=.01",
+  "executed_source_sha256": "0b17099fbba7e048b4b6b3871311a450afc3e652267347d31e39e363536a0a45",
+  "traceback_note": "Python linecache displayed original validator text; actual executed assertion below uses expanded in-memory script line."
+}
