@@ -36,11 +36,13 @@
 
 ## 可选查看副本
 
-恢复当前源模型后：
+以下命令在仓库根目录执行；`blender`须替换为本机兼容Blender可执行文件路径。先恢复源文件：
 ```
-blender -b --disable-autoexec castle_v018.blend --python navigation.py -- --view west_crown --output /new/path/castle_viewer.blend
+python checkpoints/v018/restore_checkpoint.py
+python checkpoints/v018/navigation/navigation.py --list
+blender -b --disable-autoexec --python-exit-code 1 checkpoints/v018/restored/castle_v018.blend --python checkpoints/v018/navigation/navigation.py -- --view west_crown --output checkpoints/v018/restored/castle_viewer.blend
 ```
-输出必须为另一个尚不存在的.blend文件。工具仅新增8个自有检查相机、
+输出必须为另一个尚不存在的.blend文件；重复运行请选择新的输出名，工具不会覆盖已有查看副本。带空格的可执行文件/路径需按所用终端语法加引号。详见[恢复、打开与安全编辑](../QUICKSTART.md)。工具仅新增8个自有检查相机、
 复用已有全景相机，并设置查看/选择状态；不覆盖源文件。`--list`列出9视角。
 
 原静帧辅助工具 `render_manifest_still.py` 维持720×520/24采样快速预览，

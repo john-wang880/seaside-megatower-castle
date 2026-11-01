@@ -1,8 +1,10 @@
 """Optional castle review-camera installer. Never saves the canonical source.
 
-Standard Python: python navigation.py --list
-Blender: blender -b --disable-autoexec castle_v017.blend --python navigation.py --
-         --view bend --output /existing/directory/my_castle_viewer.blend
+From repository root:
+python checkpoints/v018/navigation/navigation.py --list
+blender -b --disable-autoexec --python-exit-code 1 checkpoints/v018/restored/castle_v018.blend
+  --python checkpoints/v018/navigation/navigation.py -- --view bend
+  --output checkpoints/v018/restored/my_castle_viewer.blend
 Only an explicitly named, previously nonexistent separate viewer file is saved.
 """
 import argparse, hashlib, json, math, os, shutil, sys, tempfile

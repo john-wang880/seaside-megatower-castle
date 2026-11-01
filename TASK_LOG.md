@@ -306,3 +306,6 @@ V1实际25帧完整后自动停机，技术身份/相机校验通过但视觉否
 
 ## 2026-11-01 — rejected foliage designs, accepted v018 retained
 Archived dense per-clump actual comparison and isolated whole-tree concept rejection, with independent reviews and explicit test limits. Original model SHA unchanged. Per-clump envelopes were our implementation choice, not user constraint; whole-tree redesign permission did not make slab-like silhouette acceptable. No new model version, no copyrighted reference images, no repeated parameter pass. Next bounded read-only roof-edge assessment, no unsupported engineering claims.
+
+## 2026-11-01 — repository-root viewing quickstart
+Corrected navigation example paths and stale v017 help example; added restore/open/safe separate viewer guide. Actual Linux restore/list/export exercised with Blender5.2.3, source hash unchanged. No GUI click-through or Windows execution claimed. Tool logic and accepted model unchanged.

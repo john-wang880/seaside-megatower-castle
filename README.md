@@ -6,6 +6,7 @@
 
 - [修改前](checkpoints/v018/previews/west_cap_before_v017.png) · **[修改后实际近景](checkpoints/v018/previews/west_cap_after_v018.png)**
 - [当前整体全景](checkpoints/v018/previews/hero_after_v018.png)
+- **[恢复、打开与安全编辑](checkpoints/v018/QUICKSTART.md)**
 - [九视角导航与可选查看副本](checkpoints/v018/navigation/README.md)
 - [恢复清单](checkpoints/v018/MANIFEST.json) · [验证范围](checkpoints/v018/README.md) · [持续计划](CONTINUATION.md)
 - [历史v016八秒真实局部环绕](https://github.com/john-wang880/seaside-megatower-castle/blob/9d417969f97c309665fb37067a81785c0aa225a0/checkpoints/v016/presentation/orbit/README.md)（不含v017/v018屋面层次）
