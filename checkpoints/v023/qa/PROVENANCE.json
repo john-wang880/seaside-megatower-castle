@@ -1,0 +1,41 @@
+{
+  "source_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "accepted_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "executed_original_files": {
+    "negative_geometry.py": "b4d658e2327621211fe85dbe6a0dd02a6e91f434a87386c711048ad0aba4a2f9",
+    "overlay_math.py": "b1e2c49689f1a48f4094472a862130e885331409f1f358884ac20c00466ebf2c",
+    "prove_source_overlay.py": "5d025664a8a753368c505ef034b8f44d279bc0fdafccddd870ac196a8e0db4aa",
+    "negative_state.py": "5baa991699506d6ccbd04d9cb10d6ac95cb568217d2ec61c54fded32cbd4d3b5",
+    "test_overlay.py": "9d98bec4cc1c0962e0865a5031721fa294b452caafc5ab8e346095115904e0c6",
+    "check_actual_overlay.py": "a3782eeb393b1d0a225425365dbffefc3cee6d2a99d200ec17cc4f1aab872268",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "negative_extra_mask.json": "f2a3045bda94e3d91accf133e23c5d6fc7740173c025d91f4c295ad51de6d142",
+    "complement.py": "772c406ef7e4a4396bb6d5f35fa8c8460126887391527520b52b63280a44a44a",
+    "negative_geometry.json": "12520b45a585a2dd6441dc1addd82564820261c99116b93436824dba17663a05",
+    "preservation.json": "6b46d8dffcda4651e7bdfe8ee44b0d7b3bf365315eb8319639197d47f2eee4b4",
+    "overlay.json": "88e029b96c9016140e3be5d3d0218d5f601743ed38aea0b2985d97b46b24d12a",
+    "state.json": "4c45a51e08a5b5086989923c066ef69271505f8102598e1866b09d2135c415dc",
+    "state.py": "3b12f4a5d627bf3ad36e30e6ebd1ae8212c12fcb68279dd8cb5b44c56ed04f90",
+    "prove_boundaries.py": "49dcfcd0126847f871a9a92cce484dc6478421b9a0b7a43a0fab3d6c484039ac",
+    "negative_unrelated_source.json": "eb7c189532bace6b8284d233d807da4ad551c848e57cf025550af6070adde8f0",
+    "FULL_SUMMARY.json": "f5742c3e4affa59423c5881fdc6de093e460669a48d6ed95c54861251472db86",
+    "export_and_preserve.py": "78ff0b683cc58bff53314c5e1f983584e2b604d4521a0c299aeff1d50cd31c6e"
+  },
+  "adapted_files": {
+    "negative_geometry.py": "93199a683259fad48c1b3ae6ad501cc2b214d08b73687510a2dc4f00b3fd20d7",
+    "overlay_math.py": "b1e2c49689f1a48f4094472a862130e885331409f1f358884ac20c00466ebf2c",
+    "README.md": "1b7f89b8fbb3b0e5356c6b3acea587baee0254cca6da152a11c349bdf69f1e6d",
+    "common.py": "d52d1df2b82a80beb3cd581fea33f9bdc48beb54cfa89f52031b0d886462bd35",
+    "validate_repeat.py": "c92225da25badd6da9e12a4ceb38520eb11cb5a4e188bd517671bcc38b8d26e5",
+    "negative_state.py": "7439f0f305ce978932a5780b3fb700d02197a427b52ee8d61b1341cfdc864f30",
+    "test_overlay.py": "9d98bec4cc1c0962e0865a5031721fa294b452caafc5ab8e346095115904e0c6",
+    "check_actual_overlay.py": "fe8ac9185f8450e5f176ee4fa3dcbdda6d3a3224e5a4fe0c5868a46ece27f8c4",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "complement.py": "772c406ef7e4a4396bb6d5f35fa8c8460126887391527520b52b63280a44a44a",
+    "state.py": "d60e60a224071caff58808cdfbb45a6ffddda6bf72de1bfcf654e36b05f8893f",
+    "export_and_preserve.py": "e4243fbf3f95c319920e835bdbc72bde63aade399dcddfd6a312d624b11985b2",
+    "data/plan.json": "79385854fbb6247ede375adfba21eb9711a9df7a3ea66ebce7924d4a0ddf51b0"
+  },
+  "changes": "Explicit model/export/report CLI, SHA-bound plan, output guards, geometry-hash receipt binding. Same executed full-state and overlay algorithms. No private source path or cached geometry dependency.",
+  "status": "AST passes; portable pure overlay and seven geometry negatives passed. Full isolated Blender adapter chain/rebuild pending."
+}

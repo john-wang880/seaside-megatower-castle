@@ -1,0 +1,1643 @@
+{
+  "pass": true,
+  "source_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "method": "Independent double-precision convex polygon clipping; affine pathZ\u2212terrainZ extrema at every overlay polygon vertex. Buried region is exact affine halfplane clip, not vertex/centroid sampling. Actual source pathfaces are triangles. Per-face full coverage plus pairwise no-positive-area overlap checked. Planimetric area only, not camera pixels.",
+  "faces": [
+    {
+      "face": 1140,
+      "material_index": 2,
+      "plan_area": 0.3528042765101418,
+      "buried_area": 0.09436481751542447,
+      "min_full_face_gap": -0.012661582035420338,
+      "max_full_face_gap": 0.022744654321552815,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1141,
+      "material_index": 2,
+      "plan_area": 0.3827538463374367,
+      "buried_area": 0.09088501014673712,
+      "min_full_face_gap": -0.012661582035420338,
+      "max_full_face_gap": 0.022744654321552815,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1142,
+      "material_index": 1,
+      "plan_area": 0.36687104708107654,
+      "buried_area": 0.1798217273572779,
+      "min_full_face_gap": -0.028697298196775023,
+      "max_full_face_gap": 0.02191493493159058,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1143,
+      "material_index": 1,
+      "plan_area": 0.43400125051266514,
+      "buried_area": 0.24595622694476899,
+      "min_full_face_gap": -0.028697298196775023,
+      "max_full_face_gap": 0.022744654321552815,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1144,
+      "material_index": 0,
+      "plan_area": 0.40980902340379544,
+      "buried_area": 0.24913752375764847,
+      "min_full_face_gap": -0.03657738093950158,
+      "max_full_face_gap": 0.02222279547294903,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1145,
+      "material_index": 0,
+      "plan_area": 0.426144210548955,
+      "buried_area": 0.33297653856862897,
+      "min_full_face_gap": -0.043847712570691755,
+      "max_full_face_gap": 0.02176177865141682,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1146,
+      "material_index": 0,
+      "plan_area": 0.4131223063013749,
+      "buried_area": 0.24874385983328168,
+      "min_full_face_gap": -0.031573266907159336,
+      "max_full_face_gap": 0.02271169166246878,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1147,
+      "material_index": 0,
+      "plan_area": 0.3894645155960461,
+      "buried_area": 0.20396885272025364,
+      "min_full_face_gap": -0.03157326690716289,
+      "max_full_face_gap": 0.02227453782805,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1148,
+      "material_index": 1,
+      "plan_area": 0.3720938728947658,
+      "buried_area": 0.13210627268348638,
+      "min_full_face_gap": -0.01802242480695071,
+      "max_full_face_gap": 0.02271169166246878,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1149,
+      "material_index": 1,
+      "plan_area": 0.3929760552709922,
+      "buried_area": 0.12295603004831446,
+      "min_full_face_gap": -0.018022424806954263,
+      "max_full_face_gap": 0.02271169166246878,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1150,
+      "material_index": 2,
+      "plan_area": 0.35260613437276334,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.000663014272749507,
+      "max_full_face_gap": 0.022391407738791003,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1151,
+      "material_index": 2,
+      "plan_area": 0.44925830664578825,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.0006630142727459543,
+      "max_full_face_gap": 0.022542660821859073,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1152,
+      "material_index": 2,
+      "plan_area": 0.40557303895184305,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.004981090126619847,
+      "max_full_face_gap": 0.025090926404423897,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1153,
+      "material_index": 2,
+      "plan_area": 0.4794761129305698,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.0049810901266234,
+      "max_full_face_gap": 0.031965092797204164,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1154,
+      "material_index": 0,
+      "plan_area": 0.46003227421897464,
+      "buried_area": 0.0635599892417211,
+      "min_full_face_gap": -0.009098390905325715,
+      "max_full_face_gap": 0.022744654321552815,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1155,
+      "material_index": 0,
+      "plan_area": 0.44566121097886935,
+      "buried_area": 0.05262461208744461,
+      "min_full_face_gap": -0.009098390905325715,
+      "max_full_face_gap": 0.025090926404420344,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1156,
+      "material_index": 0,
+      "plan_area": 0.45173241032171063,
+      "buried_area": 0.30754917305584073,
+      "min_full_face_gap": -0.028780163008356396,
+      "max_full_face_gap": 0.02176177865141682,
+      "terrain_piece_count": 8
+    },
+    {
+      "face": 1157,
+      "material_index": 0,
+      "plan_area": 0.4055471445171861,
+      "buried_area": 0.17907923070990522,
+      "min_full_face_gap": -0.02303141850499557,
+      "max_full_face_gap": 0.022204457182581905,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1158,
+      "material_index": 0,
+      "plan_area": 0.41281240797252394,
+      "buried_area": 0.16981692129651882,
+      "min_full_face_gap": -0.01994938378943445,
+      "max_full_face_gap": 0.022319316891863394,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1159,
+      "material_index": 0,
+      "plan_area": 0.4192614796629641,
+      "buried_area": 0.158324991834969,
+      "min_full_face_gap": -0.01994938378943445,
+      "max_full_face_gap": 0.022319316891863394,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1160,
+      "material_index": 0,
+      "plan_area": 0.4165789123508148,
+      "buried_area": 0.06670993063116229,
+      "min_full_face_gap": -0.011574850819272342,
+      "max_full_face_gap": 0.022746360487719386,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1161,
+      "material_index": 0,
+      "plan_area": 0.46348955066059716,
+      "buried_area": 0.0683244797599457,
+      "min_full_face_gap": -0.011574850819272342,
+      "max_full_face_gap": 0.022746360487719386,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1162,
+      "material_index": 2,
+      "plan_area": 0.47639323910698295,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.005746560501432185,
+      "max_full_face_gap": 0.03485377455845651,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1163,
+      "material_index": 2,
+      "plan_area": 0.4632909556821687,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.005746560501432185,
+      "max_full_face_gap": 0.029990237287794486,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1164,
+      "material_index": 2,
+      "plan_area": 0.5104352021880914,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.009166606479283246,
+      "max_full_face_gap": 0.034054054880719775,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1165,
+      "material_index": 2,
+      "plan_area": 0.42376201167644467,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.009166606479286799,
+      "max_full_face_gap": 0.02869098083475663,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1166,
+      "material_index": 1,
+      "plan_area": 0.4745315370091703,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.014120074192497611,
+      "max_full_face_gap": 0.043214627222432966,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1167,
+      "material_index": 1,
+      "plan_area": 0.3865002114325762,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.014120074192501164,
+      "max_full_face_gap": 0.038169129820627035,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1168,
+      "material_index": 1,
+      "plan_area": 0.43185351173451636,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02096079411944274,
+      "max_full_face_gap": 0.046867357788361375,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1169,
+      "material_index": 1,
+      "plan_area": 0.41282567515736446,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02211663956835963,
+      "max_full_face_gap": 0.046867357788361375,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1170,
+      "material_index": 0,
+      "plan_area": 0.4465981025568908,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.01865383059998038,
+      "max_full_face_gap": 0.0429141527975041,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1171,
+      "material_index": 0,
+      "plan_area": 0.4477237380488077,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.00802125346637439,
+      "max_full_face_gap": 0.0429141527975041,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1172,
+      "material_index": 0,
+      "plan_area": 0.49390609201509506,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022319316891863394,
+      "max_full_face_gap": 0.039480186226498404,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1173,
+      "material_index": 0,
+      "plan_area": 0.4289450055512134,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.021054698128917693,
+      "max_full_face_gap": 0.039480186226498404,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1174,
+      "material_index": 2,
+      "plan_area": 0.4937255167897092,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.019420184533945672,
+      "max_full_face_gap": 0.02869484157372426,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1175,
+      "material_index": 2,
+      "plan_area": 0.3730400021595415,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.019641808637960168,
+      "max_full_face_gap": 0.02907101002512036,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1176,
+      "material_index": 2,
+      "plan_area": 0.4602960170886945,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02220566211044428,
+      "max_full_face_gap": 0.03014156537704693,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1177,
+      "material_index": 2,
+      "plan_area": 0.36184841257636435,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02149934468128123,
+      "max_full_face_gap": 0.02685355725326133,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1178,
+      "material_index": 0,
+      "plan_area": 0.419625737646129,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022907959607376682,
+      "max_full_face_gap": 0.03285058187994139,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1179,
+      "material_index": 0,
+      "plan_area": 0.4127271919132909,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022502854425397345,
+      "max_full_face_gap": 0.03043134929324154,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1180,
+      "material_index": 1,
+      "plan_area": 0.4481781719659921,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.00840700778168113,
+      "max_full_face_gap": 0.02992424355834089,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1181,
+      "material_index": 1,
+      "plan_area": 0.4447783119539963,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.00840700778168113,
+      "max_full_face_gap": 0.03285058187994139,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1182,
+      "material_index": 1,
+      "plan_area": 0.48607962603273336,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.006985241634012596,
+      "max_full_face_gap": 0.023345781304126234,
+      "terrain_piece_count": 8
+    },
+    {
+      "face": 1183,
+      "material_index": 1,
+      "plan_area": 0.41983246730524115,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.006985241634012596,
+      "max_full_face_gap": 0.029924243558344443,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1184,
+      "material_index": 0,
+      "plan_area": 0.46557306028262246,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.018808623689526627,
+      "max_full_face_gap": 0.030830733201270277,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1185,
+      "material_index": 0,
+      "plan_area": 0.3856284570792923,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.013874630164330881,
+      "max_full_face_gap": 0.021918143999638318,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1186,
+      "material_index": 2,
+      "plan_area": 0.40474096083198674,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.0209900084099246,
+      "max_full_face_gap": 0.03779778236636133,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1187,
+      "material_index": 2,
+      "plan_area": 0.4103964468667982,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.021453752457439634,
+      "max_full_face_gap": 0.03414407569739453,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1188,
+      "material_index": 2,
+      "plan_area": 0.3940243097167695,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02149934468128123,
+      "max_full_face_gap": 0.05058456702680303,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1189,
+      "material_index": 2,
+      "plan_area": 0.4471654730150476,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02149934468128123,
+      "max_full_face_gap": 0.058441058557946235,
+      "terrain_piece_count": 8
+    },
+    {
+      "face": 1190,
+      "material_index": 0,
+      "plan_area": 0.44908548748935573,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022502854425397345,
+      "max_full_face_gap": 0.05716219591923277,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1191,
+      "material_index": 0,
+      "plan_area": 0.46688627800904214,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02167308669359258,
+      "max_full_face_gap": 0.050584567026799476,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1192,
+      "material_index": 0,
+      "plan_area": 0.48363579480792396,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.016978028228564312,
+      "max_full_face_gap": 0.056833802229000696,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1193,
+      "material_index": 0,
+      "plan_area": 0.42979469083365984,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022397065084529544,
+      "max_full_face_gap": 0.05716219591923277,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1194,
+      "material_index": 1,
+      "plan_area": 0.45608612151409034,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02189222118198586,
+      "max_full_face_gap": 0.052186879904748906,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1195,
+      "material_index": 1,
+      "plan_area": 0.40692501584999263,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02274767028079694,
+      "max_full_face_gap": 0.05277994192595159,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1196,
+      "material_index": 0,
+      "plan_area": 0.41850948974024504,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.014489524902817408,
+      "max_full_face_gap": 0.05039041703663116,
+      "terrain_piece_count": 6
+    },
+    {
+      "face": 1197,
+      "material_index": 0,
+      "plan_area": 0.44202551574562676,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02189222118198586,
+      "max_full_face_gap": 0.05039041703663116,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1198,
+      "material_index": 2,
+      "plan_area": 0.4450950340687996,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.021453752457439634,
+      "max_full_face_gap": 0.07851261232406515,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1199,
+      "material_index": 2,
+      "plan_area": 0.49097037462342996,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.01750280925971026,
+      "max_full_face_gap": 0.07851261232406159,
+      "terrain_piece_count": 9
+    },
+    {
+      "face": 1200,
+      "material_index": 2,
+      "plan_area": 0.477523041452514,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02167308669359258,
+      "max_full_face_gap": 0.10180478588514674,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1201,
+      "material_index": 2,
+      "plan_area": 0.4986826074309647,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02228219673889953,
+      "max_full_face_gap": 0.10180478588514674,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1202,
+      "material_index": 0,
+      "plan_area": 0.49828795570647344,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02167308669359258,
+      "max_full_face_gap": 0.10047181414633855,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1203,
+      "material_index": 0,
+      "plan_area": 0.43867079220945016,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02167308669359258,
+      "max_full_face_gap": 0.10643965737394367,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1204,
+      "material_index": 0,
+      "plan_area": 0.45830533138359897,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022651289886709947,
+      "max_full_face_gap": 0.08947064256054915,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1205,
+      "material_index": 0,
+      "plan_area": 0.42212714812194463,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.019989909715711462,
+      "max_full_face_gap": 0.08947064256054915,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1206,
+      "material_index": 0,
+      "plan_area": 0.43352132105792407,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.023012528256494136,
+      "max_full_face_gap": 0.0701832271290499,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1207,
+      "material_index": 0,
+      "plan_area": 0.4600068717991235,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022651289886709947,
+      "max_full_face_gap": 0.07018322712904634,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1208,
+      "material_index": 0,
+      "plan_area": 0.4705726802931167,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02212307651850054,
+      "max_full_face_gap": 0.04813248633777789,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1209,
+      "material_index": 0,
+      "plan_area": 0.48369313444709405,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.023012528256494136,
+      "max_full_face_gap": 0.048132486337781444,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1210,
+      "material_index": 2,
+      "plan_area": 0.5223244578228332,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.01750280925970671,
+      "max_full_face_gap": 0.057132919578478436,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1211,
+      "material_index": 2,
+      "plan_area": 0.4394957001495641,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02212307651850054,
+      "max_full_face_gap": 0.057132919578478436,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1212,
+      "material_index": 2,
+      "plan_area": 0.523459340503905,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022307186339460827,
+      "max_full_face_gap": 0.06712942597868121,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1213,
+      "material_index": 2,
+      "plan_area": 0.438155527372146,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02331533121000362,
+      "max_full_face_gap": 0.06712942597868121,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1214,
+      "material_index": 0,
+      "plan_area": 0.4601972172677051,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02184327958133636,
+      "max_full_face_gap": 0.0648996779387474,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1215,
+      "material_index": 0,
+      "plan_area": 0.4430543446505908,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022307186339460827,
+      "max_full_face_gap": 0.06489967793875095,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1216,
+      "material_index": 0,
+      "plan_area": 0.44259282629354857,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.019989909715711462,
+      "max_full_face_gap": 0.05731959184965518,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1217,
+      "material_index": 0,
+      "plan_area": 0.49375280522508547,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02107807188573929,
+      "max_full_face_gap": 0.06206942997545539,
+      "terrain_piece_count": 8
+    },
+    {
+      "face": 1218,
+      "material_index": 0,
+      "plan_area": 0.4820949873828795,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.012640716326629331,
+      "max_full_face_gap": 0.044628186610015774,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1219,
+      "material_index": 0,
+      "plan_area": 0.5048835406632861,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.014029005475801881,
+      "max_full_face_gap": 0.04859691898235852,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1220,
+      "material_index": 1,
+      "plan_area": 0.5066913137561642,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.00576478171716488,
+      "max_full_face_gap": 0.028095289651759003,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1221,
+      "material_index": 1,
+      "plan_area": 0.45649882848374546,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.00576478171716488,
+      "max_full_face_gap": 0.03218955197739959,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1222,
+      "material_index": 2,
+      "plan_area": 0.4601205953513272,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.00300162340537824,
+      "max_full_face_gap": 0.02398176270840935,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1223,
+      "material_index": 2,
+      "plan_area": 0.4216972223803168,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.00300162340537824,
+      "max_full_face_gap": 0.028095289651759003,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1224,
+      "material_index": 2,
+      "plan_area": 0.4530678924929816,
+      "buried_area": 0.220590777835874,
+      "min_full_face_gap": -0.012410453775785868,
+      "max_full_face_gap": 0.02663500220733539,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1225,
+      "material_index": 2,
+      "plan_area": 0.4944197096483549,
+      "buried_area": 0.2449609114553581,
+      "min_full_face_gap": -0.012704520512023976,
+      "max_full_face_gap": 0.023978098140599258,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1226,
+      "material_index": 0,
+      "plan_area": 0.4579576335672755,
+      "buried_area": 0.13987363664984712,
+      "min_full_face_gap": -0.005910102780642745,
+      "max_full_face_gap": 0.023791968097746974,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1227,
+      "material_index": 0,
+      "plan_area": 0.5657611416827422,
+      "buried_area": 0.27413468015245807,
+      "min_full_face_gap": -0.0062365340821806114,
+      "max_full_face_gap": 0.023791968097746974,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1228,
+      "material_index": 1,
+      "plan_area": 0.5102111789456103,
+      "buried_area": 0.09314605623010165,
+      "min_full_face_gap": -0.005977657587422414,
+      "max_full_face_gap": 0.023043388370098228,
+      "terrain_piece_count": 6
+    },
+    {
+      "face": 1229,
+      "material_index": 1,
+      "plan_area": 0.5644070453272434,
+      "buried_area": 0.14702000970233242,
+      "min_full_face_gap": -0.005977657587422414,
+      "max_full_face_gap": 0.023524854181061983,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1230,
+      "material_index": 0,
+      "plan_area": 0.5215566385304555,
+      "buried_area": 0.21203709456449019,
+      "min_full_face_gap": -0.02803072152291719,
+      "max_full_face_gap": 0.022879996628592636,
+      "terrain_piece_count": 9
+    },
+    {
+      "face": 1231,
+      "material_index": 0,
+      "plan_area": 0.5147529089881573,
+      "buried_area": 0.3070889681323198,
+      "min_full_face_gap": -0.028030721522920743,
+      "max_full_face_gap": 0.023043388370098228,
+      "terrain_piece_count": 6
+    },
+    {
+      "face": 1232,
+      "material_index": 0,
+      "plan_area": 0.47140495767234825,
+      "buried_area": 0.29240733770981164,
+      "min_full_face_gap": -0.0404762877541458,
+      "max_full_face_gap": 0.02385375373216192,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1233,
+      "material_index": 0,
+      "plan_area": 0.5084088958828943,
+      "buried_area": 0.3593663951885878,
+      "min_full_face_gap": -0.0404762877541458,
+      "max_full_face_gap": 0.023241504000232283,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1234,
+      "material_index": 2,
+      "plan_area": 0.4353148431982845,
+      "buried_area": 0.2884445789258219,
+      "min_full_face_gap": -0.03890173554401244,
+      "max_full_face_gap": 0.02398176270840935,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1235,
+      "material_index": 2,
+      "plan_area": 0.5778646672843024,
+      "buried_area": 0.39380531802411733,
+      "min_full_face_gap": -0.038901735544008886,
+      "max_full_face_gap": 0.02396600345660005,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1236,
+      "material_index": 2,
+      "plan_area": 0.5045479771797545,
+      "buried_area": 0.3239003922084309,
+      "min_full_face_gap": -0.026761973070669853,
+      "max_full_face_gap": 0.023574715773381882,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1237,
+      "material_index": 2,
+      "plan_area": 0.6662879406940192,
+      "buried_area": 0.3919586325276922,
+      "min_full_face_gap": -0.03918165419886677,
+      "max_full_face_gap": 0.024098938556115,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1238,
+      "material_index": 0,
+      "plan_area": 0.5771912499621976,
+      "buried_area": 0.12277256376961923,
+      "min_full_face_gap": -0.012253643148063986,
+      "max_full_face_gap": 0.023574715773381882,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1239,
+      "material_index": 0,
+      "plan_area": 0.6298244206118397,
+      "buried_area": 0.23207196123735319,
+      "min_full_face_gap": -0.013052324671747328,
+      "max_full_face_gap": 0.023574715773381882,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1240,
+      "material_index": 0,
+      "plan_area": 0.5756483257428044,
+      "buried_area": 0.11636189877262443,
+      "min_full_face_gap": -0.007801406612362172,
+      "max_full_face_gap": 0.024571547265786364,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1241,
+      "material_index": 0,
+      "plan_area": 0.569110761032789,
+      "buried_area": 0.10536012829511633,
+      "min_full_face_gap": -0.007801406612358619,
+      "max_full_face_gap": 0.024571547265786364,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1242,
+      "material_index": 0,
+      "plan_area": 0.5248411229695193,
+      "buried_area": 0.16675104606780697,
+      "min_full_face_gap": -0.015731939598374822,
+      "max_full_face_gap": 0.02610758214824571,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1243,
+      "material_index": 0,
+      "plan_area": 0.5775771314074518,
+      "buried_area": 0.1979780956429804,
+      "min_full_face_gap": -0.015731939598374822,
+      "max_full_face_gap": 0.02610758214824571,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1244,
+      "material_index": 0,
+      "plan_area": 0.5182063350948738,
+      "buried_area": 0.23378782316659097,
+      "min_full_face_gap": -0.02476945728484381,
+      "max_full_face_gap": 0.026505728616605495,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1245,
+      "material_index": 0,
+      "plan_area": 0.6396657893492375,
+      "buried_area": 0.3119273661530203,
+      "min_full_face_gap": -0.02476945728484381,
+      "max_full_face_gap": 0.026505728616605495,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1246,
+      "material_index": 2,
+      "plan_area": 0.5888317759672645,
+      "buried_area": 0.2805422747036135,
+      "min_full_face_gap": -0.02548424025540541,
+      "max_full_face_gap": 0.028842278331957516,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1247,
+      "material_index": 2,
+      "plan_area": 0.6523015409184154,
+      "buried_area": 0.2784452612850514,
+      "min_full_face_gap": -0.02548424025540541,
+      "max_full_face_gap": 0.028355575686820345,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1248,
+      "material_index": 2,
+      "plan_area": 0.6716460921888938,
+      "buried_area": 0.32118191718658984,
+      "min_full_face_gap": -0.014469247126264406,
+      "max_full_face_gap": 0.024098938556115,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1249,
+      "material_index": 2,
+      "plan_area": 0.6407849835813977,
+      "buried_area": 0.2066599180843642,
+      "min_full_face_gap": -0.014469247126267959,
+      "max_full_face_gap": 0.024098938556115,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1250,
+      "material_index": 0,
+      "plan_area": 0.6346862836071523,
+      "buried_area": 0.3798766238046973,
+      "min_full_face_gap": -0.024538702066571716,
+      "max_full_face_gap": 0.023515283022852884,
+      "terrain_piece_count": 8
+    },
+    {
+      "face": 1251,
+      "material_index": 0,
+      "plan_area": 0.5736187531874748,
+      "buried_area": 0.07541621824014956,
+      "min_full_face_gap": -0.007481945254916411,
+      "max_full_face_gap": 0.023515283022852884,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1252,
+      "material_index": 1,
+      "plan_area": 0.5733106056140969,
+      "buried_area": 0.3795161801706925,
+      "min_full_face_gap": -0.0618053577147748,
+      "max_full_face_gap": 0.025658441338876514,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1253,
+      "material_index": 1,
+      "plan_area": 0.600433499974315,
+      "buried_area": 0.2918926871335392,
+      "min_full_face_gap": -0.025766431269389045,
+      "max_full_face_gap": 0.02500804476063223,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1254,
+      "material_index": 0,
+      "plan_area": 0.5816260196297662,
+      "buried_area": 0.36053893800757886,
+      "min_full_face_gap": -0.0842474309204917,
+      "max_full_face_gap": 0.03101382488950577,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1255,
+      "material_index": 0,
+      "plan_area": 0.65413969605288,
+      "buried_area": 0.48564611307301014,
+      "min_full_face_gap": -0.061805357714781906,
+      "max_full_face_gap": 0.031013824889502217,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1256,
+      "material_index": 0,
+      "plan_area": 0.6439215002319543,
+      "buried_area": 0.37385729653784794,
+      "min_full_face_gap": -0.05118018275181413,
+      "max_full_face_gap": 0.03334494285481071,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1257,
+      "material_index": 0,
+      "plan_area": 0.6356170142389601,
+      "buried_area": 0.4931733008359512,
+      "min_full_face_gap": -0.0842474309204988,
+      "max_full_face_gap": 0.03334494285481071,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1258,
+      "material_index": 2,
+      "plan_area": 0.6564396262401715,
+      "buried_area": 0.2182103764442429,
+      "min_full_face_gap": -0.00724740367429888,
+      "max_full_face_gap": 0.030135817499314044,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1259,
+      "material_index": 2,
+      "plan_area": 0.5504187341866782,
+      "buried_area": 0.44023946616549187,
+      "min_full_face_gap": -0.05063996636520329,
+      "max_full_face_gap": 0.03013581749931049,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1260,
+      "material_index": 2,
+      "plan_area": 0.6381842654955108,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022964788522934043,
+      "max_full_face_gap": 0.0713905136152917,
+      "terrain_piece_count": 8
+    },
+    {
+      "face": 1261,
+      "material_index": 2,
+      "plan_area": 0.5309760013478808,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.023106671900855247,
+      "max_full_face_gap": 0.06504841468261446,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1262,
+      "material_index": 0,
+      "plan_area": 0.5711173961753957,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022964788522934043,
+      "max_full_face_gap": 0.08663576436943998,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1263,
+      "material_index": 0,
+      "plan_area": 0.5950219151418423,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022964788522934043,
+      "max_full_face_gap": 0.07851339948657454,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1264,
+      "material_index": 1,
+      "plan_area": 0.5975834090349963,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.021562588788633263,
+      "max_full_face_gap": 0.09538183668828282,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1265,
+      "material_index": 1,
+      "plan_area": 0.647421843779739,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.023515283022852884,
+      "max_full_face_gap": 0.09538183668828992,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1266,
+      "material_index": 0,
+      "plan_area": 0.6507834416697733,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02381795375150375,
+      "max_full_face_gap": 0.09837013161116204,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1267,
+      "material_index": 0,
+      "plan_area": 0.6169883439724799,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02381795375150375,
+      "max_full_face_gap": 0.09837013161115493,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1268,
+      "material_index": 1,
+      "plan_area": 0.6321557009505341,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02327073157179882,
+      "max_full_face_gap": 0.09318556458735117,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1269,
+      "material_index": 1,
+      "plan_area": 0.5589943018276244,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.018752667297334824,
+      "max_full_face_gap": 0.09318556458735117,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1270,
+      "material_index": 2,
+      "plan_area": 0.5472531701088883,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02278285891919296,
+      "max_full_face_gap": 0.08272387025289873,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1271,
+      "material_index": 2,
+      "plan_area": 0.5787995499267709,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02327073157179882,
+      "max_full_face_gap": 0.08272387025289873,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1272,
+      "material_index": 2,
+      "plan_area": 0.522450917516835,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.023973997058170937,
+      "max_full_face_gap": 0.05163413402267736,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1273,
+      "material_index": 2,
+      "plan_area": 0.5941559813218191,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.023973997058170937,
+      "max_full_face_gap": 0.05490109182780856,
+      "terrain_piece_count": 8
+    },
+    {
+      "face": 1274,
+      "material_index": 0,
+      "plan_area": 0.5852126169047551,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.0008545291432184854,
+      "max_full_face_gap": 0.04059402538849355,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1275,
+      "material_index": 0,
+      "plan_area": 0.6320965350896586,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.0064328586395632215,
+      "max_full_face_gap": 0.051634134022684464,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1276,
+      "material_index": 1,
+      "plan_area": 0.6364759960997617,
+      "buried_area": 0.24752656185486943,
+      "min_full_face_gap": -0.012960925054187555,
+      "max_full_face_gap": 0.02667457760286851,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1277,
+      "material_index": 1,
+      "plan_area": 0.5866229457169538,
+      "buried_area": 0.07306781983563672,
+      "min_full_face_gap": -0.012568014766422664,
+      "max_full_face_gap": 0.04059402538849355,
+      "terrain_piece_count": 6
+    },
+    {
+      "face": 1278,
+      "material_index": 0,
+      "plan_area": 0.606358226359589,
+      "buried_area": 0.1631035373133732,
+      "min_full_face_gap": -0.0092183242800985,
+      "max_full_face_gap": 0.024049789191799675,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1279,
+      "material_index": 0,
+      "plan_area": 0.5468928756017704,
+      "buried_area": 0.12430118919164382,
+      "min_full_face_gap": -0.012960925054187555,
+      "max_full_face_gap": 0.024049789191799675,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1280,
+      "material_index": 0,
+      "plan_area": 0.5491788707440719,
+      "buried_area": 0.11321162805633335,
+      "min_full_face_gap": -0.007881041404786515,
+      "max_full_face_gap": 0.02474805825716686,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1281,
+      "material_index": 0,
+      "plan_area": 0.5846883239282761,
+      "buried_area": 0.06031283080041654,
+      "min_full_face_gap": -0.0074984109933708964,
+      "max_full_face_gap": 0.02474805825716686,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1282,
+      "material_index": 2,
+      "plan_area": 0.568356806441443,
+      "buried_area": 0.2808174344993689,
+      "min_full_face_gap": -0.0212499250781093,
+      "max_full_face_gap": 0.024570603703864435,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1283,
+      "material_index": 2,
+      "plan_area": 0.6556274590548128,
+      "buried_area": 0.07459873139201029,
+      "min_full_face_gap": -0.007881041404786515,
+      "max_full_face_gap": 0.02474805825716686,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1284,
+      "material_index": 2,
+      "plan_area": 0.5770168626913801,
+      "buried_area": 0.17485922967627576,
+      "min_full_face_gap": -0.028073435252260026,
+      "max_full_face_gap": 0.024631770342651294,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1285,
+      "material_index": 2,
+      "plan_area": 0.5905571033945307,
+      "buried_area": 0.2525756057399765,
+      "min_full_face_gap": -0.02566786281725797,
+      "max_full_face_gap": 0.02777787832658163,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1286,
+      "material_index": 0,
+      "plan_area": 0.6135652812372427,
+      "buried_area": 0.24789678891522934,
+      "min_full_face_gap": -0.033516689124439836,
+      "max_full_face_gap": 0.024786619860286407,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1287,
+      "material_index": 0,
+      "plan_area": 0.5214705299003981,
+      "buried_area": 0.2898137803327525,
+      "min_full_face_gap": -0.030156288104365103,
+      "max_full_face_gap": 0.024786619860286407,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1288,
+      "material_index": 0,
+      "plan_area": 0.5692614824802149,
+      "buried_area": 0.2886673896290433,
+      "min_full_face_gap": -0.03662719354188937,
+      "max_full_face_gap": 0.027747235965364325,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1289,
+      "material_index": 0,
+      "plan_area": 0.4919849296857137,
+      "buried_area": 0.30935065843329884,
+      "min_full_face_gap": -0.03620281708431605,
+      "max_full_face_gap": 0.024786619860286407,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1290,
+      "material_index": 0,
+      "plan_area": 0.5305457038630266,
+      "buried_area": 0.22644034127346813,
+      "min_full_face_gap": -0.04227695650718033,
+      "max_full_face_gap": 0.0321796588910388,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1291,
+      "material_index": 0,
+      "plan_area": 0.5304037252499256,
+      "buried_area": 0.3596650431111689,
+      "min_full_face_gap": -0.04227695650718033,
+      "max_full_face_gap": 0.02440984083258968,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1292,
+      "material_index": 1,
+      "plan_area": 0.5669505909900181,
+      "buried_area": 0.16435753072394216,
+      "min_full_face_gap": -0.03409568789354722,
+      "max_full_face_gap": 0.02508342040606948,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1293,
+      "material_index": 1,
+      "plan_area": 0.5644510331912898,
+      "buried_area": 0.3169097477934491,
+      "min_full_face_gap": -0.03409568789355433,
+      "max_full_face_gap": 0.03217965889103169,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1294,
+      "material_index": 2,
+      "plan_area": 0.6354565636138432,
+      "buried_area": 0.13763016579281107,
+      "min_full_face_gap": -0.017245109636498057,
+      "max_full_face_gap": 0.025041739894007264,
+      "terrain_piece_count": 8
+    },
+    {
+      "face": 1295,
+      "material_index": 2,
+      "plan_area": 0.5211246334947646,
+      "buried_area": 0.16906465652082275,
+      "min_full_face_gap": -0.017245109636498057,
+      "max_full_face_gap": 0.029990909825762913,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1296,
+      "material_index": 2,
+      "plan_area": 0.5653295303636696,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.011813655920107635,
+      "max_full_face_gap": 0.03220278480832661,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1297,
+      "material_index": 2,
+      "plan_area": 0.42848852911265567,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.011813655920107635,
+      "max_full_face_gap": 0.03196716065756533,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1298,
+      "material_index": 1,
+      "plan_area": 0.49912326055346057,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.017382860532826783,
+      "max_full_face_gap": 0.040609349540268624,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1299,
+      "material_index": 1,
+      "plan_area": 0.42068248221767135,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.01622441236165173,
+      "max_full_face_gap": 0.039661795444480674,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1300,
+      "material_index": 0,
+      "plan_area": 0.47079397455672733,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02440984083258968,
+      "max_full_face_gap": 0.05148617662535315,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1301,
+      "material_index": 0,
+      "plan_area": 0.46558552933856845,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.024786619860286407,
+      "max_full_face_gap": 0.04814648162818713,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1302,
+      "material_index": 0,
+      "plan_area": 0.5073431241617072,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.021323958506414442,
+      "max_full_face_gap": 0.06421657952210325,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1303,
+      "material_index": 0,
+      "plan_area": 0.48206017902703024,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.02440984083258968,
+      "max_full_face_gap": 0.056539909632114416,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1304,
+      "material_index": 0,
+      "plan_area": 0.5397213444812223,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022582599603900633,
+      "max_full_face_gap": 0.06921612661999177,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1305,
+      "material_index": 0,
+      "plan_area": 0.43825996821396984,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022582599603900633,
+      "max_full_face_gap": 0.06618377684889509,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1306,
+      "material_index": 2,
+      "plan_area": 0.49825926206540316,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022725922293417966,
+      "max_full_face_gap": 0.06016820683667845,
+      "terrain_piece_count": 5
+    },
+    {
+      "face": 1307,
+      "material_index": 2,
+      "plan_area": 0.39525109122041613,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.0225326050306478,
+      "max_full_face_gap": 0.06921612661999177,
+      "terrain_piece_count": 8
+    },
+    {
+      "face": 1308,
+      "material_index": 2,
+      "plan_area": 0.4041160002234392,
+      "buried_area": 0.10824786659338144,
+      "min_full_face_gap": -0.012025916481867682,
+      "max_full_face_gap": 0.028689994010782982,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1309,
+      "material_index": 2,
+      "plan_area": 0.3781171951559372,
+      "buried_area": 0.058746648380009876,
+      "min_full_face_gap": -0.005190549985769621,
+      "max_full_face_gap": 0.028689994010790087,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1310,
+      "material_index": 1,
+      "plan_area": 0.39659829071024433,
+      "buried_area": 0.10480170294906381,
+      "min_full_face_gap": -0.014886503809144358,
+      "max_full_face_gap": 0.027783210620732746,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1311,
+      "material_index": 1,
+      "plan_area": 0.4344284015824087,
+      "buried_area": 0.2085063674012778,
+      "min_full_face_gap": -0.015337648490138633,
+      "max_full_face_gap": 0.02745838534848133,
+      "terrain_piece_count": 4
+    },
+    {
+      "face": 1312,
+      "material_index": 0,
+      "plan_area": 0.4386194509570487,
+      "buried_area": 0.0012391683134327703,
+      "min_full_face_gap": -0.0007624931740082275,
+      "max_full_face_gap": 0.027783210620732746,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1313,
+      "material_index": 0,
+      "plan_area": 0.43991968312184326,
+      "buried_area": 0.1375137541694443,
+      "min_full_face_gap": -0.011253563083229778,
+      "max_full_face_gap": 0.027783210620732746,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1314,
+      "material_index": 0,
+      "plan_area": 0.4538746635662392,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.004904404536645757,
+      "max_full_face_gap": 0.027106565247351,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1315,
+      "material_index": 0,
+      "plan_area": 0.4010267047851812,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.004318458818005411,
+      "max_full_face_gap": 0.027106565247351,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1316,
+      "material_index": 1,
+      "plan_area": 0.4124909929232672,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.012088168660092435,
+      "max_full_face_gap": 0.025223127514692578,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1317,
+      "material_index": 1,
+      "plan_area": 0.38728667970281094,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.012088168660092435,
+      "max_full_face_gap": 0.025223127514692578,
+      "terrain_piece_count": 2
+    },
+    {
+      "face": 1318,
+      "material_index": 2,
+      "plan_area": 0.37181395635707304,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.0225326050306478,
+      "max_full_face_gap": 0.024841500728911114,
+      "terrain_piece_count": 3
+    },
+    {
+      "face": 1319,
+      "material_index": 2,
+      "plan_area": 0.4352831947617233,
+      "buried_area": 0.0,
+      "min_full_face_gap": 0.022532731466590405,
+      "max_full_face_gap": 0.025070021205721105,
+      "terrain_piece_count": 3
+    }
+  ],
+  "summary": {
+    "face_count": 180,
+    "plan_area": 89.17838174336066,
+    "buried_area": 17.421074610971008,
+    "buried_fraction": 0.19535087170684176,
+    "minimum_full_face_gap": -0.0842474309204988,
+    "maximum_full_face_gap": 0.10643965737394367,
+    "maximum_partition_area_error": 1.8207657603852567e-14,
+    "maximum_overlay_piece_overlap_area": 1.1259784019912347e-14
+  },
+  "input_hashes": {
+    "survey.json": "a49a1484250fa5b7c331ea759f148c0d2eecae2e202ca1f8c5db7f7434a1cce2",
+    "coverage.json": "d504034e19a0b1450522721ba644e08241be91449e9c8fee2356aec1faef3415",
+    "local_terrain_triangles.json": "6a2dfbb6975e74e5b029a8b9c4fea5088acfd40489f86158769c867209b2e552"
+  },
+  "limits": "Exported bounded single terrain heightfield only; actual candidate/clean boundary and additional visible geometry still need separate scene validation."
+}

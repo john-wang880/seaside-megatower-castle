@@ -1,0 +1,25 @@
+{
+  "status": "ACCEPTED_LOCAL_PENDING_REMOTE_BACKUP",
+  "model_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "model_bytes": 47628324,
+  "source_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "source_commit": "a80fdd6bc589f03159c23cc3cfaea1cfbdb2adc3",
+  "visual_gate": {
+    "owner_practical": true,
+    "parent_practical": true,
+    "independent_art_director_practical": true,
+    "owner_hero_no_regression": true,
+    "scope": "Localized existing path conformance; no new entrance, route or accessibility certification"
+  },
+  "local_full_technical_gate": true,
+  "clean_git_only_rebuild_semantic_equivalence": true,
+  "public_qa": {
+    "blender_calls": 5,
+    "python_calls": 3,
+    "model_negatives": 2,
+    "exported_geometry_negatives": 7,
+    "math_tests": 5
+  },
+  "all_inputs_and_full_frozen_bundle_inventories_unchanged": true,
+  "geometry_limits": "Open downward-oriented path surface; float32 XY/material/seam residuals explicitly ULP-bounded, not zero/exact-rational or solid/load/global navigation claim."
+}

@@ -1,0 +1,16 @@
+{
+  "source_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "path_object": "Narrow winding limestone footpath | conformed to meadow",
+  "terrain_object": "V002 | western headland with solid rock shore",
+  "rows": [95, 105],
+  "selected_face_range": [1140, 1260],
+  "mask_vertex_range": [672, 735],
+  "offset": 0.021,
+  "full_face_clearance_bounds": [0.016, 0.030],
+  "collection": "UNACCEPTED | v023 local winding path conformance",
+  "replacement": "V023 candidate | terrain-conforming path rows 95 to 105",
+  "group": "V023 candidate | reversible interior path rows 96 to 104",
+  "modifier": "V023 candidate | original local path rollback mask",
+  "units": "coordinate units, not globally calibrated metres",
+  "scope": "120 source triangles only; original XY and material domains; fixed cross seam polylines, lateral Z conformance; no new route or landing connection"
+}

@@ -1,3 +1,5 @@
+> **历史v022文档。** 当前最新模型见[仓库首页](../../README.md)。本版模型清单/载荷在新版远端验证后从当前树撤下，固定历史提交`a80fdd6bc589f03159c23cc3cfaea1cfbdb2adc3`保留原始完整恢复资料。如需下面v022命令，先运行`git worktree add --detach ../castle-v022-history a80fdd6bc589f03159c23cc3cfaea1cfbdb2adc3`并进入该新历史工作树，不把当前新模型交给旧SHA绑定工具。
+
 # v022复现与来源
 
 精确恢复优先使用`restore_checkpoint.py`。程序重建是独立配方核查，不替代验收归档。

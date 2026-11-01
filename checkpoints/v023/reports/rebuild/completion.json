@@ -1,0 +1,25 @@
+{
+  "status": "clean build passed; independent semantic comparison pending",
+  "elapsed_seconds": 17.121664452992263,
+  "rebuilt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023_path_conformance/clean rebuild \u4e2d\u6587/new result/rebuilt.blend",
+  "sha256": "c177f512f26d9c07792984b40e21ad1ea2998c660fe65e6296753c43bc9472fb",
+  "bytes": 47628322,
+  "all_build_checks_pass": true,
+  "all_inputs_and_bundle_unchanged": true,
+  "no_bytecode_cache": true,
+  "inputs": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023_path_conformance/fresh Git source \u4e2d\u6587/checkpoints/v022/restored/castle_v022.blend": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023_path_conformance/candidate.blend": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+    "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender": "b8b07a190fb25db76aae6de08dbc6c2b3d64e22e82bed6ba90de9545859f3431",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v023_path_conformance/clean rebuild \u4e2d\u6587/frozen bundle/RECIPE_FILES.json": "3981b2aaea5fa5fbd83afbb62e9e96f69ed9af3d9b220230aca05c63d9ab62f1"
+  },
+  "files": {
+    "README.md": "1cb7cbd6b82d464d96b3d3bac49033448b8757cacb6360dc24aa6470c649bcf0",
+    "plan.json": "79385854fbb6247ede375adfba21eb9711a9df7a3ea66ebce7924d4a0ddf51b0",
+    "scripts/build.py": "aa490ed8e894b1d7cc7066bed0b392dead69b9c641034015f1b88956f7ed05cf",
+    "scripts/deep_snapshot.py": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a",
+    "scripts/overlay_math.py": "fcfa0026604933150b4e6464392dbfdcbb78b363dc83b4cd180213bc740c493e",
+    "test_plan.py": "d5b3d90ff0c462b7b71bb759750ddaa3ca41eb4c411c93ba3fd372901d714df0",
+    "test_preflight.py": "962a15965ab5e033e41d44b50a0f90b24114329be39a0261cc8143b651ddfff6"
+  }
+}

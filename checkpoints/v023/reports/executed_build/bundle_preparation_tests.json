@@ -1,0 +1,14 @@
+{
+  "tests": {
+    "test_preflight.py": {
+      "returncode": 0,
+      "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.610s\n\nOK\n"
+    },
+    "test_plan.py": {
+      "returncode": 0,
+      "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+    }
+  },
+  "manifest_sha256": "3981b2aaea5fa5fbd83afbb62e9e96f69ed9af3d9b220230aca05c63d9ab62f1",
+  "actual_clean_rebuild": "NOT RUN; awaiting owner slot"
+}

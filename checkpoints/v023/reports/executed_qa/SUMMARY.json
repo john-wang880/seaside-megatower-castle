@@ -1,0 +1,27 @@
+{
+  "critical_gate_pass": true,
+  "input_sha256": {
+    "source": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+    "candidate": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51"
+  },
+  "reports": {
+    "preservation.json": "6b46d8dffcda4651e7bdfe8ee44b0d7b3bf365315eb8319639197d47f2eee4b4",
+    "overlay.json": "88e029b96c9016140e3be5d3d0218d5f601743ed38aea0b2985d97b46b24d12a",
+    "actual_geometry.json": "61627bef9fe873acd57dd8b04aaf71caa4aebbae8619920230d1586742763782"
+  },
+  "source_candidate_unchanged": true,
+  "full_face_gap_range": [
+    0.01701742459652067,
+    0.025655164989025536
+  ],
+  "max_boundary_xy_error": 3.7641256160254676e-06,
+  "max_end_seam_z_error": 1.8188499808502456e-06,
+  "full_surface_z_displacement_range": [
+    -0.08543974892667805,
+    0.1052454026757701
+  ],
+  "surface_grade_max": 0.4525074091516484,
+  "terrain_grade_max": 0.45227729981297865,
+  "scope": "Critical actual evaluated overlay/full-source/complement gate. XY/material residuals explicitly bounded by local float32 ULP; no exact-rational/zero-error claim. Closed-headland underside atz\u22126.5 excluded explicitly from upper-support heightfield. Open surface, no solid/load certification.",
+  "remaining": "Actual same-camera visual gate; rollback/full negative/rebuild/public QA pending."
+}

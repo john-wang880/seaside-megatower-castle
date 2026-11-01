@@ -1,0 +1,14 @@
+{
+  "status": "Positive whole-frame actual review; owner/art-direction gate pending",
+  "baseline_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "candidate_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "findings": [
+    "Abrupt grass-shard interruptions across upper visible path disappear; paving reads continuously through the target band.",
+    "Muted paving facets and moss-edge character remain, rather than an artificially bright new route.",
+    "Tree silhouettes, neighboring ground and actual shadow rhythm remain visually consistent.",
+    "No obvious raised curb or floating ribbon visible in the whole-frame inspection."
+  ],
+  "limits": "Elevated inspection view, not human-eye walkthrough; technical footprint/terrain-conformance claims belong to independent audit. No hero yet.",
+  "source_saved": false,
+  "slot_released": true
+}

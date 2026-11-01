@@ -1,0 +1,23 @@
+{
+  "full_technical_gate_pass": true,
+  "input_sha256": {
+    "source": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+    "candidate": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51"
+  },
+  "reports": {
+    "preservation": "6b46d8dffcda4651e7bdfe8ee44b0d7b3bf365315eb8319639197d47f2eee4b4",
+    "overlay": "88e029b96c9016140e3be5d3d0218d5f601743ed38aea0b2985d97b46b24d12a",
+    "state": "4c45a51e08a5b5086989923c066ef69271505f8102598e1866b09d2135c415dc",
+    "negative_geometry": "12520b45a585a2dd6441dc1addd82564820261c99116b93436824dba17663a05",
+    "negative_extra_mask": "f2a3045bda94e3d91accf133e23c5d6fc7740173c025d91f4c295ad51de6d142",
+    "negative_unrelated_source": "eb7c189532bace6b8284d233d807da4ad551c848e57cf025550af6070adde8f0"
+  },
+  "source_candidate_unchanged": true,
+  "negative_controls": {
+    "actual_evaluated_geometry_export_mutations": 7,
+    "actual_Blender_model_in_memory_mutations": 2,
+    "synthetic_overlay_math_tests": 5
+  },
+  "scope": "Full-face upper-terrain clearance, bounded float32XY/material/seam residuals, complete original state and paired rollback; nine intended negatives reject. Open road surface, no wholecastle/engineering certification.",
+  "public_adapter_status": "Prepared; pure overlay and seven geometry negatives pass; full Blender isolated execution/rebuild still pending."
+}
