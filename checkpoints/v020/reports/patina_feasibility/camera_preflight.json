@@ -1,0 +1,497 @@
+{
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "source_unchanged": true,
+  "camera_location": [
+    50.0,
+    -32.0,
+    38.5
+  ],
+  "target": [
+    47.0,
+    -4.5,
+    35.400001525878906
+  ],
+  "camera_matrix_world": [
+    [
+      0.9941021800041199,
+      -0.01207728497684002,
+      0.10777290910482407,
+      50.0
+    ],
+    [
+      0.10844749957323074,
+      0.11070847511291504,
+      -0.9879183769226074,
+      -32.0
+    ],
+    [
+      -2.231543838604466e-09,
+      0.9937795400619507,
+      0.11136528849601746,
+      38.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "camera_rotation_euler": [
+    1.4591995477676392,
+    2.231543838604466e-09,
+    0.10866120457649231
+  ],
+  "camera_data": {
+    "lens": 55.0,
+    "sensor_width": 36.0,
+    "sensor_height": 24.0,
+    "sensor_fit": "AUTO",
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "clip_start": 0.05000000074505806,
+    "clip_end": 10000.0,
+    "type": "PERSP",
+    "dof_use": false
+  },
+  "resolution": [
+    1200,
+    866
+  ],
+  "target_bounds": [
+    [
+      40.1,
+      -6.35,
+      31.5
+    ],
+    [
+      53.9,
+      -4.5,
+      38.9
+    ]
+  ],
+  "bounds_projection": [
+    [
+      0.10326026380062103,
+      0.18873779475688934,
+      27.186613082885742
+    ],
+    [
+      0.09085793048143387,
+      0.7695602774620056,
+      26.36250877380371
+    ],
+    [
+      0.13881570100784302,
+      0.22328855097293854,
+      29.01426124572754
+    ],
+    [
+      0.12825696170330048,
+      0.7674646377563477,
+      28.19015884399414
+    ],
+    [
+      0.8958459496498108,
+      0.15699516236782074,
+      25.6993465423584
+    ],
+    [
+      0.9089600443840027,
+      0.7714927196502686,
+      24.875244140625
+    ],
+    [
+      0.8806988596916199,
+      0.19552023708820343,
+      27.526994705200195
+    ],
+    [
+      0.8924480080604553,
+      0.7691482305526733,
+      26.702892303466797
+    ]
+  ],
+  "minimum_frame_margin_fraction": 0.09085793048143387,
+  "wall_visibility_samples": [
+    {
+      "target": [
+        42.20000076293945,
+        -4.5,
+        33.20000076293945
+      ],
+      "projection": [
+        0.24508991837501526,
+        0.34244927763938904,
+        28.598617553710938
+      ],
+      "first_visible_object": "Citadel | projecting individual stones",
+      "first_visible_face": 7939,
+      "hit": [
+        42.230796813964844,
+        -4.608577728271484,
+        33.22092819213867
+      ],
+      "target_distance_error": 0.11478448311858415,
+      "wall_face_visible": false
+    },
+    {
+      "target": [
+        42.20000076293945,
+        -4.5,
+        35.5
+      ],
+      "projection": [
+        0.2427861988544464,
+        0.5117527842521667,
+        28.342477798461914
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        42.20000076293945,
+        -4.499996185302734,
+        35.5
+      ],
+      "target_distance_error": 3.814697265625e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        42.20000076293945,
+        -4.5,
+        37.5
+      ],
+      "projection": [
+        0.24074888229370117,
+        0.6614806056022644,
+        28.119747161865234
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        42.20000076293945,
+        -4.5,
+        37.5
+      ],
+      "target_distance_error": 0.0,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        44.0,
+        -4.5,
+        33.20000076293945
+      ],
+      "projection": [
+        0.33959314227104187,
+        0.33975303173065186,
+        28.404624938964844
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        44.0,
+        -4.500001907348633,
+        33.20000076293945
+      ],
+      "target_distance_error": 1.9073486328125e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        44.0,
+        -4.5,
+        35.5
+      ],
+      "projection": [
+        0.3381335139274597,
+        0.5101988315582275,
+        28.14848518371582
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        44.0,
+        -4.5,
+        35.5
+      ],
+      "target_distance_error": 0.0,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        44.0,
+        -4.5,
+        37.5
+      ],
+      "projection": [
+        0.33684247732162476,
+        0.6609543561935425,
+        27.92575454711914
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        44.0,
+        -4.499998092651367,
+        37.5
+      ],
+      "target_distance_error": 1.9073486328125e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        45.70000076293945,
+        -4.5,
+        33.20000076293945
+      ],
+      "projection": [
+        0.43003910779953003,
+        0.33717256784439087,
+        28.221412658691406
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        45.70000076293945,
+        -4.500001907348633,
+        33.20000076293945
+      ],
+      "target_distance_error": 1.9073486328125e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        45.70000076293945,
+        -4.5,
+        35.5
+      ],
+      "projection": [
+        0.4293983280658722,
+        0.5087113976478577,
+        27.96527099609375
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        45.70000076293945,
+        -4.500001907348633,
+        35.5
+      ],
+      "target_distance_error": 1.9073486328125e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        45.70000076293945,
+        -4.5,
+        37.5
+      ],
+      "projection": [
+        0.4288314878940582,
+        0.6604505777359009,
+        27.742542266845703
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        45.70000076293945,
+        -4.500001907348633,
+        37.5
+      ],
+      "target_distance_error": 1.9073486328125e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        48.20000076293945,
+        -4.5,
+        33.20000076293945
+      ],
+      "projection": [
+        0.565201997756958,
+        0.33331629633903503,
+        27.951980590820312
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        48.20000076293945,
+        -4.500001907348633,
+        33.20000076293945
+      ],
+      "target_distance_error": 1.9073486328125e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        48.20000076293945,
+        -4.5,
+        35.5
+      ],
+      "projection": [
+        0.5658049583435059,
+        0.5064882040023804,
+        27.695838928222656
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        48.20000076293945,
+        -4.5,
+        35.5
+      ],
+      "target_distance_error": 0.0,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        48.20000076293945,
+        -4.5,
+        37.5
+      ],
+      "projection": [
+        0.5663384795188904,
+        0.6596975326538086,
+        27.47311019897461
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        48.20000076293945,
+        -4.500001907348633,
+        37.5
+      ],
+      "target_distance_error": 1.9073486328125e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        50.0,
+        -4.5,
+        33.20000076293945
+      ],
+      "projection": [
+        0.6641438603401184,
+        0.33049342036247253,
+        27.75798797607422
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        50.0,
+        -4.500003814697266,
+        33.20000076293945
+      ],
+      "target_distance_error": 3.814697265625e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        50.0,
+        -4.5,
+        35.5
+      ],
+      "projection": [
+        0.6656726002693176,
+        0.5048605799674988,
+        27.501848220825195
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        50.0,
+        -4.5,
+        35.5
+      ],
+      "target_distance_error": 0.0,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        50.0,
+        -4.5,
+        37.5
+      ],
+      "projection": [
+        0.6670253276824951,
+        0.6591461300849915,
+        27.279117584228516
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        50.0,
+        -4.500003814697266,
+        37.5
+      ],
+      "target_distance_error": 3.814697265625e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        51.70000076293945,
+        -4.5,
+        33.20000076293945
+      ],
+      "projection": [
+        0.7588674426078796,
+        0.32779091596603394,
+        27.57477378845215
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        51.70000076293945,
+        -4.5,
+        33.20000076293945
+      ],
+      "target_distance_error": 0.0,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        51.70000076293945,
+        -4.5,
+        35.5
+      ],
+      "projection": [
+        0.7612946033477783,
+        0.5033020973205566,
+        27.318634033203125
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        51.70000076293945,
+        -4.500001907348633,
+        35.5
+      ],
+      "target_distance_error": 1.9073486328125e-06,
+      "wall_face_visible": true
+    },
+    {
+      "target": [
+        51.70000076293945,
+        -4.5,
+        37.5
+      ],
+      "projection": [
+        0.7634424567222595,
+        0.6586180925369263,
+        27.095903396606445
+      ],
+      "first_visible_object": "V012 | ashlar with bounded entrance and north stairwell",
+      "first_visible_face": 11568,
+      "hit": [
+        51.70000076293945,
+        -4.5,
+        37.5
+      ],
+      "target_distance_error": 0.0,
+      "wall_face_visible": true
+    }
+  ],
+  "scope": "Read-only source camera proposal; no render/save. Existing actual light/world/exposure unchanged. Both bays and ledge boundingbox in frame; finite sample rays not everypixel certification."
+}

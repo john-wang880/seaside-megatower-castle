@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "approved_preview_manifest_sha256": "e3ca07c83be77a220e45b21ddc362eaedb9ec17e5ce72eb5fcf273da351e321a",
+  "polished_manifest_sha256": "b3f62b22e9cc65db3c38a3550b91e98e68a0a62a00286ece42154bc780041f79",
+  "camera_recipe_exact": true,
+  "only_per_view_difference": {
+    "resolution": [
+      [
+        600,
+        600
+      ],
+      [
+        2400,
+        2400
+      ]
+    ]
+  },
+  "sample_policy": "Original scene80samples restored, not preview16"
+}

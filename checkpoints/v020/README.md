@@ -34,3 +34,7 @@ python checkpoints/v020/restore_checkpoint.py
 对象/集合名仍包含`candidate`或`UNACCEPTED`，这是构建来源标记。为保留经过检查的模型SHA，不为改名字重新保存；验收收据记录实际状态。旧v016/v018影片也仍是历史版本，不能称为v020影片。
 
 发布采用先追加备份、独立远端恢复/重验后再撤旧当前载荷的流程；Git历史保留，无强推或历史清除。已从远端提交`61482c2e8304e1baf5ff9d2ff3b2a5f5267cd6ca`精确恢复并重开复验，见[远端收据](reports/remote/VERIFIED.json)。旧版当前模型载荷随后撤下，历史仍可恢复。
+
+## 同模型方形展陈图
+
+另有[2400×2400实际展陈图](presentation/exhibition/polished_A/image.png)及[相机/渲染复现配方](presentation/exhibition/README.md)。从四个低成本实际机位中只选择A精渲，原80采样、照明和模型字节不变。它以双塔层次和水面倒影形成方形展示画面，不替代原全岛横向总览，也不是新模型版本。

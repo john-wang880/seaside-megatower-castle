@@ -1,0 +1,948 @@
+{
+  "status": "READ_ONLY_FEASIBILITY_NOT_DEFECT_OR_PROTOTYPE",
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "source_unchanged": true,
+  "target_object": "V012 | ashlar with bounded entrance and north stairwell",
+  "target_mesh": "V012 | ashlar with bounded entrance and north stairwell",
+  "mesh_users": 1,
+  "raw_mesh_counts": [
+    13276,
+    14154
+  ],
+  "uv_layers": [],
+  "modifiers": [],
+  "component": {
+    "seed": 3052,
+    "bounds": [
+      [
+        2.5,
+        -4.5,
+        31.5
+      ],
+      [
+        69.5,
+        -1.5,
+        38.099998474121094
+      ]
+    ],
+    "vertex_count": 24,
+    "face_count": 26,
+    "south_faces": [
+      {
+        "id": 11568,
+        "vertices": [
+          3052,
+          3055,
+          3067,
+          3064
+        ],
+        "coords": [
+          [
+            2.565000057220459,
+            -4.5,
+            31.565000534057617
+          ],
+          [
+            69.43499755859375,
+            -4.5,
+            31.565000534057617
+          ],
+          [
+            69.43499755859375,
+            -4.5,
+            38.03499984741211
+          ],
+          [
+            2.565000057220459,
+            -4.5,
+            38.03499984741211
+          ]
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "material_index": 0
+      }
+    ],
+    "material_indices": [
+      0
+    ]
+  },
+  "selected_material_face": 11568,
+  "trial_bay_world_bounds": [
+    [
+      41.85,
+      -4.5,
+      32.65
+    ],
+    [
+      46.15,
+      -4.5,
+      37.845
+    ]
+  ],
+  "adjacent_clean_bay_x": [
+    47.85,
+    52.15
+  ],
+  "bounding_buttresses": [
+    {
+      "seed": 4948,
+      "bounds": [
+        [
+          40.152320861816406,
+          -6.093837261199951,
+          30.899999618530273
+        ],
+        [
+          41.847679138183594,
+          -3.506162643432617,
+          37.20000076293945
+        ]
+      ],
+      "vertices": 24,
+      "faces": [
+        1612,
+        1613,
+        1614,
+        1615,
+        1616,
+        1617,
+        1618,
+        1619,
+        4819,
+        4820,
+        5797,
+        6470,
+        7498,
+        7499,
+        7500,
+        8762,
+        8763,
+        9720,
+        9721,
+        10498,
+        12042,
+        12043,
+        12044,
+        12045,
+        12046,
+        12047
+      ],
+      "materials": [
+        0
+      ]
+    },
+    {
+      "seed": 4972,
+      "bounds": [
+        [
+          46.152320861816406,
+          -6.093837261199951,
+          30.899999618530273
+        ],
+        [
+          47.847679138183594,
+          -3.506162643432617,
+          37.20000076293945
+        ]
+      ],
+      "vertices": 24,
+      "faces": [
+        1620,
+        1621,
+        1622,
+        1623,
+        1624,
+        1625,
+        1626,
+        1627,
+        4821,
+        4822,
+        5798,
+        6471,
+        7501,
+        7502,
+        7503,
+        8764,
+        8765,
+        9722,
+        9723,
+        10499,
+        12048,
+        12049,
+        12050,
+        12051,
+        12052,
+        12053
+      ],
+      "materials": [
+        0
+      ]
+    },
+    {
+      "seed": 4996,
+      "bounds": [
+        [
+          52.152320861816406,
+          -6.093837261199951,
+          30.899999618530273
+        ],
+        [
+          53.847679138183594,
+          -3.506162643432617,
+          37.20000076293945
+        ]
+      ],
+      "vertices": 24,
+      "faces": [
+        1628,
+        1629,
+        1630,
+        1631,
+        1632,
+        1633,
+        1634,
+        1635,
+        4823,
+        4824,
+        5799,
+        6472,
+        7504,
+        7505,
+        7506,
+        8766,
+        8767,
+        9724,
+        9725,
+        10500,
+        12054,
+        12055,
+        12056,
+        12057,
+        12058,
+        12059
+      ],
+      "materials": [
+        0
+      ]
+    }
+  ],
+  "shelter_object": "V012 | terrace ledges with bounded stair opening",
+  "shelter_component": {
+    "seed": 39024,
+    "bounds": [
+      [
+        2.0999999046325684,
+        -4.900000095367432,
+        37.845001220703125
+      ],
+      [
+        69.9000015258789,
+        -1.100000023841858,
+        38.17499923706055
+      ]
+    ],
+    "vertex_count": 24,
+    "face_count": 26,
+    "south_faces": [
+      {
+        "id": 47932,
+        "vertices": [
+          39024,
+          39027,
+          39041,
+          39037
+        ],
+        "coords": [
+          [
+            2.134999990463257,
+            -4.900000095367432,
+            37.880001068115234
+          ],
+          [
+            69.86499786376953,
+            -4.900000095367432,
+            37.880001068115234
+          ],
+          [
+            69.86499786376953,
+            -4.900000095367432,
+            38.13999938964844
+          ],
+          [
+            2.134999990463257,
+            -4.900000095367432,
+            38.13999938964844
+          ]
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "material_index": 0
+      }
+    ],
+    "material_indices": [
+      0
+    ]
+  },
+  "ledge_front_projection_m": 0.4,
+  "ledge_joints": "None: one continuous closed ledge component, not segmented into real joints. No justified concentrated drip paths found.",
+  "material": {
+    "name": "Citadel \u2022 weathered limestone",
+    "users": 21,
+    "object_users": [
+      {
+        "object": "Citadel | ashlar masonry",
+        "hidden_render": true,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "Citadel | rock-set foundations and approach stair",
+        "hidden_render": true,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V010 | closed-entry stone arch",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V010 | foundation with clear eastern entrance vestibule",
+        "hidden_render": true,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V010 | north closed-entry stone jamb",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V010 | south closed-entry stone jamb",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | east lined stairwell and terrace guard",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | east north corridor stone lining",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | entrance hall ceiling lining",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | entrance hall limestone floor",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | hall east stone lining",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | hall north stone lining",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | hall south stone lining",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | north corridor ceiling lining",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | north corridor limestone floor",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | stairwell ceiling lining",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | twenty north stair treads",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | west lined stairwell and terrace guard",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      },
+      {
+        "object": "V012 | west north corridor stone lining",
+        "hidden_render": false,
+        "slots": [
+          0
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "ShaderNodeBsdfPrincipled",
+        "operation": null,
+        "inputs": {
+          "Base Color": [
+            0.4650000035762787,
+            0.44999998807907104,
+            0.38499999046325684,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8199999928474426,
+          "IOR": 1.5,
+          "Alpha": 1.0,
+          "Thin Wall": false,
+          "Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Weight": 0.0,
+          "Diffuse Roughness": 0.0,
+          "Subsurface Weight": 0.0,
+          "Subsurface Radius": [
+            1.0,
+            0.20000000298023224,
+            0.10000000149011612
+          ],
+          "Subsurface Scale": 0.004999999888241291,
+          "Subsurface IOR": 1.399999976158142,
+          "Subsurface Anisotropy": 0.0,
+          "Specular IOR Level": 0.5,
+          "Specular Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Anisotropic": 0.0,
+          "Anisotropic Rotation": 0.0,
+          "Tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Transmission Weight": 0.0,
+          "Coat Weight": 0.0,
+          "Coat Roughness": 0.029999999329447746,
+          "Coat IOR": 1.5,
+          "Coat Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Coat Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Sheen Weight": 0.0,
+          "Sheen Roughness": 0.5,
+          "Sheen Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Emission Color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Emission Strength": 0.0,
+          "Thin Film Thickness": 0.0,
+          "Thin Film IOR": 1.3300000429153442
+        },
+        "ramp": null
+      },
+      {
+        "name": "Material Output",
+        "type": "ShaderNodeOutputMaterial",
+        "operation": null,
+        "inputs": {
+          "Displacement": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Thickness": 0.0
+        },
+        "ramp": null
+      },
+      {
+        "name": "Geometry",
+        "type": "ShaderNodeNewGeometry",
+        "operation": null,
+        "inputs": {},
+        "ramp": null
+      },
+      {
+        "name": "Separate XYZ",
+        "type": "ShaderNodeSeparateXYZ",
+        "operation": null,
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ramp": null
+      },
+      {
+        "name": "Math",
+        "type": "ShaderNodeMath",
+        "operation": "MULTIPLY",
+        "inputs": {
+          "Value": 0.5
+        },
+        "ramp": null
+      },
+      {
+        "name": "Math.001",
+        "type": "ShaderNodeMath",
+        "operation": "ADD",
+        "inputs": {
+          "Value": 0.5
+        },
+        "ramp": null
+      },
+      {
+        "name": "Combine XYZ",
+        "type": "ShaderNodeCombineXYZ",
+        "operation": null,
+        "inputs": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ramp": null
+      },
+      {
+        "name": "Brick Texture",
+        "type": "ShaderNodeTexBrick",
+        "operation": null,
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Color1": [
+            0.3859499990940094,
+            0.3734999895095825,
+            0.3195500075817108,
+            1.0
+          ],
+          "Color2": [
+            0.5115000009536743,
+            0.4950000047683716,
+            0.4235000014305115,
+            1.0
+          ],
+          "Mortar": [
+            0.35339999198913574,
+            0.34200000762939453,
+            0.29260000586509705,
+            1.0
+          ],
+          "Scale": 3.0999999046325684,
+          "Mortar Size": 0.009999999776482582,
+          "Mortar Smooth": 0.004999999888241291,
+          "Bias": 0.0,
+          "Brick Width": 1.149999976158142,
+          "Row Height": 0.47999998927116394
+        },
+        "ramp": null
+      },
+      {
+        "name": "Noise Texture",
+        "type": "ShaderNodeTexNoise",
+        "operation": null,
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "W": 0.0,
+          "Scale": 10.699999809265137,
+          "Detail": 3.200000047683716,
+          "Roughness": 0.5,
+          "Lacunarity": 2.0,
+          "Offset": 0.0,
+          "Gain": 1.0,
+          "Distortion": 0.0
+        },
+        "ramp": null
+      },
+      {
+        "name": "Mix (Legacy)",
+        "type": "ShaderNodeMixRGB",
+        "operation": null,
+        "inputs": {
+          "Factor": 0.27000001072883606,
+          "Color1": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "Color2": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ]
+        },
+        "ramp": null
+      },
+      {
+        "name": "Noise Texture.001",
+        "type": "ShaderNodeTexNoise",
+        "operation": null,
+        "inputs": {
+          "Vector": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "W": 0.0,
+          "Scale": 0.3400000035762787,
+          "Detail": 3.799999952316284,
+          "Roughness": 0.5,
+          "Lacunarity": 2.0,
+          "Offset": 0.0,
+          "Gain": 1.0,
+          "Distortion": 0.0
+        },
+        "ramp": null
+      },
+      {
+        "name": "Color Ramp",
+        "type": "ShaderNodeValToRGB",
+        "operation": null,
+        "inputs": {
+          "Factor": 0.5
+        },
+        "ramp": [
+          {
+            "position": 0.15000000596046448,
+            "color": [
+              0.25110000371932983,
+              0.24300000071525574,
+              0.2079000025987625,
+              1.0
+            ]
+          },
+          {
+            "position": 0.8600000143051147,
+            "color": [
+              0.5580000281333923,
+              0.5400000214576721,
+              0.4620000123977661,
+              1.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mix (Legacy).001",
+        "type": "ShaderNodeMixRGB",
+        "operation": null,
+        "inputs": {
+          "Factor": 0.2199999988079071,
+          "Color1": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "Color2": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ]
+        },
+        "ramp": null
+      },
+      {
+        "name": "Bump",
+        "type": "ShaderNodeBump",
+        "operation": null,
+        "inputs": {
+          "Strength": 0.20000000298023224,
+          "Distance": 0.03700000047683716,
+          "Filter Width": 0.10000000149011612,
+          "Height": 1.0,
+          "Normal": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ramp": null
+      },
+      {
+        "name": "Bump.001",
+        "type": "ShaderNodeBump",
+        "operation": null,
+        "inputs": {
+          "Strength": 0.23999999463558197,
+          "Distance": 0.03200000151991844,
+          "Filter Width": 0.10000000149011612,
+          "Height": 1.0,
+          "Normal": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ramp": null
+      }
+    ],
+    "links": [
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ],
+      [
+        "Geometry",
+        "Position",
+        "Separate XYZ",
+        "Vector"
+      ],
+      [
+        "Separate XYZ",
+        "Y",
+        "Math",
+        "Value"
+      ],
+      [
+        "Separate XYZ",
+        "X",
+        "Math.001",
+        "Value"
+      ],
+      [
+        "Math",
+        "Value",
+        "Math.001",
+        "Value"
+      ],
+      [
+        "Math.001",
+        "Value",
+        "Combine XYZ",
+        "X"
+      ],
+      [
+        "Separate XYZ",
+        "Z",
+        "Combine XYZ",
+        "Y"
+      ],
+      [
+        "Combine XYZ",
+        "Vector",
+        "Brick Texture",
+        "Vector"
+      ],
+      [
+        "Geometry",
+        "Position",
+        "Noise Texture",
+        "Vector"
+      ],
+      [
+        "Brick Texture",
+        "Color",
+        "Mix (Legacy)",
+        "Color1"
+      ],
+      [
+        "Noise Texture",
+        "Color",
+        "Mix (Legacy)",
+        "Color2"
+      ],
+      [
+        "Geometry",
+        "Position",
+        "Noise Texture.001",
+        "Vector"
+      ],
+      [
+        "Noise Texture.001",
+        "Factor",
+        "Color Ramp",
+        "Factor"
+      ],
+      [
+        "Mix (Legacy)",
+        "Color",
+        "Mix (Legacy).001",
+        "Color1"
+      ],
+      [
+        "Color Ramp",
+        "Color",
+        "Mix (Legacy).001",
+        "Color2"
+      ],
+      [
+        "Mix (Legacy).001",
+        "Color",
+        "Principled BSDF",
+        "Base Color"
+      ],
+      [
+        "Brick Texture",
+        "Factor",
+        "Bump",
+        "Height"
+      ],
+      [
+        "Noise Texture",
+        "Factor",
+        "Bump.001",
+        "Height"
+      ],
+      [
+        "Bump",
+        "Normal",
+        "Bump.001",
+        "Normal"
+      ],
+      [
+        "Bump.001",
+        "Normal",
+        "Principled BSDF",
+        "Normal"
+      ]
+    ]
+  },
+  "existing_weathering": "World-position brick mortar/grain +fine10.7noise +broad0.34noise/ramp22%color blend. No AO, ledge-distance, rain-direction, worldheight aging, saltline or moss masks. Z participates in masonry courses, not grime.",
+  "local_override_strategy": "Copy unique visible ashlar mesh, retain original data for rollback; copy material graph, append one new slot and change onlyface11568 on copiedmesh. Bound new color contribution toonebay with smoothgeometry-informedfalloff, exactlyzerooutside. Do not edit shared21-user material. WorldPosition coordinates remain same; no UV/generated coordinate dependence.",
+  "camera_proposal": {
+    "location": [
+      50,
+      -32,
+      38.5
+    ],
+    "target": [
+      47,
+      -4.5,
+      35.4
+    ],
+    "lens_mm": 55,
+    "resolution": [
+      1200,
+      866
+    ],
+    "lighting": "existing source unchanged",
+    "scope": "Whole nominatedbay+adjacentcleanbay+topledge; proposalonly, needs eventual ray/framing preflight; no render performed"
+  },
+  "design_limits": [
+    "No visible defect established; original material already mottled.",
+    "Only quiet sheltered upper-edge age plausibly grounded; no streaks without actual joint/outlet.",
+    "No elevated salt/tide/moss claim atZ32\u201338m.",
+    "No uniform belt, rectangular boundary, new bump/mortar scale or palette shift.",
+    "Buttresses end37.2belowledge37.845; cannot pretend upper X mask boundaries wholly hidden bypillars. Use gentle nonuniformfade ratherthan hardclipping.",
+    "Close actualpair mustshow usefulrestrainedgain; hero pale base preserved. No parameterloop."
+  ],
+  "evidence": {
+    "survey.json": "fe8b658424328fa90e3c6b68aa8720b1e412519de17732f59cb757ed81178cf1",
+    "hero_probe.json": "287f112473dec06ae0d19b6d13cd38571e43a55891bfea56c2fe84e3e08bded8",
+    "bay_probe.json": "f081fc157b7e92a7470d49c03f1471c9c38fbb624941b98df110e93171e55590"
+  },
+  "camera_preflight": {
+    "receipt": "camera_preflight.json",
+    "sha256": "a63058fca8119a9fb698da6aa99e9e35a9ba4ae61a5c41b5c029c9fcf25b3895",
+    "minimum_frame_margin_fraction": 0.09085793048143387,
+    "wall_face_hits": 17,
+    "sample_count": 18,
+    "other_hit": "one existing projecting individual stone, lowerleftsample"
+  },
+  "local_mask_feasibility": {
+    "face_split": false,
+    "shared_material_changed": false,
+    "geometry_changed": false,
+    "method": "Copied mesh+copied material onlyface11568; worldZ distance below actualledgeunderside37.845 modulated by existing world-position lowfrequencygrain; compact smoothX bell acrossbay, broad softedges not rectangular threshold; exactlyzerooutsideboundedbay and belowagedupperzone. No newtexture UV or stochastic dripcoordinates.",
+    "caveat": "Continuous ledge shelters bothbays equally at macrolevel. Onebay aging difference is an artistic sample/variation, not geometry-provenlocalizedrainpath. Pillars stopbelowledge so hardmaskedges cannot be hidden. If sourceimage doesnot justify variation, recommend no materialprototype ratherthanmanufacturingstreaks."
+  }
+}

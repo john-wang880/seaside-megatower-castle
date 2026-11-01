@@ -1,0 +1,25 @@
+{
+  "status": "Polished A actual image inspected; owner controls final publication",
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "image_sha256": "53b995d8b40c2ba359164a96f1420bb57c310c42b76ff4db4eaea4e75b67fe23",
+  "resolution": [
+    2400,
+    2400
+  ],
+  "samples": 80,
+  "source_saved": false,
+  "camera_exact_vs_approved_preview": true,
+  "native_pixel_regions": [
+    "main crown",
+    "central bridge",
+    "rock-water contact/reflection"
+  ],
+  "findings": [
+    "Complete crowns and spires with intended headroom; roof course detail resolves without obvious rendering discontinuity.",
+    "Bridge arch gap, land connection and adjacent foliage remain readable; no camera intersection detected visually.",
+    "Shoreline/contact and reflected stone masses are coherent at native pixel scale; inherited stylized faceting and water distortion are retained, not retouched.",
+    "No new visible clipping, extreme noise or edge artifact requiring another render."
+  ],
+  "scope": "Distinct concentrated square exhibition still; does not replace full-site landscape hero. No B/C/D polish or additional camera search.",
+  "limits": "Visual inspection covers these views/regions, not exhaustive geometry certification."
+}

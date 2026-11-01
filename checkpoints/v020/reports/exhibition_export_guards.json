@@ -1,0 +1,10 @@
+{
+  "tests": {
+    "wrong_source": "rejected before launching Blender",
+    "existing_output": "rejected before launching Blender",
+    "source_alias": "rejected before launching Blender"
+  },
+  "source_unchanged": true,
+  "no_blender_started": true,
+  "scope": "Three explicit preflight failures only, not production concurrency or platform certification."
+}

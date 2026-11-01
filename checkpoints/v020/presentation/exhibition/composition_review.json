@@ -1,0 +1,77 @@
+{
+  "output_sha256": "d4fcc83dd2206db1823cb49d67fc9f1049557143cb8c6b1c0034dc4ae0e214ec",
+  "images": [
+    {
+      "key": "A_monument",
+      "input_path": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/exhibition_v020/previews/A_monument/image.png",
+      "input_sha256": "05fb358f043198cb99936a022aba13d4717094b38530d412f7f9a867e7b09b24",
+      "original_size": [
+        600,
+        600
+      ],
+      "display_size": [
+        387,
+        387
+      ],
+      "uniform_scale_nominal": 0.6454972243679028
+    },
+    {
+      "key": "B_approach",
+      "input_path": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/exhibition_v020/previews/B_approach/image.png",
+      "input_sha256": "283020220dc62176a66bd818784852348279285baedaaa481a2d7d7a44c964c7",
+      "original_size": [
+        640,
+        426
+      ],
+      "display_size": [
+        475,
+        316
+      ],
+      "uniform_scale_nominal": 0.7417385363711583
+    },
+    {
+      "key": "C_sunlit",
+      "input_path": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/exhibition_v020/previews/C_sunlit/image.png",
+      "input_sha256": "d9eab09aae82fb9310ea375b408aa409d42f2b96a3d84f9b69eefcae6bfccba0",
+      "original_size": [
+        600,
+        600
+      ],
+      "display_size": [
+        387,
+        387
+      ],
+      "uniform_scale_nominal": 0.6454972243679028
+    },
+    {
+      "key": "D_water",
+      "input_path": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/exhibition_v020/previews/D_water/image.png",
+      "input_sha256": "93d49f09c5cdc3623ddd30565a09e04db56dffcb174eff27135e21b5ea54152f",
+      "original_size": [
+        640,
+        426
+      ],
+      "display_size": [
+        475,
+        316
+      ],
+      "uniform_scale_nominal": 0.7417385363711583
+    },
+    {
+      "key": "reference",
+      "input_path": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/checkpoints/v020/previews/hero_after.png",
+      "input_sha256": "0776231d028ff0d290394ae8cef92bc84cfa889331196367c2949f3a85fca1df",
+      "original_size": [
+        1200,
+        866
+      ],
+      "display_size": [
+        456,
+        329
+      ],
+      "uniform_scale_nominal": 0.37992341515847805
+    }
+  ],
+  "color_exposure_edits": false,
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614"
+}

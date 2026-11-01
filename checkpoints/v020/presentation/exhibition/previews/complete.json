@@ -1,0 +1,36 @@
+{
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "code_and_plan_sha256": {
+    "views.json": "e3ca07c83be77a220e45b21ddc362eaedb9ec17e5ce72eb5fcf273da351e321a",
+    "render_preview.py": "7e8d4260a497aaee1d954e5b2e8ac9a2dbfdaf3e956bb83be593d97a5c7cd20a",
+    "preservation_support.py": "73f9693fb41580993831f73fb8bd56dd762d61ea7906ac04170a6886c51c4dd6"
+  },
+  "cases": [
+    {
+      "view": "A_monument",
+      "process_wall_seconds": 59.0175364530005,
+      "receipt_sha256": "ed267a1094549e3d8244445e36aa391b9c6f5fbc37eeb2535501e90899e9c1fd",
+      "image_sha256": "05fb358f043198cb99936a022aba13d4717094b38530d412f7f9a867e7b09b24"
+    },
+    {
+      "view": "B_approach",
+      "process_wall_seconds": 57.403172837002785,
+      "receipt_sha256": "afe27b22b77d66454f954bdb5ffda7a789eaded59f3dff16b130374ee597d16d",
+      "image_sha256": "283020220dc62176a66bd818784852348279285baedaaa481a2d7d7a44c964c7"
+    },
+    {
+      "view": "C_sunlit",
+      "process_wall_seconds": 59.95897877299285,
+      "receipt_sha256": "4814c736dee4ab45631dde8873c02fe98a01c9b3b3a0271a131626af82641b5b",
+      "image_sha256": "d9eab09aae82fb9310ea375b408aa409d42f2b96a3d84f9b69eefcae6bfccba0"
+    },
+    {
+      "view": "D_water",
+      "process_wall_seconds": 58.97325384800206,
+      "receipt_sha256": "a58b69eabe458a29c3de301d679ce0ae672250adc71dd9c0f40adfc0f951a441",
+      "image_sha256": "93d49f09c5cdc3623ddd30565a09e04db56dffcb174eff27135e21b5ea54152f"
+    }
+  ],
+  "total_wall_seconds": 235.35473631400964,
+  "scope": "Four16samplecompositionpreviews; original world/light/view unchanged; no source saved"
+}

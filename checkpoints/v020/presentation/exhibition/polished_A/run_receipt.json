@@ -1,0 +1,33 @@
+{
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "runtime_sha256": {
+    "render_polished.py": "3a55f7fc472312ec74d5ef45b60691e84754e21af819f9d925a5b7adbd4e8d28",
+    "preservation_support.py": "73f9693fb41580993831f73fb8bd56dd762d61ea7906ac04170a6886c51c4dd6",
+    "polished_views.json": "b3f62b22e9cc65db3c38a3550b91e98e68a0a62a00286ece42154bc780041f79",
+    "run_polished.py": "5eedd854264a1258a69817e45e0751b8cf1879bd837f474249d6945beb850ecb"
+  },
+  "command": [
+    "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/exhibition_v020/render_polished.py",
+    "--",
+    "--source",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v020/castle_v020.blend",
+    "--source-sha",
+    "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+    "--manifest",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/exhibition_v020/polished_views.json",
+    "--view",
+    "A_monument",
+    "--output-dir",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/exhibition_v020/polished_A"
+  ],
+  "process_wall_seconds": 229.66972157200507,
+  "receipt_sha256": "47ac4c4e089ecfacd9de18a9f8c7f4f9efdb5c9b3b18ac742663ae0eaaa3b345",
+  "image_sha256": "53b995d8b40c2ba359164a96f1420bb57c310c42b76ff4db4eaea4e75b67fe23"
+}

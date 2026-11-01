@@ -5,6 +5,7 @@
 为入口增加克制的分块石拱和两段短侧墙压顶接缝；原开口、道路、森林、材质和照明不变。实际接近与斜侧视角可读，整体构图仍由城堡主塔主导。是局部工艺丰富，不是整座城堡重做或工程安全认证。
 
 - [实际原光照前后图与说明](checkpoints/v020/README.md) · [复现步骤](checkpoints/v020/REPRODUCE.md)
+- **[2400像素方形展陈图与复现配方](checkpoints/v020/presentation/exhibition/README.md)**：同一v020模型与原照明，仅改变相机构图；原全景仍保留。
 - [恢复清单](checkpoints/v020/MANIFEST.json) · [持续计划](CONTINUATION.md)
 
 克隆完整仓库（含model_chunks），运行 `python checkpoints/v020/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块和整文件SHA-256验证，精确恢复原字节。已从远端`61482c2`精确恢复并复验，[验证收据](checkpoints/v020/reports/remote/VERIFIED.json)记录完整提交。随后撤下旧版当前模型载荷，Git历史保留。
