@@ -1,0 +1,59 @@
+{
+  "recommendation": "Positive visual gate for one-tree candidate; final model acceptance remains owner decision after independent technical QA.",
+  "candidate_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "actual_pair_settings_equal_except_output": true,
+  "images_reviewed": [
+    "baseline_approach/image.png",
+    "candidate_approach/image.png",
+    "baseline_hero/image.png",
+    "candidate_hero/image.png"
+  ],
+  "approach_findings": [
+    "Dominant smooth pear clumps are replaced by a coherent dense layered conifer crown. This is a substantive local silhouette/branch-language improvement, unlike the rejected collar and thin-ladder trials.",
+    "No obvious ghost trunk, exposed old-bough fragment or floating replacement volume is visible at1200x866 actual-camera scale. This visual finding is not a complete geometry/contact certificate.",
+    "Actual scene shadow keeps the tree very dark. Finer foliage texture differs from untouched low-poly neighbors, but retained dark palette/mass prevents a conspicuous bright/noisy standout.",
+    "Bridge/entrance readability remains intact."
+  ],
+  "hero_findings": [
+    "At practical hero scale the local tree change is subtle; no conspicuous forest-mass, skyline, contrast or noise regression is visible.",
+    "No full-forest restoration or exact pre-decimation reconstruction is claimed."
+  ],
+  "metrics": [
+    {
+      "view": "approach",
+      "baseline": {
+        "load_wall_seconds": 0.40928411099594086,
+        "render_wall_seconds": 73.43674362300953,
+        "render_cpu_seconds": 579.5385653879999,
+        "peak_rss_linux_kib": 1997576
+      },
+      "candidate": {
+        "load_wall_seconds": 0.41853463399456814,
+        "render_wall_seconds": 73.37815968699579,
+        "render_cpu_seconds": 577.940839936,
+        "peak_rss_linux_kib": 2119380
+      },
+      "peak_rss_delta_mib": 118.94921875
+    },
+    {
+      "view": "hero",
+      "baseline": {
+        "load_wall_seconds": 0.4509260169870686,
+        "render_wall_seconds": 79.80291123999632,
+        "render_cpu_seconds": 630.3925010380001,
+        "peak_rss_linux_kib": 1986400
+      },
+      "candidate": {
+        "load_wall_seconds": 0.4072414230031427,
+        "render_wall_seconds": 79.4966099900048,
+        "render_cpu_seconds": 627.9298365860001,
+        "peak_rss_linux_kib": 2114268
+      },
+      "peak_rss_delta_mib": 124.87109375
+    }
+  ],
+  "measurement_limits": "Four sequential fresh processes, one baseline-first pair per view. No build/deep snapshot in process; RSS peak includes load/render. Differences are observations, not a controlled speed benchmark or proof of improvement in runtime.",
+  "contact_pair": "tree_crop_pair.png; exact source crop(140,0,440,740), no pixel resampling/exposure/color edits; labels outside images; equality checked in contact_pairs.json.",
+  "scope_closed": "All four approved renders complete; source files unchanged; Blender released. No extra angle/relight proposed."
+}

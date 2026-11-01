@@ -1,0 +1,15 @@
+{
+  "control": "reversed_face",
+  "candidate_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "validator_sha256": "b8a5f467f8f54e5cce7918ee5da5f2ea58423fbbf7b3a0bd34182b50069a6ada",
+  "mutation_in_memory": {
+    "reversed_wood_face": 0
+  },
+  "rejected_at_intended_invariant": true,
+  "failure": {
+    "message": "('Open/inconsistent wood', '0')",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_qa/test_negative_geometry.py\", line 16, in <module>\n    try:exec(compile(code,a.validator,'exec'),{'__name__':'__main__','__file__':a.validator,'_negative_mutate':mutate})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"work/v019_qa/validate_new_geometry.py\", line 60, in <module>\n    if row['role']=='primary_bough':primary=len(comps)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"work/v019_qa/validate_new_geometry.py\", line 22, in solid\n    center=sum(vs,Vector())/len(vs);vol=sum((vs[t[0]]-center).dot((vs[t[1]]-center).cross(vs[t[2]]-center))/6 for t in triangles);assert vol>1e-12,('Nonpositive wood volume',label,vol)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('Open/inconsistent wood', '0')\n"
+  },
+  "candidate_unchanged": true,
+  "saved_model": false
+}

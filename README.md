@@ -1,18 +1,18 @@
 # 海边巨塔城堡 · 持续精修
 
-最新检查点：**[v018 西塔低屋帽瓦片层次](checkpoints/v018/README.md)**。
+最新检查点：**[v019 西侧入口前景针叶树](checkpoints/v019/README.md)**。
 
-西塔八角屋帽加入克制的错缝石板瓦层次，保留低矮简单轮廓、铜脊、尖杆、原材质与灯光。2,096块闭合瓦片；实际交接、来源保持、负控制、重复构建、旧路线回归和九视角导航检查通过。这是近景细节改进，不是全景大改或建筑工程认证。
+仅替换入口旁一株近景树的可见树冠，保留原树与整个森林，新增层次分明的针叶枝条；建筑、道路、材质和原照明不改。不是整片森林升级，也不是性能优化：工程体积增加32.3%，本次两组独立进程峰值内存增加约119–125MiB。
 
-- [修改前](checkpoints/v018/previews/west_cap_before_v017.png) · **[修改后实际近景](checkpoints/v018/previews/west_cap_after_v018.png)**
-- [当前整体全景](checkpoints/v018/previews/hero_after_v018.png)
-- **[恢复、打开与安全编辑](checkpoints/v018/QUICKSTART.md)**
-- [九视角导航与可选查看副本](checkpoints/v018/navigation/README.md)
-- [恢复清单](checkpoints/v018/MANIFEST.json) · [验证范围](checkpoints/v018/README.md) · [持续计划](CONTINUATION.md)
-- [历史v016八秒真实局部环绕](https://github.com/john-wang880/seaside-megatower-castle/blob/9d417969f97c309665fb37067a81785c0aa225a0/checkpoints/v016/presentation/orbit/README.md)（不含v017/v018屋面层次）
+- [原光照前后对照](checkpoints/v019/previews/tree_crop_pair.png) · [整体全景](checkpoints/v019/previews/hero_after.png)
+- **[恢复、检查与原树切换](checkpoints/v019/README.md)**
+- [恢复清单](checkpoints/v019/MANIFEST.json) · [持续计划](CONTINUATION.md)
 
-克隆完整仓库（含model_chunks），运行 `python checkpoints/v018/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块/整文件SHA-256验证，精确恢复原字节。
+克隆完整仓库（含model_chunks），运行 `python checkpoints/v019/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块和整文件SHA-256验证，精确恢复原字节。
 
-已从提交`3322030e311e8857c4b9d444b4a122027f7643e1`独立恢复并复验，见[远端验证](checkpoints/v018/reports/remote_validation.json)。当前只保留最新模型载荷；旧版Git历史保留，不强推、不永久清除历史。前景针叶试验因损失树冠体量已拒绝，未改当前森林。图片来源明确区分：西塔屋帽/全景v018，主冠参考v017，六张路线/小塔参考v016。
+先增加新版备份并独立远端恢复验证，再撤下旧版当前模型载荷。旧版Git历史保留，不强推、不永久清除历史。
 
-**已完成：[28秒入口内廊至露台实际相机预览](checkpoints/v018/presentation/interior_route/STATUS.md)** · [MP4](checkpoints/v018/presentation/interior_route/final/castle_v018_interior_route.mp4)。336真实帧/12fps/960×694，原照明与工程不改；完整解码和逐帧来源检查通过。不是全城堡内部通行或实时无闪烁认证。
+## 历史呈现与工具（不是v019影片）
+- [v018内廊至露台28秒影片与来源](https://github.com/john-wang880/seaside-megatower-castle/blob/89cce41edf648eef6487d54ee1ce2a46bbb0ae17/checkpoints/v018/presentation/interior_route/STATUS.md)，336真实帧；不含本次树冠修改。
+- [v018独立便携重渲染工具](checkpoints/v018/presentation/portable_interior/README.md)：仍绑定历史v018；原生Windows未实测，不会自动重渲染或降低质量。
+- [历史v016八秒局部环绕](https://github.com/john-wang880/seaside-megatower-castle/blob/9d417969f97c309665fb37067a81785c0aa225a0/checkpoints/v016/presentation/orbit/README.md)，不含后续屋面和树冠。

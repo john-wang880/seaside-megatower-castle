@@ -1,0 +1,32 @@
+{
+  "control": "hidden_original",
+  "mutation_in_memory_only": {
+    "object": "Dense western woodland | irregular three-dimensional needle boughs",
+    "mesh": "Dense western woodland | irregular three-dimensional needle boughs geometry",
+    "vertex": 0,
+    "before": [
+      -118.6898193359375,
+      -7.762565612792969,
+      25.778125762939453
+    ],
+    "after": [
+      -118.67981719970703,
+      -7.762565612792969,
+      25.778125762939453
+    ],
+    "operation": "shift source vertex x by0.01"
+  },
+  "rejected_at_intended_invariant": true,
+  "failure": {
+    "type": "AssertionError",
+    "message": "Inspect independent preservation differences",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_qa/test_negative_preservation.py\", line 18, in <module>\n    try:exec(compile(code,str(validator),'exec'),{'__name__':'__main__','__file__':str(validator),'_qa_negative_mutation':mutate})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_qa/validate_preservation.py\", line 302, in <module>\n    assert r['pass'], 'Inspect independent preservation differences'\n           ~^^^^^^^^\nAssertionError: Inspect independent preservation differences\n"
+  },
+  "validator_sha256": "2fee9f296da2616de68f9062f01e1dbc9477f07fda3996baed45b84595a8071b",
+  "baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "candidate_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "baseline_file_unchanged": true,
+  "candidate_file_unchanged": true,
+  "source_saved": false,
+  "scope": "Intentional corruption injected immediately after candidate read inside actual validation flow. No modified validator/model saved; raw exception and detailed comparison retained. Not a real candidate defect."
+}

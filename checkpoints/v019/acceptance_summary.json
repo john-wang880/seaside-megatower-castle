@@ -1,0 +1,23 @@
+{
+  "status": "LOCAL_ACCEPTED_PENDING_REMOTE_RESTORE",
+  "model_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "model_bytes": 47591177,
+  "baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "baseline_history_commit_prefix": "89cce41",
+  "scope": "One foreground conifer only; two additive meshes and reversible298vertex foliage Mask; original entire wood preserved",
+  "technical_evidence": "reports/SUMMARY.json",
+  "visual_evidence": "reports/visual/visual_review.json",
+  "paired_render_evidence": "reports/visual/comparison.json",
+  "repeat_evidence": "reports/repeat/SUMMARY.json",
+  "provenance_labels": "Candidate/UNACCEPTED object names retained intentionally to preserve exact tested model bytes; this acceptance receipt supersedes those historical names",
+  "pending": [
+    "Owner Git publication",
+    "Fresh remote exact-model restore/hash verification"
+  ],
+  "limits": [
+    "New wood tubes closed; needles intentionally open-backed",
+    "Legacy open-ended trunk uses labeled section-envelope contact proxy",
+    "Only known route envelope tested",
+    "No claim of self-contained procedural regeneration; historical standalone dependency explicitly documented"
+  ]
+}

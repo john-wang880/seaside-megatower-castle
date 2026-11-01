@@ -1,0 +1,40 @@
+{
+  "technical_gate_pass": true,
+  "candidate_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "asset_sha256": "641651d02c994d2c65dc3b79dae2704ad9509af455b8a039aa46620f293faf88",
+  "mapping_sha256": "7c6d85b853bdc9773775b7d404e45bcee49b9ac9a3fb9d03e0ea7fb047f30191",
+  "preservation_pass": true,
+  "needle_count": 83118,
+  "wood_components": 3199,
+  "strict_nonadjacent_triangle_crossing_components": 0,
+  "needle_min_margin_m": 0.0002528324257582426,
+  "negative_controls": {
+    "wrong_mask_vertex": true,
+    "unselected_geometry": true,
+    "hidden_original": true,
+    "detached_needle": true,
+    "reversed_face": true
+  },
+  "limitations": [
+    "Original trunk remains unchanged open-ended5-side tube. Legacy-root contact uses explicitly labeled analytical section-envelope proxy, with actual side intersections separately reported.",
+    "Self-intersection negative result covers strict nonadjacent triangle crossings without shared vertices, not all coplanar/shared-vertex degeneracies.",
+    "Needles are open-backed four-triangle surfaces, not closed solids.",
+    "Known route bounds only, no global forest navigation or structural certification.",
+    "Fullscene actual visual and measured render/memory cost gate remains pending."
+  ],
+  "evidence": {
+    "negative_detached_needle.json": "b56b4c24e9b40f4d68689f0472103977ee87d80d160a241cfbe1b3f774367dea",
+    "negative_detached_needle.validator.json": "3d855a0dfbba6c2f2b98c0500a3e7aba77afb5d850c6f491d44a7c384ad2da99",
+    "tube_folds.json": "213b9211e41cc5c2ea813e08e5c86c03dfb33ef594beebcf54e76a3c155d000e",
+    "negative_unselected_geometry.json": "7f0fbe2a82845f1df82c1b27e1c2652d70cbfa4a2d226d3f635a6f9f1bc12453",
+    "preservation.json": "254ae8128ab51a2f62bb9f4c61ded8e7e773ba9ac89af4ce00bf75ae52b10bf2",
+    "negative_reversed_face.json": "cc6f7f9bf8fcc862934a967959399baef751619161bf53504d01c0fcad837ba3",
+    "negative_unselected_geometry.validator.json": "0452f7753cee342e9b981a79bc734d72341e742831fd4820a6c1b8b65867ff38",
+    "negative_hidden_original.validator.json": "222666a7c7e1d00136fa63fdbeb79904cbadbea61085dbbf1dde33fccf580554",
+    "negative_wrong_mask_vertex.json": "1e19829f317a887df2c0b16a18ac8b1b15902794498de21f5298149fd2c7b73a",
+    "negative_hidden_original.json": "20bb6b507e3be6ee56990d9a76ba14ac6fd7d9562d2517fc8a9064e777624e81",
+    "geometry.json": "0518cf60a1936f946e6ec993425465288566aad0e29d4c2a28bf7be4e9d383e1"
+  },
+  "model_saved": false
+}

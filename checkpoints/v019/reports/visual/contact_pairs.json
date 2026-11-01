@@ -1,0 +1,77 @@
+{
+  "composition_script_sha256": "05b512ae2a41c4c4b1c3618b0022d1b069a2a789db97ba349feec871e41bb9b4",
+  "pairs": [
+    {
+      "output": "tree_crop_pair.png",
+      "output_sha256": "6d5293ccfd4b787784401e581e4fab29e69b53a7812d00ef1f19a6552969e9f6",
+      "source_images": [
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_visual/final_comparison/baseline_approach/image.png",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_visual/final_comparison/candidate_approach/image.png"
+      ],
+      "source_image_sha256": [
+        "3da5d43a5ad36d9f353a3d1c7c88b9e70d0cef9d68ce6fcd8931e1728c3f3766",
+        "4573bf9dfc2f361a820b29c03d86bc2f35586a698ff16d1bfcc56d166b70ac03"
+      ],
+      "source_crop_xyxy": [
+        140,
+        0,
+        440,
+        740
+      ],
+      "pasted_boxes_xyxy": [
+        [
+          16,
+          82,
+          316,
+          822
+        ],
+        [
+          336,
+          82,
+          636,
+          822
+        ]
+      ],
+      "pasted_pixel_equality_verified": true,
+      "resampling": false,
+      "exposure_or_color_edit": false,
+      "labels_only_outside_source_pixels": true
+    },
+    {
+      "output": "approach_full_pair.png",
+      "output_sha256": "5b6b51b6c53c3aa5bb219feb5d849bbeca0360cfed688eeefee13c01ae944a02",
+      "source_images": [
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_visual/final_comparison/baseline_approach/image.png",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_visual/final_comparison/candidate_approach/image.png"
+      ],
+      "source_image_sha256": [
+        "3da5d43a5ad36d9f353a3d1c7c88b9e70d0cef9d68ce6fcd8931e1728c3f3766",
+        "4573bf9dfc2f361a820b29c03d86bc2f35586a698ff16d1bfcc56d166b70ac03"
+      ],
+      "source_crop_xyxy": [
+        0,
+        0,
+        1200,
+        866
+      ],
+      "pasted_boxes_xyxy": [
+        [
+          16,
+          82,
+          1216,
+          948
+        ],
+        [
+          1236,
+          82,
+          2436,
+          948
+        ]
+      ],
+      "pasted_pixel_equality_verified": true,
+      "resampling": false,
+      "exposure_or_color_edit": false,
+      "labels_only_outside_source_pixels": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "first_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "second_sha256": "b15346c20233aa62976b526389190d59643619a6be311c6e6d46f3c450df3033",
+  "checks": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "worlds": true,
+    "cameras": true,
+    "collections": true,
+    "scene": true
+  },
+  "prototype_course_geometry_exact": null,
+  "pass": true,
+  "scope": "Exact persisted semantic equality, not binary identity; independent actual evaluated geometry/source checks separate."
+}

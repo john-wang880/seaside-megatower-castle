@@ -1,0 +1,3 @@
+import bpy,json,collections
+from pathlib import Path
+bpy.ops.wm.open_mainfile(filepath=str(Path('work/v019/candidate.blend').resolve()),use_scripts=False);o=bpy.data.objects['V010 | woodland trunks with gate exit clearance'];ids=set(range(26760,26770));fs=[f for f in o.data.polygons if any(i in ids for i in f.vertices)];edges=collections.Counter(tuple(sorted(e)) for f in fs for e in f.edge_keys);r={'vertices':{str(i):list(o.matrix_world@o.data.vertices[i].co) for i in ids},'faces':[list(f.vertices) for f in fs],'boundary_edges':[e for e,n in edges.items() if n==1],'nonmanifold_edges':[e for e,n in edges.items() if n!=2]};Path('work/v019_qa/original_trunk_topology.json').write_text(json.dumps(r,indent=2));print(json.dumps(r))

@@ -1,0 +1,115 @@
+{
+  "asset_sha256": "641651d02c994d2c65dc3b79dae2704ad9509af455b8a039aa46620f293faf88",
+  "objects": [
+    {
+      "object": "CONCEPT | radial articulated needle sprays",
+      "mesh": "CONCEPT | radial articulated needle sprays",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 415590,
+      "polygons": 332472,
+      "triangles": 332472,
+      "materials": [
+        "Fir needles \u2014 forest green",
+        "Sunlit needle tips",
+        "Cypress needles \u2014 deep blue green"
+      ]
+    },
+    {
+      "object": "CONCEPT | tapering connected boughs and shoots",
+      "mesh": "CONCEPT | tapering connected boughs and shoots",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 50265,
+      "polygons": 40668,
+      "triangles": 87734,
+      "materials": [
+        "Pine bark"
+      ]
+    },
+    {
+      "object": "SOURCE | exact target trunk and bough context",
+      "mesh": "SOURCE | exact target trunk and bough context",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 250,
+      "polygons": 125,
+      "triangles": 250,
+      "materials": [
+        "Pine bark"
+      ]
+    }
+  ]
+}

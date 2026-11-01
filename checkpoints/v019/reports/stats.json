@@ -1,0 +1,41 @@
+{
+  "status": "UNACCEPTED isolated design study",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "source_saved": false,
+  "primary_boughs": 152,
+  "secondary_shoots": 3046,
+  "needle_blades": 83118,
+  "foliage_vertices": 415590,
+  "foliage_triangles": 332472,
+  "wood_polygons": 40668,
+  "foliage_bounds_xyz": [
+    [
+      -83.54423522949219,
+      -80.72418975830078
+    ],
+    [
+      40.83340835571289,
+      43.618221282958984
+    ],
+    [
+      23.882509231567383,
+      34.107139587402344
+    ]
+  ],
+  "source_original_foliage_faces": 496,
+  "palette": [
+    "Fir needles \u2014 forest green",
+    "Sunlit needle tips",
+    "Cypress needles \u2014 deep blue green"
+  ],
+  "limitations": [
+    "Single near-view hero asset; increased budget relative to 496 original faces, not suitable for blanket forest replacement.",
+    "Needle blades open-backed; renders double sided. No scene integration, route or footprint clearance certification.",
+    "Stylized oversized needle clusters, not a botanical species reproduction."
+  ],
+  "authored_wood_vertices": 50265,
+  "authored_wood_triangle_equivalent": 87734,
+  "total_authored_vertices": 465855,
+  "total_authored_triangle_equivalent": 420206,
+  "final_asset_sha256": "641651d02c994d2c65dc3b79dae2704ad9509af455b8a039aa46620f293faf88"
+}

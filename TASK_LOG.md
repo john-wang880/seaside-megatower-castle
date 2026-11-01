@@ -324,3 +324,6 @@ Expanded430closed-piece sample to full evaluated components;5,237candidate solid
 
 ## 2026-11-01 — practical ornament gate, no prototype
 One actual1200×866/80sample oblique view completed. Four appliques read as relief buttons, no clear visible attachment improvement established; feasible hidden-mount concept remains unbuilt. Measured separation is not erased, and17limited targets remain uncertain. No further zoom/render loop, no model version.
+
+## 2026-11-01 — v019 bounded foreground conifer
+One authored foreground crown replaces pear-like clumps reversibly, original wood/full forest untouched. Independent QA caught11 self-intersecting tube-frame folds; consistent transported frames fixed them before acceptance. Corrected3,199wood components have zero detected strict nonadjacent crossings;83,118needle bases supported, five negative controls effective. Actual original-lit approach improves, hero no conspicuous regression.47,591,177B model vs35,962,496B; observed fresh-process peakRSS +119–125MiB, no speedup or fullforest replacement claim. Publication and remote restore gate follow; existingv018 films retain historical identity.

@@ -1,0 +1,41 @@
+{
+  "needle_bases_tested": 83118,
+  "max_needle_base_centerline_distance_m": 1.5377536293599222e-05,
+  "shoot_roots_tested": 3046,
+  "max_shoot_root_support_axis_distance_m": 0.001247244133201857,
+  "primary_roots_tested": 152,
+  "max_primary_root_source_trunk_axis_distance_m": 0.0024480728681251715,
+  "source_trunk_axis_endpoints": [
+    [
+      -82.11165618896484,
+      42.30673599243164,
+      23.650854110717773
+    ],
+    [
+      -81.99217987060547,
+      42.07136154174805,
+      33.395999908447266
+    ]
+  ],
+  "leader_extension_axis": [
+    [
+      -81.99413299560547,
+      42.0728645324707,
+      33.29999923706055
+    ],
+    [
+      -81.98888397216797,
+      42.06357192993164,
+      33.70000076293945
+    ],
+    [
+      -81.98362731933594,
+      42.05427932739258,
+      34.099998474121094
+    ]
+  ],
+  "leader_bottom_below_original_top_m": 0.09600067138671875,
+  "all_needle_bases_within_1e_5m_of_actual_shoot_centerline": false,
+  "root_centerline_offsets_disclosed_not_exact": true,
+  "scope": "Independent saved-mesh geometric centerline attachment test; does not certify manifold source wood or every triangle intersection. Authored tubes are capped; source trunk retained unchanged."
+}

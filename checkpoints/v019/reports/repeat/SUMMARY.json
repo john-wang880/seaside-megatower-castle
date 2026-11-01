@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "first_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "repeat_sha256": "b15346c20233aa62976b526389190d59643619a6be311c6e6d46f3c450df3033",
+  "binary_equal": false,
+  "persistent_checks": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "worlds": true,
+    "cameras": true,
+    "collections": true,
+    "scene": true
+  },
+  "evaluated_equivalence_evidence": "Both initial corrected and fresh repeated candidates pass exact baseline evaluated non-target preservation + exact target Mask complement, and both added modifier-free meshes match the same authored asset. Thus evaluated render geometry is transitively equivalent; narrow derived Traveler edge-selection metadata exception remains explicitly documented.",
+  "strict_repeat_preservation_report": "preservation.json",
+  "original_candidate_preservation_report": "../repaired/preservation.json",
+  "source_unchanged": true,
+  "repeat_unchanged_during_validation": true,
+  "limitations": "No new visual/performance acceptance claimed from repeatability alone; no accepted checkpoint overwritten."
+}
