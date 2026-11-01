@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_END_TO_END_PASS_REMOTE_REPLAY_PENDING",
+  "status": "REMOTE_GIT_ONLY_END_TO_END_PASS",
   "accepted_model_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
   "model_changed": false,
   "inputs": "Only Git-restored historicalv018 c46 and acceptedv019 e717 plus stagednewpubliccode; no private641 or failedstudyinputs",
@@ -15,12 +15,22 @@
   "tube_strict_crossings": 0,
   "unicode_spaces_cwd_tested": true,
   "local_runtime_seconds": 165.16945481300354,
-  "remote_replay_pending": true,
+  "remote_replay_pending": false,
   "earlier_failed_controller": "Firstfullpipelinecaughtstrayargument; corrected beforepublication andreintroducedbugnegative verifiesmockregression. No source/modelcorruption.",
   "limits": [
     "Linux Blender5.2.3 tested only",
     "Reproduced blend bytes differ due save metadata; accepted archive remains exact",
     "No render/newversion/artapproval",
     "Needle open backs, legacy trunk envelope and bounded contact scope retained"
-  ]
+  ],
+  "remote_commit": "ae89e57ee917b1ae105247215361fc4cbc6beef9",
+  "remote_tree": "1b7dd0726d2b7307f01188b22da58e551682ed46",
+  "remote_input_baseline_commit": "89cce41edf648eef6487d54ee1ce2a46bbb0ae17",
+  "remote_root_checksum_files": 584,
+  "remote_core_tests": 13,
+  "remote_controller_mock_tests": 11,
+  "remote_steps": 6,
+  "remote_runtime_seconds": 170.75933694839478,
+  "remote_only_git_files_plus_installed_blender": true,
+  "remote_report": "remote_controller.json"
 }

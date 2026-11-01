@@ -44,3 +44,7 @@ python checkpoints/v019/rebuild/rebuild.py --baseline ../castle-v018-history/che
 ## 状态与历史限制
 
 `reports/`保存当时实测报告，某些报告内绝对工作路径或“视觉尚待审”是执行时原始上下文，不应篡改成事后结果。技术通过与实际画面对比通过由最终验收收据汇总。开放背面针叶、原始开放端主干及已知路线范围限制均保留。无整体森林或结构安全认证。
+
+## 已完成的独立远端再现
+
+从公开提交`ae89e57ee917b1ae105247215361fc4cbc6beef9`重新拉回工具和v019，从固定历史`89cce41edf648eef6487d54ee1ce2a46bbb0ae17`恢复v018。584文件校验、13核心与11控制器模拟测试、六阶段实际Blender流程全部通过，见[汇总](reports/rebuild/SUMMARY.json)与[远端收据](reports/rebuild/remote_controller.json)。输入只来自Git和已有Blender，无原私有树资产；验收模型e717字节不变。
