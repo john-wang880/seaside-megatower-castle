@@ -318,3 +318,6 @@ Two current actual80sample context stills resolve western projecting fin as conn
 
 ## 2026-11-01 — opt-in portable video sibling, bounded integration only
 Added separate runner/worker/runtime helper with immutable frozen inputs, fresh pilot approval, guarded native leases, fail-closed paths/identity, interrupted resume, optional telemetry and explicit encoding.42focused tests plus30core/navigation tests pass. One actualLinux frame at original80samples/960×694 renders successfully; exact decoded pixels match the historical same-Linux frame while PNG bytes differ. Dry-run recognizes1valid/24pending; full-stage refusal verified. No25pilot/fullfilm, no new approval, no nativeWindows execution. Frozen51payloads/source unchanged.
+
+## 2026-11-01 — evaluated support graph and ornamental separation findings
+Expanded430closed-piece sample to full evaluated components;5,237candidate solids and2,922contact tests.301targets connect to nominated primary masonry,112targets form12direct-neighborhood separated ornament islands,17targets remain neighborhood-limited. Visibility omission check passed; actual-surface distances distinguish disconnected brass from root-connected hosts. No model edit. Archive includes losslessly compressed geometry with originalSHA and bounded controls. A single practical diamond-applique view is pending before any repair decision.

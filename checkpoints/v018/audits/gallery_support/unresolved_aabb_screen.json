@@ -1,0 +1,3227 @@
+[
+  {
+    "id": 175,
+    "seed": 1460,
+    "nearest_connected_AABB_lower_bound_m": 0.030002593994140625,
+    "neighbors": [
+      {
+        "id": 4705,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 516,
+        "gap_lower_bound": 0.030002593994140625
+      },
+      {
+        "id": 174,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 1440,
+        "gap_lower_bound": 0.04199981689453125
+      },
+      {
+        "id": 176,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 1480,
+        "gap_lower_bound": 1.0199966430664062
+      }
+    ]
+  },
+  {
+    "id": 988,
+    "seed": 7976,
+    "nearest_connected_AABB_lower_bound_m": 0.1900005340576172,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.1900005340576172
+      },
+      {
+        "id": 4827,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15072,
+        "gap_lower_bound": 0.6410714291868154
+      },
+      {
+        "id": 4826,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15048,
+        "gap_lower_bound": 0.6414318448383194
+      }
+    ]
+  },
+  {
+    "id": 989,
+    "seed": 8024,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4827,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15072,
+        "gap_lower_bound": 0.9143972449044241
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.1320488601201775
+      }
+    ]
+  },
+  {
+    "id": 990,
+    "seed": 8032,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4827,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15072,
+        "gap_lower_bound": 0.9954697167203621
+      },
+      {
+        "id": 4826,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15048,
+        "gap_lower_bound": 1.146908569043861
+      }
+    ]
+  },
+  {
+    "id": 991,
+    "seed": 8040,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4826,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15048,
+        "gap_lower_bound": 1.035112203339057
+      },
+      {
+        "id": 4827,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15072,
+        "gap_lower_bound": 1.0663872838189565
+      }
+    ]
+  },
+  {
+    "id": 992,
+    "seed": 8048,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4826,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15048,
+        "gap_lower_bound": 0.9246629201487635
+      },
+      {
+        "id": 4827,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15072,
+        "gap_lower_bound": 1.0423165418390368
+      }
+    ]
+  },
+  {
+    "id": 993,
+    "seed": 8056,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4826,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15048,
+        "gap_lower_bound": 0.8089606500737513
+      },
+      {
+        "id": 4827,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15072,
+        "gap_lower_bound": 0.8486117480668537
+      }
+    ]
+  },
+  {
+    "id": 994,
+    "seed": 8064,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4827,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15072,
+        "gap_lower_bound": 0.7575750898581785
+      },
+      {
+        "id": 4826,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15048,
+        "gap_lower_bound": 0.9478181922776888
+      }
+    ]
+  },
+  {
+    "id": 995,
+    "seed": 8072,
+    "nearest_connected_AABB_lower_bound_m": 0.1900005340576172,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.1900005340576172
+      },
+      {
+        "id": 4830,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15144,
+        "gap_lower_bound": 0.6410714291868154
+      },
+      {
+        "id": 4831,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15168,
+        "gap_lower_bound": 0.7171726111149803
+      }
+    ]
+  },
+  {
+    "id": 996,
+    "seed": 8120,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4830,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15144,
+        "gap_lower_bound": 0.9360778462327395
+      },
+      {
+        "id": 4831,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15168,
+        "gap_lower_bound": 1.0136280367882013
+      }
+    ]
+  },
+  {
+    "id": 997,
+    "seed": 8128,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4830,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15144,
+        "gap_lower_bound": 0.9920409816101304
+      },
+      {
+        "id": 4831,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15168,
+        "gap_lower_bound": 1.161733521936239
+      }
+    ]
+  },
+  {
+    "id": 998,
+    "seed": 8136,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4830,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15144,
+        "gap_lower_bound": 0.986462561786291
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.171119483913354
+      }
+    ]
+  },
+  {
+    "id": 999,
+    "seed": 8144,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4830,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15144,
+        "gap_lower_bound": 0.9143972449044241
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.1320488601201775
+      }
+    ]
+  },
+  {
+    "id": 1000,
+    "seed": 8152,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4830,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15144,
+        "gap_lower_bound": 0.7456999702777795
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.0568700153637844
+      }
+    ]
+  },
+  {
+    "id": 1001,
+    "seed": 8160,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4830,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15144,
+        "gap_lower_bound": 0.7530639873611673
+      },
+      {
+        "id": 4831,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15168,
+        "gap_lower_bound": 0.9657043211339004
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "seed": 8168,
+    "nearest_connected_AABB_lower_bound_m": 0.1900005340576172,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.1900005340576172
+      },
+      {
+        "id": 4834,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15240,
+        "gap_lower_bound": 0.6410714291868154
+      },
+      {
+        "id": 4833,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15216,
+        "gap_lower_bound": 0.8017588581147974
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "seed": 8216,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4834,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15240,
+        "gap_lower_bound": 0.9143972449044241
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.1320488601201775
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "seed": 8224,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4834,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15240,
+        "gap_lower_bound": 0.986462561786291
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.171119483913354
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "seed": 8232,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4834,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15240,
+        "gap_lower_bound": 0.986462561786291
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.171119483913354
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "seed": 8240,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4834,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15240,
+        "gap_lower_bound": 0.91528481224231
+      },
+      {
+        "id": 4833,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15216,
+        "gap_lower_bound": 1.092249914794968
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "seed": 8248,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4834,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15240,
+        "gap_lower_bound": 0.7456999702777795
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.0568700153637844
+      }
+    ]
+  },
+  {
+    "id": 1008,
+    "seed": 8256,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4834,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15240,
+        "gap_lower_bound": 0.7456999702777795
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.0568700153637844
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "seed": 8264,
+    "nearest_connected_AABB_lower_bound_m": 0.1900005340576172,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.1900005340576172
+      },
+      {
+        "id": 4838,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15336,
+        "gap_lower_bound": 0.6410714291868154
+      },
+      {
+        "id": 4837,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15312,
+        "gap_lower_bound": 0.6410731910638117
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "seed": 8312,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4838,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15336,
+        "gap_lower_bound": 0.9143972449044241
+      },
+      {
+        "id": 4837,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15312,
+        "gap_lower_bound": 1.1278829759466198
+      }
+    ]
+  },
+  {
+    "id": 1011,
+    "seed": 8320,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4838,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15336,
+        "gap_lower_bound": 0.9983502974768533
+      },
+      {
+        "id": 4837,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15312,
+        "gap_lower_bound": 1.1368380743418234
+      }
+    ]
+  },
+  {
+    "id": 1012,
+    "seed": 8328,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4837,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15312,
+        "gap_lower_bound": 1.0292302921396528
+      },
+      {
+        "id": 4838,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15336,
+        "gap_lower_bound": 1.0741421590669575
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "seed": 8336,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4837,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15312,
+        "gap_lower_bound": 0.9219031105172978
+      },
+      {
+        "id": 4838,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15336,
+        "gap_lower_bound": 1.0520628803379486
+      }
+    ]
+  },
+  {
+    "id": 1014,
+    "seed": 8344,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4837,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15312,
+        "gap_lower_bound": 0.801420647428168
+      },
+      {
+        "id": 4838,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15336,
+        "gap_lower_bound": 0.8583364362249422
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "seed": 8352,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4838,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15336,
+        "gap_lower_bound": 0.7613562742490737
+      },
+      {
+        "id": 4837,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15312,
+        "gap_lower_bound": 0.9356072184092714
+      }
+    ]
+  },
+  {
+    "id": 1016,
+    "seed": 8360,
+    "nearest_connected_AABB_lower_bound_m": 0.1900005340576172,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.1900005340576172
+      },
+      {
+        "id": 4841,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15408,
+        "gap_lower_bound": 0.6410714291868154
+      },
+      {
+        "id": 4842,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15432,
+        "gap_lower_bound": 0.7263569155469973
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "seed": 8408,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4841,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15408,
+        "gap_lower_bound": 0.9320037619799876
+      },
+      {
+        "id": 4842,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15432,
+        "gap_lower_bound": 1.0224178443479517
+      }
+    ]
+  },
+  {
+    "id": 1018,
+    "seed": 8416,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4841,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15408,
+        "gap_lower_bound": 0.9901226998784525
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.171119483913354
+      }
+    ]
+  },
+  {
+    "id": 1019,
+    "seed": 8424,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4841,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15408,
+        "gap_lower_bound": 0.986462561786291
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.171119483913354
+      }
+    ]
+  },
+  {
+    "id": 1020,
+    "seed": 8432,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4841,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15408,
+        "gap_lower_bound": 0.9143972449044241
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.1320488601201775
+      }
+    ]
+  },
+  {
+    "id": 1021,
+    "seed": 8440,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4841,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15408,
+        "gap_lower_bound": 0.7456999702777795
+      },
+      {
+        "id": 987,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7968,
+        "gap_lower_bound": 1.0568700153637844
+      }
+    ]
+  },
+  {
+    "id": 1022,
+    "seed": 8448,
+    "nearest_connected_AABB_lower_bound_m": 0.3003501892089844,
+    "neighbors": [
+      {
+        "id": 973,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7856,
+        "gap_lower_bound": 0.3003501892089844
+      },
+      {
+        "id": 4841,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15408,
+        "gap_lower_bound": 0.7505351561925033
+      },
+      {
+        "id": 4842,
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 15432,
+        "gap_lower_bound": 0.978532040588231
+      }
+    ]
+  },
+  {
+    "id": 2953,
+    "seed": 25688,
+    "nearest_connected_AABB_lower_bound_m": 0.5999984741210938,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 0.5999984741210938
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 0.75
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 1.0199966430664062
+      }
+    ]
+  },
+  {
+    "id": 2954,
+    "seed": 25708,
+    "nearest_connected_AABB_lower_bound_m": 6.377998352050781,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 6.377998352050781
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 6.5279998779296875
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 6.797996520996094
+      }
+    ]
+  },
+  {
+    "id": 2955,
+    "seed": 25728,
+    "nearest_connected_AABB_lower_bound_m": 6.708000183105469,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 6.708000183105469
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 6.858001708984375
+      },
+      {
+        "id": 2895,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 24924,
+        "gap_lower_bound": 7.058677815547363
+      }
+    ]
+  },
+  {
+    "id": 2956,
+    "seed": 25748,
+    "nearest_connected_AABB_lower_bound_m": 4.428001403808594,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 4.428001403808594
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 4.5780029296875
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 4.847999572753906
+      }
+    ]
+  },
+  {
+    "id": 2957,
+    "seed": 25756,
+    "nearest_connected_AABB_lower_bound_m": 4.428001403808594,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 4.428001403808594
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 4.5780029296875
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 4.847999572753906
+      }
+    ]
+  },
+  {
+    "id": 2958,
+    "seed": 25764,
+    "nearest_connected_AABB_lower_bound_m": 0.5999984741210938,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 0.5999984741210938
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 0.75
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 1.0199966430664062
+      }
+    ]
+  },
+  {
+    "id": 2959,
+    "seed": 25784,
+    "nearest_connected_AABB_lower_bound_m": 6.377998352050781,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 6.377998352050781
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 6.5279998779296875
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 6.797996520996094
+      }
+    ]
+  },
+  {
+    "id": 2960,
+    "seed": 25804,
+    "nearest_connected_AABB_lower_bound_m": 6.708000183105469,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 6.708000183105469
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 6.858001708984375
+      },
+      {
+        "id": 2925,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 25320,
+        "gap_lower_bound": 7.12086596196911
+      }
+    ]
+  },
+  {
+    "id": 2961,
+    "seed": 25824,
+    "nearest_connected_AABB_lower_bound_m": 4.428001403808594,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 4.428001403808594
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 4.5780029296875
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 4.847999572753906
+      }
+    ]
+  },
+  {
+    "id": 2962,
+    "seed": 25832,
+    "nearest_connected_AABB_lower_bound_m": 4.428001403808594,
+    "neighbors": [
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 4.428001403808594
+      },
+      {
+        "id": 1379,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11904,
+        "gap_lower_bound": 4.5780029296875
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 4.847999572753906
+      }
+    ]
+  },
+  {
+    "id": 3219,
+    "seed": 27888,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3220,
+    "seed": 27896,
+    "nearest_connected_AABB_lower_bound_m": 0.08159629936357474,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.08159629936357474
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3221,
+    "seed": 27904,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.23107528686523438
+      }
+    ]
+  },
+  {
+    "id": 3222,
+    "seed": 27912,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.23107528686523438
+      }
+    ]
+  },
+  {
+    "id": 3223,
+    "seed": 27920,
+    "nearest_connected_AABB_lower_bound_m": 0.08159543724489253,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.08159543724489253
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3224,
+    "seed": 27928,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3225,
+    "seed": 27936,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3226,
+    "seed": 27944,
+    "nearest_connected_AABB_lower_bound_m": 0.08159543724489253,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.08159543724489253
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3227,
+    "seed": 27952,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.23107528686523438
+      }
+    ]
+  },
+  {
+    "id": 3228,
+    "seed": 27960,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.23107528686523438
+      }
+    ]
+  },
+  {
+    "id": 3229,
+    "seed": 27968,
+    "nearest_connected_AABB_lower_bound_m": 0.08159629936357474,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.08159629936357474
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3230,
+    "seed": 27976,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3231,
+    "seed": 27984,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3232,
+    "seed": 27992,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3233,
+    "seed": 28000,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.16535018852853461
+      }
+    ]
+  },
+  {
+    "id": 3234,
+    "seed": 28008,
+    "nearest_connected_AABB_lower_bound_m": 0.00905609130859375,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.00905609130859375
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      }
+    ]
+  },
+  {
+    "id": 3235,
+    "seed": 28016,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3236,
+    "seed": 28024,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3237,
+    "seed": 28032,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3238,
+    "seed": 28040,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3239,
+    "seed": 28048,
+    "nearest_connected_AABB_lower_bound_m": 0.00905609130859375,
+    "neighbors": [
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.00905609130859375
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      }
+    ]
+  },
+  {
+    "id": 3240,
+    "seed": 28056,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 3196,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27704,
+        "gap_lower_bound": 0.1653482840427831
+      }
+    ]
+  },
+  {
+    "id": 3241,
+    "seed": 28064,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3242,
+    "seed": 28072,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3243,
+    "seed": 28080,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3244,
+    "seed": 28088,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3245,
+    "seed": 28096,
+    "nearest_connected_AABB_lower_bound_m": 0.00905609130859375,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.00905609130859375
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      }
+    ]
+  },
+  {
+    "id": 3246,
+    "seed": 28104,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.16535018852853461
+      }
+    ]
+  },
+  {
+    "id": 3247,
+    "seed": 28112,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3248,
+    "seed": 28120,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3249,
+    "seed": 28128,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3250,
+    "seed": 28136,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3251,
+    "seed": 28144,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.1653482840427831
+      }
+    ]
+  },
+  {
+    "id": 3252,
+    "seed": 28152,
+    "nearest_connected_AABB_lower_bound_m": 0.00905609130859375,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.00905609130859375
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.13021469116210938
+      }
+    ]
+  },
+  {
+    "id": 3253,
+    "seed": 28160,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3254,
+    "seed": 28168,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3197,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 27712,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4101,
+        "object": "Citadel | deep window recesses",
+        "seed": 3528,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4104,
+        "object": "Citadel | muted window panes",
+        "seed": 378,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3302,
+    "seed": 28552,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3303,
+    "seed": 28560,
+    "nearest_connected_AABB_lower_bound_m": 0.08159457512824779,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.08159457512824779
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3304,
+    "seed": 28568,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.23107528686523438
+      }
+    ]
+  },
+  {
+    "id": 3305,
+    "seed": 28576,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.23107528686523438
+      }
+    ]
+  },
+  {
+    "id": 3306,
+    "seed": 28584,
+    "nearest_connected_AABB_lower_bound_m": 0.08159457512824779,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.08159457512824779
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3307,
+    "seed": 28592,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3308,
+    "seed": 28600,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3309,
+    "seed": 28608,
+    "nearest_connected_AABB_lower_bound_m": 0.08159457512824779,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.08159457512824779
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3310,
+    "seed": 28616,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.23107528686523438
+      }
+    ]
+  },
+  {
+    "id": 3311,
+    "seed": 28624,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.23107528686523438
+      }
+    ]
+  },
+  {
+    "id": 3312,
+    "seed": 28632,
+    "nearest_connected_AABB_lower_bound_m": 0.08159457512824779,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.08159457512824779
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3313,
+    "seed": 28640,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3314,
+    "seed": 28648,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3315,
+    "seed": 28656,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3316,
+    "seed": 28664,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.16535018852853461
+      }
+    ]
+  },
+  {
+    "id": 3317,
+    "seed": 28672,
+    "nearest_connected_AABB_lower_bound_m": 0.00905609130859375,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.00905609130859375
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      }
+    ]
+  },
+  {
+    "id": 3318,
+    "seed": 28680,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3319,
+    "seed": 28688,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3320,
+    "seed": 28696,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3321,
+    "seed": 28704,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3322,
+    "seed": 28712,
+    "nearest_connected_AABB_lower_bound_m": 0.00905609130859375,
+    "neighbors": [
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.00905609130859375
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      }
+    ]
+  },
+  {
+    "id": 3323,
+    "seed": 28720,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 3279,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28368,
+        "gap_lower_bound": 0.1653482840427831
+      }
+    ]
+  },
+  {
+    "id": 3324,
+    "seed": 28728,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3325,
+    "seed": 28736,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3326,
+    "seed": 28744,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3327,
+    "seed": 28752,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3328,
+    "seed": 28760,
+    "nearest_connected_AABB_lower_bound_m": 0.00905609130859375,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.00905609130859375
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      }
+    ]
+  },
+  {
+    "id": 3329,
+    "seed": 28768,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.16535018852853461
+      }
+    ]
+  },
+  {
+    "id": 3330,
+    "seed": 28776,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3331,
+    "seed": 28784,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3332,
+    "seed": 28792,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3333,
+    "seed": 28800,
+    "nearest_connected_AABB_lower_bound_m": 0.0847015380859375,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      },
+      {
+        "id": 4726,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2064,
+        "gap_lower_bound": 0.25690460205078125
+      }
+    ]
+  },
+  {
+    "id": 3334,
+    "seed": 28808,
+    "nearest_connected_AABB_lower_bound_m": 0.058872222900390625,
+    "neighbors": [
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      },
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.1653482840427831
+      }
+    ]
+  },
+  {
+    "id": 3335,
+    "seed": 28816,
+    "nearest_connected_AABB_lower_bound_m": 0.00905609130859375,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.00905609130859375
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.058872222900390625
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.13021469116210938
+      }
+    ]
+  },
+  {
+    "id": 3336,
+    "seed": 28824,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3337,
+    "seed": 28832,
+    "nearest_connected_AABB_lower_bound_m": 0.034885406494140625,
+    "neighbors": [
+      {
+        "id": 3280,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 28376,
+        "gap_lower_bound": 0.034885406494140625
+      },
+      {
+        "id": 4102,
+        "object": "Citadel | deep window recesses",
+        "seed": 3570,
+        "gap_lower_bound": 0.0847015380859375
+      },
+      {
+        "id": 4105,
+        "object": "Citadel | muted window panes",
+        "seed": 420,
+        "gap_lower_bound": 0.15604400634765625
+      }
+    ]
+  },
+  {
+    "id": 3359,
+    "seed": 29108,
+    "nearest_connected_AABB_lower_bound_m": 0.030002593994140625,
+    "neighbors": [
+      {
+        "id": 4735,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2656,
+        "gap_lower_bound": 0.030002593994140625
+      },
+      {
+        "id": 3358,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 29088,
+        "gap_lower_bound": 0.04199981689453125
+      },
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 0.28800201416015625
+      }
+    ]
+  },
+  {
+    "id": 3373,
+    "seed": 29296,
+    "nearest_connected_AABB_lower_bound_m": 0.030002593994140625,
+    "neighbors": [
+      {
+        "id": 4737,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2736,
+        "gap_lower_bound": 0.030002593994140625
+      },
+      {
+        "id": 3372,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 29276,
+        "gap_lower_bound": 0.04199981689453125
+      },
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 0.28800201416015625
+      }
+    ]
+  },
+  {
+    "id": 3387,
+    "seed": 29484,
+    "nearest_connected_AABB_lower_bound_m": 0.030002593994140625,
+    "neighbors": [
+      {
+        "id": 4739,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 2816,
+        "gap_lower_bound": 0.030002593994140625
+      },
+      {
+        "id": 3386,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 29464,
+        "gap_lower_bound": 0.04199981689453125
+      },
+      {
+        "id": 1380,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 11912,
+        "gap_lower_bound": 0.28800201416015625
+      }
+    ]
+  },
+  {
+    "id": 3774,
+    "seed": 32932,
+    "nearest_connected_AABB_lower_bound_m": 4.212797164916992,
+    "neighbors": [
+      {
+        "id": 3847,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33840,
+        "gap_lower_bound": 4.212797164916992
+      },
+      {
+        "id": 3849,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33868,
+        "gap_lower_bound": 4.394023193662437
+      },
+      {
+        "id": 4746,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 12904,
+        "gap_lower_bound": 4.522058486938477
+      }
+    ]
+  },
+  {
+    "id": 3775,
+    "seed": 32952,
+    "nearest_connected_AABB_lower_bound_m": 4.132909774780273,
+    "neighbors": [
+      {
+        "id": 3847,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33840,
+        "gap_lower_bound": 4.132909774780273
+      },
+      {
+        "id": 3849,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33868,
+        "gap_lower_bound": 4.2994774275095
+      },
+      {
+        "id": 4746,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 12904,
+        "gap_lower_bound": 4.442171096801758
+      }
+    ]
+  },
+  {
+    "id": 3776,
+    "seed": 32972,
+    "nearest_connected_AABB_lower_bound_m": 3.83325114928979,
+    "neighbors": [
+      {
+        "id": 4745,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 12880,
+        "gap_lower_bound": 3.83325114928979
+      },
+      {
+        "id": 3847,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33840,
+        "gap_lower_bound": 4.379999160766602
+      },
+      {
+        "id": 4746,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 12904,
+        "gap_lower_bound": 4.689260482788086
+      }
+    ]
+  },
+  {
+    "id": 3792,
+    "seed": 33172,
+    "nearest_connected_AABB_lower_bound_m": 0.7100009918212891,
+    "neighbors": [
+      {
+        "id": 3788,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33140,
+        "gap_lower_bound": 0.7100009918212891
+      },
+      {
+        "id": 3789,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33148,
+        "gap_lower_bound": 0.7100009918212891
+      },
+      {
+        "id": 3790,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33156,
+        "gap_lower_bound": 0.7100009918212891
+      }
+    ]
+  },
+  {
+    "id": 3797,
+    "seed": 33212,
+    "nearest_connected_AABB_lower_bound_m": 0.0,
+    "neighbors": [
+      {
+        "id": 4665,
+        "object": "V008 | gallery with genuine eastern approach portal",
+        "seed": 9536,
+        "gap_lower_bound": 0.0
+      },
+      {
+        "id": 3794,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33188,
+        "gap_lower_bound": 0.7100009918212891
+      },
+      {
+        "id": 3793,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33180,
+        "gap_lower_bound": 0.7100009918212891
+      }
+    ]
+  },
+  {
+    "id": 3802,
+    "seed": 33252,
+    "nearest_connected_AABB_lower_bound_m": 0.7100009918212891,
+    "neighbors": [
+      {
+        "id": 3799,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33228,
+        "gap_lower_bound": 0.7100009918212891
+      },
+      {
+        "id": 3798,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33220,
+        "gap_lower_bound": 0.7100009918212891
+      },
+      {
+        "id": 3800,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33236,
+        "gap_lower_bound": 0.7100009918212891
+      }
+    ]
+  },
+  {
+    "id": 3807,
+    "seed": 33292,
+    "nearest_connected_AABB_lower_bound_m": 0.5200004577636719,
+    "neighbors": [
+      {
+        "id": 981,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7920,
+        "gap_lower_bound": 0.5200004577636719
+      },
+      {
+        "id": 979,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 7904,
+        "gap_lower_bound": 0.6756500935417382
+      },
+      {
+        "id": 3804,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33268,
+        "gap_lower_bound": 0.7100009918212891
+      }
+    ]
+  },
+  {
+    "id": 3850,
+    "seed": 33888,
+    "nearest_connected_AABB_lower_bound_m": 0.0,
+    "neighbors": [
+      {
+        "id": 3847,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33840,
+        "gap_lower_bound": 0.0
+      },
+      {
+        "id": 4746,
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 12904,
+        "gap_lower_bound": 0.029994964599609375
+      },
+      {
+        "id": 3849,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33868,
+        "gap_lower_bound": 0.04199981689453125
+      }
+    ]
+  }
+]

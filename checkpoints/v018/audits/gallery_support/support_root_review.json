@@ -1,0 +1,3188 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "evaluated_export_sha256": "a035a9b018159e3c542ceb7243bb0651cde3df2b1c802e3e04fb4e58db0287d6",
+  "target430_bounds_vertexcount_mapping_pass": true,
+  "target_full_bounds_union": [
+    [
+      8.819000244140625,
+      0.6499999761581421,
+      35.400001525878906
+    ],
+    [
+      65.93800354003906,
+      62.5,
+      180.0
+    ]
+  ],
+  "target_mapping": [
+    {
+      "source_seed": 1420,
+      "evaluated_seed": 1420,
+      "evaluated_signature": "da63ec03dc6e626f290637e2eef7bbc08f00a1ac62a02e8e575a708452ab95af",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 1440,
+      "evaluated_seed": 1440,
+      "evaluated_signature": "37e44bdef386cc210b99eb3cf312e36e75f9f07512567d45429893fe09b5e71b",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 1460,
+      "evaluated_seed": 1460,
+      "evaluated_signature": "aa9e1be7b702df03fb0420b3fb39d7657aef655b7f469fd5abf84f75e9e94d4b",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 1488,
+      "evaluated_seed": 1488,
+      "evaluated_signature": "e4d41738c06d9be1ee551060e24b6cde0a070f258bd4363fe4f2b512a4e08546",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2840,
+      "evaluated_seed": 2840,
+      "evaluated_signature": "a364de29af0d3902c03bd171790af506c5e34485fa92053601e26555559b9170",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2848,
+      "evaluated_seed": 2848,
+      "evaluated_signature": "da4526f32da40a3374ec9bd5e572e3723f737f68fc13ed764d243de201b007c8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2856,
+      "evaluated_seed": 2856,
+      "evaluated_signature": "c5ec87589d8149126f3aaf66bbb642d2488ff623abfa2ee63b69bdee598bf138",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2864,
+      "evaluated_seed": 2864,
+      "evaluated_signature": "4eb2d7ced820823c928baac3ecf2f80ae3ab934ed2edcfc860dd9ac14484f345",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2872,
+      "evaluated_seed": 2872,
+      "evaluated_signature": "bf625050acdc3bbe127784109ec61551ecc30b0c42146ff85d5144b9f8dbb21f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2880,
+      "evaluated_seed": 2880,
+      "evaluated_signature": "d004983a859ba82ec32bccc140a8a0e20c149760a277a9e9854294463a24961b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2888,
+      "evaluated_seed": 2888,
+      "evaluated_signature": "204365bb59b6576f229947792aca98ae59a7ca92a130efa62ca8148245ff8cd2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2896,
+      "evaluated_seed": 2896,
+      "evaluated_signature": "f66b42423c3a6fe244de8c4d814999e7fa99c14cec1e827fdd48c0f5aff550fe",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2904,
+      "evaluated_seed": 2904,
+      "evaluated_signature": "730eeb68e73d8356c07fd3c72ed23af97b0057f00a59696585c846221b176467",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2912,
+      "evaluated_seed": 2912,
+      "evaluated_signature": "f7ec293eee46a754e4cd15e46a56d2efa7dba8fa1d318cced2d0efc76c1c3d3c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2920,
+      "evaluated_seed": 2920,
+      "evaluated_signature": "bdbb217e3ec5ade0dd8f95618a7c0d703ff48174fb4dabf0abcc1bb60a03014f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2928,
+      "evaluated_seed": 2928,
+      "evaluated_signature": "df234a7ce54b6e207446a4aec548156325caba8347b9be6dd571b180340591f7",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2936,
+      "evaluated_seed": 2936,
+      "evaluated_signature": "b8c589dc77467ba945c176d971e2c171cf339396b7ff6392191c1dd3f5c68c76",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2944,
+      "evaluated_seed": 2944,
+      "evaluated_signature": "24b9d2e486a3fa4166fd1c29d8c48ee12a9805be67b853e416d40956cf0639f9",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2952,
+      "evaluated_seed": 2952,
+      "evaluated_signature": "23f21d32c763c2984e820ac0b6a0b2c749ae3df71275275a59d53d4b0574ff11",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2960,
+      "evaluated_seed": 2960,
+      "evaluated_signature": "cf20ae5dfc8c653de7950e61ee39b40a27eaa04d7536539778f34919bef9b681",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2968,
+      "evaluated_seed": 2968,
+      "evaluated_signature": "cebd598dea66df807ede29af8a9d342b703ce0f214b650865ce7a0bfe8bbea45",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2976,
+      "evaluated_seed": 2976,
+      "evaluated_signature": "0d1fbc5b72273e1d682a1dd0db15273f753732e3971dd766ec580b20c865db74",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2984,
+      "evaluated_seed": 2984,
+      "evaluated_signature": "06a67a0d3e67af6e388210fc4d698f0d58699c37eb95087bfe27e1c039485a19",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 2992,
+      "evaluated_seed": 2992,
+      "evaluated_signature": "0a16a070f206ca44e89694cc0c990bab12f7c06e085e3c3fc370dd2d517ea185",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3000,
+      "evaluated_seed": 3000,
+      "evaluated_signature": "8a71d15a969bb166fd061947a46f3f0f772e640dbcf0036eb3b1256ae636af68",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3008,
+      "evaluated_seed": 3008,
+      "evaluated_signature": "e84ce75d6447831e25c737d7b269a0e9cf0b98eb67bf96e475f7dddd7d8491ab",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3016,
+      "evaluated_seed": 3016,
+      "evaluated_signature": "78fecbed26701af85a9c17d41f3cfd898153e43c66685c02cc966fa75ba25463",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3024,
+      "evaluated_seed": 3024,
+      "evaluated_signature": "9130021fc05d3f5e563ea1adaab22763b50461c23b3c3ccc67ab4a77c051d683",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3032,
+      "evaluated_seed": 3032,
+      "evaluated_signature": "487e17c20c3675e0eda608e3e0540d498d239d609d8e620610c8e4a5730388d1",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3040,
+      "evaluated_seed": 3040,
+      "evaluated_signature": "18041a3445c317d17c8b108e7aaeb38efab9caa1f1b83d5b1f340bdc6938f1a1",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3048,
+      "evaluated_seed": 3048,
+      "evaluated_signature": "155520dc5385c0616c93918258583d8164e638d61081e60f940a4fe566532960",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3056,
+      "evaluated_seed": 3056,
+      "evaluated_signature": "e0dc9769e880d0985138f5026e61ceaec61cda5781c5810b10f5b6d44aa39a0c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3064,
+      "evaluated_seed": 3064,
+      "evaluated_signature": "3e6b9d2273a80c704a6741d73759f0c0b2dc4e87aac0278eb75895f4c448556c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3072,
+      "evaluated_seed": 3072,
+      "evaluated_signature": "2ba42ed64c9a744f3ab32a71662a9b81cc05e6cc46516cd80bd1691d1542a44d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3080,
+      "evaluated_seed": 3080,
+      "evaluated_signature": "4cbdc6c6a7afa01b9113a1333b9a12d2e1f231e4be329dd4f410c17b9a7ba61d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3088,
+      "evaluated_seed": 3088,
+      "evaluated_signature": "4663e3ddc3484021f7254f9f7d111577ec5350c3183d30cb99e07103c498a3f4",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3096,
+      "evaluated_seed": 3096,
+      "evaluated_signature": "8628a769055f8be70a7537ea015b7ba4d0118a23468271def395ffe4f7de4cf7",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3104,
+      "evaluated_seed": 3104,
+      "evaluated_signature": "54b791c0cbc6bf02ec20c25a89af655bbab0e9b32b1db106aceff25c42112d51",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3112,
+      "evaluated_seed": 3112,
+      "evaluated_signature": "a513cc9b8848d36c7fab5f2d76d8ec2ac70d5fb00b2a53a4cc3c0dfc3bb29809",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3120,
+      "evaluated_seed": 3120,
+      "evaluated_signature": "d9487adbcc0ca456c2c93e846e568fdeff391f094f80fe9a36efcc4731bdd325",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3128,
+      "evaluated_seed": 3128,
+      "evaluated_signature": "2af0d91652f518c3ae205c7d898663632741ea99af5a077ab9edd200601ec4e5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3136,
+      "evaluated_seed": 3136,
+      "evaluated_signature": "cad1779c26951c0537e259b64da5c00cf16eae13568ac788a39a7b6418240739",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3144,
+      "evaluated_seed": 3144,
+      "evaluated_signature": "858953e94ee653d6c58123b91d11ac3ee55d4df9f0600fec8ee5edb76efc7529",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3152,
+      "evaluated_seed": 3152,
+      "evaluated_signature": "096159e40ebc7580dcffeb8bd0a32027c17b627afb66887e08a80a4b01e657b6",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3160,
+      "evaluated_seed": 3160,
+      "evaluated_signature": "eb7592fd1ae96c6761c3c8ab98c0fd4b1abc57309bd71c9c80e60a4323c2dddd",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3168,
+      "evaluated_seed": 3168,
+      "evaluated_signature": "0f6b53553e98f99864b4a3547be0199ecb699dd27836df0e3de3d40f1a43ea9f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3176,
+      "evaluated_seed": 3176,
+      "evaluated_signature": "bea63104e1e542fd4c4304c6257f96c0df7daef733c20d2eece57808978b180b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3184,
+      "evaluated_seed": 3184,
+      "evaluated_signature": "72a8cdfbfc99c169d08951bca01066465ce8f9bdd5825593f7b84a967eb9aa2d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3192,
+      "evaluated_seed": 3192,
+      "evaluated_signature": "859d28a432a5f1174e1afb47d9e79cfd48abc84dbb9cb4df92b2aa0938948e46",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3200,
+      "evaluated_seed": 3200,
+      "evaluated_signature": "e7a5da33de2825b2e9494a5e0553c65735000087dd4ae2b62133d4f2c33577a0",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3208,
+      "evaluated_seed": 3208,
+      "evaluated_signature": "e92e73b0f049dd8906336f6c22e0413651d76aa7b89aab6d325dcc4b71f0d478",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3216,
+      "evaluated_seed": 3216,
+      "evaluated_signature": "256601e446ea14108a8902bbab5a29bd1ffda548bf555ddead72e2a1114d744d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3224,
+      "evaluated_seed": 3224,
+      "evaluated_signature": "9fa0889776ba67c7b205a1dc16d734b9ae9a5baed740e42803ef1110c0d7962f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3232,
+      "evaluated_seed": 3232,
+      "evaluated_signature": "1e731650f404f5a06b430224f4aebccab42021b4f47763ae805b1ecd9134981c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3240,
+      "evaluated_seed": 3240,
+      "evaluated_signature": "d5577905b1c42c97f9b9dabfdd2a68661c478f2fc760f97f667ffa6df58cf8a6",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3248,
+      "evaluated_seed": 3248,
+      "evaluated_signature": "01b94620c92d567676b2fcf7a1a5b9504ba11df57f57b2eb66b5f2e384ddd8c2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3256,
+      "evaluated_seed": 3256,
+      "evaluated_signature": "68a44a8a3d93ef38977c2b7e330ba695bee9f1084417e2aa6abed52e32f86bdf",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3264,
+      "evaluated_seed": 3264,
+      "evaluated_signature": "cdd9cd395921b304620f1a5ce8bb2f5423bb0c866f76dc02cc7a8ebb06602540",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3272,
+      "evaluated_seed": 3272,
+      "evaluated_signature": "7c582c5eebd82aec811d4fb2062e4b41f06b08b23d11dc7c231c4f02b07ae491",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3280,
+      "evaluated_seed": 3280,
+      "evaluated_signature": "775e1862b365f027a3185f7bdc8b7cde00694156d7c8e50234b67ed8cbb4eb40",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3288,
+      "evaluated_seed": 3288,
+      "evaluated_signature": "a17c6e001b35d36c35e589810de4028627ab9746059d7051e93daac75dd4bf6c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3296,
+      "evaluated_seed": 3296,
+      "evaluated_signature": "95f13ebf9e42a41b4cecbca89ea34da9722271775fd75105944074da8b8a2795",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3304,
+      "evaluated_seed": 3304,
+      "evaluated_signature": "ba2ba8cbad7fb4803e0889da60609bcce347aa5dfb7b52ad0d63970dca461134",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3312,
+      "evaluated_seed": 3312,
+      "evaluated_signature": "14f9977759c9b52d7c7ba5bf3cc4480f1dc27b78a735964949ec45ba0ebd2842",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3320,
+      "evaluated_seed": 3320,
+      "evaluated_signature": "03ff7b6dede07afc6a94892f3c21264a417023fa55a778b1150a9b0ce6e87aab",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3328,
+      "evaluated_seed": 3328,
+      "evaluated_signature": "2fd5585d1d82108fc5f21e57c894953b42e6322b6a96a12562af1d477a82585e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3336,
+      "evaluated_seed": 3336,
+      "evaluated_signature": "982df1667add9054db1ccbca56088023e381abea195a157822f21bdc86394fca",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3344,
+      "evaluated_seed": 3344,
+      "evaluated_signature": "cda429b94c82b6cbe17ccb4eae3b7db4a1836868ef56928de207cec05fc682cb",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3352,
+      "evaluated_seed": 3352,
+      "evaluated_signature": "e47e4d3650881d1ce75b1ede5ab98a9612f2fccf23ac28fa126d9da9bc8b3136",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3360,
+      "evaluated_seed": 3360,
+      "evaluated_signature": "eede4f99e56434a8f8f9ffc3fb7388420b3af87e9652ef74cef644bbaa6333ea",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3368,
+      "evaluated_seed": 3368,
+      "evaluated_signature": "aff6ebbe0a7985e496a90f2b22b1bfe5572a074ef2278c29e0ff923aa5b2e594",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3376,
+      "evaluated_seed": 3376,
+      "evaluated_signature": "eb3f0e4cd0fc49e6393ebbb77cc0859a6889d4cb08872a3c588cbc64888b3072",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3384,
+      "evaluated_seed": 3384,
+      "evaluated_signature": "58443c02104d9287e0bac4048e58d33b4c9303e5e2482b18d92b7dc2c59323d6",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3392,
+      "evaluated_seed": 3392,
+      "evaluated_signature": "1c9b727b6950d1c5f93da5c581ddb53504c1f407d6c9f979e10cdc5141a6b3e8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3400,
+      "evaluated_seed": 3400,
+      "evaluated_signature": "59c717cfa1cab9b354139901a453793c929cf61c6691aae0c61e1b5e7176f523",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3408,
+      "evaluated_seed": 3408,
+      "evaluated_signature": "d620430b933c5d1fee3207de8e65bbea94b3a753ddbe6dd9bf57d1e3220a19f4",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3416,
+      "evaluated_seed": 3416,
+      "evaluated_signature": "4e987dfd6d1ce48a4ebdf4ea67b246e7618280fab77379b41e4c8e2f7711a3ea",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3424,
+      "evaluated_seed": 3424,
+      "evaluated_signature": "de098ca7796b0a5ca6e50f8a2a3f514ebd1ab408768b38760c1eac3167a3b471",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3432,
+      "evaluated_seed": 3432,
+      "evaluated_signature": "3ceb6948b1f33439fcbcf6384d22e77de53c6cdf4bac20875a9c3254513e84ca",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3440,
+      "evaluated_seed": 3440,
+      "evaluated_signature": "1906f15231390e85f1920b27e2356c4cc35ac98fd9beba50400cacbb5e433040",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3448,
+      "evaluated_seed": 3448,
+      "evaluated_signature": "a111bab765998afa7d4435eadb90b6012569df597e8afaa0224f893ae02d8181",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3456,
+      "evaluated_seed": 3456,
+      "evaluated_signature": "0e714af85072d3a1855c541b7b93490e6e25f05d9061ba112f9390cc5cd645dd",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3464,
+      "evaluated_seed": 3464,
+      "evaluated_signature": "c4a19c27b14f1584a706305fb6f1decbba53755ffd9caef823b95690bb2e2dd8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3472,
+      "evaluated_seed": 3472,
+      "evaluated_signature": "33da48dc36170825a8825cbf041c4e17916286f8012bfeb7803ada21c5f6bfda",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3480,
+      "evaluated_seed": 3480,
+      "evaluated_signature": "19ff98ffbbe176e061efd7237e386c801196f03765aa399ca9623a0faf2ce27b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3488,
+      "evaluated_seed": 3488,
+      "evaluated_signature": "2ecbed9f3886a673a815874733e8fc8ffd4cff71dda0c3c2868df4d0b470d9b4",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3496,
+      "evaluated_seed": 3496,
+      "evaluated_signature": "e5d3fd16a384df2309c1cbed4dd556b57bb20421ace9722a9aaa91eefed641f8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 3504,
+      "evaluated_seed": 3504,
+      "evaluated_signature": "a2161add78edce9cf51e50690a3a315288579e8fe848885ea5e4412b51b7208f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7544,
+      "evaluated_seed": 7544,
+      "evaluated_signature": "c7206b30938fe8e4016a1fdb15ec757d22a153dc2ee365805b5d3ff2932ca076",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7576,
+      "evaluated_seed": 7576,
+      "evaluated_signature": "fe15fb5063e64915eb70a49ed61fb7ff759c3b00af2e1aa550fceb9fe0a35d17",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7608,
+      "evaluated_seed": 7608,
+      "evaluated_signature": "28ee853764add9d1c84faeeac24c71abf5fce6c3e700e0030a059cb01c19defc",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7640,
+      "evaluated_seed": 7640,
+      "evaluated_signature": "2df90a9fb1c3cb6c6db54b79fd18ccfc85038ad26a2b6db1ab5d85159337f4f0",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7672,
+      "evaluated_seed": 7672,
+      "evaluated_signature": "02c7ab31dfee8a28b7142e23730998640f902d1c6b5c72badd4d2fc6a979554e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7680,
+      "evaluated_seed": 7680,
+      "evaluated_signature": "021000f784d92de1fc2326ed284013971d27e56aa941c08c54fe2df60f61e1bd",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7704,
+      "evaluated_seed": 7704,
+      "evaluated_signature": "e69a0156a99f9ff84c0ebf467ddcc723b80669e273bd3430691418d47c5f6bdb",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7712,
+      "evaluated_seed": 7712,
+      "evaluated_signature": "7b2cf92998df02d68fb897c0bb19f3a9e1fab90a7a01ec53983f10ccf20c6aef",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7720,
+      "evaluated_seed": 7720,
+      "evaluated_signature": "5c74cfb630b71cdff3eddfa6e7c00da5be8b96ca67ec85148aeebf4609665b02",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7856,
+      "evaluated_seed": 7856,
+      "evaluated_signature": "e33501be14e87b7d8b37d157ca07055b5ae45dfec9a347a83f2f674f6a4aefdd",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7864,
+      "evaluated_seed": 7864,
+      "evaluated_signature": "8479474ffe34e23a4accf25b167f342a777f891b758a7cf67e14260bb12c05cd",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7872,
+      "evaluated_seed": 7872,
+      "evaluated_signature": "2dce8fdb375405e0413c490e8ec08feccc79d795e0659e912dbd49ad878c9164",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7880,
+      "evaluated_seed": 7880,
+      "evaluated_signature": "9d2377927b7a3b77422e5f1c9bac8c42c5573a8ac4cf1b16e3098cbf5b227a9c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7888,
+      "evaluated_seed": 7888,
+      "evaluated_signature": "d0f5b53f36f09fe239cf184c781dc91b29f03e5067c886cd667745d05a6f91cb",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7896,
+      "evaluated_seed": 7896,
+      "evaluated_signature": "b5cbcf302da8ac8bf58686e6a5dee4f044d61202754f039d0cdcfb053f10e1d0",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7904,
+      "evaluated_seed": 7904,
+      "evaluated_signature": "6ae09df86745d816f851643f4be790e0d4ff17be153a8bd6f45f117a2d5ad45e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7912,
+      "evaluated_seed": 7912,
+      "evaluated_signature": "e129bbed6c299d2d7dc8ef646daf20cc92c0ad2002469e6d705d56d3a5dd7c98",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7920,
+      "evaluated_seed": 7920,
+      "evaluated_signature": "22ac18e28f917daa1ae859dbe798d6e1ef19de3e03c0b3e9c4ae3eef591ed670",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7928,
+      "evaluated_seed": 7928,
+      "evaluated_signature": "7bbe1efe78c53861af93248c0d34b75f8674208c8c8e47fc4d5adddd05f5fb50",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7936,
+      "evaluated_seed": 7936,
+      "evaluated_signature": "24d39762b8425961c5dc780ad6858138ed72c9dc5d252612b500bfc658bb8876",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7944,
+      "evaluated_seed": 7944,
+      "evaluated_signature": "695fc89c913492eb476d1b3d1025e9d00ad8294a18a40956b1a8b2b27dde512c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7968,
+      "evaluated_seed": 7968,
+      "evaluated_signature": "2478b803e3c061bf545037ddba5a525183accb004bedad7ea78215d117bb14f8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 7976,
+      "evaluated_seed": 7976,
+      "evaluated_signature": "ae5928515160dcc3bce16065d05f795dcc0550f28bb139d5eacb78af05b9e5c1",
+      "vertices": 48,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8024,
+      "evaluated_seed": 8024,
+      "evaluated_signature": "d637186d3a2f42c0e4733710308386ebe1057363497f221450bc9eb0d6de9e75",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8032,
+      "evaluated_seed": 8032,
+      "evaluated_signature": "96cb2cb97de75f39f48c369eb095f93ebb39560f261f587333ccbdf3a12d4bd2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8040,
+      "evaluated_seed": 8040,
+      "evaluated_signature": "c122777eb0b9ac690517b3852ac4a6605638ff9963acad363c75a13995c46381",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8048,
+      "evaluated_seed": 8048,
+      "evaluated_signature": "a76bbd4bda6a5e4ed349e6ea7244307de8ecb89393786cdaf0f81acfbba6b977",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8056,
+      "evaluated_seed": 8056,
+      "evaluated_signature": "afe5c75c0d793f5241fb246d8202168cdf94c557c885d1c45cc433e98217a16d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8064,
+      "evaluated_seed": 8064,
+      "evaluated_signature": "1e83e044e27c43ca87bd85989aa7663c2faf6729310208b781dad75346d7d91e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8072,
+      "evaluated_seed": 8072,
+      "evaluated_signature": "4aede195f02a1d28d79a01be1185709d7ab3b08f229fedaa0148a5cdacdbadc8",
+      "vertices": 48,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8120,
+      "evaluated_seed": 8120,
+      "evaluated_signature": "084259b5bafa14025c2847b16fb33e6894fd8760eb1744c370a19cc99885d278",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8128,
+      "evaluated_seed": 8128,
+      "evaluated_signature": "27f3d516173869b8610991f056cd05a6a00fc2cc45cbe96077128b6953948fba",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8136,
+      "evaluated_seed": 8136,
+      "evaluated_signature": "50b8513dd098b19b5b97802471e01de2d331f57dc9b78163d941bd966eb0aacc",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8144,
+      "evaluated_seed": 8144,
+      "evaluated_signature": "2f2a1c709a01d7b5c584722eef6facf8b95543d2ae0d93de53a2c67a95415597",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8152,
+      "evaluated_seed": 8152,
+      "evaluated_signature": "960c0fa51be7131fb88ef8690238c4e86c414082a6b3ca6796fa007c36646462",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8160,
+      "evaluated_seed": 8160,
+      "evaluated_signature": "ce7478eb593820985f892e651e7e14ba0be7da9d7d62494ee55095544ef1ca87",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8168,
+      "evaluated_seed": 8168,
+      "evaluated_signature": "802b3b02fd2094166f32abdd1a210b60cef88d8b1fb294d7f872bb874aa5104b",
+      "vertices": 48,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8216,
+      "evaluated_seed": 8216,
+      "evaluated_signature": "221739767647e25bc018c5161dcaef5f0baf60ba284c87a160b13eeb6b0e3187",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8224,
+      "evaluated_seed": 8224,
+      "evaluated_signature": "574042294fb16551899bd9d3b43225911642337f31b7a7ffcd3fdbad1d04a17e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8232,
+      "evaluated_seed": 8232,
+      "evaluated_signature": "5207d2553f8ecf0358975e93a29562c39c1d92d3ccf3cfab3384be637774a600",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8240,
+      "evaluated_seed": 8240,
+      "evaluated_signature": "26566e0bf739fffac28a49b7be7c59f61aa179989db2c77dae1597db69fcecd7",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8248,
+      "evaluated_seed": 8248,
+      "evaluated_signature": "0494992566a12648d4f7df60a3824b0d633fad8d8ea490751ea6fa620205e667",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8256,
+      "evaluated_seed": 8256,
+      "evaluated_signature": "d757fed5b775d55906b05d9dc2276ba91f94c1b3a9dbff0c1831fe61b36b450c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8264,
+      "evaluated_seed": 8264,
+      "evaluated_signature": "6684bb065da77c228f144b0a98b55344bec15894bfc1ebffda9f4e1c51f89e4a",
+      "vertices": 48,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8312,
+      "evaluated_seed": 8312,
+      "evaluated_signature": "196bc80166d6f0652d84370e395dbaeb7aac6160222b74c4f9c47678d04c6688",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8320,
+      "evaluated_seed": 8320,
+      "evaluated_signature": "2946ed8b6b8c08a20766409f4b2820f5385061e660c074e5515ce2537470d005",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8328,
+      "evaluated_seed": 8328,
+      "evaluated_signature": "dfefd0df0c5bd90cb185e91f7a78ac30858314d352c4ddf8c98a0e0a3032dd9e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8336,
+      "evaluated_seed": 8336,
+      "evaluated_signature": "024f0da3ce6f521baa7cc63d2733176ed88bd271afdedee5dd8c48e74f9c2b4a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8344,
+      "evaluated_seed": 8344,
+      "evaluated_signature": "a5624867a4ccd35c1651bd026d61cb805887c8d9e1de011b4a3f641a8ce8af51",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8352,
+      "evaluated_seed": 8352,
+      "evaluated_signature": "2c534abbf83f19eb782a994dcf6bab9409f249b26f70b7330ec29ae5840deb1f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8360,
+      "evaluated_seed": 8360,
+      "evaluated_signature": "cb46e0f52af107abf35cd7c89a5198647b51236f2084707aab695fdd95e5d97c",
+      "vertices": 48,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8408,
+      "evaluated_seed": 8408,
+      "evaluated_signature": "2ab1cbd6d88781fecba94f0511939f30ca6cc12d66fa502740785efc6daf8423",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8416,
+      "evaluated_seed": 8416,
+      "evaluated_signature": "375468d444337050747686284513b48c1ef899c0babeb86e2529a7ddbe721475",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8424,
+      "evaluated_seed": 8424,
+      "evaluated_signature": "d0ceb49b55197489a60309896050e37c46da2bff5c9ad601bc0cdab28a78b6f8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8432,
+      "evaluated_seed": 8432,
+      "evaluated_signature": "384a032eefdce33a354e24c74cb377ed2a2cc91929fdef141377eb99b375da7d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8440,
+      "evaluated_seed": 8440,
+      "evaluated_signature": "84e6cf623e5d14cbb0edf8621e42fc270e1bc7d47b8249a2c029733aa123d547",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8448,
+      "evaluated_seed": 8448,
+      "evaluated_signature": "db6c86cd3f92693be03095413b50694ccc903f344ed56c0e13e75f14bdbfb7fc",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 8456,
+      "evaluated_seed": 8456,
+      "evaluated_signature": "3653045163e844e957681fc6c0971a9c1c49eb2e812244a8c406c347947522ea",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 11896,
+      "evaluated_seed": 11896,
+      "evaluated_signature": "de92419ee75479d8570d21ba5c1686719af150e5e6df24e1cfd33e92b76a1cd2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 11904,
+      "evaluated_seed": 11904,
+      "evaluated_signature": "daea65e632ab4467b19afe9c6235ddd70b108ab50623f18a48dce95f0c0182f8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 11912,
+      "evaluated_seed": 11912,
+      "evaluated_signature": "e2eb1dca16b9022ff8f8993ad44bfd252c4c4198edba2cd30e3144ba9fcd693d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12152,
+      "evaluated_seed": 12152,
+      "evaluated_signature": "204e11d32ee1fbdfb5f25541fb74c0decf007e8625e385c4068bc5725353d1f5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12160,
+      "evaluated_seed": 12160,
+      "evaluated_signature": "25070003155937a89fa94e4ae1c45adb2b007f6f3fa6b062411df4c112f62623",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12168,
+      "evaluated_seed": 12168,
+      "evaluated_signature": "beef567389de4576f96cfc30584f2d4edfe5e55d49c52c05375cec93911354fb",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12176,
+      "evaluated_seed": 12176,
+      "evaluated_signature": "a2815eb97db339d75d05809ea819daa25dc6f4e6c4e9e46cce3ec71a994b1b12",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12184,
+      "evaluated_seed": 12184,
+      "evaluated_signature": "e5e0081408a484a853b1f3eccc34483edc30bdabb6c9954d215f4e94b857916f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12192,
+      "evaluated_seed": 12192,
+      "evaluated_signature": "89aed1811440938c91e2e81f6d7a964a2a54256fbe04962dcd27b95d2e8963b6",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12200,
+      "evaluated_seed": 12200,
+      "evaluated_signature": "772f0e3cf5cf5fdfb116b3f26e40bb3e930e6473c3b0e1cd1100e51c4005a189",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12208,
+      "evaluated_seed": 12208,
+      "evaluated_signature": "0ab7b23c235898cbcec3abcdd7fd267dcad7173f79027cd4cfb458c5f9515edf",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12216,
+      "evaluated_seed": 12216,
+      "evaluated_signature": "68cd9f5f4b24eff3559947cb33433236ef9d3db19c58f287e6a9844811190caa",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12224,
+      "evaluated_seed": 12224,
+      "evaluated_signature": "2dd160d7750aba4e353f681655bc22f2dbbdbc3472300b460651a7261a3fc589",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12232,
+      "evaluated_seed": 12232,
+      "evaluated_signature": "9b3b0eb619bd4782163e9475b387a41ef46c5f15ae2411b7767d571ce973e722",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12240,
+      "evaluated_seed": 12240,
+      "evaluated_signature": "f425bcc6a09f624a2f36d946d0e902b7d12befb23bddafbe7795c0183ee8e55f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12248,
+      "evaluated_seed": 12248,
+      "evaluated_signature": "1ebd9ed2c7d937d74c1a9f81a074e9a05e287d6485dac13fa739a6965c15a806",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12256,
+      "evaluated_seed": 12256,
+      "evaluated_signature": "72ff185d537a824a7b06eac4a99736f71bb2591c8afadb7379fbfa91d9bd07ab",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12264,
+      "evaluated_seed": 12264,
+      "evaluated_signature": "3904eadfbd0d985bfffc8ac9ae0f3a8b0c046cd1b6267ee10dfdfd841c43225a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12272,
+      "evaluated_seed": 12272,
+      "evaluated_signature": "988e6e21447c283d85db34eba3ca4a6f32637ee22318bff24d678be164150a42",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12280,
+      "evaluated_seed": 12280,
+      "evaluated_signature": "2704502b8c65843c1dbeba0a07e039e27a9817ecb6231bec7543f47f71608b98",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12288,
+      "evaluated_seed": 12288,
+      "evaluated_signature": "bf5347fbab76d4e6903a161fca90e47831b6d708363304635d1f9d61f8bc86ef",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12296,
+      "evaluated_seed": 12296,
+      "evaluated_signature": "d79250bc7e51085b2a85f9bcae33f9ce293484c59cf76d3c1246e9da43acf064",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12304,
+      "evaluated_seed": 12304,
+      "evaluated_signature": "8c7270a5c34c63d02f99156c3c6e7a3a2c751ebec94430a00d6125dfda8c1161",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12312,
+      "evaluated_seed": 12312,
+      "evaluated_signature": "c7c020a970ab897288ad77db67463f006be85f740fd6408972d6e4fe31ccce6e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12320,
+      "evaluated_seed": 12320,
+      "evaluated_signature": "9c1c1952a699f7cf9b773833bd210f4cb56dab3edd30c2f45e86d75fbfba827b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12328,
+      "evaluated_seed": 12328,
+      "evaluated_signature": "a2d0115f8e2a159ac684fc8213950d09864c7303effdd781d9d132e7abdc3ce6",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12336,
+      "evaluated_seed": 12336,
+      "evaluated_signature": "32343808697589f8a4c28885d45add9fc83f02f4de087a5adb7d57954d7c51d9",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12344,
+      "evaluated_seed": 12344,
+      "evaluated_signature": "90ce10d9fad14e92cf044b35e882363e133a2998e0f0c20a99585fe3dc065611",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12352,
+      "evaluated_seed": 12352,
+      "evaluated_signature": "4c65db57351fe0d128d25cf6244c05dbe9657660a0e947477a210042aacdf932",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12360,
+      "evaluated_seed": 12360,
+      "evaluated_signature": "1fbd544ddecae1b2edf1abb5486b45abf45474c89acd08b4cbcf87e1a229e06a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12368,
+      "evaluated_seed": 12368,
+      "evaluated_signature": "be5b660d12554555ee85560c3684e1264e8e6efc61bf53d700c189b507ba1f90",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12376,
+      "evaluated_seed": 12376,
+      "evaluated_signature": "5d6e602b48cb9fae4eac9ceccd00482ccf556d8ce0c75d0e15795db97afc798a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12384,
+      "evaluated_seed": 12384,
+      "evaluated_signature": "37f637df203f413e5f35c7ffbdf78da182a5a9967e6c41c3e381fbccce446404",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12392,
+      "evaluated_seed": 12392,
+      "evaluated_signature": "a76015d45f9ce66ca2f7b6841648afb1224e0cd78ceb30a3fc7e23e979a9f787",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12400,
+      "evaluated_seed": 12400,
+      "evaluated_signature": "cc4cd11df760582ee5a9356f0aad83a0692a03230b18fbb00f63fa44e82837d0",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12408,
+      "evaluated_seed": 12408,
+      "evaluated_signature": "50e9632991dbb9e86083f6b6804e6edf49ba28ccc77005330002919284f6e8d5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12416,
+      "evaluated_seed": 12416,
+      "evaluated_signature": "72ad8ff6829915d5c335d09fad021e4aa6b9c9def496adeadef7464e14c92014",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12424,
+      "evaluated_seed": 12424,
+      "evaluated_signature": "cf91c1edc02b6cfab989bcc97b4bb262f90cacbb7e6b91fa823926e2ee95ff65",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12432,
+      "evaluated_seed": 12432,
+      "evaluated_signature": "b9ac09bd9d56846f6f173f1c35614922d9cc3199efe0fa468d05d0b1c4879ded",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12480,
+      "evaluated_seed": 12480,
+      "evaluated_signature": "b6b8e2edbda1314587848f11acdde4fefe88492d4b39dbffde95957ae4b51f6f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12488,
+      "evaluated_seed": 12488,
+      "evaluated_signature": "e8cccb67c96b4770c3631038c7b55f28b09b3031a3777f8c2b3852d84333af17",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12496,
+      "evaluated_seed": 12496,
+      "evaluated_signature": "75e4627d1debabab68124fd04c094bf803c7c901f62efd1081191365dcbd174c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12504,
+      "evaluated_seed": 12504,
+      "evaluated_signature": "ee15396d1d23bb17e28d2266f2acc22ff97e3b19a24c37d9e8352837c14ff078",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12512,
+      "evaluated_seed": 12512,
+      "evaluated_signature": "3283bff7c11a9600c1257ba2e45208b4636fa1746afa124ef712a4e5082370a2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12520,
+      "evaluated_seed": 12520,
+      "evaluated_signature": "528dc25e7ca9ee5233e7e6bf11f9676e55b2d1bf4129dbee27f46797e6f3223e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12528,
+      "evaluated_seed": 12528,
+      "evaluated_signature": "68b5b6211d1d3d62a74715a2d97949e58a2400687c1701d68b4f4e2af7ab58f0",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12536,
+      "evaluated_seed": 12536,
+      "evaluated_signature": "f1daaf5fb64a17f3435aadd83a3ddbe403c9033753886cda4cfb39f8a252dca5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12544,
+      "evaluated_seed": 12544,
+      "evaluated_signature": "7f99f220f82c2102d1bfe27818c6486f8f626f6eac499cb1760321e8e2d07a8c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12552,
+      "evaluated_seed": 12552,
+      "evaluated_signature": "f7ab03aa134da500c36e7c4276fa9160b3cac0ba71551b9c2e356dd2dddf2139",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12560,
+      "evaluated_seed": 12560,
+      "evaluated_signature": "43402346020e4cc17041d810233d414f3a460a23832875867b521facf8a1b119",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 12568,
+      "evaluated_seed": 12568,
+      "evaluated_signature": "08f9953d1f5d0c4328a331e0ae1ad8612d557a51b2fc6e274988f81a900b38a4",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25688,
+      "evaluated_seed": 25688,
+      "evaluated_signature": "b84f59feec984d9f1ed7c32f87c3c0492b18b942205ee7f26e7dfb01a7394806",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25708,
+      "evaluated_seed": 25708,
+      "evaluated_signature": "685896717c07af4bc2a7a626aa5d6510806aae92a16d5ab557112ae43a12545f",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25728,
+      "evaluated_seed": 25728,
+      "evaluated_signature": "14d9c1e5a12d07e5c5abca5421ed2808f6b1359439b6755db2e72d7e0ea9cb62",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25748,
+      "evaluated_seed": 25748,
+      "evaluated_signature": "25947547e163416aa7de571623cce4438886f70767e729c04d43b33a9e06bb51",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25756,
+      "evaluated_seed": 25756,
+      "evaluated_signature": "8e00cceea00df3581075827cd4134be0b424282a30e68534d98bd85af68bc533",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25764,
+      "evaluated_seed": 25764,
+      "evaluated_signature": "e2458a19c088a5d41b90d43dbc4060509e9a74c22db0d2a2ba6d09a1f5507704",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25784,
+      "evaluated_seed": 25784,
+      "evaluated_signature": "4650bd5d202e3b9a4f48e3ac17da9453894d1d8f0d0b8ea31a23a53ce4f8b54f",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25804,
+      "evaluated_seed": 25804,
+      "evaluated_signature": "dfe9c8906ac204bfc8dbb694b008b1ca2cb462ff34ec5e664e934d3c7d42bf9d",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25824,
+      "evaluated_seed": 25824,
+      "evaluated_signature": "7ef414ed83fa7f2e1ac86f259fe27bca95fffb79ad9b84965a5d4aa08751488b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 25832,
+      "evaluated_seed": 25832,
+      "evaluated_signature": "40cb2d827830ae291c8385b1096e67b91468eddc3b10f0ad5f25f6f15158f242",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27536,
+      "evaluated_seed": 27536,
+      "evaluated_signature": "5c23ca8afdb081fbee0c70c656afacbdd4dbdf08824854f8964123cf6ff90002",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27544,
+      "evaluated_seed": 27544,
+      "evaluated_signature": "482b797056c501c5315680b7899a0ba8a019f32a8576e88b4b651129d8484d45",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27552,
+      "evaluated_seed": 27552,
+      "evaluated_signature": "2d9788eee15c1c361a79d7e0736e09c3e7857e149417709f2f1e207954cad568",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27560,
+      "evaluated_seed": 27560,
+      "evaluated_signature": "6a39af0b89b98e8f5c38e45acec790a613934f1dd6423fe0f3d823a997d1fc06",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27568,
+      "evaluated_seed": 27568,
+      "evaluated_signature": "fdc842afd795d83b6c7f5a3afcd60d2d4584f103b8441c5690d18fe983de4af6",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27576,
+      "evaluated_seed": 27576,
+      "evaluated_signature": "6c915fc407be8cf21f07030134e54c8510649908fe8192416439c7b27daf5905",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27584,
+      "evaluated_seed": 27584,
+      "evaluated_signature": "eeb2f28fd9e6b0410f5357ce776b1ef21eb607131373179b3b8501fb404b05aa",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27592,
+      "evaluated_seed": 27592,
+      "evaluated_signature": "091a160f1c4fb584f0959732e90f545b7bea6ca846d9efbd653bf63b2a14fae8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27600,
+      "evaluated_seed": 27600,
+      "evaluated_signature": "c532866816b2352cb7ffb81a8d08c6b1d8bb32f6eb6c9fdcfda738ca875a955c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27608,
+      "evaluated_seed": 27608,
+      "evaluated_signature": "855ba7c4eec76161d2f20bcfdbfc8ca7b758a33d45aa33533cbf97cf277c78ef",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27616,
+      "evaluated_seed": 27616,
+      "evaluated_signature": "33fb614fee64094dc1bb8610aca71489c122ba96e6db06105ae93d04ccd8a186",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27624,
+      "evaluated_seed": 27624,
+      "evaluated_signature": "b1625e21f9071f3624e46924451a5a2e5859724e2dd02f1cdc010f60e5fcbd57",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27632,
+      "evaluated_seed": 27632,
+      "evaluated_signature": "6efeadb73b58774e1cb192982ffff86dd1a71796eefe344b16955a504abacd21",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27640,
+      "evaluated_seed": 27640,
+      "evaluated_signature": "c70450ab22c54c0eca0898cf83aed6264c5af23357cfdc45c495dd9b66314d86",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27648,
+      "evaluated_seed": 27648,
+      "evaluated_signature": "bdad45985aad856e7fbdd499b17e0be5ec177efb139c402c2f1c0bf0154d04b5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27656,
+      "evaluated_seed": 27656,
+      "evaluated_signature": "6603da8899cc3382d2489f3e09032632d6c97efb51c39058b32b5a2280eaf2d9",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27664,
+      "evaluated_seed": 27664,
+      "evaluated_signature": "843b863bd2e2f2f54bfeeea6fc7b044d18d3e29ca0971805b2b71fc31a536678",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27672,
+      "evaluated_seed": 27672,
+      "evaluated_signature": "f37d66c676e4faaf1a140bf4ed4f55dbc8dc039fd866c9e25ac7f55fb4aa0c62",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27680,
+      "evaluated_seed": 27680,
+      "evaluated_signature": "a8e53ba4b3d2f076c94bac58327a5a3e23355ad6356ebbf370d62a9cf257152b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27688,
+      "evaluated_seed": 27688,
+      "evaluated_signature": "0d5ac6791d7ce82c4ef46cea7ff44ad8acc84cb7be7c3059624e7dd1616edc38",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27696,
+      "evaluated_seed": 27696,
+      "evaluated_signature": "e4e91dfd072476ee523a918d00c77f64e41c01644d9a83cf647c723aad304d76",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27704,
+      "evaluated_seed": 27704,
+      "evaluated_signature": "9aa1232da03b68589e947c506d972b7a6932ddfdffccf4fa7715579b1eabcf92",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27712,
+      "evaluated_seed": 27712,
+      "evaluated_signature": "e36679b8e03e40f969464abca3c1b813594e8980be4904bff9c1d5fc407f8853",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27720,
+      "evaluated_seed": 27720,
+      "evaluated_signature": "2594c0fcdb756dac1075645a23d15f82aacf04c5ede5b8cb0c9b82443a5e40bf",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27728,
+      "evaluated_seed": 27728,
+      "evaluated_signature": "14d34f3f0a84a671daf6f56fd67e39a1182faabdc2c098f8e2281407f605dcc5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27736,
+      "evaluated_seed": 27736,
+      "evaluated_signature": "37fb5cfd5ccdecabf9105e2c3cf3f97a0f6dc678766a6760fab4c8a31406df8f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27744,
+      "evaluated_seed": 27744,
+      "evaluated_signature": "786686b545b8a3a1232fde53352d09cf6abc2710047dd9139f51b36e3774bd2e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27752,
+      "evaluated_seed": 27752,
+      "evaluated_signature": "e94ac6e03e71c97c8cebca30704cc0ab82e44ffbd733a7636b0dc2a9e01f47bb",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27760,
+      "evaluated_seed": 27760,
+      "evaluated_signature": "2fdce9efb9f82bfdb923b4cce771ee98293f20719fd6176385583858cd1e02e5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27768,
+      "evaluated_seed": 27768,
+      "evaluated_signature": "5172c93bae26e82e6b1ad685710843d9920fb45d354a27ac8524d0299b9182f3",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27776,
+      "evaluated_seed": 27776,
+      "evaluated_signature": "26b650ceb189ea36638e6065cc248dbc5b6ead2d6c223c2320ec0d397ef7966b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27784,
+      "evaluated_seed": 27784,
+      "evaluated_signature": "ae77639100968fb511a686dc6addf4b6e6d26aeed597cd7b480a669fc28c11ea",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27792,
+      "evaluated_seed": 27792,
+      "evaluated_signature": "62d82f8d57916948973707b9053cd290072822deed75f7fd49c6e0623c8945ab",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27800,
+      "evaluated_seed": 27800,
+      "evaluated_signature": "c21998361d62c517167bcf2ecbca43b54a69b22c6cb37c00a97095f9830a1759",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27808,
+      "evaluated_seed": 27808,
+      "evaluated_signature": "8c4587393ef68374534d3cf9a5b0d5fc5842aeac95b37d9d1320ffdff102f752",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27816,
+      "evaluated_seed": 27816,
+      "evaluated_signature": "3089c266358060f2b1de8c1223bf2fcc5cb6b4f6f70ff7d33501aaa3deb5802c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27824,
+      "evaluated_seed": 27824,
+      "evaluated_signature": "c41420777636831eaaaa2f6fd7d7098234b99063df70ce82ca2a90d31749b9ff",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27832,
+      "evaluated_seed": 27832,
+      "evaluated_signature": "fe7d2148b49c71370291081e9359ed5bbfd1db9026d9d9872c78a35f4b2794b2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27840,
+      "evaluated_seed": 27840,
+      "evaluated_signature": "8085c0d45e52a1e949e940ff156c111aaf886af89a257bac5bd5e2fd59983a10",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27848,
+      "evaluated_seed": 27848,
+      "evaluated_signature": "70cedd7fdd6a581913c488608991d26f4840386d90b27fe35ead2dc20bed49d7",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27856,
+      "evaluated_seed": 27856,
+      "evaluated_signature": "3107a91bc4efcdba9d54614fd08cc431fb5485251b05a8c88de9699da63318bd",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27864,
+      "evaluated_seed": 27864,
+      "evaluated_signature": "9cb0d0aebd9fd1aca129bd06395d928243b3ea6043031d4362309af0be40cbf8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27872,
+      "evaluated_seed": 27872,
+      "evaluated_signature": "aacc715b46aa044a8330225759a7d09d4beafdb7c7d9e7ea4b2422707535acec",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27880,
+      "evaluated_seed": 27880,
+      "evaluated_signature": "20b26c2a0c62af52681283b620acafe2133bb8364105b1b161b2d93b81f2ed66",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27888,
+      "evaluated_seed": 27888,
+      "evaluated_signature": "8728bb30f0526ed72951fe88cab624893e6369158f415dda86590a0f98212c73",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27896,
+      "evaluated_seed": 27896,
+      "evaluated_signature": "204db077e99069456e9df7935a4e5304176983885217c8487e8502e4fb4a7945",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27904,
+      "evaluated_seed": 27904,
+      "evaluated_signature": "bba877068604ebc29482bae921fe3bd733278d1a6488883fc13c40101bc7ba82",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27912,
+      "evaluated_seed": 27912,
+      "evaluated_signature": "523eaef55f2e5a859918931452ff5db04124d65893c3bd60d4cf4e52ea36d122",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27920,
+      "evaluated_seed": 27920,
+      "evaluated_signature": "4a5f7777d72dc365f60105ad4ec80a0dfa22c66f535e63250e238dd20ebcd8c5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27928,
+      "evaluated_seed": 27928,
+      "evaluated_signature": "68084da23786d72059f8f45ffab52112a9a7695a6c990733d054fcb5ab03f590",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27936,
+      "evaluated_seed": 27936,
+      "evaluated_signature": "48e67e7c2e0c3c04d8001768fa6d33813fd425ee5905f8dd52cc3503c186f3c2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27944,
+      "evaluated_seed": 27944,
+      "evaluated_signature": "337a1c601e7faa87f6fe8c89c9a1982efdb21d69b3671bf6b231436bc7aa87ed",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27952,
+      "evaluated_seed": 27952,
+      "evaluated_signature": "58155e055bd7f5e3dad53bc0fa373c86097fe434ddaca2337f1e39aba1c09e79",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27960,
+      "evaluated_seed": 27960,
+      "evaluated_signature": "6225c1e75599372d69bee9f8ad046bc0b26ded0630514d509c1578daa154d12d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27968,
+      "evaluated_seed": 27968,
+      "evaluated_signature": "751f587bde93a505269e23a5fa4bb4ddbb4220e95cf7d57125c9c6745cbe8471",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27976,
+      "evaluated_seed": 27976,
+      "evaluated_signature": "72a613b2a4c694453ccf2d94ff394d22729dc1750ee600a019268aa9960c9d79",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27984,
+      "evaluated_seed": 27984,
+      "evaluated_signature": "c158c37ccbc206eaf037c9657af6111639ec4123b81f6a093227931d9eecd375",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 27992,
+      "evaluated_seed": 27992,
+      "evaluated_signature": "fe32ea7c02f6ab38e23e7bdaa4aed7b94d6e69f12f403c38891bd4b8aa1a76c7",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28000,
+      "evaluated_seed": 28000,
+      "evaluated_signature": "44fed9d63c1373092084add389aeb8e2307acc19ff88742cee4b49fdc60ea616",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28008,
+      "evaluated_seed": 28008,
+      "evaluated_signature": "5342e650730f25047875d8a391a3bdc5ae7c0ab3d13927beeb53151c6d8beeab",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28016,
+      "evaluated_seed": 28016,
+      "evaluated_signature": "0011797171ce46ce7032aea73e0aeba4562240d55aaaa16c719917efcd7efe14",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28024,
+      "evaluated_seed": 28024,
+      "evaluated_signature": "002bdce5fc883af93806b79846bf92939c1f07baa8ad11686faec2612063d404",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28032,
+      "evaluated_seed": 28032,
+      "evaluated_signature": "eb1a8777f7826669ec692582b93f8b89c4544d2b062ca2a36ae1057e23107679",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28040,
+      "evaluated_seed": 28040,
+      "evaluated_signature": "1261e4119dd328f861c7ede54c5c0ca10fbd1a074a8e42718ec33df933c868c3",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28048,
+      "evaluated_seed": 28048,
+      "evaluated_signature": "607d85f22cf96ef435d3299e6a692f4f051d4efa5f72ac9ce9775f7dbd494cf3",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28056,
+      "evaluated_seed": 28056,
+      "evaluated_signature": "aa4de7842ac952220ef5ec4cad7919eb1ce3cb7cd3f149ba41e5b61886ed94c2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28064,
+      "evaluated_seed": 28064,
+      "evaluated_signature": "0ad7429889351a6504653e835421343f39dac1fd6e6ab4d6a7bba2bfebfb87bb",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28072,
+      "evaluated_seed": 28072,
+      "evaluated_signature": "7944a1fa062dc93db4f9283c9f432e8691133dbf40766e7ff6e9ab1ceb840cc3",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28080,
+      "evaluated_seed": 28080,
+      "evaluated_signature": "fbbdb7852a9afe5c5d6afb7f810dcc00781b4e60e6dceb3508b0078275decaa6",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28088,
+      "evaluated_seed": 28088,
+      "evaluated_signature": "1494671db59c0b95af6e647049c80643fee8df9d13ce74b64d752ad046cb4bdc",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28096,
+      "evaluated_seed": 28096,
+      "evaluated_signature": "f7bfa2f9494a35462462282c238c9b56b32f076413b4f3b100b813e05a8b998a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28104,
+      "evaluated_seed": 28104,
+      "evaluated_signature": "5aac310ec95d9c460f04ce7e97cb4a4896648a8796802c718864da05b48cfed0",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28112,
+      "evaluated_seed": 28112,
+      "evaluated_signature": "0144f959f40f8349c04f32fc5a367b3f27a2aaa040980fcc191cced845ea4097",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28120,
+      "evaluated_seed": 28120,
+      "evaluated_signature": "94ed3a6ee503d4c4822a0e1badfd077bfb197fbdbb3b181080a616bef4d1f713",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28128,
+      "evaluated_seed": 28128,
+      "evaluated_signature": "202e9d9175502bd38fa33e7366deb5db4a72a402df1fcca21b023b1be87c54ea",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28136,
+      "evaluated_seed": 28136,
+      "evaluated_signature": "60e968446e28c4d2a3c3e5ba7dd539bdc7f4ec9181ba41913f313b865da2408d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28144,
+      "evaluated_seed": 28144,
+      "evaluated_signature": "1c40c54976f21b56c4fce070e696cc8e94e235e6405bab61cc78929a5886a31f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28152,
+      "evaluated_seed": 28152,
+      "evaluated_signature": "76c646b1b43eb9e1e24f8db287aaed5d1f824479912d0f2fd1fdc0ad965baa04",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28160,
+      "evaluated_seed": 28160,
+      "evaluated_signature": "7b8c200aa4b5b321e9b4a69e97ecdbe46172c75f937255b3f26018bbcee4665a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28168,
+      "evaluated_seed": 28168,
+      "evaluated_signature": "b4378d29dd8fd90ce65e0b706f23a3cd05f8fd11f16710b7b3c9e178aab30e0c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28184,
+      "evaluated_seed": 28184,
+      "evaluated_signature": "815966815787933e155e816c3f411d93d6a298d3589da8ef5a69ccc9b699e083",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28192,
+      "evaluated_seed": 28192,
+      "evaluated_signature": "68aa6a861fb156e8bf5bf3fba1d80e8ea0436985b22d0066814c7703cc0b351c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28200,
+      "evaluated_seed": 28200,
+      "evaluated_signature": "b93ccb75ce641c96f655b251ce4332b191351ad0ad421c2c25de32de9353eced",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28208,
+      "evaluated_seed": 28208,
+      "evaluated_signature": "3d41580df90bea35a4b41b314a92340f68b653c4904d51dc7f592071369a9744",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28216,
+      "evaluated_seed": 28216,
+      "evaluated_signature": "a33f3ad9fd06826659cf90ce59284ade0a95d0a652879cdb1dabd00ab23c7850",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28224,
+      "evaluated_seed": 28224,
+      "evaluated_signature": "af3c74b2845473a581d7e4e9c6103c7d835672dff587a9ff333e39523df1167a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28232,
+      "evaluated_seed": 28232,
+      "evaluated_signature": "19c69699b1fd4f3eace55328838d630a80969827fba7d9c0f06aece21396d002",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28240,
+      "evaluated_seed": 28240,
+      "evaluated_signature": "3dd81b98245419ea314d22d1630cbea4fe48f95eb86ed47ca5bf3b33c0e97d2d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28248,
+      "evaluated_seed": 28248,
+      "evaluated_signature": "c9279dc7be16c198ee9242a7ec596c381a377beef86faaeab29e4e315111776f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28256,
+      "evaluated_seed": 28256,
+      "evaluated_signature": "96a34db14b1fdb35becda625593eeb69c69b2a7454a48cef412cd39f0f64be9f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28264,
+      "evaluated_seed": 28264,
+      "evaluated_signature": "3448d8c3d13b5c36c0010485c5815139ec4b6c104c7cd121f01984b9d4a053e5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28272,
+      "evaluated_seed": 28272,
+      "evaluated_signature": "029fa0034a41d4a154429cb200ce5da158a976d63bfaec46eebdb18896beb901",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28280,
+      "evaluated_seed": 28280,
+      "evaluated_signature": "d4dc58cb71d6ed8c03b9d37bbe3d100acf3bf3560c11719f4c5201020a959327",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28288,
+      "evaluated_seed": 28288,
+      "evaluated_signature": "9b02a1fb98695f7fddad6ab8939bc8e1399d2947c428b91c850bdd026e8db31e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28296,
+      "evaluated_seed": 28296,
+      "evaluated_signature": "c1441db298776fe26898deca6ddfdd0214d1586291919c121436c95061dbd1dc",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28304,
+      "evaluated_seed": 28304,
+      "evaluated_signature": "a7dd356711942fa2ebee83aceea4be806a8b36b545e725b7118f0154e85c9a35",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28312,
+      "evaluated_seed": 28312,
+      "evaluated_signature": "2931b610337b1299505bea1f84fd03c0f6fe991181c698b539197f2a8e42f473",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28320,
+      "evaluated_seed": 28320,
+      "evaluated_signature": "c83f75ae0df643a2db75be7c65795f2c45859fabbe575d7de55b9f19bc132338",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28328,
+      "evaluated_seed": 28328,
+      "evaluated_signature": "6e95c5a16397a0ccec537b32aba15f7f9a57f2f580c65e1712ef838925ef36e2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28336,
+      "evaluated_seed": 28336,
+      "evaluated_signature": "33eed4fcdded3f1ed612424c2f6c7b188495e024e4309acbe21cd1f4b8122bb7",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28344,
+      "evaluated_seed": 28344,
+      "evaluated_signature": "346e8696a1e79cd63090363c2b903f3d0333585a1eecc5a9729669d70f067579",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28352,
+      "evaluated_seed": 28352,
+      "evaluated_signature": "069884c4e9e8e3aef8b095902a2eba8f0b7676d455b364f7431ae5e3b64ff7ac",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28360,
+      "evaluated_seed": 28360,
+      "evaluated_signature": "9eeb2e294a56e02cf4089c0aaf66bd18b827a82867a87ccc70588b3b0196d335",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28368,
+      "evaluated_seed": 28368,
+      "evaluated_signature": "928e79b27c2738852c95d737904949d9ccb1933ac884f4662828e62ccbd155aa",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28376,
+      "evaluated_seed": 28376,
+      "evaluated_signature": "fe5672c20a0090ed6d2588889d3a4106e4cb61e98d5ef62bba21b8c4ad25ab3d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28384,
+      "evaluated_seed": 28384,
+      "evaluated_signature": "4afb98f07e51691fb6fc6883598d9b64710af42ee99971650f393afd9494dd1c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28392,
+      "evaluated_seed": 28392,
+      "evaluated_signature": "3711fabd6ca3cfccd9deb03678990b98090e267dcefe6f7741cf83b85da197aa",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28400,
+      "evaluated_seed": 28400,
+      "evaluated_signature": "e5794de8c491dc3d4f9b96c85722deddb171bc563711580b486c91d00fc7bd56",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28408,
+      "evaluated_seed": 28408,
+      "evaluated_signature": "38334ad67cadb3f20da60302bff7e5d27d14b15b31df68d3eaa94034639fc66a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28416,
+      "evaluated_seed": 28416,
+      "evaluated_signature": "180f2b766b0e219e165f35f9366b93ffea5b43dfe11cc09257bd12f1bcaea212",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28424,
+      "evaluated_seed": 28424,
+      "evaluated_signature": "647a1139453febf832bd01a8a69d64bb86c01f990ac465d84fd77e6d9ab59b96",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28432,
+      "evaluated_seed": 28432,
+      "evaluated_signature": "64538278cf3fe2524f3eedef958576994c47040978afc44c8381291ad30edc06",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28440,
+      "evaluated_seed": 28440,
+      "evaluated_signature": "9396da73db617dd5054cf2122d60286ab1db7fc555b98d3af4980a2ef1a9e1ab",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28448,
+      "evaluated_seed": 28448,
+      "evaluated_signature": "ea8c6ca2b69d9f438aecba77700a79e14ba44043eb747dc789e6b793758ade8e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28456,
+      "evaluated_seed": 28456,
+      "evaluated_signature": "f6fb383003f88d6f00a2a6c695700ca51b2241879a6bcf1af0f302e68ee764ca",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28464,
+      "evaluated_seed": 28464,
+      "evaluated_signature": "6a821ef786813c63e070dfb62ff9b72f1e9734880888b719e3475532d178f50f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28472,
+      "evaluated_seed": 28472,
+      "evaluated_signature": "1a704bebfe6952d2cec23ced3cb9f1345666c08a56ac1ab804657b5bb96f758c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28480,
+      "evaluated_seed": 28480,
+      "evaluated_signature": "68f49926de50845d70db6eea3f095ea44d482b2f45d1ed43eb594e978251fc9f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28488,
+      "evaluated_seed": 28488,
+      "evaluated_signature": "cc40a5ea3e76e40d4568ec53b26c07ef7683cff0ce0bbe971de8ed550e2acf28",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28496,
+      "evaluated_seed": 28496,
+      "evaluated_signature": "bca397be0388c782a7b3adcaae9ee14320954441932bc3dfce92012b45f788cc",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28504,
+      "evaluated_seed": 28504,
+      "evaluated_signature": "f71ccdebeb06cc5a4217cd610dc1ccef2b29b0a94a87abb97f87daf2dcabd686",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28512,
+      "evaluated_seed": 28512,
+      "evaluated_signature": "ba9ce1d7c9149e06f4dc06afa31070f91ba38f03211ff403b1e8a0cf247ad058",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28520,
+      "evaluated_seed": 28520,
+      "evaluated_signature": "13932bbd2eb1bf299a9eded94532ab6d871f943289db6ae813cfc187bc77a5b5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28528,
+      "evaluated_seed": 28528,
+      "evaluated_signature": "be8879eb4737735b51cdd82040be1dfb9bdb23c665fef75a97cc123312772c8c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28536,
+      "evaluated_seed": 28536,
+      "evaluated_signature": "d70bc70ae15dc18c5d10df92d28b8c49a4d0c8158e1c24d8333ea3997658dba9",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28544,
+      "evaluated_seed": 28544,
+      "evaluated_signature": "01f5957163f7af91c0093680e0fe140d677a78fe54e1ec5652fd4b29dffbfc5c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28552,
+      "evaluated_seed": 28552,
+      "evaluated_signature": "58fcd0a150e0da0bfb02d3f436e21496071564badb54e8b89e1748ff816b7ca2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28560,
+      "evaluated_seed": 28560,
+      "evaluated_signature": "85a08987d506fef710dd0a7a85971f6291f4fa460f09ab0a15ebe967867086ec",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28568,
+      "evaluated_seed": 28568,
+      "evaluated_signature": "b5339aa03954a3322489f85b851892eacc5cf79cdfa5828fe77d9eff95249660",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28576,
+      "evaluated_seed": 28576,
+      "evaluated_signature": "69d02dadea215fc3e8e653171a8e59344f5644fc3696e5af8fb4ac311df98ea4",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28584,
+      "evaluated_seed": 28584,
+      "evaluated_signature": "f442508f0f7d216a6957397cf31d2696e94dd418ed05bb86173c7805e5f6a3a4",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28592,
+      "evaluated_seed": 28592,
+      "evaluated_signature": "9e206b11f742c92be4ee94719e97b2535452fff64e0e5c42805ac8f70ce0fdc4",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28600,
+      "evaluated_seed": 28600,
+      "evaluated_signature": "f6ebc3f2dfa89804276c32417e4d7a6e5949f446c12d08c5beadc1d3caac2898",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28608,
+      "evaluated_seed": 28608,
+      "evaluated_signature": "db3ddee0f571554659ce055db4fe8f0a07472e225b6bead3acc78eb0e1a20c1d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28616,
+      "evaluated_seed": 28616,
+      "evaluated_signature": "df9b715540ad3c71aa3f5a31d4d64ee62cd023b26edc6e34dc8e0f55f38d76e6",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28624,
+      "evaluated_seed": 28624,
+      "evaluated_signature": "b2d8055aa688fb4688f954a3ecae973540b8248d6d4530f214d6d7868c52346c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28632,
+      "evaluated_seed": 28632,
+      "evaluated_signature": "7a89c00ef83d20207e5654cb4fef37ebcc276fffce87dd3633eb825157a27bc5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28640,
+      "evaluated_seed": 28640,
+      "evaluated_signature": "608d537fbb90d5e693340955f54e4df554537d5b22d5afeaf3ae0c86485b3baf",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28648,
+      "evaluated_seed": 28648,
+      "evaluated_signature": "eb373eb845f4af0634551ce3b0ec9cea829fa64c18e9351232e3ed1f02532a16",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28656,
+      "evaluated_seed": 28656,
+      "evaluated_signature": "46c4f6f91bea652754a7f3a0cf216106aa95c9bb2be42b90f1c343558f28bb1e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28664,
+      "evaluated_seed": 28664,
+      "evaluated_signature": "993e661e5fdb8e03f64d3b229605f66df1572956314dae6505343c0de8f8c880",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28672,
+      "evaluated_seed": 28672,
+      "evaluated_signature": "0e3d867effd90b9e2b26f6161a136453f6345ea08d0d3f9cf18bbe99f6fab38a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28680,
+      "evaluated_seed": 28680,
+      "evaluated_signature": "3c5612167e6fb44564d4c8a3c1233597d85ba3f1acb18cc6f62d6bb413374eb2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28688,
+      "evaluated_seed": 28688,
+      "evaluated_signature": "88174edd2777d14654aaf5e16f3f15aa69314fd8afa7baa7e6db264b551b245b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28696,
+      "evaluated_seed": 28696,
+      "evaluated_signature": "03bf2bce29fd3badace149e961aa160e5d2c97e23cdced4b2e741371ec9497ed",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28704,
+      "evaluated_seed": 28704,
+      "evaluated_signature": "e9e9bac0161536a6179e6eb3d4b5b6c6a71e01a9f46e144b352530417012ca2c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28712,
+      "evaluated_seed": 28712,
+      "evaluated_signature": "2d304272d4422f89022ffec9403fc26b38b7e39c0c153d29ddcd2472e3d8f7ff",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28720,
+      "evaluated_seed": 28720,
+      "evaluated_signature": "a24467641e706ca261ad666c21e39119a3b5ae97e4f45b2653833faecab7ba68",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28728,
+      "evaluated_seed": 28728,
+      "evaluated_signature": "0d6789ac55ce48cf7b0b58e6c0ea883dfb903238fe4d83f6d6367f2965cb8499",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28736,
+      "evaluated_seed": 28736,
+      "evaluated_signature": "c9c7d164132f05a687f7a9afcfa167122e36ff32dc6c29bf31dea9770fd1964e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28744,
+      "evaluated_seed": 28744,
+      "evaluated_signature": "a768eb8f1f8851bb5e5b364c5a6923839620fb83e0cc510226dd1c65af34781d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28752,
+      "evaluated_seed": 28752,
+      "evaluated_signature": "c0690a93b5c1f516f4aad688c7fe5bffd5a309d09d67899a65f0914a70644c19",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28760,
+      "evaluated_seed": 28760,
+      "evaluated_signature": "3896de5891b8bdc44dfecd56f185a2fc9ba587ca8177a1888189d1e8b97eaf51",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28768,
+      "evaluated_seed": 28768,
+      "evaluated_signature": "be33f8006d44edb781f768d8a1d0e6c70676dd0b896b6fdcdf0f20edf62c16e5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28776,
+      "evaluated_seed": 28776,
+      "evaluated_signature": "85d8dadfd81beb089756549f51ea60a61dda10622779b66836cac0baf912bb8f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28784,
+      "evaluated_seed": 28784,
+      "evaluated_signature": "b2480d5fcdb50128179dc6fdb335405d740b7880a775bb5294b8195bdf68da44",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28792,
+      "evaluated_seed": 28792,
+      "evaluated_signature": "818668018ac4e438f5878bd213b66d16152d69c6f6fe7ec95f7c3dbbd63617d7",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28800,
+      "evaluated_seed": 28800,
+      "evaluated_signature": "63f7f7b64628a3e1ed20f752a410ad568ef8e82b734faa63d752833b60ca25f5",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28808,
+      "evaluated_seed": 28808,
+      "evaluated_signature": "c6737a9e1281a9924830a25d54b09a6e8b4acf7a9aaa707ca9f84a47f35b80f3",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28816,
+      "evaluated_seed": 28816,
+      "evaluated_signature": "8803ae3ef04cc213dd2da6d11341df43f2cb4beca6b3c07d8168fa4d964b0cc2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28824,
+      "evaluated_seed": 28824,
+      "evaluated_signature": "0cf794657f6c992e981891946da93f4c9a177e50552c4f117e5f6cb29b1e6873",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28832,
+      "evaluated_seed": 28832,
+      "evaluated_signature": "b086b92bdf387510c1cb0dac2623777f1fd9a356bebf36a1f391369beef12b1a",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28848,
+      "evaluated_seed": 28848,
+      "evaluated_signature": "0118c03210cf02697c81f41ada95ade181035f12fb9a49faa3e2304c64d95cbb",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 28856,
+      "evaluated_seed": 28856,
+      "evaluated_signature": "9b4395a4f66c78d4796062bb87e8eeed55bcea869f56212df9c3ee14eeae6622",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29052,
+      "evaluated_seed": 29052,
+      "evaluated_signature": "6704c1c3513e3b68844138ae89135f49e52a6c5dc3edf16758aa82cea1c67377",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29060,
+      "evaluated_seed": 29060,
+      "evaluated_signature": "690b702105318ede5590f4c1bd41e8480190c68dc8390608c249c0cea506a71b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29068,
+      "evaluated_seed": 29068,
+      "evaluated_signature": "609a400fe770dfb6908044e10b7db856d8bddfecabcb396b4d5da0c2f33a5c04",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29088,
+      "evaluated_seed": 29088,
+      "evaluated_signature": "a0d5caee856211a33b51d1309d4a1c4f6499959f486c6c8fea06728c91ff7d5a",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29108,
+      "evaluated_seed": 29108,
+      "evaluated_signature": "459260f7d526d748ec8f2ed558482bf1c3b8da7c8707429c4ff0cf75242af6f3",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29128,
+      "evaluated_seed": 29128,
+      "evaluated_signature": "7437a305a2c1da770f061953dda7206a6556c48dcb5ada76a9c973328bfc5405",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29136,
+      "evaluated_seed": 29136,
+      "evaluated_signature": "ced12af1f4717fba459db4e10657e1f9dce8667b35682f6cc43073aef16d447f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29240,
+      "evaluated_seed": 29240,
+      "evaluated_signature": "239124ebed64ea688456b29988d5aeedd965b7c2236fb198d7a92b6730178169",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29248,
+      "evaluated_seed": 29248,
+      "evaluated_signature": "144e68afb7c9a65907ae0b4bd3a16ffbbf7263d59af1c5a7eea181155302f646",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29256,
+      "evaluated_seed": 29256,
+      "evaluated_signature": "8e8a7d05d1662a7a88de8cf8f045e02f3f3d13f87b2148fd824b26867e39b048",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29276,
+      "evaluated_seed": 29276,
+      "evaluated_signature": "1907fb3c1db17f19126f17045d000be8b0bf03d56417017fcbffb951789cd9eb",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29296,
+      "evaluated_seed": 29296,
+      "evaluated_signature": "4582bcfdff397af016b65cca6b31d4b02d3cff356f516468bfd2174a831d1b18",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29316,
+      "evaluated_seed": 29316,
+      "evaluated_signature": "6967f08e031d12ae15969138e8b7fef62798519ed382e6f07e28cd3a75956a49",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29324,
+      "evaluated_seed": 29324,
+      "evaluated_signature": "3a271d833bdf666d9bb0e390ab9e7395c62b3017589dfca4099291d9f9257565",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29428,
+      "evaluated_seed": 29428,
+      "evaluated_signature": "2a722a96706f97da1653f5beb8ac0950e558ccacc5245eb2b5c1eaded36fc8ae",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29436,
+      "evaluated_seed": 29436,
+      "evaluated_signature": "e57124b48cefe979cd96798f9a215231afd0f4a72d307651c702a8111270904f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29444,
+      "evaluated_seed": 29444,
+      "evaluated_signature": "ded8988b5a894fb67bc52e96a30ea275f5f87b93a8ece15b2bb567299de18f63",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29464,
+      "evaluated_seed": 29464,
+      "evaluated_signature": "7de38a05ed6463717834652009a94f29acbe58d617049dc2ad8d14f458a07daa",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29484,
+      "evaluated_seed": 29484,
+      "evaluated_signature": "eb2d61b6cb1a396989e5fcb592f8d35fc16d53c0f786108de4f799c82154f28d",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29504,
+      "evaluated_seed": 29504,
+      "evaluated_signature": "5c54f41efff7509710269ad1ed3be8aed8b4a4f0f355d2ba04738e7c4dfe3621",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 29512,
+      "evaluated_seed": 29512,
+      "evaluated_signature": "075c479bcdb2a281a44d5378d77fd53d0457ddf929eeaf9425eff9389b9e5ce8",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 32608,
+      "evaluated_seed": 32608,
+      "evaluated_signature": "136c02b46f8806948f93faa93a0b66921444188a11fb6e3d2ffa844d21eab44b",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 32628,
+      "evaluated_seed": 32628,
+      "evaluated_signature": "df8686b5326c2702daa3d5b8b94a72dc5ae2551cd5c7d24fccd37213c5e8cc55",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 32648,
+      "evaluated_seed": 32648,
+      "evaluated_signature": "966ae36b31535246f79f710da65ac4ea3e4670186b6ca67092c7874e7ab264ad",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 32668,
+      "evaluated_seed": 32668,
+      "evaluated_signature": "e7bfb88a3a3e9d1a6dc91208c53eb10b602a545247b3babbeb696bf573851b84",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 32676,
+      "evaluated_seed": 32676,
+      "evaluated_signature": "e98d436d69c72bc316c78439b874ad29fc2186369ebfbc89ff7e07c6a8a427a2",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 32932,
+      "evaluated_seed": 32932,
+      "evaluated_signature": "3e9fefe4e5ce586ff9a8a83cffcea16a634258a8cb35e2a67a86d5dee516d778",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 32952,
+      "evaluated_seed": 32952,
+      "evaluated_signature": "a61e7305f45de7e6f72672647cf9280b852a5d1d64f6ce75424cede5a39d7add",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 32972,
+      "evaluated_seed": 32972,
+      "evaluated_signature": "26821011531e2dc45526246e7ab18fab88e978f065d78cb6bcc04921654997c0",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33140,
+      "evaluated_seed": 33140,
+      "evaluated_signature": "2d1348951d6732d7bfb41936cd24392e82a5f6ed25ec7dd5875717b55129a530",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33148,
+      "evaluated_seed": 33148,
+      "evaluated_signature": "a86ec41b6b3551ac2c1ff3112ef5d4b36bcae974b9fd7a4b45ebacc0a86194e3",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33156,
+      "evaluated_seed": 33156,
+      "evaluated_signature": "fa9cb33a0616a6585f20ab00ccaef6a351d729917e783bdeff4041f535f89175",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33164,
+      "evaluated_seed": 33164,
+      "evaluated_signature": "24747cf485e2b8ed79bbe0608916f11c2912a9849fb3d2371074d627bc92b3ce",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33172,
+      "evaluated_seed": 33172,
+      "evaluated_signature": "c01db1ae70764def7add99837582a1b22a85aec2f8ff061a3b00ed8d8a1f199e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33180,
+      "evaluated_seed": 33180,
+      "evaluated_signature": "cd6032841a7847a515eab063f2855c694a1239b05c2fc0f703bfaabd2d40f602",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33188,
+      "evaluated_seed": 33188,
+      "evaluated_signature": "d6a0ddf6b1c457a066c1f71045c65d13375f099a9f782784b6811ed537579f1c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33196,
+      "evaluated_seed": 33196,
+      "evaluated_signature": "86b3bf0e211bedcf630ef7632dea17b99b3e3088cadea4fc2145a6557a0b8123",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33204,
+      "evaluated_seed": 33204,
+      "evaluated_signature": "3e173c2c1582646274220b3205a1378f900e6cb094cf88436c4f9a02410465c9",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33212,
+      "evaluated_seed": 33212,
+      "evaluated_signature": "a9cb58eb73aaa6c646db70bbc9540a66f589ea8cc806b96217b2de2eebb1b2b7",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33220,
+      "evaluated_seed": 33220,
+      "evaluated_signature": "d5bc369fff3aa491efd713e4f346010f59913369926cf63f6c960caac703364f",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33228,
+      "evaluated_seed": 33228,
+      "evaluated_signature": "ae64612507512248b1d2a884f435954ac29bcd43ba76566c27d99417ddc4256d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33236,
+      "evaluated_seed": 33236,
+      "evaluated_signature": "cfe5853361e0800602a39dd9951a1650b8a59dd4696a71f68f90b7d43c37fe05",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33244,
+      "evaluated_seed": 33244,
+      "evaluated_signature": "b8f763128d8de59ae2909c6f57d72faa9a8dcfe8802a71c60da00e999e7ff65d",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33252,
+      "evaluated_seed": 33252,
+      "evaluated_signature": "e257edc2db62b2f8a0964d4029bf569f95024fabfebbd24276638f25f7c5ad15",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33260,
+      "evaluated_seed": 33260,
+      "evaluated_signature": "82a9bbf2c4a895530c06ff4208320fd220db49bf6adeee760ed9b5b4f345d7c9",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33268,
+      "evaluated_seed": 33268,
+      "evaluated_signature": "83b9086c38ca30b39351641a18a10827670ab95b0ce1371071ee55a0675c0366",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33276,
+      "evaluated_seed": 33276,
+      "evaluated_signature": "23d4df2770863438540539ffcf91123cf0c645ebecce07c7507e5f68be99295b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33284,
+      "evaluated_seed": 33284,
+      "evaluated_signature": "3499e85943c451cfe585ab7f51737ea04370b3d113a16971179f7796480ddf80",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33292,
+      "evaluated_seed": 33292,
+      "evaluated_signature": "a44f512ece9507398d0f4abcb5d395c566c56642121466853a374004442d661b",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33300,
+      "evaluated_seed": 33300,
+      "evaluated_signature": "59b8f8442d40381882efc31b319afb1336d99fc70c2830426596e792dd00254e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33308,
+      "evaluated_seed": 33308,
+      "evaluated_signature": "996f43b124a28ae740f8eafcbcd9bc90473dbb459ad9571f6dda439ea610787f",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33328,
+      "evaluated_seed": 33328,
+      "evaluated_signature": "fa03bfeb638658ebdd00b86cdb8e6847d639e8e9f6d272e1ec3cdd82a1905b18",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33348,
+      "evaluated_seed": 33348,
+      "evaluated_signature": "49b50e2ea786e0ea169c574753e9197c2ac8810de79aa5e76b0754817ae50394",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33376,
+      "evaluated_seed": 33376,
+      "evaluated_signature": "d4a893820bc82b2c42be98cf5edc294155b98b539ba48428618f2c77231b881c",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33840,
+      "evaluated_seed": 33840,
+      "evaluated_signature": "2bdb44c2db4751864a64b75c8b61cd403258ee982d7d1f63b282ce680d96793e",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33848,
+      "evaluated_seed": 33848,
+      "evaluated_signature": "512b2491eb1fc723d033604f5ffb028dfd47db947c5021ffd200a63295a0fc78",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33868,
+      "evaluated_seed": 33868,
+      "evaluated_signature": "5b8e5386f072d2b3d9629ecf8b712323bfeea911b103890e3a2b605df49679c5",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33888,
+      "evaluated_seed": 33888,
+      "evaluated_signature": "204c722386ff12a4e6fcf467f0c23514fe7d6eb1d32c4eb1a46e499297c715bd",
+      "vertices": 20,
+      "bounds_max_abs_delta": 0.0
+    },
+    {
+      "source_seed": 33908,
+      "evaluated_seed": 33908,
+      "evaluated_signature": "516db90024142dbe9dbd92c9c8678b511cc170745311efc4d9e17d3d2e57b696",
+      "vertices": 8,
+      "bounds_max_abs_delta": 0.0
+    }
+  ],
+  "minimal_primary_body_roots": [
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "evaluated_seed": 8,
+      "bounds": [
+        [
+          42.5,
+          30.5,
+          42.0
+        ],
+        [
+          51.5,
+          59.5,
+          180.0
+        ]
+      ],
+      "vertices": 102,
+      "signature": "9b50c6634c4092f4704c3ac29f0215a7763ce56c40c67a15126ac8a199a4c354",
+      "closed": true,
+      "semantic_basis": "Primary massive main tower body, not surface ornament."
+    },
+    {
+      "object": "V005 | main tower calibrated stone surface",
+      "evaluated_seed": 24,
+      "bounds": [
+        [
+          28.049999237060547,
+          28.799999237060547,
+          51.599998474121094
+        ],
+        [
+          42.54999923706055,
+          32.79999923706055,
+          180.0
+        ]
+      ],
+      "vertices": 474,
+      "signature": "c47eaee147ce5a7caf1e5d7cd49038b9b860450bef561e50acd03b1c4dbb6835",
+      "closed": true,
+      "semantic_basis": "Deep front main-shaft wall with actual window cuts."
+    },
+    {
+      "object": "V008 | gallery with genuine eastern approach portal",
+      "evaluated_seed": 8,
+      "bounds": [
+        [
+          5.5,
+          27.0,
+          35.099998474121094
+        ],
+        [
+          34.5,
+          63.0,
+          69.30000305175781
+        ]
+      ],
+      "vertices": 24,
+      "signature": "43623168cb438ba8fe859d21da7f5ba936b5bc2bc349c953e1b8337efa6c9c24",
+      "closed": true,
+      "semantic_basis": "Massive secondary keep/gallery body; historical rawseed0 maps here after evaluated bevel."
+    },
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "evaluated_seed": 24,
+      "bounds": [
+        [
+          9.0,
+          2.5,
+          32.400001525878906
+        ],
+        [
+          69.0,
+          65.5,
+          36.0
+        ]
+      ],
+      "vertices": 24,
+      "signature": "bf501f8d3098c438e3e8708a5a4d5b9c765d2180daa18825c21f1188c32c3546",
+      "closed": true,
+      "semantic_basis": "Broad principal lower building base platform."
+    },
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "evaluated_seed": 576,
+      "bounds": [
+        [
+          16.0,
+          19.5,
+          34.79999923706055
+        ],
+        [
+          24.0,
+          28.5,
+          61.20000076293945
+        ]
+      ],
+      "vertices": 24,
+      "signature": "9b128f59e2b43b5355b4db3e805be9f7b62e272b0ead9b1980e4ae0c0e624777",
+      "closed": true,
+      "semantic_basis": "Substantial tower/pier body; historical raw ashlarseed192."
+    },
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "evaluated_seed": 2064,
+      "bounds": [
+        [
+          36.40999984741211,
+          1.5,
+          33.599998474121094
+        ],
+        [
+          60.189998626708984,
+          21.5,
+          59.400001525878906
+        ]
+      ],
+      "vertices": 24,
+      "signature": "49ed4c51d8e9012a43303b410a36490b78779acb689e41ac7ad38869d834696a",
+      "closed": true,
+      "semantic_basis": "Main front gallery building body."
+    },
+    {
+      "object": "V008 | gallery with genuine eastern approach portal",
+      "evaluated_seed": 12020,
+      "bounds": [
+        [
+          27.0,
+          1.5,
+          33.599998474121094
+        ],
+        [
+          35.79999923706055,
+          21.5,
+          59.400001525878906
+        ]
+      ],
+      "vertices": 24,
+      "signature": "0b79f81010d5738089818dd0583fae1d6e059dd146289174abca63def2b50c4b",
+      "closed": true,
+      "semantic_basis": "Companion front gallery building body."
+    }
+  ],
+  "slabs_not_initial_roots": [
+    {
+      "object": "V012 | terrace ledges with bounded stair opening",
+      "seeds": [
+        24,
+        48,
+        72
+      ],
+      "reason": "Use intermediary edges to actual body/base roots; broad slab alone is not independent anchoring evidence."
+    }
+  ],
+  "limits": [
+    "Semantic root nomination, not computed contact result; validator owns exact graph.",
+    "Root means connection to established primary architectural mass, not independently certified grounding/load capacity.",
+    "Bounds/count correspondence supports target identity but is not by itself full original/evaluated mesh equality; validator owns full signatures/geometry.",
+    "No target clipping at ROI; long ribs reachz180. Unresolved neighborhood chains are inconclusive, not automatically floating."
+  ]
+}

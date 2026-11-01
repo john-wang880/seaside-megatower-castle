@@ -1,0 +1,4752 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "unresolved_targets": 129,
+  "island_count": 22,
+  "islands": [
+    {
+      "nodes": [
+        175,
+        4077,
+        4371
+      ],
+      "target_seeds": [
+        1460
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          8.819000244140625,
+          10.18163013458252,
+          55.04999923706055
+        ],
+        [
+          10.560999870300293,
+          11.838370323181152,
+          57.80999755859375
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.030002593994140625,
+      "nearest_pair": [
+        175,
+        4705
+      ],
+      "surface_witness": [
+        [
+          9.510259628295898,
+          10.456812858581543,
+          55.04999923706055
+        ],
+        [
+          9.510259628295898,
+          10.456812858581543,
+          55.019996643066406
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        4077
+      ]
+    },
+    {
+      "nodes": [
+        988,
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        4266
+      ],
+      "target_seeds": [
+        7976,
+        8024,
+        8032,
+        8040,
+        8048,
+        8056,
+        8064
+      ],
+      "node_count": 8,
+      "target_count": 7,
+      "bounds": [
+        [
+          33.59000015258789,
+          22.520349502563477,
+          74.14199829101562
+        ],
+        [
+          34.810001373291016,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.02241329377815032,
+      "nearest_pair": [
+        994,
+        4372
+      ],
+      "surface_witness": [
+        [
+          34.28497579668255,
+          22.520349502563477,
+          74.44023126743636
+        ],
+        [
+          34.27764129638672,
+          22.520349502563477,
+          74.46141052246094
+        ]
+      ],
+      "surface_pairs_tested": 4,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        995,
+        996,
+        997,
+        998,
+        999,
+        1000,
+        1001,
+        4267
+      ],
+      "target_seeds": [
+        8072,
+        8120,
+        8128,
+        8136,
+        8144,
+        8152,
+        8160
+      ],
+      "node_count": 8,
+      "target_count": 7,
+      "bounds": [
+        [
+          38.790000915527344,
+          22.520349502563477,
+          74.14199829101562
+        ],
+        [
+          40.0099983215332,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.02241329377815032,
+      "nearest_pair": [
+        1001,
+        4373
+      ],
+      "surface_witness": [
+        [
+          39.484976559622005,
+          22.520349502563477,
+          74.44023126743636
+        ],
+        [
+          39.47764205932617,
+          22.520349502563477,
+          74.46141052246094
+        ]
+      ],
+      "surface_pairs_tested": 4,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        4268
+      ],
+      "target_seeds": [
+        8168,
+        8216,
+        8224,
+        8232,
+        8240,
+        8248,
+        8256
+      ],
+      "node_count": 8,
+      "target_count": 7,
+      "bounds": [
+        [
+          43.9900016784668,
+          22.520349502563477,
+          74.14199829101562
+        ],
+        [
+          45.209999084472656,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.02241329377815032,
+      "nearest_pair": [
+        1007,
+        4374
+      ],
+      "surface_witness": [
+        [
+          44.515023440377995,
+          22.549999237060547,
+          74.44023126743636
+        ],
+        [
+          44.52235794067383,
+          22.549999237060547,
+          74.46141052246094
+        ]
+      ],
+      "surface_pairs_tested": 4,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        4269
+      ],
+      "target_seeds": [
+        8264,
+        8312,
+        8320,
+        8328,
+        8336,
+        8344,
+        8352
+      ],
+      "node_count": 8,
+      "target_count": 7,
+      "bounds": [
+        [
+          49.189998626708984,
+          22.520349502563477,
+          74.14199829101562
+        ],
+        [
+          50.40999984741211,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.02241329377815032,
+      "nearest_pair": [
+        1014,
+        4375
+      ],
+      "surface_witness": [
+        [
+          49.71502420331745,
+          22.549999237060547,
+          74.44023126743636
+        ],
+        [
+          49.72235870361328,
+          22.549999237060547,
+          74.46141052246094
+        ]
+      ],
+      "surface_pairs_tested": 4,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021,
+        1022,
+        4270
+      ],
+      "target_seeds": [
+        8360,
+        8408,
+        8416,
+        8424,
+        8432,
+        8440,
+        8448
+      ],
+      "node_count": 8,
+      "target_count": 7,
+      "bounds": [
+        [
+          54.38999938964844,
+          22.520349502563477,
+          74.14199829101562
+        ],
+        [
+          55.61000061035156,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.02241329377815032,
+      "nearest_pair": [
+        1021,
+        4376
+      ],
+      "surface_witness": [
+        [
+          54.9150249662569,
+          22.549999237060547,
+          74.44023126743636
+        ],
+        [
+          54.922359466552734,
+          22.549999237060547,
+          74.46141052246094
+        ]
+      ],
+      "surface_pairs_tested": 4,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        2953,
+        2954,
+        2956,
+        2957,
+        4731
+      ],
+      "target_seeds": [
+        25688,
+        25708,
+        25748,
+        25756
+      ],
+      "node_count": 5,
+      "target_count": 4,
+      "bounds": [
+        [
+          39.585697174072266,
+          9.818180084228516,
+          60.0
+        ],
+        [
+          41.10630416870117,
+          11.581819534301758,
+          66.49800109863281
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.029998779296875,
+      "nearest_pair": [
+        4731,
+        2955
+      ],
+      "surface_witness": [
+        [
+          40.79241180419922,
+          11.111055374145508,
+          66.49800109863281
+        ],
+        [
+          40.79241180419922,
+          11.111055374145508,
+          66.52799987792969
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        4731
+      ]
+    },
+    {
+      "nodes": [
+        2955,
+        4078,
+        4391
+      ],
+      "target_seeds": [
+        25728
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          39.51091384887695,
+          9.731444358825684,
+          66.52799987792969
+        ],
+        [
+          41.181087493896484,
+          11.668556213378906,
+          71.61000061035156
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.029998779296875,
+      "nearest_pair": [
+        2955,
+        4731
+      ],
+      "surface_witness": [
+        [
+          40.17807388305664,
+          10.042196273803711,
+          66.52799987792969
+        ],
+        [
+          40.17807388305664,
+          10.042196273803711,
+          66.49800109863281
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        4078
+      ]
+    },
+    {
+      "nodes": [
+        2958,
+        2959,
+        2961,
+        2962,
+        4732
+      ],
+      "target_seeds": [
+        25764,
+        25784,
+        25824,
+        25832
+      ],
+      "node_count": 5,
+      "target_count": 4,
+      "bounds": [
+        [
+          55.49369430541992,
+          9.818180084228516,
+          60.0
+        ],
+        [
+          57.014305114746094,
+          11.581819534301758,
+          66.49800109863281
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.029998779296875,
+      "nearest_pair": [
+        4732,
+        2960
+      ],
+      "surface_witness": [
+        [
+          56.70041275024414,
+          11.111055374145508,
+          66.49800109863281
+        ],
+        [
+          56.70041275024414,
+          11.111055374145508,
+          66.52799987792969
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        4732
+      ]
+    },
+    {
+      "nodes": [
+        2960,
+        4079,
+        4392
+      ],
+      "target_seeds": [
+        25804
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          55.41891098022461,
+          9.731444358825684,
+          66.52799987792969
+        ],
+        [
+          57.089088439941406,
+          11.668556213378906,
+          71.61000061035156
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.029998779296875,
+      "nearest_pair": [
+        2960,
+        4732
+      ],
+      "surface_witness": [
+        [
+          56.08607482910156,
+          10.042196273803711,
+          66.52799987792969
+        ],
+        [
+          56.08607482910156,
+          10.042196273803711,
+          66.49800109863281
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        4079
+      ]
+    },
+    {
+      "nodes": [
+        3219,
+        3220,
+        3221,
+        3222,
+        3223,
+        3224,
+        3225,
+        3226,
+        3227,
+        3228,
+        3229,
+        3230,
+        3231,
+        3232,
+        3233,
+        3234,
+        3235,
+        3236,
+        3237,
+        3238,
+        3239,
+        3240,
+        3241,
+        3242,
+        3243,
+        3244,
+        3245,
+        3246,
+        3247,
+        3248,
+        3249,
+        3250,
+        3251,
+        3252,
+        3253,
+        3254
+      ],
+      "target_seeds": [
+        27888,
+        27896,
+        27904,
+        27912,
+        27920,
+        27928,
+        27936,
+        27944,
+        27952,
+        27960,
+        27968,
+        27976,
+        27984,
+        27992,
+        28000,
+        28008,
+        28016,
+        28024,
+        28032,
+        28040,
+        28048,
+        28056,
+        28064,
+        28072,
+        28080,
+        28088,
+        28096,
+        28104,
+        28112,
+        28120,
+        28128,
+        28136,
+        28144,
+        28152,
+        28160,
+        28168
+      ],
+      "node_count": 36,
+      "target_count": 36,
+      "bounds": [
+        [
+          60.42107391357422,
+          10.390397071838379,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          12.009602546691895,
+          54.09454345703125
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.00905609130859375,
+      "nearest_pair": [
+        3234,
+        3196
+      ],
+      "surface_witness": [
+        [
+          60.42107391357422,
+          10.707416534423828,
+          53.742920424262415
+        ],
+        [
+          60.412017822265625,
+          10.707416534423828,
+          53.74292042426241
+        ]
+      ],
+      "surface_pairs_tested": 4,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        3302,
+        3303,
+        3304,
+        3305,
+        3306,
+        3307,
+        3308,
+        3309,
+        3310,
+        3311,
+        3312,
+        3313,
+        3314,
+        3315,
+        3316,
+        3317,
+        3318,
+        3319,
+        3320,
+        3321,
+        3322,
+        3323,
+        3324,
+        3325,
+        3326,
+        3327,
+        3328,
+        3329,
+        3330,
+        3331,
+        3332,
+        3333,
+        3334,
+        3335,
+        3336,
+        3337
+      ],
+      "target_seeds": [
+        28552,
+        28560,
+        28568,
+        28576,
+        28584,
+        28592,
+        28600,
+        28608,
+        28616,
+        28624,
+        28632,
+        28640,
+        28648,
+        28656,
+        28664,
+        28672,
+        28680,
+        28688,
+        28696,
+        28704,
+        28712,
+        28720,
+        28728,
+        28736,
+        28744,
+        28752,
+        28760,
+        28768,
+        28776,
+        28784,
+        28792,
+        28800,
+        28808,
+        28816,
+        28824,
+        28832
+      ],
+      "node_count": 36,
+      "target_count": 36,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.090396881103516,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          17.709604263305664,
+          54.09454345703125
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.00905609130859375,
+      "nearest_pair": [
+        3317,
+        3279
+      ],
+      "surface_witness": [
+        [
+          60.42107391357422,
+          16.40741729736328,
+          53.74292054725781
+        ],
+        [
+          60.412017822265625,
+          16.40741729736328,
+          53.74292054725781
+        ]
+      ],
+      "surface_pairs_tested": 4,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        3359,
+        4081,
+        4397
+      ],
+      "target_seeds": [
+        29108
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          60.54850387573242,
+          7.664745330810547,
+          60.108001708984375
+        ],
+        [
+          61.47149658203125,
+          8.735254287719727,
+          62.61000061035156
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.030002593994140625,
+      "nearest_pair": [
+        3359,
+        4735
+      ],
+      "surface_witness": [
+        [
+          60.92823028564453,
+          7.865556240081788,
+          60.108001708984375
+        ],
+        [
+          60.92823028564453,
+          7.865556240081787,
+          60.077999114990234
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        4081
+      ]
+    },
+    {
+      "nodes": [
+        3373,
+        4082,
+        4399
+      ],
+      "target_seeds": [
+        29296
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          60.54850387573242,
+          13.56474494934082,
+          60.108001708984375
+        ],
+        [
+          61.47149658203125,
+          14.635254859924316,
+          62.61000061035156
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.030002593994140625,
+      "nearest_pair": [
+        3373,
+        4737
+      ],
+      "surface_witness": [
+        [
+          60.92823028564453,
+          13.765555381774902,
+          60.108001708984375
+        ],
+        [
+          60.92823028564453,
+          13.765555381774902,
+          60.077999114990234
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        4082
+      ]
+    },
+    {
+      "nodes": [
+        3387,
+        4083,
+        4401
+      ],
+      "target_seeds": [
+        29484
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          60.54850387573242,
+          20.464744567871094,
+          60.108001708984375
+        ],
+        [
+          61.47149658203125,
+          21.535255432128906,
+          62.61000061035156
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.030002593994140625,
+      "nearest_pair": [
+        3387,
+        4739
+      ],
+      "surface_witness": [
+        [
+          60.92823028564453,
+          20.665555953979492,
+          60.108001708984375
+        ],
+        [
+          60.92823028564453,
+          20.665555953979492,
+          60.077999114990234
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        4083
+      ]
+    },
+    {
+      "nodes": [
+        3773,
+        3774,
+        3776,
+        3777,
+        4742
+      ],
+      "target_seeds": [
+        32932,
+        32972
+      ],
+      "node_count": 5,
+      "target_count": 2,
+      "bounds": [
+        [
+          64.14600372314453,
+          34.18779754638672,
+          46.79999923706055
+        ],
+        [
+          65.85399627685547,
+          35.81220245361328,
+          53.29800033569336
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.029998779296875,
+      "nearest_pair": [
+        4742,
+        3775
+      ],
+      "surface_witness": [
+        [
+          65.63165283203125,
+          35.0,
+          53.29800033569336
+        ],
+        [
+          65.63165283203125,
+          35.0,
+          53.327999114990234
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        3773,
+        4742
+      ]
+    },
+    {
+      "nodes": [
+        3775,
+        4086,
+        4405
+      ],
+      "target_seeds": [
+        32952
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          64.06199645996094,
+          34.10791015625,
+          53.327999114990234
+        ],
+        [
+          65.93800354003906,
+          35.89208984375,
+          58.40999984741211
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.029998779296875,
+      "nearest_pair": [
+        3775,
+        4742
+      ],
+      "surface_witness": [
+        [
+          64.80481719970703,
+          34.39925765991211,
+          53.327999114990234
+        ],
+        [
+          64.80481719970703,
+          34.39925765991211,
+          53.29800033569336
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": false,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": false,
+      "members_requiring_extra_neighbor_query": [
+        4086
+      ]
+    },
+    {
+      "nodes": [
+        3792,
+        4367,
+        4406
+      ],
+      "target_seeds": [
+        33172
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          18.209999084472656,
+          23.885000228881836,
+          71.46600341796875
+        ],
+        [
+          19.59000015258789,
+          24.18000030517578,
+          72.29399871826172
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.6100006103515625,
+      "nearest_pair": [
+        4367,
+        3788
+      ],
+      "surface_witness": [
+        [
+          18.424882888793945,
+          24.18000030517578,
+          71.60823822021484
+        ],
+        [
+          18.424882888793945,
+          24.790000915527344,
+          71.60823822021484
+        ]
+      ],
+      "surface_pairs_tested": 3,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        3797,
+        4368,
+        4407
+      ],
+      "target_seeds": [
+        33212
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          27.010000228881836,
+          23.885000228881836,
+          71.46600341796875
+        ],
+        [
+          28.389999389648438,
+          24.18000030517578,
+          72.29399871826172
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.32012261064186337,
+      "nearest_pair": [
+        4368,
+        4665
+      ],
+      "surface_witness": [
+        [
+          27.700000762939453,
+          24.18000030517578,
+          71.49048614501953
+        ],
+        [
+          27.700000762939453,
+          24.49803422693795,
+          71.45397709884277
+        ]
+      ],
+      "surface_pairs_tested": 3,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        3802,
+        4369,
+        4408
+      ],
+      "target_seeds": [
+        33252
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          43.90999984741211,
+          23.885000228881836,
+          71.46600341796875
+        ],
+        [
+          45.290000915527344,
+          24.18000030517578,
+          72.29399871826172
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.6100006103515625,
+      "nearest_pair": [
+        4369,
+        3798
+      ],
+      "surface_witness": [
+        [
+          44.12488555908203,
+          24.18000030517578,
+          71.60823822021484
+        ],
+        [
+          44.12488555908203,
+          24.790000915527344,
+          71.60823822021484
+        ]
+      ],
+      "surface_pairs_tested": 3,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        3807,
+        4370,
+        4409
+      ],
+      "target_seeds": [
+        33292
+      ],
+      "node_count": 3,
+      "target_count": 1,
+      "bounds": [
+        [
+          52.310001373291016,
+          23.885000228881836,
+          71.46600341796875
+        ],
+        [
+          53.689998626708984,
+          24.18000030517578,
+          72.29399871826172
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.4200000762939453,
+      "nearest_pair": [
+        4370,
+        981
+      ],
+      "surface_witness": [
+        [
+          53.579593658447266,
+          24.18000030517578,
+          71.68994140625
+        ],
+        [
+          53.579593658447266,
+          24.600000381469727,
+          71.68994140625
+        ]
+      ],
+      "surface_pairs_tested": 1,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    },
+    {
+      "nodes": [
+        3850,
+        4088,
+        4412,
+        4413
+      ],
+      "target_seeds": [
+        33888
+      ],
+      "node_count": 4,
+      "target_count": 1,
+      "bounds": [
+        [
+          64.06199645996094,
+          28.107908248901367,
+          54.01799774169922
+        ],
+        [
+          65.93800354003906,
+          29.892091751098633,
+          58.709999084472656
+        ]
+      ],
+      "nearest_exported_external_surface_gap_m": 0.029994964599609375,
+      "nearest_pair": [
+        3850,
+        4746
+      ],
+      "surface_witness": [
+        [
+          64.8048095703125,
+          28.399261474609375,
+          54.01799774169922
+        ],
+        [
+          64.8048095703125,
+          28.399261474609375,
+          53.98800277709961
+        ]
+      ],
+      "surface_pairs_tested": 5,
+      "nearest_external_root_connected": true,
+      "scope": "Nearest external surface within evaluated exported neighborhood. Direct target neighbors within2m are exported; indirect extended non-target boundary remains bounded-scope limitation.",
+      "all_member_bounds_contact_neighborhood_covered_by_export_selection": true,
+      "members_requiring_extra_neighbor_query": []
+    }
+  ],
+  "island_edges": [
+    {
+      "a": 175,
+      "b": 4077,
+      "type": "actual_triangle_contact",
+      "detail": 0.0
+    },
+    {
+      "a": 175,
+      "b": 4371,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.030002593994140625
+    },
+    {
+      "a": 988,
+      "b": 989,
+      "type": "actual_triangle_contact",
+      "detail": -0.0078277587890625
+    },
+    {
+      "a": 988,
+      "b": 990,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 988,
+      "b": 991,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 988,
+      "b": 992,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 988,
+      "b": 993,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 988,
+      "b": 994,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 988,
+      "b": 4266,
+      "type": "actual_triangle_contact",
+      "detail": -0.029998779296875
+    },
+    {
+      "a": 995,
+      "b": 996,
+      "type": "actual_triangle_contact",
+      "detail": -0.0078277587890625
+    },
+    {
+      "a": 995,
+      "b": 997,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 995,
+      "b": 998,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 995,
+      "b": 999,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 995,
+      "b": 1000,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 995,
+      "b": 1001,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 995,
+      "b": 4267,
+      "type": "actual_triangle_contact",
+      "detail": -0.029998779296875
+    },
+    {
+      "a": 1002,
+      "b": 1003,
+      "type": "actual_triangle_contact",
+      "detail": -0.0078277587890625
+    },
+    {
+      "a": 1002,
+      "b": 1004,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1002,
+      "b": 1005,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1002,
+      "b": 1006,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1002,
+      "b": 1007,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1002,
+      "b": 1008,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1002,
+      "b": 4268,
+      "type": "actual_triangle_contact",
+      "detail": -0.029998779296875
+    },
+    {
+      "a": 1009,
+      "b": 1010,
+      "type": "actual_triangle_contact",
+      "detail": -0.007823944091796875
+    },
+    {
+      "a": 1009,
+      "b": 1011,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1009,
+      "b": 1012,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1009,
+      "b": 1013,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1009,
+      "b": 1014,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1009,
+      "b": 1015,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1009,
+      "b": 4269,
+      "type": "actual_triangle_contact",
+      "detail": -0.029998779296875
+    },
+    {
+      "a": 1016,
+      "b": 1017,
+      "type": "actual_triangle_contact",
+      "detail": -0.007823944091796875
+    },
+    {
+      "a": 1016,
+      "b": 1018,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1016,
+      "b": 1019,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1016,
+      "b": 1020,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1016,
+      "b": 1021,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1016,
+      "b": 1022,
+      "type": "actual_triangle_contact",
+      "detail": -0.009649276733398438
+    },
+    {
+      "a": 1016,
+      "b": 4270,
+      "type": "actual_triangle_contact",
+      "detail": -0.029998779296875
+    },
+    {
+      "a": 2953,
+      "b": 4731,
+      "type": "contained_interior_witness",
+      "detail": [
+        40.34599914550781,
+        10.700000190734864,
+        60.53999900817871
+      ]
+    },
+    {
+      "a": 4731,
+      "b": 2954,
+      "type": "contained_interior_witness",
+      "detail": [
+        40.34599990844727,
+        10.699999809265137,
+        66.34199905395508
+      ]
+    },
+    {
+      "a": 4731,
+      "b": 2956,
+      "type": "actual_triangle_contact",
+      "detail": -0.03982225120403626
+    },
+    {
+      "a": 4731,
+      "b": 2957,
+      "type": "actual_triangle_contact",
+      "detail": -0.0034797358918119414
+    },
+    {
+      "a": 2955,
+      "b": 4078,
+      "type": "actual_triangle_contact",
+      "detail": 0.0
+    },
+    {
+      "a": 2955,
+      "b": 4391,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.029998779296875
+    },
+    {
+      "a": 2958,
+      "b": 4732,
+      "type": "contained_interior_witness",
+      "detail": [
+        56.25399971008301,
+        10.700000190734864,
+        60.53999900817871
+      ]
+    },
+    {
+      "a": 4732,
+      "b": 2959,
+      "type": "contained_interior_witness",
+      "detail": [
+        56.25399971008301,
+        10.699999809265137,
+        66.34199905395508
+      ]
+    },
+    {
+      "a": 4732,
+      "b": 2961,
+      "type": "actual_triangle_contact",
+      "detail": -0.03982225120403626
+    },
+    {
+      "a": 4732,
+      "b": 2962,
+      "type": "actual_triangle_contact",
+      "detail": -0.0034797358918119414
+    },
+    {
+      "a": 2960,
+      "b": 4079,
+      "type": "actual_triangle_contact",
+      "detail": 0.0
+    },
+    {
+      "a": 2960,
+      "b": 4392,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.029998779296875
+    },
+    {
+      "a": 3219,
+      "b": 3220,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704986683495747
+    },
+    {
+      "a": 3219,
+      "b": 3230,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704237318134517
+    },
+    {
+      "a": 3220,
+      "b": 3221,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020629026799390715
+    },
+    {
+      "a": 3230,
+      "b": 3229,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704986683495747
+    },
+    {
+      "a": 3230,
+      "b": 3245,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.07263433549884013
+    },
+    {
+      "a": 3230,
+      "b": 3246,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.05084803862150977
+    },
+    {
+      "a": 3221,
+      "b": 3222,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.026799674441193133
+    },
+    {
+      "a": 3229,
+      "b": 3228,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020629026799390715
+    },
+    {
+      "a": 3245,
+      "b": 3244,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020627135057949886
+    },
+    {
+      "a": 3246,
+      "b": 3247,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020627135057949886
+    },
+    {
+      "a": 3222,
+      "b": 3223,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020629026799390715
+    },
+    {
+      "a": 3228,
+      "b": 3227,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.026799674441193133
+    },
+    {
+      "a": 3228,
+      "b": 3231,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.07263448685596785
+    },
+    {
+      "a": 3228,
+      "b": 3232,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.019289446982263314
+    },
+    {
+      "a": 3228,
+      "b": 3248,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.05084774727271224
+    },
+    {
+      "a": 3244,
+      "b": 3243,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027049564120694924
+    },
+    {
+      "a": 3223,
+      "b": 3224,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027049866834964575
+    },
+    {
+      "a": 3227,
+      "b": 3226,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020629026799390715
+    },
+    {
+      "a": 3231,
+      "b": 3242,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704237318134517
+    },
+    {
+      "a": 3232,
+      "b": 3233,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020630759982118718
+    },
+    {
+      "a": 3248,
+      "b": 3249,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704237318134517
+    },
+    {
+      "a": 3243,
+      "b": 3254,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704237318134517
+    },
+    {
+      "a": 3224,
+      "b": 3225,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704237318134517
+    },
+    {
+      "a": 3226,
+      "b": 3234,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.019291765549908746
+    },
+    {
+      "a": 3242,
+      "b": 3241,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027042441130163297
+    },
+    {
+      "a": 3242,
+      "b": 3250,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.03298899243991826
+    },
+    {
+      "a": 3254,
+      "b": 3253,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027046207464195504
+    },
+    {
+      "a": 3234,
+      "b": 3235,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020630759982118718
+    },
+    {
+      "a": 3241,
+      "b": 3240,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02063075111921364
+    },
+    {
+      "a": 3250,
+      "b": 3251,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020629424738274338
+    },
+    {
+      "a": 3253,
+      "b": 3252,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020629424738274338
+    },
+    {
+      "a": 3235,
+      "b": 3236,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027045797773460833
+    },
+    {
+      "a": 3240,
+      "b": 3239,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.026799674441196686
+    },
+    {
+      "a": 3236,
+      "b": 3237,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704237318134517
+    },
+    {
+      "a": 3239,
+      "b": 3238,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02063075111921364
+    },
+    {
+      "a": 3302,
+      "b": 3303,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027049833904150944
+    },
+    {
+      "a": 3302,
+      "b": 3313,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027042380806193478
+    },
+    {
+      "a": 3303,
+      "b": 3304,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020629225771543247
+    },
+    {
+      "a": 3313,
+      "b": 3312,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027049833904150944
+    },
+    {
+      "a": 3313,
+      "b": 3328,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.07263425609733787
+    },
+    {
+      "a": 3313,
+      "b": 3329,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.05084803862150977
+    },
+    {
+      "a": 3304,
+      "b": 3305,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.026799674441193133
+    },
+    {
+      "a": 3312,
+      "b": 3311,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02062922577153614
+    },
+    {
+      "a": 3328,
+      "b": 3327,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020626936115490935
+    },
+    {
+      "a": 3329,
+      "b": 3330,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020630561056741215
+    },
+    {
+      "a": 3305,
+      "b": 3306,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02062922577153614
+    },
+    {
+      "a": 3311,
+      "b": 3310,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.026799674441193133
+    },
+    {
+      "a": 3311,
+      "b": 3314,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.07263455880829639
+    },
+    {
+      "a": 3311,
+      "b": 3315,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.0192898277381488
+    },
+    {
+      "a": 3311,
+      "b": 3331,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.050848618070553186
+    },
+    {
+      "a": 3327,
+      "b": 3326,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027049833904150944
+    },
+    {
+      "a": 3306,
+      "b": 3307,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027049833904150944
+    },
+    {
+      "a": 3310,
+      "b": 3309,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02062922577153614
+    },
+    {
+      "a": 3314,
+      "b": 3325,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704207809524206
+    },
+    {
+      "a": 3315,
+      "b": 3316,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020630561056741215
+    },
+    {
+      "a": 3331,
+      "b": 3332,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027042078095234956
+    },
+    {
+      "a": 3326,
+      "b": 3337,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704207809524206
+    },
+    {
+      "a": 3307,
+      "b": 3308,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027042380806193478
+    },
+    {
+      "a": 3309,
+      "b": 3317,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.019291384784956733
+    },
+    {
+      "a": 3325,
+      "b": 3324,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704271094927435
+    },
+    {
+      "a": 3325,
+      "b": 3333,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.032985128325790924
+    },
+    {
+      "a": 3337,
+      "b": 3336,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027046477284365267
+    },
+    {
+      "a": 3317,
+      "b": 3318,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.020630561056741215
+    },
+    {
+      "a": 3324,
+      "b": 3323,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02063055216828502
+    },
+    {
+      "a": 3333,
+      "b": 3334,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02063055216828502
+    },
+    {
+      "a": 3336,
+      "b": 3335,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02062922577153614
+    },
+    {
+      "a": 3318,
+      "b": 3319,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02704606755585104
+    },
+    {
+      "a": 3323,
+      "b": 3322,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.026799674441196686
+    },
+    {
+      "a": 3319,
+      "b": 3320,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.027042380806193478
+    },
+    {
+      "a": 3322,
+      "b": 3321,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.02063055216828502
+    },
+    {
+      "a": 3359,
+      "b": 4081,
+      "type": "actual_triangle_contact",
+      "detail": 0.0
+    },
+    {
+      "a": 3359,
+      "b": 4397,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.030002593994140625
+    },
+    {
+      "a": 3373,
+      "b": 4082,
+      "type": "actual_triangle_contact",
+      "detail": 0.0
+    },
+    {
+      "a": 3373,
+      "b": 4399,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.030002593994140625
+    },
+    {
+      "a": 3387,
+      "b": 4083,
+      "type": "actual_triangle_contact",
+      "detail": 0.0
+    },
+    {
+      "a": 3387,
+      "b": 4401,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.030002593994140625
+    },
+    {
+      "a": 3774,
+      "b": 4742,
+      "type": "contained_interior_witness",
+      "detail": [
+        65.0,
+        35.0,
+        53.14200019836426
+      ]
+    },
+    {
+      "a": 4742,
+      "b": 3773,
+      "type": "contained_interior_witness",
+      "detail": [
+        65.0,
+        35.0,
+        47.33999824523926
+      ]
+    },
+    {
+      "a": 4742,
+      "b": 3776,
+      "type": "actual_triangle_contact",
+      "detail": -0.04465615509744936
+    },
+    {
+      "a": 4742,
+      "b": 3777,
+      "type": "actual_triangle_contact",
+      "detail": -0.01033656027051677
+    },
+    {
+      "a": 3775,
+      "b": 4086,
+      "type": "actual_triangle_contact",
+      "detail": 0.0
+    },
+    {
+      "a": 3775,
+      "b": 4405,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.030002593994140625
+    },
+    {
+      "a": 3792,
+      "b": 4367,
+      "type": "actual_triangle_contact",
+      "detail": -0.020000457763671875
+    },
+    {
+      "a": 3792,
+      "b": 4406,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.010000228881835938
+    },
+    {
+      "a": 3797,
+      "b": 4368,
+      "type": "actual_triangle_contact",
+      "detail": -0.020000457763671875
+    },
+    {
+      "a": 3797,
+      "b": 4407,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.010000228881835938
+    },
+    {
+      "a": 3802,
+      "b": 4369,
+      "type": "actual_triangle_contact",
+      "detail": -0.020000457763671875
+    },
+    {
+      "a": 3802,
+      "b": 4408,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.010000228881835938
+    },
+    {
+      "a": 3807,
+      "b": 4370,
+      "type": "actual_triangle_contact",
+      "detail": -0.020000457763671875
+    },
+    {
+      "a": 3807,
+      "b": 4409,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.010000228881835938
+    },
+    {
+      "a": 3850,
+      "b": 4088,
+      "type": "actual_triangle_contact",
+      "detail": 0.0
+    },
+    {
+      "a": 3850,
+      "b": 4413,
+      "type": "convex_solid_overlap_or_touch",
+      "detail": -0.030002593994140625
+    },
+    {
+      "a": 4088,
+      "b": 4412,
+      "type": "actual_triangle_contact",
+      "detail": -0.020859946563128062
+    }
+  ],
+  "uncertain_edges": [],
+  "nodes": {
+    "1020": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8432,
+      "bounds": [
+        [
+          54.5974006652832,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          54.85969924926758,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "1022": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8448,
+      "bounds": [
+        [
+          55.0450553894043,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          55.22639465332031,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    },
+    "4088": {
+      "object": "Citadel | oxidized spire roofs",
+      "seed": 540,
+      "bounds": [
+        [
+          64.20899963378906,
+          28.24771499633789,
+          54.198001861572266
+        ],
+        [
+          65.79100036621094,
+          29.75228500366211,
+          57.80999755859375
+        ]
+      ]
+    },
+    "4731": {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "seed": 2440,
+      "bounds": [
+        [
+          39.722801208496094,
+          9.97719669342041,
+          60.0
+        ],
+        [
+          40.969200134277344,
+          11.422802925109863,
+          66.49800109863281
+        ]
+      ]
+    },
+    "4732": {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "seed": 2496,
+      "bounds": [
+        [
+          55.63079833984375,
+          9.97719669342041,
+          60.0
+        ],
+        [
+          56.877201080322266,
+          11.422802925109863,
+          66.49800109863281
+        ]
+      ]
+    },
+    "4742": {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "seed": 12448,
+      "bounds": [
+        [
+          64.3200912475586,
+          34.334259033203125,
+          46.79999923706055
+        ],
+        [
+          65.6799087524414,
+          35.665740966796875,
+          53.29800033569336
+        ]
+      ]
+    },
+    "3219": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27888,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.471261024475098,
+          53.801025390625
+        ],
+        [
+          60.539894104003906,
+          11.696794509887695,
+          53.95189666748047
+        ]
+      ]
+    },
+    "3220": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27896,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.34343433380127,
+          53.900779724121094
+        ],
+        [
+          60.539894104003906,
+          11.618821144104004,
+          54.06601333618164
+        ]
+      ]
+    },
+    "3221": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27904,
+      "bounds": [
+        [
+          60.42107391357422,
+          11.185324668884277,
+          53.9957275390625
+        ],
+        [
+          60.56572341918945,
+          11.420475006103516,
+          54.09454345703125
+        ]
+      ]
+    },
+    "3222": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27912,
+      "bounds": [
+        [
+          60.42107391357422,
+          10.979524612426758,
+          53.9957275390625
+        ],
+        [
+          60.56572341918945,
+          11.214674949645996,
+          54.09454345703125
+        ]
+      ]
+    },
+    "3223": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27920,
+      "bounds": [
+        [
+          60.446903228759766,
+          10.78117847442627,
+          53.900779724121094
+        ],
+        [
+          60.539894104003906,
+          11.056565284729004,
+          54.06601333618164
+        ]
+      ]
+    },
+    "3224": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27928,
+      "bounds": [
+        [
+          60.446903228759766,
+          10.703205108642578,
+          53.801025390625
+        ],
+        [
+          60.539894104003906,
+          10.928738594055176,
+          53.95189666748047
+        ]
+      ]
+    },
+    "3225": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27936,
+      "bounds": [
+        [
+          60.446903228759766,
+          10.703205108642578,
+          53.67754364013672
+        ],
+        [
+          60.539894104003906,
+          10.928738594055176,
+          53.82841491699219
+        ]
+      ]
+    },
+    "3226": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27944,
+      "bounds": [
+        [
+          60.446903228759766,
+          10.78117847442627,
+          53.56342697143555
+        ],
+        [
+          60.539894104003906,
+          11.056565284729004,
+          53.728660583496094
+        ]
+      ]
+    },
+    "3227": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27952,
+      "bounds": [
+        [
+          60.42107391357422,
+          10.979524612426758,
+          53.53489685058594
+        ],
+        [
+          60.56572341918945,
+          11.214674949645996,
+          53.63371276855469
+        ]
+      ]
+    },
+    "3228": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27960,
+      "bounds": [
+        [
+          60.42107391357422,
+          11.185324668884277,
+          53.53489685058594
+        ],
+        [
+          60.56572341918945,
+          11.420475006103516,
+          53.63371276855469
+        ]
+      ]
+    },
+    "3229": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27968,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.34343433380127,
+          53.56342697143555
+        ],
+        [
+          60.539894104003906,
+          11.618821144104004,
+          53.728660583496094
+        ]
+      ]
+    },
+    "3230": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27976,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.471261024475098,
+          53.67754364013672
+        ],
+        [
+          60.539894104003906,
+          11.696794509887695,
+          53.82841491699219
+        ]
+      ]
+    },
+    "3231": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27984,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.158452987670898,
+          53.47594451904297
+        ],
+        [
+          60.539894104003906,
+          11.383986473083496,
+          53.62681579589844
+        ]
+      ]
+    },
+    "3232": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 27992,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.030624389648438,
+          53.57570266723633
+        ],
+        [
+          60.539894104003906,
+          11.306015014648438,
+          53.74093246459961
+        ]
+      ]
+    },
+    "3233": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28000,
+      "bounds": [
+        [
+          60.42107391357422,
+          10.872518539428711,
+          53.670654296875
+        ],
+        [
+          60.56572341918945,
+          11.107665061950684,
+          53.76946258544922
+        ]
+      ]
+    },
+    "3234": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28008,
+      "bounds": [
+        [
+          60.42107391357422,
+          10.666718482971191,
+          53.670654296875
+        ],
+        [
+          60.56572341918945,
+          10.901865005493164,
+          53.76946258544922
+        ]
+      ]
+    },
+    "3235": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28016,
+      "bounds": [
+        [
+          60.446903228759766,
+          10.468368530273438,
+          53.57570266723633
+        ],
+        [
+          60.539894104003906,
+          10.743759155273438,
+          53.74093246459961
+        ]
+      ]
+    },
+    "3236": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28024,
+      "bounds": [
+        [
+          60.446903228759766,
+          10.390397071838379,
+          53.47594451904297
+        ],
+        [
+          60.539894104003906,
+          10.615930557250977,
+          53.62681579589844
+        ]
+      ]
+    },
+    "3237": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28032,
+      "bounds": [
+        [
+          60.446903228759766,
+          10.390397071838379,
+          53.35246658325195
+        ],
+        [
+          60.539894104003906,
+          10.615930557250977,
+          53.503334045410156
+        ]
+      ]
+    },
+    "3238": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28040,
+      "bounds": [
+        [
+          60.446903228759766,
+          10.468368530273438,
+          53.23834991455078
+        ],
+        [
+          60.539894104003906,
+          10.743759155273438,
+          53.40357971191406
+        ]
+      ]
+    },
+    "3239": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28048,
+      "bounds": [
+        [
+          60.42107391357422,
+          10.666716575622559,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          10.901866912841797,
+          53.308631896972656
+        ]
+      ]
+    },
+    "3240": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28056,
+      "bounds": [
+        [
+          60.42107391357422,
+          10.872516632080078,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          11.107666969299316,
+          53.308631896972656
+        ]
+      ]
+    },
+    "3241": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28064,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.030624389648438,
+          53.23834991455078
+        ],
+        [
+          60.539894104003906,
+          11.306015014648438,
+          53.40357971191406
+        ]
+      ]
+    },
+    "4266": {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "seed": 0,
+      "bounds": [
+        [
+          33.59000015258789,
+          22.68000030517578,
+          74.14199829101562
+        ],
+        [
+          34.810001373291016,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ]
+    },
+    "4267": {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "seed": 96,
+      "bounds": [
+        [
+          38.790000915527344,
+          22.68000030517578,
+          74.14199829101562
+        ],
+        [
+          40.0099983215332,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ]
+    },
+    "4268": {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "seed": 192,
+      "bounds": [
+        [
+          43.9900016784668,
+          22.68000030517578,
+          74.14199829101562
+        ],
+        [
+          45.209999084472656,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ]
+    },
+    "4269": {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "seed": 288,
+      "bounds": [
+        [
+          49.189998626708984,
+          22.68000030517578,
+          74.14199829101562
+        ],
+        [
+          50.40999984741211,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ]
+    },
+    "4270": {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "seed": 384,
+      "bounds": [
+        [
+          54.38999938964844,
+          22.68000030517578,
+          74.14199829101562
+        ],
+        [
+          55.61000061035156,
+          22.799999237060547,
+          74.8740005493164
+        ]
+      ]
+    },
+    "175": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 1460,
+      "bounds": [
+        [
+          8.819000244140625,
+          10.18163013458252,
+          55.04999923706055
+        ],
+        [
+          10.560999870300293,
+          11.838370323181152,
+          55.230003356933594
+        ]
+      ]
+    },
+    "3242": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28072,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.158452987670898,
+          53.35246658325195
+        ],
+        [
+          60.539894104003906,
+          11.383986473083496,
+          53.503334045410156
+        ]
+      ]
+    },
+    "3243": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28080,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.784070014953613,
+          53.47594451904297
+        ],
+        [
+          60.539894104003906,
+          12.009602546691895,
+          53.62681579589844
+        ]
+      ]
+    },
+    "3244": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28088,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.656240463256836,
+          53.57569885253906
+        ],
+        [
+          60.539894104003906,
+          11.931632041931152,
+          53.740936279296875
+        ]
+      ]
+    },
+    "3245": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28096,
+      "bounds": [
+        [
+          60.42107391357422,
+          11.498135566711426,
+          53.670654296875
+        ],
+        [
+          60.56572341918945,
+          11.733281135559082,
+          53.76946258544922
+        ]
+      ]
+    },
+    "3246": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28104,
+      "bounds": [
+        [
+          60.42107391357422,
+          11.292335510253906,
+          53.670654296875
+        ],
+        [
+          60.56572341918945,
+          11.527482032775879,
+          53.76946258544922
+        ]
+      ]
+    },
+    "3247": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28112,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.093984603881836,
+          53.57569885253906
+        ],
+        [
+          60.539894104003906,
+          11.369376182556152,
+          53.740936279296875
+        ]
+      ]
+    },
+    "3248": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28120,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.016014099121094,
+          53.47594451904297
+        ],
+        [
+          60.539894104003906,
+          11.241546630859375,
+          53.62681579589844
+        ]
+      ]
+    },
+    "3249": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28128,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.016014099121094,
+          53.35246658325195
+        ],
+        [
+          60.539894104003906,
+          11.241546630859375,
+          53.503334045410156
+        ]
+      ]
+    },
+    "3250": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28136,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.093984603881836,
+          53.238346099853516
+        ],
+        [
+          60.539894104003906,
+          11.369376182556152,
+          53.40358352661133
+        ]
+      ]
+    },
+    "3251": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28144,
+      "bounds": [
+        [
+          60.42107391357422,
+          11.292333602905273,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          11.527483940124512,
+          53.308631896972656
+        ]
+      ]
+    },
+    "3252": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28152,
+      "bounds": [
+        [
+          60.42107391357422,
+          11.498133659362793,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          11.733283042907715,
+          53.308631896972656
+        ]
+      ]
+    },
+    "3253": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28160,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.656240463256836,
+          53.238346099853516
+        ],
+        [
+          60.539894104003906,
+          11.931632041931152,
+          53.40358352661133
+        ]
+      ]
+    },
+    "3254": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28168,
+      "bounds": [
+        [
+          60.446903228759766,
+          11.784070014953613,
+          53.35246658325195
+        ],
+        [
+          60.539894104003906,
+          12.009602546691895,
+          53.503334045410156
+        ]
+      ]
+    },
+    "3773": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 32912,
+      "bounds": [
+        [
+          64.16699981689453,
+          34.20777130126953,
+          47.21999740600586
+        ],
+        [
+          65.83300018310547,
+          35.79222869873047,
+          47.459999084472656
+        ]
+      ]
+    },
+    "3774": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 32932,
+      "bounds": [
+        [
+          64.14600372314453,
+          34.18779754638672,
+          52.99800109863281
+        ],
+        [
+          65.85399627685547,
+          35.81220245361328,
+          53.2859992980957
+        ]
+      ]
+    },
+    "3775": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 32952,
+      "bounds": [
+        [
+          64.06199645996094,
+          34.10791015625,
+          53.327999114990234
+        ],
+        [
+          65.93800354003906,
+          35.89208984375,
+          53.507999420166016
+        ]
+      ]
+    },
+    "3776": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 32972,
+      "bounds": [
+        [
+          64.41799926757812,
+          34.35499954223633,
+          51.04800033569336
+        ],
+        [
+          64.58799743652344,
+          34.595001220703125,
+          52.30799865722656
+        ]
+      ]
+    },
+    "3777": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 32980,
+      "bounds": [
+        [
+          65.41200256347656,
+          34.35499954223633,
+          51.04800033569336
+        ],
+        [
+          65.58200073242188,
+          34.595001220703125,
+          52.30799865722656
+        ]
+      ]
+    },
+    "3792": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 33172,
+      "bounds": [
+        [
+          18.472200393676758,
+          23.920000076293945,
+          71.56536102294922
+        ],
+        [
+          19.327800750732422,
+          24.079999923706055,
+          72.19464111328125
+        ]
+      ]
+    },
+    "3797": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 33212,
+      "bounds": [
+        [
+          27.272199630737305,
+          23.920000076293945,
+          71.56536102294922
+        ],
+        [
+          28.12779998779297,
+          24.079999923706055,
+          72.19464111328125
+        ]
+      ]
+    },
+    "3802": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 33252,
+      "bounds": [
+        [
+          44.17219924926758,
+          23.920000076293945,
+          71.56536102294922
+        ],
+        [
+          45.027801513671875,
+          24.079999923706055,
+          72.19464111328125
+        ]
+      ]
+    },
+    "3807": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 33292,
+      "bounds": [
+        [
+          52.572200775146484,
+          23.920000076293945,
+          71.56536102294922
+        ],
+        [
+          53.427799224853516,
+          24.079999923706055,
+          72.19464111328125
+        ]
+      ]
+    },
+    "3302": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28552,
+      "bounds": [
+        [
+          60.446903228759766,
+          17.171260833740234,
+          53.801025390625
+        ],
+        [
+          60.539894104003906,
+          17.39679527282715,
+          53.95189666748047
+        ]
+      ]
+    },
+    "3303": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28560,
+      "bounds": [
+        [
+          60.446903228759766,
+          17.043434143066406,
+          53.900779724121094
+        ],
+        [
+          60.539894104003906,
+          17.318822860717773,
+          54.06601333618164
+        ]
+      ]
+    },
+    "3304": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28568,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.885324478149414,
+          53.9957275390625
+        ],
+        [
+          60.56572341918945,
+          17.12047576904297,
+          54.09454345703125
+        ]
+      ]
+    },
+    "3305": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28576,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.67952537536621,
+          53.9957275390625
+        ],
+        [
+          60.56572341918945,
+          16.914674758911133,
+          54.09454345703125
+        ]
+      ]
+    },
+    "3306": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28584,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.481178283691406,
+          53.900779724121094
+        ],
+        [
+          60.539894104003906,
+          16.756567001342773,
+          54.06601333618164
+        ]
+      ]
+    },
+    "3307": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28592,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.4032039642334,
+          53.801025390625
+        ],
+        [
+          60.539894104003906,
+          16.628740310668945,
+          53.95189666748047
+        ]
+      ]
+    },
+    "3308": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28600,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.4032039642334,
+          53.67754364013672
+        ],
+        [
+          60.539894104003906,
+          16.628740310668945,
+          53.82841491699219
+        ]
+      ]
+    },
+    "3309": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28608,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.481178283691406,
+          53.56342697143555
+        ],
+        [
+          60.539894104003906,
+          16.756567001342773,
+          53.728660583496094
+        ]
+      ]
+    },
+    "3310": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28616,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.67952537536621,
+          53.53489685058594
+        ],
+        [
+          60.56572341918945,
+          16.914674758911133,
+          53.63371276855469
+        ]
+      ]
+    },
+    "3311": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28624,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.885324478149414,
+          53.53489685058594
+        ],
+        [
+          60.56572341918945,
+          17.12047576904297,
+          53.63371276855469
+        ]
+      ]
+    },
+    "3312": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28632,
+      "bounds": [
+        [
+          60.446903228759766,
+          17.043434143066406,
+          53.56342697143555
+        ],
+        [
+          60.539894104003906,
+          17.318822860717773,
+          53.728660583496094
+        ]
+      ]
+    },
+    "3313": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28640,
+      "bounds": [
+        [
+          60.446903228759766,
+          17.171260833740234,
+          53.67754364013672
+        ],
+        [
+          60.539894104003906,
+          17.39679527282715,
+          53.82841491699219
+        ]
+      ]
+    },
+    "3314": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28648,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.85845184326172,
+          53.47594451904297
+        ],
+        [
+          60.539894104003906,
+          17.083986282348633,
+          53.62681579589844
+        ]
+      ]
+    },
+    "3315": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28656,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.73062515258789,
+          53.57570266723633
+        ],
+        [
+          60.539894104003906,
+          17.006013870239258,
+          53.74093246459961
+        ]
+      ]
+    },
+    "3316": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28664,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.572519302368164,
+          53.670654296875
+        ],
+        [
+          60.56572341918945,
+          16.80766487121582,
+          53.76946258544922
+        ]
+      ]
+    },
+    "3317": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28672,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.366718292236328,
+          53.670654296875
+        ],
+        [
+          60.56572341918945,
+          16.601865768432617,
+          53.76946258544922
+        ]
+      ]
+    },
+    "3318": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28680,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.16836929321289,
+          53.57570266723633
+        ],
+        [
+          60.539894104003906,
+          16.443758010864258,
+          53.74093246459961
+        ]
+      ]
+    },
+    "3319": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28688,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.090396881103516,
+          53.47594451904297
+        ],
+        [
+          60.539894104003906,
+          16.31593132019043,
+          53.62681579589844
+        ]
+      ]
+    },
+    "3320": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28696,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.090396881103516,
+          53.35246658325195
+        ],
+        [
+          60.539894104003906,
+          16.315929412841797,
+          53.503334045410156
+        ]
+      ]
+    },
+    "3321": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28704,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.16836929321289,
+          53.23834991455078
+        ],
+        [
+          60.539894104003906,
+          16.443758010864258,
+          53.40357971191406
+        ]
+      ]
+    },
+    "3322": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28712,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.366716384887695,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          16.60186767578125,
+          53.308631896972656
+        ]
+      ]
+    },
+    "3323": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28720,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.57251739501953,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          16.807666778564453,
+          53.308631896972656
+        ]
+      ]
+    },
+    "3324": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28728,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.73062515258789,
+          53.23834991455078
+        ],
+        [
+          60.539894104003906,
+          17.006013870239258,
+          53.40357971191406
+        ]
+      ]
+    },
+    "3325": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28736,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.85845184326172,
+          53.35246658325195
+        ],
+        [
+          60.539894104003906,
+          17.083984375,
+          53.503334045410156
+        ]
+      ]
+    },
+    "3326": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28744,
+      "bounds": [
+        [
+          60.446903228759766,
+          17.48406982421875,
+          53.47594451904297
+        ],
+        [
+          60.539894104003906,
+          17.709604263305664,
+          53.62681579589844
+        ]
+      ]
+    },
+    "3327": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28752,
+      "bounds": [
+        [
+          60.446903228759766,
+          17.35624122619629,
+          53.57569885253906
+        ],
+        [
+          60.539894104003906,
+          17.63163185119629,
+          53.740936279296875
+        ]
+      ]
+    },
+    "3328": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28760,
+      "bounds": [
+        [
+          60.42107391357422,
+          17.198135375976562,
+          53.670654296875
+        ],
+        [
+          60.56572341918945,
+          17.43328094482422,
+          53.76946258544922
+        ]
+      ]
+    },
+    "3329": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28768,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.992334365844727,
+          53.670654296875
+        ],
+        [
+          60.56572341918945,
+          17.227481842041016,
+          53.76946258544922
+        ]
+      ]
+    },
+    "3330": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28776,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.79398536682129,
+          53.57570266723633
+        ],
+        [
+          60.539894104003906,
+          17.069374084472656,
+          53.74093246459961
+        ]
+      ]
+    },
+    "3331": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28784,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.716012954711914,
+          53.47594451904297
+        ],
+        [
+          60.539894104003906,
+          16.941547393798828,
+          53.62681579589844
+        ]
+      ]
+    },
+    "3332": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28792,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.716014862060547,
+          53.35246658325195
+        ],
+        [
+          60.539894104003906,
+          16.941547393798828,
+          53.503334045410156
+        ]
+      ]
+    },
+    "3333": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28800,
+      "bounds": [
+        [
+          60.446903228759766,
+          16.79398536682129,
+          53.23834991455078
+        ],
+        [
+          60.539894104003906,
+          17.069374084472656,
+          53.40357971191406
+        ]
+      ]
+    },
+    "3334": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28808,
+      "bounds": [
+        [
+          60.42107391357422,
+          16.992332458496094,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          17.22748374938965,
+          53.308631896972656
+        ]
+      ]
+    },
+    "3335": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28816,
+      "bounds": [
+        [
+          60.42107391357422,
+          17.19813346862793,
+          53.209815979003906
+        ],
+        [
+          60.56572341918945,
+          17.43328285217285,
+          53.308631896972656
+        ]
+      ]
+    },
+    "3336": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28824,
+      "bounds": [
+        [
+          60.446903228759766,
+          17.35624122619629,
+          53.238346099853516
+        ],
+        [
+          60.539894104003906,
+          17.63163185119629,
+          53.40358352661133
+        ]
+      ]
+    },
+    "3337": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 28832,
+      "bounds": [
+        [
+          60.446903228759766,
+          17.48406982421875,
+          53.35246658325195
+        ],
+        [
+          60.539894104003906,
+          17.70960235595703,
+          53.503334045410156
+        ]
+      ]
+    },
+    "3850": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 33888,
+      "bounds": [
+        [
+          64.06199645996094,
+          28.107908248901367,
+          54.01799774169922
+        ],
+        [
+          65.93800354003906,
+          29.892091751098633,
+          54.198001861572266
+        ]
+      ]
+    },
+    "4367": {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "seed": 15342,
+      "bounds": [
+        [
+          18.209999084472656,
+          24.059999465942383,
+          71.46600341796875
+        ],
+        [
+          19.59000015258789,
+          24.18000030517578,
+          72.29399871826172
+        ]
+      ]
+    },
+    "4368": {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "seed": 15438,
+      "bounds": [
+        [
+          27.010000228881836,
+          24.059999465942383,
+          71.46600341796875
+        ],
+        [
+          28.389999389648438,
+          24.18000030517578,
+          72.29399871826172
+        ]
+      ]
+    },
+    "4369": {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "seed": 15534,
+      "bounds": [
+        [
+          43.90999984741211,
+          24.059999465942383,
+          71.46600341796875
+        ],
+        [
+          45.290000915527344,
+          24.18000030517578,
+          72.29399871826172
+        ]
+      ]
+    },
+    "4370": {
+      "object": "Citadel | relief flowers and shadowed sculpture",
+      "seed": 15630,
+      "bounds": [
+        [
+          52.310001373291016,
+          24.059999465942383,
+          71.46600341796875
+        ],
+        [
+          53.689998626708984,
+          24.18000030517578,
+          72.29399871826172
+        ]
+      ]
+    },
+    "4371": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 44,
+      "bounds": [
+        [
+          8.955499649047852,
+          10.31144905090332,
+          55.20000076293945
+        ],
+        [
+          10.424500465393066,
+          11.708551406860352,
+          55.29600143432617
+        ]
+      ]
+    },
+    "3359": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 29108,
+      "bounds": [
+        [
+          60.54850387573242,
+          7.664745330810547,
+          60.108001708984375
+        ],
+        [
+          61.47149658203125,
+          8.735254287719727,
+          60.288002014160156
+        ]
+      ]
+    },
+    "4391": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 1440,
+      "bounds": [
+        [
+          39.64178466796875,
+          9.883233070373535,
+          66.6780014038086
+        ],
+        [
+          41.05021667480469,
+          11.516767501831055,
+          66.77400207519531
+        ]
+      ]
+    },
+    "4392": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 1472,
+      "bounds": [
+        [
+          55.54978561401367,
+          9.883233070373535,
+          66.6780014038086
+        ],
+        [
+          56.95821762084961,
+          11.516767501831055,
+          66.77400207519531
+        ]
+      ]
+    },
+    "4397": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 1600,
+      "bounds": [
+        [
+          60.620826721191406,
+          7.748628616333008,
+          60.257999420166016
+        ],
+        [
+          61.399173736572266,
+          8.651371002197266,
+          60.35399627685547
+        ]
+      ]
+    },
+    "3373": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 29296,
+      "bounds": [
+        [
+          60.54850387573242,
+          13.56474494934082,
+          60.108001708984375
+        ],
+        [
+          61.47149658203125,
+          14.635254859924316,
+          60.288002014160156
+        ]
+      ]
+    },
+    "4399": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 1648,
+      "bounds": [
+        [
+          60.620826721191406,
+          13.648628234863281,
+          60.257999420166016
+        ],
+        [
+          61.399173736572266,
+          14.551371574401855,
+          60.35399627685547
+        ]
+      ]
+    },
+    "4401": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 1696,
+      "bounds": [
+        [
+          60.620826721191406,
+          20.548627853393555,
+          60.257999420166016
+        ],
+        [
+          61.399173736572266,
+          21.451372146606445,
+          60.35399627685547
+        ]
+      ]
+    },
+    "4405": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 2000,
+      "bounds": [
+        [
+          64.20899963378906,
+          34.24771499633789,
+          53.477996826171875
+        ],
+        [
+          65.79100036621094,
+          35.75228500366211,
+          53.57400131225586
+        ]
+      ]
+    },
+    "4406": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 2084,
+      "bounds": [
+        [
+          18.775800704956055,
+          23.885000228881836,
+          71.80548095703125
+        ],
+        [
+          19.024200439453125,
+          23.93000030517578,
+          71.95452117919922
+        ]
+      ]
+    },
+    "4407": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 2100,
+      "bounds": [
+        [
+          27.5757999420166,
+          23.885000228881836,
+          71.80548095703125
+        ],
+        [
+          27.824199676513672,
+          23.93000030517578,
+          71.95452117919922
+        ]
+      ]
+    },
+    "4408": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 2116,
+      "bounds": [
+        [
+          44.475799560546875,
+          23.885000228881836,
+          71.80548095703125
+        ],
+        [
+          44.72420120239258,
+          23.93000030517578,
+          71.95452117919922
+        ]
+      ]
+    },
+    "4409": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 2132,
+      "bounds": [
+        [
+          52.87580108642578,
+          23.885000228881836,
+          71.80548095703125
+        ],
+        [
+          53.12419891357422,
+          23.93000030517578,
+          71.95452117919922
+        ]
+      ]
+    },
+    "3387": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 29484,
+      "bounds": [
+        [
+          60.54850387573242,
+          20.464744567871094,
+          60.108001708984375
+        ],
+        [
+          61.47149658203125,
+          21.535255432128906,
+          60.288002014160156
+        ]
+      ]
+    },
+    "4412": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 2292,
+      "bounds": [
+        [
+          64.9000015258789,
+          28.91339683532715,
+          57.75
+        ],
+        [
+          65.0999984741211,
+          29.08660316467285,
+          58.709999084472656
+        ]
+      ]
+    },
+    "4413": {
+      "object": "Citadel | small verdigris fittings",
+      "seed": 2304,
+      "bounds": [
+        [
+          64.20899963378906,
+          28.24771499633789,
+          54.167999267578125
+        ],
+        [
+          65.79100036621094,
+          29.75228500366211,
+          54.263999938964844
+        ]
+      ]
+    },
+    "1012": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8328,
+      "bounds": [
+        [
+          49.5736083984375,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          49.75494384765625,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "2953": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25688,
+      "bounds": [
+        [
+          39.604393005371094,
+          9.839864730834961,
+          60.41999816894531
+        ],
+        [
+          41.087608337402344,
+          11.560135841369629,
+          60.65999984741211
+        ]
+      ]
+    },
+    "2954": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25708,
+      "bounds": [
+        [
+          39.585697174072266,
+          9.818180084228516,
+          66.197998046875
+        ],
+        [
+          41.10630416870117,
+          11.581819534301758,
+          66.48600006103516
+        ]
+      ]
+    },
+    "2955": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25728,
+      "bounds": [
+        [
+          39.51091384887695,
+          9.731444358825684,
+          66.52799987792969
+        ],
+        [
+          41.181087493896484,
+          11.668556213378906,
+          66.70800018310547
+        ]
+      ]
+    },
+    "2956": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25748,
+      "bounds": [
+        [
+          39.83382797241211,
+          10.010000228881836,
+          64.24800109863281
+        ],
+        [
+          39.973228454589844,
+          10.25,
+          65.50800323486328
+        ]
+      ]
+    },
+    "2957": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25756,
+      "bounds": [
+        [
+          40.718772888183594,
+          10.010000228881836,
+          64.24800109863281
+        ],
+        [
+          40.85817337036133,
+          10.25,
+          65.50800323486328
+        ]
+      ]
+    },
+    "2958": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25764,
+      "bounds": [
+        [
+          55.51239013671875,
+          9.839864730834961,
+          60.41999816894531
+        ],
+        [
+          56.995609283447266,
+          11.560135841369629,
+          60.65999984741211
+        ]
+      ]
+    },
+    "2959": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25784,
+      "bounds": [
+        [
+          55.49369430541992,
+          9.818180084228516,
+          66.197998046875
+        ],
+        [
+          57.014305114746094,
+          11.581819534301758,
+          66.48600006103516
+        ]
+      ]
+    },
+    "2960": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25804,
+      "bounds": [
+        [
+          55.41891098022461,
+          9.731444358825684,
+          66.52799987792969
+        ],
+        [
+          57.089088439941406,
+          11.668556213378906,
+          66.70800018310547
+        ]
+      ]
+    },
+    "2961": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25824,
+      "bounds": [
+        [
+          55.74182891845703,
+          10.010000228881836,
+          64.24800109863281
+        ],
+        [
+          55.881229400634766,
+          10.25,
+          65.50800323486328
+        ]
+      ]
+    },
+    "2962": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 25832,
+      "bounds": [
+        [
+          56.626773834228516,
+          10.010000228881836,
+          64.24800109863281
+        ],
+        [
+          56.766170501708984,
+          10.25,
+          65.50800323486328
+        ]
+      ]
+    },
+    "1017": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8408,
+      "bounds": [
+        [
+          55.14030075073242,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          55.4025993347168,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "1015": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8352,
+      "bounds": [
+        [
+          49.84505844116211,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          50.02639389038086,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    },
+    "1016": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8360,
+      "bounds": [
+        [
+          54.48149871826172,
+          22.59000015258789,
+          74.23857879638672
+        ],
+        [
+          55.51850128173828,
+          22.709999084472656,
+          74.77742004394531
+        ]
+      ]
+    },
+    "988": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 7976,
+      "bounds": [
+        [
+          33.68149948120117,
+          22.59000015258789,
+          74.23857879638672
+        ],
+        [
+          34.71849822998047,
+          22.709999084472656,
+          74.77742004394531
+        ]
+      ]
+    },
+    "989": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8024,
+      "bounds": [
+        [
+          34.340301513671875,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          34.60260009765625,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "990": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8032,
+      "bounds": [
+        [
+          34.24505615234375,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          34.4263916015625,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "991": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8040,
+      "bounds": [
+        [
+          33.97360610961914,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          34.15494155883789,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "992": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8048,
+      "bounds": [
+        [
+          33.797401428222656,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          34.05970001220703,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "993": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8056,
+      "bounds": [
+        [
+          33.97360610961914,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          34.15494155883789,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    },
+    "994": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8064,
+      "bounds": [
+        [
+          34.24505615234375,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          34.4263916015625,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    },
+    "995": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8072,
+      "bounds": [
+        [
+          38.881500244140625,
+          22.59000015258789,
+          74.23857879638672
+        ],
+        [
+          39.91849899291992,
+          22.709999084472656,
+          74.77742004394531
+        ]
+      ]
+    },
+    "996": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8120,
+      "bounds": [
+        [
+          39.54029846191406,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          39.8026008605957,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "997": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8128,
+      "bounds": [
+        [
+          39.4450569152832,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          39.62639236450195,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "998": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8136,
+      "bounds": [
+        [
+          39.173606872558594,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          39.354942321777344,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "999": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8144,
+      "bounds": [
+        [
+          38.997398376464844,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          39.259700775146484,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "1000": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8152,
+      "bounds": [
+        [
+          39.173606872558594,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          39.354942321777344,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    },
+    "1001": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8160,
+      "bounds": [
+        [
+          39.4450569152832,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          39.62639236450195,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    },
+    "1002": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8168,
+      "bounds": [
+        [
+          44.08150100708008,
+          22.59000015258789,
+          74.23857879638672
+        ],
+        [
+          45.118499755859375,
+          22.709999084472656,
+          74.77742004394531
+        ]
+      ]
+    },
+    "1003": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8216,
+      "bounds": [
+        [
+          44.740299224853516,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          45.002601623535156,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "1004": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8224,
+      "bounds": [
+        [
+          44.645057678222656,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          44.826393127441406,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "4077": {
+      "object": "Citadel | oxidized spire roofs",
+      "seed": 20,
+      "bounds": [
+        [
+          8.955499649047852,
+          10.31144905090332,
+          55.230003356933594
+        ],
+        [
+          10.424500465393066,
+          11.708551406860352,
+          57.80999755859375
+        ]
+      ]
+    },
+    "4078": {
+      "object": "Citadel | oxidized spire roofs",
+      "seed": 140,
+      "bounds": [
+        [
+          39.64178466796875,
+          9.883233070373535,
+          66.70800018310547
+        ],
+        [
+          41.05021667480469,
+          11.516767501831055,
+          71.61000061035156
+        ]
+      ]
+    },
+    "4079": {
+      "object": "Citadel | oxidized spire roofs",
+      "seed": 160,
+      "bounds": [
+        [
+          55.54978561401367,
+          9.883233070373535,
+          66.70800018310547
+        ],
+        [
+          56.95821762084961,
+          11.516767501831055,
+          71.61000061035156
+        ]
+      ]
+    },
+    "1005": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8232,
+      "bounds": [
+        [
+          44.37360763549805,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          44.5549430847168,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "4081": {
+      "object": "Citadel | oxidized spire roofs",
+      "seed": 200,
+      "bounds": [
+        [
+          60.620826721191406,
+          7.748628616333008,
+          60.288002014160156
+        ],
+        [
+          61.399173736572266,
+          8.651371002197266,
+          62.61000061035156
+        ]
+      ]
+    },
+    "4082": {
+      "object": "Citadel | oxidized spire roofs",
+      "seed": 220,
+      "bounds": [
+        [
+          60.620826721191406,
+          13.648628234863281,
+          60.288002014160156
+        ],
+        [
+          61.399173736572266,
+          14.551371574401855,
+          62.61000061035156
+        ]
+      ]
+    },
+    "4083": {
+      "object": "Citadel | oxidized spire roofs",
+      "seed": 240,
+      "bounds": [
+        [
+          60.620826721191406,
+          20.548627853393555,
+          60.288002014160156
+        ],
+        [
+          61.399173736572266,
+          21.451372146606445,
+          62.61000061035156
+        ]
+      ]
+    },
+    "1006": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8240,
+      "bounds": [
+        [
+          44.1973991394043,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          44.45970153808594,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "1007": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8248,
+      "bounds": [
+        [
+          44.37360763549805,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          44.5549430847168,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    },
+    "4086": {
+      "object": "Citadel | oxidized spire roofs",
+      "seed": 420,
+      "bounds": [
+        [
+          64.20899963378906,
+          34.24771499633789,
+          53.507999420166016
+        ],
+        [
+          65.79100036621094,
+          35.75228500366211,
+          58.40999984741211
+        ]
+      ]
+    },
+    "1008": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8256,
+      "bounds": [
+        [
+          44.645057678222656,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          44.826393127441406,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    },
+    "1009": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8264,
+      "bounds": [
+        [
+          49.28150177001953,
+          22.59000015258789,
+          74.23857879638672
+        ],
+        [
+          50.31850051879883,
+          22.709999084472656,
+          74.77742004394531
+        ]
+      ]
+    },
+    "1010": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8312,
+      "bounds": [
+        [
+          49.94029998779297,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          50.202598571777344,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "1018": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8416,
+      "bounds": [
+        [
+          55.0450553894043,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          55.22639465332031,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "1019": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8424,
+      "bounds": [
+        [
+          54.77360534667969,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          54.9549446105957,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "1011": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8320,
+      "bounds": [
+        [
+          49.84505844116211,
+          22.520349502563477,
+          74.57221221923828
+        ],
+        [
+          50.02639389038086,
+          22.59964942932129,
+          74.72589111328125
+        ]
+      ]
+    },
+    "1021": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8440,
+      "bounds": [
+        [
+          54.77360534667969,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          54.9549446105957,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    },
+    "1013": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8336,
+      "bounds": [
+        [
+          49.39739990234375,
+          22.520349502563477,
+          74.49061584472656
+        ],
+        [
+          49.659698486328125,
+          22.59964942932129,
+          74.52538299560547
+        ]
+      ]
+    },
+    "1014": {
+      "object": "V006 | main facade with one short jointed rib sample",
+      "seed": 8344,
+      "bounds": [
+        [
+          49.5736083984375,
+          22.520349502563477,
+          74.29010772705078
+        ],
+        [
+          49.75494384765625,
+          22.59964942932129,
+          74.44378662109375
+        ]
+      ]
+    }
+  },
+  "method": "Actual contact graph within unconnected components, then exact point-triangle and edge-edge surface-distance minimization with conservative AABB lower-bound pruning. No AABB gap substituted for actual surface gap.",
+  "limits": "Geometric separation in examined visible neighborhood; no gravity/load claim, no automatic defect or repair verdict."
+}
