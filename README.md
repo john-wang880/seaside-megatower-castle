@@ -12,7 +12,7 @@
 
 ## 可选：当前模型检查副本
 
-[手动书签工具](scripts/current_inspection/README.md)审核当前哈希及14个机位，包括新侧面检查视角，另存副本；不改原模型，不自动执行/渲染/降低质量。原生Windows未实测，未知未来版本拒绝运行。旧v025工具可从固定提交 `06cf897ea73fa105ba27cb7dd79af6df18587c9a` 恢复。
+[手动书签工具](scripts/current_inspection/README.md)审核当前哈希及15个机位，包括已审查的东西侧检查视角，另存副本；不改原模型，不自动执行/渲染/降低质量。原生Windows未实测，未知未来版本拒绝运行。旧14书签工具可从固定提交 `8e89fe44963b73bcd75bfaf59406cc808e9efd43` 恢复。
 
 ## 历史呈现与工具（不是v026影片）
 - [v020方形2400像素展陈图及相机配方](https://github.com/john-wang880/seaside-megatower-castle/tree/23fd4aaaceb64996913bfa3ff4109fc149737b9d/checkpoints/v020/presentation/exhibition)：原照明，未包含后续桥墩表面清理、石肋分段和路径修正，原版本如实保留。

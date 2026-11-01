@@ -1,7 +1,7 @@
 """Import-safe stdlib guards; no bpy, installation, network or rendering."""
 import hashlib,json,math,os,re,sys
 from pathlib import Path
-CATALOG_SHA='de7060701c8a6e3e53a9020d655d12e8a54d4e8ec2782091bc11e6d12df780b0'
+CATALOG_SHA='03405e881888a989bfda1da2eb763138e204134e422a807c5843b514a7fe56c0'
 VERSION=26
 SOURCE_SHA='efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee'
 SOURCE_BYTES=47680699
@@ -24,7 +24,7 @@ def load_catalog(path):
  p=unaliased(path);require(p.is_file() and sha(p)==CATALOG_SHA,'Reviewed camera catalog hash mismatch')
  c=json.loads(p.read_text(encoding='utf-8'))
  require(c['schema']=='castle-current-inspection-catalog-v1' and c['reviewed_version']==VERSION and c['source_sha256']==SOURCE_SHA and c['source_bytes']==SOURCE_BYTES,'Unsupported catalog/source binding')
- require(len(c['views'])==14 and c['views']['hero']['existing'],'Catalog must contain fourteen reviewed views')
+ require(len(c['views'])==15 and c['views']['hero']['existing'],'Catalog must contain fifteen reviewed views')
  names=[]
  for k,v in c['views'].items():
   m=v['matrix'];require(len(m)==4 and all(len(row)==4 for row in m) and all(isinstance(x,(int,float)) and math.isfinite(x) for row in m for x in row),'Invalid camera matrix')

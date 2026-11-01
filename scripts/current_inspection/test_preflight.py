@@ -17,15 +17,15 @@ class Guards(unittest.TestCase):
   namespace,operator=ast.literal_eval(assignment.value).split('.')
   self.assertEqual(cls.name,namespace.upper()+'_OT_'+operator)
  def test_known_catalog(self):
-  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),14);root=self.catalog.parent
-  for key in ['rear_landward','west_lateral']:
+  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),15);root=self.catalog.parent
+  for key in ['rear_landward','west_lateral','east_lateral']:
    v=c['views'][key];pr=v['provenance'];recipe=json.loads((root/pr['recipe']).read_text());receipt=json.loads((root/pr['receipt']).read_text())
    self.assertEqual(p.sha(root/pr['recipe']),pr['recipe_sha256']);self.assertEqual(p.sha(root/pr['receipt']),pr['receipt_sha256']);self.assertEqual(receipt['manifest_sha256'],pr['recipe_sha256'])
    self.assertEqual(receipt['source_sha256_before'],pr['render_source_sha256']);self.assertEqual(receipt['source_sha256_after'],pr['render_source_sha256'])
    self.assertEqual(v['matrix'],recipe['views'][key]['reference_matrix']);self.assertEqual(v['reference_resolution'],recipe['resolution']);data=dict(recipe['views'][key]['camera_data']);data.setdefault('type','PERSP');self.assertEqual(v['data'],data)
   self.assertEqual(c['views']['west_lateral']['provenance']['render_source_sha256'],p.SOURCE_SHA)
-  runner=(root/'qa/run_qa.py').read_text();self.assertIn("r['manual_bookmarks_tested']==14",runner)
-  exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':13,'bookmark_count':14",exporter)
+  runner=(root/'qa/run_qa.py').read_text();self.assertIn("r['manual_bookmarks_tested']==15",runner)
+  exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':14,'bookmark_count':15",exporter)
 
  def test_corrupt_catalog(self):
   f=self.root/'bad.json';f.write_text(self.catalog.read_text()+' ')

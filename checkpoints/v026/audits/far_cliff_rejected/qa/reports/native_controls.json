@@ -1,0 +1,37 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "case": "final_positive",
+      "returncode": 0,
+      "expected_positive": true,
+      "result_checked": true,
+      "changed_names": {}
+    },
+    {
+      "case": "source_vertex",
+      "returncode": 1,
+      "expected_positive": false,
+      "result_checked": true,
+      "changed_names": {
+        "meshes": [
+          "V002 | closed western headland mesh"
+        ],
+        "visible_evaluated": [
+          "V002 | western headland with solid rock shore"
+        ]
+      }
+    },
+    {
+      "case": "source_material",
+      "returncode": 1,
+      "expected_positive": false,
+      "result_checked": true,
+      "changed_names": {
+        "materials": [
+          "V002 | varied salt-weathered coastal slate"
+        ]
+      }
+    }
+  ]
+}

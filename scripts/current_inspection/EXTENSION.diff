@@ -1,0 +1,226 @@
+--- 14views/DESIGN.md
++++ 15views/DESIGN.md
+@@ -1,7 +1,2 @@
+-# Explicit v026 inspection refresh
+-
+-Base: fixedv025Git06cf897ea73fa105ba27cb7dd79af6df18587c9a. Narrow changes: reviewedsource/hash/bytes/version26, ownedINSPECT26/CASTLE26/castle26namespace, plus one parent-approvedwest_lateral bookmark. Existing13records, matrices, intent and historicalprovenance remain equal exceptownedcamera names. No behavior/quality/LOD/modelchanges.
+-
+-Counts are14bookmarks/13addedcameras throughout preflight, exporter, validator and runner; source-statecategories remain13 andAPInegatives20. A regression assertion checks exporter andrunnercount literals. Originalrearreceipt stays bound tov025; newlateralreceipt binds v026, while its historical sourcev025recipe bytes remain exact.
+-
+-Local18+24puretests passed. Actual v026viewer/reopen passed against the real staged manifest; no fake currentmanifest. Parent owns acceptance/publication after actualtests. No staleacceptance receipts or viewerbinary included. Historicalv025wrapper-countfailure stays in fixedhistory, not relabeled as v026proof.
++# v026 manual east-view extension
++Base fixedGit8e89fe44963b73bcd75bfaf59406cc808e9efd43. Exact source/version/namespace unchanged. Original14catalog records exact; one reviewed east_lateral view added.15bookmarks/14added cameras throughout guards/export/QA, source-statecategories13/APInegatives20 unchanged. No source model bump, quality/render behavior or originaldata change. Fresh actual validation pending.
+--- 14views/README.md
++++ 15views/README.md
+@@ -1,6 +1,6 @@
+ # v026 独立检查副本 / Reviewed inspection copy
+ 
+-**Local actual v026 export/reopen validation passed; remote publication is a separate owner step.** This is an opt-in derived viewer, not a new model version or a replacement canonical file. Do not fabricate a live checkpoint manifest. Publication/remote acceptance are separate owner steps.
++**The 15-bookmark extension awaits fresh actual validation; historical 14-bookmark results do not certify it.** This is an opt-in derived viewer, not a new model version or a replacement canonical file. Do not fabricate a live checkpoint manifest. Publication/remote acceptance are separate owner steps.
+ 
+ Reviewed source: `castle_v026.blend`,47,680,699bytes, SHA256 `efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee`. The highest numeric live checkpoint MANIFEST must match exactly. Futurev027, stalev025, ambiguousv26/v026, wrong source/hash/size, altered catalog, aliases/symlinks and existing destinations fail closed. No fetching, installation or source overwrite.
+ 
+@@ -20,14 +20,17 @@
+ 
+ Open the derived file, keeping autoexec disabled. In Text Editor select `INSPECT26 | Run manually for bookmarks.py`, inspect and explicitly Run Script. In a3Dviewport pressN, open Castle检查, choose a bookmark. Text.use_moduleFalse; no load handler, addon installation or auto-registration. Repeat registration is idempotent; foreign/partial ownership is refused.
+ 
+-14bookmarks: hero, west approach, east portal, interior bend, upper stairs, terminal platform, offshore marker, main crown, west crown, bridge close, west lower tier, path context, rear overview, **west lateral overview**. The original13records are preserved exactly except ownedINSPECTnamespace. Only the last view is added; exact historicalv025camera recipe plus actualv026source receipt are archived. It is an elevated architectural view, **not a continuous walkthrough or accessibility certification**.
++15bookmarks: hero, west approach, east portal, interior bend, upper stairs, terminal platform, offshore marker, main crown, west crown, bridge close, west lower tier, path context, rear overview, west lateral overview, **east lateral overview**. All original14records are preserved exactly, including namespace. Only east_lateral is added in this extension; exact historicalv025camera recipe plus actualv026source receipt are archived. It is an elevated architectural view, **not a continuous walkthrough or accessibility certification**.
+ 
+-The viewer adds13owned cameras, one collection, manual Text and provenance marker. Existing hero remains the saved default. Camera selection changes only active camera/viewport view; not geometry, materials, lights, world, frame, samples, aspect/resolution, LOD or visibility. Reference aspect is advisory: manually choose it in your copy if needed. Original hidden rollback geometry and weights remain untouched. Use Blender's standard Solid/Material Preview/Rendered controls manually; no new quality switch/performance claim.
++The viewer adds14owned cameras, one collection, manual Text and provenance marker. Existing hero remains the saved default. Camera selection changes only active camera/viewport view; not geometry, materials, lights, world, frame, samples, aspect/resolution, LOD or visibility. Reference aspect is advisory: manually choose it in your copy if needed. Original hidden rollback geometry and weights remain untouched. Use Blender's standard Solid/Material Preview/Rendered controls manually; no new quality switch/performance claim.
+ 
+ Provenance records the exported source only, not certification after user edits. Re-export from canonical bytes if ownership guards refuse; do not silently repair changed objects.
+ 
+ ## Review and provenance
+ 
+-18implementation and24independent puretests passed locally. Fresh actual Blender export/reopen passed:13exact source-state categories,14bookmarks,20negativeAPI cases, repeat registration/unregistration and disabled-script reopen. See VALIDATION.json and fresh reports. No historical report was reused.
++18implementation and24independent puretests passed locally. Fresh extension validation is pending:13source-state categories,15bookmarks,20negativeAPI cases, repeat registration and disabled-script reopen. No historical report is reused.
+ 
+ Historical v025tool/reports: fixed Git `06cf897ea73fa105ba27cb7dd79af6df18587c9a`, `scripts/current_inspection`. Existingcamera recipe/source hashes are historical and deliberately unchanged. Newwest_lateral pose(−480,−30,180)→(−35,55,105),45mm,1200×866 is exactly the approved actual pose; no additional render was made for this tool.
++
++## Exact east-view extension
++Model/source remain v026efcd. Manual bookmark15 is exact(480,150,180)→(−35,55,105),45mm,1200×866 from archived actual-source recipe/receipt. No extra render/modeling/LOD/autoexec behavior. Historical14-view tool remains at fixedGit8e89fe44963b73bcd75bfaf59406cc808e9efd43.
+--- 14views/catalog.json
++++ 15views/catalog.json
+@@ -735,6 +735,60 @@
+         "render_source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+         "note": "Explicitly approved actual v026 west lateral overview. Elevated inspection, not a route/accessibility proof. Historical recipe sourcev025 retained; actual receipt binds v026. No new render."
+       }
++    },
++    "east_lateral": {
++      "label": "东侧总览 / Elevated east lateral overview",
++      "camera_name": "INSPECT26 | east_lateral",
++      "existing": false,
++      "matrix": [
++        [
++          -0.18140555918216705,
++          -0.1394161432981491,
++          0.9734758138656616,
++          480.0
++        ],
++        [
++          0.9834083914756775,
++          -0.025717435404658318,
++          0.17957334220409393,
++          150.0
++        ],
++        [
++          -1.2095260615296866e-07,
++          0.9898998737335205,
++          0.14176829159259796,
++          180.0
++        ],
++        [
++          0.0,
++          0.0,
++          0.0,
++          1.0
++        ]
++      ],
++      "data": {
++        "lens": 45.0,
++        "sensor_width": 36.0,
++        "sensor_height": 24.0,
++        "sensor_fit": "HORIZONTAL",
++        "shift_x": 0.0,
++        "shift_y": 0.0,
++        "clip_start": 0.10000000149011612,
++        "clip_end": 3000.0,
++        "type": "PERSP"
++      },
++      "reference_resolution": [
++        1200,
++        866
++      ],
++      "provenance": {
++        "recipe": "provenance/east_lateral_views.json",
++        "recipe_sha256": "d7fa0436fd4d6fa553946538572b8f1a97fa700993dc09a3bd64468f7271cb17",
++        "receipt": "provenance/east_lateral_v026_receipt.json",
++        "receipt_sha256": "7e92cdf8cc31ca5797c869471c787f402a4558aaf213d7a3c65f0f172b566c97",
++        "render_source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
++        "note": "Explicitly approved actual v026 east overview, manual bookmark15. Elevated architectural inspection, not a continuous route/accessibility proof; no model bump or new render."
++      }
+     }
+   }
+ }
+--- 14views/export_inspection.py
++++ 15views/export_inspection.py
+@@ -55,7 +55,7 @@
+   result=bpy.ops.wm.save_as_mainfile(filepath=str(model_tmp),copy=True,compress=True,check_existing=False)
+   require('FINISHED' in result and model_tmp.is_file(),'Inspection-copy save failed')
+   again,_=preflight(repository,source,output,report,ROOT/'catalog.json');require(again==identity and all(sha(ROOT/n)==h for n,h in runtime.items()),'Source/manifest/runtime changed during export')
+-  receipt={**identity,'runtime_sha256':runtime,'output_sha256':sha(model_tmp),'output_bytes':model_tmp.stat().st_size,'source_unchanged':True,'source_saved':False,'rendered':False,'manual_text_only':True,'text_use_module':False,'default_camera':bpy.context.scene.camera.name,'added_cameras':13,'bookmark_count':14,'marker':marker,'scope':'Only owned cameras/collection/manualText/provenance marker added; original settings preserved. Independent deep QA is separate.'}
++  receipt={**identity,'runtime_sha256':runtime,'output_sha256':sha(model_tmp),'output_bytes':model_tmp.stat().st_size,'source_unchanged':True,'source_saved':False,'rendered':False,'manual_text_only':True,'text_use_module':False,'default_camera':bpy.context.scene.camera.name,'added_cameras':14,'bookmark_count':15,'marker':marker,'scope':'Only owned cameras/collection/manualText/provenance marker added; original settings preserved. Independent deep QA is separate.'}
+   rep_tmp=temp_for(report,'.json');rep_tmp.write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+   with open(rep_tmp,'rb') as f:os.fsync(f.fileno())
+   with open(model_tmp,'rb') as f:os.fsync(f.fileno())
+--- 14views/preflight.py
++++ 15views/preflight.py
+@@ -1,7 +1,7 @@
+ """Import-safe stdlib guards; no bpy, installation, network or rendering."""
+ import hashlib,json,math,os,re,sys
+ from pathlib import Path
+-CATALOG_SHA='de7060701c8a6e3e53a9020d655d12e8a54d4e8ec2782091bc11e6d12df780b0'
++CATALOG_SHA='03405e881888a989bfda1da2eb763138e204134e422a807c5843b514a7fe56c0'
+ VERSION=26
+ SOURCE_SHA='efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee'
+ SOURCE_BYTES=47680699
+@@ -24,7 +24,7 @@
+  p=unaliased(path);require(p.is_file() and sha(p)==CATALOG_SHA,'Reviewed camera catalog hash mismatch')
+  c=json.loads(p.read_text(encoding='utf-8'))
+  require(c['schema']=='castle-current-inspection-catalog-v1' and c['reviewed_version']==VERSION and c['source_sha256']==SOURCE_SHA and c['source_bytes']==SOURCE_BYTES,'Unsupported catalog/source binding')
+- require(len(c['views'])==14 and c['views']['hero']['existing'],'Catalog must contain fourteen reviewed views')
++ require(len(c['views'])==15 and c['views']['hero']['existing'],'Catalog must contain fifteen reviewed views')
+  names=[]
+  for k,v in c['views'].items():
+   m=v['matrix'];require(len(m)==4 and all(len(row)==4 for row in m) and all(isinstance(x,(int,float)) and math.isfinite(x) for row in m for x in row),'Invalid camera matrix')
+--- 14views/qa/FILES.json
++++ 15views/qa/FILES.json
+@@ -1,10 +1,7 @@
+ {
+-  "README.md": "b7d8e89b1aedbaf16e18a65559d6ead33bd51e8b4c9b22c8faea7e0e27f200bb",
+-  "reports/SUMMARY_v026.json": "8a26cd9172e6db5ede195c370e7833e829c58a81ff674570854101fe48fba169",
+-  "reports/pure_tests_v026.log": "ae8ff259aef4090d7637236b5f3aa1e84d6e50f74ac95a070b7691e8e3970358",
+-  "reports/validation_v026.json": "19e52b30cb3c638b952535e5958ab2f7e809496229f0db73a0f978511da1d487",
+-  "run_qa.py": "fcbc3c3d33a38ef83526aa870860ac7fdc05eb4261eaf3deaf7e0b14b462c8da",
++  "README.md": "59cd5f0cf25e564a959359606236494818e58cfecb05729a50b61afe6ab509f9",
++  "run_qa.py": "718e147d2eb20aa8d5b0fcd9d07052775137731834d8ed31cee25841ffdefffb",
+   "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+-  "test_preflight_independent.py": "772e3e5b64174b133e444238fdf63041ea78a14457ddc917c1eeecf0f7611b3d",
+-  "validate_copy.py": "f8c800e4b409ebc36253adc4b77c5f4d446209a4e9869d601df91689fb9f793c"
++  "test_preflight_independent.py": "c7347fa19474cf8ea6506b64bf1c93cb06ededead61e3b4a0221e8bf7325fc33",
++  "validate_copy.py": "139bfd0487ab43bbd0e480ab03cfaaf5c5e199e6706a2b30f43c2caf44f999c9"
+ }
+--- 14views/qa/README.md
++++ 15views/qa/README.md
+@@ -1,13 +1,13 @@
+ # v026 inspection independent QA
+ 
+-Actual v026 export/reopen and complete independent QA passed locally. The checker must use a new viewer/receipt generated from exactefcdsource and a real highest-livev026manifest.
++Fresh15-bookmark extension QA is pending; historical14-bookmark acceptance is not reused. The checker must use a new viewer/receipt generated from exactefcdsource and a real highest-livev026manifest.
+ 
+ ```sh
+ python -B run_qa.py --repository-root FRESH_REPOSITORY --tool FRESH_REPOSITORY/scripts/current_inspection --source RESTORED_V026.blend --viewer NEW_VIEWER.blend --receipt NEW_EXPORT.json --output-dir NEW_QA_DIRECTORY --blender BLENDER_5_2_3_EXECUTABLE
+ ```
+ 
+-Quote paths containing spaces/Unicode. Outputdirectory must be new in an existing parent, outside immutablecheckpoint/tool/QA trees. No installation/network/modelsave/render occurs. Require SUMMARY.json pass and validation.json:13originalstatecategories,14bookmarks,20negativeAPIcases, repeatregistration/unregistration and disabled-scriptreopen. Canonical raw/evaluatedgeometry, source cameras, materials/world/lights/render/visibility and all existing modifier weights must remain exact after subtracting only13owned cameras/collection/manualText/provenance marker.
++Quote paths containing spaces/Unicode. Outputdirectory must be new in an existing parent, outside immutablecheckpoint/tool/QA trees. No installation/network/modelsave/render occurs. Require SUMMARY.json pass and validation.json:13originalstatecategories,15bookmarks,20negativeAPIcases, repeatregistration/unregistration and disabled-scriptreopen. Canonical raw/evaluatedgeometry, source cameras, materials/world/lights/render/visibility and all existing modifier weights must remain exact after subtracting only14owned cameras/collection/manualText/provenance marker.
+ 
+-24puretests cover reviewedv026, unknownfuture27, stale25, numericambiguity26/v026, wronghash/size/catalog, aliases/symlinks, freshdestination, Unicode, optimized-mode refusal and exclusivepublication failure/foreign-inode protection. Existing18implementationtests additionally bind exactrear andlateralprovenance and assert runner14/export13+14counts, preventing the previousv025late wrapper-count omission.
++24puretests cover reviewedv026, unknownfuture27, stale25, numericambiguity26/v026, wronghash/size/catalog, aliases/symlinks, freshdestination, Unicode, optimized-mode refusal and exclusivepublication failure/foreign-inode protection. Existing18implementationtests additionally bind exactrear andlateralprovenance and assert runner15/export14+15counts, preventing the previousv025late wrapper-count omission.
+ 
+-Runtime and full QAinventory/modelinputs are hashed before/after. FILES.json binds this bundle. No nativeWindows/desktopclick claim; ordinary explicit manualText/operator API tests are not GUI clicks. Actual v026run passed; historicalreports deliberately excluded. Packaging adds reports/docs only; executed Python/runtime unchanged. Original executed QA inventory and README are archived under provenance.
++Runtime and full QAinventory/modelinputs are hashed before/after. FILES.json binds this bundle. No nativeWindows/desktopclick claim; ordinary explicit manualText/operator API tests are not GUI clicks. Fresh extension run pending; historicalreports deliberately excluded. Packaging adds reports/docs only; executed Python/runtime unchanged. Original executed QA inventory and README are archived under provenance.
+--- 14views/qa/run_qa.py
++++ 15views/qa/run_qa.py
+@@ -15,7 +15,7 @@
+ report=out/'validation.json';cmd2=[str(blender),'-b','--factory-startup','--disable-autoexec','--python-exit-code','1','--python-expr','import sys; sys.dont_write_bytecode=True','--python',str(qa/'validate_copy.py'),'--','--source',str(source),'--viewer',str(viewer),'--receipt',str(receipt),'--tool',str(tool),'--report',str(report)]
+ with (out/'validation.log').open('w')as log:r=subprocess.run(cmd2,cwd=out,stdout=log,stderr=subprocess.STDOUT)
+ assert r.returncode==0,'Actual Blender API/deep preservation failed'
+-r=json.loads(report.read_text());assert r['pass']and all(r['full_source_category_checks'].values())and r['manual_bookmarks_tested']==14 and r['all_inputs_unchanged'];assert len(r['negative_cases'])==20
++r=json.loads(report.read_text());assert r['pass']and all(r['full_source_category_checks'].values())and r['manual_bookmarks_tested']==15 and r['all_inputs_unchanged'];assert len(r['negative_cases'])==20
+ assert all(sha(f)==h for f,h in modelhashes.items());assert all(sha(tool/n)==h for n,h in runtime.items());assert inventory=={str(f.relative_to(qa)):sha(f)for f in qa.rglob('*')if f.is_file()}
+ summary={'pass':True,'manifest_identity':identity,'input_sha256':modelhashes,'runtime_sha256':runtime,'qa_manifest_sha256':sha(qa/'FILES.json'),'qa_inventory_unchanged':True,'all_model_runtime_inputs_unchanged':True,'pure_tests':24,'actual_source_category_names':list(r['full_source_category_checks']),'actual_source_category_count':len(r['full_source_category_checks']),'api_negative_cases':r['negative_cases'],'commands':[cmd,cmd2],'reports':{'validation.json':sha(report),'pure_tests.log':sha(out/'pure_tests.log')},'scope':'Actual Linux reopen/headless manual UI/operator API; no render/model save, nativeWindows or desktopclick claim. Export provenance is not later edit certification.'};(out/'SUMMARY.json').write_text(json.dumps(summary,indent=2));print('PORTABLE INDEPENDENT QA PASS')
+ if (out/'unused-preflight-copy.blend').exists()or(out/'unused-preflight-report.json').exists():raise RuntimeError('Preflight unexpectedly wrote output')
+--- 14views/qa/test_preflight_independent.py
++++ 15views/qa/test_preflight_independent.py
+@@ -23,7 +23,7 @@
+   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
+  def test_no_manifest_not_live(self):
+   (self.repo/'checkpoints/v999').mkdir();self.assertEqual(q.latest_manifest(self.repo)[2],self.m)
+- def test_reviewed_catalog(self):self.assertEqual(len(q.load_catalog(TOOL/'catalog.json')['views']),14)
++ def test_reviewed_catalog(self):self.assertEqual(len(q.load_catalog(TOOL/'catalog.json')['views']),15)
+  def test_corrupt_catalog(self):
+   c=self.root/'catalog.json';c.write_text((TOOL/'catalog.json').read_text()+' ')
+   with self.assertRaises(q.GuardError):q.load_catalog(c)
+--- 14views/qa/validate_copy.py
++++ 15views/qa/validate_copy.py
+@@ -69,4 +69,4 @@
+ # Reopen again with scripts disabled; immutable manual copy remains reusable.
+ load(paths['viewer']);ui.verify();assert snapshot()==viewer
+ assert all(sha(paths[k])==v for k,v in hashes.items());assert runtime=={n:sha(paths['tool']/n)for n in runtime}
+-result={'pass':True,'input_sha256':hashes,'runtime_sha256':runtime,'full_source_category_checks':checks,'negative_cases':negatives,'manual_bookmarks_tested':14,'paired_register_unregister_idempotent':True,'reopened_no_auto_registration':True,'source_existing_camera_data_exact':True,'source_visibility_selection_quality_exact':True,'all_inputs_unchanged':True,'scope':'Actual Linux background export/reopen/manualPython and operator API validation, not native Windows or desktop button clicking. UI marker records provenance, not post-edit certification.'};paths['report'].write_text(json.dumps(result,indent=2));print('INDEPENDENT INSPECTION COPY PASS')
++result={'pass':True,'input_sha256':hashes,'runtime_sha256':runtime,'full_source_category_checks':checks,'negative_cases':negatives,'manual_bookmarks_tested':15,'paired_register_unregister_idempotent':True,'reopened_no_auto_registration':True,'source_existing_camera_data_exact':True,'source_visibility_selection_quality_exact':True,'all_inputs_unchanged':True,'scope':'Actual Linux background export/reopen/manualPython and operator API validation, not native Windows or desktop button clicking. UI marker records provenance, not post-edit certification.'};paths['report'].write_text(json.dumps(result,indent=2));print('INDEPENDENT INSPECTION COPY PASS')
+--- 14views/test_preflight.py
++++ 15views/test_preflight.py
+@@ -17,15 +17,15 @@
+   namespace,operator=ast.literal_eval(assignment.value).split('.')
+   self.assertEqual(cls.name,namespace.upper()+'_OT_'+operator)
+  def test_known_catalog(self):
+-  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),14);root=self.catalog.parent
+-  for key in ['rear_landward','west_lateral']:
++  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),15);root=self.catalog.parent
++  for key in ['rear_landward','west_lateral','east_lateral']:
+    v=c['views'][key];pr=v['provenance'];recipe=json.loads((root/pr['recipe']).read_text());receipt=json.loads((root/pr['receipt']).read_text())
+    self.assertEqual(p.sha(root/pr['recipe']),pr['recipe_sha256']);self.assertEqual(p.sha(root/pr['receipt']),pr['receipt_sha256']);self.assertEqual(receipt['manifest_sha256'],pr['recipe_sha256'])
+    self.assertEqual(receipt['source_sha256_before'],pr['render_source_sha256']);self.assertEqual(receipt['source_sha256_after'],pr['render_source_sha256'])
+    self.assertEqual(v['matrix'],recipe['views'][key]['reference_matrix']);self.assertEqual(v['reference_resolution'],recipe['resolution']);data=dict(recipe['views'][key]['camera_data']);data.setdefault('type','PERSP');self.assertEqual(v['data'],data)
+   self.assertEqual(c['views']['west_lateral']['provenance']['render_source_sha256'],p.SOURCE_SHA)
+-  runner=(root/'qa/run_qa.py').read_text();self.assertIn("r['manual_bookmarks_tested']==14",runner)
+-  exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':13,'bookmark_count':14",exporter)
++  runner=(root/'qa/run_qa.py').read_text();self.assertIn("r['manual_bookmarks_tested']==15",runner)
++  exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':14,'bookmark_count':15",exporter)
+ 
+  def test_corrupt_catalog(self):
+   f=self.root/'bad.json';f.write_text(self.catalog.read_text()+' ')

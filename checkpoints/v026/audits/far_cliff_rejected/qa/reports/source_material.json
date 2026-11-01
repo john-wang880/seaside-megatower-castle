@@ -1,0 +1,1314 @@
+{
+  "pass": false,
+  "input_sha256": {
+    "source": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "candidate": "d8eefc168595af6683e624dc948c46dc1ce994745c1c2694eacc6c8cf060f914"
+  },
+  "checks": {
+    "meshes": true,
+    "objects": true,
+    "materials": false,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true
+  },
+  "changed_names": {
+    "materials": [
+      "V002 | varied salt-weathered coastal slate"
+    ]
+  },
+  "new_mesh_object": "V027 | single oblique lower rock buttress",
+  "new_collection": "V027 | far-cliff buttress study",
+  "added_records": {
+    "meshes": {
+      "hash": "008e874c35e45ef30d3157c03e3865ae48018c94cd2fa544652bf9f6b63bce09",
+      "attribute_schema": [
+        [
+          ".select_vert",
+          "BOOLEAN",
+          "POINT",
+          88
+        ],
+        [
+          ".select_edge",
+          "BOOLEAN",
+          "EDGE",
+          258
+        ],
+        [
+          ".select_poly",
+          "BOOLEAN",
+          "FACE",
+          172
+        ],
+        [
+          "sharp_face",
+          "BOOLEAN",
+          "FACE",
+          172
+        ],
+        [
+          "position",
+          "FLOAT_VECTOR",
+          "POINT",
+          88
+        ],
+        [
+          ".edge_verts",
+          "INT32_2D",
+          "EDGE",
+          258
+        ],
+        [
+          ".corner_vert",
+          "INT",
+          "CORNER",
+          516
+        ],
+        [
+          ".corner_edge",
+          "INT",
+          "CORNER",
+          516
+        ],
+        [
+          "material_index",
+          "INT",
+          "FACE",
+          172
+        ]
+      ],
+      "vertices": 88,
+      "polygons": 172,
+      "debug_payload": {
+        "attributes": [
+          {
+            "name": ".select_vert",
+            "type": "BOOLEAN",
+            "domain": "POINT",
+            "count": 88,
+            "fields": {
+              "value": {
+                "count": 88,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "bb204e6d8aa7b46276d619cd6dcb7e1f0bacbaaa4f453d006950cb560f38b245"
+              }
+            }
+          },
+          {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 258,
+            "fields": {
+              "value": {
+                "count": 258,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "0bd00b8f6e483c3e2194494716be68e44ec7326986d01c7d4f4c3d70b0cac70f"
+              }
+            }
+          },
+          {
+            "name": ".select_poly",
+            "type": "BOOLEAN",
+            "domain": "FACE",
+            "count": 172,
+            "fields": {
+              "value": {
+                "count": 172,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "3e1dcf73a260b45176948c039ce971818e115e72d45459b40f46d4c301c68b57"
+              }
+            }
+          },
+          {
+            "name": "sharp_face",
+            "type": "BOOLEAN",
+            "domain": "FACE",
+            "count": 172,
+            "fields": {
+              "value": {
+                "count": 172,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "3e1dcf73a260b45176948c039ce971818e115e72d45459b40f46d4c301c68b57"
+              }
+            }
+          },
+          {
+            "name": "position",
+            "type": "FLOAT_VECTOR",
+            "domain": "POINT",
+            "count": 88,
+            "fields": {
+              "vector": {
+                "count": 88,
+                "type": "FLOAT",
+                "width": 3,
+                "hash": "f97295ed7c4c9d01bd3410738afd8e20fdd85133a36696c1a5406c6a10df4a0a"
+              }
+            }
+          },
+          {
+            "name": ".edge_verts",
+            "type": "INT32_2D",
+            "domain": "EDGE",
+            "count": 258,
+            "fields": {
+              "value": {
+                "count": 258,
+                "type": "INT",
+                "width": 2,
+                "hash": "b14992d286f37f97334e5eae7c0138269342ea4f7a45e41b03ee2513466e8fe8"
+              }
+            }
+          },
+          {
+            "name": ".corner_vert",
+            "type": "INT",
+            "domain": "CORNER",
+            "count": 516,
+            "fields": {
+              "value": {
+                "count": 516,
+                "type": "INT",
+                "width": 0,
+                "hash": "d5276dc1ae78026e688de11bc81825737dc15a806c3fd295e8ff5f7dae5ae50f"
+              }
+            }
+          },
+          {
+            "name": ".corner_edge",
+            "type": "INT",
+            "domain": "CORNER",
+            "count": 516,
+            "fields": {
+              "value": {
+                "count": 516,
+                "type": "INT",
+                "width": 0,
+                "hash": "ec56628b19518a8f8c46b29ecaaedafc8589f0d90fe55b92a49f7590ce7ba49e"
+              }
+            }
+          },
+          {
+            "name": "material_index",
+            "type": "INT",
+            "domain": "FACE",
+            "count": 172,
+            "fields": {
+              "value": {
+                "count": 172,
+                "type": "INT",
+                "width": 0,
+                "hash": "ea8fab4b6a303319a5d797befd9b1d5f1ee3b78b05ed347636b38519ca1bd2c1"
+              }
+            }
+          }
+        ],
+        "topology": {
+          "vertices": {
+            "co": {
+              "count": 88,
+              "type": "FLOAT",
+              "width": 3,
+              "hash": "f97295ed7c4c9d01bd3410738afd8e20fdd85133a36696c1a5406c6a10df4a0a"
+            },
+            "select": {
+              "count": 88,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "bb204e6d8aa7b46276d619cd6dcb7e1f0bacbaaa4f453d006950cb560f38b245"
+            },
+            "hide": {
+              "count": 88,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365"
+            }
+          },
+          "edges": {
+            "vertices": {
+              "count": 258,
+              "type": "INT",
+              "width": 2,
+              "hash": "b14992d286f37f97334e5eae7c0138269342ea4f7a45e41b03ee2513466e8fe8"
+            },
+            "select": {
+              "count": 258,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "0bd00b8f6e483c3e2194494716be68e44ec7326986d01c7d4f4c3d70b0cac70f"
+            },
+            "hide": {
+              "count": 258,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "6bd3749a368b56ead82399ee6d06456c94bde1edab4477a48d4b48ea5e032053"
+            },
+            "use_seam": {
+              "count": 258,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "6bd3749a368b56ead82399ee6d06456c94bde1edab4477a48d4b48ea5e032053"
+            },
+            "use_edge_sharp": {
+              "count": 258,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "6bd3749a368b56ead82399ee6d06456c94bde1edab4477a48d4b48ea5e032053"
+            }
+          },
+          "loops": {
+            "vertex_index": {
+              "count": 516,
+              "type": "INT",
+              "width": 1,
+              "hash": "d5276dc1ae78026e688de11bc81825737dc15a806c3fd295e8ff5f7dae5ae50f"
+            },
+            "edge_index": {
+              "count": 516,
+              "type": "INT",
+              "width": 1,
+              "hash": "ec56628b19518a8f8c46b29ecaaedafc8589f0d90fe55b92a49f7590ce7ba49e"
+            }
+          },
+          "polygons": {
+            "loop_start": {
+              "count": 172,
+              "type": "INT",
+              "width": 1,
+              "hash": "a3b278b4857ee2e16a8ede89ded79e542d03f3dbd338e2c4b1cdc78ea5dd2545"
+            },
+            "loop_total": {
+              "count": 172,
+              "type": "INT",
+              "width": 1,
+              "hash": "cd4e611a054bda6889d5ce381ca875d9722f1dcfab28b47f56ab3438b4a9dd9b"
+            },
+            "material_index": {
+              "count": 172,
+              "type": "INT",
+              "width": 1,
+              "hash": "ea8fab4b6a303319a5d797befd9b1d5f1ee3b78b05ed347636b38519ca1bd2c1"
+            },
+            "use_smooth": {
+              "count": 172,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "58f218aeb259309eeb545345a8f5c715987967b0ec724806d448394da578d0b0"
+            },
+            "select": {
+              "count": 172,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "3e1dcf73a260b45176948c039ce971818e115e72d45459b40f46d4c301c68b57"
+            },
+            "hide": {
+              "count": 172,
+              "type": "BOOLEAN",
+              "width": 1,
+              "hash": "58f218aeb259309eeb545345a8f5c715987967b0ec724806d448394da578d0b0"
+            }
+          }
+        },
+        "corner_normals": {
+          "count": 516,
+          "type": "FLOAT",
+          "width": 3,
+          "hash": "e8d5343ba93849178571b0fd160d8792c753947a53a68149777608fba63d9b35"
+        },
+        "materials": [
+          "V002 | varied salt-weathered coastal slate",
+          "V002 | tidal slate with wet lower band"
+        ],
+        "weights": [],
+        "shapes": null,
+        "uv_layers": [],
+        "uv_active_index": -1,
+        "custom_properties": {}
+      }
+    },
+    "objects": {
+      "properties": {
+        "name": "V027 | single oblique lower rock buttress",
+        "name_full": "V027 | single oblique lower rock buttress",
+        "id_type": "OBJECT",
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_linked_packed": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "data": {
+          "id_type": "Mesh",
+          "name": "V027 | single oblique lower rock buttress"
+        },
+        "type": "MESH",
+        "mode": "OBJECT",
+        "bound_box": [
+          [
+            -142.16049194335938,
+            153.39907836914062,
+            -5.699999809265137
+          ],
+          [
+            -142.16049194335938,
+            153.39907836914062,
+            25.200000762939453
+          ],
+          [
+            -142.16049194335938,
+            170.5864715576172,
+            25.200000762939453
+          ],
+          [
+            -142.16049194335938,
+            170.5864715576172,
+            -5.699999809265137
+          ],
+          [
+            -113.68373107910156,
+            153.39907836914062,
+            -5.699999809265137
+          ],
+          [
+            -113.68373107910156,
+            153.39907836914062,
+            25.200000762939453
+          ],
+          [
+            -113.68373107910156,
+            170.5864715576172,
+            25.200000762939453
+          ],
+          [
+            -113.68373107910156,
+            170.5864715576172,
+            -5.699999809265137
+          ]
+        ],
+        "parent": null,
+        "parent_type": "OBJECT",
+        "parent_vertices": [
+          0,
+          0,
+          0
+        ],
+        "parent_bone": "",
+        "parent_bone_head_tail_factor": 1.0,
+        "use_parent_final_indices": false,
+        "use_camera_lock_parent": false,
+        "track_axis": "POS_Y",
+        "up_axis": "Z",
+        "material_slots": [
+          {
+            "link": "DATA",
+            "material": {
+              "id_type": "Material",
+              "name": "V002 | varied salt-weathered coastal slate"
+            },
+            "slot_index": 0,
+            "name": "V002 | varied salt-weathered coastal slate",
+            "custom_properties": null
+          },
+          {
+            "link": "DATA",
+            "material": {
+              "id_type": "Material",
+              "name": "V002 | tidal slate with wet lower band"
+            },
+            "slot_index": 1,
+            "name": "V002 | tidal slate with wet lower band",
+            "custom_properties": null
+          }
+        ],
+        "active_material": {
+          "id_type": "Material",
+          "name": "V002 | varied salt-weathered coastal slate"
+        },
+        "active_material_index": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "XYZ",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          28.476760864257812,
+          17.187393188476562,
+          30.900001525878906
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "lock_location": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_rotations_4d": true,
+        "lock_scale": [
+          false,
+          false,
+          false
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "modifiers": [],
+        "shader_effects": [],
+        "constraints": [],
+        "vertex_groups": [],
+        "empty_display_type": "PLAIN_AXES",
+        "empty_display_size": 1.0,
+        "empty_image_offset": [
+          0.0,
+          0.0
+        ],
+        "image_user": null,
+        "empty_image_depth": "DEFAULT",
+        "show_empty_image_perspective": true,
+        "show_empty_image_orthographic": true,
+        "show_empty_image_only_axis_aligned": false,
+        "use_empty_image_alpha": false,
+        "empty_image_side": "DOUBLE_SIDED",
+        "add_rest_position_attribute": false,
+        "pass_index": 0,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "field": null,
+        "collision": null,
+        "soft_body": null,
+        "particle_systems": [],
+        "rigid_body": null,
+        "rigid_body_constraint": null,
+        "use_simulation_cache": true,
+        "hide_viewport": false,
+        "hide_select": false,
+        "hide_render": false,
+        "hide_probe_volume": false,
+        "hide_probe_sphere": false,
+        "hide_probe_plane": false,
+        "hide_surface_pick": false,
+        "show_instancer_for_render": true,
+        "show_instancer_for_viewport": true,
+        "visible_camera": true,
+        "visible_diffuse": true,
+        "visible_glossy": true,
+        "visible_transmission": true,
+        "visible_volume_scatter": true,
+        "visible_shadow": true,
+        "is_holdout": false,
+        "is_shadow_catcher": false,
+        "visible_raycast": true,
+        "instance_type": "NONE",
+        "use_instance_vertices_rotation": false,
+        "use_instance_faces_scale": false,
+        "instance_faces_scale": 1.0,
+        "instance_collection": null,
+        "is_instancer": false,
+        "display_type": "TEXTURED",
+        "show_bounds": false,
+        "display_bounds_type": "BOX",
+        "show_name": false,
+        "show_axis": false,
+        "show_texture_space": false,
+        "show_wire": false,
+        "show_all_edges": false,
+        "use_grease_pencil_lights": false,
+        "show_transparent": false,
+        "show_in_front": false,
+        "pose": null,
+        "show_only_shape_key": false,
+        "use_shape_key_edit_mode": false,
+        "active_shape_key": null,
+        "active_shape_key_index": 0,
+        "use_dynamic_topology_sculpting": false,
+        "is_from_instancer": false,
+        "is_from_set": false,
+        "display": {
+          "show_shadows": true,
+          "custom_properties": null
+        },
+        "lineart": {
+          "usage": "INHERIT",
+          "use_crease_override": false,
+          "crease_threshold": 2.4434609413146973,
+          "use_intersection_priority_override": false,
+          "intersection_priority": 0,
+          "custom_properties": null
+        },
+        "use_mesh_mirror_x": false,
+        "use_mesh_mirror_y": false,
+        "use_mesh_mirror_z": false,
+        "lightgroup": "",
+        "light_linking": {
+          "receiver_collection": null,
+          "blocker_collection": null,
+          "custom_properties": null
+        },
+        "shadow_terminator_normal_offset": 0.0,
+        "shadow_terminator_geometry_offset": 0.10000000149011612,
+        "shadow_terminator_shading_offset": 0.0,
+        "animation_data": null,
+        "animation_visualization": {
+          "motion_path": {
+            "type": "RANGE",
+            "range": "SCENE",
+            "bake_location": "HEADS",
+            "show_frame_numbers": false,
+            "show_keyframe_highlight": true,
+            "show_keyframe_numbers": true,
+            "show_keyframe_action_all": false,
+            "frame_step": 1,
+            "frame_start": 1,
+            "frame_end": 250,
+            "frame_before": 10,
+            "frame_after": 10,
+            "has_motion_paths": false,
+            "use_camera_space_bake": false,
+            "custom_properties": null
+          },
+          "custom_properties": null
+        },
+        "motion_path": null,
+        "selection_sets": [],
+        "active_selection_set": 0,
+        "cycles": {
+          "name": "",
+          "use_motion_blur": true,
+          "use_deform_motion": true,
+          "motion_steps": 1,
+          "use_camera_cull": false,
+          "use_distance_cull": false,
+          "shadow_terminator_offset": 0.0,
+          "shadow_terminator_geometry_offset": 0.10000000149011612,
+          "ao_distance": 0.0,
+          "is_caustics_caster": false,
+          "is_caustics_receiver": false,
+          "custom_properties": {}
+        },
+        "custom_properties": {}
+      },
+      "type": "MESH",
+      "data": "V027 | single oblique lower rock buttress",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hidden": false,
+      "parent": null,
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "slots": [
+        [
+          "DATA",
+          "V002 | varied salt-weathered coastal slate"
+        ],
+        [
+          "DATA",
+          "V002 | tidal slate with wet lower band"
+        ]
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "vertex_groups": [],
+      "custom_properties": {}
+    },
+    "visible_evaluated": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh": {
+        "hash": "008e874c35e45ef30d3157c03e3865ae48018c94cd2fa544652bf9f6b63bce09",
+        "attribute_schema": [
+          [
+            ".select_vert",
+            "BOOLEAN",
+            "POINT",
+            88
+          ],
+          [
+            ".select_edge",
+            "BOOLEAN",
+            "EDGE",
+            258
+          ],
+          [
+            ".select_poly",
+            "BOOLEAN",
+            "FACE",
+            172
+          ],
+          [
+            "sharp_face",
+            "BOOLEAN",
+            "FACE",
+            172
+          ],
+          [
+            "position",
+            "FLOAT_VECTOR",
+            "POINT",
+            88
+          ],
+          [
+            ".edge_verts",
+            "INT32_2D",
+            "EDGE",
+            258
+          ],
+          [
+            ".corner_vert",
+            "INT",
+            "CORNER",
+            516
+          ],
+          [
+            ".corner_edge",
+            "INT",
+            "CORNER",
+            516
+          ],
+          [
+            "material_index",
+            "INT",
+            "FACE",
+            172
+          ]
+        ],
+        "vertices": 88,
+        "polygons": 172,
+        "debug_payload": {
+          "attributes": [
+            {
+              "name": ".select_vert",
+              "type": "BOOLEAN",
+              "domain": "POINT",
+              "count": 88,
+              "fields": {
+                "value": {
+                  "count": 88,
+                  "type": "BOOLEAN",
+                  "width": 0,
+                  "hash": "bb204e6d8aa7b46276d619cd6dcb7e1f0bacbaaa4f453d006950cb560f38b245"
+                }
+              }
+            },
+            {
+              "name": ".select_edge",
+              "type": "BOOLEAN",
+              "domain": "EDGE",
+              "count": 258,
+              "fields": {
+                "value": {
+                  "count": 258,
+                  "type": "BOOLEAN",
+                  "width": 0,
+                  "hash": "0bd00b8f6e483c3e2194494716be68e44ec7326986d01c7d4f4c3d70b0cac70f"
+                }
+              }
+            },
+            {
+              "name": ".select_poly",
+              "type": "BOOLEAN",
+              "domain": "FACE",
+              "count": 172,
+              "fields": {
+                "value": {
+                  "count": 172,
+                  "type": "BOOLEAN",
+                  "width": 0,
+                  "hash": "3e1dcf73a260b45176948c039ce971818e115e72d45459b40f46d4c301c68b57"
+                }
+              }
+            },
+            {
+              "name": "sharp_face",
+              "type": "BOOLEAN",
+              "domain": "FACE",
+              "count": 172,
+              "fields": {
+                "value": {
+                  "count": 172,
+                  "type": "BOOLEAN",
+                  "width": 0,
+                  "hash": "3e1dcf73a260b45176948c039ce971818e115e72d45459b40f46d4c301c68b57"
+                }
+              }
+            },
+            {
+              "name": "position",
+              "type": "FLOAT_VECTOR",
+              "domain": "POINT",
+              "count": 88,
+              "fields": {
+                "vector": {
+                  "count": 88,
+                  "type": "FLOAT",
+                  "width": 3,
+                  "hash": "f97295ed7c4c9d01bd3410738afd8e20fdd85133a36696c1a5406c6a10df4a0a"
+                }
+              }
+            },
+            {
+              "name": ".edge_verts",
+              "type": "INT32_2D",
+              "domain": "EDGE",
+              "count": 258,
+              "fields": {
+                "value": {
+                  "count": 258,
+                  "type": "INT",
+                  "width": 2,
+                  "hash": "b14992d286f37f97334e5eae7c0138269342ea4f7a45e41b03ee2513466e8fe8"
+                }
+              }
+            },
+            {
+              "name": ".corner_vert",
+              "type": "INT",
+              "domain": "CORNER",
+              "count": 516,
+              "fields": {
+                "value": {
+                  "count": 516,
+                  "type": "INT",
+                  "width": 0,
+                  "hash": "d5276dc1ae78026e688de11bc81825737dc15a806c3fd295e8ff5f7dae5ae50f"
+                }
+              }
+            },
+            {
+              "name": ".corner_edge",
+              "type": "INT",
+              "domain": "CORNER",
+              "count": 516,
+              "fields": {
+                "value": {
+                  "count": 516,
+                  "type": "INT",
+                  "width": 0,
+                  "hash": "ec56628b19518a8f8c46b29ecaaedafc8589f0d90fe55b92a49f7590ce7ba49e"
+                }
+              }
+            },
+            {
+              "name": "material_index",
+              "type": "INT",
+              "domain": "FACE",
+              "count": 172,
+              "fields": {
+                "value": {
+                  "count": 172,
+                  "type": "INT",
+                  "width": 0,
+                  "hash": "ea8fab4b6a303319a5d797befd9b1d5f1ee3b78b05ed347636b38519ca1bd2c1"
+                }
+              }
+            }
+          ],
+          "topology": {
+            "vertices": {
+              "co": {
+                "count": 88,
+                "type": "FLOAT",
+                "width": 3,
+                "hash": "f97295ed7c4c9d01bd3410738afd8e20fdd85133a36696c1a5406c6a10df4a0a"
+              },
+              "select": {
+                "count": 88,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "bb204e6d8aa7b46276d619cd6dcb7e1f0bacbaaa4f453d006950cb560f38b245"
+              },
+              "hide": {
+                "count": 88,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365"
+              }
+            },
+            "edges": {
+              "vertices": {
+                "count": 258,
+                "type": "INT",
+                "width": 2,
+                "hash": "b14992d286f37f97334e5eae7c0138269342ea4f7a45e41b03ee2513466e8fe8"
+              },
+              "select": {
+                "count": 258,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "0bd00b8f6e483c3e2194494716be68e44ec7326986d01c7d4f4c3d70b0cac70f"
+              },
+              "hide": {
+                "count": 258,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "6bd3749a368b56ead82399ee6d06456c94bde1edab4477a48d4b48ea5e032053"
+              },
+              "use_seam": {
+                "count": 258,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "6bd3749a368b56ead82399ee6d06456c94bde1edab4477a48d4b48ea5e032053"
+              },
+              "use_edge_sharp": {
+                "count": 258,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "6bd3749a368b56ead82399ee6d06456c94bde1edab4477a48d4b48ea5e032053"
+              }
+            },
+            "loops": {
+              "vertex_index": {
+                "count": 516,
+                "type": "INT",
+                "width": 1,
+                "hash": "d5276dc1ae78026e688de11bc81825737dc15a806c3fd295e8ff5f7dae5ae50f"
+              },
+              "edge_index": {
+                "count": 516,
+                "type": "INT",
+                "width": 1,
+                "hash": "ec56628b19518a8f8c46b29ecaaedafc8589f0d90fe55b92a49f7590ce7ba49e"
+              }
+            },
+            "polygons": {
+              "loop_start": {
+                "count": 172,
+                "type": "INT",
+                "width": 1,
+                "hash": "a3b278b4857ee2e16a8ede89ded79e542d03f3dbd338e2c4b1cdc78ea5dd2545"
+              },
+              "loop_total": {
+                "count": 172,
+                "type": "INT",
+                "width": 1,
+                "hash": "cd4e611a054bda6889d5ce381ca875d9722f1dcfab28b47f56ab3438b4a9dd9b"
+              },
+              "material_index": {
+                "count": 172,
+                "type": "INT",
+                "width": 1,
+                "hash": "ea8fab4b6a303319a5d797befd9b1d5f1ee3b78b05ed347636b38519ca1bd2c1"
+              },
+              "use_smooth": {
+                "count": 172,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "58f218aeb259309eeb545345a8f5c715987967b0ec724806d448394da578d0b0"
+              },
+              "select": {
+                "count": 172,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "3e1dcf73a260b45176948c039ce971818e115e72d45459b40f46d4c301c68b57"
+              },
+              "hide": {
+                "count": 172,
+                "type": "BOOLEAN",
+                "width": 1,
+                "hash": "58f218aeb259309eeb545345a8f5c715987967b0ec724806d448394da578d0b0"
+              }
+            }
+          },
+          "corner_normals": {
+            "count": 516,
+            "type": "FLOAT",
+            "width": 3,
+            "hash": "e8d5343ba93849178571b0fd160d8792c753947a53a68149777608fba63d9b35"
+          },
+          "materials": [
+            "V002 | varied salt-weathered coastal slate",
+            "V002 | tidal slate with wet lower band"
+          ],
+          "weights": [],
+          "shapes": null,
+          "uv_layers": [],
+          "uv_active_index": -1,
+          "custom_properties": {}
+        }
+      }
+    }
+  },
+  "traveler_derived_UI": [
+    {
+      "object": "Traveler | full length ivory skirt",
+      "source": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      },
+      "candidate": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      }
+    },
+    {
+      "object": "Traveler | purple-red shoulder cape",
+      "source": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1976,
+          "fields": {
+            "value": {
+              "count": 1976,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1976,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+        }
+      },
+      "candidate": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1976,
+          "fields": {
+            "value": {
+              "count": 1976,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1976,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+        }
+      }
+    },
+    {
+      "object": "Traveler | white tunic",
+      "source": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      },
+      "candidate": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      }
+    }
+  ],
+  "inputs_unchanged": true
+}

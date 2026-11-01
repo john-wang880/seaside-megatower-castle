@@ -23,7 +23,7 @@ class Guards(unittest.TestCase):
   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
  def test_no_manifest_not_live(self):
   (self.repo/'checkpoints/v999').mkdir();self.assertEqual(q.latest_manifest(self.repo)[2],self.m)
- def test_reviewed_catalog(self):self.assertEqual(len(q.load_catalog(TOOL/'catalog.json')['views']),14)
+ def test_reviewed_catalog(self):self.assertEqual(len(q.load_catalog(TOOL/'catalog.json')['views']),15)
  def test_corrupt_catalog(self):
   c=self.root/'catalog.json';c.write_text((TOOL/'catalog.json').read_text()+' ')
   with self.assertRaises(q.GuardError):q.load_catalog(c)

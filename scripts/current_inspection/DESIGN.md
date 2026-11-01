@@ -1,7 +1,2 @@
-# Explicit v026 inspection refresh
-
-Base: fixedv025Git06cf897ea73fa105ba27cb7dd79af6df18587c9a. Narrow changes: reviewedsource/hash/bytes/version26, ownedINSPECT26/CASTLE26/castle26namespace, plus one parent-approvedwest_lateral bookmark. Existing13records, matrices, intent and historicalprovenance remain equal exceptownedcamera names. No behavior/quality/LOD/modelchanges.
-
-Counts are14bookmarks/13addedcameras throughout preflight, exporter, validator and runner; source-statecategories remain13 andAPInegatives20. A regression assertion checks exporter andrunnercount literals. Originalrearreceipt stays bound tov025; newlateralreceipt binds v026, while its historical sourcev025recipe bytes remain exact.
-
-Local18+24puretests passed. Actual v026viewer/reopen passed against the real staged manifest; no fake currentmanifest. Parent owns acceptance/publication after actualtests. No staleacceptance receipts or viewerbinary included. Historicalv025wrapper-countfailure stays in fixedhistory, not relabeled as v026proof.
+# v026 manual east-view extension
+Base fixedGit8e89fe44963b73bcd75bfaf59406cc808e9efd43. Exact source/version/namespace unchanged. Original14catalog records exact; one reviewed east_lateral view added.15bookmarks/14added cameras throughout guards/export/QA, source-statecategories13/APInegatives20 unchanged. No source model bump, quality/render behavior or originaldata change. Fresh actual15-bookmark/13-state/20-negative/reopen validation passed locally; remote publication remains owner responsibility.

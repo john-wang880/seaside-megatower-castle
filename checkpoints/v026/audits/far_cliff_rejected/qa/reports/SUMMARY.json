@@ -1,0 +1,50 @@
+{
+  "technical_gate_pass": true,
+  "input_sha256": {
+    "source": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+    "candidate": "d8eefc168595af6683e624dc948c46dc1ce994745c1c2694eacc6c8cf060f914"
+  },
+  "reports": {
+    "final_positive.json": "41c6a50d76cc8869a5238409807fc95b364aef385adecaa85e45bf758152613d",
+    "solid_contacts.json": "0f034c6d05d1bf4b4780c5804f5df53757562123f3141670b5744e61583adc70",
+    "touches.json": "ab2ec8b8dd85f52881872437c24906aeee7badfb43b9dac76a2f2d84605de40c",
+    "native_controls.json": "246047c0f4dfc65b80bc8e6d4771bdf059372a2880a410b4658a51b4719b206b",
+    "actual_geometry_controls.json": "0b1c3a30a5a45ba4bcff975fc03ec376e0e5fe44ee35d2330ab8e711d8661adb",
+    "predicate_controls.json": "228370b6a1270f906e9e9d5575eac382a7cb3b25c08089999bbd844a97500b24"
+  },
+  "script_sha256": {
+    "audit_geometry.py": "9e84126b23c5053771038a6c0309b3baaaf549757bbdd2b7b9df776e3206076f",
+    "geometry_checks.py": "4464c5265aac951cc1b0ac87465ce1a43be7f79f64dcaece529bedc4e8663233",
+    "test_predicates.py": "936065cf1db58a74b1d859fc6488897642e0d408e25592295695efa659bb4960",
+    "diagnose_initial.py": "a3160b54db74cccc8a55d28775c1cfb07a252d6899522167bbc230795a12cc7d",
+    "coplanar_predicate.py": "ac413106e3d4c137ae67f50eaedc49e9174594c8f44c7f259d6eacae0c96eb4c",
+    "check_touches.py": "b4a2b6c00ddd8be12f0f3df48f98dbed33397c10ac2763ee85c51e27d5b70fc0",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "test_actual_geometry.py": "7fa0438fb1bc39ffe82efcef4779a312c3e7a1e210fde7ee0dc0fe610e4bc439",
+    "run_native_checks.py": "6534cfee157eb0752cc44a7e21a42d9b5f80b917f19acfd87a61aeebc4935129",
+    "surface_partition.py": "0cbbd0597518201e1b9f32761fecc4b89225f80618d6a3e508b92ea50d29c4cb",
+    "validate_preservation.py": "7be1f5861770569cd492793db2e67833f862500321a1577a5758f08a061272ae"
+  },
+  "saved_counts": [
+    88,
+    172
+  ],
+  "signed_volume": 3216.31385500257,
+  "minimum_area": 0.42249633823828464,
+  "positive_overlap_balls": 8,
+  "minimum_overlap_ball_radius": 0.04999999999998208,
+  "source_categories": 12,
+  "all_original56_recipe_vertices_exact": true,
+  "only32_internal_return_vertices_added": true,
+  "existing_material_assignment_matches_centroid_rule": true,
+  "geometry_controls": 6,
+  "native_negative_controls": 2,
+  "mathematical_controls": 11,
+  "no_unintended_surface_neighbors": true,
+  "positive_area_coplanar_contacts": 0,
+  "strict_and_tangent_self_contacts_outside_shared_topology": 0,
+  "source_and_candidate_unchanged": true,
+  "model_saved_by_qa": false,
+  "rendered_by_qa": false,
+  "scope": "One closed additive buttress, not a globally welded terrain. Above-water source overlap and connectivity proven at explicit tested water extrema/zero, static fluid intersections only, no load/waterproofing/navigation certification. Original occupied set retained by exact source preservation plus additive union. Actual east/hero/rear artistic acceptance remains required."
+}

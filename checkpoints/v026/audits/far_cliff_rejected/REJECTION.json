@@ -1,0 +1,15 @@
+{
+  "status": "REJECTED_ARTISTIC_TRIAL_NOT_CURRENT_VERSION",
+  "working_trial_label": "v027_far_buttress",
+  "accepted_model_remains": "v026",
+  "accepted_source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "rejected_candidate_sha256": "d8eefc168595af6683e624dc948c46dc1ce994745c1c2694eacc6c8cf060f914",
+  "candidate_blend_included": false,
+  "parent_owner_independent_art_decision": "Reject",
+  "actual_visual_reason": "Pale triangular engineered fin against the cliff; not a coherent lower geological shoulder or worthwhile macroform improvement",
+  "technical_gate": "Passed independent topology/source/attachment/water/coplanar gates; technical validity does not imply artistic acceptance",
+  "next_action": "Retain source; no hero/rear render, shape/color/offset tuning or amplification",
+  "source_restore_commit": "b9015e58605c5a6d211bd7a977ad5fed542f8769",
+  "accepted_state_reference_commit": "8e89fe44963b73bcd75bfaf59406cc808e9efd43",
+  "remote_publication_complete": false
+}

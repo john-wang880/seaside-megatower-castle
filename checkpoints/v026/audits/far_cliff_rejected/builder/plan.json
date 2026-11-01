@@ -1,0 +1,74 @@
+{
+  "schema": "v027-one-oblique-added-buttress-v1",
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "source_bytes": 47680699,
+  "source_cliff": "V002 | western headland with solid rock shore",
+  "collection": "V027 | far-cliff buttress study",
+  "object": "V027 | single oblique lower rock buttress",
+  "mesh": "V027 | single oblique lower rock buttress",
+  "materials": [
+    "V002 | varied salt-weathered coastal slate",
+    "V002 | tidal slate with wet lower band"
+  ],
+  "bounds": [
+    [
+      -146.3971405029297,
+      149.37875366210938,
+      -6.5
+    ],
+    [
+      -107.07364654541016,
+      183.944580078125,
+      29.26650619506836
+    ]
+  ],
+  "sections": [
+    {
+      "order": 191,
+      "crest_z": 22.0,
+      "width": -0.25
+    },
+    {
+      "order": 192,
+      "crest_z": 24.2,
+      "width": 4.1
+    },
+    {
+      "order": 193,
+      "crest_z": 21.6,
+      "width": 8.6
+    },
+    {
+      "order": 194,
+      "crest_z": 18.4,
+      "width": 8.1
+    },
+    {
+      "order": 195,
+      "crest_z": 16.3,
+      "width": 6.6
+    },
+    {
+      "order": 196,
+      "crest_z": 14.1,
+      "width": 4.8
+    },
+    {
+      "order": 197,
+      "crest_z": 11.8,
+      "width": 2.6
+    },
+    {
+      "order": 198,
+      "crest_z": 9.5,
+      "width": -0.25
+    }
+  ],
+  "back_inset": -0.9,
+  "bottom_z": -5.7,
+  "triangle_budget": 800,
+  "wet_face_center_z_below": 1.0,
+  "cross_section_description": "Six buried inner source-profile stations at outer heights, then five unchanged outer crest/face/foot points;11vertices per section",
+  "source_preservation": "All original objects/meshes/material/world/light data retained; combined occupied union not globally welded terrain",
+  "technical_correction": "Subdivide buried back return only; all seven prior section coordinates retained exactly, no inset/outer width/crest change"
+}

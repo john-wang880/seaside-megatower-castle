@@ -1,0 +1,20 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.466  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/castle_v026.blend"
+00:10.553  cycles           | WARNING CUEW initialization failed: Error opening the library
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027_far_buttress/build.py", line 115, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027_far_buttress/build.py", line 97, in main
+    need(not strict,'Strict nonadjacent self crossing')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027_far_buttress/build.py", line 7, in need
+    if not ok:raise RuntimeError(message)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Strict nonadjacent self crossing
+
+Error: script failed, file: 'work/v027_far_buttress/build.py', exiting.
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

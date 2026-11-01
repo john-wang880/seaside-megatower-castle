@@ -1,0 +1,31 @@
+{
+  "base_commit": "8e89fe44963b73bcd75bfaf59406cc808e9efd43",
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "model_version_unchanged": 26,
+  "existing_14_records_exact": true,
+  "added_view": "east_lateral",
+  "catalog_sha256": "03405e881888a989bfda1da2eb763138e204134e422a807c5843b514a7fe56c0",
+  "status": "staged before fresh actualvalidation",
+  "base_hashes": {
+    "preflight.py": "c652a864983a4b2efb3b4750fc590b04a279db0bac609357fdddb3ca327bb62f",
+    "export_inspection.py": "9d9f7879f8a137d0cca174581fdef0cf2882d48326b581f7a8aab5af5c2d531a",
+    "ui_template.py": "55dc286da161ae42129c9c5241f761a479a3b59e41cf03c2d614f9bfc0dab32c",
+    "test_preflight.py": "2dbbff16800c9ce5d8d1c54e187c1dd99ac49be1f9ca6664b815e737bec4abdd",
+    "catalog.json": "de7060701c8a6e3e53a9020d655d12e8a54d4e8ec2782091bc11e6d12df780b0",
+    "README.md": "06b44640edd00730cc34c32395a727bbbd6f1ec73b4771f013c4d5c612618f26",
+    "DESIGN.md": "2875d589be95c304e7f8f251aa7ee2a2028140242baa792ae866de5b7c3b6a3e",
+    "qa/README.md": "b7d8e89b1aedbaf16e18a65559d6ead33bd51e8b4c9b22c8faea7e0e27f200bb",
+    "qa/run_qa.py": "fcbc3c3d33a38ef83526aa870860ac7fdc05eb4261eaf3deaf7e0b14b462c8da",
+    "qa/validate_copy.py": "f8c800e4b409ebc36253adc4b77c5f4d446209a4e9869d601df91689fb9f793c",
+    "qa/snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "qa/test_preflight_independent.py": "772e3e5b64174b133e444238fdf63041ea78a14457ddc917c1eeecf0f7611b3d",
+    "provenance/west_lateral_v026_receipt.json": "e5748c98a1f8a7848e5d60d49bcd11d4b2c9da3bd0a86d13c9d9af33f3e50987",
+    "provenance/mapping.json": "217aeacf00ce9dd5391c0cee6ceb8d970d97a6d4be57f237eca78e53365e46f5",
+    "provenance/west_lateral_views.json": "97f6eedddaa87940b8963f001b76e95777a36c9520e33b2939d32bb19df1fb29",
+    "provenance/bridge_close_views.json": "6d8dbb2b78baf23c041e51604bdbb788298ef68805bb411e5cbb8c678c0bc115",
+    "provenance/rear_landward_v025_receipt.json": "dd701706defcb6f78e7b4215a12b5cfe2ab7c63c511abb05458016a61dcf00b9",
+    "provenance/rear_landward_views.json": "c050406219724d64beca61561cacb297c9280c641ee456b64312939ba312faf2",
+    "provenance/west_lower_tier_views.json": "254eb8a9958204f1dde6ff5e7efefaae26212a076bd674de6c156c7338f24a59",
+    "provenance/path_context_views.json": "ed6365ccf22cc70258b28ab8899a426403934baa7212102845cff50460edd81e"
+  }
+}

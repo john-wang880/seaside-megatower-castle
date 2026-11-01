@@ -735,6 +735,60 @@
         "render_source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
         "note": "Explicitly approved actual v026 west lateral overview. Elevated inspection, not a route/accessibility proof. Historical recipe sourcev025 retained; actual receipt binds v026. No new render."
       }
+    },
+    "east_lateral": {
+      "label": "东侧总览 / Elevated east lateral overview",
+      "camera_name": "INSPECT26 | east_lateral",
+      "existing": false,
+      "matrix": [
+        [
+          -0.18140555918216705,
+          -0.1394161432981491,
+          0.9734758138656616,
+          480.0
+        ],
+        [
+          0.9834083914756775,
+          -0.025717435404658318,
+          0.17957334220409393,
+          150.0
+        ],
+        [
+          -1.2095260615296866e-07,
+          0.9898998737335205,
+          0.14176829159259796,
+          180.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 45.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "recipe": "provenance/east_lateral_views.json",
+        "recipe_sha256": "d7fa0436fd4d6fa553946538572b8f1a97fa700993dc09a3bd64468f7271cb17",
+        "receipt": "provenance/east_lateral_v026_receipt.json",
+        "receipt_sha256": "7e92cdf8cc31ca5797c869471c787f402a4558aaf213d7a3c65f0f172b566c97",
+        "render_source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+        "note": "Explicitly approved actual v026 east overview, manual bookmark15. Elevated architectural inspection, not a continuous route/accessibility proof; no model bump or new render."
+      }
     }
   }
 }

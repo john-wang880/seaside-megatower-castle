@@ -1,0 +1,62 @@
+{
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "source_scene_frame": 1,
+  "resolution": [
+    1200,
+    866
+  ],
+  "samples": 80,
+  "threads": 8,
+  "view_scope": "Elevated east lateral discovery, not walkthrough",
+  "views": {
+    "east_lateral": {
+      "location": [
+        480.0,
+        150.0,
+        180.0
+      ],
+      "target": [
+        -35.0,
+        55.0,
+        105.0
+      ],
+      "lens": 45,
+      "reference_matrix": [
+        [
+          -0.18140555918216705,
+          -0.1394161432981491,
+          0.9734758138656616,
+          480.0
+        ],
+        [
+          0.9834083914756775,
+          -0.025717435404658318,
+          0.17957334220409393,
+          150.0
+        ],
+        [
+          -1.2095260615296866e-07,
+          0.9898998737335205,
+          0.14176829159259796,
+          180.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_data": {
+        "lens": 45.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0
+      }
+    }
+  }
+}
