@@ -1,0 +1,131 @@
+{
+  "recommendation": "Do not build the proposed hidden mounts on visual evidence alone; defer repair, retain V018.",
+  "image": "work/ornament_attachment_trial/visual/actual/ornaments_before.png",
+  "image_sha256": "f07982ec53da5974f8d351d3946b76b804cbcfb9b926b3fd7d365b495e69c56c",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "actual_lighting": true,
+  "source_saved": false,
+  "camera": {
+    "view": "ornaments_before",
+    "initial_recipe": {
+      "location": [
+        68,
+        -35,
+        78
+      ],
+      "target": [
+        36,
+        24,
+        72
+      ],
+      "lens": 55,
+      "bounds": [
+        [
+          17.5,
+          23,
+          65
+        ],
+        [
+          54.5,
+          27,
+          80
+        ]
+      ]
+    },
+    "distance_scale": 1.05,
+    "location": [
+      69.5999984741211,
+      -37.94999694824219,
+      78.30000305175781
+    ],
+    "target": [
+      36.0,
+      24.0,
+      72.0
+    ],
+    "lens": 55.0,
+    "matrix": [
+      [
+        0.8790318369865417,
+        -0.04245005548000336,
+        0.4748694896697998,
+        69.5999984741211
+      ],
+      [
+        0.4767630994319916,
+        0.07826726883649826,
+        -0.8755404949188232,
+        -37.94999694824219
+      ],
+      [
+        4.0961634084624166e-09,
+        0.9960282444953918,
+        0.08903803676366806,
+        78.30000305175781
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "target_region_projection": [
+      [
+        0.1774684339761734,
+        0.3327212631702423,
+        79.28910064697266
+      ],
+      [
+        0.17194250226020813,
+        0.7355978488922119,
+        77.95352935791016
+      ],
+      [
+        0.22630338370800018,
+        0.34780266880989075,
+        82.79126739501953
+      ],
+      [
+        0.2218157798051834,
+        0.7336049675941467,
+        81.45569610595703
+      ],
+      [
+        0.8907467126846313,
+        0.23122553527355194,
+        61.718929290771484
+      ],
+      [
+        0.899389386177063,
+        0.7490851283073425,
+        60.383358001708984
+      ],
+      [
+        0.9144368767738342,
+        0.25581976771354675,
+        65.2210922241211
+      ],
+      [
+        0.9231008887290955,
+        0.7458047866821289,
+        63.885520935058594
+      ]
+    ],
+    "center_ray": {
+      "hit": false,
+      "object": null,
+      "point": null,
+      "distance": null,
+      "target_distance": 70.7562850748539
+    },
+    "bounds_scope": "Selected bounded gallery/cornice region only; not whole tower or every connected component."
+  },
+  "findings": [
+    "All four diamond-shaped relief ornaments are visible in the same1200x866 medium-oblique actual view with adjacent ribs, corbels and cornice.",
+    "They read as applied relief buttons at this scale. No clear daylight separation or missing attachment is visually resolved strongly enough to establish an obvious repair benefit.",
+    "This negative visual finding does not deny the independently measured geometric separation. It distinguishes mathematical contact incompleteness from a worthwhile visible refinement."
+  ],
+  "decision_boundary": "No extra close-up, relighting or render loop requested. Parent may assess the delivered original image; no geometry or material change was made.",
+  "elapsed_render_seconds": 80.5673331880098
+}

@@ -18,3 +18,6 @@
 如需重算，先在仓库根目录把本目录复制到一个**尚不存在**的`work/gallery_support_graph_v018`，再解压geometry.json到该复制目录。已有同名研究目录应保留，另用干净工作副本，不覆盖。随后`python work/gallery_support_graph_v018/graph.py`、`islands.py`、`connected_gaps.py`依次重算保存几何的报告；耗时数分钟。此过程不启动Blender，不重新读取源模型，不构成新的全场景验证。`export.py`仅记录当时提取方法，依赖原研究输入路径，不应无检查盲跑。
 
 原证据SHA清单保留原脚本和报告身份；此README、压缩包装、根部和分类附件由归档步骤添加。原v018源SHA仍`c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd`。
+
+## 后续实景关口已关闭
+[四菱形贴饰中等斜视图](practical_ornaments/README.md)未证明可见修复收益，条件性背部固定件未构建。保留测量间隙，不冒称连接已正确；不追加微距找问题。

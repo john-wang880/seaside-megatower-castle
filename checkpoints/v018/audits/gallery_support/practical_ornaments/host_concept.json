@@ -1,0 +1,673 @@
+{
+  "status": "NOT_BUILT_PRACTICAL_VISUAL_BENEFIT_UNPROVEN",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "input_sha256": {
+    "geometry.json": "a035a9b018159e3c542ceb7243bb0651cde3df2b1c802e3e04fb4e58db0287d6",
+    "support_graph.json": "a026a6c730e477d377eb385679708e6bc0e5420055dd554de2d22ff4a13b078c",
+    "unresolved_islands.json": "9295b5c08e5a7d72f42ebccfd2ef39020ebe1f1b74b111fe83b72082fdb0e49e"
+  },
+  "rows": [
+    {
+      "diamond_node": 3792,
+      "diamond_seed": 33172,
+      "diamond_bounds": [
+        [
+          18.472200393676758,
+          23.920000076293945,
+          71.56536102294922
+        ],
+        [
+          19.327800750732422,
+          24.079999923706055,
+          72.19464111328125
+        ]
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "island_members": [
+        {
+          "object": "V006 | main facade with one short jointed rib sample",
+          "seed": 33172,
+          "bounds": [
+            [
+              18.472200393676758,
+              23.920000076293945,
+              71.56536102294922
+            ],
+            [
+              19.327800750732422,
+              24.079999923706055,
+              72.19464111328125
+            ]
+          ]
+        },
+        {
+          "object": "Citadel | relief flowers and shadowed sculpture",
+          "seed": 15342,
+          "bounds": [
+            [
+              18.209999084472656,
+              24.059999465942383,
+              71.46600341796875
+            ],
+            [
+              19.59000015258789,
+              24.18000030517578,
+              72.29399871826172
+            ]
+          ]
+        },
+        {
+          "object": "Citadel | small verdigris fittings",
+          "seed": 2084,
+          "bounds": [
+            [
+              18.775800704956055,
+              23.885000228881836,
+              71.80548095703125
+            ],
+            [
+              19.024200439453125,
+              23.93000030517578,
+              71.95452117919922
+            ]
+          ]
+        }
+      ],
+      "nearest_island_gap_m": 0.6100006103515625,
+      "chosen_host": {
+        "node": 3789,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33148,
+        "bounds": [
+          [
+            18.7450008392334,
+            24.790000915527344,
+            66.36000061035156
+          ],
+          [
+            19.05500030517578,
+            25.40999984741211,
+            74.15999603271484
+          ]
+        ],
+        "root_chain": [
+          {
+            "node": 3789,
+            "object": "V006 | main facade with one short jointed rib sample",
+            "seed": 33148,
+            "bounds": [
+              [
+                18.7450008392334,
+                24.790000915527344,
+                66.36000061035156
+              ],
+              [
+                19.05500030517578,
+                25.40999984741211,
+                74.15999603271484
+              ]
+            ]
+          },
+          {
+            "node": 4446,
+            "object": "V005 | main tower calibrated stone surface",
+            "seed": 200,
+            "bounds": [
+              [
+                16.200000762939453,
+                25.0,
+                73.91999816894531
+              ],
+              [
+                55.20000076293945,
+                63.0,
+                74.69999694824219
+              ]
+            ]
+          },
+          {
+            "node": 4437,
+            "object": "V005 | main tower calibrated stone surface",
+            "seed": 8,
+            "bounds": [
+              [
+                42.5,
+                30.5,
+                42.0
+              ],
+              [
+                51.5,
+                59.5,
+                180.0
+              ]
+            ]
+          }
+        ]
+      },
+      "conditional_mount_bounds": [
+        [
+          18.81000057220459,
+          24.055,
+          71.79000106811523
+        ],
+        [
+          18.99000057220459,
+          24.83,
+          71.97000106811524
+        ]
+      ],
+      "mount_size": [
+        0.18,
+        0.775,
+        0.18
+      ],
+      "nominal_diamond_embedding_m": 0.025,
+      "nominal_host_embedding_m": 0.04,
+      "front_projection_rhombus_margin": 0.5035802572967991
+    },
+    {
+      "diamond_node": 3797,
+      "diamond_seed": 33212,
+      "diamond_bounds": [
+        [
+          27.272199630737305,
+          23.920000076293945,
+          71.56536102294922
+        ],
+        [
+          28.12779998779297,
+          24.079999923706055,
+          72.19464111328125
+        ]
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "island_members": [
+        {
+          "object": "V006 | main facade with one short jointed rib sample",
+          "seed": 33212,
+          "bounds": [
+            [
+              27.272199630737305,
+              23.920000076293945,
+              71.56536102294922
+            ],
+            [
+              28.12779998779297,
+              24.079999923706055,
+              72.19464111328125
+            ]
+          ]
+        },
+        {
+          "object": "Citadel | relief flowers and shadowed sculpture",
+          "seed": 15438,
+          "bounds": [
+            [
+              27.010000228881836,
+              24.059999465942383,
+              71.46600341796875
+            ],
+            [
+              28.389999389648438,
+              24.18000030517578,
+              72.29399871826172
+            ]
+          ]
+        },
+        {
+          "object": "Citadel | small verdigris fittings",
+          "seed": 2100,
+          "bounds": [
+            [
+              27.5757999420166,
+              23.885000228881836,
+              71.80548095703125
+            ],
+            [
+              27.824199676513672,
+              23.93000030517578,
+              71.95452117919922
+            ]
+          ]
+        }
+      ],
+      "nearest_island_gap_m": 0.32012261064186337,
+      "chosen_host": {
+        "node": 3794,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33188,
+        "bounds": [
+          [
+            27.545000076293945,
+            24.790000915527344,
+            66.36000061035156
+          ],
+          [
+            27.854999542236328,
+            25.40999984741211,
+            74.15999603271484
+          ]
+        ],
+        "root_chain": [
+          {
+            "node": 3794,
+            "object": "V006 | main facade with one short jointed rib sample",
+            "seed": 33188,
+            "bounds": [
+              [
+                27.545000076293945,
+                24.790000915527344,
+                66.36000061035156
+              ],
+              [
+                27.854999542236328,
+                25.40999984741211,
+                74.15999603271484
+              ]
+            ]
+          },
+          {
+            "node": 4446,
+            "object": "V005 | main tower calibrated stone surface",
+            "seed": 200,
+            "bounds": [
+              [
+                16.200000762939453,
+                25.0,
+                73.91999816894531
+              ],
+              [
+                55.20000076293945,
+                63.0,
+                74.69999694824219
+              ]
+            ]
+          },
+          {
+            "node": 4437,
+            "object": "V005 | main tower calibrated stone surface",
+            "seed": 8,
+            "bounds": [
+              [
+                42.5,
+                30.5,
+                42.0
+              ],
+              [
+                51.5,
+                59.5,
+                180.0
+              ]
+            ]
+          }
+        ]
+      },
+      "conditional_mount_bounds": [
+        [
+          27.609999809265137,
+          24.055,
+          71.79000106811523
+        ],
+        [
+          27.789999809265137,
+          24.83,
+          71.97000106811524
+        ]
+      ],
+      "mount_size": [
+        0.18,
+        0.775,
+        0.18
+      ],
+      "nominal_diamond_embedding_m": 0.025,
+      "nominal_host_embedding_m": 0.04,
+      "front_projection_rhombus_margin": 0.5035802572967991
+    },
+    {
+      "diamond_node": 3802,
+      "diamond_seed": 33252,
+      "diamond_bounds": [
+        [
+          44.17219924926758,
+          23.920000076293945,
+          71.56536102294922
+        ],
+        [
+          45.027801513671875,
+          24.079999923706055,
+          72.19464111328125
+        ]
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "island_members": [
+        {
+          "object": "V006 | main facade with one short jointed rib sample",
+          "seed": 33252,
+          "bounds": [
+            [
+              44.17219924926758,
+              23.920000076293945,
+              71.56536102294922
+            ],
+            [
+              45.027801513671875,
+              24.079999923706055,
+              72.19464111328125
+            ]
+          ]
+        },
+        {
+          "object": "Citadel | relief flowers and shadowed sculpture",
+          "seed": 15534,
+          "bounds": [
+            [
+              43.90999984741211,
+              24.059999465942383,
+              71.46600341796875
+            ],
+            [
+              45.290000915527344,
+              24.18000030517578,
+              72.29399871826172
+            ]
+          ]
+        },
+        {
+          "object": "Citadel | small verdigris fittings",
+          "seed": 2116,
+          "bounds": [
+            [
+              44.475799560546875,
+              23.885000228881836,
+              71.80548095703125
+            ],
+            [
+              44.72420120239258,
+              23.93000030517578,
+              71.95452117919922
+            ]
+          ]
+        }
+      ],
+      "nearest_island_gap_m": 0.6100006103515625,
+      "chosen_host": {
+        "node": 3799,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33228,
+        "bounds": [
+          [
+            44.44499969482422,
+            24.790000915527344,
+            66.36000061035156
+          ],
+          [
+            44.755001068115234,
+            25.40999984741211,
+            74.15999603271484
+          ]
+        ],
+        "root_chain": [
+          {
+            "node": 3799,
+            "object": "V006 | main facade with one short jointed rib sample",
+            "seed": 33228,
+            "bounds": [
+              [
+                44.44499969482422,
+                24.790000915527344,
+                66.36000061035156
+              ],
+              [
+                44.755001068115234,
+                25.40999984741211,
+                74.15999603271484
+              ]
+            ]
+          },
+          {
+            "node": 4446,
+            "object": "V005 | main tower calibrated stone surface",
+            "seed": 200,
+            "bounds": [
+              [
+                16.200000762939453,
+                25.0,
+                73.91999816894531
+              ],
+              [
+                55.20000076293945,
+                63.0,
+                74.69999694824219
+              ]
+            ]
+          },
+          {
+            "node": 4437,
+            "object": "V005 | main tower calibrated stone surface",
+            "seed": 8,
+            "bounds": [
+              [
+                42.5,
+                30.5,
+                42.0
+              ],
+              [
+                51.5,
+                59.5,
+                180.0
+              ]
+            ]
+          }
+        ]
+      },
+      "conditional_mount_bounds": [
+        [
+          44.51000038146972,
+          24.055,
+          71.79000106811523
+        ],
+        [
+          44.69000038146973,
+          24.83,
+          71.97000106811524
+        ]
+      ],
+      "mount_size": [
+        0.18,
+        0.775,
+        0.18
+      ],
+      "nominal_diamond_embedding_m": 0.025,
+      "nominal_host_embedding_m": 0.04,
+      "front_projection_rhombus_margin": 0.5035807262826117
+    },
+    {
+      "diamond_node": 3807,
+      "diamond_seed": 33292,
+      "diamond_bounds": [
+        [
+          52.572200775146484,
+          23.920000076293945,
+          71.56536102294922
+        ],
+        [
+          53.427799224853516,
+          24.079999923706055,
+          72.19464111328125
+        ]
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "island_members": [
+        {
+          "object": "V006 | main facade with one short jointed rib sample",
+          "seed": 33292,
+          "bounds": [
+            [
+              52.572200775146484,
+              23.920000076293945,
+              71.56536102294922
+            ],
+            [
+              53.427799224853516,
+              24.079999923706055,
+              72.19464111328125
+            ]
+          ]
+        },
+        {
+          "object": "Citadel | relief flowers and shadowed sculpture",
+          "seed": 15630,
+          "bounds": [
+            [
+              52.310001373291016,
+              24.059999465942383,
+              71.46600341796875
+            ],
+            [
+              53.689998626708984,
+              24.18000030517578,
+              72.29399871826172
+            ]
+          ]
+        },
+        {
+          "object": "Citadel | small verdigris fittings",
+          "seed": 2132,
+          "bounds": [
+            [
+              52.87580108642578,
+              23.885000228881836,
+              71.80548095703125
+            ],
+            [
+              53.12419891357422,
+              23.93000030517578,
+              71.95452117919922
+            ]
+          ]
+        }
+      ],
+      "nearest_island_gap_m": 0.4200000762939453,
+      "chosen_host": {
+        "node": 3804,
+        "object": "V006 | main facade with one short jointed rib sample",
+        "seed": 33268,
+        "bounds": [
+          [
+            52.845001220703125,
+            24.790000915527344,
+            66.36000061035156
+          ],
+          [
+            53.154998779296875,
+            25.40999984741211,
+            74.15999603271484
+          ]
+        ],
+        "root_chain": [
+          {
+            "node": 3804,
+            "object": "V006 | main facade with one short jointed rib sample",
+            "seed": 33268,
+            "bounds": [
+              [
+                52.845001220703125,
+                24.790000915527344,
+                66.36000061035156
+              ],
+              [
+                53.154998779296875,
+                25.40999984741211,
+                74.15999603271484
+              ]
+            ]
+          },
+          {
+            "node": 4446,
+            "object": "V005 | main tower calibrated stone surface",
+            "seed": 200,
+            "bounds": [
+              [
+                16.200000762939453,
+                25.0,
+                73.91999816894531
+              ],
+              [
+                55.20000076293945,
+                63.0,
+                74.69999694824219
+              ]
+            ]
+          },
+          {
+            "node": 4437,
+            "object": "V005 | main tower calibrated stone surface",
+            "seed": 8,
+            "bounds": [
+              [
+                42.5,
+                30.5,
+                42.0
+              ],
+              [
+                51.5,
+                59.5,
+                180.0
+              ]
+            ]
+          }
+        ]
+      },
+      "conditional_mount_bounds": [
+        [
+          52.91,
+          24.055,
+          71.79000106811523
+        ],
+        [
+          53.09,
+          24.83,
+          71.97000106811524
+        ]
+      ],
+      "mount_size": [
+        0.18,
+        0.775,
+        0.18
+      ],
+      "nominal_diamond_embedding_m": 0.025,
+      "nominal_host_embedding_m": 0.04,
+      "front_projection_rhombus_margin": 0.5035797883088955
+    }
+  ],
+  "material_evidence": "Renderer readonly preflight: V006 slot0 Citadel \u2022 warm carved stone; relief flowers slot0 Citadel \u2022 aged carved recesses. Raw component audit maps all four diamonds and chosen ribs to V006 slot0. Conditional new mounts reuse that exact existing material without shader changes.",
+  "limits": [
+    "No source load/save or prototype created.",
+    "Small central mount suggested as additive attachment, not engineering sizing.",
+    "Front projection hidden does not mean hidden in oblique view; actual before/after evaluation required if built.",
+    "All other unresolved ornaments, including ambiguous17, unchanged.",
+    "Nearest-gap evidence delegated to independent graph; semantic host choice based repeated center alignment and root-connected masonry."
+  ],
+  "material_receipt": "visual/actual/preflight.json",
+  "visual_gate": {
+    "image": "visual/actual/ornaments_before.png",
+    "review": "Personally viewed delivered1200px actual-light image. All four ornaments read as relief buttons; no clearly visible daylight/missing-mount defect. Geometric gaps remain real; visual negative is not a contact PASS.",
+    "recommendation": "Do not build conditional mounts solely to change a graph result; retain evidence and unchanged canonical v018."
+  }
+}

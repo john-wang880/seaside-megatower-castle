@@ -321,3 +321,6 @@ Added separate runner/worker/runtime helper with immutable frozen inputs, fresh 
 
 ## 2026-11-01 — evaluated support graph and ornamental separation findings
 Expanded430closed-piece sample to full evaluated components;5,237candidate solids and2,922contact tests.301targets connect to nominated primary masonry,112targets form12direct-neighborhood separated ornament islands,17targets remain neighborhood-limited. Visibility omission check passed; actual-surface distances distinguish disconnected brass from root-connected hosts. No model edit. Archive includes losslessly compressed geometry with originalSHA and bounded controls. A single practical diamond-applique view is pending before any repair decision.
+
+## 2026-11-01 — practical ornament gate, no prototype
+One actual1200×866/80sample oblique view completed. Four appliques read as relief buttons, no clear visible attachment improvement established; feasible hidden-mount concept remains unbuilt. Measured separation is not erased, and17limited targets remain uncertain. No further zoom/render loop, no model version.
