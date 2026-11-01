@@ -1,0 +1,1220 @@
+{
+  "pass": true,
+  "model_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "original_source_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "inputs": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote_full_qa/historical/v024.json": "0a473b0ea580914720ce41eadef3a78a89562c164cf1c40b83d2f61628b67134",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_geometry.json": "11db54ee09d2367fccb112a0d75e4ac6406174eec3d6f4cb87a13b00051dc515",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_preservation.json": "9a3eeca63708cd1e718c5582b7eec57fa471612ae1f83c093fec6d07b3c6bc64"
+  },
+  "all_contact_triangles_on_original_occupied_union_boundary": true,
+  "unchanged_neighbor_geometry_basis": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true
+  },
+  "records": [
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "contact_triangles": [
+        {
+          "saved_triangle_index": 99,
+          "triangle_area": 178.02777762294863,
+          "original_union_boundary_coverage": 178.02777762294866,
+          "reference_pieces": [
+            {
+              "reference_boundary_piece": 372,
+              "area": 3.205084859042742,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 373,
+              "area": 19.256069402048933,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 374,
+              "area": 2.0411885581319567,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 376,
+              "area": 0.0021947078727944103,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 382,
+              "area": 0.002222570646946309,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 388,
+              "area": 0.0006797528182644896,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 389,
+              "area": 0.0015163959345727562,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 395,
+              "area": 0.0006834257204033634,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 396,
+              "area": 0.0004493232344309206,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 397,
+              "area": 0.0010763457576494773,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 442,
+              "area": 0.7671166649143899,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 446,
+              "area": 5.499261992778521,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 458,
+              "area": 0.13341284551503918,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 459,
+              "area": 7.947896667697137,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 460,
+              "area": 1.8449242808587485,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 461,
+              "area": 0.0015513926293522218,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 462,
+              "area": 0.0015701817991953249,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 463,
+              "area": 1.3317950504515181,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 464,
+              "area": 10.583189690020564,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 465,
+              "area": 36.201200887582196,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 471,
+              "area": 3.6341658422987564,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 472,
+              "area": 1.233922805386726,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 473,
+              "area": 0.0010141947755641922,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 474,
+              "area": 0.0003790950193263143,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 475,
+              "area": 2.579259711589401,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 476,
+              "area": 1.6177949277507366,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 477,
+              "area": 0.6713415460313854,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 478,
+              "area": 0.0010857521087643818,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 479,
+              "area": 2.9150246077609836,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 480,
+              "area": 0.757062584788514,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 481,
+              "area": 0.7117989381440566,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 482,
+              "area": 4.770998695013759,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 483,
+              "area": 22.54353065921348,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 484,
+              "area": 2.5202151112072144,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 485,
+              "area": 0.002652041218588863,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 486,
+              "area": 0.0026855890078891775,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 487,
+              "area": 22.613124191200512,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 488,
+              "area": 1.1784868411251352,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 489,
+              "area": 0.0008608361440280987,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 490,
+              "area": 0.0008709129242561175,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 491,
+              "area": 0.4633410256574848,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 492,
+              "area": 1.9392913850870777,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 493,
+              "area": 0.9256377347878768,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 494,
+              "area": 0.0010688791084021432,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 495,
+              "area": 0.0010826033707385108,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 496,
+              "area": 0.0010698859639628466,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 497,
+              "area": 17.971805732844146,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 498,
+              "area": 0.14512049796453041,
+              "original_operand": null
+            }
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781
+        },
+        {
+          "saved_triangle_index": 100,
+          "triangle_area": 184.6252789866121,
+          "original_union_boundary_coverage": 184.62527898661216,
+          "reference_pieces": [
+            {
+              "reference_boundary_piece": 370,
+              "area": 24.46181972686111,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 371,
+              "area": 31.176280906512602,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 398,
+              "area": 0.0022381352782758768,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 399,
+              "area": 0.005020160726417089,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 400,
+              "area": 0.0022248058081686395,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 401,
+              "area": 0.004615146124820058,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 402,
+              "area": 0.002234981823448834,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 403,
+              "area": 0.0019701834486340886,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 404,
+              "area": 0.007261971037905823,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 405,
+              "area": 2.158644413475372,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 408,
+              "area": 39.78672932050938,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 414,
+              "area": 0.006500100320977253,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 415,
+              "area": 1.9530665333752495,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 416,
+              "area": 34.64189055811221,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 417,
+              "area": 11.429472145538114,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 426,
+              "area": 0.00013556655710544874,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 427,
+              "area": 0.0017415514416825317,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 431,
+              "area": 0.0026660615876608063,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 432,
+              "area": 0.0064755113448882184,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 433,
+              "area": 2.520024661943239,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 434,
+              "area": 20.02858005548876,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 435,
+              "area": 1.1066978053087269,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 436,
+              "area": 3.368651020049697,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 437,
+              "area": 4.584873212165917,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 438,
+              "area": 0.08644987046898223,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 439,
+              "area": 0.0006684171634105951,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 440,
+              "area": 0.126803692500971,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 451,
+              "area": 0.0003752893974251492,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 452,
+              "area": 0.0003771897662545598,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 453,
+              "area": 0.0007013691077872863,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 454,
+              "area": 0.4469593112781922,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 455,
+              "area": 0.08696456638415384,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 456,
+              "area": 4.137507108452041,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 457,
+              "area": 2.4786576372525815,
+              "original_operand": null
+            }
+          ],
+          "normal": [
+            0.0,
+            -0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781
+        },
+        {
+          "saved_triangle_index": 101,
+          "triangle_area": 151.04420522562577,
+          "original_union_boundary_coverage": 151.04420522562572,
+          "reference_pieces": [
+            {
+              "reference_boundary_piece": 370,
+              "area": 38.39928245335284,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 398,
+              "area": 0.0035133440470644928,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 400,
+              "area": 0.0034924199254646737,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 402,
+              "area": 0.003508393867491577,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 404,
+              "area": 0.007619387478996487,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 405,
+              "area": 3.3882287596339893,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 408,
+              "area": 26.55955574745616,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 409,
+              "area": 6.510242307091062,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 411,
+              "area": 3.423167549213929,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 413,
+              "area": 15.368753123871159,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 417,
+              "area": 8.680350105837135,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 426,
+              "area": 0.00939410507754701,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 427,
+              "area": 5.0379320812870105,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 428,
+              "area": 22.625279112032615,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 436,
+              "area": 0.054516529164175154,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 437,
+              "area": 5.7592346842117195,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 440,
+              "area": 0.587315750170319,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 441,
+              "area": 12.076831781666044,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 457,
+              "area": 2.5459875902409976,
+              "original_operand": null
+            }
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781
+        },
+        {
+          "saved_triangle_index": 102,
+          "triangle_area": 145.64670843959902,
+          "original_union_boundary_coverage": 145.646708439599,
+          "reference_pieces": [
+            {
+              "reference_boundary_piece": 372,
+              "area": 5.151056736513304,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 373,
+              "area": 30.947419608046417,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 374,
+              "area": 3.2804991241323833,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 376,
+              "area": 0.0025404072296737468,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 377,
+              "area": 0.0009868206815610847,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 380,
+              "area": 0.0005749149751324012,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 381,
+              "area": 0.000999564897227856,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 382,
+              "area": 0.001997527736435245,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 385,
+              "area": 0.0005676532092451225,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 386,
+              "area": 0.000987895649643633,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 387,
+              "area": 0.0004467144120638977,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 388,
+              "area": 0.0015272803526684697,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 392,
+              "area": 0.0005705711047028217,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 393,
+              "area": 0.0009939332859971728,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 394,
+              "area": 0.00044952887182603263,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 395,
+              "area": 0.0015363164788624317,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 418,
+              "area": 0.40277444747114544,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 419,
+              "area": 4.928632377242337,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 421,
+              "area": 1.1251700423216278,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 422,
+              "area": 2.173423975540544,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 423,
+              "area": 0.8971124721894057,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 424,
+              "area": 0.671341546031357,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 425,
+              "area": 0.00108575210873596,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 429,
+              "area": 0.7117989381440566,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 430,
+              "area": 10.761209304548686,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 442,
+              "area": 9.650700484249029,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 443,
+              "area": 0.9527088602069682,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 444,
+              "area": 0.0008128954737003369,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 445,
+              "area": 0.8282550293905899,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 446,
+              "area": 15.205355982781583,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 447,
+              "area": 4.0877213622072475,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 448,
+              "area": 0.004491186963377913,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 449,
+              "area": 0.004548405889494234,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 450,
+              "area": 21.790568253315996,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 458,
+              "area": 3.914443689903777,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 459,
+              "area": 0.5667368744009593,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 460,
+              "area": 2.0170191004303604,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 461,
+              "area": 0.0028918536636979297,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 462,
+              "area": 0.0029300832922274367,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 463,
+              "area": 16.775015574527174,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 465,
+              "area": 4.82277931135954,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 466,
+              "area": 1.1784891303127552,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 467,
+              "area": 0.0008608385529385032,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 468,
+              "area": 0.000870915363691438,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 469,
+              "area": 0.0008597199881137385,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 470,
+              "area": 0.46248390250153193,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 480,
+              "area": 0.3681074575331422,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 482,
+              "area": 1.9423540741160537,
+              "original_operand": null
+            }
+          ],
+          "normal": [
+            0.0,
+            -0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781
+        },
+        {
+          "saved_triangle_index": 103,
+          "triangle_area": 0.0529828315920895,
+          "original_union_boundary_coverage": 0.052982831592075286,
+          "reference_pieces": [
+            {
+              "reference_boundary_piece": 372,
+              "area": 0.004885365735667335,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 373,
+              "area": 0.029351154742464303,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 374,
+              "area": 0.0031112913013089383,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 377,
+              "area": 3.3452938339451066e-06,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 381,
+              "area": 3.387763769069352e-06,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 386,
+              "area": 3.347490121541341e-06,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 393,
+              "area": 3.367223087025195e-06,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 419,
+              "area": 0.015621572041823129,
+              "original_operand": null
+            }
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781
+        },
+        {
+          "saved_triangle_index": 104,
+          "triangle_area": 0.054241877238382585,
+          "original_union_boundary_coverage": 0.054241877238382585,
+          "reference_pieces": [
+            {
+              "reference_boundary_piece": 370,
+              "area": 0.035436188763810605,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 398,
+              "area": 3.2422357207906316e-06,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 400,
+              "area": 3.222926125090453e-06,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 402,
+              "area": 3.237667385747045e-06,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 404,
+              "area": 4.898700353805907e-06,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 405,
+              "area": 0.0031265868383911766,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 409,
+              "area": 0.01566450010659537,
+              "original_operand": null
+            }
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781
+        },
+        {
+          "saved_triangle_index": 105,
+          "triangle_area": 20.940093755743874,
+          "original_union_boundary_coverage": 20.940093755743952,
+          "reference_pieces": [
+            {
+              "reference_boundary_piece": 372,
+              "area": 1.3635221125737758,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 373,
+              "area": 8.192006634979002,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 374,
+              "area": 0.8683719331464772,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 377,
+              "area": 0.0009336828342725312,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 379,
+              "area": 0.0002897182340291238,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 381,
+              "area": 0.000655818111198414,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 384,
+              "area": 0.0002863607281824443,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 386,
+              "area": 0.0006479350919903482,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 391,
+              "area": 0.0002881356750208397,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 393,
+              "area": 0.0006516676754699802,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 407,
+              "area": 2.118431478353159,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 412,
+              "area": 5.742328999626466,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 419,
+              "area": 2.2416021536555206,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 420,
+              "area": 0.410077125059388,
+              "original_operand": null
+            }
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781
+        },
+        {
+          "saved_triangle_index": 106,
+          "triangle_area": 86.87069201170743,
+          "original_union_boundary_coverage": 86.8706920117073,
+          "reference_pieces": [
+            {
+              "reference_boundary_piece": 370,
+              "area": 33.66422666486099,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 372,
+              "area": 3.277309506256124,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 373,
+              "area": 19.68999327004112,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 374,
+              "area": 2.0871855067279057,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 375,
+              "area": 0.0017050112072638512,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 377,
+              "area": 0.0005391530789040644,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 378,
+              "area": 0.0017265792569958194,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 379,
+              "area": 0.0005460756741513251,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 383,
+              "area": 0.001705976801503084,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 384,
+              "area": 0.0005396608340788589,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 390,
+              "area": 0.001715956164474619,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 391,
+              "area": 0.0005429191601535877,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 398,
+              "area": 0.0030801099081259053,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 400,
+              "area": 0.0030617659620020277,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 402,
+              "area": 0.0030757701405548232,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 404,
+              "area": 0.002877464781704475,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 405,
+              "area": 2.9700873677421953,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 406,
+              "area": 8.328240036453309,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 407,
+              "area": 3.21241614451435,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 409,
+              "area": 7.607474875628839,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 410,
+              "area": 0.5997334608229323,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 412,
+              "area": 5.412908735689626,
+              "original_operand": null
+            }
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999999999999
+          ],
+          "plane_offset": 66.3000030517578
+        },
+        {
+          "saved_triangle_index": 141,
+          "triangle_area": 94.28553056721285,
+          "original_union_boundary_coverage": 94.28553056721275,
+          "reference_pieces": [
+            {
+              "reference_boundary_piece": 560,
+              "area": 7.254950103933282,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 562,
+              "area": 2.8220680043458515,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 563,
+              "area": 1.6052172568947753e-07,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 564,
+              "area": 4.777178261861081e-07,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 565,
+              "area": 10.92493810598259,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 566,
+              "area": 7.99240609694607e-07,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 567,
+              "area": 22.95156733894563,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 568,
+              "area": 0.05623161427928203,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 569,
+              "area": 8.153508327451618,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 570,
+              "area": 24.73973234870695,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 571,
+              "area": 5.983200246185881,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 574,
+              "area": 10.789260388423443,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 575,
+              "area": 0.5721342709918957,
+              "original_operand": null
+            },
+            {
+              "reference_boundary_piece": 576,
+              "area": 0.03793838048615328,
+              "original_operand": null
+            }
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset": -46.20000076293945
+        }
+      ]
+    }
+  ],
+  "scope": "Every newly detected contact triangle is linked to the independently clipped original operands boundary. Neighbor geometry preservation is separately bound to the full-scene normalized proof. Therefore contacts are inherited occupied-boundary relationships, not evidence of union enlargement. No universal visibility/burial claim."
+}

@@ -1,0 +1,1040 @@
+{
+  "model_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "inputs": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote_full_qa/historical/v024.json": "0a473b0ea580914720ce41eadef3a78a89562c164cf1c40b83d2f61628b67134",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json": "3e5c2360d64ef1432f90e062c4158a14560d416ba53fa844a213495f587b89ef",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json": "469cc00ea7a96473bbe1a1e29603c634668daa2c263e51438b95548b24662b99"
+  },
+  "source_unchanged": true,
+  "selection": [
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "full_contact_pairs": 20,
+      "sampled_pairs": 4,
+      "selection": "Two largest pair patches per neighbor object, rounded plane/normal and orientation class. Rounding only groups sample strata, not geometric contact tests."
+    }
+  ],
+  "samples": [
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -5.911391258239746,
+        59.064378102620445,
+        46.20000076293945
+      ],
+      "sample_index": 0,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 543.1588436912175,
+      "nearest_hit": [
+        493.0440368652344,
+        "V012 | ashlar with bounded entrance and north stairwell",
+        17373
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -5.911391258239746,
+        59.064378102620445,
+        46.20000076293945
+      ],
+      "sample_index": 0,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 472.4388318386853,
+      "nearest_hit": [
+        466.1314392089844,
+        "V024 | exact evaluated rear stepped union",
+        144
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.170754909515381,
+        58.875939051310226,
+        46.20000076293945
+      ],
+      "sample_index": 1,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 543.0330656040712,
+      "nearest_hit": [
+        493.1054992675781,
+        "V012 | ashlar with bounded entrance and north stairwell",
+        17373
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.170754909515381,
+        58.875939051310226,
+        46.20000076293945
+      ],
+      "sample_index": 1,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 472.59060688281477,
+      "nearest_hit": [
+        469.0404968261719,
+        "V024 | exact evaluated rear stepped union",
+        144
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -5.873550891876221,
+        59.28500620524089,
+        46.20000076293945
+      ],
+      "sample_index": 2,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 543.3653571179506,
+      "nearest_hit": [
+        493.02581787109375,
+        "V012 | ashlar with bounded entrance and north stairwell",
+        17373
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -5.873550891876221,
+        59.28500620524089,
+        46.20000076293945
+      ],
+      "sample_index": 2,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 472.23647475172595,
+      "nearest_hit": [
+        465.5790100097656,
+        "V024 | exact evaluated rear stepped union",
+        128
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -5.689867973327637,
+        59.032189051310226,
+        46.20000076293945
+      ],
+      "sample_index": 3,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 543.0781851834669,
+      "nearest_hit": [
+        493.0008239746094,
+        "V012 | ashlar with bounded entrance and north stairwell",
+        17373
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -5.689867973327637,
+        59.032189051310226,
+        46.20000076293945
+      ],
+      "sample_index": 3,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 472.48961732144176,
+      "nearest_hit": [
+        465.5594482421875,
+        "V024 | exact evaluated rear stepped union",
+        147
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.231982549031575,
+        59.16854476928711,
+        46.20000076293945
+      ],
+      "sample_index": 0,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 543.3317079921509,
+      "nearest_hit": [
+        493.10394287109375,
+        "V012 | ashlar with bounded entrance and north stairwell",
+        17373
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.231982549031575,
+        59.16854476928711,
+        46.20000076293945
+      ],
+      "sample_index": 0,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 472.31182039885107,
+      "nearest_hit": [
+        469.4195861816406,
+        "V024 | exact evaluated rear stepped union",
+        144
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.331050554911295,
+        58.928022384643555,
+        46.20000076293945
+      ],
+      "sample_index": 1,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 543.119634779581,
+      "nearest_hit": [
+        493.1355895996094,
+        "V012 | ashlar with bounded entrance and north stairwell",
+        17373
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.331050554911295,
+        58.928022384643555,
+        46.20000076293945
+      ],
+      "sample_index": 1,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 472.52712866998604,
+      "nearest_hit": [
+        470.698974609375,
+        "V024 | exact evaluated rear stepped union",
+        143
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.331050554911295,
+        59.240522384643555,
+        46.20000076293945
+      ],
+      "sample_index": 2,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 543.4239828928288,
+      "nearest_hit": [
+        493.1204833984375,
+        "V012 | ashlar with bounded entrance and north stairwell",
+        17373
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.331050554911295,
+        59.240522384643555,
+        46.20000076293945
+      ],
+      "sample_index": 2,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 472.23545486240397,
+      "nearest_hit": [
+        470.4084167480469,
+        "V024 | exact evaluated rear stepped union",
+        143
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.033846537272135,
+        59.33708953857422,
+        46.20000076293945
+      ],
+      "sample_index": 3,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 543.4517287056003,
+      "nearest_hit": [
+        493.0556945800781,
+        "V012 | ashlar with bounded entrance and north stairwell",
+        17373
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | ashlar with bounded entrance and north stairwell",
+      "neighbor_polygon": 13909,
+      "normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset": -46.20000076293945,
+      "sample": [
+        -6.033846537272135,
+        59.33708953857422,
+        46.20000076293945
+      ],
+      "sample_index": 3,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 472.172914157788,
+      "nearest_hit": [
+        467.1666259765625,
+        "V024 | exact evaluated rear stepped union",
+        144
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        2.226380713803555,
+        49.1079335042462,
+        66.30000305175781
+      ],
+      "sample_index": 0,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 532.8979369275514,
+      "nearest_hit": [
+        506.7123718261719,
+        "V008 | gallery with genuine eastern approach portal",
+        19033
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        2.226380713803555,
+        49.1079335042462,
+        66.30000305175781
+      ],
+      "sample_index": 0,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 476.11021878309595,
+      "nearest_hit": [
+        476.1101379394531,
+        "V024 | exact evaluated rear stepped union",
+        99
+      ],
+      "nearer_occluder": false,
+      "contact_at_first_surface": true,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        0.8663455883776077,
+        40.89066956451862,
+        66.30000305175781
+      ],
+      "sample_index": 1,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 525.1905153299878,
+      "nearest_hit": [
+        507.41583251953125,
+        "V008 | gallery with genuine eastern approach portal",
+        19033
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        0.8663455883776077,
+        40.89066956451862,
+        66.30000305175781
+      ],
+      "sample_index": 1,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 483.75451815759885,
+      "nearest_hit": [
+        482.0807800292969,
+        "Citadel | oxidized spire roofs",
+        562
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        0.9096412261897961,
+        40.93944045749732,
+        66.30000305175781
+      ],
+      "sample_index": 2,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 525.2285460966165,
+      "nearest_hit": [
+        507.4041442871094,
+        "V008 | gallery with genuine eastern approach portal",
+        19033
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        0.9096412261897961,
+        40.93944045749732,
+        66.30000305175781
+      ],
+      "sample_index": 2,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 483.7127857334673,
+      "nearest_hit": [
+        482.0553283691406,
+        "Citadel | oxidized spire roofs",
+        562
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        6.2631904522692095,
+        57.30081199748443,
+        66.30000305175781
+      ],
+      "sample_index": 3,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 540.0547274513742,
+      "nearest_hit": [
+        505.12908935546875,
+        "V012 | terrace ledges with bounded stair opening",
+        73576
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        6.2631904522692095,
+        57.30081199748443,
+        66.30000305175781
+      ],
+      "sample_index": 3,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 468.8259956625532,
+      "nearest_hit": [
+        462.7904052734375,
+        "V008 | gallery with genuine eastern approach portal",
+        15920
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        0.8663455883776077,
+        57.30081199748443,
+        66.30000305175781
+      ],
+      "sample_index": 4,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 541.1671696597809,
+      "nearest_hit": [
+        506.16961669921875,
+        "V012 | terrace ledges with bounded stair opening",
+        73576
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        0.8663455883776077,
+        57.30081199748443,
+        66.30000305175781
+      ],
+      "sample_index": 4,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 468.2089838820808,
+      "nearest_hit": [
+        468.2089538574219,
+        "V012 | terrace ledges with bounded stair opening",
+        64731
+      ],
+      "nearer_occluder": false,
+      "contact_at_first_surface": true,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        25.80796626530217,
+        51.36112954332146,
+        66.30000305175781
+      ],
+      "sample_index": 0,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 530.6241103956766,
+      "nearest_hit": [
+        505.7392578125,
+        "V008 | gallery with genuine eastern approach portal",
+        20670
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        25.80796626530217,
+        51.36112954332146,
+        66.30000305175781
+      ],
+      "sample_index": 0,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 477.1513027569518,
+      "nearest_hit": [
+        465.3045349121094,
+        "V005 | main tower calibrated stone surface",
+        6
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        27.150828378012413,
+        41.9337195262994,
+        66.30000305175781
+      ],
+      "sample_index": 1,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 521.1361543372536,
+      "nearest_hit": [
+        504.55419921875,
+        "V008 | gallery with genuine eastern approach portal",
+        20670
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        27.150828378012413,
+        41.9337195262994,
+        66.30000305175781
+      ],
+      "sample_index": 1,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 486.23724577585324,
+      "nearest_hit": [
+        464.4060363769531,
+        "V005 | main tower calibrated stone surface",
+        6
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        27.150828378012413,
+        58.34385936681174,
+        66.30000305175781
+      ],
+      "sample_index": 2,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 537.2653128179986,
+      "nearest_hit": [
+        479.5523986816406,
+        "V012 | ashlar with bounded entrance and north stairwell",
+        18405
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        27.150828378012413,
+        58.34385936681174,
+        66.30000305175781
+      ],
+      "sample_index": 2,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 470.8100265018657,
+      "nearest_hit": [
+        465.84649658203125,
+        "V008 | gallery with genuine eastern approach portal",
+        15921
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        23.122242039881684,
+        53.80580973685325,
+        66.30000305175781
+      ],
+      "sample_index": 3,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_hero_receipt.json",
+      "camera_height": 24.0,
+      "outward_front_facing": false,
+      "distance_to_contact": 533.4822524889681,
+      "nearest_hit": [
+        502.74560546875,
+        "V008 | gallery with genuine eastern approach portal",
+        20664
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    },
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "neighbor": "V012 | terrace ledges with bounded stair opening",
+      "neighbor_polygon": 40005,
+      "normal": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "plane_offset": 66.30000305175781,
+      "sample": [
+        23.122242039881684,
+        53.80580973685325,
+        66.30000305175781
+      ],
+      "sample_index": 3,
+      "inside_camera_frame": true,
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/v024_rear_receipt.json",
+      "camera_height": 210.0,
+      "outward_front_facing": true,
+      "distance_to_contact": 474.43208288387416,
+      "nearest_hit": [
+        464.656005859375,
+        "V008 | gallery with genuine eastern approach portal",
+        15921
+      ],
+      "nearer_occluder": true,
+      "contact_at_first_surface": false,
+      "scope": "Clipped-contact centroid and halfway-to-vertex samples; finite area-stratified points, not exhaustive pixel visibility proof."
+    }
+  ],
+  "scope": "Read-only actual evaluated surface raycasts from recorded cameras to finite overlap centroids. No render, no universal hidden/exposed claim; material transparency and pixel filtering not simulated."
+}

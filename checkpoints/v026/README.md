@@ -36,3 +36,5 @@ python checkpoints/v026/restore_checkpoint.py
 [固定来源与程序复现](REPRODUCE.md) · [独立模型QA](qa/README.md) · [源诊断](reports/discovery/MAIN_SHAFT_DIAGNOSIS.md) · [残余接触实际意义](reports/method_context/PRACTICAL_REVIEW.md)
 
 固定Git来源的全新隔离重建 `2dfc901717c43cc3ec3bbfc62b0eca27914cdc6524caf78f22e310a4a13ebfd6` 已与验收efcd完整语义一致，完整公开QA通过；来源、11项配方文件与QA目录保持，未生成缓存。保存元数据不同不覆盖验收模型。见[重建收据](reports/rebuild/rebuild_verification.json)。
+
+已从远端 `f20fbb5111477099f211f28da3bd8f3b87eb1c85` 独立恢复精确模型，完整v026 QA（6次原生Blender）、历史更正包完整复跑（4次原生Blender，有限射线结果归一化后逐项一致）以及14书签检查副本导出/重开通过。见[远端收据](reports/remote/VERIFIED.json)。之后才撤下v025旧当前载荷，Git历史保留。

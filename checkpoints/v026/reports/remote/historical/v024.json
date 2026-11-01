@@ -1,0 +1,439 @@
+{
+  "model_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "source_unchanged": true,
+  "plane_tolerance": 3.0517578125e-05,
+  "minimum_reported_pair_area": 1e-08,
+  "helper_sha256": "ac413106e3d4c137ae67f50eaedc49e9174594c8f44c7f259d6eacae0c96eb4c",
+  "results": [
+    {
+      "union": "V024 | exact evaluated rear stepped union",
+      "scanned_objects": [
+        {
+          "object": "Citadel | oxidized spire roofs",
+          "triangles": 1080,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "Citadel | deep window recesses",
+          "triangles": 8400,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "Citadel | projecting individual stones",
+          "triangles": 16248,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "Citadel | relief flowers and shadowed sculpture",
+          "triangles": 35432,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "Citadel | small verdigris fittings",
+          "triangles": 4320,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "V004 | west old recess strips opened for selected upper and lower windows",
+          "triangles": 2900,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "V005 | main tower calibrated stone surface",
+          "triangles": 1360,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "V006 | main facade with one short jointed rib sample",
+          "triangles": 55668,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "V007 | western stonework with actual bridgehead passage",
+          "triangles": 26864,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "V008 | gallery with genuine eastern approach portal",
+          "triangles": 22076,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "triangles": 24332,
+          "bounds_plane_candidates": 16
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "triangles": 84164,
+          "bounds_plane_candidates": 16
+        },
+        {
+          "object": "V012 | retained west rib facade with buried-route clearance",
+          "triangles": 21956,
+          "bounds_plane_candidates": 0
+        },
+        {
+          "object": "V012 | legacy ashlar with buried-route clearance",
+          "triangles": 8848,
+          "bounds_plane_candidates": 0
+        }
+      ],
+      "contacts": [
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "union_triangle": 141,
+          "union_polygon": 57,
+          "neighbor_triangle": 23734,
+          "neighbor_polygon": 13909,
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset": -46.20000076293945,
+          "same_facing": true,
+          "area": 0.03173067969146359,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "union_triangle": 141,
+          "union_polygon": 57,
+          "neighbor_triangle": 23735,
+          "neighbor_polygon": 13909,
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset": -46.20000076293945,
+          "same_facing": true,
+          "area": 0.031729933944006916,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "union_triangle": 141,
+          "union_polygon": 57,
+          "neighbor_triangle": 23736,
+          "neighbor_polygon": 13909,
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset": -46.20000076293945,
+          "same_facing": true,
+          "area": 0.02729403287560217,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "union_triangle": 141,
+          "union_polygon": 57,
+          "neighbor_triangle": 23737,
+          "neighbor_polygon": 13909,
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset": -46.20000076293945,
+          "same_facing": true,
+          "area": 0.031729933944006916,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "union_triangle": 141,
+          "union_polygon": 57,
+          "neighbor_triangle": 23738,
+          "neighbor_polygon": 13909,
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset": -46.20000076293945,
+          "same_facing": true,
+          "area": 0.03173067969143517,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "union_triangle": 141,
+          "union_polygon": 57,
+          "neighbor_triangle": 23739,
+          "neighbor_polygon": 13909,
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset": -46.20000076293945,
+          "same_facing": true,
+          "area": 0.18575202109241218,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "union_triangle": 141,
+          "union_polygon": 57,
+          "neighbor_triangle": 23740,
+          "neighbor_polygon": 13909,
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset": -46.20000076293945,
+          "same_facing": true,
+          "area": 0.1857525110244751,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "union_triangle": 141,
+          "union_polygon": 57,
+          "neighbor_triangle": 23741,
+          "neighbor_polygon": 13909,
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "plane_offset": -46.20000076293945,
+          "same_facing": true,
+          "area": 0.30055384518527717,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 99,
+          "union_polygon": 37,
+          "neighbor_triangle": 64730,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 0.007234532897105517,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 99,
+          "union_polygon": 37,
+          "neighbor_triangle": 64731,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 178.02054309005155,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 100,
+          "union_polygon": 37,
+          "neighbor_triangle": 64730,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            -0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 132.2193303366057,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 100,
+          "union_polygon": 37,
+          "neighbor_triangle": 64731,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            -0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 52.40594865000651,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 101,
+          "union_polygon": 37,
+          "neighbor_triangle": 64730,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 131.0075447509214,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 101,
+          "union_polygon": 37,
+          "neighbor_triangle": 64731,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 20.036660474704263,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 102,
+          "union_polygon": 37,
+          "neighbor_triangle": 64730,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            -0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 35.03379971634338,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 102,
+          "union_polygon": 37,
+          "neighbor_triangle": 64731,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            -0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 110.61290872325566,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 103,
+          "union_polygon": 37,
+          "neighbor_triangle": 64730,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 0.0529828315920895,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 104,
+          "union_polygon": 37,
+          "neighbor_triangle": 64730,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 0.054241877238382585,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 105,
+          "union_polygon": 37,
+          "neighbor_triangle": 64730,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "plane_offset": 66.30000305175781,
+          "same_facing": true,
+          "area": 20.940093755743874,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        },
+        {
+          "object": "V012 | terrace ledges with bounded stair opening",
+          "union_triangle": 106,
+          "union_polygon": 37,
+          "neighbor_triangle": 64730,
+          "neighbor_polygon": 40005,
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999999999999
+          ],
+          "plane_offset": 66.3000030517578,
+          "same_facing": true,
+          "area": 86.87069201170743,
+          "max_plane_distance": 0.0,
+          "strict_coplanar_at_1e_7": true
+        }
+      ],
+      "by_object": {
+        "V012 | ashlar with bounded entrance and north stairwell": {
+          "same_facing_area": 0.8262736374486792,
+          "opposite_facing_area": 0.0,
+          "pairs": 8
+        },
+        "V012 | terrace ledges with bounded stair opening": {
+          "same_facing_area": 767.2619807510673,
+          "opposite_facing_area": 0.0,
+          "pairs": 12
+        }
+      }
+    }
+  ],
+  "scope": "Explicit triangle bounds/plane filter and oriented polygon overlap. All render-visible neighboring surface meshes evaluated before bounds cull. Exact-zero derived triangles omitted only from normal operations. Pair areas can double-count multiway contacts; contacts alone do not establish exposure or geometric regression. Historical reports remain unchanged."
+}

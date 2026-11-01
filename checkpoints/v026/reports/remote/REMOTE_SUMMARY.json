@@ -1,0 +1,67 @@
+{
+  "pass": true,
+  "parent_verified_remote_commit": "f20fbb5111477099f211f28da3bd8f3b87eb1c85",
+  "exact_model_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/fixed history v024/checkpoints/v024/restored/castle_v024.blend": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v025/restored/castle_v025.blend": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/restored/castle_v026.blend": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee"
+  },
+  "archive_files_unchanged": 1785,
+  "v026_qa_manifest": "e479b50ae1506a95683191945b3fe532915ee0cadec14b3c479af2a2a155358a",
+  "historical_qa_manifest": "5af7be21c80661c478e890da32198e4bbe2f2ab8e32331469448d8951e9d04ae",
+  "historical_visibility_exact_after_path_normalization": [
+    {
+      "version": "v024",
+      "same_semantics_after_receipt_path_normalization": true,
+      "samples": 34
+    },
+    {
+      "version": "v025",
+      "same_semantics_after_receipt_path_normalization": true,
+      "samples": 1875
+    }
+  ],
+  "historical_summary_sha256": "0e003c235fad7aebd01a19a6532da0f9cd7a429b53b07580bd8e2e6e4c55f16b",
+  "model_summary_sha256": "567f88e366476ca3117e2c8ff50c8a1549e70ac00a0ca9f96e91a6a9654a95a4",
+  "native_call_count": 10,
+  "guard_tests": 26,
+  "commands": [
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/run_recheck.py",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/fixed history v024/checkpoints/v024/restored/castle_v024.blend",
+      "--candidate",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v025/restored/castle_v025.blend",
+      "--output-dir",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote_full_qa/historical",
+      "--blender",
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/qa/run_qa.py",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v025/restored/castle_v025.blend",
+      "--candidate",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/restored/castle_v026.blend",
+      "--output-dir",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote_full_qa/model",
+      "--blender",
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/audits/coplanar_method/test_runner.py"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive \u4e2d\u6587/checkpoints/v026/qa/test_runner.py"
+    ]
+  ],
+  "scope": "Fresh Git-only frozen-runtime replays, no renders or canonical saves. Historical zero-adjacency conclusions remain superseded; inherited visible-contact candidates are deferred, not silently repaired."
+}

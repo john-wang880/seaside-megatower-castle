@@ -1,0 +1,73 @@
+{
+  "commit": "f20fbb5111477099f211f28da3bd8f3b87eb1c85",
+  "tree": "2a330ae33fee864b17485087ee6772a835fa63a3",
+  "model_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "source_commit": "06cf897ea73fa105ba27cb7dd79af6df18587c9a",
+  "source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "historical_v024_commit": "0d332990a252bbb2d51f73e69bdefd34e2931c19",
+  "historical_v024_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "root_checksums": 1782,
+  "core_tests": 13,
+  "reproduce_wrapper_tests": 19,
+  "model_QA_guard_tests": 13,
+  "historical_QA_guard_tests": 13,
+  "inspection_implementation_tests": 18,
+  "inspection_independent_tests": 24,
+  "model_QA_native_calls": 6,
+  "model_QA_top_level_python_calls": 6,
+  "historical_recheck_native_calls": 4,
+  "historical_top_level_python_calls": 3,
+  "geometry_negatives": 5,
+  "model_negatives": 4,
+  "convex_math_controls": 7,
+  "coplanar_controls": 9,
+  "remote_full_summary_sha256": "d155545190f07fa2fde450902dc065b6daafceec681fc82867ec5c00ee665ca7",
+  "model_QA_summary_sha256": "567f88e366476ca3117e2c8ff50c8a1549e70ac00a0ca9f96e91a6a9654a95a4",
+  "historical_QA_summary_sha256": "0e003c235fad7aebd01a19a6532da0f9cd7a429b53b07580bd8e2e6e4c55f16b",
+  "qa_manifest_sha256": "e479b50ae1506a95683191945b3fe532915ee0cadec14b3c479af2a2a155358a",
+  "historical_qa_manifest_sha256": "5af7be21c80661c478e890da32198e4bbe2f2ab8e32331469448d8951e9d04ae",
+  "model_and_bundles_unchanged": true,
+  "historical_visibility_exact_after_receipt_path_normalization": [
+    {
+      "version": "v024",
+      "same_semantics_after_receipt_path_normalization": true,
+      "samples": 34
+    },
+    {
+      "version": "v025",
+      "same_semantics_after_receipt_path_normalization": true,
+      "samples": 1875
+    }
+  ],
+  "prior_zero_neighbor_claims_explicitly_superseded": true,
+  "inspection_export_reopen_pass": true,
+  "inspection_summary_sha256": "58f7b2891b29e0c18504e7ede184bf355385ced60d30d27a52ce24f2b19fb9d3",
+  "inspection_qa_manifest_sha256": "15cf8a045cd930adcd1a00646a6bbac2f19cef0fed67900e2b6f3ee5be993ab8",
+  "inspection_viewer_sha256": "18ea3b06d8f1c6a191f7b3a0ffcbcdd6ce02cfabe9f4343770766cc1abc6f116",
+  "inspection_runtime_sha256": {
+    "preflight.py": "c652a864983a4b2efb3b4750fc590b04a279db0bac609357fdddb3ca327bb62f",
+    "export_inspection.py": "9d9f7879f8a137d0cca174581fdef0cf2882d48326b581f7a8aab5af5c2d531a",
+    "ui_template.py": "55dc286da161ae42129c9c5241f761a479a3b59e41cf03c2d614f9bfc0dab32c",
+    "catalog.json": "de7060701c8a6e3e53a9020d655d12e8a54d4e8ec2782091bc11e6d12df780b0"
+  },
+  "inspection_source_categories": [
+    "meshes",
+    "objects",
+    "materials",
+    "lights",
+    "cameras",
+    "worlds",
+    "visible_evaluated",
+    "scene",
+    "libraries",
+    "texts",
+    "collections",
+    "scene_custom",
+    "visibility"
+  ],
+  "inspection_manual_bookmarks": 14,
+  "inspection_API_negatives": 20,
+  "native_windows_tested": false,
+  "rendered_during_remote_validation": false,
+  "scope": "Two-solid mainshaft surface cleanup; explicit single-user derivative preserves shared hidden original and effective OBJECT material. Two inherited top contacts retained. Corrected historical contacts are inherited; finite visibility does not establish universal burial, visible artifact, or global absence."
+}

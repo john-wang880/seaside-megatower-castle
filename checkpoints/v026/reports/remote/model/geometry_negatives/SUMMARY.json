@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "source_geometry_sha256": "12cd1783925337d45b9ab9e5d83deb8eef2b6d85bf0ab56eb313106b7b304448",
+  "candidate_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "controls": [
+    {
+      "case": "translated_surface",
+      "rejected": true,
+      "failure_count": 47,
+      "report_sha256": "a33e03a5c70142e70df3a148acde8cf5662dc4f7e27780ad4e03792a628e6865"
+    },
+    {
+      "case": "missing_triangle",
+      "rejected": true,
+      "failure_count": 3,
+      "report_sha256": "eed1150067ea5b6e83e41166cb463c373316fad1ee080fbb06c1c1a2e1ae1383"
+    },
+    {
+      "case": "duplicate_triangle",
+      "rejected": true,
+      "failure_count": 5,
+      "report_sha256": "e6df95f66ec916a1416e5f0607914cfef6d188d5a9d97b283f58e002b3735aa1"
+    },
+    {
+      "case": "reversed_orientation",
+      "rejected": true,
+      "failure_count": 6,
+      "report_sha256": "47b025f5eaaa6b947ba0fd995b8897e69f2a8a59003361563658d531309560ee"
+    },
+    {
+      "case": "filled_frame_recess",
+      "rejected": true,
+      "failure_count": 18,
+      "report_sha256": "47399c6fff28b72064a57f87fc2b2e8b8628fe03b139a89209d7d633f0d3b7d0"
+    }
+  ],
+  "scope": "Mutations of exported actual saved triangles, not saved model edits or additional Blender processes."
+}

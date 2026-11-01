@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "before_model_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+  "after_model_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "before_sha256": "6ee8e824e2479ef7d874469b10fb863c504df0326a34ba0ec4a5c6903dd3d5f4",
+  "after_sha256": "3cf9e3a3fb46f3cb4a3543ecdbc12f258a48c297f16f02813394b3cafcfb32b1",
+  "contact_area_deltas": {
+    "('V005 | main tower calibrated stone surface', 13, (0.0, 0.0, 1.0), 180.0, True)": 0.0,
+    "('V005 | main tower calibrated stone surface', 28, (0.0, 0.0, 1.0), 180.0, True)": 0.0
+  },
+  "same_logical_source_polygon_plane_and_orientation": true,
+  "source_face_remapping_explicit": {
+    "7": 13,
+    "16": 28
+  },
+  "scope": "Preserves two known source top coplanar contacts. No global disjointness/exposure claim; pairwise areas may double-count multiway contact."
+}

@@ -1,0 +1,15 @@
+00:00.469  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive 中文/checkpoints/v025/restored/castle_v025.blend"
+00:10.243  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:10.258  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive 中文/checkpoints/v026/restored/castle_v026.blend"
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive 中文/checkpoints/v026/qa/validate.py", line 44, in <module>
+    active=snap();non=copy.deepcopy(active['visible_evaluated']);non.pop(name);non.pop(u.name);old=copy.deepcopy(base['visible_evaluated']);old.pop(name);assert non==old,'Other active evaluated mesh changed'
+                                                                                                                                                                 ^^^^^^^^
+AssertionError: Other active evaluated mesh changed
+
+Error: script failed, file: '/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v026/remote additive 中文/checkpoints/v026/qa/validate.py', exiting.
