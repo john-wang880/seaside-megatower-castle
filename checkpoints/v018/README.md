@@ -36,3 +36,8 @@ blender -b --disable-autoexec --python checkpoints/v018/scripts/validate_geometr
 构建成功不等于验收，最终判断见 `reports/acceptance_summary.json`。本版未采用前景针叶试验：稀疏枝片损失树冠体量，已拒绝；[配对实际渲染和拒绝证据](audits/foreground_rejected/README.md)仅供记录，不包含或宣称可恢复该弃用模型。
 
 导航西塔屋帽/全景为v018新渲染；主冠参考图为v017，六张路线/小塔图为v016，均明确来源。历史[v016八秒局部环绕](https://github.com/john-wang880/seaside-megatower-castle/blob/9d417969f97c309665fb37067a81785c0aa225a0/checkpoints/v016/presentation/orbit/README.md)未包含后续屋面，不称为v018视频。
+
+## 不改模型的后续呈现
+[入口内廊至露台相机预览计划](presentation/interior_route/README.md)已保存可复现脚本、连续相机空间检查与分阶段渲染计划；目标28秒/12fps/336张真实帧，**尚未完成视频**。先渲染25张覆盖入口、转角、开口和终点的试片，通过实际画面复核后才继续其余帧。
+
+[草岩交界只读审查](audits/landscape_transition/README.md)得到有用否定结果：当前展示尺度未见值得局部改动的明显边界问题，保留v018，不凭空散布植被或重复湿润/浪花调整。

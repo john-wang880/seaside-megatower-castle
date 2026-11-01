@@ -1,0 +1,13 @@
+import json,math,hashlib
+from pathlib import Path
+import final_motion as f
+root=Path(__file__).resolve().parent
+frames=[dict(index=i+1,**f.pose(i/f.FPS)) for i in range(f.COUNT)]
+dense=[f.pose(f.MOTION_SECONDS*i/30000) for i in range(30001)]
+metrics={k:max(abs(p[k]) for p in dense) for k in ('horizontal_speed_mps','speed_3d_mps','acceleration_3d_mps2','yaw_rate_degrees_per_second','yaw_acceleration_degrees_per_second2','pitch_rate_degrees_per_second','pitch_acceleration_degrees_per_second2')}
+# 3 contiguous pilot windows, center on entrance glimpse, actual turn, final approach/look.
+turn_index=min(range(len(frames)),key=lambda i:abs(frames[i]['time_seconds']-(f.TURN_GAZE_TIME_START+f.TURN_GAZE_TIME_END)/2))
+arrival_index=min(range(len(frames)),key=lambda i:abs(frames[i]['yaw_degrees']-150))
+windows=[list(range(1,9)),list(range(turn_index+1-3,turn_index+1+5)),list(range(arrival_index+1-3,arrival_index+1+5))]
+report={'source_sha256':'c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd','source_scene_frame':1,'status':'Prepared; independent finalproof andGit checkpoint required before pilotrender','fps':f.FPS,'frame_count':f.COUNT,'encoded_duration_seconds':f.COUNT/f.FPS,'first_to_last_pose_seconds':f.MOTION_SECONDS,'timestamp_convention':'Actualdisplaytimestamps i/12, i0..335; finalposeheld forlast1/12second of28s video.','resolution':[960,694],'sensor_width_mm':36,'sensor_fit':'HORIZONTAL','camera_proxy_radius_m':.12,'xy_path_unchanged_from_feasibility':True,'eye_vertical_change':'Stabilized nearlinear ascent withquintic slope ramps, notperstep cubic bobbing; independentproof mustregenerate.','exact_eyeheight_bounds_m':[1.559375,1.740625],'cruise_speed_mps':f.CRUISE,'time_segments':f.SEGMENTS,'gaze_knots_seconds':{'turn_start':f.TURN_GAZE_TIME_START,'turn_end':f.TURN_GAZE_TIME_END,'arrival_start':f.END_GAZE_TIME_START,'arrival_end':f.END_GAZE_TIME_END},'dense_metrics':metrics,'translational_join_limit':'XYquartercircle is C1, not globallyC2. Atcirclejoins withspeed.35, centripetalacceleration jumps by.35²/.45≈.27223m/s². Speed/gaze timefunctions C2 withno angularvelocity/acceleration jumps; do not claimzero translationaljerk.','pilot_windows':windows,'pilot_indices':sum(windows,[])+[336],'pilot_scope':'25 actualframe pilot (3×8 windows plusfinalpose336) thenmandatorypause forreview; validpilotframes reused inremaining311, neverinterpolated.','motion_code_sha256':hashlib.sha256((root/'final_motion.py').read_bytes()).hexdigest(),'frames':frames}
+(root/'final_motion_plan.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items() if k!='frames'},indent=2))

@@ -1,0 +1,24 @@
+{
+  "all_pass": true,
+  "synthetic_and_pure_only": true,
+  "render_started": false,
+  "tests": [
+    {
+      "test": "test_resume_validation.py",
+      "returncode": 0,
+      "stdout": "PASS 10 synthetic validation tests; no model renders\n",
+      "stderr": ""
+    },
+    {
+      "test": "test_motion_plan.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.080s\n\nOK\n"
+    },
+    {
+      "test": "Full-stage without owner pilot approval rejected, dry-run only",
+      "returncode": 1,
+      "expected_rejection": true
+    }
+  ]
+}

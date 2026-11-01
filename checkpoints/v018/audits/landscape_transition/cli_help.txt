@@ -1,0 +1,10 @@
+usage: audit.py [-h] --source SOURCE --output-dir OUTPUT_DIR [--skip-render]
+
+Read-only v018 landscape evidence audit. Never saves a Blender scene.
+
+options:
+  -h, --help            show this help message and exit
+  --source SOURCE       Canonical v018 .blend
+  --output-dir OUTPUT_DIR
+                        New, nonexistent evidence directory
+  --skip-render         Collect geometry/material evidence only

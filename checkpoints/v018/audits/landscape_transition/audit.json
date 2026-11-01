@@ -1,0 +1,1113 @@
+{
+  "source": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v018/castle_v018.blend",
+  "sha_before": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "objects": [
+    {
+      "name": "Castle headland | level courtyard and broken coastal escarpment",
+      "visible_render": false,
+      "mesh": "Castle headland | level courtyard and broken coastal escarpment geometry",
+      "mesh_users": 1,
+      "vertices": 16385,
+      "faces": 32512,
+      "smooth_faces": 32512,
+      "min": [
+        -28.279935836791992,
+        -46.977577209472656,
+        -0.7799999713897705
+      ],
+      "max": [
+        101.25068664550781,
+        102.6053237915039,
+        29.0151309967041
+      ],
+      "materials": [
+        "Meadow and slate | slope-based procedural strata"
+      ],
+      "modifiers": [],
+      "vertex_groups": []
+    },
+    {
+      "name": "Fine meadow grass blades",
+      "visible_render": true,
+      "mesh": "Fine meadow grass blades geometry",
+      "mesh_users": 1,
+      "vertices": 35895,
+      "faces": 11965,
+      "smooth_faces": 0,
+      "min": [
+        -220.02474975585938,
+        -150.0702362060547,
+        2.4520583152770996
+      ],
+      "max": [
+        91.19684600830078,
+        32.09063720703125,
+        29.423858642578125
+      ],
+      "materials": [
+        "Grass blade olive",
+        "Grass blade sunlight",
+        "Grass blade dark green"
+      ],
+      "modifiers": [],
+      "vertex_groups": []
+    },
+    {
+      "name": "Narrow winding limestone footpath | conformed to meadow",
+      "visible_render": true,
+      "mesh": "Narrow winding limestone footpath | conformed to meadow geometry",
+      "mesh_users": 1,
+      "vertices": 889,
+      "faces": 1512,
+      "smooth_faces": 0,
+      "min": [
+        -123.10089874267578,
+        -78.43779754638672,
+        12.317045211791992
+      ],
+      "max": [
+        -51.285972595214844,
+        90.73719024658203,
+        38.02111053466797
+      ],
+      "materials": [
+        "Path | pale worn limestone and earth",
+        "Path | chalky small limestone patches",
+        "Path | soft mossy verge"
+      ],
+      "modifiers": [],
+      "vertex_groups": []
+    },
+    {
+      "name": "Small clusters of pale wildflowers along the meadow path",
+      "visible_render": true,
+      "mesh": "Small clusters of pale wildflowers along the meadow path geometry",
+      "mesh_users": 1,
+      "vertices": 2484,
+      "faces": 828,
+      "smooth_faces": 0,
+      "min": [
+        -74.5576171875,
+        -78.84819030761719,
+        11.175806045532227
+      ],
+      "max": [
+        -50.38311004638672,
+        -20.18986701965332,
+        20.954557418823242
+      ],
+      "materials": [
+        "Wildflower leaves",
+        "Meadow flowers | soft ivory",
+        "Meadow flowers | yellow centers"
+      ],
+      "modifiers": [],
+      "vertex_groups": []
+    },
+    {
+      "name": "V002 | western headland with solid rock shore",
+      "visible_render": true,
+      "mesh": "V002 | closed western headland mesh",
+      "mesh_users": 1,
+      "vertices": 17666,
+      "faces": 35328,
+      "smooth_faces": 32512,
+      "min": [
+        -285.61688232421875,
+        -193.76170349121094,
+        -6.5
+      ],
+      "max": [
+        -24.04542350769043,
+        181.2370147705078,
+        49.16497802734375
+      ],
+      "materials": [
+        "Meadow and slate | slope-based procedural strata",
+        "V002 | varied salt-weathered coastal slate",
+        "V002 | tidal slate with wet lower band"
+      ],
+      "modifiers": [],
+      "vertex_groups": []
+    },
+    {
+      "name": "V008 | coastal rock blades locally excavated for approach",
+      "visible_render": true,
+      "mesh": "V008 | coastal rock blades locally excavated for approach",
+      "mesh_users": 1,
+      "vertices": 18047,
+      "faces": 23027,
+      "smooth_faces": 0,
+      "min": [
+        -212.32257080078125,
+        -140.8343505859375,
+        -3.841045379638672
+      ],
+      "max": [
+        127.06490325927734,
+        63.922210693359375,
+        31.415197372436523
+      ],
+      "materials": [
+        "Fractured coastal grey-blue slate"
+      ],
+      "modifiers": [],
+      "vertex_groups": []
+    },
+    {
+      "name": "V010 | headland with local stair-edge clearance",
+      "visible_render": true,
+      "mesh": "V010 | headland with local stair-edge clearance",
+      "mesh_users": 1,
+      "vertices": 16385,
+      "faces": 32512,
+      "smooth_faces": 32512,
+      "min": [
+        -28.279935836791992,
+        -46.977577209472656,
+        -0.7799999713897705
+      ],
+      "max": [
+        101.25068664550781,
+        102.6053237915039,
+        29.0151309967041
+      ],
+      "materials": [
+        "Meadow and slate | slope-based procedural strata"
+      ],
+      "modifiers": [],
+      "vertex_groups": []
+    },
+    {
+      "name": "Western foreground | sweeping grassy slope",
+      "visible_render": false,
+      "mesh": "Western foreground | sweeping grassy slope geometry",
+      "mesh_users": 1,
+      "vertices": 16385,
+      "faces": 32512,
+      "smooth_faces": 32512,
+      "min": [
+        -277.97021484375,
+        -189.58001708984375,
+        -0.8399999737739563
+      ],
+      "max": [
+        -30.021541595458984,
+        174.77975463867188,
+        49.16497802734375
+      ],
+      "materials": [
+        "Meadow and slate | slope-based procedural strata"
+      ],
+      "modifiers": [],
+      "vertex_groups": []
+    }
+  ],
+  "samples": [
+    {
+      "pixel": [
+        680,
+        610
+      ],
+      "nearest": [
+        [
+          461.99398146281266,
+          "V008 | coastal rock blades locally excavated for approach",
+          [
+            8.177711486816406,
+            -20.52606201171875,
+            24.780900955200195
+          ],
+          5907,
+          [
+            -0.2273237705230713,
+            -0.4116154611110687,
+            0.8825512528419495
+          ]
+        ],
+        [
+          464.07142044253396,
+          "V010 | headland with local stair-edge clearance",
+          [
+            7.697364807128906,
+            -18.504913330078125,
+            24.784412384033203
+          ],
+          15442,
+          [
+            0.499734103679657,
+            0.5467194318771362,
+            -0.6718359589576721
+          ]
+        ],
+        [
+          518.8610946809314,
+          "V007 | western stonework with actual bridgehead passage",
+          [
+            -4.971107482910156,
+            34.799957275390625,
+            24.87702178955078
+          ],
+          11991,
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ]
+      ]
+    },
+    {
+      "pixel": [
+        700,
+        630
+      ],
+      "nearest": [
+        [
+          453.0103922592933,
+          "V010 | headland with local stair-edge clearance",
+          [
+            16.31201171875,
+            -27.8978271484375,
+            19.023250579833984
+          ],
+          21090,
+          [
+            -0.4110511243343353,
+            0.6260690689086914,
+            -0.6626269221305847
+          ]
+        ],
+        [
+          724.9564567933501,
+          "Air perspective behind the citadel",
+          [
+            -42.931243896484375,
+            237.49993896484375,
+            16.035663604736328
+          ],
+          2,
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ],
+        [
+          2223.9308633555474,
+          "Distant ocean to the horizon",
+          [
+            -369.48175048828125,
+            1700.3798828125,
+            -0.43199729919433594
+          ],
+          0,
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "pixel": [
+        740,
+        620
+      ],
+      "nearest": [
+        [
+          452.93930672482225,
+          "V008 | coastal rock blades locally excavated for approach",
+          [
+            28.544090270996094,
+            -25.393463134765625,
+            21.897069931030273
+          ],
+          4418,
+          [
+            0.3123268783092499,
+            -0.9499746561050415,
+            0.0
+          ]
+        ],
+        [
+          453.48996612905364,
+          "V010 | headland with local stair-edge clearance",
+          [
+            28.438980102539062,
+            -24.852935791015625,
+            21.894514083862305
+          ],
+          16496,
+          [
+            -0.11336095631122589,
+            0.6514393091201782,
+            -0.7501839399337769
+          ]
+        ],
+        [
+          720.7598983522927,
+          "Air perspective behind the citadel",
+          [
+            -22.576828002929688,
+            237.5,
+            20.65361976623535
+          ],
+          2,
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ]
+      ]
+    },
+    {
+      "pixel": [
+        770,
+        600
+      ],
+      "nearest": [
+        [
+          463.64110948596897,
+          "V008 | coastal rock blades locally excavated for approach",
+          [
+            35.94843292236328,
+            -13.162872314453125,
+            27.71103286743164
+          ],
+          3490,
+          [
+            0.2722768485546112,
+            -0.9622189998626709,
+            0.0
+          ]
+        ],
+        [
+          464.7772284232262,
+          "V010 | headland with local stair-edge clearance",
+          [
+            35.754722595214844,
+            -12.043426513671875,
+            27.72012710571289
+          ],
+          7291,
+          [
+            -0.12859338521957397,
+            0.4127342700958252,
+            -0.9017284512519836
+          ]
+        ],
+        [
+          468.880915412006,
+          "V012 | foundation with continuous L-shaped passage",
+          [
+            35.05503845214844,
+            -7.999969482421875,
+            27.752973556518555
+          ],
+          120,
+          [
+            0.0,
+            -0.9999999403953552,
+            0.0
+          ]
+        ]
+      ]
+    },
+    {
+      "pixel": [
+        800,
+        625
+      ],
+      "nearest": [
+        [
+          450.47858437220873,
+          "V010 | headland with local stair-edge clearance",
+          [
+            47.183738708496094,
+            -24.669036865234375,
+            20.501758575439453
+          ],
+          17035,
+          [
+            0.3474549651145935,
+            0.7909101247787476,
+            -0.5037223100662231
+          ]
+        ],
+        [
+          715.6781155873185,
+          "Air perspective behind the citadel",
+          [
+            7.259880065917969,
+            237.50006103515625,
+            18.44232177734375
+          ],
+          2,
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ],
+        [
+          3146.1788531158645,
+          "Distant ocean to the horizon",
+          [
+            -358.6343078613281,
+            2640.2275390625,
+            -0.43200111389160156
+          ],
+          0,
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "pixel": [
+        850,
+        610
+      ],
+      "nearest": [
+        [
+          457.4152826798752,
+          "V010 | headland with local stair-edge clearance",
+          [
+            61.541465759277344,
+            -15.719970703125,
+            24.76297950744629
+          ],
+          10915,
+          [
+            -0.1499866247177124,
+            0.36267104744911194,
+            -0.9197683334350586
+          ]
+        ],
+        [
+          712.3828747444275,
+          "Air perspective behind the citadel",
+          [
+            31.743179321289062,
+            237.5,
+            25.188270568847656
+          ],
+          2,
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ]
+      ]
+    },
+    {
+      "pixel": [
+        900,
+        630
+      ],
+      "nearest": [
+        [
+          447.6072720807061,
+          "V008 | coastal rock blades locally excavated for approach",
+          [
+            77.45137023925781,
+            -23.996551513671875,
+            19.173784255981445
+          ],
+          5945,
+          [
+            0.3937985897064209,
+            -0.08595142513513565,
+            0.9151694178581238
+          ]
+        ],
+        [
+          448.02698354691205,
+          "V010 | headland with local stair-edge clearance",
+          [
+            77.4161605834961,
+            -23.578338623046875,
+            19.16925811767578
+          ],
+          18096,
+          [
+            0.08014635741710663,
+            0.7350725531578064,
+            -0.6732346415519714
+          ]
+        ],
+        [
+          710.0441591392073,
+          "Air perspective behind the citadel",
+          [
+            55.43620681762695,
+            237.5,
+            16.3441219329834
+          ],
+          2,
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ]
+      ]
+    },
+    {
+      "pixel": [
+        930,
+        655
+      ],
+      "nearest": [
+        [
+          442.34455751744883,
+          "V008 | coastal rock blades locally excavated for approach",
+          [
+            86.46849822998047,
+            -28.728271484375,
+            12.427332878112793
+          ],
+          2178,
+          [
+            0.7322559356689453,
+            -0.6810296177864075,
+            0.0
+          ]
+        ],
+        [
+          443.92959132689504,
+          "V010 | headland with local stair-edge clearance",
+          [
+            86.36626434326172,
+            -27.1470947265625,
+            12.385865211486816
+          ],
+          26296,
+          [
+            -0.9321733117103577,
+            0.04882313311100006,
+            -0.35870492458343506
+          ]
+        ],
+        [
+          709.2200965534074,
+          "Air perspective behind the citadel",
+          [
+            69.25485229492188,
+            237.5,
+            5.445304870605469
+          ],
+          2,
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ]
+      ]
+    }
+  ],
+  "material": {
+    "name": "Meadow and slate | slope-based procedural strata",
+    "users": 4,
+    "links": [
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ],
+      [
+        "Geometry",
+        "Position",
+        "Noise Texture",
+        "Vector"
+      ],
+      [
+        "Noise Texture",
+        "Factor",
+        "Wind-scoured grass colors",
+        "Factor"
+      ],
+      [
+        "Noise Texture",
+        "Factor",
+        "Cold layered basalt colors",
+        "Factor"
+      ],
+      [
+        "Geometry",
+        "Position",
+        "Noise Texture.001",
+        "Vector"
+      ],
+      [
+        "Noise Texture.001",
+        "Factor",
+        "Cool wet hollows and sun-bleached meadow patches",
+        "Factor"
+      ],
+      [
+        "Wind-scoured grass colors",
+        "Color",
+        "Mix (Legacy)",
+        "Color1"
+      ],
+      [
+        "Cool wet hollows and sun-bleached meadow patches",
+        "Color",
+        "Mix (Legacy)",
+        "Color2"
+      ],
+      [
+        "Geometry",
+        "Normal",
+        "Separate XYZ",
+        "Vector"
+      ],
+      [
+        "Separate XYZ",
+        "Z",
+        "Grass clings to slanting ledges above bare sheer rock",
+        "Factor"
+      ],
+      [
+        "Grass clings to slanting ledges above bare sheer rock",
+        "Color",
+        "Mix (Legacy).001",
+        "Factor"
+      ],
+      [
+        "Cold layered basalt colors",
+        "Color",
+        "Mix (Legacy).001",
+        "Color1"
+      ],
+      [
+        "Mix (Legacy)",
+        "Color",
+        "Mix (Legacy).001",
+        "Color2"
+      ],
+      [
+        "Geometry",
+        "Position",
+        "Separate XYZ.001",
+        "Vector"
+      ],
+      [
+        "Separate XYZ.001",
+        "Z",
+        "Math",
+        "Value"
+      ],
+      [
+        "Math",
+        "Value",
+        "Damp dark rock below the high-tide line",
+        "Factor"
+      ],
+      [
+        "Mix (Legacy).001",
+        "Color",
+        "Mix (Legacy).002",
+        "Color1"
+      ],
+      [
+        "Damp dark rock below the high-tide line",
+        "Color",
+        "Mix (Legacy).002",
+        "Color2"
+      ],
+      [
+        "Mix (Legacy).002",
+        "Color",
+        "Principled BSDF",
+        "Base Color"
+      ],
+      [
+        "Geometry",
+        "Position",
+        "Noise Texture.002",
+        "Vector"
+      ],
+      [
+        "Noise Texture.002",
+        "Factor",
+        "Bump",
+        "Height"
+      ],
+      [
+        "Bump",
+        "Normal",
+        "Principled BSDF",
+        "Normal"
+      ]
+    ],
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED",
+        "defaults": {
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "IOR": 1.5,
+          "Alpha": 1.0,
+          "Thin Wall": false,
+          "Weight": 0.0,
+          "Diffuse Roughness": 0.0,
+          "Subsurface Weight": 0.0,
+          "Subsurface Radius": [
+            1.0,
+            0.20000000298023224,
+            0.10000000149011612
+          ],
+          "Subsurface Scale": 0.004999999888241291,
+          "Subsurface IOR": 1.399999976158142,
+          "Subsurface Anisotropy": 0.0,
+          "Specular IOR Level": 0.5,
+          "Specular Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Anisotropic": 0.0,
+          "Anisotropic Rotation": 0.0,
+          "Tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Transmission Weight": 0.0,
+          "Coat Weight": 0.0,
+          "Coat Roughness": 0.029999999329447746,
+          "Coat IOR": 1.5,
+          "Coat Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Coat Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Sheen Weight": 0.0,
+          "Sheen Roughness": 0.5,
+          "Sheen Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Emission Color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Emission Strength": 0.0,
+          "Thin Film Thickness": 0.0,
+          "Thin Film IOR": 1.3300000429153442
+        }
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL",
+        "defaults": {
+          "Displacement": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Thickness": 0.0
+        }
+      },
+      {
+        "name": "Geometry",
+        "type": "NEW_GEOMETRY",
+        "defaults": {}
+      },
+      {
+        "name": "Noise Texture",
+        "type": "TEX_NOISE",
+        "defaults": {
+          "W": 0.0,
+          "Scale": 0.1599999964237213,
+          "Detail": 5.0,
+          "Roughness": 0.7300000190734863,
+          "Lacunarity": 2.0,
+          "Offset": 0.0,
+          "Gain": 1.0,
+          "Distortion": 0.0
+        }
+      },
+      {
+        "name": "Wind-scoured grass colors",
+        "type": "VALTORGB",
+        "defaults": {},
+        "ramp": [
+          [
+            0.11999999731779099,
+            [
+              0.02199999988079071,
+              0.061000000685453415,
+              0.017999999225139618,
+              1.0
+            ]
+          ],
+          [
+            0.4300000071525574,
+            [
+              0.06499999761581421,
+              0.14499999582767487,
+              0.02800000086426735,
+              1.0
+            ]
+          ],
+          [
+            0.6499999761581421,
+            [
+              0.18000000715255737,
+              0.2800000011920929,
+              0.057999998331069946,
+              1.0
+            ]
+          ],
+          [
+            0.8600000143051147,
+            [
+              0.30000001192092896,
+              0.3799999952316284,
+              0.0949999988079071,
+              1.0
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "Cold layered basalt colors",
+        "type": "VALTORGB",
+        "defaults": {},
+        "ramp": [
+          [
+            0.07999999821186066,
+            [
+              0.06499999761581421,
+              0.10499999672174454,
+              0.11999999731779099,
+              1.0
+            ]
+          ],
+          [
+            0.41999998688697815,
+            [
+              0.1599999964237213,
+              0.20999999344348907,
+              0.2199999988079071,
+              1.0
+            ]
+          ],
+          [
+            0.6700000166893005,
+            [
+              0.28999999165534973,
+              0.3199999928474426,
+              0.30000001192092896,
+              1.0
+            ]
+          ],
+          [
+            0.9300000071525574,
+            [
+              0.4300000071525574,
+              0.4300000071525574,
+              0.3700000047683716,
+              1.0
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "Noise Texture.001",
+        "type": "TEX_NOISE",
+        "defaults": {
+          "W": 0.0,
+          "Scale": 0.027000000700354576,
+          "Detail": 3.0,
+          "Roughness": 0.5,
+          "Lacunarity": 2.0,
+          "Offset": 0.0,
+          "Gain": 1.0,
+          "Distortion": 0.0
+        }
+      },
+      {
+        "name": "Cool wet hollows and sun-bleached meadow patches",
+        "type": "VALTORGB",
+        "defaults": {},
+        "ramp": [
+          [
+            0.15000000596046448,
+            [
+              0.2800000011920929,
+              0.4000000059604645,
+              0.23000000417232513,
+              1.0
+            ]
+          ],
+          [
+            0.44999998807907104,
+            [
+              0.550000011920929,
+              0.699999988079071,
+              0.3799999952316284,
+              1.0
+            ]
+          ],
+          [
+            0.75,
+            [
+              1.0,
+              0.9399999976158142,
+              0.6100000143051147,
+              1.0
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "Mix (Legacy)",
+        "type": "MIX_RGB",
+        "defaults": {
+          "Factor": 0.5199999809265137
+        }
+      },
+      {
+        "name": "Separate XYZ",
+        "type": "SEPXYZ",
+        "defaults": {}
+      },
+      {
+        "name": "Grass clings to slanting ledges above bare sheer rock",
+        "type": "VALTORGB",
+        "defaults": {},
+        "ramp": [
+          [
+            0.4000000059604645,
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          [
+            0.7799999713897705,
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "Mix (Legacy).001",
+        "type": "MIX_RGB",
+        "defaults": {}
+      },
+      {
+        "name": "Separate XYZ.001",
+        "type": "SEPXYZ",
+        "defaults": {}
+      },
+      {
+        "name": "Damp dark rock below the high-tide line",
+        "type": "VALTORGB",
+        "defaults": {},
+        "ramp": [
+          [
+            0.0,
+            [
+              0.3100000023841858,
+              0.4300000071525574,
+              0.46000000834465027,
+              1.0
+            ]
+          ],
+          [
+            0.07000000029802322,
+            [
+              0.5699999928474426,
+              0.6399999856948853,
+              0.5899999737739563,
+              1.0
+            ]
+          ],
+          [
+            0.1599999964237213,
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "Math",
+        "type": "MATH",
+        "defaults": {
+          "Value": 0.5
+        }
+      },
+      {
+        "name": "Mix (Legacy).002",
+        "type": "MIX_RGB",
+        "defaults": {
+          "Factor": 0.6499999761581421
+        }
+      },
+      {
+        "name": "Noise Texture.002",
+        "type": "TEX_NOISE",
+        "defaults": {
+          "W": 0.0,
+          "Scale": 2.799999952316284,
+          "Detail": 4.0,
+          "Roughness": 0.5,
+          "Lacunarity": 2.0,
+          "Offset": 0.0,
+          "Gain": 1.0,
+          "Distortion": 0.0
+        }
+      },
+      {
+        "name": "Bump",
+        "type": "BUMP",
+        "defaults": {
+          "Strength": 0.5699999928474426,
+          "Distance": 0.2800000011920929,
+          "Filter Width": 0.10000000149011612,
+          "Normal": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ]
+  }
+}

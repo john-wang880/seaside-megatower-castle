@@ -1,0 +1,90 @@
+{
+  "status": "Spatial feasibility passed; final animation NOT authorized or launched",
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "source_unchanged": true,
+  "xy_path_length_m": 28.456858347057704,
+  "eye_path_length_m": 29.090029897669684,
+  "exact_one_sided_eyeheight_limits_m": [
+    1.559375,
+    1.740625
+  ],
+  "proxy_scope": "Continuous .12m head/camera sweptvolume inside independently validated routeprism union, not full articulated person or wheelchair proof.",
+  "continuous_audit": "independent_audit/continuous_plan.json",
+  "actual_near_plane_corner_radius_m": [
+    0.06574666847902294,
+    0.06574666847902294,
+    0.06574666847902294,
+    0.06574666847902294,
+    0.06574666847902294
+  ],
+  "preview": {
+    "resolution": [
+      640,
+      462
+    ],
+    "samples": 16,
+    "mean_render_seconds": 58.09040739959892,
+    "per_view_seconds": {
+      "entrance": 58.699201789000654,
+      "turn": 57.75642030000017,
+      "stair_base": 58.56468547099939,
+      "upper_stair": 58.4593232279949,
+      "terminal": 56.97240620999946
+    },
+    "unchanged_actual_world_lights_exposure": true
+  },
+  "visual_findings": {
+    "entrance": "Readable warmhall; begins justinside entrance, not exteriordoor crossing.",
+    "turn": "Atmidquartercircle tangentview facesnearwall and clipslantern framing. Not a collision; composition and yawtransition needrevision beforefinal.",
+    "stair_base": "Stair flight clearlyvisible, lowqualitydenoising softensfineedges.",
+    "upper_stair": "Uppersteps/marker andsmallskyopening readable; roofabove dark.",
+    "terminal": "Endpoint y59.2 insidevalidatedterrace; destinationwall/floor naturallyverydark, not solvedby extraexposure or lights."
+  },
+  "timing_options": [
+    {
+      "option": "fullroute ordinarypaced",
+      "duration_seconds": 28,
+      "fps": 12,
+      "actual_frames": 336,
+      "estimated_render_hours": [
+        6,
+        10
+      ],
+      "requirements": "Smooth slowdownaroundtightLturn, anticipatoryeasedyaw, no raw0\u219244.6deg/s headingratejump. Endpoint/shadowtruth retained. Finaltimeline notimplemented."
+    },
+    {
+      "option": "shorter contiguous stair-to-terrace excerpt",
+      "suggested_start": [
+        4.45,
+        49
+      ],
+      "end": [
+        4.45,
+        59.2
+      ],
+      "duration_seconds": 10,
+      "fps": 12,
+      "actual_frames": 120,
+      "approx_eye_path_length_m": 10.7,
+      "estimated_render_hours": [
+        2,
+        3.5
+      ],
+      "scope": "Clearlylabeled partialinteriorroute, notentrance-to-terrace; humanheight andendwithinvalidatedterrace, no teleport."
+    },
+    {
+      "option": "fullroute8to12seconds",
+      "mean_eye_speed_mps": [
+        2.4241691581391405,
+        3.6362537372087105
+      ],
+      "verdict": "Wouldbe accelerated/runlike, notordinarywalking; do not silentlylabel aswalkthrough."
+    }
+  ],
+  "cost_basis": "Five640x462/16sampleframes average58.09s; minimum atsamepreviewquality336frames\u22485.42h/120frames\u22481.94h. Original80sample960x694 costunmeasured; rangeextrapolatedfromprioractualinterior renders. No speedguarantee.",
+  "recommendation": "Fullentrance\u2192turn\u2192stairs\u2192terrace narrative nowvisually viable using anticipatoryturngaze andlateraldaylightfinish. Owner must choose duration/renderbudget beforefinal timeline/longrender; prefer ordinarypaced~28s over silentlyaccelerated8\u201312s.",
+  "remaining_limits": "Five staticimages cannot establish finaltemporal smoothness/noise. Camera pathisgeometryfeasible; finishedmotionisnotyet accepted.",
+  "source_saved": false,
+  "final_render_started": false,
+  "orientation_followup": "orientation_review.json: turn andterminal concerns resolved by two tested orientation-only previews, samepath/source/light; oldimages retained asdiagnostic comparison."
+}

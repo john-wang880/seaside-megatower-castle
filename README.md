@@ -13,3 +13,5 @@
 克隆完整仓库（含model_chunks），运行 `python checkpoints/v018/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块/整文件SHA-256验证，精确恢复原字节。
 
 已从提交`3322030e311e8857c4b9d444b4a122027f7643e1`独立恢复并复验，见[远端验证](checkpoints/v018/reports/remote_validation.json)。当前只保留最新模型载荷；旧版Git历史保留，不强推、不永久清除历史。前景针叶试验因损失树冠体量已拒绝，未改当前森林。图片来源明确区分：西塔屋帽/全景v018，主冠参考v017，六张路线/小塔参考v016。
+
+**制作中，非已完成影片：**[28秒入口内廊至露台真实相机预览计划](checkpoints/v018/presentation/interior_route/README.md)，模型仍为v018。先25帧试片审查，再继续长渲染。

@@ -1,0 +1,13 @@
+{
+  "compile": true,
+  "help": true,
+  "existing_output_refused": {
+    "returncode": 2,
+    "stderr": "usage: audit.py [-h] --source SOURCE --output-dir OUTPUT_DIR [--skip-render]\naudit.py: error: output directory already exists; refusing overwrite\n"
+  },
+  "wrong_source_refused": {
+    "returncode": 2,
+    "stderr": "usage: audit.py [-h] --source SOURCE --output-dir OUTPUT_DIR [--skip-render]\naudit.py: error: source SHA256 is not the accepted v018\n"
+  },
+  "blender_rerun": false
+}

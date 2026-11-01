@@ -1,0 +1,12 @@
+{
+  "portable_cli_blender_skip_render_pass": true,
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "exact_original_payload_match": {
+    "objects": true,
+    "material": true,
+    "samples": true,
+    "sha_before": true
+  },
+  "render_rerun": false,
+  "scope": "New CLI and read-only source loading executed in Blender; geometry/material/sample payloads exact. Original image/render remains historical actual run, not claimed rerender."
+}
