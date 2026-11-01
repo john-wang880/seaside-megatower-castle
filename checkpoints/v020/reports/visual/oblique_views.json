@@ -1,0 +1,70 @@
+{
+  "resolution": [
+    1200,
+    866
+  ],
+  "threads": 8,
+  "samples": 80,
+  "source_scene_frame": 1,
+  "views": {
+    "oblique": {
+      "location": [
+        -80.8,
+        42.8,
+        33
+      ],
+      "target": [
+        -71.4000015258789,
+        38.0,
+        29.700000762939453
+      ],
+      "reference_matrix": [
+        [
+          -0.4547772705554962,
+          0.2657683491706848,
+          -0.8500263690948486,
+          -80.80000305175781
+        ],
+        [
+          -0.8906052112579346,
+          -0.135711669921875,
+          0.4340561330318451,
+          42.79999923706055
+        ],
+        [
+          -1.1180989645254158e-07,
+          0.9544367790222168,
+          0.2984132468700409,
+          33.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_data": {
+        "lens": 35.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0,
+        "shift_x": 0.0,
+        "shift_y": 0.0
+      },
+      "purpose": "Whole arch/cornice junction from owner-approved near northwest pose; no relight"
+    }
+  },
+  "provenance": {
+    "approach": "work/forest_dense_trial/before_west_render_receipt.json; canonical V018, not rejected candidate",
+    "hero": "work/v018_navigation/current_hero/metadata.json; canonical V018"
+  },
+  "comparison_order": [
+    "baseline_approach",
+    "candidate_approach",
+    "baseline_hero",
+    "candidate_hero"
+  ]
+}

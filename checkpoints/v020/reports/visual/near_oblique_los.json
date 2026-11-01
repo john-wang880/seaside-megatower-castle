@@ -1,0 +1,340 @@
+{
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "source_saved": false,
+  "results": [
+    {
+      "name": "near_northwest",
+      "location": [
+        -80.8,
+        42.8,
+        33
+      ],
+      "target": [
+        -71.4000015258789,
+        38.0,
+        29.700000762939453
+      ],
+      "lens": 35,
+      "matrix_world": [
+        [
+          -0.4547772705554962,
+          0.2657683491706848,
+          -0.8500263690948486,
+          -80.80000305175781
+        ],
+        [
+          -0.8906052112579346,
+          -0.135711669921875,
+          0.4340561330318451,
+          42.79999923706055
+        ],
+        [
+          -1.1180989645254158e-07,
+          0.9544367790222168,
+          0.2984132468700409,
+          33.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "frame_region": [
+        [
+          -71.5,
+          33.5,
+          27
+        ],
+        [
+          -70.9,
+          42.5,
+          32.5
+        ]
+      ],
+      "projected_region": [
+        [
+          0.786956250667572,
+          0.30449551343917847,
+          13.732451438903809
+        ],
+        [
+          0.8259080052375793,
+          0.8628420233726501,
+          12.091178894042969
+        ],
+        [
+          0.10795781761407852,
+          0.059307508170604706,
+          9.825945854187012
+        ],
+        [
+          0.029341483488678932,
+          0.8349826335906982,
+          8.184673309326172
+        ],
+        [
+          0.7580538988113403,
+          0.32657986879348755,
+          14.242465019226074
+        ],
+        [
+          0.7916646599769592,
+          0.8652045726776123,
+          12.601192474365234
+        ],
+        [
+          0.10163596272468567,
+          0.10183718055486679,
+          10.335959434509277
+        ],
+        [
+          0.026437727734446526,
+          0.8400408625602722,
+          8.694686889648438
+        ]
+      ],
+      "whole_region_with_6percent_margin": false,
+      "front_face_target_count": 13,
+      "front_face_visible_count": 13,
+      "rays": [
+        {
+          "target_face": 0,
+          "target": [
+            -71.4800033569336,
+            40.29460144042969,
+            29.193527221679688
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            40.29460144042969,
+            29.193527221679688
+          ],
+          "target_distance": 10.374422838634047,
+          "hit_distance": 10.374422838634047,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 12,
+          "target": [
+            -71.4800033569336,
+            40.157386779785156,
+            29.75759506225586
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            40.157386779785156,
+            29.75759506225586
+          ],
+          "target_distance": 10.215624620047276,
+          "hit_distance": 10.215624620047276,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 22,
+          "target": [
+            -71.4800033569336,
+            39.89659118652344,
+            30.226177215576172
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            39.89659118652344,
+            30.226177215576172
+          ],
+          "target_distance": 10.148214970616445,
+          "hit_distance": 10.148214970616445,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 32,
+          "target": [
+            -71.4800033569336,
+            39.5159912109375,
+            30.620559692382812
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            39.5159912109375,
+            30.620559692382812
+          ],
+          "target_distance": 10.164095691623782,
+          "hit_distance": 10.164095691623782,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 42,
+          "target": [
+            -71.4800033569336,
+            39.03968811035156,
+            30.915752410888672
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            39.03968811035156,
+            30.915752410888672
+          ],
+          "target_distance": 10.26384058849055,
+          "hit_distance": 10.26384058849055,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 52,
+          "target": [
+            -71.4800033569336,
+            38.49785614013672,
+            31.09307289123535
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            38.49785614013672,
+            31.09307289123535
+          ],
+          "target_distance": 10.440651389313876,
+          "hit_distance": 10.440651389313876,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 62,
+          "target": [
+            -71.48001098632812,
+            38.0,
+            31.143444061279297
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            37.999996185302734,
+            31.143442153930664
+          ],
+          "target_distance": 10.646550829324308,
+          "hit_distance": 10.646559674940239,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 70,
+          "target": [
+            -71.4800033569336,
+            37.502140045166016,
+            31.09307098388672
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            37.502140045166016,
+            31.09307098388672
+          ],
+          "target_distance": 10.888805571278422,
+          "hit_distance": 10.888805571278422,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 80,
+          "target": [
+            -71.4800033569336,
+            36.96031188964844,
+            30.915754318237305
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            36.96031188964844,
+            30.915754318237305
+          ],
+          "target_distance": 11.194124530126135,
+          "hit_distance": 11.194124530126135,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 90,
+          "target": [
+            -71.4800033569336,
+            36.4840087890625,
+            30.620559692382812
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            36.4840087890625,
+            30.620559692382812
+          ],
+          "target_distance": 11.507209363205478,
+          "hit_distance": 11.507209363205478,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 100,
+          "target": [
+            -71.4800033569336,
+            36.1034049987793,
+            30.226177215576172
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            36.1034049987793,
+            30.226177215576172
+          ],
+          "target_distance": 11.806814329070109,
+          "hit_distance": 11.806814329070109,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 110,
+          "target": [
+            -71.4800033569336,
+            35.842613220214844,
+            29.75759506225586
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            35.842613220214844,
+            29.75759506225586
+          ],
+          "target_distance": 12.073972237328052,
+          "hit_distance": 12.073972237328052,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 120,
+          "target": [
+            -71.4800033569336,
+            35.70539474487305,
+            29.193527221679688
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            35.70539474487305,
+            29.193527221679688
+          ],
+          "target_distance": 12.316048202851471,
+          "hit_distance": 12.316048202851471,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        }
+      ]
+    }
+  ],
+  "limits": "Finite actual front-face-center ray coverage, not continuous all-pixel visibility. One owner-approved nearer pose; no render/relight."
+}

@@ -1,0 +1,717 @@
+{
+  "status": "TECHNICAL UNION PROTOTYPE; INDEPENDENT QA AND ART REVIEW PENDING",
+  "input_sha256": "0dd7096d0e1e5097c0f0e9a353e341c682d8a5b3c549d2439e0969cd4ed1c6ca",
+  "input_unchanged": true,
+  "candidate_sha256": "987bc1ecbfca101b97aa97f1019e0db3cf22abde42ec771af83bba7fc3b44940",
+  "candidate_bytes": 47597157,
+  "source_canonical_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "arch_object": "V020 candidate | west portal radial stones",
+  "removed_consumed_authored_object": "V020 candidate | restrained portal imposts",
+  "component_count": 21,
+  "mapping": [
+    {
+      "old_arch_seed": 0,
+      "new_arch_seed": 0,
+      "new_vertex_count": 20,
+      "unchanged_component_under_reindex": false
+    },
+    {
+      "old_arch_seed": 12,
+      "new_arch_seed": 20,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 28,
+      "new_arch_seed": 36,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 44,
+      "new_arch_seed": 52,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 60,
+      "new_arch_seed": 68,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 76,
+      "new_arch_seed": 84,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 92,
+      "new_arch_seed": 100,
+      "new_vertex_count": 12,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 104,
+      "new_arch_seed": 112,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 120,
+      "new_arch_seed": 128,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 136,
+      "new_arch_seed": 144,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 152,
+      "new_arch_seed": 160,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 168,
+      "new_arch_seed": 176,
+      "new_vertex_count": 16,
+      "unchanged_component_under_reindex": true
+    },
+    {
+      "old_arch_seed": 184,
+      "new_arch_seed": 192,
+      "new_vertex_count": 20,
+      "unchanged_component_under_reindex": false
+    }
+  ],
+  "union_proofs": [
+    {
+      "old_arch_seed": 0,
+      "old_impost_seed": 8,
+      "old_arch": {
+        "closed": true,
+        "volume": 0.02953394835292822,
+        "faces": 8
+      },
+      "old_impost": {
+        "closed": true,
+        "volume": 0.011408157332833624,
+        "faces": 6
+      },
+      "intersection": {
+        "closed": true,
+        "volume": 0.002429564849000004,
+        "faces": 8
+      },
+      "union": {
+        "closed": true,
+        "volume": 0.03851256752145554,
+        "faces": 12
+      },
+      "sum_minus_intersection": 0.03851254083676184,
+      "volume_error": 2.6684693704703832e-08,
+      "bidirectional_occupied_set_difference": {
+        "planar_occupied_set_proof": {
+          "old_arch_area": 0.0952692067658063,
+          "old_impost_area": 0.036799891662667505,
+          "actual_intersection_area": 0.007837096370849395,
+          "union_area": 0.12423200205762441,
+          "area_identity_error": 0.0,
+          "depth": 0.31000518798828125,
+          "exterior_source_edge_intervals": [
+            {
+              "source": "arch",
+              "edge": 0,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.37946701049805,
+                  29.337158203125
+                ],
+                [
+                  40.33253860473633,
+                  29.56794548034668
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 1,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.33253860473633,
+                  29.56794548034668
+                ],
+                [
+                  40.14399337768555,
+                  29.52227210998535
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 2,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.14399337768555,
+                  29.52227210998535
+                ],
+                [
+                  40.18712615966797,
+                  29.31183624267578
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 3,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.18712615966797,
+                  29.31183624267578
+                ],
+                [
+                  40.20598220825195,
+                  29.05802345275879
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 4,
+              "parameter_interval": [
+                0.0,
+                0.020705521472392636
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.20598220825195,
+                  29.05802345275879
+                ],
+                [
+                  40.209999084472656,
+                  29.058039526266555
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 5,
+              "parameter_interval": [
+                0.14801288200630397,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.39694590271213,
+                  29.100000381469727
+                ],
+                [
+                  40.37946701049805,
+                  29.337158203125
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 0,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.209999084472656,
+                  28.940000534057617
+                ],
+                [
+                  40.439998626708984,
+                  28.940000534057617
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 1,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.439998626708984,
+                  28.940000534057617
+                ],
+                [
+                  40.439998626708984,
+                  29.100000381469727
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 2,
+              "parameter_interval": [
+                0.0,
+                0.18718612906025414
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.439998626708984,
+                  29.100000381469727
+                ],
+                [
+                  40.39694590271213,
+                  29.100000381469727
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 3,
+              "parameter_interval": [
+                0.2622555951262515,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  40.209999084472656,
+                  29.058039526266555
+                ],
+                [
+                  40.209999084472656,
+                  28.940000534057617
+                ]
+              ]
+            }
+          ],
+          "intersection_boundary_edge_intervals": [
+            {
+              "source": "arch",
+              "edge": 4,
+              "parameter_interval": [
+                0.020705521472392636,
+                1.0
+              ],
+              "midpoint_inside_other": true,
+              "ends": [
+                [
+                  40.209999084472656,
+                  29.058039526266555
+                ],
+                [
+                  40.39998245239258,
+                  29.058799743652344
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 5,
+              "parameter_interval": [
+                0.0,
+                0.14801288200630397
+              ],
+              "midpoint_inside_other": true,
+              "ends": [
+                [
+                  40.39998245239258,
+                  29.058799743652344
+                ],
+                [
+                  40.39694590271213,
+                  29.100000381469727
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 2,
+              "parameter_interval": [
+                0.18718612906025414,
+                1.0
+              ],
+              "midpoint_inside_other": true,
+              "ends": [
+                [
+                  40.39694590271213,
+                  29.100000381469727
+                ],
+                [
+                  40.209999084472656,
+                  29.100000381469727
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 3,
+              "parameter_interval": [
+                0.0,
+                0.2622555951262515
+              ],
+              "midpoint_inside_other": true,
+              "ends": [
+                [
+                  40.209999084472656,
+                  29.100000381469727
+                ],
+                [
+                  40.209999084472656,
+                  29.058039526266555
+                ]
+              ]
+            }
+          ],
+          "single_closed_boundary": true,
+          "method": "Split actual front polygons at every edge crossing; retain only source subedges outside other polygon; assemble single exterior cycle. Intersection uses complementary inside subedges. No displaced exterior edges."
+        }
+      },
+      "union_bounds_exact": true,
+      "all_vertices_original_two_extrusion_planes": true
+    },
+    {
+      "old_arch_seed": 184,
+      "old_impost_seed": 0,
+      "old_arch": {
+        "closed": true,
+        "volume": 0.02953394835292822,
+        "faces": 8
+      },
+      "old_impost": {
+        "closed": true,
+        "volume": 0.011408157332833624,
+        "faces": 6
+      },
+      "intersection": {
+        "closed": true,
+        "volume": 0.0024295648490000044,
+        "faces": 7
+      },
+      "union": {
+        "closed": true,
+        "volume": 0.03851256752145554,
+        "faces": 12
+      },
+      "sum_minus_intersection": 0.03851254083676184,
+      "volume_error": 2.6684693704703832e-08,
+      "bidirectional_occupied_set_difference": {
+        "planar_occupied_set_proof": {
+          "old_arch_area": 0.0952692067658063,
+          "old_impost_area": 0.036799891662667505,
+          "actual_intersection_area": 0.007837096370849395,
+          "union_area": 0.12423200205762441,
+          "area_identity_error": 0.0,
+          "depth": 0.31000518798828125,
+          "exterior_source_edge_intervals": [
+            {
+              "source": "arch",
+              "edge": 0,
+              "parameter_interval": [
+                0.0,
+                0.8519871179936961
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.62053298950195,
+                  29.337158203125
+                ],
+                [
+                  35.60305409728787,
+                  29.100000381469727
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 1,
+              "parameter_interval": [
+                0.9792944785276073,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.790000915527344,
+                  29.058039526266555
+                ],
+                [
+                  35.79401779174805,
+                  29.05802345275879
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 2,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.79401779174805,
+                  29.05802345275879
+                ],
+                [
+                  35.81287384033203,
+                  29.31183624267578
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 3,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.81287384033203,
+                  29.31183624267578
+                ],
+                [
+                  35.85600662231445,
+                  29.52227210998535
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 4,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.85600662231445,
+                  29.52227210998535
+                ],
+                [
+                  35.66746139526367,
+                  29.56794548034668
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 5,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.66746139526367,
+                  29.56794548034668
+                ],
+                [
+                  35.62053298950195,
+                  29.337158203125
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 0,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.560001373291016,
+                  28.940000534057617
+                ],
+                [
+                  35.790000915527344,
+                  28.940000534057617
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 1,
+              "parameter_interval": [
+                0.0,
+                0.7377444048737485
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.790000915527344,
+                  28.940000534057617
+                ],
+                [
+                  35.790000915527344,
+                  29.058039526266555
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 2,
+              "parameter_interval": [
+                0.8128138709397459,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.60305409728787,
+                  29.100000381469727
+                ],
+                [
+                  35.560001373291016,
+                  29.100000381469727
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 3,
+              "parameter_interval": [
+                0.0,
+                1.0
+              ],
+              "midpoint_inside_other": false,
+              "ends": [
+                [
+                  35.560001373291016,
+                  29.100000381469727
+                ],
+                [
+                  35.560001373291016,
+                  28.940000534057617
+                ]
+              ]
+            }
+          ],
+          "intersection_boundary_edge_intervals": [
+            {
+              "source": "arch",
+              "edge": 0,
+              "parameter_interval": [
+                0.8519871179936961,
+                1.0
+              ],
+              "midpoint_inside_other": true,
+              "ends": [
+                [
+                  35.60305409728787,
+                  29.100000381469727
+                ],
+                [
+                  35.60001754760742,
+                  29.058799743652344
+                ]
+              ]
+            },
+            {
+              "source": "arch",
+              "edge": 1,
+              "parameter_interval": [
+                0.0,
+                0.9792944785276073
+              ],
+              "midpoint_inside_other": true,
+              "ends": [
+                [
+                  35.60001754760742,
+                  29.058799743652344
+                ],
+                [
+                  35.790000915527344,
+                  29.058039526266555
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 1,
+              "parameter_interval": [
+                0.7377444048737485,
+                1.0
+              ],
+              "midpoint_inside_other": true,
+              "ends": [
+                [
+                  35.790000915527344,
+                  29.058039526266555
+                ],
+                [
+                  35.790000915527344,
+                  29.100000381469727
+                ]
+              ]
+            },
+            {
+              "source": "impost",
+              "edge": 2,
+              "parameter_interval": [
+                0.0,
+                0.8128138709397459
+              ],
+              "midpoint_inside_other": true,
+              "ends": [
+                [
+                  35.790000915527344,
+                  29.100000381469727
+                ],
+                [
+                  35.60305409728787,
+                  29.100000381469727
+                ]
+              ]
+            }
+          ],
+          "single_closed_boundary": true,
+          "method": "Split actual front polygons at every edge crossing; retain only source subedges outside other polygon; assemble single exterior cycle. Intersection uses complementary inside subedges. No displaced exterior edges."
+        }
+      },
+      "union_bounds_exact": true,
+      "all_vertices_original_two_extrusion_planes": true
+    }
+  ],
+  "all_other_meshes_exact": true,
+  "all_material_graphs_exact": true,
+  "scope": "Only two new springer/impost pairs planarYZpolygon union; actualBoolean intersection used for independent volume comparison. No original source edits, dimensions/style unchanged; no renders.",
+  "proof_method_note": "Nested coplanar Boolean difference produced a residual and was rejected. Final union uses exterior-source-edge interval provenance and union/intersection area identity, then closed extrusion; independent occupied-set QA pending."
+}

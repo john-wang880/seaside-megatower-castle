@@ -1,0 +1,386 @@
+{
+  "status": "UNACCEPTED ARTISTIC PROTOTYPE; INDEPENDENT GEOMETRY AND VISUAL QA PENDING",
+  "source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "source_unchanged": true,
+  "plan_sha256": "cb8cbd0996bd53dfea8b9e945588b1329d37aa5ace4290879b6b637407072f81",
+  "candidate_sha256": "273ed57ca3a6cb1b629641402b2624df03669f322a76eb01e9a53063b1aa31de",
+  "candidate_bytes": 47595074,
+  "collection": "UNACCEPTED | v020 western threshold craft",
+  "objects": [
+    {
+      "object": "V020 candidate | west portal radial stones",
+      "host": "V007 | western stonework with actual bridgehead passage",
+      "host_seed": 17620,
+      "parts": [
+        {
+          "first_vertex": 0,
+          "vertex_count": 12,
+          "faces": 8,
+          "volume": 0.029533948352924,
+          "embedded_witness": [
+            -71.185,
+            40.283230410425524,
+            29.303127028536178
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 12,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.029851648006576526,
+          "embedded_witness": [
+            -71.185,
+            40.15053735817645,
+            29.794670262789325
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 28,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.030407098683705197,
+          "embedded_witness": [
+            -71.185,
+            39.89286289155541,
+            30.242935968135427
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 44,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.031070199788701208,
+          "embedded_witness": [
+            -71.185,
+            39.52518211395383,
+            30.62187257115931
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 60,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.03168906374256175,
+          "embedded_witness": [
+            -71.185,
+            39.068863295700666,
+            30.90945765387174
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 76,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.03212134826376489,
+          "embedded_witness": [
+            -71.185,
+            38.550426027861384,
+            31.08897781659471
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 92,
+          "vertex_count": 12,
+          "faces": 8,
+          "volume": 0.03227983013602753,
+          "embedded_witness": [
+            -71.185,
+            38.0,
+            31.150000000000002
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 104,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.032121348263747795,
+          "embedded_witness": [
+            -71.185,
+            37.449573972138616,
+            31.08897781659471
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 120,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.03168906374248448,
+          "embedded_witness": [
+            -71.185,
+            36.931136704299334,
+            30.90945765387174
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 136,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.031070199788738706,
+          "embedded_witness": [
+            -71.185,
+            36.47481788604617,
+            30.62187257115931
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 152,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.030407098683667866,
+          "embedded_witness": [
+            -71.185,
+            36.10713710844459,
+            30.242935968135427
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 168,
+          "vertex_count": 16,
+          "faces": 10,
+          "volume": 0.029851648006570697,
+          "embedded_witness": [
+            -71.185,
+            35.84946264182355,
+            29.794670262789325
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 184,
+          "vertex_count": 12,
+          "faces": 8,
+          "volume": 0.029533948352890582,
+          "embedded_witness": [
+            -71.185,
+            35.716769589574476,
+            29.303127028536178
+          ],
+          "three_ray_inside_addition_and_host": true
+        }
+      ],
+      "vertices": 196,
+      "faces": 124,
+      "bounds": [
+        [
+          -71.4800033569336,
+          35.60001754760742,
+          29.05802345275879
+        ],
+        [
+          -71.16999816894531,
+          40.39998245239258,
+          31.25
+        ]
+      ]
+    },
+    {
+      "object": "V020 candidate | restrained portal imposts",
+      "host": "V007 | western stonework with actual bridgehead passage",
+      "host_seed": 17620,
+      "parts": [
+        {
+          "first_vertex": 0,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.011408157332880364,
+          "embedded_witness": [
+            -71.185,
+            35.675,
+            29.020000000000003
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 8,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.011408157332880364,
+          "embedded_witness": [
+            -71.185,
+            40.325,
+            29.020000000000003
+          ],
+          "three_ray_inside_addition_and_host": true
+        }
+      ],
+      "vertices": 16,
+      "faces": 12,
+      "bounds": [
+        [
+          -71.4800033569336,
+          35.560001373291016,
+          28.940000534057617
+        ],
+        [
+          -71.16999816894531,
+          40.439998626708984,
+          29.100000381469727
+        ]
+      ]
+    },
+    {
+      "object": "V020 candidate | south short approach coping",
+      "host": "V009 | south approach parapet",
+      "host_seed": 0,
+      "parts": [
+        {
+          "first_vertex": 0,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.03833264766421984,
+          "embedded_witness": [
+            -75.3275,
+            36.25,
+            27.82373611111111
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 8,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.03819000808407691,
+          "embedded_witness": [
+            -73.975,
+            36.25,
+            27.951472222222222
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 16,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.036765503427053425,
+          "embedded_witness": [
+            -72.65,
+            36.25,
+            28.07661111111111
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 24,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.0198075496276906,
+          "embedded_witness": [
+            -71.64750000000001,
+            36.25,
+            28.137999999999998
+          ],
+          "three_ray_inside_addition_and_host": true
+        }
+      ],
+      "vertices": 32,
+      "faces": 24,
+      "bounds": [
+        [
+          -76.0,
+          36.099998474121094,
+          27.747222900390625
+        ],
+        [
+          -71.30000305175781,
+          36.400001525878906,
+          28.219999313354492
+        ]
+      ]
+    },
+    {
+      "object": "V020 candidate | north short approach coping",
+      "host": "V009 | north approach parapet",
+      "host_seed": 0,
+      "parts": [
+        {
+          "first_vertex": 0,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.03833264766421984,
+          "embedded_witness": [
+            -75.3275,
+            39.75,
+            27.82373611111111
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 8,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.03819000808410533,
+          "embedded_witness": [
+            -73.975,
+            39.75,
+            27.951472222222222
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 16,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.036765503427053425,
+          "embedded_witness": [
+            -72.65,
+            39.75,
+            28.07661111111111
+          ],
+          "three_ray_inside_addition_and_host": true
+        },
+        {
+          "first_vertex": 24,
+          "vertex_count": 8,
+          "faces": 6,
+          "volume": 0.019807549627671506,
+          "embedded_witness": [
+            -71.64750000000001,
+            39.75,
+            28.137999999999998
+          ],
+          "three_ray_inside_addition_and_host": true
+        }
+      ],
+      "vertices": 32,
+      "faces": 24,
+      "bounds": [
+        [
+          -76.0,
+          39.599998474121094,
+          27.747222900390625
+        ],
+        [
+          -71.30000305175781,
+          39.900001525878906,
+          28.219999313354492
+        ]
+      ]
+    }
+  ],
+  "total_components": 23,
+  "total_vertices": 276,
+  "total_faces": 184,
+  "checks": {
+    "all_source_meshes_exact": true,
+    "all_material_graphs_exact": true,
+    "world_exact": true,
+    "closed_oriented_positive_additions": true,
+    "actual_host_embedded_witnesses": true
+  },
+  "limits": [
+    "Witness tests prove provisional intersection only, not full architectural support certification",
+    "Independent full opening/route and source-state checks pending",
+    "No visual acceptance, no new archive/version publication"
+  ]
+}

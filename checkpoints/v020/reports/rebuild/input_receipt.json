@@ -1,0 +1,17 @@
+{
+  "source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "bundle_manifest_sha256": "595ff8e2b2e80d46e2e28a54b5a373d6c7d09b8bf27d8f468aaaef1252869e6d",
+  "copied_files": {
+    "README.md": "30852c4c499a6f567fe23e3e78d9973aaf67ed10743b2743d479768b38bd08c3",
+    "plans/host_plan_forward.json": "cb8cbd0996bd53dfea8b9e945588b1329d37aa5ace4290879b6b637407072f81",
+    "rebuild.py": "9ac0d36b0e11cffc9d4a0b42f35bbdf6650c48cc35725a3a45425a6d5e50c65f",
+    "scripts/build.py": "84495ff28ebaf1bbad99a3a421fe7c92a292827deaf02f4bd7d42ac4a5fe3ed8",
+    "scripts/clip_coping_embed.py": "941c1245993f8487477d316f5a84035d8f38d0abe8fbcbe079e7d20d8169bdce",
+    "scripts/deep_snapshot.py": "36616a003b5718715f892a197321553c22b06d9387ed5b0117e8cbe81b98f41a",
+    "scripts/geometry_support.py": "afa36564f05634c53ab1f4da49d65ceb519f4b430b16f0594e1b17221911925d",
+    "scripts/planar_boolean.py": "b5042b638a3141598845def9a6b7dcebeca8426aaa55e67f2e270ce179015e58",
+    "scripts/union_springers.py": "a52fdf34490c41ed0ac210f20dea0d24f9eb78d5f6fef1725e59623a2710f9be",
+    "test_runner.py": "4399afaf155674634b85911af3ed11b257d7cf781eb5f690795f67e71740229d"
+  },
+  "other_input_models": []
+}

@@ -1,0 +1,20 @@
+{
+  "accepted_source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "references": [
+    {
+      "view": "approach",
+      "published": "checkpoints/v019/previews/approach_after.png",
+      "reference": "work/v019_visual/final_comparison/candidate_approach/image.png",
+      "sha256": "4573bf9dfc2f361a820b29c03d86bc2f35586a698ff16d1bfcc56d166b70ac03",
+      "byte_identical": true
+    },
+    {
+      "view": "hero",
+      "published": "checkpoints/v019/previews/hero_after.png",
+      "reference": "work/v019_visual/final_comparison/candidate_hero/image.png",
+      "sha256": "ce6fb73bf12c57602ccb661103bde60ca82e641e5fc3756e4cfdb268cc2d21c4",
+      "byte_identical": true
+    }
+  ],
+  "baseline_will_not_be_rerendered": true
+}

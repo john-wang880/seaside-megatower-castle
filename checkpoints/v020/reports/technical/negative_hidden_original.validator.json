@@ -1,0 +1,197 @@
+{
+  "pass": false,
+  "source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "candidate_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "specification_sha256": "702db30414a717026c9db8aa3b7c73c0c3a45d273fffaaf0d96355553efc65dd",
+  "changes": {
+    "objects": [],
+    "meshes": [
+      "Dense western woodland | irregular three-dimensional needle boughs geometry"
+    ],
+    "materials": [],
+    "lights": [],
+    "cameras": [],
+    "worlds": [],
+    "visible_evaluated": [],
+    "scene": [],
+    "scene_custom": [],
+    "texts": [],
+    "libraries": []
+  },
+  "additions": {
+    "objects": [
+      "V020 candidate | north short approach coping",
+      "V020 candidate | south short approach coping",
+      "V020 candidate | west portal radial stones"
+    ],
+    "meshes": [
+      "V020 candidate | north short approach coping",
+      "V020 candidate | south short approach coping",
+      "V020 candidate | west portal radial stones"
+    ],
+    "materials": [],
+    "lights": [],
+    "cameras": [],
+    "worlds": [],
+    "visible_evaluated": [
+      "V020 candidate | north short approach coping",
+      "V020 candidate | south short approach coping",
+      "V020 candidate | west portal radial stones"
+    ]
+  },
+  "removals": {
+    "objects": [],
+    "meshes": [],
+    "materials": [],
+    "lights": [],
+    "cameras": [],
+    "worlds": [],
+    "visible_evaluated": []
+  },
+  "additions_exact": true,
+  "derived_ui_edge_reports": [
+    {
+      "object": "Traveler | purple-red shoulder cape",
+      "before": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1976,
+          "fields": {
+            "value": {
+              "count": 1976,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1976,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+        }
+      },
+      "after": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1976,
+          "fields": {
+            "value": {
+              "count": 1976,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1976,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+        }
+      }
+    },
+    {
+      "object": "Traveler | full length ivory skirt",
+      "before": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      },
+      "after": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      }
+    },
+    {
+      "object": "Traveler | white tunic",
+      "before": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      },
+      "after": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      }
+    }
+  ],
+  "source_and_candidate_unchanged": true,
+  "scope": "All original persistent and evaluated data, including original forest/deform weights, must remain exact. Only explicitly named additive meshes/objects and one collection allowed. Geometric placement/contact acceptance separate."
+}

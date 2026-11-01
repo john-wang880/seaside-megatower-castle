@@ -1,0 +1,654 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "before": "0dd7096d0e1e5097c0f0e9a353e341c682d8a5b3c549d2439e0969cd4ed1c6ca",
+    "after": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614"
+  },
+  "unchanged_arch_components_exact": [
+    {
+      "old_seed": 12,
+      "new_seed": 20
+    },
+    {
+      "old_seed": 28,
+      "new_seed": 36
+    },
+    {
+      "old_seed": 44,
+      "new_seed": 52
+    },
+    {
+      "old_seed": 60,
+      "new_seed": 68
+    },
+    {
+      "old_seed": 76,
+      "new_seed": 84
+    },
+    {
+      "old_seed": 92,
+      "new_seed": 100
+    },
+    {
+      "old_seed": 104,
+      "new_seed": 112
+    },
+    {
+      "old_seed": 120,
+      "new_seed": 128
+    },
+    {
+      "old_seed": 136,
+      "new_seed": 144
+    },
+    {
+      "old_seed": 152,
+      "new_seed": 160
+    },
+    {
+      "old_seed": 168,
+      "new_seed": 176
+    }
+  ],
+  "joined_springers": [
+    {
+      "old_arch_seed": 0,
+      "old_impost_seed": 8,
+      "joined_seed": 0,
+      "expected_union_volume": 0.038512565152103724,
+      "actual_joined_volume": 0.03851256752147547,
+      "errors": {
+        "union_volume_error": 2.3693717474126963e-09,
+        "old_arch_outside_join": 5.782874179516284e-14,
+        "old_impost_outside_join": 8.19830314746639e-14
+      },
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 2.600348874105071e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    },
+    {
+      "old_arch_seed": 184,
+      "old_impost_seed": 0,
+      "joined_seed": 192,
+      "expected_union_volume": 0.03851256515208496,
+      "actual_joined_volume": 0.03851256752148402,
+      "errors": {
+        "union_volume_error": 2.369399058899102e-09,
+        "old_arch_outside_join": 3.9065972678997696e-14,
+        "old_impost_outside_join": 1.1497747198774277e-14
+      },
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 2.6003488741050718e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    }
+  ],
+  "clipped_copings": [
+    {
+      "side": "south",
+      "old_seed": 0,
+      "new_seeds": [
+        0
+      ],
+      "new_volumes": [
+        0.028245189818259853
+      ],
+      "old_embedded_volume_removed": 0.010087346528428812,
+      "errors": {
+        "combined_union_volume_error": -1.1131753117898935e-07,
+        "new_outside_original_cap": 2.7533531010703882e-14,
+        "new_host_overlap": 0.0
+      },
+      "exposed_original_vertex_coverage": [
+        {
+          "point": [
+            -74.65499877929688,
+            36.099998474121094,
+            27.969249725341797
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -76.0,
+            36.099998474121094,
+            27.842222213745117
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -74.65499877929688,
+            36.400001525878906,
+            27.969249725341797
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -76.0,
+            36.400001525878906,
+            27.842222213745117
+          ],
+          "states": [
+            "boundary"
+          ]
+        }
+      ],
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 3.302075694222139e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    },
+    {
+      "side": "south",
+      "old_seed": 8,
+      "new_seeds": [
+        8
+      ],
+      "new_volumes": [
+        0.02814008666833434
+      ],
+      "old_embedded_volume_removed": 0.010049818542187672,
+      "errors": {
+        "combined_union_volume_error": -1.2570287721141993e-07,
+        "new_outside_original_cap": 1.0746958878371515e-13,
+        "new_host_overlap": 2.2829322314510403e-08
+      },
+      "exposed_original_vertex_coverage": [
+        {
+          "point": [
+            -73.30500030517578,
+            36.099998474121094,
+            28.096750259399414
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -74.6449966430664,
+            36.099998474121094,
+            27.97019386291504
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -73.30500030517578,
+            36.400001525878906,
+            28.096750259399414
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -74.6449966430664,
+            36.400001525878906,
+            27.97019386291504
+          ],
+          "states": [
+            "boundary"
+          ]
+        }
+      ],
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 3.2903507321909295e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    },
+    {
+      "side": "south",
+      "old_seed": 16,
+      "new_seeds": [
+        16
+      ],
+      "new_volumes": [
+        0.027090176695726775
+      ],
+      "old_embedded_volume_removed": 0.009675088472221838,
+      "errors": {
+        "combined_union_volume_error": -2.3825910481362067e-07,
+        "new_outside_original_cap": 3.907985046680551e-14,
+        "new_host_overlap": 0.0
+      },
+      "exposed_original_vertex_coverage": [
+        {
+          "point": [
+            -72.00499725341797,
+            36.099998474121094,
+            28.219528198242188
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -73.29499816894531,
+            36.099998474121094,
+            28.097694396972656
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -72.00499725341797,
+            36.400001525878906,
+            28.219528198242188
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -73.29499816894531,
+            36.400001525878906,
+            28.097694396972656
+          ],
+          "states": [
+            "boundary"
+          ]
+        }
+      ],
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 3.173227935389485e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    },
+    {
+      "side": "south",
+      "old_seed": 24,
+      "new_seeds": [
+        24,
+        32
+      ],
+      "new_volumes": [
+        0.014595078429465946,
+        1.0271020135149689e-05
+      ],
+      "old_embedded_volume_removed": 0.005202199639962723,
+      "errors": {
+        "combined_union_volume_error": -5.381267827175851e-10,
+        "new_outside_original_cap": -3.4888758548845544e-14,
+        "new_host_overlap": 0.0
+      },
+      "exposed_original_vertex_coverage": [
+        {
+          "point": [
+            -71.30000305175781,
+            36.099998474121094,
+            28.125
+          ],
+          "states": [
+            "outside",
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -71.30000305175781,
+            36.099998474121094,
+            28.219999313354492
+          ],
+          "states": [
+            "boundary",
+            "outside"
+          ]
+        },
+        {
+          "point": [
+            -71.99500274658203,
+            36.099998474121094,
+            28.219999313354492
+          ],
+          "states": [
+            "boundary",
+            "outside"
+          ]
+        },
+        {
+          "point": [
+            -71.30000305175781,
+            36.400001525878906,
+            28.125
+          ],
+          "states": [
+            "outside",
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -71.30000305175781,
+            36.400001525878906,
+            28.219999313354492
+          ],
+          "states": [
+            "boundary",
+            "outside"
+          ]
+        },
+        {
+          "point": [
+            -71.99500274658203,
+            36.400001525878906,
+            28.219999313354492
+          ],
+          "states": [
+            "boundary",
+            "outside"
+          ]
+        }
+      ],
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 1.797930937168601e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    },
+    {
+      "side": "north",
+      "old_seed": 0,
+      "new_seeds": [
+        0
+      ],
+      "new_volumes": [
+        0.028245189818259853
+      ],
+      "old_embedded_volume_removed": 0.010087346528428812,
+      "errors": {
+        "combined_union_volume_error": -1.1131753117898935e-07,
+        "new_outside_original_cap": 2.7533531010703882e-14,
+        "new_host_overlap": 0.0
+      },
+      "exposed_original_vertex_coverage": [
+        {
+          "point": [
+            -74.65499877929688,
+            39.599998474121094,
+            27.969249725341797
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -76.0,
+            39.599998474121094,
+            27.842222213745117
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -74.65499877929688,
+            39.900001525878906,
+            27.969249725341797
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -76.0,
+            39.900001525878906,
+            27.842222213745117
+          ],
+          "states": [
+            "boundary"
+          ]
+        }
+      ],
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 3.302075694222139e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    },
+    {
+      "side": "north",
+      "old_seed": 8,
+      "new_seeds": [
+        8
+      ],
+      "new_volumes": [
+        0.02814008666833434
+      ],
+      "old_embedded_volume_removed": 0.010049818542187672,
+      "errors": {
+        "combined_union_volume_error": -1.2570290563312936e-07,
+        "new_outside_original_cap": 1.0746958878371515e-13,
+        "new_host_overlap": 2.2829322314510403e-08
+      },
+      "exposed_original_vertex_coverage": [
+        {
+          "point": [
+            -73.30500030517578,
+            39.599998474121094,
+            28.096750259399414
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -74.6449966430664,
+            39.599998474121094,
+            27.97019386291504
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -73.30500030517578,
+            39.900001525878906,
+            28.096750259399414
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -74.6449966430664,
+            39.900001525878906,
+            27.97019386291504
+          ],
+          "states": [
+            "boundary"
+          ]
+        }
+      ],
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 3.2903507321909295e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    },
+    {
+      "side": "north",
+      "old_seed": 16,
+      "new_seeds": [
+        16
+      ],
+      "new_volumes": [
+        0.027090176695726775
+      ],
+      "old_embedded_volume_removed": 0.009675088472221838,
+      "errors": {
+        "combined_union_volume_error": -2.3825910481362067e-07,
+        "new_outside_original_cap": 3.907985046680551e-14,
+        "new_host_overlap": 0.0
+      },
+      "exposed_original_vertex_coverage": [
+        {
+          "point": [
+            -72.00499725341797,
+            39.599998474121094,
+            28.219528198242188
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -73.29499816894531,
+            39.599998474121094,
+            28.097694396972656
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -72.00499725341797,
+            39.900001525878906,
+            28.219528198242188
+          ],
+          "states": [
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -73.29499816894531,
+            39.900001525878906,
+            28.097694396972656
+          ],
+          "states": [
+            "boundary"
+          ]
+        }
+      ],
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 3.173227935389485e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    },
+    {
+      "side": "north",
+      "old_seed": 24,
+      "new_seeds": [
+        24,
+        32
+      ],
+      "new_volumes": [
+        0.014595078429465946,
+        1.0271020135149689e-05
+      ],
+      "old_embedded_volume_removed": 0.005202199639962723,
+      "errors": {
+        "combined_union_volume_error": -5.381076868815615e-10,
+        "new_outside_original_cap": -3.4888758548845544e-14,
+        "new_host_overlap": 0.0
+      },
+      "exposed_original_vertex_coverage": [
+        {
+          "point": [
+            -71.30000305175781,
+            39.599998474121094,
+            28.125
+          ],
+          "states": [
+            "outside",
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -71.30000305175781,
+            39.599998474121094,
+            28.219999313354492
+          ],
+          "states": [
+            "boundary",
+            "outside"
+          ]
+        },
+        {
+          "point": [
+            -71.99500274658203,
+            39.599998474121094,
+            28.219999313354492
+          ],
+          "states": [
+            "boundary",
+            "outside"
+          ]
+        },
+        {
+          "point": [
+            -71.30000305175781,
+            39.900001525878906,
+            28.125
+          ],
+          "states": [
+            "outside",
+            "boundary"
+          ]
+        },
+        {
+          "point": [
+            -71.30000305175781,
+            39.900001525878906,
+            28.219999313354492
+          ],
+          "states": [
+            "boundary",
+            "outside"
+          ]
+        },
+        {
+          "point": [
+            -71.99500274658203,
+            39.900001525878906,
+            28.219999313354492
+          ],
+          "states": [
+            "boundary",
+            "outside"
+          ]
+        }
+      ],
+      "numerical_bound": {
+        "coordinate_float32_max_ulp_m": 7.62939453125e-06,
+        "volume_tolerance_m3": 1.797930937168601e-05,
+        "rationale": "Conservative2ULP coordinate perturbation times actual operand surface area; all exact unchanged profiles/bounds tested separately, no art-dimension tolerance."
+      }
+    }
+  ],
+  "files_unchanged": true,
+  "intersection_method": "Actual constant-axis extrusion identity verified; float64 clipping of authoritative front triangles, not nested-coplanar Boolean output.",
+  "scope": "Occupied-set equivalence from old-solid inclusion plus union-volume equality, with explicit float32surfacearea error bounds; exact unchanged11archfaces, allsourcehosts and capouterXY/topbounds. Separate actualfront/sidepatch and contact/opening tests required; not structural certification."
+}

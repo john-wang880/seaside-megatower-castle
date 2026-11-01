@@ -1,0 +1,39 @@
+{
+  "added_objects": [
+    "V020 candidate | west portal radial stones",
+    "V020 candidate | south short approach coping",
+    "V020 candidate | north short approach coping"
+  ],
+  "added_collection": "UNACCEPTED | v020 western threshold craft",
+  "materials": {
+    "V020 candidate | west portal radial stones": [
+      "West_Cool weathered limestone"
+    ],
+    "V020 candidate | south short approach coping": [
+      "West_Cool weathered limestone"
+    ],
+    "V020 candidate | north short approach coping": [
+      "West_Cool weathered limestone"
+    ]
+  },
+  "counts": {
+    "V020 candidate | west portal radial stones": 13,
+    "V020 candidate | south short approach coping": 5,
+    "V020 candidate | north short approach coping": 5
+  },
+  "host_keys": {
+    "V020 candidate | west portal radial stones": "V007 | western stonework with actual bridgehead passage::17620",
+    "V020 candidate | south short approach coping": "V009 | south approach parapet::0",
+    "V020 candidate | north short approach coping": "V009 | north approach parapet::0"
+  },
+  "secondary_seat_seeds": [
+    68,
+    84,
+    100,
+    112,
+    128
+  ],
+  "retained_terminal_wedge_seeds": [
+    32
+  ]
+}

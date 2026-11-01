@@ -1,0 +1,57 @@
+{
+  "script_sha256": "0adeda252dd32fa194821abbc47811ccd5c06d882006959f284f485bd1fb988b",
+  "pairs": [
+    {
+      "output": "approach_pair.png",
+      "sha256": "4bb482a833c6e1063297b49cb3fe4a5d4847e085410a93fff62a61c5dad8bdee",
+      "inputs": [
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_visual/final_comparison/candidate_approach/image.png",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v020_west_threshold/visual/clean_approach/approach/image.png"
+      ],
+      "input_sha256": [
+        "4573bf9dfc2f361a820b29c03d86bc2f35586a698ff16d1bfcc56d166b70ac03",
+        "91b56fead5f3d86b551db79c9858db266d7048a9c42e98c6df39002d5ae861b5"
+      ],
+      "input_resolution": [
+        1200,
+        866
+      ],
+      "display_resolution_per_image": [
+        600,
+        433
+      ],
+      "uniform_scale": 0.5,
+      "resample": "LANCZOS",
+      "exposure_color_edits": false,
+      "image_pixels_unmodified_after_uniform_scale": true,
+      "labels_outside_images": true,
+      "baseline_note": "V019 reference previously rendered; V020 candidate newly rendered."
+    },
+    {
+      "output": "oblique_pair_contact.png",
+      "sha256": "766e90f57ad52d71b61beacdee50766c11f562272038a1fe65eb12a7f6fb4d04",
+      "inputs": [
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v020_west_threshold/visual/oblique_pair/baseline/image.png",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v020_west_threshold/visual/oblique_pair/candidate/image.png"
+      ],
+      "input_sha256": [
+        "cfb3e4331ff6d1993de44ca6e38996cbb261eca5d5fec4b0cdbb204fd9029dba",
+        "6add71ba844f11025f7f8945b98f78d858a8cf1f1e77d4f6c4938022300d2fed"
+      ],
+      "input_resolution": [
+        1200,
+        866
+      ],
+      "display_resolution_per_image": [
+        600,
+        433
+      ],
+      "uniform_scale": 0.5,
+      "resample": "LANCZOS",
+      "exposure_color_edits": false,
+      "image_pixels_unmodified_after_uniform_scale": true,
+      "labels_outside_images": true,
+      "baseline_note": "Both oblique views newly rendered at the same camera."
+    }
+  ]
+}

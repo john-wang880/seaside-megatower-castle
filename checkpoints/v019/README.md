@@ -1,3 +1,11 @@
+> **历史v019工具/记录，不是最新模型入口。** 当前最新工程见[仓库首页](../../README.md)。下面的v019命令须在固定历史工作树内运行，不能在已经撤下v019模型载荷的最新目录直接执行，也不能将v020交给锁定e717的工具。先从完整仓库执行：
+> ```sh
+> git worktree add --detach ../castle-v019-history 15ed444cf3d1396d1d16e8fe5c176f8e39082435
+> cd ../castle-v019-history
+> python checkpoints/v019/restore_checkpoint.py
+> ```
+> 之后仍在该历史工作树内执行本文命令。旧版代码/验收数据不改，Git历史保留；已有同名目录请改用新路径。
+
 # v019：仅一棵前景针叶树的精细化
 
 本检查点保留已审阅并通过几何/原场景保护验证的**精确模型字节**。采用先追加备份、再独立远端恢复验证的流程；已从远端`3f7be81d9b2401fe7ec70cf5d0d225a1e3d10b9a`精确恢复并重验，见`reports/remote/VERIFIED.json`及`acceptance_summary.json`。

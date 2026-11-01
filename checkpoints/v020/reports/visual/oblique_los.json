@@ -1,0 +1,673 @@
+{
+  "source_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "source_saved": false,
+  "results": [
+    {
+      "name": "southwest",
+      "location": [
+        -87,
+        30,
+        34
+      ],
+      "target": [
+        -71.4000015258789,
+        38.0,
+        29.700000762939453
+      ],
+      "lens": 45,
+      "matrix_world": [
+        [
+          0.45631659030914307,
+          0.21196329593658447,
+          -0.8642029166221619,
+          -87.0
+        ],
+        [
+          -0.889817476272583,
+          0.10869908332824707,
+          -0.44318094849586487,
+          30.0
+        ],
+        [
+          -3.089252942345411e-08,
+          0.971213698387146,
+          0.23820984363555908,
+          34.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "frame_region": [
+        [
+          -71.5,
+          33.5,
+          27
+        ],
+        [
+          -70.9,
+          42.5,
+          32.5
+        ]
+      ],
+      "projected_region": [
+        [
+          0.797836422920227,
+          0.17340223491191864,
+          16.613754272460938
+        ],
+        [
+          0.8233344554901123,
+          0.7500266432762146,
+          15.303600311279297
+        ],
+        [
+          0.2542873024940491,
+          0.31887945532798767,
+          20.602380752563477
+        ],
+        [
+          0.23760069906711578,
+          0.7861675024032593,
+          19.292226791381836
+        ],
+        [
+          0.8087982535362244,
+          0.19614474475383759,
+          17.132274627685547
+        ],
+        [
+          0.8343683481216431,
+          0.7557553648948669,
+          15.822120666503906
+        ],
+        [
+          0.276523232460022,
+          0.33375564217567444,
+          21.120901107788086
+        ],
+        [
+          0.2617439031600952,
+          0.7897968888282776,
+          19.810747146606445
+        ]
+      ],
+      "whole_region_with_6percent_margin": true,
+      "front_face_target_count": 13,
+      "front_face_visible_count": 0,
+      "rays": [
+        {
+          "target_face": 0,
+          "target": [
+            -71.4800033569336,
+            40.29460144042969,
+            29.193527221679688
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.85735321044922,
+            30.09461784362793,
+            33.9558219909668
+          ],
+          "target_distance": 19.234118164727672,
+          "hit_distance": 0.1767833151913532,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 12,
+          "target": [
+            -71.4800033569336,
+            40.157386779785156,
+            29.75759506225586
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.85669708251953,
+            30.093786239624023,
+            33.9608268737793
+          ],
+          "target_distance": 19.027369963397437,
+          "hit_distance": 0.17568755864996408,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 22,
+          "target": [
+            -71.4800033569336,
+            39.89659118652344,
+            30.226177215576172
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.85617065429688,
+            30.091712951660156,
+            33.96502685546875
+          ],
+          "target_distance": 18.789746106692537,
+          "hit_distance": 0.17413002757176016,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 32,
+          "target": [
+            -71.4800033569336,
+            39.5159912109375,
+            30.620559692382812
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.85575866699219,
+            30.088441848754883,
+            33.968589782714844
+          ],
+          "target_distance": 18.51607436266586,
+          "hit_distance": 0.17208754743282859,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 42,
+          "target": [
+            -71.4800033569336,
+            39.03968811035156,
+            30.915752410888672
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.85547637939453,
+            30.084178924560547,
+            33.97127914428711
+          ],
+          "target_distance": 18.22357925089089,
+          "hit_distance": 0.16969989865122956,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 52,
+          "target": [
+            -71.4800033569336,
+            38.49785614013672,
+            31.09307289123535
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.8553466796875,
+            30.07920265197754,
+            33.97290802001953
+          ],
+          "target_distance": 17.931371592298547,
+          "hit_distance": 0.16712755177538463,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 62,
+          "target": [
+            -71.48001098632812,
+            38.0,
+            31.143444061279297
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.8553695678711,
+            30.07455062866211,
+            33.97338104248047
+          ],
+          "target_distance": 17.692652945833725,
+          "hit_distance": 0.1648767015849913,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 70,
+          "target": [
+            -71.4800033569336,
+            37.502140045166016,
+            31.09307098388672
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.85551452636719,
+            30.069841384887695,
+            33.972938537597656
+          ],
+          "target_distance": 17.481494246935867,
+          "hit_distance": 0.1627457950898799,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 80,
+          "target": [
+            -71.4800033569336,
+            36.96031188964844,
+            30.915754318237305
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.85582733154297,
+            30.06465721130371,
+            33.97134780883789
+          ],
+          "target_distance": 17.28666577315754,
+          "hit_distance": 0.16058412462587784,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 90,
+          "target": [
+            -71.4800033569336,
+            36.4840087890625,
+            30.620559692382812
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.84789276123047,
+            30.063549041748047,
+            33.966880798339844
+          ],
+          "target_distance": 17.156144299902433,
+          "hit_distance": 0.1681427193321487,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 100,
+          "target": [
+            -71.4800033569336,
+            36.1034049987793,
+            30.226177215576172
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.8392333984375,
+            30.063222885131836,
+            33.960906982421875
+          ],
+          "target_distance": 17.09864296352646,
+          "hit_distance": 0.1771194436383625,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 110,
+          "target": [
+            -71.4800033569336,
+            35.842613220214844,
+            29.75759506225586
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.83354949951172,
+            30.062660217285156,
+            33.95450210571289
+          ],
+          "target_distance": 17.1173720809059,
+          "hit_distance": 0.18358140191190017,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 120,
+          "target": [
+            -71.4800033569336,
+            35.70539474487305,
+            29.193527221679688
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -86.83177947998047,
+            30.061840057373047,
+            33.94790267944336
+          ],
+          "target_distance": 17.219872522890228,
+          "hit_distance": 0.1866452969935981,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        }
+      ]
+    },
+    {
+      "name": "northwest",
+      "location": [
+        -87,
+        46,
+        34
+      ],
+      "target": [
+        -71.4000015258789,
+        38.0,
+        29.700000762939453
+      ],
+      "lens": 45,
+      "matrix_world": [
+        [
+          -0.45631688833236694,
+          0.21196308732032776,
+          -0.8642028570175171,
+          -87.0
+        ],
+        [
+          -0.8898173570632935,
+          -0.1086992546916008,
+          0.44318118691444397,
+          46.0
+        ],
+        [
+          -1.5028705036002066e-07,
+          0.9712137579917908,
+          0.23820973932743073,
+          34.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "frame_region": [
+        [
+          -71.5,
+          33.5,
+          27
+        ],
+        [
+          -70.9,
+          42.5,
+          32.5
+        ]
+      ],
+      "projected_region": [
+        [
+          0.7457119822502136,
+          0.3188795745372772,
+          20.602384567260742
+        ],
+        [
+          0.7623984813690186,
+          0.786167562007904,
+          19.2922306060791
+        ],
+        [
+          0.20216307044029236,
+          0.17340220510959625,
+          16.613754272460938
+        ],
+        [
+          0.17666491866111755,
+          0.7500266432762146,
+          15.303600311279297
+        ],
+        [
+          0.7234761118888855,
+          0.3337557911872864,
+          21.12090492248535
+        ],
+        [
+          0.7382552623748779,
+          0.7897968888282776,
+          19.81075096130371
+        ],
+        [
+          0.19120121002197266,
+          0.1961447298526764,
+          17.132274627685547
+        ],
+        [
+          0.1656309813261032,
+          0.7557553052902222,
+          15.822120666503906
+        ]
+      ],
+      "whole_region_with_6percent_margin": true,
+      "front_face_target_count": 13,
+      "front_face_visible_count": 9,
+      "rays": [
+        {
+          "target_face": 0,
+          "target": [
+            -71.4800033569336,
+            40.29460144042969,
+            29.193527221679688
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            40.29460144042969,
+            29.193527221679688
+          ],
+          "target_distance": 17.219873741298446,
+          "hit_distance": 17.219873741298446,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 12,
+          "target": [
+            -71.4800033569336,
+            40.157386779785156,
+            29.75759506225586
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            40.157386779785156,
+            29.75759506225586
+          ],
+          "target_distance": 17.1173720809059,
+          "hit_distance": 17.1173720809059,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 22,
+          "target": [
+            -71.4800033569336,
+            39.89659118652344,
+            30.226177215576172
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            39.89659118652344,
+            30.226177215576172
+          ],
+          "target_distance": 17.098644302122903,
+          "hit_distance": 17.098644302122903,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 32,
+          "target": [
+            -71.4800033569336,
+            39.5159912109375,
+            30.620559692382812
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            39.5159912109375,
+            30.620559692382812
+          ],
+          "target_distance": 17.156144299902433,
+          "hit_distance": 17.156144299902433,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 42,
+          "target": [
+            -71.4800033569336,
+            39.03968811035156,
+            30.915752410888672
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            39.03968811035156,
+            30.915752410888672
+          ],
+          "target_distance": 17.286666104166766,
+          "hit_distance": 17.286666104166766,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 52,
+          "target": [
+            -71.4800033569336,
+            38.49785614013672,
+            31.09307289123535
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            38.49785614013672,
+            31.09307289123535
+          ],
+          "target_distance": 17.48149555621655,
+          "hit_distance": 17.48149555621655,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 62,
+          "target": [
+            -71.48001098632812,
+            38.0,
+            31.143444061279297
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -81.35595703125,
+            43.0906982421875,
+            32.961177825927734
+          ],
+          "target_distance": 17.692652945833725,
+          "hit_distance": 6.434159560299882,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 70,
+          "target": [
+            -71.4800033569336,
+            37.502140045166016,
+            31.09307098388672
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -81.31459045410156,
+            42.88699722290039,
+            32.93511199951172
+          ],
+          "target_distance": 17.931373613316392,
+          "hit_distance": 6.568763650141361,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 80,
+          "target": [
+            -71.4800033569336,
+            36.96031188964844,
+            30.915754318237305
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -81.27394104003906,
+            42.664833068847656,
+            32.86207580566406
+          ],
+          "target_distance": 18.223578936899557,
+          "hit_distance": 6.723537788467613,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 90,
+          "target": [
+            -71.4800033569336,
+            36.4840087890625,
+            30.620559692382812
+          ],
+          "first_hit_object": "V010 | woodland boughs with gate exit clearance",
+          "first_hit_point": [
+            -81.24309539794922,
+            42.47018814086914,
+            32.7464485168457
+          ],
+          "target_distance": 18.51607436266586,
+          "hit_distance": 6.86825391802025,
+          "target_front_face_visible": false,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 100,
+          "target": [
+            -71.4800033569336,
+            36.1034049987793,
+            30.226177215576172
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            36.1034049987793,
+            30.226177215576172
+          ],
+          "target_distance": 18.789747933873887,
+          "hit_distance": 18.789747933873887,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 110,
+          "target": [
+            -71.4800033569336,
+            35.842613220214844,
+            29.75759506225586
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            35.842613220214844,
+            29.75759506225586
+          ],
+          "target_distance": 19.027369963397437,
+          "hit_distance": 19.027369963397437,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        },
+        {
+          "target_face": 120,
+          "target": [
+            -71.4800033569336,
+            35.70539474487305,
+            29.193527221679688
+          ],
+          "first_hit_object": "V020 candidate | west portal radial stones",
+          "first_hit_point": [
+            -71.4800033569336,
+            35.70539474487305,
+            29.193527221679688
+          ],
+          "target_distance": 19.23412014802477,
+          "hit_distance": 19.23412014802477,
+          "target_front_face_visible": true,
+          "skipped_render_hidden": []
+        }
+      ]
+    }
+  ],
+  "limits": "Finite actual front-face-center ray coverage, not continuous all-pixel visibility. Exactly two planned poses; no render/relight."
+}

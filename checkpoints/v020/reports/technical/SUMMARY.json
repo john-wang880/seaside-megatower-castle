@@ -1,0 +1,60 @@
+{
+  "technical_gate_pass": true,
+  "candidate_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "baseline_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "new_components": 23,
+  "component_roles": "13archincluding2mergedspringer/imposts +8maincopings +2retainedclosedterminalwedges",
+  "source_preservation_pass": true,
+  "occupied_union_equivalence_pass": true,
+  "opening_and_route_pass": true,
+  "host_and_root_contacts_pass": true,
+  "nearby_components": 7,
+  "other_neighbor_checks": 55,
+  "unexpected_contacts": 0,
+  "duplicate_arch_front_patches": 0,
+  "cornice_front_coverage_m2": 0,
+  "negative_controls": {
+    "opening_intrusion": true,
+    "floating_piece": true,
+    "unrelated_neighbor": true,
+    "hidden_original": true
+  },
+  "max_coping_shared_plane_error_m": 8.879459815518892e-07,
+  "maximum_residual_side_overlap_m2": 7.609696694999002e-08,
+  "side_overlap_scope": "Two middlecaps have7.6097e-8m2 on eachsameYside: recorded float32 residual under derived2ULP(z)*localcaplength area bound, not asserted mathematicalzero.",
+  "limits": [
+    "Geometric connectivity only, not load/engineering certification.",
+    "Coping sharedsurface plane deviation measured locally onactual overlap patch,6micrometer predeclared ceiling.",
+    "Occupiedunion comparisons use actual extrusion front triangles andexplicit numericalbounds; unchanged11archface records and exposedoldcapverticesincludingwedges also checked.",
+    "No new fullscene visual acceptance; finalactualapproach/oblique artgate pending."
+  ],
+  "reports": {
+    "negative_unrelated_neighbor.json": "0f824294756ac38a6ce711cfcacedb5d7c7cc5cc98ea8f08c7f087ba824fbe3b",
+    "union_equivalence.json": "ecb28d381b1e89cff3971248f62258c14bc1d13ad82e2e4379750a929dacbf6f",
+    "negative_opening_intrusion.validator.json": "09b5da92f06980178e7bcd3d85c2fef7b3045b95e85c4a46b6daacb17aa31271",
+    "preservation.json": "fc475ddbae2bcc2937a45c232537fc6c178041b868a116aac497eb65db15c666",
+    "negative_floating_piece.validator.json": "abf754c36d94857b5c28abb82f673dcbacbdbf18c2bc77bfc47031b90f1fe2d8",
+    "negative_unrelated_neighbor.validator.json": "be1316998e73cab5507d8c4e05129d2be2e8e1fc5d46615122b598178495063e",
+    "negative_floating_piece.json": "092b65bbf8d2c8293c7f6659b0b7ef8d70c1ff09fa9cf088d999acc116c3f04a",
+    "negative_hidden_original.validator.json": "467020f3f87dc80a91e9d00ac7f5c197f140ed79d17ca4cc77bdf99ffac2c817",
+    "negative_opening_intrusion.json": "5fc7065f95e26e5528f8088ffc41657c77c2ac5502e2d1d43660cc1c93cf2d9c",
+    "negative_hidden_original.json": "feb76c5146c13af584c16d2001dfcc232555d542f163616ef7c3fa866067896a",
+    "geometry.json": "74e52666b6a8c7bcb4a30cc7ff045f6547cf3d5cf27231bd626aca63b401cf39",
+    "front_coverage.json": "b1338b18c31224b2ac0db5e207dee0eacd1cefc78360112b989f19b6f56c5cb2"
+  },
+  "qa_code_sha256": {
+    "validate_forward.py": "281ebde087b2d9516145ca20f3dc252b52cac549da743cab2631338b36f7e83b",
+    "measure_forward_front.py": "767924014d0e1b18bf92338283a24f3c83bc1ad67317a6883e28e2d72fa26195",
+    "geometry_support.py": "83bc8e6de7e92c01df9ae66fa37f87ca1f871d3b8c4289a461d455b80cc77a95",
+    "measure_front_coverage.py": "ded60d9b38c39f90ff69cc711fe7eb3d2257b442e5a1067b74dacbe9f0e2a0f2",
+    "validate_technical.py": "f8495ae5fcabe3ad029d54cd82b154da37377ae5d2bc2183b8886203fa5c395f",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "measure_technical_front.py": "1824c68260fa53dfa4b90b25c41f7722046fd3d96276514fb7fd879dd3aab8c3",
+    "test_negative_preservation.py": "7cda3fe771a35ae2f4359d652f1684ea2573685ec8b4e1481d0af94c53025701",
+    "test_negative_geometry.py": "27a3c8cf45b707d5fc109e45cede29783b285104b398dccc964080b28c18391f",
+    "validate_union_equivalence.py": "adfd3609a2edb4db18eeb5eb20cbc435fd869691dc7e96eff7667cd1f50563ee",
+    "validate_geometry.py": "084d6a25334c1f30f0a23d1d89eeae9a4062f24afd46442965f70e584258ddb1",
+    "validate_preservation.py": "bac350b54f429931b35e6bb678594a7eb67c325c9cd84525801b274787c2bd1b"
+  },
+  "model_saved": false
+}

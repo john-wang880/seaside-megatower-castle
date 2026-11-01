@@ -1,0 +1,36 @@
+{
+  "recommendation": "Oblique visual gate positive, pending owner/art-director review; no final model acceptance asserted.",
+  "candidate_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "baseline_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "images": [
+    "oblique_pair/baseline/image.png",
+    "oblique_pair/candidate/image.png"
+  ],
+  "both_new_actual_renders": true,
+  "same_camera_quality_world_lights_except_output": true,
+  "pose": {
+    "location": [
+      -80.8,
+      42.8,
+      33
+    ],
+    "target": [
+      -71.4,
+      38,
+      29.7
+    ],
+    "lens": 35
+  },
+  "visibility": "All13 sampled archfront-face centers clear. Whole selected9m band/arch region fits; narrowest horizontal context margin2.64%, not claimed6%. Finite rays do not certify everypixel.",
+  "findings": [
+    "Complete segmented ring reads coherently around the opening at contextual scale.",
+    "Arch apex sits forward of the existing lower horizontal band. In this actual oblique view the junction does not read as a bulky floating ledge, jagged clash or excessive projection.",
+    "Small imposts and short coping remain restrained. No need to enlarge coping to make it more noticeable.",
+    "Dark transverse floor joint is present in baseline and candidate; no new route flaw inferred from it."
+  ],
+  "limitations": [
+    "Natural scene shadows are retained; no brightened diagnostic or hidden vegetation.",
+    "Visual judgment supplements but does not replace independent contact/intersection/route checks."
+  ],
+  "status": "Stopped after baseline/candidate oblique pair; no hero until owner GO."
+}

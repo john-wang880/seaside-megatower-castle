@@ -1,0 +1,2622 @@
+{
+  "status": "TECHNICAL COPING CLEANUP; INDEPENDENT QA PENDING",
+  "input_sha256": "eeac61e7a6fd7d38c62c63a1223cf0de01ff1607483ba0db0c3e47157ddb2c44",
+  "input_unchanged": true,
+  "candidate_sha256": "4170aeb6fd10abf945ad9b5716e8615a487cb754f8cbdbba518a532b55ee7bf4",
+  "candidate_bytes": 47597255,
+  "component_count": 23,
+  "main_components": 21,
+  "retained_terminal_wedges": 2,
+  "rows": [
+    {
+      "new_seed": 0,
+      "new_vertex_count": 8,
+      "old_area": 0.12777419242775068,
+      "whole_parent_difference_area": 0.09415004604215937,
+      "new_piece_area": 0.09415004604215937,
+      "intersection_area": 0.0336241463855913,
+      "parent_area_identity_error": 0.0,
+      "role": "upper_coping",
+      "parent_old_seed": 0,
+      "host_seat_area_from_actual_source_edge_m2": 0.4053000533868212,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.1474999321831597,
+            0.2222222222222222
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -76.0,
+              27.772222095065647
+            ],
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368486803505978
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -76.0,
+              27.842222213745117
+            ],
+            [
+              -76.0,
+              27.772222095065647
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.26315443500720287,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ],
+            [
+              -74.65499877929688,
+              27.969249725341797
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -74.65499877929688,
+              27.969249725341797
+            ],
+            [
+              -76.0,
+              27.842222213745117
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.1474999321831597,
+            0.2222222222222222
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -76.0,
+              27.772222095065647
+            ],
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368486803505978,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -76.0,
+              27.772222095065647
+            ],
+            [
+              -76.0,
+              27.747222900390625
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -76.0,
+              27.747222900390625
+            ],
+            [
+              -74.65499877929688,
+              27.874250411987305
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.26315443500720287
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.65499877929688,
+              27.874250411987305
+            ],
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.1474999321831597,
+            0.2222222222222222
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ],
+            [
+              -76.0,
+              27.772222095065647
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | south short approach coping",
+      "old_seed": 0,
+      "new_host_intersection": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0
+      },
+      "float32_max_vertex_rounding_m": 4.2385525134136515e-07,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 36.099998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        },
+        {
+          "shared_y": 36.400001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 2.4191696856767498e-06,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -76.0,
+          36.099998474121094,
+          27.7722225189209
+        ],
+        [
+          -74.65499877929688,
+          36.400001525878906,
+          27.969249725341797
+        ]
+      ],
+      "volume": 0.028245189818259853,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    },
+    {
+      "new_seed": 8,
+      "new_vertex_count": 8,
+      "old_area": 0.12729873199714348,
+      "whole_parent_difference_area": 0.09379967762663455,
+      "new_piece_area": 0.09379967762663455,
+      "intersection_area": 0.03349905437050893,
+      "parent_area_identity_error": 0.0,
+      "role": "upper_coping",
+      "parent_old_seed": 8,
+      "host_seat_area_from_actual_source_edge_m2": 0.4037918917287666,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.07250001695421007,
+            0.14694425794813368
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ],
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368402176869541
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.97019386291504
+            ],
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.2631463928543992,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ],
+            [
+              -73.30500030517578,
+              28.096750259399414
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -73.30500030517578,
+              28.096750259399414
+            ],
+            [
+              -74.6449966430664,
+              27.97019386291504
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.07250001695421007,
+            0.14694425794813368
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ],
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368402176869541,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ],
+            [
+              -74.6449966430664,
+              27.875194549560547
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.875194549560547
+            ],
+            [
+              -73.30500030517578,
+              28.001750946044922
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.2631463928543992
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.30500030517578,
+              28.001750946044922
+            ],
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.07250001695421007,
+            0.14694425794813368
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ],
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | south short approach coping",
+      "old_seed": 8,
+      "new_host_intersection": {
+        "volume": 2.4058216779865305e-08,
+        "closed_result": true,
+        "faces": 9
+      },
+      "float32_max_vertex_rounding_m": 8.918973932736662e-07,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 36.099998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 7.609560270793736e-08,
+          "sum_actual_triangle_intersection_areas": 7.609696694999002e-08,
+          "positive_area_pairs": 1
+        },
+        {
+          "shared_y": 36.400001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 7.609696694999002e-08,
+          "sum_actual_triangle_intersection_areas": 7.609696694999002e-08,
+          "positive_area_pairs": 1
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 5.061560903422645e-06,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -74.6449966430664,
+          36.099998474121094,
+          27.90019416809082
+        ],
+        [
+          -73.30500030517578,
+          36.400001525878906,
+          28.096750259399414
+        ]
+      ],
+      "volume": 0.02814008666833434,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    },
+    {
+      "new_seed": 16,
+      "new_vertex_count": 8,
+      "old_area": 0.12255043144250521,
+      "whole_parent_difference_area": 0.09030046459884034,
+      "new_piece_area": 0.09030046459884034,
+      "intersection_area": 0.03224996684366488,
+      "parent_area_identity_error": 0.0,
+      "role": "upper_coping",
+      "parent_old_seed": 16,
+      "host_seat_area_from_actual_source_edge_m2": 0.3887263683366453,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.00027762518988715275,
+            0.07194434271918403
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ],
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368482598397578
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.097694396972656
+            ],
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.26316165519857593,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ],
+            [
+              -72.00499725341797,
+              28.219528198242188
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -72.00499725341797,
+              28.219528198242188
+            ],
+            [
+              -73.29499816894531,
+              28.097694396972656
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.00027762518988715275,
+            0.07194434271918403
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ],
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368482598397578,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ],
+            [
+              -73.29499816894531,
+              28.002695083618164
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.002695083618164
+            ],
+            [
+              -72.00499725341797,
+              28.124526977539062
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.26316165519857593
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -72.00499725341797,
+              28.124526977539062
+            ],
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.00027762518988715275,
+            0.07194434271918403
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ],
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | south short approach coping",
+      "old_seed": 16,
+      "new_host_intersection": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0
+      },
+      "float32_max_vertex_rounding_m": 8.473927870511488e-07,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 36.099998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        },
+        {
+          "shared_y": 36.400001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 4.639276691398555e-06,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -73.29499816894531,
+          36.099998474121094,
+          28.027694702148438
+        ],
+        [
+          -72.00499725341797,
+          36.400001525878906,
+          28.219528198242188
+        ]
+      ],
+      "volume": 0.027090176695726775,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    },
+    {
+      "new_seed": 24,
+      "new_vertex_count": 8,
+      "old_area": 0.0660244937898824,
+      "whole_parent_difference_area": 0.04868400471991663,
+      "new_piece_area": 0.048649766540620476,
+      "intersection_area": 0.01734048906996577,
+      "parent_area_identity_error": 0.0,
+      "role": "upper_coping",
+      "parent_old_seed": 24,
+      "host_seat_area_from_actual_source_edge_m2": 0.208502029418014,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368442186841208
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.219999313354492
+            ],
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.9960588527422606,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.3027421478992,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.2631557813158793
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.2631557813158793,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.219999313354492
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.219999313354492
+            ],
+            [
+              -71.99500274658203,
+              28.219999313354492
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368442186841208,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.99500274658203,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            0.9960588527422606
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.125
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.3027421478992,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | south short approach coping",
+      "old_seed": 24,
+      "new_host_intersection": {
+        "volume": 0.0,
+        "closed_result": true,
+        "broadphase_disjoint": true
+      },
+      "float32_max_vertex_rounding_m": 0.0,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 36.099998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        },
+        {
+          "shared_y": 36.400001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 1e-08,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -71.99500274658203,
+          36.099998474121094,
+          28.149999618530273
+        ],
+        [
+          -71.30000305175781,
+          36.400001525878906,
+          28.219999313354492
+        ]
+      ],
+      "volume": 0.014595078429465946,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    },
+    {
+      "new_seed": 32,
+      "new_vertex_count": 6,
+      "old_area": 0.0660244937898824,
+      "whole_parent_difference_area": 0.04868400471991663,
+      "new_piece_area": 3.423817929615325e-05,
+      "intersection_area": 0.01734048906996577,
+      "parent_area_identity_error": 0.0,
+      "role": "retained_external_terminal_wedge",
+      "parent_old_seed": 24,
+      "host_seat_area_from_actual_source_edge_m2": 0.007544844584727222,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368442186841208
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.219999313354492
+            ],
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.9960588527422606,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.3027421478992,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.2631557813158793
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.2631557813158793,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.219999313354492
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.219999313354492
+            ],
+            [
+              -71.99500274658203,
+              28.219999313354492
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368442186841208,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.99500274658203,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            0.9960588527422606
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.125
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.3027421478992,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | south short approach coping",
+      "old_seed": 24,
+      "new_host_intersection": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0
+      },
+      "float32_max_vertex_rounding_m": 1.4350466415180563e-07,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 36.099998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            1,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        },
+        {
+          "shared_y": 36.400001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            1,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 2.5179286688470787e-08,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -71.30274200439453,
+          36.099998474121094,
+          28.125
+        ],
+        [
+          -71.30000305175781,
+          36.400001525878906,
+          28.149999618530273
+        ]
+      ],
+      "volume": 1.0271020135149689e-05,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    },
+    {
+      "new_seed": 0,
+      "new_vertex_count": 8,
+      "old_area": 0.12777419242775068,
+      "whole_parent_difference_area": 0.09415004604215937,
+      "new_piece_area": 0.09415004604215937,
+      "intersection_area": 0.0336241463855913,
+      "parent_area_identity_error": 0.0,
+      "role": "upper_coping",
+      "parent_old_seed": 0,
+      "host_seat_area_from_actual_source_edge_m2": 0.4053000533868212,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.1474999321831597,
+            0.2222222222222222
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -76.0,
+              27.772222095065647
+            ],
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368486803505978
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -76.0,
+              27.842222213745117
+            ],
+            [
+              -76.0,
+              27.772222095065647
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.26315443500720287,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ],
+            [
+              -74.65499877929688,
+              27.969249725341797
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -74.65499877929688,
+              27.969249725341797
+            ],
+            [
+              -76.0,
+              27.842222213745117
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.1474999321831597,
+            0.2222222222222222
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -76.0,
+              27.772222095065647
+            ],
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368486803505978,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -76.0,
+              27.772222095065647
+            ],
+            [
+              -76.0,
+              27.747222900390625
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -76.0,
+              27.747222900390625
+            ],
+            [
+              -74.65499877929688,
+              27.874250411987305
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.26315443500720287
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.65499877929688,
+              27.874250411987305
+            ],
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.1474999321831597,
+            0.2222222222222222
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.65499877929688,
+              27.89924990261918
+            ],
+            [
+              -76.0,
+              27.772222095065647
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | north short approach coping",
+      "old_seed": 0,
+      "new_host_intersection": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0
+      },
+      "float32_max_vertex_rounding_m": 4.2385525134136515e-07,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 39.599998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        },
+        {
+          "shared_y": 39.900001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 2.4191696856767498e-06,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -76.0,
+          39.599998474121094,
+          27.7722225189209
+        ],
+        [
+          -74.65499877929688,
+          39.900001525878906,
+          27.969249725341797
+        ]
+      ],
+      "volume": 0.028245189818259853,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    },
+    {
+      "new_seed": 8,
+      "new_vertex_count": 8,
+      "old_area": 0.12729873199714348,
+      "whole_parent_difference_area": 0.09379967762663455,
+      "new_piece_area": 0.09379967762663455,
+      "intersection_area": 0.03349905437050893,
+      "parent_area_identity_error": 0.0,
+      "role": "upper_coping",
+      "parent_old_seed": 8,
+      "host_seat_area_from_actual_source_edge_m2": 0.4037918917287666,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.07250001695421007,
+            0.14694425794813368
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ],
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368402176869541
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.97019386291504
+            ],
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.2631463928543992,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ],
+            [
+              -73.30500030517578,
+              28.096750259399414
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -73.30500030517578,
+              28.096750259399414
+            ],
+            [
+              -74.6449966430664,
+              27.97019386291504
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.07250001695421007,
+            0.14694425794813368
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ],
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368402176869541,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ],
+            [
+              -74.6449966430664,
+              27.875194549560547
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -74.6449966430664,
+              27.875194549560547
+            ],
+            [
+              -73.30500030517578,
+              28.001750946044922
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.2631463928543992
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.30500030517578,
+              28.001750946044922
+            ],
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.07250001695421007,
+            0.14694425794813368
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.30500030517578,
+              28.026749672677802
+            ],
+            [
+              -74.6449966430664,
+              27.900194548182803
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | north short approach coping",
+      "old_seed": 8,
+      "new_host_intersection": {
+        "volume": 2.4058216779865305e-08,
+        "closed_result": true,
+        "faces": 9
+      },
+      "float32_max_vertex_rounding_m": 8.918973932736662e-07,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 39.599998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 7.609560270793736e-08,
+          "sum_actual_triangle_intersection_areas": 7.609696694999002e-08,
+          "positive_area_pairs": 1
+        },
+        {
+          "shared_y": 39.900001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 7.609696694999002e-08,
+          "sum_actual_triangle_intersection_areas": 7.609696694999002e-08,
+          "positive_area_pairs": 1
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 5.061560903422645e-06,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -74.6449966430664,
+          39.599998474121094,
+          27.90019416809082
+        ],
+        [
+          -73.30500030517578,
+          39.900001525878906,
+          28.096750259399414
+        ]
+      ],
+      "volume": 0.02814008666833434,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    },
+    {
+      "new_seed": 16,
+      "new_vertex_count": 8,
+      "old_area": 0.12255043144250521,
+      "whole_parent_difference_area": 0.09030046459884034,
+      "new_piece_area": 0.09030046459884034,
+      "intersection_area": 0.03224996684366488,
+      "parent_area_identity_error": 0.0,
+      "role": "upper_coping",
+      "parent_old_seed": 16,
+      "host_seat_area_from_actual_source_edge_m2": 0.3887263683366453,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.00027762518988715275,
+            0.07194434271918403
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ],
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368482598397578
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.097694396972656
+            ],
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.26316165519857593,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ],
+            [
+              -72.00499725341797,
+              28.219528198242188
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -72.00499725341797,
+              28.219528198242188
+            ],
+            [
+              -73.29499816894531,
+              28.097694396972656
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.00027762518988715275,
+            0.07194434271918403
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ],
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368482598397578,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ],
+            [
+              -73.29499816894531,
+              28.002695083618164
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -73.29499816894531,
+              28.002695083618164
+            ],
+            [
+              -72.00499725341797,
+              28.124526977539062
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.26316165519857593
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -72.00499725341797,
+              28.124526977539062
+            ],
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 20,
+          "parameter_interval": [
+            0.00027762518988715275,
+            0.07194434271918403
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -72.00499725341797,
+              28.14952765602518
+            ],
+            [
+              -73.29499816894531,
+              28.027694318241426
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | north short approach coping",
+      "old_seed": 16,
+      "new_host_intersection": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0
+      },
+      "float32_max_vertex_rounding_m": 8.473927870511488e-07,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 39.599998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        },
+        {
+          "shared_y": 39.900001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 4.639276691398555e-06,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -73.29499816894531,
+          39.599998474121094,
+          28.027694702148438
+        ],
+        [
+          -72.00499725341797,
+          39.900001525878906,
+          28.219528198242188
+        ]
+      ],
+      "volume": 0.027090176695726775,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    },
+    {
+      "new_seed": 24,
+      "new_vertex_count": 8,
+      "old_area": 0.0660244937898824,
+      "whole_parent_difference_area": 0.04868400471991663,
+      "new_piece_area": 0.048649766540620476,
+      "intersection_area": 0.01734048906996577,
+      "parent_area_identity_error": 0.0,
+      "role": "upper_coping",
+      "parent_old_seed": 24,
+      "host_seat_area_from_actual_source_edge_m2": 0.208502029418014,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368442186841208
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.219999313354492
+            ],
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.9960588527422606,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.3027421478992,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.2631557813158793
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.2631557813158793,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.219999313354492
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.219999313354492
+            ],
+            [
+              -71.99500274658203,
+              28.219999313354492
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368442186841208,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.99500274658203,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            0.9960588527422606
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.125
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.3027421478992,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | north short approach coping",
+      "old_seed": 24,
+      "new_host_intersection": {
+        "volume": 0.0,
+        "closed_result": true,
+        "broadphase_disjoint": true
+      },
+      "float32_max_vertex_rounding_m": 0.0,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 39.599998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        },
+        {
+          "shared_y": 39.900001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            2,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 1e-08,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -71.99500274658203,
+          39.599998474121094,
+          28.149999618530273
+        ],
+        [
+          -71.30000305175781,
+          39.900001525878906,
+          28.219999313354492
+        ]
+      ],
+      "volume": 0.014595078429465946,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    },
+    {
+      "new_seed": 32,
+      "new_vertex_count": 6,
+      "old_area": 0.0660244937898824,
+      "whole_parent_difference_area": 0.04868400471991663,
+      "new_piece_area": 3.423817929615325e-05,
+      "intersection_area": 0.01734048906996577,
+      "parent_area_identity_error": 0.0,
+      "role": "retained_external_terminal_wedge",
+      "parent_old_seed": 24,
+      "host_seat_area_from_actual_source_edge_m2": 0.007544844584727222,
+      "host_seat_source_intervals": [
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        }
+      ],
+      "exterior_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.0,
+            0.7368442186841208
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.219999313354492
+            ],
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.9960588527422606,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.3027421478992,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.0,
+            0.2631557813158793
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 2,
+          "parameter_interval": [
+            0.2631557813158793,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.219999313354492
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 3,
+          "parameter_interval": [
+            0.0,
+            1.0
+          ],
+          "inside_other": false,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.219999313354492
+            ],
+            [
+              -71.99500274658203,
+              28.219999313354492
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "intersection_boundary_source_intervals": [
+        {
+          "source": "A",
+          "edge": 0,
+          "parameter_interval": [
+            0.7368442186841208,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ],
+            [
+              -71.99500274658203,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "A",
+          "edge": 1,
+          "parameter_interval": [
+            0.0,
+            0.9960588527422606
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.99500274658203,
+              28.125
+            ],
+            [
+              -71.3027421478992,
+              28.125
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 18,
+          "parameter_interval": [
+            0.9960869884529289,
+            1.0
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.3027421478992,
+              28.125
+            ],
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ]
+          ]
+        },
+        {
+          "source": "B",
+          "edge": 19,
+          "parameter_interval": [
+            0.0,
+            0.9928610354223433
+          ],
+          "inside_other": true,
+          "ends": [
+            [
+              -71.30000305175781,
+              28.149999618530273
+            ],
+            [
+              -71.99500274658203,
+              28.149999618530273
+            ]
+          ]
+        }
+      ],
+      "object": "V020 candidate | north short approach coping",
+      "old_seed": 24,
+      "new_host_intersection": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0
+      },
+      "float32_max_vertex_rounding_m": 1.4350466415180563e-07,
+      "actual_side_overlap_after": [
+        {
+          "shared_y": 39.599998474121094,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            1,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        },
+        {
+          "shared_y": 39.900001525878906,
+          "plane_tolerance_m": 1e-07,
+          "source_triangle_counts": [
+            1,
+            20
+          ],
+          "maximum_actual_triangle_intersection_area": 0.0,
+          "sum_actual_triangle_intersection_areas": 0.0,
+          "positive_area_pairs": 0
+        }
+      ],
+      "side_overlap_roundoff_bound_m2": 2.5179286688470787e-08,
+      "closed_oriented_positive": true,
+      "occupied_union_identity_area_error": 0.0,
+      "bounds": [
+        [
+          -71.30274200439453,
+          39.599998474121094,
+          28.125
+        ],
+        [
+          -71.30000305175781,
+          39.900001525878906,
+          28.149999618530273
+        ]
+      ],
+      "volume": 1.0271020135149689e-05,
+      "semantic": "Only newcap minus actualhost crosssection; terminal exposed wedge retained, widths/top/exterior source edges preserved; new contact is actual shared top/end surface."
+    }
+  ],
+  "other_meshes_and_material_graphs_exact": true,
+  "scope": "Actualhost planar subtraction only. No source/width/top/style changes; float32 boundary residual quantified; no renders"
+}

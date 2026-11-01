@@ -1,0 +1,27 @@
+{
+  "checkpoint": "v020",
+  "status": "LOCAL_ACCEPTED_REMOTE_BACKUP_PENDING",
+  "model_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "model_bytes": 47597255,
+  "source_commit": "15ed444cf3d1396d1d16e8fe5c176f8e39082435",
+  "source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "technical_gate": true,
+  "actual_approach_oblique_hero_review": true,
+  "independent_art_director_approach_oblique": true,
+  "self_contained_three_stage_rebuild": true,
+  "full_semantic_repeat_exact": true,
+  "negative_controls": 4,
+  "core_tests": 13,
+  "recipe_mock_tests": 14,
+  "local_exact_chunk_restore": true,
+  "remote_restore_verified": false,
+  "historical_fixed_source_restore_tested": true,
+  "notes": [
+    "Artistic threshold enrichment, not defect repair or engineering certification.",
+    "23 closed components includes21main and2retained tiny closed terminal wedges.",
+    "Source scene/lighting/forest preserved; source tree resource cost unchanged.",
+    "Earlier frozen reports retain their time-of-execution pending status; this receipt supersedes local acceptance status only.",
+    "Do not withdraw old payload until remote byte-exact restore and checks pass."
+  ],
+  "recorded_utc": "2026-11-01T14:02:58.722967+00:00"
+}

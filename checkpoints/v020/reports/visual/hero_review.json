@@ -1,0 +1,21 @@
+{
+  "visual_result": "Hero preservation gate positive; final acceptance belongs to owner.",
+  "image": "clean_hero/hero/image.png",
+  "candidate_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "baseline_source_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "baseline": "Previously rendered V019 candidate_hero, verified byte-identical publishedhero_after.",
+  "same_camera_quality_world_lights": true,
+  "findings": [
+    "No conspicuous hero-scale silhouette, contrast, bright-dot or texture-noise regression.",
+    "Local threshold detail remains subordinate to the castle/landscape composition; no need to enlarge it for distant visibility."
+  ],
+  "resource_observation": {
+    "load_wall_seconds": 0.40903161199821625,
+    "render_wall_seconds": 84.38878457801184,
+    "render_cpu_seconds": 666.571802356,
+    "peak_rss_linux_kib": 2121220
+  },
+  "limits": "One fresh candidate render against historical baseline; not a controlled performance comparison. Actual source lighting retained, not a guarantee about unseen geometry.",
+  "source_saved": false,
+  "scope_closed": "Approach and single approved oblique pair inspected, hero completed. No further renders or model changes proposed."
+}

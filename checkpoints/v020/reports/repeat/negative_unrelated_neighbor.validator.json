@@ -1,0 +1,2130 @@
+{
+  "candidate_sha256": "4170aeb6fd10abf945ad9b5716e8615a487cb754f8cbdbba518a532b55ee7bf4",
+  "host_plan_sha256": "cb8cbd0996bd53dfea8b9e945588b1329d37aa5ace4290879b6b637407072f81",
+  "focused_geometry_pass": false,
+  "failures": [
+    {
+      "piece": "V020 candidate | west portal radial stones::0",
+      "reason": "unapproved_neighbor_contact",
+      "neighbor": "QA unapproved neighbor::0",
+      "result": {
+        "volume": 0.03851256752145554,
+        "closed_result": true,
+        "faces": 36
+      }
+    }
+  ],
+  "new_piece_count": 23,
+  "pieces": [
+    {
+      "piece": "V020 candidate | west portal radial stones::0",
+      "signed_volume": 0.03851256752147547,
+      "bounds": [
+        [
+          -71.4800033569336,
+          40.14399337768555,
+          28.940000534057617
+        ],
+        [
+          -71.16999816894531,
+          40.439998626708984,
+          29.56794548034668
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0037268084719815652,
+          "closed_result": true,
+          "faces": 32
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::20",
+      "signed_volume": 0.029851648006555653,
+      "bounds": [
+        [
+          -71.4800033569336,
+          39.957401275634766,
+          29.53785514831543
+        ],
+        [
+          -71.16999816894531,
+          40.327945709228516,
+          30.064590454101562
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.002888703283642397,
+          "closed_result": true,
+          "faces": 25
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::36",
+      "signed_volume": 0.03040709868368166,
+      "bounds": [
+        [
+          -71.4800033569336,
+          39.65705108642578,
+          29.98933219909668
+        ],
+        [
+          -71.16999816894531,
+          40.1206169128418,
+          30.50227165222168
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.002942453270365443,
+          "closed_result": true,
+          "faces": 25
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::52",
+      "signed_volume": 0.03107019978872963,
+      "bounds": [
+        [
+          -71.4800033569336,
+          39.26040267944336,
+          30.386219024658203
+        ],
+        [
+          -71.16999816894531,
+          39.79004669189453,
+          30.85555076599121
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0030066205210325797,
+          "closed_result": true,
+          "faces": 25
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::68",
+      "signed_volume": 0.031689063742528,
+      "bounds": [
+        [
+          -71.4800033569336,
+          38.790504455566406,
+          30.7054500579834
+        ],
+        [
+          -71.16999816894531,
+          39.35544204711914,
+          31.103899002075195
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0030665072890278602,
+          "closed_result": true,
+          "faces": 26
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0007096261799764267,
+          "closed_result": true,
+          "faces": 11
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::84",
+      "signed_volume": 0.03212134826377466,
+      "bounds": [
+        [
+          -71.4800033569336,
+          38.274662017822266,
+          30.9284725189209
+        ],
+        [
+          -71.16999816894531,
+          38.84206771850586,
+          31.232881546020508
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0031083392724225306,
+          "closed_result": true,
+          "faces": 25
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.01725776342032418,
+          "closed_result": true,
+          "faces": 22
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::100",
+      "signed_volume": 0.03227983013599023,
+      "bounds": [
+        [
+          -71.4800033569336,
+          37.720245361328125,
+          31.042325973510742
+        ],
+        [
+          -71.16999816894531,
+          38.279754638671875,
+          31.25
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.003123674965094362,
+          "closed_result": true,
+          "faces": 19
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.02373750104938234,
+          "closed_result": true,
+          "faces": 19
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::112",
+      "signed_volume": 0.032121348263794425,
+      "bounds": [
+        [
+          -71.4800033569336,
+          37.15793228149414,
+          30.9284725189209
+        ],
+        [
+          -71.16999816894531,
+          37.725337982177734,
+          31.232881546020508
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.003108338123150752,
+          "closed_result": true,
+          "faces": 27
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.022067505377429894,
+          "closed_result": true,
+          "faces": 25
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::128",
+      "signed_volume": 0.0316890637425129,
+      "bounds": [
+        [
+          -71.4800033569336,
+          36.64455795288086,
+          30.7054500579834
+        ],
+        [
+          -71.16999816894531,
+          37.209495544433594,
+          31.103899002075195
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0030665066988168777,
+          "closed_result": true,
+          "faces": 26
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.005073990125765225,
+          "closed_result": true,
+          "faces": 12
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::144",
+      "signed_volume": 0.031070199788767572,
+      "bounds": [
+        [
+          -71.4800033569336,
+          36.20995330810547,
+          30.386219024658203
+        ],
+        [
+          -71.16999816894531,
+          36.73959732055664,
+          30.85555076599121
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0030066209167462707,
+          "closed_result": true,
+          "faces": 25
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::160",
+      "signed_volume": 0.030407098683663425,
+      "bounds": [
+        [
+          -71.4800033569336,
+          35.8793830871582,
+          29.98933219909668
+        ],
+        [
+          -71.16999816894531,
+          36.34294891357422,
+          30.50227165222168
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.002942453656245056,
+          "closed_result": true,
+          "faces": 25
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::176",
+      "signed_volume": 0.029851648006579135,
+      "bounds": [
+        [
+          -71.4800033569336,
+          35.672054290771484,
+          29.53785514831543
+        ],
+        [
+          -71.16999816894531,
+          36.042598724365234,
+          30.064590454101562
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0028887034054056633,
+          "closed_result": true,
+          "faces": 25
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::192",
+      "signed_volume": 0.03851256752148402,
+      "bounds": [
+        [
+          -71.4800033569336,
+          35.560001373291016,
+          28.940000534057617
+        ],
+        [
+          -71.16999816894531,
+          35.85600662231445,
+          29.56794548034668
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0037268088151215795,
+          "closed_result": true,
+          "faces": 32
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        }
+      }
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::0",
+      "signed_volume": 0.028245189818259853,
+      "bounds": [
+        [
+          -76.0,
+          36.099998474121094,
+          27.7722225189209
+        ],
+        [
+          -74.65499877929688,
+          36.400001525878906,
+          27.969249725341797
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.405300045038457,
+          "max_plane_deviation_m": 4.219774696812403e-07,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 36.099998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          },
+          {
+            "shared_y": 36.400001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 5.130772478878498e-06
+      }
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::8",
+      "signed_volume": 0.02814008666833434,
+      "bounds": [
+        [
+          -74.6449966430664,
+          36.099998474121094,
+          27.90019416809082
+        ],
+        [
+          -73.30500030517578,
+          36.400001525878906,
+          28.096750259399414
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 2.4058216779865305e-08,
+          "closed_result": true,
+          "faces": 9
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.40379192760932014,
+          "max_plane_deviation_m": 8.879459815518892e-07,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 36.099998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 7.609560270793736e-08,
+            "sum_actual_triangle_intersection_areas": 7.609696694999002e-08,
+            "positive_area_pairs": 1
+          },
+          {
+            "shared_y": 36.400001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 7.609696694999002e-08,
+            "sum_actual_triangle_intersection_areas": 7.609696694999002e-08,
+            "positive_area_pairs": 1
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 5.111680366098881e-06
+      }
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::16",
+      "signed_volume": 0.027090176695726775,
+      "bounds": [
+        [
+          -73.29499816894531,
+          36.099998474121094,
+          28.027694702148438
+        ],
+        [
+          -72.00499725341797,
+          36.400001525878906,
+          28.219528198242188
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.3887263814107126,
+          "max_plane_deviation_m": 8.436385890711757e-07,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 36.099998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          },
+          {
+            "shared_y": 36.400001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 4.920962965115905e-06
+      }
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::24",
+      "signed_volume": 0.014595078429465946,
+      "bounds": [
+        [
+          -71.99500274658203,
+          36.099998474121094,
+          28.149999618530273
+        ],
+        [
+          -71.30000305175781,
+          36.400001525878906,
+          28.219999313354492
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.208502029418014,
+          "max_plane_deviation_m": 0.0,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 36.099998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          },
+          {
+            "shared_y": 36.400001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 2.6512134354561567e-06
+      }
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::32",
+      "signed_volume": 1.0271020135149689e-05,
+      "bounds": [
+        [
+          -71.30274200439453,
+          36.099998474121094,
+          28.125
+        ],
+        [
+          -71.30000305175781,
+          36.400001525878906,
+          28.149999618530273
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.0075448398959122205,
+          "max_plane_deviation_m": 1.426510729917685e-07,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 36.099998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              1,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          },
+          {
+            "shared_y": 36.400001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              1,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 1.04482751339674e-08
+      }
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::0",
+      "signed_volume": 0.028245189818259853,
+      "bounds": [
+        [
+          -76.0,
+          39.599998474121094,
+          27.7722225189209
+        ],
+        [
+          -74.65499877929688,
+          39.900001525878906,
+          27.969249725341797
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.405300045038457,
+          "max_plane_deviation_m": 4.219774696812403e-07,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 39.599998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          },
+          {
+            "shared_y": 39.900001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 5.130772478878498e-06
+      }
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::8",
+      "signed_volume": 0.02814008666833434,
+      "bounds": [
+        [
+          -74.6449966430664,
+          39.599998474121094,
+          27.90019416809082
+        ],
+        [
+          -73.30500030517578,
+          39.900001525878906,
+          28.096750259399414
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 2.4058216779865305e-08,
+          "closed_result": true,
+          "faces": 9
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.40379192760932014,
+          "max_plane_deviation_m": 8.879459815518892e-07,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 39.599998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 7.609560270793736e-08,
+            "sum_actual_triangle_intersection_areas": 7.609696694999002e-08,
+            "positive_area_pairs": 1
+          },
+          {
+            "shared_y": 39.900001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 7.609696694999002e-08,
+            "sum_actual_triangle_intersection_areas": 7.609696694999002e-08,
+            "positive_area_pairs": 1
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 5.111680366098881e-06
+      }
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::16",
+      "signed_volume": 0.027090176695726775,
+      "bounds": [
+        [
+          -73.29499816894531,
+          39.599998474121094,
+          28.027694702148438
+        ],
+        [
+          -72.00499725341797,
+          39.900001525878906,
+          28.219528198242188
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.3887263814107126,
+          "max_plane_deviation_m": 8.436385890711757e-07,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 39.599998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          },
+          {
+            "shared_y": 39.900001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 4.920962965115905e-06
+      }
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::24",
+      "signed_volume": 0.014595078429465946,
+      "bounds": [
+        [
+          -71.99500274658203,
+          39.599998474121094,
+          28.149999618530273
+        ],
+        [
+          -71.30000305175781,
+          39.900001525878906,
+          28.219999313354492
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.208502029418014,
+          "max_plane_deviation_m": 0.0,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 39.599998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          },
+          {
+            "shared_y": 39.900001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              2,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 2.6512134354561567e-06
+      }
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::32",
+      "signed_volume": 1.0271020135149689e-05,
+      "bounds": [
+        [
+          -71.30274200439453,
+          39.599998474121094,
+          28.125
+        ],
+        [
+          -71.30000305175781,
+          39.900001525878906,
+          28.149999618530273
+        ]
+      ],
+      "tests": {
+        "host": {
+          "volume": 0.0,
+          "closed_result": true,
+          "faces": 0
+        },
+        "opening": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "route": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "existing_cornice": {
+          "volume": 0.0,
+          "closed_result": true,
+          "broadphase_disjoint": true
+        },
+        "host_shared_top": {
+          "area_m2": 0.0075448398959122205,
+          "max_plane_deviation_m": 1.426510729917685e-07,
+          "plane_tolerance_m": 6e-06
+        },
+        "host_exposed_side_overlap": [
+          {
+            "shared_y": 39.599998474121094,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              1,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          },
+          {
+            "shared_y": 39.900001525878906,
+            "plane_tolerance_m": 1e-07,
+            "source_triangle_counts": [
+              1,
+              20
+            ],
+            "maximum_actual_triangle_intersection_area": 0.0,
+            "sum_actual_triangle_intersection_areas": 0.0,
+            "positive_area_pairs": 0
+          }
+        ],
+        "host_side_roundoff_area_bound_m2": 1.04482751339674e-08
+      }
+    }
+  ],
+  "actual_opening_knots_yz": [
+    [
+      35.79999923706055,
+      29.049999237060547
+    ],
+    [
+      35.81882095336914,
+      29.311052322387695
+    ],
+    [
+      35.874961853027344,
+      29.567638397216797
+    ],
+    [
+      35.967464447021484,
+      29.815366744995117
+    ],
+    [
+      36.09474563598633,
+      30.049999237060547
+    ],
+    [
+      36.25462341308594,
+      30.26752281188965
+    ],
+    [
+      36.444366455078125,
+      30.464214324951172
+    ],
+    [
+      36.66072463989258,
+      30.636707305908203
+    ],
+    [
+      36.900001525878906,
+      30.78205108642578
+    ],
+    [
+      37.15809631347656,
+      30.89775848388672
+    ],
+    [
+      37.430599212646484,
+      30.98185157775879
+    ],
+    [
+      37.71284103393555,
+      31.03289031982422
+    ],
+    [
+      38.0,
+      31.049999237060547
+    ],
+    [
+      38.28715896606445,
+      31.03289031982422
+    ],
+    [
+      38.569400787353516,
+      30.98185157775879
+    ],
+    [
+      38.84190368652344,
+      30.89775848388672
+    ],
+    [
+      39.099998474121094,
+      30.78205108642578
+    ],
+    [
+      39.33927536010742,
+      30.636707305908203
+    ],
+    [
+      39.555633544921875,
+      30.464214324951172
+    ],
+    [
+      39.74537658691406,
+      30.26752281188965
+    ],
+    [
+      39.90525436401367,
+      30.049999237060547
+    ],
+    [
+      40.032535552978516,
+      29.815366744995117
+    ],
+    [
+      40.125038146972656,
+      29.567638397216797
+    ],
+    [
+      40.18117904663086,
+      29.311052322387695
+    ],
+    [
+      40.20000076293945,
+      29.049999237060547
+    ]
+  ],
+  "opening_domains": {
+    "arch_imposts": [
+      -71.48,
+      -63.8
+    ],
+    "copings_original_doorway": [
+      -71.19999694824219,
+      -63.8
+    ],
+    "central_approach_y": [
+      36.6,
+      39.4
+    ]
+  },
+  "nearby_full_components": 8,
+  "neighbor_tests": [
+    {
+      "piece": "V020 candidate | west portal radial stones::0",
+      "neighbor": "QA unapproved neighbor::0",
+      "result": {
+        "volume": 0.03851256752145554,
+        "closed_result": true,
+        "faces": 36
+      },
+      "unexpected_contact": true
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::0",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::0",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::20",
+      "neighbor": "QA unapproved neighbor::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::20",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::20",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::36",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::36",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::36",
+      "neighbor": "V012 | retained west rib facade with buried-route clearance::11768",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::52",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::52",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::52",
+      "neighbor": "V012 | retained west rib facade with buried-route clearance::11768",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::68",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::68",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::68",
+      "neighbor": "V012 | retained west rib facade with buried-route clearance::12528",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::84",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::84",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::84",
+      "neighbor": "V012 | retained west rib facade with buried-route clearance::12528",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::100",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::100",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::100",
+      "neighbor": "V012 | retained west rib facade with buried-route clearance::12528",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::112",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::112",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::112",
+      "neighbor": "V012 | retained west rib facade with buried-route clearance::12528",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::128",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::128",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::128",
+      "neighbor": "V012 | retained west rib facade with buried-route clearance::12528",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::144",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::144",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::144",
+      "neighbor": "V012 | retained west rib facade with buried-route clearance::11768",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::160",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::160",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::160",
+      "neighbor": "V012 | retained west rib facade with buried-route clearance::11768",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::176",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::176",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::192",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::192",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::0",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::0",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::8",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::8",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::16",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::16",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::24",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::24",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::32",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | south short approach coping::32",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::0",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::0",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::8",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::8",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::16",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::16",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::24",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::24",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::32",
+      "neighbor": "Narrow winding limestone footpath | conformed to meadow::0",
+      "result": {
+        "volume": null,
+        "reason": "surface-only operand",
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    },
+    {
+      "piece": "V020 candidate | north short approach coping::32",
+      "neighbor": "V002 | western headland with solid rock shore::0",
+      "result": {
+        "volume": 0.0,
+        "closed_result": true,
+        "faces": 0,
+        "surface_test": {
+          "state": "no_surface_contact",
+          "epsilon": 1e-07
+        }
+      },
+      "unexpected_contact": false
+    }
+  ],
+  "new_pair_contacts": [],
+  "root_contact_chain": {
+    "south_parapet_to_stair": {
+      "shared_y": 36.400001525878906,
+      "plane_tolerance_m": 1e-07,
+      "source_triangle_counts": [
+        20,
+        37
+      ],
+      "maximum_actual_triangle_intersection_area": 6.421989146634701,
+      "sum_actual_triangle_intersection_areas": 65.40828110098323,
+      "positive_area_pairs": 89
+    },
+    "north_parapet_to_stair": {
+      "shared_y": 39.599998474121094,
+      "plane_tolerance_m": 1e-07,
+      "source_triangle_counts": [
+        20,
+        37
+      ],
+      "maximum_actual_triangle_intersection_area": 7.913210635736505,
+      "sum_actual_triangle_intersection_areas": 65.40828110098403,
+      "positive_area_pairs": 89
+    },
+    "cornice_to_primary_wall": {
+      "volume": 12.244625909396245,
+      "closed_result": true,
+      "faces": 81
+    },
+    "stairs_to_threshold": {
+      "volume": 0.07680454100675393,
+      "closed_result": true,
+      "faces": 9
+    },
+    "threshold_to_wall": {
+      "volume": 1.0655959442176015,
+      "closed_result": true,
+      "faces": 23
+    }
+  },
+  "negative_controls": {
+    "displaced_stone_no_host": true,
+    "reversed_face_rejected": true
+  },
+  "source_file_unchanged": true,
+  "scope": "Actual evaluated closed-piece host overlap and unchanged opening/central west strip, with explicitly measured known cornice interference. Numerical volume threshold1e-10m3. All render-enabled nearby evaluated components checked; open source sheets tested for actual triangle surface contact, not fictional solid volume. Exact five cornice secondary seats explicitly allowed, with cornice root volume verified. New-new contacts reported for explicit review. No global collision/engineering acceptance."
+}
