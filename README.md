@@ -7,7 +7,7 @@
 - [实际原光照前后图与说明](checkpoints/v020/README.md) · [复现步骤](checkpoints/v020/REPRODUCE.md)
 - [恢复清单](checkpoints/v020/MANIFEST.json) · [持续计划](CONTINUATION.md)
 
-克隆完整仓库（含model_chunks），运行 `python checkpoints/v020/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块和整文件SHA-256验证，精确恢复原字节。发布采用先追加备份、独立远端恢复/重验后撤旧载荷；当前状态以检查点验收收据为准，不以本地通过冒充远端验证。
+克隆完整仓库（含model_chunks），运行 `python checkpoints/v020/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块和整文件SHA-256验证，精确恢复原字节。已从远端`61482c2`精确恢复并复验，[验证收据](checkpoints/v020/reports/remote/VERIFIED.json)记录完整提交。随后撤下旧版当前模型载荷，Git历史保留。
 
 v019单株精细树冠保留，其原有资源代价不变；没有扩展全森林。v020仅增加6,078工程字节。原树仍可在自己的副本中手动切换；[旧v019 HIGH/LOW工具](checkpoints/v019/quality/README.md)严格绑定历史版本，请先按其中说明恢复固定历史工作树，不要输入v020。
 

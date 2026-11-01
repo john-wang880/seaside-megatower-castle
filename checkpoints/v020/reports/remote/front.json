@@ -1,0 +1,88 @@
+{
+  "remaining_duplicate_front_triangle_patches": [],
+  "candidate_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "source_cornice": "V012 | retained west rib facade with buried-route clearance::11768",
+  "cornice_front_x": -71.4000015258789,
+  "pieces": [
+    {
+      "piece": "V020 candidate | west portal radial stones::0",
+      "front_face_area_m2": 0.12423200970079051,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::20",
+      "front_face_area_m2": 0.09629402720747748,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::36",
+      "front_face_area_m2": 0.09808577359945048,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::52",
+      "front_face_area_m2": 0.10022477362508653,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::68",
+      "front_face_area_m2": 0.10222107555091497,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::84",
+      "front_face_area_m2": 0.1036155184119707,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::100",
+      "front_face_area_m2": 0.10412674170220271,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::112",
+      "front_face_area_m2": 0.1036155184119707,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::128",
+      "front_face_area_m2": 0.10222107555091497,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::144",
+      "front_face_area_m2": 0.10022477362508653,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::160",
+      "front_face_area_m2": 0.09808577359945048,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::176",
+      "front_face_area_m2": 0.09629402720747748,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    },
+    {
+      "piece": "V020 candidate | west portal radial stones::192",
+      "front_face_area_m2": 0.12423200970079051,
+      "covered_by_actual_cornice_front_m2": 0.0,
+      "west_orthographic_covered_fraction": 0.0
+    }
+  ],
+  "scope": "Actual front triangle projected union against nearer measured cornice face along +X. Exact planar clipping up to floating arithmetic; not practical-camera or full perspective visibility proof.",
+  "candidate_unchanged": true
+}
