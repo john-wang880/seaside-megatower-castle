@@ -1,0 +1,449 @@
+{
+  "status": "UNACCEPTED THREE-CLUMP DECISION PROTOTYPE",
+  "source_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "candidate_sha256": "e50d9536988b6cdabbde404eab2a808f56a503093aa73b0aadcd3dd5d4b7b529",
+  "candidate_bytes": 35729020,
+  "collection": "PROTOTYPE | v018 three foreground sprays",
+  "source_object": "V010 | woodland boughs with gate exit clearance",
+  "source_mesh": "V010 | woodland boughs with gate exit clearance",
+  "group": "V018 prototype | three audited clumps",
+  "modifier": "V018 prototype | hide audited clumps",
+  "selected_vertices": [
+    90429,
+    90430,
+    90431,
+    90432,
+    90433,
+    90434,
+    90435,
+    90436,
+    90437,
+    90438,
+    90439,
+    90440,
+    90441,
+    90442,
+    90443,
+    90444,
+    90445,
+    90493,
+    90494,
+    90495,
+    90496,
+    90497,
+    90498,
+    90499,
+    90500,
+    90501,
+    90502,
+    90503,
+    90504,
+    90505,
+    90506,
+    90507,
+    90573,
+    90574,
+    90575,
+    90576,
+    90577,
+    90578,
+    90579,
+    90580,
+    90581,
+    90582,
+    90583,
+    90584,
+    90585,
+    90586,
+    90587
+  ],
+  "removed_original_faces": 82,
+  "evaluated_remaining_faces": 307568,
+  "new_objects": [
+    {
+      "object": "V018 prototype | spray clump 90429",
+      "mesh": "V018 prototype | spray clump 90429",
+      "source_range": [
+        90429,
+        90446
+      ],
+      "woody_seed": 26790,
+      "anchor": [
+        -82.9034423828125,
+        42.3182373046875,
+        25.366361618041992
+      ],
+      "original_bounds": [
+        [
+          -83.73938751220703,
+          41.530818939208984,
+          24.204505920410156
+        ],
+        [
+          -82.15104675292969,
+          43.0367546081543,
+          26.63389015197754
+        ]
+      ],
+      "new_bounds": [
+        [
+          -83.25004577636719,
+          41.952091217041016,
+          24.294506072998047
+        ],
+        [
+          -82.4590835571289,
+          42.72323226928711,
+          26.563133239746094
+        ]
+      ],
+      "vertices": 120,
+      "faces": 116,
+      "material": "Sunlit needle tips",
+      "components": [
+        {
+          "first_vertex": 0,
+          "vertices": 12,
+          "faces": 8,
+          "label": "narrow shared central spray carrier"
+        },
+        {
+          "first_vertex": 12,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 0-0"
+        },
+        {
+          "first_vertex": 21,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 0-1"
+        },
+        {
+          "first_vertex": 30,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 0-2"
+        },
+        {
+          "first_vertex": 39,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 1-0"
+        },
+        {
+          "first_vertex": 48,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 1-1"
+        },
+        {
+          "first_vertex": 57,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 1-2"
+        },
+        {
+          "first_vertex": 66,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 2-0"
+        },
+        {
+          "first_vertex": 75,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 2-1"
+        },
+        {
+          "first_vertex": 84,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 2-2"
+        },
+        {
+          "first_vertex": 93,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 3-0"
+        },
+        {
+          "first_vertex": 102,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 3-1"
+        },
+        {
+          "first_vertex": 111,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 3-2"
+        }
+      ],
+      "closed_edges_two_faces": true,
+      "all_vertices_inside_original_radial_boundary": true
+    },
+    {
+      "object": "V018 prototype | spray clump 90493",
+      "mesh": "V018 prototype | spray clump 90493",
+      "source_range": [
+        90493,
+        90508
+      ],
+      "woody_seed": 26830,
+      "anchor": [
+        -82.63439178466797,
+        42.3564453125,
+        27.314950942993164
+      ],
+      "original_bounds": [
+        [
+          -83.22138977050781,
+          41.654319763183594,
+          26.146514892578125
+        ],
+        [
+          -81.90541076660156,
+          42.93687438964844,
+          28.577646255493164
+        ]
+      ],
+      "new_bounds": [
+        [
+          -83.01467895507812,
+          41.956825256347656,
+          26.260839462280273
+        ],
+        [
+          -82.30784606933594,
+          42.658111572265625,
+          28.495838165283203
+        ]
+      ],
+      "vertices": 120,
+      "faces": 116,
+      "material": "Fir needles \u2014 forest green",
+      "components": [
+        {
+          "first_vertex": 0,
+          "vertices": 12,
+          "faces": 8,
+          "label": "narrow shared central spray carrier"
+        },
+        {
+          "first_vertex": 12,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 0-0"
+        },
+        {
+          "first_vertex": 21,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 0-1"
+        },
+        {
+          "first_vertex": 30,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 0-2"
+        },
+        {
+          "first_vertex": 39,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 1-0"
+        },
+        {
+          "first_vertex": 48,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 1-1"
+        },
+        {
+          "first_vertex": 57,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 1-2"
+        },
+        {
+          "first_vertex": 66,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 2-0"
+        },
+        {
+          "first_vertex": 75,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 2-1"
+        },
+        {
+          "first_vertex": 84,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 2-2"
+        },
+        {
+          "first_vertex": 93,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 3-0"
+        },
+        {
+          "first_vertex": 102,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 3-1"
+        },
+        {
+          "first_vertex": 111,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 3-2"
+        }
+      ],
+      "closed_edges_two_faces": true,
+      "all_vertices_inside_original_radial_boundary": true
+    },
+    {
+      "object": "V018 prototype | spray clump 90573",
+      "mesh": "V018 prototype | spray clump 90573",
+      "source_range": [
+        90573,
+        90588
+      ],
+      "woody_seed": 26890,
+      "anchor": [
+        -82.37934112548828,
+        42.54315185546875,
+        29.161865234375
+      ],
+      "original_bounds": [
+        [
+          -82.83679962158203,
+          42.02336120605469,
+          28.000011444091797
+        ],
+        [
+          -81.84305572509766,
+          43.06260681152344,
+          30.425146102905273
+        ]
+      ],
+      "new_bounds": [
+        [
+          -82.63282775878906,
+          42.213356018066406,
+          28.091943740844727
+        ],
+        [
+          -82.07539367675781,
+          42.85996627807617,
+          30.35759162902832
+        ]
+      ],
+      "vertices": 120,
+      "faces": 116,
+      "material": "Fir needles \u2014 forest green",
+      "components": [
+        {
+          "first_vertex": 0,
+          "vertices": 12,
+          "faces": 8,
+          "label": "narrow shared central spray carrier"
+        },
+        {
+          "first_vertex": 12,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 0-0"
+        },
+        {
+          "first_vertex": 21,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 0-1"
+        },
+        {
+          "first_vertex": 30,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 0-2"
+        },
+        {
+          "first_vertex": 39,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 1-0"
+        },
+        {
+          "first_vertex": 48,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 1-1"
+        },
+        {
+          "first_vertex": 57,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 1-2"
+        },
+        {
+          "first_vertex": 66,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 2-0"
+        },
+        {
+          "first_vertex": 75,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 2-1"
+        },
+        {
+          "first_vertex": 84,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 2-2"
+        },
+        {
+          "first_vertex": 93,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 3-0"
+        },
+        {
+          "first_vertex": 102,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 3-1"
+        },
+        {
+          "first_vertex": 111,
+          "vertices": 9,
+          "faces": 9,
+          "label": "flattened spray 3-2"
+        }
+      ],
+      "closed_edges_two_faces": true,
+      "all_vertices_inside_original_radial_boundary": true
+    }
+  ],
+  "total_new_faces": 348,
+  "total_new_vertices": 360,
+  "checks": {
+    "complete_component_selection": true,
+    "non_target_evaluated_faces_coordinate_material_smooth_exact": true,
+    "original_raw_mesh_except_explicit_new_weights_exact": true,
+    "all_other_meshes_exact": true,
+    "material_graphs_exact": true,
+    "weights_exact_selected_only": true,
+    "source_sha_unchanged": true
+  },
+  "limits": [
+    "Not whole-tree acceptance. Original source coordinates/topology unchanged; weights and Mask are explicit changes.",
+    "Spray envelope is constrained inside old clump; original shadow mass intentionally changes locally.",
+    "Visual acceptance pending actual identical-camera images."
+  ]
+}

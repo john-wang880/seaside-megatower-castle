@@ -1,0 +1,13 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "manifest_sha256": "e86ab12902ff93e22fbd1d1b2d2373e761fdc73245548a6d52c07574b85c75f6",
+  "west_crown_physical_camera_matches_manifest": true,
+  "location_max_error_m": 0.0,
+  "forward_direction_max_error": 1.746567937499499e-07,
+  "lens": 55.0,
+  "clip_start": 0.10000000149011612,
+  "clip_end": 3000.0,
+  "hero_reuses_exact_existing_camera_name": "V002 | full coastal skyline camera",
+  "navigation_passed_assertions": 27,
+  "scope": "Final-neutral V018 source rendered; closeview physical matrix/lens/clips independently reconciled, not merely label matching."
+}

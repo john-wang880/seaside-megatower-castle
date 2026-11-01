@@ -1,0 +1,15 @@
+"""Read-only actual-light western crown review; source is never saved."""
+import argparse,bpy,json,sys,hashlib,time,resource
+from pathlib import Path
+from mathutils import Vector
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from preservation_support import primitive,tree_snapshot,digest
+p=argparse.ArgumentParser();p.add_argument('--source',required=True);p.add_argument('--source-sha',required=True);p.add_argument('--view',choices=['west_crown','west_crown_rear'],required=True);p.add_argument('--output',required=True);p.add_argument('--threads',type=int,default=8);a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);src=Path(a.source).resolve();out=Path(a.output).resolve();receipt=out.with_suffix('.json');sha=lambda path:hashlib.sha256(path.read_bytes()).hexdigest()
+assert src!=out and src!=receipt and not out.exists() and not receipt.exists();assert out.parent.is_dir() and out.suffix=='.png' and a.threads>0;assert sha(src)==a.source_sha
+bpy.ops.wm.open_mainfile(filepath=str(src));s=bpy.context.scene;assert s.render.engine=='CYCLES' and s.cycles.device=='CPU' and s.cycles.samples==80 and s.cycles.max_bounces==8
+quality=primitive(s.cycles);view=primitive(s.view_settings);world=digest(tree_snapshot(s.world.node_tree));lights={l.name:digest({'properties':primitive(l),'nodes':tree_snapshot(l.node_tree)}) for l in bpy.data.lights}
+location=(-95,35,198) if a.view=='west_crown' else (-171,165,198);target=Vector((-133,100,176.5));c=bpy.data.objects.new('READONLY | western crown actual audit',bpy.data.cameras.new('READONLY | western crown actual audit'));s.collection.objects.link(c);c.location=location;c.rotation_euler=(target-c.location).to_track_quat('-Z','Y').to_euler();c.data.lens=55;c.data.clip_start=.1;c.data.clip_end=3000;s.camera=c
+s.render.resolution_x=1200;s.render.resolution_y=800;s.render.resolution_percentage=100;s.render.threads_mode='FIXED';s.render.threads=a.threads;s.render.filepath=str(out);s.render.image_settings.file_format='PNG';s.render.image_settings.color_mode='RGB';s.render.use_stamp=False;bpy.context.view_layer.update()
+settings={'render':primitive(s.render),'cycles':quality,'view':view,'world_hash':world,'light_hashes':lights,'camera':{'matrix':[list(r) for r in c.matrix_world],'target':list(target),'data':primitive(c.data)}};t=time.perf_counter();bpy.ops.render.render(write_still=True);seconds=time.perf_counter()-t
+assert sha(src)==a.source_sha and primitive(s.cycles)==quality and primitive(s.view_settings)==view and digest(tree_snapshot(s.world.node_tree))==world and {l.name:digest({'properties':primitive(l),'nodes':tree_snapshot(l.node_tree)}) for l in bpy.data.lights}==lights
+receipt.write_text(json.dumps({'view':a.view,'source_filename':src.name,'source_sha256_before':a.source_sha,'source_sha256_after':sha(src),'source_saved':False,'actual_lighting':True,'blender_version':bpy.app.version_string,'render_seconds':seconds,'peak_rss_kib':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,'image_sha256':sha(out),'settings':settings},indent=2));print('RENDER PASS',a.view,seconds,flush=True)

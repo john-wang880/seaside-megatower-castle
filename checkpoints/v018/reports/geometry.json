@@ -1,0 +1,222 @@
+{
+  "pass": true,
+  "baseline_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "candidate_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "actual_source_signature": "58211e6ff8f68bd3474ba9f51d403cace273fbeb7914dd2868edd468c0322a9a",
+  "precision_tolerance_from_source_float32_scale": 6.103515625e-05,
+  "parameters": {
+    "exposure": 0.4,
+    "width": 0.6,
+    "length": 0.6,
+    "joint": 0.004,
+    "inset": 0.025,
+    "lip": 0.012,
+    "head": 0.003,
+    "bottom": -0.012,
+    "min_area": 0.003,
+    "min_span": 0.035
+  },
+  "facets": [
+    {
+      "facet": 0,
+      "name": "V018 | western slate facet 01",
+      "tile_count": 262,
+      "minimum_positive_volume": 7.229499131729729e-05,
+      "minimum_bottom_shell_margin": 0.007659912109375,
+      "adjacent_overlaps": 467,
+      "minimum_overlap_top_separation": 0.005981873404234644,
+      "bronze_edge_vertices": 163,
+      "minimum_actual_bronze_cover_margin": 0.0023651123046875,
+      "bounds": [
+        [
+          -132.9181671142578,
+          100.08182525634766,
+          177.75765991210938
+        ],
+        [
+          -123.05381774902344,
+          109.94618225097656,
+          186.48858642578125
+        ]
+      ]
+    },
+    {
+      "facet": 1,
+      "name": "V018 | western slate facet 02",
+      "tile_count": 262,
+      "minimum_positive_volume": 7.230438980817173e-05,
+      "minimum_bottom_shell_margin": 0.007659912109375,
+      "adjacent_overlaps": 467,
+      "minimum_overlap_top_separation": 0.005984426021575923,
+      "bronze_edge_vertices": 163,
+      "minimum_actual_bronze_cover_margin": 0.0023651123046875,
+      "bounds": [
+        [
+          -137.0990753173828,
+          100.15851593017578,
+          177.75765991210938
+        ],
+        [
+          -128.9009246826172,
+          109.96694946289062,
+          186.48858642578125
+        ]
+      ]
+    },
+    {
+      "facet": 2,
+      "name": "V018 | western slate facet 03",
+      "tile_count": 262,
+      "minimum_positive_volume": 7.22824676510451e-05,
+      "minimum_bottom_shell_margin": 0.007659912109375,
+      "adjacent_overlaps": 467,
+      "minimum_overlap_top_separation": 0.005981892481795523,
+      "bronze_edge_vertices": 163,
+      "minimum_actual_bronze_cover_margin": 0.0023593902587890625,
+      "bounds": [
+        [
+          -142.94619750976562,
+          100.08183288574219,
+          177.75765991210938
+        ],
+        [
+          -133.08181762695312,
+          109.94618225097656,
+          186.48858642578125
+        ]
+      ]
+    },
+    {
+      "facet": 3,
+      "name": "V018 | western slate facet 04",
+      "tile_count": 262,
+      "minimum_positive_volume": 7.226551436663915e-05,
+      "minimum_bottom_shell_margin": 0.007659912109375,
+      "adjacent_overlaps": 467,
+      "minimum_overlap_top_separation": 0.005989328384399403,
+      "bronze_edge_vertices": 163,
+      "minimum_actual_bronze_cover_margin": 0.0023593902587890625,
+      "bounds": [
+        [
+          -142.9669647216797,
+          95.90092468261719,
+          177.75765991210938
+        ],
+        [
+          -133.1585235595703,
+          104.09907531738281,
+          186.48858642578125
+        ]
+      ]
+    },
+    {
+      "facet": 4,
+      "name": "V018 | western slate facet 05",
+      "tile_count": 262,
+      "minimum_positive_volume": 7.230860849934592e-05,
+      "minimum_bottom_shell_margin": 0.007659912109375,
+      "adjacent_overlaps": 467,
+      "minimum_overlap_top_separation": 0.005985163773099572,
+      "bronze_edge_vertices": 163,
+      "minimum_actual_bronze_cover_margin": 0.002376556396484375,
+      "bounds": [
+        [
+          -142.94619750976562,
+          90.05381774902344,
+          177.75765991210938
+        ],
+        [
+          -133.08181762695312,
+          99.91817474365234,
+          186.48858642578125
+        ]
+      ]
+    },
+    {
+      "facet": 5,
+      "name": "V018 | western slate facet 06",
+      "tile_count": 262,
+      "minimum_positive_volume": 7.230438980817173e-05,
+      "minimum_bottom_shell_margin": 0.007659912109375,
+      "adjacent_overlaps": 467,
+      "minimum_overlap_top_separation": 0.005984044551849366,
+      "bronze_edge_vertices": 163,
+      "minimum_actual_bronze_cover_margin": 0.002368927001953125,
+      "bounds": [
+        [
+          -137.0990753173828,
+          90.03305053710938,
+          177.75765991210938
+        ],
+        [
+          -128.9009246826172,
+          99.84148406982422,
+          186.48858642578125
+        ]
+      ]
+    },
+    {
+      "facet": 6,
+      "name": "V018 | western slate facet 07",
+      "tile_count": 262,
+      "minimum_positive_volume": 7.228762804819174e-05,
+      "minimum_bottom_shell_margin": 0.007659912109375,
+      "adjacent_overlaps": 467,
+      "minimum_overlap_top_separation": 0.005981889693066476,
+      "bronze_edge_vertices": 163,
+      "minimum_actual_bronze_cover_margin": 0.00238037109375,
+      "bounds": [
+        [
+          -132.9181671142578,
+          90.05381774902344,
+          177.75765991210938
+        ],
+        [
+          -123.05381774902344,
+          99.91817474365234,
+          186.48858642578125
+        ]
+      ]
+    },
+    {
+      "facet": 7,
+      "name": "V018 | western slate facet 08",
+      "tile_count": 262,
+      "minimum_positive_volume": 7.229664333863184e-05,
+      "minimum_bottom_shell_margin": 0.007659912109375,
+      "adjacent_overlaps": 467,
+      "minimum_overlap_top_separation": 0.005986654361089083,
+      "bronze_edge_vertices": 163,
+      "minimum_actual_bronze_cover_margin": 0.002376556396484375,
+      "bounds": [
+        [
+          -132.8414764404297,
+          95.90092468261719,
+          177.75765991210938
+        ],
+        [
+          -123.03305053710938,
+          104.09907531738281,
+          186.48858642578125
+        ]
+      ]
+    }
+  ],
+  "tile_count": 2096,
+  "finial_intersections_or_touching_uncertainties": [],
+  "bounds": [
+    [
+      -142.9669647216797,
+      90.03305053710938,
+      177.75765991210938
+    ],
+    [
+      -123.03305053710938,
+      109.96694946289062,
+      186.48858642578125
+    ]
+  ],
+  "baseline_file_unchanged": true,
+  "candidate_file_unchanged": true,
+  "scope": "Actual tile component topology and signed volume, actual10-plane truncated-octagonal source-shell embedding, face-local overlap/top separation, actual8bronze seam halfspace cover, original octagonal eave/height and convex finial exclusion. No main-crown physical-margin assumptions, no waterproofing/history/load claims. Full source preservation is separate."
+}

@@ -1,0 +1,38 @@
+{
+  "object_prefix": "V018 | western slate facet ",
+  "objects": [
+    "V018 | western slate facet 01",
+    "V018 | western slate facet 02",
+    "V018 | western slate facet 03",
+    "V018 | western slate facet 04",
+    "V018 | western slate facet 05",
+    "V018 | western slate facet 06",
+    "V018 | western slate facet 07",
+    "V018 | western slate facet 08"
+  ],
+  "collection": "REFINEMENT | v018 western cap slate courses",
+  "parameters": {
+    "exposure": 0.4,
+    "width": 0.6,
+    "length": 0.6,
+    "joint": 0.004,
+    "inset": 0.025,
+    "lip": 0.012,
+    "head": 0.003,
+    "bottom": -0.012,
+    "min_area": 0.003,
+    "min_span": 0.035
+  },
+  "provenance": "Owner-authorized neutral production names; geometry parameters identical to independently checked2096tile prototype.",
+  "tile_counts": [
+    262,
+    262,
+    262,
+    262,
+    262,
+    262,
+    262,
+    262
+  ],
+  "count_provenance": "Declared per-object component counts cross-checked against actual reopened mesh by validator; no builder coordinate arrays used."
+}

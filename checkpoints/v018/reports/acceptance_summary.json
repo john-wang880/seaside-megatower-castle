@@ -1,0 +1,31 @@
+{
+  "model_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "baseline_v017_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "local_acceptance_pass": true,
+  "checks": {
+    "geometry": true,
+    "preservation": true,
+    "repeat_validation": true,
+    "route_envelope": true,
+    "architecture": true,
+    "previous_approaches": true,
+    "bridge_span": true,
+    "door_architecture": true,
+    "hinge_contacts": true,
+    "route_support": true,
+    "negative_detached_tile": true,
+    "negative_reversed_face": true,
+    "negative_source_signature": true,
+    "navigation_27": true,
+    "visual_front_hero_rear": true
+  },
+  "owner_and_parent_visual_review": "Modest close-view slate-course gain; lower simple octagonal cap and original palette retained. Hero not materially redesigned. Rear bright facet matched to fresh v017 baseline; inherited appearance, cause not diagnosed.",
+  "source_data_changes": 0,
+  "new_mesh_objects": 8,
+  "new_materials_or_lights": 0,
+  "foreground_experiment": "Rejected; no foliage prototype changes included in accepted model. Report-only evidence archived.",
+  "scope": "Actual western cap geometric contacts and static bounded legacy checks; not waterproofing, load, historical or wholecastle accessibility certification.",
+  "python_tests": 32,
+  "navigation_blender_assertions": 27,
+  "remote_backup_status": "Pending fresh remote exact restore before old current snapshot withdrawal."
+}

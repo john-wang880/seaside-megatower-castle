@@ -1,0 +1,63 @@
+{
+  "status": "Read-only audit complete; one construction-detail prototype plausible, not accepted",
+  "source_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "image": "west_cap_actual.png",
+  "viewed": true,
+  "geometric_defect_established": false,
+  "finding": "The low octagonal cap is coherent and clearly differentiated from main crown. Actual close view reveals broad continuous mottled slate faces with bronze hip seams, but no course construction. A restrained shallow slate-course prototype could complete original roof-detail brief at crown-detail scale; hero improvement is not established.",
+  "exact_object": "V002 | western lantern low slate cap",
+  "exact_materials": [
+    "V002 | quiet blue-grey roof slate",
+    "Citadel \u2022 old bronze patina"
+  ],
+  "source_components": {
+    "closed_roof_shell_vertices": [
+      0,
+      16
+    ],
+    "roof_faces": 10,
+    "total_vertices": 160,
+    "total_faces": 100,
+    "components": 10,
+    "hip_beams": 8,
+    "finial": 1,
+    "modifiers": []
+  },
+  "analytical_shell": {
+    "center_xy": [
+      -133,
+      100
+    ],
+    "bottom_radius": 10.8,
+    "top_radius": 0.16,
+    "z": [
+      177.75,
+      186.5
+    ],
+    "finial_top": 188,
+    "sides": 8,
+    "ring_angle": 0.39269908169872414,
+    "face_apothem_run": 9.830078225920092,
+    "face_slope_length": 13.16027879369234,
+    "face_pitch_degrees": 41.673084050333244,
+    "total_sloping_area": 441.57582743826
+  },
+  "possible_scope": "One scratch face/eave/hip prototype, then coherent all8facets only if identical-camera visual comparison passes. Existing slate material unchanged, shallow physically face-local courses, original seams/finial/low silhouette/arcade/cornices retained. No pinnacles/new windows/drainage pipes or changes to accepted main crown.",
+  "dependency_risks": [
+    "Merged source object contains shell,8bronze seams and finial; preserve all raw source geometry.",
+    "Shared slate material also used on main original roof/pinnacle caps; do not edit shared shader globally.",
+    "Bronze hip radius0.09 is smaller than main0.12; independently validate inset and relief against actual octagonal beam hull.",
+    "Eight facets have identical slope, but local axes rotate; use face-local physical course dimensions, not a global XY grid.",
+    "Narrow apex approaches0.16radius; avoid tiny clipped slivers or burying finial/cap.",
+    "Eight-sided form must remain legible; subdivision/smoothing should not turn roof into a cone."
+  ],
+  "acceptance": [
+    "Same current west-cap camera, quality, original light/world/view; no relight.",
+    "Source-preserving addition, exact original geometry/materials/lighting, full closed-solid/contact/beam/eave checks and repeatability.",
+    "Actual close view must gain readable roof construction without bright rings, aliasing or false scale; unchanged hero must retain secondary crown hierarchy.",
+    "Reject negligible gain or excessive detail/cost; no automatic material weathering or repeated cap proliferation."
+  ],
+  "source_saved": false,
+  "new_render_count": 1,
+  "candidate_created": false
+}

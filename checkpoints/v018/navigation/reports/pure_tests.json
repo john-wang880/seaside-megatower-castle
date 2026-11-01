@@ -1,0 +1,20 @@
+{
+  "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "manifest_sha256": "e86ab12902ff93e22fbd1d1b2d2373e761fdc73245548a6d52c07574b85c75f6",
+  "suites": [
+    {
+      "suite": "test_stdlib.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "suite": "test_render_options.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.003s\n\nOK\n"
+    }
+  ],
+  "all_pass": true,
+  "count": 9
+}

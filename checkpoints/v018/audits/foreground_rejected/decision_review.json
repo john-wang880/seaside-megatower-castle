@@ -1,0 +1,41 @@
+{
+  "status": "REJECTED by owner \u2014 retain canonical v017",
+  "before": "before_west_actual.png",
+  "after": "after_west_actual.png",
+  "viewed_both": true,
+  "finding": "The three broad solid boughs become very thin ladder/fern-like sprays. Internal gaps exist, but mass is lost excessively and the sparse substitute is inconsistent with untouched conifer clusters. There is no convincing net visual gain at the actual navigation view.",
+  "recommendation": "Do not expand or tune this recipe. Retain canonical v017; no v018 accepted.",
+  "same_actual_settings": {
+    "cycles": true,
+    "view": true,
+    "world_hash": true,
+    "light_hashes": true
+  },
+  "same_camera_matrix": true,
+  "faces_replaced": 82,
+  "new_faces": 348,
+  "new_vertices": 360,
+  "file_bytes_source": 35671703,
+  "file_bytes_candidate": 35729020,
+  "file_byte_delta": 57317,
+  "before_render_seconds": 76.4779593600033,
+  "after_render_seconds": 76.62087522599904,
+  "before_process_peak_rss_kib": 2442436,
+  "after_process_peak_rss_kib": 2558044,
+  "resource_limit": "One sequential before/after pair; cumulative same-process peak RSS includes build/audit dictionaries and retained allocations. Not a controlled independent memory or speed benchmark.",
+  "material_mapping": "Original material graphs unchanged. All foliage shaders consume Geometry Position world coordinates; replacement object transforms identity with world-space vertices, so no accidental local/generated texture remapping.",
+  "preservation": "Explicit owned VG weights/Mask delta only on original visible foliage; original coordinates/topology/materials exact with weights excluded; all other original meshes/material graphs exact. Independent full-attribute/evaluated QA pending.",
+  "source_sha256_after": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "candidate_sha256": "e50d9536988b6cdabbde404eab2a808f56a503093aa73b0aadcd3dd5d4b7b529",
+  "published": false,
+  "independent_preservation": {
+    "pass": true,
+    "report": "../forest_v018_qa/final_positive.json",
+    "negative_controls": [
+      "wrong_mask_vertex",
+      "unselected_geometry",
+      "hidden_original"
+    ],
+    "owner_rejection_unchanged": true
+  }
+}

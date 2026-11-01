@@ -1,0 +1,76 @@
+{
+  "images": [
+    {
+      "view": "west_approach",
+      "image_source_version": "v016",
+      "image_sha256": "d1d03215aa5b955bb3208d55e65ded9cc70dab244c720e43341a7cac07a33263",
+      "receipt_preserved_byte_exact": true,
+      "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+      "new_v018_render": false
+    },
+    {
+      "view": "east_portal",
+      "image_source_version": "v016",
+      "image_sha256": "7417ea892f9d48b6de22640954fb206f4113a8f8c0d140b4e291dd8cd7c1c5e6",
+      "receipt_preserved_byte_exact": true,
+      "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+      "new_v018_render": false
+    },
+    {
+      "view": "bend",
+      "image_source_version": "v016",
+      "image_sha256": "8de391e57bd834ec03503436450e18992f9552440beb5c625577a976d7c9f70a",
+      "receipt_preserved_byte_exact": true,
+      "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+      "new_v018_render": false
+    },
+    {
+      "view": "upper_stairs",
+      "image_source_version": "v016",
+      "image_sha256": "f79159ac492bde999e84c242dcaa672afeeeb8cb34813dd25c8d9398933fef7e",
+      "receipt_preserved_byte_exact": true,
+      "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+      "new_v018_render": false
+    },
+    {
+      "view": "terminal",
+      "image_source_version": "v016",
+      "image_sha256": "168e459b25bb9dfa249107b844c42ed360e953616d678dba936a9819485d8afc",
+      "receipt_preserved_byte_exact": true,
+      "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+      "new_v018_render": false
+    },
+    {
+      "view": "offshore_marker",
+      "image_source_version": "v016",
+      "image_sha256": "db5992a8863a5e465e4c4acd8096e5f86e85e4b7c9259d5395c748c01b3de276",
+      "receipt_preserved_byte_exact": true,
+      "source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+      "new_v018_render": false
+    },
+    {
+      "view": "crown",
+      "image_source_version": "v017",
+      "image_sha256": "b37cfdc312815d25ba14c8e1594a76dbddf433831b0dffe93674099d926a955f",
+      "receipt_preserved_byte_exact": true,
+      "source_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+      "new_v018_render": false
+    },
+    {
+      "view": "hero",
+      "image_source_version": "v018",
+      "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+      "image_sha256": "4c463784fa3bb65fdceb1bddaa3cc89a546d49dd83a680d4ede219eb8fa560b6",
+      "new_v018_render": true
+    },
+    {
+      "view": "west_crown",
+      "image_source_version": "v018",
+      "source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+      "image_sha256": "c987205598c17fef60f51d5438d1f3d96f307e18449d7a7365d6cc5887e61936",
+      "new_v018_render": true
+    }
+  ],
+  "count": 9,
+  "note": "V016 six route/marker; V017 maincrown; V018 hero/westcrown. No relabeling of historical outputs."
+}

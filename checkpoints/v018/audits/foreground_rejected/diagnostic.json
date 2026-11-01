@@ -1,0 +1,411 @@
+{
+  "localized_evaluated_differences": {
+    "Traveler | full length ivory skirt": [
+      {
+        "path": "/attributes/5/fields/value/hash",
+        "before": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12",
+        "after": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+      },
+      {
+        "path": "/topology/edges/select/hash",
+        "before": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12",
+        "after": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+      }
+    ],
+    "Traveler | purple-red shoulder cape": [
+      {
+        "path": "/attributes/5/fields/value/hash",
+        "before": "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9",
+        "after": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+      },
+      {
+        "path": "/topology/edges/select/hash",
+        "before": "73a65b4379f17858bea257470d223ee58b7fb11da7047153735f25ac127ba7e9",
+        "after": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+      }
+    ],
+    "Traveler | white tunic": [
+      {
+        "path": "/attributes/5/fields/value/hash",
+        "before": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12",
+        "after": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+      },
+      {
+        "path": "/topology/edges/select/hash",
+        "before": "6a9e3a97f60bf6ecd5428807884192780d9e34636c653d23234cfc935de76a12",
+        "after": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+      }
+    ]
+  },
+  "complement_attribute_details": {
+    "expected": [
+      {
+        "name": ".select_vert",
+        "type": "BOOLEAN",
+        "domain": "POINT",
+        "fields": {
+          "value": {
+            "count": 204107,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "87699d97dacd285d920a1524cd12ade2cb344f9ef1497e5a7106a19d9f9f4c2a"
+          }
+        }
+      },
+      {
+        "name": ".select_edge",
+        "type": "BOOLEAN",
+        "domain": "EDGE",
+        "fields": {
+          "value": {
+            "count": 461352,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "07130be851eb6798722f2eb641a2e281b20c5cbd9502b3ce7062bd717d42d18c"
+          }
+        }
+      },
+      {
+        "name": ".select_poly",
+        "type": "BOOLEAN",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307568,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "d297e9d29dd39c96bc221b0967225af8e859fe9391ff4c258b835e2d5db463a3"
+          }
+        }
+      },
+      {
+        "name": "sharp_face",
+        "type": "BOOLEAN",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307568,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "13ef7b9c50d34f46a82a1a6de05bbfb89ed6081783727caaaf618414726a3240"
+          }
+        }
+      },
+      {
+        "name": "position",
+        "type": "FLOAT_VECTOR",
+        "domain": "POINT",
+        "fields": {
+          "vector": {
+            "count": 204107,
+            "width": 3,
+            "type": "FLOAT",
+            "sha256": "f37c3c9409f8bdfa66e015973883f7265ffed4f8a3d0fb87760a6528982e597b"
+          }
+        }
+      },
+      {
+        "name": ".edge_verts",
+        "type": "INT32_2D",
+        "domain": "EDGE",
+        "fields": {
+          "value": {
+            "count": 461352,
+            "width": 2,
+            "type": "INT",
+            "sha256": "6219edd4c6bbc9c11aaacc69f92f71baa445a4fd9723808b6b1c12ba0ffd2f65"
+          }
+        }
+      },
+      {
+        "name": ".corner_vert",
+        "type": "INT",
+        "domain": "CORNER",
+        "fields": {
+          "value": {
+            "count": 922704,
+            "width": 1,
+            "type": "INT",
+            "sha256": "b76ed751ca42a350c3b479ad7eb484b84afd28f1537ca4b9be0348aaeee6420b"
+          }
+        }
+      },
+      {
+        "name": ".corner_edge",
+        "type": "INT",
+        "domain": "CORNER",
+        "fields": {
+          "value": {
+            "count": 922704,
+            "width": 1,
+            "type": "INT",
+            "sha256": "92654235110a1e327e3aa46141c64985f132e0ba08ce8dc6ab05d49061dc6d91"
+          }
+        }
+      },
+      {
+        "name": "material_index",
+        "type": "INT",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307568,
+            "width": 1,
+            "type": "INT",
+            "sha256": "28a65949eee6283a4b82e29ca6a0f7a67b672f66b175fbe9081b0b2de2117b88"
+          }
+        }
+      }
+    ],
+    "actual": [
+      {
+        "name": "position",
+        "type": "FLOAT_VECTOR",
+        "domain": "POINT",
+        "fields": {
+          "vector": {
+            "count": 204107,
+            "width": 3,
+            "type": "FLOAT",
+            "sha256": "f37c3c9409f8bdfa66e015973883f7265ffed4f8a3d0fb87760a6528982e597b"
+          }
+        }
+      },
+      {
+        "name": ".edge_verts",
+        "type": "INT32_2D",
+        "domain": "EDGE",
+        "fields": {
+          "value": {
+            "count": 461352,
+            "width": 2,
+            "type": "INT",
+            "sha256": "6219edd4c6bbc9c11aaacc69f92f71baa445a4fd9723808b6b1c12ba0ffd2f65"
+          }
+        }
+      },
+      {
+        "name": ".corner_vert",
+        "type": "INT",
+        "domain": "CORNER",
+        "fields": {
+          "value": {
+            "count": 922704,
+            "width": 1,
+            "type": "INT",
+            "sha256": "b76ed751ca42a350c3b479ad7eb484b84afd28f1537ca4b9be0348aaeee6420b"
+          }
+        }
+      },
+      {
+        "name": ".corner_edge",
+        "type": "INT",
+        "domain": "CORNER",
+        "fields": {
+          "value": {
+            "count": 922704,
+            "width": 1,
+            "type": "INT",
+            "sha256": "92654235110a1e327e3aa46141c64985f132e0ba08ce8dc6ab05d49061dc6d91"
+          }
+        }
+      },
+      {
+        "name": ".select_vert",
+        "type": "BOOLEAN",
+        "domain": "POINT",
+        "fields": {
+          "value": {
+            "count": 204107,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "87699d97dacd285d920a1524cd12ade2cb344f9ef1497e5a7106a19d9f9f4c2a"
+          }
+        }
+      },
+      {
+        "name": ".select_edge",
+        "type": "BOOLEAN",
+        "domain": "EDGE",
+        "fields": {
+          "value": {
+            "count": 461352,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "07130be851eb6798722f2eb641a2e281b20c5cbd9502b3ce7062bd717d42d18c"
+          }
+        }
+      },
+      {
+        "name": ".select_poly",
+        "type": "BOOLEAN",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307568,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "d297e9d29dd39c96bc221b0967225af8e859fe9391ff4c258b835e2d5db463a3"
+          }
+        }
+      },
+      {
+        "name": "sharp_face",
+        "type": "BOOLEAN",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307568,
+            "width": 1,
+            "type": "BOOLEAN",
+            "sha256": "13ef7b9c50d34f46a82a1a6de05bbfb89ed6081783727caaaf618414726a3240"
+          }
+        }
+      },
+      {
+        "name": "material_index",
+        "type": "INT",
+        "domain": "FACE",
+        "fields": {
+          "value": {
+            "count": 307568,
+            "width": 1,
+            "type": "INT",
+            "sha256": "28a65949eee6283a4b82e29ca6a0f7a67b672f66b175fbe9081b0b2de2117b88"
+          }
+        }
+      }
+    ]
+  },
+  "source_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "candidate_sha256": "e50d9536988b6cdabbde404eab2a808f56a503093aa73b0aadcd3dd5d4b7b529",
+  "target": "V010 | woodland boughs with gate exit clearance",
+  "exact_owned_group": [
+    [
+      "V018 prototype | three audited clumps",
+      0,
+      false
+    ]
+  ],
+  "selected_vertex_ranges": [
+    [
+      90429,
+      90446
+    ],
+    [
+      90493,
+      90508
+    ],
+    [
+      90573,
+      90588
+    ]
+  ],
+  "selected_vertex_count": 47,
+  "removed_complete_original_faces": 82,
+  "precise_weights_verified": true,
+  "modifier_settings_verified": {
+    "name": "V018 prototype | hide audited clumps",
+    "type": "MASK",
+    "mode": "VERTEX_GROUP",
+    "vertex_group": "V018 prototype | three audited clumps",
+    "invert_vertex_group": true,
+    "threshold": 0.5,
+    "show_render": true,
+    "show_viewport": true,
+    "show_in_editmode": false,
+    "show_on_cage": false,
+    "use_smooth": false
+  },
+  "full_modifier_snapshot": {
+    "name": "V018 prototype | hide audited clumps",
+    "type": "MASK",
+    "show_viewport": true,
+    "show_render": true,
+    "show_in_editmode": false,
+    "show_on_cage": false,
+    "show_expanded": true,
+    "is_active": true,
+    "use_pin_to_last": false,
+    "is_override_data": false,
+    "use_apply_on_spline": false,
+    "execution_time": 0.0,
+    "persistent_uid": 951641420,
+    "mode": "VERTEX_GROUP",
+    "armature": null,
+    "vertex_group": "V018 prototype | three audited clumps",
+    "invert_vertex_group": true,
+    "use_smooth": false,
+    "threshold": 0.5,
+    "custom_properties": null
+  },
+  "raw_target_except_owned_deform_weights_exact": true,
+  "evaluated_non_target_complement_exact": false,
+  "complement_field_differences": [
+    "attributes"
+  ],
+  "expected_complement_digest": "174f544a7b3c4df22fa8ce545343be7518b43d1754ffe76ec87131382f83e846",
+  "actual_complement_digest": "61c7a018e488a2e1bde862798dc4e7298ee5e6bc01fe80a0aa340cd39f37776c",
+  "unselected_isolated_vertex_count": 2675,
+  "evaluator_removed_only_these_unselected_isolated_vertices": false,
+  "isolated_vertex_policy": "Raw source always exact. Evaluated complement may preserve all unselected vertices or omit exactly source degree-zero/unfaced vertices; retained coordinate/topology/attribute maps must still match exactly. No non-target faced/edged vertex omission allowed.",
+  "kept_element_counts": {
+    "POINT": 204107,
+    "EDGE": 461352,
+    "FACE": 307568,
+    "CORNER": 922704
+  },
+  "source_differences": {
+    "objects": [],
+    "meshes": [],
+    "materials": [],
+    "lights": [],
+    "cameras": [],
+    "worlds": [],
+    "visible_evaluated": [
+      "Traveler | full length ivory skirt",
+      "Traveler | purple-red shoulder cape",
+      "Traveler | white tunic"
+    ],
+    "scene": [],
+    "libraries": [],
+    "texts": []
+  },
+  "additions": {
+    "objects": [
+      "V018 prototype | spray clump 90429",
+      "V018 prototype | spray clump 90493",
+      "V018 prototype | spray clump 90573"
+    ],
+    "meshes": [
+      "V018 prototype | spray clump 90429",
+      "V018 prototype | spray clump 90493",
+      "V018 prototype | spray clump 90573"
+    ],
+    "materials": [],
+    "lights": [],
+    "cameras": [],
+    "worlds": [],
+    "visible_evaluated": [
+      "V018 prototype | spray clump 90429",
+      "V018 prototype | spray clump 90493",
+      "V018 prototype | spray clump 90573"
+    ]
+  },
+  "removals": {
+    "objects": [],
+    "meshes": [],
+    "materials": [],
+    "lights": [],
+    "cameras": [],
+    "worlds": [],
+    "visible_evaluated": []
+  },
+  "additions_exact": true,
+  "collection_change_exact": true,
+  "source_file_unchanged": true,
+  "candidate_file_unchanged": true,
+  "scope": "All persisted source meshes/attributes/weights and evaluated non-target objects exact; only validated target deform weights/group/Mask allowed. Actual evaluated complement mapped to independently retained original vertex/edge/face/corner IDs and all attributes/materials/normals/topology checked, not counts alone. Original hidden forests and all trunks included in ordinary exact comparisons. Replacement visual/contact QA separate.",
+  "seconds": 33.63105511665344,
+  "pass": false
+}

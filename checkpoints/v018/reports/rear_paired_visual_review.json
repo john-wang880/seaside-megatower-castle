@@ -1,0 +1,36 @@
+{
+  "before_image": "rear_before_v017.png",
+  "before_sha256": "4697eb470eeb3fb12a44a67db7313a8035f7ea5921659b835c48a2873c6df8fa",
+  "before_model_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "after_image": "../v018/visual/west_crown_rear_actual.png",
+  "after_sha256": "c0e0f7393be86011df3050c7bc2e7a0950f565e1a8d46f2d1828f7142c86937c",
+  "after_model_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "settings_equal_except_output_filepath": true,
+  "actual_same_camera_lights_world_exposure": true,
+  "bright_facet_roi_xy": [
+    405,
+    330,
+    420,
+    340
+  ],
+  "roi_mean_rgb_before": [
+    209.26666666666668,
+    203.7,
+    196.12
+  ],
+  "roi_mean_rgb_after": [
+    210.60666666666665,
+    205.22666666666666,
+    197.53333333333333
+  ],
+  "roi_mae_8bit": 1.4266666666666667,
+  "whole_frame_mae_8bit": 0.07864548611111111,
+  "visual_verdict": "Bright white oblique left roof facet is already present inV017; V018 paired actualview retains it. Not attributable as a new brightfacet defect toadded slatecourses. This paired appearance evidence does not diagnose original material/specular cause.",
+  "source_saved": false,
+  "working_path_provenance": {
+    "before_image": "rear_before_v017.png",
+    "after_image": "../v018/visual/west_crown_rear_actual.png"
+  },
+  "archived_before_image": "checkpoints/v018/previews/west_cap_opposite_before_v017.png",
+  "archived_after_image": "checkpoints/v018/previews/west_cap_opposite_actual.png"
+}

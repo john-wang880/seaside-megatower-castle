@@ -1,0 +1,19 @@
+{
+  "control": "reversed_face",
+  "rejected_at_expected_invariant": true,
+  "expected_marker": "tile closed orientation invalid",
+  "mutation_in_memory_only": {
+    "object": "V018 | western slate facet 01",
+    "face": 0,
+    "operation": "reverse winding"
+  },
+  "failure": {
+    "message": "tile closed orientation invalid",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_cap_v018_qa/test_negative_controls.py\", line 26, in <module>\n    try:exec(compile(code,str(validator),'exec'),{'__name__':'__main__','__file__':str(validator),'_qa_mutate':mutate})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/west_cap_v018_qa/validate_geometry.py\", line 82, in <module>\n    assert all(c==2 for c in edgecounts.values()) and all(c==directions[b,a] for (a,b),c in directions.items()),'tile closed orientation invalid'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: tile closed orientation invalid\n"
+  },
+  "baseline_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+  "candidate_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "baseline_unchanged": true,
+  "candidate_unchanged": true,
+  "source_saved": false
+}
