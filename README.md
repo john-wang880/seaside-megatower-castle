@@ -14,7 +14,7 @@
 
 ## 可选：当前模型检查副本
 
-[检查工具与 Windows / Linux 操作说明](scripts/current_inspection/README.md)：验证当前恢复模型后，另存带 12 个手动相机书签的检查副本，方便查看入口、内廊、塔冠、桥墩、石肋及路径。原工程不改，不自动执行脚本、渲染或降低质量。原生 Windows 尚未实测；未知后续版本拒绝运行，须先审核相机目录。
+[检查工具与 Windows / Linux 操作说明](scripts/current_inspection/README.md)：验证当前恢复模型后，另存带 12 个手动相机书签的检查副本，方便查看入口、内廊、塔冠、桥墩、石肋及路径。原工程不改，不自动执行脚本、渲染或降低质量。原生 Windows 尚未实测；未知后续版本拒绝运行，须先审核相机目录。 [远端独立恢复/导出/重开验证](scripts/current_inspection/reports/REMOTE_VERIFIED.json)已通过。
 
 ## 历史呈现与工具（不是v023影片）
 - [v020方形2400像素展陈图及相机配方](https://github.com/john-wang880/seaside-megatower-castle/tree/23fd4aaaceb64996913bfa3ff4109fc149737b9d/checkpoints/v020/presentation/exhibition)：原照明，未包含后续桥墩表面清理、石肋分段和路径修正，原版本如实保留。
