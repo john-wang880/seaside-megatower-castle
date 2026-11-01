@@ -1,0 +1,40 @@
+{
+  "verified_main": "1107364a1c4936840f3c6d0543bee93037a68021",
+  "tree": "f77d5dc4db4f892b289f4ca721005a5dbcba4b1f",
+  "root_checksums": 773,
+  "frozen_presentation_payloads": 27,
+  "all_payload_hashes_match": true,
+  "png_decodes": {
+    "composition_review.png": [
+      1530,
+      1000
+    ],
+    "polished_A/image.png": [
+      2400,
+      2400
+    ],
+    "previews/A_monument/image.png": [
+      600,
+      600
+    ],
+    "previews/B_approach/image.png": [
+      640,
+      426
+    ],
+    "previews/C_sunlit/image.png": [
+      600,
+      600
+    ],
+    "previews/D_water/image.png": [
+      640,
+      426
+    ]
+  },
+  "final_image_sha256": "53b995d8b40c2ba359164a96f1420bb57c310c42b76ff4db4eaea4e75b67fe23",
+  "canonical_model_unchanged_and_exactly_restored": true,
+  "model_sha256": "673dbbadca22d3dd45dc2f2eb5bde4a9e66851c1ca137da5c2570efc67c77614",
+  "exact127chunk_set": true,
+  "core_tests": 13,
+  "remote_rerender": false,
+  "scope": "Fresh Git archive and exact artifact/model recovery; executed renderer and pose/quality receipts preserved. No redundant high-resolution rerender."
+}
