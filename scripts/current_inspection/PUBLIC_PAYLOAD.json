@@ -1,24 +1,39 @@
 {
-  "target": "scripts/current_inspection",
-  "files_sha256": {
+  "files": {
+    "DESIGN.md": "5de282d90db2cbd54968f4887b5204eb27de0fbb1f22517dde2100e6ad06a6b2",
+    "README.md": "693d1c25ceedd3ede8b420bfc68c247f2ad1331c4a14100b21e8cf15d5b0cb3b",
+    "REFRESH.diff": "83e9e01a8a9f1c77e6c4c8c214ab0db5011c956a8bc1f51281ebdab74a895acc",
+    "REFRESH_PROVENANCE.json": "600b7547ee983cc3f094e7937ce8e768686a64c053acae0edb46f4c843124dbc",
+    "VALIDATION.json": "eec83ed5915d9813bf3b1452a8647c5407f26a1603f6c921e39626e64c98db8c",
+    "catalog.json": "a75a7e8eb1549e25bcf40d81e8740ccb75e7c01ec7c1852c16692a6432da41a0",
     "export_inspection.py": "138f005164c84e164e47097e84faa33819f178d68b488445b9580c3204efe22b",
-    "preflight.py": "00925910a03c9f7c62d972a2897cc283df5f12c2e00192568a109731b81b8894",
-    "ui_template.py": "28d751955b393612162b5b54d0b23373a119e788c63a4c2d0b203d9b580a8084",
-    "catalog.json": "50db598769115c47314e633671d631ccde7f06b44a56731ce8292075836bff9f",
-    "test_preflight.py": "13629b0c6a9c665fc2bdd91dcd8f472f608594451a0fbf6c3ed22b854003f281",
-    "README.md": "2dc737e59d1c058f908caa6cf3e6f77a6ec6535ed782d016bc31e442a4f2e70c",
-    "DESIGN.md": "9a6efcc1f3998872d26a212bbe388b7be5327b3239772ad881e9e77934895b91",
-    "VALIDATION.json": "df9537ed8165ea2e740fd3d81c830172d06bf8bed4c129649008c60cff41f272",
-    "reports/PROVENANCE.md": "6d99c268d467defa88207881bb72d345d766a137b07372ae40e0eeadc3593169",
-    "reports/implementation_tests.log": "cac4fe11fdbbe9f0a1faccd5f8680497dc454ad28b2e165585b6729c5a3d6337",
-    "reports/linux_export_validated.json": "e483ef5facb93ef4ec153b57f3e1ab7265f9a47bd360d8ccc92c37153ca1699e",
-    "reports/preliminary_pre_publication_fix_export.json": "0aa2fa71684542f81f1026b242da8e4ea80847c19ff524fb45877ede1e4b17c6",
-    "reports/superseded_repeat_ui_failure_export.json": "10476d1e7cb63133f0032d26a863a738148bb69874dd96d726f7e7d83da98bc1",
+    "preflight.py": "9297401ed9c15df444cefa451139ce25110adbcede45e53b037b492312a698f8",
     "provenance/bridge_close_views.json": "6d8dbb2b78baf23c041e51604bdbb788298ef68805bb411e5cbb8c678c0bc115",
     "provenance/mapping.json": "217aeacf00ce9dd5391c0cee6ceb8d970d97a6d4be57f237eca78e53365e46f5",
     "provenance/path_context_views.json": "ed6365ccf22cc70258b28ab8899a426403934baa7212102845cff50460edd81e",
-    "provenance/west_lower_tier_views.json": "254eb8a9958204f1dde6ff5e7efefaae26212a076bd674de6c156c7338f24a59"
+    "provenance/v024_executed_qa_FILES.json": "c3d71cac1030fc260d4b066a4a5cafcd50fb3be98fa62e65c741f2aaa45f08bc",
+    "provenance/v024_qa_readme_before_actual.md": "c792583c4c22aa455eb1019c259d54792c7426d1d397bacc5ec65dd9975a030e",
+    "provenance/west_lower_tier_views.json": "254eb8a9958204f1dde6ff5e7efefaae26212a076bd674de6c156c7338f24a59",
+    "qa/FILES.json": "5cb81656d47327ec68af6434f7caba8fbaf64333c26d0078db1179e7f9e64c4c",
+    "qa/README.md": "6e5606b2a4ecd7aee79cb9d680462767c2490b83aeb64a26cf5f0edf72c3ab59",
+    "qa/reports/SUMMARY_v024.json": "3cc2140d11c3eb07ecc6f2da1975de108c49badc224f5635553ad8063aad0695",
+    "qa/reports/pure_tests_v024.log": "0aef7274390affd415eb75c601cdddd7458195caabcf4eb562ce4a7aea4e147e",
+    "qa/reports/validation_v024.json": "5d3abec991a7352834e229869525174f4dcfbdc9aec4c8868f7b80ac3eca22e5",
+    "qa/run_qa.py": "f53ccad046ddcc07ca00f7f15e3b8c46aedf6302066c9c1b4b9a4e19abfbf12e",
+    "qa/snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "qa/test_preflight_independent.py": "1dfe4925f84de18b01a05029a81b44a5d6834196075301b1c250d0f5bebf0d78",
+    "qa/validate_copy.py": "4f9ea44d96189f13f1d54df3506c5b6fe89edfc27419d983e7092e1f66084c38",
+    "reports/export_v024.json": "139fce75f35886a9ad283956b6f0e45445b5351f0902f024dc138d6ed91e37b8",
+    "reports/implementation_tests18.log": "427b6a1fe980db891687b9dbbce70db505a0ea711298ca0aadc77902b37afe64",
+    "test_preflight.py": "9ae7b565aeadbe5f0cd5a68986ecd6cbfa90622ddda5d443394c384ac3e44408",
+    "ui_template.py": "0bb7ae392578838727d0b233c0a84349cc5a8304ae193ee29d02b5b8e81d451e"
   },
-  "runtime_frozen": true,
-  "excluded": "All .blend copies, caches, scratch logs and build helpers. Independent QA packaged separately by owner."
+  "source_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "runtime_sha256": {
+    "export_inspection.py": "138f005164c84e164e47097e84faa33819f178d68b488445b9580c3204efe22b",
+    "preflight.py": "9297401ed9c15df444cefa451139ce25110adbcede45e53b037b492312a698f8",
+    "catalog.json": "a75a7e8eb1549e25bcf40d81e8740ccb75e7c01ec7c1852c16692a6432da41a0",
+    "ui_template.py": "0bb7ae392578838727d0b233c0a84349cc5a8304ae193ee29d02b5b8e81d451e"
+  },
+  "scope": "v024 inspection tool and fresh QA evidence only; no viewer binary"
 }

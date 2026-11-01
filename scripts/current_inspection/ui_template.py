@@ -6,7 +6,7 @@ CONFIG = None  # Exporter replaces this assignment with literal reviewed config.
 TAG='castle_inspection_owner'
 OWNER='castle-current-inspection-v1'
 REGISTRY='_castle_current_inspection_registry_v1'
-CLASS_NAMES=('CASTLE23_INSPECTION_OT_bookmark','CASTLE23_PT_bookmarks')
+CLASS_NAMES=('CASTLE24_INSPECTION_OT_bookmark','CASTLE24_PT_bookmarks')
 def need(ok,msg):
  if not ok:raise RuntimeError(msg)
 def verify():
@@ -52,15 +52,15 @@ def select_bookmark(key,context=None):
     space=area.spaces.active;space.camera=o;space.use_local_camera=False;space.region_3d.view_perspective='CAMERA'
  return {'camera':o.name,'reference_resolution':v['reference_resolution'],'guidance':'Render aspect/quality unchanged. For exact historical framing set reference aspect manually in this copy.'}
 
-class CASTLE23_INSPECTION_OT_bookmark(bpy.types.Operator):
- bl_idname='castle23_inspection.bookmark';bl_label='检查视角 / Inspection bookmark'
+class CASTLE24_INSPECTION_OT_bookmark(bpy.types.Operator):
+ bl_idname='castle24_inspection.bookmark';bl_label='检查视角 / Inspection bookmark'
  view_id:bpy.props.StringProperty()
  def execute(self,context):
   try:
    result=select_bookmark(self.view_id,context);self.report({'INFO'},'Reference %s; current render settings unchanged'%result['reference_resolution']);return {'FINISHED'}
   except Exception as exc:self.report({'ERROR'},str(exc));return {'CANCELLED'}
-class CASTLE23_PT_bookmarks(bpy.types.Panel):
- bl_label='城堡检查 / Castle inspection';bl_idname='CASTLE23_PT_bookmarks';bl_space_type='VIEW_3D';bl_region_type='UI';bl_category='Castle检查'
+class CASTLE24_PT_bookmarks(bpy.types.Panel):
+ bl_label='城堡检查 / Castle inspection';bl_idname='CASTLE24_PT_bookmarks';bl_space_type='VIEW_3D';bl_region_type='UI';bl_category='Castle检查'
  def draw(self,context):
   layout=self.layout
   try:verify()
@@ -68,13 +68,13 @@ class CASTLE23_PT_bookmarks(bpy.types.Panel):
   layout.label(text='派生副本 / Derived inspection copy')
   layout.label(text='Quality and aspect stay unchanged')
   for key,v in CONFIG['views'].items():
-   row=layout.row();row.operator(CASTLE23_INSPECTION_OT_bookmark.bl_idname,text=v['label']).view_id=key
+   row=layout.row();row.operator(CASTLE24_INSPECTION_OT_bookmark.bl_idname,text=v['label']).view_id=key
   layout.label(text='Z: Solid / Material Preview / Rendered')
   layout.label(text='Manual quality edits: this copy only')
   layout.label(text='Provenance is not edit certification')
 
 def register():
- verify();classes=(CASTLE23_INSPECTION_OT_bookmark,CASTLE23_PT_bookmarks);old=sys.modules.get(REGISTRY)
+ verify();classes=(CASTLE24_INSPECTION_OT_bookmark,CASTLE24_PT_bookmarks);old=sys.modules.get(REGISTRY)
  if old is not None:
   need(getattr(old,'owner',None)==OWNER and getattr(old,'catalog_sha256',None)==CONFIG['catalog_sha256'],'Registry collision')
   need(all(getattr(bpy.types,c.__name__,None) is c for c in old.classes),'Registered class ownership changed')

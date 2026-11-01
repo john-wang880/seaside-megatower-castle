@@ -1,0 +1,22 @@
+{
+  "git_commit": "4a7cd90ceb9d545de67951cae536e2c4604a547a",
+  "manifest_sha256": "5b344ed9726578eccd5f895f3ee503c98bac03a1164045b4f6b724b0bf16df09",
+  "source_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "source_bytes": 47628324,
+  "source_path": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024_rear_surface/fresh Git-only rebuild \u4e2d\u6587/source/castle_v023.blend",
+  "recipe_files_sha256": {
+    "README.md": "ec7704ae59559155251160df6cc80880c86f8743d462032214a72bd958022dca",
+    "RUNTIME.json": "a5bdbfdf8a3722bdbc30c615d4564d807e979c87624612767d4287986a47e03f",
+    "SCOPE.json": "8d4e87215c252932bb167995bd67df34751e1d4a074c80f2b5690256d6876b16",
+    "WRAPPER_PROVENANCE.json": "06143438128b67f252213d59eca59c2bd2a0ffa97cf2c826206dbfcbc19c3e86",
+    "guard_tests.log": "03f830801e6df602e97cc34589fe4353de3eed1b7f180859d5bd0e4a85b55f24",
+    "plan.json": "b858a3cf10451e0b67daa4214b6d830c2ab5dc51ffc787a5516a295855fc5e75",
+    "rebuild.py": "495eb347155f59bcb4818cf4980c93e9abdfe8b318271b40ee3f4c5a4f5ed820",
+    "scripts/build.py": "45fbe7db124f1395c8da0abed6643434c17fd7a63faba2efe703aa8315f73066",
+    "scripts/snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "test_guards.py": "b75ae8cb0ac6b49716ed1895f589567d4fdf1ceeacdc95e6bcca5d890b0b78df"
+  },
+  "recipe_origin": "Reviewed local immutable successful builder plus guard-only wrapper; not falsely claimed already published in this commit",
+  "git_mutated": false,
+  "Blender_launched": false
+}

@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "case": "extra_mask_weight",
+  "rejected": true,
+  "gate_script_sha256": "d03154f988674bcdd996ab19a0bc28708a80c1ef37c83fc45904f6fbd07396a5",
+  "failure": "",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024_rear_surface/fresh Git-only rebuild \u4e2d\u6587/qa_bundle/negative_model.py\", line 14, in <module>\n    try:exec(compile(text,str(script),'exec'),{'__name__':'__main__','__file__':str(script)})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024_rear_surface/fresh Git-only rebuild \u4e2d\u6587/qa_bundle/export_preservation.py\", line 32, in <module>\n    assert [(v.index,[(g.group,g.weight)for g in v.groups])for v in o.data.vertices if v.groups]==[(i,[(0,1.)])for i in sorted(ids)]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "scope": "Actual candidate loaded, in-memory mutation only; no model save."
+}

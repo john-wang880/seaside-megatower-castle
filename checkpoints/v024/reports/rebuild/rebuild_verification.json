@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "rebuilt_sha256": "dae21a80556a1ba6104ca268401a76e3a3522318f67b9d4b52a40f452a938260",
+  "accepted_sha256": "89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856",
+  "source_sha256": "c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51",
+  "recipe_inventory_unchanged": true,
+  "recipe_file_count": 10,
+  "historical_manifest_unchanged": true,
+  "no_python_caches": true,
+  "qa_summary_sha256": "34078ec54302ae09a055b42abe17b8fb27b1320eb3b12f181d413181b803dcf6",
+  "semantic_equivalence_passed": true,
+  "all_model_inputs_unchanged": true,
+  "source_restore_git_commit": "4a7cd90ceb9d545de67951cae536e2c4604a547a",
+  "rendered": false,
+  "actual_name_collision_injection": "Not performed; immutable builder has native precondition; pure suite does not claim injection"
+}

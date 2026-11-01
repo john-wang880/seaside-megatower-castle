@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "case": "unrelated_hidden_source",
+  "rejected": true,
+  "gate_script_sha256": "d03154f988674bcdd996ab19a0bc28708a80c1ef37c83fc45904f6fbd07396a5",
+  "failure": "['meshes']",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024_rear_surface/fresh Git-only rebuild \u4e2d\u6587/qa_bundle/negative_model.py\", line 14, in <module>\n    try:exec(compile(text,str(script),'exec'),{'__name__':'__main__','__file__':str(script)})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v024_rear_surface/fresh Git-only rebuild \u4e2d\u6587/qa_bundle/export_preservation.py\", line 49, in <module>\n    o.modifiers.remove(m);o.vertex_groups.remove(o.vertex_groups[0]);mesh=u.data;bpy.data.objects.remove(u,do_unlink=True);bpy.data.meshes.remove(mesh);bpy.data.collections.remove(bpy.data.collections[a.collection]);bpy.context.view_layer.update();normal=snap();checks={k:normal[k]==base[k]for k in base};assert all(checks.values()),[k for k,v in checks.items()if not v]\n                                                                                                                                                                                                                                                                                                                        ~~~^^^^^^^^^^^^^^^^^\nAssertionError: ['meshes']\n",
+  "scope": "Actual candidate loaded, in-memory mutation only; no model save."
+}

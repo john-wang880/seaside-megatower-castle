@@ -2,7 +2,7 @@
 
 **Opt-in, camera-only derived copy.** The canonical `.blend` is never saved. No new model version, render, installation, network request, autoexec, handler, addon, geometry, material, lighting or LOD toggle. Existing historical navigation/film/quality tools remain immutable.
 
-This catalog is reviewed for **v023 only**, SHA `c4b1dda3b8f70e4c8cb0171834b2150b6d7610f6296847362fd204b2dfa7ad51`,47,628,324bytes. The exporter resolves the highest **numeric** existing `checkpoints/vNN/MANIFEST.json` under your explicit repository root. Unknown future latest, stale source, wrong byte count/hash, corrupt manifest/catalog or a changed catalog all fail clearly—never silently fall back to v023. Catalog bytes are hash-pinned in code, not trusted merely because JSON says a source is reviewed.
+This catalog is reviewed for **v024 only**, SHA `89f9f6a8a57103d99100935b96624469ddf1fd52b9703e0d9177a352e735c856`,47,631,759bytes. The exporter resolves the highest **numeric** existing `checkpoints/vNN/MANIFEST.json` under your explicit repository root. Unknown future latest, stale source, wrong byte count/hash, corrupt manifest/catalog or a changed catalog all fail clearly—never silently fall back to v024. Catalog bytes are hash-pinned in code, not trusted merely because JSON says a source is reviewed.
 
 ## Existing Windows tools: PowerShell example
 
@@ -14,8 +14,8 @@ $blender = 'C:\Program Files\Blender Foundation\Blender 5.2\blender.exe'
 $tool = Join-Path $repo 'scripts\current_inspection'
 $work = Join-Path $repo 'work\my inspection'
 New-Item -ItemType Directory -Force -Path $work | Out-Null
-$source = Join-Path $work 'castle_v023.blend'
-python (Join-Path $repo 'checkpoints\v023\restore_checkpoint.py') --repository-root $repo --output $source
+$source = Join-Path $work 'castle_v024.blend'
+python (Join-Path $repo 'checkpoints\v024\restore_checkpoint.py') --repository-root $repo --output $source
 # Pick NEW names; existing files, symlinks and path aliases are rejected.
 $output = Join-Path $work 'castle-inspection.blend'
 $report = Join-Path $work 'castle-inspection.json'
@@ -23,7 +23,7 @@ python (Join-Path $tool 'export_inspection.py') --preflight-only --repository-ro
 & $blender --background --factory-startup --disable-autoexec --python-exit-code 1 --python (Join-Path $tool 'export_inspection.py') -- --repository-root $repo --source $source --output $output --report $report
 ```
 
-The published tool lives at `scripts/current_inspection`. The existing v023 restoration CLI was inspected and accepts both shown `--repository-root` and `--output` flags. Do not pass a positional source `.blend` to Blender: the exporter validates bindings before loading it itself with scripts disabled. Existing outputs/reports are never replaced, adopted or deleted. Use a new output/report pair after an interrupted/failed attempt. Publication is atomic per file, not a two-file database transaction: a process crash between links can leave a complete viewer without its report; do not reuse or delete that file blindly. Handled publication failures roll back only files whose inode is still owned by this attempt. The tool does not claim malicious concurrent path-replacement resistance or network-filesystem support.
+The published tool lives at `scripts/current_inspection`. The shared restoration CLI is unchanged from the inspected v023 CLI and accepts both shown `--repository-root` and `--output` flags. Do not pass a positional source `.blend` to Blender: the exporter validates bindings before loading it itself with scripts disabled. Existing outputs/reports are never replaced, adopted or deleted. Use a new output/report pair after an interrupted/failed attempt. Publication is atomic per file, not a two-file database transaction: a process crash between links can leave a complete viewer without its report; do not reuse or delete that file blindly. Handled publication failures roll back only files whose inode is still owned by this attempt. The tool does not claim malicious concurrent path-replacement resistance or network-filesystem support.
 
 ## Linux example (existing software)
 
@@ -31,14 +31,14 @@ The published tool lives at `scripts/current_inspection`. The existing v023 rest
 repo='/path/with spaces/seaside-megatower-castle'
 blender='/path/to/blender-5.2.3-linux-x64/blender'
 mkdir -p "$repo/work/my inspection"
-python "$repo/checkpoints/v023/restore_checkpoint.py" --repository-root "$repo" --output "$repo/work/my inspection/castle_v023.blend"
-"$blender" --background --factory-startup --disable-autoexec --python-exit-code 1 --python "$repo/scripts/current_inspection/export_inspection.py" -- --repository-root "$repo" --source "$repo/work/my inspection/castle_v023.blend" --output "$repo/work/my inspection/castle-inspection.blend" --report "$repo/work/my inspection/castle-inspection.json"
+python "$repo/checkpoints/v024/restore_checkpoint.py" --repository-root "$repo" --output "$repo/work/my inspection/castle_v024.blend"
+"$blender" --background --factory-startup --disable-autoexec --python-exit-code 1 --python "$repo/scripts/current_inspection/export_inspection.py" -- --repository-root "$repo" --source "$repo/work/my inspection/castle_v024.blend" --output "$repo/work/my inspection/castle-inspection.blend" --report "$repo/work/my inspection/castle-inspection.json"
 ```
 
 ## Open and use manually
 
 1. Open the **derived output**, not the canonical source. Keep automatic Python execution disabled.
-2. In Blender's Text Editor choose `INSPECT23 | Run manually for bookmarks.py`; inspect it, then explicitly **Run Script**.
+2. In Blender's Text Editor choose `INSPECT24 | Run manually for bookmarks.py`; inspect it, then explicitly **Run Script**.
 3. In a3D viewport press **N**, open **Castle检查**, and choose a bilingual bookmark.
 4. The twelve views are hero, west approach, east entrance, interior bend, upper stairs, terminal platform, offshore marker, main crown, west crown, bridge close, western lower tier, existing path context. These are independent inspection views, not a certified continuous walkthrough or general accessibility proof.
 
@@ -48,13 +48,8 @@ For navigation responsiveness use Blender's standard **Z → Solid / Material Pr
 
 The scene marker records source/export provenance only. It is **not** a certification of later user edits, present geometry integrity or continued correspondence to canonical bytes. Camera/text/ownership changes can make bookmark guards refuse; re-export from verified canonical bytes instead of silently repairing/adopting changed objects.
 
-## Verification status
+## Verification status (v024 refresh)
 
-Passed on actual Linux Blender5.2.3 (no render):
--18 implementation stdlib tests and24 independent pure negative tests.
-- Exact canonical source SHA/bytes and corrected-runtime derived copy `6f0973123b5d27a9685b67c5c43b6cc8f50c5e24e7cdcec8c6698014d274193d`.
--13 actual source categories preserved after strictly removing only owned additions: meshes, objects, materials, lights, cameras, worlds, visible_evaluated, scene, libraries, texts, collections, scene_custom, visibility.
-- All12 bookmarks repeated through manual Python and operator API; repeated register/unregister;20 API negative cases; second reopen proves no automatic registration.
-- Original camera datablocks, hidden/selection/viewlayer state, render quality and source bytes unchanged.
+The refreshed v024 runtime passed18 implementation tests,24 independent pure tests and actual Linux Blender5.2.3 export/reopen checks. All13 source categories, including original masks/deform weights and evaluated geometry, remain exact after removing only owned viewer additions. All12 bookmarks,20 API refusal cases, repeated registration/unregistration and disabled-script reopen passed. Fresh viewer SHA `fa76c374f9916dd821565f49ec2bd10d84bfbef4484019cff220a4263fb4f9ce`; source89f9 and all runtime inputs stayed unchanged. See VALIDATION.json and the fresh reports; no v023 receipt is relabeled. Background/headless API tests are not native Windows execution or desktop clicking; no performance or later-user-edit certification.
 
-This is background/headless API evidence, **not native Windows execution or desktop button clicking**. No render/performance or later-user-edit certification is claimed. Exact final runtime and report identities are in `VALIDATION.json`; independent QA payload is packaged by the owner. Earlier export receipts are clearly marked superseded/preliminary and do not validate the final runtime. Publication/remote archive checks are separate owner responsibilities.
+Historical v023 tool and validation remain recoverable at fixed Git commit `4a7cd90ceb9d545de67951cae536e2c4604a547a` under `scripts/current_inspection`. The unchanged `provenance/` files describe the historical camera recipes, not new v024 renders. Historical v018/v021/v022/v023 recipe paths and hashes remain exact. This refresh retains the same12 views, matrices, labels, intent and quality behavior; it does not add the rear discovery camera.

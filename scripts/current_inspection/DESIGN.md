@@ -2,7 +2,7 @@
 
 Purpose: restore an exact accepted checkpoint, then produce a separate inspection-only Blender copy whose12 bookmark recipes are independently traceable. This does not migrate/rewrite historical navigation, film or quality-mode tools and does not create a model version.
 
-1. Import-safe standard Python preflight resolves highest numeric existing checkpoint manifest; only reviewedv023/sourcec4/catalog-bytes50db598… is accepted. No unknownfuture fallback. Full source byte count and streamingSHA checked before Blender load.
+1. Import-safe standard Python preflight resolves highest numeric existing checkpoint manifest; only reviewed v024/source89f9/catalog-bytesa75a7e8eb154… is accepted. No unknownfuture fallback. Full source byte count and streamingSHA checked before Blender load.
 2. Blender starts factory-empty with autoexec disabled. It opens canonical bytes itself using `use_scripts=False`, rechecks source/catalog/latestmanifest/runtime bindings, and preflights every reserved name before adding anything. Existing datablocks are never adopted.
 3. Add only11 camera objects+data in one directly linked owned collection, one manual-onlyText, and one scene provenance marker. Original hero camera remains default; original geometry/material/light/world/renderquality and visibility remain unchanged. Existing rollback forest data stays hidden.
 4. Embedded UI registers only on explicit RunText. Full camera inventory and effective collection/view-layer visibility is verified before each bookmark mutation. Re-registration does not duplicate classes. Changed/foreign ownership, pose/gate/delta transforms or Textcode causes refusal rather than silent repair. Allowed UI mutation: scene.camera and saved3Dview camera/use_local_camera/view_perspective; no samples/aspect/frame/unhiding.
@@ -17,3 +17,6 @@ Testing is bounded to purePython/negativefixtures and actual Linux Blender5.2.3 
 - Actual Blender repeat-registration revealed RNA operator classname differs from an inconsistent Python classname. Aligned `CASTLE23_INSPECTION_OT_bookmark` with `castle23_inspection.bookmark`; fresh distinct copy/receipt produced, old failedAPI copy not relabelled. Static regression checks class/id correspondence.
 
 These preliminary outputs remain scratch-only, not accepted deliverables or proof of the final runtime. Final reports identify the tested source/output/runtime hashes.
+
+## v024 refresh scope
+Runtime/export behavior is unchanged; only reviewed source/catalog and owned UI namespaces are refreshed. The recovery notes above describe historical v023 development, not a completed v024 Blender test. New v024 export/reopen validation passed; see VALIDATION.json. Historical evidence is fixed at Git4a7cd90.
