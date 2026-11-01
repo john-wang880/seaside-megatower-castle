@@ -1,0 +1,35 @@
+{
+  "stage": "completed_actual_sequence_encoded_and_locally_verified",
+  "model_version": "v018",
+  "camera_plan_revision": "V2",
+  "source_model_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "video": "castle_v018_interior_route.mp4",
+  "video_sha256": "b4b83a2674f2cb68cb394033a7d2d1a7c2c1855c205e8c3ed64f51b624dd1c32",
+  "video_bytes": 5608180,
+  "frame_count": 336,
+  "fps": 12,
+  "duration_seconds": 28,
+  "resolution": [
+    960,
+    694
+  ],
+  "audio": false,
+  "interpolation": false,
+  "original_lighting_and_quality_preserved": true,
+  "source_model_changed": false,
+  "raw_render_seconds": 29840.85,
+  "independent_full_frame_audit_pass": true,
+  "independent_full_decode_and_same_index_source_comparison_pass": true,
+  "mean_encoding_mae_8bit": 1.4678154539738766,
+  "maximum_frame_encoding_mae_8bit": 1.6214202089337175,
+  "archive_scope": "Byte-exact MP4; all336 original metadata inside ZIP; all frame hashes/completion journal;6 final sample PNGs; frozen scripts/plan/approval; independent QA code and reports.",
+  "raw_png_bytes_local_only": 220029285,
+  "raw_png_recovery_limit": "Full336 PNG intermediates remain local and are not all archived. Hashes cannot reconstruct missing PNGs; rerender missing frames from exact source+recipe and honor approval gate.",
+  "review_limits": [
+    "Representative actual stills and numerical continuity/decode comparisons; no real-time GUI playback certification of subtle temporal denoising shimmer.",
+    "Camera/head radius0.12m proof only, not articulated gait/full-body or whole-castle accessibility.",
+    "Retained straight-circle path joins are C1 with bounded0.27223m/s2 lateral acceleration steps, not globally zero-jerk.",
+    "Frame280 intentionally retains dark pre-reveal facade; no relighting or geometry opening invented."
+  ],
+  "pure_release_tests_passed": 63
+}

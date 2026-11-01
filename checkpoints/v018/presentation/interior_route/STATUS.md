@@ -1,5 +1,21 @@
-# Interior route status — V2 pilot accepted, full video still pending
+# v018 · 28秒内廊至露台实际相机预览
 
-2026-11-01 02:24UTC:25 actual V2 pilot frames passed technical and bounded visual checks. The earlier close-wall turn is corrected. [Exact identity-bound approval and evidence](pilot_v2_acceptance/README.md) permit the remaining311 frames, after this receipt is safely backed up.
+**[下载 / 播放 MP4](final/castle_v018_interior_route.mp4)** · [入口](final/preview_frames/frame_0001.png) · [转角](final/preview_frames/frame_0076.png) · [楼梯](final/preview_frames/frame_0168.png) · [露台开口](final/preview_frames/frame_0336.png)
 
-Target remains28seconds/12fps/336 actual960×694 Blender frames, original80samples and lighting. No completed route video yet. The package README and51-file archive manifest remain the immutable prelaunch snapshot; this sidecar is the current status. Source model remains v018.
+336张真实Blender渲染帧，960×694、12fps、28秒，无音频、无AI补帧或插帧。路线从入口内廊，经L形转角和北侧楼梯，到已限定检查的露台，最后看向真实侧向开口中的树林、西塔和海面；不是全城堡内部通行展示。
+
+模型仍为v018，原80采样、世界/灯光/曝光不改，源场景始终frame1，仅临时相机移动。最终V2画面累计渲染约8.29小时；已验25帧试片在继续运行时复用，没有重复启动第二个Blender。V1近墙转角试片曾被拒绝，V2通过实际画面重新验收，不把旧图改称新图。
+
+## 已通过的检查
+- 全336帧来源/配方/代码身份、实际相机/近平面/设置、PNG与解码像素哈希检查，索引完整。
+- H.264/yuv420p全336帧完整解码，时间戳严格12fps、28秒、无音轨；336解码图像各不相同。每帧与对应原PNG比较，平均误差约1.468/255，最大单帧平均误差约1.621/255。H.264有损，不宣称逐像素等同PNG。
+- 审阅实际入口、转角、楼梯与终点代表性图像；未见新的穿模。到达前的深色墙面是保留的原照明/镜头过程，不伪称整个空间都很明亮。
+
+没有用实时GUI完整播放来认证细微时域降噪闪烁绝不存在。连续空间证明针对0.12米相机/头部代理，不是完整人体步态或无障碍认证；平面直线—圆弧连接保留小幅有界加速度变化，不宣称全局零突变运动。
+
+## 备份与复现范围
+成品MP4、全部336帧原始元数据ZIP、全部哈希/完成记录、6张最终样帧、固定脚本/计划/批准收据及独立QA代码/报告已组成归档。全套原PNG中间帧仍在工作区，**没有全部存入Git**；只有哈希不能重建缺失图像，新机器需要按固定配方重新渲染缺失帧。模型本身按主检查点完整字节精确恢复。
+
+[交付清单](final/delivery_manifest.json) · [独立视频检查](final/independent_qa/video.json) · [独立帧检查](final/independent_qa/frames.json) · [固定预启动配方](README.md) · [批准证据](pilot_v2_acceptance/README.md)
+
+`README.md`和51项`archive_checksums.json`保留为未修改的预启动快照；本状态页及`final/`是后来完成的结果。`final_checks/`提供可复查工具：逐原图比较需要完整本地原PNG；独立验证成品SHA/解码不需要重新渲染模型。所有旧试片来源均明确记录。

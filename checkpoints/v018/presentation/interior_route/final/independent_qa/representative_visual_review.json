@@ -1,0 +1,24 @@
+{
+  "representative_unpiloted_frames_viewed": [
+    120,
+    180,
+    240,
+    280
+  ],
+  "observations": [
+    "120: lantern-lit corridor and stair entrance legible.",
+    "180: ascending stair view remains between walls without visible floor/ceiling clipping.",
+    "240: upper stairs transition to outside daylight; landing framing visible.",
+    "280: dark near facade dominates before the planned daylight reveal. This is retained intentional camera timing, not silently treated as fully illuminated composition."
+  ],
+  "visual_scope": "Representative still review only, not real-time video playback or temporal shimmer certification. Pilot1/54/61/76/83/336 previously viewed separately.",
+  "metrics": {
+    "max_absolute_mean_brightness_step_8bit": 2.999165966218378,
+    "adjacent_pixel_mae_range_8bit": [
+      0.04923701168747999,
+      10.427113352545629
+    ],
+    "max_translation_step_m": 0.12310317620937808,
+    "max_orientation_step_degrees": 2.201453426874849
+  }
+}

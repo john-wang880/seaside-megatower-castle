@@ -1,0 +1,4056 @@
+{
+  "pass": true,
+  "video_sha256": "b4b83a2674f2cb68cb394033a7d2d1a7c2c1855c205e8c3ed64f51b624dd1c32",
+  "frames_report_sha256": "5514df2a964e5bb01c8ded2777518d4fdb59b9d277ed31ff57be70b5bd094b6f",
+  "frame_count": 336,
+  "fps": 12,
+  "duration_seconds": 28.0,
+  "resolution": [
+    960,
+    694
+  ],
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio": false,
+  "full_decode_no_errors": true,
+  "unique_decoded_frames": 336,
+  "decoded_duplicate_groups": [],
+  "exact_PTS_sequence": true,
+  "mean_encoding_mae_8bit": 1.4678154539738766,
+  "max_frame_encoding_mae_8bit": 1.6214202089337175,
+  "frames": [
+    {
+      "index": 1,
+      "encoding_mae_8bit": 1.4127581652257444,
+      "encoding_rmse_8bit": 1.7805580719848861,
+      "channel_bias_8bit": [
+        -1.0361161143131605,
+        -1.3887833213256484,
+        -1.2347517411143132
+      ],
+      "maximum_channel_error": 37,
+      "decoded_sha256": "3e5c1bbe14f07f70a50442b9081b755b7905d2ebf88c27bd33d6b09e8710ca17"
+    },
+    {
+      "index": 2,
+      "encoding_mae_8bit": 1.3679489873519053,
+      "encoding_rmse_8bit": 1.7447397326564826,
+      "channel_bias_8bit": [
+        -0.9578109990393852,
+        -1.3387848222862633,
+        -1.117739853506244
+      ],
+      "maximum_channel_error": 40,
+      "decoded_sha256": "8e0ef7d607692cca1c8acf39c97a76b0115a3fa1516794690719ddccd67df26b"
+    },
+    {
+      "index": 3,
+      "encoding_mae_8bit": 1.3858379362792188,
+      "encoding_rmse_8bit": 1.7799633964223158,
+      "channel_bias_8bit": [
+        -0.9454986191162343,
+        -1.3320725264169069,
+        -1.13215808117195
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "bb66665797201eed412dc510e7c64cf9c4ee9682383b04a8219ef16fc2fea0c3"
+    },
+    {
+      "index": 4,
+      "encoding_mae_8bit": 1.4031330051232789,
+      "encoding_rmse_8bit": 1.8127324787141665,
+      "channel_bias_8bit": [
+        -0.9439060999039385,
+        -1.3350714457252641,
+        -1.1066012247838617
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "04fa8d6fc8d3836aad7268ae131e5d20dfdc292cf2d3fc12abc8739e32473869"
+    },
+    {
+      "index": 5,
+      "encoding_mae_8bit": 1.4461420308997759,
+      "encoding_rmse_8bit": 1.841614261341405,
+      "channel_bias_8bit": [
+        -1.0286728506243996,
+        -1.3560083453410183,
+        -1.219934257925072
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "93e4cc76a7da2351eb191cebd98549b678949cb397c1ec34ac62cec1fc1525e1"
+    },
+    {
+      "index": 6,
+      "encoding_mae_8bit": 1.4331807356708293,
+      "encoding_rmse_8bit": 1.8539795936885715,
+      "channel_bias_8bit": [
+        -0.9371337656099904,
+        -1.3625165105667627,
+        -1.0728656340057636
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "e843be009491851024b63da197350d0992e364443e59cc39721d9385545cf34d"
+    },
+    {
+      "index": 7,
+      "encoding_mae_8bit": 1.446380183317323,
+      "encoding_rmse_8bit": 1.8591147185753674,
+      "channel_bias_8bit": [
+        -0.9690201729106628,
+        -1.3579911143131604,
+        -1.1451924231508166
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "a9f7506194cc48e7aad70987074d7574b17e3d64da039d35d824bcd44b35db67"
+    },
+    {
+      "index": 8,
+      "encoding_mae_8bit": 1.4473267891450528,
+      "encoding_rmse_8bit": 1.8768454734783155,
+      "channel_bias_8bit": [
+        -0.9490709053794428,
+        -1.358307817002882,
+        -1.0872763568683959
+      ],
+      "maximum_channel_error": 54,
+      "decoded_sha256": "f91205abd34883ac24fd4ff9bc1653a333536c6d72e7e22fd16d0ff6e16d0bc1"
+    },
+    {
+      "index": 9,
+      "encoding_mae_8bit": 1.4563975944604546,
+      "encoding_rmse_8bit": 1.858251727745611,
+      "channel_bias_8bit": [
+        -1.0275756484149856,
+        -1.365974723823247,
+        -1.2181586215177713
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "1be27e171cb09e2ae1e501bf901ac3ebf3aa3ef3569c639296c1a81796481f5a"
+    },
+    {
+      "index": 10,
+      "encoding_mae_8bit": 1.4514023975344221,
+      "encoding_rmse_8bit": 1.8743024906051917,
+      "channel_bias_8bit": [
+        -0.9441837776176754,
+        -1.3659987391930837,
+        -1.0840943203650337
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "623ff1139a8bdfe32ebd30e58ac174cbc83f825af19a6d98aca046434c90e9ed"
+    },
+    {
+      "index": 11,
+      "encoding_mae_8bit": 1.4648960334614154,
+      "encoding_rmse_8bit": 1.8692409420638294,
+      "channel_bias_8bit": [
+        -0.9796739913544669,
+        -1.374309558117195,
+        -1.1541591618635927
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "8bcfa51411f56f47f079c565102cdbdefc938f3e5d235fcb5b7f655acdab7d22"
+    },
+    {
+      "index": 12,
+      "encoding_mae_8bit": 1.4621592819404419,
+      "encoding_rmse_8bit": 1.8672728759117114,
+      "channel_bias_8bit": [
+        -0.9601299831892411,
+        -1.3764619356388088,
+        -1.1084353986551392
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "f2373d8dd5cd682e52acd123424ee3bd09313452ca434e5bc38ac178f2f16794"
+    },
+    {
+      "index": 13,
+      "encoding_mae_8bit": 1.4695560158501442,
+      "encoding_rmse_8bit": 1.8543730119723,
+      "channel_bias_8bit": [
+        -1.0160647814601345,
+        -1.375313700768492,
+        -1.22903308117195
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "a7096fc039e4190775595a755a7c4d300310de522d0add2fb882b1d78f689182"
+    },
+    {
+      "index": 14,
+      "encoding_mae_8bit": 1.465952209414025,
+      "encoding_rmse_8bit": 1.8643219801647097,
+      "channel_bias_8bit": [
+        -0.9630823727185399,
+        -1.3880103266090298,
+        -1.1130493515850144
+      ],
+      "maximum_channel_error": 37,
+      "decoded_sha256": "539faa841c896a2312864b90f21e6a8e1c503d614f0b34fe9bfd51098f15c1d7"
+    },
+    {
+      "index": 15,
+      "encoding_mae_8bit": 1.4758455411463336,
+      "encoding_rmse_8bit": 1.8705743478862904,
+      "channel_bias_8bit": [
+        -0.9965057636887608,
+        -1.3813640730067243,
+        -1.1691162343900097
+      ],
+      "maximum_channel_error": 35,
+      "decoded_sha256": "3879805372c054412a4da7cd4321e4858b2d091b933cb5430011d2d7ff310079"
+    },
+    {
+      "index": 16,
+      "encoding_mae_8bit": 1.4716538584694205,
+      "encoding_rmse_8bit": 1.8755853499799038,
+      "channel_bias_8bit": [
+        -0.9907450768491834,
+        -1.3715267771373678,
+        -1.1190952209414025
+      ],
+      "maximum_channel_error": 40,
+      "decoded_sha256": "da8cb344bf2761b0dfb863d5907d4f6a72ca0736f44663638c4e079191129f05"
+    },
+    {
+      "index": 17,
+      "encoding_mae_8bit": 1.4863392571245597,
+      "encoding_rmse_8bit": 1.8634579105109719,
+      "channel_bias_8bit": [
+        -1.0548856268011528,
+        -1.3899750840537943,
+        -1.2391270413064361
+      ],
+      "maximum_channel_error": 35,
+      "decoded_sha256": "aa926e152768e0a00b20b3e43c99a3adeaac9bc3ccb68e5ba150c24de6fe912e"
+    },
+    {
+      "index": 18,
+      "encoding_mae_8bit": 1.4884255923791225,
+      "encoding_rmse_8bit": 1.8941824815616397,
+      "channel_bias_8bit": [
+        -1.0041891810758885,
+        -1.3950888568683957,
+        -1.1440546950048032
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "a37913ea2a8ea8425e0b13e3eedf10ba35ce0896098373e794d170739d3d7703"
+    },
+    {
+      "index": 19,
+      "encoding_mae_8bit": 1.4935733869676593,
+      "encoding_rmse_8bit": 1.8929608586867328,
+      "channel_bias_8bit": [
+        -1.03197646493756,
+        -1.3902722742555236,
+        -1.1770022814601344
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "535d4fbe1534d896de553a5b79e29f3b1481483f02add97ab65c6dc8e37303ad"
+    },
+    {
+      "index": 20,
+      "encoding_mae_8bit": 1.4988752801793148,
+      "encoding_rmse_8bit": 1.9058834515016003,
+      "channel_bias_8bit": [
+        -1.009047790585975,
+        -1.3946565802113353,
+        -1.1585404658981748
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "fafcfb5446b02db58732db19b60369bcd0dc8b4f9f4b4860ec19df22f49d78d7"
+    },
+    {
+      "index": 21,
+      "encoding_mae_8bit": 1.49883625520333,
+      "encoding_rmse_8bit": 1.88490287008402,
+      "channel_bias_8bit": [
+        -1.0486281219980789,
+        -1.3966513568683958,
+        -1.2384320965417868
+      ],
+      "maximum_channel_error": 37,
+      "decoded_sha256": "009207d37636ca051b53b1af337b833d3f06883f82218646c00d56e32abd278a"
+    },
+    {
+      "index": 22,
+      "encoding_mae_8bit": 1.4979476865193724,
+      "encoding_rmse_8bit": 1.9113249394950025,
+      "channel_bias_8bit": [
+        -0.9941852785782901,
+        -1.3918737992315082,
+        -1.1317843419788665
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "8452f6fe04547258b8cf0963ae9a67fad8a71823b10a99a6c2f25098a94d8c1a"
+    },
+    {
+      "index": 23,
+      "encoding_mae_8bit": 1.4925707452769772,
+      "encoding_rmse_8bit": 1.8928601555645508,
+      "channel_bias_8bit": [
+        -0.999621757925072,
+        -1.3838991954851105,
+        -1.1850534341978867
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "3d5b0ee9fe7b6da1dc4314371529efe3f987cc06a55656e7b7378824c54dbc76"
+    },
+    {
+      "index": 24,
+      "encoding_mae_8bit": 1.4862011687479988,
+      "encoding_rmse_8bit": 1.8986210911370742,
+      "channel_bias_8bit": [
+        -0.9702284462055716,
+        -1.3861866594620558,
+        -1.1204550912584055
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "8d4f78ccf7f80dda1a773f81245728c762ad50674eef21c1733abc89bb4d63e4"
+    },
+    {
+      "index": 25,
+      "encoding_mae_8bit": 1.4921764929554915,
+      "encoding_rmse_8bit": 1.8831869773452266,
+      "channel_bias_8bit": [
+        -1.0402527617675312,
+        -1.381533681556196,
+        -1.2330781700288185
+      ],
+      "maximum_channel_error": 33,
+      "decoded_sha256": "936889dfee9b31c036aa5f37c725b47cdfbd01f0f4af95434b02b515d246fcd4"
+    },
+    {
+      "index": 26,
+      "encoding_mae_8bit": 1.490340818123599,
+      "encoding_rmse_8bit": 1.9071790404708058,
+      "channel_bias_8bit": [
+        -0.9763148414985591,
+        -1.3832057516810758,
+        -1.122798090778098
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "8b88f7d728e7e172fe3ec3110060f9265bbc4d4792f68b66907b73c53ecd8325"
+    },
+    {
+      "index": 27,
+      "encoding_mae_8bit": 1.5050767491194363,
+      "encoding_rmse_8bit": 1.9160953028422483,
+      "channel_bias_8bit": [
+        -1.0256739313160423,
+        -1.3796619836695485,
+        -1.1791516570605187
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "0dd9a152784fee7500cbad21aebf9b430df4f524d02341fb46b3f2dda4b9d410"
+    },
+    {
+      "index": 28,
+      "encoding_mae_8bit": 1.4997323286903619,
+      "encoding_rmse_8bit": 1.9183713913705414,
+      "channel_bias_8bit": [
+        -0.9860185518731989,
+        -1.3757444764649376,
+        -1.1309918347742556
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "302f6c19bbdfe9895c06ea63c169a2974e26146c47ffb473571596516b4b85e9"
+    },
+    {
+      "index": 29,
+      "encoding_mae_8bit": 1.4918412784181876,
+      "encoding_rmse_8bit": 1.8827807127905183,
+      "channel_bias_8bit": [
+        -1.0266900816522575,
+        -1.3756138928914505,
+        -1.2254622958693564
+      ],
+      "maximum_channel_error": 36,
+      "decoded_sha256": "169951c6f80ec2983af2ffa47b254f582daaf85aa9ccc655fd08b0bdb7e9b8d4"
+    },
+    {
+      "index": 30,
+      "encoding_mae_8bit": 1.4912258845661224,
+      "encoding_rmse_8bit": 1.9201596778498924,
+      "channel_bias_8bit": [
+        -0.9511002041306437,
+        -1.36424411623439,
+        -1.1245046829971181
+      ],
+      "maximum_channel_error": 54,
+      "decoded_sha256": "7c70e7617175b981765f18e46ec73c63f5fbb0d52caff8343a62a92b0ae9f369"
+    },
+    {
+      "index": 31,
+      "encoding_mae_8bit": 1.4896248599103425,
+      "encoding_rmse_8bit": 1.9039494518105338,
+      "channel_bias_8bit": [
+        -0.9834894332372719,
+        -1.3540060638808837,
+        -1.164796469740634
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "966c2a1aca75f2b3c3d2990ac39aedcc46e32309c4b985c9fcca5d7d95e8f4d3"
+    },
+    {
+      "index": 32,
+      "encoding_mae_8bit": 1.480771193563881,
+      "encoding_rmse_8bit": 1.9091710918419733,
+      "channel_bias_8bit": [
+        -0.9271403698366955,
+        -1.3424801873198848,
+        -1.115305295389049
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "fe435376517f6b40793957932bf9b6bcf31fce91eb3643402186ddd1809bc786"
+    },
+    {
+      "index": 33,
+      "encoding_mae_8bit": 1.487040706051873,
+      "encoding_rmse_8bit": 1.8928816974965073,
+      "channel_bias_8bit": [
+        -0.9994341378482229,
+        -1.353997058117195,
+        -1.2184287944284342
+      ],
+      "maximum_channel_error": 37,
+      "decoded_sha256": "f54e11a5da2638542601111255bbbfdb631431288124f869ab1de0b14150b763"
+    },
+    {
+      "index": 34,
+      "encoding_mae_8bit": 1.4907295669228307,
+      "encoding_rmse_8bit": 1.924098198762794,
+      "channel_bias_8bit": [
+        -0.9347607468780019,
+        -1.3480862752161382,
+        -1.1214832492795388
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "b4f7fd152da551fddf626c0538f19f36965db0392dbb7ac9fed222c6b1180185"
+    },
+    {
+      "index": 35,
+      "encoding_mae_8bit": 1.497711535382645,
+      "encoding_rmse_8bit": 1.9275330984606265,
+      "channel_bias_8bit": [
+        -0.9637653097982709,
+        -1.3536023054755044,
+        -1.1619761647454372
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "02c512d8131a3bbc1d1287fcd1e6e2db5f23347d5ca635a38cb51687305fab18"
+    },
+    {
+      "index": 36,
+      "encoding_mae_8bit": 1.499294048190842,
+      "encoding_rmse_8bit": 1.9401968180479445,
+      "channel_bias_8bit": [
+        -0.9232528818443804,
+        -1.359832792987512,
+        -1.1213706772334293
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "b719cec9ad723a7b7397999107f6fecc9bf00e06571cc7a0e2582a4b0c75e862"
+    },
+    {
+      "index": 37,
+      "encoding_mae_8bit": 1.5001771133525457,
+      "encoding_rmse_8bit": 1.9149433111835008,
+      "channel_bias_8bit": [
+        -0.9743545869356388,
+        -1.366489553314121,
+        -1.2390009606147934
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "12e98f79b700c726b19970bc86493f10ce5a27c692520c5f23ea6b955ced46f5"
+    },
+    {
+      "index": 38,
+      "encoding_mae_8bit": 1.4952849823887289,
+      "encoding_rmse_8bit": 1.9344094296447583,
+      "channel_bias_8bit": [
+        -0.9078155019212296,
+        -1.3700168107588857,
+        -1.1166321445725265
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "2d94e37e08fab5c7168c83c6a787dfd8d44b63177745f258d9c48e5ef2213284"
+    },
+    {
+      "index": 39,
+      "encoding_mae_8bit": 1.4993100584374,
+      "encoding_rmse_8bit": 1.926540395905083,
+      "channel_bias_8bit": [
+        -0.9369896733909702,
+        -1.3694734630163305,
+        -1.1836800552353506
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "0650519e0f6a3e904b20dfb758383946dae927991883c1038e20db2c36ac0863"
+    },
+    {
+      "index": 40,
+      "encoding_mae_8bit": 1.513480627601665,
+      "encoding_rmse_8bit": 1.9622273607249783,
+      "channel_bias_8bit": [
+        -0.9233894692603266,
+        -1.3859420028818443,
+        -1.142208513448607
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "983854ea26ce01a7fffee1d783f17e5966643058eab2f071dc12d574e32455f8"
+    },
+    {
+      "index": 41,
+      "encoding_mae_8bit": 1.5204170669228305,
+      "encoding_rmse_8bit": 1.938791557679846,
+      "channel_bias_8bit": [
+        -1.012725144092219,
+        -1.390210734870317,
+        -1.2430535542747359
+      ],
+      "maximum_channel_error": 36,
+      "decoded_sha256": "f3e3ef0a7949dc84e75d17f7a03645110e789f686e85eb7a7e955ab90eff0d31"
+    },
+    {
+      "index": 42,
+      "encoding_mae_8bit": 1.5265159702209414,
+      "encoding_rmse_8bit": 1.9772149611414636,
+      "channel_bias_8bit": [
+        -0.9317273054755043,
+        -1.3936884606147935,
+        -1.135451188760807
+      ],
+      "maximum_channel_error": 56,
+      "decoded_sha256": "963ef2b4fe2b96b6a977ce86c1decc4e6cb90de790e86c864ca52fdee35abd82"
+    },
+    {
+      "index": 43,
+      "encoding_mae_8bit": 1.525297690521934,
+      "encoding_rmse_8bit": 1.9653441300779273,
+      "channel_bias_8bit": [
+        -0.9688190441882805,
+        -1.3907015489913546,
+        -1.1905589577329492
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "fe11e92ad087cc282d89c2d34d31a52c6c5466aa6a89afd665dfb00acf2bb822"
+    },
+    {
+      "index": 44,
+      "encoding_mae_8bit": 1.5396388688760807,
+      "encoding_rmse_8bit": 1.993555875720306,
+      "channel_bias_8bit": [
+        -0.9443578890489913,
+        -1.3908726585014408,
+        -1.153843960134486
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "2a9b1bb02d452cbed30ee5306e6d23744cb680f07e83aa4c6cb195d899df2613"
+    },
+    {
+      "index": 45,
+      "encoding_mae_8bit": 1.5430260366634647,
+      "encoding_rmse_8bit": 1.9752598707502964,
+      "channel_bias_8bit": [
+        -1.0254667987512007,
+        -1.3967639289145053,
+        -1.2491234390009607
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "9206562a3584e2beaffcebc61bf1977bd07232ec5ef86c652ebb0fe3948aaee8"
+    },
+    {
+      "index": 46,
+      "encoding_mae_8bit": 1.5461810558757605,
+      "encoding_rmse_8bit": 2.005661240909966,
+      "channel_bias_8bit": [
+        -0.9584924351585015,
+        -1.3947181195965417,
+        -1.1377101344860712
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "a8b07d455e4f63147005a35f78b8f445f36296c8a026446ad20ae6e452c9cee4"
+    },
+    {
+      "index": 47,
+      "encoding_mae_8bit": 1.5453395172910662,
+      "encoding_rmse_8bit": 1.9985787106822155,
+      "channel_bias_8bit": [
+        -0.9860395653218059,
+        -1.4013463616714696,
+        -1.1777782780979826
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "b19ac0457dc99d29d6c1981824e78b6b358873611f9848342bbbccb61a12da69"
+    },
+    {
+      "index": 48,
+      "encoding_mae_8bit": 1.5570610190521934,
+      "encoding_rmse_8bit": 2.0253999448897804,
+      "channel_bias_8bit": [
+        -0.9658726585014409,
+        -1.405618095581172,
+        -1.1544383405379444
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "aa4f663deac262ccfb36db081c70ed78878a0ae2bc54bde3291ba8b14717db40"
+    },
+    {
+      "index": 49,
+      "encoding_mae_8bit": 1.5530164305155298,
+      "encoding_rmse_8bit": 1.9930408213325483,
+      "channel_bias_8bit": [
+        -1.044679094620557,
+        -1.4097847622478386,
+        -1.2567167987512007
+      ],
+      "maximum_channel_error": 40,
+      "decoded_sha256": "c94d3d71ab1c76cebe5e323ab81ae8f177cd1d58071d5510dbe3618c5832f62d"
+    },
+    {
+      "index": 50,
+      "encoding_mae_8bit": 1.5582167587255844,
+      "encoding_rmse_8bit": 2.0405799270111067,
+      "channel_bias_8bit": [
+        -0.9641435518731989,
+        -1.411359269932757,
+        -1.1616804755043229
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "75b3a6787eb1c96a259f4f415520b5841da43c4f66d42ff9428981b2e57a87b9"
+    },
+    {
+      "index": 51,
+      "encoding_mae_8bit": 1.5480362431956451,
+      "encoding_rmse_8bit": 2.014610890595483,
+      "channel_bias_8bit": [
+        -0.9927518611911623,
+        -1.3976870196926032,
+        -1.2127596661863593
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "d63bd959bfb9ab15d176d3fab31bb92a7fb4621eb26cb9b360b4eb66ad40385c"
+    },
+    {
+      "index": 52,
+      "encoding_mae_8bit": 1.536824067403138,
+      "encoding_rmse_8bit": 2.0240831316957735,
+      "channel_bias_8bit": [
+        -0.9420298991354467,
+        -1.3993951128722382,
+        -1.1395893371757926
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "f71a27687013845ba07a2e1d026e284206421f3085b59862750fc2053d9e5301"
+    },
+    {
+      "index": 53,
+      "encoding_mae_8bit": 1.532440762087736,
+      "encoding_rmse_8bit": 1.9923884037488502,
+      "channel_bias_8bit": [
+        -1.01664265129683,
+        -1.3918632925072045,
+        -1.2464082012487991
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "ee9f5592b9ed449519061ebcecfcf7db711596ad98d2fdb6336ffb53aeb0b9bc"
+    },
+    {
+      "index": 54,
+      "encoding_mae_8bit": 1.5244206292026896,
+      "encoding_rmse_8bit": 2.0134173595299956,
+      "channel_bias_8bit": [
+        -0.9271613832853026,
+        -1.3896703890489914,
+        -1.1416456532180597
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "d106c5de0de646f4057b716fcabf394ecb04633d352ef170a2f814c1d1b8e67a"
+    },
+    {
+      "index": 55,
+      "encoding_mae_8bit": 1.5243720981428115,
+      "encoding_rmse_8bit": 1.9953151432325975,
+      "channel_bias_8bit": [
+        -0.9572736551392892,
+        -1.3932561839577329,
+        -1.2050432276657062
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "130232f949dc688b03e27b09a976044a81b1f691da20beb6b9fa836d80db7e0d"
+    },
+    {
+      "index": 56,
+      "encoding_mae_8bit": 1.5344320365033621,
+      "encoding_rmse_8bit": 2.030265516123991,
+      "channel_bias_8bit": [
+        -0.94596691882805,
+        -1.403728386167147,
+        -1.1540901176753122
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "beff15e69f92930c0fa60f9af36ce384276889ce5ede29bbe151aa7f017b4b08"
+    },
+    {
+      "index": 57,
+      "encoding_mae_8bit": 1.5280784702209413,
+      "encoding_rmse_8bit": 1.9963321664883658,
+      "channel_bias_8bit": [
+        -0.9982543828049952,
+        -1.3905574567723342,
+        -1.2662118756003842
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "788ef2ea31f3e4ba7947ba737c5b4c2bf44b0536bb782648988c581c89de2b55"
+    },
+    {
+      "index": 58,
+      "encoding_mae_8bit": 1.528676853186039,
+      "encoding_rmse_8bit": 2.042788586842687,
+      "channel_bias_8bit": [
+        -0.9094725624399616,
+        -1.382224123439001,
+        -1.1393116594620558
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "eb020ad2f2863f1227c213f5f419fb871a3723451e110dac551d9b812afe4ec0"
+    },
+    {
+      "index": 59,
+      "encoding_mae_8bit": 1.5288889889529298,
+      "encoding_rmse_8bit": 2.048020729607417,
+      "channel_bias_8bit": [
+        -0.9296935038424592,
+        -1.3646463736791548,
+        -1.1631724303554274
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "7c5f343966314de4ff3f360f4d5c03e8d52fd7dc552b60fe09be5cd72b8d6fe4"
+    },
+    {
+      "index": 60,
+      "encoding_mae_8bit": 1.529607448767211,
+      "encoding_rmse_8bit": 2.088321477986823,
+      "channel_bias_8bit": [
+        -0.8834699207492795,
+        -1.3476855187319885,
+        -1.1023925312199807
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "95ca1692c4667ad2a373da1bed3450b95605881fa2a1d797751b13855fbc2e91"
+    },
+    {
+      "index": 61,
+      "encoding_mae_8bit": 1.527201909221902,
+      "encoding_rmse_8bit": 2.0631613476016826,
+      "channel_bias_8bit": [
+        -0.9703515249759846,
+        -1.3493500840537944,
+        -1.2197391330451488
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "7247dd2a19aeadaebe9e41d48d38a0a44c33d0f5a6f737b95a1db76f2e904469"
+    },
+    {
+      "index": 62,
+      "encoding_mae_8bit": 1.5443498839257124,
+      "encoding_rmse_8bit": 2.143275862811745,
+      "channel_bias_8bit": [
+        -0.876097202209414,
+        -1.3407810999039385,
+        -1.0785482708933718
+      ],
+      "maximum_channel_error": 68,
+      "decoded_sha256": "b15116651581a8385709edaa142a00360cc7f210610b582b5705df260d8fd424"
+    },
+    {
+      "index": 63,
+      "encoding_mae_8bit": 1.5227265449887928,
+      "encoding_rmse_8bit": 2.080617345853272,
+      "channel_bias_8bit": [
+        -0.9315591978866474,
+        -1.3289130043227666,
+        -1.1144497478386166
+      ],
+      "maximum_channel_error": 55,
+      "decoded_sha256": "fcfc0c922418431ace871eeead7f71902cce19e695aaf60e3dd8d71c943100c3"
+    },
+    {
+      "index": 64,
+      "encoding_mae_8bit": 1.524651276817163,
+      "encoding_rmse_8bit": 2.0785606956068916,
+      "channel_bias_8bit": [
+        -0.8810743876080691,
+        -1.3335134486071085,
+        -1.046932036503362
+      ],
+      "maximum_channel_error": 62,
+      "decoded_sha256": "c380a0a27b00ec16ff549e05f2709fdaacf99f60f251fe7fe96ce6449cfedc2c"
+    },
+    {
+      "index": 65,
+      "encoding_mae_8bit": 1.5053083973743195,
+      "encoding_rmse_8bit": 2.001037145027473,
+      "channel_bias_8bit": [
+        -1.001765129682997,
+        -1.3317122958693564,
+        -1.2035212536023054
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "7d2ae953f985d869e11b43235d4eb837e5ca02a11305773b6fcafed2c7cfb562"
+    },
+    {
+      "index": 66,
+      "encoding_mae_8bit": 1.5141240393852065,
+      "encoding_rmse_8bit": 2.017406442540228,
+      "channel_bias_8bit": [
+        -0.9159251921229586,
+        -1.3551497958693564,
+        -1.0695800312199808
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "9e089359fd6fb64fd42fd8d5b02541af3dbc78b5b12f7cf967bee4422660b2a9"
+    },
+    {
+      "index": 67,
+      "encoding_mae_8bit": 1.5353326128722382,
+      "encoding_rmse_8bit": 2.003255185955508,
+      "channel_bias_8bit": [
+        -0.9639033981748318,
+        -1.3709308957732949,
+        -1.158219260326609
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "9ebb31c56ce08472073e2120f6448bcf9a7749d48ba9c13bb0923537c83272b6"
+    },
+    {
+      "index": 68,
+      "encoding_mae_8bit": 1.5364007965097664,
+      "encoding_rmse_8bit": 2.008403609446418,
+      "channel_bias_8bit": [
+        -0.920690742074928,
+        -1.3842594260326608,
+        -1.0770157901056676
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "0ce6264bfc33d78c2c9b7d79978ae00573cec73086dfae7c4a1fa43ece5c1666"
+    },
+    {
+      "index": 69,
+      "encoding_mae_8bit": 1.5497318283701569,
+      "encoding_rmse_8bit": 1.9843495386596108,
+      "channel_bias_8bit": [
+        -1.058364853506244,
+        -1.388466618635927,
+        -1.2684483069164265
+      ],
+      "maximum_channel_error": 34,
+      "decoded_sha256": "47c027022531cbeebf748432d0b10e2379e638f0b6e984a780364fa16c8959bd"
+    },
+    {
+      "index": 70,
+      "encoding_mae_8bit": 1.5479311759526098,
+      "encoding_rmse_8bit": 2.0081352964170462,
+      "channel_bias_8bit": [
+        -0.9549516690682036,
+        -1.3961425312199809,
+        -1.0964367195004803
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "76bc8d43ded3cf449f72134b40c8e41f712f25fbe9068c53f2fc9ea9eb6fb876"
+    },
+    {
+      "index": 71,
+      "encoding_mae_8bit": 1.5478521253602306,
+      "encoding_rmse_8bit": 1.9931962050715488,
+      "channel_bias_8bit": [
+        -0.9926678073967339,
+        -1.3968329731027858,
+        -1.1518641930835736
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "8b7459e0d0f29555b90167b2eaeb09b33506e93764818f018a7b95e7b7be2dda"
+    },
+    {
+      "index": 72,
+      "encoding_mae_8bit": 1.5453975544348384,
+      "encoding_rmse_8bit": 1.9912966297996453,
+      "channel_bias_8bit": [
+        -0.9655589577329491,
+        -1.4059753242074928,
+        -1.1013778818443805
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "b7f5772154b3b880f2c43c7e1f138f9a21e2709bc94c55bbccd940cf56e9b878"
+    },
+    {
+      "index": 73,
+      "encoding_mae_8bit": 1.5545999439641371,
+      "encoding_rmse_8bit": 1.9712389254112948,
+      "channel_bias_8bit": [
+        -1.0712776176753123,
+        -1.4014919548511047,
+        -1.2483519452449567
+      ],
+      "maximum_channel_error": 29,
+      "decoded_sha256": "0918a0ec90e40e8264846c3743676f931deb83d48a3bbd28e7932526080d93a1"
+    },
+    {
+      "index": 74,
+      "encoding_mae_8bit": 1.5364478266090298,
+      "encoding_rmse_8bit": 1.9825789003773802,
+      "channel_bias_8bit": [
+        -0.9469980787704131,
+        -1.398479526897214,
+        -1.0615213736791547
+      ],
+      "maximum_channel_error": 40,
+      "decoded_sha256": "ee4c2981a2dc30ae53537a324ad40ac7eca4cc0c398c8c8a66ea6d93dd79c733"
+    },
+    {
+      "index": 75,
+      "encoding_mae_8bit": 1.5441987872238232,
+      "encoding_rmse_8bit": 1.9790745845407525,
+      "channel_bias_8bit": [
+        -1.0009365994236312,
+        -1.4029118635926994,
+        -1.1406925432276658
+      ],
+      "maximum_channel_error": 36,
+      "decoded_sha256": "ba99dfe102eb28580643dc7516b5f815e901837219be6dc3cb5b8269cc7d1413"
+    },
+    {
+      "index": 76,
+      "encoding_mae_8bit": 1.5474148455011207,
+      "encoding_rmse_8bit": 1.9921579916805903,
+      "channel_bias_8bit": [
+        -0.9711365273775217,
+        -1.4032645893371758,
+        -1.0936419308357348
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "880beea8b1b20191badd9383d04e76c5872f434ff4dd139a1d230a103e55581c"
+    },
+    {
+      "index": 77,
+      "encoding_mae_8bit": 1.5537599063400576,
+      "encoding_rmse_8bit": 1.9695055291363748,
+      "channel_bias_8bit": [
+        -1.0767531219980788,
+        -1.4053028938520653,
+        -1.259651176753122
+      ],
+      "maximum_channel_error": 34,
+      "decoded_sha256": "636ab8b54786bbb976b3b134481a995bee01930ea18bbe91e23b9b8494bca8bd"
+    },
+    {
+      "index": 78,
+      "encoding_mae_8bit": 1.5316807756964457,
+      "encoding_rmse_8bit": 1.9695301702229666,
+      "channel_bias_8bit": [
+        -0.9563400576368876,
+        -1.4013928914505283,
+        -1.068328230067243
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "01b93943cf2b2e3cb0ba00fe4d56c2df74908f98294164a2cc15d77d6a5c1fa4"
+    },
+    {
+      "index": 79,
+      "encoding_mae_8bit": 1.5382875040025616,
+      "encoding_rmse_8bit": 1.9643297835544513,
+      "channel_bias_8bit": [
+        -1.0055685638808838,
+        -1.4041411503362151,
+        -1.1453365153698367
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "b7437649c59ed378e3e552d7e2654ab4d36c9698061dcc139418c6eeec10ba4b"
+    },
+    {
+      "index": 80,
+      "encoding_mae_8bit": 1.5351755123278898,
+      "encoding_rmse_8bit": 1.9798668436386992,
+      "channel_bias_8bit": [
+        -0.9524435638808838,
+        -1.398225864553314,
+        -1.0791996878001922
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "dd4c5cd21c0a2b965947b2ea0e2f43426b815a88761eeb9dba0b1d879f5917b2"
+    },
+    {
+      "index": 81,
+      "encoding_mae_8bit": 1.5465793107588857,
+      "encoding_rmse_8bit": 1.961282320865349,
+      "channel_bias_8bit": [
+        -1.067427653698367,
+        -1.3990664024975985,
+        -1.2435008405379442
+      ],
+      "maximum_channel_error": 32,
+      "decoded_sha256": "5405f444f51bc75f0efe0f1cb6a0c6c70ddef0b8402622d913525aae70153f6d"
+    },
+    {
+      "index": 82,
+      "encoding_mae_8bit": 1.530603085975024,
+      "encoding_rmse_8bit": 1.9686383221861479,
+      "channel_bias_8bit": [
+        -0.9496983069164265,
+        -1.3971676873198848,
+        -1.07772424351585
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "ef1ecfba347b0aa2e84c52d32eee14910ad4776193799395a572b744965bc129"
+    },
+    {
+      "index": 83,
+      "encoding_mae_8bit": 1.5290565962215819,
+      "encoding_rmse_8bit": 1.9546870114778523,
+      "channel_bias_8bit": [
+        -0.9977500600384246,
+        -1.3940396853986552,
+        -1.1447106147934678
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "2b9984ead80565b436eaf23f4bba829b8b408ee7815499254a7397fa0869504b"
+    },
+    {
+      "index": 84,
+      "encoding_mae_8bit": 1.5315521934037784,
+      "encoding_rmse_8bit": 1.9704026978124523,
+      "channel_bias_8bit": [
+        -0.9637743155619597,
+        -1.4014844500480308,
+        -1.0744926753121997
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "416829b8efd4f449a26f7066ecf1302173c552ef34b1be77edc99fdc89d51581"
+    },
+    {
+      "index": 85,
+      "encoding_mae_8bit": 1.5399155459494076,
+      "encoding_rmse_8bit": 1.9527389588069357,
+      "channel_bias_8bit": [
+        -1.0652377521613834,
+        -1.3898054755043228,
+        -1.2465147694524497
+      ],
+      "maximum_channel_error": 36,
+      "decoded_sha256": "934645fcd65d169249bb33d869d8c747fdf2631b16cb62174271dd5cfe94f123"
+    },
+    {
+      "index": 86,
+      "encoding_mae_8bit": 1.5171059478065962,
+      "encoding_rmse_8bit": 1.9568277062097075,
+      "channel_bias_8bit": [
+        -0.9602590658021134,
+        -1.3938850864553314,
+        -1.0511422310278578
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "d0e0cbe0b91d5d73cc47096d12526e750cd480d17dbf6fef31235217dfc1425f"
+    },
+    {
+      "index": 87,
+      "encoding_mae_8bit": 1.5207878041946845,
+      "encoding_rmse_8bit": 1.948018777471286,
+      "channel_bias_8bit": [
+        -1.0082147574447646,
+        -1.392877941882805,
+        -1.1093524855907781
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "b938f1afeb2c465631a966f7e2ffb968147281a33b07b9afab7788593ef5cab4"
+    },
+    {
+      "index": 88,
+      "encoding_mae_8bit": 1.5116774735830931,
+      "encoding_rmse_8bit": 1.946656431322032,
+      "channel_bias_8bit": [
+        -0.9538169428434198,
+        -1.3840733069164266,
+        -1.0549831892411143
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "3eeab697c03098a9b130265e3b76b93a1dee571bde5171a03942ddbda84e7a8a"
+    },
+    {
+      "index": 89,
+      "encoding_mae_8bit": 1.5357328690361831,
+      "encoding_rmse_8bit": 1.9500768681943783,
+      "channel_bias_8bit": [
+        -1.0622838616714698,
+        -1.3907465778097983,
+        -1.2212611071085495
+      ],
+      "maximum_channel_error": 36,
+      "decoded_sha256": "c1900ee81753b7b35f36f7c9301530e95194227703eef040d6dd8e204515a787"
+    },
+    {
+      "index": 90,
+      "encoding_mae_8bit": 1.5100609390009607,
+      "encoding_rmse_8bit": 1.9448110874082478,
+      "channel_bias_8bit": [
+        -0.9595626200768492,
+        -1.3874669788664746,
+        -1.0577989913544668
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "d393ec280a23984ba53ee403f5e8f66c50dddee95afb695a72898d801592a3ab"
+    },
+    {
+      "index": 91,
+      "encoding_mae_8bit": 1.5186939641370476,
+      "encoding_rmse_8bit": 1.9459335704938379,
+      "channel_bias_8bit": [
+        -0.9901792146974063,
+        -1.3807021493756004,
+        -1.1467639289145053
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "9065d971f5fe610afba66b0f6e9af3cef11648bb348a9deb90b9efde1442517f"
+    },
+    {
+      "index": 92,
+      "encoding_mae_8bit": 1.50715908181236,
+      "encoding_rmse_8bit": 1.939811778660869,
+      "channel_bias_8bit": [
+        -0.9528698366954851,
+        -1.37885146493756,
+        -1.0648940321805955
+      ],
+      "maximum_channel_error": 40,
+      "decoded_sha256": "49ac2e51c5f14701c7682f5ab84139cdc0da7060c9f61694dbeec64ce4ca8424"
+    },
+    {
+      "index": 93,
+      "encoding_mae_8bit": 1.5199247518411783,
+      "encoding_rmse_8bit": 1.9232967542891652,
+      "channel_bias_8bit": [
+        -1.0572691522574447,
+        -1.3717204010566764,
+        -1.2251981268011527
+      ],
+      "maximum_channel_error": 31,
+      "decoded_sha256": "2dc070bd42977bbd10921c4c5d0b08e646f8e1c7806e4e0627247046479499c7"
+    },
+    {
+      "index": 94,
+      "encoding_mae_8bit": 1.4977665706051873,
+      "encoding_rmse_8bit": 1.9337981611869566,
+      "channel_bias_8bit": [
+        -0.9446490754082613,
+        -1.3769152257444766,
+        -1.0512472982708934
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "8edde96f8cd3d9ce4d0b003562ab18b41353f53aad3f8a6879f2b285b4750de0"
+    },
+    {
+      "index": 95,
+      "encoding_mae_8bit": 1.5062855227345502,
+      "encoding_rmse_8bit": 1.9255600432464561,
+      "channel_bias_8bit": [
+        -0.9962250840537944,
+        -1.3663199447646495,
+        -1.1347307276657062
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "507ba9811253257caf90a7fcdd0ae06e1b1d03dca414e860142b17c91276ae7e"
+    },
+    {
+      "index": 96,
+      "encoding_mae_8bit": 1.4962566042267051,
+      "encoding_rmse_8bit": 1.9275040269569654,
+      "channel_bias_8bit": [
+        -0.9532360710854947,
+        -1.3661428314121038,
+        -1.0857874039385207
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "74cd6cf95f8cbbbd251a23bb24fad17a85bc1fb590398d43f121df950a2891af"
+    },
+    {
+      "index": 97,
+      "encoding_mae_8bit": 1.515160702849824,
+      "encoding_rmse_8bit": 1.9221978827915687,
+      "channel_bias_8bit": [
+        -1.0468930115273776,
+        -1.3743335734870317,
+        -1.228641330451489
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "7720d3b48c993690ff3bea9c2885aaa3b6110232f1999c986c999b8c43e0d17b"
+    },
+    {
+      "index": 98,
+      "encoding_mae_8bit": 1.48833503442203,
+      "encoding_rmse_8bit": 1.9141665239545158,
+      "channel_bias_8bit": [
+        -0.9473913304514889,
+        -1.3865348823246877,
+        -1.0575588376560998
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "4d0c716b3d112058c8f4d72f19c753e135c278140ea2810c8b89ec37cea9411d"
+    },
+    {
+      "index": 99,
+      "encoding_mae_8bit": 1.4886077089337175,
+      "encoding_rmse_8bit": 1.9078219157079928,
+      "channel_bias_8bit": [
+        -0.9733189241114313,
+        -1.3658516450528337,
+        -1.1341693683957732
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "07b957d235f9758829d186e375a61fd567c52e83ab6d6c902f94f0dc61279b2f"
+    },
+    {
+      "index": 100,
+      "encoding_mae_8bit": 1.487637087736151,
+      "encoding_rmse_8bit": 1.9169021072451267,
+      "channel_bias_8bit": [
+        -0.9352485590778098,
+        -1.3762893251681076,
+        -1.0753437199807876
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "483ceb6279ccf0d5f9c8d8ffb73d01078ab24371df52d757230f5a55a0af6410"
+    },
+    {
+      "index": 101,
+      "encoding_mae_8bit": 1.4985951008645533,
+      "encoding_rmse_8bit": 1.8994815448666893,
+      "channel_bias_8bit": [
+        -1.023923811239193,
+        -1.3658801633045148,
+        -1.2354962175792508
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "7edf9ce223dc49506f50241baa0c52e7b38ee74c97aca8bd23568a081e7548d0"
+    },
+    {
+      "index": 102,
+      "encoding_mae_8bit": 1.4780864753442202,
+      "encoding_rmse_8bit": 1.90681317893484,
+      "channel_bias_8bit": [
+        -0.9212190802113353,
+        -1.3758090177713738,
+        -1.0717143972142171
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "f17fb3e1c7c48be212663af4d054f9c02f83effd18fff77e6a6e68caaccfee57"
+    },
+    {
+      "index": 103,
+      "encoding_mae_8bit": 1.4850264169068204,
+      "encoding_rmse_8bit": 1.9063233734166358,
+      "channel_bias_8bit": [
+        -0.9672340297790586,
+        -1.363727785782901,
+        -1.1296019452449568
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "ca235e53209d04f4e7cc7306de16989a652138a8ce5ffda89599e1a91e4e2e87"
+    },
+    {
+      "index": 104,
+      "encoding_mae_8bit": 1.471497258245277,
+      "encoding_rmse_8bit": 1.9067415463370219,
+      "channel_bias_8bit": [
+        -0.9184242915465898,
+        -1.3709774255523535,
+        -1.0683897694524496
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "b9b461e15206cc575aa046b7489587b118bbd06860149707635e6ba88c356a3a"
+    },
+    {
+      "index": 105,
+      "encoding_mae_8bit": 1.4935208533461415,
+      "encoding_rmse_8bit": 1.9000072151303085,
+      "channel_bias_8bit": [
+        -1.0059107829010567,
+        -1.3694944764649375,
+        -1.2261587415946205
+      ],
+      "maximum_channel_error": 40,
+      "decoded_sha256": "7289be2dde77bad91c45eaac18740cd3c175ca4ede832fd95ad0264c62ae2136"
+    },
+    {
+      "index": 106,
+      "encoding_mae_8bit": 1.4748674151456933,
+      "encoding_rmse_8bit": 1.9059016961050583,
+      "channel_bias_8bit": [
+        -0.9197946685878963,
+        -1.3861671469740633,
+        -1.0687184798270892
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "8b43a230fd33720cc96506db96ade4b3205dd8d3e0f0cd18c8c9727a60bce62a"
+    },
+    {
+      "index": 107,
+      "encoding_mae_8bit": 1.4773264889529298,
+      "encoding_rmse_8bit": 1.897631324301826,
+      "channel_bias_8bit": [
+        -0.9428134005763689,
+        -1.3681301032660902,
+        -1.1345956412103746
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "e24075081a0b004a1db38912f789af74179978b20271bc71d6224e60a42c7721"
+    },
+    {
+      "index": 108,
+      "encoding_mae_8bit": 1.4637958293307718,
+      "encoding_rmse_8bit": 1.8950689758715695,
+      "channel_bias_8bit": [
+        -0.9084308957732949,
+        -1.3761347262247838,
+        -1.0483534462055715
+      ],
+      "maximum_channel_error": 57,
+      "decoded_sha256": "166a40e218e2e805d6cb7f882ff09dbf60c32a646ffbef6992f841b1357cd1f2"
+    },
+    {
+      "index": 109,
+      "encoding_mae_8bit": 1.4897084133845662,
+      "encoding_rmse_8bit": 1.8943171857067762,
+      "channel_bias_8bit": [
+        -1.0017020893371757,
+        -1.369455451488953,
+        -1.2326488952929875
+      ],
+      "maximum_channel_error": 37,
+      "decoded_sha256": "b1832c6e3d556265090381d44fbc9e087459ae834b6dd102d82d7d982c711adc"
+    },
+    {
+      "index": 110,
+      "encoding_mae_8bit": 1.4628937520012808,
+      "encoding_rmse_8bit": 1.8927377715928029,
+      "channel_bias_8bit": [
+        -0.9139499279538905,
+        -1.36493605907781,
+        -1.0741534582132566
+      ],
+      "maximum_channel_error": 71,
+      "decoded_sha256": "1c261d582445b34dc3ed8ed3760ab9b83ba759e722adda228ee60c2e594ef29f"
+    },
+    {
+      "index": 111,
+      "encoding_mae_8bit": 1.4771403698366954,
+      "encoding_rmse_8bit": 1.9017783064451002,
+      "channel_bias_8bit": [
+        -0.9651506964457253,
+        -1.363568683957733,
+        -1.146526777137368
+      ],
+      "maximum_channel_error": 59,
+      "decoded_sha256": "c0d7c9223d21efac43a612305e5c1f9e6b0ddf7e61737460ed8ab296e53a2a2d"
+    },
+    {
+      "index": 112,
+      "encoding_mae_8bit": 1.4646813960935,
+      "encoding_rmse_8bit": 1.8955937582841227,
+      "channel_bias_8bit": [
+        -0.9122628482228626,
+        -1.363124399615754,
+        -1.0829640970220942
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "dc75ed78e0f92cfd5cb5930d6d5ad937c4424f433e3b73db6dc0be3090b3cc31"
+    },
+    {
+      "index": 113,
+      "encoding_mae_8bit": 1.4899585734870318,
+      "encoding_rmse_8bit": 1.8987641758399303,
+      "channel_bias_8bit": [
+        -1.0134651176753122,
+        -1.3690802113352545,
+        -1.2504097622478385
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "7d4458ef86f6c1259c2cbc0ba1d53d2c3443deefbccb388006c445040efe5627"
+    },
+    {
+      "index": 114,
+      "encoding_mae_8bit": 1.4647979707012488,
+      "encoding_rmse_8bit": 1.8965316956968004,
+      "channel_bias_8bit": [
+        -0.8982618876080691,
+        -1.3652242435158501,
+        -1.092435158501441
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "e0b539d2f8da094317450653bea60c3a119d71fbd8b83e04a78a3c970f493683"
+    },
+    {
+      "index": 115,
+      "encoding_mae_8bit": 1.4756579210694845,
+      "encoding_rmse_8bit": 1.904806447927611,
+      "channel_bias_8bit": [
+        -0.9524960975024015,
+        -1.3623964337175793,
+        -1.145741774735831
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "fbb3bcffad3f602caedb120789d86d0f558ca99ae19e4749b06e920178780bdf"
+    },
+    {
+      "index": 116,
+      "encoding_mae_8bit": 1.4612321886007045,
+      "encoding_rmse_8bit": 1.8938335268638538,
+      "channel_bias_8bit": [
+        -0.9025381243996158,
+        -1.3624459654178673,
+        -1.0859375
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "8a4867f3f1f3a6c19b6485e62f856044ff0154a0e2cfb6876491bb33be726f66"
+    },
+    {
+      "index": 117,
+      "encoding_mae_8bit": 1.4918267691322447,
+      "encoding_rmse_8bit": 1.9066283193613909,
+      "channel_bias_8bit": [
+        -0.9978025936599424,
+        -1.366873799231508,
+        -1.2516030259365993
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "b8dcc5a6fbb01abf09b08a6aa46d897605ae011330f70615bf361422547b78d2"
+    },
+    {
+      "index": 118,
+      "encoding_mae_8bit": 1.4753076969260326,
+      "encoding_rmse_8bit": 1.9157101202868823,
+      "channel_bias_8bit": [
+        -0.9078395172910663,
+        -1.3816372478386167,
+        -1.0925492315081653
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "1c5f2cfa1393452ffc6c39630159ddfa6f24baf47f7ce439a420b941b6d3dc30"
+    },
+    {
+      "index": 119,
+      "encoding_mae_8bit": 1.4749384606147935,
+      "encoding_rmse_8bit": 1.9108847289897921,
+      "channel_bias_8bit": [
+        -0.9378242074927954,
+        -1.3609705211335255,
+        -1.1454610951008646
+      ],
+      "maximum_channel_error": 60,
+      "decoded_sha256": "3097f0b5d608512dc9cfca924a4a654731050b9ec6791a11f9d1db36164b03ae"
+    },
+    {
+      "index": 120,
+      "encoding_mae_8bit": 1.4801673070765289,
+      "encoding_rmse_8bit": 1.9205558211579787,
+      "channel_bias_8bit": [
+        -0.9175447286263209,
+        -1.374729827089337,
+        -1.0949222502401537
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "16c1d8928f130dd7b1ba1fb82f322db38b6c03f8637f76aa433b67a09bc76c6d"
+    },
+    {
+      "index": 121,
+      "encoding_mae_8bit": 1.5003537263848863,
+      "encoding_rmse_8bit": 1.9214315797243366,
+      "channel_bias_8bit": [
+        -0.9604556916426513,
+        -1.3825498318924112,
+        -1.235442182997118
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "43984481705d97b930bbd3177d77020a9af708119510b2e446f9b9e300a225cf"
+    },
+    {
+      "index": 122,
+      "encoding_mae_8bit": 1.4967964497278259,
+      "encoding_rmse_8bit": 1.9384463746986793,
+      "channel_bias_8bit": [
+        -0.8988607708933718,
+        -1.399651777137368,
+        -1.1158471421709895
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "16bdb91b7043dd465169929c3da66ed3973f843ef78d8986366535b4dcc99f9d"
+    },
+    {
+      "index": 123,
+      "encoding_mae_8bit": 1.491773735190522,
+      "encoding_rmse_8bit": 1.9341784482339142,
+      "channel_bias_8bit": [
+        -0.9132039505283381,
+        -1.3859675192122958,
+        -1.1484179875120077
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "1bf8c3e9afa1d86233742d7508fae9ed9da9d32f3cf8f94833615468a79e3422"
+    },
+    {
+      "index": 124,
+      "encoding_mae_8bit": 1.5000245156900416,
+      "encoding_rmse_8bit": 1.9580649304080506,
+      "channel_bias_8bit": [
+        -0.8969080211335254,
+        -1.3916396493756005,
+        -1.1195740273775217
+      ],
+      "maximum_channel_error": 56,
+      "decoded_sha256": "b3dc932d80485c22fc89b254d4d8f8d2fd69aca8cbbc11630bbe130c198c02e6"
+    },
+    {
+      "index": 125,
+      "encoding_mae_8bit": 1.5109690201729107,
+      "encoding_rmse_8bit": 1.9421820526202824,
+      "channel_bias_8bit": [
+        -0.9696685878962537,
+        -1.3800597382324689,
+        -1.2299456652257446
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "23fd0326065333393c0f89a75482181419c7014f3f86dfa98e8a80a89bb98eef"
+    },
+    {
+      "index": 126,
+      "encoding_mae_8bit": 1.510718860070445,
+      "encoding_rmse_8bit": 1.9695813566494518,
+      "channel_bias_8bit": [
+        -0.912674111431316,
+        -1.3781805355427474,
+        -1.1112466978866475
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "672d75a6f16c4cc721d9ea3bdf9e99811321d40c62ee7d17ef687d0b0883845a"
+    },
+    {
+      "index": 127,
+      "encoding_mae_8bit": 1.515748579090618,
+      "encoding_rmse_8bit": 1.9683389162380225,
+      "channel_bias_8bit": [
+        -0.9387908261287223,
+        -1.3853161023054754,
+        -1.1448607108549471
+      ],
+      "maximum_channel_error": 62,
+      "decoded_sha256": "eb5fcf662cc74a40917ddd05e6ffa75bc1f3616ff9c89b8aed74e291dbbde074"
+    },
+    {
+      "index": 128,
+      "encoding_mae_8bit": 1.5411158141210375,
+      "encoding_rmse_8bit": 2.0155990646299613,
+      "channel_bias_8bit": [
+        -0.9393777017291066,
+        -1.3790871157540827,
+        -1.1356523174831892
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "a31e58d86a5aaeef5738b50023aae6160f5308bafee36ef5f6e1842465de7844"
+    },
+    {
+      "index": 129,
+      "encoding_mae_8bit": 1.5401561999679796,
+      "encoding_rmse_8bit": 1.9848765529260068,
+      "channel_bias_8bit": [
+        -1.0231057877041307,
+        -1.3724723823246878,
+        -1.2272559438040347
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "be7f500b6c61f297468991802adb4b7c67dc1a5e2d78e88388991c9cbfb803da"
+    },
+    {
+      "index": 130,
+      "encoding_mae_8bit": 1.5433457412744156,
+      "encoding_rmse_8bit": 2.015368823654129,
+      "channel_bias_8bit": [
+        -0.9562289865513929,
+        -1.3902302473583092,
+        -1.1016255403458213
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "c21b92e0b58770d23e6cbfa8f8b7e8f9736542f3995e986cccc5de23a28ea9cf"
+    },
+    {
+      "index": 131,
+      "encoding_mae_8bit": 1.5421014449247519,
+      "encoding_rmse_8bit": 2.0045868042276536,
+      "channel_bias_8bit": [
+        -0.9882714937560039,
+        -1.3917552233429396,
+        -1.1279839097022095
+      ],
+      "maximum_channel_error": 40,
+      "decoded_sha256": "37cddcf92a0cc10078e521254c1d4742af11e7850316f554aa91b68d9d83acf3"
+    },
+    {
+      "index": 132,
+      "encoding_mae_8bit": 1.559164865513929,
+      "encoding_rmse_8bit": 2.04312299801417,
+      "channel_bias_8bit": [
+        -0.9660782901056676,
+        -1.3985515730067244,
+        -1.089359690201729
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "a66ce8b82fe3136a0821b4f4c7574f506a115b670a825733b1b752260eff3bf7"
+    },
+    {
+      "index": 133,
+      "encoding_mae_8bit": 1.5620472102145373,
+      "encoding_rmse_8bit": 2.019732225739036,
+      "channel_bias_8bit": [
+        -1.0544308357348704,
+        -1.379048090778098,
+        -1.2009696205571565
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "8008351f916e593a29a83a35f109eeec142add276cd2252092529be24e77efc4"
+    },
+    {
+      "index": 134,
+      "encoding_mae_8bit": 1.582332192603266,
+      "encoding_rmse_8bit": 2.0747666085965655,
+      "channel_bias_8bit": [
+        -0.9857814000960615,
+        -1.4069554514889528,
+        -1.1045088856868395
+      ],
+      "maximum_channel_error": 55,
+      "decoded_sha256": "96f67bc80fb6f50ed7003b6b876d904b98749ba3ed8dfe7f051f6dbf5844e13b"
+    },
+    {
+      "index": 135,
+      "encoding_mae_8bit": 1.579352785782901,
+      "encoding_rmse_8bit": 2.0628738417634027,
+      "channel_bias_8bit": [
+        -1.0176633045148895,
+        -1.402587656099904,
+        -1.1411443323727186
+      ],
+      "maximum_channel_error": 66,
+      "decoded_sha256": "b1f3e0c8631031672c81fa33d9819095a8c67bca6344cfe1bbcdcdd05b633f0f"
+    },
+    {
+      "index": 136,
+      "encoding_mae_8bit": 1.5899500680435479,
+      "encoding_rmse_8bit": 2.089780729511678,
+      "channel_bias_8bit": [
+        -0.9867945485110471,
+        -1.4036938640730068,
+        -1.090072646493756
+      ],
+      "maximum_channel_error": 58,
+      "decoded_sha256": "4fc23fcb2f8d42da6eef8464d75c40186829162073353f0797b3bdaa734233cf"
+    },
+    {
+      "index": 137,
+      "encoding_mae_8bit": 1.5872788584694204,
+      "encoding_rmse_8bit": 2.054355139703361,
+      "channel_bias_8bit": [
+        -1.0573457012487992,
+        -1.402324987992315,
+        -1.1914280139289144
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "0760d11971b9327d93cff8512d0b848b3d5d66cec89a373d39c1d5b2062975e1"
+    },
+    {
+      "index": 138,
+      "encoding_mae_8bit": 1.6023269892731349,
+      "encoding_rmse_8bit": 2.1079571459901105,
+      "channel_bias_8bit": [
+        -0.9995377041306436,
+        -1.4417567243035543,
+        -1.0633300312199807
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "2088024d15afc7f01720b40f009ac4930d4a577a53878906a407bf0533a0454f"
+    },
+    {
+      "index": 139,
+      "encoding_mae_8bit": 1.5932937079731029,
+      "encoding_rmse_8bit": 2.0832735342042152,
+      "channel_bias_8bit": [
+        -1.0165706051873198,
+        -1.4318128602305475,
+        -1.1087190802113354
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "782136263955a08f612200440e753f3ba1b39c42ccfc249cfa19078aca8c1084"
+    },
+    {
+      "index": 140,
+      "encoding_mae_8bit": 1.6054174671789945,
+      "encoding_rmse_8bit": 2.1254774284266587,
+      "channel_bias_8bit": [
+        -0.9866729707012488,
+        -1.4396703890489913,
+        -1.0830406460134485
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "1919cf9a646fc254f14f3bd2d3b50a524f17130ee6f9e94826578bd9557ffdcf"
+    },
+    {
+      "index": 141,
+      "encoding_mae_8bit": 1.5882940081652257,
+      "encoding_rmse_8bit": 2.0664412439809383,
+      "channel_bias_8bit": [
+        -1.031060878962536,
+        -1.4347112151777137,
+        -1.1934483069164266
+      ],
+      "maximum_channel_error": 71,
+      "decoded_sha256": "cc76a86ae1f215eb6b5662a1757c8774d14f061d3600a21b8bb3b6862c74a8bf"
+    },
+    {
+      "index": 142,
+      "encoding_mae_8bit": 1.5930040225744477,
+      "encoding_rmse_8bit": 2.1126104464986297,
+      "channel_bias_8bit": [
+        -0.9714082012487992,
+        -1.448407480787704,
+        -1.0788349543707973
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "723806107315a6e7d973ef83de5d5a6e8d605078c9814365d5fed11e62ff4ce0"
+    },
+    {
+      "index": 143,
+      "encoding_mae_8bit": 1.591017251040666,
+      "encoding_rmse_8bit": 2.092015530187639,
+      "channel_bias_8bit": [
+        -1.0049171469740634,
+        -1.4456427113352546,
+        -1.1282795989433236
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "479508f1c67ce278f075e583bd2d8fb4e97c2b56963763567b8890b7271c74c8"
+    },
+    {
+      "index": 144,
+      "encoding_mae_8bit": 1.5962526016650656,
+      "encoding_rmse_8bit": 2.1278105295575087,
+      "channel_bias_8bit": [
+        -0.9729451849183477,
+        -1.4614763448607109,
+        -1.078864973583093
+      ],
+      "maximum_channel_error": 55,
+      "decoded_sha256": "2125ad6237bd061033e50cb8544b19196ed3a4a67ca11f7f8d55d14cc62f202d"
+    },
+    {
+      "index": 145,
+      "encoding_mae_8bit": 1.5931220981428114,
+      "encoding_rmse_8bit": 2.0836595565913774,
+      "channel_bias_8bit": [
+        -1.0297460374639769,
+        -1.4630763688760806,
+        -1.1948952329490874
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "5a68ff401a1eaf108173b6bffce3a67f0549f05f3b0f246196f8292e67f8c8d0"
+    },
+    {
+      "index": 146,
+      "encoding_mae_8bit": 1.5982063520653218,
+      "encoding_rmse_8bit": 2.143519323929439,
+      "channel_bias_8bit": [
+        -0.9447661503362151,
+        -1.4716888808837656,
+        -1.0714157060518732
+      ],
+      "maximum_channel_error": 73,
+      "decoded_sha256": "274b6671fd2cc691a7c38c0be81891565ad0a8c87d487fe80ed51b022b0cdf8a"
+    },
+    {
+      "index": 147,
+      "encoding_mae_8bit": 1.6099043387768173,
+      "encoding_rmse_8bit": 2.141775854387821,
+      "channel_bias_8bit": [
+        -0.9767050912584054,
+        -1.4645533141210374,
+        -1.1576428914505283
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "e03b3ef5d8ca2cd251453889e3fbe4db76f50c351179aa49bd89c60dce26ed88"
+    },
+    {
+      "index": 148,
+      "encoding_mae_8bit": 1.6185883965738073,
+      "encoding_rmse_8bit": 2.1918077181831057,
+      "channel_bias_8bit": [
+        -0.9561824567723343,
+        -1.4609825288184437,
+        -1.0835239553314122
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "8a98ac3ae806c5ebb85dc32a645dae3a939eda3eb984099f98bb76872d1103c2"
+    },
+    {
+      "index": 149,
+      "encoding_mae_8bit": 1.610124479666987,
+      "encoding_rmse_8bit": 2.1363253232987853,
+      "channel_bias_8bit": [
+        -1.0065667026897214,
+        -1.444164265129683,
+        -1.19989042987512
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "e9ae0b4b2fa46d6e05fcc8026015b40a914a644c1a45fdb44e7f13da9ce4d9cf"
+    },
+    {
+      "index": 150,
+      "encoding_mae_8bit": 1.6214202089337175,
+      "encoding_rmse_8bit": 2.157348872728179,
+      "channel_bias_8bit": [
+        -1.0094320365033622,
+        -1.4525396253602305,
+        -1.1983594500480308
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "57f1540f6ab677f08fdf4a64481fd9364787381f78bb80c29e94e45c2f8c3b32"
+    },
+    {
+      "index": 151,
+      "encoding_mae_8bit": 1.604913144412424,
+      "encoding_rmse_8bit": 2.1228705119942775,
+      "channel_bias_8bit": [
+        -1.004935158501441,
+        -1.436242195004803,
+        -1.2023745196926032
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "f040ac2ec36d7dda03241bf122d583f662bb53b90ffbe3511ab05c40b81e34f3"
+    },
+    {
+      "index": 152,
+      "encoding_mae_8bit": 1.5769372398334935,
+      "encoding_rmse_8bit": 2.0479930019937025,
+      "channel_bias_8bit": [
+        -1.0077314481268012,
+        -1.4116849783861671,
+        -1.1992044908741595
+      ],
+      "maximum_channel_error": 60,
+      "decoded_sha256": "c3fde4de3020d93f523f7afae9c8d8b34fc3b580075f39cf05327008129f1f5b"
+    },
+    {
+      "index": 153,
+      "encoding_mae_8bit": 1.568582392731348,
+      "encoding_rmse_8bit": 2.0111559210585432,
+      "channel_bias_8bit": [
+        -1.0005943804034583,
+        -1.4179379803073968,
+        -1.2152047310278578
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "8402c434f87cd8af685a7ef1c4dd122bc89d0fea8f1dc77216217b0f77e6a257"
+    },
+    {
+      "index": 154,
+      "encoding_mae_8bit": 1.5655559558117196,
+      "encoding_rmse_8bit": 2.0018915666690362,
+      "channel_bias_8bit": [
+        -0.9920479106628242,
+        -1.4103941522574448,
+        -1.2357453770413065
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "43fb2c556bef2c42854ba6f9c0d9d1f2887ef781c4c4468f1610adb1bf6d9753"
+    },
+    {
+      "index": 155,
+      "encoding_mae_8bit": 1.5666726705091258,
+      "encoding_rmse_8bit": 1.9939033116644374,
+      "channel_bias_8bit": [
+        -1.01747868635927,
+        -1.4204445845341018,
+        -1.2383105187319885
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "618e099523575ef9e6634405de8fa46979c06c21219a371b54e460258de5b56f"
+    },
+    {
+      "index": 156,
+      "encoding_mae_8bit": 1.5620507124559717,
+      "encoding_rmse_8bit": 1.98648068390428,
+      "channel_bias_8bit": [
+        -1.0027857829010567,
+        -1.419752641690682,
+        -1.2830211335254562
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "ba4018600a7bc7c68940c1cb10a95ab4f0a27123226e623a87fdedac7cc96b6a"
+    },
+    {
+      "index": 157,
+      "encoding_mae_8bit": 1.5664220100864554,
+      "encoding_rmse_8bit": 1.9860329476613137,
+      "channel_bias_8bit": [
+        -1.0189661383285302,
+        -1.4377656700288184,
+        -1.3111401296829972
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "f71a0881500db97b27975636ff425926ee2db72c985c1e7f6651c18dd9d6ea86"
+    },
+    {
+      "index": 158,
+      "encoding_mae_8bit": 1.4311574407620877,
+      "encoding_rmse_8bit": 1.788757467656804,
+      "channel_bias_8bit": [
+        -1.0453140009606148,
+        -1.410559257925072,
+        -1.3101224783861671
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "6f75acdf5a225023394b36a6ff8e41e774de2a6954fca9c536804e32e1201d56"
+    },
+    {
+      "index": 159,
+      "encoding_mae_8bit": 1.5008850664425233,
+      "encoding_rmse_8bit": 1.9269322415260473,
+      "channel_bias_8bit": [
+        -0.9721256604226705,
+        -1.42354707012488,
+        -1.210197526416907
+      ],
+      "maximum_channel_error": 63,
+      "decoded_sha256": "2452c6760ac944fd606c9df7e0af488cef6f4d585e428a172a6d7ece6a090fc5"
+    },
+    {
+      "index": 160,
+      "encoding_mae_8bit": 1.4978806436119116,
+      "encoding_rmse_8bit": 1.9181524333599942,
+      "channel_bias_8bit": [
+        -0.9923165826128723,
+        -1.4175162103746397,
+        -1.2444359390009607
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "e19e6344e21b51c5649473bc3d42b6a0370ae71d3409b512c34a053ddc49c350"
+    },
+    {
+      "index": 161,
+      "encoding_mae_8bit": 1.5118420789305156,
+      "encoding_rmse_8bit": 1.9413790535809838,
+      "channel_bias_8bit": [
+        -0.9824762848222862,
+        -1.4162749159462056,
+        -1.2355112271853987
+      ],
+      "maximum_channel_error": 54,
+      "decoded_sha256": "65cda824ba1cc22bb9dd5813f7134f1abfae91cb33e1813ee5926af33fa47414"
+    },
+    {
+      "index": 162,
+      "encoding_mae_8bit": 1.4862171789945564,
+      "encoding_rmse_8bit": 1.8844744084304936,
+      "channel_bias_8bit": [
+        -1.0153082973102785,
+        -1.400007504803074,
+        -1.2920389048991354
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "ddab084e4757e83e5e804d26b0566ae8a4a9b8e4028466185da0b0c7f9a7a8e8"
+    },
+    {
+      "index": 163,
+      "encoding_mae_8bit": 1.505552553634326,
+      "encoding_rmse_8bit": 1.9374899935700618,
+      "channel_bias_8bit": [
+        -0.974230007204611,
+        -1.397289265129683,
+        -1.2449912944284343
+      ],
+      "maximum_channel_error": 61,
+      "decoded_sha256": "7d99441ec4c484b271825669029ab9f5c70f754b6c76de1f2020210e6dc02f08"
+    },
+    {
+      "index": 164,
+      "encoding_mae_8bit": 1.5046609830291386,
+      "encoding_rmse_8bit": 1.9269040697315802,
+      "channel_bias_8bit": [
+        -1.006083393371758,
+        -1.4050237151777136,
+        -1.2598222862632085
+      ],
+      "maximum_channel_error": 61,
+      "decoded_sha256": "5409a7ff326639a3295279ed386e96375c708acab31710f983cbdf0d324d648a"
+    },
+    {
+      "index": 165,
+      "encoding_mae_8bit": 1.5197011087095742,
+      "encoding_rmse_8bit": 1.9516760195130982,
+      "channel_bias_8bit": [
+        -0.9849303554274735,
+        -1.4115964217098944,
+        -1.2396448727185398
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "4294e58bf2b073385e7e031a51959505900c3429a87d5f3b31a3421ec05a835f"
+    },
+    {
+      "index": 166,
+      "encoding_mae_8bit": 1.5061464337175792,
+      "encoding_rmse_8bit": 1.9101326153514229,
+      "channel_bias_8bit": [
+        -1.0415030619596541,
+        -1.392062920268972,
+        -1.3258795629202689
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "483f61f6995d8f4e5bddc57cd9006acb8e56fe7787b63d84e6632528d747b085"
+    },
+    {
+      "index": 167,
+      "encoding_mae_8bit": 1.5141665666026256,
+      "encoding_rmse_8bit": 1.9479653549730993,
+      "channel_bias_8bit": [
+        -1.003125,
+        -1.388924411623439,
+        -1.2404809077809797
+      ],
+      "maximum_channel_error": 64,
+      "decoded_sha256": "d328d5bb112f738425a26eb36be27a2a6a31ca37f079d473cf07b3eeaa952fb6"
+    },
+    {
+      "index": 168,
+      "encoding_mae_8bit": 1.5150531340057636,
+      "encoding_rmse_8bit": 1.9413813730039458,
+      "channel_bias_8bit": [
+        -1.030275876560999,
+        -1.36885957012488,
+        -1.287891750720461
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "75fd2c4c3b289d6db4c51bcff2fd07b901ff0bd5fdfd83379e820628cf03f478"
+    },
+    {
+      "index": 169,
+      "encoding_mae_8bit": 1.5065391850784502,
+      "encoding_rmse_8bit": 1.9509266807198749,
+      "channel_bias_8bit": [
+        -1.005094260326609,
+        -1.3449687800192123,
+        -1.2547550432276657
+      ],
+      "maximum_channel_error": 58,
+      "decoded_sha256": "db7fd7db238ccc45c1af719d08efbdba6eb68c683a394a4ecc23d4d967a14717"
+    },
+    {
+      "index": 170,
+      "encoding_mae_8bit": 1.5033401376881204,
+      "encoding_rmse_8bit": 1.9119151310818727,
+      "channel_bias_8bit": [
+        -1.0537749159462055,
+        -1.3210164505283382,
+        -1.356947946685879
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "9c46a81d7bc216aa4568fe76c90877d7e7819c0c72e2a8bf3083d4cfb36765a8"
+    },
+    {
+      "index": 171,
+      "encoding_mae_8bit": 1.5071560798911303,
+      "encoding_rmse_8bit": 1.9605296358203503,
+      "channel_bias_8bit": [
+        -0.9792131964457252,
+        -1.3342549231508165,
+        -1.2460494716618635
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "c444e374b537eab5db68296f4e551e04decda9fc4e3671399e80dad8242a238a"
+    },
+    {
+      "index": 172,
+      "encoding_mae_8bit": 1.5066777737752162,
+      "encoding_rmse_8bit": 1.944196913136041,
+      "channel_bias_8bit": [
+        -1.0233234269932756,
+        -1.3189886527377521,
+        -1.2910377641690682
+      ],
+      "maximum_channel_error": 56,
+      "decoded_sha256": "7cc21d23d2620d621ae9b393f4d2c8bff6f54a743a41cc1cf1b58db9c890a21b"
+    },
+    {
+      "index": 173,
+      "encoding_mae_8bit": 1.5145738272494396,
+      "encoding_rmse_8bit": 1.9675258679738707,
+      "channel_bias_8bit": [
+        -0.9978025936599424,
+        -1.331743816042267,
+        -1.2412914265129682
+      ],
+      "maximum_channel_error": 63,
+      "decoded_sha256": "ac0bdecad31caa6869579052179f2cac1bed44104a2fb7569c331fd8eed8bbc9"
+    },
+    {
+      "index": 174,
+      "encoding_mae_8bit": 1.5296344660582772,
+      "encoding_rmse_8bit": 1.9461321783197343,
+      "channel_bias_8bit": [
+        -1.0731117915465898,
+        -1.35018161623439,
+        -1.3491264409221901
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "cd5df9b77065fc4b8da56f45ce16884bcf7b0399990feaee679687eea526d7bc"
+    },
+    {
+      "index": 175,
+      "encoding_mae_8bit": 1.5428304114633364,
+      "encoding_rmse_8bit": 2.0052901437644466,
+      "channel_bias_8bit": [
+        -1.0104692002881845,
+        -1.3614298150816522,
+        -1.260653818443804
+      ],
+      "maximum_channel_error": 55,
+      "decoded_sha256": "33cf4f8b8b52d631d173bca4db8123b787259b030f399efaa28422bdbe034726"
+    },
+    {
+      "index": 176,
+      "encoding_mae_8bit": 1.546743415786103,
+      "encoding_rmse_8bit": 1.9929188152703876,
+      "channel_bias_8bit": [
+        -1.0331156940441883,
+        -1.3740093659942363,
+        -1.2904088616714697
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "d524bafc04457aa1338c02ad279b86fe1f306a67524fdbf14005b8743609d4f0"
+    },
+    {
+      "index": 177,
+      "encoding_mae_8bit": 1.5468714977585656,
+      "encoding_rmse_8bit": 2.0059618104496377,
+      "channel_bias_8bit": [
+        -1.0133690561959654,
+        -1.3889109029779059,
+        -1.226918227665706
+      ],
+      "maximum_channel_error": 61,
+      "decoded_sha256": "73dd759810b6d4fe8f61be40412f55b6b8a7ab587f1ebbb37d0b5fda1731b5ad"
+    },
+    {
+      "index": 178,
+      "encoding_mae_8bit": 1.536525876560999,
+      "encoding_rmse_8bit": 1.9730836418654405,
+      "channel_bias_8bit": [
+        -1.0533981748318924,
+        -1.3641540585975025,
+        -1.3215612992315082
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "f684ac67029ace382fdc599dfe98739121e4a964592916df7fcbf90461ef691e"
+    },
+    {
+      "index": 179,
+      "encoding_mae_8bit": 1.55247158181236,
+      "encoding_rmse_8bit": 2.0265600028335835,
+      "channel_bias_8bit": [
+        -1.0010716858789626,
+        -1.3683237271853987,
+        -1.2346181556195965
+      ],
+      "maximum_channel_error": 67,
+      "decoded_sha256": "b7b3f589cacef9467e3241b1d2cd611d2b13df7ae9bea0012271d3468e75d362"
+    },
+    {
+      "index": 180,
+      "encoding_mae_8bit": 1.5462005683637527,
+      "encoding_rmse_8bit": 2.0070473519592715,
+      "channel_bias_8bit": [
+        -1.0153007925072046,
+        -1.3697646493756004,
+        -1.2625240153698367
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "f555b89b27204c1e3677af1862ebe02ccbef17d9e7cbb4f11479a77f7db393ff"
+    },
+    {
+      "index": 181,
+      "encoding_mae_8bit": 1.5697101144732628,
+      "encoding_rmse_8bit": 2.046019223904149,
+      "channel_bias_8bit": [
+        -1.0043302713736793,
+        -1.3916561599423631,
+        -1.2183762608069164
+      ],
+      "maximum_channel_error": 64,
+      "decoded_sha256": "bf061d4c7e5114db6af22e53418a192988eab1883714a1218e20eb5b054fcf01"
+    },
+    {
+      "index": 182,
+      "encoding_mae_8bit": 1.5618946125520332,
+      "encoding_rmse_8bit": 2.0026494418803606,
+      "channel_bias_8bit": [
+        -1.0637668107588858,
+        -1.4007594860710855,
+        -1.315420869356388
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "8bcb998967728f2bd51e2bddb26cdbee043085b487f164dacf6bf0bc19c52ee8"
+    },
+    {
+      "index": 183,
+      "encoding_mae_8bit": 1.5741534582132566,
+      "encoding_rmse_8bit": 2.0545845427462233,
+      "channel_bias_8bit": [
+        -1.0056225984630163,
+        -1.4092699327569644,
+        -1.2042447166186359
+      ],
+      "maximum_channel_error": 66,
+      "decoded_sha256": "63b3af8848c593fc5c3afb9ed151631ba018339452fc0361f79189b869cdbd20"
+    },
+    {
+      "index": 184,
+      "encoding_mae_8bit": 1.5703375160102466,
+      "encoding_rmse_8bit": 2.029337368329593,
+      "channel_bias_8bit": [
+        -1.023511047070125,
+        -1.4056706292026897,
+        -1.2321971061479347
+      ],
+      "maximum_channel_error": 63,
+      "decoded_sha256": "a0aadf6c83c78f3f10b439b39bba0de79f1427961d2abbd42e379ac6cb8d30da"
+    },
+    {
+      "index": 185,
+      "encoding_mae_8bit": 1.5784281940441882,
+      "encoding_rmse_8bit": 2.0593074268136857,
+      "channel_bias_8bit": [
+        -1.0156129923150816,
+        -1.4061944644572526,
+        -1.2022949687800193
+      ],
+      "maximum_channel_error": 90,
+      "decoded_sha256": "57ce35bfdfea883ac8b38dc31e0474951051d758327a67eb79e8fe8f1351904d"
+    },
+    {
+      "index": 186,
+      "encoding_mae_8bit": 1.5807686919628563,
+      "encoding_rmse_8bit": 2.026560990359405,
+      "channel_bias_8bit": [
+        -1.0549621757925072,
+        -1.4222487391930836,
+        -1.2760221541786743
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "c58026f0f15276c46fd04e3dd74096703b86b2f683a852b502eb7df5266eb3a4"
+    },
+    {
+      "index": 187,
+      "encoding_mae_8bit": 1.5830271373679154,
+      "encoding_rmse_8bit": 2.0617173507049618,
+      "channel_bias_8bit": [
+        -0.9908591498559077,
+        -1.4219500480307397,
+        -1.195821325648415
+      ],
+      "maximum_channel_error": 61,
+      "decoded_sha256": "4a7ad154b355dedf5fa2262271281c5f67dc5e3e64f5be34033014412f65ef5c"
+    },
+    {
+      "index": 188,
+      "encoding_mae_8bit": 1.5780154298751201,
+      "encoding_rmse_8bit": 2.041986560639627,
+      "channel_bias_8bit": [
+        -1.0151762127761768,
+        -1.4167116954851104,
+        -1.224324567723343
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "fa22a248416cb4b3cdd2edc7a412c48eebb3afd5707d706ff39ef64ec3c0a2a3"
+    },
+    {
+      "index": 189,
+      "encoding_mae_8bit": 1.5775011007044508,
+      "encoding_rmse_8bit": 2.063163530116137,
+      "channel_bias_8bit": [
+        -0.991177353506244,
+        -1.4091483549471662,
+        -1.172943683957733
+      ],
+      "maximum_channel_error": 84,
+      "decoded_sha256": "e24df939a4f98b10e214584f10d996ce73fc610de7fc3a3425854db8bf99c6b9"
+    },
+    {
+      "index": 190,
+      "encoding_mae_8bit": 1.5810238552673712,
+      "encoding_rmse_8bit": 2.0263496488650845,
+      "channel_bias_8bit": [
+        -1.0749459654178675,
+        -1.4233639529298752,
+        -1.2532720941402498
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "757ccb21ea6a1f4b685df3ede3b6431a9cb836f0e3f476d6fabb42872a990f31"
+    },
+    {
+      "index": 191,
+      "encoding_mae_8bit": 1.5832983109189882,
+      "encoding_rmse_8bit": 2.063919874840069,
+      "channel_bias_8bit": [
+        -1.0071715898174831,
+        -1.438865874159462,
+        -1.1826759125840538
+      ],
+      "maximum_channel_error": 71,
+      "decoded_sha256": "2024a483568d23bd6f50b1c6aac8f4532fc88724b87551c324be9ad5d5a5ee6b"
+    },
+    {
+      "index": 192,
+      "encoding_mae_8bit": 1.5884971381684279,
+      "encoding_rmse_8bit": 2.050301170640502,
+      "channel_bias_8bit": [
+        -1.036911623439001,
+        -1.4499294548511048,
+        -1.231598222862632
+      ],
+      "maximum_channel_error": 61,
+      "decoded_sha256": "9ce0979511ace0620dc23b5e6f608c162c11aadc26a98e7c570059aed982e42d"
+    },
+    {
+      "index": 193,
+      "encoding_mae_8bit": 1.5846841978866475,
+      "encoding_rmse_8bit": 2.06541065881856,
+      "channel_bias_8bit": [
+        -1.0046634846301632,
+        -1.4610815922190201,
+        -1.177077329490874
+      ],
+      "maximum_channel_error": 59,
+      "decoded_sha256": "e74eb9c33e450b4b7a158ccd1756e94b0457588838f99acc144a077fe88e9199"
+    },
+    {
+      "index": 194,
+      "encoding_mae_8bit": 1.5754177673711176,
+      "encoding_rmse_8bit": 2.02441556637135,
+      "channel_bias_8bit": [
+        -1.0674321565802114,
+        -1.4462460975024016,
+        -1.2734119836695486
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "06819ad3f8b242f5cf7808dace0767c5dbb4890855b2a07b2355046bcf3dfa77"
+    },
+    {
+      "index": 195,
+      "encoding_mae_8bit": 1.5753132004482868,
+      "encoding_rmse_8bit": 2.0552212333380306,
+      "channel_bias_8bit": [
+        -1.0151567002881845,
+        -1.4498964337175793,
+        -1.1951293828049951
+      ],
+      "maximum_channel_error": 54,
+      "decoded_sha256": "673be1b268c74a6984f9a9f3632f3747ca250706cd7273ce707b0cdba82a197c"
+    },
+    {
+      "index": 196,
+      "encoding_mae_8bit": 1.5656915425872557,
+      "encoding_rmse_8bit": 2.0289601215085007,
+      "channel_bias_8bit": [
+        -1.0301633045148895,
+        -1.4335779899135446,
+        -1.2218089577329492
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "f5abbc9833387d0f1e827335006028493932667f7e3d859d12739eb5374d2835"
+    },
+    {
+      "index": 197,
+      "encoding_mae_8bit": 1.5694429434838297,
+      "encoding_rmse_8bit": 2.051512629891707,
+      "channel_bias_8bit": [
+        -1.0172325288184438,
+        -1.435929995196926,
+        -1.1802023294908741
+      ],
+      "maximum_channel_error": 54,
+      "decoded_sha256": "0cc2936f60f3287ea21634a42f3b1b397e6d39b73b6f538ae689dc3c7f4eb1a5"
+    },
+    {
+      "index": 198,
+      "encoding_mae_8bit": 1.566868295709254,
+      "encoding_rmse_8bit": 2.023217062170943,
+      "channel_bias_8bit": [
+        -1.0519752641690683,
+        -1.4271613832853025,
+        -1.259709714217099
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "4af5a182bf32fc9629eda1c415e973df36fbff88c181a59db73ef0df21522866"
+    },
+    {
+      "index": 199,
+      "encoding_mae_8bit": 1.5652882845020812,
+      "encoding_rmse_8bit": 2.0463407601678427,
+      "channel_bias_8bit": [
+        -1.0015384846301634,
+        -1.4235845941402498,
+        -1.1751996277617676
+      ],
+      "maximum_channel_error": 61,
+      "decoded_sha256": "7a537917abdb0a40d24c9d93f70483857f15ea43050b2a858eea2bd36d7fb063"
+    },
+    {
+      "index": 200,
+      "encoding_mae_8bit": 1.559674191482549,
+      "encoding_rmse_8bit": 2.0190373863946407,
+      "channel_bias_8bit": [
+        -1.0190351825168107,
+        -1.4162163784822286,
+        -1.1944434438040346
+      ],
+      "maximum_channel_error": 63,
+      "decoded_sha256": "61ebd726b364fd81e95509769259921282af72c3644322dfaea9e73b627d4bd5"
+    },
+    {
+      "index": 201,
+      "encoding_mae_8bit": 1.5538974943964137,
+      "encoding_rmse_8bit": 2.0142451681715414,
+      "channel_bias_8bit": [
+        -0.992943984149856,
+        -1.404426332853026,
+        -1.1625390249759846
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "3fc47cf769ce7d5fbe7708fbea126106e373be809538d5781ff72cce76764f3a"
+    },
+    {
+      "index": 202,
+      "encoding_mae_8bit": 1.5370402057316683,
+      "encoding_rmse_8bit": 1.959432749825494,
+      "channel_bias_8bit": [
+        -1.0346676873198848,
+        -1.3980412463976946,
+        -1.2236866594620557
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "f6a5431be15b3f21a5dc31e449f2f299049376355e0ddc4320fb51bdd86a2ffb"
+    },
+    {
+      "index": 203,
+      "encoding_mae_8bit": 1.5235815922190201,
+      "encoding_rmse_8bit": 1.9614338435293777,
+      "channel_bias_8bit": [
+        -0.9852800792507205,
+        -1.381881904418828,
+        -1.1477590658021133
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "e2c2a66b2504ce83dedbe1517de4a9e569df6299df1e135b1533b5fba5bfdce3"
+    },
+    {
+      "index": 204,
+      "encoding_mae_8bit": 1.5251365874159462,
+      "encoding_rmse_8bit": 1.9526719575431035,
+      "channel_bias_8bit": [
+        -1.0018011527377522,
+        -1.3693143611911625,
+        -1.1753647334293948
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "b64b72a4bf47d02ad42c82c42dc04c03de8fd2982163da48924562d059eaae1d"
+    },
+    {
+      "index": 205,
+      "encoding_mae_8bit": 1.519250820525136,
+      "encoding_rmse_8bit": 1.9545110315775753,
+      "channel_bias_8bit": [
+        -0.9796754923150817,
+        -1.3731973463016331,
+        -1.1287959293948127
+      ],
+      "maximum_channel_error": 54,
+      "decoded_sha256": "625d73e80a195c914b78c94fcdc5ea93f71c15f72d07f40c1318f2d0df349e6e"
+    },
+    {
+      "index": 206,
+      "encoding_mae_8bit": 1.518880083253282,
+      "encoding_rmse_8bit": 1.932820195491858,
+      "channel_bias_8bit": [
+        -1.0292912463976944,
+        -1.361838076368876,
+        -1.2339067002881845
+      ],
+      "maximum_channel_error": 66,
+      "decoded_sha256": "015f5b27c98585344cdd36a8845dd63a1858331f0dab57164f4272fae1cd547c"
+    },
+    {
+      "index": 207,
+      "encoding_mae_8bit": 1.512041706692283,
+      "encoding_rmse_8bit": 1.951386189650614,
+      "channel_bias_8bit": [
+        -0.9848417987512008,
+        -1.3511677473583092,
+        -1.1691297430355427
+      ],
+      "maximum_channel_error": 56,
+      "decoded_sha256": "8f33892b2f07e25a49db7fe10d8914269d4708bdcbea529bb3c07d138611a177"
+    },
+    {
+      "index": 208,
+      "encoding_mae_8bit": 1.5100894572526418,
+      "encoding_rmse_8bit": 1.9356719682373655,
+      "channel_bias_8bit": [
+        -0.9988247478386167,
+        -1.3712806195965417,
+        -1.2137082732949087
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "682207b21f4ac0b70f94d39a0a574c5d7cb24486b4e72032698537dda3d73f0a"
+    },
+    {
+      "index": 209,
+      "encoding_mae_8bit": 1.515072646493756,
+      "encoding_rmse_8bit": 1.946584722772959,
+      "channel_bias_8bit": [
+        -0.9823787223823247,
+        -1.3810954010566763,
+        -1.209985890970221
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "34e741bcc23e1254c9e66ade74f4010a38240f77e743ca73bbb7a3d34fb4e00a"
+    },
+    {
+      "index": 210,
+      "encoding_mae_8bit": 1.5194899735830931,
+      "encoding_rmse_8bit": 1.9277403500026913,
+      "channel_bias_8bit": [
+        -1.0317723342939482,
+        -1.3954175672430356,
+        -1.3124459654178675
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "d405ac67e2895fab840039dd0d8f7063cc96d2cae27ec0b006132dd3bbdcfa39"
+    },
+    {
+      "index": 211,
+      "encoding_mae_8bit": 1.5090958213256485,
+      "encoding_rmse_8bit": 1.9323420311280737,
+      "channel_bias_8bit": [
+        -1.003233069164265,
+        -1.3894362391930837,
+        -1.2394002161383286
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "f6f5f11125c423f6e7feec0bc06cadb0f54326cd5f241ea6cf3dd981ce7fd044"
+    },
+    {
+      "index": 212,
+      "encoding_mae_8bit": 1.510354626961255,
+      "encoding_rmse_8bit": 1.932376984886619,
+      "channel_bias_8bit": [
+        -0.9897724543707973,
+        -1.3769482468780019,
+        -1.296562800192123
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "02dd2316d3874842d0b89100a00e24bd05d8876c94eab85b35ec03b39cde712c"
+    },
+    {
+      "index": 213,
+      "encoding_mae_8bit": 1.5087551032660902,
+      "encoding_rmse_8bit": 1.9412228727260095,
+      "channel_bias_8bit": [
+        -0.9815877161383285,
+        -1.3894797670509125,
+        -1.2736566402497598
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "673e80a4ffdfcba46151e99141c29134d33109ff0ccde324ae650e570267cf61"
+    },
+    {
+      "index": 214,
+      "encoding_mae_8bit": 1.5112587055715658,
+      "encoding_rmse_8bit": 1.924056593766579,
+      "channel_bias_8bit": [
+        -1.020261467339097,
+        -1.3779103626320846,
+        -1.3509350984630164
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "d6b6344c8d50cb0342fd2a06f73c9ec988c19c672b1256dbc33b7afe47e4416b"
+    },
+    {
+      "index": 215,
+      "encoding_mae_8bit": 1.5004322766570606,
+      "encoding_rmse_8bit": 1.9299748376181638,
+      "channel_bias_8bit": [
+        -0.9978506243996158,
+        -1.3680415465898175,
+        -1.2764439241114314
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "de5c9ef241311b1a9034160fd76dbbbc09c50a364b8cd820f886e789d28df4a8"
+    },
+    {
+      "index": 216,
+      "encoding_mae_8bit": 1.5004367795389049,
+      "encoding_rmse_8bit": 1.9212615379938047,
+      "channel_bias_8bit": [
+        -1.0246187560038424,
+        -1.344629562920269,
+        -1.3189496277617676
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "d129469a9449741fa2c05dc7c8c6c185d75a982b840d728b1881d94e1622e1b5"
+    },
+    {
+      "index": 217,
+      "encoding_mae_8bit": 1.5039945565161703,
+      "encoding_rmse_8bit": 1.9339257079660832,
+      "channel_bias_8bit": [
+        -1.0370437079731027,
+        -1.336737512007685,
+        -1.2960374639769452
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "da87b3eaf4a2708e8694a5ed9ac83d98953ad8f661719bb450fef0d5847e8292"
+    },
+    {
+      "index": 218,
+      "encoding_mae_8bit": 1.5138463616714697,
+      "encoding_rmse_8bit": 1.9204783184565932,
+      "channel_bias_8bit": [
+        -1.0916876801152737,
+        -1.331089397214217,
+        -1.3969500480307397
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "f3f35cc684525fdf918311330b6b2288f2cf76d49c7a9945e6e5fc5ecb5a2a13"
+    },
+    {
+      "index": 219,
+      "encoding_mae_8bit": 1.508503942523215,
+      "encoding_rmse_8bit": 1.940595445433441,
+      "channel_bias_8bit": [
+        -1.0615318804034581,
+        -1.3228536263208452,
+        -1.3162584053794428
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "c07480fdf397505d54842b5b331398c0fdb676b3a82e18a3eed971667824c853"
+    },
+    {
+      "index": 220,
+      "encoding_mae_8bit": 1.5085819924751842,
+      "encoding_rmse_8bit": 1.9315248392011035,
+      "channel_bias_8bit": [
+        -1.077455571565802,
+        -1.3135011407300672,
+        -1.3543918107588857
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "2be24b508fa93b99d5e23e1e9f89a5e252928ed10c67fa5cc9bfd85806c7c3e7"
+    },
+    {
+      "index": 221,
+      "encoding_mae_8bit": 1.5114283141210374,
+      "encoding_rmse_8bit": 1.9493252463625224,
+      "channel_bias_8bit": [
+        -1.0666171349663784,
+        -1.3197361311239193,
+        -1.3256093900096062
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "a322686a3dd9cf72c9cbb878d1dd3bdca0bacea4eb43567fb8751323f5bda851"
+    },
+    {
+      "index": 222,
+      "encoding_mae_8bit": 1.514163564681396,
+      "encoding_rmse_8bit": 1.925371916407465,
+      "channel_bias_8bit": [
+        -1.1091078290105667,
+        -1.3137187800192123,
+        -1.4023970341018253
+      ],
+      "maximum_channel_error": 41,
+      "decoded_sha256": "c22b11e52f71899bbd4939e2fdc8defbda85459ce592a5b342b2579a8217e1f3"
+    },
+    {
+      "index": 223,
+      "encoding_mae_8bit": 1.4984680195325009,
+      "encoding_rmse_8bit": 1.9413907795242167,
+      "channel_bias_8bit": [
+        -1.0351570004803075,
+        -1.330676633045149,
+        -1.287165285782901
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "2bdc1f05acc771b2a0e5c0d1f2d5ea7ed39cb46dd0b69f0951d72fe5b86ad628"
+    },
+    {
+      "index": 224,
+      "encoding_mae_8bit": 1.5138778818443803,
+      "encoding_rmse_8bit": 1.9418082285039433,
+      "channel_bias_8bit": [
+        -1.0457943083573487,
+        -1.3530379442843419,
+        -1.3349813880883765
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "4f314400198867f501974e067cabcf819e9cc1dedf5aa3dd628ac738671411fd"
+    },
+    {
+      "index": 225,
+      "encoding_mae_8bit": 1.51166496557797,
+      "encoding_rmse_8bit": 1.962172667684931,
+      "channel_bias_8bit": [
+        -1.0137097742555234,
+        -1.3635146493756003,
+        -1.2898580091258405
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "b682781c4a35c89c127bf7dabb5400aa95452162465012a45b744b27addd31f7"
+    },
+    {
+      "index": 226,
+      "encoding_mae_8bit": 1.5225619396413705,
+      "encoding_rmse_8bit": 1.9455533952911481,
+      "channel_bias_8bit": [
+        -1.0643837055715657,
+        -1.356265009606148,
+        -1.3774765850144093
+      ],
+      "maximum_channel_error": 37,
+      "decoded_sha256": "8a6128365d2f2f7b9ef4e7726e6d95f8e9d948999bdc328cc7bae8dd52814fe6"
+    },
+    {
+      "index": 227,
+      "encoding_mae_8bit": 1.5147569444444444,
+      "encoding_rmse_8bit": 1.9677750554237643,
+      "channel_bias_8bit": [
+        -1.0005793707973103,
+        -1.3555985830931796,
+        -1.2600279178674352
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "25bb111b892002f9f98470c80d4b9e5567846c58dc09366a1bce8527076bb703"
+    },
+    {
+      "index": 228,
+      "encoding_mae_8bit": 1.5185043427793787,
+      "encoding_rmse_8bit": 1.973453316274436,
+      "channel_bias_8bit": [
+        -1.004208693563881,
+        -1.3415736071085496,
+        -1.3101119716618637
+      ],
+      "maximum_channel_error": 40,
+      "decoded_sha256": "dcbc0fa94716f7d5336804c670018b4d3707830aaf00ac979ee63d6b64c35d10"
+    },
+    {
+      "index": 229,
+      "encoding_mae_8bit": 1.5247408341338458,
+      "encoding_rmse_8bit": 1.9932691233124262,
+      "channel_bias_8bit": [
+        -0.997391330451489,
+        -1.349876921229587,
+        -1.2639439241114314
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "a4cac8f912a836ffa651ccb441ba00a0095cb79b104da731548f1119acf97c57"
+    },
+    {
+      "index": 230,
+      "encoding_mae_8bit": 1.5336320244956771,
+      "encoding_rmse_8bit": 1.9942682486923757,
+      "channel_bias_8bit": [
+        -1.031694284341979,
+        -1.3540826128722383,
+        -1.3234164865513929
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "120c84dbaabe9047e11d40f544e60a8b7a9743a08265b36e6ee7d89945348868"
+    },
+    {
+      "index": 231,
+      "encoding_mae_8bit": 1.5303284101825168,
+      "encoding_rmse_8bit": 2.0288149984142434,
+      "channel_bias_8bit": [
+        -0.9639184077809798,
+        -1.3503827449567722,
+        -1.2174951969260326
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "9896b60744b9f567577c4df316cd6f83d0b573210fdbf251060e1c4d1948f5ec"
+    },
+    {
+      "index": 232,
+      "encoding_mae_8bit": 1.5288979947166186,
+      "encoding_rmse_8bit": 2.0134460602718116,
+      "channel_bias_8bit": [
+        -0.9716738712776177,
+        -1.3583438400576369,
+        -1.23212355907781
+      ],
+      "maximum_channel_error": 56,
+      "decoded_sha256": "164b33bcae999aaf2e5db7ad3bd0f43c211a7ab06cd8d2a3fa8eab231337a162"
+    },
+    {
+      "index": 233,
+      "encoding_mae_8bit": 1.5269882724943964,
+      "encoding_rmse_8bit": 2.039091722516134,
+      "channel_bias_8bit": [
+        -0.9386902617675312,
+        -1.3526702089337175,
+        -1.2030139289145052
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "44f2b2203c274d049d668b6dc8a2ac21bd57f6c975ef2c2e575d4c2297e1eb3a"
+    },
+    {
+      "index": 234,
+      "encoding_mae_8bit": 1.5282045509125841,
+      "encoding_rmse_8bit": 2.013188111647454,
+      "channel_bias_8bit": [
+        -0.9844275336215178,
+        -1.3578260086455332,
+        -1.2694074207492796
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "be1fd46e502ff2be96009cb70b589bfefae013f7988a7553c77d98829fcd8269"
+    },
+    {
+      "index": 235,
+      "encoding_mae_8bit": 1.5260231548190841,
+      "encoding_rmse_8bit": 2.0570375782427783,
+      "channel_bias_8bit": [
+        -0.911991174351585,
+        -1.3535062439961576,
+        -1.1687560038424591
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "f45425b8908c55c4f820d0aa73036648dba9f338b00e76b9a7e41f95d4e6c7cf"
+    },
+    {
+      "index": 236,
+      "encoding_mae_8bit": 1.5273645132885045,
+      "encoding_rmse_8bit": 2.0380707516494088,
+      "channel_bias_8bit": [
+        -0.9318653938520653,
+        -1.3419743635926993,
+        -1.1965492915465898
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "eac98b7539b25d0d5cc9478136a5fe764cc42c0423279775f710225f6e40768e"
+    },
+    {
+      "index": 237,
+      "encoding_mae_8bit": 1.5321160542747359,
+      "encoding_rmse_8bit": 2.062050147915907,
+      "channel_bias_8bit": [
+        -0.9394122238232469,
+        -1.3216918828049953,
+        -1.1696670869356387
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "c58ebc22d938f62a40bb07d69ec5472a1c699ee11cb4cd985ebaa51999de5e23"
+    },
+    {
+      "index": 238,
+      "encoding_mae_8bit": 1.5202159382004483,
+      "encoding_rmse_8bit": 2.0251745239325736,
+      "channel_bias_8bit": [
+        -0.9726930235350625,
+        -1.3398730187319885,
+        -1.2193834053794428
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "70f28ecb49bfbc177b9c34c723753f6391f7c5f09d671a61763b780e1c8ba7c2"
+    },
+    {
+      "index": 239,
+      "encoding_mae_8bit": 1.5214867515209733,
+      "encoding_rmse_8bit": 2.0766831901776244,
+      "channel_bias_8bit": [
+        -0.9167672310278578,
+        -1.3289295148895293,
+        -1.1462250840537944
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "d650fdd4f7f50cea5394f81ee23ff5a6cba4cd0505e5173b55a2c2f058253558"
+    },
+    {
+      "index": 240,
+      "encoding_mae_8bit": 1.513647734550112,
+      "encoding_rmse_8bit": 2.0612722429815524,
+      "channel_bias_8bit": [
+        -0.9418873078770413,
+        -1.3186749519692604,
+        -1.1695950408261286
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "5524d5b299746a269b22eb769555b537cb052d534ed729ceee8a4df25b280b79"
+    },
+    {
+      "index": 241,
+      "encoding_mae_8bit": 1.5020433077169388,
+      "encoding_rmse_8bit": 2.071092038086996,
+      "channel_bias_8bit": [
+        -0.9015159702209414,
+        -1.3112226825168107,
+        -1.1240348823246877
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "3a0c87e47b6d1ac5aa16341f1ea5a51a2a7dfd1e69d08ef35cbd948494b79bd0"
+    },
+    {
+      "index": 242,
+      "encoding_mae_8bit": 1.5058997758565482,
+      "encoding_rmse_8bit": 2.05551966740919,
+      "channel_bias_8bit": [
+        -0.9607228626320845,
+        -1.2998018731988472,
+        -1.2114643371757925
+      ],
+      "maximum_channel_error": 55,
+      "decoded_sha256": "5ea991c7db5cf8dc29c7e9d637880953d1bddf1e8024f68149f0073ea90a8edd"
+    },
+    {
+      "index": 243,
+      "encoding_mae_8bit": 1.5058337335894973,
+      "encoding_rmse_8bit": 2.0841208886055833,
+      "channel_bias_8bit": [
+        -0.9287073727185399,
+        -1.284441042267051,
+        -1.1745827329490874
+      ],
+      "maximum_channel_error": 56,
+      "decoded_sha256": "d2074b17ee3e2717e7e6d9b2415f5fd642322a62ae304bcf70684c4f258e5d18"
+    },
+    {
+      "index": 244,
+      "encoding_mae_8bit": 1.499368595901377,
+      "encoding_rmse_8bit": 2.1159705792271732,
+      "channel_bias_8bit": [
+        -0.88125,
+        -1.2638283501440921,
+        -1.110196025456292
+      ],
+      "maximum_channel_error": 55,
+      "decoded_sha256": "f099db97d01515d91cea6766535b30f3402cce474a1eb5f280dc52ae08d47b4f"
+    },
+    {
+      "index": 245,
+      "encoding_mae_8bit": 1.4995462095741274,
+      "encoding_rmse_8bit": 2.0998336726821663,
+      "channel_bias_8bit": [
+        -0.9192092939481268,
+        -1.2450243155619596,
+        -1.1854616954851105
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "9205482a0fb1a55e7a3ac050819cc0443199d688e4bc71201b391833e62494b3"
+    },
+    {
+      "index": 246,
+      "encoding_mae_8bit": 1.4790075648414986,
+      "encoding_rmse_8bit": 2.072838600159665,
+      "channel_bias_8bit": [
+        -0.9021043467819404,
+        -1.234643671950048,
+        -1.166962355907781
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "67b773fee259aec857d0f09e46014db8106c797ff3622354952a52251f008d72"
+    },
+    {
+      "index": 247,
+      "encoding_mae_8bit": 1.4341248398975344,
+      "encoding_rmse_8bit": 2.0089158457835614,
+      "channel_bias_8bit": [
+        -0.8299936959654178,
+        -1.203336635446686,
+        -1.088277497598463
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "c1b2478db7a6c2d839bb005dfe374e633cf8a90828d5844f877535d54432780d"
+    },
+    {
+      "index": 248,
+      "encoding_mae_8bit": 1.4126140730067243,
+      "encoding_rmse_8bit": 1.9224511238851263,
+      "channel_bias_8bit": [
+        -0.8472127161383285,
+        -1.2082282660902979,
+        -1.132755463496638
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "eef97ec8cbfa656e4ce62713fa4049d072dffdb68d2f31e87cf40a8bf8794d02"
+    },
+    {
+      "index": 249,
+      "encoding_mae_8bit": 1.385159001761127,
+      "encoding_rmse_8bit": 1.8452061030573703,
+      "channel_bias_8bit": [
+        -0.8191297430355428,
+        -1.2038349543707973,
+        -1.147798090778098
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "6af3dd1793ba7d90ab829ec13be309b5f0d6500c680f09f74e1bdd6255818fe2"
+    },
+    {
+      "index": 250,
+      "encoding_mae_8bit": 1.3704280739673391,
+      "encoding_rmse_8bit": 1.8126756211359976,
+      "channel_bias_8bit": [
+        -0.8650666426512968,
+        -1.194069704610951,
+        -1.212993816042267
+      ],
+      "maximum_channel_error": 42,
+      "decoded_sha256": "d592d6f84a504e4f65c475275fe2c6778e3425141c637d155db338de91265330"
+    },
+    {
+      "index": 251,
+      "encoding_mae_8bit": 1.3504677993916105,
+      "encoding_rmse_8bit": 1.8030707643006938,
+      "channel_bias_8bit": [
+        -0.8011002041306436,
+        -1.1754187680115273,
+        -1.1622013088376562
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "d2022982f5f5754d965e88e138c3216d40e56f1b4c9bea00a6554e7e15653f40"
+    },
+    {
+      "index": 252,
+      "encoding_mae_8bit": 1.3298395973422992,
+      "encoding_rmse_8bit": 1.7639072469993002,
+      "channel_bias_8bit": [
+        -0.8056751320845341,
+        -1.163612211815562,
+        -1.1949192483189242
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "7b14e4a8368e0b6aacd17c638a72b44fce8c885de1d8829fa5be6a5213ae1604"
+    },
+    {
+      "index": 253,
+      "encoding_mae_8bit": 1.312798691162344,
+      "encoding_rmse_8bit": 1.7497007829372082,
+      "channel_bias_8bit": [
+        -0.7691252401536983,
+        -1.15421469740634,
+        -1.1731553194044189
+      ],
+      "maximum_channel_error": 37,
+      "decoded_sha256": "16386bd6eb61c7bc7f957b31c3715d7156999869c3222d6197d5d0526f7f004a"
+    },
+    {
+      "index": 254,
+      "encoding_mae_8bit": 1.32227475584374,
+      "encoding_rmse_8bit": 1.747410284772907,
+      "channel_bias_8bit": [
+        -0.8379682997118155,
+        -1.1633810638808837,
+        -1.2658831652257445
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "0042bed530ce1e1cf746ced1cd4a167c17ef30a873bf7afa1d1d172f2b9bce8c"
+    },
+    {
+      "index": 255,
+      "encoding_mae_8bit": 1.3184102825808517,
+      "encoding_rmse_8bit": 1.7476622290622437,
+      "channel_bias_8bit": [
+        -0.8319209293948127,
+        -1.1609134846301632,
+        -1.2615408861671469
+      ],
+      "maximum_channel_error": 33,
+      "decoded_sha256": "05285bf3eb1ff0baf490c99867aafdd8714358c849758af65eb1e9e1123a6419"
+    },
+    {
+      "index": 256,
+      "encoding_mae_8bit": 1.2916316442523215,
+      "encoding_rmse_8bit": 1.7022586519361793,
+      "channel_bias_8bit": [
+        -0.8133600504322767,
+        -1.15090808117195,
+        -1.2683387367915466
+      ],
+      "maximum_channel_error": 28,
+      "decoded_sha256": "a397cdac07a8ea3c4cc77d42bbc755a064b3a00b0591a48d88576f29e638b6af"
+    },
+    {
+      "index": 257,
+      "encoding_mae_8bit": 1.2883010126480947,
+      "encoding_rmse_8bit": 1.702339329829422,
+      "channel_bias_8bit": [
+        -0.7964877521613832,
+        -1.1482078530259365,
+        -1.270246457732949
+      ],
+      "maximum_channel_error": 25,
+      "decoded_sha256": "1ec8ecd095abe665b6d15c8b887536b244215946a6e02698de237783f978e792"
+    },
+    {
+      "index": 258,
+      "encoding_mae_8bit": 1.2683567483189242,
+      "encoding_rmse_8bit": 1.676255736249012,
+      "channel_bias_8bit": [
+        -0.7745001801152738,
+        -1.1326729106628242,
+        -1.2603131003842458
+      ],
+      "maximum_channel_error": 24,
+      "decoded_sha256": "2e9f0181a3201dab8bbb33d6f3441e48faae7be4ad5feda14adebdc2c63f3c7d"
+    },
+    {
+      "index": 259,
+      "encoding_mae_8bit": 1.2587606067883446,
+      "encoding_rmse_8bit": 1.6695034695304636,
+      "channel_bias_8bit": [
+        -0.7619026176753122,
+        -1.122762067723343,
+        -1.2709429034582131
+      ],
+      "maximum_channel_error": 39,
+      "decoded_sha256": "3eefa5b2265a6bd7cbcade11ba761b2e568b8be4373d999649e3621ff026ab58"
+    },
+    {
+      "index": 260,
+      "encoding_mae_8bit": 1.237238332532821,
+      "encoding_rmse_8bit": 1.6370273698109283,
+      "channel_bias_8bit": [
+        -0.7408741594620557,
+        -1.0917867435158501,
+        -1.2857663904899135
+      ],
+      "maximum_channel_error": 28,
+      "decoded_sha256": "6ff444700ccb6e42735f561cedb4b7851fc6fa5130af1900ddef0a891ada2410"
+    },
+    {
+      "index": 261,
+      "encoding_mae_8bit": 1.2275481308037144,
+      "encoding_rmse_8bit": 1.6188600164813187,
+      "channel_bias_8bit": [
+        -0.7313970941402498,
+        -1.0764934558117194,
+        -1.3010746878001922
+      ],
+      "maximum_channel_error": 27,
+      "decoded_sha256": "679ba22187eb654a331a2c7f34a2cb89d88c35f1d12c089599d74caba4465dc9"
+    },
+    {
+      "index": 262,
+      "encoding_mae_8bit": 1.2147339297150177,
+      "encoding_rmse_8bit": 1.6044625430446486,
+      "channel_bias_8bit": [
+        -0.7242990513928914,
+        -1.0505748679154658,
+        -1.2849318563880883
+      ],
+      "maximum_channel_error": 25,
+      "decoded_sha256": "5a55bb0ffff4948d90fbe8b71046eb5297549ce6933c59e5659ab7e8586627fa"
+    },
+    {
+      "index": 263,
+      "encoding_mae_8bit": 1.2012082732949088,
+      "encoding_rmse_8bit": 1.590981295222643,
+      "channel_bias_8bit": [
+        -0.7149825888568684,
+        -1.0342984510086455,
+        -1.2567122958693564
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "904465d0f4bb41ae5ceae005912d2448a1db497de9e54efd75e4c619489f0eb6"
+    },
+    {
+      "index": 264,
+      "encoding_mae_8bit": 1.1997908661543388,
+      "encoding_rmse_8bit": 1.5896761698559883,
+      "channel_bias_8bit": [
+        -0.7156129923150817,
+        -1.0391555595581172,
+        -1.2481823366954852
+      ],
+      "maximum_channel_error": 30,
+      "decoded_sha256": "94e91f259452069666f5e932c7e37bd8f77780573896702650d1900fb0a6b80a"
+    },
+    {
+      "index": 265,
+      "encoding_mae_8bit": 1.1951704090617996,
+      "encoding_rmse_8bit": 1.5837154791881567,
+      "channel_bias_8bit": [
+        -0.7021508765609991,
+        -1.039149555715658,
+        -1.236657961095101
+      ],
+      "maximum_channel_error": 27,
+      "decoded_sha256": "ccdbe239cc54a958926f80184215cf0aaf1aaace32227f7d8dd787f560b57fa5"
+    },
+    {
+      "index": 266,
+      "encoding_mae_8bit": 1.1944084213896895,
+      "encoding_rmse_8bit": 1.5808426235955206,
+      "channel_bias_8bit": [
+        -0.6960224543707973,
+        -1.059077809798271,
+        -1.2161653458213257
+      ],
+      "maximum_channel_error": 26,
+      "decoded_sha256": "4194c613fac1558a615c4fcf6cdb12dcaec103c63fe9014fa1e27707f1f719a5"
+    },
+    {
+      "index": 267,
+      "encoding_mae_8bit": 1.1883840658021134,
+      "encoding_rmse_8bit": 1.5731301066767558,
+      "channel_bias_8bit": [
+        -0.6960419668587896,
+        -1.0515009606147934,
+        -1.2086635446685878
+      ],
+      "maximum_channel_error": 27,
+      "decoded_sha256": "b089eb851267e1ca897c201def63cb10397153b47ca1a6a2063605d3ee2c4e59"
+    },
+    {
+      "index": 268,
+      "encoding_mae_8bit": 1.181265509926353,
+      "encoding_rmse_8bit": 1.5631997312486516,
+      "channel_bias_8bit": [
+        -0.6915510926993276,
+        -1.0573607108549472,
+        -1.1865543948126802
+      ],
+      "maximum_channel_error": 26,
+      "decoded_sha256": "f820ed3d8fbbe30406afbc8b3862f8d4bc16a9f0a4e58b0156f0b64c70aa4502"
+    },
+    {
+      "index": 269,
+      "encoding_mae_8bit": 1.1657060518731988,
+      "encoding_rmse_8bit": 1.5464913988813391,
+      "channel_bias_8bit": [
+        -0.6763913904899136,
+        -1.0461800552353506,
+        -1.1534942363112393
+      ],
+      "maximum_channel_error": 34,
+      "decoded_sha256": "3d269e025d07b96b810b418e5558da584825e1d51ea233094fdb890cd6b0a4fb"
+    },
+    {
+      "index": 270,
+      "encoding_mae_8bit": 1.1660712856227986,
+      "encoding_rmse_8bit": 1.5492563134871917,
+      "channel_bias_8bit": [
+        -0.6679740033621517,
+        -1.0426933237271854,
+        -1.1570139889529298
+      ],
+      "maximum_channel_error": 31,
+      "decoded_sha256": "e74acf482dae833972080ceb3e29c16b840ef1dfc96dc05335074233c505bdd7"
+    },
+    {
+      "index": 271,
+      "encoding_mae_8bit": 1.1532871037463976,
+      "encoding_rmse_8bit": 1.5363546617932855,
+      "channel_bias_8bit": [
+        -0.6534882324687801,
+        -1.0273129803073968,
+        -1.1329325768491836
+      ],
+      "maximum_channel_error": 31,
+      "decoded_sha256": "5233ee042967b69c1f460a4b1a5e9cbd6afedc9a1641d3594ddc8f4cc09c1899"
+    },
+    {
+      "index": 272,
+      "encoding_mae_8bit": 1.1551568003522255,
+      "encoding_rmse_8bit": 1.5361206614974863,
+      "channel_bias_8bit": [
+        -0.667325588376561,
+        -1.0356207973102787,
+        -1.124447646493756
+      ],
+      "maximum_channel_error": 28,
+      "decoded_sha256": "304e321479e65264b18ebe0275a7945ad2ed4dfb1316e93417e62aaa15e4ad19"
+    },
+    {
+      "index": 273,
+      "encoding_mae_8bit": 1.150239653378162,
+      "encoding_rmse_8bit": 1.5299619608032624,
+      "channel_bias_8bit": [
+        -0.6611881604226705,
+        -1.0278158021133526,
+        -1.1178359149855908
+      ],
+      "maximum_channel_error": 33,
+      "decoded_sha256": "2ef4672dcf2b142325f58ce63015f1992e9edac715125d5ad62cf16976956579"
+    },
+    {
+      "index": 274,
+      "encoding_mae_8bit": 1.152238432596862,
+      "encoding_rmse_8bit": 1.535219337744803,
+      "channel_bias_8bit": [
+        -0.6618575888568684,
+        -1.0273414985590779,
+        -1.1159191882804995
+      ],
+      "maximum_channel_error": 28,
+      "decoded_sha256": "9c54beabbacbd6642b742a2c7103793d297b8ee637d5a85968933ce5e84f1e7e"
+    },
+    {
+      "index": 275,
+      "encoding_mae_8bit": 1.1553439201088698,
+      "encoding_rmse_8bit": 1.5355313504380281,
+      "channel_bias_8bit": [
+        -0.679244716618636,
+        -1.0341618635926992,
+        -1.1214292146974063
+      ],
+      "maximum_channel_error": 28,
+      "decoded_sha256": "b5aaa720c2dbe61be984798a3a9be3b07e3485af5d52da286831ce43077c82dd"
+    },
+    {
+      "index": 276,
+      "encoding_mae_8bit": 1.1623584093820045,
+      "encoding_rmse_8bit": 1.5420691960932056,
+      "channel_bias_8bit": [
+        -0.691947346301633,
+        -1.0450288184438041,
+        -1.1242315081652257
+      ],
+      "maximum_channel_error": 27,
+      "decoded_sha256": "9d6efe9e099652ccc92a874be98df370088c1613f48acfbecf63f1734da3648c"
+    },
+    {
+      "index": 277,
+      "encoding_mae_8bit": 1.1780504522894653,
+      "encoding_rmse_8bit": 1.5574196145379955,
+      "channel_bias_8bit": [
+        -0.7139814481268012,
+        -1.0509005763688761,
+        -1.1469380403458214
+      ],
+      "maximum_channel_error": 29,
+      "decoded_sha256": "0c622efe0ee5c0096ac11a7add2ddf5d5006f1d1bac79e044633345ec088a20b"
+    },
+    {
+      "index": 278,
+      "encoding_mae_8bit": 1.1833248278898496,
+      "encoding_rmse_8bit": 1.5609374992487683,
+      "channel_bias_8bit": [
+        -0.7419008165225744,
+        -1.0537764169068204,
+        -1.1456006844380404
+      ],
+      "maximum_channel_error": 29,
+      "decoded_sha256": "3066b7be3f58e20ae3e12a25122e6edc5e22c303a66d9b4d2bcbc42e9807a146"
+    },
+    {
+      "index": 279,
+      "encoding_mae_8bit": 1.200088556676273,
+      "encoding_rmse_8bit": 1.574845321987032,
+      "channel_bias_8bit": [
+        -0.7630823727185398,
+        -1.0814271133525457,
+        -1.1694719620557157
+      ],
+      "maximum_channel_error": 29,
+      "decoded_sha256": "e12e32f8e5e4e787610f4f433c5adced84c5252133c1a56dc76586a8bd84e12b"
+    },
+    {
+      "index": 280,
+      "encoding_mae_8bit": 1.2148670148895293,
+      "encoding_rmse_8bit": 1.5906023104643205,
+      "channel_bias_8bit": [
+        -0.7904163664745437,
+        -1.089187079731028,
+        -1.1942783381364073
+      ],
+      "maximum_channel_error": 31,
+      "decoded_sha256": "84f6e6bfaf73874d222d1ff2f0649499a522ef01340f0dc0495a12ae919fa50b"
+    },
+    {
+      "index": 281,
+      "encoding_mae_8bit": 1.2289940561959654,
+      "encoding_rmse_8bit": 1.6046075376315192,
+      "channel_bias_8bit": [
+        -0.8108774615754083,
+        -1.1081412103746398,
+        -1.2036593419788664
+      ],
+      "maximum_channel_error": 31,
+      "decoded_sha256": "e3490ff3a827a86a9e3ba62f3648508a406ca85a52e293db3a0675b2cb039570"
+    },
+    {
+      "index": 282,
+      "encoding_mae_8bit": 1.2540310798911303,
+      "encoding_rmse_8bit": 1.6373124952227318,
+      "channel_bias_8bit": [
+        -0.832398234870317,
+        -1.1307907060518732,
+        -1.239331171950048
+      ],
+      "maximum_channel_error": 38,
+      "decoded_sha256": "747db16d4ef23fa498a13857670e1b91ad06baea47325727ec22380fc6da9304"
+    },
+    {
+      "index": 283,
+      "encoding_mae_8bit": 1.268103586295229,
+      "encoding_rmse_8bit": 1.659080356849393,
+      "channel_bias_8bit": [
+        -0.831983969740634,
+        -1.1506514169068203,
+        -1.247173691162344
+      ],
+      "maximum_channel_error": 43,
+      "decoded_sha256": "c4a23be28f5c89cd6b39f96065891f1f28efe03ad6ea3923e22a9e6dca2514a2"
+    },
+    {
+      "index": 284,
+      "encoding_mae_8bit": 1.281060878962536,
+      "encoding_rmse_8bit": 1.6843006251561439,
+      "channel_bias_8bit": [
+        -0.8359239913544668,
+        -1.1565231748318925,
+        -1.2537824207492796
+      ],
+      "maximum_channel_error": 54,
+      "decoded_sha256": "a3dad307eb8f58fad965cdf347f530da30d43a2519cbaa551dfdc247cc7cf579"
+    },
+    {
+      "index": 285,
+      "encoding_mae_8bit": 1.3049101424911944,
+      "encoding_rmse_8bit": 1.7084411062277234,
+      "channel_bias_8bit": [
+        -0.8461485350624399,
+        -1.1816057276657062,
+        -1.2833798631123918
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "5b67dee51d9c0bea4d5f458b52efa2d3871374e7c5d949952d7be04018c7e3e8"
+    },
+    {
+      "index": 286,
+      "encoding_mae_8bit": 1.319686599423631,
+      "encoding_rmse_8bit": 1.7188099827975334,
+      "channel_bias_8bit": [
+        -0.848284402017291,
+        -1.1961755523535063,
+        -1.3060443683957732
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "15052881fad634123529e9976d4ada31fd9da55ca99250b96ee976327300a81a"
+    },
+    {
+      "index": 287,
+      "encoding_mae_8bit": 1.3195530139289144,
+      "encoding_rmse_8bit": 1.7228575601106306,
+      "channel_bias_8bit": [
+        -0.835799411623439,
+        -1.1906310038424592,
+        -1.3147214217098944
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "3c6bbb5ffbf31f2117a4bf5746d858726c8d86949bcf9b9244b48a5e7b00e276"
+    },
+    {
+      "index": 288,
+      "encoding_mae_8bit": 1.2987321886007044,
+      "encoding_rmse_8bit": 1.6704214429269262,
+      "channel_bias_8bit": [
+        -0.9053584293948127,
+        -1.1887983309317964,
+        -1.3885911983669548
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "3a22c02806a0445bc557e6c9ab90de5e7ed5d7f3eb5d4f4ecaa19a2a232df61e"
+    },
+    {
+      "index": 289,
+      "encoding_mae_8bit": 1.3129012568043548,
+      "encoding_rmse_8bit": 1.7459919909153931,
+      "channel_bias_8bit": [
+        -0.8151491954851104,
+        -1.175610890970221,
+        -1.2708213256484149
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "e9bbeea3e41ad0cc5e25ee398dd13c30ee9fdbde45195a7ba374ac873edd1747"
+    },
+    {
+      "index": 290,
+      "encoding_mae_8bit": 1.311926633045149,
+      "encoding_rmse_8bit": 1.731639710995554,
+      "channel_bias_8bit": [
+        -0.8262112752161384,
+        -1.1696145533141211,
+        -1.273887788184438
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "78a932766e49849088d36ab1ba08bf1187d1ad77c94b0edf2f461902f036950d"
+    },
+    {
+      "index": 291,
+      "encoding_mae_8bit": 1.3249804875120077,
+      "encoding_rmse_8bit": 1.8132139025995282,
+      "channel_bias_8bit": [
+        -0.7947661503362152,
+        -1.1665225744476464,
+        -1.2212596061479346
+      ],
+      "maximum_channel_error": 56,
+      "decoded_sha256": "ac9f7c2b92dea7e9eb9960cdd2e5d144aba84ed3ddb0eb85fba92531c23d2135"
+    },
+    {
+      "index": 292,
+      "encoding_mae_8bit": 1.3345616194364394,
+      "encoding_rmse_8bit": 1.771448514379411,
+      "channel_bias_8bit": [
+        -0.8735845941402498,
+        -1.161656460134486,
+        -1.2939030979827089
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "c53e5ffaf52b2f45e33da34777d7a84b341eded94dfcd9f8a20981c193baf689"
+    },
+    {
+      "index": 293,
+      "encoding_mae_8bit": 1.3402267451168748,
+      "encoding_rmse_8bit": 1.8030564739061228,
+      "channel_bias_8bit": [
+        -0.8743650936599424,
+        -1.1759471061479347,
+        -1.2633045148895292
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "e534efe58df734b56604fdb9d20aa2599c8fd1c6469711c4a116c9cb59af2b76"
+    },
+    {
+      "index": 294,
+      "encoding_mae_8bit": 1.3386782540826128,
+      "encoding_rmse_8bit": 1.8201672521085568,
+      "channel_bias_8bit": [
+        -0.8140159702209414,
+        -1.1581877401536984,
+        -1.1545509125840538
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "94bd3e94e6c302639f3a47b95854d758d04494863f83414ad567c91f4e88a6a9"
+    },
+    {
+      "index": 295,
+      "encoding_mae_8bit": 1.359760246557797,
+      "encoding_rmse_8bit": 1.8547014711888885,
+      "channel_bias_8bit": [
+        -0.8831382084534102,
+        -1.181081892411143,
+        -1.2202599663784823
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "340ff6668363df38d48f47ee1a16c3ee84d91c7ead41556375f24f6b8ea4aa5e"
+    },
+    {
+      "index": 296,
+      "encoding_mae_8bit": 1.3718855067243036,
+      "encoding_rmse_8bit": 1.8635485237536065,
+      "channel_bias_8bit": [
+        -0.8390429875120077,
+        -1.154084113832853,
+        -1.1446745917387127
+      ],
+      "maximum_channel_error": 58,
+      "decoded_sha256": "0189195fd25cc19c2dbb57ca0492e2977716582345de1065d021082479156df0"
+    },
+    {
+      "index": 297,
+      "encoding_mae_8bit": 1.3831241994876722,
+      "encoding_rmse_8bit": 1.8455296874039544,
+      "channel_bias_8bit": [
+        -0.8893146613832853,
+        -1.1842864433237272,
+        -1.2271373679154658
+      ],
+      "maximum_channel_error": 44,
+      "decoded_sha256": "ae0c663b2430e468e5225a245c5a30d877cb013fea76afb36e8a9230831f51e8"
+    },
+    {
+      "index": 298,
+      "encoding_mae_8bit": 1.442993015529939,
+      "encoding_rmse_8bit": 2.0400352977755922,
+      "channel_bias_8bit": [
+        -0.8421935038424592,
+        -1.1723448006724304,
+        -1.146002941882805
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "fd1d6c2847f22fd91f721d32259a7a8d5ec2b201012e976c61e2274a34e4dc13"
+    },
+    {
+      "index": 299,
+      "encoding_mae_8bit": 1.4405979827089337,
+      "encoding_rmse_8bit": 2.0403414703725606,
+      "channel_bias_8bit": [
+        -0.9056721301633045,
+        -1.1835419668587897,
+        -1.2034612151777138
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "e8ed99f4970527b3089b8420458ff27975a7fbaf3e8790e5e5af836b0c8d586c"
+    },
+    {
+      "index": 300,
+      "encoding_mae_8bit": 1.4781069884726226,
+      "encoding_rmse_8bit": 2.169875883838707,
+      "channel_bias_8bit": [
+        -0.8362031700288185,
+        -1.1734209894332372,
+        -1.0825648414985591
+      ],
+      "maximum_channel_error": 57,
+      "decoded_sha256": "3c1c617430024fbb39a46352c36519f2f1e834a9eb5aa1686281b6afa590d675"
+    },
+    {
+      "index": 301,
+      "encoding_mae_8bit": 1.441432516810759,
+      "encoding_rmse_8bit": 2.0277777503629717,
+      "channel_bias_8bit": [
+        -0.9047565441882806,
+        -1.1919863712776178,
+        -1.170923390970221
+      ],
+      "maximum_channel_error": 55,
+      "decoded_sha256": "762f52e98f0054959f2e51d1a209554d7a09417a0b1f62cc7765c74db2c8c6ca"
+    },
+    {
+      "index": 302,
+      "encoding_mae_8bit": 1.4714362191802755,
+      "encoding_rmse_8bit": 2.172353271452651,
+      "channel_bias_8bit": [
+        -0.8256964457252641,
+        -1.1631093900096061,
+        -1.037180295389049
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "e6d571736ebc14180883c6fac29cbdf3de853d4826abc02ad30ebf9606588326"
+    },
+    {
+      "index": 303,
+      "encoding_mae_8bit": 1.4291666666666667,
+      "encoding_rmse_8bit": 2.0406393835805594,
+      "channel_bias_8bit": [
+        -0.8955556556195965,
+        -1.1818353746397694,
+        -1.1233444404418829
+      ],
+      "maximum_channel_error": 45,
+      "decoded_sha256": "82a238ef223e4e4abd50d8bc0725cde557e245be76a5f68c806cd9bf8d603244"
+    },
+    {
+      "index": 304,
+      "encoding_mae_8bit": 1.4629677993916106,
+      "encoding_rmse_8bit": 2.188798445889321,
+      "channel_bias_8bit": [
+        -0.8327929875120077,
+        -1.1705166306436119,
+        -1.0037253842459173
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "687f1f70c02ce519e4293f689ca6ef4499a9b4b6d4cca6c6cfc435d64ed06ce0"
+    },
+    {
+      "index": 305,
+      "encoding_mae_8bit": 1.4201729106628243,
+      "encoding_rmse_8bit": 2.0515566495223005,
+      "channel_bias_8bit": [
+        -0.9032525816522574,
+        -1.1810083453410183,
+        -1.0841918828049952
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "d0d283b5220c3268f1fb328b8b0d2e71e508f0c23c76913167e33fd12e4c215c"
+    },
+    {
+      "index": 306,
+      "encoding_mae_8bit": 1.4449887928274094,
+      "encoding_rmse_8bit": 2.16459342542805,
+      "channel_bias_8bit": [
+        -0.8282465778097983,
+        -1.158313820845341,
+        -0.9520833333333333
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "d966e751b8629d3cfb5a22f9edb0d0dea8e642b7e341114e1a592baefe2172a6"
+    },
+    {
+      "index": 307,
+      "encoding_mae_8bit": 1.3924981988472622,
+      "encoding_rmse_8bit": 2.032205971625689,
+      "channel_bias_8bit": [
+        -0.893182636887608,
+        -1.1639079010566762,
+        -1.019446445725264
+      ],
+      "maximum_channel_error": 49,
+      "decoded_sha256": "b8cffc576356822a16f800650eb0626536e2e3668f401933e691dc23d223d593"
+    },
+    {
+      "index": 308,
+      "encoding_mae_8bit": 1.428575788504643,
+      "encoding_rmse_8bit": 2.1794355831855188,
+      "channel_bias_8bit": [
+        -0.7951564000960615,
+        -1.1379637968299712,
+        -0.8867810398655139
+      ],
+      "maximum_channel_error": 53,
+      "decoded_sha256": "2d49c591cfd444c36db0b838a2c05880d819bf4546b49f1d298ddee4963d7c5e"
+    },
+    {
+      "index": 309,
+      "encoding_mae_8bit": 1.4058177233429394,
+      "encoding_rmse_8bit": 2.129059898986927,
+      "channel_bias_8bit": [
+        -0.8189496277617675,
+        -1.1349858909702208,
+        -0.8874669788664745
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "900842dcdf3c7ac358e7e70b09a3606a7f54e911d981c0c19e92ff7d44eccda0"
+    },
+    {
+      "index": 310,
+      "encoding_mae_8bit": 1.4098953330131283,
+      "encoding_rmse_8bit": 2.1688968700067193,
+      "channel_bias_8bit": [
+        -0.785727365513929,
+        -1.1249354586935638,
+        -0.8492615273775216
+      ],
+      "maximum_channel_error": 54,
+      "decoded_sha256": "cd41aee5f8718ce0c5c3a6e07831304ea3488ccff9954ad36db63406684d9575"
+    },
+    {
+      "index": 311,
+      "encoding_mae_8bit": 1.3729762047710534,
+      "encoding_rmse_8bit": 2.0383853191715313,
+      "channel_bias_8bit": [
+        -0.886983669548511,
+        -1.1475924591738713,
+        -0.9578905499519692
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "0bc4b8db0701b1926292542cf9cc23fa22cd41ebbe79f0e55376a1cfee0dff9f"
+    },
+    {
+      "index": 312,
+      "encoding_mae_8bit": 1.3972427353506245,
+      "encoding_rmse_8bit": 2.1352345081744852,
+      "channel_bias_8bit": [
+        -0.7815967219020173,
+        -1.1290210734870316,
+        -0.8140234750240154
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "7f7dcf763194652a71d67c271b9be4b7b291c58f10eaebe623da7599093dd789"
+    },
+    {
+      "index": 313,
+      "encoding_mae_8bit": 1.3499719820685239,
+      "encoding_rmse_8bit": 2.007437439933847,
+      "channel_bias_8bit": [
+        -0.8639724423631124,
+        -1.1394812680115274,
+        -0.9186614433237272
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "ef7d886bd72cf68e7a1089131e49b76321809b456935b6b737eddbbdc5939a6f"
+    },
+    {
+      "index": 314,
+      "encoding_mae_8bit": 1.3943488832853026,
+      "encoding_rmse_8bit": 2.148666384301634,
+      "channel_bias_8bit": [
+        -0.7823366954851104,
+        -1.1273069764649375,
+        -0.7945815321805956
+      ],
+      "maximum_channel_error": 56,
+      "decoded_sha256": "74bfd4a78003b454e55ffab8256339757fd3871e3632ef8cce1d3403f7f4e8ea"
+    },
+    {
+      "index": 315,
+      "encoding_mae_8bit": 1.371793948126801,
+      "encoding_rmse_8bit": 2.0761687564095697,
+      "channel_bias_8bit": [
+        -0.8096451729106628,
+        -1.1134020773294908,
+        -0.8047685518731988
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "93201f3424301ad21c5a225c75dcf18d562acead2dae3cb7fd5cb45a5d9e0e67"
+    },
+    {
+      "index": 316,
+      "encoding_mae_8bit": 1.3975879562920268,
+      "encoding_rmse_8bit": 2.163821170549266,
+      "channel_bias_8bit": [
+        -0.7833273294908741,
+        -1.1277722742555236,
+        -0.7643611911623439
+      ],
+      "maximum_channel_error": 57,
+      "decoded_sha256": "1aaab34e69abd514542eb6d65a579f3ac769f0481536b067c8ee724a88fc25a3"
+    },
+    {
+      "index": 317,
+      "encoding_mae_8bit": 1.340123178834454,
+      "encoding_rmse_8bit": 1.98887256832094,
+      "channel_bias_8bit": [
+        -0.8726630043227666,
+        -1.1394512487992314,
+        -0.8816822766570606
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "a94bf340e937db5f4a23c7be34298af3aca14e5939d8579a2c729750e2191414"
+    },
+    {
+      "index": 318,
+      "encoding_mae_8bit": 1.403263588696766,
+      "encoding_rmse_8bit": 2.198024235249647,
+      "channel_bias_8bit": [
+        -0.7993005523535063,
+        -1.119563520653218,
+        -0.7556601224783862
+      ],
+      "maximum_channel_error": 54,
+      "decoded_sha256": "611978d4df24a01d23f42c6c9ae6b7f4b288a8aece51bef42b182b10d2eaa5df"
+    },
+    {
+      "index": 319,
+      "encoding_mae_8bit": 1.3746812960294588,
+      "encoding_rmse_8bit": 2.094684135864543,
+      "channel_bias_8bit": [
+        -0.8061539385206532,
+        -1.112210314601345,
+        -0.7812109750240154
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "1d68a25887e9e14d3348ee61a75b33bc9c221d42c786ec3b13fdef2737501436"
+    },
+    {
+      "index": 320,
+      "encoding_mae_8bit": 1.4008365353826449,
+      "encoding_rmse_8bit": 2.1877733578800815,
+      "channel_bias_8bit": [
+        -0.8016525576368876,
+        -1.104388808837656,
+        -0.7730772694524496
+      ],
+      "maximum_channel_error": 55,
+      "decoded_sha256": "f1d1dcef6b2e0daf939f2b2af00a86a568bd18d753e6f3de2e870005c3ddb6d1"
+    },
+    {
+      "index": 321,
+      "encoding_mae_8bit": 1.3451699087415947,
+      "encoding_rmse_8bit": 1.9883752983904823,
+      "channel_bias_8bit": [
+        -0.8896013448607109,
+        -1.1252266450528339,
+        -0.8749354586935639
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "377b2a79547315054022d0cb5bd3609017dd15830276ef2fd593c9a5e2577420"
+    },
+    {
+      "index": 322,
+      "encoding_mae_8bit": 1.3919998799231508,
+      "encoding_rmse_8bit": 2.1510407399232303,
+      "channel_bias_8bit": [
+        -0.8055400456292027,
+        -1.1236506364073007,
+        -0.7640880163304515
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "a98e5cb40a27416a0e52ae92b7307b8638cc2780f2402d0729af8204a895587f"
+    },
+    {
+      "index": 323,
+      "encoding_mae_8bit": 1.39146003442203,
+      "encoding_rmse_8bit": 2.1490205222592125,
+      "channel_bias_8bit": [
+        -0.8171409702209415,
+        -1.1182937079731028,
+        -0.7741849783861672
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "60d2a5d86f139b1ca1c25f159f0fa098c60503b0a7d58efb275292a2f7ed0f5f"
+    },
+    {
+      "index": 324,
+      "encoding_mae_8bit": 1.3990799111431316,
+      "encoding_rmse_8bit": 2.1668189510881497,
+      "channel_bias_8bit": [
+        -0.8210494716618636,
+        -1.102245437079731,
+        -0.7640835134486071
+      ],
+      "maximum_channel_error": 51,
+      "decoded_sha256": "4cee14f6d88fab88ef6e4ed44d5cfab246f7975b35e7467393468f627ae335d0"
+    },
+    {
+      "index": 325,
+      "encoding_mae_8bit": 1.3560944004162665,
+      "encoding_rmse_8bit": 2.0267591029955705,
+      "channel_bias_8bit": [
+        -0.8952089337175793,
+        -1.1307351705091258,
+        -0.8636137127761767
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "ce21a5c1ff1f4a674a85d0f63c755a7e25c73e88547e80ef5aa145e6565f4f2d"
+    },
+    {
+      "index": 326,
+      "encoding_mae_8bit": 1.400633405379443,
+      "encoding_rmse_8bit": 2.1868773987044765,
+      "channel_bias_8bit": [
+        -0.7953755403458214,
+        -1.1198487031700288,
+        -0.7353341138328531
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "270a6789b8aa1d1bada3150754bde38829745346b6a9bb6d0ba195e2cbf09196"
+    },
+    {
+      "index": 327,
+      "encoding_mae_8bit": 1.3794683597502402,
+      "encoding_rmse_8bit": 2.1230608158566273,
+      "channel_bias_8bit": [
+        -0.8218644932756964,
+        -1.10149045389049,
+        -0.7838631724303554
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "748833d4ad8d1ebd9bff0cff72cf5563d25d0543856c602362cc1165cfb8e7b9"
+    },
+    {
+      "index": 328,
+      "encoding_mae_8bit": 1.369519992795389,
+      "encoding_rmse_8bit": 2.116173561394917,
+      "channel_bias_8bit": [
+        -0.7981448126801153,
+        -1.0901506964457253,
+        -0.7400081051873199
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "4a3f2aeab7151e821a348a523c63f626889e1cfd54df5ea9bacd88a54bee897a"
+    },
+    {
+      "index": 329,
+      "encoding_mae_8bit": 1.3472732548831252,
+      "encoding_rmse_8bit": 2.019567611677412,
+      "channel_bias_8bit": [
+        -0.8750420268972142,
+        -1.1218704971181557,
+        -0.8401011647454371
+      ],
+      "maximum_channel_error": 48,
+      "decoded_sha256": "1f572e595db547699dbc2ff0874fcd50dc8b392dd43b9f6bbe7ee09fc4641a7c"
+    },
+    {
+      "index": 330,
+      "encoding_mae_8bit": 1.3436279218699967,
+      "encoding_rmse_8bit": 2.0408865082000975,
+      "channel_bias_8bit": [
+        -0.8228716378482228,
+        -1.0931286023054756,
+        -0.7750720461095101
+      ],
+      "maximum_channel_error": 47,
+      "decoded_sha256": "a14eb4617cc6203610fb9e3b5ef9395e2db52a666caefd659c603a58667e0eff"
+    },
+    {
+      "index": 331,
+      "encoding_mae_8bit": 1.3529749039385206,
+      "encoding_rmse_8bit": 2.055248498281753,
+      "channel_bias_8bit": [
+        -0.8336290225744476,
+        -1.1000990634005763,
+        -0.7944269332372719
+      ],
+      "maximum_channel_error": 46,
+      "decoded_sha256": "56d86935bb3bc288bf8582c1ee4b4294f00387b95954a04395de6342a358157c"
+    },
+    {
+      "index": 332,
+      "encoding_mae_8bit": 1.3515880163304514,
+      "encoding_rmse_8bit": 2.060591289736161,
+      "channel_bias_8bit": [
+        -0.8274525696445725,
+        -1.0944074207492795,
+        -0.7918737992315081
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "e452a1e47d07c45cfa473e7411d5df9c554349fc6ad368c80ea9a9942f8096a4"
+    },
+    {
+      "index": 333,
+      "encoding_mae_8bit": 1.3589517291066282,
+      "encoding_rmse_8bit": 2.0580431838807223,
+      "channel_bias_8bit": [
+        -0.873102785782901,
+        -1.1164850504322767,
+        -0.8381198967339097
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "7c9565f8f2d5e2a656e1cbc3d263f33c94b4f9de51a0b143cda4eddedce0fdd5"
+    },
+    {
+      "index": 334,
+      "encoding_mae_8bit": 1.3623173831252002,
+      "encoding_rmse_8bit": 2.0676517157188754,
+      "channel_bias_8bit": [
+        -0.8670509125840538,
+        -1.1111326248799231,
+        -0.8409822286263209
+      ],
+      "maximum_channel_error": 50,
+      "decoded_sha256": "114c2d48cc509f3b375072e31e647de15ebaab1c8faae9d9b12c65ee1d6add72"
+    },
+    {
+      "index": 335,
+      "encoding_mae_8bit": 1.3530334414024976,
+      "encoding_rmse_8bit": 2.0618793276211558,
+      "channel_bias_8bit": [
+        -0.8487271853986551,
+        -1.0982633885686839,
+        -0.8195094860710855
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "b06e7cfd049a2a4022473c16e5dfdb4200027e5681145b2f437528d667b88db1"
+    },
+    {
+      "index": 336,
+      "encoding_mae_8bit": 1.3607023495036823,
+      "encoding_rmse_8bit": 2.0691821257174072,
+      "channel_bias_8bit": [
+        -0.8628031940441883,
+        -1.1026251801152738,
+        -0.8382804995196926
+      ],
+      "maximum_channel_error": 52,
+      "decoded_sha256": "7f542392f208e6fc78d23c7633a980f6eb0228e528b9f0387127a43688b0c9cc"
+    }
+  ],
+  "limits": "Every decoded frame compared to its corresponding verified actual PNG; lossy H264/yuv420p differences bounded numerically. This is not real-time visual playback or proof against subtle temporal denoising shimmer. No encoding, source modification or publication performed."
+}

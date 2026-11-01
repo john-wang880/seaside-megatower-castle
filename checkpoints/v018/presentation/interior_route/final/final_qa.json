@@ -1,0 +1,2396 @@
+{
+  "video_sha256": "b4b83a2674f2cb68cb394033a7d2d1a7c2c1855c205e8c3ed64f51b624dd1c32",
+  "all336_frames_decoded_without_errors": true,
+  "encoded_frame_count": 336,
+  "unique_original_frames": 336,
+  "mean_encoding_absolute_channel_difference_8bit": 1.4678154539738766,
+  "maximum_mean_brightness_step_8bit": 2.999165966218378,
+  "adjacent_frame_mae_range_8bit": [
+    0.04923701168747999,
+    10.427113352545629
+  ],
+  "total_render_seconds": 29840.85106675401,
+  "run_wall_seconds": 30490.488973,
+  "source_sha256_after": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "sampled_visual_frames": [
+    1,
+    54,
+    61,
+    76,
+    83,
+    120,
+    180,
+    240,
+    243,
+    244,
+    249,
+    250,
+    280,
+    303,
+    336
+  ],
+  "visual_findings": [
+    "Entrance and corrected turn reveal the actual route without the rejected V1 close-wall framing.",
+    "Saved landmark stills at120/180/240 show readable corridor and ascending steps under original actual lighting.",
+    "Frame280 intentionally faces the dark terrace facade before turning toward the real lateral daylight opening.",
+    "Encoding complete and correct order verified against each corresponding original frame.",
+    "Final frames303/336 show the real lateral opening, western tower, woodland and sea; no new clipping observed in inspected stills.",
+    "Largest adjacent image difference at243/244 and largest brightness step at249/250 were inspected: advancing stair view and lantern moving offscreen, not a detected cut or clipping event."
+  ],
+  "limits": "No real-time GUI playback tool used. Frame inspection, every-frame decode/source comparison and numeric continuity checks are not a guarantee against subtle temporal denoising shimmer. H264 yuv420p encoding is intentionally lossy.",
+  "frames": [
+    {
+      "index": 1,
+      "encoding_mae_8bit": 1.4127581652257444,
+      "encoding_max_difference_8bit": 37,
+      "original_mean_8bit": 41.834436039065004
+    },
+    {
+      "index": 2,
+      "encoding_mae_8bit": 1.3679489873519053,
+      "encoding_max_difference_8bit": 40,
+      "original_mean_8bit": 41.839196585814925,
+      "previous_frame_mae_8bit": 0.1152522614473263
+    },
+    {
+      "index": 3,
+      "encoding_mae_8bit": 1.3858379362792188,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 41.80387297870637,
+      "previous_frame_mae_8bit": 0.3074747838616715
+    },
+    {
+      "index": 4,
+      "encoding_mae_8bit": 1.4031330051232789,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 41.838068363752804,
+      "previous_frame_mae_8bit": 0.49967028898495036
+    },
+    {
+      "index": 5,
+      "encoding_mae_8bit": 1.4461420308997759,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 41.81827969900736,
+      "previous_frame_mae_8bit": 0.7042347102145373
+    },
+    {
+      "index": 6,
+      "encoding_mae_8bit": 1.4331807356708293,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 41.82969100224143,
+      "previous_frame_mae_8bit": 0.952354506884406
+    },
+    {
+      "index": 7,
+      "encoding_mae_8bit": 1.446380183317323,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 41.85849743836055,
+      "previous_frame_mae_8bit": 1.195756284021774
+    },
+    {
+      "index": 8,
+      "encoding_mae_8bit": 1.4473267891450528,
+      "encoding_max_difference_8bit": 54,
+      "original_mean_8bit": 41.933735090457894,
+      "previous_frame_mae_8bit": 1.4138813840858149
+    },
+    {
+      "index": 9,
+      "encoding_mae_8bit": 1.4563975944604546,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 42.010484710214534,
+      "previous_frame_mae_8bit": 1.6313725784502082
+    },
+    {
+      "index": 10,
+      "encoding_mae_8bit": 1.4514023975344221,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 42.06067633285303,
+      "previous_frame_mae_8bit": 1.7499014369196286
+    },
+    {
+      "index": 11,
+      "encoding_mae_8bit": 1.4648960334614154,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 42.25982728946526,
+      "previous_frame_mae_8bit": 1.8620962415946205
+    },
+    {
+      "index": 12,
+      "encoding_mae_8bit": 1.4621592819404419,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 42.42092489193084,
+      "previous_frame_mae_8bit": 1.9119741634646175
+    },
+    {
+      "index": 13,
+      "encoding_mae_8bit": 1.4695560158501442,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 42.5770192923471,
+      "previous_frame_mae_8bit": 1.9435203530259366
+    },
+    {
+      "index": 14,
+      "encoding_mae_8bit": 1.465952209414025,
+      "encoding_max_difference_8bit": 37,
+      "original_mean_8bit": 42.80314451248799,
+      "previous_frame_mae_8bit": 2.027986411303234
+    },
+    {
+      "index": 15,
+      "encoding_mae_8bit": 1.4758455411463336,
+      "encoding_max_difference_8bit": 35,
+      "original_mean_8bit": 43.057276156740315,
+      "previous_frame_mae_8bit": 2.039881524175472
+    },
+    {
+      "index": 16,
+      "encoding_mae_8bit": 1.4716538584694205,
+      "encoding_max_difference_8bit": 40,
+      "original_mean_8bit": 43.32129763048351,
+      "previous_frame_mae_8bit": 2.063185939000961
+    },
+    {
+      "index": 17,
+      "encoding_mae_8bit": 1.4863392571245597,
+      "encoding_max_difference_8bit": 35,
+      "original_mean_8bit": 43.53719380403458,
+      "previous_frame_mae_8bit": 2.0750830531540188
+    },
+    {
+      "index": 18,
+      "encoding_mae_8bit": 1.4884255923791225,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 43.76749919948767,
+      "previous_frame_mae_8bit": 2.0841668667947486
+    },
+    {
+      "index": 19,
+      "encoding_mae_8bit": 1.4935733869676593,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 43.934790766090295,
+      "previous_frame_mae_8bit": 2.0684202889849503
+    },
+    {
+      "index": 20,
+      "encoding_mae_8bit": 1.4988752801793148,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 44.07972402337496,
+      "previous_frame_mae_8bit": 2.0452564641370476
+    },
+    {
+      "index": 21,
+      "encoding_mae_8bit": 1.49883625520333,
+      "encoding_max_difference_8bit": 37,
+      "original_mean_8bit": 44.13508045148895,
+      "previous_frame_mae_8bit": 2.0568954130643613
+    },
+    {
+      "index": 22,
+      "encoding_mae_8bit": 1.4979476865193724,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 44.166356968459816,
+      "previous_frame_mae_8bit": 2.0927338496637846
+    },
+    {
+      "index": 23,
+      "encoding_mae_8bit": 1.4925707452769772,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 44.19957672910663,
+      "previous_frame_mae_8bit": 2.0881289024975986
+    },
+    {
+      "index": 24,
+      "encoding_mae_8bit": 1.4862011687479988,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 44.21009245917387,
+      "previous_frame_mae_8bit": 2.1043547870637207
+    },
+    {
+      "index": 25,
+      "encoding_mae_8bit": 1.4921764929554915,
+      "encoding_max_difference_8bit": 33,
+      "original_mean_8bit": 44.19585234550112,
+      "previous_frame_mae_8bit": 2.17718239673391
+    },
+    {
+      "index": 26,
+      "encoding_mae_8bit": 1.490340818123599,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 44.124623258885684,
+      "previous_frame_mae_8bit": 2.214250620397054
+    },
+    {
+      "index": 27,
+      "encoding_mae_8bit": 1.5050767491194363,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 44.114384205891774,
+      "previous_frame_mae_8bit": 2.2479601945244956
+    },
+    {
+      "index": 28,
+      "encoding_mae_8bit": 1.4997323286903619,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 44.07648044748639,
+      "previous_frame_mae_8bit": 2.3188485630803712
+    },
+    {
+      "index": 29,
+      "encoding_mae_8bit": 1.4918412784181876,
+      "encoding_max_difference_8bit": 36,
+      "original_mean_8bit": 43.98585894972783,
+      "previous_frame_mae_8bit": 2.3860515730067244
+    },
+    {
+      "index": 30,
+      "encoding_mae_8bit": 1.4912258845661224,
+      "encoding_max_difference_8bit": 54,
+      "original_mean_8bit": 43.89296799951969,
+      "previous_frame_mae_8bit": 2.3996262608069165
+    },
+    {
+      "index": 31,
+      "encoding_mae_8bit": 1.4896248599103425,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 43.824591738712776,
+      "previous_frame_mae_8bit": 2.478604807076529
+    },
+    {
+      "index": 32,
+      "encoding_mae_8bit": 1.480771193563881,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 43.7071325648415,
+      "previous_frame_mae_8bit": 2.5338186439321166
+    },
+    {
+      "index": 33,
+      "encoding_mae_8bit": 1.487040706051873,
+      "encoding_max_difference_8bit": 37,
+      "original_mean_8bit": 43.543950128081974,
+      "previous_frame_mae_8bit": 2.588312520012808
+    },
+    {
+      "index": 34,
+      "encoding_mae_8bit": 1.4907295669228307,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 43.33850864553314,
+      "previous_frame_mae_8bit": 2.631984470060839
+    },
+    {
+      "index": 35,
+      "encoding_mae_8bit": 1.497711535382645,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 43.05056736311239,
+      "previous_frame_mae_8bit": 2.6932806996477745
+    },
+    {
+      "index": 36,
+      "encoding_mae_8bit": 1.499294048190842,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 42.79877521613833,
+      "previous_frame_mae_8bit": 2.7785382644892733
+    },
+    {
+      "index": 37,
+      "encoding_mae_8bit": 1.5001771133525457,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 42.57544328370157,
+      "previous_frame_mae_8bit": 2.813147414345181
+    },
+    {
+      "index": 38,
+      "encoding_mae_8bit": 1.4952849823887289,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 42.501503462215815,
+      "previous_frame_mae_8bit": 2.7742920469100225
+    },
+    {
+      "index": 39,
+      "encoding_mae_8bit": 1.4993100584374,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 42.571649355587574,
+      "previous_frame_mae_8bit": 2.7677663704771054
+    },
+    {
+      "index": 40,
+      "encoding_mae_8bit": 1.513480627601665,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 42.701322846621835,
+      "previous_frame_mae_8bit": 2.870885866954851
+    },
+    {
+      "index": 41,
+      "encoding_mae_8bit": 1.5204170669228305,
+      "encoding_max_difference_8bit": 36,
+      "original_mean_8bit": 42.86368425792507,
+      "previous_frame_mae_8bit": 2.961627941882805
+    },
+    {
+      "index": 42,
+      "encoding_mae_8bit": 1.5265159702209414,
+      "encoding_max_difference_8bit": 56,
+      "original_mean_8bit": 43.04259876320845,
+      "previous_frame_mae_8bit": 3.068086575408261
+    },
+    {
+      "index": 43,
+      "encoding_mae_8bit": 1.525297690521934,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 43.191060778898496,
+      "previous_frame_mae_8bit": 3.197247238232469
+    },
+    {
+      "index": 44,
+      "encoding_mae_8bit": 1.5396388688760807,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 43.36136477345501,
+      "previous_frame_mae_8bit": 3.362305875760487
+    },
+    {
+      "index": 45,
+      "encoding_mae_8bit": 1.5430260366634647,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 43.6423195845341,
+      "previous_frame_mae_8bit": 3.4869706612231828
+    },
+    {
+      "index": 46,
+      "encoding_mae_8bit": 1.5461810558757605,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 43.98840407861031,
+      "previous_frame_mae_8bit": 3.667945485110471
+    },
+    {
+      "index": 47,
+      "encoding_mae_8bit": 1.5453395172910662,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 44.39564321165546,
+      "previous_frame_mae_8bit": 3.871104006564201
+    },
+    {
+      "index": 48,
+      "encoding_mae_8bit": 1.5570610190521934,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 44.817755363432596,
+      "previous_frame_mae_8bit": 4.051273815241755
+    },
+    {
+      "index": 49,
+      "encoding_mae_8bit": 1.5530164305155298,
+      "encoding_max_difference_8bit": 40,
+      "original_mean_8bit": 45.286027557636885,
+      "previous_frame_mae_8bit": 4.244646073487032
+    },
+    {
+      "index": 50,
+      "encoding_mae_8bit": 1.5582167587255844,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 45.78252331492155,
+      "previous_frame_mae_8bit": 4.481198967339097
+    },
+    {
+      "index": 51,
+      "encoding_mae_8bit": 1.5480362431956451,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 46.307792487191804,
+      "previous_frame_mae_8bit": 4.748685158501441
+    },
+    {
+      "index": 52,
+      "encoding_mae_8bit": 1.536824067403138,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 46.87913264489273,
+      "previous_frame_mae_8bit": 5.016878302113352
+    },
+    {
+      "index": 53,
+      "encoding_mae_8bit": 1.532440762087736,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 47.49014018972142,
+      "previous_frame_mae_8bit": 5.291802253442203
+    },
+    {
+      "index": 54,
+      "encoding_mae_8bit": 1.5244206292026896,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 48.0607854026577,
+      "previous_frame_mae_8bit": 5.592451168747998
+    },
+    {
+      "index": 55,
+      "encoding_mae_8bit": 1.5243720981428115,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 48.51538634726225,
+      "previous_frame_mae_8bit": 5.929300752481589
+    },
+    {
+      "index": 56,
+      "encoding_mae_8bit": 1.5344320365033621,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 48.8475954610951,
+      "previous_frame_mae_8bit": 6.314621857989113
+    },
+    {
+      "index": 57,
+      "encoding_mae_8bit": 1.5280784702209413,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 49.05496417707333,
+      "previous_frame_mae_8bit": 6.764807476785142
+    },
+    {
+      "index": 58,
+      "encoding_mae_8bit": 1.528676853186039,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 49.257465277777776,
+      "previous_frame_mae_8bit": 7.287259345981428
+    },
+    {
+      "index": 59,
+      "encoding_mae_8bit": 1.5288889889529298,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 49.71758225264169,
+      "previous_frame_mae_8bit": 8.115455391450528
+    },
+    {
+      "index": 60,
+      "encoding_mae_8bit": 1.529607448767211,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 50.25834584133845,
+      "previous_frame_mae_8bit": 8.75766540585975
+    },
+    {
+      "index": 61,
+      "encoding_mae_8bit": 1.527201909221902,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 50.382542827409544,
+      "previous_frame_mae_8bit": 9.380743175632405
+    },
+    {
+      "index": 62,
+      "encoding_mae_8bit": 1.5443498839257124,
+      "encoding_max_difference_8bit": 68,
+      "original_mean_8bit": 49.76211025056036,
+      "previous_frame_mae_8bit": 9.653354646974064
+    },
+    {
+      "index": 63,
+      "encoding_mae_8bit": 1.5227265449887928,
+      "encoding_max_difference_8bit": 55,
+      "original_mean_8bit": 49.527775276176754,
+      "previous_frame_mae_8bit": 9.369286343259686
+    },
+    {
+      "index": 64,
+      "encoding_mae_8bit": 1.524651276817163,
+      "encoding_max_difference_8bit": 62,
+      "original_mean_8bit": 49.90888318523855,
+      "previous_frame_mae_8bit": 8.64215197726545
+    },
+    {
+      "index": 65,
+      "encoding_mae_8bit": 1.5053083973743195,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 49.709074807877045,
+      "previous_frame_mae_8bit": 7.625806015850144
+    },
+    {
+      "index": 66,
+      "encoding_mae_8bit": 1.5141240393852065,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 49.75429975184118,
+      "previous_frame_mae_8bit": 6.460009406019853
+    },
+    {
+      "index": 67,
+      "encoding_mae_8bit": 1.5353326128722382,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 50.1391940842139,
+      "previous_frame_mae_8bit": 5.600395252961896
+    },
+    {
+      "index": 68,
+      "encoding_mae_8bit": 1.5364007965097664,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 50.27041256404099,
+      "previous_frame_mae_8bit": 5.054286243195645
+    },
+    {
+      "index": 69,
+      "encoding_mae_8bit": 1.5497318283701569,
+      "encoding_max_difference_8bit": 34,
+      "original_mean_8bit": 50.28999909942363,
+      "previous_frame_mae_8bit": 4.667691322446366
+    },
+    {
+      "index": 70,
+      "encoding_mae_8bit": 1.5479311759526098,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 50.21358969740634,
+      "previous_frame_mae_8bit": 4.25563510646814
+    },
+    {
+      "index": 71,
+      "encoding_mae_8bit": 1.5478521253602306,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 50.056424611751524,
+      "previous_frame_mae_8bit": 3.93019782660903
+    },
+    {
+      "index": 72,
+      "encoding_mae_8bit": 1.5453975544348384,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 49.87181896413705,
+      "previous_frame_mae_8bit": 3.6606573206852384
+    },
+    {
+      "index": 73,
+      "encoding_mae_8bit": 1.5545999439641371,
+      "encoding_max_difference_8bit": 29,
+      "original_mean_8bit": 49.6540786103106,
+      "previous_frame_mae_8bit": 3.510038424591739
+    },
+    {
+      "index": 74,
+      "encoding_mae_8bit": 1.5364478266090298,
+      "encoding_max_difference_8bit": 40,
+      "original_mean_8bit": 49.4107143571886,
+      "previous_frame_mae_8bit": 3.4432091538584695
+    },
+    {
+      "index": 75,
+      "encoding_mae_8bit": 1.5441987872238232,
+      "encoding_max_difference_8bit": 36,
+      "original_mean_8bit": 49.1521503762408,
+      "previous_frame_mae_8bit": 3.4161658461415305
+    },
+    {
+      "index": 76,
+      "encoding_mae_8bit": 1.5474148455011207,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 48.88935318603907,
+      "previous_frame_mae_8bit": 3.4325048030739675
+    },
+    {
+      "index": 77,
+      "encoding_mae_8bit": 1.5537599063400576,
+      "encoding_max_difference_8bit": 34,
+      "original_mean_8bit": 48.61375130083253,
+      "previous_frame_mae_8bit": 3.4101930235350624
+    },
+    {
+      "index": 78,
+      "encoding_mae_8bit": 1.5316807756964457,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 48.33786273214857,
+      "previous_frame_mae_8bit": 3.4356358069164266
+    },
+    {
+      "index": 79,
+      "encoding_mae_8bit": 1.5382875040025616,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 48.07767221021454,
+      "previous_frame_mae_8bit": 3.4171039465257764
+    },
+    {
+      "index": 80,
+      "encoding_mae_8bit": 1.5351755123278898,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 47.784125840537946,
+      "previous_frame_mae_8bit": 3.404624459654179
+    },
+    {
+      "index": 81,
+      "encoding_mae_8bit": 1.5465793107588857,
+      "encoding_max_difference_8bit": 32,
+      "original_mean_8bit": 47.522374819884725,
+      "previous_frame_mae_8bit": 3.4214001961255205
+    },
+    {
+      "index": 82,
+      "encoding_mae_8bit": 1.530603085975024,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 47.241213876881204,
+      "previous_frame_mae_8bit": 3.3999719820685237
+    },
+    {
+      "index": 83,
+      "encoding_mae_8bit": 1.5290565962215819,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 46.99351484950368,
+      "previous_frame_mae_8bit": 3.346880503522254
+    },
+    {
+      "index": 84,
+      "encoding_mae_8bit": 1.5315521934037784,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 46.71167146974064,
+      "previous_frame_mae_8bit": 3.3235860951008647
+    },
+    {
+      "index": 85,
+      "encoding_mae_8bit": 1.5399155459494076,
+      "encoding_max_difference_8bit": 36,
+      "original_mean_8bit": 46.42478986551393,
+      "previous_frame_mae_8bit": 3.3002871837976304
+    },
+    {
+      "index": 86,
+      "encoding_mae_8bit": 1.5171059478065962,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 46.18022084133845,
+      "previous_frame_mae_8bit": 3.25054384806276
+    },
+    {
+      "index": 87,
+      "encoding_mae_8bit": 1.5207878041946845,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 45.93248428994556,
+      "previous_frame_mae_8bit": 3.2097142170989432
+    },
+    {
+      "index": 88,
+      "encoding_mae_8bit": 1.5116774735830931,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 45.67680815722062,
+      "previous_frame_mae_8bit": 3.155523034742235
+    },
+    {
+      "index": 89,
+      "encoding_mae_8bit": 1.5357328690361831,
+      "encoding_max_difference_8bit": 36,
+      "original_mean_8bit": 45.38938920909382,
+      "previous_frame_mae_8bit": 3.1323807236631445
+    },
+    {
+      "index": 90,
+      "encoding_mae_8bit": 1.5100609390009607,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 45.14535202529619,
+      "previous_frame_mae_8bit": 3.0522204210694843
+    },
+    {
+      "index": 91,
+      "encoding_mae_8bit": 1.5186939641370476,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 44.871725404258726,
+      "previous_frame_mae_8bit": 2.990460394652578
+    },
+    {
+      "index": 92,
+      "encoding_mae_8bit": 1.50715908181236,
+      "encoding_max_difference_8bit": 40,
+      "original_mean_8bit": 44.6561179154659,
+      "previous_frame_mae_8bit": 2.9467934478065962
+    },
+    {
+      "index": 93,
+      "encoding_mae_8bit": 1.5199247518411783,
+      "encoding_max_difference_8bit": 31,
+      "original_mean_8bit": 44.38542717339097,
+      "previous_frame_mae_8bit": 2.908119696605828
+    },
+    {
+      "index": 94,
+      "encoding_mae_8bit": 1.4977665706051873,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 44.11431466138328,
+      "previous_frame_mae_8bit": 2.8299811879602945
+    },
+    {
+      "index": 95,
+      "encoding_mae_8bit": 1.5062855227345502,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 43.88483579490874,
+      "previous_frame_mae_8bit": 2.755624599743836
+    },
+    {
+      "index": 96,
+      "encoding_mae_8bit": 1.4962566042267051,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 43.69229006564201,
+      "previous_frame_mae_8bit": 2.665196225584374
+    },
+    {
+      "index": 97,
+      "encoding_mae_8bit": 1.515160702849824,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 43.50505873759206,
+      "previous_frame_mae_8bit": 2.56377131364073
+    },
+    {
+      "index": 98,
+      "encoding_mae_8bit": 1.48833503442203,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 43.31167897454371,
+      "previous_frame_mae_8bit": 2.4943413784822286
+    },
+    {
+      "index": 99,
+      "encoding_mae_8bit": 1.4886077089337175,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 43.148461015049634,
+      "previous_frame_mae_8bit": 2.380332913064361
+    },
+    {
+      "index": 100,
+      "encoding_mae_8bit": 1.487637087736151,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 43.008005623599104,
+      "previous_frame_mae_8bit": 2.2819889729426834
+    },
+    {
+      "index": 101,
+      "encoding_mae_8bit": 1.4985951008645533,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 42.83972492395133,
+      "previous_frame_mae_8bit": 2.173284902337496
+    },
+    {
+      "index": 102,
+      "encoding_mae_8bit": 1.4780864753442202,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 42.70924891930836,
+      "previous_frame_mae_8bit": 2.00773845260967
+    },
+    {
+      "index": 103,
+      "encoding_mae_8bit": 1.4850264169068204,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 42.59619356388088,
+      "previous_frame_mae_8bit": 1.8428324127441562
+    },
+    {
+      "index": 104,
+      "encoding_mae_8bit": 1.471497258245277,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 42.46065231748319,
+      "previous_frame_mae_8bit": 1.6744121237592058
+    },
+    {
+      "index": 105,
+      "encoding_mae_8bit": 1.4935208533461415,
+      "encoding_max_difference_8bit": 40,
+      "original_mean_8bit": 42.345445084854305,
+      "previous_frame_mae_8bit": 1.434817783381364
+    },
+    {
+      "index": 106,
+      "encoding_mae_8bit": 1.4748674151456933,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 42.27315081652257,
+      "previous_frame_mae_8bit": 1.3388928914505283
+    },
+    {
+      "index": 107,
+      "encoding_mae_8bit": 1.4773264889529298,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 42.1615864153058,
+      "previous_frame_mae_8bit": 1.3417327089337177
+    },
+    {
+      "index": 108,
+      "encoding_mae_8bit": 1.4637958293307718,
+      "encoding_max_difference_8bit": 57,
+      "original_mean_8bit": 42.12685918988152,
+      "previous_frame_mae_8bit": 1.3274375600384245
+    },
+    {
+      "index": 109,
+      "encoding_mae_8bit": 1.4897084133845662,
+      "encoding_max_difference_8bit": 37,
+      "original_mean_8bit": 42.039521793948126,
+      "previous_frame_mae_8bit": 1.3178078970541147
+    },
+    {
+      "index": 110,
+      "encoding_mae_8bit": 1.4628937520012808,
+      "encoding_max_difference_8bit": 71,
+      "original_mean_8bit": 42.00713906900416,
+      "previous_frame_mae_8bit": 1.2915886167146975
+    },
+    {
+      "index": 111,
+      "encoding_mae_8bit": 1.4771403698366954,
+      "encoding_max_difference_8bit": 59,
+      "original_mean_8bit": 41.9981733309318,
+      "previous_frame_mae_8bit": 1.3010066442523214
+    },
+    {
+      "index": 112,
+      "encoding_mae_8bit": 1.4646813960935,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 41.95357929074608,
+      "previous_frame_mae_8bit": 1.3064326168748
+    },
+    {
+      "index": 113,
+      "encoding_mae_8bit": 1.4899585734870318,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 41.93917457172591,
+      "previous_frame_mae_8bit": 1.2781635246557796
+    },
+    {
+      "index": 114,
+      "encoding_mae_8bit": 1.4647979707012488,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 41.88792777377522,
+      "previous_frame_mae_8bit": 1.2950418267691322
+    },
+    {
+      "index": 115,
+      "encoding_mae_8bit": 1.4756579210694845,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 41.89974783861671,
+      "previous_frame_mae_8bit": 1.3113237471982069
+    },
+    {
+      "index": 116,
+      "encoding_mae_8bit": 1.4612321886007045,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 41.88637578049952,
+      "previous_frame_mae_8bit": 1.3203805435478706
+    },
+    {
+      "index": 117,
+      "encoding_mae_8bit": 1.4918267691322447,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 41.91456181956452,
+      "previous_frame_mae_8bit": 1.3665525936599423
+    },
+    {
+      "index": 118,
+      "encoding_mae_8bit": 1.4753076969260326,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 41.91484049791867,
+      "previous_frame_mae_8bit": 1.452347002081332
+    },
+    {
+      "index": 119,
+      "encoding_mae_8bit": 1.4749384606147935,
+      "encoding_max_difference_8bit": 60,
+      "original_mean_8bit": 41.944127241434515,
+      "previous_frame_mae_8bit": 1.5585004402817804
+    },
+    {
+      "index": 120,
+      "encoding_mae_8bit": 1.4801673070765289,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 42.03435999039385,
+      "previous_frame_mae_8bit": 1.6750590377841819
+    },
+    {
+      "index": 121,
+      "encoding_mae_8bit": 1.5003537263848863,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 42.09447546429715,
+      "previous_frame_mae_8bit": 1.8258525456292027
+    },
+    {
+      "index": 122,
+      "encoding_mae_8bit": 1.4967964497278259,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 42.25357228626321,
+      "previous_frame_mae_8bit": 1.9844450448286903
+    },
+    {
+      "index": 123,
+      "encoding_mae_8bit": 1.491773735190522,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 42.43253332132565,
+      "previous_frame_mae_8bit": 2.1677278458213256
+    },
+    {
+      "index": 124,
+      "encoding_mae_8bit": 1.5000245156900416,
+      "encoding_max_difference_8bit": 56,
+      "original_mean_8bit": 42.70996137528018,
+      "previous_frame_mae_8bit": 2.292712836215178
+    },
+    {
+      "index": 125,
+      "encoding_mae_8bit": 1.5109690201729107,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 43.07282160582773,
+      "previous_frame_mae_8bit": 2.4975414265129685
+    },
+    {
+      "index": 126,
+      "encoding_mae_8bit": 1.510718860070445,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 43.46051823166827,
+      "previous_frame_mae_8bit": 2.711962155779699
+    },
+    {
+      "index": 127,
+      "encoding_mae_8bit": 1.515748579090618,
+      "encoding_max_difference_8bit": 62,
+      "original_mean_8bit": 44.0391435518732,
+      "previous_frame_mae_8bit": 2.9057316682676912
+    },
+    {
+      "index": 128,
+      "encoding_mae_8bit": 1.5411158141210375,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 44.80442533221262,
+      "previous_frame_mae_8bit": 3.1373729186679475
+    },
+    {
+      "index": 129,
+      "encoding_mae_8bit": 1.5401561999679796,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 45.625235150496316,
+      "previous_frame_mae_8bit": 3.356019352385527
+    },
+    {
+      "index": 130,
+      "encoding_mae_8bit": 1.5433457412744156,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 46.59254422830612,
+      "previous_frame_mae_8bit": 3.53895292987512
+    },
+    {
+      "index": 131,
+      "encoding_mae_8bit": 1.5421014449247519,
+      "encoding_max_difference_8bit": 40,
+      "original_mean_8bit": 47.63277097342299,
+      "previous_frame_mae_8bit": 3.7342469180275377
+    },
+    {
+      "index": 132,
+      "encoding_mae_8bit": 1.559164865513929,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 48.78045298991354,
+      "previous_frame_mae_8bit": 3.9390745076849183
+    },
+    {
+      "index": 133,
+      "encoding_mae_8bit": 1.5620472102145373,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 49.926399395613196,
+      "previous_frame_mae_8bit": 4.1842259045789305
+    },
+    {
+      "index": 134,
+      "encoding_mae_8bit": 1.582332192603266,
+      "encoding_max_difference_8bit": 55,
+      "original_mean_8bit": 51.13974443643932,
+      "previous_frame_mae_8bit": 4.447968199647774
+    },
+    {
+      "index": 135,
+      "encoding_mae_8bit": 1.579352785782901,
+      "encoding_max_difference_8bit": 66,
+      "original_mean_8bit": 52.32901607028498,
+      "previous_frame_mae_8bit": 4.722793087576049
+    },
+    {
+      "index": 136,
+      "encoding_mae_8bit": 1.5899500680435479,
+      "encoding_max_difference_8bit": 58,
+      "original_mean_8bit": 53.49913994956772,
+      "previous_frame_mae_8bit": 4.99600044028178
+    },
+    {
+      "index": 137,
+      "encoding_mae_8bit": 1.5872788584694204,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 54.666203870477105,
+      "previous_frame_mae_8bit": 5.327307476785142
+    },
+    {
+      "index": 138,
+      "encoding_mae_8bit": 1.6023269892731349,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 55.81254152657701,
+      "previous_frame_mae_8bit": 5.613461615433878
+    },
+    {
+      "index": 139,
+      "encoding_mae_8bit": 1.5932937079731029,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 57.01960304594941,
+      "previous_frame_mae_8bit": 5.7836785542747355
+    },
+    {
+      "index": 140,
+      "encoding_mae_8bit": 1.6054174671789945,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 58.229521894012166,
+      "previous_frame_mae_8bit": 6.075922090137688
+    },
+    {
+      "index": 141,
+      "encoding_mae_8bit": 1.5882940081652257,
+      "encoding_max_difference_8bit": 71,
+      "original_mean_8bit": 59.27975104066603,
+      "previous_frame_mae_8bit": 6.4193733989753445
+    },
+    {
+      "index": 142,
+      "encoding_mae_8bit": 1.5930040225744477,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 60.26586715497918,
+      "previous_frame_mae_8bit": 6.829323767211015
+    },
+    {
+      "index": 143,
+      "encoding_mae_8bit": 1.591017251040666,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 60.88281850384246,
+      "previous_frame_mae_8bit": 7.195703750400257
+    },
+    {
+      "index": 144,
+      "encoding_mae_8bit": 1.5962526016650656,
+      "encoding_max_difference_8bit": 55,
+      "original_mean_8bit": 61.01979366794749,
+      "previous_frame_mae_8bit": 7.492069424431636
+    },
+    {
+      "index": 145,
+      "encoding_mae_8bit": 1.5931220981428114,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 60.4321730907781,
+      "previous_frame_mae_8bit": 7.769418928113993
+    },
+    {
+      "index": 146,
+      "encoding_mae_8bit": 1.5982063520653218,
+      "encoding_max_difference_8bit": 73,
+      "original_mean_8bit": 59.05055235350624,
+      "previous_frame_mae_8bit": 7.89749189481268
+    },
+    {
+      "index": 147,
+      "encoding_mae_8bit": 1.6099043387768173,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 57.15177313480628,
+      "previous_frame_mae_8bit": 8.226585014409222
+    },
+    {
+      "index": 148,
+      "encoding_mae_8bit": 1.6185883965738073,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 54.98410182516811,
+      "previous_frame_mae_8bit": 8.682720941402497
+    },
+    {
+      "index": 149,
+      "encoding_mae_8bit": 1.610124479666987,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 53.11219680595581,
+      "previous_frame_mae_8bit": 8.476796149535703
+    },
+    {
+      "index": 150,
+      "encoding_mae_8bit": 1.6214202089337175,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 51.59393361751521,
+      "previous_frame_mae_8bit": 7.724616254402818
+    },
+    {
+      "index": 151,
+      "encoding_mae_8bit": 1.604913144412424,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 49.77904759045789,
+      "previous_frame_mae_8bit": 6.767456672270253
+    },
+    {
+      "index": 152,
+      "encoding_mae_8bit": 1.5769372398334935,
+      "encoding_max_difference_8bit": 60,
+      "original_mean_8bit": 48.316523575088056,
+      "previous_frame_mae_8bit": 5.6707212616074285
+    },
+    {
+      "index": 153,
+      "encoding_mae_8bit": 1.568582392731348,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 46.25957112552033,
+      "previous_frame_mae_8bit": 5.2306586215177715
+    },
+    {
+      "index": 154,
+      "encoding_mae_8bit": 1.5655559558117196,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 43.794206792347104,
+      "previous_frame_mae_8bit": 4.506630743675952
+    },
+    {
+      "index": 155,
+      "encoding_mae_8bit": 1.5666726705091258,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 41.65838136407301,
+      "previous_frame_mae_8bit": 4.144230807716939
+    },
+    {
+      "index": 156,
+      "encoding_mae_8bit": 1.5620507124559717,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 39.88837756163945,
+      "previous_frame_mae_8bit": 3.753336135126481
+    },
+    {
+      "index": 157,
+      "encoding_mae_8bit": 1.5664220100864554,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 38.451844680595585,
+      "previous_frame_mae_8bit": 3.4852290465898177
+    },
+    {
+      "index": 158,
+      "encoding_mae_8bit": 1.4311574407620877,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 37.272909161863595,
+      "previous_frame_mae_8bit": 3.283001120717259
+    },
+    {
+      "index": 159,
+      "encoding_mae_8bit": 1.5008850664425233,
+      "encoding_max_difference_8bit": 63,
+      "original_mean_8bit": 36.377643191642655,
+      "previous_frame_mae_8bit": 3.169926753121998
+    },
+    {
+      "index": 160,
+      "encoding_mae_8bit": 1.4978806436119116,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 35.68427193403778,
+      "previous_frame_mae_8bit": 3.071977565642011
+    },
+    {
+      "index": 161,
+      "encoding_mae_8bit": 1.5118420789305156,
+      "encoding_max_difference_8bit": 54,
+      "original_mean_8bit": 35.018584394012166,
+      "previous_frame_mae_8bit": 3.0546344660582774
+    },
+    {
+      "index": 162,
+      "encoding_mae_8bit": 1.4862171789945564,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 34.60954560918988,
+      "previous_frame_mae_8bit": 2.903227065321806
+    },
+    {
+      "index": 163,
+      "encoding_mae_8bit": 1.505552553634326,
+      "encoding_max_difference_8bit": 61,
+      "original_mean_8bit": 34.2149855907781,
+      "previous_frame_mae_8bit": 2.8745191922830613
+    },
+    {
+      "index": 164,
+      "encoding_mae_8bit": 1.5046609830291386,
+      "encoding_max_difference_8bit": 61,
+      "original_mean_8bit": 33.79518691962856,
+      "previous_frame_mae_8bit": 2.818691962856228
+    },
+    {
+      "index": 165,
+      "encoding_mae_8bit": 1.5197011087095742,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 33.33639279138649,
+      "previous_frame_mae_8bit": 2.772905159301953
+    },
+    {
+      "index": 166,
+      "encoding_mae_8bit": 1.5061464337175792,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 32.90556205971822,
+      "previous_frame_mae_8bit": 2.7747188200448285
+    },
+    {
+      "index": 167,
+      "encoding_mae_8bit": 1.5141665666026256,
+      "encoding_max_difference_8bit": 64,
+      "original_mean_8bit": 32.658291806756324,
+      "previous_frame_mae_8bit": 2.7406670268972144
+    },
+    {
+      "index": 168,
+      "encoding_mae_8bit": 1.5150531340057636,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 32.491025256163944,
+      "previous_frame_mae_8bit": 2.777588156420109
+    },
+    {
+      "index": 169,
+      "encoding_mae_8bit": 1.5065391850784502,
+      "encoding_max_difference_8bit": 58,
+      "original_mean_8bit": 32.445051332853026,
+      "previous_frame_mae_8bit": 2.806227485590778
+    },
+    {
+      "index": 170,
+      "encoding_mae_8bit": 1.5033401376881204,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 32.693410782901054,
+      "previous_frame_mae_8bit": 2.785626300832533
+    },
+    {
+      "index": 171,
+      "encoding_mae_8bit": 1.5071560798911303,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 32.905920789305156,
+      "previous_frame_mae_8bit": 2.7448497038104387
+    },
+    {
+      "index": 172,
+      "encoding_mae_8bit": 1.5066777737752162,
+      "encoding_max_difference_8bit": 56,
+      "original_mean_8bit": 33.075540345821324,
+      "previous_frame_mae_8bit": 2.794492475184118
+    },
+    {
+      "index": 173,
+      "encoding_mae_8bit": 1.5145738272494396,
+      "encoding_max_difference_8bit": 63,
+      "original_mean_8bit": 33.285699847902656,
+      "previous_frame_mae_8bit": 2.877435558757605
+    },
+    {
+      "index": 174,
+      "encoding_mae_8bit": 1.5296344660582772,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 33.41879703009926,
+      "previous_frame_mae_8bit": 3.0108699567723343
+    },
+    {
+      "index": 175,
+      "encoding_mae_8bit": 1.5428304114633364,
+      "encoding_max_difference_8bit": 55,
+      "original_mean_8bit": 33.59404518892091,
+      "previous_frame_mae_8bit": 3.3945755283381365
+    },
+    {
+      "index": 176,
+      "encoding_mae_8bit": 1.546743415786103,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 33.87804594940762,
+      "previous_frame_mae_8bit": 3.9680325408261288
+    },
+    {
+      "index": 177,
+      "encoding_mae_8bit": 1.5468714977585656,
+      "encoding_max_difference_8bit": 61,
+      "original_mean_8bit": 34.88927963896894,
+      "previous_frame_mae_8bit": 4.032790485910983
+    },
+    {
+      "index": 178,
+      "encoding_mae_8bit": 1.536525876560999,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 35.76520272974704,
+      "previous_frame_mae_8bit": 4.216413004322766
+    },
+    {
+      "index": 179,
+      "encoding_mae_8bit": 1.55247158181236,
+      "encoding_max_difference_8bit": 67,
+      "original_mean_8bit": 36.56206772334294,
+      "previous_frame_mae_8bit": 4.423590097662504
+    },
+    {
+      "index": 180,
+      "encoding_mae_8bit": 1.5462005683637527,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 37.13672150176113,
+      "previous_frame_mae_8bit": 4.495447086135126
+    },
+    {
+      "index": 181,
+      "encoding_mae_8bit": 1.5697101144732628,
+      "encoding_max_difference_8bit": 64,
+      "original_mean_8bit": 37.80610490714057,
+      "previous_frame_mae_8bit": 4.830200328210054
+    },
+    {
+      "index": 182,
+      "encoding_mae_8bit": 1.5618946125520332,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 38.9600044028178,
+      "previous_frame_mae_8bit": 4.801046669868716
+    },
+    {
+      "index": 183,
+      "encoding_mae_8bit": 1.5741534582132566,
+      "encoding_max_difference_8bit": 66,
+      "original_mean_8bit": 40.30021063480628,
+      "previous_frame_mae_8bit": 4.881124419628562
+    },
+    {
+      "index": 184,
+      "encoding_mae_8bit": 1.5703375160102466,
+      "encoding_max_difference_8bit": 63,
+      "original_mean_8bit": 41.53941672670509,
+      "previous_frame_mae_8bit": 5.059633165225745
+    },
+    {
+      "index": 185,
+      "encoding_mae_8bit": 1.5784281940441882,
+      "encoding_max_difference_8bit": 90,
+      "original_mean_8bit": 42.4007815001601,
+      "previous_frame_mae_8bit": 4.975485810918988
+    },
+    {
+      "index": 186,
+      "encoding_mae_8bit": 1.5807686919628563,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 43.42273154819084,
+      "previous_frame_mae_8bit": 5.193906099903939
+    },
+    {
+      "index": 187,
+      "encoding_mae_8bit": 1.5830271373679154,
+      "encoding_max_difference_8bit": 61,
+      "original_mean_8bit": 44.73086925632405,
+      "previous_frame_mae_8bit": 5.413640229747038
+    },
+    {
+      "index": 188,
+      "encoding_mae_8bit": 1.5780154298751201,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 46.48254983189241,
+      "previous_frame_mae_8bit": 5.539859009766251
+    },
+    {
+      "index": 189,
+      "encoding_mae_8bit": 1.5775011007044508,
+      "encoding_max_difference_8bit": 84,
+      "original_mean_8bit": 48.08679304755043,
+      "previous_frame_mae_8bit": 5.733354847102145
+    },
+    {
+      "index": 190,
+      "encoding_mae_8bit": 1.5810238552673712,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 49.247360310598786,
+      "previous_frame_mae_8bit": 5.742582752961896
+    },
+    {
+      "index": 191,
+      "encoding_mae_8bit": 1.5832983109189882,
+      "encoding_max_difference_8bit": 71,
+      "original_mean_8bit": 50.37732098543068,
+      "previous_frame_mae_8bit": 6.027405039225104
+    },
+    {
+      "index": 192,
+      "encoding_mae_8bit": 1.5884971381684279,
+      "encoding_max_difference_8bit": 61,
+      "original_mean_8bit": 51.40690241754723,
+      "previous_frame_mae_8bit": 6.348284402017291
+    },
+    {
+      "index": 193,
+      "encoding_mae_8bit": 1.5846841978866475,
+      "encoding_max_difference_8bit": 59,
+      "original_mean_8bit": 52.62008635526737,
+      "previous_frame_mae_8bit": 6.385024915946206
+    },
+    {
+      "index": 194,
+      "encoding_mae_8bit": 1.5754177673711176,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 53.45680885766891,
+      "previous_frame_mae_8bit": 6.570502121357669
+    },
+    {
+      "index": 195,
+      "encoding_mae_8bit": 1.5753132004482868,
+      "encoding_max_difference_8bit": 54,
+      "original_mean_8bit": 53.302201408901695,
+      "previous_frame_mae_8bit": 6.215498418988153
+    },
+    {
+      "index": 196,
+      "encoding_mae_8bit": 1.5656915425872557,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 52.85829230707653,
+      "previous_frame_mae_8bit": 6.429379803073967
+    },
+    {
+      "index": 197,
+      "encoding_mae_8bit": 1.5694429434838297,
+      "encoding_max_difference_8bit": 54,
+      "original_mean_8bit": 52.4613122398335,
+      "previous_frame_mae_8bit": 6.695520132885046
+    },
+    {
+      "index": 198,
+      "encoding_mae_8bit": 1.566868295709254,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 52.26080791706692,
+      "previous_frame_mae_8bit": 6.8408531460134485
+    },
+    {
+      "index": 199,
+      "encoding_mae_8bit": 1.5652882845020812,
+      "encoding_max_difference_8bit": 61,
+      "original_mean_8bit": 52.31188760806916,
+      "previous_frame_mae_8bit": 6.95160002401537
+    },
+    {
+      "index": 200,
+      "encoding_mae_8bit": 1.559674191482549,
+      "encoding_max_difference_8bit": 63,
+      "original_mean_8bit": 51.56077789785463,
+      "previous_frame_mae_8bit": 6.420361031059878
+    },
+    {
+      "index": 201,
+      "encoding_mae_8bit": 1.5538974943964137,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 50.752922370317,
+      "previous_frame_mae_8bit": 6.236486851585014
+    },
+    {
+      "index": 202,
+      "encoding_mae_8bit": 1.5370402057316683,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 49.913086875600385,
+      "previous_frame_mae_8bit": 6.034513088376561
+    },
+    {
+      "index": 203,
+      "encoding_mae_8bit": 1.5235815922190201,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 48.65804064601345,
+      "previous_frame_mae_8bit": 5.8913494636567405
+    },
+    {
+      "index": 204,
+      "encoding_mae_8bit": 1.5251365874159462,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 46.919689601344864,
+      "previous_frame_mae_8bit": 5.463855367435158
+    },
+    {
+      "index": 205,
+      "encoding_mae_8bit": 1.519250820525136,
+      "encoding_max_difference_8bit": 54,
+      "original_mean_8bit": 44.85640860150496,
+      "previous_frame_mae_8bit": 4.879860610790907
+    },
+    {
+      "index": 206,
+      "encoding_mae_8bit": 1.518880083253282,
+      "encoding_max_difference_8bit": 66,
+      "original_mean_8bit": 42.747051112712136,
+      "previous_frame_mae_8bit": 4.645318503842459
+    },
+    {
+      "index": 207,
+      "encoding_mae_8bit": 1.512041706692283,
+      "encoding_max_difference_8bit": 56,
+      "original_mean_8bit": 40.99174021373679,
+      "previous_frame_mae_8bit": 4.439468760006404
+    },
+    {
+      "index": 208,
+      "encoding_mae_8bit": 1.5100894572526418,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 39.35644462455972,
+      "previous_frame_mae_8bit": 4.414902537624079
+    },
+    {
+      "index": 209,
+      "encoding_mae_8bit": 1.515072646493756,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 37.6348112792187,
+      "previous_frame_mae_8bit": 4.405536043067563
+    },
+    {
+      "index": 210,
+      "encoding_mae_8bit": 1.5194899735830931,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 36.266017251040665,
+      "previous_frame_mae_8bit": 4.222256243996157
+    },
+    {
+      "index": 211,
+      "encoding_mae_8bit": 1.5090958213256485,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 35.31712145773295,
+      "previous_frame_mae_8bit": 4.178907000480307
+    },
+    {
+      "index": 212,
+      "encoding_mae_8bit": 1.510354626961255,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 34.730843739993595,
+      "previous_frame_mae_8bit": 4.157997618475824
+    },
+    {
+      "index": 213,
+      "encoding_mae_8bit": 1.5087551032660902,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 34.16160442683317,
+      "previous_frame_mae_8bit": 4.205606588216458
+    },
+    {
+      "index": 214,
+      "encoding_mae_8bit": 1.5112587055715658,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 33.02241434518091,
+      "previous_frame_mae_8bit": 4.0536973663144416
+    },
+    {
+      "index": 215,
+      "encoding_mae_8bit": 1.5004322766570606,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 32.297366814761446,
+      "previous_frame_mae_8bit": 3.935885466698687
+    },
+    {
+      "index": 216,
+      "encoding_mae_8bit": 1.5004367795389049,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 31.77889899535703,
+      "previous_frame_mae_8bit": 3.972687520012808
+    },
+    {
+      "index": 217,
+      "encoding_mae_8bit": 1.5039945565161703,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 31.60537243836055,
+      "previous_frame_mae_8bit": 4.042424651777138
+    },
+    {
+      "index": 218,
+      "encoding_mae_8bit": 1.5138463616714697,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 31.500411763528657,
+      "previous_frame_mae_8bit": 4.091866294428434
+    },
+    {
+      "index": 219,
+      "encoding_mae_8bit": 1.508503942523215,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 30.951772634486073,
+      "previous_frame_mae_8bit": 3.9304554915145693
+    },
+    {
+      "index": 220,
+      "encoding_mae_8bit": 1.5085819924751842,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 30.59003762407941,
+      "previous_frame_mae_8bit": 3.9991599623759204
+    },
+    {
+      "index": 221,
+      "encoding_mae_8bit": 1.5114283141210374,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 30.521759926352868,
+      "previous_frame_mae_8bit": 4.073700168107589
+    },
+    {
+      "index": 222,
+      "encoding_mae_8bit": 1.514163564681396,
+      "encoding_max_difference_8bit": 41,
+      "original_mean_8bit": 30.711308237271854,
+      "previous_frame_mae_8bit": 4.249747838616715
+    },
+    {
+      "index": 223,
+      "encoding_mae_8bit": 1.4984680195325009,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 31.218522354306756,
+      "previous_frame_mae_8bit": 4.271060979026577
+    },
+    {
+      "index": 224,
+      "encoding_mae_8bit": 1.5138778818443803,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 31.27997968699968,
+      "previous_frame_mae_8bit": 4.127294468459814
+    },
+    {
+      "index": 225,
+      "encoding_mae_8bit": 1.51166496557797,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 31.49182026496958,
+      "previous_frame_mae_8bit": 4.34330971821966
+    },
+    {
+      "index": 226,
+      "encoding_mae_8bit": 1.5225619396413705,
+      "encoding_max_difference_8bit": 37,
+      "original_mean_8bit": 31.90604987191803,
+      "previous_frame_mae_8bit": 4.625621898014729
+    },
+    {
+      "index": 227,
+      "encoding_mae_8bit": 1.5147569444444444,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 32.427102845821324,
+      "previous_frame_mae_8bit": 5.069704110630804
+    },
+    {
+      "index": 228,
+      "encoding_mae_8bit": 1.5185043427793787,
+      "encoding_max_difference_8bit": 40,
+      "original_mean_8bit": 33.65048080771694,
+      "previous_frame_mae_8bit": 4.944135246557797
+    },
+    {
+      "index": 229,
+      "encoding_mae_8bit": 1.5247408341338458,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 34.50791906820365,
+      "previous_frame_mae_8bit": 4.935905479506884
+    },
+    {
+      "index": 230,
+      "encoding_mae_8bit": 1.5336320244956771,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 35.28160922990714,
+      "previous_frame_mae_8bit": 5.227269452449567
+    },
+    {
+      "index": 231,
+      "encoding_mae_8bit": 1.5303284101825168,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 35.95720260967019,
+      "previous_frame_mae_8bit": 5.603161023054755
+    },
+    {
+      "index": 232,
+      "encoding_mae_8bit": 1.5288979947166186,
+      "encoding_max_difference_8bit": 56,
+      "original_mean_8bit": 36.68666946845981,
+      "previous_frame_mae_8bit": 6.1233969740634
+    },
+    {
+      "index": 233,
+      "encoding_mae_8bit": 1.5269882724943964,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 38.120137387928274,
+      "previous_frame_mae_8bit": 6.213525156099904
+    },
+    {
+      "index": 234,
+      "encoding_mae_8bit": 1.5282045509125841,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 39.48921259606148,
+      "previous_frame_mae_8bit": 6.383844660582773
+    },
+    {
+      "index": 235,
+      "encoding_mae_8bit": 1.5260231548190841,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 40.80140940201729,
+      "previous_frame_mae_8bit": 6.852533621517772
+    },
+    {
+      "index": 236,
+      "encoding_mae_8bit": 1.5273645132885045,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 42.02797990714057,
+      "previous_frame_mae_8bit": 7.248693663944925
+    },
+    {
+      "index": 237,
+      "encoding_mae_8bit": 1.5321160542747359,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 43.452626180755686,
+      "previous_frame_mae_8bit": 7.802863332532821
+    },
+    {
+      "index": 238,
+      "encoding_mae_8bit": 1.5202159382004483,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 45.099215998238876,
+      "previous_frame_mae_8bit": 8.420597182196605
+    },
+    {
+      "index": 239,
+      "encoding_mae_8bit": 1.5214867515209733,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 46.724041886807555,
+      "previous_frame_mae_8bit": 8.707597862632085
+    },
+    {
+      "index": 240,
+      "encoding_mae_8bit": 1.513647734550112,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 47.759237411943644,
+      "previous_frame_mae_8bit": 9.116626641050273
+    },
+    {
+      "index": 241,
+      "encoding_mae_8bit": 1.5020433077169388,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 47.71268661943644,
+      "previous_frame_mae_8bit": 9.051517971501761
+    },
+    {
+      "index": 242,
+      "encoding_mae_8bit": 1.5058997758565482,
+      "encoding_max_difference_8bit": 55,
+      "original_mean_8bit": 46.97600014008966,
+      "previous_frame_mae_8bit": 9.490354827089337
+    },
+    {
+      "index": 243,
+      "encoding_mae_8bit": 1.5058337335894973,
+      "encoding_max_difference_8bit": 56,
+      "original_mean_8bit": 45.81739113032341,
+      "previous_frame_mae_8bit": 10.016813260486712
+    },
+    {
+      "index": 244,
+      "encoding_mae_8bit": 1.499368595901377,
+      "encoding_max_difference_8bit": 55,
+      "original_mean_8bit": 44.59002361511367,
+      "previous_frame_mae_8bit": 10.427113352545629
+    },
+    {
+      "index": 245,
+      "encoding_mae_8bit": 1.4995462095741274,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 43.536402797790586,
+      "previous_frame_mae_8bit": 10.342493695965418
+    },
+    {
+      "index": 246,
+      "encoding_mae_8bit": 1.4790075648414986,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 42.782515810118475,
+      "previous_frame_mae_8bit": 9.666384986391291
+    },
+    {
+      "index": 247,
+      "encoding_mae_8bit": 1.4341248398975344,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 41.56217879442843,
+      "previous_frame_mae_8bit": 8.806152937880244
+    },
+    {
+      "index": 248,
+      "encoding_mae_8bit": 1.4126140730067243,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 40.48647734550112,
+      "previous_frame_mae_8bit": 7.610614793467819
+    },
+    {
+      "index": 249,
+      "encoding_mae_8bit": 1.385159001761127,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 38.47125410262568,
+      "previous_frame_mae_8bit": 6.489656880403458
+    },
+    {
+      "index": 250,
+      "encoding_mae_8bit": 1.3704280739673391,
+      "encoding_max_difference_8bit": 42,
+      "original_mean_8bit": 35.4720881364073,
+      "previous_frame_mae_8bit": 5.506667767371117
+    },
+    {
+      "index": 251,
+      "encoding_mae_8bit": 1.3504677993916105,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 33.0705461495357,
+      "previous_frame_mae_8bit": 4.945949407620877
+    },
+    {
+      "index": 252,
+      "encoding_mae_8bit": 1.3298395973422992,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 31.154312760166505,
+      "previous_frame_mae_8bit": 4.6692773374959975
+    },
+    {
+      "index": 253,
+      "encoding_mae_8bit": 1.312798691162344,
+      "encoding_max_difference_8bit": 37,
+      "original_mean_8bit": 29.64890730067243,
+      "previous_frame_mae_8bit": 4.54600644412424
+    },
+    {
+      "index": 254,
+      "encoding_mae_8bit": 1.32227475584374,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 28.081320545148895,
+      "previous_frame_mae_8bit": 4.281493655939801
+    },
+    {
+      "index": 255,
+      "encoding_mae_8bit": 1.3184102825808517,
+      "encoding_max_difference_8bit": 33,
+      "original_mean_8bit": 26.080835734870316,
+      "previous_frame_mae_8bit": 4.14001210774896
+    },
+    {
+      "index": 256,
+      "encoding_mae_8bit": 1.2916316442523215,
+      "encoding_max_difference_8bit": 28,
+      "original_mean_8bit": 25.101446425712457,
+      "previous_frame_mae_8bit": 3.283094680595581
+    },
+    {
+      "index": 257,
+      "encoding_mae_8bit": 1.2883010126480947,
+      "encoding_max_difference_8bit": 25,
+      "original_mean_8bit": 24.25086955651617,
+      "previous_frame_mae_8bit": 3.1680050232148576
+    },
+    {
+      "index": 258,
+      "encoding_mae_8bit": 1.2683567483189242,
+      "encoding_max_difference_8bit": 24,
+      "original_mean_8bit": 23.46502011287224,
+      "previous_frame_mae_8bit": 3.185129983189241
+    },
+    {
+      "index": 259,
+      "encoding_mae_8bit": 1.2587606067883446,
+      "encoding_max_difference_8bit": 39,
+      "original_mean_8bit": 22.407120056836376,
+      "previous_frame_mae_8bit": 3.0157660902977907
+    },
+    {
+      "index": 260,
+      "encoding_mae_8bit": 1.237238332532821,
+      "encoding_max_difference_8bit": 28,
+      "original_mean_8bit": 20.768626921229586,
+      "previous_frame_mae_8bit": 2.7628627321485753
+    },
+    {
+      "index": 261,
+      "encoding_mae_8bit": 1.2275481308037144,
+      "encoding_max_difference_8bit": 27,
+      "original_mean_8bit": 19.88248378962536,
+      "previous_frame_mae_8bit": 1.8799951969260327
+    },
+    {
+      "index": 262,
+      "encoding_mae_8bit": 1.2147339297150177,
+      "encoding_max_difference_8bit": 25,
+      "original_mean_8bit": 19.3040175712456,
+      "previous_frame_mae_8bit": 1.636373278898495
+    },
+    {
+      "index": 263,
+      "encoding_mae_8bit": 1.2012082732949088,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 18.78742495196926,
+      "previous_frame_mae_8bit": 1.5809568123599103
+    },
+    {
+      "index": 264,
+      "encoding_mae_8bit": 1.1997908661543388,
+      "encoding_max_difference_8bit": 30,
+      "original_mean_8bit": 18.402970901376882,
+      "previous_frame_mae_8bit": 1.5145383045148895
+    },
+    {
+      "index": 265,
+      "encoding_mae_8bit": 1.1951704090617996,
+      "encoding_max_difference_8bit": 27,
+      "original_mean_8bit": 18.086312740153698,
+      "previous_frame_mae_8bit": 1.4806220981428113
+    },
+    {
+      "index": 266,
+      "encoding_mae_8bit": 1.1944084213896895,
+      "encoding_max_difference_8bit": 26,
+      "original_mean_8bit": 17.86980117275056,
+      "previous_frame_mae_8bit": 1.432143571886007
+    },
+    {
+      "index": 267,
+      "encoding_mae_8bit": 1.1883840658021134,
+      "encoding_max_difference_8bit": 27,
+      "original_mean_8bit": 17.620064341178352,
+      "previous_frame_mae_8bit": 1.3269782660902978
+    },
+    {
+      "index": 268,
+      "encoding_mae_8bit": 1.181265509926353,
+      "encoding_max_difference_8bit": 26,
+      "original_mean_8bit": 17.454691002241436,
+      "previous_frame_mae_8bit": 1.3183172230227345
+    },
+    {
+      "index": 269,
+      "encoding_mae_8bit": 1.1657060518731988,
+      "encoding_max_difference_8bit": 34,
+      "original_mean_8bit": 17.370882364713417,
+      "previous_frame_mae_8bit": 1.4131043868075568
+    },
+    {
+      "index": 270,
+      "encoding_mae_8bit": 1.1660712856227986,
+      "encoding_max_difference_8bit": 31,
+      "original_mean_8bit": 17.428886487351907,
+      "previous_frame_mae_8bit": 1.4857278658341337
+    },
+    {
+      "index": 271,
+      "encoding_mae_8bit": 1.1532871037463976,
+      "encoding_max_difference_8bit": 31,
+      "original_mean_8bit": 17.64407570845341,
+      "previous_frame_mae_8bit": 1.5881659261927634
+    },
+    {
+      "index": 272,
+      "encoding_mae_8bit": 1.1551568003522255,
+      "encoding_max_difference_8bit": 28,
+      "original_mean_8bit": 18.07685768892091,
+      "previous_frame_mae_8bit": 1.6723443003522254
+    },
+    {
+      "index": 273,
+      "encoding_mae_8bit": 1.150239653378162,
+      "encoding_max_difference_8bit": 33,
+      "original_mean_8bit": 18.706084894332374,
+      "previous_frame_mae_8bit": 1.7156525176112711
+    },
+    {
+      "index": 274,
+      "encoding_mae_8bit": 1.152238432596862,
+      "encoding_max_difference_8bit": 28,
+      "original_mean_8bit": 19.483472922670508,
+      "previous_frame_mae_8bit": 1.8250315201729106
+    },
+    {
+      "index": 275,
+      "encoding_mae_8bit": 1.1553439201088698,
+      "encoding_max_difference_8bit": 28,
+      "original_mean_8bit": 20.405775696445726,
+      "previous_frame_mae_8bit": 1.9290450888568684
+    },
+    {
+      "index": 276,
+      "encoding_mae_8bit": 1.1623584093820045,
+      "encoding_max_difference_8bit": 27,
+      "original_mean_8bit": 21.4429584934358,
+      "previous_frame_mae_8bit": 2.07100144092219
+    },
+    {
+      "index": 277,
+      "encoding_mae_8bit": 1.1780504522894653,
+      "encoding_max_difference_8bit": 29,
+      "original_mean_8bit": 22.568569884726223,
+      "previous_frame_mae_8bit": 2.213893892090938
+    },
+    {
+      "index": 278,
+      "encoding_mae_8bit": 1.1833248278898496,
+      "encoding_max_difference_8bit": 29,
+      "original_mean_8bit": 23.732350204130643,
+      "previous_frame_mae_8bit": 2.3408956732308677
+    },
+    {
+      "index": 279,
+      "encoding_mae_8bit": 1.200088556676273,
+      "encoding_max_difference_8bit": 29,
+      "original_mean_8bit": 25.015030119276336,
+      "previous_frame_mae_8bit": 2.45435778898495
+    },
+    {
+      "index": 280,
+      "encoding_mae_8bit": 1.2148670148895293,
+      "encoding_max_difference_8bit": 31,
+      "original_mean_8bit": 26.34541706692283,
+      "previous_frame_mae_8bit": 2.5453675352225424
+    },
+    {
+      "index": 281,
+      "encoding_mae_8bit": 1.2289940561959654,
+      "encoding_max_difference_8bit": 31,
+      "original_mean_8bit": 27.644824187479987,
+      "previous_frame_mae_8bit": 2.6756729306756326
+    },
+    {
+      "index": 282,
+      "encoding_mae_8bit": 1.2540310798911303,
+      "encoding_max_difference_8bit": 38,
+      "original_mean_8bit": 28.894650576368875,
+      "previous_frame_mae_8bit": 2.8555590577969903
+    },
+    {
+      "index": 283,
+      "encoding_mae_8bit": 1.268103586295229,
+      "encoding_max_difference_8bit": 43,
+      "original_mean_8bit": 30.10461845581172,
+      "previous_frame_mae_8bit": 3.0036438320525134
+    },
+    {
+      "index": 284,
+      "encoding_mae_8bit": 1.281060878962536,
+      "encoding_max_difference_8bit": 54,
+      "original_mean_8bit": 31.15099313560679,
+      "previous_frame_mae_8bit": 3.2805105267371117
+    },
+    {
+      "index": 285,
+      "encoding_mae_8bit": 1.3049101424911944,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 31.97624079410823,
+      "previous_frame_mae_8bit": 3.591845280979827
+    },
+    {
+      "index": 286,
+      "encoding_mae_8bit": 1.319686599423631,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 32.79259976384886,
+      "previous_frame_mae_8bit": 3.6714952569644574
+    },
+    {
+      "index": 287,
+      "encoding_mae_8bit": 1.3195530139289144,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 33.67372868635927,
+      "previous_frame_mae_8bit": 3.7094870717259045
+    },
+    {
+      "index": 288,
+      "encoding_mae_8bit": 1.2987321886007044,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 34.47333343339737,
+      "previous_frame_mae_8bit": 3.767674311559398
+    },
+    {
+      "index": 289,
+      "encoding_mae_8bit": 1.3129012568043548,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 35.3309763248479,
+      "previous_frame_mae_8bit": 3.8607428754402817
+    },
+    {
+      "index": 290,
+      "encoding_mae_8bit": 1.311926633045149,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 36.02964247118155,
+      "previous_frame_mae_8bit": 4.095268972142171
+    },
+    {
+      "index": 291,
+      "encoding_mae_8bit": 1.3249804875120077,
+      "encoding_max_difference_8bit": 56,
+      "original_mean_8bit": 36.141548090778095,
+      "previous_frame_mae_8bit": 4.7922690521934035
+    },
+    {
+      "index": 292,
+      "encoding_mae_8bit": 1.3345616194364394,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 36.12939081011847,
+      "previous_frame_mae_8bit": 5.022525916586615
+    },
+    {
+      "index": 293,
+      "encoding_mae_8bit": 1.3402267451168748,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 36.1443488832853,
+      "previous_frame_mae_8bit": 5.131886907620878
+    },
+    {
+      "index": 294,
+      "encoding_mae_8bit": 1.3386782540826128,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 36.37677463576689,
+      "previous_frame_mae_8bit": 5.355841738712776
+    },
+    {
+      "index": 295,
+      "encoding_mae_8bit": 1.359760246557797,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 37.708573987351905,
+      "previous_frame_mae_8bit": 6.404861111111111
+    },
+    {
+      "index": 296,
+      "encoding_mae_8bit": 1.3718855067243036,
+      "encoding_max_difference_8bit": 58,
+      "original_mean_8bit": 39.59841398495037,
+      "previous_frame_mae_8bit": 7.049684297950688
+    },
+    {
+      "index": 297,
+      "encoding_mae_8bit": 1.3831241994876722,
+      "encoding_max_difference_8bit": 44,
+      "original_mean_8bit": 41.51256704290746,
+      "previous_frame_mae_8bit": 7.399183477425552
+    },
+    {
+      "index": 298,
+      "encoding_mae_8bit": 1.442993015529939,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 43.568620417066924,
+      "previous_frame_mae_8bit": 8.035552253442203
+    },
+    {
+      "index": 299,
+      "encoding_mae_8bit": 1.4405979827089337,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 45.14158161223183,
+      "previous_frame_mae_8bit": 8.563652237431956
+    },
+    {
+      "index": 300,
+      "encoding_mae_8bit": 1.4781069884726226,
+      "encoding_max_difference_8bit": 57,
+      "original_mean_8bit": 45.224701809157864,
+      "previous_frame_mae_8bit": 10.005477505603587
+    },
+    {
+      "index": 301,
+      "encoding_mae_8bit": 1.441432516810759,
+      "encoding_max_difference_8bit": 55,
+      "original_mean_8bit": 45.15911233189241,
+      "previous_frame_mae_8bit": 9.993687459974383
+    },
+    {
+      "index": 302,
+      "encoding_mae_8bit": 1.4714362191802755,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 45.16052223422991,
+      "previous_frame_mae_8bit": 9.717353105987833
+    },
+    {
+      "index": 303,
+      "encoding_mae_8bit": 1.4291666666666667,
+      "encoding_max_difference_8bit": 45,
+      "original_mean_8bit": 45.21269462455972,
+      "previous_frame_mae_8bit": 9.527363512648094
+    },
+    {
+      "index": 304,
+      "encoding_mae_8bit": 1.4629677993916106,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 45.302713736791546,
+      "previous_frame_mae_8bit": 9.318623418988153
+    },
+    {
+      "index": 305,
+      "encoding_mae_8bit": 1.4201729106628243,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 45.448448006724306,
+      "previous_frame_mae_8bit": 9.039426232788985
+    },
+    {
+      "index": 306,
+      "encoding_mae_8bit": 1.4449887928274094,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 45.63436149135447,
+      "previous_frame_mae_8bit": 8.811185658821646
+    },
+    {
+      "index": 307,
+      "encoding_mae_8bit": 1.3924981988472622,
+      "encoding_max_difference_8bit": 49,
+      "original_mean_8bit": 45.84476164745437,
+      "previous_frame_mae_8bit": 8.574830391450528
+    },
+    {
+      "index": 308,
+      "encoding_mae_8bit": 1.428575788504643,
+      "encoding_max_difference_8bit": 53,
+      "original_mean_8bit": 46.10511877601665,
+      "previous_frame_mae_8bit": 8.299696305635607
+    },
+    {
+      "index": 309,
+      "encoding_mae_8bit": 1.4058177233429394,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 46.39034231908421,
+      "previous_frame_mae_8bit": 8.041338456612232
+    },
+    {
+      "index": 310,
+      "encoding_mae_8bit": 1.4098953330131283,
+      "encoding_max_difference_8bit": 54,
+      "original_mean_8bit": 46.68633025136087,
+      "previous_frame_mae_8bit": 7.764951068683958
+    },
+    {
+      "index": 311,
+      "encoding_mae_8bit": 1.3729762047710534,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 46.87697126160743,
+      "previous_frame_mae_8bit": 7.685967018892091
+    },
+    {
+      "index": 312,
+      "encoding_mae_8bit": 1.3972427353506245,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 47.081623739193084,
+      "previous_frame_mae_8bit": 7.4254978186039065
+    },
+    {
+      "index": 313,
+      "encoding_mae_8bit": 1.3499719820685239,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 47.292163484630166,
+      "previous_frame_mae_8bit": 7.0812429955171305
+    },
+    {
+      "index": 314,
+      "encoding_mae_8bit": 1.3943488832853026,
+      "encoding_max_difference_8bit": 56,
+      "original_mean_8bit": 47.49926753121998,
+      "previous_frame_mae_8bit": 6.699854406820365
+    },
+    {
+      "index": 315,
+      "encoding_mae_8bit": 1.371793948126801,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 47.70036273214858,
+      "previous_frame_mae_8bit": 6.304229206692283
+    },
+    {
+      "index": 316,
+      "encoding_mae_8bit": 1.3975879562920268,
+      "encoding_max_difference_8bit": 57,
+      "original_mean_8bit": 47.896467739353184,
+      "previous_frame_mae_8bit": 5.902470080851745
+    },
+    {
+      "index": 317,
+      "encoding_mae_8bit": 1.340123178834454,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 48.09478866474544,
+      "previous_frame_mae_8bit": 5.516326448927313
+    },
+    {
+      "index": 318,
+      "encoding_mae_8bit": 1.403263588696766,
+      "encoding_max_difference_8bit": 54,
+      "original_mean_8bit": 48.27332142571245,
+      "previous_frame_mae_8bit": 5.138049851905219
+    },
+    {
+      "index": 319,
+      "encoding_mae_8bit": 1.3746812960294588,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 48.4173395973423,
+      "previous_frame_mae_8bit": 4.771997078130004
+    },
+    {
+      "index": 320,
+      "encoding_mae_8bit": 1.4008365353826449,
+      "encoding_max_difference_8bit": 55,
+      "original_mean_8bit": 48.57280959814281,
+      "previous_frame_mae_8bit": 4.345841838776817
+    },
+    {
+      "index": 321,
+      "encoding_mae_8bit": 1.3451699087415947,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 48.69086215177714,
+      "previous_frame_mae_8bit": 3.9348733189241116
+    },
+    {
+      "index": 322,
+      "encoding_mae_8bit": 1.3919998799231508,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 48.80178214056996,
+      "previous_frame_mae_8bit": 3.5072066122318284
+    },
+    {
+      "index": 323,
+      "encoding_mae_8bit": 1.39146003442203,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 48.88464417227026,
+      "previous_frame_mae_8bit": 3.0448146813960935
+    },
+    {
+      "index": 324,
+      "encoding_mae_8bit": 1.3990799111431316,
+      "encoding_max_difference_8bit": 51,
+      "original_mean_8bit": 48.96401446926033,
+      "previous_frame_mae_8bit": 2.589543808037144
+    },
+    {
+      "index": 325,
+      "encoding_mae_8bit": 1.3560944004162665,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 49.00449887928274,
+      "previous_frame_mae_8bit": 2.109724723823247
+    },
+    {
+      "index": 326,
+      "encoding_mae_8bit": 1.400633405379443,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 49.056446625840536,
+      "previous_frame_mae_8bit": 1.6770968419788665
+    },
+    {
+      "index": 327,
+      "encoding_mae_8bit": 1.3794683597502402,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 49.08882134566122,
+      "previous_frame_mae_8bit": 1.2561299231508165
+    },
+    {
+      "index": 328,
+      "encoding_mae_8bit": 1.369519992795389,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 49.11493155619596,
+      "previous_frame_mae_8bit": 0.8894567523214858
+    },
+    {
+      "index": 329,
+      "encoding_mae_8bit": 1.3472732548831252,
+      "encoding_max_difference_8bit": 48,
+      "original_mean_8bit": 49.116913824847906,
+      "previous_frame_mae_8bit": 0.6084333973743196
+    },
+    {
+      "index": 330,
+      "encoding_mae_8bit": 1.3436279218699967,
+      "encoding_max_difference_8bit": 47,
+      "original_mean_8bit": 49.12994666586616,
+      "previous_frame_mae_8bit": 0.4249984990393852
+    },
+    {
+      "index": 331,
+      "encoding_mae_8bit": 1.3529749039385206,
+      "encoding_max_difference_8bit": 46,
+      "original_mean_8bit": 49.14014919548511,
+      "previous_frame_mae_8bit": 0.3815812119756644
+    },
+    {
+      "index": 332,
+      "encoding_mae_8bit": 1.3515880163304514,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 49.14203240073647,
+      "previous_frame_mae_8bit": 0.303539265129683
+    },
+    {
+      "index": 333,
+      "encoding_mae_8bit": 1.3589517291066282,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 49.1438615714057,
+      "previous_frame_mae_8bit": 0.2371607829010567
+    },
+    {
+      "index": 334,
+      "encoding_mae_8bit": 1.3623173831252002,
+      "encoding_max_difference_8bit": 50,
+      "original_mean_8bit": 49.14396613832853,
+      "previous_frame_mae_8bit": 0.1644607548831252
+    },
+    {
+      "index": 335,
+      "encoding_mae_8bit": 1.3530334414024976,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 49.1410307596862,
+      "previous_frame_mae_8bit": 0.11082242635286584
+    },
+    {
+      "index": 336,
+      "encoding_mae_8bit": 1.3607023495036823,
+      "encoding_max_difference_8bit": 52,
+      "original_mean_8bit": 49.141801753121996,
+      "previous_frame_mae_8bit": 0.04923701168747999
+    }
+  ],
+  "ffmpeg_version": "ffmpeg version 7.1.5-0+deb13u1",
+  "run_wall_seconds_note": "Elapsed from initial V2 pilot start through final completion, including owner approval pause; not continuous render-only duration."
+}
