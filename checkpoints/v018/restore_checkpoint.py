@@ -67,6 +67,8 @@ def main():
     p.add_argument('--repository-root', type=Path, default=Path(__file__).resolve().parents[2])
     p.add_argument('--output', type=Path)
     args = p.parse_args()
+    if not (Path(__file__).resolve().parent / 'MANIFEST.json').is_file():
+        p.error('Historical v018 payload withdrawn. Restore in a separate worktree at commit 89cce41edf648eef6487d54ee1ce2a46bbb0ae17; see this directory README. Current checkpoint is v019.')
     print('Verified and restored:', restore(Path(__file__).resolve().parent, args.repository_root, args.output))
 
 

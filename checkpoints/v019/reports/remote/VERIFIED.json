@@ -1,0 +1,16 @@
+{
+  "all_pass": true,
+  "remote_commit": "3f7be81d9b2401fe7ec70cf5d0d225a1e3d10b9a",
+  "remote_tree": "1dd7b7958d12a2c50f45c8eb645031a384e8d020",
+  "model_sha256": "e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a",
+  "root_checksum_files": 568,
+  "core_tests": 13,
+  "actual_blender_checks": [
+    "preservation",
+    "geometry_and_attachment",
+    "all_tube_strict_crossings"
+  ],
+  "external_dependencies": "Exact external historical v018 and authored641 asset explicitly supplied; not claiming self-contained fresh reconstruction of generator asset.",
+  "render_repeated": false,
+  "reason": "Byte-exact restored accepted model; original actual pairedrenders preserved."
+}

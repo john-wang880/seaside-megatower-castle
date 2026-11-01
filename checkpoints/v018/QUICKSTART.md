@@ -1,3 +1,13 @@
+> **历史v018资料，不是当前模型。** 当前模型请看[版本v019](https://github.com/john-wang880/seaside-megatower-castle/blob/main/checkpoints/v019/README.md)。本目录保留历史呈现/工具/证据，不再携带旧模型清单和专用分块。旧命令须先在固定历史工作树中运行：
+>
+> ```sh
+> git worktree add --detach ../castle-v018-history 89cce41edf648eef6487d54ee1ce2a46bbb0ae17
+> cd ../castle-v018-history
+> python checkpoints/v018/restore_checkpoint.py
+> ```
+>
+> 这不会回退当前main或修改其文件。若目标目录已存在，请另选新路径。之后从该历史工作树根目录运行本页原有命令；源模型SHA必须为c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd。不要把v019模型交给绑定v018身份的旧影片脚本。
+
 # 恢复、打开与安全编辑
 
 这些命令从**仓库根目录**执行，不是从`navigation`子目录执行。完整仓库必须含`model_chunks/`；单独下载清单或某个分块无法打开工程。已验证运行环境为Blender5.2.3LTS；原云端4.3.2不能打开该格式。

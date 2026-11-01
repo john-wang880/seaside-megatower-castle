@@ -10,7 +10,7 @@
 
 克隆完整仓库（含model_chunks），运行 `python checkpoints/v019/restore_checkpoint.py`，用兼容Blender5.2.3LTS打开。逐块和整文件SHA-256验证，精确恢复原字节。
 
-先增加新版备份并独立远端恢复验证，再撤下旧版当前模型载荷。旧版Git历史保留，不强推、不永久清除历史。
+已从远端提交`3f7be81d9b2401fe7ec70cf5d0d225a1e3d10b9a`字节精确恢复并重验，见[验证收据](checkpoints/v019/reports/remote/VERIFIED.json)。当前只保留最新模型载荷。旧版Git历史保留，不强推、不永久清除历史。
 
 ## 历史呈现与工具（不是v019影片）
 - [v018内廊至露台28秒影片与来源](https://github.com/john-wang880/seaside-megatower-castle/blob/89cce41edf648eef6487d54ee1ce2a46bbb0ae17/checkpoints/v018/presentation/interior_route/STATUS.md)，336真实帧；不含本次树冠修改。

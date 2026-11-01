@@ -1,6 +1,6 @@
 # v019：仅一棵前景针叶树的精细化
 
-本检查点保留已审阅并通过几何/原场景保护验证的**精确模型字节**。采用先追加备份、再独立远端恢复验证的流程；最新发布验证状态见`acceptance_summary.json`。
+本检查点保留已审阅并通过几何/原场景保护验证的**精确模型字节**。采用先追加备份、再独立远端恢复验证的流程；已从远端`3f7be81d9b2401fe7ec70cf5d0d225a1e3d10b9a`精确恢复并重验，见`reports/remote/VERIFIED.json`及`acceptance_summary.json`。
 
 模型 SHA256：`e71778349c4c65eafbda3eb0a3d0753cd11e1b368a3456c4de1db2f4c0f8647a`。47,591,177字节。基线v018：`c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd`，可从历史提交`89cce41`恢复。未改城堡、海岸、路线、屋顶或其他树木。
 
