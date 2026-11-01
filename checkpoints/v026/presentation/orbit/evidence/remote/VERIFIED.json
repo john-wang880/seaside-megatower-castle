@@ -1,0 +1,15 @@
+{
+  "verified_commit": "efffa7188bd423e6cd1534b9b36f4d7b444cf52e",
+  "tree": "226eda3f06d5fbb589c0c291ae6894edbbbf3a25",
+  "root_checksums": 1883,
+  "package_payloads": 66,
+  "remote_video_sha256": "3dddfc0904deb3472c79a4ef4a7e02b315527efde00640482c702c4cdf4b0b74",
+  "source_exact_restore": true,
+  "all96_remote_metadata_hashes_verified": true,
+  "five_remote_raw_landmarks_verified": true,
+  "full_decode_and_source_frame_QA_replayed": true,
+  "decoded_hashes_and_correspondence_exact_to_local_QA": true,
+  "raw_pixel_reference_scope": "Remote video/96 receipts + all96 independently hash-verified local original PNGs. Only5 rawPNG are remotely archived; other91 require rerender if lost. Not a Git-only lossless full-frame reconstruction.",
+  "remote_qa_report_sha256": "585a6ca542979fb9023096ce8b629aab26a50f65f12f7312a7089c051bdc33c2",
+  "historical_v016_unchanged": true
+}

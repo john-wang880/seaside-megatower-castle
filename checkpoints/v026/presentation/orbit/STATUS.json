@@ -1,5 +1,5 @@
 {
-  "status": "full_local_complete_independent_QA_pass_remote_backup_pending",
+  "status": "complete_independently_checked_remote_verified",
   "parent_gate_utc": "2026-11-01T20:20:00Z",
   "model_version": "v026",
   "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
@@ -28,7 +28,7 @@
     96
   ],
   "metadata_without_png_not_recoverable": true,
-  "remote_backup_verified": false,
+  "remote_backup_verified": true,
   "historical_video_is_current": false,
   "independent_art_pilot_pass": true,
   "visual_scope": "One actual still only; temporal continuity and full96frame sequence remain unreviewed",
@@ -43,5 +43,6 @@
   "final_QA_report_sha256": "3a6354b63626f0a4b03a34899c63b286d518e5701a818aabe16a47edb6e13336",
   "mean_compression_mae_255": 1.7096197853485744,
   "max_compression_mae_255": 1.7723437547683716,
-  "decoded_duplicates": 0
+  "decoded_duplicates": 0,
+  "remote_verified_commit": "efffa7188bd423e6cd1534b9b36f4d7b444cf52e"
 }
