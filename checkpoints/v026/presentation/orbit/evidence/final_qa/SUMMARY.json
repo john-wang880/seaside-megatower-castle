@@ -1,0 +1,40 @@
+{
+  "pass": true,
+  "script_sha256": "99ff4e148ed2e4447f3a8045ce13231c47be253c022186e9b170f4931eab4571",
+  "report_sha256": "3a6354b63626f0a4b03a34899c63b286d518e5701a818aabe16a47edb6e13336",
+  "video_sha256": "3dddfc0904deb3472c79a4ef4a7e02b315527efde00640482c702c4cdf4b0b74",
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "frames": 96,
+  "fps": 12,
+  "seconds": 8,
+  "resolution": [
+    960,
+    694
+  ],
+  "mean_mae_255": 1.7096197853485744,
+  "max_mae_255": 1.7723437547683716,
+  "raw_rgb_ambiguity": [
+    2
+  ],
+  "resolved_by_multiscale_luma": [
+    2
+  ],
+  "decoded_duplicates": 0,
+  "negative_controls": {
+    "decoded49_mislabeled48_rejected": true,
+    "decoded49_duplicated_as50_rejected": true,
+    "actual_source_errors": {
+      "47": 5.661084175109863,
+      "48": 3.981297016143799,
+      "49": 1.6637482643127441,
+      "50": 3.9630954265594482,
+      "51": 5.627861022949219
+    },
+    "scope": "Actual decoded-frame reassignment in memory; no video alteration/encoding. Strong central sequence shifts, not a claim to distinguish arbitrarily near-identical images."
+  },
+  "max_adjacent_source_mae_255": 3.171379566192627,
+  "max_abs_source_brightness_step": 0.11960704851105675,
+  "visual_inspection": "Actual largest-change pair54/55 inspected: coherent small orbit advance and water/reflection variation; no obvious composition jump/blackout. Still inspection and statistics are not exhaustive temporal-flicker certification.",
+  "no_blender_or_encoding_in_independent_review": true,
+  "warning_cleanup": "First passing run emitted Python escape-string SyntaxWarning; exact command string retained via raw f-string and entire chain rerun under -W error, passed. Initial raw-MAE ambiguity and first-pass logs retained."
+}

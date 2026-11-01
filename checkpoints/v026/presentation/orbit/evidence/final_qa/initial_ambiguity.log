@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/orbit_v026/final_qa/check_final.py", line 52, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/orbit_v026/final_qa/check_final.py", line 48, in main
+    need(not mismatches,'Local frame correspondence ambiguous: manual review required')
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/orbit_v026/final_qa/check_final.py", line 10, in need
+    if not ok: raise RuntimeError(msg)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Local frame correspondence ambiguous: manual review required

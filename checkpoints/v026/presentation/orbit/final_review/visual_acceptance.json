@@ -1,0 +1,13 @@
+{
+  "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+  "owner_visual_acceptance": true,
+  "independent_art_acceptance": true,
+  "evidence": "Four storyboards covering all96frames",
+  "limits": [
+    "Storyboard assessment is not playback/flicker certification",
+    "Not every frame inspected at full native resolution",
+    "Expected end-arc bridge partial occlusion is retained actual geometry, not retuned"
+  ],
+  "geometry_lighting_retuned": false,
+  "independent_encoded_video_QA": "PASS; see evidence/final_qa/SUMMARY.json and explicit compression ambiguity limits"
+}

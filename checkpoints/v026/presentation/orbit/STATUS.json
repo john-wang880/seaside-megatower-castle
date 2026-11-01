@@ -1,5 +1,5 @@
 {
-  "status": "full_authorized_not_started",
+  "status": "full_local_complete_independent_QA_pass_remote_backup_pending",
   "parent_gate_utc": "2026-11-01T20:20:00Z",
   "model_version": "v026",
   "source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
@@ -14,19 +14,34 @@
   "pilot_peak_rss_linux_kib": 1792664,
   "pilot_png_sha256": "2316ab1a0d15ee8ed5e8550fa3d02659c527bc409337943d00ab69120b1edd78",
   "pilot_decoded_pixels_sha256": "c5b9dce5d608d081cb90ab72403e369b1a7dee3392fc89c966ae8c76b159796c",
-  "completed_actual_frames": 1,
-  "remaining_frames": 95,
+  "completed_actual_frames": 96,
+  "remaining_frames": 0,
   "remaining_render_estimate_minutes_from_single_pilot": 119.28115093750239,
   "estimate_limit": "One-frame observation, not guaranteed duration or benchmark; plus final encode/QA",
-  "full_render_started": false,
-  "video_complete": false,
+  "full_render_started": true,
+  "video_complete": true,
   "raw_frames_in_this_package": [
-    49
+    1,
+    25,
+    49,
+    72,
+    96
   ],
   "metadata_without_png_not_recoverable": true,
   "remote_backup_verified": false,
   "historical_video_is_current": false,
   "independent_art_pilot_pass": true,
   "visual_scope": "One actual still only; temporal continuity and full96frame sequence remain unreviewed",
-  "cache_identity_recovery": "Different unavailable cache path requires new output identity/rerender, no receipt migration"
+  "cache_identity_recovery": "Different unavailable cache path requires new output identity/rerender, no receipt migration",
+  "full_render_terminal_utc": "2026-11-01T22:13:59Z",
+  "video_sha256": "3dddfc0904deb3472c79a4ef4a7e02b315527efde00640482c702c4cdf4b0b74",
+  "video_bytes": 1757502,
+  "final_independent_QA": "PASS; frame2 raw RGB ambiguity retained, multiscale luma supports intended index; no mathematical universal ordering/flicker certification",
+  "all96_raw_png_backup": false,
+  "all96_raw_pngs_retained_local": true,
+  "metadata_frames_in_zip": 96,
+  "final_QA_report_sha256": "3a6354b63626f0a4b03a34899c63b286d518e5701a818aabe16a47edb6e13336",
+  "mean_compression_mae_255": 1.7096197853485744,
+  "max_compression_mae_255": 1.7723437547683716,
+  "decoded_duplicates": 0
 }
