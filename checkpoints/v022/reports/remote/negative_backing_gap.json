@@ -1,0 +1,11 @@
+{
+  "case": "backing_gap",
+  "rejected": true,
+  "error": "",
+  "actual_assertion": "assert set(map(tuple,coords[parts[2]]))==expected_ring(cuts[0]-.01,(.028,.035))|expected_ring(cuts[1]+.01,(.028,.035))",
+  "mutation": "mm=bpy.data.objects[plan['replacement']].data; [setattr(mm.vertices[i].co,'z',100.) for i in range(20,24)]",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v022/remote_additive/checkpoints/v022/qa/negative.py\", line 10, in <module>\n    try:exec(compile(s,str(p)+'[expanded-negative]','exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v022/remote_additive/checkpoints/v022/qa/critical.py[expanded-negative]\", line 60, in <module>\nAssertionError\n",
+  "candidate_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "source_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "expanded_sha256": "d334f1a3774fc3ad77c2c57f9ef45544ce3881bc085d966535b2e501dba13466"
+}

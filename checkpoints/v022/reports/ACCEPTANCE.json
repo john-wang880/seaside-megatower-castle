@@ -1,5 +1,5 @@
 {
-  "status": "ACCEPTED_LOCAL_PENDING_REMOTE_BACKUP",
+  "status": "ACCEPTED_AND_REMOTE_RESTORE_QA_VERIFIED",
   "model_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
   "model_bytes": 47611178,
   "source_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
@@ -17,5 +17,7 @@
   "public_qa_eight_calls_and_five_negative_controls": true,
   "models_and_frozen_bundles_unchanged": true,
   "all_evidence_local_before_publication": true,
-  "scope_limits": "Intentional narrow recess/bevel volume removal, no enlargement; finite contact/backing/visibility tests, not global opacity/manifold/structural safety."
+  "scope_limits": "Intentional narrow recess/bevel volume removal, no enlargement; finite contact/backing/visibility tests, not global opacity/manifold/structural safety.",
+  "remote_verified_commit": "5571b5fe5c7501b801a9455662e6d7aad18fd51f",
+  "remote_verification_report": "remote/VERIFIED.json"
 }

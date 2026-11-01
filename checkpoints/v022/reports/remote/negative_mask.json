@@ -1,0 +1,11 @@
+{
+  "case": "mask",
+  "rejected": true,
+  "error": "",
+  "actual_assertion": "bpy.context.view_layer.update();o=bpy.data.objects[plan['object']];mod=o.modifiers[0];assert len(o.modifiers)==len(o.vertex_groups)==1 and o.vertex_groups[0].name==plan['group'];assert [(v.index,[(g.group,g.weight)for g in v.groups])for v in o.data.vertices if v.groups]==[(i,[(0,1.)])for i in range(56,64)];assert mod.name==plan['modifier']and mod.type=='MASK'and mod.mode=='VERTEX_GROUP'and mod.vertex_group==plan['group']and mod.invert_vertex_group and mod.threshold==.5 and not mod.use_smooth and mod.show_viewport and mod.show_render",
+  "mutation": "bpy.data.objects[plan['object']].vertex_groups[0].add([0],1.,'REPLACE')",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v022/remote_additive/checkpoints/v022/qa/negative.py\", line 10, in <module>\n    try:exec(compile(s,str(p)+'[expanded-negative]','exec'),{'__file__':str(p),'__name__':'__main__'})\n        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v022/remote_additive/checkpoints/v022/qa/critical.py[expanded-negative]\", line 18, in <module>\nAssertionError\n",
+  "candidate_sha256": "99156d901f9d498b86bae4834a642d1d9110dc6e4e3a4273bca64fda17a9dfd2",
+  "source_sha256": "457348497ba7dade666a909c029f6641a0945012f264fe088b8f06513a937ae9",
+  "expanded_sha256": "6278634e7f3c556509084061fc0e1b5f21d035301b2b4df816accca32b349438"
+}
