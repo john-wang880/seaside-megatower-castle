@@ -2,7 +2,7 @@
 
 ## 当前唯一有效状态：v028 已完成远端验证
 
-- 可选编辑索引（同一v028，不升模型版本）：[工具](scripts/current_inspection/README.md)显式 `--editing-index` 默认OFF，四组手动选择为局部房间壳体／20灯具网格（排除2LIGHT）／入口顶棚／HIGH近树。LOW或隐藏目标拒绝且不unhide，不重命名原数据；共享材质、装配与混合原建筑宿主限制见[指南](scripts/current_inspection/EDIT_INDEX_GUIDE.md)。本地原生验证已通过，本次严格增量工具发布的远端重放仍待完成；原v028源和哈希不变。
+- 可选编辑索引（同一v028，不升模型版本）：[工具](scripts/current_inspection/README.md)显式 `--editing-index` 默认OFF，四组手动选择为局部房间壳体／20灯具网格（排除2LIGHT）／入口顶棚／HIGH近树。LOW或隐藏目标拒绝且不unhide，不重命名原数据；共享材质、装配与混合原建筑宿主限制见[指南](scripts/current_inspection/EDIT_INDEX_GUIDE.md)。本地验证及严格增量提交 `8a88b1e5a37fb0989a01532029edc9dd6939db9a` 的全新远端校验／模型恢复、4导出＋3组原生QA重放通过；[远端记录](checkpoints/v028/audits/editability/REMOTE_VERIFIED.json)为最终状态依据。最终守卫版73项纯测试及另6个原生面板边界案例通过，不宣称广泛无崩溃或原生Windows通过；原v028源和哈希不变，无模型升版或旧路径删除。
 
 - 当前候选／本地接受模型：**v028 下层接待／守卫室**，`checkpoints/v028/MANIFEST.json`；SHA `f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096`，47,806,291B。
 - 固定来源v027提交 `91b0082b4443aa9a3539e742813bb37ddcc099da`，准确源37c0；增加32,887B模型数据，不等于Git增长。打包新增15,507,901B块，150引用／129唯一块，本地精确恢复通过。

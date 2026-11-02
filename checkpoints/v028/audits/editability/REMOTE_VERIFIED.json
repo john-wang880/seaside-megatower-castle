@@ -1,0 +1,33 @@
+{
+  "pass": true,
+  "verified_utc": "2026-11-02T03:08:58.471264+00:00",
+  "additive_commit": "8a88b1e5a37fb0989a01532029edc9dd6939db9a",
+  "root_checksums": 2678,
+  "model_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "canonical_model_unchanged": true,
+  "catalog_unchanged": true,
+  "all_old_paths_retained": true,
+  "exports": 4,
+  "qa_native_phases": 3,
+  "source_categories": 13,
+  "bookmarks": 18,
+  "quality_negatives": 27,
+  "selection_negatives": 37,
+  "native_panel_cases": 6,
+  "local_pure_methods": 73,
+  "remote_comparator_methods": 8,
+  "archive_unchanged": true,
+  "report_sha256": {
+    "REPLAY_SUMMARY.json": "696d4fe6e6af9723d801b7fba3ff8a877497b57dffa6e569a308dc94eb478738",
+    "SUMMARY.json": "65471012f428cc4686dda7eecbc40abcfa83f0410436fd29200b84ab1faac292",
+    "modes.json": "a4b60e3d7936f71715ed927f045caab57ee617d77db8808eaa944f15373ebd1f",
+    "index_positive.json": "b9d4c4fc52be32675bed0261105e9d5fe549eb6d2c19870cdd10eca563eabef5",
+    "index_negative.json": "2da5c42c94e939be4f47f7f7104c42a434b34a30068d5a7ff631a87b9bee3237"
+  },
+  "limits": [
+    "Linux background native API, not desktop clicking or native Windows certification.",
+    "Selection only; shared material graphs and assembly dependencies remain.",
+    "Historical harness failures and crashes retained with corrected RNA-lifetime chronology; no universal crash-free guarantee.",
+    "Final metadata commit requires separate remote checksum verification."
+  ]
+}

@@ -20,7 +20,7 @@
 
 [当前检查工具](scripts/current_inspection/README.md)新增显式 `--editing-index`，默认关闭，仅在另存的检查副本中手动运行面板。四个选择集为接待室局部壳体、20个房间灯具网格（不含2个实际灯光）、入口顶棚石肋及入口旁HIGH树；LOW或隐藏目标拒绝选择，不自动取消隐藏，不给原工程改名。详见[选择索引指南](scripts/current_inspection/EDIT_INDEX_GUIDE.md)。
 
-选择不是独立搬移／删除许可：材质可能共享，房间集合中的大范围原建筑残部不属于局部壳体选择集，历史Mask宿主不可当作普通备份删除。原v028模型及其哈希不变。本地原生验证已通过；本次工具增量发布的远端重放仍待完成，不提前写成远端通过。
+选择不是独立搬移／删除许可：材质可能共享，房间集合中的大范围原建筑残部不属于局部壳体选择集，历史Mask宿主不可当作普通备份删除。原v028模型及其哈希不变。本地验证及严格增量提交 `8a88b1e5a37fb0989a01532029edc9dd6939db9a` 的全新远端复取／模型恢复、4次导出和3组原生QA重放已通过，见[远端核验记录](checkpoints/v028/audits/editability/REMOTE_VERIFIED.json)。最终守卫版通过73项纯测试，另有6个原生面板边界案例通过；这是有限测试范围，不是广泛无崩溃保证，原生Windows仍未实测。
 
 ## 历史呈现与工具（不是v028影片）
 - [v020方形2400像素展陈图及相机配方](https://github.com/john-wang880/seaside-megatower-castle/tree/23fd4aaaceb64996913bfa3ff4109fc149737b9d/checkpoints/v020/presentation/exhibition)：原照明，未包含后续桥墩表面清理、石肋分段和路径修正，原版本如实保留。
