@@ -1,0 +1,103 @@
+{
+  "pass": true,
+  "reviewed_utc": "2026-11-02T21:34:00.598539+00:00",
+  "audited_checkout_commit": "ae118943b27e25bc24c8b51d846f40b6e8b2a4c6",
+  "stage_separation": {
+    "independent_execution": "Archive/member/extraction/source/input checks, 118 CPU test methods, input preparation and separate ZIP restoration. No Blender or renderer invoked by this auditor.",
+    "subsequent_observation": "Owner completed fresh source-only Blender build and 2-native + 2-CPU QA. This auditor then checked actual model/report hashes, archived receipt copies, source/input preservation and independently compared the actual geometry JSON against the frozen reference. Native stages were observed and verified from outputs, not self-executed.",
+    "original_audit_preserved": true,
+    "original_audit_sha256": "0369c3e225e74fae9b26a6ec480da8346b449c3e5ea1cd3d482094ed54a9920d",
+    "original_audit_pending_note": "Original audit recorded the native stage as pending because its results had not yet been handed to the auditor. This additive review records the now-observed PASS without rewriting that provenance."
+  },
+  "archive": {
+    "pass": true,
+    "parts": 64,
+    "archive_bytes": 61982750,
+    "archive_sha256": "4b2c492beb1f9e95a37a0256d788a33646adaed8649a92b35c5126874bbfebb1",
+    "payload_members": 380,
+    "members_including_manifest": 381,
+    "members_manifest_sha256": "74f627ffe1463dec9d9e60302b9f00a33089550576e689b32004f486ead90c26",
+    "all_member_hashes_and_bytes_match": true,
+    "extraction_exact": true,
+    "no_duplicate_or_unsafe_or_symlink_members": true,
+    "candidate_blend_included": false
+  },
+  "source_only": {
+    "candidate_blend_in_original_archive": false,
+    "canonical_source_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
+    "canonical_source_bytes": 47842841,
+    "builder_input_pins_rechecked": true,
+    "new_objects": 524,
+    "new_meshes": 524,
+    "fresh_rebuilt_sha256": "b9b71ca13b2ba3f8cdb32e16b326a3baaa904f0cc1c2d3f558979fb33a0923a1",
+    "fresh_rebuilt_bytes": 48875485,
+    "build_report_sha256": "21fb2108c861ef8ecf8b335e1034c2d9ed888ec4cda7f0867bb385bf91514aa1",
+    "source_saved_by_builder": false,
+    "rendered": false
+  },
+  "independent_cpu_test_methods": {
+    "repository": 17,
+    "r01_runner": 11,
+    "r01_builder": 6,
+    "inspection_runtime": 47,
+    "inspection_independent_preflight": 24,
+    "inspection_comparison_scope": 13,
+    "total": 118
+  },
+  "cpu_log_sha256": {
+    "root_checksums.log": "2631079600f099c895e51401bf1af8d9e8e7b5f645493130267776702f9811f8",
+    "repository_pure_tests.log": "ab32e1c3e55e18b6d60f1abb85959eb9609ea4f401cd6ae36f9fe0107a952e5d",
+    "r01_runner_guards.log": "645f5b224a2aa6ef4e5be99538e56b9acd69a4d07c95c6b4a7dedc54b343fee8",
+    "current_inspection_current_runtime.log": "49ee95cb239fcc193a5f1af579c24139d0d1d03669a5a770fa7e7c6b3ddb492e",
+    "current_inspection_independent_guards.log": "c89635e6e56aba171035bc958e9dcb47131bff6b22fea0ddc1902355532a4feb",
+    "current_inspection_comparison_scope.log": "f9941f37aff35a8202dbbb44f2b0bd72b8356bd7e0fd02e75aa121f763a8e0a2",
+    "r01_builder_guards.log": "71ed4e8bdeb771e7834194f47e2fc8888c59da5040357545f20eac5ce18ccbb7",
+    "r01_prepare_inputs.log": "bb1905bc6a3816f241579278bd158a5596232fb9b2f3e685ce477dceeb330ed7",
+    "r01_restore_replay.log": "2e5fbbfed380b8666265a898562b4c5e5454498f3f12af55e3a090bf7b27ee0d"
+  },
+  "historical_test_scope_note": "Initial broad discovery ran the expressly historical test_v029_catalog.py (2 failures and 1 error); current_inspection/README.md lines 13 and 27-29 explicitly prohibit treating that file as current-source acceptance. The 47+24+13 documented current methods were run separately. This is a test-scope invocation mistake, not an r01 recovery failure.",
+  "observed_owner_qa": {
+    "pass": true,
+    "native_calls": 2,
+    "cpu_calls": 2,
+    "source_categories": 13,
+    "native_mutation_controls": 6,
+    "export_mutation_controls": 4,
+    "all_receipt_compressed_copies_exact": true,
+    "report_sha256": {
+      "PRESERVATION": "be670409af30c3aef6fa5d584ca5e356bb291790bdb318eefec1a3cfa033530b",
+      "NATIVE_CONTROLS": "cca92b1449f41de65c9a12aa0006581cf0adf87c553e3ffe90ded50d3aa305a8",
+      "SAVED_BURIAL": "6f2b68cfe08b7f72ccc6400a1c1940f136743e1ab018abe936536c731788ea1f",
+      "SAVED_PROOF_TRANSFER": "64218c926c2552d600a9e422c50ce2cb6520b2c1c2215a1f73f8e1d8aa88c6cd"
+    },
+    "summary_sha256": "fbbeaf29ad6ad1427df941138841e479c42a5398c4fd32f94506a2bc68d7a9ea",
+    "geometry_export_sha256": "fc2b93c997e3cda693f625a38e06e64f9d1bd807bf6dbd05dafe47d63bf4af54",
+    "actual_vs_frozen_geometry_json_equal_excluding_only_candidate_sha256": true,
+    "frozen_reference_candidate_sha256": "86836f54ee957f60f716d7050b75960562cfbfe93f83ca40b37aa0bfa806b8a8",
+    "frozen_reference_sha256": "6a71a072c23cb54cd81a42ff26c3dd9f05b455336fdac9dd98c5aae91f13fa5c",
+    "burial_minimum": 0.00397395316983289,
+    "burial_lower_bound": 0.0039739,
+    "whole_proxy_separation_count": 522,
+    "proof_transfer_scope": "Exact actual saved-array identity transfers frozen continuous proofs; this is not a fresh rerun of every historical geometric research predicate."
+  },
+  "preservation_after_owner_run": {
+    "canonical_source_unchanged": true,
+    "inspection_file_count": 370,
+    "inspection_inventory_unchanged": true,
+    "inspection_inventory_sha256": "c376195cdd65ed7fd6a762e76f5d1a7b25255fc3b9993f344af123c3747d1620",
+    "recovered_archive_unchanged": true,
+    "original_audit_files_preserved": true
+  },
+  "receipt_review": {
+    "VERIFIED_json_claims_match_observed_outputs": true,
+    "study_README_recovery_claim_matches": true,
+    "vendor_archive_sha256_matches_local_record": true,
+    "fresh_environment_and_fetch_provenance": "Owner-provided process context; auditor independently saw the clean stated checkout and exact recovered bytes, but did not repeat the GitHub fetch or environment reset."
+  },
+  "limits": [
+    "Not v031 or canonical promotion.",
+    "No new artistic acceptance, render or native Windows test.",
+    "Foliage finish and natural-rock coast remain unresolved.",
+    "Receipt files are locally prepared evidence; this review does not claim they have been committed or pushed."
+  ]
+}
