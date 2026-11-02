@@ -39,3 +39,5 @@ python checkpoints/v027/restore_checkpoint.py
 ## 可选单树浏览质量（工具更新，模型未改）
 
 当前检查副本支持显式 `--tree-mode HIGH|LOW`；省略时为OFF，即不启用切换，不等于LOW。只成对改变一棵树的六个显示/求值开关，保持16书签。原模型37c0和全部高细节数据不变。LOW目标树经独立验证对应历史v018，其他状态仍为v027；不称整场景回退。详见[操作及限制](../../scripts/current_inspection/README.md)，不承诺文件缩小、Windows速度或实际性能收益。
+
+可选HIGH/LOW工具已从远端 `dca8c51f7bb296cef777c8af140798748ee7b73e` 的全新归档重导出OFF/HIGH/LOW三副本并重开验证；13类状态、每模式16书签、27负例及原始树谱系通过，工程和历史工具不变。见[工具远端收据](reports/current_quality_remote/VERIFIED.json)。这不是性能测量或新版模型。

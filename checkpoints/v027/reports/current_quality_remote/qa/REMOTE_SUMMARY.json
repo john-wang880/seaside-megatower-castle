@@ -1,0 +1,89 @@
+{
+  "pass": true,
+  "commit": "dca8c51f7bb296cef777c8af140798748ee7b73e",
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "qa_manifest_sha256": "25f472a8b00d8f7b81049410ebc2fdc1a1ce2bcac7c52edd0d115ba70d6fbbc7",
+  "archive_file_count": 2205,
+  "archive_inventory_sha256": "fe8ed54cb94f5218a79492c05a8db25c5d174a55ce7f2c69dd765f74490aa6f4",
+  "all_archive_files_unchanged": true,
+  "no_caches": true,
+  "pure_methods": 59,
+  "native_calls": 1,
+  "negative_native_cases": 27,
+  "modes": [
+    "OFF",
+    "HIGH",
+    "LOW"
+  ],
+  "categories_each": 13,
+  "bookmarks_each": 16,
+  "qa_summary_sha256": "f0b71fbe23e03f3e90af6757b04bf4a7a6c63e04c6d1ac69a6ab49226914b13b",
+  "native_report_sha256": "720accd4d39c4524a06b599aa9687522ca697fb6a4f563b6be9a5948ecb526ca",
+  "runtime_sha256": {
+    "export_inspection.py": "7222ef48b4ba6250cf727e1b1d6c4e53929eb0360fd92b707ac16e211cec2d92",
+    "preflight.py": "51de7275a4bb105645d572f58de44753e71cae33508174cdf8c1bdd07945cf6b",
+    "catalog.json": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
+    "ui_template.py": "efb24126edb815741d9ddc342cffda3dadcb8846b6f458c0ff1a55f46a392bf4",
+    "tree_quality_template.py": "2f0c4243deea7b7ee6d63770d4d16cba1d589a93aaa7847e5d6397e94356577d"
+  },
+  "viewer_sha256": {
+    "off": "986417b7c343a72e81a4f80216747a2a28497912b2933d3fdb269597a9375e5f",
+    "high": "394bfc2bbdad3946a19a2d797b2d7eda9239696c4296a03f4bda4b4c8378d4b6",
+    "low": "4dc05e929962311158a63ca46710b5445ce0f010fd7f35f551902b833c50beb4"
+  },
+  "orchestrator_sha256": "5f7d2b53ab09a3e5022c7f4edc27c24b52a2509f4fc58b238c18f39db45ddd82",
+  "rendered": false,
+  "source_saved": false,
+  "commands": [
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection/test_preflight.py",
+      "-v"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection/tests/test_preflight_independent.py",
+      "--tool",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/restored_v027.blend",
+      "-v"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection/test_tree_pure.py",
+      "-v"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection/qa/run_qa.py",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/restored_v027.blend",
+      "--baseline",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/restored_v018.blend",
+      "--tool",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection",
+      "--blender",
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+      "--output-dir",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote_qa",
+      "--off",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote_viewers \u4e2d\u6587/OFF viewer.blend",
+      "--off-receipt",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote_viewers \u4e2d\u6587/OFF receipt.json",
+      "--high",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote_viewers \u4e2d\u6587/HIGH viewer.blend",
+      "--high-receipt",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote_viewers \u4e2d\u6587/HIGH receipt.json",
+      "--low",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote_viewers \u4e2d\u6587/LOW viewer.blend",
+      "--low-receipt",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote_viewers \u4e2d\u6587/LOW receipt.json"
+    ]
+  ]
+}

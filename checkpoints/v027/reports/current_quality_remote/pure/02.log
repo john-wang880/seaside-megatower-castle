@@ -1,0 +1,14 @@
+test_all_flags (__main__.Tests.test_all_flags) ... ok
+test_catalog_exact (__main__.Tests.test_catalog_exact) ... ok
+test_composed_code (__main__.Tests.test_composed_code) ... ok
+test_no_auto_save_render_helper (__main__.Tests.test_no_auto_save_render_helper) ... ok
+test_stale_off_on_runtime_rejected_without_registry (__main__.Tests.test_stale_off_on_runtime_rejected_without_registry) ... ok
+test_toggle_idempotence_and_rollback (__main__.Tests.test_toggle_idempotence_and_rollback) ... ok
+test_unknown (__main__.Tests.test_unknown) ... ok
+test_unregister_after_scene_guard_failure_and_reexecution (__main__.Tests.test_unregister_after_scene_guard_failure_and_reexecution) ... ok
+test_visible_paths (__main__.Tests.test_visible_paths) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.020s
+
+OK

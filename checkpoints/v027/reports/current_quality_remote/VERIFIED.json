@@ -1,0 +1,23 @@
+{
+  "commit": "dca8c51f7bb296cef777c8af140798748ee7b73e",
+  "tree": "56e946b3f2c9652f839a6f419d83ecb2363f6b41",
+  "model_version": "v027 unchanged",
+  "model_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "historical_lineage_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "historical_source_commit": "89cce41edf648eef6487d54ee1ce2a46bbb0ae17",
+  "root_checksums": 2204,
+  "public_tool_manifest_sha256": "a115802bed668eac91fea3922c02143f90b61b8dd0f697af4c86c446decb2b1b",
+  "QA_summary_sha256": "f0b71fbe23e03f3e90af6757b04bf4a7a6c63e04c6d1ac69a6ab49226914b13b",
+  "QA_native_report_sha256": "720accd4d39c4524a06b599aa9687522ca697fb6a4f563b6be9a5948ecb526ca",
+  "three_native_exports": true,
+  "native_deep_QA": true,
+  "categories_per_mode": 13,
+  "bookmarks_per_mode": 16,
+  "native_negatives": 27,
+  "core_tests": 13,
+  "remote_pure_controls": 59,
+  "whole_archive_unchanged": true,
+  "all_inputs_unchanged": true,
+  "no_render_or_performance_benchmark": true,
+  "source_chunks_and_historical_v019_tool_unchanged": true
+}

@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "source_sha256": {
+    "source": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+    "baseline": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd"
+  },
+  "commands": [
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection/test_preflight.py",
+      "-v"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection/tests/test_preflight_independent.py",
+      "--tool",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/restored_v027.blend",
+      "-v"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/remote \u4e2d\u6587/scripts/current_inspection/test_tree_pure.py",
+      "-v"
+    ]
+  ],
+  "pure_methods": 51
+}
