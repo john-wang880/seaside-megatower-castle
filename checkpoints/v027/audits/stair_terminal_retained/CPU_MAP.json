@@ -1,0 +1,230 @@
+{
+  "current_source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "historical_recipe_not_current_native_measurement": true,
+  "inputs": {
+    "work/v012/scripts/refine_v012.py": "142aeec38fe35b24f25fbffdc726cf6a744ae5e933712f2ac697038cfeb61a3f",
+    "work/v012/scripts/validate_route_envelope.py": "86191f8874749a452540ac5191ad52083071a9137470cd66162d131f26d1fb28",
+    "work/v012/reports/route_envelope_v5.json": "436f77d372911eac87c1a7b85049dca419d381c0a85e40f01ffce0f6d6e73d94",
+    "checkpoints/v018/presentation/interior_route/final_plan.json": "27141d08ce3316651051ef3f6e42365871e873a2c82e4286d8d83e59c867ca11",
+    "checkpoints/v018/presentation/interior_route/final/preview_frames/frame_0168.png": "77ce52f892f3f584bd3c71a8e7184d48db29c0455b7b8d2a97efcf71b402ca8f",
+    "checkpoints/v018/presentation/interior_route/final/preview_frames/frame_0240.png": "3fdd0be5a2fe4e25884833c8d3e88f07b9a8a21bf9d496a5e9083d24b2387265",
+    "checkpoints/v018/presentation/interior_route/final/preview_frames/frame_0280.png": "ed2e85dcf31e8ddec511bf31d8afced5be5a56ecf99bf9deb390f6fcdf77e0c0",
+    "checkpoints/v018/presentation/interior_route/final/preview_frames/frame_0336.png": "aa4f3881d82f42f0afa2e9e7407827f9b66551e370bcb35d19d8a07c480cfa4c",
+    "checkpoints/v027/previews/walk_0076_after.png": "2a618a0ebe34201fb92f0f0c936ffd381d7e3e9e0f521d53abe56449e167981d"
+  },
+  "cameras": {
+    "76": {
+      "location": [
+        3.8617534916261462,
+        38.0,
+        30.65
+      ],
+      "target": [
+        5.316570571541815,
+        41.70971283094572,
+        30.301377029009366
+      ],
+      "lens": 26,
+      "clip_start": 0.05,
+      "clip_end": 3000
+    },
+    "168": {
+      "location": [
+        4.45,
+        44.33960282220869,
+        30.65
+      ],
+      "target": [
+        4.45,
+        48.32438161457567,
+        30.301377029009366
+      ],
+      "lens": 26,
+      "clip_start": 0.05,
+      "clip_end": 3000
+    },
+    "240": {
+      "location": [
+        4.45,
+        52.824091970451036,
+        32.95311111607375
+      ],
+      "target": [
+        4.45,
+        56.80887076281802,
+        32.60448814508312
+      ],
+      "lens": 26,
+      "clip_start": 0.05,
+      "clip_end": 3000
+    },
+    "280": {
+      "location": [
+        4.45,
+        56.99996401547003,
+        34.21428925704081
+      ],
+      "target": [
+        3.5652322370561556,
+        60.8926371611001,
+        33.960750725559194
+      ],
+      "lens": 26,
+      "clip_start": 0.05,
+      "clip_end": 3000
+    },
+    "336": {
+      "location": [
+        4.45,
+        59.2,
+        34.275
+      ],
+      "target": [
+        0.5915917659420824,
+        60.233857370385415,
+        34.48434382497177
+      ],
+      "lens": 26,
+      "clip_start": 0.05,
+      "clip_end": 3000
+    }
+  },
+  "authored_stairs": [
+    {
+      "step": 1,
+      "y0": 45.5,
+      "y1": 46.1,
+      "z": 29.18125
+    },
+    {
+      "step": 2,
+      "y0": 46.1,
+      "y1": 46.7,
+      "z": 29.3625
+    },
+    {
+      "step": 3,
+      "y0": 46.7,
+      "y1": 47.300000000000004,
+      "z": 29.54375
+    },
+    {
+      "step": 4,
+      "y0": 47.3,
+      "y1": 47.9,
+      "z": 29.725
+    },
+    {
+      "step": 5,
+      "y0": 47.9,
+      "y1": 48.5,
+      "z": 29.90625
+    },
+    {
+      "step": 6,
+      "y0": 48.5,
+      "y1": 49.1,
+      "z": 30.0875
+    },
+    {
+      "step": 7,
+      "y0": 49.1,
+      "y1": 49.7,
+      "z": 30.26875
+    },
+    {
+      "step": 8,
+      "y0": 49.7,
+      "y1": 50.300000000000004,
+      "z": 30.45
+    },
+    {
+      "step": 9,
+      "y0": 50.3,
+      "y1": 50.9,
+      "z": 30.63125
+    },
+    {
+      "step": 10,
+      "y0": 50.9,
+      "y1": 51.5,
+      "z": 30.8125
+    },
+    {
+      "step": 11,
+      "y0": 51.5,
+      "y1": 52.1,
+      "z": 30.99375
+    },
+    {
+      "step": 12,
+      "y0": 52.1,
+      "y1": 52.7,
+      "z": 31.175
+    },
+    {
+      "step": 13,
+      "y0": 52.7,
+      "y1": 53.3,
+      "z": 31.35625
+    },
+    {
+      "step": 14,
+      "y0": 53.3,
+      "y1": 53.9,
+      "z": 31.5375
+    },
+    {
+      "step": 15,
+      "y0": 53.9,
+      "y1": 54.5,
+      "z": 31.71875
+    },
+    {
+      "step": 16,
+      "y0": 54.5,
+      "y1": 55.1,
+      "z": 31.9
+    },
+    {
+      "step": 17,
+      "y0": 55.1,
+      "y1": 55.7,
+      "z": 32.08125
+    },
+    {
+      "step": 18,
+      "y0": 55.7,
+      "y1": 56.3,
+      "z": 32.2625
+    },
+    {
+      "step": 19,
+      "y0": 56.3,
+      "y1": 56.9,
+      "z": 32.44375
+    },
+    {
+      "step": 20,
+      "y0": 56.9,
+      "y1": 57.5,
+      "z": 32.625
+    }
+  ],
+  "historical_body_prism": {
+    "x": [
+      3.85,
+      5.05
+    ],
+    "per_step_vertical_offsets": [
+      0.025,
+      2.1
+    ],
+    "landing_y": [
+      57.5,
+      59.5
+    ],
+    "landing_floor_z": 32.625
+  },
+  "scope": "CPU source map only; source native evaluation/identity and current terminal surfaces pending owner slot. No geometry/render."
+}

@@ -1,0 +1,65 @@
+{
+  "historical_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "current_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "selected_components": [
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "component_seed": 8884,
+      "coordinates_exact": true,
+      "faces_material_indices_exact": true,
+      "effective_slot_binding_exact": true
+    },
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "component_seed": 13212,
+      "coordinates_exact": true,
+      "faces_material_indices_exact": true,
+      "effective_slot_binding_exact": true
+    },
+    {
+      "object": "V012 | terrace ledges with bounded stair opening",
+      "component_seed": 39312,
+      "coordinates_exact": true,
+      "faces_material_indices_exact": true,
+      "effective_slot_binding_exact": true
+    },
+    {
+      "object": "V012 | terrace ledges with bounded stair opening",
+      "component_seed": 39360,
+      "coordinates_exact": true,
+      "faces_material_indices_exact": true,
+      "effective_slot_binding_exact": true
+    },
+    {
+      "object": "V012 | terrace ledges with bounded stair opening",
+      "component_seed": 45864,
+      "coordinates_exact": true,
+      "faces_material_indices_exact": true,
+      "effective_slot_binding_exact": true
+    },
+    {
+      "object": "V012 | twenty north stair treads",
+      "component_seed": 0,
+      "coordinates_exact": true,
+      "faces_material_indices_exact": true,
+      "effective_slot_binding_exact": true
+    },
+    {
+      "object": "V012 | west lined stairwell and terrace guard",
+      "component_seed": 0,
+      "coordinates_exact": true,
+      "faces_material_indices_exact": true,
+      "effective_slot_binding_exact": true
+    },
+    {
+      "object": "V012 | east lined stairwell and terrace guard",
+      "component_seed": 0,
+      "coordinates_exact": true,
+      "faces_material_indices_exact": true,
+      "effective_slot_binding_exact": true
+    }
+  ],
+  "all_selected_exact": true,
+  "historical_source_unchanged": true,
+  "scope": "Selected component coordinates/face topology/material bindings only; not whole-scene lighting/pixel identity."
+}
