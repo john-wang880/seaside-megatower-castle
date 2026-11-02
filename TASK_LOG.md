@@ -333,3 +333,7 @@ Added separate explicit-input generator/semantic QA/controller, retaining frozen
 
 ## 2026-11-01 — optional per-tree quality viewer
 Separate source-pinned HIGH/LOW export and manual sidebar controls, no autoexec/install/save. Scopedmask/objectflags preserve originalgeometry; strictmode/source/reopen/operator andguard tests pass. Ancestorvisibility gap caught andfailclosed beforefinalcopies. ActualHIGH andLOW decodedpixels exactlymatch originalv019/v018 approach respectively. OnefreshpairLOWpeakRSS102.25MiBlower; highgeometryremainsstored, nofilesize/speedguarantee. No newmodelversion; utilityremoteverification follows.
+
+
+## 2026-11-02 — v029 connected service shell, local acceptance
+Both interior exploration and holistic woodland/coast redesign explicitly selected. Built one elongated internal destination with two fixed staggered source-style lamps; no shelves yet, no new exterior exit. Full source-only rebuild, saved geometry/route/material/rollback QA, actual six-view acceptance and20bookmark/five-selection-group native tool QA pass. Directed representable partition correction documented; exact remote surfaces retained. Strict additive publication and fresh remote recovery are next independent gates. Landscape remains read-only whole-scene planning, not an implemented redesign.

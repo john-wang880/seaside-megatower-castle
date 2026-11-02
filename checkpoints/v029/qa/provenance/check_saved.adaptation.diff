@@ -1,0 +1,18 @@
+--- executed/check_saved.py
++++ check_saved.py
+@@ -1,12 +1,13 @@
++import os
+ """Saved triangulation, actual fixture seats/body and camera-clearance gate."""
+ import json,hashlib,sys
+ from pathlib import Path
+ import numpy as np
+ import check_payload as p
+ import check_guard as q
+-sys.path.insert(0,str(p.ROOT/'checkpoints/v028/qa'))
++sys.path.insert(0,str(p.ROOT))
+ from check_native_tessellation import audit
+-D=Path(__file__).parent;n=json.loads((p.ROOT/'work/v029_interior_program/native.json').read_text());plan=json.loads((p.ROOT/'work/v029_interior_program/fixtures_views/PLAN.json').read_text());geo=json.loads((D/'saved_geometry.json').read_text());fixtures=json.loads((D/'saved_fixtures.json').read_text());payload=json.loads((p.ROOT/'work/v029_stores/geometry_builder/geometry_diagnostic.json').read_text());guard=json.loads((p.ROOT/'work/v029_interior_program/guard_plan/PLAN.json').read_text())
++D=Path(os.environ['V029_QA_OUTPUT']);n=json.loads((Path(os.environ['V029_QA_DATA'])/'native.json').read_text());plan=json.loads((Path(os.environ['V029_QA_DATA'])/'fixture_plan.json').read_text());geo=json.loads((D/'saved_geometry.json').read_text());fixtures=json.loads((D/'saved_fixtures.json').read_text());payload=json.loads((Path(os.environ['V029_QA_DATA'])/'payload.json').read_text());guard=json.loads((Path(os.environ['V029_QA_DATA'])/'guard_plan.json').read_text())
+ proof=[]
+ for mesh,spec in zip(geo['meshes'],payload['meshes']):
+  q.require(mesh['name']==spec['name'] and mesh['vertices']==spec['vertices'] and mesh['faces']==spec['faces'],'Saved payload mismatch');r,_=audit(mesh);proof.append({'name':mesh['name'],**r})

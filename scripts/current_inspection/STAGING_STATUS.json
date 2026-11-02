@@ -1,0 +1,17 @@
+{
+  "status": "LOCAL_NATIVE_PASS_REMOTE_PENDING",
+  "tests": 77,
+  "old_18_camera_records_exact": true,
+  "old_unchanged_index_groups": [
+    "room_lantern_meshes",
+    "entrance_ceiling",
+    "near_tree_high"
+  ],
+  "new_selection_group": "stores_lantern_meshes,20meshes no LIGHTs",
+  "receiving_shell_selection": "two visible local shells only",
+  "canonical_source_not_changed": true,
+  "candidate_only": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "catalog_sha256": "b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424",
+  "native_phases": 3,
+  "report": "qa/v029_current/reports/SUMMARY.json"
+}

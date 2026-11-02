@@ -1,0 +1,21 @@
+test_attributes_corrupt (test_geometry.Tests.test_attributes_corrupt) ... ok
+test_clip_area (test_geometry.Tests.test_clip_area) ... ok
+test_concave (test_geometry.Tests.test_concave) ... ok
+test_dangling_output (test_geometry.Tests.test_dangling_output) ... ok
+test_directed_partition_rounding (test_geometry.Tests.test_directed_partition_rounding) ... ok
+test_hole_domain (test_geometry.Tests.test_hole_domain) ... ok
+test_native_quantization (test_geometry.Tests.test_native_quantization) ... ok
+test_optimize (test_geometry.Tests.test_optimize) ... ok
+test_output_exists (test_geometry.Tests.test_output_exists) ... ok
+test_plan_output_refused (test_geometry.Tests.test_plan_output_refused) ... ok
+test_publish_exclusive (test_geometry.Tests.test_publish_exclusive) ... ok
+test_publish_unicode (test_geometry.Tests.test_publish_unicode) ... ok
+test_symlink (test_geometry.Tests.test_symlink) ... ok
+test_two_holes (test_geometry.Tests.test_two_holes) ... ok
+test_wrong_plan (test_geometry.Tests.test_wrong_plan) ... ok
+test_wrong_source (test_geometry.Tests.test_wrong_source) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.201s
+
+OK

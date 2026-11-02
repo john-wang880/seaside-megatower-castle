@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT))
 from preflight import preflight,require,sha,publish_pair,CATALOG_SHA,GuardError
 OWNER='castle-current-inspection-v1';TAG='castle_inspection_owner'
-EDIT_INDEX_SHA='a1de59dc88a58660116c32dfdeb3a8944f0cbf29b29b31ef8f8d17fcf5f61e05'
+EDIT_INDEX_SHA='da82f1ba19d20ebd85bae60edef74961a2f6c04311fe81611c1e9e231aac9368'
 def collision_check(c):
  import bpy
  require(bpy.context.scene.get(c['marker']) is None,'Source already marked/marker collision; re-export only from canonical source')
@@ -30,7 +30,7 @@ def install(c,identity,tree_mode=None,editing_index=False):
  config['edit_index_enabled']=bool(editing_index)
  if editing_index:
   require(sha(ROOT/'edit_index.json')==EDIT_INDEX_SHA,'Reviewed editing index hash mismatch');index=json.loads((ROOT/'edit_index.json').read_text());require(index['source_sha256']==identity['source_sha256'],'Index source pin mismatch');config['edit_index']=index;config['edit_index_sha256']=hashlib.sha256(json.dumps(index,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-  scope={'hashlib':hashlib};exec(compile((ROOT/'edit_index_template.py').read_text().split('class CASTLE28_INSPECTION_OT_edit_index')[0],'<index-fingerprint>','exec'),scope)
+  scope={'hashlib':hashlib};exec(compile((ROOT/'edit_index_template.py').read_text().split('class CASTLE29_INSPECTION_OT_edit_index')[0],'<index-fingerprint>','exec'),scope)
   config['edit_index_fingerprints']={spec['name']:scope['index_fingerprint'](bpy.data.objects[spec['name']]) for group in index['groups'].values() for spec in group['objects']}
  template=(ROOT/'ui_template.py').read_text(encoding='utf-8');code=template.replace('CONFIG = None  # Exporter replaces this assignment with literal reviewed config.','CONFIG = '+repr(config))
  require(code!=template,'UI template placeholder missing')
@@ -44,7 +44,7 @@ def install(c,identity,tree_mode=None,editing_index=False):
   data.dof.use_dof=False;o=bpy.data.objects.new(v['camera_name'],data);o[TAG]=OWNER;o['bookmark_key']=key;collection.objects.link(o);o.matrix_world=Matrix(v['matrix'])
  text=bpy.data.texts.new(c['text']);text[TAG]=OWNER;text.write(code);text.use_module=False
  marker={'owner':OWNER,'runtime_identity':config['runtime_identity'],'tree_quality_enabled':config['tree_quality_enabled'],'edit_index_enabled':bool(editing_index),'catalog_sha256':CATALOG_SHA,'source_sha256':identity['source_sha256'],'source_bytes':identity['source_bytes'],'reviewed_version':identity['reviewed_version'],'manifest_sha256':identity['manifest_sha256'],'ui_text_sha256':hashlib.sha256(code.encode()).hexdigest(),'notice':'Derived inspection copy. Marker records export provenance only, not certification of later user edits.'}
- if tree_mode is not None:marker['tree_quality']={'schema':'castle-inspection-v028-tree-v1','mode':'HIGH'}
+ if tree_mode is not None:marker['tree_quality']={'schema':'castle-inspection-v029-tree-v1','mode':'HIGH'}
  bpy.context.scene[c['marker']]=json.dumps(marker,ensure_ascii=False,sort_keys=True)
  if tree_mode is not None:
   import types
@@ -75,7 +75,7 @@ def export(repository,source,output,report,tree_mode=None,editing_index=False):
   result=bpy.ops.wm.save_as_mainfile(filepath=str(model_tmp),copy=True,compress=True,check_existing=False)
   require('FINISHED' in result and model_tmp.is_file(),'Inspection-copy save failed')
   again,_=preflight(repository,source,output,report,ROOT/'catalog.json');require(again==identity and all(sha(ROOT/n)==h for n,h in runtime.items()),'Source/manifest/runtime changed during export')
-  receipt={**identity,'runtime_sha256':runtime,'output_sha256':sha(model_tmp),'output_bytes':model_tmp.stat().st_size,'source_unchanged':True,'source_saved':False,'rendered':False,'manual_text_only':True,'text_use_module':False,'default_camera':bpy.context.scene.camera.name,'added_cameras':17,'bookmark_count':18,'marker':marker,'tree_mode':tree_mode,'editing_index':bool(editing_index),'scope':'Owned inspection cameras/collection/manualText/provenance marker; optional explicit tree mode changes only six paired visibility flags. Independent deep QA is separate.'}
+  receipt={**identity,'runtime_sha256':runtime,'output_sha256':sha(model_tmp),'output_bytes':model_tmp.stat().st_size,'source_unchanged':True,'source_saved':False,'rendered':False,'manual_text_only':True,'text_use_module':False,'default_camera':bpy.context.scene.camera.name,'added_cameras':19,'bookmark_count':20,'marker':marker,'tree_mode':tree_mode,'editing_index':bool(editing_index),'scope':'Owned inspection cameras/collection/manualText/provenance marker; optional explicit tree mode changes only six paired visibility flags. Independent deep QA is separate.'}
   rep_tmp=temp_for(report,'.json');rep_tmp.write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
   with open(rep_tmp,'rb') as f:os.fsync(f.fileno())
   with open(model_tmp,'rb') as f:os.fsync(f.fileno())

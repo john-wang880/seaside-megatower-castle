@@ -1,0 +1,79 @@
+{
+  "status": "Unaccepted fixed-lit blockout; saved geometric and visual gates pending",
+  "input_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/unlit.blend": "69a2a7de1cc98b33546d20405340f4cabf32b69a0542232eaca9fb146e90f366",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/integration.json": "b2a487f5083cc0ddbb54c9d484a65653e598a6b1c45cb86487c0a54452449750",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/add_room_lanterns.py": "ee19e42284f75b04033a718e2b7757d03a24b8cfb1bf6a6fb283371c3919656f",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/frozen_plan/route_fixture_plan.json": "ecfd6c77be1d976bdbbb4f764095ba31d294baea87924cf774e394d935a67369",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/frozen_plan/fixture_view_proof.json": "4975010ca274cee88277bc14e4af9bd0c5618df2c07b167194b4ee2c72c35cdd"
+  },
+  "canonical_source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "architecture_receipt_sha256": "b2a487f5083cc0ddbb54c9d484a65653e598a6b1c45cb86487c0a54452449750",
+  "new_objects": [
+    "V029 | stores south mounting plate",
+    "V029 | stores south wall arm",
+    "V029 | stores south lower cup",
+    "V029 | stores south hood rim",
+    "V029 | stores south rain hood",
+    "V029 | stores south cage upright 0",
+    "V029 | stores south cage upright 1",
+    "V029 | stores south cage upright 2",
+    "V029 | stores south cage upright 3",
+    "V029 | stores south luminous flame",
+    "V029 | stores south practical warm source",
+    "V029 | stores north mounting plate",
+    "V029 | stores north wall arm",
+    "V029 | stores north lower cup",
+    "V029 | stores north hood rim",
+    "V029 | stores north rain hood",
+    "V029 | stores north cage upright 0",
+    "V029 | stores north cage upright 1",
+    "V029 | stores north cage upright 2",
+    "V029 | stores north cage upright 3",
+    "V029 | stores north luminous flame",
+    "V029 | stores north practical warm source"
+  ],
+  "new_collection": "V029 | stores warm lanterns",
+  "lights": [
+    {
+      "name": "V029 | stores south practical warm source",
+      "location": [
+        18.600000381469727,
+        34.189998626708984,
+        30.950000762939453
+      ],
+      "energy": 36.0,
+      "color": [
+        1.0,
+        0.5799999833106995,
+        0.25
+      ],
+      "shadow_soft_size": 0.03500000014901161,
+      "copied_from": "V028 | room 1 practical warm source"
+    },
+    {
+      "name": "V029 | stores north practical warm source",
+      "location": [
+        21.700000762939453,
+        38.310001373291016,
+        30.950000762939453
+      ],
+      "energy": 36.0,
+      "color": [
+        1.0,
+        0.5799999833106995,
+        0.25
+      ],
+      "shadow_soft_size": 0.03500000014901161,
+      "copied_from": "V028 | room 1 practical warm source"
+    }
+  ],
+  "fixture_triangles": 1160,
+  "combined_triangles": 2122,
+  "all_preexisting_scene_data_unchanged": true,
+  "rendered": false,
+  "recipe": "Two current receiving-lantern copies at fixed staggered side-wall positions with signed-axis rigid rotations. No power, color, world, exposure or old-light changes.",
+  "candidate_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "candidate_bytes": 47825562
+}

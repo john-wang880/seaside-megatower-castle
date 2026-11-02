@@ -1,0 +1,15 @@
+--- executed/check_guard.py
++++ check_guard.py
+@@ -1,10 +1,11 @@
++import os
+ """Independent read-only local partition/route/floor proof. Produces no mesh."""
+ import argparse,json,hashlib,itertools,struct,collections,sys
+ from pathlib import Path
+ from fractions import Fraction as F
+ import numpy as np
+ sys.dont_write_bytecode=True
+-ROOT=Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT/'checkpoints/v028/qa'))
++ROOT=Path(__file__).resolve().parent;sys.path.insert(0,str(ROOT))
+ from continuous_box_cover import solid_winding,oriented_closed,box_inside
+ from body_support import analyze
+ NAMES=['V028 | foundation outside chamber guard','V028 | ashlar outside chamber guard','V028 | local receiving chamber shell']

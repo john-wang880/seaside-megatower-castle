@@ -1,0 +1,80 @@
+{
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "source_unchanged": true,
+  "payload_sha256": "ea64d1ece1b6295ae67eedad3a01b5f2bcdf97fcc0824d402df2e9e868e99c82",
+  "repeat_sha256": "ea64d1ece1b6295ae67eedad3a01b5f2bcdf97fcc0824d402df2e9e868e99c82",
+  "byte_identical_repeat": true,
+  "tests": 16,
+  "counts": [
+    {
+      "name": "V029 | foundation outside stores guard",
+      "vertices": 158,
+      "faces": 154,
+      "triangles": 312,
+      "volume": 25323.917249537437,
+      "bad_edges": [],
+      "bad_edge_count": 0
+    },
+    {
+      "name": "V029 | ashlar outside stores guard",
+      "vertices": 112,
+      "faces": 106,
+      "triangles": 224,
+      "volume": 13128.734955169779,
+      "bad_edges": [],
+      "bad_edge_count": 0
+    },
+    {
+      "name": "V029 | receiving shell outside stores guard",
+      "vertices": 144,
+      "faces": 117,
+      "triangles": 296,
+      "volume": 30.16783323473302,
+      "bad_edges": [],
+      "bad_edge_count": 0
+    },
+    {
+      "name": "V029 | local stores shell",
+      "vertices": 67,
+      "faces": 33,
+      "triangles": 130,
+      "volume": 14.6469450531046,
+      "bad_edges": [],
+      "bad_edge_count": 0
+    }
+  ],
+  "total_triangles": 962,
+  "remote_cycles": 268,
+  "affected_domains": 11,
+  "raw_target_vertices": 335,
+  "coordinate_policy": {
+    "ordinary": "nearest IEEE754 float32",
+    "partition_bottom": {
+      "nominal": 28.9,
+      "actual": 28.900001525878906,
+      "reason": "prevent collapse onto preserved original bottom; independent proof required"
+    },
+    "source_vertices_unchanged": true
+  },
+  "collapsed_faces": [
+    {
+      "mesh": 2,
+      "lineage": {
+        "kind": "clipped_source_domain",
+        "source_object": "V028 | local receiving chamber shell",
+        "source_face": 63,
+        "derivation": "union of authoritative clipped loop triangles"
+      },
+      "original_area": 2.5939944340791506e-06
+    }
+  ],
+  "max_quantization": 1.671238265998909e-06,
+  "native_integration": false,
+  "independent_payload_proof": {
+    "pass": true,
+    "summary": "work/v029_interior_qa/PAYLOAD_SUMMARY.json",
+    "sha256": "1880702fe7a51127aa71114798f074436ebdbe6147c75186e4fc74be520174e2",
+    "scope": "CPU payload only, saved native/rollback/material attributes pending",
+    "controls": 8
+  }
+}

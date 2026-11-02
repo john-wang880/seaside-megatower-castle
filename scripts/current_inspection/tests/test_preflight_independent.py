@@ -6,24 +6,24 @@ from types import SimpleNamespace
 parser=argparse.ArgumentParser(add_help=False);parser.add_argument('--tool',required=True);parser.add_argument('--source',required=True);args,remaining=parser.parse_known_args();sys.argv=[sys.argv[0]]+remaining;TOOL=Path(args.tool).resolve();SOURCE=Path(args.source).resolve();spec=importlib.util.spec_from_file_location('inspection_preflight',TOOL/'preflight.py');q=importlib.util.module_from_spec(spec);spec.loader.exec_module(q)
 class Guards(unittest.TestCase):
  def setUp(self):
-  self.temp=tempfile.TemporaryDirectory(prefix='inspection QA 中文 ');self.root=Path(self.temp.name);self.repo=self.root/'repo';(self.repo/'checkpoints/v028').mkdir(parents=True);self.m={'format':'blend-zstd-frames-v1','model_sha256':q.SOURCE_SHA,'model_bytes':q.SOURCE_BYTES,'model':'castle_v028.blend'};(self.repo/'checkpoints/v028/MANIFEST.json').write_text(json.dumps(self.m));self.out=self.root/'new copy.blend';self.report=self.root/'new report.json'
+  self.temp=tempfile.TemporaryDirectory(prefix='inspection QA 中文 ');self.root=Path(self.temp.name);self.repo=self.root/'repo';(self.repo/'checkpoints/v029').mkdir(parents=True);self.m={'format':'blend-zstd-frames-v1','model_sha256':q.SOURCE_SHA,'model_bytes':q.SOURCE_BYTES,'model':'castle_v029.blend'};(self.repo/'checkpoints/v029/MANIFEST.json').write_text(json.dumps(self.m));self.out=self.root/'new copy.blend';self.report=self.root/'new report.json'
  def tearDown(self):self.temp.cleanup()
  def test_latest_reviewed(self):self.assertEqual(q.latest_manifest(self.repo)[2],self.m)
  def test_unknown_newest(self):
-  (self.repo/'checkpoints/v029').mkdir();(self.repo/'checkpoints/v029/MANIFEST.json').write_text('{}')
+  (self.repo/'checkpoints/v030').mkdir();(self.repo/'checkpoints/v030/MANIFEST.json').write_text('{}')
   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
  def test_numeric_ambiguity(self):
-  (self.repo/'checkpoints/v28').mkdir();(self.repo/'checkpoints/v28/MANIFEST.json').write_text(json.dumps(self.m))
+  (self.repo/'checkpoints/v29').mkdir();(self.repo/'checkpoints/v29/MANIFEST.json').write_text(json.dumps(self.m))
   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
  def test_stale_only(self):
-  (self.repo/'checkpoints/v028').rename(self.repo/'checkpoints/v027')
+  (self.repo/'checkpoints/v029').rename(self.repo/'checkpoints/v028')
   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
  def test_changed_manifest(self):
-  self.m['model_sha256']='0'*64;(self.repo/'checkpoints/v028/MANIFEST.json').write_text(json.dumps(self.m))
+  self.m['model_sha256']='0'*64;(self.repo/'checkpoints/v029/MANIFEST.json').write_text(json.dumps(self.m))
   with self.assertRaises(q.GuardError):q.latest_manifest(self.repo)
  def test_no_manifest_not_live(self):
   (self.repo/'checkpoints/v999').mkdir();self.assertEqual(q.latest_manifest(self.repo)[2],self.m)
- def test_reviewed_catalog(self):self.assertEqual(len(q.load_catalog(TOOL/'catalog.json')['views']),18)
+ def test_reviewed_catalog(self):self.assertEqual(len(q.load_catalog(TOOL/'catalog.json')['views']),20)
  def test_corrupt_catalog(self):
   c=self.root/'catalog.json';c.write_text((TOOL/'catalog.json').read_text()+' ')
   with self.assertRaises(q.GuardError):q.load_catalog(c)
@@ -56,7 +56,7 @@ class Guards(unittest.TestCase):
  def test_source_output_alias(self):
   with self.assertRaises(q.GuardError):q.preflight(self.repo,self.real_source(),self.real_source(),self.report,TOOL/'catalog.json')
  def test_immutable_checkpoint_output(self):
-  with self.assertRaises(q.GuardError):q.preflight(self.repo,self.real_source(),self.repo/'checkpoints/v028/new.blend',self.report,TOOL/'catalog.json')
+  with self.assertRaises(q.GuardError):q.preflight(self.repo,self.real_source(),self.repo/'checkpoints/v029/new.blend',self.report,TOOL/'catalog.json')
  def setup_publish(self):
   a=self.root/'temp.blend';b=self.root/'temp.json';a.write_bytes(b'blend');b.write_bytes(b'receipt');return a,b
  def test_publish_pair(self):

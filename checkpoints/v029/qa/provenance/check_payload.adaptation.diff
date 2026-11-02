@@ -1,0 +1,20 @@
+--- executed/check_payload.py
++++ check_payload.py
+@@ -1,9 +1,10 @@
++import os
+ """Independent exact-rational payload domains/caps/volume against actual source and directed saved guard."""
+ import json,sys,hashlib,itertools,struct,collections,argparse
+ from pathlib import Path
+ from fractions import Fraction as F
+ import numpy as np
+-ROOT=Path(__file__).resolve().parents[2];sys.dont_write_bytecode=True;sys.path.insert(0,str(ROOT/'checkpoints/v028/qa'))
++ROOT=Path(__file__).resolve().parent;sys.dont_write_bytecode=True;sys.path.insert(0,str(ROOT))
+ import exact_axis_boundary as e
+ from planar_triangulation import triangulate
+ from continuous_box_cover import solid_winding,oriented_closed
+@@ -112,4 +113,4 @@
+  local=meshes[-1];q.require(oriented_closed(local['faces']),'Local unclosed');tri=[t for f in local['faces']for t in triangulate(local['vertices'],f)];result=e.validate(local['vertices'],tri,e.facets_from_cells(coords,occupied));q.require(payload['total_triangles']<=8000,'Budget')
+  return {'pass':True,'effective_guard':G,'effective_cavities':C,'coordinate_planes':coords,'quantized_cells':len(cells),'max_winding_residual':maxres,'changed_interface_cells':0,'outside':rows,'local':result,'nominal_remote_cycles_exact':sum(x['remote_exact']for x in rows),'directed_guard_bottom':UP,'closed_triangle_budget':payload['total_triangles'],'scope':'Exact saved-coordinate boundary/domain/cap/volume proof for CPU payload; saved native attributes/tessellation/rollback remain mandatory. Directed guard partition only, no added physical volume.'}
+ if __name__=='__main__':
+- a=argparse.ArgumentParser();a.add_argument('--payload',required=True);a.add_argument('--report',required=True);args=a.parse_args();paths={'export':ROOT/'work/v029_interior_program/native.json','plan':ROOT/'work/v029_interior_program/guard_plan/PLAN.json','payload':Path(args.payload)};d={k:json.loads(v.read_text())for k,v in paths.items()};r=run(d['export'],d['plan'],d['payload']);r['input_sha256']={k:hashlib.sha256(p.read_bytes()).hexdigest()for k,p in paths.items()};Path(args.report).write_text(json.dumps(r,indent=2)+'\n');print('INDEPENDENT PAYLOAD PASS')
++ a=argparse.ArgumentParser();a.add_argument('--payload',required=True);a.add_argument('--report',required=True);args=a.parse_args();paths={'export':Path(os.environ['V029_QA_DATA'])/'native.json','plan':Path(os.environ['V029_QA_DATA'])/'guard_plan.json','payload':Path(args.payload)};d={k:json.loads(v.read_text())for k,v in paths.items()};r=run(d['export'],d['plan'],d['payload']);r['input_sha256']={k:hashlib.sha256(p.read_bytes()).hexdigest()for k,p in paths.items()};Path(args.report).write_text(json.dumps(r,indent=2)+'\n');print('INDEPENDENT PAYLOAD PASS')

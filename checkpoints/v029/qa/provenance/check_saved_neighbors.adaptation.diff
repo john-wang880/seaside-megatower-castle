@@ -1,0 +1,21 @@
+--- executed/check_saved_neighbors.py
++++ check_saved_neighbors.py
+@@ -1,3 +1,4 @@
++import os
+ import os
+ """Exact coplanar patch scan against every preserved component in bounded source export."""
+ import json,hashlib
+@@ -5,10 +6,10 @@
+ from collections import defaultdict
+ from fractions import Fraction as F
+ import sys
+-sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'checkpoints/v028/qa'))
++sys.path.insert(0,str(Path(__file__).resolve().parent))
+ from exact_axis_boundary import fraction3,cross,area,clip_convex,bounds,positive_bbox
+-P=Path(__file__).resolve().parent;ROOT=P.parents[1];DATA=ROOT/'work/v029_interior_program'
+-n=json.loads((P/'saved_geometry.json').read_text());src=DATA/'native.json';s=json.loads(src.read_text());payload=json.loads((ROOT/'work/v029_stores/geometry_builder/geometry_diagnostic.json').read_text());targets={(t['object'],t['evaluated_seed']) for t in payload['targets']};m=n['meshes'][-1]
++P=Path(os.environ['V029_QA_OUTPUT']);ROOT=Path(__file__).resolve().parent;DATA=Path(os.environ['V029_QA_DATA'])
++n=json.loads((P/'saved_geometry.json').read_text());src=DATA/'native.json';s=json.loads(src.read_text());payload=json.loads((Path(os.environ['V029_QA_DATA'])/'payload.json').read_text());targets={(t['object'],t['evaluated_seed']) for t in payload['targets']};m=n['meshes'][-1]
+ def triangles(vertices,tris):
+  out=[]
+  for i,ids in enumerate(tris):

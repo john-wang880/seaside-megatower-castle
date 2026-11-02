@@ -1,0 +1,17 @@
+--- executed/check_fixtures_views.py
++++ check_fixtures_views.py
+@@ -1,11 +1,12 @@
++import os
+ """Independent prospective rigid fixture seats, continuous body and finite camera rays."""
+ import json,hashlib,copy
+ from pathlib import Path
+ import numpy as np
+ import check_guard as q
+ import check_payload as p
+-D=Path(__file__).parent;R=p.ROOT
+-paths={'native':R/'work/v029_interior_program/native.json','plan':R/'work/v029_interior_program/fixtures_views/PLAN.json','guard':R/'work/v029_interior_program/guard_plan/PLAN.json'}
++D=Path(os.environ['V029_QA_OUTPUT']);R=p.ROOT
++paths={'native':Path(os.environ['V029_QA_DATA'])/'native.json','plan':Path(os.environ['V029_QA_DATA'])/'fixture_plan.json','guard':Path(os.environ['V029_QA_DATA'])/'guard_plan.json'}
+ n,plan,g=[json.loads(paths[k].read_text())for k in ['native','plan','guard']];C=list(map(p.box,g['cavities']));source=[c for c in n['components']if c['object'].startswith('V028 | room 1 ')];q.require(len(source)==10,'Ten source fixture meshes');ashlar=next(c for c in n['components']if c['object']==q.NAMES[1]);copies=[];seats=[]
+ for record,rot,anchor in zip(plan['lamps'],[np.array([[0,1,0],[-1,0,0],[0,0,1]]),np.array([[0,-1,0],[1,0,0],[0,0,1]])],[[18.6,34,30.95],[21.7,38.5,30.95]]):
+  M=np.asarray(record['rigid_matrix']);expected=np.eye(4);expected[:3,:3]=rot;expected[:3,3]=np.asarray(anchor)-rot@np.array([15,34,30.95]);q.require(np.array_equal(M,expected),'Exact signed-axis rigid transform');q.require(np.linalg.det(rot)==1 and np.array_equal(rot.T@rot,np.eye(3)),'Proper rotation')

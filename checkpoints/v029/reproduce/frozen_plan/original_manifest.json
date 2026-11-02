@@ -1,0 +1,42 @@
+{
+  "status": "PLANNING_ONLY_PENDING_INDEPENDENT_PROOF",
+  "source": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "files": {
+    "guard_plan/plan.py": {
+      "sha256": "9420c626435495cd52acad6db3583bceb74458d54891949c8947d0f32e109c14",
+      "bytes": 6730
+    },
+    "guard_plan/PLAN.json": {
+      "sha256": "94ca369e899d4729aa58a4e1b7ea9c04206450c63147d18c3f3c2769120c242d",
+      "bytes": 202780
+    },
+    "guard_plan/REVIEW.md": {
+      "sha256": "76cfecbcfffd6e3b4c21e6913bc5d8f5cd824e2ee8d70692acf77fc7ad5ef8a4",
+      "bytes": 5328
+    },
+    "guard_plan/guard_section.svg": {
+      "sha256": "202ad61b33c7862b984b9859d6cf320bc552a0e4d114c1d7f3b9010f5651827d",
+      "bytes": 1358
+    },
+    "guard_plan/guard_section.png": {
+      "sha256": "c5d89dc93f359cd8e5a726651fc786cb5bdc58d451e53f4fa609613b7c9a1c34",
+      "bytes": 92194
+    },
+    "native.json": {
+      "sha256": "6e9d81a2f541dbce41d98714925a4f5d537603731a177022a7f3b3c0865426c5",
+      "bytes": 32381528
+    },
+    "attributes/inventory.json": {
+      "sha256": "7934f3e89d43c821ec4c6e898c5283f475b206f2439879e1a88825ed44a293ef",
+      "bytes": 2726133
+    },
+    "guard_plan/floor_witness.py": {
+      "sha256": "f384447164c35b067e515c1836581dcd93619941569661ecb970eb895efa62f4",
+      "bytes": 928
+    },
+    "guard_plan/floor_witness.json": {
+      "sha256": "057f75d76207cdf210ba68d00d5f67ee870704fc6377060d6e61f9fb8027bae5",
+      "bytes": 523
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "groups": {
+    "receiving_shell": {
+      "targets": 2,
+      "status": "accepted current two local-room shell pieces; earlier masked original remains untouched"
+    },
+    "room_lantern_meshes": {
+      "targets": 20,
+      "status": "accepted earlier receiving lamp meshes, unchanged"
+    },
+    "entrance_ceiling": {
+      "targets": 1,
+      "status": "accepted v027 ceiling-bay geometry; study-name retained"
+    },
+    "near_tree_high": {
+      "targets": 2,
+      "status": "accepted v019 high-tree geometry; historical UNACCEPTED collection name retained"
+    },
+    "stores_lantern_meshes": {
+      "targets": 20,
+      "status": "accepted current stores lamp meshes"
+    }
+  },
+  "excluded": "No light objects, large foundation/ashlar replacement hosts, hidden original masked hosts, or rejected far-cliff trial geometry selected."
+}

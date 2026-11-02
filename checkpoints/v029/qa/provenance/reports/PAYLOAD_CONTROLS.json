@@ -1,0 +1,48 @@
+{
+  "pass": true,
+  "count": 8,
+  "controls": [
+    {
+      "case": "local shell vertex shifted into intended doorway",
+      "rejected": true,
+      "reason": "Non-axis parent polygon"
+    },
+    {
+      "case": "missing local boundary face",
+      "rejected": true,
+      "reason": "Local unclosed"
+    },
+    {
+      "case": "duplicated local boundary face",
+      "rejected": true,
+      "reason": "Local unclosed"
+    },
+    {
+      "case": "reversed local boundary orientation",
+      "rejected": true,
+      "reason": "Local unclosed"
+    },
+    {
+      "case": "nearest-rounded collapsed partition replaces directed partition",
+      "rejected": true,
+      "reason": "Non-axis parent polygon"
+    },
+    {
+      "case": "remote source vertex altered",
+      "rejected": true,
+      "reason": "Remote original changed"
+    },
+    {
+      "case": "wrong effective material index",
+      "rejected": true,
+      "reason": "Material/smooth policy"
+    },
+    {
+      "case": "equal-area missing plus duplicate mathematical cancellation",
+      "rejected": true,
+      "reason": "Duplicate changed source boundary"
+    }
+  ],
+  "scope": "Seven CPU actual exported-payload mutations plus one mathematical area control, not native fixtures.",
+  "script_sha256": "01475363564e4656f155c0539b12be05f8da6cc40c3986b8d47f3df024879ca4"
+}

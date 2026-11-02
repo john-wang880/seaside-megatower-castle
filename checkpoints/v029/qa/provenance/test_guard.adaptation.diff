@@ -1,0 +1,13 @@
+--- executed/test_guard.py
++++ test_guard.py
+@@ -1,8 +1,9 @@
++import os
+ """Seven bounded negative controls on actual exported inputs/reference predicates. No Blender."""
+ import json,copy,hashlib
+ from pathlib import Path
+ import check_guard as q
+-P=Path(__file__).resolve().parent;R=P.parents[1];n=json.loads((R/'work/v029_interior_program/native.json').read_text());plan=json.loads((R/'work/v029_interior_program/guard_plan/PLAN.json').read_text());r=q.run(n,plan['guard'],plan['cavities']);q.validate_targets(n,plan,r['domains']);results=[]
++P=Path(os.environ['V029_QA_OUTPUT']);R=Path(__file__).resolve().parent;n=json.loads((Path(os.environ['V029_QA_DATA'])/'native.json').read_text());plan=json.loads((Path(os.environ['V029_QA_DATA'])/'guard_plan.json').read_text());r=q.run(n,plan['guard'],plan['cavities']);q.validate_targets(n,plan,r['domains']);results=[]
+ def reject(name,fn):
+  try:fn()
+  except RuntimeError as e:results.append({'case':name,'rejected':True,'message':str(e)})

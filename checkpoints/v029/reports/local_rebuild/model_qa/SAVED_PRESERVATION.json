@@ -1,0 +1,1347 @@
+{
+  "pass": true,
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "candidate_sha256": "a203cf4f17592d038cea4b1159b53fa1a0d908f6e733ac0205d0cf49ef658e07",
+  "payload_sha256": "ea64d1ece1b6295ae67eedad3a01b5f2bcdf97fcc0824d402df2e9e868e99c82",
+  "high_full_simulated_native_mask": {
+    "categories": {
+      "meshes": true,
+      "objects": true,
+      "materials": true,
+      "lights": true,
+      "cameras": true,
+      "worlds": true,
+      "visible_evaluated": true,
+      "scene": true,
+      "libraries": true,
+      "texts": true,
+      "collections": true,
+      "scene_custom": true
+    },
+    "derived_UI_only": [
+      {
+        "object": "Traveler | full length ivory skirt",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      },
+      {
+        "object": "Traveler | purple-red shoulder cape",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        }
+      },
+      {
+        "object": "Traveler | white tunic",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      }
+    ]
+  },
+  "native_control_removal_full_source_rollback": {
+    "categories": {
+      "meshes": true,
+      "objects": true,
+      "materials": true,
+      "lights": true,
+      "cameras": true,
+      "worlds": true,
+      "visible_evaluated": true,
+      "scene": true,
+      "libraries": true,
+      "texts": true,
+      "collections": true,
+      "scene_custom": true
+    },
+    "derived_UI_only": [
+      {
+        "object": "Traveler | full length ivory skirt",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      },
+      {
+        "object": "Traveler | purple-red shoulder cape",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        }
+      },
+      {
+        "object": "Traveler | white tunic",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      }
+    ]
+  },
+  "repeat_high": {
+    "categories": {
+      "meshes": true,
+      "objects": true,
+      "materials": true,
+      "lights": true,
+      "cameras": true,
+      "worlds": true,
+      "visible_evaluated": true,
+      "scene": true,
+      "libraries": true,
+      "texts": true,
+      "collections": true,
+      "scene_custom": true
+    },
+    "derived_UI_only": [
+      {
+        "object": "Traveler | full length ivory skirt",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      },
+      {
+        "object": "Traveler | purple-red shoulder cape",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        }
+      },
+      {
+        "object": "Traveler | white tunic",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      }
+    ]
+  },
+  "owned_weights": 335,
+  "saved_meshes_exact_payload": true,
+  "fixtures_exact_template_copies": [
+    {
+      "name": "V029 | stores south mounting plate",
+      "source": "V028 | room 1 mounting plate",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          1.0,
+          0.0,
+          18.600000381469727
+        ],
+        [
+          -1.0,
+          7.549790126404332e-08,
+          0.0,
+          34.01000213623047
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 1.9073486328125e-06,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores south wall arm",
+      "source": "V028 | room 1 wall arm",
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.0,
+          -1.0961546337284744e-07,
+          1.0384691506715171e-07,
+          18.600000381469727
+        ],
+        [
+          1.5099580252808664e-07,
+          -0.7259504199028015,
+          0.687747061252594,
+          34.099998474121094
+        ],
+        [
+          -2.7716900091257282e-15,
+          0.687747061252594,
+          0.7259504199028015,
+          31.045000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores south lower cup",
+      "source": "V028 | room 1 lower cup",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          1.0,
+          0.0,
+          18.600000381469727
+        ],
+        [
+          -1.0,
+          7.549790126404332e-08,
+          0.0,
+          34.189998626708984
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.790000915527344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores south hood rim",
+      "source": "V028 | room 1 hood rim",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          1.0,
+          0.0,
+          18.600000381469727
+        ],
+        [
+          -1.0,
+          7.549790126404332e-08,
+          0.0,
+          34.189998626708984
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          31.110000610351562
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores south rain hood",
+      "source": "V028 | room 1 rain hood",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          1.0,
+          0.0,
+          18.600000381469727
+        ],
+        [
+          -1.0,
+          7.549790126404332e-08,
+          0.0,
+          34.189998626708984
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          31.165000915527344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.2888183579539145e-06
+    },
+    {
+      "name": "V029 | stores south cage upright 0",
+      "source": "V028 | room 1 cage upright 0",
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.6292068494294654e-07,
+          -1.0,
+          0.0,
+          18.65797996520996
+        ],
+        [
+          1.0,
+          -1.6292068494294654e-07,
+          0.0,
+          34.13201904296875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 1.9073486328125e-06,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores south cage upright 1",
+      "source": "V028 | room 1 cage upright 1",
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.6292068494294654e-07,
+          -1.0,
+          0.0,
+          18.65797996520996
+        ],
+        [
+          1.0,
+          -1.6292068494294654e-07,
+          0.0,
+          34.247982025146484
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 3.8146972514141453e-07,
+      "world_vertex_max_difference_from_ideal": 2.2888183579539145e-06
+    },
+    {
+      "name": "V029 | stores south cage upright 2",
+      "source": "V028 | room 1 cage upright 2",
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.6292068494294654e-07,
+          -1.0,
+          0.0,
+          18.542016983032227
+        ],
+        [
+          1.0,
+          -1.6292068494294654e-07,
+          0.0,
+          34.247982025146484
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 3.8146972514141453e-07,
+      "world_vertex_max_difference_from_ideal": 2.2888183579539145e-06
+    },
+    {
+      "name": "V029 | stores south cage upright 3",
+      "source": "V028 | room 1 cage upright 3",
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.6292068494294654e-07,
+          -1.0,
+          0.0,
+          18.542016983032227
+        ],
+        [
+          1.0,
+          -1.6292068494294654e-07,
+          0.0,
+          34.13201904296875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 1.9073486328125e-06,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores south luminous flame",
+      "source": "V028 | room 1 luminous flame",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          1.0,
+          0.0,
+          18.600000381469727
+        ],
+        [
+          -1.0,
+          7.549790126404332e-08,
+          0.0,
+          34.189998626708984
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores south practical warm source",
+      "source": "V028 | room 1 practical warm source",
+      "type": "LIGHT",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          1.0,
+          0.0,
+          18.600000381469727
+        ],
+        [
+          -1.0,
+          7.549790126404332e-08,
+          0.0,
+          34.189998626708984
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": null
+    },
+    {
+      "name": "V029 | stores north mounting plate",
+      "source": "V028 | room 1 mounting plate",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          21.700000762939453
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          38.48999786376953
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 1.9073486328125e-06,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores north wall arm",
+      "source": "V028 | room 1 wall arm",
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          1.1827233947769855e-07,
+          -1.1204821959154287e-07,
+          21.700000762939453
+        ],
+        [
+          -1.6292068494294654e-07,
+          0.7259504199028015,
+          -0.687747061252594,
+          38.400001525878906
+        ],
+        [
+          -2.771690432642202e-15,
+          0.687747061252594,
+          0.7259504199028015,
+          31.045000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores north lower cup",
+      "source": "V028 | room 1 lower cup",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          21.700000762939453
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          38.310001373291016
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.790000915527344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores north hood rim",
+      "source": "V028 | room 1 hood rim",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          21.700000762939453
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          38.310001373291016
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          31.110000610351562
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores north rain hood",
+      "source": "V028 | room 1 rain hood",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          21.700000762939453
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          38.310001373291016
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          31.165000915527344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.670288083095329e-06
+    },
+    {
+      "name": "V029 | stores north cage upright 0",
+      "source": "V028 | room 1 cage upright 0",
+      "type": "MESH",
+      "matrix": [
+        [
+          1.9470718370939721e-07,
+          1.0,
+          0.0,
+          21.64202117919922
+        ],
+        [
+          -1.0,
+          1.9470718370939721e-07,
+          0.0,
+          38.36798095703125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 1.9073486328125e-06,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores north cage upright 1",
+      "source": "V028 | room 1 cage upright 1",
+      "type": "MESH",
+      "matrix": [
+        [
+          1.9470718370939721e-07,
+          1.0,
+          0.0,
+          21.64202117919922
+        ],
+        [
+          -1.0,
+          1.9470718370939721e-07,
+          0.0,
+          38.252017974853516
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 7.629394502828291e-07,
+      "world_vertex_max_difference_from_ideal": 2.670288083095329e-06
+    },
+    {
+      "name": "V029 | stores north cage upright 2",
+      "source": "V028 | room 1 cage upright 2",
+      "type": "MESH",
+      "matrix": [
+        [
+          1.9470718370939721e-07,
+          1.0,
+          0.0,
+          21.757984161376953
+        ],
+        [
+          -1.0,
+          1.9470718370939721e-07,
+          0.0,
+          38.252017974853516
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 7.629394502828291e-07,
+      "world_vertex_max_difference_from_ideal": 2.670288083095329e-06
+    },
+    {
+      "name": "V029 | stores north cage upright 3",
+      "source": "V028 | room 1 cage upright 3",
+      "type": "MESH",
+      "matrix": [
+        [
+          1.9470718370939721e-07,
+          1.0,
+          0.0,
+          21.757984161376953
+        ],
+        [
+          -1.0,
+          1.9470718370939721e-07,
+          0.0,
+          38.36798095703125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 1.9073486328125e-06,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores north luminous flame",
+      "source": "V028 | room 1 luminous flame",
+      "type": "MESH",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          21.700000762939453
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          38.310001373291016
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": 2.86102294921875e-06
+    },
+    {
+      "name": "V029 | stores north practical warm source",
+      "source": "V028 | room 1 practical warm source",
+      "type": "LIGHT",
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          21.700000762939453
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          38.310001373291016
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_rotation_bound": 9.5367431640625e-07,
+      "matrix_translation_bound": [
+        3.814697265625e-06,
+        7.62939453125e-06,
+        3.814697265625e-06
+      ],
+      "matrix_max_error": 9.5367431640625e-07,
+      "world_vertex_max_difference_from_ideal": null
+    }
+  ],
+  "new_uniform_attributes_checked": true,
+  "limits": "Rollback proof restores original source data/evaluation; added objects remain stored. No rendering, structural or global navigation certification."
+}

@@ -1,0 +1,28 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.480  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028/castle_v028.blend"
+00:11.002  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:20.578  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/candidate.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_interior_qa/validate_final.py", line 97, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_interior_qa/validate_final.py", line 96, in main
+    Path(a.geometry).write_text(json.dumps({'candidate_sha256':a.candidate_sha,'meshes':exports}));Path(a.report).write_text(json.dumps(out,indent=2));print('NATIVE ARCHITECTURE PRESERVATION PASS',flush=True)
+                                                                                                                             ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/5.2/python/lib/python3.13/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/5.2/python/lib/python3.13/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/5.2/python/lib/python3.13/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/5.2/python/lib/python3.13/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type float32 is not JSON serializable
+
+Error: script failed, file: 'work/v029_interior_qa/validate_final.py', exiting.
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

@@ -32,7 +32,7 @@ class Tests(unittest.TestCase):
   with self.assertRaisesRegex(RuntimeError,'injected'):q.tree_set_mode(scene,'LOW')
   self.assertEqual(scene,before);self.assertTrue(mod.show_viewport and mod.show_render);self.assertTrue(all(not o.hide_render and not o.hide_viewport for o in objs))
  def test_catalog_exact(self):
-  self.assertEqual(hashlib.sha256((P/'catalog.json').read_bytes()).hexdigest(),'7ef69b66c2e55e35f246039635b4ad91c21f89d894bf1f91f0eb2fe90dae2206')
+  self.assertEqual(hashlib.sha256((P/'catalog.json').read_bytes()).hexdigest(),'b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424')
  def test_no_auto_save_render_helper(self):
   s=(P/'tree_quality_template.py').read_text();self.assertNotIn('save_as_mainfile',s);self.assertNotIn('bpy.ops.render',s);self.assertNotIn('register()',s)
  def test_unregister_after_scene_guard_failure_and_reexecution(self):
@@ -42,7 +42,7 @@ class Tests(unittest.TestCase):
   registry=types.SimpleNamespace(owner='own',catalog_sha256='cat',ui_text_sha256='text',runtime_identity='runtime',classes=(cls1,cls2));modules={'reg':registry}
   def need(ok,msg):
    if not ok:raise RuntimeError(msg)
-  namespace={'CONFIG':{'catalog_sha256':'cat','runtime_identity':'runtime','tree_quality_enabled':False},'OWNER':'own','REGISTRY':'reg','sys':types.SimpleNamespace(modules=modules),'bpy':fakebpy,'need':need,'CASTLE28_INSPECTION_OT_bookmark':cls1,'CASTLE28_PT_bookmarks':cls2,'verify':lambda:{'ui_text_sha256':'text'}}
+  namespace={'CONFIG':{'catalog_sha256':'cat','runtime_identity':'runtime','tree_quality_enabled':False},'OWNER':'own','REGISTRY':'reg','sys':types.SimpleNamespace(modules=modules),'bpy':fakebpy,'need':need,'CASTLE29_INSPECTION_OT_bookmark':cls1,'CASTLE29_PT_bookmarks':cls2,'verify':lambda:{'ui_text_sha256':'text'}}
   code=compile(ast.Module(body=nodes,type_ignores=[]),'isolated-registry','exec');exec(code,namespace)
   self.assertFalse(namespace['register']());exec(code,namespace);self.assertFalse(namespace['register']())
   def broken():raise RuntimeError('ordinary scene edited/hidden')

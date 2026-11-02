@@ -1,0 +1,196 @@
+{
+  "pass": true,
+  "candidate_sha256": "a203cf4f17592d038cea4b1159b53fa1a0d908f6e733ac0205d0cf49ef658e07",
+  "parents": [
+    {
+      "name": "V029 | foundation outside stores guard",
+      "pass": true,
+      "parents_checked": 32,
+      "exact_zero_triangles": [],
+      "uncovered_area": 0,
+      "multiply_covered_area": 0,
+      "outside_area": 0
+    },
+    {
+      "name": "V029 | ashlar outside stores guard",
+      "pass": true,
+      "parents_checked": 30,
+      "exact_zero_triangles": [
+        {
+          "triangle": 174,
+          "parent": 88,
+          "coordinates": [
+            [
+              15.100000381469727,
+              35.400001525878906,
+              31.549999237060547
+            ],
+            [
+              15.100000381469727,
+              35.400001525878906,
+              31.440000534057617
+            ],
+            [
+              15.100000381469727,
+              35.400001525878906,
+              30.0
+            ]
+          ]
+        }
+      ],
+      "uncovered_area": 0,
+      "multiply_covered_area": 0,
+      "outside_area": 0
+    },
+    {
+      "name": "V029 | receiving shell outside stores guard",
+      "pass": true,
+      "parents_checked": 47,
+      "exact_zero_triangles": [],
+      "uncovered_area": 0,
+      "multiply_covered_area": 0,
+      "outside_area": 0
+    },
+    {
+      "name": "V029 | local stores shell",
+      "pass": true,
+      "parents_checked": 33,
+      "exact_zero_triangles": [],
+      "uncovered_area": 0,
+      "multiply_covered_area": 0,
+      "outside_area": 0
+    }
+  ],
+  "saved_plate_wall_seats": [
+    {
+      "id": "south",
+      "plate": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.000000000000004,
+        "bounds": [
+          [
+            18.580000000000002,
+            33.999,
+            30.85
+          ],
+          [
+            18.62,
+            33.9995,
+            31.05
+          ]
+        ],
+        "source": {
+          "object": "V029 | stores south mounting plate",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "saved_wall": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0,
+        "bounds": [
+          [
+            18.580000000000002,
+            33.999,
+            30.85
+          ],
+          [
+            18.62,
+            33.9995,
+            31.05
+          ]
+        ],
+        "source": {
+          "object": "V029 | local stores shell",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    },
+    {
+      "id": "north",
+      "plate": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 0.9999999999999976,
+        "bounds": [
+          [
+            21.68,
+            38.5005,
+            30.85
+          ],
+          [
+            21.72,
+            38.501,
+            31.05
+          ]
+        ],
+        "source": {
+          "object": "V029 | stores north mounting plate",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "saved_wall": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0,
+        "bounds": [
+          [
+            21.68,
+            38.5005,
+            30.85
+          ],
+          [
+            21.72,
+            38.501,
+            31.05
+          ]
+        ],
+        "source": {
+          "object": "V029 | local stores shell",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    }
+  ],
+  "actual_axial_body_clear": [
+    [
+      14.6,
+      35.6,
+      29.025
+    ],
+    [
+      23.3,
+      36.8,
+      31.1
+    ]
+  ],
+  "actual_camera_near_planes": [
+    {
+      "view": "stores_entry",
+      "actual_near_plane_clear": true
+    },
+    {
+      "view": "stores_return",
+      "actual_near_plane_clear": true
+    }
+  ],
+  "input_sha256": {
+    "saved_geometry.json": "dcda9a4e1afa0c1938749ab1af829df05a34ce77467cfc119f23d858b468aaac",
+    "saved_fixtures.json": "81aaf2e8fd7d780db854a75e6d7d1d746807117e5c22f93888bd698bc7ecca91",
+    "SAVED_PRESERVATION.json": "829b57107452a45e6bb47cd50c1a9780a7056cbba20bd61ff3f8d040d9256fc0"
+  },
+  "limits": "Full quantized floor/route expected-boundary proof applies through exact saved payload equality; actual native triangulation coverage independently checked. No rendered or global navigation claim."
+}

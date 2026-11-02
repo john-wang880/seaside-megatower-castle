@@ -1,0 +1,43 @@
+{
+  "pass": true,
+  "controls": [
+    {
+      "case": "guard ends on cavity instead of enclosing it",
+      "rejected": true,
+      "message": "Cavity not strictly inside guard"
+    },
+    {
+      "case": "omitted target raw vertex",
+      "rejected": true,
+      "message": "Wrong raw target vertices"
+    },
+    {
+      "case": "missing actual foundation top plane",
+      "rejected": true,
+      "message": "Missing actual source plane"
+    },
+    {
+      "case": "actual cavity cut extended below intended floor",
+      "rejected": true,
+      "message": "Floor coverage gap"
+    },
+    {
+      "case": "retained solid filling doorway lane",
+      "rejected": true,
+      "message": "Intended air blocked"
+    },
+    {
+      "case": "duplicate expected oriented boundary rectangle",
+      "rejected": true,
+      "message": "Duplicate expected oriented boundary"
+    },
+    {
+      "case": "actual lamp geometry intruded by changed opening",
+      "rejected": true,
+      "message": "Existing lamp intersects changed volume"
+    }
+  ],
+  "count": 7,
+  "limits": "CPU pre-cut plan/actual exported geometry controls, not saved-candidate or native tests.",
+  "script_sha256": "634851241fefa7d9ac7668caf45bad6b4dd987d25a60f2169a8902dbddb73681"
+}

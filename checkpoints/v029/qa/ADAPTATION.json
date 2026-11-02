@@ -1,0 +1,144 @@
+{
+  "pass": true,
+  "files": [
+    {
+      "file": "validate_final.py",
+      "original_sha256": "6c1c3ac1d084d3d5845594f12d0e78b9d684c23184c57bdb7ba6eb72a2af9386",
+      "adapted_sha256": "d97fc7c160cf55da765b2b3100467fe34d365e0be50dd6617e206917b47da7b4",
+      "nonentrypoint_function_AST_exact": {
+        "need": true,
+        "controls": true,
+        "snap": true,
+        "compare": true,
+        "verify_fixtures": true
+      }
+    },
+    {
+      "file": "native_controls.py",
+      "original_sha256": "e7d4ddb96e19bee248fe28547e25df5060cbd39b18f9030a622d8dba9574f1be",
+      "adapted_sha256": "9a186fb9533457a62f889a1aa53ba4ddf0ca3db73f4e448db0b67c97c0540f55",
+      "nonentrypoint_function_AST_exact": {
+        "case": true
+      }
+    },
+    {
+      "file": "check_guard_quantized.py",
+      "original_sha256": "9fac7d2e3c9654b7062fd671409630866df2b513d48387139db8efea3f1dd372",
+      "adapted_sha256": "bf8dbcdff5bbfe9cb1facd56dd931945d2ccf6e73308ab680422b4fd88ae149a",
+      "nonentrypoint_function_AST_exact": {
+        "require": true,
+        "inside": true,
+        "clip": true,
+        "area2": true,
+        "affect": true,
+        "margins": true,
+        "non_target_free": true,
+        "require_planes": true,
+        "require_floor": true,
+        "require_air": true,
+        "require_unique": true,
+        "validate_targets": true,
+        "run": true
+      }
+    },
+    {
+      "file": "test_payload.py",
+      "original_sha256": "01475363564e4656f155c0539b12be05f8da6cc40c3986b8d47f3df024879ca4",
+      "adapted_sha256": "a773586199812feffeb0ab43f1d283e88914e2579588598b5da8e57fe85b67e9",
+      "nonentrypoint_function_AST_exact": {
+        "bad": true
+      }
+    },
+    {
+      "file": "check_saved_visibility.py",
+      "original_sha256": "d130434b9858ae359214bc33d294c9a91054f404e7c3cda91767c2e38ae82084",
+      "adapted_sha256": "9218b61a7f175b62dbda61e71a95823bf571863c24a68ae25e92751c752f99ae",
+      "nonentrypoint_function_AST_exact": {}
+    },
+    {
+      "file": "snapshot_support.py",
+      "original_sha256": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+      "adapted_sha256": "0febbb51ad1a0fed4401221915fce2e477221f03a517df61d45a480074069f31",
+      "nonentrypoint_function_AST_exact": {
+        "digest": true,
+        "val": true,
+        "primitive": true,
+        "field_hash": true,
+        "mesh_snapshot": true,
+        "tree_snapshot": true,
+        "snap": true,
+        "collections_snapshot": true,
+        "render_semantic_with_ui_report": true
+      }
+    },
+    {
+      "file": "check_saved.py",
+      "original_sha256": "82a4acca108944a5bd2cd3d8281e5060fb94d02491d0e6f7baee32f8072744d3",
+      "adapted_sha256": "1bd3e2e82d6e59b5de8146df7a1bd66e32148bdd8da776e0c1ab4271a9431690",
+      "nonentrypoint_function_AST_exact": {}
+    },
+    {
+      "file": "check_saved_neighbors.py",
+      "original_sha256": "f2ca0a7026b2f4e29bece0cfb225fd72cdb338205f674ff7e8354a8805930c8b",
+      "adapted_sha256": "a458a862823207b83b18e777621a6bea624654d07c505ecc54b099fdc516f0f6",
+      "nonentrypoint_function_AST_exact": {
+        "triangles": true
+      }
+    },
+    {
+      "file": "check_guard.py",
+      "original_sha256": "7e4e919c95fd37766edbe2cfa7b9202206995b3a87744fc77b466419b156310e",
+      "adapted_sha256": "9de689248ae988cadca394538464872a8765ecd77afad22a0dc10fca16bafca3",
+      "nonentrypoint_function_AST_exact": {
+        "require": true,
+        "inside": true,
+        "clip": true,
+        "area2": true,
+        "affect": true,
+        "margins": true,
+        "non_target_free": true,
+        "require_planes": true,
+        "require_floor": true,
+        "require_air": true,
+        "require_unique": true,
+        "validate_targets": true,
+        "run": true
+      }
+    },
+    {
+      "file": "check_payload.py",
+      "original_sha256": "1695cc9c1f52dbac12dac3b4a80e3727960aa3e29447e55e97594c1c5b60ad2c",
+      "adapted_sha256": "853c772b3c843580574b028d2e24dbc8ca1e723210a4e405b73bd632f0bf2707",
+      "nonentrypoint_function_AST_exact": {
+        "f32": true,
+        "quant": true,
+        "box": true,
+        "signed_volume": true,
+        "half": true,
+        "minus_rect": true,
+        "source_reference": true,
+        "general_validate": true,
+        "run": true
+      }
+    },
+    {
+      "file": "check_fixtures_views.py",
+      "original_sha256": "c160ec1ed98c3898e48d50f289b3906f87662f066fa2835986c30c687c668d9d",
+      "adapted_sha256": "866b19dc9c6647bf82d3da1a31193b4b17723db400bc112227ec92dde9c35cb4",
+      "nonentrypoint_function_AST_exact": {
+        "segment": true
+      }
+    },
+    {
+      "file": "test_guard.py",
+      "original_sha256": "634851241fefa7d9ac7668caf45bad6b4dd987d25a60f2169a8902dbddb73681",
+      "adapted_sha256": "a64d300f48141f2dcc9a2d07f8b95dd55ffc11e657b2a7abde9caa3b3e791a87",
+      "nonentrypoint_function_AST_exact": {
+        "reject": true
+      }
+    }
+  ],
+  "changes": "Explicit data/output environment plumbing and local helper imports only; non-entrypoint functions AST-identical. New runner/quantized-route entrypoint and accepted-byte comparator use the executed predicates. Full native replay pending owner slot.",
+  "pure_adapter_stages": 9,
+  "runner_guard_tests": 8
+}

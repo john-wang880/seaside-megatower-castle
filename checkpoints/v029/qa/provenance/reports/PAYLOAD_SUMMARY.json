@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "payload_sha256": "ea64d1ece1b6295ae67eedad3a01b5f2bcdf97fcc0824d402df2e9e868e99c82",
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "files": {
+    "check_payload.py": "1695cc9c1f52dbac12dac3b4a80e3727960aa3e29447e55e97594c1c5b60ad2c",
+    "test_payload.py": "01475363564e4656f155c0539b12be05f8da6cc40c3986b8d47f3df024879ca4",
+    "check_guard_quantized.py": "9fac7d2e3c9654b7062fd671409630866df2b513d48387139db8efea3f1dd372",
+    "PAYLOAD_PROOF.json": "f862f15db7e288b3535f86831b44fa8055ef3bb2388d0a44299d9c28d7a93c71",
+    "PAYLOAD_CONTROLS.json": "5452a0649f6a051a8288c8afb28dd6cb5de2d4f0ce145fa83ae3d4d4efc4e2be",
+    "QUANTIZED_ROUTES.json": "1417f85a60462ef8b378be93504273624d0c2b20678f4024ae8a257cb4c91886",
+    "PAYLOAD_VERDICT.md": "13913a30c0ca779e5ad1b694a80fbb23ca362a40a1b7ec4430f9f8fd0563bcd8",
+    "payload.log": "cbea0e631ed69dc1a09872fcfc0e38ef8dde45aec899673dbce030af83fcf7c0",
+    "payload_controls.log": "42e660755ceca22202b2d6e6fbcef21db9d8bb42f3d5520f767f695114f7fe8b",
+    "quantized_routes.log": "b81aff75652f71d746eb71d2fa7088aa523066450a695a74ffdf0f38f3cdefb5",
+    "check_guard.py": "7e4e919c95fd37766edbe2cfa7b9202206995b3a87744fc77b466419b156310e",
+    "target_mapping_proof.json": "7d1a2b080fe002ddf3c21e819d78df2ef47f58939f9fec9397a89cf64bbc210a"
+  },
+  "scope": "Independent CPU payload gate only; saved native QA pending."
+}

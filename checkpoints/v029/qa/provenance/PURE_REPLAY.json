@@ -1,0 +1,43 @@
+{
+  "pass": true,
+  "commands": [
+    {
+      "script": "check_guard.py",
+      "returncode": 0
+    },
+    {
+      "script": "check_payload.py",
+      "returncode": 0
+    },
+    {
+      "script": "test_guard.py",
+      "returncode": 0
+    },
+    {
+      "script": "test_payload.py",
+      "returncode": 0
+    },
+    {
+      "script": "check_quantized_routes.py",
+      "returncode": 0
+    },
+    {
+      "script": "check_fixtures_views.py",
+      "returncode": 0
+    },
+    {
+      "script": "check_saved.py",
+      "returncode": 0
+    },
+    {
+      "script": "check_saved_neighbors.py",
+      "returncode": 0
+    },
+    {
+      "script": "check_saved_visibility.py",
+      "returncode": 0
+    }
+  ],
+  "bundle_unchanged": true,
+  "scope": "All nine pure adapted stages replayed against actual saved exports; full native adapter chain awaits owner slot."
+}

@@ -1,0 +1,148 @@
+{
+  "candidate_sha256": "a203cf4f17592d038cea4b1159b53fa1a0d908f6e733ac0205d0cf49ef658e07",
+  "source_export_sha256": "6e9d81a2f541dbce41d98714925a4f5d537603731a177022a7f3b3c0865426c5",
+  "contacts": [
+    {
+      "object": "V029 | foundation outside stores guard",
+      "seed": 0,
+      "pairs": 101,
+      "planes": [
+        {
+          "axis": 0,
+          "plane": "4272947/262144",
+          "same_facing": false,
+          "pairwise_area": 7.873993049623095
+        },
+        {
+          "axis": 0,
+          "plane": "47/2",
+          "same_facing": false,
+          "pairwise_area": 11.937987586978124
+        },
+        {
+          "axis": 1,
+          "plane": "4443341/131072",
+          "same_facing": false,
+          "pairwise_area": 18.287994796752173
+        },
+        {
+          "axis": 1,
+          "plane": "4639949/131072",
+          "same_facing": false,
+          "pairwise_area": 3.0479959030162718
+        },
+        {
+          "axis": 1,
+          "plane": "37",
+          "same_facing": false,
+          "pairwise_area": 3.0479959030162718
+        },
+        {
+          "axis": 1,
+          "plane": "5059379/131072",
+          "same_facing": false,
+          "pairwise_area": 18.287994796752173
+        },
+        {
+          "axis": 2,
+          "plane": "3787981/131072",
+          "same_facing": false,
+          "pairwise_area": 35.75997795104922
+        }
+      ]
+    },
+    {
+      "object": "V029 | ashlar outside stores guard",
+      "seed": 0,
+      "pairs": 84,
+      "planes": [
+        {
+          "axis": 0,
+          "plane": "4272947/262144",
+          "same_facing": false,
+          "pairwise_area": 7.625004196161171
+        },
+        {
+          "axis": 0,
+          "plane": "47/2",
+          "same_facing": false,
+          "pairwise_area": 10.105000610346906
+        },
+        {
+          "axis": 1,
+          "plane": "4443341/131072",
+          "same_facing": false,
+          "pairwise_area": 15.480012626649113
+        },
+        {
+          "axis": 1,
+          "plane": "4639949/131072",
+          "same_facing": false,
+          "pairwise_area": 1.8599973106393008
+        },
+        {
+          "axis": 1,
+          "plane": "37",
+          "same_facing": false,
+          "pairwise_area": 1.8599973106393008
+        },
+        {
+          "axis": 1,
+          "plane": "5059379/131072",
+          "same_facing": false,
+          "pairwise_area": 15.480012626649113
+        },
+        {
+          "axis": 2,
+          "plane": "8270643/262144",
+          "same_facing": false,
+          "pairwise_area": 1.9199963378923712
+        },
+        {
+          "axis": 2,
+          "plane": "4213965/131072",
+          "same_facing": false,
+          "pairwise_area": 33.83998161315685
+        }
+      ]
+    },
+    {
+      "object": "V029 | receiving shell outside stores guard",
+      "seed": 0,
+      "pairs": 39,
+      "planes": [
+        {
+          "axis": 0,
+          "plane": "15518925/1048576",
+          "same_facing": false,
+          "pairwise_area": 0.15999740600818768
+        },
+        {
+          "axis": 1,
+          "plane": "4639949/131072",
+          "same_facing": false,
+          "pairwise_area": 0.2850004577630898
+        },
+        {
+          "axis": 1,
+          "plane": "37",
+          "same_facing": false,
+          "pairwise_area": 0.2850004577630898
+        },
+        {
+          "axis": 2,
+          "plane": "3787981/131072",
+          "same_facing": false,
+          "pairwise_area": 0.47999984741181834
+        },
+        {
+          "axis": 2,
+          "plane": "8270643/262144",
+          "same_facing": false,
+          "pairwise_area": 0.1600004577630898
+        }
+      ]
+    }
+  ],
+  "scope": "Local shell versus all preserved components in complete bounded export; exact axis-plane polygon clipping, not BVH. Pairwise contact sums are not unique exposed area. Outside remote inherited surfaces are separately exact."
+}

@@ -1,0 +1,34 @@
+{
+  "status": "CPU_READY_NATIVE_PENDING",
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "adapter_files": {
+    "compare_support.py": "f6c896560513f2da1a24d1ba02c0e764b8bd9a1a14eaa523ecc5a887cfde1024",
+    "test_compare.py": "e67a4ba0e6bea6a2bc8624b8816a4bbcbe8fb658c5b893435aa1219edd65657d",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "validate_modes.py": "150a95444c5c706ac93bdddb9e49440d255646de06a93cf913fb2994b1317b3b",
+    "validate_index.py": "a610d431bed8377698ee12c38c5901ae7f9fa43ba82cd37e54245d28b272f82e",
+    "run_qa.py": "7669082a22a8102eae8a2528ba0235460b959ef47d247b87675b88c31c92c45b",
+    "expected_scope.py": "d8cebbbe023e90040f4d4c2aed506e7df6c8f288ce42cceee08fb8cf6075a659"
+  },
+  "runtime_files": {
+    "export_inspection.py": "0cb6071b4540e39ebc83adf227a9987eb1c5ac5398497a12ddfdcb339f167289",
+    "preflight.py": "bdb266471cb379689344097c2a510e4c2364f30f17c8353afe0949a41a10b839",
+    "catalog.json": "b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424",
+    "ui_template.py": "9432499fdd639545302507bb51cdea27123e1d64a14853c0c96d25a00423dd65",
+    "tree_quality_template.py": "6ed0106f69559cde3cafb6a50701804ca9762b8db894d600b57c0c670fa0e145",
+    "edit_index_template.py": "e0ebad351b5a4e10259fbe646216796f6f2c4b37bf60e1ff0fac56b6fb1f75ac",
+    "edit_index.json": "da82f1ba19d20ebd85bae60edef74961a2f6c04311fe81611c1e9e231aac9368"
+  },
+  "expected": {
+    "bookmarks": 20,
+    "new_cameras": 19,
+    "groups": 5,
+    "index_target_entries": 45,
+    "snapshot_categories": 13,
+    "quality_negatives": 27,
+    "selection_negatives": 37,
+    "panel_cases": 6,
+    "repeated_LOW_refusals": 64
+  },
+  "pure_comparison_tests": 8
+}

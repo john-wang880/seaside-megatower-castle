@@ -1,0 +1,7 @@
+--- executed/validate_final.py
++++ validate_final.py
+@@ -1,3 +1,4 @@
++import os
+ """Read-only saved architecture audit: exact simulated native mask, full rollback, geometry export."""
+ import argparse,copy,hashlib,json,sys
+ from pathlib import Path

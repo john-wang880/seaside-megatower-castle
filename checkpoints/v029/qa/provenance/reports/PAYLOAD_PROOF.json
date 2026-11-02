@@ -1,0 +1,190 @@
+{
+  "pass": true,
+  "effective_guard": [
+    [
+      [
+        16.299999237060547,
+        33.900001525878906,
+        28.900001525878906
+      ],
+      [
+        23.5,
+        38.599998474121094,
+        32.150001525878906
+      ]
+    ],
+    [
+      [
+        14.800000190734863,
+        35.400001525878906,
+        28.900001525878906
+      ],
+      [
+        16.5,
+        37.0,
+        31.549999237060547
+      ]
+    ]
+  ],
+  "effective_cavities": [
+    [
+      [
+        16.399999618530273,
+        34.0,
+        29.0
+      ],
+      [
+        23.399999618530273,
+        38.5,
+        32.04999923706055
+      ]
+    ],
+    [
+      [
+        15.0,
+        35.5,
+        29.0
+      ],
+      [
+        16.399999618530273,
+        36.900001525878906,
+        31.450000762939453
+      ]
+    ]
+  ],
+  "coordinate_planes": [
+    [
+      14.800000190734863,
+      15.0,
+      15.100000381469727,
+      16.299999237060547,
+      16.399999618530273,
+      16.5,
+      23.399999618530273,
+      23.5
+    ],
+    [
+      33.900001525878906,
+      34.0,
+      35.400001525878906,
+      35.5,
+      36.900001525878906,
+      37.0,
+      38.5,
+      38.599998474121094
+    ],
+    [
+      28.900001525878906,
+      29.0,
+      30.0,
+      31.440000534057617,
+      31.450000762939453,
+      31.549999237060547,
+      32.04999923706055,
+      32.150001525878906
+    ]
+  ],
+  "quantized_cells": 241,
+  "max_winding_residual": 8.215650382226158e-15,
+  "changed_interface_cells": 0,
+  "outside": [
+    {
+      "name": "V029 | foundation outside stores guard",
+      "remote_exact": 122,
+      "changed_domains": {
+        "pass": true,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "method": "Exact Fraction coverage of combined same-plane affected source domains, not per-parent diagonal tessellation identity."
+      },
+      "caps": {
+        "pass": true,
+        "triangles": 20,
+        "axis_oriented_planes": 7,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+        "partial_surface_signed_tetrahedral_sum_exact_fraction": "-5344455597645405793/72057594037927936",
+        "partial_surface_signed_tetrahedral_sum": -74.16922073240914,
+        "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+      },
+      "source_volume": 25414.74755806559,
+      "outside_volume": 25323.917249537433,
+      "exact_volume_residual": "0"
+    },
+    {
+      "name": "V029 | ashlar outside stores guard",
+      "remote_exact": 76,
+      "changed_domains": {
+        "pass": true,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "method": "Exact Fraction coverage of combined same-plane affected source domains, not per-parent diagonal tessellation identity."
+      },
+      "caps": {
+        "pass": true,
+        "triangles": 20,
+        "axis_oriented_planes": 8,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+        "partial_surface_signed_tetrahedral_sum_exact_fraction": "-6475535752803058153/72057594037927936",
+        "partial_surface_signed_tetrahedral_sum": -89.86611111931688,
+        "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+      },
+      "source_volume": 13204.46696013267,
+      "outside_volume": 13128.734955169775,
+      "exact_volume_residual": "0"
+    },
+    {
+      "name": "V029 | receiving shell outside stores guard",
+      "remote_exact": 70,
+      "changed_domains": {
+        "pass": true,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "method": "Exact Fraction coverage of combined same-plane affected source domains, not per-parent diagonal tessellation identity."
+      },
+      "caps": {
+        "pass": true,
+        "triangles": 14,
+        "axis_oriented_planes": 5,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+        "partial_surface_signed_tetrahedral_sum_exact_fraction": "8166224500766365/36028797018963968",
+        "partial_surface_signed_tetrahedral_sum": 0.22665826162522232,
+        "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+      },
+      "source_volume": 30.623833532277786,
+      "outside_volume": 30.167833234733028,
+      "exact_volume_residual": "0"
+    }
+  ],
+  "local": {
+    "pass": true,
+    "triangles": 66,
+    "axis_oriented_planes": 20,
+    "uncovered_area": 0,
+    "outside_area": 0,
+    "multiply_covered_area": 0,
+    "saved_float_volume_exact_fraction": "131927952566556033/9007199254740992",
+    "saved_float_volume": 14.646945053104602,
+    "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance."
+  },
+  "nominal_remote_cycles_exact": 268,
+  "directed_guard_bottom": 28.900001525878906,
+  "closed_triangle_budget": 962,
+  "scope": "Exact saved-coordinate boundary/domain/cap/volume proof for CPU payload; saved native attributes/tessellation/rollback remain mandatory. Directed guard partition only, no added physical volume.",
+  "input_sha256": {
+    "export": "6e9d81a2f541dbce41d98714925a4f5d537603731a177022a7f3b3c0865426c5",
+    "plan": "94ca369e899d4729aa58a4e1b7ea9c04206450c63147d18c3f3c2769120c242d",
+    "payload": "ea64d1ece1b6295ae67eedad3a01b5f2bcdf97fcc0824d402df2e9e868e99c82"
+  }
+}

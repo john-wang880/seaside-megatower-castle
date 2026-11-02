@@ -1,0 +1,13 @@
+--- executed/test_payload.py
++++ test_payload.py
+@@ -1,8 +1,9 @@
++import os
+ """CPU actual-payload and mathematical controls; no Blender fixtures."""
+ import copy,json,hashlib
+ from pathlib import Path
+ import check_payload as p
+-R=p.ROOT;D=Path(__file__).parent;n=json.loads((R/'work/v029_interior_program/native.json').read_text());plan=json.loads((R/'work/v029_interior_program/guard_plan/PLAN.json').read_text());a=json.loads((R/'work/v029_stores/geometry_builder/geometry_diagnostic.json').read_text());rows=[]
++R=p.ROOT;D=Path(os.environ['V029_QA_OUTPUT']);n=json.loads((Path(os.environ['V029_QA_DATA'])/'native.json').read_text());plan=json.loads((Path(os.environ['V029_QA_DATA'])/'guard_plan.json').read_text());a=json.loads((Path(os.environ['V029_QA_DATA'])/'payload.json').read_text());rows=[]
+ def bad(label,change):
+  b=copy.deepcopy(a);change(b)
+  try:p.run(n,plan,b)

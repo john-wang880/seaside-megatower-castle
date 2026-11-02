@@ -1,0 +1,939 @@
+{
+  "status": "CPU_PLAN_PENDING_INDEPENDENT_CHECK",
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "lamps": [
+    {
+      "id": "south",
+      "rigid_matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -15.399999999999999
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          49.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_wall_anchor": [
+        15.0,
+        34.0,
+        30.95
+      ],
+      "target_wall_anchor": [
+        18.6,
+        34,
+        30.95
+      ],
+      "light": {
+        "name": "V028 | room 1 practical warm source",
+        "location": [
+          18.6,
+          34.1899995803833,
+          30.950000762939453
+        ],
+        "energy": 36.0,
+        "color": [
+          1.0,
+          0.5799999833106995,
+          0.25
+        ],
+        "shadow_soft_size": 0.03500000014901161,
+        "copied_from": "V013 | turn practical warm source"
+      },
+      "components": [
+        {
+          "source": "V028 | room 1 mounting plate",
+          "bounds": [
+            [
+              18.55500183105469,
+              33.9975004196167,
+              30.80000114440918
+            ],
+            [
+              18.644998168945314,
+              34.02250003814697,
+              31.100000381469727
+            ]
+          ],
+          "vertices": 8,
+          "triangles": 12
+        },
+        {
+          "source": "V028 | room 1 wall arm",
+          "bounds": [
+            [
+              18.581998443603517,
+              33.99693202972412,
+              30.9376220703125
+            ],
+            [
+              18.618001556396486,
+              34.2030668258667,
+              31.15237808227539
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 lower cup",
+          "bounds": [
+            [
+              18.495000457763673,
+              34.08500003814697,
+              30.77750015258789
+            ],
+            [
+              18.70499954223633,
+              34.29499912261963,
+              30.802501678466797
+            ]
+          ],
+          "vertices": 32,
+          "triangles": 60
+        },
+        {
+          "source": "V028 | room 1 hood rim",
+          "bounds": [
+            [
+              18.495000457763673,
+              34.08500003814697,
+              31.09749984741211
+            ],
+            [
+              18.70499954223633,
+              34.29499912261963,
+              31.122501373291016
+            ]
+          ],
+          "vertices": 32,
+          "triangles": 60
+        },
+        {
+          "source": "V028 | room 1 rain hood",
+          "bounds": [
+            [
+              18.48999938964844,
+              34.079999923706055,
+              31.1200008392334
+            ],
+            [
+              18.710000610351564,
+              34.29999923706055,
+              31.21000099182129
+            ]
+          ],
+          "vertices": 32,
+          "triangles": 60
+        },
+        {
+          "source": "V028 | room 1 cage upright 0",
+          "bounds": [
+            [
+              18.648980712890626,
+              34.12301731109619,
+              30.799999237060547
+            ],
+            [
+              18.666978454589845,
+              34.14101696014404,
+              31.10000228881836
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 cage upright 1",
+          "bounds": [
+            [
+              18.648980712890626,
+              34.23898220062256,
+              30.799999237060547
+            ],
+            [
+              18.666978454589845,
+              34.25698184967041,
+              31.10000228881836
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 cage upright 2",
+          "bounds": [
+            [
+              18.533017730712892,
+              34.23898220062256,
+              30.799999237060547
+            ],
+            [
+              18.55101547241211,
+              34.25698184967041,
+              31.10000228881836
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 cage upright 3",
+          "bounds": [
+            [
+              18.533017730712892,
+              34.12301731109619,
+              30.799999237060547
+            ],
+            [
+              18.55101547241211,
+              34.14101696014404,
+              31.10000228881836
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 luminous flame",
+          "bounds": [
+            [
+              18.574998474121095,
+              34.16499996185303,
+              30.895000457763672
+            ],
+            [
+              18.625001525878908,
+              34.214999198913574,
+              31.005001068115234
+            ]
+          ],
+          "vertices": 86,
+          "triangles": 168
+        }
+      ],
+      "assembly_bounds": [
+        [
+          18.48999938964844,
+          33.99693202972412,
+          30.77750015258789
+        ],
+        [
+          18.710000610351564,
+          34.29999923706055,
+          31.21000099182129
+        ]
+      ],
+      "positive_plate_source_seat_box": [
+        [
+          18.580000000000002,
+          33.999,
+          30.85
+        ],
+        [
+          18.62,
+          33.9995,
+          31.05
+        ]
+      ],
+      "seat_volume": 3.999999999962156e-06,
+      "reserved_no_shelf_box": [
+        [
+          18.33999938964844,
+          33.84693202972412,
+          30.627500152587892
+        ],
+        [
+          18.860000610351562,
+          34.449999237060545,
+          31.360000991821288
+        ]
+      ]
+    },
+    {
+      "id": "north",
+      "rigid_matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          55.7
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          23.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_wall_anchor": [
+        15.0,
+        34.0,
+        30.95
+      ],
+      "target_wall_anchor": [
+        21.7,
+        38.5,
+        30.95
+      ],
+      "light": {
+        "name": "V028 | room 1 practical warm source",
+        "location": [
+          21.700000000000003,
+          38.3100004196167,
+          30.950000762939453
+        ],
+        "energy": 36.0,
+        "color": [
+          1.0,
+          0.5799999833106995,
+          0.25
+        ],
+        "shadow_soft_size": 0.03500000014901161,
+        "copied_from": "V013 | turn practical warm source"
+      },
+      "components": [
+        {
+          "source": "V028 | room 1 mounting plate",
+          "bounds": [
+            [
+              21.65500183105469,
+              38.47749996185303,
+              30.80000114440918
+            ],
+            [
+              21.744998168945315,
+              38.5024995803833,
+              31.100000381469727
+            ]
+          ],
+          "vertices": 8,
+          "triangles": 12
+        },
+        {
+          "source": "V028 | room 1 wall arm",
+          "bounds": [
+            [
+              21.68199844360352,
+              38.2969331741333,
+              30.9376220703125
+            ],
+            [
+              21.718001556396487,
+              38.50306797027588,
+              31.15237808227539
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 lower cup",
+          "bounds": [
+            [
+              21.595000457763675,
+              38.20500087738037,
+              30.77750015258789
+            ],
+            [
+              21.80499954223633,
+              38.41499996185303,
+              30.802501678466797
+            ]
+          ],
+          "vertices": 32,
+          "triangles": 60
+        },
+        {
+          "source": "V028 | room 1 hood rim",
+          "bounds": [
+            [
+              21.595000457763675,
+              38.20500087738037,
+              31.09749984741211
+            ],
+            [
+              21.80499954223633,
+              38.41499996185303,
+              31.122501373291016
+            ]
+          ],
+          "vertices": 32,
+          "triangles": 60
+        },
+        {
+          "source": "V028 | room 1 rain hood",
+          "bounds": [
+            [
+              21.58999938964844,
+              38.20000076293945,
+              31.1200008392334
+            ],
+            [
+              21.810000610351565,
+              38.420000076293945,
+              31.21000099182129
+            ]
+          ],
+          "vertices": 32,
+          "triangles": 60
+        },
+        {
+          "source": "V028 | room 1 cage upright 0",
+          "bounds": [
+            [
+              21.63302154541016,
+              38.35898303985596,
+              30.799999237060547
+            ],
+            [
+              21.651019287109378,
+              38.37698268890381,
+              31.10000228881836
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 cage upright 1",
+          "bounds": [
+            [
+              21.63302154541016,
+              38.24301815032959,
+              30.799999237060547
+            ],
+            [
+              21.651019287109378,
+              38.26101779937744,
+              31.10000228881836
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 cage upright 2",
+          "bounds": [
+            [
+              21.748984527587893,
+              38.24301815032959,
+              30.799999237060547
+            ],
+            [
+              21.766982269287112,
+              38.26101779937744,
+              31.10000228881836
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 cage upright 3",
+          "bounds": [
+            [
+              21.748984527587893,
+              38.35898303985596,
+              30.799999237060547
+            ],
+            [
+              21.766982269287112,
+              38.37698268890381,
+              31.10000228881836
+            ]
+          ],
+          "vertices": 24,
+          "triangles": 44
+        },
+        {
+          "source": "V028 | room 1 luminous flame",
+          "bounds": [
+            [
+              21.674998474121097,
+              38.285000801086426,
+              30.895000457763672
+            ],
+            [
+              21.72500152587891,
+              38.33500003814697,
+              31.005001068115234
+            ]
+          ],
+          "vertices": 86,
+          "triangles": 168
+        }
+      ],
+      "assembly_bounds": [
+        [
+          21.58999938964844,
+          38.20000076293945,
+          30.77750015258789
+        ],
+        [
+          21.810000610351565,
+          38.50306797027588,
+          31.21000099182129
+        ]
+      ],
+      "positive_plate_source_seat_box": [
+        [
+          21.68,
+          38.5005,
+          30.85
+        ],
+        [
+          21.72,
+          38.501,
+          31.05
+        ]
+      ],
+      "seat_volume": 3.999999999962156e-06,
+      "reserved_no_shelf_box": [
+        [
+          21.43999938964844,
+          38.050000762939455,
+          30.627500152587892
+        ],
+        [
+          21.960000610351564,
+          38.65306797027588,
+          31.360000991821288
+        ]
+      ]
+    }
+  ],
+  "fixture_triangle_total": 1160,
+  "body_proxy": [
+    [
+      14.6,
+      35.6,
+      29.025
+    ],
+    [
+      23.3,
+      36.8,
+      31.1
+    ]
+  ],
+  "fixtures_body_triangle_disjoint": true,
+  "views": [
+    {
+      "key": "stores_entry",
+      "reference_matrix": [
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          15.2
+        ],
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          36.2
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          30.65
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_data": {
+        "type": "PERSP",
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.08,
+        "clip_end": 1000.0
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "eye": [
+        15.2,
+        36.2,
+        30.65
+      ],
+      "target": [
+        23.4,
+        36.2,
+        30.65
+      ],
+      "near_plane_box": [
+        [
+          15.28,
+          36.144615384615385,
+          30.609961538461537
+        ],
+        [
+          15.28,
+          36.25538461538462,
+          30.69003846153846
+        ]
+      ],
+      "near_plane_inside_prospective_cavity": true,
+      "deep_door_aperture_projected": null,
+      "far_room_corners_projected": [
+        [
+          0.6937669376693769,
+          0.7010262177549728,
+          8.2
+        ],
+        [
+          0.6937669376693769,
+          0.3294323000866898,
+          8.2
+        ],
+        [
+          0.29742547425474275,
+          0.7010262177549728,
+          8.2
+        ],
+        [
+          0.29742547425474275,
+          0.3294323000866898,
+          8.2
+        ]
+      ],
+      "fixture_centers_projected": {
+        "south": [
+          0.9269608734479919,
+          0.4118492418327873,
+          3.400000000000002
+        ],
+        "north": [
+          0.2655555089314783,
+          0.45389037265099647,
+          6.5000000000000036
+        ]
+      },
+      "scope": "Prospective air after approved cavity, currently occupied source. No source-current empty-space or rendered-visibility claim."
+    },
+    {
+      "key": "stores_return",
+      "reference_matrix": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          22.7
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          36.2
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          30.65
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_data": {
+        "type": "PERSP",
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.08,
+        "clip_end": 1000.0
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "eye": [
+        22.7,
+        36.2,
+        30.65
+      ],
+      "target": [
+        15,
+        36.2,
+        30.65
+      ],
+      "near_plane_box": [
+        [
+          22.62,
+          36.144615384615385,
+          30.609961538461537
+        ],
+        [
+          22.62,
+          36.25538461538462,
+          30.69003846153846
+        ]
+      ],
+      "near_plane_inside_prospective_cavity": true,
+      "deep_door_aperture_projected": [
+        [
+          0.43434343434343403,
+          0.7140798682585424,
+          7.699999999999999
+        ],
+        [
+          0.43434343434343403,
+          0.3962037002382823,
+          7.699999999999999
+        ],
+        [
+          0.5656565656565653,
+          0.7140798682585424,
+          7.699999999999999
+        ],
+        [
+          0.5656565656565653,
+          0.3962037002382823,
+          7.699999999999999
+        ]
+      ],
+      "far_room_corners_projected": [],
+      "fixture_centers_projected": {
+        "south": [
+          0.14593488543337207,
+          0.4268993712759699,
+          4.099999999999998
+        ],
+        "north": [
+          2.023889191945397,
+          0.20028742223147566,
+          0.9999999999999964
+        ]
+      },
+      "scope": "Prospective air after approved cavity, currently occupied source. No source-current empty-space or rendered-visibility claim."
+    }
+  ],
+  "finite_aperture_destination_rays": [
+    {
+      "view": "stores_entry",
+      "end": [
+        23.4,
+        34.0,
+        29.0
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_entry",
+      "end": [
+        23.4,
+        34.0,
+        30.525
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_entry",
+      "end": [
+        23.4,
+        34.0,
+        32.05
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_entry",
+      "end": [
+        23.4,
+        36.25,
+        29.0
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_entry",
+      "end": [
+        23.4,
+        36.25,
+        30.525
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_entry",
+      "end": [
+        23.4,
+        36.25,
+        32.05
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_entry",
+      "end": [
+        23.4,
+        38.5,
+        29.0
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_entry",
+      "end": [
+        23.4,
+        38.5,
+        30.525
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_entry",
+      "end": [
+        23.4,
+        38.5,
+        32.05
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_return",
+      "end": [
+        15.0,
+        35.5,
+        29.0
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_return",
+      "end": [
+        15.0,
+        35.5,
+        30.225
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_return",
+      "end": [
+        15.0,
+        35.5,
+        31.45
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_return",
+      "end": [
+        15.0,
+        36.2,
+        29.0
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_return",
+      "end": [
+        15.0,
+        36.2,
+        30.225
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_return",
+      "end": [
+        15.0,
+        36.2,
+        31.45
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_return",
+      "end": [
+        15.0,
+        36.9,
+        29.0
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_return",
+      "end": [
+        15.0,
+        36.9,
+        30.225
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    },
+    {
+      "view": "stores_return",
+      "end": [
+        15.0,
+        36.9,
+        31.45
+      ],
+      "piecewise_inside_planned_air": true,
+      "non_target_blockers": []
+    }
+  ],
+  "limitations": "Rigid planned copies only; no geometry/native/export/render or light mutation. Exact saved matrix/coordinates, dependency/material/power identity and full common-cavity clearance remain native gates. Primary near doorway intentionally crops; reverse aperture fits. Source host removal not executed."
+}

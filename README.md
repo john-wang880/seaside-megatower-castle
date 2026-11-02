@@ -1,28 +1,30 @@
 # 海边巨塔城堡 · 持续精修
 
-最新检查点：**[v028 下层接待／守卫室](checkpoints/v028/README.md)**。完整复现、语义／几何QA、本地分块恢复及18书签工具原生验证已通过；**远端精确恢复及完整原生QA／工具重放已通过**（[远端核验记录](checkpoints/v028/reports/remote/VERIFIED.json)）。
+最新检查点：**[v029 接待室 → 连通储藏空间（空壳阶段）](checkpoints/v029/README.md)**。本地源工程重建、完整独立几何／语义QA、实际图像验收及20书签检查工具原生验证通过；远端精确恢复仍待完成核验。
 
-从原通道侧面进入一间克制的8×8下层房间，保留两根实体方墩与一条顶带，新增两盏同风格暖灯。是明确授权的局部室内扩建，不是缺陷修复或全城堡室内完成；场景尺寸不作工程／无障碍认证。原外观、世界／曝光和既有灯具保持，全景无可见回归但并非像素完全相同。
+在原接待室东侧接入一间7×4.5的狭长服务空间，新增两盏错位暖灯，保留原路线和外观。**这是连通空壳，不是已经布置完成的仓库**；下一步才是有用途的货架／储物。没有新增外门、全城堡环路或结构安全认证。
 
-- [房间入口](checkpoints/v028/previews/doorway.png) · [反向连接](checkpoints/v028/previews/reverse_connection.png) · **[同机位通道对照](checkpoints/v028/previews/connection_pair.png)** · [当前全景](checkpoints/v028/previews/hero.png)
-- [恢复说明](checkpoints/v028/README.md) · [程序复现](checkpoints/v028/REPRODUCE.md) · [恢复清单](checkpoints/v028/MANIFEST.json)
-- [v024/v025旧邻接保证更正](checkpoints/v026/audits/coplanar_method/README.md)继续保留：旧BVH零结果不是无共面接触保证，既有接触如实记录。
+- [进入新空间](checkpoints/v029/previews/stores_entry.png) · [回望原接待室](checkpoints/v029/previews/stores_return.png) · [新旧房间关系](checkpoints/v029/previews/doorway.png) · [当前全景](checkpoints/v029/previews/hero.png)
+- [恢复说明](checkpoints/v029/README.md) · [源工程复现](checkpoints/v029/REPRODUCE.md) · [独立QA](checkpoints/v029/qa/README.md)
 
-完整克隆含model_chunks，运行 `python -B checkpoints/v028/restore_checkpoint.py`，逐块及整文件SHA256验证后用已有Blender5.2.3 LTS打开，保持自动脚本执行关闭。验收SHA为 `f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096`。新版远端精确恢复／完整原生QA及工具重放已通过，旧版固定历史91b0082继续可恢复；旧路径撤除须作为后续独立操作验证，不因本声明自动视为已撤除。Git历史保留，不强推。
+完整克隆含model_chunks，运行`python -B checkpoints/v029/restore_checkpoint.py`，逐块及整文件SHA验证后用已有Blender5.2.3打开，保持自动脚本执行关闭。当前候选SHA：`4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5`。旧v028从固定历史提交`f3f56c21c97c9a76c79050c709790611681ae2b8`可恢复；旧版文件暂保留，只有远端新版本恢复通过才撤下当前目录，Git历史不清除、不强推。
 
-## 可选：当前模型检查副本
+## 可选：当前模型检查／编辑选择副本
 
-[手动书签工具](scripts/current_inspection/README.md)明确绑定当前哈希和18个已审查机位，包含房间入口及修正站立反向角度；另存副本，不改原模型、不自动执行／渲染。三模式、13类源状态、保存重开及27项负控／8项QA控制通过。原生Windows未实测；未知未来版本拒绝运行。
+[手动检查工具](scripts/current_inspection/README.md)绑定当前哈希及**20个已审查书签**，含新空间入口和回望机位。另存副本，不改原模型，不自动执行或渲染。未知未来版本、错源、覆盖与路径别名拒绝运行。
 
-工具保留可选 `--tree-mode HIGH` 或 `LOW`，只在副本中切换入口旁单棵树；默认不启用。LOW保留高细节网格，不缩小文件或承诺速度。此前v027源与工具从固定提交 `91b0082b4443aa9a3539e742813bb37ddcc099da` 恢复；v026旧工具历史 `054bc322fed3ad54080471901566c3b1c96d8e8e` 与原始v027十六书签历史 `030ecda3f64a161c181a307f2639251eab34f556` 继续保留。
+`--tree-mode HIGH/LOW`仅手动切换入口旁单棵树；LOW仍保留高细节网格，不承诺缩小文件或特定速度。`--editing-index`默认关闭，启用后提供五组可见目标：两个连通房间局部壳体、原接待室20灯具网格、入口顶棚、HIGH树、新储藏空间20灯具网格；两组灯具均不包含实际LIGHT对象。共享材质、合并宿主及隐藏回滚都有明确限制，选择不是独立搬移／删除许可。
 
-## 可选：编辑选择索引（不新增模型版本）
+本地四份副本、13类源保护、27质量负控、37选择负控、6面板案例、64次LOW拒绝及77纯测试通过；原生Windows和真实桌面点击未实测。远端工具重放仍为单独待完成核验项。
 
-[当前检查工具](scripts/current_inspection/README.md)新增显式 `--editing-index`，默认关闭，仅在另存的检查副本中手动运行面板。四个选择集为接待室局部壳体、20个房间灯具网格（不含2个实际灯光）、入口顶棚石肋及入口旁HIGH树；LOW或隐藏目标拒绝选择，不自动取消隐藏，不给原工程改名。详见[选择索引指南](scripts/current_inspection/EDIT_INDEX_GUIDE.md)。
+## 已选择的后续两条方向
 
-选择不是独立搬移／删除许可：材质可能共享，房间集合中的大范围原建筑残部不属于局部壳体选择集，历史Mask宿主不可当作普通备份删除。原v028模型及其哈希不变。本地验证及严格增量提交 `8a88b1e5a37fb0989a01532029edc9dd6939db9a` 的全新远端复取／模型恢复、4次导出和3组原生QA重放已通过，见[远端核验记录](checkpoints/v028/audits/editability/REMOTE_VERIFIED.json)。最终守卫版通过73项纯测试，另有6个原生面板边界案例通过；这是有限测试范围，不是广泛无崩溃保证，原生Windows仍未实测。
+- **丰富内部探索**：新房间先形成连通目的地，再加入有用途的储物设施，保留工作通道和灯位；不靠随意新增房间或道具堆砌。
+- **整体升级海岛景观**：[构图／依赖计划](checkpoints/v029/planning/README.md)结合迎风松林、开阔进路与连续岩岸。本版只完成源几何调查和规划，尚未实施树林／海岸重做。
 
-## 历史呈现与工具（不是v028影片）
+[v024/v025旧邻接保证更正](checkpoints/v026/audits/coplanar_method/README.md)继续保留：旧BVH零结果不是无共面接触保证。当前范围以各版有限证明为准，不声称全球无重叠或全城堡可通行。
+
+## 历史呈现与工具（不是v029影片）
 - [v020方形2400像素展陈图及相机配方](https://github.com/john-wang880/seaside-megatower-castle/tree/23fd4aaaceb64996913bfa3ff4109fc149737b9d/checkpoints/v020/presentation/exhibition)：原照明，未包含后续桥墩表面清理、石肋分段和路径修正，原版本如实保留。
 - [v018内廊至露台28秒影片与来源](https://github.com/john-wang880/seaside-megatower-castle/blob/89cce41edf648eef6487d54ee1ce2a46bbb0ae17/checkpoints/v018/presentation/interior_route/STATUS.md)，336真实帧；不含后续树冠、入口、桥墩、石肋和路径修改。
 - [v018独立便携重渲染工具](checkpoints/v018/presentation/portable_interior/README.md)：仍绑定历史v018；原生Windows未实测，不会自动重渲染或降低质量。

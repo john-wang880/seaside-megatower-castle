@@ -68,15 +68,15 @@ def select_index(key,context=None):
   layer.objects.active=active
   raise
 
-class CASTLE28_INSPECTION_OT_edit_index(bpy.types.Operator):
- bl_idname='castle28_inspection.edit_index';bl_label='Select accepted geometry'
+class CASTLE29_INSPECTION_OT_edit_index(bpy.types.Operator):
+ bl_idname='castle29_inspection.edit_index';bl_label='Select accepted geometry'
  index_id:bpy.props.StringProperty()
  def execute(self,context):
   try:select_index(self.index_id,context);return {'FINISHED'}
   except Exception as exc:self.report({'ERROR'},str(exc));return {'CANCELLED'}
 
-class CASTLE28_PT_edit_index(bpy.types.Panel):
- bl_label='Selection index / Accepted features';bl_idname='CASTLE28_PT_edit_index';bl_space_type='VIEW_3D';bl_region_type='UI';bl_category='Castle检查'
+class CASTLE29_PT_edit_index(bpy.types.Panel):
+ bl_label='Selection index / Accepted features';bl_idname='CASTLE29_PT_edit_index';bl_space_type='VIEW_3D';bl_region_type='UI';bl_category='Castle检查'
  def draw(self,context):
   layout=self.layout
   try:
@@ -84,6 +84,6 @@ class CASTLE28_PT_edit_index(bpy.types.Panel):
   except Exception as exc:layout.label(text=str(exc),icon='ERROR');return
   layout.label(text='Manual selection only; no isolation')
   layout.label(text='Shared materials / combined hosts remain')
-  for key,g in CONFIG['edit_index']['groups'].items():layout.operator(CASTLE28_INSPECTION_OT_edit_index.bl_idname,text=g['label']).index_id=key
+  for key,g in CONFIG['edit_index']['groups'].items():layout.operator(CASTLE29_INSPECTION_OT_edit_index.bl_idname,text=g['label']).index_id=key
   layout.label(text='HIGH tree unavailable while LOW/hidden')
   layout.label(text='Historical candidate labels are provenance')

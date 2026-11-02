@@ -1,0 +1,15 @@
+# Directed saved-coordinate partition: independent CPU PASS
+
+Input payload `geometry_diagnostic.json`, SHA256 `ea64d1ece1b6295ae67eedad3a01b5f2bcdf97fcc0824d402df2e9e868e99c82`; canonical source remains f0d135… . This authorizes technical native integration/inspection, not saved-model or artistic acceptance.
+
+The sole directed coordinate is guard bottom 28.900001525878906. Other new guard/cavity coordinates use nearest float32. This is a buried partition change, not a change to the desired cavity or floor. Both guard variants enclose the same quantized cavity; their difference lies below floor 29. Outside pieces plus local piece therefore represent the same source occupied union minus that cavity. This does not claim nominal decimal coordinates equal saved floats.
+
+Independent exact Fraction clipping proves all three outside source domains and opposite guard caps, with zero uncovered, outside or multiply-covered area. All 268 remote polygon cycles remain exact. Each outside signed volume equals its original host volume minus its independently classified guard occupancy, with exact residual zero. Remote oblique polygon volumes use the signed polygon-boundary fan integral, not an axis-only triangulator or a claim that every fan is an interior triangulation. Eleven affected parent tessellations were independently ear-clipped and compared bidirectionally against authoritative ordered native n−2 slices; membership, count, area and duplicate coverage checked.
+
+The local shell matches the independently classified 241-cell oriented boundary exactly, volume 14.646945053104602. All four meshes are closed/oriented; total 962 triangle-equivalents. Quantized floor/body refinement uses 630 cells: 33 positive floor cells, 33 clear floor-air cells, 12 clear new body cells, zero changed guard interfaces, 54 refined old-air interface rectangles. The same 29 actual non-target components and six finite jamb/lintel seats pass. Refinement counts differ from nominal 570 and mapper 241 because proof partitions differ; they are not geometry counts.
+
+The collapsed clipped fragment of old shell parent63 is not waived: the combined affected source-plane domain is exactly accounted for after quantization. No missing physical patch is allowed. Internal triangulation-line ownership within coplanar affected source domains is not promised bitwise; remote cycles are.
+
+Eight negative controls pass: seven actual CPU payload mutations (shift, missing face, duplicate face, reversed face, nearest-rounded collapsed partition, altered remote vertex, wrong material) and one equal-area missing/duplicated mathematical cancellation. These are not native fixtures.
+
+Initial harness failures are retained: ambiguous vertex-subset parent assignment, then an axis-only triangulator used on oblique remote polygons for volume. Neither establishes a candidate defect. Native saved tessellation, raw/evaluated complement and attributes, rollback and final fixture placement remain mandatory before render. No global manifold, structural capacity or all-floor accessibility claim.

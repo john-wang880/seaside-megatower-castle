@@ -1,10 +1,10 @@
 {
   "schema": "castle-current-inspection-catalog-v1",
-  "reviewed_version": 28,
-  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
-  "source_bytes": 47806291,
-  "collection": "INSPECT28 | Optional review cameras",
-  "text": "INSPECT28 | Run manually for bookmarks.py",
+  "reviewed_version": 29,
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "source_bytes": 47825562,
+  "collection": "INSPECT29 | Optional review cameras",
+  "text": "INSPECT29 | Run manually for bookmarks.py",
   "marker": "castle_inspection_copy_v1",
   "views": {
     "hero": {
@@ -952,6 +952,114 @@
         "receipt_sha256": "d8bc5cf64a3617e6cb5fa75e04036e7b3a679127f67c40076478fb16a3601604",
         "render_source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
         "note": "Exact actual rendered camera matrix. Separate manual room inspection, not a continuous walkthrough. Corrected reverse_connection only; earlier occluded reverse rejected."
+      }
+    },
+    "stores_entry": {
+      "label": "储藏室入口 / Stores entry",
+      "camera_name": "INSPECT29 | stores_entry",
+      "existing": false,
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          15.199999809265137
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          36.20000076293945
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.07999999821186066,
+        "clip_end": 1000.0
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "provenance": {
+        "recipe": "provenance/stores_entry_views.json",
+        "recipe_sha256": "acf238e45de77e4bb66bcb9518b66add254221ad052552e713dea44a4ef49d6b",
+        "receipt": "provenance/stores_entry_v029_receipt.json",
+        "receipt_sha256": "bd27d852307d139b4bcb0a164c855ea0d82c84be6acaf703f187a396930de287",
+        "render_source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+        "note": "Exact actual candidate rendered camera, separate manual inspection; not a continuous route or access certification."
+      }
+    },
+    "stores_return": {
+      "label": "储藏室回望 / Stores return",
+      "camera_name": "INSPECT29 | stores_return",
+      "existing": false,
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          1.0,
+          22.700000762939453
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          36.20000076293945
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.07999999821186066,
+        "clip_end": 1000.0
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "provenance": {
+        "recipe": "provenance/stores_return_views.json",
+        "recipe_sha256": "660a6d88b24bd13d5091343f54a574cf048a61e30d9307ddd7335e20dfbb920a",
+        "receipt": "provenance/stores_return_v029_receipt.json",
+        "receipt_sha256": "1086f3ab85270bd776908395beec84d23cd9037f2066dbf942b12160d5363b44",
+        "render_source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+        "note": "Exact actual candidate rendered camera, separate manual inspection; not a continuous route or access certification."
       }
     }
   }

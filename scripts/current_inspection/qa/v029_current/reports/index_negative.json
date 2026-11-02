@@ -1,0 +1,104 @@
+{
+  "modes": {},
+  "negatives": [
+    "stale default module register on index ON",
+    "stale default unregister against index ON",
+    "stale index ON module register on default",
+    "renamed/missing target",
+    "wrong data name",
+    "edited target vertex",
+    "edited target transform",
+    "edited smoothing",
+    "edited material index",
+    "changed material binding",
+    "target hide_render",
+    "target hide_viewport",
+    "target hide_select",
+    "local eye hidden",
+    "ancestor hide_render",
+    "ancestor hide_viewport",
+    "ancestor hide_select",
+    "layer exclude",
+    "layer hide_viewport",
+    "non-active layer exclusion",
+    "multiple memberships",
+    "collection instance",
+    "shared target data",
+    "same-name/count foreign mesh replacement",
+    "unexpected modifier",
+    "unexpected constraint",
+    "actual foreign scene",
+    "actual foreign view layer",
+    "stale mapping hash",
+    "stale geometry fingerprint",
+    "changed mapping content",
+    "unknown group",
+    "partial selection setter rollback",
+    "post-selection active-object rollback",
+    "edited action while registered",
+    "actual Edit Mode",
+    "spoofed OBJECT wrapper during actual Edit Mode"
+  ],
+  "source_fingerprints_independently_validated_by": "e6b9f3e3a33e37da506fd066323f0fe637549d2bec8fc9bab96ab16d97410280",
+  "native_panel_draw_cases": [
+    {
+      "case": "valid owned copy",
+      "button_count": 5,
+      "errors": []
+    },
+    {
+      "case": "actual foreign scene",
+      "button_count": 0,
+      "errors": [
+        "Not an owned inspection copy"
+      ]
+    },
+    {
+      "case": "unmarked current scene",
+      "button_count": 0,
+      "errors": [
+        "Not an owned inspection copy"
+      ]
+    },
+    {
+      "case": "stale marker opt-in",
+      "button_count": 0,
+      "errors": [
+        "Executing index configuration mismatch"
+      ]
+    },
+    {
+      "case": "disabled runtime opt-in",
+      "button_count": 0,
+      "errors": [
+        "Executing index configuration mismatch"
+      ]
+    },
+    {
+      "case": "cheap draw does not fingerprint meshes",
+      "button_count": 5,
+      "errors": []
+    }
+  ],
+  "edit_mode_roundtrip_fingerprint_changed": false,
+  "phase": "negative",
+  "viewer_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_inspection/viewers \u7a7a\u95f4/default.blend": "13534195a3df3f1063ae56edb9a156d4fc6bdd0b745c0df2d903a8acc5552db2",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_inspection/viewers \u7a7a\u95f4/off.blend": "d91bda94aefc8141322a71b2a98cbdf6d1d7fd8d1ffed98396375e493c441073",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_inspection/viewers \u7a7a\u95f4/high.blend": "0c12235a54c7e74274f0f3e882af23518066677f6b057da2db74e2219fd04c7b",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_inspection/viewers \u7a7a\u95f4/low.blend": "d9f0b98a9075b1a4830533598f4a3eb3ddab4c914aba9ca7503f8a62beb02afe"
+  },
+  "runtime_sha256": {
+    "export_inspection.py": "0cb6071b4540e39ebc83adf227a9987eb1c5ac5398497a12ddfdcb339f167289",
+    "preflight.py": "bdb266471cb379689344097c2a510e4c2364f30f17c8353afe0949a41a10b839",
+    "catalog.json": "b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424",
+    "ui_template.py": "9432499fdd639545302507bb51cdea27123e1d64a14853c0c96d25a00423dd65",
+    "tree_quality_template.py": "6ed0106f69559cde3cafb6a50701804ca9762b8db894d600b57c0c670fa0e145",
+    "edit_index_template.py": "e0ebad351b5a4e10259fbe646216796f6f2c4b37bf60e1ff0fac56b6fb1f75ac",
+    "edit_index.json": "da82f1ba19d20ebd85bae60edef74961a2f6c04311fe81611c1e9e231aac9368"
+  },
+  "model_saved": false,
+  "rendered": false,
+  "limits": "Linux background native API, not desktop UI or Windows. Fingerprints bind target geometry/transform and material slots, not shared material graph certification. Selection only; no automatic isolation or unhide.",
+  "pass": true
+}

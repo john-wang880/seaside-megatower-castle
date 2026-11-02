@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "scope": "CPU geometry only; no native integration",
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "source_model_checked": true,
+  "payload_sha256": "ea64d1ece1b6295ae67eedad3a01b5f2bcdf97fcc0824d402df2e9e868e99c82",
+  "export_sha256": "6e9d81a2f541dbce41d98714925a4f5d537603731a177022a7f3b3c0865426c5",
+  "bindings_sha256": "5e58a4125933f004c015fd51a450790cf6cfc6ef63670addd26e9eab4cadf94f",
+  "wrapper_sha256": "3fd77bafdbd394e5126cde8f32d3adf82a116ee31a66a46cc277176b39966173",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/isolated CPU \u4e2d\u6587/recipe/geometry_builder/build_geometry.py",
+    "--export",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/isolated CPU \u4e2d\u6587/result/native.json",
+    "--plan-dir",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/isolated CPU \u4e2d\u6587/recipe/frozen_plan",
+    "--output",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_stores/isolated CPU \u4e2d\u6587/result/geometry.json"
+  ]
+}

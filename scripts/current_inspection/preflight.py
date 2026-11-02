@@ -1,10 +1,10 @@
 """Import-safe stdlib guards; no bpy, installation, network or rendering."""
 import hashlib,json,math,os,re,sys
 from pathlib import Path
-CATALOG_SHA='7ef69b66c2e55e35f246039635b4ad91c21f89d894bf1f91f0eb2fe90dae2206'
-VERSION=28
-SOURCE_SHA='f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096'
-SOURCE_BYTES=47806291
+CATALOG_SHA='b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424'
+VERSION=29
+SOURCE_SHA='4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5'
+SOURCE_BYTES=47825562
 class GuardError(ValueError):pass
 def require(ok,message):
  if not ok:raise GuardError(message)
@@ -24,7 +24,7 @@ def load_catalog(path):
  p=unaliased(path);require(p.is_file() and sha(p)==CATALOG_SHA,'Reviewed camera catalog hash mismatch')
  c=json.loads(p.read_text(encoding='utf-8'))
  require(c['schema']=='castle-current-inspection-catalog-v1' and c['reviewed_version']==VERSION and c['source_sha256']==SOURCE_SHA and c['source_bytes']==SOURCE_BYTES,'Unsupported catalog/source binding')
- require(len(c['views'])==18 and c['views']['hero']['existing'],'Catalog must contain eighteen reviewed views')
+ require(len(c['views'])==20 and c['views']['hero']['existing'],'Catalog must contain twenty reviewed views')
  names=[]
  for k,v in c['views'].items():
   m=v['matrix'];require(len(m)==4 and all(len(row)==4 for row in m) and all(isinstance(x,(int,float)) and math.isfinite(x) for row in m for x in row),'Invalid camera matrix')
@@ -43,7 +43,7 @@ def latest_manifest(repository):
  nums=[v for v,p in found];require(len(nums)==len(set(nums)),'Ambiguous numeric checkpoint versions')
  version,path=max(found,key=lambda item:item[0]);require(version==VERSION,'Latest checkpoint v%d is not reviewed by this catalog; no fallback'%version)
  m=json.loads(path.read_text(encoding='utf-8'));require(m.get('format')=='blend-zstd-frames-v1','Unsupported checkpoint format')
- require(m.get('model_sha256')==SOURCE_SHA and m.get('model_bytes')==SOURCE_BYTES and m.get('model')=='castle_v028.blend','Latest manifest source binding mismatch')
+ require(m.get('model_sha256')==SOURCE_SHA and m.get('model_bytes')==SOURCE_BYTES and m.get('model')=='castle_v029.blend','Latest manifest source binding mismatch')
  return root,path,m
 def new_destination(value,suffix):
  p=unaliased(value);require(p.suffix.lower()==suffix,'Expected '+suffix+' destination');require(p.parent.is_dir(),'Destination parent must already exist');require(not os.path.lexists(p),'Destination already exists (including dangling link): '+str(p));return p

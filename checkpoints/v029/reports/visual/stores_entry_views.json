@@ -1,0 +1,61 @@
+{
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "source_bytes": 47825562,
+  "source_scene_frame": 1,
+  "resolution": [
+    960,
+    694
+  ],
+  "views": {
+    "stores_entry": {
+      "location": [
+        15.2,
+        36.2,
+        30.65
+      ],
+      "target": [
+        23.4,
+        36.2,
+        30.65
+      ],
+      "reference_matrix": [
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          15.2
+        ],
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          36.2
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          30.65
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_data": {
+        "type": "PERSP",
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.07999999821186066,
+        "clip_end": 1000.0
+      }
+    }
+  },
+  "scope": "Fixed original-light stores shell inspection, no geometry or lighting changes; native float32 camera scalar normalization explicitly recorded."
+}

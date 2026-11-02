@@ -1,0 +1,15 @@
+--- executed/check_saved_visibility.py
++++ check_saved_visibility.py
+@@ -1,10 +1,11 @@
++import os
+ """Finite saved-geometry destination/aperture rays, not pixel-area certification."""
+ import json,hashlib
+ from pathlib import Path
+ import numpy as np
+ import check_payload as p
+ import check_guard as q
+-D=Path(__file__).parent;n=json.loads((p.ROOT/'work/v029_interior_program/native.json').read_text());plan=json.loads((p.ROOT/'work/v029_interior_program/fixtures_views/PLAN.json').read_text());guard=json.loads((p.ROOT/'work/v029_interior_program/guard_plan/PLAN.json').read_text());geo=json.loads((D/'saved_geometry.json').read_text());fix=json.loads((D/'saved_fixtures.json').read_text());C=list(map(p.box,guard['cavities']));components=[c for c in n['components']if c['object']not in q.NAMES]+fix['components']+[{'vertices':m['vertices'],'local_triangles':m['triangles']}for m in geo['meshes']];tris=np.concatenate([np.asarray(c['vertices'])[c['local_triangles']]for c in components]);lo=tris.min(1);hi=tris.max(1);rows=[]
++D=Path(os.environ['V029_QA_OUTPUT']);n=json.loads((Path(os.environ['V029_QA_DATA'])/'native.json').read_text());plan=json.loads((Path(os.environ['V029_QA_DATA'])/'fixture_plan.json').read_text());guard=json.loads((Path(os.environ['V029_QA_DATA'])/'guard_plan.json').read_text());geo=json.loads((D/'saved_geometry.json').read_text());fix=json.loads((D/'saved_fixtures.json').read_text());C=list(map(p.box,guard['cavities']));components=[c for c in n['components']if c['object']not in q.NAMES]+fix['components']+[{'vertices':m['vertices'],'local_triangles':m['triangles']}for m in geo['meshes']];tris=np.concatenate([np.asarray(c['vertices'])[c['local_triangles']]for c in components]);lo=tris.min(1);hi=tris.max(1);rows=[]
+ for v in plan['views']:
+  eye=np.array(v['eye']);target=C[0]if v['key']=='stores_entry'else C[1];x=target[1][0]if v['key']=='stores_entry'else target[0][0]
+  for y in np.linspace(target[0][1]+.01,target[1][1]-.01,5):
