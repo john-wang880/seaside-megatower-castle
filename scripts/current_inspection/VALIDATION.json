@@ -1,27 +1,33 @@
 {
-  "pass": true,
-  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
-  "historical_target_baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
-  "mode_count": 3,
-  "bookmarks_each": 16,
-  "source_categories": 13,
-  "native_negatives": 27,
-  "independent_pure_tests": 8,
-  "implementation_pure_tests": 9,
-  "runtime_byteidentical_to_executed": true,
-  "source_unchanged": true,
-  "rendered": false,
-  "native_windows_tested": false,
-  "reports": [
-    "reports/SUMMARY.json",
-    "reports/modes.json"
+  "status": "LOCAL_NATIVE_PASS_REMOTE_REPLAY_PENDING",
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "source_bytes": 47806291,
+  "catalog_sha256": "7ef69b66c2e55e35f246039635b4ad91c21f89d894bf1f91f0eb2fe90dae2206",
+  "bookmarks": 18,
+  "added_cameras": 17,
+  "modes": [
+    "OFF",
+    "HIGH",
+    "LOW"
   ],
-  "chronology": "Old inspection-only tests/reports retained as historical provenance, not tree quality acceptance. Portable pure-test catalog assertion changed from staging-root comparison to same pinned SHA; rerun separately. Remote publication/replay remains owner task.",
-  "live_pure_tests": {
-    "implementation": 18,
-    "independent_preflight": 24,
+  "categories_per_mode": 13,
+  "native_negative_controls": 27,
+  "pure_controls": {
+    "preflight": 18,
+    "independent": 24,
     "quality": 9,
-    "independent_QA_controls": 8
+    "comparison": 8
   },
-  "portable_test_adapter": "18test catalog assertion references current qa/validate_modes.py instead of retired old qa/run_qa.py count; original executed test retained in provenance. All59tests rerun with inherited no-bytecode env."
+  "source_unchanged": true,
+  "model_saved_by_qa": false,
+  "rendered": false,
+  "native_session_terminal": 60025,
+  "runtime_exact_to_tested_staging": true,
+  "source_lineage_baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "limits": [
+    "Windows/desktop-click/performance untested",
+    "LOW keeps high meshes stored",
+    "Known derived Traveler UI edge-selection cache normalization only; all persisted data strict",
+    "Initial QA invocation rejected noncanonical executable ../ path before native; corrected argument only, no guard weakened"
+  ]
 }

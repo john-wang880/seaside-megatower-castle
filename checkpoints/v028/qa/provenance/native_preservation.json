@@ -1,0 +1,486 @@
+{
+  "pass": true,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "candidate_sha256": "103be14556a9bbc96b26033b2b6016f0038d980ca7b3e69da792671e3f85ac60",
+  "payload_sha256": "0d07d8ceb27f44cd3c612392d56b40921e60c7f8afaa522aa04f74c17df817f2",
+  "high_full_simulated_native_mask": {
+    "categories": {
+      "meshes": true,
+      "objects": true,
+      "materials": true,
+      "lights": true,
+      "cameras": true,
+      "worlds": true,
+      "visible_evaluated": true,
+      "scene": true,
+      "libraries": true,
+      "texts": true,
+      "collections": true,
+      "scene_custom": true
+    },
+    "derived_UI_only": [
+      {
+        "object": "Traveler | full length ivory skirt",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      },
+      {
+        "object": "Traveler | purple-red shoulder cape",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        }
+      },
+      {
+        "object": "Traveler | white tunic",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      }
+    ]
+  },
+  "native_control_removal_full_source_rollback": {
+    "categories": {
+      "meshes": true,
+      "objects": true,
+      "materials": true,
+      "lights": true,
+      "cameras": true,
+      "worlds": true,
+      "visible_evaluated": true,
+      "scene": true,
+      "libraries": true,
+      "texts": true,
+      "collections": true,
+      "scene_custom": true
+    },
+    "derived_UI_only": [
+      {
+        "object": "Traveler | full length ivory skirt",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      },
+      {
+        "object": "Traveler | purple-red shoulder cape",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        }
+      },
+      {
+        "object": "Traveler | white tunic",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      }
+    ]
+  },
+  "repeat_high": {
+    "categories": {
+      "meshes": true,
+      "objects": true,
+      "materials": true,
+      "lights": true,
+      "cameras": true,
+      "worlds": true,
+      "visible_evaluated": true,
+      "scene": true,
+      "libraries": true,
+      "texts": true,
+      "collections": true,
+      "scene_custom": true
+    },
+    "derived_UI_only": [
+      {
+        "object": "Traveler | full length ivory skirt",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      },
+      {
+        "object": "Traveler | purple-red shoulder cape",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        }
+      },
+      {
+        "object": "Traveler | white tunic",
+        "source": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        },
+        "candidate": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      }
+    ]
+  },
+  "owned_weights": 148,
+  "saved_meshes_exact_payload": true,
+  "limits": "Rollback proof restores original source data/evaluation; added objects remain stored. No rendering, structural or global navigation certification."
+}

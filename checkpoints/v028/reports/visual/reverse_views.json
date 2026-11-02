@@ -1,0 +1,36 @@
+{
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "source_bytes": 47806291,
+  "source_scene_frame": 1,
+  "resolution": [
+    960,
+    694
+  ],
+  "threads": 8,
+  "samples": 80,
+  "scope": "New room natural standing-eye inspection, actual fixedlighting; no historical before image from inside originalsolid.",
+  "views": {
+    "reverse": {
+      "location": [
+        13.7,
+        39.5,
+        30.65
+      ],
+      "target": [
+        8,
+        35.8,
+        30.45
+      ],
+      "camera_data": {
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0
+      }
+    }
+  }
+}

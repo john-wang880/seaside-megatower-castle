@@ -1,0 +1,133 @@
+{
+  "pass": true,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "export_sha256": "83593439fc128700af9302eb1e53185b3f782b00f39e1b7cb972a72823dc362e",
+  "guard_union_boxes": [
+    [
+      [
+        6.9,
+        32.4,
+        28.9
+      ],
+      [
+        15.1,
+        40.6,
+        32.15
+      ]
+    ],
+    [
+      [
+        5.35,
+        36.65,
+        28.65
+      ],
+      [
+        7.1,
+        38.35,
+        31.6
+      ]
+    ]
+  ],
+  "targets": [
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "seed": 13132,
+      "total_source_faces": 43,
+      "affected_face_count": 2,
+      "wholly_remote_faces": 41,
+      "affected": [
+        {
+          "local_face": 23,
+          "source_face": 14051,
+          "vertex_count": 16,
+          "axis": 2,
+          "coordinate": 30.0,
+          "axis_planarity_residual": 0,
+          "convex_projected_polygon": false
+        },
+        {
+          "local_face": 31,
+          "source_face": 14059,
+          "vertex_count": 4,
+          "axis": 0,
+          "coordinate": 5.550000190734863,
+          "axis_planarity_residual": 0,
+          "convex_projected_polygon": true
+        }
+      ]
+    },
+    {
+      "object": "V012 | foundation with continuous L-shaped passage",
+      "seed": 128,
+      "total_source_faces": 71,
+      "affected_face_count": 3,
+      "wholly_remote_faces": 68,
+      "affected": [
+        {
+          "local_face": 52,
+          "source_face": 130,
+          "vertex_count": 20,
+          "axis": 2,
+          "coordinate": 31.440000534057617,
+          "axis_planarity_residual": 0,
+          "convex_projected_polygon": false
+        },
+        {
+          "local_face": 53,
+          "source_face": 131,
+          "vertex_count": 8,
+          "axis": 2,
+          "coordinate": 28.75,
+          "axis_planarity_residual": 0,
+          "convex_projected_polygon": false
+        },
+        {
+          "local_face": 56,
+          "source_face": 134,
+          "vertex_count": 4,
+          "axis": 0,
+          "coordinate": 5.550000190734863,
+          "axis_planarity_residual": 0,
+          "convex_projected_polygon": true
+        }
+      ]
+    },
+    {
+      "object": "V012 | hall east stone lining",
+      "seed": 0,
+      "total_source_faces": 6,
+      "affected_face_count": 3,
+      "wholly_remote_faces": 3,
+      "affected": [
+        {
+          "local_face": 0,
+          "source_face": 0,
+          "vertex_count": 4,
+          "axis": 2,
+          "coordinate": 28.700000762939453,
+          "axis_planarity_residual": 0,
+          "convex_projected_polygon": true
+        },
+        {
+          "local_face": 3,
+          "source_face": 3,
+          "vertex_count": 4,
+          "axis": 0,
+          "coordinate": 5.5,
+          "axis_planarity_residual": 0,
+          "convex_projected_polygon": true
+        },
+        {
+          "local_face": 5,
+          "source_face": 5,
+          "vertex_count": 4,
+          "axis": 0,
+          "coordinate": 5.400000095367432,
+          "axis_planarity_residual": 0,
+          "convex_projected_polygon": true
+        }
+      ]
+    }
+  ],
+  "limits": "Whole source faces disjoint from guard retain exact records. Affected parent faces are exactly axis-planar in saved coordinates, but concave/multi-region clipping must use authoritative triangle partition, not single convex fan or a one-cycle polygon shortcut. No cut performed."
+}

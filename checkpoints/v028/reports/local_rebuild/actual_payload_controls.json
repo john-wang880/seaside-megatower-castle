@@ -1,0 +1,37 @@
+{
+  "pass": true,
+  "payload_sha256": "0d07d8ceb27f44cd3c612392d56b40921e60c7f8afaa522aa04f74c17df817f2",
+  "controls": [
+    {
+      "name": "missing_actual_wall_polygon",
+      "rejected": true,
+      "reason": "('Uncovered expected boundary', (0, Fraction(11219763, 2097152), -1), '5841167319/34359738368')"
+    },
+    {
+      "name": "duplicate_actual_wall_polygon",
+      "rejected": true,
+      "reason": "('Multiply covered actual boundary', 0, 150)"
+    },
+    {
+      "name": "reverse_actual_wall_orientation",
+      "rejected": true,
+      "reason": "('Unexpected boundary plane/orientation', 0, (0, Fraction(11219763, 2097152), 1))"
+    },
+    {
+      "name": "raise_actual_room_floor",
+      "rejected": true,
+      "reason": "('Triangle outside expected boundary', 2, '32368096221/207685156864')"
+    },
+    {
+      "name": "displace_actual_guard_seam",
+      "rejected": true,
+      "reason": "Non-axis parent polygon"
+    },
+    {
+      "name": "bounding_box_fills_actual_room_and_door_void",
+      "rejected": true,
+      "reason": "('Unexpected boundary plane/orientation', 0, (2, Fraction(4067313413468979, 140737488355328), -1))"
+    }
+  ],
+  "scope": "Six altered copies of exported actual geometry, not six Blender fixture runs."
+}

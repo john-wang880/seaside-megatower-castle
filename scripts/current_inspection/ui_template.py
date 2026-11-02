@@ -6,7 +6,7 @@ CONFIG = None  # Exporter replaces this assignment with literal reviewed config.
 TAG='castle_inspection_owner'
 OWNER='castle-current-inspection-v1'
 REGISTRY='_castle_current_inspection_registry_v1'
-CLASS_NAMES=('CASTLE27_INSPECTION_OT_bookmark','CASTLE27_PT_bookmarks') + (('CASTLE27_INSPECTION_OT_tree_quality',) if CONFIG.get('tree_quality_enabled') else ())
+CLASS_NAMES=('CASTLE28_INSPECTION_OT_bookmark','CASTLE28_PT_bookmarks') + (('CASTLE28_INSPECTION_OT_tree_quality',) if CONFIG.get('tree_quality_enabled') else ())
 def need(ok,msg):
  if not ok:raise RuntimeError(msg)
 def verify():
@@ -53,21 +53,21 @@ def select_bookmark(key,context=None):
     space=area.spaces.active;space.camera=o;space.use_local_camera=False;space.region_3d.view_perspective='CAMERA'
  return {'camera':o.name,'reference_resolution':v['reference_resolution'],'guidance':'Render aspect/quality unchanged. For exact historical framing set reference aspect manually in this copy.'}
 
-class CASTLE27_INSPECTION_OT_bookmark(bpy.types.Operator):
- bl_idname='castle27_inspection.bookmark';bl_label='检查视角 / Inspection bookmark'
+class CASTLE28_INSPECTION_OT_bookmark(bpy.types.Operator):
+ bl_idname='castle28_inspection.bookmark';bl_label='检查视角 / Inspection bookmark'
  view_id:bpy.props.StringProperty()
  def execute(self,context):
   try:
    result=select_bookmark(self.view_id,context);self.report({'INFO'},'Reference %s; current render settings unchanged'%result['reference_resolution']);return {'FINISHED'}
   except Exception as exc:self.report({'ERROR'},str(exc));return {'CANCELLED'}
-class CASTLE27_INSPECTION_OT_tree_quality(bpy.types.Operator):
- bl_idname='castle27_inspection.tree_quality';bl_label='Single tree quality'
+class CASTLE28_INSPECTION_OT_tree_quality(bpy.types.Operator):
+ bl_idname='castle28_inspection.tree_quality';bl_label='Single tree quality'
  mode:bpy.props.EnumProperty(items=[('HIGH','HIGH','Accepted detailed tree'),('LOW','LOW','Original low-detail tree')])
  def execute(self,context):
   try:tree_set_mode(context.scene,self.mode);return {'FINISHED'}
   except Exception as exc:self.report({'ERROR'},str(exc));return {'CANCELLED'}
-class CASTLE27_PT_bookmarks(bpy.types.Panel):
- bl_label='城堡检查 / Castle inspection';bl_idname='CASTLE27_PT_bookmarks';bl_space_type='VIEW_3D';bl_region_type='UI';bl_category='Castle检查'
+class CASTLE28_PT_bookmarks(bpy.types.Panel):
+ bl_label='城堡检查 / Castle inspection';bl_idname='CASTLE28_PT_bookmarks';bl_space_type='VIEW_3D';bl_region_type='UI';bl_category='Castle检查'
  def draw(self,context):
   layout=self.layout
   try:verify()
@@ -78,16 +78,16 @@ class CASTLE27_PT_bookmarks(bpy.types.Panel):
    try:
     mode=tree_display_mode(context.scene);layout.label(text='Paired flags: '+mode+' (not geometry check)')
     row=layout.row()
-    for value in ('HIGH','LOW'):row.operator(CASTLE27_INSPECTION_OT_tree_quality.bl_idname,text=value).mode=value
+    for value in ('HIGH','LOW'):row.operator(CASTLE28_INSPECTION_OT_tree_quality.bl_idname,text=value).mode=value
    except Exception as exc:layout.label(text=str(exc),icon='ERROR')
   for key,v in CONFIG['views'].items():
-   row=layout.row();row.operator(CASTLE27_INSPECTION_OT_bookmark.bl_idname,text=v['label']).view_id=key
+   row=layout.row();row.operator(CASTLE28_INSPECTION_OT_bookmark.bl_idname,text=v['label']).view_id=key
   layout.label(text='Z: Solid / Material Preview / Rendered')
   layout.label(text='Manual quality edits: this copy only')
   layout.label(text='Provenance is not edit certification')
 
 def register():
- marker=verify();classes=(CASTLE27_INSPECTION_OT_bookmark,CASTLE27_PT_bookmarks)+((CASTLE27_INSPECTION_OT_tree_quality,) if CONFIG.get('tree_quality_enabled') else ());old=sys.modules.get(REGISTRY)
+ marker=verify();classes=(CASTLE28_INSPECTION_OT_bookmark,CASTLE28_PT_bookmarks)+((CASTLE28_INSPECTION_OT_tree_quality,) if CONFIG.get('tree_quality_enabled') else ());old=sys.modules.get(REGISTRY)
  if old is not None:
   need(getattr(old,'owner',None)==OWNER and getattr(old,'catalog_sha256',None)==CONFIG['catalog_sha256'] and getattr(old,'ui_text_sha256',None)==verify()['ui_text_sha256'],'Registry collision')
   need(all(getattr(bpy.types,c.__name__,None) is c for c in old.classes),'Registered class ownership changed')

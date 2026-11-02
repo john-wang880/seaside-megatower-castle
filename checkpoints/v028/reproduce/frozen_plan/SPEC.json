@@ -1,0 +1,109 @@
+{
+  "room_clear": [
+    [
+      7,
+      32.5,
+      29
+    ],
+    [
+      15,
+      40.5,
+      32.05
+    ]
+  ],
+  "connector_clear": [
+    [
+      5.4,
+      36.8,
+      29
+    ],
+    [
+      7,
+      38.2,
+      31.45
+    ]
+  ],
+  "retained_piers": [
+    [
+      [
+        10.6,
+        34.6,
+        29
+      ],
+      [
+        11.4,
+        35.4,
+        32.05
+      ]
+    ],
+    [
+      [
+        10.6,
+        38.2,
+        29
+      ],
+      [
+        11.4,
+        39,
+        32.05
+      ]
+    ]
+  ],
+  "retained_band_underside": 31.8,
+  "status": "hypotheses only, no cavity/cutter/lining thickness locked",
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "retained_roof_band": [
+    [
+      10.6,
+      32.5,
+      31.8
+    ],
+    [
+      11.4,
+      40.5,
+      32.05
+    ]
+  ],
+  "approach_body": {
+    "width": 1.2,
+    "z": [
+      29.025,
+      31.1
+    ],
+    "centerline_segments": [
+      [
+        [
+          4.45,
+          38
+        ],
+        [
+          4.45,
+          37.5
+        ]
+      ],
+      [
+        [
+          4.45,
+          37.5
+        ],
+        [
+          7.6,
+          37.5
+        ]
+      ]
+    ],
+    "note": "Prospective two-stage axis-aligned body envelope; not accepted traversal proof; east endpoint enters room."
+  },
+  "export_region": [
+    [
+      3.8,
+      31.5,
+      27
+    ],
+    [
+      16,
+      41,
+      33.5
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "frame_0001": {
+    "max_channel_difference_255": 182,
+    "mean_abs_channel_difference_255": 1.5365934197886648,
+    "pixels_changed": 494678,
+    "pixels": 666240,
+    "scope": "Intentional new doorway in frame1; same camera/quality/oldlights, two room sources added. Not pixelidentity or general temporal/noise certification."
+  },
+  "frame_0076": {
+    "max_channel_difference_255": 68,
+    "mean_abs_channel_difference_255": 0.5088501641050273,
+    "pixels_changed": 473817,
+    "pixels": 666240,
+    "scope": "Intentional new doorway in frame1; same camera/quality/oldlights, two room sources added. Not pixelidentity or general temporal/noise certification."
+  },
+  "hero": {
+    "max_channel_difference_255": 27,
+    "mean_abs_channel_difference_255": 0.04619322555812163,
+    "pixels_changed": 78522,
+    "pixels": 1039200,
+    "scope": "Same exteriorcamera/renderquality/originalworld/oldlights,2newroomlights; appearance inspectedseparately. Notpixelidentityclaim."
+  }
+}

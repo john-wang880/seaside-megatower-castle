@@ -1,0 +1,15 @@
+test_concave_parent (test_exact_boundary.Controls.test_concave_parent) ... ok
+test_crossed_parent (test_exact_boundary.Controls.test_crossed_parent) ... ok
+test_duplicate (test_exact_boundary.Controls.test_duplicate) ... ok
+test_equal_area_missing_duplicate (test_exact_boundary.Controls.test_equal_area_missing_duplicate) ... ok
+test_filled_recess (test_exact_boundary.Controls.test_filled_recess) ... ok
+test_missing (test_exact_boundary.Controls.test_missing) ... ok
+test_translated_plane (test_exact_boundary.Controls.test_translated_plane) ... ok
+test_valid (test_exact_boundary.Controls.test_valid) ... ok
+test_wrong_orientation (test_exact_boundary.Controls.test_wrong_orientation) ... ok
+test_zero_triangle (test_exact_boundary.Controls.test_zero_triangle) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.020s
+
+OK

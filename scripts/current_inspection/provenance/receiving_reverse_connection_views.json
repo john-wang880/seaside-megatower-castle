@@ -1,0 +1,37 @@
+{
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "source_bytes": 47806291,
+  "source_scene_frame": 1,
+  "resolution": [
+    960,
+    694
+  ],
+  "threads": 8,
+  "samples": 80,
+  "scope": "One explicitly approved causal correction to reverse-door inspection: earlier northeast-aisle view occluded doorway. Both piers intentionally cropped as side framing; primary view establishes full piers. No model/lighting/FOV change.",
+  "views": {
+    "reverse_connection": {
+      "location": [
+        13.8,
+        36.8,
+        30.65
+      ],
+      "target": [
+        5.7,
+        37.5,
+        30.65
+      ],
+      "camera_data": {
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0
+      }
+    }
+  },
+  "visibility_proof_sha256": "fca540b03fd9b6e3de08d45582009edae02f1699b0814e4a65a05800fb171ef7"
+}

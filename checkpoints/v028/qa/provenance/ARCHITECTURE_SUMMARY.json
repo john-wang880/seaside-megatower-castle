@@ -1,0 +1,39 @@
+{
+  "architecture_gate": true,
+  "architecture_candidate_sha256": "103be14556a9bbc96b26033b2b6016f0038d980ca7b3e69da792671e3f85ac60",
+  "canonical_source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "payload_sha256": "0d07d8ceb27f44cd3c612392d56b40921e60c7f8afaa522aa04f74c17df817f2",
+  "report_sha256": {
+    "local_final.json": "e4bc61aa25e2372fa91bf9014b178f86ea4cbff003e16bb0c68a6ce5fe218f87",
+    "outside_final_labeled.json": "0b60196ee1393092b6c53e8ba84d629a06066836ab87382252cbcc601c90c0c9",
+    "native_preservation.json": "47ac8a7f3f123943d1610131dfd1bcbdffa16412d9af60b967e0a9ef35645ca2",
+    "native_tessellation.json": "678b8a8ea099b40933b2e032b82f38b2758d1c07f823331bfcad1c0de0e0430d",
+    "native_controls.json": "2272822c1550dd233275dfeb0aa4ac7def1492c51e5ea1cf070b511327daf655",
+    "actual_payload_controls.json": "9f255b913ed1b16cbf7bcb3b63b56dd27203e30eb4058ba04d28ee484b45b09d",
+    "saved_routes.json": "7bb3bb36a8aedb06e06b7b920fcce4bef98ca74751d708cedaf8c23723d34965",
+    "saved_seats.json": "b82fd81c6fc1f1c51b26b212034818015dc3933b16f12d5074dc419e5d08763c",
+    "local_neighbors_with_interfaces.json": "f7de2ed644d8938e4e6d377dd41cdf1ba1cb9ae000428b4ed67379ed51560deb"
+  },
+  "controlled_tests": {
+    "exact_boundary_math": 10,
+    "exported_actual_geometry_mutations": 6,
+    "focused_native_mutations": 4,
+    "explicit_coplanar_math": 9
+  },
+  "outside_remote_original_polygons_exact": 112,
+  "outside_clipped_source_domains": 8,
+  "architecture_triangles": 718,
+  "native_zero_measure_derived_triangles": 3,
+  "quantized_expected_cells": 948,
+  "nominal_planning_cells": 1038,
+  "local_saved_volume": 30.623833532277786,
+  "nominal_local_volume": 30.623749795437053,
+  "same_facing_positive_area_local_contacts": 0,
+  "limits": [
+    "Not exact nominal rational geometry: float32 plane coalescence is explicit.",
+    "Outside inherited overlap is retained, not globally unioned or cleaned.",
+    "Opposite-facing buried guard caps and floor end interface are legitimate geometric partitions, not welded whole-scene manifold claims.",
+    "Continuous body and near-plane proxies are bounded, not all-floor accessibility or engineering.",
+    "Fixed lantern stage separately pending."
+  ]
+}

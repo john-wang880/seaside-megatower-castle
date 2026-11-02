@@ -1,0 +1,320 @@
+{
+  "pass": true,
+  "candidate_sha256": "6105bfa5f599f6fc04458c8e92bdd2a3f8c6f3762159a8cdbe50ca6b2b1d172c",
+  "eleven_original_positive_seats_retained": true,
+  "witnesses": {
+    "south_jamb_lining": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0000000000000024,
+      "bounds": [
+        [
+          5.492,
+          36.72,
+          29.01
+        ],
+        [
+          5.498,
+          36.78,
+          31.43
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "south_jamb_foundation": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 0.9999999999999934,
+      "bounds": [
+        [
+          5.552,
+          36.72,
+          29.01
+        ],
+        [
+          5.558,
+          36.78,
+          31.43
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "south_jamb_lining_upper": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0000000000000002,
+      "bounds": [
+        [
+          5.492,
+          36.72,
+          31.46
+        ],
+        [
+          5.498,
+          36.78,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "south_jamb_ashlar_upper": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0,
+      "bounds": [
+        [
+          5.552,
+          36.72,
+          31.46
+        ],
+        [
+          5.558,
+          36.78,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "north_jamb_lining": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 0.999999999999999,
+      "bounds": [
+        [
+          5.492,
+          38.22,
+          29.01
+        ],
+        [
+          5.498,
+          38.28,
+          31.43
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "north_jamb_foundation": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 0.9999999999999962,
+      "bounds": [
+        [
+          5.552,
+          38.22,
+          29.01
+        ],
+        [
+          5.558,
+          38.28,
+          31.43
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "north_jamb_lining_upper": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0000000000000002,
+      "bounds": [
+        [
+          5.492,
+          38.22,
+          31.46
+        ],
+        [
+          5.498,
+          38.28,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "north_jamb_ashlar_upper": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 0.9999999999999999,
+      "bounds": [
+        [
+          5.552,
+          38.22,
+          31.46
+        ],
+        [
+          5.558,
+          38.28,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "lintel_lining": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0000000000000007,
+      "bounds": [
+        [
+          5.492,
+          36.72,
+          31.46
+        ],
+        [
+          5.498,
+          38.28,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "lintel_ashlar": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0000000000000022,
+      "bounds": [
+        [
+          5.552,
+          36.72,
+          31.46
+        ],
+        [
+          5.558,
+          38.28,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "threshold_foundation_below": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0000000000000002,
+      "bounds": [
+        [
+          5.51,
+          36.9,
+          28.71
+        ],
+        [
+          5.54,
+          38.1,
+          28.74
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "south_pier_band_continuity": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0,
+      "bounds": [
+        [
+          10.7,
+          34.9,
+          31.7
+        ],
+        [
+          11.3,
+          35.1,
+          31.9
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "north_pier_band_continuity": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0000000000000002,
+      "bounds": [
+        [
+          10.7,
+          38.5,
+          31.7
+        ],
+        [
+          11.3,
+          38.7,
+          31.9
+        ]
+      ],
+      "source": {
+        "object": "V028 | local receiving chamber shell",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    }
+  },
+  "limits": "Finite positive-volume geometric seating/continuity witnesses, not structural capacity. Distances are scene coordinate units."
+}

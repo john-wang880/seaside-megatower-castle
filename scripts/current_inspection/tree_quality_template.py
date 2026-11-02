@@ -1,4 +1,4 @@
-"""Literal embedded optional v027 tree controls; no auto-registration/save/render."""
+"""Literal embedded optional v028 tree controls; no auto-registration/save/render."""
 TARGET='V010 | woodland boughs with gate exit clearance'
 GROUP='V019 candidate | reversible left tree foliage'
 MASK='V019 candidate | original foliage rollback mask'
@@ -38,7 +38,7 @@ def tree_find(scene):
  tree_require(scene is bpy.context.scene,'Quality context scene mismatch')
  marker=json.loads(scene[CONFIG['marker']]);tag=marker.get('tree_quality')
  tree_require(CONFIG.get('tree_quality_enabled') is True and isinstance(tag,dict),'Tree controls not opted in')
- tree_require(tag.get('schema')=='castle-inspection-v027-tree-v1' and tag.get('mode') in ('HIGH','LOW'),'Invalid quality state')
+ tree_require(tag.get('schema')=='castle-inspection-v028-tree-v1' and tag.get('mode') in ('HIGH','LOW'),'Invalid quality state')
  tree_require(TARGET in scene.objects and all(n in scene.objects for n in NEW),'Expected scene objects missing')
  target=scene.objects[TARGET];objects=[scene.objects[n] for n in NEW]
  for layer in scene.view_layers:

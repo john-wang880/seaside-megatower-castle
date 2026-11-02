@@ -1,0 +1,293 @@
+{
+  "pass": true,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "candidate_sha256": "6105bfa5f599f6fc04458c8e92bdd2a3f8c6f3762159a8cdbe50ca6b2b1d172c",
+  "accepted_reference_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "bundle_manifest_sha256": "c1f9a87b267f78e6d24b507383fe18a1f9006d746e3df58bc30b5e53f077ac85",
+  "input_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/castle_v027.blend": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/rebuilt \u4e2d\u6587/castle_receiving_chamber.blend": "6105bfa5f599f6fc04458c8e92bdd2a3f8c6f3762159a8cdbe50ca6b2b1d172c",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/reproduce/native.json.gz": "ed364102b4b470971a369fd9b78cdeafaf34f3832bfb399e1cf34f5094082432",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_receiving_chamber/candidate_lit_fixed.blend": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096"
+  },
+  "native_calls": 3,
+  "python_calls": 13,
+  "commands": [
+    {
+      "command": [
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "-b",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python-expr",
+        "import sys; sys.dont_write_bytecode=True",
+        "--python",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/compare_saved.py",
+        "--",
+        "--accepted",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_receiving_chamber/candidate_lit_fixed.blend",
+        "--candidate",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/rebuilt \u4e2d\u6587/castle_receiving_chamber.blend",
+        "--candidate-sha",
+        "6105bfa5f599f6fc04458c8e92bdd2a3f8c6f3762159a8cdbe50ca6b2b1d172c",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/repeat.json"
+      ],
+      "returncode": 0,
+      "native": true,
+      "log": "01_compare_saved.log"
+    },
+    {
+      "command": [
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "-b",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python-expr",
+        "import sys; sys.dont_write_bytecode=True",
+        "--python",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/validate_final.py",
+        "--",
+        "--source",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/castle_v027.blend",
+        "--candidate",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/rebuilt \u4e2d\u6587/castle_receiving_chamber.blend",
+        "--candidate-sha",
+        "6105bfa5f599f6fc04458c8e92bdd2a3f8c6f3762159a8cdbe50ca6b2b1d172c",
+        "--payload",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/geometry_final.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/native_preservation.json",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/native_geometry.json",
+        "--fixtures",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/lit_geometry.json"
+      ],
+      "returncode": 0,
+      "native": true,
+      "log": "02_validate_final.log"
+    },
+    {
+      "command": [
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "-b",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python-expr",
+        "import sys; sys.dont_write_bytecode=True",
+        "--python",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/native_controls.py",
+        "--",
+        "--candidate",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/rebuilt \u4e2d\u6587/castle_receiving_chamber.blend",
+        "--candidate-sha",
+        "6105bfa5f599f6fc04458c8e92bdd2a3f8c6f3762159a8cdbe50ca6b2b1d172c",
+        "--payload",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/geometry_final.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/native_controls.json"
+      ],
+      "returncode": 0,
+      "native": true,
+      "log": "03_native_controls.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/check_local_payload.py",
+        "--payload",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/geometry_final.json",
+        "--export",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/native.json",
+        "--proof",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/guard_partition_proof.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/local_final.json"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "04_check_local_payload.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/check_outside_payload.py",
+        "--payload",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/geometry_final.json",
+        "--export",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/native.json",
+        "--proof",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/guard_partition_proof.json",
+        "--faces",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/guard_faces_final.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/outside_final.json"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "05_check_outside_payload.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/check_native_tessellation.py",
+        "--geometry",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/native_geometry.json",
+        "--export",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/native.json",
+        "--proof",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/data/guard_partition_proof.json",
+        "--report",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_qa_results \u4e2d\u6587/native_tessellation.json"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "06_check_native_tessellation.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/check_outside_volumes.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "07_check_outside_volumes.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/check_saved_routes.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "08_check_saved_routes.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/check_saved_seats.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "09_check_saved_seats.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/check_local_neighbors.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "10_check_local_neighbors.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/check_saved_fixtures.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "11_check_saved_fixtures.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/check_reverse_correction.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "12_check_reverse_correction.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/reverse_pier_footprints.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "13_reverse_pier_footprints.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/test_actual_payload.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "14_test_actual_payload.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/test_exact_boundary.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "15_test_exact_boundary.log"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_local_replay \u4e2d\u6587/qa_final/test_coplanar_controls.py"
+      ],
+      "returncode": 0,
+      "native": false,
+      "log": "16_test_coplanar_controls.log"
+    }
+  ],
+  "controls": {
+    "boundary_math": 10,
+    "coplanar_math": 9,
+    "exported_actual_geometry_negatives": 6,
+    "focused_native_mutations": 4
+  },
+  "report_sha256": {
+    "native_preservation.json": "55e8c1a182b89cbd8b63016b688a404f341bf5bef70d4f785eaed19b98a2c818",
+    "native_controls.json": "42fab46ce80bfe301637c2a92fa99cbf9511623fb1442193fd3a919749b5639d",
+    "local_final.json": "12fd57fea6793cace6c150418c9da6cbf44661a1c92d8a678eb7a353a4b0bdb4",
+    "outside_final.json": "8e79e20b0da7e6e3c4658e44fca57d5fcd3037452c3b96f4782610011dc708b8",
+    "native_tessellation.json": "1d7bde34f5fc507669d6ae5844a5885e55b27be20ae3cfc202d35d0423efcad8",
+    "outside_volumes.json": "2abd5c4cf980bcd473ae4917ffc2270300761a543c65b3c5604eaa79f63287eb",
+    "saved_routes.json": "eff11ed1ce70650b47999d13ebd51eb6e9a502de170a466392e73b157b08d1f1",
+    "saved_seats.json": "533e32eb28ad34eff9f3d4886c8ac13e57baa936685553da6793122057e629b2",
+    "saved_fixtures_final.json": "4d9f728f37f3d1132e77327a07ffd55c2810681cafc064f6827994360a750c64",
+    "actual_payload_controls.json": "9f255b913ed1b16cbf7bcb3b63b56dd27203e30eb4058ba04d28ee484b45b09d",
+    "repeat.json": "bc56bc8c186cf5c605f8805366257ac8878b936585a2a3351941dafc8fad2f5a",
+    "local_neighbors_with_interfaces.json": "1c7d4d5bc229192e61999f18a5cba8a5615de6e5272958c369884ce971b47f4d",
+    "reverse_correction.json": "2bcf1bfa0401590ad50193de7551a4b98d0b6f47c4d3d8136abed90e1fc4077c",
+    "reverse_pier_footprints.json": "1c4ab7bd93207ff29dab137a8a2b95d4d709f3c21c7351e2e063fe57a5a52738"
+  },
+  "bundle_unchanged": true,
+  "decoded_copied_data_unchanged": true,
+  "decoded_data_sha256": {
+    "ATTRIBUTES.json": "8dd1cb5773b673a003d24dbd5d165fd3c9774a04db2c804dc991f0de4191f20a",
+    "geometry_final.json": "0d07d8ceb27f44cd3c612392d56b40921e60c7f8afaa522aa04f74c17df817f2",
+    "guard_faces_final.json": "9bd5d1b31bd4c5e8890865c1294adb1aff587bfcd729730b254cbe5da4be9c40",
+    "guard_partition_proof.json": "c96d20ca60f419953225303fdde4580ef64bb4da56939f482d82bb058a6bf0c0",
+    "native.json": "83593439fc128700af9302eb1e53185b3f782b00f39e1b7cb972a72823dc362e",
+    "route_fixture_plan.json": "0593cb43d82776d8fe38ad92dbfc1cacb6748f6626c8bda6d2ba03264418b659",
+    "target_mapping_proof.json": "411e305626b9316e2da9a70426265315b2b97a6e1579f8d2143271f2bcc7eb97"
+  },
+  "fixed_route_plan_sha256": "0593cb43d82776d8fe38ad92dbfc1cacb6748f6626c8bda6d2ba03264418b659",
+  "model_inputs_unchanged": true,
+  "limits": "No render or save. Bounded geometry and source-state proof; no structural capacity/global accessibility/art acceptance claim."
+}

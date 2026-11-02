@@ -1,8 +1,10 @@
-# Current v027 three-mode independent QA
+> Local v028 three-mode native validation passed. This is the separate fresh Git-only remote replay recipe; no remote pass is implied by local results.
 
-Runtime five files and executed independent QA Python are byte-identical to the successful local run. `reports/SUMMARY.json`/`modes.json` record13 source categories,27 native negatives,16 bookmarks in each ofOFF/HIGH/LOW, and8 pure controls. This entrypoint supersedes inspection-only QA for quality acceptance. It does not export, render, save or publish models.
+# Current v028 three-mode independent QA
 
-Use only a fresh repository archive/tool, exact restored37c0 model and independently restored historicalc46 target-lineage model. Historical c46 is QA-only, never required by user buttons. Paths need quoting; outputs must be new and outside tool/QA trees. Set environment `PYTHONDONTWRITEBYTECODE=1` for **all subprocesses**, not only host`-B`. No input caches accepted.
+Runtime five files and executed independent QA Python are byte-identical to the successful local run. `qa/reports/SUMMARY.json`/`qa/reports/modes.json` record13 source categories,27 native negatives,18 bookmarks in each ofOFF/HIGH/LOW, and8 pure controls. This entrypoint supersedes inspection-only QA for quality acceptance. It does not export, render, save or publish models.
+
+Use only a fresh repository archive/tool, exact restored v028 model SHA `f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096` and independently restored historicalc46 target-lineage model. Historical c46 is QA-only, never required by user buttons. Paths need quoting; outputs must be new and outside tool/QA trees. Set environment `PYTHONDONTWRITEBYTECODE=1` for **all subprocesses**, not only host`-B`. No input caches accepted.
 
 ```sh
 export PYTHONDONTWRITEBYTECODE=1

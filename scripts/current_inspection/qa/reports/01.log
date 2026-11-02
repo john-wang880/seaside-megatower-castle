@@ -1,18 +1,18 @@
 Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
 socket(): Operation not permitted
-00:00.726  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v019_repro/remote_history/checkpoints/v018/restored/castle_v018.blend"
-00:08.868  cycles           | WARNING CUEW initialization failed: Error opening the library
-00:08.870  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/castle_v027.blend"
-00:20.194  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/OFF viewer.blend"
-00:41.392  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/OFF viewer.blend"
-00:50.989  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/HIGH viewer.blend"
-01:23.793  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/HIGH viewer.blend"
-01:33.799  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/LOW viewer.blend"
-02:04.594  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/LOW viewer.blend"
-02:13.606  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/OFF viewer.blend"
-02:14.001  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/HIGH viewer.blend"
-02:14.383  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/HIGH viewer.blend"
-02:35.447  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/castle_v027.blend"
+00:00.712  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/restored_v018.blend"
+00:08.904  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:08.906  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028/castle_v028.blend"
+00:19.580  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/viewers 中文/OFF.blend"
+00:41.398  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/viewers 中文/OFF.blend"
+00:51.272  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/viewers 中文/HIGH.blend"
+01:27.398  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/viewers 中文/HIGH.blend"
+01:37.326  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/viewers 中文/LOW.blend"
+02:10.585  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/viewers 中文/LOW.blend"
+02:19.489  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/viewers 中文/OFF.blend"
+02:19.873  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/viewers 中文/HIGH.blend"
+02:20.280  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/viewers 中文/HIGH.blend"
+02:40.568  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028/castle_v028.blend"
 Info: Reference [1200, 866]; current render settings unchanged
 Info: Reference [1200, 866]; current render settings unchanged
 Info: Reference [1200, 866]; current render settings unchanged
@@ -61,6 +61,12 @@ Info: Reference [1200, 866]; current render settings unchanged
 Info: Reference [960, 694]; current render settings unchanged
 Info: Reference [960, 694]; current render settings unchanged
 Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
 Info: Reference [1200, 866]; current render settings unchanged
 Info: Reference [1200, 866]; current render settings unchanged
 Info: Reference [1200, 866]; current render settings unchanged
@@ -106,6 +112,12 @@ Info: Reference [1200, 866]; current render settings unchanged
 Info: Reference [1200, 866]; current render settings unchanged
 Info: Reference [1200, 866]; current render settings unchanged
 Info: Reference [1200, 866]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
+Info: Reference [960, 694]; current render settings unchanged
 Info: Reference [960, 694]; current render settings unchanged
 Info: Reference [960, 694]; current render settings unchanged
 Info: Reference [960, 694]; current render settings unchanged

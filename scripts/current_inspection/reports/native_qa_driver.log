@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/staged_tool/qa/run_qa.py", line 33, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/staged_tool/qa/run_qa.py", line 14, in main
+    a=p.parse_args(argv);paths={k:clean_path(v) for k,v in vars(a).items()}
+                                  ^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/staged_tool/qa/run_qa.py", line 9, in clean_path
+    p=Path(value);require('..' not in p.parts,'Parent traversal refused');return p.absolute()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_inspection/staged_tool/qa/compare_support.py", line 11, in require
+    if not ok:raise RuntimeError(message)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Parent traversal refused

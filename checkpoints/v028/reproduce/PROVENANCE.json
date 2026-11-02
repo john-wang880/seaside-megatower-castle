@@ -1,0 +1,17 @@
+{
+  "copied_executed_bytes_exact": {
+    "integrate.py": true,
+    "add_room_lanterns.py": true,
+    "snapshot_support.py": true,
+    "build_geometry.py": true,
+    "planar.py": true,
+    "manifest_pin": true,
+    "export_roundtrip": true
+  },
+  "frozen_geometry_payload_sha256": "0d07d8ceb27f44cd3c612392d56b40921e60c7f8afaa522aa04f74c17df817f2",
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "native_controller_run": false,
+  "pure_mock_tests": 9,
+  "export_uncompressed_bytes": 32041639,
+  "export_compressed_bytes": 3104736
+}

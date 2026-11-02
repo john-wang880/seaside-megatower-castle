@@ -1,0 +1,958 @@
+{
+  "pass": true,
+  "source_unlit_sha256": "103be14556a9bbc96b26033b2b6016f0038d980ca7b3e69da792671e3f85ac60",
+  "candidate_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "all_preexisting_categories": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true
+  },
+  "copies": [
+    {
+      "name": "V028 | room 1 mounting plate",
+      "source": "V013 | turn mounting plate",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.989999771118164
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 wall arm",
+      "source": "V013 | turn wall arm",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.6292068494294654e-07,
+          0.7259504199028015,
+          -0.687747061252594,
+          14.90000057220459
+        ],
+        [
+          -1.0,
+          -1.182723323722712e-07,
+          1.1204821248611552e-07,
+          34.0
+        ],
+        [
+          0.0,
+          0.687747061252594,
+          0.7259504199028015,
+          31.045000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 lower cup",
+      "source": "V013 | turn lower cup",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.790000915527344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 hood rim",
+      "source": "V013 | turn hood rim",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          31.110000610351562
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 rain hood",
+      "source": "V013 | turn rain hood",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          31.165000915527344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 cage upright 0",
+      "source": "V013 | turn cage upright 0",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          14.867982864379883
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          34.057979583740234
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 cage upright 1",
+      "source": "V013 | turn cage upright 1",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          14.752017974853516
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          34.057979583740234
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 cage upright 2",
+      "source": "V013 | turn cage upright 2",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          14.752017974853516
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          33.9420166015625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 cage upright 3",
+      "source": "V013 | turn cage upright 3",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          14.867982864379883
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          33.9420166015625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 luminous flame",
+      "source": "V013 | turn luminous flame",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 1 practical warm source",
+      "source": "V013 | turn practical warm source",
+      "exact_native_translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "type": "LIGHT",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 mounting plate",
+      "source": "V013 | turn mounting plate",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.989999771118164
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 wall arm",
+      "source": "V013 | turn wall arm",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.6292068494294654e-07,
+          0.7259504199028015,
+          -0.687747061252594,
+          14.90000057220459
+        ],
+        [
+          -1.0,
+          -1.182723323722712e-07,
+          1.1204821248611552e-07,
+          39.0
+        ],
+        [
+          0.0,
+          0.687747061252594,
+          0.7259504199028015,
+          31.045000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 lower cup",
+      "source": "V013 | turn lower cup",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.790000915527344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 hood rim",
+      "source": "V013 | turn hood rim",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          31.110000610351562
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 rain hood",
+      "source": "V013 | turn rain hood",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          31.165000915527344
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 cage upright 0",
+      "source": "V013 | turn cage upright 0",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          14.867982864379883
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          39.057979583740234
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 cage upright 1",
+      "source": "V013 | turn cage upright 1",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          14.752017974853516
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          39.057979583740234
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 cage upright 2",
+      "source": "V013 | turn cage upright 2",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          14.752017974853516
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          38.9420166015625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 cage upright 3",
+      "source": "V013 | turn cage upright 3",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          14.867982864379883
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          38.9420166015625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 luminous flame",
+      "source": "V013 | turn luminous flame",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "V028 | room 2 practical warm source",
+      "source": "V013 | turn practical warm source",
+      "exact_native_translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "type": "LIGHT",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          14.8100004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          30.950000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "new_fixture_triangles": 1160,
+  "derived_UI_only": [
+    {
+      "object": "Traveler | full length ivory skirt",
+      "source": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      },
+      "candidate": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      }
+    },
+    {
+      "object": "Traveler | purple-red shoulder cape",
+      "source": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1976,
+          "fields": {
+            "value": {
+              "count": 1976,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1976,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+        }
+      },
+      "candidate": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1976,
+          "fields": {
+            "value": {
+              "count": 1976,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1976,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+        }
+      }
+    },
+    {
+      "object": "Traveler | white tunic",
+      "source": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      },
+      "candidate": {
+        "attribute": {
+          "name": ".select_edge",
+          "type": "BOOLEAN",
+          "domain": "EDGE",
+          "count": 1088,
+          "fields": {
+            "value": {
+              "count": 1088,
+              "type": "BOOLEAN",
+              "width": 0,
+              "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+            }
+          }
+        },
+        "edges_select": {
+          "count": 1088,
+          "type": "BOOLEAN",
+          "width": 1,
+          "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+        }
+      }
+    }
+  ],
+  "limits": "Exact two native template copies and unchanged preexisting scene. Actual fixture route/contact checks use exported saved geometry separately."
+}

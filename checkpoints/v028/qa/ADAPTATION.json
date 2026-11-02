@@ -1,0 +1,23 @@
+{
+  "status": "CPU adapter guards pass; native isolated full-chain execution pending owner slot",
+  "byte_identical_core_helpers": [
+    "axis_reference.py",
+    "exact_axis_boundary.py",
+    "planar_triangulation.py",
+    "snapshot_support.py",
+    "coplanar_predicate.py",
+    "surface_partition.py"
+  ],
+  "body_support_functions_AST_exact": [
+    "analyze",
+    "gap"
+  ],
+  "continuous_box_cover_byte_identical": true,
+  "runner_controls": 14,
+  "exact_math_controls": 10,
+  "coplanar_controls": 9,
+  "native_adapter_change": "Direct baseline to final-lit owned additions, same native masks and source comparisons; exact fixture comparison consolidated without unlit binary dependency. New uniform added-mesh attribute checks are an explicit strengthening pending execution.",
+  "supersedes_bundle_manifest_sha256": "4a0c206f912f2e4aa925f449cf621f7ac55c49b8fd9fb94a7867763ed9ad8ed6",
+  "camera_revision": "Adds path-only replay of the two executed corrected reverse camera/footprint CPU scripts; old bundle retained unchanged.",
+  "derived_input_guard": "Decoded/copied data inventory plus fixed route-plan hash checked after every child and at final summary; no geometry predicate change."
+}

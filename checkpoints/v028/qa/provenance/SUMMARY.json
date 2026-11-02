@@ -1,0 +1,107 @@
+{
+  "technical_pre_render_gate": true,
+  "artistic_acceptance": false,
+  "models_sha256": {
+    "work/v027/castle_v027.blend": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+    "work/v028_receiving_chamber/unlit.blend": "103be14556a9bbc96b26033b2b6016f0038d980ca7b3e69da792671e3f85ac60",
+    "work/v028_receiving_chamber/candidate_lit_fixed.blend": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096"
+  },
+  "payload_sha256": "0d07d8ceb27f44cd3c612392d56b40921e60c7f8afaa522aa04f74c17df817f2",
+  "architecture_triangles": 718,
+  "exact_template_fixture_triangles": 1160,
+  "combined_triangles": 1878,
+  "source_snapshot_categories": [
+    "meshes",
+    "objects",
+    "materials",
+    "lights",
+    "cameras",
+    "worlds",
+    "visible_evaluated",
+    "scene",
+    "libraries",
+    "texts",
+    "collections",
+    "scene_custom"
+  ],
+  "local_saved_volume": 30.623833532277786,
+  "exact_zero_native_derived_triangles": 3,
+  "positive_source_seats": 11,
+  "pier_band_continuity_witnesses": 2,
+  "continuous_body_and_nearplane_proxies": 11,
+  "pure_controls": 19,
+  "exported_actual_geometry_negative_controls": 6,
+  "focused_native_snapshot_negative_controls": 4,
+  "source_raw_and_previous_owned_masks_preserved": true,
+  "remote_oriented_polygons_exact": 112,
+  "clipped_source_domains_proven": 8,
+  "all_four_native_saved_meshes_match_payload": true,
+  "two_fixture_sets_exact_native_translation_and_source_recipes": true,
+  "local_same_facing_positive_area_contacts": 0,
+  "fixture_local_same_facing_positive_area_contacts": 0,
+  "report_sha256": {
+    "ARCHITECTURE_SUMMARY.json": "3d42337e916d94002389be35c882994cf4352d7c17215e6ae4f029a9f572a107",
+    "local_final.json": "e4bc61aa25e2372fa91bf9014b178f86ea4cbff003e16bb0c68a6ce5fe218f87",
+    "outside_final_labeled.json": "0b60196ee1393092b6c53e8ba84d629a06066836ab87382252cbcc601c90c0c9",
+    "outside_volumes.json": "712040c24ddb7df4cd2078d2f5139e0e317ee47ae504481be579955bdc9f4012",
+    "native_preservation.json": "47ac8a7f3f123943d1610131dfd1bcbdffa16412d9af60b967e0a9ef35645ca2",
+    "native_tessellation.json": "678b8a8ea099b40933b2e032b82f38b2758d1c07f823331bfcad1c0de0e0430d",
+    "native_controls.json": "2272822c1550dd233275dfeb0aa4ac7def1492c51e5ea1cf070b511327daf655",
+    "actual_payload_controls.json": "9f255b913ed1b16cbf7bcb3b63b56dd27203e30eb4058ba04d28ee484b45b09d",
+    "saved_routes.json": "7bb3bb36a8aedb06e06b7b920fcce4bef98ca74751d708cedaf8c23723d34965",
+    "saved_seats.json": "b82fd81c6fc1f1c51b26b212034818015dc3933b16f12d5074dc419e5d08763c",
+    "local_neighbors_with_interfaces.json": "f7de2ed644d8938e4e6d377dd41cdf1ba1cb9ae000428b4ed67379ed51560deb",
+    "lit_preservation_fixed.json": "a06ebbe22efc0490ae5d7e2cae17a1ae2fa376219986f7beca15a57a29d74920",
+    "saved_fixtures_final.json": "2bd6c66c31f116e8e6af134fc36592e625a03de475393f7a075bd67578f884b9"
+  },
+  "executed_or_support_code_sha256": {
+    "axis_reference.py": "a5add8dbbb20a7e0041619c69c7d36b0ff943f99370cd39e5776de3058e7bd65",
+    "check_local_neighbors.py": "8d7c68aa73c63e8fb8dd576542970c89691d56b63c72e21816c3bcca0678d50c",
+    "check_local_neighbors_initial_redundant_conversion.py": "629cd3f7a34ef85b0a400cb2db549bee9464dbbd55c89a4eb4001c8969b749bb",
+    "check_local_neighbors_preserved_only.py": "5e6d393f874804a4990c038a6ae01af3a449b127441318e317dc9f1449a13614",
+    "check_local_payload.py": "5fd8b79cd53f1f8f7a2f72f353c0276b30d7d72d4f1175c8d7507fbaa87b5522",
+    "check_native_tessellation.py": "b5a9e4e0a67277727a18b53903d087d7e89fab5479eccb6d4c8b04f8c6277873",
+    "check_outside_payload.py": "85a9227a4d9dad86fded2201b5c3a75e07873cafdd281751c99a05cda4d19797",
+    "check_outside_volumes.py": "68271c349cae7efee14130b1d151a83472cae25da123511134e57dd302e54728",
+    "check_saved_fixtures.py": "4add838bb081bb6917463aa8ac1ee900ebfce100457d22a4c2141a8dbef44d41",
+    "check_saved_routes.py": "a52641b5cb56885df2068492f7cb88a05c70b4cc02dcf015a90271544445822a",
+    "check_saved_seats.py": "b8720df65a216b885116f9231395ce7ced9575596f78be3a4f2270b086c19e61",
+    "coplanar_predicate.py": "ac413106e3d4c137ae67f50eaedc49e9174594c8f44c7f259d6eacae0c96eb4c",
+    "diagnose_fixture.py": "f6dc2f560b06b2b6284c3a50b1e89b4efaf5195ac2016a37da2c07c970184795",
+    "exact_axis_boundary.py": "5623a7b6f58650b106b77f29ff1ac38c7377ba654bfa5b7ae29dd167569a84a9",
+    "native_controls.py": "e7d4ddb96e19bee248fe28547e25df5060cbd39b18f9030a622d8dba9574f1be",
+    "planar_triangulation.py": "8913697c1afb9b8bfa29fb3d3686d54f884ab33a66815ea1c517a2a64d3c1881",
+    "route_fixture_plan.py": "f914e6feec3c0b42be959f9e57e9c8481859497e2873f82aca1ff0018757ddb0",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "surface_partition.py": "0cbbd0597518201e1b9f32761fecc4b89225f80618d6a3e508b92ea50d29c4cb",
+    "test_actual_payload.py": "a001644c9e660cd4ab96898ea8c74dda70f6af7d1504dede4bb33770a1af7232",
+    "test_coplanar_controls.py": "c280e1af2f923b519971c197770c2c6aa1d7f8260fa2a3ec618c945aab932962",
+    "test_exact_boundary.py": "561818235da99e93af795c5685864f277e34c8f3bfc2ac6912b0a36f43f2f71d",
+    "validate_lighting.py": "0def7cb9fe7b3b5b8f7dc89480a97ad0b08ded298cc9cf1c13e0399f614a0a26",
+    "validate_lighting_initial.py": "e7890746c43495d9de873b3eaa35797b0ae69e87c26d561fd816aacb3265aba0",
+    "validate_native.py": "1e7aad8d4f38e34f77d2ee25c6cdf4774028013bc641733e5221b4d015c3fbac"
+  },
+  "limits": [
+    "Exact rational clipping proves saved float-coordinate boundaries, not exact nominal decimal geometry. Nominal1038 cells coalesce to948 saved-coordinate cells.",
+    "Original outside-host overlaps/coplanars remain unchanged. Opposite-facing guard interfaces are intentional closed partitions; no global welded/manifold or structural-load claim.",
+    "Source-evaluated UI edge-selection exception is restricted to the three historical SUBSURF traveler objects; raw weights and all other attributes remain strict.",
+    "Camera probes validate bounded body/near-plane proxies, not entire frustum visibility or full-floor accessibility.",
+    "Tessellation has three exact-zero derived triangles; their positive parent polygons have independently complete nonoverlapping native coverage. No saved-face exclusion or epsilon area waiver.",
+    "Technical gate is not image acceptance; renderer owned by parent."
+  ],
+  "superseded_evidence": [
+    {
+      "candidate_sha256": "bd3a7561ad19d5eabf41b89cbd8f9637480090d1824d58a67cffeff53952e286",
+      "reason": "Two wall-arm rotation matrices changed by native matrix assignment decomposition, maximum1.5900099e-8. Strict pure-translation check rejected; location-only correction creates f0d135 without changing architecture."
+    },
+    {
+      "setup": "Initial fixture coplanar test passed NumPy arrays to historical list-based clip API; five test errors, no model findings. Caller converted to lists; nine controls pass without predicate change."
+    },
+    {
+      "setup": "First saved-seat wrapper omitted descriptive object/seed keys, corrected before successful thirteen witnesses; no geometric relaxation."
+    },
+    {
+      "setup": "Initial explicit neighbor scan redundantly converted triangles in inner loop; interrupted and rerun with same predicate and hoisted conversion."
+    }
+  ]
+}

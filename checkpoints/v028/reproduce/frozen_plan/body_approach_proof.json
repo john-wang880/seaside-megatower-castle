@@ -1,0 +1,1152 @@
+{
+  "pass": true,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "input_sha256": {
+    "export": "83593439fc128700af9302eb1e53185b3f782b00f39e1b7cb972a72823dc362e",
+    "spec": "e97354aac3791d552c791851c40938e6b916275b2cbd3b8dd564591177367c4c",
+    "script": "1f7b522dc98ba3edbbf17f300016e99c40c93df7d7eb918ae328e85f69b3654a"
+  },
+  "continuous_centerline": [
+    [
+      4.45,
+      38
+    ],
+    [
+      4.45,
+      37.5
+    ],
+    [
+      7.6,
+      37.5
+    ]
+  ],
+  "body_proxy": "Axis-aligned square width1.2 swept through all positions on two segments, vertical29.025..31.1. Foot-contact slice29..29.025 intentionally excluded; threshold/floor continuity is a separate design proof.",
+  "exact_swept_boxes": {
+    "south_shift": [
+      [
+        3.85,
+        36.9,
+        29.025
+      ],
+      [
+        5.05,
+        38.6,
+        31.1
+      ]
+    ],
+    "east_entry": [
+      [
+        3.85,
+        36.9,
+        29.025
+      ],
+      [
+        8.2,
+        38.1,
+        31.1
+      ]
+    ]
+  },
+  "all_non_target_components_disjoint": {
+    "south_shift": [
+      {
+        "object": "V013 | turn mounting plate",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 9.663143563474227e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn wall arm",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -4.707905147343896e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn lower cup",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 7.799537304804198e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn hood rim",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 5.72886368405972e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn rain hood",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -3.1750328851415315e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 0",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.0887380911337845e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 1",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.3761519035964943e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 2",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.680804603088681e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 3",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.4459664880276863e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn luminous flame",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -3.0024767500794918e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V010 | headland with local stair-edge clearance",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": false,
+        "winding_when_boundary_disjoint": null,
+        "disjoint": true,
+        "classification": "open surface disjoint; no solid-volume claim"
+      },
+      {
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 45864,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.766974823035287e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | retained west rib facade with buried-route clearance",
+        "seed": 14372,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.415785890868557e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5568,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.070673620744477e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5576,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -5.788853902889882e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5584,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.4848083448933724e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5872,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.6565388965955816e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5894,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.43221592101493e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5902,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.9843955532134572e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | entrance hall limestone floor",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -3.119814921921679e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | north corridor limestone floor",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -3.589167609290427e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | hall south stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.5392007247533946e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | entrance hall ceiling lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.2424041724466862e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | east north corridor stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.208718528794109e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | north corridor ceiling lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 6.90224540248159e-20,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      }
+    ],
+    "east_entry": [
+      {
+        "object": "V013 | turn mounting plate",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 3.7876071646117725e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn wall arm",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 3.4230823292932137e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn lower cup",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -7.592469942729749e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn hood rim",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -6.142998408208615e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn rain hood",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 5.452773867960457e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 0",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 5.755286342241095e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 1",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 6.595149405863366e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 2",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 6.7291500294974815e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 3",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 6.386194711061678e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn luminous flame",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.985221136573288e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V010 | headland with local stair-edge clearance",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": false,
+        "winding_when_boundary_disjoint": null,
+        "disjoint": true,
+        "classification": "open surface disjoint; no solid-volume claim"
+      },
+      {
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 45864,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 5.300924469105861e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | retained west rib facade with buried-route clearance",
+        "seed": 14372,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.622853252943004e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5568,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.208718528794109e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5576,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 5.521796321985272e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5584,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.3812746638561486e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5872,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.760898160992636e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5894,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 5.090405984330173e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5902,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.0299444311515498e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | entrance hall limestone floor",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -7.592469942729749e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | north corridor limestone floor",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.070673620744477e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | hall south stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.136244952068052e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | entrance hall ceiling lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -5.5563075489976804e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | east north corridor stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.208718528794109e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | north corridor ceiling lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.967965523067084e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      }
+    ]
+  },
+  "all_original_occupied_geometry_disjoint_outside_planned_cut": {
+    "south_shift": [
+      {
+        "object": "V013 | turn mounting plate",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 9.663143563474227e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn wall arm",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -4.707905147343896e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn lower cup",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 7.799537304804198e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn hood rim",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 5.72886368405972e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn rain hood",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -3.1750328851415315e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 0",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.0887380911337845e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 1",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.3761519035964943e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 2",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.680804603088681e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 3",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.4459664880276863e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn luminous flame",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -3.0024767500794918e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V010 | headland with local stair-edge clearance",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": false,
+        "winding_when_boundary_disjoint": null,
+        "disjoint": true,
+        "classification": "open surface disjoint; no solid-volume claim"
+      },
+      {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 24,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -5.300924469105861e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 13132,
+        "broadphase_triangles": 2,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -4.417437057588218e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 45864,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.766974823035287e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | retained west rib facade with buried-route clearance",
+        "seed": 14372,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.415785890868557e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "seed": 128,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 0.0,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5568,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.070673620744477e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5576,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -5.788853902889882e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5584,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -2.4848083448933724e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5872,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.6565388965955816e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5894,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.43221592101493e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5902,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.9843955532134572e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | entrance hall limestone floor",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -3.119814921921679e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | north corridor limestone floor",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -3.589167609290427e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | hall south stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.5392007247533946e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | hall east stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -5.300924469105861e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | entrance hall ceiling lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.2424041724466862e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | east north corridor stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.208718528794109e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | north corridor ceiling lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 6.90224540248159e-20,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      }
+    ],
+    "east_entry_before_door": [
+      {
+        "object": "V013 | turn mounting plate",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -6.255159895998942e-20,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn wall arm",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 6.861802558326425e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn lower cup",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.7255613506203977e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn hood rim",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.7255613506203977e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn rain hood",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.070673620744477e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 0",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.1863234285515233e-20,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 1",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 7.010092986895365e-21,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 2",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.2402472207584107e-20,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn cage upright 3",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -5.931617142757617e-21,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V013 | turn luminous flame",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.7255613506203976e-20,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V010 | headland with local stair-edge clearance",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": false,
+        "winding_when_boundary_disjoint": null,
+        "disjoint": true,
+        "classification": "open surface disjoint; no solid-volume claim"
+      },
+      {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 24,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.0601848938211722e-16,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 13132,
+        "broadphase_triangles": 2,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -5.300924469105861e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | terrace ledges with bounded stair opening",
+        "seed": 45864,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 0.0,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | retained west rib facade with buried-route clearance",
+        "seed": 14372,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 4.486459511613033e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "seed": 128,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 0.0,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5568,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.449471534521134e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5576,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.9671399397072534e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5584,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.8636062586700292e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5872,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.9326287126948455e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5894,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.1733817184218703e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | legacy ashlar with buried-route clearance",
+        "seed": 5902,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.0827897475142994e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | entrance hall limestone floor",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 2.5814397805281147e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | north corridor limestone floor",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.380449080496318e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | hall south stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 5.694352457047312e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | hall east stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 1.766974823035287e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | entrance hall ceiling lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": -1.7876815592427317e-17,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | east north corridor stone lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 3.3130777931911632e-18,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      },
+      {
+        "object": "V012 | north corridor ceiling lining",
+        "seed": 0,
+        "broadphase_triangles": 0,
+        "actual_boundary_triangles": [],
+        "closed_oriented": true,
+        "winding_when_boundary_disjoint": 7.937582212853829e-19,
+        "disjoint": true,
+        "classification": "closed solid disjoint"
+      }
+    ]
+  },
+  "door_side_margin": 0.1,
+  "door_head_margin": 0.35,
+  "retained_band_head_margin": 0.7,
+  "actual_fixture_aabb_lower_bounds": {
+    "south_shift": 0.0538518712145283,
+    "east_entry": 0.4404552636022637
+  },
+  "limits": "Prospective body clearance after exact approved cut, not a saved-candidate test, human gait simulation, floor capacity, complete room circulation or global accessibility. Source export region includes complete sweep. Requires future carve/plug/lining to preserve this clear volume.",
+  "model_saved": false,
+  "native_run": false
+}

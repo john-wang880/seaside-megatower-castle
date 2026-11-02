@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "historical_target_baseline_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "mode_count": 3,
+  "bookmarks_each": 16,
+  "source_categories": 13,
+  "native_negatives": 27,
+  "independent_pure_tests": 8,
+  "implementation_pure_tests": 9,
+  "runtime_byteidentical_to_executed": true,
+  "source_unchanged": true,
+  "rendered": false,
+  "native_windows_tested": false,
+  "reports": [
+    "reports/SUMMARY.json",
+    "reports/modes.json"
+  ],
+  "chronology": "Old inspection-only tests/reports retained as historical provenance, not tree quality acceptance. Portable pure-test catalog assertion changed from staging-root comparison to same pinned SHA; rerun separately. Remote publication/replay remains owner task.",
+  "live_pure_tests": {
+    "implementation": 18,
+    "independent_preflight": 24,
+    "quality": 9,
+    "independent_QA_controls": 8
+  },
+  "portable_test_adapter": "18test catalog assertion references current qa/validate_modes.py instead of retired old qa/run_qa.py count; original executed test retained in provenance. All59tests rerun with inherited no-bytecode env."
+}

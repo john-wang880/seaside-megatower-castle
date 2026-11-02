@@ -1,6 +1,6 @@
 """Pure exact comparison helpers. No bpy import, broad attribute exclusions or I/O."""
 import copy, hashlib,json
-SOURCE_SHA='37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255'
+SOURCE_SHA='f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096'
 BASE_SHA='c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd'
 TARGET='V010 | woodland boughs with gate exit clearance'
 GROUP='V019 candidate | reversible left tree foliage'

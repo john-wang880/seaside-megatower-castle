@@ -1,0 +1,26 @@
+{
+  "status": "Awaiting corrected fixture independent gate; no render yet",
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "source_bytes": 47806291,
+  "ordered_views": [
+    "doorway",
+    "reverse",
+    "frame_0001",
+    "frame_0076",
+    "hero"
+  ],
+  "rule": "Primary natural doorway gate before reverse/regressions; exact fixed cameras/lights, no stylistic or power amplification if concept fails.",
+  "architecture_triangles": 718,
+  "fixture_triangles": 1160,
+  "combined_triangles": 1878,
+  "source_lighting": "Two explicit new room lanterns; original lights/world/exposure unchanged",
+  "files": {
+    "doorway_views.json": "92e5a0c2245090f18e58553690a4a65a0853093832126ad609b5ff57fe75b88b",
+    "frame_0001_views.json": "b7cd734b63bd9aa5f125b0bfd0ccd4e5a1af5157acacec92dee038c5d12796f7",
+    "frame_0076_views.json": "6182954a5e377de7709ab4caa9f3111cce52b05daf088b0564dd69176c6d4e78",
+    "hero_views.json": "610a6fe7a8da02448292c002e83e029c0d9719526a414fe953c1f464d0af0f45",
+    "preservation_support.py": "73f9693fb41580993831f73fb8bd56dd762d61ea7906ac04170a6886c51c4dd6",
+    "render_one.py": "4f14c836521482a2bfbf7fba6b1c36e31c56d3b8c3da1abe1d027af6f5358675",
+    "reverse_views.json": "82268dcb0dd3ad13d6f866571676df7dee1a0a57645f0a265673539fc0a6c63d"
+  }
+}

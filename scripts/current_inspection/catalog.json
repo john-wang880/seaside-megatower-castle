@@ -1,10 +1,10 @@
 {
   "schema": "castle-current-inspection-catalog-v1",
-  "reviewed_version": 27,
-  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
-  "source_bytes": 47773404,
-  "collection": "INSPECT27 | Optional review cameras",
-  "text": "INSPECT27 | Run manually for bookmarks.py",
+  "reviewed_version": 28,
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "source_bytes": 47806291,
+  "collection": "INSPECT28 | Optional review cameras",
+  "text": "INSPECT28 | Run manually for bookmarks.py",
   "marker": "castle_inspection_copy_v1",
   "views": {
     "hero": {
@@ -61,7 +61,7 @@
     },
     "west_approach": {
       "label": "西侧进路 / Western woodland approach",
-      "camera_name": "INSPECT27 | west_approach",
+      "camera_name": "INSPECT28 | west_approach",
       "existing": false,
       "matrix": [
         [
@@ -113,7 +113,7 @@
     },
     "east_portal": {
       "label": "东侧入口 / Eastern entrance arrival",
-      "camera_name": "INSPECT27 | east_portal",
+      "camera_name": "INSPECT28 | east_portal",
       "existing": false,
       "matrix": [
         [
@@ -165,7 +165,7 @@
     },
     "bend": {
       "label": "室内转角 / Interior bend towards north stair",
-      "camera_name": "INSPECT27 | bend",
+      "camera_name": "INSPECT28 | bend",
       "existing": false,
       "matrix": [
         [
@@ -217,7 +217,7 @@
     },
     "upper_stairs": {
       "label": "上层楼梯 / Covered terrace looking down the stair",
-      "camera_name": "INSPECT27 | upper_stairs",
+      "camera_name": "INSPECT28 | upper_stairs",
       "existing": false,
       "matrix": [
         [
@@ -269,7 +269,7 @@
     },
     "terminal": {
       "label": "终点平台 / Upper arrival and terminal floor",
-      "camera_name": "INSPECT27 | terminal",
+      "camera_name": "INSPECT28 | terminal",
       "existing": false,
       "matrix": [
         [
@@ -321,7 +321,7 @@
     },
     "offshore_marker": {
       "label": "离岸标塔 / Offshore marker and supported stair",
-      "camera_name": "INSPECT27 | offshore_marker",
+      "camera_name": "INSPECT28 | offshore_marker",
       "existing": false,
       "matrix": [
         [
@@ -373,7 +373,7 @@
     },
     "crown": {
       "label": "主塔屋顶 / Main crown slate courses",
-      "camera_name": "INSPECT27 | crown",
+      "camera_name": "INSPECT28 | crown",
       "existing": false,
       "matrix": [
         [
@@ -425,7 +425,7 @@
     },
     "west_crown": {
       "label": "西塔屋顶 / Western octagonal cap slate courses",
-      "camera_name": "INSPECT27 | west_crown",
+      "camera_name": "INSPECT28 | west_crown",
       "existing": false,
       "matrix": [
         [
@@ -477,7 +477,7 @@
     },
     "bridge_close": {
       "label": "桥墩与拱 / Bridge pier and arch",
-      "camera_name": "INSPECT27 | bridge_close",
+      "camera_name": "INSPECT28 | bridge_close",
       "existing": false,
       "matrix": [
         [
@@ -528,7 +528,7 @@
     },
     "west_lower_tier": {
       "label": "西塔下层石肋 / Western lower tier",
-      "camera_name": "INSPECT27 | west_lower_tier",
+      "camera_name": "INSPECT28 | west_lower_tier",
       "existing": false,
       "matrix": [
         [
@@ -579,7 +579,7 @@
     },
     "path_context": {
       "label": "既有路面 / Existing path context",
-      "camera_name": "INSPECT27 | path_context",
+      "camera_name": "INSPECT28 | path_context",
       "existing": false,
       "matrix": [
         [
@@ -630,7 +630,7 @@
     },
     "rear_landward": {
       "label": "背面总览 / Elevated rear overview",
-      "camera_name": "INSPECT27 | rear_landward",
+      "camera_name": "INSPECT28 | rear_landward",
       "existing": false,
       "matrix": [
         [
@@ -684,7 +684,7 @@
     },
     "west_lateral": {
       "label": "西侧总览 / Elevated west lateral overview",
-      "camera_name": "INSPECT27 | west_lateral",
+      "camera_name": "INSPECT28 | west_lateral",
       "existing": false,
       "matrix": [
         [
@@ -738,7 +738,7 @@
     },
     "east_lateral": {
       "label": "东侧总览 / Elevated east lateral overview",
-      "camera_name": "INSPECT27 | east_lateral",
+      "camera_name": "INSPECT28 | east_lateral",
       "existing": false,
       "matrix": [
         [
@@ -792,7 +792,7 @@
     },
     "ceiling_inspection": {
       "label": "门厅顶拱 / Standing-eye hall ceiling",
-      "camera_name": "INSPECT27 | ceiling_inspection",
+      "camera_name": "INSPECT28 | ceiling_inspection",
       "existing": false,
       "matrix": [
         [
@@ -844,6 +844,114 @@
         "original_recipe": "provenance/ceiling_inspection_original_v026_recipe.json",
         "original_recipe_sha256": "bd8a5b80e0c9427a0268e76b9446cc6a08aeabb6e736035fe4b7ff833a25ea17",
         "note": "Explicit approved separate standing-eye inspection: same historical first-leg eye/yaw/lens, +8 degree pitch. Historical downward walkthrough unchanged. Candidate model acceptance and native export QA pending."
+      }
+    },
+    "receiving_doorway": {
+      "label": "接待室入口 / Receiving chamber doorway",
+      "camera_name": "INSPECT28 | receiving_doorway",
+      "existing": false,
+      "matrix": [
+        [
+          -0.1119672879576683,
+          -3.010998383956576e-08,
+          -0.9937118887901306,
+          5.900000095367432
+        ],
+        [
+          -0.9937118887901306,
+          1.231675668122989e-07,
+          0.1119672879576683,
+          37.5
+        ],
+        [
+          1.1902174890110473e-07,
+          1.0,
+          -4.371138828673793e-08,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "provenance": {
+        "recipe": "provenance/receiving_doorway_views.json",
+        "recipe_sha256": "92e5a0c2245090f18e58553690a4a65a0853093832126ad609b5ff57fe75b88b",
+        "receipt": "provenance/receiving_doorway_v028_receipt.json",
+        "receipt_sha256": "172b4bebc2d1eff586eec6760270b0f3a1c4eeb34805f1d247b56cd8c67da761",
+        "render_source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+        "note": "Exact actual rendered camera matrix. Separate manual room inspection, not a continuous walkthrough. Corrected reverse_connection only; earlier occluded reverse rejected."
+      }
+    },
+    "receiving_reverse_connection": {
+      "label": "接待室回望 / Receiving chamber doorway return",
+      "camera_name": "INSPECT28 | receiving_reverse_connection",
+      "existing": false,
+      "matrix": [
+        [
+          0.08609894663095474,
+          4.354907190418089e-08,
+          0.9962865710258484,
+          13.800000190734863
+        ],
+        [
+          0.9962865710258484,
+          -3.763504619058722e-09,
+          -0.08609894663095474,
+          36.79999923706055
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "provenance": {
+        "recipe": "provenance/receiving_reverse_connection_views.json",
+        "recipe_sha256": "762718b284e17c25a2286d2a9a695fbc4cdf291bed92413921ab782533a241c4",
+        "receipt": "provenance/receiving_reverse_connection_v028_receipt.json",
+        "receipt_sha256": "d8bc5cf64a3617e6cb5fa75e04036e7b3a679127f67c40076478fb16a3601604",
+        "render_source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+        "note": "Exact actual rendered camera matrix. Separate manual room inspection, not a continuous walkthrough. Corrected reverse_connection only; earlier occluded reverse rejected."
       }
     }
   }

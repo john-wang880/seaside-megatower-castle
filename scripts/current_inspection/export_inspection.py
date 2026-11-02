@@ -37,7 +37,7 @@ def install(c,identity,tree_mode=None):
   data.dof.use_dof=False;o=bpy.data.objects.new(v['camera_name'],data);o[TAG]=OWNER;o['bookmark_key']=key;collection.objects.link(o);o.matrix_world=Matrix(v['matrix'])
  text=bpy.data.texts.new(c['text']);text[TAG]=OWNER;text.write(code);text.use_module=False
  marker={'owner':OWNER,'runtime_identity':config['runtime_identity'],'tree_quality_enabled':config['tree_quality_enabled'],'catalog_sha256':CATALOG_SHA,'source_sha256':identity['source_sha256'],'source_bytes':identity['source_bytes'],'reviewed_version':identity['reviewed_version'],'manifest_sha256':identity['manifest_sha256'],'ui_text_sha256':hashlib.sha256(code.encode()).hexdigest(),'notice':'Derived inspection copy. Marker records export provenance only, not certification of later user edits.'}
- if tree_mode is not None:marker['tree_quality']={'schema':'castle-inspection-v027-tree-v1','mode':'HIGH'}
+ if tree_mode is not None:marker['tree_quality']={'schema':'castle-inspection-v028-tree-v1','mode':'HIGH'}
  bpy.context.scene[c['marker']]=json.dumps(marker,ensure_ascii=False,sort_keys=True)
  if tree_mode is not None:
   import types
@@ -62,7 +62,7 @@ def export(repository,source,output,report,tree_mode=None):
   result=bpy.ops.wm.save_as_mainfile(filepath=str(model_tmp),copy=True,compress=True,check_existing=False)
   require('FINISHED' in result and model_tmp.is_file(),'Inspection-copy save failed')
   again,_=preflight(repository,source,output,report,ROOT/'catalog.json');require(again==identity and all(sha(ROOT/n)==h for n,h in runtime.items()),'Source/manifest/runtime changed during export')
-  receipt={**identity,'runtime_sha256':runtime,'output_sha256':sha(model_tmp),'output_bytes':model_tmp.stat().st_size,'source_unchanged':True,'source_saved':False,'rendered':False,'manual_text_only':True,'text_use_module':False,'default_camera':bpy.context.scene.camera.name,'added_cameras':15,'bookmark_count':16,'marker':marker,'tree_mode':tree_mode,'scope':'Owned inspection cameras/collection/manualText/provenance marker; optional explicit tree mode changes only six paired visibility flags. Independent deep QA is separate.'}
+  receipt={**identity,'runtime_sha256':runtime,'output_sha256':sha(model_tmp),'output_bytes':model_tmp.stat().st_size,'source_unchanged':True,'source_saved':False,'rendered':False,'manual_text_only':True,'text_use_module':False,'default_camera':bpy.context.scene.camera.name,'added_cameras':17,'bookmark_count':18,'marker':marker,'tree_mode':tree_mode,'scope':'Owned inspection cameras/collection/manualText/provenance marker; optional explicit tree mode changes only six paired visibility flags. Independent deep QA is separate.'}
   rep_tmp=temp_for(report,'.json');rep_tmp.write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
   with open(rep_tmp,'rb') as f:os.fsync(f.fileno())
   with open(model_tmp,'rb') as f:os.fsync(f.fileno())

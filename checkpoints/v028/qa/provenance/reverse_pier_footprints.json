@@ -1,0 +1,196 @@
+{
+  "candidate_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "camera": {
+    "eye": [
+      13.800000190734863,
+      36.79999923706055,
+      30.649999618530273
+    ],
+    "aim": [
+      5.699999809265137,
+      37.5,
+      30.649999618530273
+    ]
+  },
+  "actual_saved_pier_surface_footprints": [
+    {
+      "pier": "south",
+      "actual_camera_facing_surface_patches": [
+        {
+          "native_triangle": 116,
+          "axis": 1,
+          "plane": 35.400001525878906,
+          "screen_polygon": [
+            [
+              102.47571355765956,
+              694.0
+            ],
+            [
+              102.47571355765956,
+              87.07737923461082
+            ],
+            [
+              0.0,
+              3.213372535201899
+            ],
+            [
+              0.0,
+              54.37653905650485
+            ],
+            [
+              98.48288508852725,
+              694.0
+            ]
+          ],
+          "pixel_area": 34995.85869936903
+        },
+        {
+          "native_triangle": 117,
+          "axis": 1,
+          "plane": 35.400001525878906,
+          "screen_polygon": [
+            [
+              98.48288508852725,
+              694.0
+            ],
+            [
+              0.0,
+              54.37653905650485
+            ],
+            [
+              0.0,
+              694.0
+            ]
+          ],
+          "pixel_area": 31495.981902012165
+        }
+      ],
+      "clipped_screen_bounds": [
+        [
+          0.0,
+          3.213372535201899
+        ],
+        [
+          102.47571355765956,
+          694.0
+        ]
+      ],
+      "sum_projected_patch_area_pixels": 66491.8406013812,
+      "image_area_fraction": 0.0998016339477984
+    },
+    {
+      "pier": "north",
+      "actual_camera_facing_surface_patches": [
+        {
+          "native_triangle": 81,
+          "axis": 0,
+          "plane": 11.399999618530273,
+          "screen_polygon": [
+            [
+              960.0,
+              694.0
+            ],
+            [
+              960.0,
+              236.71168879515886
+            ],
+            [
+              837.1385614798239,
+              694.0
+            ]
+          ],
+          "pixel_area": 28091.549866544367
+        },
+        {
+          "native_triangle": 82,
+          "axis": 0,
+          "plane": 11.399999618530273,
+          "screen_polygon": [
+            [
+              837.1385614798239,
+              694.0
+            ],
+            [
+              960.0,
+              236.71168879515886
+            ],
+            [
+              960.0,
+              35.81438589405817
+            ],
+            [
+              807.9924030961313,
+              29.543203905260953
+            ],
+            [
+              807.9924030961313,
+              694.0
+            ]
+          ],
+          "pixel_area": 72434.29730232887
+        },
+        {
+          "native_triangle": 142,
+          "axis": 1,
+          "plane": 38.20000076293945,
+          "screen_polygon": [
+            [
+              807.9924030961313,
+              694.0
+            ],
+            [
+              807.9924030961313,
+              29.543203905260953
+            ],
+            [
+              714.547964602774,
+              106.01599331730765
+            ],
+            [
+              793.4374889129555,
+              694.0
+            ]
+          ],
+          "pixel_area": 35323.92448625728
+        },
+        {
+          "native_triangle": 143,
+          "axis": 1,
+          "plane": 38.20000076293945,
+          "screen_polygon": [
+            [
+              793.4374889129555,
+              694.0
+            ],
+            [
+              714.547964602774,
+              106.01599331730765
+            ],
+            [
+              714.547964602774,
+              692.7596965175619
+            ],
+            [
+              715.6042671875675,
+              694.0
+            ]
+          ],
+          "pixel_area": 23192.234226708886
+        }
+      ],
+      "clipped_screen_bounds": [
+        [
+          714.547964602774,
+          29.543203905260953
+        ],
+        [
+          960.0,
+          694.0
+        ]
+      ],
+      "sum_projected_patch_area_pixels": 159042.0058818394,
+      "image_area_fraction": 0.238715786926392
+    }
+  ],
+  "limits": "Projected clipped actual facing triangles of each retained pier below roof band, not AABB projection. Patch-area sum is a projected framing metric before other-object occlusion, not pixel segmentation or artistic acceptance; doorway continuous visibility separately proved."
+}

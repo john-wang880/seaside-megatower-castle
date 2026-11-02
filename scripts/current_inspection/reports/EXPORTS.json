@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "OFF",
+    "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+    "viewer_sha256": "30134be43e73bb4c1719caa38e9eea7fd036e03d749c14eacfbf3822dc34608d",
+    "receipt": "work/v028_inspection/viewers \u4e2d\u6587/OFF.json",
+    "bookmark_count": 18,
+    "added_cameras": 17,
+    "runtime_sha256": {
+      "export_inspection.py": "a8d2f09c3e201eb2a4622d11369d667b499faefebed491ba797b169d3ea54888",
+      "preflight.py": "cd4f44b5049221ccac5149b9b0d9f92c44f2cfe7387ce0a4afaa98d78667c310",
+      "catalog.json": "7ef69b66c2e55e35f246039635b4ad91c21f89d894bf1f91f0eb2fe90dae2206",
+      "ui_template.py": "b60206d001016437ab52b22c5a5f457ff7ca883648fa166f0e23d7b2fd785470",
+      "tree_quality_template.py": "02a85a263001c0779afa004c888077af171d37a4492c671e07af30395d1f732a"
+    }
+  },
+  {
+    "mode": "HIGH",
+    "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+    "viewer_sha256": "442a844853bd907836080bd4e3aa343ada2e08f7d0511aad7a5d979aebc0cd04",
+    "receipt": "work/v028_inspection/viewers \u4e2d\u6587/HIGH.json",
+    "bookmark_count": 18,
+    "added_cameras": 17,
+    "runtime_sha256": {
+      "export_inspection.py": "a8d2f09c3e201eb2a4622d11369d667b499faefebed491ba797b169d3ea54888",
+      "preflight.py": "cd4f44b5049221ccac5149b9b0d9f92c44f2cfe7387ce0a4afaa98d78667c310",
+      "catalog.json": "7ef69b66c2e55e35f246039635b4ad91c21f89d894bf1f91f0eb2fe90dae2206",
+      "ui_template.py": "b60206d001016437ab52b22c5a5f457ff7ca883648fa166f0e23d7b2fd785470",
+      "tree_quality_template.py": "02a85a263001c0779afa004c888077af171d37a4492c671e07af30395d1f732a"
+    }
+  },
+  {
+    "mode": "LOW",
+    "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+    "viewer_sha256": "bd75ddf20c8d9d14c1ea438b19dd9cc88611b1c21a75fce63777dd9db4821e5c",
+    "receipt": "work/v028_inspection/viewers \u4e2d\u6587/LOW.json",
+    "bookmark_count": 18,
+    "added_cameras": 17,
+    "runtime_sha256": {
+      "export_inspection.py": "a8d2f09c3e201eb2a4622d11369d667b499faefebed491ba797b169d3ea54888",
+      "preflight.py": "cd4f44b5049221ccac5149b9b0d9f92c44f2cfe7387ce0a4afaa98d78667c310",
+      "catalog.json": "7ef69b66c2e55e35f246039635b4ad91c21f89d894bf1f91f0eb2fe90dae2206",
+      "ui_template.py": "b60206d001016437ab52b22c5a5f457ff7ca883648fa166f0e23d7b2fd785470",
+      "tree_quality_template.py": "02a85a263001c0779afa004c888077af171d37a4492c671e07af30395d1f732a"
+    }
+  }
+]

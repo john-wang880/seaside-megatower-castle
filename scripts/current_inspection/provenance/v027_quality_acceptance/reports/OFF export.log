@@ -1,0 +1,51 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.527  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/castle_v027.blend"
+00:01.267  image.write      | ERROR OpenImageIO write failed: Could not open file "/home/agent/.cache/thumbnails/large/blender_7_10f0767c8bdef6406c800d284d27a5f2.png.png"
+Info: Saved copy as ".inspection-bqcd8d7q.blend"
+{
+  "repository": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle",
+  "manifest": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/checkpoints/v027/MANIFEST.json",
+  "manifest_sha256": "2f11343b9a089a31d1f4281dfbf9cde5b470b0ccc5e03723322ecab1e8d93ff5",
+  "source": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/castle_v027.blend",
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "source_bytes": 47773404,
+  "output": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/OFF viewer.blend",
+  "report": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/OFF receipt.json",
+  "catalog_sha256": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
+  "reviewed_version": 27,
+  "runtime_sha256": {
+    "export_inspection.py": "7222ef48b4ba6250cf727e1b1d6c4e53929eb0360fd92b707ac16e211cec2d92",
+    "preflight.py": "51de7275a4bb105645d572f58de44753e71cae33508174cdf8c1bdd07945cf6b",
+    "catalog.json": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
+    "ui_template.py": "efb24126edb815741d9ddc342cffda3dadcb8846b6f458c0ff1a55f46a392bf4",
+    "tree_quality_template.py": "2f0c4243deea7b7ee6d63770d4d16cba1d589a93aaa7847e5d6397e94356577d"
+  },
+  "output_sha256": "986417b7c343a72e81a4f80216747a2a28497912b2933d3fdb269597a9375e5f",
+  "output_bytes": 47788590,
+  "source_unchanged": true,
+  "source_saved": false,
+  "rendered": false,
+  "manual_text_only": true,
+  "text_use_module": false,
+  "default_camera": "V002 | full coastal skyline camera",
+  "added_cameras": 15,
+  "bookmark_count": 16,
+  "marker": {
+    "owner": "castle-current-inspection-v1",
+    "runtime_identity": "95190ddea1e34a746c68bc618fafd140e04ccb96623eb88e8ff39142ed04abb2",
+    "tree_quality_enabled": false,
+    "catalog_sha256": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
+    "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+    "source_bytes": 47773404,
+    "reviewed_version": 27,
+    "manifest_sha256": "2f11343b9a089a31d1f4281dfbf9cde5b470b0ccc5e03723322ecab1e8d93ff5",
+    "ui_text_sha256": "30cf18006f4b01d085776e10ef4869ebd1999efc685780ee643d6c908643bf1b",
+    "notice": "Derived inspection copy. Marker records export provenance only, not certification of later user edits."
+  },
+  "tree_mode": null,
+  "scope": "Owned inspection cameras/collection/manualText/provenance marker; optional explicit tree mode changes only six paired visibility flags. Independent deep QA is separate."
+}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

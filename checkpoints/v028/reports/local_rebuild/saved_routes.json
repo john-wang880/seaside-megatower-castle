@@ -1,0 +1,230 @@
+{
+  "pass": true,
+  "candidate_sha256": "6105bfa5f599f6fc04458c8e92bdd2a3f8c6f3762159a8cdbe50ca6b2b1d172c",
+  "routes_and_camera_proxies": [
+    {
+      "name": "central",
+      "continuous_box": [
+        [
+          7.0,
+          36.9,
+          29.025
+        ],
+        [
+          14.4,
+          38.1,
+          31.1
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "west_aisle",
+      "continuous_box": [
+        [
+          8.6,
+          32.699999999999996,
+          29.025
+        ],
+        [
+          9.799999999999999,
+          40.300000000000004,
+          31.1
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "east_aisle",
+      "continuous_box": [
+        [
+          13.200000000000001,
+          32.699999999999996,
+          29.025
+        ],
+        [
+          14.4,
+          40.300000000000004,
+          31.1
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "south_cross",
+      "continuous_box": [
+        [
+          8.6,
+          32.699999999999996,
+          29.025
+        ],
+        [
+          14.4,
+          33.9,
+          31.1
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "north_cross",
+      "continuous_box": [
+        [
+          8.6,
+          39.1,
+          29.025
+        ],
+        [
+          14.4,
+          40.300000000000004,
+          31.1
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "entry_shift",
+      "continuous_box": [
+        [
+          3.85,
+          36.9,
+          29.025
+        ],
+        [
+          5.05,
+          38.6,
+          31.1
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "entry_east",
+      "continuous_box": [
+        [
+          3.85,
+          36.9,
+          29.025
+        ],
+        [
+          8.2,
+          38.1,
+          31.1
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "primary_near_sphere_AABB",
+      "continuous_box": [
+        [
+          5.834239621708847,
+          37.43423962170885,
+          30.584239621708846
+        ],
+        [
+          5.9657603782911535,
+          37.56576037829115,
+          30.71576037829115
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "primary_body",
+      "continuous_box": [
+        [
+          5.300000000000001,
+          36.9,
+          29.025
+        ],
+        [
+          6.5,
+          38.1,
+          31.1
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "secondary_near_sphere_AABB",
+      "continuous_box": [
+        [
+          13.634239621708845,
+          39.43423962170885,
+          30.584239621708846
+        ],
+        [
+          13.765760378291153,
+          39.56576037829115,
+          30.71576037829115
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    },
+    {
+      "name": "secondary_body",
+      "continuous_box": [
+        [
+          13.1,
+          38.9,
+          29.025
+        ],
+        [
+          14.299999999999999,
+          40.1,
+          31.1
+        ]
+      ],
+      "components_checked": 30,
+      "actual_triangle_and_closed_containment_disjoint": true
+    }
+  ],
+  "view_design": {
+    "primary": {
+      "eye": [
+        5.9,
+        37.5,
+        30.65
+      ],
+      "aim": [
+        13,
+        36.7,
+        30.65
+      ]
+    },
+    "secondary": {
+      "eye": [
+        13.7,
+        39.5,
+        30.65
+      ],
+      "aim": [
+        8,
+        35.8,
+        30.45
+      ]
+    }
+  },
+  "near_plane_enclosing_radius": 0.06576037829115312,
+  "camera_settings": {
+    "lens": 26,
+    "sensor_width": 36,
+    "resolution": [
+      960,
+      694
+    ],
+    "clip_start": 0.05
+  },
+  "limits": "Continuous axis-aligned body/near-plane proxies only. No full-floor accessibility, human gait, whole frustum visibility, or rendered camera metadata claim. Unchanged old components covered by exact source proof and bounded complete export; new meshes use saved native loop triangles."
+}

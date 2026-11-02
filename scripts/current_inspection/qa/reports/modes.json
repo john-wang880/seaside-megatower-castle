@@ -17,7 +17,7 @@
         "visibility": true
       },
       "category_count": 13,
-      "reopen_and_16_bookmark_interleaving": true
+      "reopen_and_18_bookmark_interleaving": true
     },
     "high": {
       "category_checks": {
@@ -36,7 +36,7 @@
         "visibility": true
       },
       "category_count": 13,
-      "reopen_and_16_bookmark_interleaving": true
+      "reopen_and_18_bookmark_interleaving": true
     },
     "low": {
       "category_checks": {
@@ -55,7 +55,7 @@
         "visibility": true
       },
       "category_count": 13,
-      "reopen_and_16_bookmark_interleaving": true
+      "reopen_and_18_bookmark_interleaving": true
     }
   },
   "negatives": [
@@ -1087,21 +1087,21 @@
     "values": "unit weights only"
   },
   "input_sha256": {
-    "source": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+    "source": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
     "baseline": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
-    "off": "986417b7c343a72e81a4f80216747a2a28497912b2933d3fdb269597a9375e5f",
-    "high": "65c73e422fc5a36a4344b5a36169e5d09909d74bfed20d0c2a3f7781f12b0e95",
-    "low": "04373c2a72b4f9a9508b106f73124078cdd6eddb68dd510f3ea4c546be1795f5",
-    "off_receipt": "b867d26662cb91de3c0999f7f2316736bb59c36034956837bc5639f99caebbba",
-    "high_receipt": "1551db82f60d4b78a48ec84d9707d871596b3ee1d7ad7fb6f377d45679f60d9c",
-    "low_receipt": "0d0e60941aa9fd02e9eee6d0d55a6bb1400d3956b3778d2635c87b09f0cd0c1f"
+    "off": "30134be43e73bb4c1719caa38e9eea7fd036e03d749c14eacfbf3822dc34608d",
+    "high": "442a844853bd907836080bd4e3aa343ada2e08f7d0511aad7a5d979aebc0cd04",
+    "low": "bd75ddf20c8d9d14c1ea438b19dd9cc88611b1c21a75fce63777dd9db4821e5c",
+    "off_receipt": "4fabf175f05ce09c6879ff951c1de0a2ecee60fa7f9c8c4c250b1efa107e2e9e",
+    "high_receipt": "1e02319e978943716e5e146f6d95fb5fd929e172858af7f1b14c00bc24644c32",
+    "low_receipt": "7fb8ec6bad3d9aefdce4fff1580d726389d3b49c659d6278146283b5fe8913d5"
   },
   "runtime_sha256": {
-    "export_inspection.py": "7222ef48b4ba6250cf727e1b1d6c4e53929eb0360fd92b707ac16e211cec2d92",
-    "preflight.py": "51de7275a4bb105645d572f58de44753e71cae33508174cdf8c1bdd07945cf6b",
-    "catalog.json": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
-    "ui_template.py": "efb24126edb815741d9ddc342cffda3dadcb8846b6f458c0ff1a55f46a392bf4",
-    "tree_quality_template.py": "2f0c4243deea7b7ee6d63770d4d16cba1d589a93aaa7847e5d6397e94356577d"
+    "export_inspection.py": "a8d2f09c3e201eb2a4622d11369d667b499faefebed491ba797b169d3ea54888",
+    "preflight.py": "cd4f44b5049221ccac5149b9b0d9f92c44f2cfe7387ce0a4afaa98d78667c310",
+    "catalog.json": "7ef69b66c2e55e35f246039635b4ad91c21f89d894bf1f91f0eb2fe90dae2206",
+    "ui_template.py": "b60206d001016437ab52b22c5a5f457ff7ca883648fa166f0e23d7b2fd785470",
+    "tree_quality_template.py": "02a85a263001c0779afa004c888077af171d37a4492c671e07af30395d1f732a"
   },
   "source_saved": false,
   "rendered": false,

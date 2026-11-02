@@ -1,0 +1,14 @@
+test_disjoint_same_plane (test_coplanar_controls.Controls.test_disjoint_same_plane) ... ok
+test_edge_only (test_coplanar_controls.Controls.test_edge_only) ... ok
+test_explicit_broadphase (test_coplanar_controls.Controls.test_explicit_broadphase) ... ok
+test_known140 (test_coplanar_controls.Controls.test_known140) ... ok
+test_nonparallel (test_coplanar_controls.Controls.test_nonparallel) ... ok
+test_opposite_facing (test_coplanar_controls.Controls.test_opposite_facing) ... ok
+test_parallel_gap (test_coplanar_controls.Controls.test_parallel_gap) ... ok
+test_same_facing (test_coplanar_controls.Controls.test_same_facing) ... ok
+test_zero_triangle (test_coplanar_controls.Controls.test_zero_triangle) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.003s
+
+OK

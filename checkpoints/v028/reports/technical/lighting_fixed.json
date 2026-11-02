@@ -1,0 +1,78 @@
+{
+  "status": "Unaccepted fixed-lit blockout; saved geometric and visual gates pending",
+  "input_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_receiving_chamber/unlit.blend": "103be14556a9bbc96b26033b2b6016f0038d980ca7b3e69da792671e3f85ac60",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_receiving_chamber/integration.json": "cfbe9426f8d1214f001fc80d659ed02eb206c5141ca503dc2cd0ce0e4995dab1",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_receiving_chamber/add_room_lanterns.py": "ded95b2238c515312370110047698f58caf64850156dcbcab07d741a32a7766a",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_receiving_chamber/snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_receiving_chamber/frozen_plan/route_fixture_plan.json": "0593cb43d82776d8fe38ad92dbfc1cacb6748f6626c8bda6d2ba03264418b659"
+  },
+  "canonical_source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "architecture_receipt_sha256": "cfbe9426f8d1214f001fc80d659ed02eb206c5141ca503dc2cd0ce0e4995dab1",
+  "new_objects": [
+    "V028 | room 1 mounting plate",
+    "V028 | room 1 wall arm",
+    "V028 | room 1 lower cup",
+    "V028 | room 1 hood rim",
+    "V028 | room 1 rain hood",
+    "V028 | room 1 cage upright 0",
+    "V028 | room 1 cage upright 1",
+    "V028 | room 1 cage upright 2",
+    "V028 | room 1 cage upright 3",
+    "V028 | room 1 luminous flame",
+    "V028 | room 1 practical warm source",
+    "V028 | room 2 mounting plate",
+    "V028 | room 2 wall arm",
+    "V028 | room 2 lower cup",
+    "V028 | room 2 hood rim",
+    "V028 | room 2 rain hood",
+    "V028 | room 2 cage upright 0",
+    "V028 | room 2 cage upright 1",
+    "V028 | room 2 cage upright 2",
+    "V028 | room 2 cage upright 3",
+    "V028 | room 2 luminous flame",
+    "V028 | room 2 practical warm source"
+  ],
+  "new_collection": "V028 | receiving chamber warm lanterns",
+  "lights": [
+    {
+      "name": "V028 | room 1 practical warm source",
+      "location": [
+        14.8100004196167,
+        34.0,
+        30.950000762939453
+      ],
+      "energy": 36.0,
+      "color": [
+        1.0,
+        0.5799999833106995,
+        0.25
+      ],
+      "shadow_soft_size": 0.03500000014901161,
+      "copied_from": "V013 | turn practical warm source"
+    },
+    {
+      "name": "V028 | room 2 practical warm source",
+      "location": [
+        14.8100004196167,
+        39.0,
+        30.950000762939453
+      ],
+      "energy": 36.0,
+      "color": [
+        1.0,
+        0.5799999833106995,
+        0.25
+      ],
+      "shadow_soft_size": 0.03500000014901161,
+      "copied_from": "V013 | turn practical warm source"
+    }
+  ],
+  "fixture_triangles": 1160,
+  "combined_triangles": 1878,
+  "all_preexisting_scene_data_unchanged": true,
+  "rendered": false,
+  "recipe": "Two exact current turn-lantern copies at fixed far-wall positions. No power, color, world, exposure or old-light changes.",
+  "candidate_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "candidate_bytes": 47806291
+}

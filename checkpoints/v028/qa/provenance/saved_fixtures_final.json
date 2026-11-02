@@ -1,0 +1,216 @@
+{
+  "pass": true,
+  "candidate_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "architecture_geometry_sha256": "becff0e9dc2626d59153f5f68ec92c328b721bfe9781de51a48060fcd47963a1",
+  "fixtures": [
+    {
+      "object": "V028 | room 1 mounting plate",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 1 wall arm",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 1 lower cup",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 1 hood rim",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 1 rain hood",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 1 cage upright 0",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 1 cage upright 1",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 1 cage upright 2",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 1 cage upright 3",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 1 luminous flame",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 mounting plate",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 wall arm",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 lower cup",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 hood rim",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 rain hood",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 cage upright 0",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 cage upright 1",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 cage upright 2",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 cage upright 3",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    },
+    {
+      "object": "V028 | room 2 luminous flame",
+      "all_11_continuous_body_near_plane_boxes_disjoint": true,
+      "other_preserved_and_outside_host_components_disjoint": 29
+    }
+  ],
+  "positive_wall_seats": [
+    {
+      "object": "V028 | room 1 mounting plate",
+      "plate": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0000000000000002,
+        "bounds": [
+          [
+            15.0005,
+            33.99,
+            30.94
+          ],
+          [
+            15.002,
+            34.01,
+            30.96
+          ]
+        ],
+        "source": {
+          "object": "V028 | room 1 mounting plate",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "saved_local_wall": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0000000000000007,
+        "bounds": [
+          [
+            15.0005,
+            33.99,
+            30.94
+          ],
+          [
+            15.002,
+            34.01,
+            30.96
+          ]
+        ],
+        "source": {
+          "object": "V028 | local receiving chamber shell",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    },
+    {
+      "object": "V028 | room 2 mounting plate",
+      "plate": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0000000000000002,
+        "bounds": [
+          [
+            15.0005,
+            38.99,
+            30.94
+          ],
+          [
+            15.002,
+            39.01,
+            30.96
+          ]
+        ],
+        "source": {
+          "object": "V028 | room 2 mounting plate",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "saved_local_wall": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0000000000000002,
+        "bounds": [
+          [
+            15.0005,
+            38.99,
+            30.94
+          ],
+          [
+            15.002,
+            39.01,
+            30.96
+          ]
+        ],
+        "source": {
+          "object": "V028 | local receiving chamber shell",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    }
+  ],
+  "coplanar_or_near_coplanar_contacts": [],
+  "same_facing_count": 0,
+  "plane_distance_budget": 7.62939453125e-06,
+  "budget_basis": "Two float32 ULP at maximum local-shell coordinate, fixed before testing; contact helper separately reports strict1e-7 classification. Positive area cutoff1e-8 from historical controlled clipping predicate.",
+  "limits": "Finite positive seat and continuous proxy geometry, not load or global accessibility. Existing fixture self topology/materials copied exactly, not redesigned."
+}

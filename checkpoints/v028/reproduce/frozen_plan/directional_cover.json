@@ -1,0 +1,326 @@
+{
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "interpretation": "Independent one-direction expanded-room continuous coverage. Not exact nearest distance, combined expansion, final saved cut, or load-bearing capacity. West intentional doorway excluded from final retained wall claim.",
+  "lower_bounds": {
+    "floor": 1.39,
+    "roof": 0.34,
+    "west": 1.44,
+    "east": 1,
+    "south": 1,
+    "north": 1
+  },
+  "certificates": {
+    "floor": {
+      "pass": true,
+      "cover": "two connected overlapping slabs whose union equals requested full box",
+      "lower": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0,
+        "bounds": [
+          [
+            7.0,
+            32.5,
+            27.61
+          ],
+          [
+            15.0,
+            40.5,
+            30.82
+          ]
+        ],
+        "source": {
+          "object": "V012 | foundation with continuous L-shaped passage",
+          "seed": 128
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "upper": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 0.9999999999999994,
+        "bounds": [
+          [
+            7.0,
+            32.5,
+            30.619999999999997
+          ],
+          [
+            15.0,
+            40.5,
+            32.05
+          ]
+        ],
+        "source": {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "seed": 13132
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    },
+    "roof": {
+      "pass": true,
+      "cover": "two connected overlapping slabs whose union equals requested full box",
+      "lower": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0,
+        "bounds": [
+          [
+            7.0,
+            32.5,
+            29.0
+          ],
+          [
+            15.0,
+            40.5,
+            30.82
+          ]
+        ],
+        "source": {
+          "object": "V012 | foundation with continuous L-shaped passage",
+          "seed": 128
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "upper": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0000000000000009,
+        "bounds": [
+          [
+            7.0,
+            32.5,
+            30.619999999999997
+          ],
+          [
+            15.0,
+            40.5,
+            32.39
+          ]
+        ],
+        "source": {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "seed": 13132
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    },
+    "west": {
+      "pass": true,
+      "cover": "two connected overlapping slabs whose union equals requested full box",
+      "lower": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0,
+        "bounds": [
+          [
+            5.56,
+            32.5,
+            29.0
+          ],
+          [
+            15.0,
+            40.5,
+            30.82
+          ]
+        ],
+        "source": {
+          "object": "V012 | foundation with continuous L-shaped passage",
+          "seed": 128
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "upper": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 0.999999999999999,
+        "bounds": [
+          [
+            5.56,
+            32.5,
+            30.619999999999997
+          ],
+          [
+            15.0,
+            40.5,
+            32.05
+          ]
+        ],
+        "source": {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "seed": 13132
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    },
+    "east": {
+      "pass": true,
+      "cover": "two connected overlapping slabs whose union equals requested full box",
+      "lower": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0000000000000002,
+        "bounds": [
+          [
+            7.0,
+            32.5,
+            29.0
+          ],
+          [
+            16.0,
+            40.5,
+            30.82
+          ]
+        ],
+        "source": {
+          "object": "V012 | foundation with continuous L-shaped passage",
+          "seed": 128
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "upper": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.000000000000001,
+        "bounds": [
+          [
+            7.0,
+            32.5,
+            30.619999999999997
+          ],
+          [
+            16.0,
+            40.5,
+            32.05
+          ]
+        ],
+        "source": {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "seed": 13132
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    },
+    "south": {
+      "pass": true,
+      "cover": "two connected overlapping slabs whose union equals requested full box",
+      "lower": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0,
+        "bounds": [
+          [
+            7.0,
+            31.5,
+            29.0
+          ],
+          [
+            15.0,
+            40.5,
+            30.82
+          ]
+        ],
+        "source": {
+          "object": "V012 | foundation with continuous L-shaped passage",
+          "seed": 128
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "upper": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0000000000000004,
+        "bounds": [
+          [
+            7.0,
+            31.5,
+            30.619999999999997
+          ],
+          [
+            15.0,
+            40.5,
+            32.05
+          ]
+        ],
+        "source": {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "seed": 13132
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    },
+    "north": {
+      "pass": true,
+      "cover": "two connected overlapping slabs whose union equals requested full box",
+      "lower": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0,
+        "bounds": [
+          [
+            7.0,
+            32.5,
+            29.0
+          ],
+          [
+            15.0,
+            41.5,
+            30.82
+          ]
+        ],
+        "source": {
+          "object": "V012 | foundation with continuous L-shaped passage",
+          "seed": 128
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "upper": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0000000000000007,
+        "bounds": [
+          [
+            7.0,
+            32.5,
+            30.619999999999997
+          ],
+          [
+            15.0,
+            41.5,
+            32.05
+          ]
+        ],
+        "source": {
+          "object": "V012 | ashlar with bounded entrance and north stairwell",
+          "seed": 13132
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      }
+    }
+  }
+}

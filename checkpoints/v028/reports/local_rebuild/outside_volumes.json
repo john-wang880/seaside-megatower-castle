@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "candidate_sha256": "6105bfa5f599f6fc04458c8e92bdd2a3f8c6f3762159a8cdbe50ca6b2b1d172c",
+  "rows": [
+    {
+      "name": "V028 | foundation outside chamber guard",
+      "source_volume": 25592.05920206056,
+      "removed_source_inside_quantized_guard": 177.31164399497285,
+      "saved_outside_volume": 25414.74755806559,
+      "exact_rational_difference": "0"
+    },
+    {
+      "name": "V028 | ashlar outside chamber guard",
+      "source_volume": 13352.7050079985,
+      "removed_source_inside_quantized_guard": 148.23804786582997,
+      "saved_outside_volume": 13204.46696013267,
+      "exact_rational_difference": "0"
+    },
+    {
+      "name": "V028 | east lining outside chamber guard",
+      "source_volume": 1.1760003738391387,
+      "removed_source_inside_quantized_guard": 0.49299857997996516,
+      "saved_outside_volume": 0.6830017938591736,
+      "exact_rational_difference": "0"
+    }
+  ],
+  "limits": "Oriented volume per original host separately, not sum as union volume where original hosts overlap."
+}

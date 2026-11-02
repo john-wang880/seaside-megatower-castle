@@ -1,0 +1,42 @@
+{
+  "purpose": "Same-camera entrance comparison; publication and final QA status not claimed",
+  "before": {
+    "path": "work/v027_hall_bays/visual/frame_0001_after/image.png",
+    "sha256": "96660e015c134f03d88d1221f6dea306e90760e1885f9d7033f7dc4e6adac7d8",
+    "label": "v027｜原通道"
+  },
+  "after": {
+    "path": "work/v028_receiving_chamber/visual/frame_0001/image.png",
+    "sha256": "42c0a86c67c7fd90789efb3c161ce18ecb0242e0624f99f8516433339277585a",
+    "label": "v028｜新增房间入口"
+  },
+  "note": "同一视角；原灯具/整体光照设置保留，房间内新增两盏暖灯",
+  "source_dimensions": [
+    960,
+    694
+  ],
+  "output_dimensions": [
+    1992,
+    868
+  ],
+  "source_rectangles": [
+    [
+      24,
+      86,
+      984,
+      780
+    ],
+    [
+      1008,
+      86,
+      1968,
+      780
+    ]
+  ],
+  "exact_decoded_rgb_pixels_verified": true,
+  "rescale": false,
+  "retouch": false,
+  "font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+  "script_sha256": "6b654e12c81f0baa2c774e39818fd7cd53ba68d217142255cea9861e58d90c69",
+  "output_sha256": "b0f123a8f03ed4a39c84ed62050383f6e267975bb7af185fb4331f0ac67737bf"
+}

@@ -1,0 +1,466 @@
+{
+  "pass": true,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "input_sha256": {
+    "export": "83593439fc128700af9302eb1e53185b3f782b00f39e1b7cb972a72823dc362e",
+    "guard_faces": "9bd5d1b31bd4c5e8890865c1294adb1aff587bfcd729730b254cbe5da4be9c40",
+    "script": "6fcb3b64c4767eba8d38f87584627335beac163c50db6bd2248fd105fc120679"
+  },
+  "guard_union": [
+    [
+      [
+        6.9,
+        32.4,
+        28.9
+      ],
+      [
+        15.1,
+        40.6,
+        32.15
+      ]
+    ],
+    [
+      [
+        5.35,
+        36.65,
+        28.65
+      ],
+      [
+        7.1,
+        38.35,
+        31.6
+      ]
+    ]
+  ],
+  "proposed_sleeve": [
+    [
+      5.49,
+      36.7,
+      28.7
+    ],
+    [
+      5.56,
+      38.3,
+      31.55
+    ]
+  ],
+  "opening_unchanged": [
+    [
+      5.4,
+      36.8,
+      29
+    ],
+    [
+      7,
+      38.2,
+      31.45
+    ]
+  ],
+  "retained_solids": [
+    [
+      [
+        10.6,
+        34.6,
+        29
+      ],
+      [
+        11.4,
+        35.4,
+        32.05
+      ]
+    ],
+    [
+      [
+        10.6,
+        38.2,
+        29
+      ],
+      [
+        11.4,
+        39,
+        32.05
+      ]
+    ],
+    [
+      [
+        10.6,
+        32.5,
+        31.8
+      ],
+      [
+        11.4,
+        40.5,
+        32.05
+      ]
+    ]
+  ],
+  "minimum_changed_domain_guard_buffer": 0.05000000000000071,
+  "all_intersecting_source_boundaries_axis_aligned": true,
+  "coordinate_planes": [
+    [
+      5.35,
+      5.4,
+      5.400000095367432,
+      5.49,
+      5.5,
+      5.550000190734863,
+      5.56,
+      6.9,
+      7,
+      7.1,
+      10.6,
+      11.4,
+      15,
+      15.1
+    ],
+    [
+      32.4,
+      32.5,
+      34.6,
+      35.4,
+      36.65,
+      36.7,
+      36.8,
+      38.2,
+      38.3,
+      38.35,
+      39,
+      40.5,
+      40.6
+    ],
+    [
+      28.65,
+      28.7,
+      28.700000762939453,
+      28.75,
+      28.9,
+      29,
+      30.0,
+      31.440000534057617,
+      31.45,
+      31.55,
+      31.6,
+      31.8,
+      32.05,
+      32.15
+    ]
+  ],
+  "partition_cell_count": 1038,
+  "max_winding_classification_residual": 7.34135409454018e-10,
+  "uniform_cell_proof": "Every actual host boundary intersecting G lies on recorded axis planes. Including all guard/cavity/sleeve/retained planes makes each connected open cell boundary-disjoint; its winding witness classifies its entire interior. Plane boundaries have zero volume. No convex-host approximation or finite-grid sampling inference.",
+  "local_source_union_volume": 225.90374861383458,
+  "predicted_after_local_union_cut_volume": 30.623749795437053,
+  "predicted_removed_old_source_volume": 195.3324990186691,
+  "sleeve_added_volume_before_cut": 0.22400085449218674,
+  "sleeve_added_volume_after_cut": 0.05250020027160507,
+  "sleeve_added_volume_after_cut_closed_form": 0.05250020027160506,
+  "added_volume_scope": "Relative to actual three-host closed architectural union; open terrain is unchanged, not invented as a volume. Mathematical expected result only, not a saved candidate.",
+  "changed_guard_interface_cells": [],
+  "elementary_interior_boundary_rectangles": 496,
+  "source_seat_positive_box_witnesses": {
+    "south_jamb_lining": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 0.999999999999999,
+      "bounds": [
+        [
+          5.492,
+          36.72,
+          29.01
+        ],
+        [
+          5.498,
+          36.78,
+          31.43
+        ]
+      ],
+      "source": {
+        "object": "V012 | hall east stone lining",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "south_jamb_foundation": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0,
+      "bounds": [
+        [
+          5.552,
+          36.72,
+          29.01
+        ],
+        [
+          5.558,
+          36.78,
+          31.43
+        ]
+      ],
+      "source": {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "seed": 128
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "south_jamb_lining_upper": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 0.9999999999999999,
+      "bounds": [
+        [
+          5.492,
+          36.72,
+          31.46
+        ],
+        [
+          5.498,
+          36.78,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V012 | hall east stone lining",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "south_jamb_ashlar_upper": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0,
+      "bounds": [
+        [
+          5.552,
+          36.72,
+          31.46
+        ],
+        [
+          5.558,
+          36.78,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 13132
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "north_jamb_lining": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0,
+      "bounds": [
+        [
+          5.492,
+          38.22,
+          29.01
+        ],
+        [
+          5.498,
+          38.28,
+          31.43
+        ]
+      ],
+      "source": {
+        "object": "V012 | hall east stone lining",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "north_jamb_foundation": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0,
+      "bounds": [
+        [
+          5.552,
+          38.22,
+          29.01
+        ],
+        [
+          5.558,
+          38.28,
+          31.43
+        ]
+      ],
+      "source": {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "seed": 128
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "north_jamb_lining_upper": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0,
+      "bounds": [
+        [
+          5.492,
+          38.22,
+          31.46
+        ],
+        [
+          5.498,
+          38.28,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V012 | hall east stone lining",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "north_jamb_ashlar_upper": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0,
+      "bounds": [
+        [
+          5.552,
+          38.22,
+          31.46
+        ],
+        [
+          5.558,
+          38.28,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 13132
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "lintel_lining": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0000000000000007,
+      "bounds": [
+        [
+          5.492,
+          36.72,
+          31.46
+        ],
+        [
+          5.498,
+          38.28,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V012 | hall east stone lining",
+        "seed": 0
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "lintel_ashlar": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 1.0000000000000002,
+      "bounds": [
+        [
+          5.552,
+          36.72,
+          31.46
+        ],
+        [
+          5.558,
+          38.28,
+          31.54
+        ]
+      ],
+      "source": {
+        "object": "V012 | ashlar with bounded entrance and north stairwell",
+        "seed": 13132
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    },
+    "threshold_foundation_below": {
+      "pass": true,
+      "closed_oriented": true,
+      "boundary_candidates": 0,
+      "actual_boundary_intersections": 0,
+      "winding": 0.9999999999999921,
+      "bounds": [
+        [
+          5.51,
+          36.9,
+          28.71
+        ],
+        [
+          5.54,
+          38.1,
+          28.74
+        ]
+      ],
+      "source": {
+        "object": "V012 | foundation with continuous L-shaped passage",
+        "seed": 128
+      },
+      "numerical_sat_distance_allowance": 1e-09
+    }
+  },
+  "old_jamb_lintel_gap_boxes": [
+    [
+      [
+        5.50001,
+        36.70001,
+        29.00001
+      ],
+      [
+        5.54999,
+        36.79999,
+        31.43999
+      ]
+    ],
+    [
+      [
+        5.50001,
+        38.20001,
+        29.00001
+      ],
+      [
+        5.54999,
+        38.29999,
+        31.43999
+      ]
+    ],
+    [
+      [
+        5.50001,
+        36.70001,
+        31.44001
+      ],
+      [
+        5.54999,
+        38.29999,
+        31.54999
+      ]
+    ]
+  ],
+  "preservation_contract": "112 wholly remote parent faces exact; eight affected parents are flat axis-planar, three concave. Original outside-G surface portions/materials/normals and inherited duplicate faces remain. G is partition scope, not blanket non-target edit permission.",
+  "pending": "Parent additive sleeve authority; actual local partition/stitch/<=2000tri result and all saved geometry/state QA. No Boolean/candidate/native operation performed."
+}

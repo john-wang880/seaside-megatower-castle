@@ -10,7 +10,7 @@ p=argparse.ArgumentParser()
 for k in ('source','baseline','tool','off','high','low','off-receipt','high-receipt','low-receipt','report'):p.add_argument('--'+k,required=True)
 a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);paths={k:Path(v).resolve() for k,v in vars(a).items()};sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
 cs.require(not paths['report'].exists(),'Report exists');inputs={k:sha(v) for k,v in paths.items() if k not in ('tool','report')};cs.require(inputs['source']==cs.SOURCE_SHA and inputs['baseline']==cs.BASE_SHA,'Input source identity')
-cs.require(sha(paths['tool']/'catalog.json')=='efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4','Frozen 16-camera catalog changed');catalog=json.loads((paths['tool']/'catalog.json').read_text());cs.require(len(catalog['views'])==16,'Expected frozen 16-view catalog');runtime={n:sha(paths['tool']/n) for n in ('export_inspection.py','preflight.py','catalog.json','ui_template.py','tree_quality_template.py')};evidence={'modes':{},'negatives':[],'derived_ui':[]}
+cs.require(sha(paths['tool']/'catalog.json')=='7ef69b66c2e55e35f246039635b4ad91c21f89d894bf1f91f0eb2fe90dae2206','Frozen 18-camera catalog changed');catalog=json.loads((paths['tool']/'catalog.json').read_text());cs.require(len(catalog['views'])==18,'Expected frozen 18-view catalog');runtime={n:sha(paths['tool']/n) for n in ('export_inspection.py','preflight.py','catalog.json','ui_template.py','tree_quality_template.py')};evidence={'modes':{},'negatives':[],'derived_ui':[]}
 def load(key):
  global guard_objects
  bpy.ops.wm.open_mainfile(filepath=str(paths[key]),load_ui=True,use_scripts=False)
@@ -79,11 +79,11 @@ for mode in ('off','high','low'):
    for desired in ('LOW','HIGH',mode.upper()):
     ui.tree_set_mode(bpy.context.scene,desired);cs.require(camera_state()==before_cam,'Tree changes camera state')
     cs.require(ui.tree_set_mode(bpy.context.scene,desired)['changed'] is False,'Same mode not idempotent')
-    before_flags=flags();bpy.ops.castle27_inspection.bookmark(view_id=key);cs.require(flags()==before_flags,'Bookmark changes tree state')
-   cs.require(bpy.ops.castle27_inspection.tree_quality(mode=mode.upper())=={'FINISHED'},'Native quality operator failed')
+    before_flags=flags();bpy.ops.castle28_inspection.bookmark(view_id=key);cs.require(flags()==before_flags,'Bookmark changes tree state')
+   cs.require(bpy.ops.castle28_inspection.tree_quality(mode=mode.upper())=={'FINISHED'},'Native quality operator failed')
  ui.select_bookmark('hero');cs.require(snap()==state,'Repeated mode/bookmark operations drift')
  cs.require(ui.unregister() is True and ui.unregister() is False,'Unregister idempotence')
- load(mode);module(mode).verify();cs.require(snap()==state,'Reopen differs');evidence['modes'][mode]['reopen_and_16_bookmark_interleaving']=True
+ load(mode);module(mode).verify();cs.require(snap()==state,'Reopen differs');evidence['modes'][mode]['reopen_and_18_bookmark_interleaving']=True
 # Stale OFF/ON runtime identities must refuse even without a registered module.
 load('off');reject('stale ON module on OFF copy',modules['high'].register)
 load('high');reject('stale OFF module on ON copy',modules['off'].register)

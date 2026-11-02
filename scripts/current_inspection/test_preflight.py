@@ -5,7 +5,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 import preflight as p
 class Guards(unittest.TestCase):
  def setUp(self):
-  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)/'项目 with spaces';self.root.mkdir();self.repo=self.root/'repo';self.repo.mkdir();self.cp=self.repo/'checkpoints/v027';self.cp.mkdir(parents=True);self.manifest={'format':'blend-zstd-frames-v1','model':'castle_v027.blend','model_sha256':p.SOURCE_SHA,'model_bytes':p.SOURCE_BYTES};self.mp=self.cp/'MANIFEST.json';self.mp.write_text(json.dumps(self.manifest));self.source=self.root/'source.blend';self.source.write_bytes(b'test');self.out=self.root/'检查 copy.blend';self.report=self.root/'检查 report.json';self.catalog=Path(__file__).with_name('catalog.json')
+  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)/'项目 with spaces';self.root.mkdir();self.repo=self.root/'repo';self.repo.mkdir();self.cp=self.repo/'checkpoints/v028';self.cp.mkdir(parents=True);self.manifest={'format':'blend-zstd-frames-v1','model':'castle_v028.blend','model_sha256':p.SOURCE_SHA,'model_bytes':p.SOURCE_BYTES};self.mp=self.cp/'MANIFEST.json';self.mp.write_text(json.dumps(self.manifest));self.source=self.root/'source.blend';self.source.write_bytes(b'test');self.out=self.root/'检查 copy.blend';self.report=self.root/'检查 report.json';self.catalog=Path(__file__).with_name('catalog.json')
  def tearDown(self):self.tmp.cleanup()
  def test_import_without_bpy(self):
   cmd=[sys.executable,'-c',"import sys;sys.path.insert(0,"+repr(str(Path(__file__).parent))+ ");import export_inspection;assert 'bpy' not in sys.modules"]
@@ -17,21 +17,24 @@ class Guards(unittest.TestCase):
   namespace,operator=ast.literal_eval(assignment.value).split('.')
   self.assertEqual(cls.name,namespace.upper()+'_OT_'+operator)
  def test_known_catalog(self):
-  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),16);root=self.catalog.parent
+  c=p.load_catalog(self.catalog);self.assertEqual(len(c['views']),18);root=self.catalog.parent
   for key in ['rear_landward','west_lateral','east_lateral','ceiling_inspection']:
    v=c['views'][key];pr=v['provenance'];recipe=json.loads((root/pr['recipe']).read_text());receipt=json.loads((root/pr['receipt']).read_text())
    self.assertEqual(p.sha(root/pr['recipe']),pr['recipe_sha256']);self.assertEqual(p.sha(root/pr['receipt']),pr['receipt_sha256']);self.assertEqual(receipt['manifest_sha256'],pr['recipe_sha256'])
    self.assertEqual(receipt['source_sha256_before'],pr['render_source_sha256']);self.assertEqual(receipt['source_sha256_after'],pr['render_source_sha256'])
    self.assertEqual(v['matrix'],recipe['views'][key]['reference_matrix']);self.assertEqual(v['reference_resolution'],recipe['resolution']);data=dict(recipe['views'][key]['camera_data']);data.setdefault('type','PERSP');self.assertEqual(v['data'],data)
-  self.assertEqual(c['views']['ceiling_inspection']['provenance']['render_source_sha256'],p.SOURCE_SHA)
-  checker=(root/'qa/validate_modes.py').read_text();self.assertIn("len(catalog['views'])==16",checker)
-  exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':15,'bookmark_count':16",exporter)
+  self.assertEqual(c['views']['ceiling_inspection']['provenance']['render_source_sha256'],'37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255')
+  for key in ['receiving_doorway','receiving_reverse_connection']:
+   v=c['views'][key];pr=v['provenance'];r=json.loads((root/pr['receipt']).read_text())
+   self.assertEqual(pr['render_source_sha256'],p.SOURCE_SHA);self.assertEqual(p.sha(root/pr['recipe']),pr['recipe_sha256']);self.assertEqual(p.sha(root/pr['receipt']),pr['receipt_sha256']);self.assertEqual(r['manifest_sha256'],pr['recipe_sha256']);self.assertEqual(v['matrix'],r['settings']['camera']['matrix_world']);data=dict(r['settings']['camera']['data']);data['type']='PERSP';self.assertEqual(v['data'],data)
+  checker=(root/'qa/validate_modes.py').read_text();self.assertIn("len(catalog['views'])==18",checker)
+  exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':17,'bookmark_count':18",exporter)
 
  def test_corrupt_catalog(self):
   f=self.root/'bad.json';f.write_text(self.catalog.read_text()+' ')
   with self.assertRaises(p.GuardError):p.load_catalog(f)
  def test_future_no_fallback(self):
-  d=self.repo/'checkpoints/v028';d.mkdir();(d/'MANIFEST.json').write_text('{}')
+  d=self.repo/'checkpoints/v029';d.mkdir();(d/'MANIFEST.json').write_text('{}')
   with self.assertRaises(p.GuardError):p.latest_manifest(self.repo)
  def test_numeric_not_lexicographic(self):
   d=self.repo/'checkpoints/v9';d.mkdir();(d/'MANIFEST.json').write_text('{}');self.assertEqual(p.latest_manifest(self.repo)[1],self.mp)

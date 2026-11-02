@@ -1,0 +1,19 @@
+test_changed_helper (test_runner.Guards.test_changed_helper) ... ok
+test_existing_input (test_runner.Guards.test_existing_input) ... ok
+test_extra_cache (test_runner.Guards.test_extra_cache) ... ok
+test_good_hash (test_runner.Guards.test_good_hash) ... ok
+test_hardlink_role_alias (test_runner.Guards.test_hardlink_role_alias) ... ok
+test_malformed_hash (test_runner.Guards.test_malformed_hash) ... ok
+test_missing_input (test_runner.Guards.test_missing_input) ... ok
+test_missing_output_parent (test_runner.Guards.test_missing_output_parent) ... ok
+test_new_output (test_runner.Guards.test_new_output) ... ok
+test_no_overwrite (test_runner.Guards.test_no_overwrite) ... ok
+test_optimized_cli (test_runner.Guards.test_optimized_cli) ... ok
+test_parent_traversal (test_runner.Guards.test_parent_traversal) ... ok
+test_symlink_ancestor (test_runner.Guards.test_symlink_ancestor) ... ok
+test_symlink_file (test_runner.Guards.test_symlink_file) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.164s
+
+OK
