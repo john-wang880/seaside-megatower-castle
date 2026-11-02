@@ -1,0 +1,35 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.540  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified 中文/defaultOFF.blend"
+00:00.985  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified 中文/indexOFF.blend"
+NEGATIVE stale default module register on index ON
+NEGATIVE stale default unregister against index ON
+00:01.436  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified 中文/defaultOFF.blend"
+NEGATIVE stale index ON module register on default
+00:01.857  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified 中文/indexHIGH.blend"
+INITIAL SNAPSHOT
+00:11.779  cycles           | WARNING CUEW initialization failed: Error opening the library
+INITIAL SNAPSHOT PASS
+NEGATIVE renamed/missing target
+NEGATIVE wrong data name
+NEGATIVE edited target vertex
+NEGATIVE edited target transform
+NEGATIVE edited smoothing
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_qa/validate_index.py", line 81, in <module>
+    face=target.data.polygons[0];old=face.use_smooth;fixture('edited smoothing',lambda:setattr(face,'use_smooth',not old),lambda:setattr(face,'use_smooth',old));old=face.material_index;fixture('edited material index',lambda:setattr(face,'material_index',old+1),lambda:setattr(face,'material_index',old),update=False)
+                                                     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_qa/validate_index.py", line 76, in fixture
+    need(ui.index_fingerprint(target)==ui.CONFIG['edit_index_fingerprints'][target.name],'Fixture fingerprint restoration: '+name)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_qa/compare_support.py", line 11, in require
+    if not ok:raise RuntimeError(message)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Fixture fingerprint restoration: edited smoothing
+
+Error: script failed, file: 'work/v028_editability_qa/validate_index.py', exiting.
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit
+
+NATIVE_EXIT=1

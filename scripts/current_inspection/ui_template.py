@@ -6,7 +6,7 @@ CONFIG = None  # Exporter replaces this assignment with literal reviewed config.
 TAG='castle_inspection_owner'
 OWNER='castle-current-inspection-v1'
 REGISTRY='_castle_current_inspection_registry_v1'
-CLASS_NAMES=('CASTLE28_INSPECTION_OT_bookmark','CASTLE28_PT_bookmarks') + (('CASTLE28_INSPECTION_OT_tree_quality',) if CONFIG.get('tree_quality_enabled') else ())
+CLASS_NAMES=('CASTLE28_INSPECTION_OT_bookmark','CASTLE28_PT_bookmarks') + (('CASTLE28_INSPECTION_OT_tree_quality',) if CONFIG.get('tree_quality_enabled') else ()) + (('CASTLE28_INSPECTION_OT_edit_index','CASTLE28_PT_edit_index') if CONFIG.get('edit_index_enabled') else ())
 def need(ok,msg):
  if not ok:raise RuntimeError(msg)
 def verify():
@@ -14,7 +14,7 @@ def verify():
  marker=bpy.context.scene.get(CONFIG['marker'])
  need(isinstance(marker,str),'Not an owned inspection copy')
  m=json.loads(marker);need(m.get('owner')==OWNER and m.get('catalog_sha256')==CONFIG['catalog_sha256'] and m.get('source_sha256')==CONFIG['source_sha256'],'Inspection provenance mismatch')
- need(m.get('runtime_identity')==CONFIG['runtime_identity'] and m.get('tree_quality_enabled')==CONFIG['tree_quality_enabled'],'Executing runtime/quality configuration mismatch')
+ need(m.get('runtime_identity')==CONFIG['runtime_identity'] and m.get('tree_quality_enabled')==CONFIG['tree_quality_enabled'],'Executing runtime/quality configuration mismatch');need(m.get('edit_index_enabled')==CONFIG.get('edit_index_enabled'),'Executing index configuration mismatch')
  text=bpy.data.texts.get(CONFIG['text']);need(text is not None and text.get(TAG)==OWNER and not text.use_module,'Manual Text ownership changed')
  need(hashlib.sha256(text.as_string().encode()).hexdigest()==m.get('ui_text_sha256'),'Manual UI text changed; re-export rather than adopting code')
  col=bpy.data.collections.get(CONFIG['collection']);need(col is not None and col.get(TAG)==OWNER and not col.hide_viewport and not col.hide_render and not col.hide_select,'Inspection collection unavailable')
@@ -87,7 +87,7 @@ class CASTLE28_PT_bookmarks(bpy.types.Panel):
   layout.label(text='Provenance is not edit certification')
 
 def register():
- marker=verify();classes=(CASTLE28_INSPECTION_OT_bookmark,CASTLE28_PT_bookmarks)+((CASTLE28_INSPECTION_OT_tree_quality,) if CONFIG.get('tree_quality_enabled') else ());old=sys.modules.get(REGISTRY)
+ marker=verify();classes=(CASTLE28_INSPECTION_OT_bookmark,CASTLE28_PT_bookmarks)+((CASTLE28_INSPECTION_OT_tree_quality,) if CONFIG.get('tree_quality_enabled') else ())+((CASTLE28_INSPECTION_OT_edit_index,CASTLE28_PT_edit_index) if CONFIG.get('edit_index_enabled') else ());old=sys.modules.get(REGISTRY)
  if old is not None:
   need(getattr(old,'owner',None)==OWNER and getattr(old,'catalog_sha256',None)==CONFIG['catalog_sha256'] and getattr(old,'ui_text_sha256',None)==verify()['ui_text_sha256'],'Registry collision')
   need(all(getattr(bpy.types,c.__name__,None) is c for c in old.classes),'Registered class ownership changed')
@@ -110,5 +110,6 @@ def unregister():
  del sys.modules[REGISTRY];return True
 
 # TREE_HELPER_LITERAL
+# EDIT_INDEX_HELPER_LITERAL
 
 if __name__=='__main__':register()

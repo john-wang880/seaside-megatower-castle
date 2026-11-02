@@ -1,0 +1,29 @@
+test_changed_manifest (__main__.Guards.test_changed_manifest) ... ok
+test_corrupt_catalog (__main__.Guards.test_corrupt_catalog) ... ok
+test_dangling_symlink (__main__.Guards.test_dangling_symlink) ... ok
+test_existing_nooverwrite (__main__.Guards.test_existing_nooverwrite) ... ok
+test_full_real_preflight_no_output (__main__.Guards.test_full_real_preflight_no_output) ... ok
+test_immutable_checkpoint_output (__main__.Guards.test_immutable_checkpoint_output) ... ok
+test_latest_reviewed (__main__.Guards.test_latest_reviewed) ... ok
+test_no_manifest_not_live (__main__.Guards.test_no_manifest_not_live) ... ok
+test_numeric_ambiguity (__main__.Guards.test_numeric_ambiguity) ... ok
+test_optimized_rejected_first (__main__.Guards.test_optimized_rejected_first) ... ok
+test_parent_traversal (__main__.Guards.test_parent_traversal) ... ok
+test_platform_no_hardlink_fails_closed_mock (__main__.Guards.test_platform_no_hardlink_fails_closed_mock) ... ok
+test_publish_pair (__main__.Guards.test_publish_pair) ... ok
+test_reviewed_catalog (__main__.Guards.test_reviewed_catalog) ... ok
+test_second_collision_rollsback_owned_first (__main__.Guards.test_second_collision_rollsback_owned_first) ... ok
+test_second_failure_preserves_replaced_first (__main__.Guards.test_second_failure_preserves_replaced_first) ... ok
+test_source_output_alias (__main__.Guards.test_source_output_alias) ... ok
+test_stale_only (__main__.Guards.test_stale_only) ... ok
+test_swap_after_first_link_before_recording (__main__.Guards.test_swap_after_first_link_before_recording) ... ok
+test_symlink_parent (__main__.Guards.test_symlink_parent) ... ok
+test_unicode_new_path (__main__.Guards.test_unicode_new_path) ... ok
+test_unknown_newest (__main__.Guards.test_unknown_newest) ... ok
+test_wrong_source_sha_same_size_guard (__main__.Guards.test_wrong_source_sha_same_size_guard) ... ok
+test_wrong_source_size (__main__.Guards.test_wrong_source_size) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.128s
+
+OK

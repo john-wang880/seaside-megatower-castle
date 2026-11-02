@@ -16,6 +16,12 @@
 
 工具保留可选 `--tree-mode HIGH` 或 `LOW`，只在副本中切换入口旁单棵树；默认不启用。LOW保留高细节网格，不缩小文件或承诺速度。此前v027源与工具从固定提交 `91b0082b4443aa9a3539e742813bb37ddcc099da` 恢复；v026旧工具历史 `054bc322fed3ad54080471901566c3b1c96d8e8e` 与原始v027十六书签历史 `030ecda3f64a161c181a307f2639251eab34f556` 继续保留。
 
+## 可选：编辑选择索引（不新增模型版本）
+
+[当前检查工具](scripts/current_inspection/README.md)新增显式 `--editing-index`，默认关闭，仅在另存的检查副本中手动运行面板。四个选择集为接待室局部壳体、20个房间灯具网格（不含2个实际灯光）、入口顶棚石肋及入口旁HIGH树；LOW或隐藏目标拒绝选择，不自动取消隐藏，不给原工程改名。详见[选择索引指南](scripts/current_inspection/EDIT_INDEX_GUIDE.md)。
+
+选择不是独立搬移／删除许可：材质可能共享，房间集合中的大范围原建筑残部不属于局部壳体选择集，历史Mask宿主不可当作普通备份删除。原v028模型及其哈希不变。本地原生验证已通过；本次工具增量发布的远端重放仍待完成，不提前写成远端通过。
+
 ## 历史呈现与工具（不是v028影片）
 - [v020方形2400像素展陈图及相机配方](https://github.com/john-wang880/seaside-megatower-castle/tree/23fd4aaaceb64996913bfa3ff4109fc149737b9d/checkpoints/v020/presentation/exhibition)：原照明，未包含后续桥墩表面清理、石肋分段和路径修正，原版本如实保留。
 - [v018内廊至露台28秒影片与来源](https://github.com/john-wang880/seaside-megatower-castle/blob/89cce41edf648eef6487d54ee1ce2a46bbb0ae17/checkpoints/v018/presentation/interior_route/STATUS.md)，336真实帧；不含后续树冠、入口、桥墩、石肋和路径修改。

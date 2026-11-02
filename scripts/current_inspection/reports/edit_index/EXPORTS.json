@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "exports": [
+    {
+      "case": "defaultOFF",
+      "model": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified \u4e2d\u6587/defaultOFF.blend",
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified \u4e2d\u6587/defaultOFF.json",
+      "sha256": "dec7f7325f4e32153c051bac57eb722f18152e119254ddc112e7d4d9a174c4a3"
+    },
+    {
+      "case": "indexOFF",
+      "model": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified \u4e2d\u6587/indexOFF.blend",
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified \u4e2d\u6587/indexOFF.json",
+      "sha256": "dce4aea4b75bf8af085f9ed0081bb83aaa3aa8748945ed6694610b3121ac7992"
+    },
+    {
+      "case": "indexHIGH",
+      "model": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified \u4e2d\u6587/indexHIGH.blend",
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified \u4e2d\u6587/indexHIGH.json",
+      "sha256": "b8dc9e205364b9010adffb594146e81a255ec6fb29d08b1be26e475fbdd740c6"
+    },
+    {
+      "case": "indexLOW",
+      "model": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified \u4e2d\u6587/indexLOW.blend",
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified \u4e2d\u6587/indexLOW.json",
+      "sha256": "bee3c96e7a11242fb0d30d69a37fb8737ca88cc1c7f8a42ff8a64492a64a3a84"
+    }
+  ],
+  "source_unchanged": true,
+  "tool_unchanged": true,
+  "blender_unchanged": true,
+  "independent_qa": "pending"
+}

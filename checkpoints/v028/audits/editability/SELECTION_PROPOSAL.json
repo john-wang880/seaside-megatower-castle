@@ -1,0 +1,75 @@
+{
+  "status": "PROPOSAL_ONLY",
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "groups": {
+    "receiving_shell": {
+      "names": [
+        "V028 | local receiving chamber shell"
+      ],
+      "count": 1,
+      "all_visible_single_user_meshes": true,
+      "materials": [
+        "Citadel • weathered limestone"
+      ]
+    },
+    "room_lantern_meshes": {
+      "names": [
+        "V028 | room 1 cage upright 0",
+        "V028 | room 1 cage upright 1",
+        "V028 | room 1 cage upright 2",
+        "V028 | room 1 cage upright 3",
+        "V028 | room 1 hood rim",
+        "V028 | room 1 lower cup",
+        "V028 | room 1 luminous flame",
+        "V028 | room 1 mounting plate",
+        "V028 | room 1 rain hood",
+        "V028 | room 1 wall arm",
+        "V028 | room 2 cage upright 0",
+        "V028 | room 2 cage upright 1",
+        "V028 | room 2 cage upright 2",
+        "V028 | room 2 cage upright 3",
+        "V028 | room 2 hood rim",
+        "V028 | room 2 lower cup",
+        "V028 | room 2 luminous flame",
+        "V028 | room 2 mounting plate",
+        "V028 | room 2 rain hood",
+        "V028 | room 2 wall arm"
+      ],
+      "count": 20,
+      "all_visible_single_user_meshes": true,
+      "materials": [
+        "V013 | dark forged lantern iron",
+        "V013 | warm lantern flame"
+      ]
+    },
+    "entrance_ceiling": {
+      "names": [
+        "V027 | three pointed bays with high wall bands"
+      ],
+      "count": 1,
+      "all_visible_single_user_meshes": true,
+      "materials": [
+        "Citadel • weathered limestone"
+      ]
+    },
+    "near_tree_high": {
+      "names": [
+        "V019 candidate | articulated conifer foliage",
+        "V019 candidate | connected conifer boughs"
+      ],
+      "count": 2,
+      "all_visible_single_user_meshes": true,
+      "materials": [
+        "Cypress needles — deep blue green",
+        "Fir needles — forest green",
+        "Pine bark",
+        "Sunlit needle tips"
+      ]
+    }
+  },
+  "excluded": {
+    "room_outside_guard": "Three whole-source remnants; not independent room detailing. Do not hide, relocate or treat as room-local edits.",
+    "room_lights": "Two actual LIGHT objects excluded from initial mesh selection buttons; existing brightness unchanged.",
+    "rollback_hosts": "All original masked/hidden hosts excluded; multi-version modifier order protected."
+  }
+}

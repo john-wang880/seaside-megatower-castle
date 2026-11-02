@@ -1,0 +1,81 @@
+{
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "inventory_sha256": "0fa5b20fe782b4a5cc064e22afd02ba1f9d35f7180998fe6b47186728cf7d2a4",
+  "accepted_historical_label_collections": [
+    {
+      "name": "UNACCEPTED | v019 specialist foreground conifer",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "objects": [
+        "V019 candidate | articulated conifer foliage",
+        "V019 candidate | connected conifer boughs"
+      ],
+      "children": []
+    },
+    {
+      "name": "UNACCEPTED | v020 western threshold craft",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "objects": [
+        "V020 candidate | west portal radial stones",
+        "V020 candidate | south short approach coping",
+        "V020 candidate | north short approach coping"
+      ],
+      "children": []
+    },
+    {
+      "name": "UNACCEPTED | v021 central pier surface cleanup",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "objects": [
+        "V021 candidate | central pier shaft surface union",
+        "V021 candidate | central pier foot surface union"
+      ],
+      "children": []
+    },
+    {
+      "name": "UNACCEPTED | v022 complete west lower-tier rib study",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "objects": [
+        "V022 candidate | complete lower-tier west outer rib"
+      ],
+      "children": []
+    },
+    {
+      "name": "UNACCEPTED | v023 local winding path conformance",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "objects": [
+        "V023 candidate | terrain-conforming path rows 95 to 105"
+      ],
+      "children": []
+    }
+  ],
+  "classification_basis": "These exact visible IDs survive in accepted canonical f0d135 and correspond to already accepted v019\u2013v023 checkpoints; UNACCEPTED/candidate strings are retained historical naming, not current review status. The index does not rename source data.",
+  "genuinely_rejected_absent_example_names": [
+    "V027 | single oblique lower rock buttress"
+  ],
+  "excluded_feature_classes": [
+    "Rejected dense/whole-tree/three-tree concept studies were never integrated into this canonical lineage.",
+    "Rejected far-cliff v027 buttress is not the accepted v027 hall ceiling; identical provisional version number is not an acceptance identifier."
+  ],
+  "selection_groups_expected": {
+    "receiving_shell": 1,
+    "room_lantern_meshes": 20,
+    "entrance_ceiling": 1,
+    "near_tree_high": 2
+  },
+  "excluded_from_selection": [
+    "three room outside-guard remnants",
+    "two room POINT lights",
+    "all hidden rollback originals",
+    "combined source hosts and their historical Masks"
+  ],
+  "limits": "Selection label is a reviewed source mapping, not proof that later user-edited data/material graphs remain accepted."
+}

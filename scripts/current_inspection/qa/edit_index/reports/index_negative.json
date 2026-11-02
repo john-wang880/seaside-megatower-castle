@@ -1,0 +1,104 @@
+{
+  "modes": {},
+  "negatives": [
+    "stale default module register on index ON",
+    "stale default unregister against index ON",
+    "stale index ON module register on default",
+    "renamed/missing target",
+    "wrong data name",
+    "edited target vertex",
+    "edited target transform",
+    "edited smoothing",
+    "edited material index",
+    "changed material binding",
+    "target hide_render",
+    "target hide_viewport",
+    "target hide_select",
+    "local eye hidden",
+    "ancestor hide_render",
+    "ancestor hide_viewport",
+    "ancestor hide_select",
+    "layer exclude",
+    "layer hide_viewport",
+    "non-active layer exclusion",
+    "multiple memberships",
+    "collection instance",
+    "shared target data",
+    "same-name/count foreign mesh replacement",
+    "unexpected modifier",
+    "unexpected constraint",
+    "actual foreign scene",
+    "actual foreign view layer",
+    "stale mapping hash",
+    "stale geometry fingerprint",
+    "changed mapping content",
+    "unknown group",
+    "partial selection setter rollback",
+    "post-selection active-object rollback",
+    "edited action while registered",
+    "actual Edit Mode",
+    "spoofed OBJECT wrapper during actual Edit Mode"
+  ],
+  "source_fingerprints_independently_validated_by": "0c18c9511c74632b1fb7d5ba07c82175c4f5b1904b80f33c8218e1fc6359a313",
+  "native_panel_draw_cases": [
+    {
+      "case": "valid owned copy",
+      "button_count": 4,
+      "errors": []
+    },
+    {
+      "case": "actual foreign scene",
+      "button_count": 0,
+      "errors": [
+        "Not an owned inspection copy"
+      ]
+    },
+    {
+      "case": "unmarked current scene",
+      "button_count": 0,
+      "errors": [
+        "Not an owned inspection copy"
+      ]
+    },
+    {
+      "case": "stale marker opt-in",
+      "button_count": 0,
+      "errors": [
+        "Executing index configuration mismatch"
+      ]
+    },
+    {
+      "case": "disabled runtime opt-in",
+      "button_count": 0,
+      "errors": [
+        "Executing index configuration mismatch"
+      ]
+    },
+    {
+      "case": "cheap draw does not fingerprint meshes",
+      "button_count": 4,
+      "errors": []
+    }
+  ],
+  "edit_mode_roundtrip_fingerprint_changed": false,
+  "phase": "negative",
+  "viewer_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers panel guarded \u4e2d\u6587/defaultOFF.blend": "8aa476040facd1ad75c1076ad2209f3b98b8d554bd5106377832cb749ab0d543",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers panel guarded \u4e2d\u6587/indexOFF.blend": "6c32226038508ac5c3fd90c7a2d150eaab990d94b1ea3d2f391195f6b124219a",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers panel guarded \u4e2d\u6587/indexHIGH.blend": "7b7b4b897c406843edc94eb8495eb0b19cd04dcfdb98e0e6ba3d8adc5b6e485d",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers panel guarded \u4e2d\u6587/indexLOW.blend": "fe86a3b7a811e94820fb4ffcdae8c47e19daed839148e8c9100e1c217d784e58"
+  },
+  "runtime_sha256": {
+    "export_inspection.py": "999f400893985420400e0ccf25ef5bf79186d9b903186e0dc097e15548dbeb65",
+    "preflight.py": "cd4f44b5049221ccac5149b9b0d9f92c44f2cfe7387ce0a4afaa98d78667c310",
+    "catalog.json": "7ef69b66c2e55e35f246039635b4ad91c21f89d894bf1f91f0eb2fe90dae2206",
+    "ui_template.py": "c2251019d65c4113a91298992fa0cb6344f34f4293415778b1efe397022e58ab",
+    "tree_quality_template.py": "02a85a263001c0779afa004c888077af171d37a4492c671e07af30395d1f732a",
+    "edit_index_template.py": "b1d9d84066ad062552280014a4cf0d1ced13d8af906d5fef191fd223319a148c",
+    "edit_index.json": "a1de59dc88a58660116c32dfdeb3a8944f0cbf29b29b31ef8f8d17fcf5f61e05"
+  },
+  "model_saved": false,
+  "rendered": false,
+  "limits": "Linux background native API, not desktop UI or Windows. Fingerprints bind target geometry/transform and material slots, not shared material graph certification. Selection only; no automatic isolation or unhide.",
+  "pass": true
+}

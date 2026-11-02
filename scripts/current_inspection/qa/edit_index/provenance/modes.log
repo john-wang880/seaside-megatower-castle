@@ -1,0 +1,22 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.616  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_quality_publish/restored_v018.blend"
+00:08.284  cycles           | WARNING CUEW initialization failed: Error opening the library
+00:08.286  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028/castle_v028.blend"
+00:19.219  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_review/viewers verified 中文/defaultOFF.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_qa/validate_modes.py", line 74, in <module>
+    load(mode);ui=module(mode);modules[mode]=ui;ui.verify();cs.require(not any(hasattr(bpy.types,n) for n in ui.CLASS_NAMES),'Auto-registration after reopen')
+                  ~~~~~~^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_qa/validate_modes.py", line 52, in module
+    code=code_for(mode);text=bpy.data.texts[catalog['text']];cs.require(text.as_string()==code and not text.use_module,'Embedded Text mismatch')
+                                                             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_editability_qa/compare_support.py", line 11, in require
+    if not ok:raise RuntimeError(message)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Embedded Text mismatch
+
+Error: script failed, file: 'work/v028_editability_qa/validate_modes.py', exiting.
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit
