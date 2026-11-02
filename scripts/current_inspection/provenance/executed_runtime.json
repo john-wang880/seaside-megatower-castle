@@ -1,0 +1,22 @@
+{
+  "status": "CPU-tested draft; native pending",
+  "files": {
+    "export_inspection.py": "7222ef48b4ba6250cf727e1b1d6c4e53929eb0360fd92b707ac16e211cec2d92",
+    "preflight.py": "51de7275a4bb105645d572f58de44753e71cae33508174cdf8c1bdd07945cf6b",
+    "catalog.json": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
+    "ui_template.py": "efb24126edb815741d9ddc342cffda3dadcb8846b6f458c0ff1a55f46a392bf4",
+    "tree_quality_template.py": "2f0c4243deea7b7ee6d63770d4d16cba1d589a93aaa7847e5d6397e94356577d",
+    "test_tree_pure.py": "84737448c1cee996661836e9255fe4a2210a343128b96c4d53692c785464647e"
+  },
+  "tests": {
+    "tree": 9,
+    "implementation": 18,
+    "independent_preflight": 24
+  },
+  "catalog_unchanged": true,
+  "bounded_review_fixes": [
+    "Panel quality display checks only paired flags/marker; full guard remains on actions/export",
+    "Unregister checks stable embedded runtime identity and exact owned classes, independent of current scene guard; stale/foreign registry refused",
+    "Executing CONFIG runtime and quality opt-in bound to marker; stale OFF/ON rejects without registry"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "source_unchanged": true,
+  "runtime_unchanged": true,
+  "frozen_files": {
+    "export_inspection.py": "7222ef48b4ba6250cf727e1b1d6c4e53929eb0360fd92b707ac16e211cec2d92",
+    "preflight.py": "51de7275a4bb105645d572f58de44753e71cae33508174cdf8c1bdd07945cf6b",
+    "catalog.json": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
+    "ui_template.py": "efb24126edb815741d9ddc342cffda3dadcb8846b6f458c0ff1a55f46a392bf4",
+    "tree_quality_template.py": "2f0c4243deea7b7ee6d63770d4d16cba1d589a93aaa7847e5d6397e94356577d",
+    "test_tree_pure.py": "84737448c1cee996661836e9255fe4a2210a343128b96c4d53692c785464647e"
+  },
+  "exports": [
+    {
+      "mode": "OFF",
+      "viewer": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers \u4e2d\u6587/OFF viewer.blend",
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers \u4e2d\u6587/OFF receipt.json",
+      "sha256": "986417b7c343a72e81a4f80216747a2a28497912b2933d3fdb269597a9375e5f"
+    },
+    {
+      "mode": "HIGH",
+      "viewer": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers \u4e2d\u6587/HIGH viewer.blend",
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers \u4e2d\u6587/HIGH receipt.json",
+      "sha256": "65c73e422fc5a36a4344b5a36169e5d09909d74bfed20d0c2a3f7781f12b0e95"
+    },
+    {
+      "mode": "LOW",
+      "viewer": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers \u4e2d\u6587/LOW viewer.blend",
+      "receipt": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers \u4e2d\u6587/LOW receipt.json",
+      "sha256": "04373c2a72b4f9a9508b106f73124078cdd6eddb68dd510f3ea4c546be1795f5"
+    }
+  ],
+  "native_export_only": "Full independent mode QA pending"
+}

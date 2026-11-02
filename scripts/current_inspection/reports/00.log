@@ -1,0 +1,13 @@
+test_empty_explicit_only (test_compare.Tests.test_empty_explicit_only) ... ok
+test_exact (test_compare.Tests.test_exact) ... ok
+test_extra_weight (test_compare.Tests.test_extra_weight) ... ok
+test_missing_weight (test_compare.Tests.test_missing_weight) ... ok
+test_runner_parent_traversal (test_compare.Tests.test_runner_parent_traversal) ... ok
+test_unknown_attribute_retained (test_compare.Tests.test_unknown_attribute_retained) ... ok
+test_wrong_group (test_compare.Tests.test_wrong_group) ... ok
+test_wrong_weight (test_compare.Tests.test_wrong_weight) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.026s
+
+OK

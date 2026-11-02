@@ -6,7 +6,7 @@ CONFIG = None  # Exporter replaces this assignment with literal reviewed config.
 TAG='castle_inspection_owner'
 OWNER='castle-current-inspection-v1'
 REGISTRY='_castle_current_inspection_registry_v1'
-CLASS_NAMES=('CASTLE27_INSPECTION_OT_bookmark','CASTLE27_PT_bookmarks')
+CLASS_NAMES=('CASTLE27_INSPECTION_OT_bookmark','CASTLE27_PT_bookmarks') + (('CASTLE27_INSPECTION_OT_tree_quality',) if CONFIG.get('tree_quality_enabled') else ())
 def need(ok,msg):
  if not ok:raise RuntimeError(msg)
 def verify():
@@ -14,6 +14,7 @@ def verify():
  marker=bpy.context.scene.get(CONFIG['marker'])
  need(isinstance(marker,str),'Not an owned inspection copy')
  m=json.loads(marker);need(m.get('owner')==OWNER and m.get('catalog_sha256')==CONFIG['catalog_sha256'] and m.get('source_sha256')==CONFIG['source_sha256'],'Inspection provenance mismatch')
+ need(m.get('runtime_identity')==CONFIG['runtime_identity'] and m.get('tree_quality_enabled')==CONFIG['tree_quality_enabled'],'Executing runtime/quality configuration mismatch')
  text=bpy.data.texts.get(CONFIG['text']);need(text is not None and text.get(TAG)==OWNER and not text.use_module,'Manual Text ownership changed')
  need(hashlib.sha256(text.as_string().encode()).hexdigest()==m.get('ui_text_sha256'),'Manual UI text changed; re-export rather than adopting code')
  col=bpy.data.collections.get(CONFIG['collection']);need(col is not None and col.get(TAG)==OWNER and not col.hide_viewport and not col.hide_render and not col.hide_select,'Inspection collection unavailable')
@@ -59,6 +60,12 @@ class CASTLE27_INSPECTION_OT_bookmark(bpy.types.Operator):
   try:
    result=select_bookmark(self.view_id,context);self.report({'INFO'},'Reference %s; current render settings unchanged'%result['reference_resolution']);return {'FINISHED'}
   except Exception as exc:self.report({'ERROR'},str(exc));return {'CANCELLED'}
+class CASTLE27_INSPECTION_OT_tree_quality(bpy.types.Operator):
+ bl_idname='castle27_inspection.tree_quality';bl_label='Single tree quality'
+ mode:bpy.props.EnumProperty(items=[('HIGH','HIGH','Accepted detailed tree'),('LOW','LOW','Original low-detail tree')])
+ def execute(self,context):
+  try:tree_set_mode(context.scene,self.mode);return {'FINISHED'}
+  except Exception as exc:self.report({'ERROR'},str(exc));return {'CANCELLED'}
 class CASTLE27_PT_bookmarks(bpy.types.Panel):
  bl_label='城堡检查 / Castle inspection';bl_idname='CASTLE27_PT_bookmarks';bl_space_type='VIEW_3D';bl_region_type='UI';bl_category='Castle检查'
  def draw(self,context):
@@ -66,7 +73,13 @@ class CASTLE27_PT_bookmarks(bpy.types.Panel):
   try:verify()
   except Exception as exc:layout.label(text=str(exc),icon='ERROR');return
   layout.label(text='派生副本 / Derived inspection copy')
-  layout.label(text='Quality and aspect stay unchanged')
+  layout.label(text='Bookmarks preserve quality/aspect')
+  if CONFIG.get('tree_quality_enabled'):
+   try:
+    mode=tree_display_mode(context.scene);layout.label(text='Paired flags: '+mode+' (not geometry check)')
+    row=layout.row()
+    for value in ('HIGH','LOW'):row.operator(CASTLE27_INSPECTION_OT_tree_quality.bl_idname,text=value).mode=value
+   except Exception as exc:layout.label(text=str(exc),icon='ERROR')
   for key,v in CONFIG['views'].items():
    row=layout.row();row.operator(CASTLE27_INSPECTION_OT_bookmark.bl_idname,text=v['label']).view_id=key
   layout.label(text='Z: Solid / Material Preview / Rendered')
@@ -74,9 +87,9 @@ class CASTLE27_PT_bookmarks(bpy.types.Panel):
   layout.label(text='Provenance is not edit certification')
 
 def register():
- verify();classes=(CASTLE27_INSPECTION_OT_bookmark,CASTLE27_PT_bookmarks);old=sys.modules.get(REGISTRY)
+ marker=verify();classes=(CASTLE27_INSPECTION_OT_bookmark,CASTLE27_PT_bookmarks)+((CASTLE27_INSPECTION_OT_tree_quality,) if CONFIG.get('tree_quality_enabled') else ());old=sys.modules.get(REGISTRY)
  if old is not None:
-  need(getattr(old,'owner',None)==OWNER and getattr(old,'catalog_sha256',None)==CONFIG['catalog_sha256'],'Registry collision')
+  need(getattr(old,'owner',None)==OWNER and getattr(old,'catalog_sha256',None)==CONFIG['catalog_sha256'] and getattr(old,'ui_text_sha256',None)==verify()['ui_text_sha256'],'Registry collision')
   need(all(getattr(bpy.types,c.__name__,None) is c for c in old.classes),'Registered class ownership changed')
   return False
  need(all(getattr(bpy.types,n,None) is None for n in CLASS_NAMES),'Sidebar/operator class name collision')
@@ -86,14 +99,16 @@ def register():
  except BaseException:
   for cls in reversed(registered):bpy.utils.unregister_class(cls)
   raise
- module=types.ModuleType(REGISTRY);module.owner=OWNER;module.catalog_sha256=CONFIG['catalog_sha256'];module.classes=classes;sys.modules[REGISTRY]=module;return True
+ module=types.ModuleType(REGISTRY);module.owner=OWNER;module.catalog_sha256=CONFIG['catalog_sha256'];module.ui_text_sha256=marker['ui_text_sha256'];module.runtime_identity=CONFIG['runtime_identity'];module.classes=classes;sys.modules[REGISTRY]=module;return True
 
 def unregister():
  old=sys.modules.get(REGISTRY)
  if old is None:return False
- need(getattr(old,'owner',None)==OWNER and getattr(old,'catalog_sha256',None)==CONFIG['catalog_sha256'],'Registry collision')
+ need(getattr(old,'owner',None)==OWNER and getattr(old,'catalog_sha256',None)==CONFIG['catalog_sha256'] and getattr(old,'runtime_identity',None)==CONFIG['runtime_identity'],'Registry collision')
  need(all(getattr(bpy.types,c.__name__,None) is c for c in old.classes),'Cannot unregister foreign classes')
  for cls in reversed(old.classes):bpy.utils.unregister_class(cls)
  del sys.modules[REGISTRY];return True
+
+# TREE_HELPER_LITERAL
 
 if __name__=='__main__':register()

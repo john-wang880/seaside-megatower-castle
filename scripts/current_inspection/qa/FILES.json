@@ -1,11 +1,18 @@
 {
-  "README.md": "ce42b98935b2ab80af49d69abf8c87f250ae53222d7a2fbc8502ccfd418b853a",
-  "reports/SUMMARY.json": "8df5e1d645b25e8239199978875b0393ccbd3e2faec884bb3f9c7ba338acd32d",
-  "reports/pure_tests.log": "cfd6f652e6e39fc3f79cf87fc5aa78bf8a0656e2a495711c3117a6aa89b96437",
-  "reports/validation.json": "7d1c19aa105b44a1c429f5d87c669b99675843ccf0fa8a116302dddfda534554",
-  "reports/validation.log": "b2f5fe42a7f43496c7627d578e52c230460551e210bf5a1c296fa0739ebfe867",
-  "run_qa.py": "08e09637bc41a3277978ffb6cf1bd0851dc90d8eae0be74fb98c1de098509196",
-  "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
-  "test_preflight_independent.py": "d5d1710d5292a3831ef943f154a07614b37966e7f678575bc782ea827ddffebb",
-  "validate_copy.py": "c089c324fce5d07601ca3f842afddd2ba341ef77d368d9f31658e7277a664016"
+  "files": {
+    "README.md": "83a053b305efbaf5547bda128d39989fd2ce043a6eedca15f0217c0a9fb208a2",
+    "compare_support.py": "faaad03bce3b66b71dc4cb5ac8c98fd7bbee4a268cb82d671b884759f376a5d4",
+    "reports/00.log": "751c629fadbf073e445cf18c282c19e68f82bf332a238600cc403065f191fe6e",
+    "reports/01.log": "969d0a6a250fbec22dce5036cda7077b47e1ee3fe92987abc5a57e82dd2521f5",
+    "reports/BASELINE_PROVENANCE.json": "2c954037ce2b84833ac4e3e69fe8f4590b4531f26f68cbc018d0027a54a1ad33",
+    "reports/DESIGN_PROVENANCE.json": "dac5db0b9916eabf0f3658ae0da819901560eb3317160b6e126cd3af4dfc354c",
+    "reports/PLAN.md": "408f5316d274f006f63d73d1e4235462df33fc54d10070c89ffbb789fcdd8e92",
+    "reports/SUMMARY.json": "aa18311ccda5f8c225658398fe3c56fba6a2c97c219ac32324e88e5178900bde",
+    "reports/TOOL_COPY.json": "cfd5a9001f4bd6c709373c1dbc5f221098878600cad405697cbe9aff64e40528",
+    "reports/modes.json": "a68138f8af8ca4b67273a680e2926d618501335d48b2cd6c476185d19675ae85",
+    "run_qa.py": "967be6f8ff01f5de347f9ffe488cb5f3d435e9b6f44bf6237e695a77555f2aad",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "test_compare.py": "e67a4ba0e6bea6a2bc8624b8816a4bbcbe8fb658c5b893435aa1219edd65657d",
+    "validate_modes.py": "8d2bad36caaaab3a5a4fd3afedad49290a419e371b9d9a33b78bfc4cf39a69aa"
+  }
 }

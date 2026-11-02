@@ -5,18 +5,19 @@
   "source": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v027/castle_v027.blend",
   "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
   "source_bytes": 47773404,
-  "output": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_hall_test/viewer.blend",
-  "report": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_hall_test/export.json",
+  "output": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/OFF viewer.blend",
+  "report": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/current_inspection_v027_quality/viewers 中文/OFF receipt.json",
   "catalog_sha256": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
   "reviewed_version": 27,
   "runtime_sha256": {
-    "export_inspection.py": "581291d3d060dd34dd879e32d71c92f1bb19a7607b6f4309256003cab6bb04d0",
+    "export_inspection.py": "7222ef48b4ba6250cf727e1b1d6c4e53929eb0360fd92b707ac16e211cec2d92",
     "preflight.py": "51de7275a4bb105645d572f58de44753e71cae33508174cdf8c1bdd07945cf6b",
     "catalog.json": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
-    "ui_template.py": "8b02829a0172e4a0845ead523ae0d6a687acd9fc0758f3434fb1b96b69670bf6"
+    "ui_template.py": "efb24126edb815741d9ddc342cffda3dadcb8846b6f458c0ff1a55f46a392bf4",
+    "tree_quality_template.py": "2f0c4243deea7b7ee6d63770d4d16cba1d589a93aaa7847e5d6397e94356577d"
   },
-  "output_sha256": "396863f091d933388607bc7523278c6e7af03f345b1b889d47f75ddf0b2b86fc",
-  "output_bytes": 47787561,
+  "output_sha256": "986417b7c343a72e81a4f80216747a2a28497912b2933d3fdb269597a9375e5f",
+  "output_bytes": 47788590,
   "source_unchanged": true,
   "source_saved": false,
   "rendered": false,
@@ -27,13 +28,16 @@
   "bookmark_count": 16,
   "marker": {
     "owner": "castle-current-inspection-v1",
+    "runtime_identity": "95190ddea1e34a746c68bc618fafd140e04ccb96623eb88e8ff39142ed04abb2",
+    "tree_quality_enabled": false,
     "catalog_sha256": "efb19ab68dbf2240b09f73b3da779a51b751c4c668f436753e4aa273789633a4",
     "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
     "source_bytes": 47773404,
     "reviewed_version": 27,
     "manifest_sha256": "2f11343b9a089a31d1f4281dfbf9cde5b470b0ccc5e03723322ecab1e8d93ff5",
-    "ui_text_sha256": "204b2ac81bea7ab44cc9604bb81c07e1b0ca564d854b95688639f82ca1e0e9c7",
+    "ui_text_sha256": "30cf18006f4b01d085776e10ef4869ebd1999efc685780ee643d6c908643bf1b",
     "notice": "Derived inspection copy. Marker records export provenance only, not certification of later user edits."
   },
-  "scope": "Only owned cameras/collection/manualText/provenance marker added; original settings preserved. Independent deep QA is separate."
+  "tree_mode": null,
+  "scope": "Owned inspection cameras/collection/manualText/provenance marker; optional explicit tree mode changes only six paired visibility flags. Independent deep QA is separate."
 }

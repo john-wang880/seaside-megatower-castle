@@ -1,21 +1,33 @@
-"""Portable independent current-inspection review. Does not export, render or save models."""
-import argparse,sys,json,hashlib,subprocess,importlib.util
+"""Portable independent QA runner; requires pre-exported OFF/HIGH/LOW copies. No renders."""
+import argparse,hashlib,json,os,subprocess,sys
 from pathlib import Path
-if sys.flags.optimize:raise RuntimeError('Assertions required')
-p=argparse.ArgumentParser()
-for name in ['repository-root','tool','source','viewer','receipt','output-dir','blender']:p.add_argument('--'+name,required=True)
-a=p.parse_args();root=Path(a.repository_root).resolve();tool=Path(a.tool).resolve();source=Path(a.source).resolve();viewer=Path(a.viewer).resolve();receipt=Path(a.receipt).resolve();out=Path(a.output_dir).resolve();blender=Path(a.blender).resolve();qa=Path(__file__).resolve().parent
-if out.exists()or not out.parent.is_dir():raise RuntimeError('New QA output directory in existing parent required')
-if out.is_relative_to(root/'checkpoints')or out.is_relative_to(tool)or out.is_relative_to(qa):raise RuntimeError('Reports must remain outside frozen tool/checkpoint/QA trees')
-sha=lambda f:hashlib.sha256(Path(f).read_bytes()).hexdigest();payload=json.loads((qa/'FILES.json').read_text());assert all(sha(qa/f)==h for f,h in payload.items());inventory={str(f.relative_to(qa)):sha(f)for f in qa.rglob('*')if f.is_file()};modelhashes={str(f):sha(f)for f in[source,viewer,receipt]};runtime={n:sha(tool/n)for n in ['preflight.py','export_inspection.py','ui_template.py','catalog.json']};out.mkdir()
-sys.dont_write_bytecode=True;spec=importlib.util.spec_from_file_location('reviewed_inspection_preflight',tool/'preflight.py');pf=importlib.util.module_from_spec(spec);spec.loader.exec_module(pf);identity,catalog=pf.preflight(root,source,out/'unused-preflight-copy.blend',out/'unused-preflight-report.json',tool/'catalog.json');rec=json.loads(receipt.read_text());assert rec['manifest_sha256']==identity['manifest_sha256']and rec['catalog_sha256']==identity['catalog_sha256']and rec['source_sha256']==identity['source_sha256']and rec['runtime_sha256']==runtime
-cmd=[sys.executable,'-B',str(qa/'test_preflight_independent.py'),'--tool',str(tool),'--source',str(source)]
-with (out/'pure_tests.log').open('w')as log:r=subprocess.run(cmd,cwd=out,stdout=log,stderr=subprocess.STDOUT)
-assert r.returncode==0,'Independent pure tests failed'
-report=out/'validation.json';cmd2=[str(blender),'-b','--factory-startup','--disable-autoexec','--python-exit-code','1','--python-expr','import sys; sys.dont_write_bytecode=True','--python',str(qa/'validate_copy.py'),'--','--source',str(source),'--viewer',str(viewer),'--receipt',str(receipt),'--tool',str(tool),'--report',str(report)]
-with (out/'validation.log').open('w')as log:r=subprocess.run(cmd2,cwd=out,stdout=log,stderr=subprocess.STDOUT)
-assert r.returncode==0,'Actual Blender API/deep preservation failed'
-r=json.loads(report.read_text());assert r['pass']and all(r['full_source_category_checks'].values())and r['manual_bookmarks_tested']==16 and r['all_inputs_unchanged'];assert len(r['negative_cases'])==20
-assert all(sha(f)==h for f,h in modelhashes.items());assert all(sha(tool/n)==h for n,h in runtime.items());assert inventory=={str(f.relative_to(qa)):sha(f)for f in qa.rglob('*')if f.is_file()}
-summary={'pass':True,'manifest_identity':identity,'input_sha256':modelhashes,'runtime_sha256':runtime,'qa_manifest_sha256':sha(qa/'FILES.json'),'qa_inventory_unchanged':True,'all_model_runtime_inputs_unchanged':True,'pure_tests':24,'actual_source_category_names':list(r['full_source_category_checks']),'actual_source_category_count':len(r['full_source_category_checks']),'api_negative_cases':r['negative_cases'],'commands':[cmd,cmd2],'reports':{'validation.json':sha(report),'pure_tests.log':sha(out/'pure_tests.log')},'scope':'Actual Linux reopen/headless manual UI/operator API; no render/model save, nativeWindows or desktopclick claim. Export provenance is not later edit certification.'};(out/'SUMMARY.json').write_text(json.dumps(summary,indent=2));print('PORTABLE INDEPENDENT QA PASS')
-if (out/'unused-preflight-copy.blend').exists()or(out/'unused-preflight-report.json').exists():raise RuntimeError('Preflight unexpectedly wrote output')
+from compare_support import SOURCE_SHA,BASE_SHA,require
+ROOT=Path(__file__).resolve().parent
+sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def inventory(path):return {str(p.relative_to(path)):sha(p) for p in sorted(path.rglob('*')) if p.is_file()}
+def clean_path(value):
+ p=Path(value);require('..' not in p.parts,'Parent traversal refused');return p.absolute()
+def main(argv=None):
+ require(not sys.flags.optimize,'Optimized Python unsupported')
+ p=argparse.ArgumentParser()
+ for key in ('source','baseline','tool','off','high','low','off-receipt','high-receipt','low-receipt','blender','output-dir'):p.add_argument('--'+key,required=True)
+ a=p.parse_args(argv);paths={k:clean_path(v) for k,v in vars(a).items()}
+ for k,path in paths.items():
+  require(not any(q.is_symlink() for q in (path,*path.parents)),'Symlink path refused: '+k)
+  if k!='output_dir':require(path.exists(),'Missing input: '+k)
+ out=paths['output_dir'];require(not out.exists() and out.parent.is_dir(),'New external output directory required')
+ require(not out.is_relative_to(ROOT) and not out.is_relative_to(paths['tool']),'Output inside immutable payload refused')
+ require(sha(paths['source'])==SOURCE_SHA and sha(paths['baseline'])==BASE_SHA,'Source/baseline SHA mismatch')
+ inputs={k:sha(v) for k,v in paths.items() if v.is_file()};before={'qa':inventory(ROOT),'tool':inventory(paths['tool'])};require(not any('__pycache__' in n or n.endswith('.pyc') for x in before.values() for n in x),'Input package contains caches')
+ out.mkdir();env={**os.environ,'PYTHONDONTWRITEBYTECODE':'1'}
+ commands=[[sys.executable,'-B','-m','unittest','discover','-s',str(ROOT),'-p','test_compare.py','-v']]
+ native=[str(paths['blender']),'-b','--factory-startup','--disable-autoexec','--python-exit-code','1','--python-expr','import sys; sys.dont_write_bytecode=True','--python',str(ROOT/'validate_modes.py'),'--']
+ for k in ('source','baseline','tool','off','high','low','off_receipt','high_receipt','low_receipt'):native.extend(['--'+k.replace('_','-'),str(paths[k])])
+ native.extend(['--report',str(out/'modes.json')]);commands.append(native)
+ for i,cmd in enumerate(commands):
+  with (out/f'{i:02d}.log').open('w') as log:subprocess.run(cmd,cwd=out,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
+ report=json.loads((out/'modes.json').read_text());require(report['pass'] is True,'Native QA JSON failed')
+ require(inputs=={k:sha(paths[k]) for k in inputs},'Input bytes changed');require(before=={'qa':inventory(ROOT),'tool':inventory(paths['tool'])},'Payload changed')
+ result={'pass':True,'input_sha256':inputs,'inventory':before,'commands':commands,'native_calls':1,'pure_test_methods':8,'native_report_sha256':sha(out/'modes.json'),'source_saved':False,'rendered':False,'all_inputs_unchanged':True}
+ (out/'SUMMARY.json').write_text(json.dumps(result,indent=2)+'\n');print('CURRENT TREE QUALITY QA PASS')
+if __name__=='__main__':main()

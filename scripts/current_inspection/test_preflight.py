@@ -24,7 +24,7 @@ class Guards(unittest.TestCase):
    self.assertEqual(receipt['source_sha256_before'],pr['render_source_sha256']);self.assertEqual(receipt['source_sha256_after'],pr['render_source_sha256'])
    self.assertEqual(v['matrix'],recipe['views'][key]['reference_matrix']);self.assertEqual(v['reference_resolution'],recipe['resolution']);data=dict(recipe['views'][key]['camera_data']);data.setdefault('type','PERSP');self.assertEqual(v['data'],data)
   self.assertEqual(c['views']['ceiling_inspection']['provenance']['render_source_sha256'],p.SOURCE_SHA)
-  runner=(root/'qa/run_qa.py').read_text();self.assertIn("r['manual_bookmarks_tested']==16",runner)
+  checker=(root/'qa/validate_modes.py').read_text();self.assertIn("len(catalog['views'])==16",checker)
   exporter=(root/'export_inspection.py').read_text();self.assertIn("'added_cameras':15,'bookmark_count':16",exporter)
 
  def test_corrupt_catalog(self):

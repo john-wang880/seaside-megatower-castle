@@ -14,6 +14,8 @@
 
 [手动书签工具](scripts/current_inspection/README.md)明确绑定当前哈希及16个已审查机位，新增自然站立抬头内廊检查角度；另存副本，不改原模型、不自动执行/渲染。原生Windows未实测，未知未来版本拒绝运行。旧v026的15书签工具及源模型可从固定提交 `054bc322fed3ad54080471901566c3b1c96d8e8e` 恢复。
 
+当前工具另支持明确选择 `--tree-mode HIGH` 或 `LOW`，在副本里手动切换入口旁单棵树；不传参数时不启用该功能。LOW保留高细节网格，不缩小文件、不承诺速度；原工程v027不变。原始16书签工具在固定提交 `030ecda3f64a161c181a307f2639251eab34f556` 保留。
+
 ## 历史呈现与工具（不是v027影片）
 - [v020方形2400像素展陈图及相机配方](https://github.com/john-wang880/seaside-megatower-castle/tree/23fd4aaaceb64996913bfa3ff4109fc149737b9d/checkpoints/v020/presentation/exhibition)：原照明，未包含后续桥墩表面清理、石肋分段和路径修正，原版本如实保留。
 - [v018内廊至露台28秒影片与来源](https://github.com/john-wang880/seaside-megatower-castle/blob/89cce41edf648eef6487d54ee1ce2a46bbb0ae17/checkpoints/v018/presentation/interior_route/STATUS.md)，336真实帧；不含后续树冠、入口、桥墩、石肋和路径修改。

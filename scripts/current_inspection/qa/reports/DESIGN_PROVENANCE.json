@@ -1,0 +1,12 @@
+{
+  "status": "DESIGN ONLY; no native job or implementation",
+  "canonical_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "historical_v018_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+  "reviewed_inputs": {
+    "checkpoints/v019/quality/quality_controls.py": "65eb4ebb7e8ca6c936212da0a58b024efe7bbe836f2fb9098c0bebcc8a16f8db",
+    "work/v019_quality/qa/validate_viewers.py": "47ef28af2e57e1298400d0f5980c95106e185a13a117a67184f7fc2fa605d04a",
+    "work/v019_quality/qa/guarded_viewer_validation.json": "c561ecba52162ebb3883ed1bc905be499b52a6dd003ab9abb448ed959dbb7ff3",
+    "work/v019_quality/qa/multiple_membership.json": "9250065b0a7d2af071b5c8f50ea8c302d57b3c6081db373e051098c05ececa2a"
+  },
+  "historical_code_immutable": true
+}
