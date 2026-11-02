@@ -7,4 +7,4 @@
 
 Original-light visual recipes in `reports/visual/` pin the accepted model hash and exact camera/quality settings. Rendering is optional and explicit; no script automatically renders on opening a .blend. Historical videos retain their original model provenance.
 
-Local clean native rebuild and portableQA passed. Fresh remote replay is a distinct pending publication gate until its receipt is added.
+Local clean native rebuild and portableQA passed. Fresh remote source-only rebuild and complete QA replay passed from additive commit1a53001a84c3edc375ffe4089619ee1e480fa28e; see reports/remote/VERIFIED.json.

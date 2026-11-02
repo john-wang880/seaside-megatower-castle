@@ -337,3 +337,5 @@ Separate source-pinned HIGH/LOW export and manual sidebar controls, no autoexec/
 
 ## 2026-11-02 — v029 connected service shell, local acceptance
 Both interior exploration and holistic woodland/coast redesign explicitly selected. Built one elongated internal destination with two fixed staggered source-style lamps; no shelves yet, no new exterior exit. Full source-only rebuild, saved geometry/route/material/rollback QA, actual six-view acceptance and20bookmark/five-selection-group native tool QA pass. Directed representable partition correction documented; exact remote surfaces retained. Strict additive publication and fresh remote recovery are next independent gates. Landscape remains read-only whole-scene planning, not an implemented redesign.
+
+Remote1a53001a84c3edc375ffe4089619ee1e480fa28e passed2987checksums, exact source/accepted restore, full source-only reconstruction and model/tool native replay. Only then removed34superseded current paths (v028manifest/restore and32unreferenced chunks), retaining fixedf3f56c2history. Final tree verification follows.

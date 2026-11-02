@@ -66,5 +66,11 @@
   },
   "report": "qa/v029_current/reports/SUMMARY.json",
   "historical_evidence": "provenance/v028_prior_current_tool",
-  "remote_replay": "pending"
+  "remote_replay": "pending",
+  "remote_verification": {
+    "pass": true,
+    "commit": "1a53001a84c3edc375ffe4089619ee1e480fa28e",
+    "record": "../../checkpoints/v029/reports/remote/VERIFIED.json",
+    "runtime_unchanged": true
+  }
 }

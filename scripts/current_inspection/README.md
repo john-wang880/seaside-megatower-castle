@@ -58,3 +58,6 @@ LOW仍保存全部高细节网格，不承诺缩小文件、减少载入内存�
 当前本地证据为 `VALIDATION.json` 和 [qa/v029_current/README.md](qa/v029_current/README.md)，实际摘要为 `qa/v029_current/reports/SUMMARY.json`。当前发布清单为 `PUBLIC_PAYLOAD.json`；远程仍待验证。旧当前清单已原样保存在 `provenance/v028_prior_current_tool/`；原 `qa/edit_index/`、`qa/validate_modes.py`、`reports/`、`REMOTE_REPLAY.md` / `EDIT_INDEX_REPLAY.md` 均保留历史意义，不作为当前通过证明。`provenance/`内各回执保持原始源版本；本次新增两条回执明确绑定上述候选源。当前原生验证已完成；发布负责人还需完成新远程恢复与重放，本工具不预先宣称远程完成。
 
 当前独立QA重放入口是 `qa/v029_current/run_qa.py`；其中历史来源README示例里的 `qa/edit_index/run_qa.py` 路径应替换为此新目录，脚本及参数保持原样。原生输入需要当前源、历史v018树谱系基线和四份全新导出副本及回执；不使用旧版本QA执行当前验收。
+
+## 远端复取核验
+严格增量提交`1a53001a84c3edc375ffe4089619ee1e480fa28e`已全新复取，四副本导出、完整三阶段原生QA及77纯测试通过，见[项目远端记录](../../checkpoints/v029/reports/remote/VERIFIED.json)。此次记录更新不改变七个已测试运行时文件。历史QA仍保持各自版本范围。

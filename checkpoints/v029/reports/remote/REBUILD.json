@@ -1,0 +1,55 @@
+{
+  "pass": true,
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "rebuilt_sha256": "d40908e15189f9ff3b872355af1c7b4492879b31b2f9ca4a0cd4029f0b533ac4",
+  "commands": [
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/repo/checkpoints/v029/reproduce/reproduce_geometry.py",
+      "--source-model",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/models/castle_v028.blend",
+      "--output-dir",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/rebuilt/geometry"
+    ],
+    [
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+      "-b",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/repo/checkpoints/v029/reproduce/integrate.py",
+      "--",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/models/castle_v028.blend",
+      "--payload",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/rebuilt/geometry/geometry.json",
+      "--output",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/rebuilt/unlit.blend",
+      "--report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/rebuilt/integration.json"
+    ],
+    [
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+      "-b",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/repo/checkpoints/v029/reproduce/add_room_lanterns.py",
+      "--",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/rebuilt/unlit.blend",
+      "--build-receipt",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/rebuilt/integration.json",
+      "--output",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/rebuilt/candidate.blend",
+      "--report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/rebuilt/lighting.json"
+    ]
+  ],
+  "scope": "Native rebuild only; independent geometry/semantic QA required. Native compressed .blend hashes may differ across equivalent saves."
+}

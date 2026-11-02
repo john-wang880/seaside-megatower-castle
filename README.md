@@ -1,13 +1,13 @@
 # 海边巨塔城堡 · 持续精修
 
-最新检查点：**[v029 接待室 → 连通储藏空间（空壳阶段）](checkpoints/v029/README.md)**。本地源工程重建、完整独立几何／语义QA、实际图像验收及20书签检查工具原生验证通过；远端精确恢复仍待完成核验。
+最新检查点：**[v029 接待室 → 连通储藏空间（空壳阶段）](checkpoints/v029/README.md)**。本地源工程重建、完整独立几何／语义QA、实际图像验收及20书签检查工具原生验证通过；**远端精确恢复、源工程重建与完整QA／工具重放已通过**，见[远端核验记录](checkpoints/v029/reports/remote/VERIFIED.json)。
 
 在原接待室东侧接入一间7×4.5的狭长服务空间，新增两盏错位暖灯，保留原路线和外观。**这是连通空壳，不是已经布置完成的仓库**；下一步才是有用途的货架／储物。没有新增外门、全城堡环路或结构安全认证。
 
 - [进入新空间](checkpoints/v029/previews/stores_entry.png) · [回望原接待室](checkpoints/v029/previews/stores_return.png) · [新旧房间关系](checkpoints/v029/previews/doorway.png) · [当前全景](checkpoints/v029/previews/hero.png)
 - [恢复说明](checkpoints/v029/README.md) · [源工程复现](checkpoints/v029/REPRODUCE.md) · [独立QA](checkpoints/v029/qa/README.md)
 
-完整克隆含model_chunks，运行`python -B checkpoints/v029/restore_checkpoint.py`，逐块及整文件SHA验证后用已有Blender5.2.3打开，保持自动脚本执行关闭。当前候选SHA：`4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5`。旧v028从固定历史提交`f3f56c21c97c9a76c79050c709790611681ae2b8`可恢复；旧版文件暂保留，只有远端新版本恢复通过才撤下当前目录，Git历史不清除、不强推。
+完整克隆含model_chunks，运行`python -B checkpoints/v029/restore_checkpoint.py`，逐块及整文件SHA验证后用已有Blender5.2.3打开，保持自动脚本执行关闭。验收SHA：`4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5`。旧v028从固定历史提交`f3f56c21c97c9a76c79050c709790611681ae2b8`可恢复；旧v028当前载荷在新版本远端恢复通过后撤下，固定历史仍可恢复；Git历史不清除、不强推。
 
 ## 可选：当前模型检查／编辑选择副本
 
@@ -15,7 +15,7 @@
 
 `--tree-mode HIGH/LOW`仅手动切换入口旁单棵树；LOW仍保留高细节网格，不承诺缩小文件或特定速度。`--editing-index`默认关闭，启用后提供五组可见目标：两个连通房间局部壳体、原接待室20灯具网格、入口顶棚、HIGH树、新储藏空间20灯具网格；两组灯具均不包含实际LIGHT对象。共享材质、合并宿主及隐藏回滚都有明确限制，选择不是独立搬移／删除许可。
 
-本地四份副本、13类源保护、27质量负控、37选择负控、6面板案例、64次LOW拒绝及77纯测试通过；原生Windows和真实桌面点击未实测。远端工具重放仍为单独待完成核验项。
+本地四份副本、13类源保护、27质量负控、37选择负控、6面板案例、64次LOW拒绝及77纯测试通过；原生Windows和真实桌面点击未实测。全新远端工具重放也已通过；最终当前树撤旧仍单独核对。
 
 ## 已选择的后续两条方向
 

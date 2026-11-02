@@ -1,0 +1,398 @@
+{
+  "modes": {
+    "default": {
+      "exact_full_snapshot_after_restore": true,
+      "reopen": true,
+      "manual_reexecute": true,
+      "actions": []
+    },
+    "off": {
+      "exact_full_snapshot_after_restore": true,
+      "reopen": true,
+      "manual_reexecute": true,
+      "actions": [
+        {
+          "bookmark": "hero",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "west_approach",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "east_portal",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "bend",
+          "index": "near_tree_high",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "upper_stairs",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "terminal",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "offshore_marker",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "crown",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "west_crown",
+          "index": "near_tree_high",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "bridge_close",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "west_lower_tier",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "path_context",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "rear_landward",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "west_lateral",
+          "index": "near_tree_high",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "east_lateral",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "ceiling_inspection",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "receiving_doorway",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "receiving_reverse_connection",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "stores_entry",
+          "index": "near_tree_high",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "stores_return",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        }
+      ]
+    },
+    "high": {
+      "exact_full_snapshot_after_restore": true,
+      "reopen": true,
+      "manual_reexecute": true,
+      "actions": [
+        {
+          "bookmark": "hero",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "west_approach",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "east_portal",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "bend",
+          "index": "near_tree_high",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "upper_stairs",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "terminal",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "offshore_marker",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "crown",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "west_crown",
+          "index": "near_tree_high",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "bridge_close",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "west_lower_tier",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "path_context",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "rear_landward",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "west_lateral",
+          "index": "near_tree_high",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "east_lateral",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "ceiling_inspection",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "receiving_doorway",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "receiving_reverse_connection",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "stores_entry",
+          "index": "near_tree_high",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "stores_return",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        }
+      ]
+    },
+    "low": {
+      "exact_full_snapshot_after_restore": true,
+      "reopen": true,
+      "manual_reexecute": true,
+      "actions": [
+        {
+          "bookmark": "hero",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "west_approach",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "east_portal",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "upper_stairs",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "terminal",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "offshore_marker",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "crown",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "bridge_close",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "west_lower_tier",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "path_context",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "rear_landward",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "east_lateral",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "ceiling_inspection",
+          "index": "receiving_shell",
+          "selection_count": 2
+        },
+        {
+          "bookmark": "receiving_doorway",
+          "index": "room_lantern_meshes",
+          "selection_count": 20
+        },
+        {
+          "bookmark": "receiving_reverse_connection",
+          "index": "entrance_ceiling",
+          "selection_count": 1
+        },
+        {
+          "bookmark": "stores_return",
+          "index": "stores_lantern_meshes",
+          "selection_count": 20
+        }
+      ]
+    }
+  },
+  "negatives": [
+    "high LOW near tree 0",
+    "high LOW near tree 1",
+    "high LOW near tree 2",
+    "high LOW near tree 3",
+    "high LOW near tree 4",
+    "high LOW near tree 5",
+    "high LOW near tree 6",
+    "high LOW near tree 7",
+    "high LOW near tree 8",
+    "high LOW near tree 9",
+    "high LOW near tree 10",
+    "high LOW near tree 11",
+    "high LOW near tree 12",
+    "high LOW near tree 13",
+    "high LOW near tree 14",
+    "high LOW near tree 15",
+    "high LOW near tree 16",
+    "high LOW near tree 17",
+    "high LOW near tree 18",
+    "high LOW near tree 19",
+    "low LOW near tree 0",
+    "low LOW near tree 0",
+    "low LOW near tree 1",
+    "low LOW near tree 1",
+    "low LOW near tree 2",
+    "low LOW near tree 2",
+    "low LOW near tree 3",
+    "low LOW near tree 3",
+    "LOW hidden index 3",
+    "low LOW near tree 4",
+    "low LOW near tree 4",
+    "low LOW near tree 5",
+    "low LOW near tree 5",
+    "low LOW near tree 6",
+    "low LOW near tree 6",
+    "low LOW near tree 7",
+    "low LOW near tree 7",
+    "low LOW near tree 8",
+    "low LOW near tree 8",
+    "LOW hidden index 8",
+    "low LOW near tree 9",
+    "low LOW near tree 9",
+    "low LOW near tree 10",
+    "low LOW near tree 10",
+    "low LOW near tree 11",
+    "low LOW near tree 11",
+    "low LOW near tree 12",
+    "low LOW near tree 12",
+    "low LOW near tree 13",
+    "low LOW near tree 13",
+    "LOW hidden index 13",
+    "low LOW near tree 14",
+    "low LOW near tree 14",
+    "low LOW near tree 15",
+    "low LOW near tree 15",
+    "low LOW near tree 16",
+    "low LOW near tree 16",
+    "low LOW near tree 17",
+    "low LOW near tree 17",
+    "low LOW near tree 18",
+    "low LOW near tree 18",
+    "LOW hidden index 18",
+    "low LOW near tree 19",
+    "low LOW near tree 19"
+  ],
+  "source_fingerprints_independently_validated_by": "f545bfc03a7e95af2366a75d77c32a0b775168283025991e0d460acf97f367ca",
+  "phase": "positive",
+  "viewer_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/inspection viewers \u7a7a\u95f4/default.blend": "cb68e5b5a792def6b51df9ddbaae325e11fc27e958d6a2bc5b0036bf46347ac5",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/inspection viewers \u7a7a\u95f4/off.blend": "d43d630e3f1b7e300fbeb930f697725b90605aaed4e5a1d0f6474cf417f8def8",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/inspection viewers \u7a7a\u95f4/high.blend": "c57e400f8ab97602b175495a5fb333286d04c9efcdfaba0a5fd52585c4efad82",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_additive/inspection viewers \u7a7a\u95f4/low.blend": "77218762c99ba9001be648e564ea84b31625b0e78ee0ac3c47a1c8bf1ab52854"
+  },
+  "runtime_sha256": {
+    "export_inspection.py": "0cb6071b4540e39ebc83adf227a9987eb1c5ac5398497a12ddfdcb339f167289",
+    "preflight.py": "bdb266471cb379689344097c2a510e4c2364f30f17c8353afe0949a41a10b839",
+    "catalog.json": "b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424",
+    "ui_template.py": "9432499fdd639545302507bb51cdea27123e1d64a14853c0c96d25a00423dd65",
+    "tree_quality_template.py": "6ed0106f69559cde3cafb6a50701804ca9762b8db894d600b57c0c670fa0e145",
+    "edit_index_template.py": "e0ebad351b5a4e10259fbe646216796f6f2c4b37bf60e1ff0fac56b6fb1f75ac",
+    "edit_index.json": "da82f1ba19d20ebd85bae60edef74961a2f6c04311fe81611c1e9e231aac9368"
+  },
+  "model_saved": false,
+  "rendered": false,
+  "limits": "Linux background native API, not desktop UI or Windows. Fingerprints bind target geometry/transform and material slots, not shared material graph certification. Selection only; no automatic isolation or unhide.",
+  "pass": true
+}
