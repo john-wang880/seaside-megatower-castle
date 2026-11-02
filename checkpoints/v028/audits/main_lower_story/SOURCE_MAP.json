@@ -1,0 +1,124 @@
+{
+  "source_current_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "evidence_kind": "CPU authoring/historical-native records + accepted later change scopes; no fresh current component/seat survey",
+  "historical_fixed_git": "91f2c7d2dd38d288b6c52e2469bb4d5b81e322d6",
+  "historical_v004_output_sha256": "e23172759e1742f2de0f2d9244629b7e1c0491fd1a6d2b39e1d977f01c15fa58",
+  "whole_story_center_seats": {
+    "group": "main lower",
+    "actual_lower_surface_z": 86.0999984741211,
+    "actual_upper_surface_z": 123.72000122070312,
+    "rib_z0": 86.04499847412109,
+    "rib_z1": 123.77500122070313,
+    "overlap_each_end": 0.055
+  },
+  "four_windows": [
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 32.5,
+      "width": 3.55,
+      "bottom": 90.8,
+      "shoulder": 97.2,
+      "apex": 99.8,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "lower two-tier group"
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 32.5,
+      "width": 3.55,
+      "bottom": 106.3,
+      "shoulder": 113.1,
+      "apex": 115.7,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "lower two-tier group"
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 38.1,
+      "width": 3.55,
+      "bottom": 90.8,
+      "shoulder": 97.2,
+      "apex": 99.8,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "lower two-tier group"
+    },
+    {
+      "tower": "main",
+      "face": "front",
+      "x": 38.1,
+      "width": 3.55,
+      "bottom": 106.3,
+      "shoulder": 113.1,
+      "apex": 115.7,
+      "plane": 28.8,
+      "front": 0,
+      "back": 2.25,
+      "group": "lower two-tier group"
+    }
+  ],
+  "families": {
+    "reveals_frames": "V004 | varied facade groups stone reveals and restrained frames",
+    "inner_stone": "V004 | varied facade groups recessed mullions and tracery",
+    "glazing": "V004 | varied facade groups deep muted glazing",
+    "sills_center_belt": "V004 | varied facade groups secondary structural divisions",
+    "outer_ribs": "V006 | main facade with one short jointed rib sample",
+    "current_body": "V005 | main tower calibrated stone surface",
+    "current_body_union": "V026 | exact main shaft two-solid union"
+  },
+  "center_member_bounds": [
+    [
+      35.12,
+      28.29,
+      86.04499847412109
+    ],
+    [
+      35.48,
+      28.81,
+      123.77500122070313
+    ]
+  ],
+  "shared_belt": {
+    "body": [
+      [
+        29.25,
+        28.165,
+        105.085
+      ],
+      [
+        41.35,
+        28.835,
+        105.415
+      ]
+    ],
+    "trim": [
+      [
+        29.16,
+        27.97,
+        105.39
+      ],
+      [
+        41.44,
+        28.79,
+        105.51
+      ]
+    ]
+  },
+  "v006_main_sample_range": [
+    125.62,
+    136.42
+  ],
+  "v006_method": "Independent facade mesh copy replaces one original component; original hidden. Not a native Mask workflow. No sample below123.72.",
+  "later_changes": "V026 masks two separate main-body solids, preserves hidden V004 mesh and original window-bearing component complement. V022 is west tower, not this main story. V027/28 interior changes do not add source facade craft.",
+  "native_run": false,
+  "rendered": false,
+  "candidate_created": false
+}
