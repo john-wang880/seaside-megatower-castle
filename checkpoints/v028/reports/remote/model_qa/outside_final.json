@@ -1,0 +1,174 @@
+{
+  "pass": true,
+  "remote_polygons_exact": 112,
+  "hosts": [
+    {
+      "object": "V012 | foundation with continuous L-shaped passage",
+      "remote_polygons_exact": 68,
+      "affected_domains": [
+        {
+          "source_face": 130,
+          "pass": true,
+          "triangles": 26,
+          "axis_oriented_planes": 1,
+          "uncovered_area": 0,
+          "outside_area": 0,
+          "multiply_covered_area": 0,
+          "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+          "partial_surface_signed_tetrahedral_sum_exact_fraction": "3580332714954135887939/432345564227567616",
+          "partial_surface_signed_tetrahedral_sum": 8281.18294991829,
+          "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+        },
+        {
+          "source_face": 131,
+          "pass": true,
+          "triangles": 10,
+          "axis_oriented_planes": 1,
+          "uncovered_area": 0,
+          "outside_area": 0,
+          "multiply_covered_area": 0,
+          "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+          "partial_surface_signed_tetrahedral_sum_exact_fraction": "1415908047771507185/144115188075855872",
+          "partial_surface_signed_tetrahedral_sum": 9.824835721174896,
+          "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+        },
+        {
+          "source_face": 134,
+          "pass": true,
+          "triangles": 4,
+          "axis_oriented_planes": 1,
+          "uncovered_area": 0,
+          "outside_area": 0,
+          "multiply_covered_area": 0,
+          "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+          "partial_surface_signed_tetrahedral_sum_exact_fraction": "-921198384295/68719476736",
+          "partial_surface_signed_tetrahedral_sum": -13.40520079676935,
+          "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+        }
+      ],
+      "guard_caps": {
+        "pass": true,
+        "triangles": 34,
+        "axis_oriented_planes": 10,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+        "partial_surface_signed_tetrahedral_sum_exact_fraction": "-11551291206671546345/108086391056891904",
+        "partial_surface_signed_tetrahedral_sum": -106.87091218164049,
+        "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+      },
+      "closed_oriented_edges": true
+    },
+    {
+      "object": "V012 | ashlar with bounded entrance and north stairwell",
+      "remote_polygons_exact": 41,
+      "affected_domains": [
+        {
+          "source_face": 14051,
+          "pass": true,
+          "triangles": 22,
+          "axis_oriented_planes": 1,
+          "uncovered_area": 0,
+          "outside_area": 0,
+          "multiply_covered_area": 0,
+          "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+          "partial_surface_signed_tetrahedral_sum_exact_fraction": "273316873536428525549/2305843009213693952",
+          "partial_surface_signed_tetrahedral_sum": 118.53229922605668,
+          "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+        },
+        {
+          "source_face": 14059,
+          "pass": true,
+          "triangles": 6,
+          "axis_oriented_planes": 1,
+          "uncovered_area": 0,
+          "outside_area": 0,
+          "multiply_covered_area": 0,
+          "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+          "partial_surface_signed_tetrahedral_sum_exact_fraction": "-913038780483260925/72057594037927936",
+          "partial_surface_signed_tetrahedral_sum": -12.670958455852379,
+          "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+        }
+      ],
+      "guard_caps": {
+        "pass": true,
+        "triangles": 20,
+        "axis_oriented_planes": 8,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+        "partial_surface_signed_tetrahedral_sum_exact_fraction": "-16691186811069477185/108086391056891904",
+        "partial_surface_signed_tetrahedral_sum": -154.42449921640898,
+        "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+      },
+      "closed_oriented_edges": true
+    },
+    {
+      "object": "V012 | hall east stone lining",
+      "remote_polygons_exact": 3,
+      "affected_domains": [
+        {
+          "source_face": 0,
+          "pass": true,
+          "triangles": 4,
+          "axis_oriented_planes": 1,
+          "uncovered_area": 0,
+          "outside_area": 0,
+          "multiply_covered_area": 0,
+          "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+          "partial_surface_signed_tetrahedral_sum_exact_fraction": "2774230621853625/18014398509481984",
+          "partial_surface_signed_tetrahedral_sum": 0.15400073560010302,
+          "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+        },
+        {
+          "source_face": 3,
+          "pass": true,
+          "triangles": 6,
+          "axis_oriented_planes": 1,
+          "uncovered_area": 0,
+          "outside_area": 0,
+          "multiply_covered_area": 0,
+          "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+          "partial_surface_signed_tetrahedral_sum_exact_fraction": "16405155329693625/72057594037927936",
+          "partial_surface_signed_tetrahedral_sum": 0.22766726461972453,
+          "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+        },
+        {
+          "source_face": 5,
+          "pass": true,
+          "triangles": 6,
+          "axis_oriented_planes": 1,
+          "uncovered_area": 0,
+          "outside_area": 0,
+          "multiply_covered_area": 0,
+          "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+          "partial_surface_signed_tetrahedral_sum_exact_fraction": "0",
+          "partial_surface_signed_tetrahedral_sum": 0.0,
+          "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+        }
+      ],
+      "guard_caps": {
+        "pass": true,
+        "triangles": 6,
+        "axis_oriented_planes": 3,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+        "partial_surface_signed_tetrahedral_sum_exact_fraction": "-1633299417552825/18014398509481984",
+        "partial_surface_signed_tetrahedral_sum": -0.0906663309737002,
+        "volume_note": "Partial-domain flux contribution only; not a closed solid volume."
+      },
+      "closed_oriented_edges": true
+    }
+  ],
+  "scope": "Exact saved-float boundary-domain equality and oriented closure. Native evaluated attributes and source rollback remain separate pending gates.",
+  "inputs": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_model_qa/qa/data/geometry_final.json": "0d07d8ceb27f44cd3c612392d56b40921e60c7f8afaa522aa04f74c17df817f2",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_model_qa/qa/data/native.json": "83593439fc128700af9302eb1e53185b3f782b00f39e1b7cb972a72823dc362e",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_model_qa/qa/data/guard_partition_proof.json": "c96d20ca60f419953225303fdde4580ef64bb4da56939f482d82bb058a6bf0c0",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_model_qa/qa/data/guard_faces_final.json": "9bd5d1b31bd4c5e8890865c1294adb1aff587bfcd729730b254cbe5da4be9c40"
+  }
+}

@@ -1,6 +1,6 @@
 # 海边巨塔城堡 · 持续精修
 
-最新检查点：**[v028 下层接待／守卫室](checkpoints/v028/README.md)**。完整复现、语义／几何QA、本地分块恢复及18书签工具原生验证已通过；**远端备份复取验证尚待完成**。
+最新检查点：**[v028 下层接待／守卫室](checkpoints/v028/README.md)**。完整复现、语义／几何QA、本地分块恢复及18书签工具原生验证已通过；**远端精确恢复及完整原生QA／工具重放已通过**（[远端核验记录](checkpoints/v028/reports/remote/VERIFIED.json)）。
 
 从原通道侧面进入一间克制的8×8下层房间，保留两根实体方墩与一条顶带，新增两盏同风格暖灯。是明确授权的局部室内扩建，不是缺陷修复或全城堡室内完成；场景尺寸不作工程／无障碍认证。原外观、世界／曝光和既有灯具保持，全景无可见回归但并非像素完全相同。
 
@@ -8,7 +8,7 @@
 - [恢复说明](checkpoints/v028/README.md) · [程序复现](checkpoints/v028/REPRODUCE.md) · [恢复清单](checkpoints/v028/MANIFEST.json)
 - [v024/v025旧邻接保证更正](checkpoints/v026/audits/coplanar_method/README.md)继续保留：旧BVH零结果不是无共面接触保证，既有接触如实记录。
 
-完整克隆含model_chunks，运行 `python -B checkpoints/v028/restore_checkpoint.py`，逐块及整文件SHA256验证后用已有Blender5.2.3 LTS打开，保持自动脚本执行关闭。验收SHA为 `f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096`。先新版远端精确恢复／重验，再撤旧当前载荷；Git历史保留，不强推。
+完整克隆含model_chunks，运行 `python -B checkpoints/v028/restore_checkpoint.py`，逐块及整文件SHA256验证后用已有Blender5.2.3 LTS打开，保持自动脚本执行关闭。验收SHA为 `f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096`。新版远端精确恢复／完整原生QA及工具重放已通过，旧版固定历史91b0082继续可恢复；旧路径撤除须作为后续独立操作验证，不因本声明自动视为已撤除。Git历史保留，不强推。
 
 ## 可选：当前模型检查副本
 

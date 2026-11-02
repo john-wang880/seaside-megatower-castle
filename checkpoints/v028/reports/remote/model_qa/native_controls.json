@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "candidate_sha256": "1efa55bcf6962a18765eb347d15056af68fd1ec3cc62e1ab66bce9667b0224d8",
+  "controls": [
+    {
+      "name": "wrong_owned_weight",
+      "changed_snapshot_rejected": true,
+      "restored_exact": true
+    },
+    {
+      "name": "wrong_mask_inversion",
+      "changed_snapshot_rejected": true,
+      "restored_exact": true
+    },
+    {
+      "name": "source_material_change",
+      "changed_snapshot_rejected": true,
+      "restored_exact": true
+    },
+    {
+      "name": "unrelated_source_vertex",
+      "changed_snapshot_rejected": true,
+      "restored_exact": true
+    }
+  ],
+  "scope": "Four focused in-memory native mutations exercise snapshot predicates; not four complete full-scene reruns. No save."
+}

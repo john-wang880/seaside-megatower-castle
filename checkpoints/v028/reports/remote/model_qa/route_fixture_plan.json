@@ -1,0 +1,458 @@
+{
+  "pass": true,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "source_export_sha256": "83593439fc128700af9302eb1e53185b3f782b00f39e1b7cb972a72823dc362e",
+  "script_sha256": "f914e6feec3c0b42be959f9e57e9c8481859497e2873f82aca1ff0018757ddb0",
+  "continuous_route_segments": {
+    "central": [
+      [
+        7.6,
+        37.5
+      ],
+      [
+        13.8,
+        37.5
+      ]
+    ],
+    "west_aisle": [
+      [
+        9.2,
+        33.3
+      ],
+      [
+        9.2,
+        39.7
+      ]
+    ],
+    "east_aisle": [
+      [
+        13.8,
+        33.3
+      ],
+      [
+        13.8,
+        39.7
+      ]
+    ],
+    "south_cross": [
+      [
+        9.2,
+        33.3
+      ],
+      [
+        13.8,
+        33.3
+      ]
+    ],
+    "north_cross": [
+      [
+        9.2,
+        39.7
+      ],
+      [
+        13.8,
+        39.7
+      ]
+    ]
+  },
+  "route_graph_connected_to_entry_at_7_6_37_5": true,
+  "route_boxes": [
+    {
+      "name": "central",
+      "swept_body_box": [
+        [
+          7.0,
+          36.9,
+          29.025
+        ],
+        [
+          14.4,
+          38.1,
+          31.1
+        ]
+      ],
+      "retained_solids_separation_lower_bounds": [
+        1.5,
+        0.10000000000000142,
+        0.6999999999999993
+      ],
+      "wall_xy_margins": [
+        0.0,
+        0.5999999999999996,
+        4.399999999999999,
+        2.3999999999999986
+      ]
+    },
+    {
+      "name": "west_aisle",
+      "swept_body_box": [
+        [
+          8.6,
+          32.699999999999996,
+          29.025
+        ],
+        [
+          9.799999999999999,
+          40.300000000000004,
+          31.1
+        ]
+      ],
+      "retained_solids_separation_lower_bounds": [
+        0.8000000000000007,
+        0.8000000000000007,
+        1.063014581273465
+      ],
+      "wall_xy_margins": [
+        1.5999999999999996,
+        5.200000000000001,
+        0.19999999999999574,
+        0.19999999999999574
+      ]
+    },
+    {
+      "name": "east_aisle",
+      "swept_body_box": [
+        [
+          13.200000000000001,
+          32.699999999999996,
+          29.025
+        ],
+        [
+          14.4,
+          40.300000000000004,
+          31.1
+        ]
+      ],
+      "retained_solids_separation_lower_bounds": [
+        1.8000000000000007,
+        1.8000000000000007,
+        1.931320791582797
+      ],
+      "wall_xy_margins": [
+        6.200000000000001,
+        0.5999999999999996,
+        0.19999999999999574,
+        0.19999999999999574
+      ]
+    },
+    {
+      "name": "south_cross",
+      "swept_body_box": [
+        [
+          8.6,
+          32.699999999999996,
+          29.025
+        ],
+        [
+          14.4,
+          33.9,
+          31.1
+        ]
+      ],
+      "retained_solids_separation_lower_bounds": [
+        0.7000000000000028,
+        4.300000000000004,
+        0.6999999999999993
+      ],
+      "wall_xy_margins": [
+        1.5999999999999996,
+        0.5999999999999996,
+        0.19999999999999574,
+        6.600000000000001
+      ]
+    },
+    {
+      "name": "north_cross",
+      "swept_body_box": [
+        [
+          8.6,
+          39.1,
+          29.025
+        ],
+        [
+          14.4,
+          40.300000000000004,
+          31.1
+        ]
+      ],
+      "retained_solids_separation_lower_bounds": [
+        3.700000000000003,
+        0.10000000000000142,
+        0.6999999999999993
+      ],
+      "wall_xy_margins": [
+        1.5999999999999996,
+        0.5999999999999996,
+        6.600000000000001,
+        0.19999999999999574
+      ]
+    }
+  ],
+  "minimum_wall_xy_margin": 0.0,
+  "minimum_retained_pier_margin": 0.10000000000000142,
+  "translated_existing_fixtures": [
+    {
+      "desired_luminous_center": [
+        14.81,
+        34,
+        30.95
+      ],
+      "translation": [
+        9.6,
+        -4.649999999999999,
+        0.0
+      ],
+      "components": [
+        {
+          "object": "V013 | turn mounting plate",
+          "triangles": 12,
+          "route_aabb_separation_lower_bound": 0.5775000572204583,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn wall arm",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.3969332695007317,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn lower cup",
+          "triangles": 60,
+          "route_aabb_separation_lower_bound": 0.3050000190734856,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn hood rim",
+          "triangles": 60,
+          "route_aabb_separation_lower_bound": 0.3050000190734856,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn rain hood",
+          "triangles": 60,
+          "route_aabb_separation_lower_bound": 0.3006658882374086,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn cage upright 0",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.45898313522338796,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn cage upright 1",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.34301729202270437,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn cage upright 2",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.34301729202270437,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn cage upright 3",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.45898313522338796,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn luminous flame",
+          "triangles": 168,
+          "route_aabb_separation_lower_bound": 0.3849999427795403,
+          "actual_triangles_and_closed_volume_disjoint": true
+        }
+      ],
+      "minimum_route_clearance_lower_bound": 0.3006658882374086
+    },
+    {
+      "desired_luminous_center": [
+        14.81,
+        39,
+        30.95
+      ],
+      "translation": [
+        9.6,
+        0.3500000000000014,
+        0.0
+      ],
+      "components": [
+        {
+          "object": "V013 | turn mounting plate",
+          "triangles": 12,
+          "route_aabb_separation_lower_bound": 0.5775000572204583,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn wall arm",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.3969332695007317,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn lower cup",
+          "triangles": 60,
+          "route_aabb_separation_lower_bound": 0.3050000190734856,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn hood rim",
+          "triangles": 60,
+          "route_aabb_separation_lower_bound": 0.3050000190734856,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn rain hood",
+          "triangles": 60,
+          "route_aabb_separation_lower_bound": 0.3006658882374086,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn cage upright 0",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.45898313522338796,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn cage upright 1",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.34301729202270437,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn cage upright 2",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.34301729202270437,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn cage upright 3",
+          "triangles": 44,
+          "route_aabb_separation_lower_bound": 0.45898313522338796,
+          "actual_triangles_and_closed_volume_disjoint": true
+        },
+        {
+          "object": "V013 | turn luminous flame",
+          "triangles": 168,
+          "route_aabb_separation_lower_bound": 0.3849999427795403,
+          "actual_triangles_and_closed_volume_disjoint": true
+        }
+      ],
+      "minimum_route_clearance_lower_bound": 0.3006658882374086
+    }
+  ],
+  "positive_mount_plate_wall_seats": [
+    {
+      "y": 34,
+      "actual_plate": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 0.999999999999995,
+        "bounds": [
+          [
+            15.0005,
+            33.99,
+            30.94
+          ],
+          [
+            15.002,
+            34.01,
+            30.96
+          ]
+        ],
+        "source": {
+          "object": "V013 | turn mounting plate",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "unchanged_source_foundation": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 0.9999999999999997,
+        "bounds": [
+          [
+            15.0005,
+            33.99,
+            30.94
+          ],
+          [
+            15.002,
+            34.01,
+            30.96
+          ]
+        ],
+        "source": {
+          "object": "V012 | foundation with continuous L-shaped passage",
+          "seed": 128
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "outside_declared_cavity": true,
+      "positive_witness_volume": 5.999999999998906e-07
+    },
+    {
+      "y": 39,
+      "actual_plate": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 0.999999999999995,
+        "bounds": [
+          [
+            15.0005,
+            38.99,
+            30.94
+          ],
+          [
+            15.002,
+            39.01,
+            30.96
+          ]
+        ],
+        "source": {
+          "object": "V013 | turn mounting plate",
+          "seed": 0
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "unchanged_source_foundation": {
+        "pass": true,
+        "closed_oriented": true,
+        "boundary_candidates": 0,
+        "actual_boundary_intersections": 0,
+        "winding": 1.0,
+        "bounds": [
+          [
+            15.0005,
+            38.99,
+            30.94
+          ],
+          [
+            15.002,
+            39.01,
+            30.96
+          ]
+        ],
+        "source": {
+          "object": "V012 | foundation with continuous L-shaped passage",
+          "seed": 128
+        },
+        "numerical_sat_distance_allowance": 1e-09
+      },
+      "outside_declared_cavity": true,
+      "positive_witness_volume": 5.999999999998906e-07
+    }
+  ],
+  "copied_fixture_triangle_count_each": 580,
+  "copied_fixture_triangle_count_total": 1160,
+  "limits": "Prospective pure translation of actual evaluated templates, not saved/new scene proof. Continuous axis-aligned body proxy29.025..31.1 excludes foot-contact slice; not entire-floor accessibility or engineering. Native integration must verify exact raw/material/light template identity, float32 rounding, final seating/body/ceiling/coplanar tests and all-in budget. No light power/render changes were performed.",
+  "native_run": false,
+  "model_saved": false
+}

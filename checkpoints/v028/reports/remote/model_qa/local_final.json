@@ -1,0 +1,130 @@
+{
+  "pass": true,
+  "triangles": 150,
+  "axis_oriented_planes": 34,
+  "uncovered_area": 0,
+  "outside_area": 0,
+  "multiply_covered_area": 0,
+  "saved_float_volume_exact_fraction": "4208907631977/137438953472",
+  "saved_float_volume": 30.623833532277786,
+  "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance.",
+  "input_sha256": {
+    "payload": "0d07d8ceb27f44cd3c612392d56b40921e60c7f8afaa522aa04f74c17df817f2",
+    "export": "83593439fc128700af9302eb1e53185b3f782b00f39e1b7cb972a72823dc362e",
+    "proof": "c96d20ca60f419953225303fdde4580ef64bb4da56939f482d82bb058a6bf0c0"
+  },
+  "quantization": {
+    "quantized_cell_count": 948,
+    "occupied_cells": 632,
+    "max_winding_residual": 1.765254609153999e-14,
+    "plane_quantization": [
+      {
+        "nominal": [
+          5.35,
+          5.4,
+          5.400000095367432,
+          5.49,
+          5.5,
+          5.550000190734863,
+          5.56,
+          6.9,
+          7,
+          7.1,
+          10.6,
+          11.4,
+          15,
+          15.1
+        ],
+        "saved_unique": [
+          5.349999904632568,
+          5.400000095367432,
+          5.489999771118164,
+          5.5,
+          5.550000190734863,
+          5.559999942779541,
+          6.900000095367432,
+          7.0,
+          7.099999904632568,
+          10.600000381469727,
+          11.399999618530273,
+          15.0,
+          15.100000381469727
+        ],
+        "collapsed_intervals": 1,
+        "max_rounding_displacement": 3.8146972691777137e-07
+      },
+      {
+        "nominal": [
+          32.4,
+          32.5,
+          34.6,
+          35.4,
+          36.65,
+          36.7,
+          36.8,
+          38.2,
+          38.3,
+          38.35,
+          39,
+          40.5,
+          40.6
+        ],
+        "saved_unique": [
+          32.400001525878906,
+          32.5,
+          34.599998474121094,
+          35.400001525878906,
+          36.650001525878906,
+          36.70000076293945,
+          36.79999923706055,
+          38.20000076293945,
+          38.29999923706055,
+          38.349998474121094,
+          39.0,
+          40.5,
+          40.599998474121094
+        ],
+        "collapsed_intervals": 0,
+        "max_rounding_displacement": 1.5258789076710855e-06
+      },
+      {
+        "nominal": [
+          28.65,
+          28.7,
+          28.700000762939453,
+          28.75,
+          28.9,
+          29,
+          30.0,
+          31.440000534057617,
+          31.45,
+          31.55,
+          31.6,
+          31.8,
+          32.05,
+          32.15
+        ],
+        "saved_unique": [
+          28.649999618530273,
+          28.700000762939453,
+          28.75,
+          28.899999618530273,
+          29.0,
+          30.0,
+          31.440000534057617,
+          31.450000762939453,
+          31.549999237060547,
+          31.600000381469727,
+          31.799999237060547,
+          32.04999923706055,
+          32.150001525878906
+        ],
+        "collapsed_intervals": 1,
+        "max_rounding_displacement": 1.5258789076710855e-06
+      }
+    ],
+    "scope": "Expected saved float32 grid, not claim of exact nominal decimal geometry."
+  },
+  "seconds": 0.592919111251831,
+  "scope": "CPU actual payload planar-boundary proof via independent exact ear clipping. Native saved loop triangulation/deep state remains required. No model/Boolean/native operation."
+}

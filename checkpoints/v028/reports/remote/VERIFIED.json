@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "verified_utc": "2026-11-02T02:05:52.839623+00:00",
+  "additive_commit": "36c1b45b92ffcf6b0fe0cfb6ca3f43208e20e8f5",
+  "additive_deleted_paths": 0,
+  "root_checksums": 2508,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "model_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "rebuilt_sha256": "1efa55bcf6962a18765eb347d15056af68fd1ec3cc62e1ab66bce9667b0224d8",
+  "model_qa": true,
+  "inspection_qa": true,
+  "source_recovery": "Exact v027 and v028 restored from fresh additive Git archive; v018 QA baseline independently restored from fixed89cce41",
+  "report_sha256": {
+    "MODEL_REMOTE_SUMMARY.json": "4e424ac863acdbadfdaa53e70c5df222e43e94a388d5fef195e01a996cc2de43",
+    "INSPECTION_REMOTE_SUMMARY.json": "845dd9277cabe57011e3c3fe2f713c0dcbd33a40d7f68cb85938da3cd5721e5f"
+  },
+  "limits": [
+    "Final cleanup commit still requires remote verification; this receipt verifies additive backup before any retirements.",
+    "No render or canonical source modification during recovery tests.",
+    "No Windows execution or structural/full-castle-access certification."
+  ]
+}

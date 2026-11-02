@@ -1,0 +1,120 @@
+{
+  "pass": true,
+  "candidate_sha256": "1efa55bcf6962a18765eb347d15056af68fd1ec3cc62e1ab66bce9667b0224d8",
+  "geometry_sha256": "fbd1fac05c0fa59acf6a907f8d6382537286f46230b2f3fc9e0babf29813602e",
+  "meshes": [
+    {
+      "name": "V028 | foundation outside chamber guard",
+      "pass": true,
+      "parents_checked": 57,
+      "exact_zero_triangles": [
+        {
+          "triangle": 178,
+          "parent": 104,
+          "coordinates": [
+            [
+              5.550000190734863,
+              36.650001525878906,
+              31.440000534057617
+            ],
+            [
+              5.550000190734863,
+              36.650001525878906,
+              30.0
+            ],
+            [
+              5.550000190734863,
+              36.650001525878906,
+              28.75
+            ]
+          ]
+        },
+        {
+          "triangle": 182,
+          "parent": 107,
+          "coordinates": [
+            [
+              5.550000190734863,
+              38.349998474121094,
+              28.75
+            ],
+            [
+              5.550000190734863,
+              38.349998474121094,
+              30.0
+            ],
+            [
+              5.550000190734863,
+              38.349998474121094,
+              31.440000534057617
+            ]
+          ]
+        }
+      ],
+      "uncovered_area": 0,
+      "multiply_covered_area": 0,
+      "outside_area": 0
+    },
+    {
+      "name": "V028 | ashlar outside chamber guard",
+      "pass": true,
+      "parents_checked": 38,
+      "exact_zero_triangles": [
+        {
+          "triangle": 118,
+          "parent": 63,
+          "coordinates": [
+            [
+              5.550000190734863,
+              36.650001525878906,
+              31.600000381469727
+            ],
+            [
+              5.550000190734863,
+              36.650001525878906,
+              31.440000534057617
+            ],
+            [
+              5.550000190734863,
+              36.650001525878906,
+              30.0
+            ]
+          ]
+        }
+      ],
+      "uncovered_area": 0,
+      "multiply_covered_area": 0,
+      "outside_area": 0
+    },
+    {
+      "name": "V028 | east lining outside chamber guard",
+      "pass": true,
+      "parents_checked": 19,
+      "exact_zero_triangles": [],
+      "uncovered_area": 0,
+      "multiply_covered_area": 0,
+      "outside_area": 0
+    },
+    {
+      "name": "V028 | local receiving chamber shell",
+      "pass": true,
+      "parents_checked": 75,
+      "exact_zero_triangles": [],
+      "uncovered_area": 0,
+      "multiply_covered_area": 0,
+      "outside_area": 0,
+      "actual_native_boundary": {
+        "pass": true,
+        "triangles": 254,
+        "axis_oriented_planes": 34,
+        "uncovered_area": 0,
+        "outside_area": 0,
+        "multiply_covered_area": 0,
+        "saved_float_volume_exact_fraction": "4208907631977/137438953472",
+        "saved_float_volume": 30.623833532277786,
+        "method": "Exact Fraction clipping/areas on saved-float coordinates, independently quantized expected cells; no geometry-area tolerance."
+      }
+    }
+  ],
+  "limits": "Remote original parent records separately exact; zero derived triangles carry no surface area and are not saved-face removals."
+}

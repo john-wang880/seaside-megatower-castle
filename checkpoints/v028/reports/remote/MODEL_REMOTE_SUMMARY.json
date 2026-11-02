@@ -1,0 +1,73 @@
+{
+  "pass": true,
+  "supplied_verified_remote_commit": "36c1b45b92ffcf6b0fe0cfb6ca3f43208e20e8f5",
+  "archive": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_additive/repo",
+  "archive_files": 2511,
+  "source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+  "accepted_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "qa_manifest_sha256": "c1f9a87b267f78e6d24b507383fe18a1f9006d746e3df58bc30b5e53f077ac85",
+  "reproduction_manifest_sha256": "076c809079043523d2c45609e7729fc6556b4ec6d7ade506d6402b6f032d7580",
+  "input_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_additive/repo/castle_v027.blend": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_additive/repo/castle_v028.blend": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+    "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender": "b8b07a190fb25db76aae6de08dbc6c2b3d64e22e82bed6ba90de9545859f3431",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_publish/verify_remote.py": "dbe496fba4119b71d424958f52641f8220170b4b0b415e69082017f95f10adfd"
+  },
+  "commands": [
+    {
+      "name": "reproduction",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_additive/repo/checkpoints/v028/reproduce/reproduce.py",
+        "--source",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_additive/repo/castle_v027.blend",
+        "--blender",
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "--output-dir",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_model_qa/rebuilt"
+      ],
+      "returncode": 0,
+      "log_sha256": "9c7efa2570333660041dd8a35db7668f08cf8d24f921f10c909e93463409f56a"
+    },
+    {
+      "name": "independent_qa",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_additive/repo/checkpoints/v028/qa/run_qa.py",
+        "--blender",
+        "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+        "--source",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_additive/repo/castle_v027.blend",
+        "--candidate",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_model_qa/rebuilt/castle_receiving_chamber.blend",
+        "--candidate-sha",
+        "1efa55bcf6962a18765eb347d15056af68fd1ec3cc62e1ab66bce9667b0224d8",
+        "--accepted",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_additive/repo/castle_v028.blend",
+        "--reference-export",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_additive/repo/checkpoints/v028/reproduce/native.json.gz",
+        "--output-dir",
+        "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v028_remote_model_qa/qa"
+      ],
+      "returncode": 0,
+      "log_sha256": "d0f644f27e1997e8565df6549faad4388573f699acf68828af0ceea5e6b67765"
+    }
+  ],
+  "rebuilt_sha256": "1efa55bcf6962a18765eb347d15056af68fd1ec3cc62e1ab66bce9667b0224d8",
+  "reproduction_receipt_sha256": "e1198e806c9874e08e0421f6e2abe73dae1dd5d3eeed72d972dd6a278764d266",
+  "qa_summary_sha256": "4c5bae70d159d4beef24bb923290f11b2e56170d8b7e35664c9b30a04bb96b42",
+  "qa_report_count": 14,
+  "reproduction_stages": 3,
+  "reproduction_model_native_calls": 2,
+  "qa_native_calls": 3,
+  "qa_python_calls": 13,
+  "blender_version_queries": 1,
+  "whole_archive_unchanged": true,
+  "limits": [
+    "Supplied Git commit provenance is owner-verified; this helper does not fetch or authenticate Git remotely.",
+    "Rebuilt save bytes may differ; full persistent/evaluated semantic equality and actual QA gates are required.",
+    "No additional rendering, source/model acceptance renaming, publication or old-payload cleanup."
+  ]
+}
