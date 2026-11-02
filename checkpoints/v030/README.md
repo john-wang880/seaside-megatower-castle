@@ -12,3 +12,8 @@ Two staggered three-bay timber racks and four supported lidded supply bins furni
 Source v029 is recoverable from fixed commit `d753ba032b1d3138a1d0c34e13b0caee40b3d92f`. No old payload may be withdrawn until the new additive backup is independently restored. Existing videos retain their historical source versions.
 
 The parallel woodland/coast redesign is still a CPU design study, not part of this model change.
+
+
+## 后续未采纳研究
+
+[整体景观B0归档](studies/landscape_b0/README.md)是技术通过但构图未采纳的方案，不改变本检查点模型／材质／灯光。当前源SHA保持9f020b7e…；新的整体景观方案另行设计。
