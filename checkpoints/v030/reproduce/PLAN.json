@@ -1,0 +1,1629 @@
+{
+  "status": "declared primitive plan only, no generated meshes",
+  "candidate_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "inputs": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_interior_qa/saved_geometry.json": "218ce56b815802101d36365d4912e4dd6130f8d61a8a9280ae675835a83551d9",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_interior_qa/saved_fixtures.json": "3a60136da87e2ff7d0330e528acd6db175ae789ed4514b2fa6d3f6637bc71250"
+  },
+  "accepted_view_receipts": {
+    "stores_entry": {
+      "path": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_inspection/staged_tool/provenance/stores_entry_v029_receipt.json",
+      "sha256": "bd27d852307d139b4bcb0a164c855ea0d82c84be6acaf703f187a396930de287",
+      "camera": {
+        "matrix_world": [
+          [
+            -4.371138828673793e-08,
+            -4.371138828673793e-08,
+            -1.0,
+            15.199999809265137
+          ],
+          [
+            -1.0,
+            1.910685676922942e-15,
+            4.371138828673793e-08,
+            36.20000076293945
+          ],
+          [
+            0.0,
+            1.0,
+            -4.371138828673793e-08,
+            30.649999618530273
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": {
+          "type": "PERSP",
+          "lens": 26.0,
+          "sensor_width": 36.0,
+          "sensor_height": 24.0,
+          "sensor_fit": "HORIZONTAL",
+          "shift_x": 0.0,
+          "shift_y": 0.0,
+          "clip_start": 0.07999999821186066,
+          "clip_end": 1000.0
+        }
+      }
+    },
+    "stores_return": {
+      "path": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_inspection/staged_tool/provenance/stores_return_v029_receipt.json",
+      "sha256": "1086f3ab85270bd776908395beec84d23cd9037f2066dbf942b12160d5363b44",
+      "camera": {
+        "matrix_world": [
+          [
+            -4.371138828673793e-08,
+            4.371138828673793e-08,
+            1.0,
+            22.700000762939453
+          ],
+          [
+            1.0,
+            1.910685676922942e-15,
+            4.371138828673793e-08,
+            36.20000076293945
+          ],
+          [
+            0.0,
+            1.0,
+            -4.371138828673793e-08,
+            30.649999618530273
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": {
+          "type": "PERSP",
+          "lens": 26.0,
+          "sensor_width": 36.0,
+          "sensor_height": 24.0,
+          "sensor_fit": "HORIZONTAL",
+          "shift_x": 0.0,
+          "shift_y": 0.0,
+          "clip_start": 0.07999999821186066,
+          "clip_end": 1000.0
+        }
+      }
+    }
+  },
+  "rack_envelopes": [
+    {
+      "name": "south",
+      "min": [
+        19.25,
+        34.08,
+        29
+      ],
+      "max": [
+        22.85,
+        34.78,
+        31.1
+      ]
+    },
+    {
+      "name": "north",
+      "min": [
+        17,
+        37.72,
+        29
+      ],
+      "max": [
+        21.05,
+        38.42,
+        31.1
+      ]
+    }
+  ],
+  "primitive_parts": [
+    {
+      "name": "south post 0/0",
+      "min": [
+        19.25,
+        34.08,
+        29
+      ],
+      "max": [
+        19.369999999999997,
+        34.2,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "south post 0/1",
+      "min": [
+        19.25,
+        34.66,
+        29
+      ],
+      "max": [
+        19.369999999999997,
+        34.78,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "south post 1/0",
+      "min": [
+        20.41,
+        34.08,
+        29
+      ],
+      "max": [
+        20.529999999999998,
+        34.2,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "south post 1/1",
+      "min": [
+        20.41,
+        34.66,
+        29
+      ],
+      "max": [
+        20.529999999999998,
+        34.78,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "south post 2/0",
+      "min": [
+        21.570000000000004,
+        34.08,
+        29
+      ],
+      "max": [
+        21.69,
+        34.2,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "south post 2/1",
+      "min": [
+        21.570000000000004,
+        34.66,
+        29
+      ],
+      "max": [
+        21.69,
+        34.78,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "south post 3/0",
+      "min": [
+        22.730000000000004,
+        34.08,
+        29
+      ],
+      "max": [
+        22.85,
+        34.2,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "south post 3/1",
+      "min": [
+        22.730000000000004,
+        34.66,
+        29
+      ],
+      "max": [
+        22.85,
+        34.78,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "south shelf 0/29.22",
+      "min": [
+        19.369999999999997,
+        34.1,
+        29.16
+      ],
+      "max": [
+        20.41,
+        34.76,
+        29.22
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "south shelf 0/29.9",
+      "min": [
+        19.369999999999997,
+        34.1,
+        29.84
+      ],
+      "max": [
+        20.41,
+        34.76,
+        29.9
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "south shelf 0/30.58",
+      "min": [
+        19.369999999999997,
+        34.1,
+        30.52
+      ],
+      "max": [
+        20.41,
+        34.76,
+        30.58
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "south shelf 1/29.22",
+      "min": [
+        20.529999999999998,
+        34.1,
+        29.16
+      ],
+      "max": [
+        21.570000000000004,
+        34.76,
+        29.22
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "south shelf 1/29.9",
+      "min": [
+        20.529999999999998,
+        34.1,
+        29.84
+      ],
+      "max": [
+        21.570000000000004,
+        34.76,
+        29.9
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "south shelf 1/30.58",
+      "min": [
+        20.529999999999998,
+        34.1,
+        30.52
+      ],
+      "max": [
+        21.570000000000004,
+        34.76,
+        30.58
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "south shelf 2/29.22",
+      "min": [
+        21.69,
+        34.1,
+        29.16
+      ],
+      "max": [
+        22.730000000000004,
+        34.76,
+        29.22
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "south shelf 2/29.9",
+      "min": [
+        21.69,
+        34.1,
+        29.84
+      ],
+      "max": [
+        22.730000000000004,
+        34.76,
+        29.9
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "south shelf 2/30.58",
+      "min": [
+        21.69,
+        34.1,
+        30.52
+      ],
+      "max": [
+        22.730000000000004,
+        34.76,
+        30.58
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "south rail 0/34.14/29.22",
+      "min": [
+        19.31,
+        34.09,
+        29.06
+      ],
+      "max": [
+        20.47,
+        34.19,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 0/34.14/29.9",
+      "min": [
+        19.31,
+        34.09,
+        29.74
+      ],
+      "max": [
+        20.47,
+        34.19,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 0/34.14/30.58",
+      "min": [
+        19.31,
+        34.09,
+        30.419999999999998
+      ],
+      "max": [
+        20.47,
+        34.19,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 0/34.72/29.22",
+      "min": [
+        19.31,
+        34.67,
+        29.06
+      ],
+      "max": [
+        20.47,
+        34.769999999999996,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 0/34.72/29.9",
+      "min": [
+        19.31,
+        34.67,
+        29.74
+      ],
+      "max": [
+        20.47,
+        34.769999999999996,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 0/34.72/30.58",
+      "min": [
+        19.31,
+        34.67,
+        30.419999999999998
+      ],
+      "max": [
+        20.47,
+        34.769999999999996,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 1/34.14/29.22",
+      "min": [
+        20.47,
+        34.09,
+        29.06
+      ],
+      "max": [
+        21.630000000000003,
+        34.19,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 1/34.14/29.9",
+      "min": [
+        20.47,
+        34.09,
+        29.74
+      ],
+      "max": [
+        21.630000000000003,
+        34.19,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 1/34.14/30.58",
+      "min": [
+        20.47,
+        34.09,
+        30.419999999999998
+      ],
+      "max": [
+        21.630000000000003,
+        34.19,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 1/34.72/29.22",
+      "min": [
+        20.47,
+        34.67,
+        29.06
+      ],
+      "max": [
+        21.630000000000003,
+        34.769999999999996,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 1/34.72/29.9",
+      "min": [
+        20.47,
+        34.67,
+        29.74
+      ],
+      "max": [
+        21.630000000000003,
+        34.769999999999996,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 1/34.72/30.58",
+      "min": [
+        20.47,
+        34.67,
+        30.419999999999998
+      ],
+      "max": [
+        21.630000000000003,
+        34.769999999999996,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 2/34.14/29.22",
+      "min": [
+        21.630000000000003,
+        34.09,
+        29.06
+      ],
+      "max": [
+        22.790000000000003,
+        34.19,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 2/34.14/29.9",
+      "min": [
+        21.630000000000003,
+        34.09,
+        29.74
+      ],
+      "max": [
+        22.790000000000003,
+        34.19,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 2/34.14/30.58",
+      "min": [
+        21.630000000000003,
+        34.09,
+        30.419999999999998
+      ],
+      "max": [
+        22.790000000000003,
+        34.19,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 2/34.72/29.22",
+      "min": [
+        21.630000000000003,
+        34.67,
+        29.06
+      ],
+      "max": [
+        22.790000000000003,
+        34.769999999999996,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 2/34.72/29.9",
+      "min": [
+        21.630000000000003,
+        34.67,
+        29.74
+      ],
+      "max": [
+        22.790000000000003,
+        34.769999999999996,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south rail 2/34.72/30.58",
+      "min": [
+        21.630000000000003,
+        34.67,
+        30.419999999999998
+      ],
+      "max": [
+        22.790000000000003,
+        34.769999999999996,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "south supply bin 0",
+      "min": [
+        19.490000000000002,
+        34.18,
+        29.22
+      ],
+      "max": [
+        20.29,
+        34.68,
+        29.669999999999998
+      ],
+      "role": "bin bottom on shelf; single closed plain lidded box planned"
+    },
+    {
+      "name": "south supply bin 2",
+      "min": [
+        21.810000000000002,
+        34.18,
+        29.9
+      ],
+      "max": [
+        22.61,
+        34.68,
+        30.349999999999998
+      ],
+      "role": "bin bottom on shelf; single closed plain lidded box planned"
+    },
+    {
+      "name": "north post 0/0",
+      "min": [
+        17.0,
+        37.72,
+        29
+      ],
+      "max": [
+        17.119999999999997,
+        37.84,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "north post 0/1",
+      "min": [
+        17.0,
+        38.3,
+        29
+      ],
+      "max": [
+        17.119999999999997,
+        38.42,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "north post 1/0",
+      "min": [
+        18.310000000000002,
+        37.72,
+        29
+      ],
+      "max": [
+        18.43,
+        37.84,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "north post 1/1",
+      "min": [
+        18.310000000000002,
+        38.3,
+        29
+      ],
+      "max": [
+        18.43,
+        38.42,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "north post 2/0",
+      "min": [
+        19.62,
+        37.72,
+        29
+      ],
+      "max": [
+        19.74,
+        37.84,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "north post 2/1",
+      "min": [
+        19.62,
+        38.3,
+        29
+      ],
+      "max": [
+        19.74,
+        38.42,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "north post 3/0",
+      "min": [
+        20.930000000000003,
+        37.72,
+        29
+      ],
+      "max": [
+        21.05,
+        37.84,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "north post 3/1",
+      "min": [
+        20.930000000000003,
+        38.3,
+        29
+      ],
+      "max": [
+        21.05,
+        38.42,
+        31.1
+      ],
+      "role": "floor-supported upright"
+    },
+    {
+      "name": "north shelf 0/29.22",
+      "min": [
+        17.119999999999997,
+        37.74,
+        29.16
+      ],
+      "max": [
+        18.310000000000002,
+        38.4,
+        29.22
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "north shelf 0/29.9",
+      "min": [
+        17.119999999999997,
+        37.74,
+        29.84
+      ],
+      "max": [
+        18.310000000000002,
+        38.4,
+        29.9
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "north shelf 0/30.58",
+      "min": [
+        17.119999999999997,
+        37.74,
+        30.52
+      ],
+      "max": [
+        18.310000000000002,
+        38.4,
+        30.58
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "north shelf 1/29.22",
+      "min": [
+        18.43,
+        37.74,
+        29.16
+      ],
+      "max": [
+        19.62,
+        38.4,
+        29.22
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "north shelf 1/29.9",
+      "min": [
+        18.43,
+        37.74,
+        29.84
+      ],
+      "max": [
+        19.62,
+        38.4,
+        29.9
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "north shelf 1/30.58",
+      "min": [
+        18.43,
+        37.74,
+        30.52
+      ],
+      "max": [
+        19.62,
+        38.4,
+        30.58
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "north shelf 2/29.22",
+      "min": [
+        19.74,
+        37.74,
+        29.16
+      ],
+      "max": [
+        20.930000000000003,
+        38.4,
+        29.22
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "north shelf 2/29.9",
+      "min": [
+        19.74,
+        37.74,
+        29.84
+      ],
+      "max": [
+        20.930000000000003,
+        38.4,
+        29.9
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "north shelf 2/30.58",
+      "min": [
+        19.74,
+        37.74,
+        30.52
+      ],
+      "max": [
+        20.930000000000003,
+        38.4,
+        30.58
+      ],
+      "role": "shelf; requires side rail support"
+    },
+    {
+      "name": "north rail 0/37.78/29.22",
+      "min": [
+        17.06,
+        37.730000000000004,
+        29.06
+      ],
+      "max": [
+        18.37,
+        37.83,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 0/37.78/29.9",
+      "min": [
+        17.06,
+        37.730000000000004,
+        29.74
+      ],
+      "max": [
+        18.37,
+        37.83,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 0/37.78/30.58",
+      "min": [
+        17.06,
+        37.730000000000004,
+        30.419999999999998
+      ],
+      "max": [
+        18.37,
+        37.83,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 0/38.36/29.22",
+      "min": [
+        17.06,
+        38.31,
+        29.06
+      ],
+      "max": [
+        18.37,
+        38.41,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 0/38.36/29.9",
+      "min": [
+        17.06,
+        38.31,
+        29.74
+      ],
+      "max": [
+        18.37,
+        38.41,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 0/38.36/30.58",
+      "min": [
+        17.06,
+        38.31,
+        30.419999999999998
+      ],
+      "max": [
+        18.37,
+        38.41,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 1/37.78/29.22",
+      "min": [
+        18.37,
+        37.730000000000004,
+        29.06
+      ],
+      "max": [
+        19.68,
+        37.83,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 1/37.78/29.9",
+      "min": [
+        18.37,
+        37.730000000000004,
+        29.74
+      ],
+      "max": [
+        19.68,
+        37.83,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 1/37.78/30.58",
+      "min": [
+        18.37,
+        37.730000000000004,
+        30.419999999999998
+      ],
+      "max": [
+        19.68,
+        37.83,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 1/38.36/29.22",
+      "min": [
+        18.37,
+        38.31,
+        29.06
+      ],
+      "max": [
+        19.68,
+        38.41,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 1/38.36/29.9",
+      "min": [
+        18.37,
+        38.31,
+        29.74
+      ],
+      "max": [
+        19.68,
+        38.41,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 1/38.36/30.58",
+      "min": [
+        18.37,
+        38.31,
+        30.419999999999998
+      ],
+      "max": [
+        19.68,
+        38.41,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 2/37.78/29.22",
+      "min": [
+        19.68,
+        37.730000000000004,
+        29.06
+      ],
+      "max": [
+        20.990000000000002,
+        37.83,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 2/37.78/29.9",
+      "min": [
+        19.68,
+        37.730000000000004,
+        29.74
+      ],
+      "max": [
+        20.990000000000002,
+        37.83,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 2/37.78/30.58",
+      "min": [
+        19.68,
+        37.730000000000004,
+        30.419999999999998
+      ],
+      "max": [
+        20.990000000000002,
+        37.83,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 2/38.36/29.22",
+      "min": [
+        19.68,
+        38.31,
+        29.06
+      ],
+      "max": [
+        20.990000000000002,
+        38.41,
+        29.16
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 2/38.36/29.9",
+      "min": [
+        19.68,
+        38.31,
+        29.74
+      ],
+      "max": [
+        20.990000000000002,
+        38.41,
+        29.84
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north rail 2/38.36/30.58",
+      "min": [
+        19.68,
+        38.31,
+        30.419999999999998
+      ],
+      "max": [
+        20.990000000000002,
+        38.41,
+        30.52
+      ],
+      "role": "shelf-support rail seated into posts"
+    },
+    {
+      "name": "north supply bin 0",
+      "min": [
+        17.315,
+        37.82,
+        29.22
+      ],
+      "max": [
+        18.115,
+        38.32,
+        29.669999999999998
+      ],
+      "role": "bin bottom on shelf; single closed plain lidded box planned"
+    },
+    {
+      "name": "north supply bin 2",
+      "min": [
+        19.935000000000002,
+        37.82,
+        29.9
+      ],
+      "max": [
+        20.735,
+        38.32,
+        30.349999999999998
+      ],
+      "role": "bin bottom on shelf; single closed plain lidded box planned"
+    }
+  ],
+  "feet_floor_seats": [
+    {
+      "foot": "south post 0/0",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          113,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "south post 0/1",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          114,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "south post 1/0",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          113,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "south post 1/1",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          113,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "south post 2/0",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          113,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "south post 2/1",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          113,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "south post 3/0",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          113,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "south post 3/1",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          113,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "north post 0/0",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          116,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "north post 0/1",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          116,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "north post 1/0",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          116,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "north post 1/1",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          116,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "north post 2/0",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          116,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "north post 2/1",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          116,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "north post 3/0",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          115,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    },
+    {
+      "foot": "north post 3/1",
+      "foot_area": 0.0144,
+      "actual_upward_floor_overlap_sum": 0.014400000000000239,
+      "witnesses": [
+        [
+          "V029 | local stores shell",
+          116,
+          0.014400000000000239
+        ]
+      ],
+      "residual": 2.393918396847994e-16
+    }
+  ],
+  "saved_fixture_bounds": [
+    {
+      "side": "south",
+      "bounds": [
+        [
+          18.489999771118164,
+          33.99693298339844,
+          30.77750015258789
+        ],
+        [
+          18.71000099182129,
+          34.29999923706055,
+          31.21000099182129
+        ]
+      ]
+    },
+    {
+      "side": "north",
+      "bounds": [
+        [
+          21.59000015258789,
+          38.20000076293945,
+          30.77750015258789
+        ],
+        [
+          21.810001373291016,
+          38.50306701660156,
+          31.21000099182129
+        ]
+      ]
+    }
+  ],
+  "finite_sightlines": [
+    {
+      "view": "stores_entry",
+      "target": "south_luminous",
+      "from": [
+        15.199999809265137,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        18.6,
+        34.1899995803833,
+        30.950000762939453
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_entry",
+      "target": "north_luminous",
+      "from": [
+        15.199999809265137,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        21.7,
+        38.3100004196167,
+        30.950000762939453
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": [
+        "north"
+      ]
+    },
+    {
+      "view": "stores_return",
+      "target": "south_luminous",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        18.6,
+        34.1899995803833,
+        30.950000762939453
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": [
+        "south"
+      ]
+    },
+    {
+      "view": "stores_return",
+      "target": "north_luminous",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        21.7,
+        38.3100004196167,
+        30.950000762939453
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_return",
+      "target": "door_35.5_29.025",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        15,
+        35.5,
+        29.025
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_return",
+      "target": "door_35.5_30.2",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        15,
+        35.5,
+        30.2
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_return",
+      "target": "door_35.5_31.45",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        15,
+        35.5,
+        31.45
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_return",
+      "target": "door_36.2_29.025",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        15,
+        36.2,
+        29.025
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_return",
+      "target": "door_36.2_30.2",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        15,
+        36.2,
+        30.2
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_return",
+      "target": "door_36.2_31.45",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        15,
+        36.2,
+        31.45
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_return",
+      "target": "door_36.9_29.025",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        15,
+        36.9,
+        29.025
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_return",
+      "target": "door_36.9_30.2",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        15,
+        36.9,
+        30.2
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    },
+    {
+      "view": "stores_return",
+      "target": "door_36.9_31.45",
+      "from": [
+        22.700000762939453,
+        36.20000076293945,
+        30.649999618530273
+      ],
+      "to": [
+        15,
+        36.9,
+        31.45
+      ],
+      "primitive_hits": [],
+      "whole_rack_envelope_hits": []
+    }
+  ],
+  "central_clear_width": 2.94,
+  "protected_lane": [
+    35.6,
+    36.8
+  ],
+  "doorway": [
+    35.5,
+    36.9
+  ],
+  "foot_count": 16,
+  "scope_limits": "No rack meshes, bevels, diagonal braces or actual stock generated. Floor area sums use saved upward triangles; independent overlap/solid support gate still required. Ray-box results apply only to declared solids; lamp emission/shadow/all-pixel visibility not certified."
+}

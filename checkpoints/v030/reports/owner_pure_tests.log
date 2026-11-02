@@ -1,0 +1,20 @@
+test_alias_dotdot (test_builder.Tests.test_alias_dotdot) ... ok
+test_bad_plan (test_builder.Tests.test_bad_plan) ... ok
+test_budget (test_builder.Tests.test_budget) ... ok
+test_closed_seats (test_builder.Tests.test_closed_seats) ... ok
+test_deterministic (test_builder.Tests.test_deterministic) ... ok
+test_existing_output (test_builder.Tests.test_existing_output) ... ok
+test_helper_hash_mismatch (test_builder.Tests.test_helper_hash_mismatch) ... ok
+test_occupied_report (test_builder.Tests.test_occupied_report) ... ok
+test_open_component (test_builder.Tests.test_open_component) ... ok
+test_optimized_guard (test_builder.Tests.test_optimized_guard) ... ok
+test_plan_hash_mismatch (test_builder.Tests.test_plan_hash_mismatch) ... ok
+test_positive_lid_seat (test_builder.Tests.test_positive_lid_seat) ... ok
+test_reversed_component (test_builder.Tests.test_reversed_component) ... ok
+test_symlink (test_builder.Tests.test_symlink) ... ok
+test_wrong_source (test_builder.Tests.test_wrong_source) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.181s
+
+OK

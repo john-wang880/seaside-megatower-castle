@@ -38,7 +38,7 @@ def tree_find(scene):
  tree_require(scene is bpy.context.scene,'Quality context scene mismatch')
  marker=json.loads(scene[CONFIG['marker']]);tag=marker.get('tree_quality')
  tree_require(CONFIG.get('tree_quality_enabled') is True and isinstance(tag,dict),'Tree controls not opted in')
- tree_require(tag.get('schema')=='castle-inspection-v029-tree-v1' and tag.get('mode') in ('HIGH','LOW'),'Invalid quality state')
+ tree_require(tag.get('schema')=='castle-inspection-v030-tree-v1' and tag.get('mode') in ('HIGH','LOW'),'Invalid quality state')
  tree_require(TARGET in scene.objects and all(n in scene.objects for n in NEW),'Expected scene objects missing')
  target=scene.objects[TARGET];objects=[scene.objects[n] for n in NEW]
  for layer in scene.view_layers:

@@ -1,0 +1,124 @@
+--- v029/compare_support.py
++++ v030/compare_support.py
+@@ -1,6 +1,6 @@
+ """Pure exact comparison helpers. No bpy import, broad attribute exclusions or I/O."""
+ import copy, hashlib,json
+-SOURCE_SHA='4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5'
++SOURCE_SHA='9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35'
+ BASE_SHA='c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd'
+ TARGET='V010 | woodland boughs with gate exit clearance'
+ GROUP='V019 candidate | reversible left tree foliage'
+--- v029/validate_modes.py
++++ v030/validate_modes.py
+@@ -10,7 +10,7 @@
+ for k in ('source','baseline','tool','default','off','high','low','default-receipt','off-receipt','high-receipt','low-receipt','report'):p.add_argument('--'+k,required=True)
+ a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);paths={k:Path(v).resolve() for k,v in vars(a).items()};sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+ cs.require(not paths['report'].exists(),'Report exists');inputs={k:sha(v) for k,v in paths.items() if k not in ('tool','report')};cs.require(inputs['source']==cs.SOURCE_SHA and inputs['baseline']==cs.BASE_SHA,'Input source identity')
+-cs.require(sha(paths['tool']/'catalog.json')=='b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424','Frozen 20-camera catalog changed');catalog=json.loads((paths['tool']/'catalog.json').read_text());cs.require(len(catalog['views'])==20,'Expected frozen 20-view catalog');runtime={n:sha(paths['tool']/n) for n in ('export_inspection.py','preflight.py','catalog.json','ui_template.py','tree_quality_template.py','edit_index_template.py','edit_index.json')};evidence={'modes':{},'negatives':[],'derived_ui':[]}
++cs.require(sha(paths['tool']/'catalog.json')=='0f672d7de20ff37d32f9922cbaa26d4e58d1e7dbd7bb9abf7a0e3c3879ec7d1b','Frozen 20-camera catalog changed');catalog=json.loads((paths['tool']/'catalog.json').read_text());cs.require(len(catalog['views'])==20,'Expected frozen 20-view catalog');runtime={n:sha(paths['tool']/n) for n in ('export_inspection.py','preflight.py','catalog.json','ui_template.py','tree_quality_template.py','edit_index_template.py','edit_index.json')};evidence={'modes':{},'negatives':[],'derived_ui':[]}
+ def load(key):
+  global guard_objects
+  bpy.ops.wm.open_mainfile(filepath=str(paths[key]),load_ui=True,use_scripts=False)
+@@ -91,8 +91,8 @@
+    for desired in ('LOW','HIGH',mode.upper()):
+     ui.tree_set_mode(bpy.context.scene,desired);cs.require(camera_state()==before_cam,'Tree changes camera state')
+     cs.require(ui.tree_set_mode(bpy.context.scene,desired)['changed'] is False,'Same mode not idempotent')
+-    before_flags=flags();bpy.ops.castle29_inspection.bookmark(view_id=key);cs.require(flags()==before_flags,'Bookmark changes tree state')
+-   cs.require(bpy.ops.castle29_inspection.tree_quality(mode=mode.upper())=={'FINISHED'},'Native quality operator failed')
++    before_flags=flags();bpy.ops.castle30_inspection.bookmark(view_id=key);cs.require(flags()==before_flags,'Bookmark changes tree state')
++   cs.require(bpy.ops.castle30_inspection.tree_quality(mode=mode.upper())=={'FINISHED'},'Native quality operator failed')
+  ui.select_bookmark('hero');cs.require(snap()==state,'Repeated mode/bookmark operations drift')
+  cs.require(ui.unregister() is True and ui.unregister() is False,'Unregister idempotence')
+  load(mode);module(mode).verify();cs.require(snap()==state,'Reopen differs');evidence['modes'][mode]['reopen_and_20_bookmark_interleaving']=True
+--- v029/validate_index.py
++++ v030/validate_index.py
+@@ -45,17 +45,17 @@
+  for mode in ('default','off','high','low'):
+   ui=load(mode);modules[mode]=ui;initial=snap();selection=selections();cam=camera_state();need(ui.register() is True and ui.register() is False,'Register idempotence');again=types.ModuleType('qa_manual_reexecute');exec(compile(bpy.data.texts[catalog['text']].as_string(),'manual-reexecute','exec'),again.__dict__);need(again.register() is False,'Manual reexecution not idempotent')
+   if mode=='default':
+-   need(not hasattr(ui,'select_index') and 'CASTLE29_PT_edit_index' not in ui.CLASS_NAMES,'Default must have no index')
++   need(not hasattr(ui,'select_index') and 'CASTLE30_PT_edit_index' not in ui.CLASS_NAMES,'Default must have no index')
+   else:
+    actions=[]
+    for j,view in enumerate(catalog['views']):
+-    ui.select_bookmark(view);before_camera=camera_state();key=list(index['groups'])[j%5]
++    ui.select_bookmark(view);before_camera=camera_state();key=(list(index['groups'])*3+['near_tree_high','stores_fittings'])[j]
+     if mode in ('high','low'):
+      for desired in ('LOW','HIGH',mode.upper()):
+       ui.tree_set_mode(bpy.context.scene,desired);need(camera_state()==before_camera,'Tree camera drift')
+       if desired=='LOW':reject(mode+' LOW near tree '+str(j),lambda:ui.select_index('near_tree_high'))
+     if mode=='low' and key=='near_tree_high':reject('LOW hidden index '+str(j),lambda k=key:ui.select_index(k));continue
+-    expected=[o['name'] for o in index['groups'][key]['objects']];result=ui.select_index(key);need(result['selected']==expected,'Wrong selected names');after=selections();vl=bpy.context.view_layer.name;need(after[vl]=={'selected':sorted(expected),'active':expected[0]},'Wrong selected set/active');need(camera_state()==before_camera,'Index changed cameras/views');ui.select_index(key);need(selections()==after,'Index not idempotent');need(bpy.ops.castle29_inspection.edit_index(index_id=key)=={'FINISHED'},'Native index operator failed');need(selections()==after and camera_state()==before_camera,'Native operator state drift');actions.append({'bookmark':view,'index':key,'selection_count':len(expected)})
++    expected=[o['name'] for o in index['groups'][key]['objects']];result=ui.select_index(key);need(result['selected']==expected,'Wrong selected names');after=selections();vl=bpy.context.view_layer.name;need(after[vl]=={'selected':sorted(expected),'active':expected[0]},'Wrong selected set/active');need(camera_state()==before_camera,'Index changed cameras/views');ui.select_index(key);need(selections()==after,'Index not idempotent');need(bpy.ops.castle30_inspection.edit_index(index_id=key)=={'FINISHED'},'Native index operator failed');need(selections()==after and camera_state()==before_camera,'Native operator state drift');actions.append({'bookmark':view,'index':key,'selection_count':len(expected)})
+    for key in index['groups']:
+     if mode=='low' and key=='near_tree_high':continue
+     ui.select_index(key)
+@@ -71,7 +71,7 @@
+  def panel_state():
+   return {'scenes':{sc.name:{'camera':sc.camera.name if sc.camera else None,'custom':dict(sc.items()),'layers':{vl.name:{'selected':sorted(o.name for o in vl.objects if o.select_get(view_layer=vl)),'active':vl.objects.active.name if vl.objects.active else None} for vl in sc.view_layers}} for sc in bpy.data.scenes},'window_scene':bpy.context.window.scene.name,'objects':{o.name:(o.hide_render,o.hide_viewport,o.hide_select) for o in bpy.data.objects},'cameras':{c.name:cs.digest(ss.primitive(c)) for c in bpy.data.cameras}}
+  def draw_case(label,valid):
+-  layout=Layout();before=panel_state();ui.CASTLE29_PT_edit_index.draw(types.SimpleNamespace(layout=layout),bpy.context);need(panel_state()==before,'Panel state mutation '+label)
++  layout=Layout();before=panel_state();ui.CASTLE30_PT_edit_index.draw(types.SimpleNamespace(layout=layout),bpy.context);need(panel_state()==before,'Panel state mutation '+label)
+   if valid:need([b.index_id for _,_,b in layout.buttons]==list(index['groups']) and not any(x.get('icon')=='ERROR' for x in layout.labels),'Valid panel labels/buttons')
+   else:need(not layout.buttons and any(x.get('icon')=='ERROR' for x in layout.labels),'Invalid panel must show error without accepted buttons '+label)
+   panel_cases.append({'case':label,'button_count':len(layout.buttons),'errors':[x['text'] for x in layout.labels if x.get('icon')=='ERROR']})
+--- v029/run_qa.py
++++ v030/run_qa.py
+@@ -19,8 +19,8 @@
+  require(not out.is_relative_to(ROOT) and not out.is_relative_to(paths['tool']),'Output inside immutable payload refused')
+  require(sha(paths['source'])==SOURCE_SHA and sha(paths['baseline'])==BASE_SHA,'Source/baseline SHA mismatch')
+  inputs={k:sha(v) for k,v in paths.items() if v.is_file()};before={'qa':inventory(ROOT),'tool':inventory(paths['tool'])};require(not any('__pycache__' in n or n.endswith('.pyc') for x in before.values() for n in x),'Input package contains caches')
+- out.mkdir();env={**os.environ,'PYTHONDONTWRITEBYTECODE':'1','XDG_CACHE_HOME':str(out/'cache')};env.pop('PYTHONOPTIMIZE',None)
+- commands=[[sys.executable,'-B','-m','unittest','discover','-s',str(ROOT),'-p','test_compare.py','-v']]
++ out.mkdir();env={**os.environ,'PYTHONDONTWRITEBYTECODE':'1','XDG_CACHE_HOME':str(out/'cache')};env.pop('PYTHONOPTIMIZE',None);env['INSPECTION_QA_TOOL']=str(paths['tool'])
++ commands=[[sys.executable,'-B','-m','unittest','discover','-s',str(ROOT),'-p','test_*.py','-v']]
+  native=[str(paths['blender']),'-b','--factory-startup','--disable-autoexec','--threads','4','--python-exit-code','1','--python-expr','import sys; sys.dont_write_bytecode=True','--python',str(ROOT/'validate_modes.py'),'--']
+  for k in ('source','baseline','tool','default','off','high','low','default_receipt','off_receipt','high_receipt','low_receipt'):native.extend(['--'+k.replace('_','-'),str(paths[k])])
+  native.extend(['--report',str(out/'modes.json')]);commands.append(native)
+@@ -33,6 +33,6 @@
+  report=json.loads((out/'modes.json').read_text());require(report['pass'] is True,'Native QA JSON failed');index_reports={phase:json.loads((out/('index_'+phase+'.json')).read_text()) for phase in ('positive','negative')};require(all(r['pass'] is True for r in index_reports.values()),'Index QA JSON failed')
+  require(inputs=={k:sha(paths[k]) for k in inputs},'Input bytes changed');require(before=={'qa':inventory(ROOT),'tool':inventory(paths['tool'])},'Payload changed')
+  require(len(index_reports['positive']['negatives'])==64,'Expected64 repeated LOW refusals');require({k:len(v['actions'])for k,v in index_reports['positive']['modes'].items()}=={'default':0,'off':20,'high':20,'low':16},'Expected exact bookmark/index action coverage');require(len(report['negatives'])==27,'Expected27 quality controls');require(len(index_reports['negative']['negatives'])==37,'Expected37 selection controls');require(len(index_reports['negative']['native_panel_draw_cases'])==6,'Expected6 direct panel cases');require(all(m['category_count']==13 for m in report['modes'].values()),'Expected13 snapshot categories');
+- result={'pass':True,'input_sha256':inputs,'inventory':before,'commands':commands,'native_calls':3,'pure_test_methods':8,'native_report_sha256':sha(out/'modes.json'),'index_report_sha256':{phase:sha(out/('index_'+phase+'.json')) for phase in index_reports},'source_saved':False,'rendered':False,'all_inputs_unchanged':True}
++ result={'pass':True,'input_sha256':inputs,'inventory':before,'commands':commands,'native_calls':3,'pure_test_methods':13,'native_report_sha256':sha(out/'modes.json'),'index_report_sha256':{phase:sha(out/('index_'+phase+'.json')) for phase in index_reports},'source_saved':False,'rendered':False,'all_inputs_unchanged':True}
+  (out/'SUMMARY.json').write_text(json.dumps(result,indent=2)+'\n');print('CURRENT EDITING INDEX QA PASS')
+ if __name__=='__main__':main()
+--- v029/expected_scope.py
++++ v030/expected_scope.py
+@@ -1,9 +1,9 @@
+-"""Reviewed exact v029 scope, independent of runtime's editable labels."""
++"""Reviewed exact v030 scope, independent of runtime's editable labels."""
+ import hashlib,json
+ from pathlib import Path
+ from compare_support import require,SOURCE_SHA,NEW
+-CATALOG='b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424'
+-INDEX='da82f1ba19d20ebd85bae60edef74961a2f6c04311fe81611c1e9e231aac9368'
++CATALOG='0f672d7de20ff37d32f9922cbaa26d4e58d1e7dbd7bb9abf7a0e3c3879ec7d1b'
++INDEX='4dc06df86511e8abb4109aac9b793cbafcdf5e2da0662a94ae6a1590a234e060'
+ SUFFIXES=['mounting plate','wall arm','lower cup','hood rim','rain hood','cage upright 0','cage upright 1','cage upright 2','cage upright 3','luminous flame']
+ EXPECTED={
+  'receiving_shell':{'V029 | receiving shell outside stores guard','V029 | local stores shell'},
+@@ -11,12 +11,21 @@
+  'entrance_ceiling':{'V027 | three pointed bays with high wall bands'},
+  'near_tree_high':set(NEW),
+  'stores_lantern_meshes':{'V029 | stores '+i+' '+s for i in ('south','north')for s in SUFFIXES}}
++EXPECTED['stores_fittings']={f'V030 | {side} three-bay rack' for side in ('south','north')} | {f'V030 | {side} supply bin {bay}' for side in ('south','north') for bay in (0,2)}
+ def validate_scope(catalog,index,tool):
+  require(hashlib.sha256((Path(tool)/'catalog.json').read_bytes()).hexdigest()==CATALOG,'Reviewed catalog bytes')
+  require(hashlib.sha256((Path(tool)/'edit_index.json').read_bytes()).hexdigest()==INDEX,'Reviewed index bytes')
+  require(catalog['source_sha256']==SOURCE_SHA and index['source_sha256']==SOURCE_SHA,'Source binding')
+  require(len(catalog['views'])==20 and sum(not v['existing']for v in catalog['views'].values())==19,'20bookmarks/19derived cameras')
+- require(set(index['groups'])==set(EXPECTED),'Exact five groups')
++ require(set(index['groups'])==set(EXPECTED),'Exact six groups')
+  for key,names in EXPECTED.items():
+   actual=[s['name']for s in index['groups'][key]['objects']];require(len(actual)==len(names)and set(actual)==names,'Exact reviewed targets '+key)
+- require(sum(len(g['objects'])for g in index['groups'].values())==45,'45target entries')
++ require(sum(len(g['objects'])for g in index['groups'].values())==51,'51target entries')
++
++ # Predecessor acceptance remains exact; new labels cannot silently replace old mappings.
++ prior=json.loads((Path(__file__).parent/'predecessor.json').read_text())
++ require(catalog['views']==prior['views'],'All20 predecessor camera records exact')
++ require({k:index['groups'][k] for k in prior['groups']}==prior['groups'],'All5 predecessor group records exact')
++ require(catalog['source_bytes']==47842841,'Exact source byte count')
++ for name,digest in json.loads((Path(__file__).parent/'runtime_pins.json').read_text()).items():
++  require(hashlib.sha256((Path(tool)/name).read_bytes()).hexdigest()==digest,'Exact reviewed runtime '+name)

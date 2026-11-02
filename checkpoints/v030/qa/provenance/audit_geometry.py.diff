@@ -1,0 +1,27 @@
+--- executed/audit_geometry.py
++++ portable/audit_geometry.py
+@@ -3,7 +3,8 @@
+ from pathlib import Path
+ from fractions import Fraction as F
+ import numpy as np
+-R=Path(__file__).resolve().parents[2];sys.path.insert(0,str(R/'checkpoints/v028/qa'))
++import os
++R=Path(os.environ['FITTINGS_QA_INPUTS']);sys.path.insert(0,str(Path(__file__).resolve().parent))
+ import exact_axis_boundary as e
+ from continuous_box_cover import oriented_closed,box_inside,solid_winding
+ from body_support import analyze
+@@ -45,7 +46,7 @@
+    uid=p['name']+'/'+part;kind='bin '+part if isbin else next(k for k in ['post','shelf','rail']if ' '+k+' 'in p['name']);parts.append({'id':uid,'primitive':p['name'],'kind':kind,'part':part,'poly':poly,'lo':low,'hi':high,'vertices':[[float(x)for x in row]for row in v],'local_faces':faces,'local_triangles':[[i-v0 for i in t]for ti,t in enumerate(mesh['triangles'])if f0<=mesh['triangle_polygons'][ti]<f1],'object':uid,'seed':0,'volume':e.area(poly)*(high-low)})
+   need(sorted(usedv)==list(range(len(verts)))and sorted(usedf)==list(range(len(mesh['faces']))),'Component partition incomplete/overlap')
+  need(len(parts)==78 and len(ids)==78,'78 actual components');need(sum(len(p['local_triangles'])for p in parts)==2184,'2184 actual triangles');need(collections.Counter(p['kind']for p in parts)=={'post':16,'shelf':18,'rail':36,'bin body':4,'bin lid':4},'Role inventory')
+- g=json.loads((R/'work/v029_interior_qa/saved_geometry.json').read_text());need(g['candidate_sha256']==SOURCE,'Saved floor source');floor=[]
++ g=json.loads((R/'saved_geometry.json').read_text());need(g['candidate_sha256']==SOURCE,'Saved floor source');floor=[]
+  for m in g['meshes']:
+   for t in m['triangles']:
+    v=[e.fraction3(m['vertices'][i])for i in t]
+@@ -74,4 +75,4 @@
+  need(len(reached)==79,'Unrooted actual component')
+  return {'pass':True,'closed_convex_components':78,'native_parent_coverage':parent_count,'exact_zero_native_triangles':zero,'triangles':2184,'actual_feet':feet,'post_rail_positive_intersections':embeds,'bearing_relationships':bearings,'rooted_components':78,'summed_component_volume_not_union':float(sum((p['volume']for p in parts),F(0))),'limits':'Individual actual convex prisms and exact horizontal bearing domains; intentional post/rail embeddings retained. Cross-component exposed coplanars, source clearance and fixed rays are separate checks.'},parts
+ if __name__=='__main__':
+- ap=argparse.ArgumentParser();ap.add_argument('--geometry',required=True);ap.add_argument('--report',required=True);a=ap.parse_args();data=json.loads(Path(a.geometry).read_text());plan=json.loads((R/'work/v030_fittings/PLAN.json').read_text());result,_=audit(data,plan);result['candidate_sha256']=data['candidate_sha256'];result['geometry_sha256']=hashlib.sha256(Path(a.geometry).read_bytes()).hexdigest();Path(a.report).write_text(json.dumps(result,indent=2)+'\n');print('ACTUAL FITTINGS BEARING PASS')
++ ap=argparse.ArgumentParser();ap.add_argument('--geometry',required=True);ap.add_argument('--report',required=True);a=ap.parse_args();data=json.loads(Path(a.geometry).read_text());plan=json.loads((R/'PLAN.json').read_text());result,_=audit(data,plan);result['candidate_sha256']=data['candidate_sha256'];result['geometry_sha256']=hashlib.sha256(Path(a.geometry).read_bytes()).hexdigest();Path(a.report).write_text(json.dumps(result,indent=2)+'\n');print('ACTUAL FITTINGS BEARING PASS')

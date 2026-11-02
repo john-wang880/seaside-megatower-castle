@@ -1,0 +1,98 @@
+{
+  "pass": true,
+  "model_sha256": {
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_final/castle_v029.blend": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_fittings/isolated rebuild \u7a7a\u95f4/rebuilt.blend": "d277fb8155726410081d4a92e7ebd4828dced863832eb7028757585b2049e0c5",
+    "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030/castle_v030.blend": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35"
+  },
+  "bundle_manifest_sha256": "352a19327ee014937a30221d55fff119bcdd38b3e62930bad4cd1122f09821c7",
+  "bundle_unchanged": true,
+  "derived_inputs_unchanged": true,
+  "commands": [
+    [
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--threads",
+      "4",
+      "--python-exit-code",
+      "1",
+      "--python-expr",
+      "import sys; sys.dont_write_bytecode=True",
+      "--python",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_model_qa_isolated \u7a7a\u95f4/qa/compare_repeat.py",
+      "--",
+      "--accepted",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030/castle_v030.blend",
+      "--candidate",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_fittings/isolated rebuild \u7a7a\u95f4/rebuilt.blend",
+      "--candidate-sha",
+      "d277fb8155726410081d4a92e7ebd4828dced863832eb7028757585b2049e0c5",
+      "--report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_portable_model_replay/REPEAT.json"
+    ],
+    [
+      "/workspace/scratch/8bdb2666bb6b/tools/blender-5.2.3-linux-x64/blender",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--threads",
+      "4",
+      "--python-exit-code",
+      "1",
+      "--python-expr",
+      "import sys; sys.dont_write_bytecode=True",
+      "--python",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_model_qa_isolated \u7a7a\u95f4/qa/validate_saved.py",
+      "--",
+      "--source",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029_remote_final/castle_v029.blend",
+      "--candidate",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_fittings/isolated rebuild \u7a7a\u95f4/rebuilt.blend",
+      "--candidate-sha",
+      "d277fb8155726410081d4a92e7ebd4828dced863832eb7028757585b2049e0c5",
+      "--build-report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_portable_model_replay/expected_geometry_contract.json",
+      "--report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_portable_model_replay/PRESERVATION.json",
+      "--geometry",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_portable_model_replay/geometry.json"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_model_qa_isolated \u7a7a\u95f4/qa/audit_geometry.py",
+      "--geometry",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_portable_model_replay/geometry.json",
+      "--report",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_portable_model_replay/BEARING.json"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_model_qa_isolated \u7a7a\u95f4/qa/check_clearance.py"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_model_qa_isolated \u7a7a\u95f4/qa/check_material.py"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_model_qa_isolated \u7a7a\u95f4/qa/test_geometry.py"
+    ]
+  ],
+  "native_calls": 2,
+  "python_calls": 4,
+  "reports": {
+    "REPEAT.json": "eccf8d76741d0ad41a6cffec762d302af9a3a9b9c34f22e22e547c1b5e941244",
+    "PRESERVATION.json": "2c42d464a7f5b7e3a35d1fe57f96f7390e652f80b5a4df7422cbc29fbc68a3a9",
+    "BEARING.json": "e7b2d2cd32edcd550d236380fbfbdee05117ca5928065c8e192d39cb94136822",
+    "CLEARANCE.json": "f3c69656b3251fceca8d636f4553bf79ad0a9bf341c5abb28b9e97a0cb109895",
+    "MATERIAL.json": "1470f3977ab0df634b2c46eaf441636970edd477835f0d2b084ae142fe228f9c",
+    "GEOMETRY_CONTROLS.json": "98e8427f3d7f8e633dad1ec1c9e0fc2197e7863a7a173a48dc932731f402cb05"
+  },
+  "limits": "Six geometry mutations fail at profile/topology identity first; one coverage mathematical control, two native snapshot controls. Technical proof is not visual acceptance or engineering capacity."
+}

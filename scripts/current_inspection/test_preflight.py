@@ -5,7 +5,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 import preflight as p
 class Guards(unittest.TestCase):
  def setUp(self):
-  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)/'项目 with spaces';self.root.mkdir();self.repo=self.root/'repo';self.repo.mkdir();self.cp=self.repo/'checkpoints/v029';self.cp.mkdir(parents=True);self.manifest={'format':'blend-zstd-frames-v1','model':'castle_v029.blend','model_sha256':p.SOURCE_SHA,'model_bytes':p.SOURCE_BYTES};self.mp=self.cp/'MANIFEST.json';self.mp.write_text(json.dumps(self.manifest));self.source=self.root/'source.blend';self.source.write_bytes(b'test');self.out=self.root/'检查 copy.blend';self.report=self.root/'检查 report.json';self.catalog=Path(__file__).with_name('catalog.json')
+  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)/'项目 with spaces';self.root.mkdir();self.repo=self.root/'repo';self.repo.mkdir();self.cp=self.repo/'checkpoints/v030';self.cp.mkdir(parents=True);self.manifest={'format':'blend-zstd-frames-v1','model':'castle_v030.blend','model_sha256':p.SOURCE_SHA,'model_bytes':p.SOURCE_BYTES};self.mp=self.cp/'MANIFEST.json';self.mp.write_text(json.dumps(self.manifest));self.source=self.root/'source.blend';self.source.write_bytes(b'test');self.out=self.root/'检查 copy.blend';self.report=self.root/'检查 report.json';self.catalog=Path(__file__).with_name('catalog.json')
  def tearDown(self):self.tmp.cleanup()
  def test_import_without_bpy(self):
   cmd=[sys.executable,'-c',"import sys;sys.path.insert(0,"+repr(str(Path(__file__).parent))+ ");import export_inspection;assert 'bpy' not in sys.modules"]
@@ -34,7 +34,7 @@ class Guards(unittest.TestCase):
   f=self.root/'bad.json';f.write_text(self.catalog.read_text()+' ')
   with self.assertRaises(p.GuardError):p.load_catalog(f)
  def test_future_no_fallback(self):
-  d=self.repo/'checkpoints/v030';d.mkdir();(d/'MANIFEST.json').write_text('{}')
+  d=self.repo/'checkpoints/v031';d.mkdir();(d/'MANIFEST.json').write_text('{}')
   with self.assertRaises(p.GuardError):p.latest_manifest(self.repo)
  def test_numeric_not_lexicographic(self):
   d=self.repo/'checkpoints/v9';d.mkdir();(d/'MANIFEST.json').write_text('{}');self.assertEqual(p.latest_manifest(self.repo)[1],self.mp)

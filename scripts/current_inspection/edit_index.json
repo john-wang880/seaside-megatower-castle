@@ -1,6 +1,6 @@
 {
-  "schema": "castle-v029-edit-index-v1",
-  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "schema": "castle-v030-edit-index-v1",
+  "source_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
   "groups": {
     "receiving_shell": {
       "label": "接待室与储藏室局部壳体 / Connected room shells",
@@ -749,6 +749,108 @@
           "materials": [
             {
               "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        }
+      ]
+    },
+    "stores_fittings": {
+      "label": "独立储物架与箱 / Freestanding stores fittings",
+      "notice": "Freestanding fittings only; source architecture unchanged. Shared local timber material. Selection is not post-edit certification.",
+      "objects": [
+        {
+          "name": "V030 | south three-bay rack",
+          "data": "V030 | south three-bay rack",
+          "data_users": 1,
+          "collections": [
+            "V030 | reversible stores fittings"
+          ],
+          "vertices": 560,
+          "faces": 350,
+          "materials": [
+            {
+              "name": "V030 | subdued stores timber",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V030 | south supply bin 0",
+          "data": "V030 | south supply bin 0",
+          "data_users": 1,
+          "collections": [
+            "V030 | reversible stores fittings"
+          ],
+          "vertices": 32,
+          "faces": 20,
+          "materials": [
+            {
+              "name": "V030 | subdued stores timber",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V030 | south supply bin 2",
+          "data": "V030 | south supply bin 2",
+          "data_users": 1,
+          "collections": [
+            "V030 | reversible stores fittings"
+          ],
+          "vertices": 32,
+          "faces": 20,
+          "materials": [
+            {
+              "name": "V030 | subdued stores timber",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V030 | north three-bay rack",
+          "data": "V030 | north three-bay rack",
+          "data_users": 1,
+          "collections": [
+            "V030 | reversible stores fittings"
+          ],
+          "vertices": 560,
+          "faces": 350,
+          "materials": [
+            {
+              "name": "V030 | subdued stores timber",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V030 | north supply bin 0",
+          "data": "V030 | north supply bin 0",
+          "data_users": 1,
+          "collections": [
+            "V030 | reversible stores fittings"
+          ],
+          "vertices": 32,
+          "faces": 20,
+          "materials": [
+            {
+              "name": "V030 | subdued stores timber",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V030 | north supply bin 2",
+          "data": "V030 | north supply bin 2",
+          "data_users": 1,
+          "collections": [
+            "V030 | reversible stores fittings"
+          ],
+          "vertices": 32,
+          "faces": 20,
+          "materials": [
+            {
+              "name": "V030 | subdued stores timber",
               "link": "DATA"
             }
           ]

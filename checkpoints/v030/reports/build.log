@@ -1,0 +1,12 @@
+Failed to create secure directory (/home/agent/.local/run/pulse): Read-only file system
+socket(): Operation not permitted
+00:00.634  blend            | Read blend: "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v029/castle_v029.blend"
+00:13.334  cycles           | WARNING CUEW initialization failed: Error opening the library
+/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_fittings/build_fittings.py:64: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(MATERIAL);mat.use_nodes=True;nodes=mat.node_tree.nodes;nodes.clear();links=mat.node_tree.links
+00:24.995  image.write      | ERROR OpenImageIO write failed: Could not open file "/home/agent/.cache/thumbnails/large/blender_8_ca556d6d722db3ec96a65adc2243c5c6.png.png"
+Info: Saved copy as ".v030-uhuzs6y4.blend"
+{"candidate": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_fittings/candidate.blend", "sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35", "triangles": 2184}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:35:05)
+
+Blender quit

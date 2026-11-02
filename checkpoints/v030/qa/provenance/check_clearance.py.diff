@@ -1,0 +1,22 @@
+--- executed/check_clearance.py
++++ portable/check_clearance.py
+@@ -4,8 +4,8 @@
+ from fractions import Fraction as F
+ import numpy as np
+ import audit_geometry as a
+-R=a.R;D=Path(__file__).parent;e=a.e;need=a.need
+-p=json.loads((R/'work/v030_fittings/PLAN.json').read_text());g=json.loads((D/'geometry.json').read_text());_,parts=a.audit(g,p);oldgeo=json.loads((R/'work/v029_interior_qa/saved_geometry.json').read_text());fixtures=json.loads((R/'work/v029_interior_qa/saved_fixtures.json').read_text());source=json.loads((R/'work/v029_interior_program/native.json').read_text());oldtargets={'V028 | foundation outside chamber guard','V028 | ashlar outside chamber guard','V028 | local receiving chamber shell'};scene=[c for c in source['components']if c['object']not in oldtargets]+fixtures['components']+[{'object':m['name'],'seed':0,'vertices':m['vertices'],'local_faces':m['faces'],'local_triangles':m['triangles']}for m in oldgeo['meshes']]
++R=a.R;D=Path(__import__('os').environ['FITTINGS_QA_OUTPUT']);e=a.e;need=a.need
++p=json.loads((R/'PLAN.json').read_text());g=json.loads((D/'geometry.json').read_text());_,parts=a.audit(g,p);oldgeo=json.loads((R/'saved_geometry.json').read_text());fixtures=json.loads((R/'saved_fixtures.json').read_text());source=json.loads((R/'native.json').read_text());oldtargets={'V028 | foundation outside chamber guard','V028 | ashlar outside chamber guard','V028 | local receiving chamber shell'};scene=[c for c in source['components']if c['object']not in oldtargets]+fixtures['components']+[{'object':m['name'],'seed':0,'vertices':m['vertices'],'local_faces':m['faces'],'local_triangles':m['triangles']}for m in oldgeo['meshes']]
+ body=[[14.6,35.6,29.025],[23.3,36.8,31.1]];floor_contacts=[]
+ for part in parts:
+  vv=np.array(part['vertices']);box=[vv.min(0),vv.max(0)];need(a.analyze(part,body)['disjoint'],'Actual protected body hit')
+@@ -39,7 +39,7 @@
+   elif slope>0:lo=max(lo,-constant/slope)
+   else:hi=min(hi,-constant/slope)
+  return [float(lo),float(hi)]if lo<=hi and hi>0 and lo<1 else None
+-actual_rays=json.loads((R/'work/v029_fittings_qa/PLAN_PROOF.json').read_text())['finite_sightlines'];rays=[]
++actual_rays=json.loads((R/'PLAN_PROOF.json').read_text())['finite_sightlines'];rays=[]
+ for ray in actual_rays:
+  hits=[{'part':part['id'],'interval':ray_prism(ray['actual_from'],ray['actual_to'],part)}for part in parts];hits=[x for x in hits if x['interval']is not None];need(not hits,'Actual fittings obstruct fixed ray');rays.append({'view':ray['view'],'target':ray['target'],'clear':True})
+ near=[]

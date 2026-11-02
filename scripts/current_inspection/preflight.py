@@ -1,10 +1,10 @@
 """Import-safe stdlib guards; no bpy, installation, network or rendering."""
 import hashlib,json,math,os,re,sys
 from pathlib import Path
-CATALOG_SHA='b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424'
-VERSION=29
-SOURCE_SHA='4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5'
-SOURCE_BYTES=47825562
+CATALOG_SHA='0f672d7de20ff37d32f9922cbaa26d4e58d1e7dbd7bb9abf7a0e3c3879ec7d1b'
+VERSION=30
+SOURCE_SHA='9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35'
+SOURCE_BYTES=47842841
 class GuardError(ValueError):pass
 def require(ok,message):
  if not ok:raise GuardError(message)
@@ -43,7 +43,7 @@ def latest_manifest(repository):
  nums=[v for v,p in found];require(len(nums)==len(set(nums)),'Ambiguous numeric checkpoint versions')
  version,path=max(found,key=lambda item:item[0]);require(version==VERSION,'Latest checkpoint v%d is not reviewed by this catalog; no fallback'%version)
  m=json.loads(path.read_text(encoding='utf-8'));require(m.get('format')=='blend-zstd-frames-v1','Unsupported checkpoint format')
- require(m.get('model_sha256')==SOURCE_SHA and m.get('model_bytes')==SOURCE_BYTES and m.get('model')=='castle_v029.blend','Latest manifest source binding mismatch')
+ require(m.get('model_sha256')==SOURCE_SHA and m.get('model_bytes')==SOURCE_BYTES and m.get('model')=='castle_v030.blend','Latest manifest source binding mismatch')
  return root,path,m
 def new_destination(value,suffix):
  p=unaliased(value);require(p.suffix.lower()==suffix,'Expected '+suffix+' destination');require(p.parent.is_dir(),'Destination parent must already exist');require(not os.path.lexists(p),'Destination already exists (including dangling link): '+str(p));return p

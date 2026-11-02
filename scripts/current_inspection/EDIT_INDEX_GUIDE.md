@@ -1,21 +1,9 @@
-# 可选编辑索引（v029，本地原生验证通过 / 远程待复核）
+# v030 optional editing index
 
-仅用于显式 `--editing-index` 导出的检查副本，默认关闭；打开后在Text Editor手动运行 `INSPECT29 | Run manually for bookmarks.py` 注册。无自动执行、取消隐藏、模式切换、规范模型改名或安装。
+Enable only with `--editing-index` while exporting a NEW inspection copy, then manually run `INSPECT30 | Run manually for bookmarks.py`. Default exports do not expose selection controls. No auto-run, unhide, Edit Mode, rename, installation or canonical save.
 
-|选择入口|范围|不包含|
-|---|---|---|
-|接待室与储藏室局部壳体|V029 receiving shell outside stores guard + local stores shell 两个可见网格|已被Mask替代的V028局部壳体、巨大foundation/ashlar残部、回退宿主|
-|接待室灯具构件|原V028的20个网格，映射不变|原两盏LIGHT|
-|储藏室灯具构件|新增V029的20个网格|新两盏LIGHT|
-|入口顶棚石肋|原1个网格|原墙/顶板/回退宿主|
-|入口旁HIGH树|原2个网格|LOW替代与其他森林|
+Six groups /51 target entries: the two connected local shell meshes,20 original receiving-room fixture meshes, one entry-ceiling mesh, two HIGH-tree meshes,20 stores fixture meshes, and six freestanding rack/bin objects. Fixture groups exclude LIGHT objects; LOW or hidden targets fail closed. The five earlier groups retain exact mappings.
 
-两间局部壳体共同围成相连空间，不能认为可以独立搬动或删除。共享材质的修改可能影响其他建筑；灯罩、灯焰、支架属于装配，选择网格不等于选择照明。既有 v019–v023 的历史 UNACCEPTED/candidate 名称不自动更改，不等于当前对象被拒绝。
+The timber material is shared among all six fittings; the architecture hosts may combine multiple regions. Selection is not permission to delete/move shared hosts or edit shared materials indiscriminately. Hidden rollback originals remain hidden, and the tool never treats them as current visible targets. Stale fingerprints, missing/hidden/unselectable targets restore selection and active-object state on failure.
 
-所有入口保持精确对象/网格/材质/变换指纹、集合祖先、可见性、对象模式和事务回滚守卫。HIGH树处于LOW时拒绝，不自动取消隐藏。部分目标隐藏/缺失或身份过期必须整组拒绝，不偷偷选择余下部分。按钮只选中对象，不是隔离、拆件、安全编辑或编辑后认证。用户修改应另存；重导出不会迁移或覆盖编辑。
-
-当前77项纯Python测试及3阶段Linux原生QA通过：20书签、5组、13类源保护、27质量负例、37选择负例、6面板场景和64次LOW拒绝。四配置导出/重开与事务守卫已验证。当前证据见 `qa/v029_current/reports/SUMMARY.json`；远程重放仍待完成。Windows桌面未验证。
-
-## 当前候选身份
-
-本暂存工具绑定v029候选SHA256 `4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5`，47,825,562字节，20书签/19新增检查相机。本地原生QA已通过，规范源发布和远程重放状态仍由项目负责人确认；仓库最新清单不匹配时应拒绝，不能用旧v028清单强行导出。示例命令见 [README.md](README.md)。复制保留的v028历史QA报告并非本次候选证明。
+Manual selection and HIGH/LOW controls are for a verified, unedited derived copy; they do not certify arbitrary later user edits. Historical v029 guidance is preserved under provenance/v029_upgrade_baseline.

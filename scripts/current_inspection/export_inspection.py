@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT))
 from preflight import preflight,require,sha,publish_pair,CATALOG_SHA,GuardError
 OWNER='castle-current-inspection-v1';TAG='castle_inspection_owner'
-EDIT_INDEX_SHA='da82f1ba19d20ebd85bae60edef74961a2f6c04311fe81611c1e9e231aac9368'
+EDIT_INDEX_SHA='4dc06df86511e8abb4109aac9b793cbafcdf5e2da0662a94ae6a1590a234e060'
 def collision_check(c):
  import bpy
  require(bpy.context.scene.get(c['marker']) is None,'Source already marked/marker collision; re-export only from canonical source')
@@ -30,7 +30,7 @@ def install(c,identity,tree_mode=None,editing_index=False):
  config['edit_index_enabled']=bool(editing_index)
  if editing_index:
   require(sha(ROOT/'edit_index.json')==EDIT_INDEX_SHA,'Reviewed editing index hash mismatch');index=json.loads((ROOT/'edit_index.json').read_text());require(index['source_sha256']==identity['source_sha256'],'Index source pin mismatch');config['edit_index']=index;config['edit_index_sha256']=hashlib.sha256(json.dumps(index,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-  scope={'hashlib':hashlib};exec(compile((ROOT/'edit_index_template.py').read_text().split('class CASTLE29_INSPECTION_OT_edit_index')[0],'<index-fingerprint>','exec'),scope)
+  scope={'hashlib':hashlib};exec(compile((ROOT/'edit_index_template.py').read_text().split('class CASTLE30_INSPECTION_OT_edit_index')[0],'<index-fingerprint>','exec'),scope)
   config['edit_index_fingerprints']={spec['name']:scope['index_fingerprint'](bpy.data.objects[spec['name']]) for group in index['groups'].values() for spec in group['objects']}
  template=(ROOT/'ui_template.py').read_text(encoding='utf-8');code=template.replace('CONFIG = None  # Exporter replaces this assignment with literal reviewed config.','CONFIG = '+repr(config))
  require(code!=template,'UI template placeholder missing')
@@ -44,7 +44,7 @@ def install(c,identity,tree_mode=None,editing_index=False):
   data.dof.use_dof=False;o=bpy.data.objects.new(v['camera_name'],data);o[TAG]=OWNER;o['bookmark_key']=key;collection.objects.link(o);o.matrix_world=Matrix(v['matrix'])
  text=bpy.data.texts.new(c['text']);text[TAG]=OWNER;text.write(code);text.use_module=False
  marker={'owner':OWNER,'runtime_identity':config['runtime_identity'],'tree_quality_enabled':config['tree_quality_enabled'],'edit_index_enabled':bool(editing_index),'catalog_sha256':CATALOG_SHA,'source_sha256':identity['source_sha256'],'source_bytes':identity['source_bytes'],'reviewed_version':identity['reviewed_version'],'manifest_sha256':identity['manifest_sha256'],'ui_text_sha256':hashlib.sha256(code.encode()).hexdigest(),'notice':'Derived inspection copy. Marker records export provenance only, not certification of later user edits.'}
- if tree_mode is not None:marker['tree_quality']={'schema':'castle-inspection-v029-tree-v1','mode':'HIGH'}
+ if tree_mode is not None:marker['tree_quality']={'schema':'castle-inspection-v030-tree-v1','mode':'HIGH'}
  bpy.context.scene[c['marker']]=json.dumps(marker,ensure_ascii=False,sort_keys=True)
  if tree_mode is not None:
   import types

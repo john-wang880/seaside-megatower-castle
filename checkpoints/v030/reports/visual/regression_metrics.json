@@ -1,0 +1,42 @@
+{
+  "doorway": {
+    "identical": false,
+    "mean_abs_255": 0.25799311559398014,
+    "max_abs_255": 66,
+    "changed_pixels": 92184,
+    "resolution": [
+      960,
+      694
+    ]
+  },
+  "frame_0001": {
+    "identical": false,
+    "mean_abs_255": 0.05305195325008005,
+    "max_abs_255": 24,
+    "changed_pixels": 16989,
+    "resolution": [
+      960,
+      694
+    ]
+  },
+  "frame_0076": {
+    "identical": false,
+    "mean_abs_255": 0.00022164185078450208,
+    "max_abs_255": 1,
+    "changed_pixels": 439,
+    "resolution": [
+      960,
+      694
+    ]
+  },
+  "hero": {
+    "identical": true,
+    "mean_abs_255": 0.0,
+    "max_abs_255": 0,
+    "changed_pixels": 0,
+    "resolution": [
+      1200,
+      866
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "controls": [
+    {
+      "case": "raised foot retains closed form but loses actual floor contact",
+      "rejected": true,
+      "reason": "Actual profile not prescribed quantized chamfer"
+    },
+    {
+      "case": "chamfer loss moved corner to original box corner",
+      "rejected": true,
+      "reason": "Actual profile not prescribed quantized chamfer"
+    },
+    {
+      "case": "missing actual parent face",
+      "rejected": true,
+      "reason": "Closed 16vertex/10face prism"
+    },
+    {
+      "case": "reversed actual parent orientation",
+      "rejected": true,
+      "reason": "Closed 16vertex/10face prism"
+    },
+    {
+      "case": "duplicated component ownership",
+      "rejected": true,
+      "reason": "Duplicate component identity"
+    },
+    {
+      "case": "floating lid shifted from body seat",
+      "rejected": true,
+      "reason": "Actual profile not prescribed quantized chamfer"
+    },
+    {
+      "case": "equal-area bearing hole plus duplicate cannot cancel",
+      "rejected": true,
+      "reason": "Bearing domain multiply covered"
+    }
+  ],
+  "count": 7,
+  "scope": "Six actual saved-export mutations plus one mathematical bearing-coverage control, not native candidate edits."
+}

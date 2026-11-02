@@ -1,0 +1,30 @@
+{
+  "sha256": "e5a1e99767adfab9eee99e11c50b48236d961d26939b2610ae0513a4410891c3",
+  "bytes": 3962853,
+  "status": "READ_ONLY_GEOMETRY_AND_MATERIAL_PROPOSAL_NOT_IMPLEMENTED",
+  "parts": [
+    {
+      "file": "landscape_readonly_v2.zip.part000",
+      "bytes": 1048576,
+      "sha256": "a24c486d5edd4175b82ba4fc20b10079c20b60d5e4fe84af500ecc02a5c89abe"
+    },
+    {
+      "file": "landscape_readonly_v2.zip.part001",
+      "bytes": 1048576,
+      "sha256": "18eed51e8e2df6f10028141e01eeac2804a9379fb6a2a5482b56b0a15d3ab9af"
+    },
+    {
+      "file": "landscape_readonly_v2.zip.part002",
+      "bytes": 1048576,
+      "sha256": "f5d70e8040d5964b832624f8e2d1109102f2a1f7556e5d8388dbef5cce809ca4"
+    },
+    {
+      "file": "landscape_readonly_v2.zip.part003",
+      "bytes": 817125,
+      "sha256": "03436748de62cb3a0fd56715d352e16b7bc172234d6216de72e72340a2b959d5"
+    }
+  ],
+  "files": 58,
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "coordinate_plan_sha256": "a463a703f394c77e219230379f2adb4d05647cb3e8887af3fce162958c917f38"
+}

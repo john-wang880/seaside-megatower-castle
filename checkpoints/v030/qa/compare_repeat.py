@@ -1,0 +1,13 @@
+"""Read-only full saved repeat semantics and two focused native snapshot controls."""
+import sys,json,argparse,hashlib
+from pathlib import Path
+sys.dont_write_bytecode=True
+if sys.flags.optimize:raise RuntimeError('Optimized Python refused')
+import bpy
+sys.path.insert(0,str(Path(__file__).resolve().parent));import validate_saved as v
+p=argparse.ArgumentParser()
+for k in ['accepted','candidate','candidate-sha','report']:p.add_argument('--'+k,required=True)
+a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);need=v.need;need(v.sha(a.accepted)=='9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35'and v.sha(a.candidate)==a.candidate_sha,'Repeat identities');need(not Path(a.report).exists(),'New report');pins={x:v.sha(x)for x in [a.accepted,a.candidate]}
+bpy.ops.wm.open_mainfile(filepath=str(Path(a.accepted).resolve()),load_ui=True,use_scripts=False);left,lu=v.normalized(v.snap());bpy.ops.wm.open_mainfile(filepath=str(Path(a.candidate).resolve()),load_ui=True,use_scripts=False);right,ru=v.normalized(v.snap());checks={k:left[k]==right[k]for k in left};need(all(checks.values()),'Repeat semantic drift '+str([k for k,c in checks.items()if not c]));controls=[]
+mesh=bpy.data.objects['V029 | local stores shell'].data;old=mesh.vertices[0].co.copy();before=v.ss.mesh_snapshot(mesh);mesh.vertices[0].co.x+=.01;bpy.context.view_layer.update();need(v.ss.mesh_snapshot(mesh)!=before,'Source vertex negative missed');mesh.vertices[0].co=old;bpy.context.view_layer.update();need(v.ss.mesh_snapshot(mesh)==before,'Vertex control restoration');controls.append('unrelated accepted source vertex mutation detected and restored')
+mat=bpy.data.materials['Citadel • weathered limestone'];old=tuple(mat.diffuse_color);before=v.ss.digest({'properties':v.ss.primitive(mat),'nodes':v.ss.tree_snapshot(mat.node_tree)});mat.diffuse_color=(.1,.2,.3,1);need(v.ss.digest({'properties':v.ss.primitive(mat),'nodes':v.ss.tree_snapshot(mat.node_tree)})!=before,'Source material negative missed');mat.diffuse_color=old;need(v.ss.digest({'properties':v.ss.primitive(mat),'nodes':v.ss.tree_snapshot(mat.node_tree)})==before,'Material control restoration');controls.append('shared original material mutation detected and restored');need(all(v.sha(x)==h for x,h in pins.items()),'Models changed');Path(a.report).write_text(json.dumps({'pass':True,'input_sha256':pins,'category_checks':checks,'derived_UI_only':{'accepted':lu,'repeat':ru},'focused_native_controls':controls,'source_saved':False,'rendered':False,'scope':'Full saved persistent/evaluated semantics, not .blend byte identity; two focused native snapshot controls, not two full-scene reruns.'},indent=2)+'\n');print('FITTINGS FULL SAVED REPEAT PASS')

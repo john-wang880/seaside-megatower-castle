@@ -1,0 +1,269 @@
+{
+  "pass": true,
+  "input_sha256": {
+    "work/v029/castle_v029.blend": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+    "work/v030_fittings/candidate.blend": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
+    "work/v030_fittings/build.json": "358a7f32ef4bc17c79c1ac7110b62d08fb43d13fb0735a447ebc3f885832407e"
+  },
+  "candidate_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
+  "source_categories": {
+    "meshes": true,
+    "objects": true,
+    "materials": true,
+    "lights": true,
+    "cameras": true,
+    "worlds": true,
+    "visible_evaluated": true,
+    "scene": true,
+    "libraries": true,
+    "texts": true,
+    "collections": true,
+    "scene_custom": true,
+    "visibility": true
+  },
+  "derived_UI_only": {
+    "source": [
+      {
+        "object": "Traveler | full length ivory skirt",
+        "record": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      },
+      {
+        "object": "Traveler | purple-red shoulder cape",
+        "record": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        }
+      },
+      {
+        "object": "Traveler | white tunic",
+        "record": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      }
+    ],
+    "candidate": [
+      {
+        "object": "Traveler | full length ivory skirt",
+        "record": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      },
+      {
+        "object": "Traveler | purple-red shoulder cape",
+        "record": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        }
+      },
+      {
+        "object": "Traveler | white tunic",
+        "record": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      }
+    ],
+    "rollback": [
+      {
+        "object": "Traveler | full length ivory skirt",
+        "record": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      },
+      {
+        "object": "Traveler | purple-red shoulder cape",
+        "record": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1976,
+            "fields": {
+              "value": {
+                "count": 1976,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1976,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "2c7d20f40b59b09e5226905ce8d6befb13c2fed4174946fc3c49c592d0eca22e"
+          }
+        }
+      },
+      {
+        "object": "Traveler | white tunic",
+        "record": {
+          "attribute": {
+            "name": ".select_edge",
+            "type": "BOOLEAN",
+            "domain": "EDGE",
+            "count": 1088,
+            "fields": {
+              "value": {
+                "count": 1088,
+                "type": "BOOLEAN",
+                "width": 0,
+                "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+              }
+            }
+          },
+          "edges_select": {
+            "count": 1088,
+            "type": "BOOLEAN",
+            "width": 1,
+            "hash": "4e84d3c348e7f3a8c7a8ccd45e002134137b9c45f0f5a6bbbfc3c2158b5f72d6"
+          }
+        }
+      }
+    ]
+  },
+  "full_additive_rollback": true,
+  "new_objects": [
+    "V030 | south three-bay rack",
+    "V030 | north three-bay rack",
+    "V030 | south supply bin 0",
+    "V030 | south supply bin 2",
+    "V030 | north supply bin 0",
+    "V030 | north supply bin 2"
+  ],
+  "new_material": "V030 | subdued stores timber",
+  "geometry_export_sha256": "1f706a93986e2674d5ed00aa7379afa26a8a9b6ef802c4e70f194834bc265375",
+  "saved_or_rendered": false
+}

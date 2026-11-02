@@ -1,0 +1,40 @@
+{
+  "pass": true,
+  "candidate_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "repeat_sha256": "d277fb8155726410081d4a92e7ebd4828dced863832eb7028757585b2049e0c5",
+  "files": {
+    "validate_saved.py": "8b82ee0fbb9f88535323c9dde7af7c7e7aadbe4c3d3637b08389f95a600e0ccc",
+    "snapshot_support.py": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+    "audit_geometry.py": "2e2980e01ca98f3207dc7804cef0365bb2169719808a0fef82152159ae24ea3e",
+    "check_clearance.py": "4560735fd4758d4fe6d11135862297619792ce2f58319816dde7bfd450904054",
+    "check_material.py": "ef4cffc28b97d23527297f367ff8497359d5f2e6e2b2bdd7f236fe80d852dd4e",
+    "test_geometry.py": "5bfd9916742cf7a96c0f4b24ad70ab853674206d8c750f531b952925e2c20078",
+    "compare_repeat.py": "192a483c2b998bb13bbab79f34de36ef07b7d8de1ac1d7cca0283173ffc80d1c",
+    "PRESERVATION.json": "d886cab1a326c08c811cbc10b38a9acf5e0329831378cc7c7fe3c0a44d1ec8f8",
+    "geometry.json": "1f706a93986e2674d5ed00aa7379afa26a8a9b6ef802c4e70f194834bc265375",
+    "BEARING.json": "f35563e5784ad5c8db7c75c9f7806377f8f38325123f3996a7a121b29437dcdb",
+    "CLEARANCE.json": "34872e0267644c66937154edeefd5280a7cdfb39ba958bf2bf73be76ca81e064",
+    "MATERIAL.json": "bc2d1bfbafc55a2de3afd00b2e0336d4f9d50d827d73c5d1cc049121bde2199b",
+    "GEOMETRY_CONTROLS.json": "98e8427f3d7f8e633dad1ec1c9e0fc2197e7863a7a173a48dc932731f402cb05",
+    "REPEAT.json": "8532ae9517a201d3d526a60fbf808c2eb300b3b639d44b6f860cf9463ce4a964",
+    "VERDICT.md": "16fa13fa0eda6ac4d70d078189b4878dbd8d5f9477a781cd42854567286cca30",
+    "native.log": "71cd81f6b580364adc9f6ce767c9eeecd6915e020bbcdd8f4149c48d1e7e458e",
+    "bearing.log": "54b8559cbd4db4d83e7186f580ba12d0ffd4c826db88d21d97cbd68ab906b3bf",
+    "clearance.log": "774f87c6c9ef856394eb6c76436f42d38f38b6cac75876aace26dce3bf11c3ac",
+    "material.log": "a5744035fb58a0e85127066260763612eaa1e9f84debdc3c7f569e4045859fe3",
+    "controls.log": "ef00b3f86243ef04653657a636b4f6f5abc8749783b89c426ed3445526c05510",
+    "repeat.log": "c1a4bdc5eae29cd9f969fb429dc7a340056c2cb63f1af009fb3b011933639379"
+  },
+  "counts": {
+    "objects": 6,
+    "components": 78,
+    "triangles": 2184,
+    "categories": 13,
+    "exported_geometry_mutations": 6,
+    "bearing_math_control": 1,
+    "native_snapshot_controls": 2
+  },
+  "native_slot_released": true,
+  "scope": "Actual saved technical gate only; fixed artistic images pending."
+}

@@ -1,0 +1,76 @@
+{
+  "pass": true,
+  "native_summary_sha256": "cbdbb649dab5ec72c62d2269b52305ba8737b89993ff396401bce1ee3da22338",
+  "executed_adapter_scripts": [
+    {
+      "script": "compare_support.py",
+      "historical_source_sha256": "5b7e9042d24f780ddf43d2a64ca9c0bff2c1c4b4daeceb54d9c5ad963c6f347b",
+      "executed_current_sha256": "f6c896560513f2da1a24d1ba02c0e764b8bd9a1a14eaa523ecc5a887cfde1024"
+    },
+    {
+      "script": "test_compare.py",
+      "historical_source_sha256": "e67a4ba0e6bea6a2bc8624b8816a4bbcbe8fb658c5b893435aa1219edd65657d",
+      "executed_current_sha256": "e67a4ba0e6bea6a2bc8624b8816a4bbcbe8fb658c5b893435aa1219edd65657d"
+    },
+    {
+      "script": "snapshot_support.py",
+      "historical_source_sha256": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249",
+      "executed_current_sha256": "ef8b575c70fbb394bfd76cba93b97bc07a6c03abdfe7f4eb2752cfd236be6249"
+    },
+    {
+      "script": "validate_modes.py",
+      "historical_source_sha256": "5a3922c6241714030e77dfc831cf1de6e6857279420bd326bd6d8461a8a85968",
+      "executed_current_sha256": "150a95444c5c706ac93bdddb9e49440d255646de06a93cf913fb2994b1317b3b"
+    },
+    {
+      "script": "validate_index.py",
+      "historical_source_sha256": "ff2c948800dc15cf3daa8c5aebf2585824d70ee2f65b9cf8d5db3acda0d42b8d",
+      "executed_current_sha256": "a610d431bed8377698ee12c38c5901ae7f9fa43ba82cd37e54245d28b272f82e"
+    },
+    {
+      "script": "run_qa.py",
+      "historical_source_sha256": "4d595eeaaf0d306859bc8290d673f80d204d58f33620187f5f24fcf871c466ae",
+      "executed_current_sha256": "7669082a22a8102eae8a2528ba0235460b959ef47d247b87675b88c31c92c45b"
+    }
+  ],
+  "public_scripts_byte_exact_to_executed": true,
+  "pure_tests": {
+    "runtime": 45,
+    "independent_preflight": 24,
+    "comparison": 8,
+    "total": 77
+  },
+  "native_phases": 3,
+  "cases": {
+    "source_categories_each_mode": 13,
+    "bookmarks": 20,
+    "derived_cameras": 19,
+    "index_groups": 5,
+    "index_targets": 45,
+    "quality_negatives": 27,
+    "selection_negatives": 37,
+    "panel_cases": 6,
+    "repeated_LOW_refusals": 64
+  },
+  "provenance_note": "The optional extra preflight suite was initially invoked via unittest discovery despite requiring CLI arguments, then its inherited18-view fixture was updated to reviewed20. Both setup logs retained; final24pass. No native runtime failure or correction occurred in this v029 chain. Earlier v028 harness/RNA failure history remains in previous additive public reports.",
+  "status": "LOCAL_NATIVE_PASS_REMOTE_REPLAY_PENDING",
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "runtime_sha256": {
+    "preflight.py": "bdb266471cb379689344097c2a510e4c2364f30f17c8353afe0949a41a10b839",
+    "export_inspection.py": "0cb6071b4540e39ebc83adf227a9987eb1c5ac5398497a12ddfdcb339f167289",
+    "catalog.json": "b10ecd91f93b59c71523663e8336b07bf9d7bda6c28950ac643a1ac8100c8424",
+    "ui_template.py": "9432499fdd639545302507bb51cdea27123e1d64a14853c0c96d25a00423dd65",
+    "tree_quality_template.py": "6ed0106f69559cde3cafb6a50701804ca9762b8db894d600b57c0c670fa0e145",
+    "edit_index_template.py": "e0ebad351b5a4e10259fbe646216796f6f2c4b37bf60e1ff0fac56b6fb1f75ac",
+    "edit_index.json": "da82f1ba19d20ebd85bae60edef74961a2f6c04311fe81611c1e9e231aac9368"
+  },
+  "report": "qa/v029_current/reports/SUMMARY.json",
+  "historical_evidence": "provenance/v028_prior_current_tool",
+  "remote_replay": "pending",
+  "remote_verification": {
+    "pass": true,
+    "commit": "1a53001a84c3edc375ffe4089619ee1e480fa28e",
+    "record": "../../checkpoints/v029/reports/remote/VERIFIED.json",
+    "runtime_unchanged": true
+  }
+}

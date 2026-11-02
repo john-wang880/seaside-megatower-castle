@@ -1,0 +1,1066 @@
+{
+  "schema": "castle-current-inspection-catalog-v1",
+  "reviewed_version": 29,
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "source_bytes": 47825562,
+  "collection": "INSPECT29 | Optional review cameras",
+  "text": "INSPECT29 | Run manually for bookmarks.py",
+  "marker": "castle_inspection_copy_v1",
+  "views": {
+    "hero": {
+      "label": "全景 / Full coastal skyline",
+      "camera_name": "V002 | full coastal skyline camera",
+      "existing": true,
+      "matrix": [
+        [
+          0.9586064219474792,
+          0.03275119885802269,
+          0.2828447222709656,
+          115.0
+        ],
+        [
+          0.2847345769405365,
+          -0.11026249080896378,
+          -0.9522438645362854,
+          -470.0
+        ],
+        [
+          3.3001199994942e-08,
+          0.9933627247810364,
+          -0.11502372473478317,
+          24.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 43.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "receipt": "checkpoints/v018/navigation/renders/hero.json",
+        "receipt_sha256": "99ca1facecb31ae9d16a6b253d14405c7b6dec43157657d83aa681f651b114a7",
+        "render_source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+        "note": "Historical audited camera intent; not a new current-model render."
+      }
+    },
+    "west_approach": {
+      "label": "西侧进路 / Western woodland approach",
+      "camera_name": "INSPECT28 | west_approach",
+      "existing": false,
+      "matrix": [
+        [
+          7.549790126404332e-08,
+          0.2651565670967102,
+          -0.9642053842544556,
+          -99.0
+        ],
+        [
+          -1.0,
+          2.0018763535745165e-08,
+          -7.279547986627222e-08,
+          38.0
+        ],
+        [
+          0.0,
+          0.9642053842544556,
+          0.2651565670967102,
+          32.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 38.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "receipt": "checkpoints/v018/navigation/renders/west_approach.json",
+        "receipt_sha256": "fbbf8c3d0cef914c7074186183ace4b5c4675ea03ba14f284da291177914d8ca",
+        "render_source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+        "note": "Historical audited camera intent; not a new current-model render."
+      }
+    },
+    "east_portal": {
+      "label": "东侧入口 / Eastern entrance arrival",
+      "camera_name": "INSPECT28 | east_portal",
+      "existing": false,
+      "matrix": [
+        [
+          0.04566662013530731,
+          0.09648706763982773,
+          -0.994286060333252,
+          -25.0
+        ],
+        [
+          -0.9989567399024963,
+          0.004410820081830025,
+          -0.04545310512185097,
+          37.20000076293945
+        ],
+        [
+          -1.9906337911379524e-08,
+          0.9953244924545288,
+          0.09658783674240112,
+          31.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 38.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "receipt": "checkpoints/v018/navigation/renders/east_portal.json",
+        "receipt_sha256": "7585372ff4aa63bef6641653f49b03103c0d6e8c108d46fc956e7038762a2c7e",
+        "render_source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+        "note": "Historical audited camera intent; not a new current-model render."
+      }
+    },
+    "bend": {
+      "label": "室内转角 / Interior bend towards north stair",
+      "camera_name": "INSPECT28 | bend",
+      "existing": false,
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.449999809265137
+        ],
+        [
+          0.0,
+          -0.03667251765727997,
+          -0.9993273615837097,
+          38.099998474121094
+        ],
+        [
+          0.0,
+          0.9993273615837097,
+          -0.03667251765727997,
+          30.600000381469727
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 28.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "receipt": "checkpoints/v018/navigation/renders/bend.json",
+        "receipt_sha256": "c2bcb66397331138096ad90b860324de2a53128eb19d943b964017602496ca47",
+        "render_source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+        "note": "Historical audited camera intent; not a new current-model render."
+      }
+    },
+    "upper_stairs": {
+      "label": "上层楼梯 / Covered terrace looking down the stair",
+      "camera_name": "INSPECT28 | upper_stairs",
+      "existing": false,
+      "matrix": [
+        [
+          -1.0,
+          -5.1034998449495106e-08,
+          -1.0916335924093801e-07,
+          4.449999809265137
+        ],
+        [
+          -8.742277657347586e-08,
+          -0.3162277042865753,
+          0.9486833214759827,
+          61.0
+        ],
+        [
+          -8.293653053215166e-08,
+          0.9486833214759827,
+          0.3162277042865753,
+          34.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 32.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "receipt": "checkpoints/v018/navigation/renders/upper_stairs.json",
+        "receipt_sha256": "4f3e284b3776d6a67b639e59a403453d50e32583c3256f5ef4d0aa24eeb4b1bd",
+        "render_source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+        "note": "Historical audited camera intent; not a new current-model render."
+      }
+    },
+    "terminal": {
+      "label": "终点平台 / Upper arrival and terminal floor",
+      "camera_name": "INSPECT28 | terminal",
+      "existing": false,
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.449999809265137
+        ],
+        [
+          0.0,
+          0.37637683749198914,
+          -0.9264666438102722,
+          56.79999923706055
+        ],
+        [
+          0.0,
+          0.9264666438102722,
+          0.37637683749198914,
+          34.099998474121094
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 28.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "receipt": "checkpoints/v018/navigation/renders/terminal.json",
+        "receipt_sha256": "20fac21cd5f7661580e8964cff956575135d2b9c3ed8a109eaa9baa60cea8277",
+        "render_source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+        "note": "Historical audited camera intent; not a new current-model render."
+      }
+    },
+    "offshore_marker": {
+      "label": "离岸标塔 / Offshore marker and supported stair",
+      "camera_name": "INSPECT28 | offshore_marker",
+      "existing": false,
+      "matrix": [
+        [
+          0.8157328963279724,
+          -0.1568899154663086,
+          0.5567454099655151,
+          164.62448120117188
+        ],
+        [
+          0.5784288048744202,
+          0.22125506401062012,
+          -0.7851536870002747,
+          130.65777587890625
+        ],
+        [
+          -5.386237944549066e-08,
+          0.962513267993927,
+          0.2712346911430359,
+          36.22731018066406
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 45.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "receipt": "checkpoints/v018/navigation/renders/offshore_marker.json",
+        "receipt_sha256": "b244e698f26be31a373cbfe69112246bc360c70534823fececb107222a4d927c",
+        "render_source_sha256": "d44a4cdecd11dab152fd656c624755369e575a0f342e2eb0bc2460475c6f65eb",
+        "note": "Historical audited camera intent; not a new current-model render."
+      }
+    },
+    "crown": {
+      "label": "主塔屋顶 / Main crown slate courses",
+      "camera_name": "INSPECT28 | crown",
+      "existing": false,
+      "matrix": [
+        [
+          0.8553082942962646,
+          -0.09629711508750916,
+          0.5090919733047485,
+          98.0
+        ],
+        [
+          0.5181194543838501,
+          0.15896673500537872,
+          -0.8404057621955872,
+          -61.0
+        ],
+        [
+          -3.598781361802139e-08,
+          0.9825764298439026,
+          0.18585896492004395,
+          207.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 45.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0
+      },
+      "reference_resolution": [
+        1200,
+        800
+      ],
+      "provenance": {
+        "receipt": "checkpoints/v018/navigation/renders/crown.json",
+        "receipt_sha256": "13d5ed07e728b65e196633196b173d5fd2a7ee394fde05bf4714057fab190cd3",
+        "render_source_sha256": "9ed12e2dd4e21ee91ff65848d3c11601332a690ea80a880fb31bf41f1d7dd943",
+        "note": "Historical audited camera intent; not a new current-model render."
+      }
+    },
+    "west_crown": {
+      "label": "西塔屋顶 / Western octagonal cap slate courses",
+      "camera_name": "INSPECT28 | west_crown",
+      "existing": false,
+      "matrix": [
+        [
+          0.8632967472076416,
+          -0.1385778933763504,
+          0.485298752784729,
+          -95.0
+        ],
+        [
+          0.5046966671943665,
+          0.2370411902666092,
+          -0.8301160931587219,
+          35.0
+        ],
+        [
+          -5.3795425003499986e-08,
+          0.9615651965141296,
+          0.27457669377326965,
+          198.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 55.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0
+      },
+      "reference_resolution": [
+        1200,
+        800
+      ],
+      "provenance": {
+        "receipt": "checkpoints/v018/navigation/renders/west_crown.json",
+        "receipt_sha256": "b7d3137a36c8751c78f6f084d26e5b5307ecff12df4b5b98cadf864d6497e58a",
+        "render_source_sha256": "c46b581a759c1b6d494fb3b31e9a7c42f749b6dfbdde1c00befbfebd9ef44cfd",
+        "note": "Historical audited camera intent; not a new current-model render."
+      }
+    },
+    "bridge_close": {
+      "label": "桥墩与拱 / Bridge pier and arch",
+      "camera_name": "INSPECT28 | bridge_close",
+      "existing": false,
+      "matrix": [
+        [
+          0.982338547706604,
+          0.020302463322877884,
+          -0.18600739538669586,
+          -43.0
+        ],
+        [
+          -0.18711210787296295,
+          0.1065879687666893,
+          -0.9765388369560242,
+          -26.0
+        ],
+        [
+          5.406326941681527e-09,
+          0.9940959811210632,
+          0.10850431025028229,
+          25.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 55.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 10000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "recipe": "work/v021_pier_surface/visual/views.json",
+        "recipe_sha256": "6d8dbb2b78baf23c041e51604bdbb788298ef68805bb411e5cbb8c678c0bc115",
+        "note": "Exact actual detail-camera recipe; elevated inspection, not a route walkthrough."
+      }
+    },
+    "west_lower_tier": {
+      "label": "西塔下层石肋 / Western lower tier",
+      "camera_name": "INSPECT28 | west_lower_tier",
+      "existing": false,
+      "matrix": [
+        [
+          0.9255469441413879,
+          -0.031746260821819305,
+          0.37729963660240173,
+          -98.25
+        ],
+        [
+          0.3786328434944153,
+          0.07760193943977356,
+          -0.9222880005836487,
+          3.5
+        ],
+        [
+          1.2122127301950059e-08,
+          0.9964788556098938,
+          0.08384441584348679,
+          98.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 55.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 10000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "recipe": "work/v022_rib_study/visual/views.json",
+        "recipe_sha256": "254eb8a9958204f1dde6ff5e7efefaae26212a076bd674de6c156c7338f24a59",
+        "note": "Exact actual detail-camera recipe; elevated inspection, not a route walkthrough."
+      }
+    },
+    "path_context": {
+      "label": "既有路面 / Existing path context",
+      "camera_name": "INSPECT28 | path_context",
+      "existing": false,
+      "matrix": [
+        [
+          0.92929607629776,
+          -0.021962478756904602,
+          0.36868205666542053,
+          -87.80000305175781
+        ],
+        [
+          0.3693356215953827,
+          0.05526043847203255,
+          -0.927651584148407,
+          -9.600000381469727
+        ],
+        [
+          -3.757346433985731e-09,
+          0.9982303977012634,
+          0.05946483463048935,
+          38.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 48.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0,
+        "shift_y": 0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 10000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "recipe": "work/v023_path_conformance/visual/views.json",
+        "recipe_sha256": "ed6365ccf22cc70258b28ab8899a426403934baa7212102845cff50460edd81e",
+        "note": "Exact actual detail-camera recipe; elevated inspection, not a route walkthrough."
+      }
+    },
+    "rear_landward": {
+      "label": "背面总览 / Elevated rear overview",
+      "camera_name": "INSPECT28 | rear_landward",
+      "existing": false,
+      "matrix": [
+        [
+          -0.999432384967804,
+          0.007732450030744076,
+          -0.03278935328125954,
+          -50.0
+        ],
+        [
+          -0.033688757568597794,
+          -0.2293950617313385,
+          0.972750186920166,
+          500.0
+        ],
+        [
+          2.6687128951152772e-08,
+          0.9733026623725891,
+          0.2295253574848175,
+          210.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 45.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "recipe": "provenance/rear_landward_views.json",
+        "recipe_sha256": "c050406219724d64beca61561cacb297c9280c641ee456b64312939ba312faf2",
+        "receipt": "provenance/rear_landward_v025_receipt.json",
+        "receipt_sha256": "dd701706defcb6f78e7b4215a12b5cfe2ab7c63c511abb05458016a61dcf00b9",
+        "render_source_sha256": "8a3590082c99a69d50d444f77165fae57fb611cf069cecda03fdf0c6c17cadd2",
+        "note": "Explicitly approved actual v025 rear overview. Elevated architectural inspection, not a continuous route or accessibility proof; original lighting, no new render."
+      }
+    },
+    "west_lateral": {
+      "label": "西侧总览 / Elevated west lateral overview",
+      "camera_name": "INSPECT28 | west_lateral",
+      "existing": false,
+      "matrix": [
+        [
+          0.1876191645860672,
+          0.16042304039001465,
+          -0.9690529108047485,
+          -480.0
+        ],
+        [
+          -0.9822418689727783,
+          0.030642472207546234,
+          -0.18509994447231293,
+          -30.0
+        ],
+        [
+          -1.1871298966070754e-07,
+          0.9865726232528687,
+          0.1633233278989792,
+          180.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 45.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "recipe": "provenance/west_lateral_views.json",
+        "recipe_sha256": "97f6eedddaa87940b8963f001b76e95777a36c9520e33b2939d32bb19df1fb29",
+        "receipt": "provenance/west_lateral_v026_receipt.json",
+        "receipt_sha256": "e5748c98a1f8a7848e5d60d49bcd11d4b2c9da3bd0a86d13c9d9af33f3e50987",
+        "render_source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+        "note": "Explicitly approved actual v026 west lateral overview. Elevated inspection, not a route/accessibility proof. Historical recipe sourcev025 retained; actual receipt binds v026. No new render."
+      }
+    },
+    "east_lateral": {
+      "label": "东侧总览 / Elevated east lateral overview",
+      "camera_name": "INSPECT28 | east_lateral",
+      "existing": false,
+      "matrix": [
+        [
+          -0.18140555918216705,
+          -0.1394161432981491,
+          0.9734758138656616,
+          480.0
+        ],
+        [
+          0.9834083914756775,
+          -0.025717435404658318,
+          0.17957334220409393,
+          150.0
+        ],
+        [
+          -1.2095260615296866e-07,
+          0.9898998737335205,
+          0.14176829159259796,
+          180.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 45.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        1200,
+        866
+      ],
+      "provenance": {
+        "recipe": "provenance/east_lateral_views.json",
+        "recipe_sha256": "d7fa0436fd4d6fa553946538572b8f1a97fa700993dc09a3bd64468f7271cb17",
+        "receipt": "provenance/east_lateral_v026_receipt.json",
+        "receipt_sha256": "7e92cdf8cc31ca5797c869471c787f402a4558aaf213d7a3c65f0f172b566c97",
+        "render_source_sha256": "efcd894acdc045a30f845f05267662957b656bc7fe0ee4cf48c05fc798b610ee",
+        "note": "Explicitly approved actual v026 east overview, manual bookmark15. Elevated architectural inspection, not a continuous route/accessibility proof; no model bump or new render."
+      }
+    },
+    "ceiling_inspection": {
+      "label": "门厅顶拱 / Standing-eye hall ceiling",
+      "camera_name": "INSPECT28 | ceiling_inspection",
+      "existing": false,
+      "matrix": [
+        [
+          0.19738131761550903,
+          -0.13643518090248108,
+          -0.9707863330841064,
+          -3.0
+        ],
+        [
+          -0.980326771736145,
+          -0.0274703036993742,
+          -0.19546039402484894,
+          38.0
+        ],
+        [
+          -1.2142264438352868e-07,
+          0.9902680516242981,
+          -0.13917319476604462,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "provenance": {
+        "recipe": "provenance/ceiling_inspection_views.json",
+        "recipe_sha256": "6dec58c3c97ae0a08f3df60bddadb9fff638501a9c7d8549f813b0da327af6eb",
+        "receipt": "provenance/ceiling_inspection_v027_receipt.json",
+        "receipt_sha256": "15500363c4b8de82c81a1dcd1f2bac15babbfe779a206ed8205256b8af5d9688",
+        "render_source_sha256": "37c0db0e67d0a0a57b7542c899f687d129a6b31208b43e03857a1f3d9e88a255",
+        "original_recipe": "provenance/ceiling_inspection_original_v026_recipe.json",
+        "original_recipe_sha256": "bd8a5b80e0c9427a0268e76b9446cc6a08aeabb6e736035fe4b7ff833a25ea17",
+        "note": "Explicit approved separate standing-eye inspection: same historical first-leg eye/yaw/lens, +8 degree pitch. Historical downward walkthrough unchanged. Candidate model acceptance and native export QA pending."
+      }
+    },
+    "receiving_doorway": {
+      "label": "接待室入口 / Receiving chamber doorway",
+      "camera_name": "INSPECT28 | receiving_doorway",
+      "existing": false,
+      "matrix": [
+        [
+          -0.1119672879576683,
+          -3.010998383956576e-08,
+          -0.9937118887901306,
+          5.900000095367432
+        ],
+        [
+          -0.9937118887901306,
+          1.231675668122989e-07,
+          0.1119672879576683,
+          37.5
+        ],
+        [
+          1.1902174890110473e-07,
+          1.0,
+          -4.371138828673793e-08,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "provenance": {
+        "recipe": "provenance/receiving_doorway_views.json",
+        "recipe_sha256": "92e5a0c2245090f18e58553690a4a65a0853093832126ad609b5ff57fe75b88b",
+        "receipt": "provenance/receiving_doorway_v028_receipt.json",
+        "receipt_sha256": "172b4bebc2d1eff586eec6760270b0f3a1c4eeb34805f1d247b56cd8c67da761",
+        "render_source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+        "note": "Exact actual rendered camera matrix. Separate manual room inspection, not a continuous walkthrough. Corrected reverse_connection only; earlier occluded reverse rejected."
+      }
+    },
+    "receiving_reverse_connection": {
+      "label": "接待室回望 / Receiving chamber doorway return",
+      "camera_name": "INSPECT28 | receiving_reverse_connection",
+      "existing": false,
+      "matrix": [
+        [
+          0.08609894663095474,
+          4.354907190418089e-08,
+          0.9962865710258484,
+          13.800000190734863
+        ],
+        [
+          0.9962865710258484,
+          -3.763504619058722e-09,
+          -0.08609894663095474,
+          36.79999923706055
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.05000000074505806,
+        "clip_end": 3000.0,
+        "type": "PERSP"
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "provenance": {
+        "recipe": "provenance/receiving_reverse_connection_views.json",
+        "recipe_sha256": "762718b284e17c25a2286d2a9a695fbc4cdf291bed92413921ab782533a241c4",
+        "receipt": "provenance/receiving_reverse_connection_v028_receipt.json",
+        "receipt_sha256": "d8bc5cf64a3617e6cb5fa75e04036e7b3a679127f67c40076478fb16a3601604",
+        "render_source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+        "note": "Exact actual rendered camera matrix. Separate manual room inspection, not a continuous walkthrough. Corrected reverse_connection only; earlier occluded reverse rejected."
+      }
+    },
+    "stores_entry": {
+      "label": "储藏室入口 / Stores entry",
+      "camera_name": "INSPECT29 | stores_entry",
+      "existing": false,
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          15.199999809265137
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          36.20000076293945
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.07999999821186066,
+        "clip_end": 1000.0
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "provenance": {
+        "recipe": "provenance/stores_entry_views.json",
+        "recipe_sha256": "acf238e45de77e4bb66bcb9518b66add254221ad052552e713dea44a4ef49d6b",
+        "receipt": "provenance/stores_entry_v029_receipt.json",
+        "receipt_sha256": "bd27d852307d139b4bcb0a164c855ea0d82c84be6acaf703f187a396930de287",
+        "render_source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+        "note": "Exact actual candidate rendered camera, separate manual inspection; not a continuous route or access certification."
+      }
+    },
+    "stores_return": {
+      "label": "储藏室回望 / Stores return",
+      "camera_name": "INSPECT29 | stores_return",
+      "existing": false,
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          1.0,
+          22.700000762939453
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          36.20000076293945
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          30.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "data": {
+        "type": "PERSP",
+        "lens": 26.0,
+        "sensor_width": 36.0,
+        "sensor_height": 24.0,
+        "sensor_fit": "HORIZONTAL",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start": 0.07999999821186066,
+        "clip_end": 1000.0
+      },
+      "reference_resolution": [
+        960,
+        694
+      ],
+      "provenance": {
+        "recipe": "provenance/stores_return_views.json",
+        "recipe_sha256": "660a6d88b24bd13d5091343f54a574cf048a61e30d9307ddd7335e20dfbb920a",
+        "receipt": "provenance/stores_return_v029_receipt.json",
+        "receipt_sha256": "1086f3ab85270bd776908395beec84d23cd9037f2066dbf942b12160d5363b44",
+        "render_source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+        "note": "Exact actual candidate rendered camera, separate manual inspection; not a continuous route or access certification."
+      }
+    }
+  }
+}

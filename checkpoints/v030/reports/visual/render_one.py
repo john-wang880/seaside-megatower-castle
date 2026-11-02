@@ -1,0 +1,52 @@
+"""One source-pinned fitted-stores inspection/regression render. No model saves."""
+import argparse,hashlib,json,os,sys,time
+from pathlib import Path
+
+EXPECTED_CANDIDATE_SHA = "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35"
+
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def main():
+ assert not sys.flags.optimize, "Optimized Python refused"
+ sys.dont_write_bytecode=True
+ p=argparse.ArgumentParser();p.add_argument('--source',required=True);p.add_argument('--source-sha',required=True);p.add_argument('--manifest',required=True);p.add_argument('--output-dir',required=True);p.add_argument('--view',choices=('stores_entry','stores_return','doorway','reverse_connection','frame_0001','frame_0076','hero'),required=True);a=p.parse_args(sys.argv[sys.argv.index('--')+1:])
+ import bpy
+ from mathutils import Vector
+ import resource
+ sys.path.insert(0,str(Path(__file__).resolve().parent))
+ from preservation_support import primitive,tree_snapshot,digest
+ source=Path(a.source).resolve();out=Path(a.output_dir).resolve();manifest=Path(a.manifest).resolve();manifest_sha=sha(manifest);plan=json.loads(manifest.read_text());r=plan['views'][a.view]
+ assert plan['source_sha256']==a.source_sha==EXPECTED_CANDIDATE_SHA
+ assert source.is_file() and sha(source)==a.source_sha and not out.exists() and source!=out and not source.is_relative_to(out)
+ assert source.stat().st_size==plan['source_bytes']
+ assert all(not q.is_symlink() for pth in [Path(a.source).absolute(),Path(a.output_dir).absolute(),Path(a.manifest).absolute()] for q in [pth,*pth.parents])
+ script_sha=sha(__file__);helper_sha=sha(Path(__file__).with_name('preservation_support.py'))
+ out.mkdir(parents=False)
+ # Fresh empty Blender process; no candidate build or deep preservation snapshot.
+ cpu0=time.process_time();start=time.perf_counter();bpy.ops.wm.open_mainfile(filepath=str(source),load_ui=False,use_scripts=False);load_seconds=time.perf_counter()-start;load_cpu=time.process_time()-cpu0;load_peak=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+ s=bpy.context.scene;assert s.render.engine=='CYCLES' and s.cycles.device=='CPU' and s.cycles.samples==80 and s.cycles.max_bounces==8 and s.frame_current==plan['source_scene_frame']
+ assert s.cycles.use_adaptive_sampling and abs(s.cycles.adaptive_threshold-.035)<1e-7 and s.cycles.adaptive_min_samples==12 and s.cycles.use_denoising and not s.render.use_persistent_data
+ original={'cycles':primitive(s.cycles),'view':primitive(s.view_settings),'world_hash':digest(tree_snapshot(s.world.node_tree)),'light_hashes':{l.name:digest({'properties':primitive(l),'nodes':tree_snapshot(l.node_tree)}) for l in bpy.data.lights}}
+ if 'existing_camera' in r:
+  c=bpy.data.objects[r['existing_camera']];assert c.type=='CAMERA'
+ else:
+  c=bpy.data.objects.new('READONLY interior baseline',bpy.data.cameras.new('READONLY interior baseline'));s.collection.objects.link(c);c.location=r['location'];c.rotation_euler=(Vector(r['target'])-c.location).to_track_quat('-Z','Y').to_euler()
+  for key,value in r['camera_data'].items():setattr(c.data,key,value)
+ s.camera=c;bpy.context.view_layer.update()
+ if 'reference_matrix' in r:assert max(abs(c.matrix_world[i][j]-r['reference_matrix'][i][j]) for i in range(4) for j in range(4))<1e-6
+ assert all(getattr(c.data,k)==v for k,v in r['camera_data'].items())
+ s.render.resolution_x,s.render.resolution_y=plan['resolution'];s.render.resolution_percentage=100;s.render.threads_mode='FIXED';s.render.threads=8;s.render.filepath=str(out/'image.png');s.render.image_settings.file_format='PNG';s.render.image_settings.color_mode='RGB';s.render.image_settings.color_depth='8';s.render.image_settings.compression=15;s.render.use_stamp=False
+ effective={'render':primitive(s.render),'cycles':primitive(s.cycles),'view':primitive(s.view_settings),'world_hash':original['world_hash'],'light_hashes':original['light_hashes'],'camera':{'matrix_world':[list(v) for v in c.matrix_world],'data':{k:getattr(c.data,k) for k in r['camera_data']}}}
+ assert effective['cycles']==original['cycles'] and effective['view']==original['view']
+ if 'expected_baseline_settings' in plan:
+  expected=plan['expected_baseline_settings']
+  assert all(effective[k]==expected[k] for k in ['cycles','view','world_hash','camera']), 'Baseline camera/quality/world mismatch'
+  assert all(effective['light_hashes'].get(k)==v for k,v in expected['light_hashes'].items()), 'Old light changed'
+  assert effective['light_hashes']==expected['light_hashes'], 'Any lighting change refused'
+  actualrender=dict(effective['render']);baserender=dict(expected['render']);actualrender.pop('filepath',None);baserender.pop('filepath',None)
+  assert actualrender==baserender, 'Baseline render settings mismatch'
+ cpu0=time.process_time();start=time.perf_counter();bpy.ops.render.render(write_still=True);render_seconds=time.perf_counter()-start;render_cpu=time.process_time()-cpu0;peak=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+ assert sha(source)==a.source_sha and sha(manifest)==manifest_sha and primitive(s.cycles)==original['cycles'] and primitive(s.view_settings)==original['view'] and digest(tree_snapshot(s.world.node_tree))==original['world_hash'] and {l.name:digest({'properties':primitive(l),'nodes':tree_snapshot(l.node_tree)}) for l in bpy.data.lights}==original['light_hashes']
+ assert sha(__file__)==script_sha and sha(Path(__file__).with_name('preservation_support.py'))==helper_sha, 'Runtime changed'
+ receipt={'source_filename':source.name,'source_sha256_before':a.source_sha,'source_sha256_after':sha(source),'source_saved':False,'manifest_sha256':manifest_sha,'script_sha256':sha(__file__),'view':a.view,'actual_lighting':True,'blender_version':bpy.app.version_string,'pid':os.getpid(),'settings':effective,'load_wall_seconds':load_seconds,'load_cpu_seconds':load_cpu,'peak_rss_after_load_linux_kib':load_peak,'render_wall_seconds':render_seconds,'render_cpu_seconds':render_cpu,'peak_rss_linux_kib':peak,'image_sha256':sha(out/'image.png'),'measurement_scope':'One fresh process per case; process peak includes scene loading and rendering, not candidate building or prior case. Load timing excludes Blender startup; outer process wall measured separately. Single discovery view, not controlled speed benchmark.'}
+ (out/'receipt.json').write_text(json.dumps(receipt,indent=2)+'\n');print(json.dumps({k:receipt[k] for k in ('view','load_wall_seconds','render_wall_seconds','peak_rss_linux_kib')},indent=2),flush=True)
+if __name__=='__main__':main()

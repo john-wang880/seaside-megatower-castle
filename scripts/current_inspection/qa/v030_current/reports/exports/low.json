@@ -1,0 +1,51 @@
+{
+  "repository": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030/package_repo",
+  "manifest": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030/package_repo/checkpoints/v030/MANIFEST.json",
+  "manifest_sha256": "e1c1accdfa9a65f58445ad9d538804bb89f6d2c330c5b3828d0727e911cac56c",
+  "source": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030/castle_v030.blend",
+  "source_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
+  "source_bytes": 47842841,
+  "output": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_inspection/viewers 空间/low.blend",
+  "report": "/workspace/scratch/8bdb2666bb6b/seaside-megatower-castle/work/v030_inspection/viewers 空间/low.json",
+  "catalog_sha256": "0f672d7de20ff37d32f9922cbaa26d4e58d1e7dbd7bb9abf7a0e3c3879ec7d1b",
+  "reviewed_version": 30,
+  "runtime_sha256": {
+    "export_inspection.py": "aaa5ae7280429d4632614d2ec1527921360e3971f44446c9d3b6f9cd422a033d",
+    "preflight.py": "636257f381d5ba9372c29dd2d0b2779a7e4159354251d6873b3b3d09ee6a43ce",
+    "catalog.json": "0f672d7de20ff37d32f9922cbaa26d4e58d1e7dbd7bb9abf7a0e3c3879ec7d1b",
+    "ui_template.py": "4cfcdf93aee66988086b9eef98d6fc841cae09b9cf66f65151f5faa1706d01e2",
+    "tree_quality_template.py": "edaf06157777d284b3e5f42c10aadb2c249e790e147b82edb64bbd192ac0e149",
+    "edit_index_template.py": "d5494ce3126bdd4ce9b23e483094280d2dd82abc09ba3b90bc20ab2ce7b81d13",
+    "edit_index.json": "4dc06df86511e8abb4109aac9b793cbafcdf5e2da0662a94ae6a1590a234e060"
+  },
+  "output_sha256": "3ffc07994f61ffdba61c3606619bae509dc9c98b2b6453c4182ded0690947b04",
+  "output_bytes": 47872547,
+  "source_unchanged": true,
+  "source_saved": false,
+  "rendered": false,
+  "manual_text_only": true,
+  "text_use_module": false,
+  "default_camera": "V002 | full coastal skyline camera",
+  "added_cameras": 19,
+  "bookmark_count": 20,
+  "marker": {
+    "catalog_sha256": "0f672d7de20ff37d32f9922cbaa26d4e58d1e7dbd7bb9abf7a0e3c3879ec7d1b",
+    "edit_index_enabled": true,
+    "manifest_sha256": "e1c1accdfa9a65f58445ad9d538804bb89f6d2c330c5b3828d0727e911cac56c",
+    "notice": "Derived inspection copy. Marker records export provenance only, not certification of later user edits.",
+    "owner": "castle-current-inspection-v1",
+    "reviewed_version": 30,
+    "runtime_identity": "c66e1f1e682b1f2564166354c92d78ae1e72a71f31846efec37d5bbffe3b88df",
+    "source_bytes": 47842841,
+    "source_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
+    "tree_quality": {
+      "mode": "LOW",
+      "schema": "castle-inspection-v030-tree-v1"
+    },
+    "tree_quality_enabled": true,
+    "ui_text_sha256": "bd80930c404fbbb9667e33ed298e2add8d503bedb7fd0091a3ab5b2adfc5ecc5"
+  },
+  "tree_mode": "LOW",
+  "editing_index": true,
+  "scope": "Owned inspection cameras/collection/manualText/provenance marker; optional explicit tree mode changes only six paired visibility flags. Independent deep QA is separate."
+}

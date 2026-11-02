@@ -1,0 +1,759 @@
+{
+  "schema": "castle-v029-edit-index-v1",
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "groups": {
+    "receiving_shell": {
+      "label": "接待室与储藏室局部壳体 / Connected room shells",
+      "objects": [
+        {
+          "name": "V029 | receiving shell outside stores guard",
+          "data": "V029 | receiving shell outside stores guard",
+          "data_users": 1,
+          "collections": [
+            "V029 | reversible stores chamber"
+          ],
+          "vertices": 144,
+          "faces": 117,
+          "materials": [
+            {
+              "name": "Citadel • weathered limestone",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | local stores shell",
+          "data": "V029 | local stores shell",
+          "data_users": 1,
+          "collections": [
+            "V029 | reversible stores chamber"
+          ],
+          "vertices": 67,
+          "faces": 33,
+          "materials": [
+            {
+              "name": "Citadel • weathered limestone",
+              "link": "DATA"
+            }
+          ]
+        }
+      ]
+    },
+    "room_lantern_meshes": {
+      "label": "Room lantern bodies (no lights)",
+      "objects": [
+        {
+          "name": "V028 | room 1 cage upright 0",
+          "data": "V028 | room 1 cage upright 0",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 1 cage upright 1",
+          "data": "V028 | room 1 cage upright 1",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 1 cage upright 2",
+          "data": "V028 | room 1 cage upright 2",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 1 cage upright 3",
+          "data": "V028 | room 1 cage upright 3",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 1 hood rim",
+          "data": "V028 | room 1 hood rim",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 1 lower cup",
+          "data": "V028 | room 1 lower cup",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 1 luminous flame",
+          "data": "V028 | room 1 luminous flame",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 86,
+          "faces": 96,
+          "materials": [
+            {
+              "name": "V013 | warm lantern flame",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 1 mounting plate",
+          "data": "V028 | room 1 mounting plate",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 8,
+          "faces": 6,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 1 rain hood",
+          "data": "V028 | room 1 rain hood",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 1 wall arm",
+          "data": "V028 | room 1 wall arm",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 cage upright 0",
+          "data": "V028 | room 2 cage upright 0",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 cage upright 1",
+          "data": "V028 | room 2 cage upright 1",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 cage upright 2",
+          "data": "V028 | room 2 cage upright 2",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 cage upright 3",
+          "data": "V028 | room 2 cage upright 3",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 hood rim",
+          "data": "V028 | room 2 hood rim",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 lower cup",
+          "data": "V028 | room 2 lower cup",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 luminous flame",
+          "data": "V028 | room 2 luminous flame",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 86,
+          "faces": 96,
+          "materials": [
+            {
+              "name": "V013 | warm lantern flame",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 mounting plate",
+          "data": "V028 | room 2 mounting plate",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 8,
+          "faces": 6,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 rain hood",
+          "data": "V028 | room 2 rain hood",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V028 | room 2 wall arm",
+          "data": "V028 | room 2 wall arm",
+          "data_users": 1,
+          "collections": [
+            "V028 | receiving chamber warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        }
+      ]
+    },
+    "entrance_ceiling": {
+      "label": "Entrance ceiling bays",
+      "objects": [
+        {
+          "name": "V027 | three pointed bays with high wall bands",
+          "data": "V027 | three pointed bays with high wall bands",
+          "data_users": 1,
+          "collections": [
+            "V027 | first hall ceiling bay study"
+          ],
+          "vertices": 550,
+          "faces": 1104,
+          "materials": [
+            {
+              "name": "Citadel • weathered limestone",
+              "link": "DATA"
+            }
+          ]
+        }
+      ]
+    },
+    "near_tree_high": {
+      "label": "Near tree HIGH geometry",
+      "objects": [
+        {
+          "name": "V019 candidate | articulated conifer foliage",
+          "data": "V019 candidate | articulated conifer foliage",
+          "data_users": 1,
+          "collections": [
+            "UNACCEPTED | v019 specialist foreground conifer"
+          ],
+          "vertices": 415590,
+          "faces": 332472,
+          "materials": [
+            {
+              "name": "Fir needles — forest green",
+              "link": "DATA"
+            },
+            {
+              "name": "Sunlit needle tips",
+              "link": "DATA"
+            },
+            {
+              "name": "Cypress needles — deep blue green",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V019 candidate | connected conifer boughs",
+          "data": "V019 candidate | connected conifer boughs",
+          "data_users": 1,
+          "collections": [
+            "UNACCEPTED | v019 specialist foreground conifer"
+          ],
+          "vertices": 50265,
+          "faces": 40668,
+          "materials": [
+            {
+              "name": "Pine bark",
+              "link": "DATA"
+            }
+          ]
+        }
+      ]
+    },
+    "stores_lantern_meshes": {
+      "label": "储藏室灯具构件（不含灯光） / Stores lantern meshes",
+      "objects": [
+        {
+          "name": "V029 | stores south cage upright 0",
+          "data": "V029 | stores south cage upright 0",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores south cage upright 1",
+          "data": "V029 | stores south cage upright 1",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores south cage upright 2",
+          "data": "V029 | stores south cage upright 2",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores south cage upright 3",
+          "data": "V029 | stores south cage upright 3",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores south hood rim",
+          "data": "V029 | stores south hood rim",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores south lower cup",
+          "data": "V029 | stores south lower cup",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores south luminous flame",
+          "data": "V029 | stores south luminous flame",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 86,
+          "faces": 96,
+          "materials": [
+            {
+              "name": "V013 | warm lantern flame",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores south mounting plate",
+          "data": "V029 | stores south mounting plate",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 8,
+          "faces": 6,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores south rain hood",
+          "data": "V029 | stores south rain hood",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores south wall arm",
+          "data": "V029 | stores south wall arm",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north cage upright 0",
+          "data": "V029 | stores north cage upright 0",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north cage upright 1",
+          "data": "V029 | stores north cage upright 1",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north cage upright 2",
+          "data": "V029 | stores north cage upright 2",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north cage upright 3",
+          "data": "V029 | stores north cage upright 3",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north hood rim",
+          "data": "V029 | stores north hood rim",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north lower cup",
+          "data": "V029 | stores north lower cup",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north luminous flame",
+          "data": "V029 | stores north luminous flame",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 86,
+          "faces": 96,
+          "materials": [
+            {
+              "name": "V013 | warm lantern flame",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north mounting plate",
+          "data": "V029 | stores north mounting plate",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 8,
+          "faces": 6,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north rain hood",
+          "data": "V029 | stores north rain hood",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 32,
+          "faces": 18,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        },
+        {
+          "name": "V029 | stores north wall arm",
+          "data": "V029 | stores north wall arm",
+          "data_users": 1,
+          "collections": [
+            "V029 | stores warm lanterns"
+          ],
+          "vertices": 24,
+          "faces": 14,
+          "materials": [
+            {
+              "name": "V013 | dark forged lantern iron",
+              "link": "DATA"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

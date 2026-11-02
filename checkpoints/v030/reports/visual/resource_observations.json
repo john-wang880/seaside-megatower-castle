@@ -1,0 +1,87 @@
+{
+  "stores_entry": {
+    "render_wall_seconds": {
+      "v029": 124.43406806400162,
+      "v030": 114.07592127801036
+    },
+    "load_wall_seconds": {
+      "v029": 0.5288613870216068,
+      "v030": 0.5908748889924027
+    },
+    "peak_rss_linux_kib": {
+      "v029": 1866372,
+      "v030": 1857416
+    }
+  },
+  "stores_return": {
+    "render_wall_seconds": {
+      "v029": 120.22327901099925,
+      "v030": 115.00340513000265
+    },
+    "load_wall_seconds": {
+      "v029": 0.46288430597633123,
+      "v030": 0.52297000301769
+    },
+    "peak_rss_linux_kib": {
+      "v029": 1855076,
+      "v030": 1865680
+    }
+  },
+  "doorway": {
+    "render_wall_seconds": {
+      "v029": 98.16925196000375,
+      "v030": 99.37872582901036
+    },
+    "load_wall_seconds": {
+      "v029": 0.45547012001043186,
+      "v030": 0.5485996890056413
+    },
+    "peak_rss_linux_kib": {
+      "v029": 1864872,
+      "v030": 1860104
+    }
+  },
+  "frame_0001": {
+    "render_wall_seconds": {
+      "v029": 125.07278564499575,
+      "v030": 125.64375462802127
+    },
+    "load_wall_seconds": {
+      "v029": 0.565342118992703,
+      "v030": 0.47879139200085774
+    },
+    "peak_rss_linux_kib": {
+      "v029": 1856776,
+      "v030": 1869324
+    }
+  },
+  "frame_0076": {
+    "render_wall_seconds": {
+      "v029": 120.002747808001,
+      "v030": 121.34091734699905
+    },
+    "load_wall_seconds": {
+      "v029": 0.43742292499518953,
+      "v030": 0.4822035520046484
+    },
+    "peak_rss_linux_kib": {
+      "v029": 1875096,
+      "v030": 1869712
+    }
+  },
+  "hero": {
+    "render_wall_seconds": {
+      "v029": 93.05346138699679,
+      "v030": 97.08293639498879
+    },
+    "load_wall_seconds": {
+      "v029": 0.46021707900217734,
+      "v030": 0.4621182430128101
+    },
+    "peak_rss_linux_kib": {
+      "v029": 2194980,
+      "v030": 2188656
+    }
+  },
+  "scope": "Paired single fresh process observations at identical camera/quality/light settings; no performance improvement claim. Includes loading and render process peak, not modeling/QA."
+}

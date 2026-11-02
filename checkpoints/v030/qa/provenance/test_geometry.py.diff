@@ -1,0 +1,11 @@
+--- executed/test_geometry.py
++++ portable/test_geometry.py
+@@ -2,7 +2,7 @@
+ import copy,json
+ from pathlib import Path
+ import audit_geometry as a
+-D=Path(__file__).parent;data=json.loads((D/'geometry.json').read_text());plan=json.loads((a.R/'work/v030_fittings/PLAN.json').read_text());rows=[]
++D=Path(__import__('os').environ['FITTINGS_QA_OUTPUT']);data=json.loads((D/'geometry.json').read_text());plan=json.loads((a.R/'PLAN.json').read_text());rows=[]
+ def reject(label,mutate):
+  d=copy.deepcopy(data);mutate(d)
+  try:a.audit(d,plan)

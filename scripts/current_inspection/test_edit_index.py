@@ -9,7 +9,7 @@ class Objects(list):pass
 class Tests(unittest.TestCase):
  def setUp(self):
   self.ns={'hashlib':hashlib,'json':json,'need':lambda ok,msg:None if ok else (_ for _ in ()).throw(RuntimeError(msg))}
-  exec((ROOT/'edit_index_template.py').read_text().split('class CASTLE29_INSPECTION_OT_edit_index')[0],self.ns)
+  exec((ROOT/'edit_index_template.py').read_text().split('class CASTLE30_INSPECTION_OT_edit_index')[0],self.ns)
   self.a=Obj('a',True);self.b=Obj('b');self.c=Obj('c');self.objects=Objects([self.a,self.b,self.c]);self.objects.active=self.a
   self.ctx=types.SimpleNamespace(view_layer=types.SimpleNamespace(objects=self.objects));self.ns['index_find']=lambda key,context:[self.b,self.c]
  def test_success(self):
@@ -45,7 +45,7 @@ class Tests(unittest.TestCase):
  def test_multiple_path(self):
   with self.assertRaises(RuntimeError):self.ns['index_paths'](self.node(children=[self.node(['a']),self.node(['a'])]),'a')
  def test_mapping(self):
-  x=json.loads((ROOT/'edit_index.json').read_text());self.assertEqual([len(g['objects']) for g in x['groups'].values()],[2,20,1,2,20]);self.assertFalse(any('outside chamber guard' in o['name'] for g in x['groups'].values() for o in g['objects']))
+  x=json.loads((ROOT/'edit_index.json').read_text());self.assertEqual([len(g['objects']) for g in x['groups'].values()],[2,20,1,2,20,6]);self.assertFalse(any('outside chamber guard' in o['name'] for g in x['groups'].values() for o in g['objects']))
  def test_no_automatic_actions(self):
   m=ast.parse((ROOT/'edit_index_template.py').read_text());self.assertTrue(all(isinstance(x,(ast.Expr,ast.FunctionDef,ast.ClassDef)) for x in m.body))
 if __name__=='__main__':unittest.main()
