@@ -34,3 +34,5 @@
 - [v018独立便携重渲染工具](checkpoints/v018/presentation/portable_interior/README.md)：仍绑定历史v018；原生Windows未实测，不会自动重渲染或降低质量。
 - [历史v026八秒外景局部环绕](checkpoints/v026/presentation/orbit/README.md)：96帧真实Blender渲染，960×694、12fps、原40°镜头路径与照明不变；不是360°或内廊漫游。完整解码与来源逐帧检查通过。
 - [历史v016八秒局部环绕](https://github.com/john-wang880/seaside-megatower-castle/blob/9d417969f97c309665fb37067a81785c0aa225a0/checkpoints/v016/presentation/orbit/README.md)，不含后续屋面和树冠。
+
+仓库维护：在实际Git工作副本根目录可运行`python -B scripts/update_root_checksums.py --check`检查完整根清单；审查文件变更后用`--write`重建。脚本按NUL分隔读取Git路径，保留中文／空格文件名，不在嵌套归档目录生成误导性空清单。

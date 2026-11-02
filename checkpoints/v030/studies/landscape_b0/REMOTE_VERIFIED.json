@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "verified_commit": "46c2c097d93226da1194278a8e5609387d069bfc",
+  "tree": "c3684fa328518849bc2f0bf04933e2ab6687c52e",
+  "source_model_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
+  "rebuilt_rejected_study_sha256": "3af38223f48c11e2232a64c81a4c53de24f71ebfe513b31715504704ea4121ff",
+  "archive_sha256": "df600305fac551b813515e2ffdd6a05c9fd26ce2968d90076182ad7a09d9da6c",
+  "archive_payload_members_verified_unchanged": 146,
+  "all_old_paths_retained": true,
+  "all_local_blobs_match_remote": true,
+  "root_checksums": 3239,
+  "core_tests": 13,
+  "native_replay_calls": 2,
+  "python_replay_calls": 4,
+  "historical_geometry_normal_semantics_exact": true,
+  "source_model_unchanged": true,
+  "scope": "Rejected study backup only; v030 remains accepted canonical. No model/version promotion.",
+  "verification_setup_note": "Initial local tree walk interpreted Git-quoted Unicode paths; corrected to NUL-delimited ls-tree. Remote files/model/replay gates unchanged.",
+  "root_inventory_scope_note": "The tested historical root list has3239entries; four Git-quoted Unicode v027 report paths were omitted from that list but verified by exact Git blob comparison. A subsequent metadata-only commit adds a NUL-delimited inventory generator and includes all four in the current root manifest. Model/study archive bytes unchanged."
+}
