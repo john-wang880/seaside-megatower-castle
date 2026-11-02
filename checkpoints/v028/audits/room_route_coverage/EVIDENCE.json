@@ -1,0 +1,28 @@
+{
+  "conclusion": "Intended seven-lane network and geometric floor/door transition covered by existing complementary proofs; no new floor-support defect found; no further test proposed for unchanged scope.",
+  "source_sha256": "f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096",
+  "evidence_sha256": {
+    "checkpoints/v028/reports/remote/model_qa/SUMMARY.json": "4c5bae70d159d4beef24bb923290f11b2e56170d8b7e35664c9b30a04bb96b42",
+    "checkpoints/v028/reports/remote/model_qa/repeat.json": "a0714a24bb9f8bb3574389f7a4493d6aa4b7b37ecb40376bacfe1eebe71f3bbc",
+    "checkpoints/v028/reports/remote/model_qa/native_preservation.json": "2783ef8d120eb47a3afa8c0dc2174a23d93f3b970ad8dd78cccec947e8c41513",
+    "checkpoints/v028/reports/remote/model_qa/saved_routes.json": "0a7a7fad4bf1dfe0dee4f30589d8c894e35d94e5a90f43dfb456a620a6736b8a",
+    "checkpoints/v028/reports/remote/model_qa/saved_fixtures_final.json": "dc2bfc2b99c63be83f073b5268da601a3b9805891a34049e187ae96993d70eaa",
+    "checkpoints/v028/reports/remote/model_qa/native_tessellation.json": "1cad7e95819bcbde2fdc35ecd7719724f5098ad93c3ce3030f42b7109fd0cb10",
+    "checkpoints/v028/reports/remote/model_qa/local_final.json": "913ad879136ecc4f22fbec302264caa3e03f6d40e0e2725a064b60159cc0c4ae",
+    "checkpoints/v028/reports/remote/model_qa/outside_final.json": "5cc32e4b423e99436dc22b829db03b7b64190971e26f1f8a92394dee72e5f411",
+    "checkpoints/v028/reports/remote/model_qa/local_neighbors_with_interfaces.json": "46129957466e11ebe1e85983ccb957829bf3293201522806bbda7d547f44eee7",
+    "checkpoints/v028/reports/remote/model_qa/saved_seats.json": "78e20208b179f30ea70b34720f2b804a057a390d0dc568fc25060e09566eec95",
+    "checkpoints/v028/qa/data/guard_partition_proof.json": "c96d20ca60f419953225303fdde4580ef64bb4da56939f482d82bb058a6bf0c0",
+    "checkpoints/v028/qa/check_saved_routes.py": "c663c30d445a3241fa642dd61b9212b68b487f5510ef627dd01a4280556edfe2",
+    "checkpoints/v028/qa/body_support.py": "123d8279df992e9988dd24f87bf8a892728b84775f1b732fd2717f8e848c73da",
+    "checkpoints/v028/qa/axis_reference.py": "a5add8dbbb20a7e0041619c69c7d36b0ff943f99370cd39e5776de3058e7bd65",
+    "checkpoints/v028/reproduce/native.json.gz": "ed364102b4b470971a369fd9b78cdeafaf34f3832bfb399e1cf34f5094082432"
+  },
+  "review_sha256": "ac78cba3eb610180c50bdc7e2ae62608c28e6266a4e355a025a4500b876bd3ce",
+  "native_run": false,
+  "rendered": false,
+  "source_saved": false,
+  "new_geometry_test_run": false,
+  "diagnostic_only_floor_triangle_count": 28,
+  "diagnostic_only_floor_area": 64.96000169754188
+}

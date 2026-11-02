@@ -2,6 +2,8 @@
 
 ## 当前唯一有效状态：v028 已完成远端验证
 
+- 当前已知建模／修复范围稳定。新房间七条连续路线、20个灯具及地面／门槛衔接已有互补证明，详见[覆盖复核](checkpoints/v028/audits/room_route_coverage/REVIEW.md)；不是全地板、人类步态或承重认证。下一阶段需要明确的新创作方向，不以重复加饰线、改树或补岸消耗时间。月度任务仍有效，自动恢复未暂停；在方向确认前保留已验收模型，不自动实施新的房间或景观方案。
+
 - 可选编辑索引（同一v028，不升模型版本）：[工具](scripts/current_inspection/README.md)显式 `--editing-index` 默认OFF，四组手动选择为局部房间壳体／20灯具网格（排除2LIGHT）／入口顶棚／HIGH近树。LOW或隐藏目标拒绝且不unhide，不重命名原数据；共享材质、装配与混合原建筑宿主限制见[指南](scripts/current_inspection/EDIT_INDEX_GUIDE.md)。本地验证及严格增量提交 `8a88b1e5a37fb0989a01532029edc9dd6939db9a` 的全新远端校验／模型恢复、4导出＋3组原生QA重放通过；[远端记录](checkpoints/v028/audits/editability/REMOTE_VERIFIED.json)为最终状态依据。最终守卫版73项纯测试及另6个原生面板边界案例通过，不宣称广泛无崩溃或原生Windows通过；原v028源和哈希不变，无模型升版或旧路径删除。
 
 - 当前候选／本地接受模型：**v028 下层接待／守卫室**，`checkpoints/v028/MANIFEST.json`；SHA `f0d135e0c6e554b5ae7c520ef9ccefc61e2a7c4abc3129eef1d3d4118bca8096`，47,806,291B。
