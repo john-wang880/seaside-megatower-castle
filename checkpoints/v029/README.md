@@ -1,3 +1,5 @@
+> HISTORICAL v029 shell checkpoint. Its current model payload was withdrawn only after v030 remote restore/rebuild/tool replay passed. Restore v029 from fixed commit d753ba032b1d3138a1d0c34e13b0caee40b3d92f in a separate archive; use current v030 for the furnished model. All historical reports remain.
+
 # v029 · 接待室 → 连通储藏空间（空壳阶段）
 
 在v028接待室东侧新增7×4.5、净高3.05场景单位的狭长服务空间，经一处1.4×2.45内部通口相连。是明确选择的室内探索扩建，不是修复缺陷；**目前为连通房间空壳，货架／储物功能尚未实现**。没有新增外门、绕行回路或第二层房间。

@@ -1,6 +1,6 @@
 {
   "pass": true,
-  "status": "LOCAL_NATIVE_PASS_REMOTE_REPLAY_PENDING",
+  "status": "LOCAL_AND_ADDITIVE_REMOTE_FULL_PASS",
   "source_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
   "native_summary_sha256": "4b0ad7bd4520bbc21704240b4e0a219b463bdb64839fbf3fa86442c53e0ba739",
   "runtime_sha256": {
@@ -34,5 +34,11 @@
   "source_saved": false,
   "native_windows_tested": false,
   "real_desktop_clicks_tested": false,
-  "chronology": "An inherited v029 catalog literal in the new QA harness refused before source load; corrected to reviewed v030 pin and full chain rerun. Runtime/model unchanged; initial log and adapter retained in qa/v030_current."
+  "chronology": "An inherited v029 catalog literal in the new QA harness refused before source load; corrected to reviewed v030 pin and full chain rerun. Runtime/model unchanged; initial log and adapter retained in qa/v030_current.",
+  "remote_verification": {
+    "pass": true,
+    "commit": "facb336b3bec7c36608f06ab9788ca06eda3257b",
+    "record": "../../checkpoints/v030/reports/remote/VERIFIED.json",
+    "runtime_unchanged": true
+  }
 }

@@ -5,4 +5,4 @@
 3. Follow `qa/README.md` and supply the independently restored accepted model via `--accepted` when validating a new serialization.
 4. Use the current reviewed manual inspection-copy tool only after its source hash matches. No model auto-exec, source overwrite or automatic render is used.
 
-Local native geometry and saved repeat passed. Portable isolated full replay passed; remote replay remains pending publication.
+Local native geometry and saved repeat passed. Portable isolated full replay passed; fresh remote rebuild and complete replay also passed, recorded in reports/remote/VERIFIED.json.

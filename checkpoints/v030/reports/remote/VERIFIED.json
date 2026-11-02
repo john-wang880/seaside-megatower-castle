@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "verified_additive_commit": "facb336b3bec7c36608f06ab9788ca06eda3257b",
+  "tree": "17beadff5a33c822fe6308c5675fa4690f8dfc8b",
+  "root_checksums": 3205,
+  "core_tests": 13,
+  "model_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
+  "source_sha256": "4f838529d32cbf6a0314cc0a23b3dd1703b73d80c5db146fb4d323697b882df5",
+  "remote_summary_sha256": "535b332bc0cd2c61774a5fdd480b318d890e2003a5fb466dd1ded6b2132768b9",
+  "source_only_rebuild_sha256": "c14dffd40525cce84ca49e33a3c73dbf5b9e2403f42e871d90057ec01a1204df",
+  "full_model_and_tool_replay": true,
+  "source_archive_unchanged": true,
+  "cleanup_sequence": "All old paths were retained through these successful remote gates; only now may superseded unreferenced model payload be removed."
+}

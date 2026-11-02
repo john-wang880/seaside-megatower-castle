@@ -1,6 +1,6 @@
 # v030 inspection copy — 20 unchanged manual bookmarks
 
-**Local native export/reopen, model visual acceptance and complete independent controls passed; remote replay remains pending.** Source pin `9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35`,47,842,841bytes. Only a genuine latest v030 manifest is accepted; none is fabricated here.
+**Local native export/reopen, model visual acceptance and complete independent controls passed; fresh remote replay also passed.** Source pin `9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35`,47,842,841bytes. Only a genuine latest v030 manifest is accepted; none is fabricated here.
 
 All20 existing camera records remain byte-equivalent as JSON values, including historical recipe/receipt hashes and camera names. Runtime ownership uses CASTLE30/INSPECT30; old camera datablock labels inside those unchanged records are intentional. No new viewpoint, quality mode, automatic execution or visibility mutation.
 
@@ -27,3 +27,5 @@ Current native evidence: `qa/v030_current/provenance/` and VALIDATION.json. See 
 ### Current test scope
 
 Do not recursively discover every historical test in this archival repository. Current runtime tests are the five explicitly listed files above (47 methods); `test_v029_catalog.py` remains byte-exact historical evidence and intentionally describes the earlier five-group/current-source assumptions. Run those five files explicitly, then the24- method independent preflight CLI and13-method `qa/v030_current` suite. This preserves old evidence without treating it as current acceptance.
+
+Remote additive facb336b3bec7c36608f06ab9788ca06eda3257b passed fresh four-copy native replay and84 current pure methods. Source/runtime/archive unchanged; [project record](../../checkpoints/v030/reports/remote/VERIFIED.json).

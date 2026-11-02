@@ -1,3 +1,5 @@
+> Subsequent corrected CPU proof is now archived in [correction_proof](correction_proof/README.md): explicit conservative float32 envelope passes source inclusion, embedding, mapped no-engulfment and water-curve checks. Grove root/crown proof remains separate; no landscape .blend, visibility or material operation has occurred.
+
 > Later independent gate (2026-11-02): V2 source inclusion FAILED on six positive-area old-boundary cells (triangles32195,32267,32756,32757,32828,32829), although old/new embedding checks passed. The frozen archive records the earlier proposal and pending-proof state, not an accepted landscape. Localized measurements/correction or explicit scope decision remain pending. No coast/forest model or material was changed.
 
 # Parallel landscape redesign — read-only recovery

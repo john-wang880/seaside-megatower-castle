@@ -1,13 +1,13 @@
 # 海边巨塔城堡 · 持续精修
 
-最新检查点：**[v030 有用途的储藏室](checkpoints/v030/README.md)**。两排三格木架和四只带盖储物箱，让v029连通空壳成为可辨认的储物目的地。本地源工程重建、完整独立几何／语义QA、实际图像验收与20书签检查工具验证通过；远端恢复／重放仍是发布后的独立门槛。
+最新检查点：**[v030 有用途的储藏室](checkpoints/v030/README.md)**。两排三格木架和四只带盖储物箱，让v029连通空壳成为可辨认的储物目的地。本地源工程重建、完整独立几何／语义QA、实际图像验收与20书签检查工具验证通过；**远端精确恢复、源重建和完整模型／工具重放已通过**，见[核验记录](checkpoints/v030/reports/remote/VERIFIED.json)。
 
 保留2.94宽中央工作通道、原门洞及回程视线；原灯光、世界、曝光和建筑不变。箱体在原照明下自然偏暗，不宣称每只箱子都清晰可见。没有新增房间、外门、完整环路或结构安全认证。
 
 - [进入储藏室](checkpoints/v030/previews/stores_entry.png) · [回望原接待室](checkpoints/v030/previews/stores_return.png) · [房间关系](checkpoints/v030/previews/doorway.png) · [当前全景](checkpoints/v030/previews/hero.png)
 - [恢复说明](checkpoints/v030/README.md) · [源工程复现](checkpoints/v030/REPRODUCE.md) · [独立QA](checkpoints/v030/qa/README.md)
 
-完整克隆含model_chunks，运行`python -B checkpoints/v030/restore_checkpoint.py`，逐块及整文件SHA验证后用已有Blender5.2.3打开，保持自动脚本执行关闭。验收SHA：`9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35`。源v029固定历史提交`d753ba032b1d3138a1d0c34e13b0caee40b3d92f`；新版本远端验证通过前保留旧当前载荷，之后只撤下无引用旧载荷，Git历史不清除、不强推。
+完整克隆含model_chunks，运行`python -B checkpoints/v030/restore_checkpoint.py`，逐块及整文件SHA验证后用已有Blender5.2.3打开，保持自动脚本执行关闭。验收SHA：`9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35`。源v029固定历史提交`d753ba032b1d3138a1d0c34e13b0caee40b3d92f`；旧v029当前载荷已在新版本远端验证通过后撤下，固定历史仍可恢复，Git历史不清除、不强推。
 
 ## 可选：当前模型检查／编辑选择副本
 
@@ -20,7 +20,7 @@
 ## 已选择的后续两条方向
 
 - **丰富内部探索**：接待室与服务储物目的地已连接并布置，后续空间必须有实际用途与清晰连接，不靠随意复制房间／堆道具。
-- **整体升级海岛景观**：[当前设计研究](checkpoints/v030/planning/README.md)结合迎风松林、开阔进路与连续岩岸。尚未实施树林／海岸重做；V2提案在精确原体积包含检查发现六处局部外失，保持待处理，不能当作通过的模型。
+- **整体升级海岛景观**：[当前设计研究](checkpoints/v030/planning/README.md)结合迎风松林、开阔进路与连续岩岸。尚未实施树林／海岸重做；原V2提案的六处微小原体积外失已定位；局部保守浮点包络通过CPU包含／嵌入检查，映射保护空间也已核对，仍待林带支持／冠幅与实际场景验收，尚不是发布的景观模型。
 
 [v024/v025旧邻接保证更正](checkpoints/v026/audits/coplanar_method/README.md)继续保留：旧BVH零结果不是无共面接触保证。当前范围以各版有限证明为准，不声称全球无重叠或全城堡可通行。
 

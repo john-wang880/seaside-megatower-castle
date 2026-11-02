@@ -7,7 +7,7 @@ Two staggered three-bay timber racks and four supported lidded supply bins furni
 - Actual geometry checks cover 16 complete chamfered feet, 72 positive rail/post overlaps, 18 shelf bearings, four bin-bottom and four lid/body seats. All components connect geometrically to the floor. This does not certify structural strength or stability.
 - The 2.94-unit central aisle and protected 1.2-unit lane remain clear; the .55-unit rack-end gap is not a walking route. Units are uncalibrated scene coordinates.
 - Old source data, material graphs, lamps/world/exposure and cameras are preserved. Same-camera original-light entry/return images make shelving legible; bins remain naturally dark and are not claimed fully visible.
-- Local source-only rebuild, full 13-category saved semantic comparison, isolated portable model QA, six-view artistic acceptance and complete inspection-copy native checks pass. Remote replay remains a separate pending publication gate.
+- Local source-only rebuild, full 13-category saved semantic comparison, isolated portable model QA, six-view artistic acceptance and complete inspection-copy native checks pass. Fresh remote source-only rebuild and complete model/tool replay passed from additive commit facb336b3bec7c36608f06ab9788ca06eda3257b; see reports/remote/VERIFIED.json. Only afterward were superseded current v029 payload paths withdrawn, retaining fixed history.
 
 Source v029 is recoverable from fixed commit `d753ba032b1d3138a1d0c34e13b0caee40b3d92f`. No old payload may be withdrawn until the new additive backup is independently restored. Existing videos retain their historical source versions.
 
