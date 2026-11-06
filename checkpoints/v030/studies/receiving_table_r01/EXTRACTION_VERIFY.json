@@ -1,0 +1,34 @@
+{
+  "pass": true,
+  "package_content_files": 73,
+  "exact_model_sha256": {
+    "models/candidate.blend": "c53e1e7c396322f7c051255fc6b5e77defb79a3fbffbb27815054435727b315b",
+    "models/castle_v030.blend": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35"
+  },
+  "frozen_bundle_files": 28,
+  "fresh_cpu_geometry_check": true,
+  "cpu_modules_loaded_from_package": {
+    "exact_axis_boundary": "bundle/qa/exact_axis_boundary.py",
+    "continuous_box_cover": "bundle/qa/continuous_box_cover.py",
+    "body_support": "bundle/qa/body_support.py"
+  },
+  "all_bundle_python_syntax_valid": true,
+  "package_unchanged": true,
+  "blender_calls": 0,
+  "renders": 0,
+  "native_rebuild_this_phase": false,
+  "network_or_git_actions": false,
+  "limits": "CPU imports only; bpy/mathutils native imports and rendering are historical evidence, not executed here. Runtime Python/numpy and optional Blender are external software prerequisites.",
+  "archive_sha256": "a75599d1e679f9627beb4cfc80edbbc4cb4137d8408c6bd0228e3fded322f780",
+  "archive_crc_pass": true,
+  "fresh_extract_directory": "/tmp/castle-complete-restore-89ksy28j/extracted",
+  "empty_execution_cwd": "/tmp/castle-complete-restore-89ksy28j/empty-cwd",
+  "actual_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "/tmp/castle-complete-restore-89ksy28j/extracted/check_package.py",
+    "--output-dir",
+    "/tmp/castle-complete-restore-89ksy28j/cpu-results"
+  ],
+  "manifest_sha256": "1e4182e746477a8851ce758ff48f87976ab5fd18461c2f4a7b71f886211c8f12"
+}
