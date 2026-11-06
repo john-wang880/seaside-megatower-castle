@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "utc": "2026-11-05T13:59:16.633130+00:00",
+  "saved_rows_geometry_materials_and_smoothing_exact_against_rendered_candidate": true,
+  "rendered_candidate_sha256": "1d5a184c1a693818fd44fa604f5e013b7c853caee388ba1d00db294d92f5c54d",
+  "source_rebuilt_candidate_sha256": "37fcf1cd4cd9d43cf00857223616a506b3cddebabb30f0dcab18cfd222eafdca",
+  "full_source_replay_summary": {
+    "pass": true,
+    "scope": "TWO_TREE_R06_TECHNICAL_REPRODUCTION_ONLY_NO_ART_OR_PRODUCTION_APPROVAL",
+    "source_sha256": "9f020b7ec6eda309d674653598b169f65ba5dc1d1f194ffa31323f6393feda35",
+    "baseline_sha256": "a2eda1b5b6879002a76aa7b4b6c9ea7be386f996f88c40cf4d5b85fbc9fd826a",
+    "candidate_sha256": "37fcf1cd4cd9d43cf00857223616a506b3cddebabb30f0dcab18cfd222eafdca",
+    "numeric_and_payload_exact": true,
+    "r01_historical_saved_geometry_semantics_exact": true,
+    "source_categories": 13,
+    "targets": 2,
+    "triangles": 1216,
+    "r06_saved_geometry_and_materials_exact": true,
+    "full_forest_budget_established": false,
+    "rendered": false,
+    "immutable_inputs": true
+  },
+  "portable_source_zip_sha256": "afbb917af4cd7ad25399d3365da0c300b088a7662c820886f3525a7eaf61042d",
+  "art_status": "BOUNDED_MIDDISTANCE_TEST_CANDIDATE_NOT_PRODUCTION; formal v030 unchanged"
+}
