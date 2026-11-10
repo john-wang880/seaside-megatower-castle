@@ -1,3 +1,7 @@
-# Receiving-room waiting alcove
+# Historical receiving-alcove checkpoint
 
-New bounded interior candidate based on verified remote 69a96cfb7330f752b0db3a5cfc3ed77c4f10e72c. Includes a timber bench and one actual source-style wall lamp, with original existing scene and lights preserved. Run `python restore.py` to verify the archive and restore the model, scripts, actual matched pairs, validation and continuation notes. No global exposure change. Main and historical backups remain unchanged.
+The payload is retired only from this newer branch after the meadow-ribbons model was independently downloaded, hash-verified, reopened in Blender and checked. All Git history and the original backup branch are retained.
+
+Restore the previous model from commit 5050dbc8dea19b06ec4f485fe506bafa0aae175f on branch backup/receiving-alcove-20261110, directory checkpoints/v030/studies/receiving_alcove_20261110, using its restore.py.
+
+https://github.com/john-wang880/seaside-megatower-castle/tree/5050dbc8dea19b06ec4f485fe506bafa0aae175f/checkpoints/v030/studies/receiving_alcove_20261110

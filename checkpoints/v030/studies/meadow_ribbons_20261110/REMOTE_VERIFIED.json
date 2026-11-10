@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "backup_commit": "160352cbfc4ba6d359b73027e0d36004216b8047",
+  "independent_sparse_clone": true,
+  "part_count": 69,
+  "archive_bytes": 52658127,
+  "archive_sha256": "07d2f3f66b21dcb77d4cafc8348fca4a2c2423389139ced8f83e9ab1966af7ee",
+  "all_parts_archive_and_file_hashes_verified": true,
+  "model_sha256": "e4e749aaf659b78e83bc056b1b6de4b5505dc3af3a0631995421a454bc45e6da",
+  "native_blender_5_2_3_reopen": true,
+  "saved_geometry_validation": {
+    "pass": true,
+    "blade_components": 11965,
+    "vertices": 83755,
+    "triangles": 59825,
+    "per_blade_materials_unchanged": true,
+    "root_midpoints_preserved_within_tolerance": true,
+    "contained_in_source_triangles_within_tolerance": true,
+    "monotonic_longitudinal_sections": true,
+    "positive_face_orientation": true,
+    "controls": [
+      "off-plane vertex",
+      "reversed face",
+      "wrong material",
+      "displaced root"
+    ],
+    "source_export_sha256": "494c5003e2ff23187e446980b0df876af5513a87c520bd2dd2143a7c08fccc7a",
+    "metrics": {
+      "max_plane_distance": 1.0209878108943804e-05,
+      "minimum_barycentric_coordinate": -1.451256559373229e-05,
+      "max_root_midpoint_error": 7.688768146799611e-06,
+      "max_longitudinal_fraction_error": 1.800459047296421e-05,
+      "minimum_triangle_area": 6.930486218753025e-05
+    },
+    "limitations": "Planar thin surfaces. Floating-point containment tolerance5e-5 in scene units and1e-3 barycentric. No repair claim for original terrain/route intersections or original floating roots. No volumetric or structural validation."
+  },
+  "original_branch_and_main_untouched": true
+}
