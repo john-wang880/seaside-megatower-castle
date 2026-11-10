@@ -1,3 +1,3 @@
-# Stores portal stone surround
+# Historical stores portal surround
 
-New bounded interior candidate based on verified remote 326648f903734d3eecc2312817b8de6b01ec671e. Run `python restore.py` to verify all archive parts and restore the complete model, reproducible scripts, paired actual previews, checks and continuation notes. No original scene objects or materials removed. Independent clean rebuild and reopened geometry tests passed. Main and earlier backup branches remain unchanged.
+The full frozen source model, scripts and previews remain recoverable at commit `69a96cfb7330f752b0db3a5cfc3ed77c4f10e72c` in this same directory and on branch `backup/stores-portal-20261110`. Restore that fixed revision when reproducing the receiving-alcove study. Directly superseded payload was retired from this newer branch only after fresh remote restoration and Blender reopen validation. The prior verification report and all Git history remain intact.
