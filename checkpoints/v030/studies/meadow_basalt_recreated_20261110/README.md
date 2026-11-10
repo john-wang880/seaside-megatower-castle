@@ -1,3 +1,3 @@
-# Recreated meadow/basalt material candidate
+# Historical meadow/basalt recreation
 
-New recreation from verified S11, not recovery of the missing S20R original. Run restore.py to verify the archive parts and safely extract the complete model, reproducible scripts, actual before/after previews and validation notes into a new restored directory. Both fresh builds produced identical model SHA256 02acc1edfbdb01df7ff0bb4138d2811f9b7b9666937b7168fe4a11432db7287f. Original S11 and main remain unchanged.
+The complete frozen parent model, scripts and preview archive remain recoverable at commit `326648f903734d3eecc2312817b8de6b01ec671e`, in this same directory, and on branch `backup/meadow-basalt-recreated-20261110`. Restore that fixed revision when reproducing the later stores-portal study. Its directly superseded payload was retired from this branch only after fresh remote restoration and Blender reopen of the later study succeeded. No Git history or older branch was removed.
