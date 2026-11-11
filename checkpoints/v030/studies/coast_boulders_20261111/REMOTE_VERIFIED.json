@@ -1,0 +1,8 @@
+{
+  "verified_commit": "33ba7a28dffa9146ea03123d9da651b4ca35cfea",
+  "baseline": "5052d672e0dd51233a71e8ea61855ecf18b23d2d",
+  "method": "Independent sparse clone, all 67 chunks/archive/extracted hashes; native Blender reopen and snapshot equality; exported topology, closed terrain, 0.015 interior-ball overlap for all 13 boulders, pairwise separation, intertidal/southwest limits and six negative cases pass. Checker is separate from build logic, no second worker available this iteration.",
+  "archive_sha256": "ad9e3dd7909351baad1a3878c655934a91999536c0beedd5e6db5171e40d79b6",
+  "model_sha256": "f259c05e16fdcbaa6a9aa654676013b6f3955a2ac2c94662b27122d978af3a99",
+  "retirement": "Previous rack study payload retired from new branch after verification; old branch and history preserved."
+}
