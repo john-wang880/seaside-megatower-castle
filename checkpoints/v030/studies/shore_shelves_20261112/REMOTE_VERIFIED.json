@@ -1,0 +1,11 @@
+{
+  "verified_commit": "6dc0ef6e215db749ecb8ab16e8a8c2a73e0c0392",
+  "method": "Independent git fetch from remote branch; archive extraction; all part hashes and complete archive SHA256; all 18 internal SHA256; Blender 5.2.3 native preserved-state comparison against remote S28; rerun both geometry validators",
+  "archive_sha256": "e8f62740ede9da5b52b91e32fb20ffff659db092c714d2107a6f219f945e77f8",
+  "existing_objects": 406,
+  "new_objects": 2,
+  "native_pass": true,
+  "geometry_pass": true,
+  "independent_pass": true,
+  "blender_archive_sha256": "78486c018b4443efe5e75ab54c290ed8c15abafd249b862c2c9ce2530a918eec"
+}

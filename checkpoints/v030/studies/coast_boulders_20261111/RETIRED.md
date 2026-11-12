@@ -1,0 +1,1 @@
+S28 payload retired only after S29 independent remote reconstruction and native validation. Recover its complete parts from commit 4bbeb1fde4aaaab0393e75a1346f705aa4dcffca on backup/coast-boulders-20261111. All Git history and original branches preserved. Active S29: ../shore_shelves_20261112/restore.py. No structural/geological certification implied.
