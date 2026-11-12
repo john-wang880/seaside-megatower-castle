@@ -1,0 +1,3 @@
+Independent visual review: retain existing model. Four lancets, centre division, stepped ribs, corbels and upper/lower cornices already have clear hierarchy. No demonstrated scale conflict warrants reworking this bay. Additional horizontal joints risk weakening the dominant vertical composition. Do not enlarge joints or extend to adjacent tiers to salvage the idea. This is not structural certification. Source model unchanged; no new model version.
+
+Remote verification caught truncated PNG transport in preceding commit; this commit replaces it with complete source image. Verify SHA256 f46a892d4c238d9bf1a3aa6c4e187e70473af97815b576f1665d6cb22fa8ad9f (1219313 bytes).
