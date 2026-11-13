@@ -1,3 +1,7 @@
+# Historical checkpoint S32
+
+Current archive payload is retired only after S33 remote verification. Restore this entire checkpoint directory from commit `01a61eb775d398f741271d286b3ca8d7c4a7204d`; current restore.py alone has no archive. All Git history is retained.
+
 # S32 · Seven-tree branch-cluster grove
 
 A bounded refinement of seven existing foreground/midground conifers, not a whole-forest replacement. New irregular, overlapping twig-end foliage masses replace coarse diamond/flat-tier foliage in this grove. Tree locations, original stems, source materials, castle/rooms, coast, paths, world, lights and original cameras remain. The two-berth S31 room and all preceding accepted work are retained.
