@@ -1,0 +1,1 @@
+S31 current payload withdrawn only after S32 remote full archive/member/previews, independent CPU and native verification passed. Restore checkpoints/v031 from fixed commit 95dc7a94f9bd39f22dc3df8d5c0e245443495e54 for the exact S31 rebuild source. History retained; no force push.

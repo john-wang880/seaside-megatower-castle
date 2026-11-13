@@ -1,3 +1,5 @@
+> Historical S31 source. Current payload withdrawn after S32 remote verification. Restore this entire folder from commit `95dc7a94f9bd39f22dc3df8d5c0e245443495e54` before running its restore.py. Current model: S32.
+
 # S31 · Connected two-berth guard rest room
 
 A new bounded rest/readiness destination south of the existing reception room. This is a deliberate new architectural use, not a repair of a supposedly incomplete reception room. The original reception/checking station, visitor bench, cloak stand, connected stores and staircase remain.

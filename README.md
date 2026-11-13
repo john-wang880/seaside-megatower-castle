@@ -1,3 +1,11 @@
+# 当前检查点：S32 七株枝簇松冠
+
+原有七株松树的粗块叶冠已替换为错落枝端叶团；保留原树干、位置、材质以及全部 S31 城堡/备勤室。完整模型、可复现脚本、预览与验证见 [S32](checkpoints/v032/README.md)，恢复运行 `python checkpoints/v032/restore.py`。
+
+83 分块、45 个文件哈希、两张独立预览、四组 CPU 验证与 Blender 原生回读均从远端通过，见 [远端验证](checkpoints/v032/REMOTE_VERIFICATION.json)。S31 旧载荷仅从当前树撤下，可从 `95dc7a94f9bd39f22dc3df8d5c0e245443495e54` 恢复；保留历史，不强推。
+
+## 以下为保留的历史说明（不是当前状态）
+
 # 当前检查点：S31 双铺备勤室
 
 新连通双铺备勤室、单门路线及独立局部灯具已验收。完整模型、脚本、预览及校验见 [S31](checkpoints/v031/README.md)，恢复运行 `python checkpoints/v031/restore.py`。远端 68 分块、52 文件哈希及 Blender 保存几何回读通过，见 [远端验证](checkpoints/v031/REMOTE_VERIFICATION.json)。
