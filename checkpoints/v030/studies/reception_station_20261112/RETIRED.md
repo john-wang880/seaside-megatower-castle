@@ -1,0 +1,1 @@
+S30 payload retired only after S31 remote reconstruction and native verification passed. Restore this directory from commit e800ee5c8bf023db1e9617154739a0fb9278d857 when needing the pinned S30 rebuild source; Git history retained.
