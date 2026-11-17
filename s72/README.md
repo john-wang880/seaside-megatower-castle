@@ -1,0 +1,2 @@
+# S72 Garden tool-rack rain hood
+Concatenate parts in index order to reconstruct archive, validate SHA256 from MANIFEST. Contains full Blender model, matched before/after renders, build and validation scripts. Parent S71 b313fd5f5aca719fec97cf5249d6bab1da97fe7b retained in history. Adds 5 closed meshes, preserves 1960 originals. Static roof coverage and attachment geometry, not waterproofing, structural or accessibility certification.

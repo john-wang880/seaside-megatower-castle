@@ -1,2 +1,0 @@
-# S71 Garden tool rack
-Concatenate parts in index order to reconstruct archive, validate SHA256 from MANIFEST. Contains complete Blender model, before/after renders, build and validation scripts. Parent S70 48dcc4b40eca167336d822dac0a80cb9426f9ebe retained in history. Adds 24 closed meshes, preserves 1936 originals. Static props, no structural or accessibility certification.
