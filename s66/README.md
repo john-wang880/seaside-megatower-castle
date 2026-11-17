@@ -1,1 +1,0 @@
-S66 west upper-landing canopy validated delta. Concatenate parts in index order to recover ZIP; verify MANIFEST SHA256. Baseline S65 source retained at commit 65d7e827d81cd8ca3fa194e06ee8e8abd024b26c. ZIP includes full final model, build scripts, checks, and review evidence. Previous backups preserved in parent history.
