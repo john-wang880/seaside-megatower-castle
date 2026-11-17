@@ -1,3 +1,3 @@
-# Complete S56 archive backup
+# S57 guard ready-room wash station
 
-Contains the complete 109,734,505-byte S56 ZIP split into 154 binary parts. Reassemble in manifest index order. Verify each SHA256 and the final archive SHA256 before extraction. Full model, S55 source, scripts, previews and validation evidence are inside. No local cleanup is authorized by this branch alone.
+Full new candidate model, scripts, two original-light previews, geometry checks and negative test. Restore source.blend from the S56 complete backup branch (candidate.blend); expected source SHA256 de68649b75c675dfb6958e5d851612d091703db082bac76505b47fd4003b931d. This archive intentionally omits the duplicate baseline. Concatenate parts in MANIFEST.json order and verify SHA256 before extraction.
