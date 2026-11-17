@@ -1,1 +1,0 @@
-S67 sheltered perch backrest and arm rests. Concatenate parts in numeric order to recover ZIP; verify manifest SHA-256. Full candidate, build/check scripts, before/after renders and verification evidence included. Rebuild source S66 at parent commit 5767efb3eab15aae8603632bb13a0cc60987fe40. Prior backups retained in history; no structural or ergonomic certification.
