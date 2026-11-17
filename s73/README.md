@@ -1,2 +1,0 @@
-# S73 Numbered garden beds
-Concatenate parts in index order to reconstruct archive, validate SHA256 from MANIFEST. Full Blender model, matched before/after overview, four numeral closeups, build and verification scripts. Parent S72 482cc9488dad656e436be897dbeb6c9a63362c31 retained. Four double-sided markers 1-4, 40 closed meshes, preserves 1965 original objects. No crop species assigned. Static checks, not structural/accessibility certification.

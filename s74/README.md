@@ -1,0 +1,2 @@
+# S74 Garden supplies box
+Concatenate parts in index order; validate archive SHA256 from MANIFEST. Full Blender model, before/after images, build and verification scripts. Parent S73 25daddff2928ccfa93b27440b800a630d1ac279d retained. Sloped-lid supplies box adds 15 closed meshes and preserves 2005 originals. Initial coplanar exterior seam artifacts corrected and retested. Static model, not weatherproofing, moving-hinge, structural or accessibility certification.
