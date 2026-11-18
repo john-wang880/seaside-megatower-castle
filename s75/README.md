@@ -1,0 +1,2 @@
+# S75 Garden water barrel and stand
+Concatenate parts in index order; verify archive SHA256 from MANIFEST. Full Blender model, matched context images, tap detail, build and verification scripts. Parent S74 44f4b0eca056f1d363d9f312aedfda39c5e23189 retained. Adds 19 closed meshes, preserves 2020 originals. Full terrain-foot support, contact graph, sampled hollow interior, path exclusion, negative test and rebuild verified. Static vessel and tap, not connected plumbing, leak, pressure or structural certification.
