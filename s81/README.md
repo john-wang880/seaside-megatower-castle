@@ -1,1 +1,0 @@
-S81 tailor's chalk tray. Parent S80 06721c229cd794d5b8037a9b13955e599a79ae26. Concatenate parts in index order to restore ZIP; verify byte count and SHA256 from MANIFEST.json, then payload hashes. Full model, code, tests and inspection images included. Six static meshes; no marking or physical performance simulation. Earlier commits and branches retained.
