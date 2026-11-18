@@ -1,5 +1,7 @@
-# S91: connected tower watch and relief level
+# S92: adjacent same-level wash service suite
 
-36-riser switchback stair, watch handover room and separate two-berth relief room. Retains prior home, stairs, forest and three static guards. Access still shares the reading-hall edge; no washroom on this new level, and other tower floors remain incomplete.
+A bent public-platform branch reaches wash/changing space and separate shower and WC cubicles without crossing relief beds. Prior castle, home, stairs, forest and three static guards retained.
 
-Archive parts and SHA256 manifest: s91/. Concatenate parts in index order to recover ZIP. Historic stages retained through parent commits.
+Fixtures are static architectural geometry: no functioning supply, drainage, sewage or ventilation network. Reading-hall access is still shared, and other tower floors remain incomplete.
+
+Archive parts and SHA256 manifest: s92/. Concatenate parts in index order to recover ZIP. Historic stages retained through parent commits.
