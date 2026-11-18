@@ -1,0 +1,2 @@
+# S79 Garden harvest trug
+Concatenate parts in index order; validate archive SHA256 from MANIFEST. Full Blender model, matched images, build and verification scripts. Parent S78 7754c7a2f934ed5ccbe48861b0a6d8854c6e7073 retained. Adds 18 closed meshes, preserves 2058 originals. Complete runner/handle support, empty interior, 36 contacts, footprint containment, negative test and rebuild checked. Stool is occupied as a staging surface; static empty prop, no carrying capacity or handle-load certification.
