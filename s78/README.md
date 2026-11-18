@@ -1,0 +1,2 @@
+# S78 Garden stool cross-bracing
+Concatenate parts in index order; validate archive SHA256 from MANIFEST. Full Blender model, matched images, build and verification scripts. Parent S77 b597aabf57a0c7a9a2de22fa423c903dc8ac0e8c retained. Adds 4 closed ties/braces, preserves 2054 originals. Complete end-cap support, 16 original/new contact groups, 2 new edges, footprint containment, negative test and rebuild checked. Modeled frame detailing only, not stiffness or seating-load certification.
