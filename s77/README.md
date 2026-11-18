@@ -1,0 +1,2 @@
+# S77 Low garden stool
+Concatenate parts in index order; validate archive SHA256 from MANIFEST. Full Blender model, matched images, build and verification scripts. Parent S76 7278c7b37c5d4ad0a66f446586d1b3341f09013e retained. Adds 11 closed meshes, preserves 2043 originals. Whole-foot terrain support, level slats and gaps, contact graph, path/watering-prop separation, negative test and rebuild verified. Static furniture, not load, ergonomic or accessibility certification.
