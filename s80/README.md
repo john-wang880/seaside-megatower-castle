@@ -1,2 +1,0 @@
-# S80 Cutting-cloth pattern weights
-Concatenate parts in index order; validate archive SHA256 from MANIFEST. Full Blender model, matched images, build and verification scripts. Parent S79 7272ba2159e407be083ea679eaa6eb27d89833aa retained. Four closed knobbed weights preserve 2076 originals. Complete base support, tool separation, central workspace, footprint containment, negative test and rebuild verified. Static work-scene props, no assigned mass, fabric deformation or holding-force certification.
