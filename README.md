@@ -1,3 +1,5 @@
-# S89: Connected lower domestic wing and static guards
+# S90: first connected main-tower upper hall
 
-Concatenate s89/parts/part_000.bin through part_144.bin in numeric order to reconstruct the ZIP. Verify total size and SHA256 against s89/MANIFEST.json. The archive contains a complete Blender candidate, reproducible build sources, geometric/negative/rebuild/visual evidence, and five preview images. Previous S88 and earlier work remain in commit ancestry. This stage does not claim a fully habitable upper tower or complete building services.
+48 new stair risers, two resting landings, one real upper reading/sitting hall. Preserves S89 lower home and three static guards. Other tower floors remain incomplete.
+
+Archive parts and SHA256 manifest: s90/. Concatenate parts in index order to recover ZIP. All historic stages preserved through parent commits.
