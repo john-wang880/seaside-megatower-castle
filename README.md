@@ -1,11 +1,29 @@
-# S93: Glazed family reading room and shared north arrival gallery
+# S94：家庭厨房工作区与直达库存的短服务廊
 
-Parent: 4be3cdd8e42b09401f96a1673c2e1291c0c5a9df (verified S92).
+基于已验证回读的S93，父提交 `6a3370a8def8779e351c39cbf7aa822fc05df799`。本轮不是叠楼层或堆装饰，而是建立厨房到现有储藏取物区的真实连接，并整体补全厨房工作区。
 
-A 13.84m physical glazed timber partition and 1.30m family doorway define the existing north arrival gallery without modifying 4218 original objects or 133 original materials. Existing stairs remain shared; family access crosses the gallery. Static scene, not independent egress, acoustic/glazing certification or playable navigation.
+## 实际空间
 
-Final model SHA256: 23992d019abb6082d0c58c50b28bc9b94cddbc037f752e91f29986c47c016010
-Archive SHA256: e060ba05ac7ef7b9111da841c27dcb0e778fef0476bd58e682e8788d24e03a60
-Archive bytes: 111523949
+新廊从厨房西南侧穿过约3.4米石体到库存取物点，完成内衬净宽1.4米。名义顶板到地面约2.492米，灯下实际最低净高约2.452米；通行检查要求仍为1.1米完整脚印、2.25米头顶净空。没有为了通过验证缩小身体宽度或挪走承重柱。
 
-Restore by concatenating s93/parts/part_*.bin in numeric filename order into S93_BACKUP.zip. Check its SHA256 against s93/MANIFEST.json, then unzip. The payload includes the full Blender model, scripts, eight final comparison renders, fixed regressions, semantic negative tests, rejected hinge/glass evidence, and exact rebuild verification. Parent history and prior backup branches remain intact. Source model is recovered from parent S92; duplicate source/negative/rebuild binaries are intentionally omitted.
+约8.2米南侧工作带有冷态炉具、真实炉腔、连续备餐台、下柜、真实凹入洗槽和沥水台。原餐桌、长凳、东侧储柜、储藏货架及货物均保留。原挡门灯整组移到东柜上方，保持原灯参数；新短廊配置照明。旧石块式台面/假凹盆等四对象隐藏保留，不抹去历史。
+
+新连接是从已可达的厨房到库存取物点，不是从旧储藏西门穿堂而过的运输通道。审计发现旧西门/附近布局仍有净空和支承问题，本轮没有修复，不能宣称所有储藏入口都畅通。
+
+## 重要不足
+
+炉具保持冷态，炉罩没有接到外部烟道；没有真实燃烧、热水、给排水或消防/结构认证。实际几何射线说明厨房东/南面远不止一层薄外墙，向上也穿过多层结构，故本轮没有伪造外窗或天窗、没有宣称自然通风和采光达标。三名守卫及此前住宅/上层功能保留，没有新增角色动画或可玩导航。
+
+## 验证和图件
+
+模型验证见FINAL_EVIDENCE.json及独立报告，保留前序固定路线、守卫与设施回归；新增完整厨房/就餐/库存路径、工作站位、凹槽/炉腔、接地及定界局部改动检查。堵入口、缺地板、低梁负测应因实际几何问题失败。独立重新构建全场景比较坐标、拓扑、变换、材质、灯和相机，不把保存文件字节必然不同误当几何变化。
+
+plan为源/候选相同规则的临时诊断切片，不保存到模型；实景kitchen/service前后保持同机位。初版holes_fill封口错误地跨过复杂原塔体孔洞，旧预览保存在rejected_cutaway_caps；最终不使用这种虚假封口，不能把旧灰盖当模型实体。全景before复用S93同模型哈希已验证图片，after重新渲染。室内工程没有被夸大为海岛外观重建。
+
+## 复现
+
+Blender5.2.3；从父S93恢复完整模型为source.blend，其SHA必须为 `23992d019abb6082d0c58c50b28bc9b94cddbc037f752e91f29986c47c016010`。运行reproduce.sh。源模型和负测/重建二进制不重复归档，可由父提交及脚本生成。所有旧备份保留，无删除或强推。
+
+
+## Archive restoration
+Concatenate `s94/parts/part_*.bin` in filename order into S94_BACKUP.zip, verify SHA256 c4c0fbcb1005944bd975282b124742afd5f64dff136de44fbaf01e2f9a717973, then unzip. Complete model SHA256: bae42351a272d03c1bc9454c14eac24acca005ed327a01b8806eabe788dfa57b.
