@@ -1,0 +1,2 @@
+# S76 Garden filling pail
+Concatenate parts in index order; validate archive SHA256 from MANIFEST. Full Blender model, matched source/candidate images, build and verification scripts. Parent S75 2d847b804e56b6fa1ea185aefa46213acbfabd03 retained. Adds 4 closed meshes and preserves 2039 originals. Full-bottom terrain support, outlet/opening geometry, hollow interior, contact graph, path exclusion, negative test and rebuild checked. Static scene only, not flowing water, leak, capacity, moving-handle or structural certification.
