@@ -1,0 +1,17 @@
+{
+  "archive": "S105_EARLY_BACKUP.zip",
+  "size": 393299,
+  "sha256": "2094fcfe6b805d7d9e642a2bfcb25de9266e6d872f6c8155ceaa6deacf98e983",
+  "candidate_sha256": "59858eaeb32f3d3408866710f8465f513fd8a8a00dc642c6c65a40b9c38d01ae",
+  "parent_commit": "ceec9b9f6c90abec5de4f0e78add9438033f4c79",
+  "payload_count": 11,
+  "parts": [
+    {
+      "index": 0,
+      "size": 393299,
+      "sha256": "2094fcfe6b805d7d9e642a2bfcb25de9266e6d872f6c8155ceaa6deacf98e983",
+      "git_blob_sha": "8026ce60a4b85bd94b12371736780837955db907"
+    }
+  ],
+  "status": "early checkpoint; known refinements and independent acceptance pending"
+}
