@@ -1,0 +1,23 @@
+{
+  "archive": "S106_EARLY_BACKUP.zip",
+  "size": 886887,
+  "sha256": "534ee1968e2b3e971dc47575c76f9518ca730a84f52697b034f0ef3365fc287c",
+  "candidate_sha256": "6ebe3701b30ea2e0bb9fd51b75dfc0a2bcd9697cf24a57e68ee445941098eb7c",
+  "parent_commit": "9c95e59100231757f1119f0493c3054047416156",
+  "payload_count": 29,
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "cf1f9dbd1dba4d35ea85f585a61772f39fe990ce64f1180b422217d3f10872fc",
+      "git_blob_sha": "ab72328d82b32d1d141a039ff0fc048a273f9bfc"
+    },
+    {
+      "index": 1,
+      "size": 170087,
+      "sha256": "19d79d28b64cc9beae35889fde1bcb00dc87b8e90084222ca53518022abbadec",
+      "git_blob_sha": "93e0ba8d33b7926405d77ff3c1330bae6b828c6b"
+    }
+  ],
+  "status": "early recoverable candidate; independent acceptance and final renders pending"
+}
