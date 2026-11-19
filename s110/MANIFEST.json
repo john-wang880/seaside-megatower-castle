@@ -1,0 +1,31 @@
+{
+  "archive": "S110_INITIAL_CHECKPOINT.zip",
+  "size": 1514041,
+  "sha256": "51ab419575af5c67c9307d5878b61a8eb5c66024e1866861ccdb0a41d5cd5312",
+  "candidate_sha256": "33b6ef443c1175859477bf43d9a64b6a5a4f2e87c98b1b48e9752e809be1a017",
+  "parent_commit": "591259cd21b0f78cbf36c6156943cae3996ba8e8",
+  "checkpoint_commit": "591259cd21b0f78cbf36c6156943cae3996ba8e8",
+  "depth": 1,
+  "model_storage": "Verified raw delta from S109 standalone full base; no S108 or earlier payload required",
+  "payload_count": 68,
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "6ca14ddb9d3a6e33d0dd27f18e8e5a76fbde5efac27731bf12a20ec0aaeb35c2",
+      "git_blob_sha": "81904720023474ca24599c98bc60a4e69a2cef28"
+    },
+    {
+      "index": 1,
+      "size": 716800,
+      "sha256": "d74ac19f650c04b2ea19f754de2ad59aba59b7a599d6a79c9a2a732654e4a424",
+      "git_blob_sha": "94d86894dacb6a700abf0df7134f01631eb63ce7"
+    },
+    {
+      "index": 2,
+      "size": 80441,
+      "sha256": "fd16a19c2663f6cf0ccfd04cd93dbaf119060bc14882d04576bb21b4cee3ef09",
+      "git_blob_sha": "2fd3894a06e423d314f409965debbb58c8a7fe8d"
+    }
+  ]
+}
