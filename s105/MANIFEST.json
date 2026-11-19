@@ -1,0 +1,17 @@
+{
+  "archive": "S105_V3_CHECKPOINT.zip",
+  "size": 448793,
+  "sha256": "8dd5ec04101da599ea04b5827088298ad6514d59955ff8b617ea1275e1880da5",
+  "candidate_sha256": "1593fd4bb7490eff18600ace91207c6ef865431e5a6da88fe034f775f6359bca",
+  "parent_commit": "ceec9b9f6c90abec5de4f0e78add9438033f4c79",
+  "payload_count": 31,
+  "parts": [
+    {
+      "index": 0,
+      "size": 448793,
+      "sha256": "8dd5ec04101da599ea04b5827088298ad6514d59955ff8b617ea1275e1880da5",
+      "git_blob_sha": "094a352ea4df80a056acf009992d760b79e76a98"
+    }
+  ],
+  "status": "V3 recoverable checkpoint; final full acceptance/renders pending"
+}
