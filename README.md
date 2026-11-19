@@ -1,1 +1,0 @@
-S107 northern kitchen cold-dish dispatch station: 4.55m continuous counter, three open storage bays and three stone arches; existing geometry and pillar bypass retained. 49 independent tests, four paired actual renders. S100 full checkpoint and depth7 exact chain; no separate service stair or simulated utilities. All prior history retained. s107/MANIFEST.json.
