@@ -1,1 +1,0 @@
-S106 verified household sea cloister. 44 independent checks, paired actual renders. S100 full checkpoint plus exact S101-S106 incremental chain depth 6. All parent history retained. Manifest s106/MANIFEST.json. Static geometry, not structure/weather/accessibility certification.

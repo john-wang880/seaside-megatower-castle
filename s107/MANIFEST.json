@@ -1,0 +1,22 @@
+{
+  "archive": "S107_INITIAL_CHECKPOINT.zip",
+  "size": 903074,
+  "sha256": "2b6f5c5a12d690c14023f2375150e4ddb1bd149db23aaf8666c2f2a28b608257",
+  "candidate_sha256": "b76c234b8488c857528367edf02d7715a49305e23a2ef5cf9d2a0da8e1f4f5fd",
+  "parent_commit": "82466fa11723b3df1f831813013082d22d39b609",
+  "payload_count": 45,
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "100ff1925625b1a9ac715444e1d031812f33d5173c0216eca4c1539924aeace7",
+      "git_blob_sha": "1339c74de849829d555c87169850d9dcb22c8090"
+    },
+    {
+      "index": 1,
+      "size": 186274,
+      "sha256": "ab800fd95489f4521053c45a4341a793447c7627322c75ea88f6f76685aa20c1",
+      "git_blob_sha": "ebf45973f78ff5bd71536e77854c6f906279be6f"
+    }
+  ]
+}
