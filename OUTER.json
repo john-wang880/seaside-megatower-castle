@@ -1,0 +1,18 @@
+{
+  "archive_sha256": "7d6263c27c28e4c31e57e0d3d4c67f65323293123dc51408abf8e93061508db5",
+  "size": 899110,
+  "parts": [
+    {
+      "name": "part_000.bin",
+      "size": 716800,
+      "sha256": "9a0123e8dda618955f54f2a0b7fb4a3f5e509ef5f066d49ea2b84a616d4c6de3",
+      "git_blob_sha": "ed913b6f8741860aec5e581b885913b5e54a7341"
+    },
+    {
+      "name": "part_001.bin",
+      "size": 182310,
+      "sha256": "d70a49aa09d7c57c3c26b0db5566681d41e0aa9c4919030966a306dd40038a90",
+      "git_blob_sha": "bdb3b99a56a483639cb367951b74f1124001c299"
+    }
+  ]
+}
