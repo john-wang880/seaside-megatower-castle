@@ -1,0 +1,48 @@
+{
+  "schema": "blend-raw-zstd-delta-v1",
+  "decompress_window_log": 29,
+  "encoding": [
+    "-3",
+    "--single-thread",
+    "--no-check"
+  ],
+  "tool": {
+    "zstd_version": "*** Zstandard CLI (64-bit) v1.5.7, by Yann Collet ***",
+    "binary_sha256": "3eb7744cf8fd1ecd46d617098ee870b3e7911fe570ffaba662c1c5b7d6456020"
+  },
+  "checkpoint_commit": "77751d15617ee6c135ffd98f84543d9720d65a79",
+  "parent_commit": "77751d15617ee6c135ffd98f84543d9720d65a79",
+  "depth": 1,
+  "base_container": {
+    "size": 110278521,
+    "sha256": "e83414f23e0a5442c3b275762918e7a012af3be598749f1bd7d59ed38254ca97"
+  },
+  "base_raw": {
+    "size": 434843235,
+    "sha256": "b551f112653c4f563b886e53cce2bb1e823e376f6a1f4ec194768b6974dddee8"
+  },
+  "target_raw": {
+    "size": 436701633,
+    "sha256": "21d68244736f3006e98bc7d7b52a68a3430bca1c334b1ac7c05a35bea4a1f269"
+  },
+  "patch": {
+    "size": 1029287,
+    "sha256": "b68a7de673239b7d74d6fb7ca0eb4758bbf6776bcddcf75bb1dace962953cd38"
+  },
+  "target_container": {
+    "size": 101795268,
+    "sha256": "d9cebb9907378024c78abd4a91548c3d4d89e09becd8fcfa4fc4e1d4bd825ce2"
+  },
+  "parts": [
+    {
+      "name": "part_00000.bin",
+      "size": 716800,
+      "sha256": "505898cddf4839e70dc5062e25b549ab400ef5bde01f0f797e5ace35dd4f7a95"
+    },
+    {
+      "name": "part_00001.bin",
+      "size": 312487,
+      "sha256": "20063dd303734e1e5d0740a8b31d4e21bb1e12075c85fa0132c3fb6b84ac2c86"
+    }
+  ]
+}
