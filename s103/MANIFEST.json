@@ -1,0 +1,71 @@
+{
+  "archive": "S103_BACKUP.zip",
+  "size": 6712724,
+  "sha256": "1d5d67528cf38ee5e3014d9f27a515b4e18ddce0c186b7c5aaa20fa5e8544f79",
+  "candidate_sha256": "0dab2cb2ce20abe5a2951512773a8de8f40e93f2176cfd3e5ce02b2f677585ec",
+  "parent_commit": "fbeb893f36408869b1c1427df2b6e6a5650f49f5",
+  "model_storage": "verified raw-delta and deterministic container recipe; not full model binary",
+  "payload_count": 190,
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "acc81dd46a2a5fb7a34b47f13ffd97f482f8bc549a8756c20434f76c36b793dc",
+      "git_blob_sha": "775bab01b28193924b04fd2a244c97feb18f0f08"
+    },
+    {
+      "index": 1,
+      "size": 716800,
+      "sha256": "279739fae6f517b2bfa40ad8ded0fa5d04bbae781024cf6cc886a42dbcee2fa3",
+      "git_blob_sha": "b0a5cc5a2f8bf124867cbdb7045a52a4351c9cb7"
+    },
+    {
+      "index": 2,
+      "size": 716800,
+      "sha256": "1ace63539ef8de3643cca11ff785c48c3624ad84ed9f7aebd9058f27ad032e1d",
+      "git_blob_sha": "afdaa6228e54e4afe496b5b50cede8dbd5fd4001"
+    },
+    {
+      "index": 3,
+      "size": 716800,
+      "sha256": "fdbb0bd19fd2dd5a5308198bc9ad6788d93c32972bf7d158333262e37685c014",
+      "git_blob_sha": "57028d55c39a7ad5e0a2ba81e99247ed86aebdbf"
+    },
+    {
+      "index": 4,
+      "size": 716800,
+      "sha256": "fd7b2e9a9fdc2376e3e0c91a79ae7bb3c051c0e77a43efa9cab4f3d45c2d68d6",
+      "git_blob_sha": "055f509ea41eaf69dc9e131cea806608ceb2ae54"
+    },
+    {
+      "index": 5,
+      "size": 716800,
+      "sha256": "14fe7e14cddf39ae9bfc44f7662ba567f7f154fc3a49f5680b608231110d1210",
+      "git_blob_sha": "371ec15fe94d62a1c5a4701b5f61f609fa5ce8eb"
+    },
+    {
+      "index": 6,
+      "size": 716800,
+      "sha256": "cf8510e1562ac87f5e588ce0cf84a8b4051bc6cd27aef990330a48af6cf4c695",
+      "git_blob_sha": "effc430e1a945fbf95c4855f3d76f79224b72e24"
+    },
+    {
+      "index": 7,
+      "size": 716800,
+      "sha256": "cc50610def5ca22aeb69653797d36c614b194153ab54ffd34a9d11f922445d03",
+      "git_blob_sha": "649e0e120c56de53fa3bcfe836a89c355e19c4f6"
+    },
+    {
+      "index": 8,
+      "size": 716800,
+      "sha256": "fb48b795cbcd1da525e4c9596420e01e34b31c6c6d9599c1e2f19d0b53f68c94",
+      "git_blob_sha": "4a5de498c8b813d0c55083dd68e71b8d47bbd5a7"
+    },
+    {
+      "index": 9,
+      "size": 261524,
+      "sha256": "2b765a73617f24596fa9ffd0ca837029ba90775f31c3473ef993811bfb6e7d4b",
+      "git_blob_sha": "0132e10e8318f30638ffd9ce641c0a0ae570dcc8"
+    }
+  ]
+}
