@@ -1,0 +1,23 @@
+{
+  "archive": "S106_V2_CHECKPOINT.zip",
+  "size": 923159,
+  "sha256": "3cd517294dd98033fcd8f00da7767c9564160a1700024152d55fa567275f033b",
+  "candidate_sha256": "b3fc5bda51c70f3c15dce8ebb572db9a4550b80fdfffbc8bb2d35041190ce307",
+  "parent_commit": "9c95e59100231757f1119f0493c3054047416156",
+  "payload_count": 40,
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "ad79af754747955823749ac49ab8541865c7a8ef042b6bafcacdfc756464ccc8",
+      "git_blob_sha": "8512f3d2d5e61b952ccf311867468c6bde6c6bce"
+    },
+    {
+      "index": 1,
+      "size": 206359,
+      "sha256": "d64f7c23556c468781bfb4372393243e28f67a6efd3cef42d35ec5568f66810e",
+      "git_blob_sha": "2083fd93fea0de933a695b052ecbeb743567759d"
+    }
+  ],
+  "status": "V2 seven local independent gates passed; final rendering/history acceptance pending"
+}
