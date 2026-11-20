@@ -1,5 +1,5 @@
-# S118 coastal fantasy castle
+# S119 coastal fantasy castle
 
-S118 verified coastal fantasy landscape stage and complete independent full base.
+S119 verified castle architecture stage deliverable.
 
-Standalone full-stage-v1 at depth 0. The single historical parent link is for Git history only. No S109–S117 data are necessary. Use locally trusted restore_full.py with only this exact commit; do not execute archived scripts to restore.
+Depth 1 from S118 standalone full-stage-v1 commit 2fc44cf596d22c607876fc2ed4b901cbdf4fea43. No S117 or earlier payload is needed. Use locally trusted pinned restore_chain_v3.py with fetched exact commits; do not execute archived scripts to restore.
