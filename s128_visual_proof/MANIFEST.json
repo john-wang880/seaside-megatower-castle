@@ -1,0 +1,42 @@
+{
+  "archive": "S128_RENDER_PROOF.zip",
+  "sha256": "6617fb9c1350f104339c9d246ae0e53d759436aaaaf0b77429bd8f52aca52e64",
+  "size": 3469102,
+  "format": "same-stage-visual-recovery-v1",
+  "candidate_sha256": "d93b914a3ef7a024d57bd69ae07f20c9fc4c61b04549df4dded1e25931c9f05f",
+  "depth": 1,
+  "checkpoint_commit": "b8b044ff8787adf01c6f15bb3f44ca5b4e8ff2ee",
+  "parent_commit": "d3703148d1ea3b4eb796ae912d0f9e294e8b00a3",
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "ec565fd54bae3ecf4af52f63f8884c883a56b7ba61f9bc1abdfef6b8029d8f7b",
+      "git_blob_sha": "0ec2f8938312d6c70c7f05d8464993b88bff933c"
+    },
+    {
+      "index": 1,
+      "size": 716800,
+      "sha256": "ca003a238c32e9ba023cf5d4299bcbc4cdfb900694d69bfd4f313cee2f2ae358",
+      "git_blob_sha": "b9089b98756d93ac8dd0dd0203d1af115a0a5b95"
+    },
+    {
+      "index": 2,
+      "size": 716800,
+      "sha256": "d90004dcb361088bab8cef303ce5db908d03162f316637776a9f6907ae617534",
+      "git_blob_sha": "5240fe312462806e724c2e3023b286240f2a5823"
+    },
+    {
+      "index": 3,
+      "size": 716800,
+      "sha256": "e6d7e896928dce171a3d5a057d14b8bb7e6eb78dd07a9702387cd033397d38be",
+      "git_blob_sha": "c2721e57b9b60abfb178cf2a0a16ecd7b2e580fb"
+    },
+    {
+      "index": 4,
+      "size": 601902,
+      "sha256": "0a627d8ad89f2de763cd05a615f9ce3ffe76166cdfa364f4a2f52d786fab3a02",
+      "git_blob_sha": "4a12ebe176001e6a1f87f2abba6d49b9c0c981e8"
+    }
+  ]
+}
