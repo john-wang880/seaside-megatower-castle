@@ -1,0 +1,25 @@
+{
+  "archive": "S128_INITIAL_CHECKPOINT.zip",
+  "size": 821045,
+  "sha256": "a226308fa079c2065308b502a0c29f7b7ecd78905b98073676e4931dad6b7c0b",
+  "candidate_sha256": "2ac980cee7cf04623cd63b878a6f6f08fd317dbc52f7baa6beb50de8889690d7",
+  "parent_commit": "b8b044ff8787adf01c6f15bb3f44ca5b4e8ff2ee",
+  "checkpoint_commit": "b8b044ff8787adf01c6f15bb3f44ca5b4e8ff2ee",
+  "depth": 1,
+  "model_storage": "Verified raw delta from exact independent S127 standalone full base; does not require any pre-S127 payload.",
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "807520cbc08ebb408336f0058ea04a4e9f4d10a4d3951dd15ace27629d76b0f2",
+      "git_blob_sha": "5195e69a39041e5916dc514238dd27f27d02fff0"
+    },
+    {
+      "index": 1,
+      "size": 104245,
+      "sha256": "d8e2274c895ff0f46e162b50daac327261d2de6c8644a353039ab213b43afcf7",
+      "git_blob_sha": "76c323db98b081a72830ed17d62ef6dc4dc33e18"
+    }
+  ],
+  "payload_count": 88
+}

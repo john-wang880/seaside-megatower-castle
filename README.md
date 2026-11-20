@@ -1,4 +1,4 @@
-# S127
+# S128
 
-S127 formal standalone complete base.
-Independent full-stage-v1 depth 0. Historical parent, no payload needed: 98883c4da4d9419e6ff18147871881ba859a05e2. Verify with locally pinned reader, never execute archive scripts.
+S128 early immutable architecture checkpoint (not a release).
+Depth-one exact S127 chain, parent b8b044ff8787adf01c6f15bb3f44ca5b4e8ff2ee. Verify with locally pinned reader, never execute archive scripts.
