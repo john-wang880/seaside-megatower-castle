@@ -1,0 +1,31 @@
+{
+  "archive": "S119_INITIAL_CHECKPOINT.zip",
+  "size": 1511702,
+  "sha256": "e85f31fb8eb5cc1a4d7f3b5b8c3470918178ba06cd61547b21a4d8702f0aa81f",
+  "candidate_sha256": "5fc34bfbce73d55dd89b688b76f1123621e90082dd1d5bd8aded3d7f2ecb0d32",
+  "parent_commit": "2fc44cf596d22c607876fc2ed4b901cbdf4fea43",
+  "checkpoint_commit": "2fc44cf596d22c607876fc2ed4b901cbdf4fea43",
+  "depth": 1,
+  "model_storage": "Verified raw delta from exact S118 standalone full base; no S117 or earlier payload required",
+  "payload_count": 98,
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "0da24490fb4afe3842a11140ef333ce5000496f33e9be71e3373d2ddfc344142",
+      "git_blob_sha": "3af4fa5987cb02595efe3e7e93cea0a7294a0edd"
+    },
+    {
+      "index": 1,
+      "size": 716800,
+      "sha256": "9a819d08027be5cde80bf9a0ee666ef113c88f2bc3131efc9167ceefefa8ba1c",
+      "git_blob_sha": "afadd8c786eba0006c2993c03c169d04d231256a"
+    },
+    {
+      "index": 2,
+      "size": 78102,
+      "sha256": "de363e908559b08caa6f782e09f298026fa94c49a9a12b818cf8f56bf6757eb0",
+      "git_blob_sha": "436c9b9a461d86f0ae2a9d5d492850f5b84b5c68"
+    }
+  ]
+}
