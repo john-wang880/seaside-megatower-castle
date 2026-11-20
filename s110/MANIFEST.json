@@ -1,0 +1,91 @@
+{
+  "archive": "S110_BACKUP.zip",
+  "size": 8679913,
+  "sha256": "624365b06c7113cc3eb81eb589324a15650af47cd77f970363e18215353d3e66",
+  "candidate_sha256": "33b6ef443c1175859477bf43d9a64b6a5a4f2e87c98b1b48e9752e809be1a017",
+  "parent_commit": "591259cd21b0f78cbf36c6156943cae3996ba8e8",
+  "checkpoint_commit": "591259cd21b0f78cbf36c6156943cae3996ba8e8",
+  "depth": 1,
+  "model_storage": "Verified raw delta from S109 standalone full base; no S108 or earlier payload required",
+  "payload_count": 311,
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "210d23b66b644fe40c281faef72b85adb9f1628a9a8f43ac995b0be4a4396633",
+      "git_blob_sha": "a354b939df93faa600f1ff00d665c3b955115b37"
+    },
+    {
+      "index": 1,
+      "size": 716800,
+      "sha256": "ebe8d14e9023583cefe853b5f4258b508c44ca6fc4607da2235b0f1f8353eef1",
+      "git_blob_sha": "3c36d00209dae0bcfb5a2f3b7ec2762d66bd86cc"
+    },
+    {
+      "index": 2,
+      "size": 716800,
+      "sha256": "e7d8b21554d758ade1bef4a746a1254f5f54c56f4bd57c4f15b872bd0a203537",
+      "git_blob_sha": "f5c9aecb89a01e454531e195b2c86bc5daf48d04"
+    },
+    {
+      "index": 3,
+      "size": 716800,
+      "sha256": "7f4b3e84aff395affdf879d740bce42eec9286f3e51bf0b547a9f2a0dcf99ff7",
+      "git_blob_sha": "367c47c44e00e0872424880e3b9dab92586d976e"
+    },
+    {
+      "index": 4,
+      "size": 716800,
+      "sha256": "3189acbe8da6057f4753cbf2a2a4313703f423ba339e31872682a31d04e71124",
+      "git_blob_sha": "53154ff03602601d2eb5f62e15819a539d44e63a"
+    },
+    {
+      "index": 5,
+      "size": 716800,
+      "sha256": "d9846e4154192a66ff6c12a398436815c079f8606b4c4e55e94f8d793a4b9a3b",
+      "git_blob_sha": "314193c3e11e427d9b861a376b8e130a6f057afd"
+    },
+    {
+      "index": 6,
+      "size": 716800,
+      "sha256": "9878fab9860db2c5f9b94f150e802cf984cc99aac07da83495e3171f048c1889",
+      "git_blob_sha": "b5d2a97adcde74ce7cc0f1af046ea9e3f873fdca"
+    },
+    {
+      "index": 7,
+      "size": 716800,
+      "sha256": "36f1c41204d881a2ba5b1847b29242aa2ae77173d3d21c060a55ac18b4a6dcd6",
+      "git_blob_sha": "6a61844e5b835ab3d683f13629bd5521ee469497"
+    },
+    {
+      "index": 8,
+      "size": 716800,
+      "sha256": "1af38ca343022bbdec9dd57fe1903d89bf327f63a6e74879c3296c5eeef169e3",
+      "git_blob_sha": "836a22205f4149020126b6640eaaaf166e5b862f"
+    },
+    {
+      "index": 9,
+      "size": 716800,
+      "sha256": "a4644e6cc7615093487604b0ab2fffc5d9ae5d33e7f315fb80ebb49c93cf32fb",
+      "git_blob_sha": "d779c3f9ac7d400a28de87022ab1288eb5c82781"
+    },
+    {
+      "index": 10,
+      "size": 716800,
+      "sha256": "060184a60eab6dbb866f5dc75607cf86dc7eadaee1eefd20744ed47b372e5341",
+      "git_blob_sha": "3904a31d10cb7ca6df1fdcb624234ee700a6f3a7"
+    },
+    {
+      "index": 11,
+      "size": 716800,
+      "sha256": "0983dded7b785308cd8e0705f9fdd772f5542ab67dc7e89baa5f1f3299fd11d6",
+      "git_blob_sha": "e771234d87be9304776d048ccfda4f598396e5d3"
+    },
+    {
+      "index": 12,
+      "size": 78313,
+      "sha256": "42fb1b0d4a418b5d3450844abf803fcda52cead5b7e46e060700f5083c639a13",
+      "git_blob_sha": "22f74ed524bbd140e08381eea8110c2476ff87c5"
+    }
+  ]
+}

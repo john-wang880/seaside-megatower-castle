@@ -1,1 +1,5 @@
-S109 dry-side linen, folding and clothes bay; 59 independent acceptance tests and actual paired renders. NEW INDEPENDENT FULL BASE: full-stage-v1, depth0, complete canonical Blender model and all payloads within this commit. S108 parent retained as history only; no S100-S108 payload is required for restore. Trusted restore tool verifies all parts/model/raw and must never execute archived code. Static geometry, not plumbing or animation. All old history preserved. s109/MANIFEST.json.
+# S110 coastal fantasy castle
+
+S110 verified castle exterior stage deliverable.
+
+Depth 1 from S109 standalone full-stage-v1 commit 591259cd21b0f78cbf36c6156943cae3996ba8e8. The S108 historical parent payload is not needed. Use locally trusted pinned restore_chain_v2.py with fetched exact commits; do not execute archived scripts to restore.
