@@ -1,5 +1,5 @@
-# S117 coastal fantasy castle
+# S118 coastal fantasy castle
 
-S117 verified castle architecture stage deliverable.
+S118 early immutable independent full checkpoint; not formal delivery.
 
-Depth 8 from S109 standalone full-stage-v1 commit 591259cd21b0f78cbf36c6156943cae3996ba8e8. The S108 historical parent payload is not needed. Use locally trusted pinned restore_chain_v2.py with fetched exact commits; do not execute archived scripts to restore.
+Standalone full-stage-v1 at depth 0. The single historical parent link is for Git history only. No S109–S117 data are necessary. Use locally trusted restore_full.py with only this exact commit; do not execute archived scripts to restore.
