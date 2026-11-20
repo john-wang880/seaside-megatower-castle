@@ -1,4 +1,4 @@
-# S126
+# S127
 
-S126 formal coastal castle architecture stage.
-Depth-eight exact S118 chain, parent 9ad62d37a15d0f1a9caeee238d5a6ac540e549c9. Verify with locally pinned reader, never execute archive scripts.
+S127 early standalone complete checkpoint (not a release).
+Independent full-stage-v1 depth 0. Historical parent, no payload needed: 98883c4da4d9419e6ff18147871881ba859a05e2. Verify with locally pinned reader, never execute archive scripts.
