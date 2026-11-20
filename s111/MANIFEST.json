@@ -1,0 +1,85 @@
+{
+  "archive": "S111_BACKUP.zip",
+  "size": 7964805,
+  "sha256": "5f090b746749178dc1606bd3cae36c6fd0d59a71eab18a0dd934a0891ff93820",
+  "candidate_sha256": "2a04514bf88b88921a6d4d6d151145b2bed7af3233ffc5c9e7c312cd63c7e730",
+  "parent_commit": "03f66e63b093530d8820f72cb5f5b5a987bad956",
+  "checkpoint_commit": "591259cd21b0f78cbf36c6156943cae3996ba8e8",
+  "depth": 2,
+  "model_storage": "Verified raw delta from S110 over S109 standalone full base; no S108 or earlier payload required",
+  "payload_count": 382,
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "b98987eec3c86278a8957c75919a64a5852081dd182a69db8a645f9ad8817beb",
+      "git_blob_sha": "a9567a0ee3aa49261b91b5e10f4b36be67767796"
+    },
+    {
+      "index": 1,
+      "size": 716800,
+      "sha256": "e0541c78183a0a9c9238464c12bba2fde942c8d17aadc5ebeab00a1ff98822c8",
+      "git_blob_sha": "3f9c4687fc05c631fcedd518ea2a61dd4ba1a52b"
+    },
+    {
+      "index": 2,
+      "size": 716800,
+      "sha256": "de9f6db6b29a198f3f125ba49f13cc6fd65124bfa8ad25de810b045673b17f2c",
+      "git_blob_sha": "c5a45d9aead5c4619f91a3a478a5c1c864f23e0e"
+    },
+    {
+      "index": 3,
+      "size": 716800,
+      "sha256": "b5a5cfc0f26994ff09808698677bff92cd7522d160a0479b30a1ec6980732569",
+      "git_blob_sha": "be6da409c7226e77b7117086466082c66db385a1"
+    },
+    {
+      "index": 4,
+      "size": 716800,
+      "sha256": "fae2ec17d9ec18d0428a8a64c73af1d541b0537f862d82f1906da0beb3b1d405",
+      "git_blob_sha": "4bc8bb64f69fedea712d6b6278d2b35592d39892"
+    },
+    {
+      "index": 5,
+      "size": 716800,
+      "sha256": "d1218069f9ea15f9072d4721cacbc28272c3e31f98f198cc67651ab5256fc1e1",
+      "git_blob_sha": "910d06062f1aaf2e3d5369197db10ff26edea5ba"
+    },
+    {
+      "index": 6,
+      "size": 716800,
+      "sha256": "73c1401ea025dca6d7e8c09a30e43de577997bdb2a24c9240f0db7401aeeaf70",
+      "git_blob_sha": "a4344162fbc7b1314c21255e02af3262baabf0bb"
+    },
+    {
+      "index": 7,
+      "size": 716800,
+      "sha256": "90d38c012a6eba3bd284ef363e00abe4cbf6dc919b9239d18e1e6ea9afc56d24",
+      "git_blob_sha": "5ac450e72faf7327a2482bc1d1b597d5ce798d11"
+    },
+    {
+      "index": 8,
+      "size": 716800,
+      "sha256": "4470dd3ded1def0054229498a5aff6f419d9190c3b8d3202edc45fe4e70a5e01",
+      "git_blob_sha": "39d123932b140c768e72a3533ebaa499fa7d2915"
+    },
+    {
+      "index": 9,
+      "size": 716800,
+      "sha256": "f333e260a91a70fec35e8435cdfe0bd15609ad10d3433465226ff5cede112f51",
+      "git_blob_sha": "120cb2129db9a0e9517a151fb0b537d46a65678d"
+    },
+    {
+      "index": 10,
+      "size": 716800,
+      "sha256": "4d92f4600b3ce035b296ea394c1f22a20cfbf034e5da1e0f599e2091443fe828",
+      "git_blob_sha": "d1eb17488d516c18ccd8460fb701e080ccf295c7"
+    },
+    {
+      "index": 11,
+      "size": 80005,
+      "sha256": "a0d9c1347a1a1fe17c9dbe9d7c05ca08f5b6be810c425ff6e4a9ae35b37cb787",
+      "git_blob_sha": "7072b4f228b60ccd746f8f1aaae34f4900510a0b"
+    }
+  ]
+}
