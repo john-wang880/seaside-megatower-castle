@@ -1,0 +1,25 @@
+{
+  "archive": "S122_CORRECTIVE_CHECKPOINT.zip",
+  "size": 1077020,
+  "sha256": "9e6799365a9589cec164cde2549b2f38c1b4917d059de071b29ca0d20498c500",
+  "candidate_sha256": "21a9f3ebe01c752d4763bff2ed284724b0aae351b3b81becd54d9293bc8181a4",
+  "parent_commit": "4bd3d47c61c5344955a0c8623f98b16016568432",
+  "checkpoint_commit": "2fc44cf596d22c607876fc2ed4b901cbdf4fea43",
+  "depth": 4,
+  "model_storage": "Verified raw delta from exact formal S121 following S120, S119 & S118 standalone full base; no S117 or earlier payload required",
+  "payload_count": 264,
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "859efd812b9e144e683238af8f5abff10229cdee255cabe5869bb26b90b0162d",
+      "git_blob_sha": "adc5431c7fceebf7815f035dcdbe50440637907d"
+    },
+    {
+      "index": 1,
+      "size": 360220,
+      "sha256": "805ac00114950a9ddbec9d4df1040b4fd422c561ae136d93d28924cba74975d3",
+      "git_blob_sha": "745f727e7d5d8931eeb1b111829c1b991d06e52a"
+    }
+  ]
+}
