@@ -1,4 +1,4 @@
-# S128
+# S129
 
-S128 formal coastal castle architecture stage.
-Depth-one exact S127 chain, parent b8b044ff8787adf01c6f15bb3f44ca5b4e8ff2ee. Verify with locally pinned reader, never execute archive scripts.
+S129 early immutable landscape checkpoint (not a release).
+Depth-two exact S127 chain, parent 6927b463a00b24274e3d81e8e9dab274d1f42984. Verify with locally pinned reader, never execute archive scripts.
