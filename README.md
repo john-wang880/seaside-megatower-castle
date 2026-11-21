@@ -1,4 +1,4 @@
-# S131
+# S132
 
-S131 formal coastal castle site stage.
-Depth-four exact S127 chain, parent 90e3c804a0baf1c4a18681ed92448e333e4d8623. Verify with locally pinned reader, never execute archive scripts.
+S132 formal coastal castle architecture stage.
+Depth-five exact S127 chain, parent 92a031f937e9e01808470d640d9bb12ae0b5ea4d. Verify with locally pinned reader, never execute archive scripts.
