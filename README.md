@@ -1,4 +1,4 @@
 # S136
 
-S136 early standalone complete checkpoint (not a release).
-Independent full-stage-v1 depth 0. Historical parent, no payload needed: ec842e65aa18be23de07feed4b3c641c42155801. Verify with locally pinned reader, never execute archive scripts.
+S136 same-candidate four verified native render evidence (not a new stage or a release).
+Visual evidence rooted in standalone depth0 S136 checkpoint, parent 02fbe41876e16d743e3af4e251e0dc94a5202f85. Verify with locally pinned reader, never execute archive scripts.
