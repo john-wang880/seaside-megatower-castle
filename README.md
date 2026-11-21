@@ -1,4 +1,4 @@
-# S132
+# S133
 
-S132 formal coastal castle architecture stage.
-Depth-five exact S127 chain, parent 92a031f937e9e01808470d640d9bb12ae0b5ea4d. Verify with locally pinned reader, never execute archive scripts.
+S133 early immutable site checkpoint (not a release).
+Depth-six exact S127 chain, parent c8adaa8af6beed3ab647c5620f760e81c5eaf1be. Verify with locally pinned reader, never execute archive scripts.

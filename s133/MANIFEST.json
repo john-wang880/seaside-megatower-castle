@@ -1,0 +1,61 @@
+{
+  "archive": "S133_INITIAL_CHECKPOINT.zip",
+  "size": 5140308,
+  "sha256": "c900ce60066759eca51e3d65a6ebaccda08b3c3e076c3ec4ed4d3ac9ce7b4ee9",
+  "candidate_sha256": "2f3aae5cc5c817d1c38759ec0db1395f89e7c247f7898c7a1058fc0c585c468e",
+  "parent_commit": "c8adaa8af6beed3ab647c5620f760e81c5eaf1be",
+  "checkpoint_commit": "b8b044ff8787adf01c6f15bb3f44ca5b4e8ff2ee",
+  "depth": 6,
+  "model_storage": "Verified raw delta from exact formal S132, anchored at S127 standalone full base; does not require any pre-S127 payload.",
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "18dfb3eb21bc7f6cfeae3a74a1716d1c17791ee8236d3cf73f715993269c2e99",
+      "git_blob_sha": "91ba0892d9dc0b63e74a8f9ed85c1b01ac3f1ddd"
+    },
+    {
+      "index": 1,
+      "size": 716800,
+      "sha256": "c3576ce00b5733a7e166809ac99466038712ba5c1f3244d33d0739ebfa0d8b68",
+      "git_blob_sha": "6127ed2dfe5fd768c0dfc09fdf0ae249d870f58a"
+    },
+    {
+      "index": 2,
+      "size": 716800,
+      "sha256": "52a71df1223e3f4fec8e547cc8e2020bee5d6711de3033a2a2eb24387c822c64",
+      "git_blob_sha": "6220a0d3d816a5de185484eb90458b23465e4c4f"
+    },
+    {
+      "index": 3,
+      "size": 716800,
+      "sha256": "2cfa5921a123f4539a096de3049ab667b60d79a34d8834d1c6f7c1d88404bc13",
+      "git_blob_sha": "845fafa039e660ddf56acdfe076de8486635aa7b"
+    },
+    {
+      "index": 4,
+      "size": 716800,
+      "sha256": "2e25ca7cccce99a1c86e74e56656c2421c7570638f024eb0c39ef4b61db2ef09",
+      "git_blob_sha": "1368b452e10b183465e9099b8b16070ac32b1ad7"
+    },
+    {
+      "index": 5,
+      "size": 716800,
+      "sha256": "1d7eead921927c8eb8aafe8054df5c0bec1feca7933fe2a64d66b8f1a3ace0cd",
+      "git_blob_sha": "887335ac15d07df028e9d8ad9af4b69d2900eb42"
+    },
+    {
+      "index": 6,
+      "size": 716800,
+      "sha256": "0cb39f78da80cb65611aa7d90ce27523ecb4d118e78308c7f2b24918afe49168",
+      "git_blob_sha": "b8b27ebd0ca017e7c90219bb1a9e7e667f7ff7e8"
+    },
+    {
+      "index": 7,
+      "size": 122708,
+      "sha256": "881c8c04e056f592ee9ce409a2ba13fad9714ee8b6735ee933d8ba941e9fa8ef",
+      "git_blob_sha": "b22c4e8560646c8b13a553cb4fa5ccad556dc5c2"
+    }
+  ],
+  "payload_count": 129
+}
