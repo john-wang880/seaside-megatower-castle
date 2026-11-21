@@ -1,4 +1,4 @@
 # S138
 
-S138 early immutable scene checkpoint (not a release).
-Depth-two exact S136 chain, parent cabbcbe630719c8bff7b2be8eddca87c51e8e183. Verify with locally pinned reader, never execute archive scripts.
+S138 same-candidate four verified native render evidence (not a new stage or a release).
+Depth-two exact S136 chain, parent b526a3f5a17052291cef49df085d389638e1c64e. Verify with locally pinned reader, never execute archive scripts.
