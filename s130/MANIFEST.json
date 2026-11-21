@@ -1,0 +1,25 @@
+{
+  "archive": "S130_INITIAL_CHECKPOINT.zip",
+  "size": 752072,
+  "sha256": "cf5c2a82124335815496c675a8d6f0fefc9b6a9ef3d697efe64c45c68d65a94f",
+  "candidate_sha256": "09b98cdea9a2ffd5a4e832b624779402320ca14e49a56b2a8cc17abf4c937405",
+  "parent_commit": "5ca12f175b05a42c91918e6f3b007b010b5156ff",
+  "checkpoint_commit": "b8b044ff8787adf01c6f15bb3f44ca5b4e8ff2ee",
+  "depth": 3,
+  "model_storage": "Verified raw delta from exact formal S129, anchored at S127 standalone full base; does not require any pre-S127 payload.",
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "352744297cbf643b92679504edfe0b5ffe7196690af59f50f08209fbeb5d7ce7",
+      "git_blob_sha": "75f90b49cfe001c9fc66e8e8ed3c045267c34072"
+    },
+    {
+      "index": 1,
+      "size": 35272,
+      "sha256": "3364d5b2bfc950f77e67d875b90859d7058b01088011f03666184a4634b8dd1a",
+      "git_blob_sha": "8037c9971a8ba5270cfa26b04ac11cffd891a6f3"
+    }
+  ],
+  "payload_count": 87
+}
