@@ -1,4 +1,4 @@
-# S137
+# S138
 
-S137 formal coastal castle scene stage.
-Depth-one exact S136 chain, parent 3b3295a7972610dd7acf7d0c5c86ce79282051bc. Verify with locally pinned reader, never execute archive scripts.
+S138 early immutable scene checkpoint (not a release).
+Depth-two exact S136 chain, parent cabbcbe630719c8bff7b2be8eddca87c51e8e183. Verify with locally pinned reader, never execute archive scripts.
