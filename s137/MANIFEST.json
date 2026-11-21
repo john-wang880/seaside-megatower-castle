@@ -1,0 +1,25 @@
+{
+  "archive": "S137_INITIAL_CHECKPOINT.zip",
+  "size": 1010615,
+  "sha256": "2edf9925af61e87e19f8676d84ccc89ca74badfb7cc8ef710a7d7ef576fe7cd4",
+  "candidate_sha256": "aaf2fe312f1d8e3fe1bef092be1d4fbccea604c534a4ce6ea93a958bfad23902",
+  "parent_commit": "3b3295a7972610dd7acf7d0c5c86ce79282051bc",
+  "checkpoint_commit": "3b3295a7972610dd7acf7d0c5c86ce79282051bc",
+  "depth": 1,
+  "model_storage": "Verified raw delta from exact formal S136, anchored at S136 standalone full base; does not require any pre-S136 payload.",
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "7671600acb9cd8be6fd8a4d24821e80f016922061d69d42b1e9ec150f4682381",
+      "git_blob_sha": "23e24cfd203ea63628a9e422c012e29f4a597109"
+    },
+    {
+      "index": 1,
+      "size": 293815,
+      "sha256": "34e914c4fe05226041f61f7702cab4fba81b3a2b03d15825a4cbbe15de1e4e7c",
+      "git_blob_sha": "fc236715731c3e53019454da16884c6fb5f024be"
+    }
+  ],
+  "payload_count": 99
+}
