@@ -1,4 +1,4 @@
 # S137
 
-S137 early immutable scene checkpoint (not a release).
-Depth-one exact S136 chain, parent 3b3295a7972610dd7acf7d0c5c86ce79282051bc. Verify with locally pinned reader, never execute archive scripts.
+S137 same-candidate four verified native render evidence (not a new stage or a release).
+Depth-one exact S136 chain, parent c16ba2262061a0323ad6e7ababaabf0d3bcdb419. Verify with locally pinned reader, never execute archive scripts.
