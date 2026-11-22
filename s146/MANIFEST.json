@@ -1,0 +1,25 @@
+{
+  "archive": "S146_INITIAL_CHECKPOINT.zip",
+  "size": 1058895,
+  "sha256": "e1bde83288736b871abcedf3bbff474691d90a7f59a64778fa7e1f6f9896d82a",
+  "candidate_sha256": "0ab7c9193eadb27ef7b9e66611dea81a7da18affce26f9430a7cdb223c0e280a",
+  "parent_commit": "29735ed10741c92e888d300e35a3f3b63409984f",
+  "checkpoint_commit": "29735ed10741c92e888d300e35a3f3b63409984f",
+  "depth": 1,
+  "model_storage": "Verified native raw delta from S145 only; no older base payload needed.",
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "bb88defa9554a315804219e0c46f6097ec58ac48535ced630a79640b09513c83",
+      "git_blob_sha": "fbda119fe69398fa854b6ad5d9a9ba29a8a309fe"
+    },
+    {
+      "index": 1,
+      "size": 342095,
+      "sha256": "b9f618d9ee866f4c9330653c7da70ba7e9ed803ebc2fa50694442c5dc5646618",
+      "git_blob_sha": "095d2dd645eed81b7ffccc996b26622785e3fe13"
+    }
+  ],
+  "payload_count": 38
+}

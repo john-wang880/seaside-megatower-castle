@@ -1,4 +1,4 @@
-# S145
+# S146
 
-S145 standalone garden seed-hardening frames, formal frozen candidate and archival QA.
-No dependency on historical parent payload.
+S146 early exact dry footwall bedding candidate, not a formal release.
+Requires exact standalone S145 model.
