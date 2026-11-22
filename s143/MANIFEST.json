@@ -1,0 +1,25 @@
+{
+  "archive": "S143_INITIAL_CHECKPOINT.zip",
+  "size": 1208216,
+  "sha256": "186a281c81bab2f7b01cf33d6859c49907c34af9fd5b97ffd5b88cc6470e32cf",
+  "candidate_sha256": "e14bdc62376030f2e671a2f8ae80fee8600bf502f55537377dc35ecea39abed0",
+  "parent_commit": "ab3821378ded98eb3a746440e0588b273611f794",
+  "checkpoint_commit": "3b3295a7972610dd7acf7d0c5c86ce79282051bc",
+  "depth": 7,
+  "model_storage": "Verified raw delta from exact formal S142, anchored at S136 standalone full base; does not require any pre-S136 payload.",
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "ee5f7f3261468a7a27d7f010c254055e4e6f7f5afda872d41b4afe46694b73cc",
+      "git_blob_sha": "52c637e5457eb5716c61a7fd7771dd07afa2b45f"
+    },
+    {
+      "index": 1,
+      "size": 491416,
+      "sha256": "3dfba5688307a7a35cd57dc20e76d961f67dd1df5f0b351464209aa64ac7e4d8",
+      "git_blob_sha": "df66f401c8e928bad5c2e4de8bfdbac4b4106023"
+    }
+  ],
+  "payload_count": 104
+}
