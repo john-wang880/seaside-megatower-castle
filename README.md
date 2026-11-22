@@ -1,4 +1,4 @@
-# S144
+# S145
 
-S144 formal coastal castle scene stage.
-Depth-eight exact S136 chain, parent 3c8c4c6c65218cd47cc0ba7125858caa60a0fb3b. Verify with locally pinned reader, never execute archive scripts.
+S145 early standalone complete checkpoint (not a release).
+Independent full-stage-v1 depth 0. Historical parent, no payload needed: e869ff8d66a88e32b431a126322ce4ab6f4704cb. Verify with locally pinned reader, never execute archive scripts.
