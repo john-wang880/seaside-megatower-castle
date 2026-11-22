@@ -1,4 +1,4 @@
-# S145
+# S146
 
-S145 standalone garden seed-hardening frames, formal frozen candidate and archival QA.
-No dependency on historical parent payload.
+S146 formal verified west bridgehead dry footwall bedding, depth 1 from S145.
+Requires exact standalone S145 model.
