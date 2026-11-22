@@ -1,0 +1,25 @@
+{
+  "archive": "S149_EARLY.zip",
+  "size": 1079659,
+  "sha256": "779364b1cc4f2374fd31414af5ae1e08c83b9b4b97c52b6a9b572921cab3aec6",
+  "candidate_sha256": "5b6500f9299ccb473c0ba50374e7d343e4f8f152a974aceb082cb3f7e98e0096",
+  "parent_commit": "72c45799afafd415e3d31981bd9a03239b56d7d1",
+  "checkpoint_commit": "29735ed10741c92e888d300e35a3f3b63409984f",
+  "depth": 4,
+  "model_storage": "Recovered S148 formal R3 approved canonical, S149 fitted family harp R2. Independently checked old S115 and S121, not formal yet.",
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "a2d804c18f6cf4e0c825550066f07461c483adda7fe0fa1f1ad87aefb18d49f6",
+      "git_blob_sha": "643b7a71eb4877e7c3e67a751089127ca1c1e2ec"
+    },
+    {
+      "index": 1,
+      "size": 362859,
+      "sha256": "2fadad759aef0cbee3e05a7532972deee1cbabb81b5fcb3daf164ae0292315c6",
+      "git_blob_sha": "852185d11afd44fb425f8a72d6e73e215926754d"
+    }
+  ],
+  "payload_count": 155
+}
