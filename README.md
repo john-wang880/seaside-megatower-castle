@@ -1,4 +1,4 @@
-# S147
+# S148
 
-S147 formal verified guest reflection niche, depth 2 from S145 through S146.
-Requires exact standalone S145 and S146 models.
+S148 early exact north-slope woodland candidate, not a formal release.
+Requires exact standalone S145 through S147 models.
