@@ -1,0 +1,25 @@
+{
+  "archive": "S148_R3_EARLY.zip",
+  "size": 1059499,
+  "sha256": "0f94c9b7a2b7addedd9cb0d1cca3d71ae130f3d80d2992293b3951437829c57b",
+  "candidate_sha256": "2a5921b1683b22d79c66182a12ca1d90db77dc187107c1479ba5abc4bf71082d",
+  "parent_commit": "7d1c6116aa636f85aa7a17ac167dc954043661d6",
+  "checkpoint_commit": "29735ed10741c92e888d300e35a3f3b63409984f",
+  "depth": 3,
+  "model_storage": "Recovered S147 approved canonical, alternate R3 native author mesh. Independently checked old S115 and S121, not formal yet.",
+  "parts": [
+    {
+      "index": 0,
+      "size": 716800,
+      "sha256": "6a8b5c7343be05ebcac1fb1cce38f371ec98fd12fd04819e9e89d82bf46ad14f",
+      "git_blob_sha": "c169ba64d85568b2a0ebad0948cb357def9eb648"
+    },
+    {
+      "index": 1,
+      "size": 342699,
+      "sha256": "3fb673e26e100cac75a98117dcc023343e08269de5fbb7f84026704b4c1ea19c",
+      "git_blob_sha": "c348aa6056f333b94129786ea271ddc82b64299a"
+    }
+  ],
+  "payload_count": 110
+}
