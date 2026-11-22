@@ -1,4 +1,4 @@
 # S145
 
-S145 early standalone complete checkpoint (not a release).
-Independent full-stage-v1 depth 0. Historical parent, no payload needed: e869ff8d66a88e32b431a126322ce4ab6f4704cb. Verify with locally pinned reader, never execute archive scripts.
+S145 same-candidate four verified native render evidence (not a new stage or a release).
+Standalone S145 visual companion, parent 6b624fac628109eea505550ab9ca349ec836633f. Verify with locally pinned reader, never execute archive scripts.
