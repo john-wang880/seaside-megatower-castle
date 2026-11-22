@@ -1,4 +1,4 @@
 # S144
 
-S144 early immutable scene checkpoint (not a release).
-Depth-eight exact S136 chain, parent 3c8c4c6c65218cd47cc0ba7125858caa60a0fb3b. Verify with locally pinned reader, never execute archive scripts.
+S144 same-candidate four verified native render evidence (not a new stage or a release).
+Depth-eight exact S136 chain, parent e70fa5570bf77b9d3c005530dbfe155a875c84ad. Verify with locally pinned reader, never execute archive scripts.
