@@ -1,0 +1,19 @@
+{
+  "archive": "S147_INITIAL_CHECKPOINT.zip",
+  "size": 537454,
+  "sha256": "adb8b9a24385b15ce0189ff5ab354a4fad98870bcabb0a3b555db10ad8632aff",
+  "candidate_sha256": "c055e9f8c4db92c89c5a61ad2334b9c9ff11f0a3067cd1ed73c808bf4d9b8378",
+  "parent_commit": "29e64c7f876dfc258330cf06d2a069f4bfe170e0",
+  "checkpoint_commit": "29735ed10741c92e888d300e35a3f3b63409984f",
+  "depth": 2,
+  "model_storage": "Verified native raw delta from exact S146, anchored in exact standalone S145; no older payload needed.",
+  "parts": [
+    {
+      "index": 0,
+      "size": 537454,
+      "sha256": "adb8b9a24385b15ce0189ff5ab354a4fad98870bcabb0a3b555db10ad8632aff",
+      "git_blob_sha": "e4b858545ea738518e0d8a005ef5faad1295b258"
+    }
+  ],
+  "payload_count": 37
+}
